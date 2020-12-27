@@ -24,6 +24,12 @@ Orbs.com website source code and build (served from github pages)
   npm install cuttlebelle -g
   ```
 
+* Watch file changes in browser (auto build):
+
+  ```
+  cuttlebelle watch
+  ```
+
 ### How to setup CI
 
 > Note: this only needs to be done once per repo to enable Circle CI -> Github Pages auto deploy
