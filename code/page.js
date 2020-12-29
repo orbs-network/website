@@ -1,17 +1,17 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-
 /**
  * The page layout component
  */
 const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _ID }) => (
 	<html>
 	<head>
-		<title>Cuttlebelle - { title }</title>
+		<title>Orbs - { title }</title>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
 
 		<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
 		{
@@ -21,31 +21,29 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 		}
 	</head>
 	<body>
-		<div className="top">
-			<header role="banner">
-				{ header }
-			</header>
+    <header role="banner">
+      { header }
+    </header>
 
-			<main>
-				{ main }
-			</main>
-		</div>
+    <main>
+      { main }
+    </main>
 
-		<footer>
-			{ footer }
-		</footer>
+    <footer class="footer">
+      { footer }
+    </footer>
 
-		{
-			script != undefined
-				? ( <script src={ _relativeURL( `/assets/js/${ script }.js`, _ID ) } /> )
-				: null
-		}
+    {
+      script != undefined
+        ? ( <script src={ _relativeURL( `/assets/js/${ script }.js`, _ID ) } /> )
+        : null
+    }
 	</body>
 	</html>
 );
 
 Page.propTypes = {
-/**
+  /**
 	 * title: Homepage
 	 */
 	title: PropTypes.string.isRequired,

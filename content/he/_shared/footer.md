@@ -10,11 +10,11 @@ socials:
   - type: github
     link: https://github.com/orbs-network/
 links:
-  - name: White papers
-    link: /white-papers
-  - name: Developers
-    link: /developers
-  - name: Pos Universe
+  - name: מסמכים לבנים
+    link: /he/white-papers
+  - name: מפתחים
+    link: /he/developers
+  - name: עולם הסטייק
     link: https://www.orbs.com/orbs-pos-universe/
 ---
-© Copyright - Orbs - [Terms of Use](https://www.orbs.com/terms-of-use/) - [Privacy Policy](https://www.orbs.com/privacy-policy/)
+© כל הזכויות שמורות - אורבס - [תנאי שימוש](https://www.orbs.com/terms-of-use/) - [מדיניות](https://www.orbs.com/privacy-policy/)

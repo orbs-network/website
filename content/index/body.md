@@ -1,5 +1,5 @@
 ---
-# You don’t need to declare anything in the frontmatter
+layout: hero
 ---
-
-This is a demo page to get you running asap.
+# Orbs: Digital Trust at Scale
+## The Orbs Network is a public blockchain infrastructure designed for businesses looking at trust as a competitive strategy
