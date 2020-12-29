@@ -8,7 +8,7 @@ const Header = ({ languages, links, _relativeURL, _ID }) => (
         {
           languages.map(language => (
             <p class="level-item">
-              <a href={language.link}>
+              <a href={_relativeURL(language.link, _ID)}>
                 <img src={_relativeURL(`/assets/img/language-${language.id}.png`, _ID)} />
               </a>
             </p>
