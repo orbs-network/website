@@ -51,3 +51,19 @@ Orbs.com website source code and build (served from github pages)
 * Open https://github.com/orbs-network/website/settings/keys and click "Add deploy key":
   * Title: `Circle CI github pages write`
   * Key: the full contents of ~/.ssh/id_rsa.pub
+
+&nbsp;
+
+## Design goals
+
+1. Website is static only and served from github pages / CDN directly
+2. Most of the website does not require JavaScript in clients to be enabled
+3. Website builds and deploys automatically in CI on every commit to master
+4. Design language is React (but server-side only since JS is not a hard requirement)
+5. Strong separation of code from content so content editors can edit everything by themselves
+6. Simplicity and very little magic and magical frameworks
+
+A nice solution meeting these goals was relying on the following:
+
+* https://cuttlebelle.com/ - lean open-source framework for server-side rendering of static websites in React
+* https://bulma.io/ - lean open-source css framework for core components / UI that does not rely on JS
