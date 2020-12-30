@@ -1,0 +1,50 @@
+module.exports = exports = function renderer({
+  Marked,
+  _ID,
+  _parents,
+  _storeSet,
+  _store,
+  _nav,
+  _globalProp,
+  _relativeURL
+}) {
+
+  // adding a class
+  Marked.hr = () => {
+    return `<hr class="my-custom-class">\n`;
+  }
+
+  // making all links relative
+  Marked.link = ( href, title, text ) => {
+    if(
+      !href.startsWith('http://') &&
+      !href.startsWith('https://') &&
+      !href.startsWith('#') &&
+      typeof _relativeURL === 'function'
+    ) {
+      href = _relativeURL( href, _ID );
+    }
+
+    return `<a href="${ href }"${ title ? ` title="${ title }"` : '' }>${ text }</a>`;
+  };
+
+  // making all images relative
+  Marked.image = ( href, title, text ) => {
+    let sourcePath = href;
+    if( !sourcePath.startsWith('http://') && !sourcePath.startsWith('https://') ) {
+      sourcePath = _relativeURL( href, _ID );
+    }
+
+    let out = `<img src="${ sourcePath }" alt="${ text }"`;
+
+    if( title ) {
+      out += ` title="${ title }"`;
+    }
+
+    out += '>';
+
+    return out;
+  }
+
+  return Marked;
+};
