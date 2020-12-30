@@ -22,7 +22,7 @@ const Header = ({ languages, links, _relativeURL, _ID }) => (
         {
           links.map((link, i) => (
             <p className="level-item" key={`header-link-${i}`}>
-              <a href={_relativeURL(link.link, _ID)}>
+              <a href={link.link.startsWith('http') ? link.link : _relativeURL(link.link, _ID)}>
                 {link.name}
               </a>
             </p>
