@@ -29,7 +29,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
       { main }
     </main>
 
-    <footer class="footer">
+    <footer className="footer">
       { footer }
     </footer>
 

@@ -2,12 +2,12 @@ import React from 'react';
 
 const Header = ({ languages, links, _relativeURL, _ID }) => (
   <>
-    <nav class="level">
-      <div class="level-left"></div>
-      <div class="level-right">
+    <nav className="level">
+      <div className="level-left"></div>
+      <div className="level-right">
         {
-          languages.map(language => (
-            <p class="level-item">
+          languages.map((language, i) => (
+            <p className="level-item" key={`language-${i}`} >
               <a href={_relativeURL(language.link, _ID)}>
                 <img src={_relativeURL(`/assets/img/language-${language.id}.png`, _ID)} />
               </a>
@@ -16,12 +16,12 @@ const Header = ({ languages, links, _relativeURL, _ID }) => (
         }
       </div>
     </nav>
-    <nav class="level">
-      <div class="level-left"></div>
-      <div class="level-right">
+    <nav className="level">
+      <div className="level-left"></div>
+      <div className="level-right">
         {
-          links.map(link => (
-            <p class="level-item">
+          links.map((link, i) => (
+            <p className="level-item" key={`header-link-${i}`}>
               <a href={_relativeURL(link.link, _ID)}>
                 {link.name}
               </a>
