@@ -12,8 +12,8 @@ socials:
 links:
   - name: White papers
     link: /white-papers
-  - name: Developers
-    link: /developers
+  - name: Technology
+    link: /technology
   - name: Pos Universe
     link: https://www.orbs.com/orbs-pos-universe/
 ---
