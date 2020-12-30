@@ -11,7 +11,7 @@ items:
       link: /white-papers/orbs-grant-program
   - category: Working papers
     papers:
-    - title: Use of Ethereum as a Base Layer for PoS and PoA Platforms
+    - title: Bla of Ethereum as a Base Layer for PoS and PoA Platforms
       date: Published February 2019
       description: We designed Orbs for applications that make use of multiple blockchain platforms (i.e. a hybrid system) because we believe such design makes more sense for complex, real-world use cases. In this paper, we would like to highlight some of the advantages and challenges hybrid designs can bring to infrastructure projects.
       link: /white-papers/orbs-grant-program
