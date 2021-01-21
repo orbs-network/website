@@ -1,0 +1,101 @@
+[
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 1",
+    "lat": 55.755825,
+    "lng": 37.617298,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Moscow"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 2",
+    "lat": 32.0853,
+    "lng": 34.781769,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Tel Aviv"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 3",
+    "lat": 27.664827,
+    "lng": -81.515755,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Florida"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 4",
+    "lat": 40.712776,
+    "lng": -74.005974,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "New York"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 5",
+    "lat": 48.856613,
+    "lng": 2.352222,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Paris"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 6",
+    "lat": 35.6821116,
+    "lng": 139.7656744,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Tokyo"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 7",
+    "lat": 51.5073219,
+    "lng": -0.1276474,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "London"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 8",
+    "lat": 40.4167047,
+    "lng": -3.7035825,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Madrid"
+  },
+  {
+    "url": "https://www.google.com/search?q=css+html&rlz=1C5CHFA_enIL929IL929&oq=css+htm&aqs=chrome.1.69i57j0i457j0l6.2676j0j7&sourceid=chrome&ie=UTF-8",
+    "text": "This is a TEST text",
+    "stake": 100234234,
+    "guardian": "Whale core 9",
+    "lat": 41.3828939,
+    "lng": 2.1774322,
+    "size": 1,
+    "color": "#5fffd2",
+    "name": "Barcelona"
+  }
+]

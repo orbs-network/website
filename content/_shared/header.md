@@ -6,6 +6,8 @@ languages:
   - id: he
     link: /he
 links:
+  - name: Globe
+    link: /globe
   - name: White papers
     link: /white-papers
   - name: Technology
