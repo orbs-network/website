@@ -1,0 +1,6 @@
+title: Globe
+
+main:
+  - body.md
+footer:
+  - /_shared/footer.md
