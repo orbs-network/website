@@ -5,7 +5,7 @@ class GlobeClass {
   selectedPoint;
 
   async createGlobe(globeContainer) {
-    const pointsJson = await fetch("../../assets/globe/globe-data/points.json");
+    const pointsJson = await fetch("../assets/globe/globe-data/points.json");
     this.points = await pointsJson.json();
     const pathData = generatePathData();
 
