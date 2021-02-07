@@ -4,20 +4,25 @@ import React from "react";
 /**
  * The page layout component
  */
+import en from "../assets/globe/language/en.json";
+import { GuardianTooltip } from "./globe-components/GuardianTooltip";
+
 const Globe = ({ title }) => (
   <html lang="en">
     <head>
+      <script src="//unpkg.com/globe.gl"></script>
+      <script src="//unpkg.com/three"></script>
       <script src="../assets/globe/js/config.js"></script>
       <script src="../assets/globe/text/en.js"></script>
-
       <script src="../assets/globe/ui-data/ui-data.js"></script>
-      <script src="//unpkg.com/three"></script>
-      <script src="//unpkg.com/globe.gl"></script>
+      <script src="../assets/globe/js/index.js"></script>
       <script src="../assets/globe/js/globe.js"></script>
       <script src="../assets/globe/js/view.js"></script>
+      <script src="../assets/globe/js/guardian-tooltip.js"></script>
 
       <link rel="stylesheet" href="../assets/globe/style/reset.css" />
       <link rel="stylesheet" href="../assets/globe/style/style.css" />
+      <link rel="stylesheet" href="../assets/globe/style/point-container.css" />
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>ORBS</title>
@@ -28,22 +33,10 @@ const Globe = ({ title }) => (
         <p>Loading...</p>
       </div>
       <div class="globe-wrapper">
+        {<GuardianTooltip />}
         <div id="globeViz"></div>
-        <div class="point-container">
-          <h3 class="point-container-name text-overflow"></h3>
-          <span class="flex-start">
-            <p class="point-container-amount"></p>
-            <small>orbs</small>
-          </span>
-          <p class="point-container-text text-overflow"></p>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            class="point-container-link text-overflow"
-          ></a>
-        </div>
       </div>
+
       <div class="page-wrapper">
         <nav class="zIndex">
           <div class="hamburger">
@@ -54,7 +47,7 @@ const Globe = ({ title }) => (
           <section class="navbar-flags">
             <span class="flex">
               <p>+</p>
-              <p>subscribe for updates</p>
+              <p>{en.subscribe_to_updates}</p>
             </span>
             <ul class="navbar-flags-list"></ul>
           </section>
@@ -65,14 +58,20 @@ const Globe = ({ title }) => (
             <p>ORBS</p>
           </section>
           <section class="page-content-desc">
-            <h3>the</h3>
-            <h3>future</h3>
-            <p>of blockchaim</p>
+            <h3>{en.the}</h3>
+            <h3>{en.future}</h3>
+            <p>{en.of_blockchain}</p>
           </section>
         </div>
 
         <div class="overlay"></div>
-        <div class="btns-container"></div>
+        <div class="btns-container">
+          <ul className="btns-container-list"></ul>
+          <div className="addImgInput">
+            <p>+</p>
+            <input type="file" placeholder="+" />
+          </div>
+        </div>
 
         <footer class="zIndex">
           <ul class="socials"></ul>

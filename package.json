@@ -4,6 +4,8 @@
   "description": "Website for Orbs.com",
   "main": "index.js",
   "scripts": {
+    "build": "cuttlebelle",
+    "watch": "cuttlebelle -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "cuttlebelle": {

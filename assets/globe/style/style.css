@@ -31,50 +31,7 @@ body {
   position: relative;
   height: 100vh;
 }
-.point-container {
-  position: fixed;
-  width: 200px;
-  height: 100px;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%) scale(0.8);
-  background: #5fffd2;
-  z-index: 99;
-  padding: 10px;
-  border-radius: 5px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.2s all;
-  transform-origin: center;
-}
-.point-container * {
-  color: black;
-}
-.point-container-show {
-  opacity: 1;
-  pointer-events: all;
-  transform: translate(-50%, -50%) scale(1);
-}
-.point-container-name {
-  font-size: 14px;
-  margin-bottom: 5px;
-}
 
-.point-container-amount {
-  font-size: 14px;
-  margin-right: 5px;
-}
-.point-container-text {
-  margin-top: 5px;
-  font-size: 14px;
-}
-.point-container-link {
-  margin-top: auto;
-  font-size: 14px;
-}
 .flex-start {
   display: flex;
   align-items: center;
@@ -134,14 +91,23 @@ body {
   z-index: 999;
 }
 
-.btns-container button {
-  margin-right: 10px;
+.btns-container-list {
+  display: flex;
+}
+
+.btns-container-list li {
+  margin-left: 10px;
   border: 0px;
   width: 40px;
   height: 40px;
   cursor: pointer;
   color: black;
   border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 
 .zIndex {
@@ -280,4 +246,39 @@ nav {
 .flex {
   display: flex;
   align-items: center;
+}
+
+.addImgInput {
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  transform: translate(0, -100%);
+  width: 40px;
+  height: 40px;
+  background: white;
+  z-index: 999999;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addImgInput input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.addImgInput p {
+  color: black;
+  font-size: 24px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
 }

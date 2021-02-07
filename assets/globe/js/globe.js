@@ -39,6 +39,9 @@ class GlobeClass {
         .pathTransitionDuration(1500);
     }, 3500);
   }
+  changeGlobeImage = (src) => {
+    this.globe.globeImageUrl(src);
+  };
 
   setSelectedPoint = (point) => {
     this.selectedPoint = point;
