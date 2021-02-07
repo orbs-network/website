@@ -9,14 +9,21 @@ const init = () => {
 
 window.onload = async () => {
   init();
-  loadBnts();
+  loadBnts(images);
   generateSocials();
   generateFlags();
+
+  const input = getElement(".addImgInput input");
+  input.addEventListener("change", (e) => {
+    const url = URL.createObjectURL(e.target.files[0]);
+    globeState.changeGlobeImage(url);
+    addImage(url);
+  });
 };
 
 const generateFlags = () => {
   try {
-    const container = document.querySelector(".navbar-flags-list");
+    const container = getElement(".navbar-flags-list");
     flags.forEach(({ name, img }) => {
       const li = document.createElement("li");
       const image = document.createElement("img");
@@ -31,7 +38,7 @@ const generateFlags = () => {
 
 const generateSocials = () => {
   try {
-    const container = document.querySelector(".socials");
+    const container = getElement(".socials");
     socials.forEach(({ url, img }) => {
       const element = document.createElement("li");
       element.classList.add("socials-element");
@@ -48,21 +55,31 @@ const generateSocials = () => {
   }
 };
 
-const loadBnts = () => {
-  const container = document.querySelector(".btns-container");
-  images.forEach(({ name, src }) => {
-    const btn = document.createElement("button");
-    btn.innerHTML = name;
-    btn.addEventListener("click", () => {
-      globeState.globe.globeImageUrl(src);
+const addImage = (src) => {
+  const img = {
+    name: `img${images.length}`,
+    src,
+  };
+  images.push(img);
+  loadBnts(images);
+};
+
+const loadBnts = (imagesList) => {
+  const container = getElement(".btns-container-list");
+  container.innerHTML = "";
+  imagesList.forEach(({ name, src }) => {
+    const element = document.createElement("li");
+    element.innerHTML = name;
+    element.addEventListener("click", () => {
+      globeState.changeGlobeImage(src);
     });
-    container.appendChild(btn);
+    container.appendChild(element);
   });
 };
 
 const hideLoader = () => {
   try {
-    const loader = document.querySelector(".globe-loader");
+    const loader = getElement(".globe-loader");
     loader.classList.add("hide-loader");
   } catch (error) {
     console.error("no loader provided");
@@ -85,11 +102,10 @@ const clearGlobeInterval = () => {
 
 const setGlobeInterval = () => {
   interval = setInterval(() => {
-    console.log("point");
     const point = globeState.getNextPoint();
 
     const duration = 2000;
-    globeState.changeGlobePosition(point, duration);
+    // globeState.changeGlobePosition(point, duration);
   }, 3000);
 };
 
@@ -102,27 +118,10 @@ const clearAndSetTimeout = () => {
 };
 
 const togglePoint = (value) => {
-  const container = document.querySelector(".point-container");
-  const className = "point-container-show";
+  const container = getElement(".guardian-container");
+  const className = "guardian-container-show";
   if (value) {
     return container.classList.add(className);
   }
   return container.classList.remove(className);
-};
-
-const handlePointContainerData = (point) => {
-  togglePoint(!!point);
-  const amount = document.querySelector(".point-container-amount");
-  const name = document.querySelector(".point-container-name");
-  const link = document.querySelector(".point-container-link");
-  const text = document.querySelector(".point-container-text");
-  const num = point ? 0 : 500;
-  setTimeout(() => {
-    amount.innerHTML = !point
-      ? ""
-      : point.stake && point.stake.toLocaleString();
-    name.innerHTML = !point ? "" : point.guardian;
-    link.innerHTML = !point ? "" : point.url;
-    text.innerHTML = !point ? "" : point.text;
-  }, num);
 };
