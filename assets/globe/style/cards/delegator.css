@@ -1,0 +1,57 @@
+.d-card {
+}
+.d-card .card-data {
+  padding-bottom: 10px;
+}
+.d-card .card-address {
+  color: #dafd73;
+}
+
+.d-card .card-links a::after {
+  background: url("../../../img/delegators/border.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.d-card .card-links {
+  margin: 20px 0px;
+}
+
+.d-card-wallets {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.d-card-wallets p {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.d-card-wallets img {
+  width: 100px;
+  height: auto;
+}
+.d-card-wallets img:first-of-type {
+  margin-right: 40px;
+}
+
+.d-card-tokens {
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.d-card-tokens p {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.d-card-tokens span:first-of-type {
+  margin-right: 30px;
+}
+.d-card-tokens span p {
+  font-size: 12px;
+}
+
+.d-card-tokens span h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}

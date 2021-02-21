@@ -1,4 +1,6 @@
-class GlobeClass {
+let interval;
+let timeout;
+const globeController = new (class GlobeClass {
   points = [];
   globe = undefined;
   selectedPointIndex = 0;
@@ -15,64 +17,112 @@ class GlobeClass {
       .pathColor(() => config.pathColors)
       .pathDashLength(0.01)
       .pathDashGap(0.004)
-      .pathDashAnimateTime(200000)
+      .pathDashAnimateTime(100000)
       .pathPointAlt(0.1)
       .pointsData(this.points)
       .pointAltitude(0.001)
       .pointColor(() => "#5fffd2")
-      .onPointClick(onPointClick)
-      .onGlobeClick(hidePointContainer)
+      .onPointClick(this.handlePointClick)
       .pathStroke(0.5)
+      .pathPointAlt((pnt) => pnt[2])
+      .pathTransitionDuration(1500)
+      .onTileHover(() => console.log("hovered"))
       .pointRadius(1.2)(globeContainer);
     setTimeout(() => {
       hideLoader();
     }, 1000);
-    setTimeout(() => {
-      const firstPoint = this.points[0];
-      this.changeGlobePosition(firstPoint, 1000);
 
-      setGlobeInterval();
-    }, 1500);
-    setTimeout(() => {
-      this.globe
-        .pathPointAlt((pnt) => pnt[2]) // set altitude accessor
-        .pathTransitionDuration(1500);
-    }, 3500);
+    this.startGlobeRotation();
   }
+
   changeGlobeImage = (src) => {
     this.globe.globeImageUrl(src);
   };
 
-  setSelectedPoint = (point) => {
-    this.selectedPoint = point;
-    if (point) {
-      this.changeGlobePosition(point, 500);
-    }
+  setSelectedPoint = (point, duration, timeout) => {
+    this.setSelectedPointIndex(point);
+    this.changeGlobePosition(point, duration, timeout);
   };
-  setSelectedPointIndex(index) {
+
+  setSelectedPointIndex(point) {
+    const index = this.points.findIndex((p) => p.guardian === point.guardian);
+    if (index < 0) return;
     this.selectedPointIndex = index;
   }
 
   getNextPoint() {
-    const index = this.selectedPointIndex % this.points.length;
+    const nextIndex = this.selectedPointIndex + 1;
+    const index = nextIndex % this.points.length;
     return this.points[index];
   }
 
   changeGlobePosition(point, duration) {
+    hideAllCardsIfPresent();
     const { lat, lng } = point;
-    hidePointContainer();
     this.globe.pointOfView({ lat, lng, altitude: 2.5 }, duration);
-    const index = this.points.findIndex((p) => p.lng === point.lng);
-    this.setSelectedPointIndex(index + 1);
-    this.selectedPoint = point;
-    this.globe.pointColor((p) =>
-      p.name === point.name ? "#AE01FF" : "#5fffd2"
-    );
     setTimeout(() => {
-      handlePointContainerData(point);
+      showCard(point);
     }, duration);
   }
-}
+
+  init() {
+    try {
+      const globeContainer = getElement("#globeViz");
+      this.createGlobe(globeContainer);
+    } catch (error) {
+      console.log("could not find globe container");
+    }
+  }
+
+  startGlobeRotation() {
+    setGlobeInterval();
+  }
+
+  stopGlobeRotation() {
+    clearGlobeInterval();
+  }
+
+  startGlobeRotationWithDelay() {
+    startGlobeIntervalWithDelay();
+  }
+
+  onGlobeCardClose() {
+    handleRotationAfterCardClose();
+  }
+
+  handlePointClick = (point) => {
+    this.stopGlobeRotation();
+    this.setSelectedPoint(point, 500);
+  };
+})();
+
+const startGlobeIntervalWithDelay = () => {
+  timeout = setTimeout(() => {
+    setGlobeInterval();
+  }, config.changePositionTimeout);
+};
+
+const handleRotationAfterCardClose = () => {
+  clearGlobeInterval();
+  startGlobeIntervalWithDelay();
+};
+
+const clearGlobeInterval = () => {
+  console.log("cleared");
+  clearTimeout(timeout);
+  clearInterval(interval);
+};
+
+const setGlobeInterval = () => {
+  try {
+    interval = setInterval(() => {
+      const point = globeController.getNextPoint();
+      globeController.setSelectedPoint(point, 1500);
+    }, config.changePositionInterval);
+  } catch (error) {
+    console.log("error in setting up globe interval");
+  }
+};
 
 const generatePathData = () => {
   const gData = [...Array(config.N_PATHS).keys()].map(() => {

@@ -154,3 +154,18 @@ button {
 .footer {
   padding: 0px;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  line-height: normal;
+}
+
+@font-face {
+  font-family: main-font;
+  src: url("../../fonts/Kinetic-Outlined.otf");
+}
