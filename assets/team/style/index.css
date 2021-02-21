@@ -1,0 +1,264 @@
+.team-page {
+  background: var(--base-bg-color);
+}
+
+.team-page .navbar {
+  width: 1500px;
+  left: 50%;
+  transform: translate(-50%);
+  background: var(--base-bg-color);
+}
+
+.team-btn {
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 70px;
+  height: 70px;
+  background: white;
+}
+
+.team-content-wrapper {
+  width: 1500px;
+  margin: auto;
+  position: relative;
+  padding-top: 140px;
+}
+.team-lists {
+  width: calc(100% - 500px);
+
+  margin-top: auto;
+  padding-bottom: 100px;
+}
+.team-list-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.team-description {
+  width: 500px;
+  padding-right: 70px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  max-height: 700px;
+  min-height: 570px;
+}
+.team-description-top h1 {
+  font-size: 40px;
+  text-align: left;
+}
+.team-description-top p {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 15px;
+}
+.team-description-hiring {
+  margin-top: 150px;
+}
+.team-description-hiring p,
+.team-description-hiring a {
+  text-transform: uppercase;
+}
+.team-description-hiring a {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: white;
+}
+.team-description .socials {
+  margin-top: auto;
+}
+.team-list-img {
+  width: 50%;
+  padding-left: 20px;
+}
+.team-list-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.managers-list {
+  width: 50%;
+}
+.team-list {
+  flex-wrap: wrap;
+  display: flex;
+}
+.teammate {
+  background: #2c2c2c;
+  height: 320px;
+  color: white;
+  margin-top: 20px;
+}
+.managers-list .teammate {
+  width: calc(100% / 2 - 10px);
+  margin-right: 20px;
+}
+.managers-list .teammate:nth-child(1),
+.managers-list .teammate:nth-child(2) {
+  margin-top: 0px;
+}
+.managers-list .teammate:nth-child(2n) {
+  margin-right: 0px;
+}
+.teammate-avatar {
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+}
+.teammate-info {
+  margin-top: auto;
+  padding: 15px;
+}
+.teammate-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.1s all;
+}
+
+.teammate-name {
+  font-size: 22px;
+  text-align: left;
+}
+.teammate-position {
+  font-size: 16px;
+  text-align: left;
+}
+.teammate-social {
+  margin-top: 10px;
+  height: 30px;
+  align-items: center;
+}
+.teammate-social-link {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.teammate-social-link:last-of-type {
+  margin-right: 0px;
+}
+
+.teammate-border {
+  width: calc(100% - 115px);
+  border-bottom: 1px solid #4b4b4b;
+  height: 100%;
+  margin-left: 20px;
+  transition: 0.2s all;
+}
+.teammate-arrow {
+  width: 20px;
+  border-bottom: 1px solid #4b4b4b;
+  border-right: 1px solid #4b4b4b;
+  height: 20px;
+  transform: rotate(-45deg);
+  margin-left: auto;
+  transition: 0.2s all;
+}
+.teammate:hover .teammate-arrow {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.teammate:hover .teammate-border {
+  border-bottom: 1px solid white;
+}
+.teammate:hover .teammate-avatar img {
+  transform: scale(1.07);
+}
+.employees-list {
+  width: 100%;
+}
+.employees-list .teammate {
+  width: calc(100% / 4 - 15px);
+  margin-right: 20px;
+}
+
+.employees-list .teammate:nth-of-type(4n) {
+  margin-right: 0px;
+}
+
+.team-list-section-employees {
+  margin-top: 50px;
+}
+.team-list-section-employees h4 {
+  font-size: 26px;
+  color: white;
+}
+.team-banner {
+  display: flex;
+}
+.team-single-banner {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.team-double-banner {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.team-single-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-double-banner img:nth-child(1) {
+  width: 60%;
+}
+.team-double-banner img:nth-child(2) {
+  width: calc(40% - 20px);
+  margin-left: auto;
+}
+.team-double-banner img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1700px) {
+  .team-content-wrapper {
+    width: calc(100% - 150px);
+    margin-left: auto;
+    margin-right: 40px;
+  }
+  .team-page .navbar {
+    width: calc(100% - 150px);
+    right: 40px;
+    left: auto;
+    transform: none;
+  }
+  .team-lists {
+    width: calc(100% - 450px);
+  }
+  .team-description {
+    width: 450px;
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .team-lists {
+    width: calc(100% - 350px);
+  }
+  .team-description {
+    width: 350px;
+  }
+  .teammate {
+    height: 260px;
+  }
+  .teammate-name {
+    font-size: 20px;
+  }
+  .teammate-position {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,51 @@
+.g-card {
+  height: auto;
+  border: 1px solid #ae1bff;
+}
+.g-card .card-data {
+  padding-bottom: 30px;
+}
+
+.g-card-stake {
+  padding: 20px 30px;
+}
+
+.g-card-stake h4 {
+  font-size: 22px;
+}
+
+.g-card-stake p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.g-card-bottom {
+  padding-top: 10px;
+  position: relative;
+}
+.g-card-bottom p {
+  color: #d9d9d9;
+  line-height: 25px;
+  font-size: 14px;
+  padding: 0px 25px;
+}
+.g-card-bottom figure {
+  position: absolute;
+  font-size: 40px;
+  color: #ae1bff;
+}
+.g-card-bottom-quotes-left {
+  left: 0px;
+}
+.g-card-bottom-quotes-right {
+  right: 0px;
+  bottom: -20px;
+}
+
+.g-card .card-links {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.g-card .card-address {
+  color: #d640ff;
+}

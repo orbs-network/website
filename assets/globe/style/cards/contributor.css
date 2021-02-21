@@ -1,0 +1,93 @@
+.c-card {
+  height: auto;
+  border: 1px solid #60e5ff;
+}
+.c-card .card-data {
+  padding-bottom: 20px;
+}
+.c-card-repos {
+  padding: 20px 5px;
+  flex-wrap: wrap;
+}
+.c-card-repos-top {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.c-card-repos-top p {
+  font-size: 12px;
+}
+.c-card-repos-top img {
+  margin-right: 10px;
+}
+.c-card-repos h5 {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #71aeff;
+}
+.c-card-repos span {
+  width: 50%;
+}
+
+.c-card-repos p {
+  font-size: 12px;
+  text-align: left;
+}
+.c-card-repos span:first-of-type {
+  padding-right: 30px;
+}
+.c-card-repos span:last-of-type {
+  padding-left: 30px;
+  border-left: 1px solid #383838;
+}
+.c-card-repos button {
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid #383838;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  font-size: 12px;
+  transition: 0.2s all;
+}
+.c-card-repos button:hover {
+  color: #caaf56;
+  border: 1px solid #caaf56;
+}
+.c-card .card-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.c-card-interests {
+  padding-top: 20px;
+  align-items: center;
+}
+.c-card-interests p {
+  font-size: 14px;
+}
+.c-card-interests ul {
+  margin-left: 10px;
+}
+.c-card-interests ul li {
+  padding: 5px 10px;
+  background: #63daff;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  white-space: nowrap;
+  color: #1a1a1a;
+}
+
+.c-card-interests ul li:last-child {
+  margin: 0px;
+  background: transparent;
+  border: 1px solid #63daff;
+  color: #63daff;
+}
+
+.c-card .card-links a::after {
+  background: url("../../../img/border.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

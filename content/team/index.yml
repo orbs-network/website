@@ -1,0 +1,6 @@
+title: Team
+
+main:
+  - body.md
+footer:
+  - /_shared/new-footer.md
