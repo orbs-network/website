@@ -8,6 +8,8 @@ languages:
 links:
   - name: Globe
     link: /globe
+  - name: Team
+    link: /team
   - name: White papers
     link: /white-papers
   - name: Technology

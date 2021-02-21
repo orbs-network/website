@@ -1,26 +1,33 @@
-import PropTypes from "prop-types";
 import React from "react";
-
-/**
- * The page layout component
- */
 import en from "../assets/globe/language/en.json";
-import { GuardianTooltip } from "./globe-components/GuardianTooltip";
-
+import { ContributorCard } from "./globe-components/cards/ContributorCard";
+import { DelegatorCard } from "./globe-components/cards/DelegatorCard";
+import { GuardianCard } from "./globe-components/cards/GuardianCard";
+import { Flags } from "./navbar-components/flags";
+import { Socials } from "./common-components/socials";
+import { Navbar } from "./navbar";
 const Globe = ({ title }) => (
   <html lang="en">
     <head>
       <script src="//unpkg.com/globe.gl"></script>
       <script src="//unpkg.com/three"></script>
+      <script src="../assets/js/index.js"></script>
+      <script src="../assets/globe/js/consts.js"></script>
       <script src="../assets/globe/js/config.js"></script>
       <script src="../assets/globe/text/en.js"></script>
       <script src="../assets/globe/ui-data/ui-data.js"></script>
       <script src="../assets/globe/js/index.js"></script>
       <script src="../assets/globe/js/globe.js"></script>
       <script src="../assets/globe/js/view.js"></script>
-      <script src="../assets/globe/js/guardian-tooltip.js"></script>
+      <script src="../assets/globe/js/card.js"></script>
+      <link rel="stylesheet" href="../assets/globe/style/cards/main.css" />
+      <link rel="stylesheet" href="../assets/globe/style/cards/guardian.css" />
+      <link
+        rel="stylesheet"
+        href="../assets/globe/style/cards/contributor.css"
+      />
+      <link rel="stylesheet" href="../assets/globe/style/cards/delegator.css" />
 
-      <link rel="stylesheet" href="../assets/globe/style/reset.css" />
       <link rel="stylesheet" href="../assets/globe/style/style.css" />
       <link rel="stylesheet" href="../assets/globe/style/point-container.css" />
       <meta charset="UTF-8" />
@@ -33,25 +40,14 @@ const Globe = ({ title }) => (
         <p>Loading...</p>
       </div>
       <div class="globe-wrapper">
-        {<GuardianTooltip />}
         <div id="globeViz"></div>
+        <ContributorCard />
+        <DelegatorCard />
+        <GuardianCard />
       </div>
 
       <div class="page-wrapper">
-        <nav class="zIndex">
-          <div class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <section class="navbar-flags">
-            <span class="flex">
-              <p>+</p>
-              <p>{en.subscribe_to_updates}</p>
-            </span>
-            <ul class="navbar-flags-list"></ul>
-          </section>
-        </nav>
+        <Navbar />
         <div class="page-content zIndex">
           <section class="page-content-top">
             <img src="../assets/globe/assets/white-logo.png" alt="" />
@@ -63,7 +59,6 @@ const Globe = ({ title }) => (
             <p>{en.of_blockchain}</p>
           </section>
         </div>
-
         <div class="overlay"></div>
         <div class="btns-container">
           <ul className="btns-container-list"></ul>
@@ -74,7 +69,7 @@ const Globe = ({ title }) => (
         </div>
 
         <footer class="zIndex">
-          <ul class="socials"></ul>
+          <Socials />
         </footer>
       </div>
     </body>
