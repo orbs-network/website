@@ -1,0 +1,9 @@
+$base-bg-color: #171819;
+
+body {
+  header {
+    &:first-of-type {
+      display: none;
+    }
+  }
+}
