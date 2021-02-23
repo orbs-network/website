@@ -1,7 +1,7 @@
 import React from "react";
-import { ContributorCard } from "./globe-components/cards/ContributorCard";
-import { DelegatorCard } from "./globe-components/cards/DelegatorCard";
-import { GuardianCard } from "./globe-components/cards/GuardianCard";
+import ContributorCard from "./globe-components/cards/ContributorCard";
+import DelegatorCard from "./globe-components/cards/DelegatorCard";
+import GuardianCard from "./globe-components/cards/GuardianCard";
 import Socials from "./common-components/socials";
 import Navbar from "./navbar";
 import en from "./text/en.json";
@@ -28,8 +28,8 @@ const Globe = ({ title, _relativeURL, _ID }) => {
         <GlobeLoader />
         <div class="globe-wrapper">
           <div id="globeViz"></div>
-          <ContributorCard />
-          <DelegatorCard />
+          <ContributorCard generteUrl={generteUrl} />
+          <DelegatorCard generteUrl={generteUrl} />
           <GuardianCard />
         </div>
 
@@ -37,7 +37,10 @@ const Globe = ({ title, _relativeURL, _ID }) => {
           <Navbar generteUrl={generteUrl} />
           <div class="page-content zIndex">
             <section class="page-content-top">
-              <img src="../assets/globe/assets/white-logo.png" alt="" />
+              <img
+                src={generteUrl("../assets/globe/assets/white-logo.png")}
+                alt=""
+              />
               <p>ORBS</p>
             </section>
             <section class="page-content-desc">
