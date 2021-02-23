@@ -3,7 +3,7 @@ import { Border } from "./Border";
 
 export const ContributorCard = () => {
   return (
-    <div className="card c-card">
+    <div className="globe-card c-card">
       <figure className="card-avatar">
         <img src="https://picsum.photos/200/300" />
       </figure>

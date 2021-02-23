@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "cuttlebelle",
-    "watch": "cuttlebelle -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "node-sass ./assets/sass/index.scss ./assets/css/index.css",
+    "watch-sass": "node-sass -w ./assets/sass/index.scss ./assets/css/index.css",
+    "watch": "cuttlebelle -w"
   },
   "cuttlebelle": {
     "site": {
@@ -15,5 +17,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.0.0",
+    "node-sass": "^5.0.0"
+  }
 }
