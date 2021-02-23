@@ -1,7 +1,7 @@
 import React from "react";
 import { Border } from "./Border";
 
-export const GuardianCard = () => {
+const GuardianCard = () => {
   return (
     <div className="globe-card g-card">
       <figure className="card-avatar">
@@ -46,3 +46,5 @@ export const GuardianCard = () => {
     </div>
   );
 };
+
+export default GuardianCard;
