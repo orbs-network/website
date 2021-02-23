@@ -23,8 +23,8 @@ const DelegatorCard = ({ generteUrl }) => {
         <Border />
         <section className="flex-center d-card-wallets">
           <p>Active Wallets</p>
-          <img src="../../assets/img/delegators/metamask.png" />
-          <img src="../../assets/img/delegators/metamask.png" />
+          <img src={generteUrl("../../assets/img/delegators/metamask.png")} />
+          <img src={generteUrl("../../assets/img/delegators/metamask.png")} />
         </section>
         <Border />
         <section className="d-card-tokens flex-center">
