@@ -1,4 +1,10 @@
-const images = [
+export const globePositions = {
+  guardian: "guardian",
+  delegator: "delegator",
+  contributor: "contributor",
+};
+
+export const globeImages = [
   { name: "main", src: "//unpkg.com/three-globe/example/img/earth-night.jpg" },
   { name: "img1", src: "../assets/globe/assets/img1.jpg" },
   { name: "img2", src: "../assets/globe/assets/img2.jpg" },

@@ -8,10 +8,6 @@
 :root {
   --basic-margin-bottom: 10px;
 }
-
-header {
-  display: none;
-}
 .globe-wrapper {
   width: 100%;
   height: 100%;
@@ -28,7 +24,6 @@ header {
 
 body {
   font-family: "Montserrat";
-  overflow: hidden;
 }
 .page-wrapper {
   padding: 30px 70px;

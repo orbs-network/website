@@ -1,4 +1,4 @@
-const config = {
+export const globeConfig = {
   pathColors: ["#5FFFD2", "#AE01FF", "#FF0097"],
   MAX_POINTS_PER_LINE: 5000,
   MAX_STEP_DEG: 1,
