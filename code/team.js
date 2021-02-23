@@ -31,8 +31,8 @@ const Team = ({ title, _relativeURL, _ID }) => {
             <Socials generteUrl={generteUrl} />
           </section>
           <div className="team-lists flex-column">
-            <TeamManegers />
-            <TeamEmployees />
+            <TeamManegers generteUrl={generteUrl} />
+            <TeamEmployees generteUrl={generteUrl} />
           </div>
         </div>
       </body>

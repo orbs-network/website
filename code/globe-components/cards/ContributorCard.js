@@ -24,7 +24,7 @@ const ContributorCard = ({ generteUrl }) => {
         <Border />
         <section className="flex-between c-card-repos">
           <div className="c-card-repos-top flex-center">
-            <img src="../../assets/img/folder.svg" />
+            <img src={generteUrl("../../assets/img/folder.svg")} />
             <p>Recent Repositories</p>
           </div>
           <span>
