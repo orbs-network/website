@@ -1,37 +1,39 @@
-import React from "react";
-import { Flags } from "./navbar-components/flags";
+import React, { Component } from "react";
+import { flags } from "./navbar-components/data/data";
+import Header from "./navbar-components/Header";
+import Menu from "./navbar-components/Menu";
+import en from "./text/en.json";
 
-export const Navbar = () => {
-  return (
-    <div class="navbar">
-      <div className="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <section className="navbar-menu">
-        <button className="navbar-menu-close">close</button>
-        <div className="navbar-menu-section">
-          <h4>Overview</h4>
-          <a href="">THE ORBS NETWORK</a>
-          <a href="">
-            <a href="">Orbs Smart Contracts</a>
-          </a>
-          <a href="">Proof of stake Universe</a>
-        </div>
-        <div className="navbar-menu-section">
-          <h4>Resources</h4>
-          <ul>
-            <li>Tetra</li>
-            <li>Analytics</li>
-            <li>Status</li>
-            <li>V1 Reward</li>
-            <li>BlocK</li>
-            <li>VC Portal</li>
+class Navbar extends Component {
+  static async getInitialProps(props) {
+    const generteUrl = await FetchMyDataFromSomewhere(props._ID);
+    return { generteUrl };
+  }
+
+  render() {
+    const { generteUrl } = this.props;
+    return (
+      <div class="navbar">
+        <Header />
+        <Menu generteUrl={generteUrl} />
+        <section class="navbar-flags">
+          <span class="flex-start">
+            <p>+</p>
+            <p>{en.navbar.subscribe_to_updates}</p>
+          </span>
+          <ul class="navbar-flags-list">
+            {flags.map((flag) => {
+              return (
+                <li>
+                  <img src={flag.img} />
+                </li>
+              );
+            })}
           </ul>
-        </div>
-      </section>
-      <Flags />
-    </div>
-  );
-};
+        </section>
+      </div>
+    );
+  }
+}
+
+export default Navbar;

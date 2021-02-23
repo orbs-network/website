@@ -3,7 +3,7 @@ import { Border } from "./Border";
 
 export const DelegatorCard = () => {
   return (
-    <div className="card d-card">
+    <div className="globe-card d-card">
       <figure className="card-avatar">
         <img src="https://picsum.photos/200/300" />
       </figure>
