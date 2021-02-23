@@ -1,5 +1,5 @@
 import React from "react";
-import { Socials } from "./common-components/socials";
+import Socials from "./common-components/socials";
 import Navbar from "./navbar";
 import TeamEmployees from "./team-components/TeamEmployees";
 import TeamManegers from "./team-components/TeamManagers";
@@ -28,7 +28,7 @@ const Team = ({ title, _relativeURL, _ID }) => {
               <p className="one-line">{en.team.always}</p>
               <a href="/">{en.team.hiring}</a>
             </div>
-            <Socials />
+            <Socials generteUrl={generteUrl} />
           </section>
           <div className="team-lists flex-column">
             <TeamManegers />
