@@ -38,7 +38,7 @@ const Page = ({
       ) : null}
       <script src="//unpkg.com/globe.gl"></script>
 
-      <script type="module" src={_relativeURL(`/assets/js/index.js`, _ID)} />
+      <script type="module" src="/assets/js/index.js" />
     </head>
     <body>
       <header role="banner">{header}</header>
