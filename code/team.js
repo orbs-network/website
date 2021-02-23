@@ -11,7 +11,10 @@ const Team = ({ title, _relativeURL, _ID }) => {
   return (
     <html>
       <head>
-        <script type="module" src="../assets/js/team/index.js"></script>
+        <script
+          type="module"
+          src={generteUrl("../assets/js/team/index.js")}
+        ></script>
       </head>
       <body className="team-page">
         <div className="team-content-wrapper flex-between">
