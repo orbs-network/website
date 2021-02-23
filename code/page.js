@@ -37,8 +37,6 @@ const Page = ({
         />
       ) : null}
       <script src="//unpkg.com/globe.gl"></script>
-
-      <script type="module" src="/assets/js/index.js" />
     </head>
     <body>
       <header role="banner">{header}</header>
