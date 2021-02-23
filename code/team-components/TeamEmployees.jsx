@@ -7,10 +7,11 @@ import { employees } from "./data/employees";
 
 class TeamEmployees extends Component {
   render() {
+    const { generteUrl } = this.props;
     const getEmployeesByIndex = (list, from, to) => {
       return list.map((employee, index) => {
         if (from <= index && index <= to) {
-          return <Teammate data={employee} />;
+          return <Teammate data={employee} generteUrl={generteUrl} />;
         }
         return null;
       });
@@ -32,5 +33,8 @@ class TeamEmployees extends Component {
     );
   }
 }
-
+TeamEmployees.getInitialProps = async function (props) {
+  const generteUrl = await FetchMyDataFromSomewhere(props._ID);
+  return { generteUrl };
+};
 export default TeamEmployees;
