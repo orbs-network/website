@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { navbarAbout, navbarOverview, navbarResources } from "./data/data";
 import en from "../text/en.json";
 import Hamburger from "./Hamburger";
-import { Socials } from "../common-components/socials";
+import Socials from "../common-components/socials";
 
 class Menu extends Component {
   static async getInitialProps(props) {
@@ -52,7 +52,7 @@ class Menu extends Component {
             })}
           </ul>
         </section>
-        <Socials />
+        <Socials generteUrl={generteUrl} />
       </div>
     );
   }
