@@ -25,7 +25,7 @@ class Navbar extends Component {
             {flags.map((flag) => {
               return (
                 <li>
-                  <img src={flag.img} />
+                  <img src={generteUrl(flag.img)} />
                 </li>
               );
             })}
