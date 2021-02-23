@@ -1,7 +1,8 @@
 import React from "react";
 import { Border } from "./Border";
+import CardLinks from "./CardLinks";
 
-export const DelegatorCard = () => {
+const DelegatorCard = ({ generteUrl }) => {
   return (
     <div className="globe-card d-card">
       <figure className="card-avatar">
@@ -18,17 +19,7 @@ export const DelegatorCard = () => {
           <img src="" />
           <p>New York, Usa</p>
         </span>
-        <section className="card-links flex-center">
-          <a href="" className="flex-center">
-            <img src="../../assets/img/delegators/twitter.svg" />
-          </a>
-          <a href="" className="flex-center">
-            <img src="../../assets/img/delegators/telegram.svg" />
-          </a>
-          <a href="" className="flex-center">
-            <img src="../../assets/img/delegators/linkedin.svg" />
-          </a>
-        </section>
+        <CardLinks generteUrl={generteUrl} />
         <Border />
         <section className="flex-center d-card-wallets">
           <p>Active Wallets</p>
@@ -51,3 +42,9 @@ export const DelegatorCard = () => {
     </div>
   );
 };
+
+DelegatorCard.getInitialProps = async function (props) {
+  const generteUrl = await FetchMyDataFromSomewhere(props._ID);
+  return { generteUrl };
+};
+export default DelegatorCard;
