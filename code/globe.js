@@ -14,7 +14,10 @@ const Globe = ({ title, _relativeURL, _ID }) => {
   return (
     <html lang="en">
       <head>
-        <script type="module" src="../assets/js/globe/globe.js"></script>
+        <script
+          type="module"
+          src={generteUrl("../assets/js/globe/globe.js")}
+        ></script>
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
