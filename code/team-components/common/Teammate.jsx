@@ -1,6 +1,7 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 
-const Teammate = ({ data }) => {
+const Teammate = ({ data, generteUrl }) => {
   const { avatar, name, position, telegram, linkedin, twitter } = data;
   return (
     <div className="teammate flex-column">
@@ -13,15 +14,15 @@ const Teammate = ({ data }) => {
         <section className="teammate-socials flex-start">
           <ul className="flex-start">
             <li className="teammate-socials-link">
-              <img src="../../../assets/img/socials/telegram.png" />
+              <img src={generteUrl(images.telegram)} />
               <a href={telegram} />
             </li>
             <li className="teammate-socials-link">
-              <img src="../../../assets/img/socials/linkedin.png" />
+              <img src={generteUrl(images.linkedin)} />
               <a href={linkedin} />
             </li>
             <li className="teammate-socials-link">
-              <img src="../../../assets/img/socials/twitter.png" />
+              <img src={generteUrl(images.twitter)} />
               <a href={twitter} />
             </li>
           </ul>
@@ -33,8 +34,8 @@ const Teammate = ({ data }) => {
   );
 };
 Teammate.getInitialProps = async function (props) {
-  const data = await FetchMyDataFromSomewhere(props._ID);
-  return { data };
+  const { data, generteUrl } = await FetchMyDataFromSomewhere(props._ID);
+  return { data, generteUrl };
 };
 
 export default Teammate;
