@@ -2,7 +2,7 @@ import React from "react";
 import { ContributorCard } from "./globe-components/cards/ContributorCard";
 import { DelegatorCard } from "./globe-components/cards/DelegatorCard";
 import { GuardianCard } from "./globe-components/cards/GuardianCard";
-import { Socials } from "./common-components/socials";
+import Socials from "./common-components/socials";
 import Navbar from "./navbar";
 import en from "./text/en.json";
 import GlobeLoader from "./globe-components/globeLoader";
@@ -56,7 +56,7 @@ const Globe = ({ title, _relativeURL, _ID }) => {
           </div>
 
           <footer class="zIndex">
-            <Socials />
+            <Socials generteUrl={generteUrl} />
           </footer>
         </div>
       </body>
