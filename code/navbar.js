@@ -36,7 +36,7 @@ const Navbar = ({
             const img = supportedLanguages[lng.id];
             return (
               <li>
-                <a href={lng.link}>
+                <a href={generateUrl(lng.link)}>
                   <img src={generateUrl(img)} />
                 </a>
               </li>
