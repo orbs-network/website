@@ -20,7 +20,7 @@ const Menu = ({ generateUrl, links, text, resources, selected }) => {
           className={className || ""}
           id={isActive ? "nav-menu-link-selected" : ""}
         >
-          <a href={url}>{name}</a>
+          <a href={generateUrl(url)}>{name}</a>
         </li>
       );
     });
