@@ -1,27 +1,26 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { managers } from "./data/managers";
 import Teammate from "./common/Teammate";
+import { images } from "../../assets/js/images";
 
 class TeamManegers extends Component {
   render() {
-    const { generteUrl } = this.props;
+    const { generateUrl, management } = this.props;
     return (
       <section className="team-list-section team-list-section-managers">
         <ul className="team-list managers-list">
-          {managers.map((manager) => {
-            return <Teammate data={manager} generteUrl={generteUrl} />;
+          {management.map((manager) => {
+            return <Teammate data={manager} generateUrl={generateUrl} />;
           })}
         </ul>
         <figure className="team-list-img">
-          <img src={generteUrl("../assets/img/team/management.jpg")} />
+          <img src={generateUrl(images.team.management)} />
         </figure>
       </section>
     );
   }
 }
 TeamManegers.getInitialProps = async function (props) {
-  const generteUrl = await FetchMyDataFromSomewhere(props._ID);
-  return { generteUrl };
+  const { generateUrl, management } = await FetchMyDataFromSomewhere(props._ID);
+  return { generateUrl, management };
 };
 export default TeamManegers;

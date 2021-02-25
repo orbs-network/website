@@ -1,4 +1,4 @@
-import { addListenersToNavbar } from "../common.js";
+import { init } from "../common.js";
 window.onload = () => {
-  addListenersToNavbar();
+  init();
 };

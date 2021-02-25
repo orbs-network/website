@@ -1,28 +1,28 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
 
-const Teammate = ({ data, generteUrl }) => {
-  const { avatar, name, position, telegram, linkedin, twitter } = data;
+const Teammate = ({ data, generateUrl }) => {
+  const { avatar, name, role, telegram, linkedin, twitter } = data;
   return (
     <div className="teammate flex-column">
       <figure className="teammate-avatar">
-        <img src={avatar} />
+        <img src={"https://picsum.photos/200/300" || avatar} />
       </figure>
       <div className="teammate-info">
         <p className="teammate-name">{name}</p>
-        <p className="teammate-position">{position}</p>
+        <p className="teammate-position">{role}</p>
         <section className="teammate-socials flex-start">
           <ul className="flex-start">
             <li className="teammate-socials-link">
-              <img src={generteUrl(images.telegram)} />
+              <img src={generateUrl(images.socials.telegram)} />
               <a href={telegram} />
             </li>
             <li className="teammate-socials-link">
-              <img src={generteUrl(images.linkedin)} />
+              <img src={generateUrl(images.socials.linkedin)} />
               <a href={linkedin} />
             </li>
             <li className="teammate-socials-link">
-              <img src={generteUrl(images.twitter)} />
+              <img src={generateUrl(images.socials.twitter)} />
               <a href={twitter} />
             </li>
           </ul>
@@ -34,8 +34,8 @@ const Teammate = ({ data, generteUrl }) => {
   );
 };
 Teammate.getInitialProps = async function (props) {
-  const { data, generteUrl } = await FetchMyDataFromSomewhere(props._ID);
-  return { data, generteUrl };
+  const { data, generateUrl } = await FetchMyDataFromSomewhere(props._ID);
+  return { data, generateUrl };
 };
 
 export default Teammate;
