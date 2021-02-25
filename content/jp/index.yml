@@ -1,0 +1,10 @@
+title: Orbs
+
+header:
+  - /jp/_shared/header.md
+
+main:
+  - body.md
+
+footer:
+  - /jp/_shared/footer.md

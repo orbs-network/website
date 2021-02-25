@@ -2,39 +2,15 @@
   background: $base-bg-color;
   position: relative;
   width: 100%;
-
-  .navbar {
-    width: 100%;
-    margin: auto;
-    background: $base-bg-color;
-    position: sticky;
-    top: 0;
-    padding: 0px;
-  }
 }
-
-.team-btn {
-  position: fixed;
-  left: 0px;
-  top: 50%;
-  transform: translate(0, -50%);
-  width: 70px;
-  height: 70px;
-  background: white;
-}
-
-.team-content-wrapper {
-  width: 1500px;
-  margin: auto;
-  position: relative;
-  flex-wrap: wrap;
+.team {
+  align-items: flex-start;
+  padding-bottom: 200px;
 }
 
 .team-lists {
-  width: calc(100% - 500px);
   margin-top: auto;
-  padding-bottom: 100px;
-  padding-top: 60px;
+  padding-bottom: 200px;
 }
 
 .team-list-section {
@@ -45,15 +21,9 @@
 }
 
 .team-description {
-  width: 500px;
-  padding-right: 70px;
-  padding-top: 80px;
   color: white;
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  max-height: 700px;
-  min-height: 570px;
 }
 
 .team-description-top h1 {
@@ -78,7 +48,7 @@
   color: white;
 }
 .team-description .socials {
-  margin-top: auto;
+  margin-top: 100px;
 }
 .team-list-img {
   width: 50%;
@@ -240,19 +210,6 @@
 }
 
 @media only screen and (max-width: 1700px) {
-  .team-content-wrapper {
-    width: calc(100% - 150px);
-    margin-left: auto;
-    margin-right: 40px;
-  }
-
-  .team-lists {
-    width: calc(100% - 450px);
-  }
-  .team-description {
-    width: 450px;
-    padding-right: 60px;
-  }
 }
 @media only screen and (max-width: 1600px) {
   .teammate {
@@ -265,13 +222,10 @@
   }
 }
 @media only screen and (max-width: 1400px) {
-  .team-lists {
-    width: calc(100% - 350px);
-  }
-  .team-description {
-    width: 350px;
-  }
   .teammate {
     height: 18vw;
+  }
+  .banner {
+    height: 28vw;
   }
 }

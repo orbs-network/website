@@ -13,8 +13,9 @@ const Page = ({
   script,
   _relativeURL,
   _ID,
+  globe,
 }) => (
-  <html>
+  <html style={{ background: "#171819" }}>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -39,12 +40,9 @@ const Page = ({
       <script src="//unpkg.com/globe.gl"></script>
     </head>
     <body>
-      <header role="banner">{header}</header>
-
+      <header className="main-header">{header}</header>
       <main>{main}</main>
-
-      <footer className="footer">{footer}</footer>
-
+      <footer>{footer}</footer>
       {script != undefined ? (
         <script src={_relativeURL(`/assets/js/${script}.js`, _ID)} />
       ) : null}

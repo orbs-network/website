@@ -1,0 +1,7 @@
+title: Team
+header:
+  - /cn/_shared/header.md
+main:
+  - body.md
+footer:
+  - /en/_shared/new-footer.md

@@ -3,15 +3,14 @@ import { randomImgUrl } from "../helpers/image";
 import DoubleBanner from "./common/DoubleBanner";
 import SingleBanner from "./common/SingleBanner";
 import Teammate from "./common/Teammate";
-import { employees } from "./data/employees";
 
 class TeamEmployees extends Component {
   render() {
-    const { generteUrl } = this.props;
+    const { generateUrl, employees } = this.props;
     const getEmployeesByIndex = (list, from, to) => {
       return list.map((employee, index) => {
         if (from <= index && index <= to) {
-          return <Teammate data={employee} generteUrl={generteUrl} />;
+          return <Teammate data={employee} generateUrl={generateUrl} />;
         }
         return null;
       });
@@ -34,7 +33,7 @@ class TeamEmployees extends Component {
   }
 }
 TeamEmployees.getInitialProps = async function (props) {
-  const generteUrl = await FetchMyDataFromSomewhere(props._ID);
-  return { generteUrl };
+  const { generateUrl, employees } = await FetchMyDataFromSomewhere(props._ID);
+  return { generateUrl, employees };
 };
 export default TeamEmployees;

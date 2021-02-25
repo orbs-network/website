@@ -1,55 +1,40 @@
 import React from "react";
 import { FooterPost } from "./footer-components/FooterPost";
 
-const NewFooter = () => {
+const NewFooter = ({ posts, tweets, text }) => {
   return (
     <div className="footer-wrapper">
       <div className="footer-flex">
         <section className="footer-section">
-          <h1>ORBS</h1>
-          <p>
-            Combining Orbs scalability, low fees and isolation between virtual
-            chains with a first-grade developer experience, online IDE and smart
-            contracts in familiar languages. Developers get the perfect mix of
-            performance, cost, security and ease of use.
-          </p>
-          <h5>Hello@orbs.com</h5>
+          <h1>{text.orbs}</h1>
+          <p>{text.orbs_text}</p>
+          <h5>{text.orbs_email}</h5>
         </section>
         <section className="footer-section">
-          <h5>Latest Blog Posts</h5>
-          <FooterPost
-            text="Combining Orbs scalability, low fees and isolation between virtual chains with a first-grade developer experience, online IDE and smart contracts in familiar languages. Developers get the perfect mix of performance, cost, security and ease of use."
-            date="Feb 12, 2015"
-            showHoursAgo={false}
-            img=""
-          />
-          <FooterPost
-            text="Combining Orbs scalability, low fees and isolation between virtual chains with a first-grade developer experience, online IDE and smart contracts in familiar languages. Developers get the perfect mix of performance, cost, security and ease of use."
-            date="Feb 12, 2015"
-            showHoursAgo={false}
-            img=""
-          />
+          <h5>{text.posts}</h5>
+          {posts.map((post) => {
+            return (
+              <FooterPost
+                text={post.content}
+                date={post.date}
+                showHoursAgo={false}
+                img={post.image}
+              />
+            );
+          })}
         </section>
         <section className="footer-section">
-          <h5>Latest Tweets</h5>
-          <FooterPost
-            text="Combining Orbs scalability, low fees and isolation between virtual chains with a first-grade developer experience, online IDE and smart contracts in familiar languages. Developers get the perfect mix of performance, cost, security and ease of use."
-            date="Feb 12, 2015"
-            showHoursAgo={true}
-            img=""
-          />
-          <FooterPost
-            text="Combining Orbs scalability, low fees and isolation between virtual chains with a first-grade developer experience, online IDE and smart contracts in familiar languages. Developers get the perfect mix of performance, cost, security and ease of use."
-            date="Feb 12, 2015"
-            showHoursAgo={true}
-            img=""
-          />
-          <FooterPost
-            text="Combining Orbs scalability, low fees and isolation between virtual chains with a first-grade developer experience, online IDE and smart contracts in familiar languages. Developers get the perfect mix of performance, cost, security and ease of use."
-            date="Feb 12, 2015"
-            showHoursAgo={true}
-            img=""
-          />
+          <h5>{text.tweets}</h5>
+          {tweets.map((tweet) => {
+            return (
+              <FooterPost
+                text={tweet.content}
+                hoursAgo={tweet.hours_ago}
+                showHoursAgo={true}
+                img={tweet.image}
+              />
+            );
+          })}
         </section>
         <section className="footer-section">
           <h5>Latest Tweets</h5>

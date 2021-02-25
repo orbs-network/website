@@ -1,18 +1,10 @@
-export const flags = [
-  {
-    name: "KO",
-    img: "../../../assets/img/navbar/korea.png",
-  },
-  {
-    name: "CN",
-    img: "../../../assets/img/navbar/china.png",
-  },
-  {
-    name: "USA",
-    img: "../../../assets/img/navbar/usa.png",
-  },
-];
+import { images } from "../../../assets/js/images";
 
+export const supportedLanguages = {
+  ko: images.navbar.korea,
+  jp: images.navbar.japan,
+  en: images.navbar.usa,
+};
 export const navbarResources = [
   { name: "Tetra", url: "" },
   { name: "Analytics", url: "" },

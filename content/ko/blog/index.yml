@@ -1,0 +1,10 @@
+title: Blog
+
+header:
+  - /_shared/header.md
+
+main:
+  - body.md
+
+footer:
+  - /_shared/new-footer.md

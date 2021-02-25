@@ -1,8 +1,9 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 import { Border } from "./Border";
 import CardLinks from "./CardLinks";
 
-const DelegatorCard = ({ generteUrl }) => {
+const DelegatorCard = ({ generateUrl }) => {
   return (
     <div className="globe-card d-card">
       <figure className="card-avatar">
@@ -19,12 +20,12 @@ const DelegatorCard = ({ generteUrl }) => {
           <img src="" />
           <p>New York, Usa</p>
         </span>
-        <CardLinks generteUrl={generteUrl} />
+        <CardLinks generateUrl={generateUrl} />
         <Border />
         <section className="flex-center d-card-wallets">
           <p>Active Wallets</p>
-          <img src={generteUrl("../../assets/img/delegators/metamask.png")} />
-          <img src={generteUrl("../../assets/img/delegators/metamask.png")} />
+          <img src={generateUrl(images.globe.metamask)} />
+          <img src={generateUrl(images.globe.metamask)} />
         </section>
         <Border />
         <section className="d-card-tokens flex-center">
@@ -44,7 +45,7 @@ const DelegatorCard = ({ generteUrl }) => {
 };
 
 DelegatorCard.getInitialProps = async function (props) {
-  const generteUrl = await FetchMyDataFromSomewhere(props._ID);
-  return { generteUrl };
+  const generateUrl = await FetchMyDataFromSomewhere(props._ID);
+  return { generateUrl };
 };
 export default DelegatorCard;
