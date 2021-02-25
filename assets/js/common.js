@@ -78,5 +78,17 @@ export const hideMenu = () => {
 
 export const addEvent = (element, eventType, customEvent) => {
   if (!element || !customEvent || !eventType) return;
-  element.addEventListener(eventType, () => customEvent());
+  element.addEventListener(eventType, (e) => customEvent(e));
+};
+
+export const handleText = (text) => {
+  return text || "";
+};
+
+export const removeSpaces = (str, char) => {
+  return str.split(" ").join(char);
+};
+
+export const init = () => {
+  addListenersToNavbar();
 };

@@ -1,0 +1,10 @@
+title: Faq
+
+header:
+  - /_shared/header.md
+
+main:
+  - body.md
+
+footer:
+  - /_shared/new-footer.md

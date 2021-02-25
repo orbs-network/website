@@ -1,38 +1,38 @@
 import React from "react";
+import { locale } from "../locales";
 import Socials from "./common-components/socials";
-import Navbar from "./navbar";
 import TeamEmployees from "./team-components/TeamEmployees";
 import TeamManegers from "./team-components/TeamManagers";
-import en from "./text/en.json";
-const Team = ({ title, _relativeURL, _ID }) => {
-  const generteUrl = (url) => {
+
+const Team = ({ _relativeURL, _ID, language, management, employees }) => {
+  const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
+  const text = locale[language].team;
   return (
     <html>
       <head>
         <script
           type="module"
-          src={generteUrl("../assets/js/team/index.js")}
+          src={generateUrl("../assets/js/team/index.js")}
         ></script>
       </head>
-      <body className="team-page">
-        <div className="team-content-wrapper flex-between">
-          <Navbar generteUrl={generteUrl} />
-          <section className="team-description">
+      <body className="team-page grid-page">
+        <div className="team flex-between base-grid">
+          <section className="team-description small-section">
             <div className="team-description-top">
-              <h1>{en.team.title}</h1>
-              <p>{en.team.subTtitle}</p>
+              <h1>{text.title}</h1>
+              <p>{text.subTtitle}</p>
             </div>
             <div className="team-description-hiring flex-start">
-              <p className="one-line">{en.team.always}</p>
-              <a href="/">{en.team.hiring}</a>
+              <p className="one-line">{text.always}</p>
+              <a href="/">{text.hiring}</a>
             </div>
-            <Socials generteUrl={generteUrl} />
+            <Socials generateUrl={generateUrl} />
           </section>
-          <div className="team-lists flex-column">
-            <TeamManegers generteUrl={generteUrl} />
-            <TeamEmployees generteUrl={generteUrl} />
+          <div className="team-lists flex-column big-section">
+            <TeamManegers generateUrl={generateUrl} management={management} />
+            <TeamEmployees generateUrl={generateUrl} employees={employees} />
           </div>
         </div>
       </body>

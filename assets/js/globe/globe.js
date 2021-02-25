@@ -5,12 +5,11 @@ import {
   onOutsideEvent,
   onMouseEnterAndLeaveEvent,
   showElement,
-  addListenersToNavbar,
+  init,
 } from "../common.js";
 import { globePositions, globeImages } from "./consts.js";
 import { globeConfig } from "./config.js";
 import { points } from "./points.js";
-
 let interval;
 let timeout;
 export const globeController = new (class GlobeClass {
@@ -249,6 +248,6 @@ export const loadBnts = (images) => {
 };
 
 window.onload = () => {
-  addListenersToNavbar();
+  init();
   globeController.init();
 };
