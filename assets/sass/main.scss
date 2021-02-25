@@ -1,9 +1,47 @@
-$base-bg-color: #171819;
-
+.base-grid {
+  width: 1500px;
+  margin: auto;
+  margin-top: 40px;
+}
 body {
-  header {
-    &:first-of-type {
-      display: none;
-    }
+  background-color: $base-bg-color;
+}
+.big-section {
+  flex: 1;
+}
+.small-section {
+  width: 450px;
+  padding-right: 40px;
+  position: sticky;
+  top: 110px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.grid-page {
+  .main-header {
+    background: $base-bg-color;
+    position: sticky;
+    top: 0%;
+    margin: auto;
+    width: 1500px;
+  }
+}
+
+.home-page {
+  .main-header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .base-grid {
+    width: calc(100% - 60px);
+  }
+  .team-page .main-header,
+  .faq-page .main-header {
+    width: calc(100% - 60px);
   }
 }

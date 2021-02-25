@@ -1,61 +1,59 @@
-import React, { Component } from "react";
-import { navbarAbout, navbarOverview, navbarResources } from "./data/data";
-import en from "../text/en.json";
-import Hamburger from "./Hamburger";
+import React from "react";
 import Socials from "../common-components/socials";
+import { navbarOverview } from "./data/data";
+import Hamburger from "./Hamburger";
 
-class Menu extends Component {
-  static async getInitialProps(props) {
-    const generteUrl = await FetchMyDataFromSomewhere(props._ID);
-    return { generteUrl };
-  }
+const Menu = ({ generateUrl, links, text, resources, selected }) => {
+  const mapLinks = (
+    arr,
+    linkPropertyName,
+    textPropertyName,
+    className,
+    selected
+  ) => {
+    return arr.map((link) => {
+      const url = link[linkPropertyName];
+      const name = link[textPropertyName];
+      const isActive = selected == name;
+      return (
+        <li
+          className={className || ""}
+          id={isActive ? "nav-menu-link-selected" : ""}
+        >
+          <a href={url}>{name}</a>
+        </li>
+      );
+    });
+  };
 
-  render() {
-    const { generteUrl } = this.props;
+  return (
+    <div className="nav-menu">
+      <Hamburger isActive={true} customClassName="nav-menu-close" />
+      <section className="nav-menu-section">
+        <h4>{text.overview}</h4>
+        <ul>{mapLinks(navbarOverview, "url", "name", "nav-menu-link")}</ul>
+      </section>
+      <section className="nav-menu-section nav-menu-resources">
+        <h4>{text.resources}</h4>
+        <ul className="flex-start">{mapLinks(resources, "url", "name")}</ul>
+      </section>
+      <section className="nav-menu-section">
+        <h4>{text.about}</h4>
+        <ul>{mapLinks(links, "link", "name", "nav-menu-link", selected)}</ul>
+      </section>
+      <Socials generateUrl={generateUrl} />
+    </div>
+  );
+};
 
-    return (
-      <div className="nav-menu">
-        <Hamburger isActive={true} customClassName="nav-menu-close" />
-        <section className="nav-menu-section">
-          <h4>{en.navbar.overview}</h4>
-          <ul>
-            {navbarOverview.map((overview) => {
-              return (
-                <li className="nav-menu-link">
-                  <a href={overview.url}>{overview.name}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-        <section className="nav-menu-section nav-menu-resources">
-          <h4>{en.navbar.resources}</h4>
-          <ul className="flex-start">
-            {navbarResources.map((resource) => {
-              return (
-                <li>
-                  <a href={resource.url}>{resource.name}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-        <section className="nav-menu-section">
-          <h4>{en.navbar.about}</h4>
-          <ul>
-            {navbarAbout.map((about) => {
-              return (
-                <li className="nav-menu-link">
-                  <a href={generteUrl(about.url)}>{about.name}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-        <Socials generteUrl={generteUrl} />
-      </div>
-    );
-  }
-}
-
+Menu.getInitialProps = async function (props) {
+  const {
+    generateUrl,
+    links,
+    text,
+    resources,
+    selected,
+  } = await FetchMyDataFromSomewhere(props._ID);
+  return { generateUrl, links, text, resources, selected };
+};
 export default Menu;

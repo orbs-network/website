@@ -1,8 +1,9 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 import { Border } from "./Border";
 import CardLinks from "./CardLinks";
 
-const ContributorCard = ({ generteUrl }) => {
+const ContributorCard = ({ generateUrl }) => {
   return (
     <div className="globe-card c-card">
       <figure className="card-avatar">
@@ -19,12 +20,12 @@ const ContributorCard = ({ generteUrl }) => {
           <img src="" />
           <p>New York, Usa</p>
         </span>
-        <CardLinks generteUrl={generteUrl} />
+        <CardLinks generateUrl={generateUrl} />
 
         <Border />
         <section className="flex-between c-card-repos">
           <div className="c-card-repos-top flex-center">
-            <img src={generteUrl("../../assets/img/folder.svg")} />
+            <img src={generateUrl(images.globe.repository)} />
             <p>Recent Repositories</p>
           </div>
           <span>
@@ -60,7 +61,7 @@ const ContributorCard = ({ generteUrl }) => {
   );
 };
 ContributorCard.getInitialProps = async function (props) {
-  const generteUrl = await FetchMyDataFromSomewhere(props._ID);
-  return { generteUrl };
+  const generateUrl = await FetchMyDataFromSomewhere(props._ID);
+  return { generateUrl };
 };
 export default ContributorCard;

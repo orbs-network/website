@@ -1,0 +1,10 @@
+title: Orbs
+
+header:
+  - /ko/_shared/header.md
+
+main:
+  - body.md
+
+footer:
+  - /ko/_shared/footer.md
