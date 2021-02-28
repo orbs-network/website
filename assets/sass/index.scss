@@ -1,5 +1,9 @@
 @import "./colors/colors.scss";
+@import "./consts.scss";
+@import "./fonts.scss";
+
 @import "./main.scss";
+
 @import "./reset";
 @import "./common/common";
 @import "./team/team";
@@ -10,3 +14,4 @@
 @import "./footer/footer.scss";
 @import "./faq/faq.scss";
 @import "./blog/blog.scss";
+@import "./overview/overview.scss";

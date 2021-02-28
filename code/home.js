@@ -34,7 +34,7 @@ const Home = ({ _relativeURL, _ID, language, Marked }) => {
           <GuardianCard />
         </div>
 
-        <div class="page-wrapper">
+        <div class="content-wrapper grid-page">
           <div class="page-content zIndex">
             <section class="page-content-top">
               <img src={generateUrl(images.globe.logo)} alt="" />

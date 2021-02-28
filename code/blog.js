@@ -15,7 +15,7 @@ const Faq = ({ text, _relativeURL, _ID, tags, blogs }) => {
         ></script>
       </head>
       <body className="blog-page grid-page">
-        <div className="blog base-grid">
+        <div className="blog">
           <h3 className="blog-title">{text.title}</h3>
           <p className="blog-sub-title">{text.sub_title}</p>
           <ul className="flex-start blog-tags">

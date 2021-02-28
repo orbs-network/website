@@ -16,17 +16,17 @@ languages:
     link: /jp
 links:
   - name: Home
-    link: /
+    url: /
   - name: Team
-    link: /team
+    url: /team
   - name: Faq
-    link: /faq
+    url: /faq
   - name: Blog
-    link: /blog
+    url: /blog
   - name: Technology
-    link: /technology
+    url: /technology
   - name: Pos Universe
-    link: https://www.orbs.com/orbs-pos-universe/
+    url: https://www.orbs.com/orbs-pos-universe/
 
 resources:
   - name: tetra
@@ -44,7 +44,7 @@ resources:
 
 overview:
   - name: the orbs network
-    url: http://status.orbs.network/
+    url: /overview
   - name: orbs smart contracts
     url:
   - name: proof of stake universe

@@ -12,6 +12,7 @@ const Navbar = ({
   text,
   resources,
   selected,
+  overview,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -20,6 +21,7 @@ const Navbar = ({
     <div class="main-navbar">
       <Header />
       <Menu
+        overview={overview}
         selected={selected}
         generateUrl={generateUrl}
         links={links}
