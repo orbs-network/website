@@ -25,7 +25,9 @@ const Page = ({
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
       />
-
+      <script src="//unpkg.com/globe.gl"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <link
         rel="stylesheet"
         href={_relativeURL(`/assets/css/index.css`, _ID)}
@@ -37,7 +39,6 @@ const Page = ({
           href={_relativeURL(`/assets/css/${stylesheet}.css`, _ID)}
         />
       ) : null}
-      <script src="//unpkg.com/globe.gl"></script>
     </head>
     <body>
       <header className="main-header">{header}</header>

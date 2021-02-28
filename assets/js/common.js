@@ -91,4 +91,5 @@ export const removeSpaces = (str, char) => {
 
 export const init = () => {
   addListenersToNavbar();
+  AOS.init({ once: true });
 };

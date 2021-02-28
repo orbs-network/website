@@ -1,7 +1,10 @@
 import React from "react";
 import { FooterPost } from "./footer-components/FooterPost";
 
-const NewFooter = ({ posts, tweets, text }) => {
+const NewFooter = ({ posts, tweets, text, navigation, _relativeURL, _ID }) => {
+  const generateUrl = (url) => {
+    return `${_relativeURL(url, _ID)}`;
+  };
   return (
     <div className="footer-wrapper">
       <div className="footer-flex">
@@ -37,35 +40,15 @@ const NewFooter = ({ posts, tweets, text }) => {
           })}
         </section>
         <section className="footer-section">
-          <h5>Latest Tweets</h5>
+          <h5>{text.navigation}</h5>
           <ul className="footer-navigation">
-            <li>
-              <a href="">Network overview</a>
-            </li>
-            <li>
-              <a href="">Orbs Smart Contracts Overview</a>
-            </li>
-            <li>
-              <a href="">Proof of stake Universe</a>
-            </li>
-            <li>
-              <a href="">Resources</a>
-            </li>
-            <li>
-              <a href="">White papers</a>
-            </li>
-            <li>
-              <a href="">Team</a>
-            </li>
-            <li>
-              <a href="">Faq</a>
-            </li>
-            <li>
-              <a href="">Blog</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
-            </li>
+            {navigation.map((link) => {
+              return (
+                <li>
+                  <a href={generateUrl(link.url)}>{link.name}</a>
+                </li>
+              );
+            })}
           </ul>
         </section>
       </div>

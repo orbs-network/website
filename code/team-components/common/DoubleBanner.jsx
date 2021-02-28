@@ -6,7 +6,7 @@ const DoubleBanner = ({ url, url2, customClassName }) => {
     ? `${customClassName} ${mainClassName}`
     : mainClassName;
   return (
-    <figure className={className}>
+    <figure className={className} data-aos="fade-up">
       <img src={url} />
       <img src={url2} />
     </figure>

@@ -3,7 +3,7 @@ import React from "react";
 const BlogCard = ({ blog, text }) => {
   const { image_url, date, type, content, editor } = blog;
   return (
-    <div className="blog-card">
+    <div className="blog-card" data-aos="fade-up">
       <figure className="blog-card-gradient"></figure>
       <img src={image_url} className="blog-card-img" />
       <div className="blog-card-c">

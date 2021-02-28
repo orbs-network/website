@@ -6,7 +6,7 @@ const SingleBanner = ({ url, customClassName }) => {
     ? `${customClassName} ${mainClassName}`
     : mainClassName;
   return (
-    <figure className={className}>
+    <figure className={className} data-aos="fade-up">
       <img src={url} />
     </figure>
   );

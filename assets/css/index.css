@@ -2,10 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap");
-.base-grid {
-  width: 1500px;
-  margin: auto;
-  margin-top: 40px; }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/bold.otf"); }
+
+@font-face {
+  font-family: "bold-oblique";
+  src: url("../fonts/boldOblique.otf"); }
+
+@font-face {
+  font-family: "light";
+  src: url("../fonts/light.otf"); }
+
+@font-face {
+  font-family: "light-oblique";
+  src: url("../fonts/lightOblique.otf"); }
 
 body {
   background-color: #171819; }
@@ -22,23 +35,19 @@ body {
 html {
   scroll-behavior: smooth; }
 
-.grid-page .main-header {
-  background: #171819;
-  position: sticky;
-  top: 0%;
-  margin: auto;
-  width: 1500px; }
-
-.home-page .main-header {
-  padding-left: 30px;
-  padding-right: 30px; }
+.grid-page {
+  width: 1500px;
+  margin: auto; }
+  .grid-page .main-header {
+    background: #171819;
+    position: sticky;
+    top: 0%;
+    margin: auto;
+    width: 100%; }
 
 @media only screen and (max-width: 1600px) {
-  .base-grid {
-    width: calc(100% - 60px); }
-  .team-page .main-header,
-  .faq-page .main-header {
-    width: calc(100% - 60px); } }
+  .grid-page {
+    width: calc(100% - 130px); } }
 
 html,
 body,
@@ -218,13 +227,6 @@ header {
 main {
   flex-grow: 1; }
 
-.hero h1 {
-  font-size: 30px;
-  font-weight: bold; }
-
-.hero h2 {
-  font-size: 20px; }
-
 .content h1 {
   text-align: center;
   font-size: 40px; }
@@ -291,10 +293,109 @@ main {
   align-items: center;
   justify-content: center; }
 
-.team-page {
-  background: #171819;
+.text-box {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  .text-box-base {
+    margin-bottom: 30px; }
+    .text-box-base * {
+      text-align: left;
+      font-family: "Montserrat"; }
+    .text-box-base-title {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 15px;
+      font-size: 20px; }
+    .text-box-base-text {
+      font-size: 15px;
+      line-height: 24px; }
+    .text-box-base-expend {
+      padding: 10px 20px;
+      background: transparent;
+      border: 1px solid white;
+      border-radius: 20px;
+      margin-top: 20px; }
+  .text-box:last-of-type {
+    border: 0px; }
+
+.text-box-with-images .text-box-images {
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
+  align-items: flex-start; }
+  .text-box-with-images .text-box-images li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px; }
+    .text-box-with-images .text-box-images li figure {
+      height: 40px;
+      margin-bottom: 10px;
+      width: 40px;
+      border: 2px solid white;
+      border-radius: 50%; }
+      .text-box-with-images .text-box-images li figure img {
+        opacity: 0; }
+    .text-box-with-images .text-box-images li p {
+      text-align: center;
+      font-size: 12px; }
+
+.limited-lines {
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+  display: -webkit-box; }
+
+.text-box-with-dots ul li p {
+  text-align: left;
+  padding-left: 20px;
   position: relative;
-  width: 100%; }
+  font-size: 14px; }
+  .text-box-with-dots ul li p::after {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #b31c85;
+    border-radius: 50%; }
+
+.text-cards {
+  height: fit-content;
+  align-items: stretch; }
+
+.text-card {
+  width: 200px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ffffff; }
+  .text-card * {
+    text-align: left; }
+  .text-card-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px; }
+  .text-card-text {
+    font-size: 12px;
+    margin-bottom: 30px; }
+  .text-card-img {
+    width: 40px;
+    height: 40px;
+    background: lightgray;
+    margin-top: auto;
+    border-radius: 50%; }
+    .text-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      opacity: 0; }
+
+.team-page {
+  position: relative; }
 
 .team {
   align-items: flex-start;
@@ -478,13 +579,20 @@ main {
 :root {
   --basic-margin-bottom: 10px; }
 
+.home-page {
+  height: 100vh; }
+  .home-page .main-header {
+    background: transparent;
+    width: 1500px;
+    margin: auto;
+    position: sticky; }
+  .home-page main {
+    height: calc(100% - 80px); }
+
 .globe-wrapper {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
-  transform: translate(7%);
   z-index: 1; }
 
 #globeViz {
@@ -494,14 +602,11 @@ main {
 body {
   font-family: "Montserrat"; }
 
-.page-wrapper {
-  padding: 30px 70px;
-  background: #000011;
+.content-wrapper {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   position: relative;
-  height: 100vh; }
+  height: 100%; }
 
 .navbar {
   padding: 0px 30px; }
@@ -553,7 +658,7 @@ body {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  color: black;
+  color: #171819;
   border-radius: 50%;
   background: white;
   display: flex;
@@ -937,7 +1042,6 @@ footer {
   margin: 0px;
   width: 100%;
   height: 80px;
-  position: fixed;
   z-index: 9999; }
 
 .main-navbar {
@@ -1011,6 +1115,34 @@ footer {
       text-align: left;
       margin-bottom: 15px;
       color: #5effd1; }
+  .nav-menu-link {
+    position: relative;
+    margin-bottom: 0px;
+    transition: 0.15s all;
+    width: fit-content;
+    height: 24px;
+    display: flex;
+    align-items: center; }
+    .nav-menu-link figure {
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      transform: translate(-50%);
+      width: 14px;
+      background: #b31c85;
+      height: 2px;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s all; }
+    .nav-menu-link a {
+      font-size: 14px;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+    .nav-menu-link:hover {
+      padding-left: 15px; }
+      .nav-menu-link:hover figure {
+        opacity: 1; }
   .nav-menu-resources ul {
     flex-wrap: wrap; }
     .nav-menu-resources ul li {
@@ -1026,14 +1158,11 @@ footer {
         margin-bottom: 0px; }
       .nav-menu-resources ul li a {
         font-size: 14px; }
+      .nav-menu-resources ul li figure {
+        display: none; }
   .nav-menu-show {
     transform: translate(0%);
     opacity: 1; }
-  .nav-menu-link {
-    margin-bottom: 10px;
-    opacity: 0.7; }
-    .nav-menu-link a {
-      font-size: 14px; }
 
 .footer-flex {
   display: flex;
@@ -1210,10 +1339,10 @@ footer {
     flex-wrap: wrap;
     margin-top: 40px; }
   .blog-card {
-    width: calc(50% - 20px);
+    width: calc(50% - 10px);
     margin-right: 20px;
     margin-bottom: 20px;
-    max-height: 370px;
+    max-height: 390px;
     height: 25vw;
     border: 1px solid #50f3ee;
     position: relative;
@@ -1259,3 +1388,41 @@ footer {
           width: 20px;
           height: auto;
           margin-right: 10px; }
+
+.overview-title {
+  font-size: 30px;
+  margin-bottom: 50px; }
+
+.overview-text-content {
+  width: 800px;
+  margin-bottom: 150px; }
+  .overview-text-content-grid {
+    width: 500px; }
+  .overview-text-content .text-card {
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px; }
+    .overview-text-content .text-card:nth-of-type(3n) {
+      margin-right: 0px; }
+
+.overview .one-line-images {
+  border: none; }
+  .overview .one-line-images ul {
+    flex-wrap: nowrap; }
+    .overview .one-line-images ul li {
+      width: calc(100% / 4 - 10px);
+      margin-right: 10px; }
+      .overview .one-line-images ul li:nth-child(4n) {
+        margin-right: 0px; }
+      .overview .one-line-images ul li:nth-child(3n) {
+        margin-right: 10px; }
+
+.overview .regular-text {
+  margin-bottom: 40px;
+  text-align: left; }
+
+.overview .text-cards {
+  margin-bottom: 40px; }
+
+.overview .text-box {
+  padding-bottom: 30px;
+  margin-bottom: 40px; }

@@ -4,7 +4,7 @@ import { images } from "../../../assets/js/images";
 const Teammate = ({ data, generateUrl }) => {
   const { avatar, name, role, telegram, linkedin, twitter } = data;
   return (
-    <div className="teammate flex-column">
+    <div className="teammate flex-column" data-aos="fade-up">
       <figure className="teammate-avatar">
         <img src={"https://picsum.photos/200/300" || avatar} />
       </figure>
