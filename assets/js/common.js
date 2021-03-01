@@ -57,9 +57,9 @@ export const onOutsideEvent = (element, callback) => {
 };
 
 export const addListenersToNavbar = () => {
-  const hamburger = getElement(".hamburger");
+  const hamburger = getElement(".navbar-burger-open");
   addEvent(hamburger, "click", showMenu);
-  const closeMenu = getElement(".nav-menu-close");
+  const closeMenu = getElement(".navbar-burger-close");
   addEvent(closeMenu, "click", hideMenu);
 };
 
@@ -92,4 +92,28 @@ export const removeSpaces = (str, char) => {
 export const init = () => {
   addListenersToNavbar();
   AOS.init({ once: true });
+};
+
+export const setToggleTextEvent = () => {
+  const elements = getElements(".expend-btn");
+  elements.forEach((element) => {
+    addEvent(element, "click", toggleTextBox);
+  });
+};
+
+const toggleTextBox = (event) => {
+  const nodes = event.target.parentNode.childNodes;
+  const limitedClassName = "limited-lines";
+  const textClassName = "text-box-base-text";
+  nodes.forEach((node) => {
+    if (!node.classList.contains(textClassName)) {
+      return;
+    }
+    if (node.classList.contains(limitedClassName)) {
+      event.target.innerText = event.target.dataset.close;
+      return node.classList.remove(limitedClassName);
+    }
+    event.target.innerText = event.target.dataset.open;
+    return node.classList.add(limitedClassName);
+  });
 };

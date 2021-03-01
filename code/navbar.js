@@ -19,7 +19,7 @@ const Navbar = ({
   };
   return (
     <div class="main-navbar">
-      <Header />
+      <Header generateUrl={generateUrl} />
       <Menu
         overview={overview}
         selected={selected}

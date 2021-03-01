@@ -1,15 +1,14 @@
 import React from "react";
 import Socials from "../common-components/socials";
-import Hamburger from "./Hamburger";
 import MenuLinks from "./MenuLinks";
+import MenuToggle from "./MenuToggle";
 
 const Menu = ({ generateUrl, links, text, resources, overview }) => {
   return (
     <div className="nav-menu">
-      <Hamburger
-        isActive={true}
-        customClassName="nav-menu-close"
+      <MenuToggle
         generateUrl={generateUrl}
+        customClassName="navbar-burger-close"
       />
       <MenuLinks
         arr={overview}

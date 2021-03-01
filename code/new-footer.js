@@ -6,7 +6,7 @@ const NewFooter = ({ posts, tweets, text, navigation, _relativeURL, _ID }) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="footer-wrapper">
+    <footer className="footer-wrapper">
       <div className="footer-flex">
         <section className="footer-section">
           <h1>{text.orbs}</h1>
@@ -52,7 +52,7 @@ const NewFooter = ({ posts, tweets, text, navigation, _relativeURL, _ID }) => {
           </ul>
         </section>
       </div>
-    </div>
+    </footer>
   );
 };
 

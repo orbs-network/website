@@ -27,7 +27,9 @@ module.exports = exports = function renderer({
     ) {
       href = _relativeURL(href, _ID);
     }
-    return `<a href="${href}"${title ? ` title="${title}"` : ""}>${text}</a>`;
+    return `<a href="${href}"${
+      title ? ` title="${title}"` : ""
+    } target='_blank'>${text}</a>`;
   };
 
   // making all images relative
@@ -49,6 +51,7 @@ module.exports = exports = function renderer({
 
   // making all html tags with paths relative
   Marked.html = (html) => {
+    console.log(html);
     for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
       html = html.replace(match[1], _relativeURL(match[1], _ID));
     }
