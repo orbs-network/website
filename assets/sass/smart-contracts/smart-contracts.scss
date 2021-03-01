@@ -1,0 +1,49 @@
+.smart-contracts {
+  &-flex {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .text-with-title {
+      width: calc(100% / 2 - 30px);
+      &:nth-child(even) {
+        margin-left: auto;
+      }
+      .expend-btn {
+        color: #ff2cbf;
+        background: transparent;
+        border: none;
+      }
+      margin-bottom: 30px;
+      &:last-child {
+        border: 0px;
+      }
+    }
+  }
+  &-management {
+    margin-top: 30px;
+    .text-with-title {
+      border: none;
+      width: 70%;
+      max-height: 700px;
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  &-boxes {
+    margin-top: 20px;
+    h4 {
+      margin-bottom: 10px;
+      color: #ff2cbf;
+      font-size: 17px;
+    }
+    &-flex {
+      width: 80%;
+      flex-wrap: wrap;
+      .box {
+        margin-bottom: 15px;
+        width: calc(100% / 3 - 15px);
+        margin-right: 15px;
+      }
+    }
+  }
+}

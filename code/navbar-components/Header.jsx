@@ -1,11 +1,17 @@
 import React from "react";
-import Hamburger from "./Hamburger";
-const Header = () => {
+import MenuToggle from "./MenuToggle";
+const Header = ({ generateUrl }) => {
   return (
     <div className="navbar-header">
-      <Hamburger isActive={false} customClassName="hamburger" />
+      <MenuToggle
+        generateUrl={generateUrl}
+        customClassName="navbar-burger-open"
+      />
     </div>
   );
 };
-
+Header.getInitialProps = async function (props) {
+  const { generateUrl } = await FetchMyDataFromSomewhere(props._ID);
+  return { generateUrl };
+};
 export default Header;

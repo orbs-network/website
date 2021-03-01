@@ -1,0 +1,111 @@
+.universe {
+  p {
+    font-size: 14px;
+  }
+  &-first-sections {
+    align-items: stretch;
+    &-section {
+      width: 50%;
+      span {
+        margin-bottom: 10px;
+        img {
+          margin-right: 10px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+      &:nth-child(odd) {
+        padding-right: 80px;
+        border-right: 1px solid lightgray;
+      }
+      &:nth-child(even) {
+        padding-left: 80px;
+      }
+      * {
+        text-align: left;
+      }
+
+      a[title="button"] {
+        padding: 0px 10px;
+        height: 40px;
+        display: flex;
+        width: fit-content;
+        background: white;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 40px;
+      }
+      a[title="link"] {
+        color: white;
+        text-decoration: underline;
+      }
+      ul {
+        list-style: disc;
+        margin-bottom: 20px;
+        list-style-position: inside;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        li {
+          margin-bottom: 8px;
+          font-size: 14px;
+          ine &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+      }
+      h5 {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+  &-second-sections {
+    margin-top: 120px;
+    align-items: flex-start;
+    .text-with-title {
+      width: 50%;
+      padding-right: 30px;
+    }
+    .images-grid {
+      padding-left: 30px;
+      &-title {
+        font-size: 15px;
+      }
+      li {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .text {
+    margin-top: 60px;
+    width: 80%;
+    font-size: 15px;
+  }
+  &-third-sections {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 40px;
+    .text-with-title {
+      width: calc(100% / 2 - 30px);
+      &:nth-child(even) {
+        margin-left: auto;
+      }
+      .expend-btn {
+        color: #ff2cbf;
+        background: transparent;
+        border: none;
+      }
+      margin-bottom: 30px;
+    }
+  }
+}

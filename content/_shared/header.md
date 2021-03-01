@@ -26,7 +26,7 @@ links:
   - name: Technology
     url: /technology
   - name: Pos Universe
-    url: https://www.orbs.com/orbs-pos-universe/
+    url: /universe
 
 resources:
   - name: tetra
@@ -46,7 +46,7 @@ overview:
   - name: the orbs network
     url: /overview
   - name: orbs smart contracts
-    url:
+    url: /smart-contracts
   - name: proof of stake universe
     url: https://www.orbs.com/orbs-pos-universe/
 ---

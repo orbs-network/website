@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -100,9 +99,7 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol,
 ul {
   list-style: none;
@@ -153,19 +150,4 @@ button {
 
 .footer {
   padding: 0px;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  text-align: center;
-  line-height: normal;
-}
-
-@font-face {
-  font-family: main-font;
-  src: url("../../fonts/Kinetic-Outlined.otf");
 }
