@@ -1,0 +1,38 @@
+title: Overview
+layout: pages/overview
+
+script: overview/overview
+header:
+  - /_shared/header.md
+
+pageHeader:
+  - md/page-header.md
+
+flexSection:
+  - md/expending-text-1.md
+  - md/expending-text-2.md
+  - md/expending-text-3.md
+  - md/images-grid.md
+  - md/expending-text-4.md
+
+boxes:
+  - md/box-1.md
+  - md/box-2.md
+  - md/box-3.md
+
+secondFlexSection:
+  - md/expending-text-5.md
+
+text:
+  - md/text.md
+
+secondBoxes:
+  - md/box-4.md
+  - md/box-5.md
+  - md/box-6.md
+
+secondImagesGrid:
+  - md/second-images-grid.md
+
+footer:
+  - /_shared/new-footer.md

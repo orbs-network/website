@@ -1,46 +1,34 @@
 import React from "react";
 import Socials from "../common-components/socials";
-import { navbarOverview } from "./data/data";
-import Hamburger from "./Hamburger";
+import MenuLinks from "./MenuLinks";
+import MenuToggle from "./MenuToggle";
 
-const Menu = ({ generateUrl, links, text, resources, selected }) => {
-  const mapLinks = (
-    arr,
-    linkPropertyName,
-    textPropertyName,
-    className,
-    selected
-  ) => {
-    return arr.map((link) => {
-      const url = link[linkPropertyName];
-      const name = link[textPropertyName];
-      const isActive = selected == name;
-      return (
-        <li
-          className={className || ""}
-          id={isActive ? "nav-menu-link-selected" : ""}
-        >
-          <a href={generateUrl(url)}>{name}</a>
-        </li>
-      );
-    });
-  };
-
+const Menu = ({ generateUrl, links, text, resources, overview }) => {
   return (
     <div className="nav-menu">
-      <Hamburger isActive={true} customClassName="nav-menu-close" />
-      <section className="nav-menu-section">
-        <h4>{text.overview}</h4>
-        <ul>{mapLinks(navbarOverview, "url", "name", "nav-menu-link")}</ul>
-      </section>
-      <section className="nav-menu-section nav-menu-resources">
-        <h4>{text.resources}</h4>
-        <ul className="flex-start">{mapLinks(resources, "url", "name")}</ul>
-      </section>
-      <section className="nav-menu-section">
-        <h4>{text.about}</h4>
-        <ul>{mapLinks(links, "link", "name", "nav-menu-link", selected)}</ul>
-      </section>
+      <MenuToggle
+        generateUrl={generateUrl}
+        customClassName="navbar-burger-close"
+      />
+      <MenuLinks
+        arr={overview}
+        linkClassName="nav-menu-link"
+        title={text.overview}
+        generateUrl={generateUrl}
+      />
+      <MenuLinks
+        arr={resources}
+        title={text.resources}
+        generateUrl={generateUrl}
+        sectionClassName="nav-menu-resources"
+        listClassName="flex-start"
+      />
+      <MenuLinks
+        arr={links}
+        title={text.about}
+        generateUrl={generateUrl}
+        linkClassName="nav-menu-link"
+      />
       <Socials generateUrl={generateUrl} />
     </div>
   );

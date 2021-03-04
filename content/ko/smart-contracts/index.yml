@@ -1,0 +1,39 @@
+title: pos
+layout: pages/smart-contracts
+script: smart-contracts
+text:
+  boxesTitle: Roles
+header:
+  - /_shared/header.md
+
+pageHeader:
+  - md/page-header.md
+
+expendingSection:
+  - md/expending-text-1.md
+  - md/expending-text-2.md
+  - md/expending-text-3.md
+  - md/expending-text-4.md
+  - md/expending-text-5.md
+  - md/expending-text-6.md
+  - md/expending-text-7.md
+  - md/expending-text-8.md
+  - md/expending-text-9.md
+  - md/expending-text-10.md
+  - md/expending-text-11.md
+  - md/expending-text-12.md
+  - md/expending-text-13.md
+  - md/expending-text-14.md
+  - md/expending-text-15.md
+
+contractText:
+  - md/contract-text.md
+
+boxes:
+  - md/box-1.md
+  - md/box-2.md
+  - md/box-3.md
+  - md/box-4.md
+  - md/box-5.md
+footer:
+  - /_shared/new-footer.md

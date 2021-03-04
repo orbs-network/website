@@ -1,9 +1,20 @@
 title: Team
-
+layout: pages/team
+script: team/index
 header:
-  - /ko/_shared/header.md
+  - /_shared/header.md
 
-main:
-  - body.md
+leftText:
+  - md/left-text.md
+
+socials:
+  - md/socials.md
+
+management:
+  - md/management.md
+
+employees:
+  - md/employees.md
+
 footer:
-  - /ko/_shared/footer.md
+  - /_shared/new-footer.md

@@ -1,0 +1,16 @@
+title: Blog
+layout: pages/blog-inner
+script: blog/blog
+
+header:
+  - ../../_shared/header.md
+pageHeader:
+  - ../md/header.md
+
+main:
+  - body.md
+
+blog:
+  - blog.md
+footer:
+  - ../../_shared/new-footer.md

@@ -1,10 +1,10 @@
-.base-grid {
-  width: 1500px;
-  margin: auto;
-  margin-top: 40px;
-}
 body {
   background-color: $base-bg-color;
+}
+p,
+li {
+  font-family: $text-font;
+  line-height: 23px;
 }
 .big-section {
   flex: 1;
@@ -20,28 +20,27 @@ html {
   scroll-behavior: smooth;
 }
 .grid-page {
+  width: 1400px;
+  margin: auto;
   .main-header {
-    background: $base-bg-color;
     position: sticky;
     top: 0%;
     margin: auto;
-    width: 1500px;
+  }
+}
+.home-gage {
+  .main-header {
+    width: 1400px;
+    margin: auto;
   }
 }
 
-.home-page {
-  .main-header {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.scrolled-navbar {
+  background: $base-bg-color;
 }
 
 @media only screen and (max-width: 1600px) {
-  .base-grid {
-    width: calc(100% - 60px);
-  }
-  .team-page .main-header,
-  .faq-page .main-header {
-    width: calc(100% - 60px);
+  .grid-page {
+    width: calc(100% - 130px);
   }
 }

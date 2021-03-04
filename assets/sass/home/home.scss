@@ -1,0 +1,176 @@
+:root {
+  --basic-margin-bottom: 10px;
+}
+.home-page {
+  height: 100vh;
+  padding-left: 150px;
+  padding-right: 150px;
+  .main-header {
+    background: transparent;
+    margin: auto;
+    position: sticky;
+  }
+  main {
+    height: calc(100% - #{$navbar-height});
+  }
+}
+.home-globe {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  transform: translate(170px);
+}
+#globeViz {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  font-family: "Montserrat";
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  height: 100%;
+}
+.page-wrapper {
+  height: 100%;
+}
+.navbar {
+  padding: 0px 30px;
+}
+.globe-loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: black;
+  width: 100%;
+  height: 100vh;
+  z-index: 999999;
+  opacity: 1;
+  transition: 0.2s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.hide-loader {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: rgba(95, 255, 210, 0.07);
+  width: 100%;
+  height: 100vh;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.btns-container {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+}
+
+.btns-container-list {
+  display: flex;
+  li {
+    margin-left: 10px;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: $base-bg-color;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
+
+.zIndex {
+  position: relative;
+  z-index: 99;
+}
+
+.home-flex {
+  position: relative;
+  height: calc(100% - 80px);
+  pointer-events: none;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  &-text {
+    position: relative;
+    top: 30%;
+    transform: translate(0, -50%);
+    p {
+      text-transform: uppercase;
+      font-family: $light-font;
+      &:nth-child(1) {
+        font-size: 20px;
+      }
+    }
+    h3 {
+      font-family: $bold-font;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+  }
+  .socials {
+    top: 60%;
+    position: relative;
+    transform: translate(0, -50%);
+  }
+}
+
+.addImgInput {
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  transform: translate(0, -100%);
+  width: 40px;
+  height: 40px;
+  background: white;
+  z-index: 999999;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addImgInput input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.addImgInput p {
+  color: black;
+  font-size: 24px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}

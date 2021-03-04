@@ -1,9 +1,14 @@
 import React from "react";
+import { animations } from "../../assets/js/consts/consts";
 
 const FaqElement = ({ faq, border }) => {
   const borderStyle = `1px solid #${border}`;
   return (
-    <li className="faq-element" style={{ border: borderStyle }}>
+    <li
+      className="faq-element"
+      style={{ border: borderStyle }}
+      data-aos={animations.fadeTop}
+    >
       <figure
         className="faq-element-arrow"
         style={{ borderLeft: borderStyle, borderBottom: borderStyle }}

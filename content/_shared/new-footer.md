@@ -40,6 +40,26 @@ tweets:
     hours_ago: 2
 
 navigation:
-  - name: twitter
+  - name: network overview
     url: /
+  - name: orbs smart contracts
+    url: /
+  - name: overview
+    url: /
+  - name: proof of stake
+    url: /
+  - name: universe
+    url: /
+  - name: resources
+    url: /
+  - name: white papers
+    url: /
+  - name: team
+    url: /team
+  - name: faq
+    url: /faq
+  - name: blog
+    url: /blog
+  - name: contact
+    url: /contact
 ---
