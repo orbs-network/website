@@ -1,5 +1,5 @@
 ---
-layout: navbar
+layout: partials/common/navbar
 
 text:
   resources: Resources
@@ -10,10 +10,13 @@ text:
 languages:
   - id: en
     link: /
+    img: /assets/img/navbar/usa.png
   - id: ko
     link: /ko
+    img: /assets/img/navbar/korea.png
   - id: jp
     link: /jp
+    img: /assets/img/navbar/japan.png
 links:
   - name: Home
     url: /
@@ -25,8 +28,8 @@ links:
     url: /blog
   - name: Technology
     url: /technology
-  - name: Pos Universe
-    url: /universe
+  - name: Contact
+    url: /contact
 
 resources:
   - name: tetra
@@ -48,5 +51,5 @@ overview:
   - name: orbs smart contracts
     url: /smart-contracts
   - name: proof of stake universe
-    url: https://www.orbs.com/orbs-pos-universe/
+    url: /pos-universe
 ---

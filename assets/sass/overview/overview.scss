@@ -1,4 +1,18 @@
 .overview {
+  position: relative;
+  .page-header {
+    position: relative;
+    h1 {
+      margin-top: 0px;
+    }
+    figure {
+      width: 100%;
+      img {
+        object-fit: contain;
+        transform: scale(1.55) translate(0, -50px);
+      }
+    }
+  }
   &-flex {
     width: 60%;
     .text-with-title {

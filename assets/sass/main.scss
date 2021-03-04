@@ -23,12 +23,20 @@ html {
   width: 1400px;
   margin: auto;
   .main-header {
-    background: $base-bg-color;
     position: sticky;
     top: 0%;
     margin: auto;
-    width: 100%;
   }
+}
+.home-gage {
+  .main-header {
+    width: 1400px;
+    margin: auto;
+  }
+}
+
+.scrolled-navbar {
+  background: $base-bg-color;
 }
 
 @media only screen and (max-width: 1600px) {
