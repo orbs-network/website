@@ -56,11 +56,28 @@ export const onOutsideEvent = (element, callback) => {
   });
 };
 
+const onScrollEvent = () => {
+  const navbar = getElement(".main-navbar");
+  document.addEventListener(
+    "scroll",
+    () => {
+      const offsetTop = window.pageYOffset;
+      if (offsetTop >= 80) {
+        navbar.classList.add("scrolled-navbar");
+      } else {
+        navbar.classList.remove("scrolled-navbar");
+      }
+    },
+    { passive: true }
+  );
+};
+
 export const addListenersToNavbar = () => {
   const hamburger = getElement(".navbar-burger-open");
   addEvent(hamburger, "click", showMenu);
   const closeMenu = getElement(".navbar-burger-close");
   addEvent(closeMenu, "click", hideMenu);
+  onScrollEvent();
 };
 
 export const showMenu = () => {

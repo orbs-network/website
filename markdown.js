@@ -1,3 +1,5 @@
+const { animations } = require("./assets/js/consts/consts");
+
 // custom markdown extensions
 module.exports = exports = function renderer({
   Marked,
@@ -9,6 +11,18 @@ module.exports = exports = function renderer({
   _globalProp,
   _relativeURL,
 }) {
+  Marked.heading = (text, level) => {
+    return `<h${level} id="${text
+      .toLowerCase()
+      .replace(/[^\w]+/g, "-")}" data-aos=${
+      animations.fadeTop
+    }>${text}</h${level}>\n`;
+  };
+
+  Marked.paragraph = (text) => {
+    return `<p data-aos=${animations.fadeTop}>${text}</p>\n`;
+  };
+
   // example for adding a class
   Marked.hr = () => {
     return `<hr class="my-custom-class">\n`;

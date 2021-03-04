@@ -1,10 +1,16 @@
 title: Home
-
+layout: pages/home
+script: globe/globe
 header:
   - /_shared/header.md
 
-main:
-  - body.md
+globe:
+  - md/globe.md
+cards:
+  - md/cards.md
 
-footer:
-  - /_shared/footer.md
+pageText:
+  - md/text-box.md
+
+socials:
+  - md/socials.md

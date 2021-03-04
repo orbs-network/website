@@ -4,6 +4,7 @@
 .team {
   align-items: flex-start;
   padding-bottom: 200px;
+  padding-top: 70px;
 }
 
 .team-lists {
@@ -23,23 +24,26 @@
   display: flex;
   flex-direction: column;
 }
+.team-left-content {
+  h1 {
+    font-size: 24px;
+    text-align: left;
+    font-family: $bold-font;
+    line-height: 35px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 15px;
 
-.team-description-top h1 {
-  font-size: 40px;
-  text-align: left;
+    &:last-child {
+      text-transform: uppercase;
+      font-family: $bold-font;
+    }
+  }
 }
-.team-description-top p {
-  font-size: 15px;
-  text-align: left;
-  margin-top: 15px;
-}
-.team-description-hiring {
-  margin-top: 150px;
-}
-.team-description-hiring p,
-.team-description-hiring a {
-  text-transform: uppercase;
-}
+
 .team-description-hiring a {
   margin-left: 5px;
   text-decoration: underline;
@@ -124,6 +128,10 @@
       margin-right: 5px;
       &:last-of-type {
         margin-right: 0px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
   }

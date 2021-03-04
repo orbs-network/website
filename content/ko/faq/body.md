@@ -1,7 +1,7 @@
 ---
 layout: faq
-language: en
 selected: Faq
+
 text:
   faq: FAQ
   publicBlockchain: Public blockchain infrastructure designed for businesses
