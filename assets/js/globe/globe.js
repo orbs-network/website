@@ -32,6 +32,7 @@ export const globeController = new (class GlobeClass {
       .pathDashGap(0.004)
       .pathDashAnimateTime(100000)
       .pathPointAlt(0.1)
+      .backgroundColor("#171819")
       .pointsData(this.points)
       .pointAltitude(0.001)
       .pointColor(() => "#5fffd2")
@@ -81,8 +82,12 @@ export const globeController = new (class GlobeClass {
   init() {
     try {
       this.createGlobe();
+      window.addEventListener("resize", (event) => {
+        this.globe.width([event.target.innerWidth]);
+        this.globe.height([event.target.innerHeight]);
+      });
       addEventsToCards();
-      onlyForDev();
+      // onlyForDev();
     } catch (error) {
       console.log(error);
       console.log("could not find globe container");

@@ -1,10 +1,16 @@
 title: Blog
+layout: pages/blog
+script: blog/blog
 
 header:
   - /_shared/header.md
 
-main:
-  - body.md
+pageHeader:
+  - md/header.md
+
+blogs:
+  - first-blog/blog.md
+  - second-blog/blog.md
 
 footer:
   - /_shared/new-footer.md

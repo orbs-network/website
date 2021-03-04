@@ -1,10 +1,16 @@
-title: Orbs
-
+title: Home
+layout: pages/home
+script: globe/globe
 header:
-  - /jp/_shared/header.md
+  - _shared/header.md
 
-main:
-  - body.md
+globe:
+  - md/globe.md
+cards:
+  - md/cards.md
 
-footer:
-  - /jp/_shared/footer.md
+pageText:
+  - md/text-box.md
+
+socials:
+  - md/socials.md

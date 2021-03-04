@@ -1,12 +1,14 @@
+.footer-wrapper {
+  margin-top: 100px;
+}
 .footer-flex {
   display: flex;
-  width: 1200px;
   margin: auto;
 }
 .footer-wrapper {
   background: $base-bg-color;
   color: white;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   font-family: "Montserrat";
 }
 .footer-wrapper p,
@@ -44,7 +46,7 @@
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
-  max-height: 2.8em;
+  max-height: 3.4em;
 }
 
 .footer-post:last-of-type {

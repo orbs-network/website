@@ -1,0 +1,35 @@
+title: pos
+layout: pages/universe
+
+script: universe
+header:
+  - /_shared/header.md
+
+pageHeader:
+  - md/header.md
+
+topSections:
+  - md/section1.md
+  - md/section2.md
+
+leftText:
+  - md/left-text.md
+
+text:
+  - md/text.md
+
+images:
+  - md/images-grid.md
+
+expendingSection:
+  - md/expending-text-1.md
+  - md/expending-text-2.md
+  - md/expending-text-3.md
+  - md/expending-text-4.md
+  - md/expending-text-5.md
+  - md/expending-text-6.md
+  - md/expending-text-7.md
+  - md/expending-text-8.md
+
+footer:
+  - /_shared/new-footer.md

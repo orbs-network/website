@@ -1,3 +1,5 @@
+const { animations } = require("./assets/js/consts/consts");
+
 // custom markdown extensions
 module.exports = exports = function renderer({
   Marked,
@@ -9,6 +11,18 @@ module.exports = exports = function renderer({
   _globalProp,
   _relativeURL,
 }) {
+  Marked.heading = (text, level) => {
+    return `<h${level} id="${text
+      .toLowerCase()
+      .replace(/[^\w]+/g, "-")}" data-aos=${
+      animations.fadeTop
+    }>${text}</h${level}>\n`;
+  };
+
+  Marked.paragraph = (text) => {
+    return `<p data-aos=${animations.fadeTop}>${text}</p>\n`;
+  };
+
   // example for adding a class
   Marked.hr = () => {
     return `<hr class="my-custom-class">\n`;
@@ -27,7 +41,9 @@ module.exports = exports = function renderer({
     ) {
       href = _relativeURL(href, _ID);
     }
-    return `<a href="${href}"${title ? ` title="${title}"` : ""}>${text}</a>`;
+    return `<a href="${href}"${
+      title ? ` title="${title}"` : ""
+    } target='_blank'>${text}</a>`;
   };
 
   // making all images relative
@@ -49,6 +65,7 @@ module.exports = exports = function renderer({
 
   // making all html tags with paths relative
   Marked.html = (html) => {
+    console.log(html);
     for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
       html = html.replace(match[1], _relativeURL(match[1], _ID));
     }
