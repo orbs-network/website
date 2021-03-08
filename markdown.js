@@ -19,9 +19,9 @@ module.exports = exports = function renderer({
     }>${text}</h${level}>\n`;
   };
 
-  Marked.paragraph = (text) => {
-    return `<p data-aos=${animations.fadeTop}>${text}</p>\n`;
-  };
+  // Marked.paragraph = (text) => {
+  //   return `<p data-aos=${animations.fadeTop}>${text}</p>\n`;
+  // };
 
   // example for adding a class
   Marked.hr = () => {
