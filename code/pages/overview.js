@@ -16,6 +16,7 @@ const Overview = ({
   secondImagesGrid,
   text,
   secondBoxes,
+  linkBtn,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -42,6 +43,7 @@ const Overview = ({
           {text}
         </div>
         <div className="flex-start overview-boxes-flex"> {secondBoxes}</div>
+        {linkBtn}
       </main>
       {script != undefined ? (
         <script

@@ -418,7 +418,7 @@ main {
   padding-bottom: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
   .text-with-title h5 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
     text-transform: uppercase; }
@@ -458,7 +458,8 @@ main {
     margin-bottom: 30px; }
   .box h5 {
     font-size: 17px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    text-transform: uppercase; }
   .box figure {
     width: 40px;
     height: 40px;
@@ -469,6 +470,16 @@ main {
       width: 100%;
       height: 100%;
       object-fit: contain; }
+
+.list-box {
+  margin-bottom: 30px; }
+  .list-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500; }
+  .list-box ul li {
+    font-size: 14px;
+    margin-bottom: 5px; }
 
 .team-page {
   position: relative; }
@@ -1561,20 +1572,14 @@ body {
     width: 60%; }
     .overview-flex .text-with-title {
       margin-bottom: 30px; }
-      .overview-flex .text-with-title .expend-btn {
-        padding: 10px 20px;
-        background: transparent;
-        border-radius: 20px;
-        border: 1px solid white;
-        font-size: 11px; }
-      .overview-flex .text-with-title:last-child {
-        border: 0px; }
   .overview .images-grid {
     margin-top: 50px;
-    width: 100%; }
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px; }
   .overview-boxes-flex .box {
-    width: calc(100% / 3 - 15px);
-    margin-right: 15px; }
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px; }
   .overview-bottom-flex {
     margin-top: 40px; }
     .overview-bottom-flex .text-with-title {
@@ -1584,6 +1589,31 @@ body {
       margin-bottom: 40px; }
     .overview-bottom-flex .images-grid {
       margin-bottom: 40px; }
+  .overview .list-box {
+    width: 600px; }
+    .overview .list-box li {
+      padding-left: 20px;
+      position: relative; }
+      .overview .list-box li:after {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #ff3ee1;
+        content: "";
+        left: 0px;
+        top: 6px; }
+    .overview .list-box ul {
+      margin-bottom: 20px; }
+  .overview .expend-btn {
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Montserrat"; }
 
 .universe p {
   font-size: 14px; }
