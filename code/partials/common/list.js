@@ -1,26 +1,13 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
 
-const TextWithTitle = ({
-  _body,
-  linesLimit,
-  title,
-  readMoreButton,
-  readLessButton,
-  border,
-}) => {
+const List = ({ _body, linesLimit, title, readMoreButton, readLessButton }) => {
   const style = { WebkitLineClamp: linesLimit };
-  const parentStyle = {
-    borderBottom: border ? "1px solid rgba(255,255,255, 0.5)" : "none",
-  };
+
   return (
-    <div
-      className="text-with-title"
-      data-aos={animations.fadeTop}
-      style={parentStyle}
-    >
-      <h5>{title}</h5>
-      <div
+    <div className="list-box" data-aos={animations.fadeTop}>
+      {title && <h4>{title}</h4>}
+      <ul
         className={
           linesLimit
             ? "text-box-base-text limited-lines "
@@ -29,8 +16,7 @@ const TextWithTitle = ({
         style={linesLimit ? style : null}
       >
         {_body}
-      </div>
-
+      </ul>
       {linesLimit && (
         <button
           className="expend-btn"
@@ -42,4 +28,4 @@ const TextWithTitle = ({
   );
 };
 
-export default TextWithTitle;
+export default List;

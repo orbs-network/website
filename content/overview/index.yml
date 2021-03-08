@@ -14,6 +14,7 @@ flexSection:
   - md/expending-text-3.md
   - md/images-grid.md
   - md/expending-text-4.md
+  - md/list.md
 
 boxes:
   - md/box-1.md
@@ -33,6 +34,9 @@ secondBoxes:
 
 secondImagesGrid:
   - md/second-images-grid.md
+
+linkBtn:
+  - md/link.md
 
 footer:
   - /_shared/new-footer.md

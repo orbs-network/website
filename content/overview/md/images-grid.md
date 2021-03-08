@@ -1,6 +1,7 @@
 ---
 layout: partials/common/images-grid
 imagesPerLine: 3
+border: true
 images:
   - text: Microservice implementation of the node core
     src:
