@@ -1,3 +1,0 @@
----
-layout: partials/home/cards
----

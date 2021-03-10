@@ -6,11 +6,18 @@ header:
 
 globe:
   - md/globe.md
-cards:
-  - md/cards.md
 
 pageText:
   - md/text-box.md
+
+cards:
+  - md/cards/card-1.md
+  - md/cards/card-2.md
+  - md/cards/card-3.md
+  - md/cards/card-4.md
+  - md/cards/card-5.md
+  # - md/cards/card-6.md
+  # - md/cards/card-7.md
 
 socials:
   - md/socials.md
