@@ -4,6 +4,21 @@ export const images = {
     logo: `${prefix}/globe/logo.png`,
     metamask: `${prefix}/globe/metamask.png`,
     repository: `${prefix}/globe/repository.svg`,
+    contributor: {
+      email: `${prefix}/globe/cards/contributor/email.svg`,
+      github: `${prefix}/globe/cards/contributor/github.svg`,
+      link: `${prefix}/globe/cards/contributor/link.svg`,
+    },
+    delegator: {
+      telegram: `${prefix}/globe/cards/delegator/telegram.svg`,
+      twitter: `${prefix}/globe/cards/delegator/twitter.svg`,
+      link: `${prefix}/globe/cards/delegator/link.svg`,
+    },
+    guardian: {
+      telegram: `${prefix}/globe/cards/guardian/telegram.svg`,
+      github: `${prefix}/globe/cards/guardian/github.svg`,
+      link: `${prefix}/globe/cards/guardian/link.svg`,
+    },
   },
   socials: {
     telegram: `${prefix}/socials/telegram.png`,

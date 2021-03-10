@@ -6,12 +6,12 @@ const Blog = ({
   title,
   header,
   globe,
-  cards,
   script,
   _relativeURL,
   _ID,
   pageText,
   socials,
+  cards,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -19,8 +19,8 @@ const Blog = ({
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="http://chancejs.com/chance.min.js"></script>
       <script src="//unpkg.com/globe.gl"></script>
-
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <link

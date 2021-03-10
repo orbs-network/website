@@ -134,3 +134,8 @@ const toggleTextBox = (event) => {
     return node.classList.add(limitedClassName);
   });
 };
+
+export const getElementAttribute = (element, attr) => {
+  if (!element) return;
+  return element.getAttribute(attr);
+};
