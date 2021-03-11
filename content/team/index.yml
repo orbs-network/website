@@ -8,7 +8,7 @@ leftText:
   - md/left-text.md
 
 socials:
-  - md/socials.md
+  - /_shared/socials.md
 
 management:
   - md/management.md

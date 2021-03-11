@@ -10,117 +10,117 @@ employees:
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 
   - name: Name 1
     role: Title here
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: Name-1
+    avatar: /assets/img/team/management.jpg
 ---

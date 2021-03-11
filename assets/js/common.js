@@ -15,8 +15,11 @@ export const removeClass = (element, className) => {
   element.classList.remove(className);
 };
 
-export const hideElement = (element) => {
+export const hideElement = (element, transform) => {
   if (!element) return;
+  if (transform) {
+    element.style.transform = transform;
+  }
   element.style.opacity = 0;
   element.style.pointerEvents = "none";
   setTimeout(() => {
@@ -24,8 +27,11 @@ export const hideElement = (element) => {
   }, 200);
 };
 
-export const showElement = (element) => {
+export const showElement = (element, transform) => {
   element.style.display = "flex";
+  if (transform) {
+    element.style.transform = transform;
+  }
   setTimeout(() => {
     element.style.opacity = 1;
     element.style.pointerEvents = "all";
@@ -37,10 +43,10 @@ export const onMouseEnterAndLeaveEvent = (
   enterCallback,
   leaveCallback
 ) => {
-  element.addEventListener("mouseenter", function (event) {
+  element.addEventListener("mouseenter", function () {
     enterCallback();
   });
-  element.addEventListener("mouseleave", function (event) {
+  element.addEventListener("mouseleave", function () {
     leaveCallback();
   });
 };
@@ -49,8 +55,8 @@ export const onOutsideEvent = (element, callback) => {
   if (!element) return;
   document.addEventListener("click", function (event) {
     const isClickInside = element.contains(event.target);
-    if (element.style.opacity == "0") return;
-    if (!isClickInside) {
+    const opacity = element.style.opacity == 1;
+    if (!isClickInside && opacity) {
       callback();
     }
   });
@@ -133,4 +139,9 @@ const toggleTextBox = (event) => {
     event.target.innerText = event.target.dataset.open;
     return node.classList.add(limitedClassName);
   });
+};
+
+export const getElementAttribute = (element, attr) => {
+  if (!element) return;
+  return element.getAttribute(attr);
 };

@@ -33,6 +33,11 @@ main {
   align-items: center;
   justify-content: center;
 }
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .flex-between {
   display: flex;
   justify-content: center;
@@ -80,8 +85,8 @@ main {
 }
 
 .socials-element {
-  width: 40px;
-  margin-right: 5px;
+  width: 30px;
+  margin-right: 15px;
   height: 100%;
 }
 .socials-element a {
@@ -340,4 +345,18 @@ main {
       margin-bottom: 5px;
     }
   }
+}
+
+.link-btn {
+  padding: 10px 30px;
+  border: 2px solid #53fffa;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: fit-content;
+  text-transform: capitalize;
+  margin-top: 40px;
+  text-decoration: none;
 }
