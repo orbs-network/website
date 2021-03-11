@@ -7,4 +7,11 @@ export const globeConfig = {
   img: "/assets/img/globe/globe-bg.jpg",
   N_PATHS: 20,
   rotationSpeed: 0.5,
+  backgroundColor: "#121822",
+  showCardInterval: 10000,
+  hideCardTimeout: 4000,
+  maxTransformX: 50,
+  minTransformX: -50,
+  maxTransformY: 50,
+  minTransformY: -50,
 };

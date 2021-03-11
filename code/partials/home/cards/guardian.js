@@ -1,7 +1,10 @@
 import React from "react";
-import { images } from "../../../assets/js/images";
-import { formatNumber } from "../../util/numberUtil";
-import { Border } from "./border";
+import { images } from "../../../../assets/js/images";
+import Img from "../../../common-components/Img";
+import { formatNumber } from "../../../util/numberUtil";
+import { Border } from "./components/border";
+import CardTitle from "./components/card-title";
+import CardTooltip from "./components/card-tooltip";
 
 const Guardian = ({
   image,
@@ -23,24 +26,27 @@ const Guardian = ({
   return (
     <div className="globe-card g-card">
       <figure className="card-avatar">
-        <asid className="card-type">{type}</asid>
-        <img src={generateUrl(image)} />
+        <CardTooltip
+          img={generateUrl(images.globe.guardian.figure)}
+          type={type}
+        />
+        <Img src={generateUrl(image)} className="card-avatar-img" />
       </figure>
       <div className="card-data">
-        <h3 className="card-name">{name}</h3>
+        <CardTitle title={name} />
         <span className="flex-center card-location">
           <img src="" />
           <p>{location}</p>
         </span>
         <section className="card-links flex-center">
           <a href={website} target="_blank" className="flex-center">
-            <img src={generateUrl(images.globe.guardian.link)} />
+            <Img src={generateUrl(images.globe.guardian.link)} />
           </a>
           <a href={github} target="_blank" className="flex-center">
-            <img src={generateUrl(images.globe.guardian.github)} />
+            <Img src={generateUrl(images.globe.guardian.github)} />
           </a>
           <a href={telegram} target="_blank" className="flex-center">
-            <img src={generateUrl(images.globe.guardian.telegram)} />
+            <Img src={generateUrl(images.globe.guardian.telegram)} />
           </a>
         </section>
         <Border />

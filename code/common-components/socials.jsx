@@ -23,6 +23,10 @@ const links = [
     img: images.socials.github,
     url: "https://github.com/orbs-network/",
   },
+  {
+    img: images.socials.quora,
+    url: "https://github.com/orbs-network/",
+  },
 ];
 
 const Socials = ({ generateUrl }) => {

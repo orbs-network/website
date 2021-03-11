@@ -3,13 +3,16 @@
   padding-left: 150px;
   padding-right: 150px;
   background: #121822;
+  position: relative;
+  z-index: 99999999;
   .main-header {
     background: transparent;
     margin: auto;
     position: sticky;
+    height: 100px;
   }
   main {
-    height: calc(100% - #{$navbar-height});
+    height: calc(100% - 100px);
   }
 }
 .home-globe {
@@ -47,7 +50,7 @@ body {
   background: black;
   width: 100%;
   height: 100vh;
-  z-index: 999999;
+  z-index: 9999999;
   opacity: 1;
   transition: 0.2s all;
   display: flex;
@@ -107,7 +110,7 @@ body {
 
 .home-flex {
   position: relative;
-  height: calc(100% - 80px);
+  height: calc(100% - 100px);
   pointer-events: none;
   z-index: 99;
   display: flex;
@@ -117,6 +120,7 @@ body {
     top: 30%;
     transform: translate(0, -50%);
     p {
+      letter-spacing: 3px;
       text-transform: uppercase;
       font-family: $light-font;
       &:nth-child(1) {
@@ -124,6 +128,7 @@ body {
       }
     }
     h3 {
+      letter-spacing: 3px;
       font-family: $bold-font;
       margin-top: 5px;
       margin-bottom: 5px;
@@ -171,4 +176,11 @@ body {
   position: relative;
   z-index: 0;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+  .home-page {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
 }

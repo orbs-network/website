@@ -1,5 +1,5 @@
 ---
-layout: partials/home/contributor
+layout: partials/home/cards/contributor
 title: test1
 name: test2
 image: /assets/img/globe/cards/card1.png

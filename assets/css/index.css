@@ -283,8 +283,8 @@ main {
   height: 70%; }
 
 .socials-element {
-  width: 40px;
-  margin-right: 5px;
+  width: 30px;
+  margin-right: 15px;
   height: 100%; }
 
 .socials-element a {
@@ -489,6 +489,19 @@ main {
     font-size: 14px;
     margin-bottom: 5px; }
 
+.link-btn {
+  padding: 10px 30px;
+  border: 2px solid #53fffa;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: fit-content;
+  text-transform: capitalize;
+  margin-top: 40px;
+  text-decoration: none; }
+
 .team-page {
   position: relative; }
 
@@ -496,10 +509,9 @@ main {
   align-items: flex-start;
   padding-bottom: 200px;
   padding-top: 70px; }
-
-.team-lists {
-  margin-top: auto;
-  padding-bottom: 200px; }
+  .team-lists {
+    margin-top: auto;
+    padding-bottom: 200px; }
 
 .team-list-section {
   display: flex;
@@ -586,7 +598,7 @@ main {
   .teammate-name {
     font-size: 17px;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-weight: bold; }
   .teammate-position {
     font-size: 14px;
@@ -596,14 +608,21 @@ main {
     height: 30px;
     align-items: center; }
     .teammate-socials-link {
-      width: 20px;
-      height: 20px;
-      margin-right: 5px; }
+      width: 13px;
+      height: 13px;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%; }
       .teammate-socials-link:last-of-type {
         margin-right: 0px; }
       .teammate-socials-link img {
         width: 100%;
-        height: 100%; }
+        height: 100%;
+        object-fit: contain; }
+    .teammate-socials-links {
+      height: 100%; }
   .teammate-border {
     width: calc(100% - 115px);
     border-bottom: 1px solid #4b4b4b;
@@ -674,13 +693,16 @@ main {
   height: 100vh;
   padding-left: 150px;
   padding-right: 150px;
-  background: #121822; }
+  background: #121822;
+  position: relative;
+  z-index: 99999999; }
   .home-page .main-header {
     background: transparent;
     margin: auto;
-    position: sticky; }
+    position: sticky;
+    height: 100px; }
   .home-page main {
-    height: calc(100% - 80px); }
+    height: calc(100% - 100px); }
 
 .home-globe {
   position: fixed;
@@ -715,7 +737,7 @@ body {
   background: black;
   width: 100%;
   height: 100vh;
-  z-index: 999999;
+  z-index: 9999999;
   opacity: 1;
   transition: 0.2s all;
   display: flex;
@@ -767,7 +789,7 @@ body {
 
 .home-flex {
   position: relative;
-  height: calc(100% - 80px);
+  height: calc(100% - 100px);
   pointer-events: none;
   z-index: 99;
   display: flex;
@@ -777,11 +799,13 @@ body {
     top: 30%;
     transform: translate(0, -50%); }
     .home-flex-text p {
+      letter-spacing: 3px;
       text-transform: uppercase;
       font-family: "light"; }
       .home-flex-text p:nth-child(1) {
         font-size: 20px; }
     .home-flex-text h3 {
+      letter-spacing: 3px;
       font-family: "bold";
       margin-top: 5px;
       margin-bottom: 5px;
@@ -824,6 +848,11 @@ body {
   z-index: 0;
   cursor: pointer; }
 
+@media only screen and (max-width: 1400px) {
+  .home-page {
+    padding-left: 90px;
+    padding-right: 90px; } }
+
 .globe-card {
   overflow: hidden;
   border-radius: 10px;
@@ -832,7 +861,8 @@ body {
   background: #1a1a1a;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform-origin: center;
+  transform: scale(0.5) translate(-50%, -50%);
   transition: 0.4s all;
   display: none;
   opacity: 0;
@@ -851,13 +881,15 @@ body {
 
 .c-card,
 .d-card,
-.g-card {
+.g-card,
+.u-card {
   width: 700px; }
 
 .card-avatar {
   min-height: 100%;
-  position: relative; }
-  .card-avatar img {
+  position: relative;
+  overflow: hidden; }
+  .card-avatar-img {
     width: 100%;
     height: 100%;
     left: 0px;
@@ -867,20 +899,42 @@ body {
 
 .card-type {
   position: absolute;
+  width: fit-content;
   right: 0px;
   top: 0px;
-  padding: 10px;
-  font-size: 13px; }
+  height: 50px; }
+  .card-type p {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    font-family: "bold";
+    letter-spacing: 1.26px;
+    font-size: 11px;
+    text-align: right;
+    color: #00100c;
+    padding-right: 15px; }
+  .card-type img {
+    width: 100%;
+    transform: scale(1.25);
+    transform-origin: top right;
+    height: auto;
+    position: absolute;
+    right: -5px;
+    top: -2px;
+    object-fit: contain; }
 
-.card-name {
+.card-title {
   font-size: 26px;
   text-align: center;
   font-family: "bold";
-  letter-spacing: 3.96px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 99%; }
+  letter-spacing: 3.96px; }
+
+.card-top-subtitle {
+  color: #d0d0d0;
+  text-transform: capitalize;
+  font-family: "bold";
+  letter-spacing: 1.1px;
+  text-align: center; }
 
 .card-address {
   font-size: 16px;
@@ -936,8 +990,6 @@ body {
     width: calc(100% - 200px); }
   .c-card .card-avatar {
     width: 200px; }
-  .c-card .card-type {
-    background: transparent linear-gradient(180deg, #60e5ff 0%, #7998ff 100%) 0% 0% no-repeat padding-box; }
   .c-card-repos {
     padding: 10px 5px;
     flex-wrap: wrap; }
@@ -1026,9 +1078,6 @@ body {
 
 .d-card {
   border: 3px solid #d0fb6e; }
-  .d-card .card-type {
-    background: #d0fb6e 0% 0% no-repeat padding-box;
-    color: black; }
   .d-card .card-avatar {
     width: 230px; }
   .d-card .card-data {
@@ -1051,28 +1100,14 @@ body {
       height: auto; }
       .d-card-wallets img:first-of-type {
         margin-right: 40px; }
-  .d-card-text {
-    position: relative;
+  .d-card .card-text {
     padding: 10px 30px 10px 30px; }
-    .d-card-text p {
-      color: #d0d0d0;
-      font-weight: 300;
-      text-align: center;
-      font-size: 15px; }
-    .d-card-text .card-quotes {
+    .d-card .card-text .card-quotes {
       color: #d0fb6e; }
-  .d-card-link {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
+  .d-card .card-link-btn {
     border: 2px solid #d0fb6e;
-    border-radius: 50px;
     color: #d0fb6e;
-    padding: 8px 20px;
-    font-family: "Montserrat";
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    text-decoration: none; }
+    text-transform: uppercase; }
 
 .g-card {
   height: auto;
@@ -1080,7 +1115,8 @@ body {
   .g-card .card-avatar {
     width: 200px; }
   .g-card .card-data {
-    width: calc(100% - 200px); }
+    width: calc(100% - 200px);
+    padding-top: 10px; }
   .g-card-stake {
     padding-top: 20px;
     padding-bottom: 10px; }
@@ -1089,7 +1125,7 @@ body {
       font-family: "bold";
       letter-spacing: 2.5px; }
     .g-card-stake p {
-      font-size: 13px;
+      font-size: 11px;
       margin-top: 0px;
       font-family: "light";
       color: #d0d0d0;
@@ -1100,12 +1136,15 @@ body {
     margin-bottom: 20px;
     margin-top: 10px; }
 
+.blog-post,
+.r-paper {
+  width: 500px; }
+
 .r-paper {
   border: 3px solid #ff7c00;
-  width: 500px;
   align-items: center;
   padding: 20px; }
-  .r-paper .card-name {
+  .r-paper .card-title {
     text-transform: uppercase;
     font-size: 22px;
     margin-bottom: 10px; }
@@ -1141,20 +1180,14 @@ body {
     color: white; }
 
 .blog-post {
-  width: 500px;
   align-items: center;
   padding: 20px 40px 20px 40px;
   border: 3px solid #00bfe8; }
-  .blog-post-small-title {
-    color: #d0d0d0;
-    text-transform: capitalize;
-    font-family: "bold";
-    letter-spacing: 1.1px; }
-  .blog-post-name {
+  .blog-post .card-top-subtitle {
+    margin-bottom: 10px; }
+  .blog-post .card-title {
+    padding: 0px 10px;
     font-size: 22px;
-    text-align: center;
-    font-family: "bold";
-    letter-spacing: 3px;
     text-transform: uppercase; }
   .blog-post-date {
     margin-top: 10px; }
@@ -1165,10 +1198,10 @@ body {
       margin-right: 5px;
       color: #d0d0d0; }
   .blog-post-img {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 100%;
-    height: 170px; }
+    height: 180px; }
     .blog-post-img img {
       width: 100%;
       height: 100%;
@@ -1182,7 +1215,8 @@ body {
   margin-right: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .card-text p {
     color: #d9d9d9;
     font-size: 14px;
@@ -1191,12 +1225,66 @@ body {
 .card-link-btn {
   text-decoration: none;
   border-radius: 50px;
-  padding: 10px 30px;
+  padding: 8px 30px;
   font-family: "Montserrat";
   font-size: 14px;
+  margin: auto;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 500;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  width: fit-content; }
+
+.u-card {
+  padding: 20px 30px 20px 30px;
+  border: 3px solid #00d9c4; }
+  .u-card-flex {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .u-card-flex-element {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .u-card-flex-element h5 {
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-size: 12px; }
+      .u-card-flex-element figure {
+        width: 50%;
+        height: 120px;
+        margin-top: 15px; }
+        .u-card-flex-element figure img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+
+.team-card {
+  width: 650px;
+  border: 3px solid #e5fe00;
+  min-height: 330px; }
+  .team-card .card-avatar {
+    width: 220px;
+    padding: 5px; }
+  .team-card .card-data {
+    width: calc(100% - 220px);
+    padding: 20px 30px 30px 30px; }
+  .team-card .card-links {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .team-card .card-title {
+    text-transform: uppercase;
+    font-size: 20px; }
+  .team-card .card-text {
+    padding: 0px; }
+    .team-card .card-text p {
+      text-align: left; }
+  .team-card-sub-title {
+    text-align: center;
+    letter-spacing: 0.85px;
+    font-family: "bold";
+    margin-bottom: 15px;
+    font-size: 12px; }
 
 .main-header {
   margin: 0px;

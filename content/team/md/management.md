@@ -7,26 +7,26 @@ management:
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: nadav-shemesh
+    avatar: /assets/img/team/management.jpg
 
   - name: Netta Korin
     role: Co-Founder & CEO
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: neta-korin
+    avatar: /assets/img/team/management.jpg
 
   - name: Tal Kol
     role: Co-Founder & CEO
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: tal-kol
+    avatar: /assets/img/team/management.jpg
 
   - name: Daniel Peled
     role: Co-Founder & CEO
     twitter: twitter
     linkedin: linkedin
     telegram: telegram
-    avatar: daniel-peled
+    avatar: /assets/img/team/management.jpg
 ---
