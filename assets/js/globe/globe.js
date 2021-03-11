@@ -58,7 +58,6 @@ export const globeController = new (class GlobeClass {
     const globeContainer = getElement("#globeViz");
 
     globElem
-      .globeImageUrl(globeConfig.img)
       .backgroundColor(globeConfig.backgroundColor)
       .pointsData(this.points)
       .pointAltitude(0.003)
