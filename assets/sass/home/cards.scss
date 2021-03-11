@@ -10,7 +10,8 @@ $delegator-color: #d0fb6e;
   background: #1a1a1a;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform-origin: center;
+  transform: scale(0.5) translate(-50%, -50%);
   transition: 0.4s all;
   display: none;
   opacity: 0;
@@ -31,13 +32,15 @@ $delegator-color: #d0fb6e;
 }
 .c-card,
 .d-card,
-.g-card {
+.g-card,
+.u-card {
   width: 700px;
 }
 .card-avatar {
   min-height: 100%;
   position: relative;
-  img {
+  overflow: hidden;
+  &-img {
     width: 100%;
     height: 100%;
     left: 0px;
@@ -48,20 +51,46 @@ $delegator-color: #d0fb6e;
 }
 .card-type {
   position: absolute;
+  width: fit-content;
   right: 0px;
   top: 0px;
-  padding: 10px;
-  font-size: 13px;
+  height: 50px;
+
+  p {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    font-family: $bold-font;
+    letter-spacing: 1.26px;
+    font-size: 11px;
+    text-align: right;
+    color: #00100c;
+    padding-right: 15px;
+  }
+  img {
+    width: 100%;
+    transform: scale(1.25);
+    transform-origin: top right;
+    height: auto;
+    position: absolute;
+    right: -5px;
+    top: -2px;
+    object-fit: contain;
+  }
 }
-.card-name {
+.card-title {
   font-size: 26px;
   text-align: center;
   font-family: $bold-font;
   letter-spacing: 3.96px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 99%;
+}
+
+.card-top-subtitle {
+  color: $light-gray;
+  text-transform: capitalize;
+  font-family: $bold-font;
+  letter-spacing: 1.1px;
+  text-align: center;
 }
 
 .card-address {
@@ -132,10 +161,7 @@ $delegator-color: #d0fb6e;
   .card-avatar {
     width: 200px;
   }
-  .card-type {
-    background: transparent linear-gradient(180deg, #60e5ff 0%, #7998ff 100%) 0%
-      0% no-repeat padding-box;
-  }
+
   &-repos {
     padding: 10px 5px;
     flex-wrap: wrap;
@@ -248,10 +274,7 @@ $delegator-color: #d0fb6e;
 
 .d-card {
   border: 3px solid #d0fb6e;
-  .card-type {
-    background: #d0fb6e 0% 0% no-repeat padding-box;
-    color: black;
-  }
+
   .card-avatar {
     width: 230px;
   }
@@ -281,32 +304,17 @@ $delegator-color: #d0fb6e;
       }
     }
   }
-  &-text {
-    position: relative;
+  .card-text {
     padding: 10px 30px 10px 30px;
-
-    p {
-      color: $light-gray;
-      font-weight: 300;
-      text-align: center;
-      font-size: 15px;
-    }
     .card-quotes {
       color: $delegator-color;
     }
   }
-  &-link {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
+
+  .card-link-btn {
     border: 2px solid $delegator-color;
-    border-radius: 50px;
     color: $delegator-color;
-    padding: 8px 20px;
-    font-family: $text-font;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    text-decoration: none;
+    text-transform: uppercase;
   }
 }
 
@@ -319,6 +327,7 @@ $delegator-color: #d0fb6e;
   }
   .card-data {
     width: calc(100% - 200px);
+    padding-top: 10px;
   }
   &-stake {
     padding-top: 20px;
@@ -330,7 +339,7 @@ $delegator-color: #d0fb6e;
       letter-spacing: 2.5px;
     }
     p {
-      font-size: 13px;
+      font-size: 11px;
       margin-top: 0px;
       font-family: $light-font;
       color: $light-gray;
@@ -348,12 +357,15 @@ $delegator-color: #d0fb6e;
   }
 }
 
+.blog-post,
+.r-paper {
+  width: 500px;
+}
 .r-paper {
   border: 3px solid #ff7c00;
-  width: 500px;
   align-items: center;
   padding: 20px;
-  .card-name {
+  .card-title {
     text-transform: uppercase;
     font-size: 22px;
     margin-bottom: 10px;
@@ -399,22 +411,15 @@ $delegator-color: #d0fb6e;
 }
 
 .blog-post {
-  width: 500px;
-
   align-items: center;
   padding: 20px 40px 20px 40px;
   border: 3px solid #00bfe8;
-  &-small-title {
-    color: $light-gray;
-    text-transform: capitalize;
-    font-family: $bold-font;
-    letter-spacing: 1.1px;
+  .card-top-subtitle {
+    margin-bottom: 10px;
   }
-  &-name {
+  .card-title {
+    padding: 0px 10px;
     font-size: 22px;
-    text-align: center;
-    font-family: $bold-font;
-    letter-spacing: 3px;
     text-transform: uppercase;
   }
   &-date {
@@ -430,10 +435,10 @@ $delegator-color: #d0fb6e;
     }
   }
   &-img {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 100%;
-    height: 170px;
+    height: 180px;
     img {
       width: 100%;
       height: 100%;
@@ -452,6 +457,7 @@ $delegator-color: #d0fb6e;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+  position: relative;
   p {
     color: #d9d9d9;
     font-size: 14px;
@@ -461,10 +467,80 @@ $delegator-color: #d0fb6e;
 .card-link-btn {
   text-decoration: none;
   border-radius: 50px;
-  padding: 10px 30px;
+  padding: 8px 30px;
   font-family: $text-font;
   font-size: 14px;
+  margin: auto;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 500;
   letter-spacing: 1px;
+  width: fit-content;
+}
+
+.u-card {
+  padding: 20px 30px 20px 30px;
+  border: 3px solid #00d9c4;
+
+  &-flex {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    &-element {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5 {
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      figure {
+        width: 50%;
+        height: 120px;
+        margin-top: 15px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+.team-card {
+  width: 650px;
+
+  border: 3px solid #e5fe00;
+
+  min-height: 330px;
+  .card-avatar {
+    width: 220px;
+    padding: 5px;
+  }
+  .card-data {
+    width: calc(100% - 220px);
+    padding: 20px 30px 30px 30px;
+  }
+  .card-links {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .card-title {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .card-text {
+    padding: 0px;
+    p {
+      text-align: left;
+    }
+  }
+  &-sub-title {
+    text-align: center;
+    letter-spacing: 0.85px;
+    font-family: $bold-font;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
 }

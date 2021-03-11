@@ -5,7 +5,7 @@ weight: 10
 link: link
 date: May 10, 2009
 text:
-  proof: Proof of Stake
+  subTitle: Proof of Stake
   title: How to choose a Guardian
   link: 5 min reading
   publishedOn: Published on

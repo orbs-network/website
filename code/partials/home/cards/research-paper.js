@@ -1,4 +1,5 @@
 import React from "react";
+import CardTitle from "./components/card-title";
 
 const ResearchPaper = ({
   text,
@@ -14,7 +15,7 @@ const ResearchPaper = ({
   };
   return (
     <div className="globe-card r-paper flex-column">
-      <h3 className="card-name">{text.title}</h3>
+      <CardTitle title={text.title} />
       <h5 className="r-paper-sub-title">{text.subTitle}</h5>
       <div className="r-paper-date flex-center">
         <h5>{text.publishedOn}:</h5>

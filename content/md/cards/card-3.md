@@ -1,5 +1,5 @@
 ---
-layout: partials/home/guardian
+layout: partials/home/cards/guardian
 title: test101
 name: test400
 image: /assets/img/globe/cards/card1.png

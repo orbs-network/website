@@ -1,7 +1,10 @@
 import React from "react";
-import { images } from "../../../assets/js/images";
-import { Border } from "./border";
-import Interests from "./interests";
+import { images } from "../../../../assets/js/images";
+import Img from "../../../common-components/Img";
+import { Border } from "./components/border";
+import CardTitle from "./components/card-title";
+import CardTooltip from "./components/card-tooltip";
+import Interests from "./components/interests";
 const Contributor = ({
   _body,
   _relativeURL,
@@ -31,14 +34,17 @@ const Contributor = ({
   return (
     <div className="globe-card c-card" data-weight={weight}>
       <figure className="card-avatar">
-        <aside className="card-type">{type}</aside>
-        <img src={generateUrl(image)} />
+        <CardTooltip
+          img={generateUrl(images.globe.contributor.figure)}
+          type={type}
+        />
+        <Img src={generateUrl(image)} className="card-avatar-img" />
       </figure>
       <div className="card-data">
         <span className="flex-center card-date">
           <p>{`${text.joind}: ${joindDate}`}</p>
         </span>
-        <h3 className="card-name">{weight}</h3>
+        <CardTitle title={text.title} />
         <p className="card-nickname">@{title}</p>
         <span className="flex-center card-location">
           <img src="" />
@@ -46,13 +52,13 @@ const Contributor = ({
         </span>
         <section className="card-links flex-center">
           <a href={email} target="_blank" className="flex-center">
-            <img src={generateUrl(images.globe.contributor.email)} />
+            <Img src={generateUrl(images.globe.contributor.email)} />
           </a>
           <a href={github} target="_blank" className="flex-center">
-            <img src={generateUrl(images.globe.contributor.github)} />
+            <Img src={generateUrl(images.globe.contributor.github)} />
           </a>
           <a href={website} target="_blank" className="flex-center">
-            <img src={generateUrl(images.globe.contributor.link)} />
+            <Img src={generateUrl(images.globe.contributor.link)} />
           </a>
         </section>
 

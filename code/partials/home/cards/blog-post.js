@@ -1,4 +1,5 @@
 import React from "react";
+import CardTitle from "./components/card-title";
 
 const BlogPosts = ({ text, date, _body, link, image, _ID, _relativeURL }) => {
   const generateUrl = (url) => {
@@ -6,8 +7,8 @@ const BlogPosts = ({ text, date, _body, link, image, _ID, _relativeURL }) => {
   };
   return (
     <div className="globe-card blog-post flex-column">
-      <h5 className="blog-post-small-title">{text.proof}</h5>
-      <h3 className="blog-post-name">{text.title}</h3>
+      <h5 className="card-top-subtitle">{text.subTitle}</h5>
+      <CardTitle title={text.title} />
       <div className="blog-post-date flex-center">
         <p className="blog-post-date-text">{text.publishedOn}:</p>
         <p>{date}</p>

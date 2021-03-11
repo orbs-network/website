@@ -1,5 +1,5 @@
 ---
-layout: partials/home/delegator
+layout: partials/home/cards/delegator
 title: test101
 name: test400
 image: /assets/img/globe/cards/card1.png

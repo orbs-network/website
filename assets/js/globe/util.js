@@ -62,16 +62,16 @@ export const getGlobeCardsAndWeights = () => {
 };
 
 export const getRandomPointByWeight = (cards, weights, currentCard) => {
-  let notFound = true;
-  let newCard;
-  while (notFound) {
-    newCard = chance.weighted(cards, weights);
+  while (true) {
+    const newCard = chance.weighted(cards, weights);
     const stop = !isTheSameCard(newCard, currentCard);
     if (stop) {
-      notFound = false;
+      console.log("la");
+      return newCard;
     }
+
+    return getRandomPointByWeight(cards, weights, currentCard);
   }
-  return newCard;
 };
 
 const isTheSameCard = (newCard, currentCard) => {
