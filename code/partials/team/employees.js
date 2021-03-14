@@ -25,18 +25,15 @@ const Employees = ({
   };
 
   return (
-    <section className="team-list-section team-list-section-employees">
-      <h4>Our Team Title</h4>
-      <div className="team-list team-list-employees">
-        {getEmployeesByIndex(employees, 0, 3)}
-        <SingleBanner url={generateUrl(banner1)} />
-        {getEmployeesByIndex(employees, 4, 7)}
-        <DoubleBanner url={generateUrl(banner2)} url2={generateUrl(banner3)} />
-        {getEmployeesByIndex(employees, 8, 15)}
-        <SingleBanner url={generateUrl(banner4)} />
-        {getEmployeesByIndex(employees, 16, employees.length)}
-      </div>
-    </section>
+    <div className="team-list team-list-employees">
+      {getEmployeesByIndex(employees, 0, 3)}
+      <SingleBanner url={generateUrl(banner1)} />
+      {getEmployeesByIndex(employees, 4, 7)}
+      <DoubleBanner url={generateUrl(banner2)} url2={generateUrl(banner3)} />
+      {getEmployeesByIndex(employees, 8, 15)}
+      <SingleBanner url={generateUrl(banner4)} />
+      {getEmployeesByIndex(employees, 16, employees.length)}
+    </div>
   );
 };
 

@@ -1,11 +1,12 @@
 import React from "react";
+import { animations } from "../../../assets/js/consts/consts";
 import { images } from "../../../assets/js/images";
 import Img from "../../common-components/Img";
 
 const Teammate = ({ data, generateUrl }) => {
   const { avatar, name, role, telegram, linkedin, twitter } = data;
   return (
-    <div className="teammate flex-column" data-aos="fade-up">
+    <div className="teammate flex-column" data-aos={animations.fadeTop}>
       <figure className="teammate-avatar">
         <Img
           src={generateUrl(avatar)}
@@ -13,7 +14,7 @@ const Teammate = ({ data, generateUrl }) => {
         />
       </figure>
       <div className="teammate-info">
-        <p className="teammate-name">{name}</p>
+        <p className="teammate-name text-overflow">{name}</p>
         <p className="teammate-position">{role}</p>
         <section className="teammate-socials flex-start">
           <div className="teammate-socials-links flex-start">

@@ -1,6 +1,6 @@
 import React from "react";
 import { removeSpaces } from "../../assets/js/common";
-import FaqElement from "./FaqElement";
+import OpeningBox from "../partials/common/opening-box";
 
 const FaqSection = ({ category }) => {
   return (
@@ -11,15 +11,14 @@ const FaqSection = ({ category }) => {
       />
       <h5>{category.name}</h5>
       <ul>
-        {category.list.map((faq) => {
-          return <FaqElement faq={faq} border={category.border} />;
+        {category.list.map(({ text, title }) => {
+          return (
+            <OpeningBox text={text} title={title} color={category.border} />
+          );
         })}
       </ul>
     </section>
   );
 };
-FaqElement.getInitialProps = async function (props) {
-  const category = await FetchMyDataFromSomewhere(props._ID);
-  return { category };
-};
+
 export default FaqSection;

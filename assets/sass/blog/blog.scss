@@ -5,7 +5,6 @@
     align-items: center;
     h1 {
       font-family: $bold-font;
-      font-weight: bold;
       font-size: 24px;
       margin-bottom: 10px;
     }
@@ -13,6 +12,7 @@
       h3 {
         text-align: center;
         font-size: 17px;
+        font-weight: 500;
       }
     }
     &-list {
@@ -64,10 +64,10 @@
       height: 100%;
       width: 100%;
       padding: 30px;
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      border: 1px solid #50f3ee;
       justify-content: flex-end;
       &-type {
-        border: 1px solid rgba(255, 255, 255, 0.7);
+        border: 1px solid #53fffa;
         border-top-right-radius: 10px;
         padding: 5px 15px;
         width: fit-content;
@@ -78,6 +78,7 @@
         section {
           margin-right: 20px;
           display: flex;
+          align-items: center;
           img {
             margin-right: 10px;
             width: auto;
@@ -99,7 +100,10 @@
           }
         }
         a {
-          text-decoration: underline;
+          text-decoration: none;
+        }
+        &-link {
+          text-decoration: underline !important;
         }
       }
       &-img {
@@ -123,7 +127,7 @@
 
         p {
           font-size: 27px;
-          font-weight: bold;
+          font-weight: 500;
           margin-bottom: 10px;
         }
       }
@@ -132,6 +136,7 @@
       display: none;
       height: 60px;
       padding-top: 20px;
+
       figure {
         width: 40px;
         height: 40px;
@@ -163,21 +168,33 @@
           background: white;
         }
       }
+      &-link {
+        text-decoration: underline;
+      }
     }
   }
 }
 
 .blog-inner {
+  .blog-list {
+    margin-top: 30px;
+  }
   .blog-card {
     width: 100%;
     margin-right: 0px;
     height: 500px;
-
+    margin-bottom: 100px;
     &-content {
       pointer-events: none;
       height: calc(100% - 60px);
 
       border: none;
+      &-text {
+        p {
+          font-weight: bold;
+          font-size: 30px;
+        }
+      }
       &-img {
         border-radius: 5px;
       }
@@ -209,5 +226,21 @@
       font-size: 20px;
       font-weight: bold;
     }
+  }
+}
+
+.blog-bread-crumbs {
+  margin-top: 40px;
+  * {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  small {
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }

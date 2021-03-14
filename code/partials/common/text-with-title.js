@@ -11,7 +11,7 @@ const TextWithTitle = ({
 }) => {
   const style = { WebkitLineClamp: linesLimit };
   const parentStyle = {
-    borderBottom: border ? "1px solid rgba(255,255,255, 0.5)" : "none",
+    borderBottom: border ? "1px solid #707070" : "none",
   };
   return (
     <div

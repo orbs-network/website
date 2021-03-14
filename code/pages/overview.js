@@ -35,14 +35,16 @@ const Overview = ({
       <header className="main-header">{header}</header>
       <main>
         {pageHeader}
-        <div className="overview-flex">{flexSection}</div>
-        <div className="flex-start overview-boxes-flex"> {boxes}</div>
-        <div className="overview-bottom-flex">
-          {secondFlexSection}
-          {secondImagesGrid}
-          {text}
+        <div className="overview-flex">
+          <div className="overview-flex-top">{flexSection}</div>
+          <div className="flex-start overview-boxes-flex"> {boxes}</div>
+          <div className="overview-bottom-flex">
+            {secondFlexSection}
+            {secondImagesGrid}
+            {text}
+          </div>
+          <div className="flex-start overview-boxes-flex"> {secondBoxes}</div>
         </div>
-        <div className="flex-start overview-boxes-flex"> {secondBoxes}</div>
         {linkBtn}
       </main>
       {script != undefined ? (

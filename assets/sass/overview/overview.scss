@@ -9,14 +9,17 @@
       width: 100%;
       img {
         object-fit: contain;
-        transform: scale(1.55) translate(0, -50px);
+        transform: scale(1.5) translate(0, -50px);
       }
     }
   }
   &-flex {
-    width: 60%;
-    .text-with-title {
-      margin-bottom: 30px;
+    width: calc(100% - 200px);
+    &-top {
+      width: 60%;
+      .text-with-title {
+        margin-bottom: 30px;
+      }
     }
   }
   .images-grid {
