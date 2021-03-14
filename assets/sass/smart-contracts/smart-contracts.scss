@@ -1,4 +1,13 @@
 .smart-contracts {
+  .page-header {
+    margin-top: 40px;
+    figure {
+      height: 500px;
+    }
+    h1 {
+      color: #b31c85;
+    }
+  }
   &-flex {
     flex-wrap: wrap;
     align-items: flex-start;

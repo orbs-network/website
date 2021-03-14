@@ -13,6 +13,7 @@ const SmartContract = ({
   pageHeader,
   expendingSection,
   text,
+  linkBack,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -40,6 +41,7 @@ const SmartContract = ({
           <h4>{text.boxesTitle}</h4>
           <div className="flex-start smart-contracts-boxes-flex"> {boxes}</div>
         </div>
+        {linkBack}
       </main>
       {script != undefined ? (
         <script

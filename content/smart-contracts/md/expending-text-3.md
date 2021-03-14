@@ -4,6 +4,7 @@ linesLimit: 3
 title: staking Contract Handler
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 The staking contract handler connects the staking contract to the Orbs PoS contracts and to Orbs’ contracts governance, managed by the contractRegistry.

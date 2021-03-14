@@ -4,7 +4,7 @@ import React from "react";
 const BlogInner = ({
   title,
   header,
-
+  breadCrumbs,
   footer,
   script,
   _relativeURL,
@@ -30,6 +30,7 @@ const BlogInner = ({
       <header className="main-header">{header}</header>
       <main>
         {pageHeader}
+        {breadCrumbs}
         <div className="blog-list">{blog}</div>
         {main}
       </main>

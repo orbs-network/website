@@ -4,6 +4,7 @@ linesLimit: 3
 title: contracts Registry
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 The contractRegistry manages the PoS contracts list and active managers. The contract is the basis of the system and allows any contract or user to retrieve the up-to-date contract lists.

@@ -1,12 +1,15 @@
 title: Blog
 layout: pages/blog-inner
-script: blog/blog
+script: blog/blog-inner
 
 header:
   - ../../_shared/header.md
 
 pageHeader:
   - ../md/header.md
+
+breadCrumbs:
+  - ../md/bread-crumbs.md
 
 blog:
   - blog.md

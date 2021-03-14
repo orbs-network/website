@@ -1,6 +1,4 @@
 .faq {
-  &-page {
-  }
   &-flex {
     margin: auto;
     height: auto;
@@ -8,27 +6,33 @@
     align-items: flex-start;
   }
   &-desc {
+    position: sticky;
+
     * {
       text-align: left;
     }
     &-title {
       font-size: 24px;
-      font-weight: bold;
+      font-family: $bold-font;
       margin-bottom: 20px;
     }
-    p {
+    &-sub-title {
       font-size: 15px;
       width: 250px;
+      margin-bottom: 80px;
     }
     &-links {
       margin-top: 20px;
       display: flex;
       flex-direction: column;
       a {
-        margin-top: 10px;
-        font-weight: bold;
+        letter-spacing: 1.94px;
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 15px;
         text-transform: uppercase;
         color: white;
+        text-decoration: none;
       }
     }
 
@@ -36,81 +40,37 @@
       margin-top: 50px;
       text-transform: uppercase;
       font-weight: bold;
-      margin-bottom: 60px;
+      margin-bottom: 80px;
       h5 {
         margin-bottom: 10px;
+        font-family: $bold-font;
+        font-size: 14px;
       }
       a {
         text-decoration: underline;
         color: #e61ea9;
+        font-family: $bold-font;
+        font-size: 11px;
       }
     }
   }
 
   &-lists {
+    width: calc(100% - 500px);
     &-category {
       position: relative;
       margin-bottom: 25px;
-      &-indicator {
+      aside {
         position: absolute;
-        top: -100px;
+        top: -80px;
       }
       h5 {
+        letter-spacing: 2.2px;
         text-transform: uppercase;
         margin-bottom: 10px;
         text-align: left;
-      }
-      ul {
-        .faq-element {
-          position: relative;
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          padding-left: 10px;
-          min-height: 50px;
-          cursor: pointer;
-          padding-right: 50px;
-          margin-bottom: 5px;
-          &:last-of-type {
-            margin-bottom: 0px;
-          }
-          &-overlay {
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 100%;
-          }
-          &-arrow {
-            width: 8px;
-            height: 8px;
-            position: absolute;
-            right: 25px;
-            transform: translate(0, -50%) rotate(-45deg);
-            top: 50%;
-          }
-          p {
-            text-align: left;
-          }
-          &-title {
-            height: 50px;
-            display: flex;
-            align-items: center;
-
-            p {
-              font-size: 15px;
-            }
-          }
-          &-text {
-            height: 0px;
-            overflow: hidden;
-            transition: 0.15s all;
-            opacity: 0;
-            p {
-              line-height: 23px;
-            }
-          }
-        }
+        font-size: 15px;
+        font-family: $light-font;
       }
     }
   }

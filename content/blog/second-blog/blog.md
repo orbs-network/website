@@ -8,6 +8,7 @@ blogUrl: blog/first-blog
 dateImg: /assets/img/blog/folder.svg
 typeImg: /assets/img/blog/calendar.svg
 type: Crypto
+authorUrl:
 ---
 
 Optimizing Ethereum Gas Costs
