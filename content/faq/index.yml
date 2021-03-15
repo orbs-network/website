@@ -16,22 +16,22 @@ text:
 header:
   - /_shared/header.md
 
-faqSection1:
+General:
   - md/section1/faq-1.md
   - md/section1/faq-2.md
   - md/section1/faq-3.md
 
-faqSection2:
+orbs pos universe:
   - md/section2/faq-1.md
   - md/section2/faq-2.md
   - md/section2/faq-3.md
 
-faqSection3:
+tetra wallet:
   - md/section3/faq-1.md
   - md/section3/faq-2.md
   - md/section3/faq-3.md
 
-faqSection4:
+use cases & enterprise partnership:
   - md/section4/faq-1.md
   - md/section4/faq-2.md
   - md/section4/faq-3.md

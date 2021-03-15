@@ -58,7 +58,9 @@ export const globeController = new (class GlobeClass {
   }
 
   setGlobeBaseConfig(globElem) {
-    globElem.backgroundColor(globeConfig.backgroundColor);
+    globElem
+      .backgroundColor(globeConfig.backgroundColor)
+      .globeImageUrl(globeConfig.img);
     const globeMaterial = globElem.globeMaterial();
 
     globeMaterial.fog = false;
@@ -72,10 +74,7 @@ export const globeController = new (class GlobeClass {
       .pointColor(() => globeConfig.orbsMainColor)
       .onPointClick(() => this.handlePointClick())
       .pointsTransitionDuration(300)
-      .pointLabel((e) => {
-        console.log(e);
-        return `<div>t</div>`;
-      })
+
       .onPointHover((point) => {
         if (point) {
           stopInterval();

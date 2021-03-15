@@ -4,7 +4,7 @@ export const globeConfig = {
   MAX_POINTS_PER_LINE: 5000,
   MAX_STEP_DEG: 1,
   MAX_STEP_ALT: 0.015,
-  img: "/assets/img/globe/globe-bg.jpg",
+  img: "assets/img/globe/globe-bg.jpg",
   N_PATHS: 20,
   rotationSpeed: 0.5,
   backgroundColor: "#121822",

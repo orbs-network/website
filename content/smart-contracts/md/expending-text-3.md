@@ -1,5 +1,5 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: staking Contract Handler
 readMoreButton: read more

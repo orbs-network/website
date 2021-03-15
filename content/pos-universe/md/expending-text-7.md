@@ -1,9 +1,11 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: Minimum Self Delegation
 readMoreButton: read more
 readLessButton: read less
+border: true
+borderBottom: true
 ---
 
 Guardians are responsible for operating the validator nodes, maintaining the security of the network and upholding its long term vision. As such, Guardians are required to gain the trust of both the Delegators and the developers that rely on the network with their applications. In order to ensure a secure, available and performant network, Guardians are required to have a commitment to an honest and secure operation of the network.

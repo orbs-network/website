@@ -1,6 +1,6 @@
 ---
 layout: partials/common/link-btn
 text: orbs smartcontracts overview
-url: /smart-contracts
-forward: false
+url: /overview
+back: true
 ---

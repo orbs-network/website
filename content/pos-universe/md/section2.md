@@ -1,19 +1,20 @@
 ---
 layout: partials/pos-universe/list-section
-title: Delegators
-img: /assets/images/pos-universe/sabar.svg
+title: Guardians
+img:
 ---
 
-Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
+Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision, investing time and efforts in the network success.
 
-[Stake your tokens](http://www.google.com "button")
+[Become an Orbs Guardian!](http://www.google.com "button")
 
 ##### Roles and Responsibilities
 
 - Guardians operate the Orbs network nodes and run the virtual chains for the subscribed applications
 - Guardians are responsible for the staking rewards distribution to their community of delegators
 - Orbs is a hybrid blockchain, utilizing Ethereum for added security and transparency of the Orbs PoS ecosystem. Thus, Orbs Guardians are required to run an Ethereum node.
-- Guardians have an option to be part of the Certified Committee and operate virtual chains that require certified Guardians. Certified Committee members are eligible for added incentives. Guardians are expected to be committed to their communities and their Delegators’ staked tokens. Therefore, Guardians are required to have a self-stake of at least 8% of their total delegated stake.
+- Guardians have an option to be part of the Certified Committee and operate virtual chains that require certified Guardians. Certified Committee members are eligible for added incentives.
+- Guardians are expected to be committed to their communities and their Delegators’ staked tokens. Therefore, Guardians are required to have a self-stake of at least 8% of their total delegated stake.
 
 ##### Economic Incentives
 

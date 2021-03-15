@@ -1,11 +1,9 @@
 import React from "react";
 
-const LinkBtn = ({ text, url, forward }) => {
-  const className = forward
-    ? "link-btn-arrow link-btn-forward"
-    : "link-btn-arrow";
+const LinkBtn = ({ text, url, back }) => {
+  const className = back ? "link-btn link-btn-back" : "link-btn";
   return (
-    <a href={url} className="link-btn">
+    <a href={url} className={className}>
       <p> {text}</p>
       <aside className="link-btn-arrow"></aside>
     </a>

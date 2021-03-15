@@ -1,8 +1,9 @@
 .smart-contracts {
   .page-header {
-    margin-top: 40px;
+    margin-top: 30px;
     figure {
-      height: 500px;
+      height: 400px;
+      width: 100%;
     }
     h1 {
       color: #b31c85;
@@ -17,11 +18,9 @@
         margin-left: auto;
       }
       .expend-btn {
-        color: #ff2cbf;
-        background: transparent;
-        border: none;
+        @include pink-expend-btn();
       }
-      margin-bottom: 30px;
+      margin-bottom: 50px;
       &:last-child {
         border: 0px;
       }
@@ -31,7 +30,7 @@
     margin-top: 30px;
     .text-with-title {
       border: none;
-      width: 70%;
+      width: 60%;
       max-height: 700px;
       p {
         margin-bottom: 15px;
@@ -40,14 +39,16 @@
   }
   &-boxes {
     margin-top: 20px;
-    h4 {
-      margin-bottom: 10px;
+    &-title {
+      margin-bottom: 20px;
       color: #ff2cbf;
       font-size: 17px;
+      font-weight: 500;
     }
     &-flex {
       width: 80%;
       flex-wrap: wrap;
+      align-items: stretch;
       .box {
         margin-bottom: 15px;
         width: calc(100% / 3 - 15px);

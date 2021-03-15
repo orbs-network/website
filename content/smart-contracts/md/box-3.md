@@ -1,6 +1,6 @@
 ---
 layout: partials/common/box
-image:
+image: /assets/img/smart-contracts/img-2.svg
 ---
 
 ##### registryAdmin
