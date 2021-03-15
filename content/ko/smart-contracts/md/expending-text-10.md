@@ -1,9 +1,10 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: "Fees wallets: generalFeesWallet and certifiedFeesWallet"
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 The fees wallets maintain the subscription fees paid by virtual chains. Two separate instances of fees wallets are deployed one for general virtual chains fees and one for certified virtual chains fees.

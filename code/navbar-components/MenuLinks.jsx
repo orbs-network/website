@@ -16,8 +16,10 @@ const MenuLinks = ({
           const { url, name } = link;
           return (
             <li className={linkClassName}>
-              <figure />
-              <a href={generateUrl(url)}>{name}</a>
+              <a href={generateUrl(url)}>
+                <figure />
+                <p>{name}</p>
+              </a>
             </li>
           );
         })}

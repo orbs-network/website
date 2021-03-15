@@ -38,7 +38,7 @@ const SmartContract = ({
         </div>
         <div className="smart-contracts-management"> {contractText}</div>
         <div className="smart-contracts-boxes">
-          <h4>{text.boxesTitle}</h4>
+          <h4 className="smart-contracts-boxes-title">{text.boxesTitle}</h4>
           <div className="flex-start smart-contracts-boxes-flex"> {boxes}</div>
         </div>
         {linkBack}

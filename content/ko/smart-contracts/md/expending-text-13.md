@@ -1,9 +1,10 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: subscriptions
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 The subsceription contract manages the virtual chains’ subscription status. The contract allows developers to create a virtual chain, modify its properties, including metadata properties used by the Orbs platform, and extend a virtual chain subscription.

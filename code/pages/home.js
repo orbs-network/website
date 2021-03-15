@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import GlobeLoader from "../globe-components/globeLoader";
+import GlobeLoader from "../partials/home/globeLoader";
 
 const Blog = ({
   title,

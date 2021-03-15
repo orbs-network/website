@@ -31,5 +31,7 @@ expendingSection:
   - md/expending-text-7.md
   - md/expending-text-8.md
 
+bottomText:
+  - md/bottom-text.md
 footer:
   - /_shared/new-footer.md

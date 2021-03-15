@@ -145,3 +145,8 @@ export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
 };
+
+export const checkIfIncludesInUrl = (currentPath) => {
+  const url = window.location.pathname;
+  return url.indexOf(currentPath) > -1;
+};

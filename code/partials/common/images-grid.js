@@ -1,6 +1,7 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
 import Img from "../../common-components/Img";
+import SplittedLinesText from "./splitted-lines-text";
 
 const ImagesGrid = ({ title, images, imagesPerLine = 3, border }) => {
   const style = { width: `calc(100% / ${imagesPerLine}  - 20px)` };
@@ -22,7 +23,7 @@ const ImagesGrid = ({ title, images, imagesPerLine = 3, border }) => {
               <figure className="images-grid-list-img">
                 <Img src={src} />
               </figure>
-              <p>{text}</p>
+              <SplittedLinesText tag={<p></p>} text={text} />
             </li>
           );
         })}

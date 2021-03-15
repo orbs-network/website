@@ -25,7 +25,6 @@ const Page = ({
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
       />
-      <script src="//unpkg.com/globe.gl"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <link
