@@ -1,6 +1,6 @@
 ---
 layout: partials/common/box
-image:
+image: /assets/img/overview/spiral-circle.svg
 ---
 
 ##### registryAdmin

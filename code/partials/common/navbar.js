@@ -11,6 +11,7 @@ const Navbar = ({
   resources,
   selected,
   overview,
+  home,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -18,10 +19,12 @@ const Navbar = ({
   return (
     <div class="main-navbar">
       <div className="navbar-header">
-        <MenuToggle
-          generateUrl={generateUrl}
-          customClassName="navbar-burger-open"
-        />
+        <a href={generateUrl(home)}>
+          <MenuToggle
+            generateUrl={generateUrl}
+            customClassName="navbar-burger-open"
+          />
+        </a>
       </div>
       <Menu
         overview={overview}

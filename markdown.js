@@ -11,17 +11,24 @@ module.exports = exports = function renderer({
   _globalProp,
   _relativeURL,
 }) {
+  // Marked.heading = (text, level) => {
+  //   return `<h${level} id="${text
+  //     .toLowerCase()
+  //     .replace(/[^\w]+/g, "-")}"
+  //     data-aos=${
+  //     animations.fadeTop
+  //   }
+  //   >${text}</h${level}>\n`;
+  // };
+
   Marked.heading = (text, level) => {
-    return `<h${level} id="${text
-      .toLowerCase()
-      .replace(/[^\w]+/g, "-")}" data-aos=${
-      animations.fadeTop
-    }>${text}</h${level}>\n`;
+    return `<h${level} id="${text.toLowerCase().replace(/[^\w]+/g, "-")}" 
+    >${text}</h${level}>\n`;
   };
 
-  // Marked.paragraph = (text) => {
-  //   return `<p data-aos=${animations.fadeTop}>${text}</p>\n`;
-  // };
+  Marked.paragraph = (text) => {
+    return `<p  class='text-p'>${text}</p>\n`;
+  };
 
   // example for adding a class
   Marked.hr = () => {

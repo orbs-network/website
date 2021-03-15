@@ -1,5 +1,5 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: Operating the Network Validator Nodes
 readMoreButton: read more

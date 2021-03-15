@@ -3,7 +3,7 @@ layout: pages/blog
 script: blog/blog
 
 header:
-  - /_shared/header.md
+  - ../_shared/header.md
 
 pageHeader:
   - md/header.md

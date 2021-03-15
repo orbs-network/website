@@ -1,9 +1,10 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: Validator Nodes Streamlining
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 Orbs PoS Universe significantly reduces the cost of operating and maintaining a validator node on the Orbs Network.

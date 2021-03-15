@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import GlobeLoader from "../globe-components/globeLoader";
+import GlobeLoader from "../partials/home/globeLoader";
 
 const Blog = ({
   title,
@@ -20,6 +20,8 @@ const Blog = ({
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <script src="https://chancejs.com/chance.min.js"></script>
+      <script src="//unpkg.com/three"></script>
+
       <script src="//unpkg.com/globe.gl"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />

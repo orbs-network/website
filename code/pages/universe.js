@@ -15,6 +15,7 @@ const Universe = ({
   _ID,
   pageHeader,
   expendingSection,
+  bottomText,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -42,6 +43,7 @@ const Universe = ({
         <div className="flex-start universe-third-sections">
           {expendingSection}
         </div>
+        {bottomText}
       </main>
       {script != undefined ? (
         <script

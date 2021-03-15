@@ -1,10 +1,14 @@
 import React from "react";
+import { animations } from "../../../assets/js/consts/consts";
+import Img from "../../common-components/Img";
 
 const Box = ({ _body, image }) => {
   return (
-    <div className="box">
+    <div className="box" data-aos={animations.fadeTop}>
       {_body}
-      <figure>{image && <img src={image} />}</figure>
+      <figure>
+        <Img src={image} />
+      </figure>
     </div>
   );
 };

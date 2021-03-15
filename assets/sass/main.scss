@@ -16,6 +16,11 @@ li {
   top: 110px;
 }
 
+.sticky-section {
+  position: sticky;
+  top: 110px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -41,6 +46,8 @@ html {
 
 @media only screen and (max-width: 1600px) {
   .grid-page {
-    width: calc(100% - 130px);
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }

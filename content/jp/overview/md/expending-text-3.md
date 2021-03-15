@@ -1,5 +1,5 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 title: COMPLETE BLOCKCHAIN STACK
 readMoreButton: read more
 readLessButton: read less

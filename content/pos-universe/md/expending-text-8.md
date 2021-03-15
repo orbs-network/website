@@ -1,9 +1,11 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: Revamped Delegation Mechanism
 readMoreButton: read more
 readLessButton: read less
+border: true
+borderBottom: true
 ---
 
 Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, thereby empowering them to maintain security of the Network and uphold the long term vision of the ecosystem.

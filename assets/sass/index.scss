@@ -1,11 +1,12 @@
 @import "./colors/colors.scss";
 @import "./consts.scss";
 @import "./fonts.scss";
+@import "./common/common.scss";
 
 @import "./main.scss";
 
 @import "./reset";
-@import "./common/common";
+@import "./partial-components/partial-components";
 @import "./team/team";
 @import "./home/home";
 @import "./home/cards.scss";
@@ -17,3 +18,4 @@
 @import "./overview/overview.scss";
 @import "./universe/universe.scss";
 @import "./smart-contracts/smart-contracts.scss";
+@import "./white-papers/white-papers.scss";

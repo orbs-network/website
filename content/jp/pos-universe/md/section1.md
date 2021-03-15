@@ -1,7 +1,7 @@
 ---
 layout: partials/pos-universe/list-section
 title: Delegators
-img: ../assets/img/pos-universe/sabar.svg
+img:
 ---
 
 Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
