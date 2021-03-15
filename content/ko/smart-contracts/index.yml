@@ -35,5 +35,8 @@ boxes:
   - md/box-3.md
   - md/box-4.md
   - md/box-5.md
+
+linkBack:
+  - md/link.md
 footer:
   - /_shared/new-footer.md

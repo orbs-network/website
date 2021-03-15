@@ -1,6 +1,6 @@
 ---
 layout: partials/common/navbar
-
+home: /
 text:
   resources: Resources
   overview: Overview
@@ -18,8 +18,8 @@ languages:
     link: /jp
     img: /assets/img/navbar/japan.png
 links:
-  - name: Home
-    url: /
+  - name: White papers
+    url: /white-papers
   - name: Team
     url: /team
   - name: Faq

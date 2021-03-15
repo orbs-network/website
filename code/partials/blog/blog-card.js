@@ -9,6 +9,7 @@ const BlogCard = ({
   _relativeURL,
   _ID,
   blogUrl,
+  authorUrl,
   type,
   typeImg,
   dateImg,
@@ -22,11 +23,12 @@ const BlogCard = ({
         <section className="blog-card-content">
           <div className="blog-card-content-type">
             <section>
-              <img src={generateUrl(typeImg)} />
+              <img src={generateUrl(dateImg)} />
               <p>{type}</p>
             </section>
             <section>
-              <img src={generateUrl(dateImg)} />
+              <img src={generateUrl(typeImg)} />
+
               <p>{date}</p>
             </section>
           </div>
@@ -35,8 +37,10 @@ const BlogCard = ({
             <img src={generateUrl(image)} />
           </figure>
           <div className="blog-card-content-author flex-start">
-            <p> By:</p>
-            <a href="/">{authorName}</a>
+            <p>By:</p>
+            <a href={authorUrl} className="blog-card-content-author-link">
+              {authorName}
+            </a>
           </div>
         </section>
       </a>

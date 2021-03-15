@@ -1,9 +1,10 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: Rewards, Fees & Bootstrap Fund
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 The Orbs incentive layer is built to incentivize a maximum overlap between the two committees.

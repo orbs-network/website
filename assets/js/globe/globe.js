@@ -28,13 +28,16 @@ export const globeController = new (class GlobeClass {
     const { cards, weights } = getGlobeCardsAndWeights();
     this.cards = cards;
     this.weights = weights;
+
     const newGlobe = Globe();
     this.setGlobeBaseConfig(newGlobe);
     this.setPathData(newGlobe);
     await this.setPoligons(newGlobe);
     //this.setArcData(newGlobe);
+    this.setGlobePoints(newGlobe);
     this.startGlobeAutoRotation(newGlobe);
     this.globe = newGlobe;
+
     setTimeout(() => {
       const loader = getElement(".globe-loader");
       hideElement(loader);
@@ -49,24 +52,29 @@ export const globeController = new (class GlobeClass {
         globElem
           .hexPolygonsData(countries.features)
           .hexPolygonResolution(3)
-          .hexPolygonMargin(0.6)
+          .hexPolygonMargin(0.7)
           .hexPolygonColor(() => globeConfig.orbsMainColor);
       });
   }
 
   setGlobeBaseConfig(globElem) {
-    const globeContainer = getElement("#globeViz");
-
     globElem
       .backgroundColor(globeConfig.backgroundColor)
+      .globeImageUrl(globeConfig.img);
+    const globeMaterial = globElem.globeMaterial();
+
+    globeMaterial.fog = false;
+  }
+
+  setGlobePoints(globElem) {
+    const globeContainer = getElement("#globeViz");
+    globElem
       .pointsData(this.points)
       .pointAltitude(0.003)
       .pointColor(() => globeConfig.orbsMainColor)
       .onPointClick(() => this.handlePointClick())
       .pointsTransitionDuration(300)
-      .pointLabel((e) => {
-        return null;
-      })
+
       .onPointHover((point) => {
         if (point) {
           stopInterval();
@@ -76,9 +84,6 @@ export const globeController = new (class GlobeClass {
         return this.startGlobeAutoRotation(globElem);
       })
       .pointRadius(0.7)(globeContainer);
-    const globeMaterial = globElem.globeMaterial();
-
-    globeMaterial.fog = false;
   }
 
   startGlobeAutoRotation = (globElem) => {

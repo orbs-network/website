@@ -1,9 +1,10 @@
 ---
-layout: partials/common/text-with-title
+layout: partials/common/expendable-text-box
 linesLimit: 3
 title: delegations
 readMoreButton: read more
 readLessButton: read less
+border: true
 ---
 
 The delegations contract manages the delegation database for each participant in Orbs PoS. The delegation contract holds for participant his selected guardian and the participant’s self-stake as well as the stake delegated to the participant.

@@ -6,7 +6,7 @@ img: ../assets/img/pos-universe/sabar.svg
 
 Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
 
-[Stake your tokens](http://www.google.com "button")
+[Stake your ORBS tokens!](http://www.google.com "button")
 
 ##### Roles and Responsibilities
 

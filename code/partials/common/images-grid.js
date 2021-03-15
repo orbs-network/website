@@ -1,5 +1,7 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
+import Img from "../../common-components/Img";
+import SplittedLinesText from "./splitted-lines-text";
 
 const ImagesGrid = ({ title, images, imagesPerLine = 3, border }) => {
   const style = { width: `calc(100% / ${imagesPerLine}  - 20px)` };
@@ -19,9 +21,9 @@ const ImagesGrid = ({ title, images, imagesPerLine = 3, border }) => {
           return (
             <li className="flex-column" style={style}>
               <figure className="images-grid-list-img">
-                {src && <img src={src} />}
+                <Img src={src} />
               </figure>
-              <p>{text}</p>
+              <SplittedLinesText tag={<p></p>} text={text} />
             </li>
           );
         })}
