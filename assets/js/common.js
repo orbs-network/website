@@ -68,7 +68,7 @@ const onScrollEvent = () => {
     "scroll",
     () => {
       const offsetTop = window.pageYOffset;
-      if (offsetTop >= 80) {
+      if (offsetTop >= 30) {
         navbar.classList.add("scrolled-navbar");
       } else {
         navbar.classList.remove("scrolled-navbar");
@@ -109,7 +109,7 @@ export const handleText = (text) => {
 };
 
 export const removeSpaces = (str, char) => {
-  return str.split(" ").join(char);
+  return str.toLowerCase().split(" ").join(char);
 };
 
 export const init = () => {
@@ -144,4 +144,9 @@ const toggleTextBox = (event) => {
 export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
+};
+
+export const checkIfIncludesInUrl = (currentPath) => {
+  const url = window.location.pathname;
+  return url.indexOf(currentPath) > -1;
 };

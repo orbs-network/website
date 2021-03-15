@@ -1,7 +1,7 @@
 .main-header {
   margin: 0px;
   width: 100%;
-  height: 80px;
+  height: 100px;
   z-index: 999999;
   position: relative;
 }
@@ -74,7 +74,7 @@
 .nav-menu {
   overflow: hidden;
   position: fixed;
-  width: 740px;
+  width: 760px;
   background: $base-bg-color;
   height: 100%;
   top: 0px;
@@ -82,7 +82,7 @@
   transform: translate(-100%);
   transition: 0.2s all ease-in;
   padding-left: 110px;
-  padding-top: 40px;
+  padding-top: 35px;
   opacity: 0;
   z-index: 999999;
   .menu-burger-wrapper {
@@ -98,17 +98,18 @@
     margin-bottom: 15px;
     h4 {
       font-family: $bold-font;
-      font-size: 18px;
+      font-size: 16px;
       text-transform: uppercase;
       text-align: left;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       color: $yellow;
+      letter-spacing: 2.1px;
     }
   }
   &-link {
     position: relative;
     margin-bottom: 5px;
-    transition: 0.15s all;
+
     width: fit-content;
     height: 24px;
     display: flex;
@@ -126,13 +127,24 @@
       transition: 0.2s all;
     }
     a {
-      font-size: 13px;
+      transition: 0.15s all;
+
       height: 100%;
       display: flex;
       align-items: center;
-      font-family: $light-font;
+      p {
+        letter-spacing: 2.22px;
+        font-family: $light-font;
+        font-size: 12px;
+      }
+      &:hover {
+        padding-left: 15px;
+        figure {
+          opacity: 1;
+        }
+      }
     }
-    &:hover {
+    .hovered-link {
       padding-left: 15px;
       figure {
         opacity: 1;
@@ -143,22 +155,32 @@
     ul {
       flex-wrap: wrap;
       li {
-        padding-left: 10px;
-        padding-right: 10px;
         height: 40px;
         display: flex;
         align-items: center;
         border: 1px solid #cecece;
         justify-content: center;
-        margin-right: 15px;
+        margin-right: 7px;
         margin-bottom: 15px;
-
-        &:last-child {
-          margin-bottom: 0px;
-        }
+        transition: 0.2s all;
         a {
-          font-size: 11px;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: 0.2s all;
+          letter-spacing: 2px;
+          font-size: 10px;
           font-family: $bold-font;
+          &:hover {
+            background: #cecece;
+            p {
+              color: black;
+            }
+          }
         }
         figure {
           display: none;
@@ -169,5 +191,11 @@
   &-show {
     transform: translate(0%);
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .nav-menu {
+    padding-left: 80px;
   }
 }
