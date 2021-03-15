@@ -19,12 +19,11 @@ const Navbar = ({
   return (
     <div class="main-navbar">
       <div className="navbar-header">
-        <a href={generateUrl(home)}>
-          <MenuToggle
-            generateUrl={generateUrl}
-            customClassName="navbar-burger-open"
-          />
-        </a>
+        <MenuToggle
+          link={generateUrl(home)}
+          generateUrl={generateUrl}
+          customClassName="navbar-burger-open"
+        />
       </div>
       <Menu
         overview={overview}

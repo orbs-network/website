@@ -1,23 +1,25 @@
 import React from "react";
 
-const MenuToggle = ({ generateUrl, customClassName }) => {
+const MenuToggle = ({ generateUrl, customClassName, link }) => {
   const className = `menu-burger ${customClassName}`;
   return (
     <div className="menu-burger-wrapper flex-start">
       <button className={className}>
         <img src={generateUrl("../assets/img/navbar/hamburger.png")} />
       </button>
-      <img
-        className="logo"
-        src={generateUrl("../assets/img/navbar/logo.svg")}
-      />
+      <a href={link}>
+        <img
+          className="logo"
+          src={generateUrl("../assets/img/navbar/logo.svg")}
+        />
+      </a>
     </div>
   );
 };
 MenuToggle.getInitialProps = async function (props) {
-  const { generateUrl, customClassName } = await FetchMyDataFromSomewhere(
+  const { generateUrl, customClassName, link } = await FetchMyDataFromSomewhere(
     props._ID
   );
-  return { generateUrl, customClassName };
+  return { generateUrl, customClassName, link };
 };
 export default MenuToggle;
