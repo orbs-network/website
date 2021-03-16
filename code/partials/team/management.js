@@ -25,7 +25,10 @@ const Management = ({ _relativeURL, _ID, management, slides, text }) => {
               slides.map((slide) => {
                 return (
                   <div class="swiper-slide">
-                    <Img src={slide} className="swiper-slide-img" />
+                    <Img
+                      src={generateUrl(slide)}
+                      className="swiper-slide-img"
+                    />
                   </div>
                 );
               })}
