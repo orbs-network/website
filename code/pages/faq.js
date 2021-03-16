@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { removeSpaces } from "../../assets/js/common";
+import FaqCategoriesList from "../partials/faq/faq-categories-list";
 
 const Faq = (props) => {
   const {
@@ -11,8 +11,8 @@ const Faq = (props) => {
     script,
     _relativeURL,
     _ID,
-    faqSectionTitles,
     socials,
+    sections,
   } = props;
   return (
     <html style={{ background: "#171819" }}>
@@ -40,16 +40,17 @@ const Faq = (props) => {
               <h3 className="faq-desc-title">{text.faq}</h3>
               <p className="faq-desc-sub-title">{text.publicBlockchain}</p>
               <div className="faq-desc-links">
-                {faqSectionTitles.map((title) => {
-                  return (
-                    <a
-                      href={`#${removeSpaces(title, "-")}`}
-                      className="faq-desc-links-link"
-                    >
-                      {title}
-                    </a>
-                  );
-                })}
+                {sections &&
+                  sections.map((section) => {
+                    return (
+                      <a
+                        href={`#${section.title}`}
+                        className="faq-desc-links-link"
+                      >
+                        {section.title}
+                      </a>
+                    );
+                  })}
               </div>
               <div className="faq-desc-questions">
                 <h5>{text.haveQuestion}</h5>
@@ -57,22 +58,7 @@ const Faq = (props) => {
               </div>
               {socials}
             </div>
-            <div className="faq-lists">
-              {faqSectionTitles &&
-                faqSectionTitles.map((title, i) => {
-                  const formattedTitle = removeSpaces(title, "-");
-                  return (
-                    <section
-                      className="faq-lists-category"
-                      key={`${title}-${i}`}
-                    >
-                      <aside id={formattedTitle}></aside>
-                      <h5>{title}</h5>
-                      <ul>{props[title]}</ul>
-                    </section>
-                  );
-                })}
-            </div>
+            <FaqCategoriesList sections={sections} />
           </div>
         </main>
         {footer}

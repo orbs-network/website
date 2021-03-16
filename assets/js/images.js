@@ -35,13 +35,19 @@ export const images = {
     korea: `${prefix}/navbar/korea.png`,
     usa: `${prefix}/navbar/usa.png`,
     japan: `${prefix}/navbar/japan.png`,
+    hamburger: `${prefix}/navbar/hamburger.png`,
   },
   team: {
     management: `${prefix}/team/management.jpg`,
+    arrow: `${prefix}/team/arrow.svg`,
     socials: {
       linkedin: `${prefix}/team/socials/linkedin.svg`,
       twitter: `${prefix}/team/socials/twitter.svg`,
       telegram: `${prefix}/team/socials/telegram.svg`,
     },
+  },
+  common: {
+    close: `${prefix}/common/close.svg`,
+    logo: `${prefix}/common/logo.svg`,
   },
 };

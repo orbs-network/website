@@ -11,10 +11,8 @@ const Blog = (props) => {
     _relativeURL,
     _ID,
     leftText,
-    socials,
     employees,
-    careerSectionTitles,
-    careersHeader,
+    careers,
   } = props;
   return (
     <html style={{ background: "#171819" }}>
@@ -46,27 +44,13 @@ const Blog = (props) => {
           <div className="team flex-between base-grid">
             <section className="team-description sticky-section">
               {leftText}
-              {socials}
             </section>
             <div className="team-lists flex-column">
               {management}
               {employees}
             </div>
           </div>
-
-          <div className="team-careers">
-            {careersHeader}
-            {careerSectionTitles &&
-              careerSectionTitles.map((title) => {
-                const sectionTitle = title.toLowerCase();
-                return (
-                  <section className="team-careers-section">
-                    <h5 className="team-careers-section-title">{title}</h5>
-                    <ul>{props[sectionTitle]}</ul>
-                  </section>
-                );
-              })}
-          </div>
+          {careers}
         </main>
         {footer}
         {script != undefined ? (

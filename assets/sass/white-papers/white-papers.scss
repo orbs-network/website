@@ -2,31 +2,38 @@
   &-pdf {
     position: fixed;
     top: 0px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
-    height: 100%;
+
+    width: 0px;
+    height: 0px;
     left: 0%;
-    top: 50%;
+    top: 0%;
     overflow: hidden;
     z-index: 999999;
 
-    pointer-events: none;
-    transition: 0.3s all;
-    transform: translate(-100%, -50%);
     &-close {
-      width: 40px;
-      height: 40px;
+      width: 30px;
+      height: 30px;
       position: absolute;
-      top: 0px;
-      right: 40px;
-      background: whitesmoke;
+      top: 20px;
+      right: -60px;
+      border: none;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
     }
     &-iframe {
+      transform: translate(-115%, -50%);
       width: calc(100% - 150px);
       height: 100%;
-      position: relative;
+      position: absolute;
+      transition: 0.25s all;
+      top: 50%;
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
     }
     &-overlay {
       background: black;
@@ -35,13 +42,20 @@
       top: 0px;
       width: 100%;
       height: 100%;
-      opacity: 0.4;
+      opacity: 0;
+      transition: 0.2s all;
     }
   }
 
   .white-paper-pdf-active {
+    width: 100%;
+    height: 100%;
+  }
+  .white-paper-pdf-overlay-active {
+    opacity: 0.6;
+  }
+  .white-paper-pdf-iframe-active {
     transform: translate(0%, -50%);
-    pointer-events: all;
   }
   &-list {
     width: calc(100% - 100px);
@@ -70,7 +84,7 @@
       &-title {
         letter-spacing: 0.8px;
         text-transform: uppercase;
-        font-size: 19px;
+        font-size: 17px;
         font-weight: 500;
       }
       &-date {
@@ -100,7 +114,7 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       letter-spacing: 0.7px;
       padding-bottom: 20px;
-      font-size: 22px;
+      font-size: 25px;
 
       margin-bottom: 25px;
     }

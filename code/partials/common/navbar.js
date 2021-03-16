@@ -1,6 +1,7 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 import Menu from "../../navbar-components/Menu";
-import MenuToggle from "../../navbar-components/MenuToggle";
+import Img from "./Img";
 
 const Navbar = ({
   _relativeURL,
@@ -18,12 +19,15 @@ const Navbar = ({
   };
   return (
     <div class="main-navbar">
-      <div className="navbar-header">
-        <MenuToggle
-          link={generateUrl(home)}
-          generateUrl={generateUrl}
-          customClassName="navbar-burger-open"
-        />
+      <div className="menu-burger-wrapper flex-start">
+        <button className="menu-burger navbar-burger-open">
+          <aside></aside>
+          <aside></aside>
+          <aside></aside>
+        </button>
+        <a href={home} className="flex-center">
+          <Img src={generateUrl(images.common.logo)} className="logo" />
+        </a>
       </div>
       <Menu
         overview={overview}

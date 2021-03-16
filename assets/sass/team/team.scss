@@ -10,11 +10,17 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-    &-header {
+    &-header-wrapper {
       margin-left: auto;
-      margin-right: 80px;
+      margin-right: 50px;
       align-items: center;
       margin-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    &-header {
+      text-align: center;
       &-title {
         font-family: $bold-font;
         font-size: 24px;
@@ -28,30 +34,36 @@
           font-size: 17px;
         }
       }
-      &-tags {
-        li {
-          color: #53fffa;
-          border: 2px solid #56baca;
-          border-radius: 27px;
-          height: 33px;
-          padding: 0px 20px;
-          text-transform: uppercase;
-          font-size: 13px;
-          margin-right: 15px;
-
-          &:last-child {
-            margin: 0px;
-          }
-        }
-      }
     }
     &-section {
       margin-bottom: 20px;
+      position: relative;
+
       &-title {
         text-transform: uppercase;
         font-family: $light-font;
         font-size: 14px;
         margin-bottom: 10px;
+      }
+    }
+    &-tags {
+      li {
+        color: #53fffa;
+        border: 2px solid #56baca;
+        border-radius: 27px;
+        height: 33px;
+        padding: 0px 20px;
+        text-transform: uppercase;
+
+        margin-right: 15px;
+
+        &:last-child {
+          margin: 0px;
+        }
+        a {
+          font-size: 13px;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -227,30 +239,20 @@
     }
   }
   &-border {
-    width: calc(100% - 83px);
+    width: calc(100% - 90px);
     border-bottom: 1px solid #4b4b4b;
     height: 60%;
     margin-left: 10px;
     transition: 0.2s all;
   }
   &-arrow {
-    width: 10px;
-    height: 10px;
-    border-bottom: 1px solid #4b4b4b;
-    border-right: 1px solid #4b4b4b;
+    width: 15px;
+    height: 15px;
 
-    transform: rotate(-45deg);
+    object-fit: contain;
     margin-left: auto;
-    transition: 0.2s all;
   }
   &:hover {
-    .teammate-arrow {
-      border-bottom: 1px solid white;
-      border-right: 1px solid white;
-    }
-    .teammate-border {
-      border-bottom: 1px solid white;
-    }
     .teammate-avatar {
       img {
         transform: scale(1.07);

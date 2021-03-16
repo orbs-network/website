@@ -1,11 +1,6 @@
 title: Faq
 script: faq/faq
 layout: pages/faq
-faqSectionTitles:
-  - General
-  - orbs pos universe
-  - tetra wallet
-  - use cases & enterprise partnership
 
 text:
   faq: FAQ
@@ -14,29 +9,40 @@ text:
   askUs: ask us here
 
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
-General:
-  - md/section1/faq-1.md
-  - md/section1/faq-2.md
-  - md/section1/faq-3.md
+sections:
+  - title: General
+    list:
+      - md/section1/faq-1.md
+      - md/section1/faq-2.md
+      - md/section1/faq-3.md
 
-orbs pos universe:
-  - md/section2/faq-1.md
-  - md/section2/faq-2.md
-  - md/section2/faq-3.md
+  - title: pos
+    list:
+      - md/section2/faq-1.md
+      - md/section2/faq-2.md
+      - md/section2/faq-3.md
 
-tetra wallet:
-  - md/section3/faq-1.md
-  - md/section3/faq-2.md
-  - md/section3/faq-3.md
+  - title: tetra wallet
+    list:
+      - md/section3/faq-1.md
+      - md/section3/faq-2.md
+      - md/section3/faq-3.md
 
-use cases & enterprise partnership:
-  - md/section4/faq-1.md
-  - md/section4/faq-2.md
-  - md/section4/faq-3.md
+  - title: technology
+    list:
+      - md/section5/faq-1.md
+      - md/section5/faq-2.md
+      - md/section5/faq-3.md
+
+  - title: Use cases & enterprise partnerships
+    list:
+      - md/section4/faq-1.md
+      - md/section4/faq-2.md
+      - md/section4/faq-3.md
 
 socials:
   - /_shared/socials.md
 footer:
-  - /_shared/new-footer.md
+  - /_shared/footer/footer.md
