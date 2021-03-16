@@ -17,6 +17,7 @@ import { points } from "./points.js";
 let pointSelectInterval = null;
 let pointHideTimeout = null;
 let handleMouseOutTimeout;
+
 export const globeController = new (class GlobeClass {
   cards = [];
   weights = [];
@@ -72,7 +73,7 @@ export const globeController = new (class GlobeClass {
       .pointsData(this.points)
       .pointAltitude(0.003)
       .pointColor(() => globeConfig.orbsMainColor)
-      .onPointClick(() => this.handlePointClick())
+      .onPointClick(this.handlePointClick)
       .pointsTransitionDuration(300)
 
       .onPointHover((point) => {
@@ -80,7 +81,9 @@ export const globeController = new (class GlobeClass {
           stopInterval();
           return this.stopGlobeAutoRotation(globElem);
         }
-        startInterval();
+        if (!this.clickTriggerd) {
+          startInterval();
+        }
         return this.startGlobeAutoRotation(globElem);
       })
       .pointRadius(0.7)(globeContainer);
@@ -117,11 +120,14 @@ export const globeController = new (class GlobeClass {
       .arcDashAnimateTime(() => Math.random() * 4000 + 500);
   };
 
-  handlePointClick() {
-    this.selectPoint();
-    this.clickTriggerd = true;
+  handlePointClick = () => {
     stopInterval();
-  }
+
+    this.clickTriggerd = true;
+    setTimeout(() => {
+      this.selectPoint();
+    }, 50);
+  };
 
   selectPoint() {
     const card = getRandomPointByWeight(
@@ -146,21 +152,17 @@ export const globeController = new (class GlobeClass {
   addEventsToCards = (cards) => {
     cards.forEach((card) => {
       onOutsideEvent(card, this.handleOutSideClick);
-      onMouseEnterAndLeaveEvent(card, stopInterval, this.handleMouseOut);
+      onMouseEnterAndLeaveEvent(card, stopInterval, () => {});
     });
   };
 
-  handleMouseOut = () => {
-    if (this.clickTriggerd) return;
-    handleMouseOutTimeout = setTimeout(() => {
-      globeController.hideSelectedCard();
-      startInterval();
-    }, 2000);
-  };
+  handleMouseOut = () => {};
 
   handleOutSideClick = () => {
     this.clickTriggerd = false;
-    restartInterval();
+    stopInterval();
+    startInterval();
+
     this.hideSelectedCard();
   };
 
@@ -196,6 +198,7 @@ const restartInterval = () => {
 };
 
 const startInterval = () => {
+  console.log("interval started");
   pointSelectInterval = setInterval(() => {
     globeController.selectPoint();
     setAutoHideTimeout();
@@ -209,6 +212,7 @@ const setAutoHideTimeout = () => {
 };
 
 const stopInterval = () => {
+  console.log("interval stopped");
   if (!pointSelectInterval) return;
   window.clearTimeout(handleMouseOutTimeout);
   window.clearInterval(pointSelectInterval);

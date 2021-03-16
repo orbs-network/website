@@ -8,7 +8,8 @@ const WhitePaper = ({
   script,
   _relativeURL,
   _ID,
-  list,
+  whitePapersList,
+  pdfPreview,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -26,27 +27,8 @@ const WhitePaper = ({
     <body className="white-paper grid-page">
       <header className="main-header">{header}</header>
       <main>
-        <div className="white-paper-pdf">
-          <section className="white-paper-pdf-overlay"></section>
-          <button className="white-paper-pdf-close"></button>
-          <iframe className="white-paper-pdf-iframe" src=""></iframe>
-        </div>
-        <div className="white-paper-list">
-          <h1 className="white-paper-list-title">{title}</h1>
-          <div className="white-paper-list-flex">
-            {list &&
-              list.map((category) => {
-                return (
-                  <div className="white-paper-category">
-                    <section className="white-paper-category-title">
-                      {category.title}
-                    </section>
-                    {category.whitePapers}
-                  </div>
-                );
-              })}
-          </div>
-        </div>
+        {pdfPreview}
+        {whitePapersList}
       </main>
       {script != undefined ? (
         <script

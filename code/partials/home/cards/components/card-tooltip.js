@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../../../common-components/Img";
+import Img from "../../../common/Img";
 
 const CardTooltip = ({ type, img }) => {
   return (

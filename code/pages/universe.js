@@ -3,7 +3,6 @@ import React from "react";
 
 const Universe = ({
   title,
-  stylesheet,
   header,
   topSections,
   footer,

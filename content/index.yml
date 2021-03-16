@@ -2,7 +2,7 @@ title: Home
 layout: pages/home
 script: globe/globe
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
 globe:
   - md/globe.md

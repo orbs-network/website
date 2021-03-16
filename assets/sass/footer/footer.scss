@@ -1,68 +1,175 @@
-.footer-wrapper {
-  margin-top: 100px;
-}
-.footer-flex {
-  display: flex;
-  margin: auto;
-}
-.footer-wrapper {
-  background: $base-bg-color;
-  color: white;
-  padding-bottom: 40px;
-  font-family: "Montserrat";
-}
-.footer-wrapper p,
-.footer-wrapper h5 {
-  text-align: left;
-}
-.footer-wrapper h5 {
-  margin-bottom: 10px;
-}
-.footer-wrapper p {
-  font-size: 15px;
-}
-.footer-section {
-  width: calc(100% / 4);
-  padding-right: 40px;
-}
-.footer-post {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #707070;
-  align-items: flex-start;
-  figure {
-    width: 40px;
-    height: 40px;
-    background: lightgray;
-    margin-right: 10px;
-    margin-top: 5px;
-  }
-  &-content {
-    flex: 1;
-  }
-}
-
-.footer-post-text {
+@mixin footer-overflow-text() {
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
-  max-height: 3.4em;
+  max-height: 3.3em;
+  margin-bottom: 5px;
 }
 
-.footer-post:last-of-type {
-  border: 0px;
-}
-
-.footer-navigation a {
+.footer {
+  margin-top: 150px;
+  background: $base-bg-color;
   color: white;
-  letter-spacing: 2.34px;
-  text-transform: uppercase;
-  line-height: 24px;
-  transition: 0.2s all;
-  opacity: 0.6;
-  font-size: 15px;
-}
+  padding-bottom: 70px;
+  font-family: "Montserrat";
+  &-flex {
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+  }
+  &-section {
+    width: calc(100% / 4);
+    padding-right: 60px;
+    &-title {
+      font-size: 13px;
+      font-family: $bold-font;
+      margin-bottom: 15px;
+    }
 
-.footer-navigation a:hover {
-  opacity: 1;
+    &:last-child {
+      padding: 0px;
+    }
+  }
+  &-post {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #707070;
+    align-items: flex-start;
+    text-decoration: none;
+    .text-p {
+      @include footer-overflow-text();
+    }
+    figure {
+      width: 40px;
+      height: 40px;
+      background: #373636;
+      margin-right: 10px;
+      margin-top: 5px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &-content {
+      flex: 1;
+    }
+    &-date {
+      small {
+        font-size: 12px;
+        font-size: 12px;
+        color: #9f9e9e;
+        &:nth-of-type(1) {
+          margin-right: 5px;
+          color: #666666;
+        }
+      }
+    }
+  }
+  &-tweet {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #707070;
+    align-items: flex-start;
+    .text-p {
+      @include footer-overflow-text();
+    }
+    figure {
+      width: 20px;
+      height: 20px;
+
+      margin-right: 10px;
+      margin-top: 5px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    &-content {
+      flex: 1;
+    }
+    small {
+      font-size: 12px;
+      color: #9f9e9e;
+    }
+    &:last-child {
+      border: 0px;
+    }
+  }
+
+  &-text {
+    font-size: 13px;
+    letter-spacing: 0.44px;
+    line-height: 20px;
+  }
+  &-navigation {
+    a {
+      color: white;
+      letter-spacing: 2.34px;
+      text-transform: uppercase;
+      line-height: 25px;
+      transition: 0.2s all;
+      opacity: 0.6;
+      font-size: 12px;
+      text-decoration: none;
+      font-weight: 300;
+      white-space: nowrap;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  &-logo-section {
+    .footer-logo {
+      width: auto;
+      height: 30px;
+      margin-bottom: 20px;
+    }
+    .footer-text {
+      margin-bottom: 20px;
+    }
+    &-email {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+    &-policy {
+      font-size: 12px;
+      color: #acacac;
+    }
+    &-form {
+      margin-left: 40px;
+      width: 450px;
+      height: 40px;
+      background: #2e2e2e80;
+      &-input {
+        letter-spacing: 0.5px;
+        background: transparent;
+        color: white;
+        font-size: 14px;
+        text-indent: 20px;
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-style: italic;
+      }
+      &-submit {
+        background: white;
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        border: none;
+        font-size: 18px;
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
 }

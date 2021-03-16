@@ -3,7 +3,7 @@ layout: pages/overview
 
 script: overview/overview
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
 pageHeader:
   - md/page-header.md
@@ -39,4 +39,4 @@ linkBtn:
   - md/link.md
 
 footer:
-  - /_shared/new-footer.md
+  - /_shared/footer/footer.md

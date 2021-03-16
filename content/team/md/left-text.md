@@ -1,5 +1,7 @@
 ---
 layout: partials/team/description
+socials:
+  - ../../_shared/socials.md
 ---
 
 # we are always there to meet your needs.
