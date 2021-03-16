@@ -1,6 +1,6 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
-import Img from "../../common-components/Img";
+import Img from "./Img";
 import SplittedLinesText from "./splitted-lines-text";
 
 const ImagesGrid = ({ title, images, imagesPerLine = 3, border }) => {

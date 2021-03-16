@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
-import Img from "../../common-components/Img";
+import Img from "../common/Img";
 import Teammate from "./teammate";
 
 const Management = ({ _relativeURL, _ID, management, slides, text }) => {

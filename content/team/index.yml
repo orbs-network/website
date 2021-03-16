@@ -2,18 +2,11 @@ title: Team
 layout: pages/team
 script: team/index
 
-careerSectionTitles:
-  - developers
-  - finance
-
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
 leftText:
   - md/left-text.md
-
-socials:
-  - /_shared/socials.md
 
 management:
   - md/management.md
@@ -21,16 +14,8 @@ management:
 employees:
   - md/employees.md
 
-developers:
-  - md/careers/developers/career-1.md
-  - md/careers/developers/career-2.md
-
-finance:
-  - md/careers/finance/career-1.md
-  - md/careers/finance/career-2.md
-
-careersHeader:
-  - md/careers/careers-header.md
+careers:
+  - md/careers/careers.md
 
 footer:
-  - /_shared/new-footer.md
+  - /_shared/footer/footer.md

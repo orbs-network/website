@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../../../../assets/js/images";
-import Img from "../../../common-components/Img";
 import { formatNumber } from "../../../util/numberUtil";
+import Img from "../../common/Img";
 import { Border } from "./components/border";
 import CardTitle from "./components/card-title";
 import CardTooltip from "./components/card-tooltip";

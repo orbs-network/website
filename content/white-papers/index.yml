@@ -3,26 +3,11 @@ layout: pages/white-paper
 script: white-paper/index
 
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
-list:
-  - title: Community
-    whitePapers:
-      - md/white-paper-1.md
-
-  - title: Orbs Proof of Stake Universe
-    whitePapers:
-      - md/white-paper-2.md
-
-  - title: The Orbs Position Paper
-    whitePapers:
-      - md/white-paper-3.md
-
-  - title: Working papers
-    whitePapers:
-      - md/white-paper-4.md
-      - md/white-paper-5.md
-      - md/white-paper-6.md
-
+whitePapersList:
+  - md/white-papers/white-papers.md
+pdfPreview:
+  - md/pdf-preview.md
 footer:
-  - /_shared/new-footer.md
+  - /_shared/footer/footer.md

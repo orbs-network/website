@@ -3,7 +3,7 @@ layout: pages/universe
 
 script: universe
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
 pageHeader:
   - md/header.md
@@ -34,4 +34,4 @@ expendingSection:
 bottomText:
   - md/bottom-text.md
 footer:
-  - /_shared/new-footer.md
+  - /_shared/footer/footer.md
