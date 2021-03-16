@@ -3,7 +3,7 @@ layout: pages/blog
 script: blog/blog
 
 header:
-  - /_shared/header.md
+  - /_shared/header/header.md
 
 pageHeader:
   - md/header.md
@@ -13,4 +13,4 @@ blogs:
   - second-blog/blog.md
 
 footer:
-  - /_shared/new-footer.md
+  - /_shared/footer/footer.md

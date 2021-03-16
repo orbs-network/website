@@ -1,7 +1,7 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
 import { images } from "../../../assets/js/images";
-import Img from "../../common-components/Img";
+import Img from "../common/Img";
 
 const Teammate = ({ data, generateUrl }) => {
   const { avatar, name, role, telegram, linkedin, twitter } = data;
@@ -37,15 +37,14 @@ const Teammate = ({ data, generateUrl }) => {
             </a>
           </div>
           <figure className="teammate-border" />
-          <figure className="teammate-arrow" />
+          <img
+            src={generateUrl(images.team.arrow)}
+            className="teammate-arrow"
+          />
         </section>
       </div>
     </div>
   );
-};
-Teammate.getInitialProps = async function (props) {
-  const { data, generateUrl } = await FetchMyDataFromSomewhere(props._ID);
-  return { data, generateUrl };
 };
 
 export default Teammate;
