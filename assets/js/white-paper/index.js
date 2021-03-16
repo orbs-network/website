@@ -8,41 +8,40 @@ import {
 window.onload = () => {
   init();
   setEventsToPdfBtn();
-  setCloseIframeListener();
 };
 
 const setEventsToPdfBtn = () => {
+  const closeBtn = getElement(".white-paper-pdf-close");
+  addEvent(closeBtn, "click", closeIframe);
   const btns = getElements(".white-paper-box-btn");
   if (!btns) return;
   btns.forEach((btn) => {
-    addEvent(btn, "click", () => setPdfIntoIframe(btn));
-    addEvent(btn, "click", () => togglePdfPreview(true));
+    addEvent(btn, "click", () => openPdfIframe(btn));
   });
 };
-
-const setCloseIframeListener = () => {
-  const closeBtn = getElement(".white-paper-pdf-close");
-  addEvent(closeBtn, "click", () => togglePdfPreview(false));
-};
-
-const setPdfIntoIframe = (e) => {
+const openPdfIframe = (e) => {
   const attar = getElementAttribute(e, "data-url");
-  const iframe = getElement(".white-paper-pdf-iframe");
-  iframe.setAttribute("src", attar);
-};
-
-const clearPdfIframe = (e) => {
-  const iframe = getElement(".white-paper-pdf-iframe");
-  iframe.setAttribute("src", "");
-};
-
-const togglePdfPreview = (show) => {
   const previewContainer = getElement(".white-paper-pdf");
-  if (show) {
-    return previewContainer.classList.add("white-paper-pdf-active");
-  }
+  const iframeContainer = getElement(".white-paper-pdf-iframe");
+  const iframeOverlay = getElement(".white-paper-pdf-overlay");
+  const iframe = getElement(".white-paper-pdf-iframe iframe");
+  iframe.setAttribute("src", attar);
+  previewContainer.classList.add("white-paper-pdf-active");
+  iframeOverlay.classList.add("white-paper-pdf-overlay-active");
   setTimeout(() => {
-    clearPdfIframe();
-  }, 500);
-  return previewContainer.classList.remove("white-paper-pdf-active");
+    iframeContainer.classList.add("white-paper-pdf-iframe-active");
+  }, 300);
+};
+
+const closeIframe = () => {
+  const previewContainer = getElement(".white-paper-pdf");
+  const iframeContainer = getElement(".white-paper-pdf-iframe");
+  const iframeOverlay = getElement(".white-paper-pdf-overlay");
+  const iframe = getElement(".white-paper-pdf-iframe iframe");
+  iframeContainer.classList.remove("white-paper-pdf-iframe-active");
+  iframeOverlay.classList.remove("white-paper-pdf-overlay-active");
+  setTimeout(() => {
+    previewContainer.classList.remove("white-paper-pdf-active");
+    iframe.setAttribute("src", "");
+  }, 300);
 };

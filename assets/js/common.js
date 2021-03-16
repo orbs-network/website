@@ -1,5 +1,9 @@
 export const getElement = (element) => {
-  return document.querySelector(element);
+  try {
+    return document.querySelector(element);
+  } catch (error) {
+    console.error("couldnt find element");
+  }
 };
 
 export const getElements = (element) => {
@@ -114,6 +118,7 @@ export const removeSpaces = (str, char) => {
 
 export const init = () => {
   addListenersToNavbar();
+  addListenersToFooter();
   AOS.init({ once: true });
 };
 
@@ -149,4 +154,15 @@ export const getElementAttribute = (element, attr) => {
 export const checkIfIncludesInUrl = (currentPath) => {
   const url = window.location.pathname;
   return url.indexOf(currentPath) > -1;
+};
+
+const addListenersToFooter = () => {
+  const form = getElement(".footer-bottom-form");
+  addEvent(form, "submit", submitFooterForm);
+};
+
+const submitFooterForm = (e) => {
+  e.preventDefault();
+  const inputValue = getElement(".footer-bottom-form-input").value;
+  alert(`youre email is: ${inputValue}`);
 };

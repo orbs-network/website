@@ -5,6 +5,9 @@
   z-index: 999999;
   position: relative;
 }
+.navbar-top {
+  width: 100%;
+}
 .main-navbar {
   display: flex;
   justify-content: space-between;
@@ -18,7 +21,6 @@
   .logo {
     height: 30px;
     object-fit: contain;
-    margin-left: 25px;
   }
 }
 .menu-burger {
@@ -26,13 +28,22 @@
   background: transparent;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   border: 0px;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 20px;
+  margin-right: 25px;
   img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+  aside {
+    border-radius: 25px;
+    width: 100%;
+    height: 2px;
+    background: white;
   }
 }
 .navbar-flags {
@@ -172,9 +183,11 @@
           align-items: center;
           justify-content: center;
           transition: 0.2s all;
-          letter-spacing: 2px;
-          font-size: 10px;
-          font-family: $bold-font;
+          p {
+            letter-spacing: 2px;
+            font-size: 10px;
+            font-family: $bold-font;
+          }
           &:hover {
             background: #cecece;
             p {
@@ -191,6 +204,9 @@
   &-show {
     transform: translate(0%);
     opacity: 1;
+  }
+  .socials {
+    margin-top: 40px;
   }
 }
 
