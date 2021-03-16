@@ -13,7 +13,7 @@ const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
           <aside></aside>
           <aside></aside>
         </button>
-        <a href={home} className="flex-center">
+        <a href={generateUrl(home)} className="flex-center">
           <Img src={generateUrl(logo)} className="logo" />
         </a>
       </div>
