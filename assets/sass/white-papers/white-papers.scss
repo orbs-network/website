@@ -28,7 +28,7 @@
       width: calc(100% - 150px);
       height: 100%;
       position: absolute;
-      transition: 0.25s all;
+      transition: 0.4s all;
       top: 50%;
       iframe {
         width: 100%;
@@ -60,7 +60,7 @@
   &-list {
     width: calc(100% - 100px);
     margin: auto;
-    padding-top: 30px;
+    padding-top: 50px;
     &-title {
       margin-bottom: 80px;
       text-align: center;
@@ -72,9 +72,11 @@
   }
   &-box {
     align-items: flex-start;
-    margin-bottom: 100px;
+    @extend .inside-margin;
     flex-wrap: wrap;
-
+    &:last-child {
+      margin-bottom: 0px;
+    }
     &-btn {
       @include read-more-btn();
     }
@@ -109,6 +111,10 @@
     }
   }
   &-category {
+    @extend .outside-margin;
+    &:last-child {
+      margin-bottom: 0px;
+    }
     &-title {
       width: 100%;
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);

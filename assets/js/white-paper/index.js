@@ -30,7 +30,7 @@ const openPdfIframe = (e) => {
   iframeOverlay.classList.add("white-paper-pdf-overlay-active");
   setTimeout(() => {
     iframeContainer.classList.add("white-paper-pdf-iframe-active");
-  }, 300);
+  }, 200);
 };
 
 const closeIframe = () => {
@@ -43,5 +43,5 @@ const closeIframe = () => {
   setTimeout(() => {
     previewContainer.classList.remove("white-paper-pdf-active");
     iframe.setAttribute("src", "");
-  }, 300);
+  }, 200);
 };
