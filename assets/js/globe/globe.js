@@ -189,10 +189,10 @@ window.onload = async () => {
 };
 
 const startInterval = () => {
-  pointSelectInterval = setInterval(() => {
-    globeController.selectPoint();
-    setAutoHideTimeout();
-  }, globeConfig.showCardInterval);
+  // pointSelectInterval = setInterval(() => {
+  //   globeController.selectPoint();
+  //   setAutoHideTimeout();
+  // }, globeConfig.showCardInterval);
 };
 
 const setAutoHideTimeout = () => {

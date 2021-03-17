@@ -6,7 +6,7 @@ $delegator-color: #d0fb6e;
   overflow: hidden;
   border-radius: 10px;
   position: absolute;
-  z-index: 9999;
+  z-index: 9999999;
   background: #1a1a1a;
   top: 50%;
   left: 50%;
@@ -542,5 +542,11 @@ $delegator-color: #d0fb6e;
     font-family: $bold-font;
     margin-bottom: 15px;
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .globe-card {
+    display: none !important;
   }
 }
