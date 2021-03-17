@@ -184,4 +184,17 @@ body {
     padding-left: 90px;
     padding-right: 90px;
   }
+  .home-globe {
+    transform: translate(50px);
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .home-globe {
+    transform: translate(0px);
+  }
+  .home-page {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

@@ -1,4 +1,7 @@
 .universe {
+  main {
+    transform: translate(0, -30px);
+  }
   .text {
     @extend .inside-margin;
     font-size: 15px;
@@ -11,7 +14,6 @@
       height: 500px;
       img {
         position: relative;
-        transform: translate(0, -30px);
       }
     }
     h1 {
@@ -135,6 +137,113 @@
         @include pink-expend-btn();
       }
       margin-bottom: 30px;
+    }
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .universe {
+    .page-header {
+      figure {
+        height: 45vw;
+        min-height: 200px;
+        img {
+          position: relative;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .universe-first-sections {
+    .universe-list-section {
+      &:nth-child(even) {
+        padding-left: 40px;
+      }
+      &:nth-child(odd) {
+        padding-right: 40px;
+      }
+    }
+  }
+  .universe-second-sections {
+    .text-with-title {
+      padding-right: 30px;
+    }
+    .images-grid-list {
+      li {
+        width: calc(50% - 20px) !important;
+        margin-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .universe-first-sections {
+    flex-direction: column;
+    .universe-list-section {
+      width: 100%;
+
+      border: 0px;
+      margin-bottom: 60px;
+      &:nth-child(odd) {
+        border: 0px;
+        padding: 0px;
+      }
+      &:nth-child(even) {
+        padding: 0px;
+      }
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .universe-second-sections {
+    flex-direction: column;
+    .text-with-title {
+      width: 100%;
+      order: 2;
+    }
+    .images-grid {
+      width: 100%;
+      padding-top: 0px;
+      order: 1;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .universe {
+    main {
+      transform: translate(0);
+    }
+  }
+  .universe-third-sections {
+    flex-direction: column;
+    .text-with-title {
+      width: 100%;
+      margin-right: 0px;
+      &:nth-child(even) {
+      }
+    }
+  }
+  .universe-first-sections {
+    .universe-list-section {
+      ul {
+        li {
+          font-size: 12px;
+        }
+      }
+      h5 {
+        font-size: 15px;
+      }
+      span {
+        h4 {
+          font-size: 17px;
+        }
+      }
     }
   }
 }
