@@ -1,7 +1,7 @@
 ---
 layout: partials/pos-universe/list-section
 title: Guardians
-img:
+img: ../assets/img/pos-universe/guardians.svg
 ---
 
 Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision, investing time and efforts in the network success.

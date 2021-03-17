@@ -1,17 +1,16 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
 import Img from "../common/Img";
-import MenuLinks from "./menu-links";
 
 const NavbarMenu = ({
   socials,
   logo,
   overview,
   resources,
-  links,
-  text,
+  about,
   _relativeURL,
   _ID,
+  home,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -22,27 +21,13 @@ const NavbarMenu = ({
         <button className="menu-burger navbar-burger-close">
           <img src={generateUrl(images.common.close)} />
         </button>
-        <Img src={generateUrl(logo)} className="logo" />
+        <a href={generateUrl(home)} className="flex-center">
+          <Img src={generateUrl(logo)} className="logo" />
+        </a>
       </div>
-      <MenuLinks
-        arr={overview}
-        linkClassName="nav-menu-link"
-        title={text.overview}
-        generateUrl={generateUrl}
-      />
-      <MenuLinks
-        arr={resources}
-        title={text.resources}
-        generateUrl={generateUrl}
-        sectionClassName="nav-menu-resources"
-        listClassName="flex-start"
-      />
-      <MenuLinks
-        arr={links}
-        title={text.about}
-        generateUrl={generateUrl}
-        linkClassName="nav-menu-link"
-      />
+      {overview}
+      {resources}
+      {about}
       {socials}
     </div>
   );

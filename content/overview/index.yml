@@ -6,37 +6,28 @@ header:
   - /_shared/header/header.md
 
 pageHeader:
-  - md/page-header.md
+  - md/page-header/page-header.md
 
-flexSection:
-  - md/expending-text-1.md
-  - md/expending-text-2.md
-  - md/expending-text-3.md
-  - md/images-grid.md
-  - md/expending-text-4.md
-  - md/list.md
+topFlexSection:
+  - md/top-flex-section.md
 
-boxes:
-  - md/box-1.md
-  - md/box-2.md
-  - md/box-3.md
+boxes1:
+  - md/boxes-section-1.md
 
 secondFlexSection:
-  - md/expending-text-5.md
+  - md/expending-text/expending-text-5.md
 
 text:
-  - md/text.md
+  - md/text/text.md
 
-secondBoxes:
-  - md/box-4.md
-  - md/box-5.md
-  - md/box-6.md
+boxes2:
+  - md/boxes-section-2.md
 
-secondImagesGrid:
-  - md/second-images-grid.md
+imagesGrid:
+  - md/images-grid/images-grid-2.md
 
 linkBtn:
-  - md/link.md
+  - md/link/link.md
 
 footer:
   - /_shared/footer/footer.md

@@ -13,6 +13,7 @@ const ExpendableTextBox = ({
   const style = { WebkitLineClamp: linesLimit };
   const parentStyle = {
     borderTop: border ? "1px solid #707070" : "none",
+    paddingTop: border ? "30px" : "0px",
     borderBottom: borderBottom ? "1px solid #707070" : "none",
     paddingBottom: borderBottom ? "30px" : "0px",
   };

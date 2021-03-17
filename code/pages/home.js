@@ -2,16 +2,14 @@ import PropTypes from "prop-types";
 import React from "react";
 import GlobeLoader from "../partials/home/globeLoader";
 
-const Blog = ({
+const Home = ({
   title,
   header,
-  globe,
+  globeContainer,
   script,
   _relativeURL,
   _ID,
   pageText,
-  socials,
-  cards,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -34,14 +32,8 @@ const Blog = ({
       <GlobeLoader />
       <main>
         <header className="main-header">{header}</header>
-        <div className="home-flex">
-          {pageText}
-          {socials}
-        </div>
-        <div className="home-globe">
-          {globe}
-          {cards}
-        </div>
+        {pageText}
+        {globeContainer}
       </main>
       {script != undefined ? (
         <script
@@ -53,7 +45,7 @@ const Blog = ({
   </html>
 );
 
-Blog.propTypes = {
+Home.propTypes = {
   /**
    * title: Homepage
    */
@@ -70,6 +62,6 @@ Blog.propTypes = {
   footer: PropTypes.node.isRequired,
 };
 
-Blog.defaultProps = {};
+Home.defaultProps = {};
 
-export default Blog;
+export default Home;

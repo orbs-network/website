@@ -13,7 +13,6 @@ const Page = ({
   script,
   _relativeURL,
   _ID,
-  globe,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
