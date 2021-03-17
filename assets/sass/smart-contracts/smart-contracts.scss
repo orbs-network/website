@@ -10,9 +10,11 @@
     }
   }
   &-flex {
+    @extend .outside-margin;
     flex-wrap: wrap;
     align-items: flex-start;
     .text-with-title {
+      margin-bottom: 30px;
       width: calc(100% / 2 - 30px);
       &:nth-child(even) {
         margin-left: auto;
@@ -20,22 +22,11 @@
       .expend-btn {
         @include pink-expend-btn();
       }
-      margin-bottom: 50px;
-      &:last-child {
-        border: 0px;
-      }
     }
   }
   &-management {
-    margin-top: 30px;
+    @extend .inside-margin;
     width: 50%;
-    .text-with-title {
-      border: none;
-
-      p {
-        margin-bottom: 15px;
-      }
-    }
   }
   &-boxes {
     margin-top: 20px;
@@ -49,6 +40,7 @@
       width: 80%;
       flex-wrap: wrap;
       align-items: stretch;
+      @extend .inside-margin;
       .box {
         margin-bottom: 15px;
         width: calc(100% / 3 - 15px);

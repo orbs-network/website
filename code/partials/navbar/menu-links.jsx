@@ -1,50 +1,28 @@
 import React from "react";
 
-const MenuLinks = ({
-  generateUrl,
-  arr,
-  sectionClassName = "",
-  linkClassName = "",
-  title,
-  listClassName = "",
-}) => {
+const MenuResources = ({ links, text, _relativeURL, _ID }) => {
+  const generateUrl = (url) => {
+    return `${_relativeURL(url, _ID)}`;
+  };
   return (
-    <section className={`nav-menu-section ${sectionClassName}`}>
-      <h4>{title}</h4>
-      <ul className={listClassName}>
-        {arr.map((link) => {
-          const { url, name } = link;
-          return (
-            <li className={linkClassName}>
-              <a href={generateUrl(url)}>
-                <figure />
-                <p>{name}</p>
-              </a>
-            </li>
-          );
-        })}
+    <section className="nav-menu-section nav-menu-links">
+      <h4>{text.title}</h4>
+      <ul>
+        {links &&
+          links.map((link) => {
+            const { url, name } = link;
+            return (
+              <li>
+                <a href={generateUrl(url)}>
+                  <figure />
+                  <p>{name}</p>
+                </a>
+              </li>
+            );
+          })}
       </ul>
     </section>
   );
 };
 
-MenuLinks.getInitialProps = async function (props) {
-  const {
-    generateUrl,
-    arr,
-    sectionClassName,
-    linkClassName,
-    title,
-    listClassName,
-  } = await FetchMyDataFromSomewhere(props._ID);
-  return {
-    generateUrl,
-    arr,
-    sectionClassName,
-    linkClassName,
-    title,
-    listClassName,
-  };
-};
-
-export default MenuLinks;
+export default MenuResources;
