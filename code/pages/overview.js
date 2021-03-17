@@ -45,6 +45,7 @@ const Overview = ({
           {boxes2}
         </div>
         {linkBtn}
+        {footer}
       </main>
       {script != undefined ? (
         <script
@@ -52,7 +53,6 @@ const Overview = ({
           src={_relativeURL(`/assets/js/${script}.js`, _ID)}
         />
       ) : null}
-      {footer}
     </body>
   </html>
 );

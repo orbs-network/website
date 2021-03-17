@@ -48,5 +48,14 @@
   top: -110px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 750px) {
+  .text-p {
+    font-size: 13px;
+  }
+  .inside-margin {
+    margin-bottom: 50px;
+  }
+  .outside-margin {
+    margin-bottom: 80px;
+  }
 }

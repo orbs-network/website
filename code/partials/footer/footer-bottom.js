@@ -4,7 +4,7 @@ const FooterBottom = ({ socials, text }) => {
   return (
     <div className="footer-bottom flex-between">
       <section className="footer-bottom-policy">{text.policy}</section>
-      <section className="flex-center">
+      <section className="flex-center footer-bottom-form-wrapper">
         {socials}
         <form className="footer-bottom-form flex-between">
           <input
