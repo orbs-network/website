@@ -1,7 +1,7 @@
 ---
 layout: partials/common/expendable-text-box
 linesLimit: 2
-title: The winning blockchain stack
+title: THE WINNING BLOCKCHAIN STACK
 readMoreButton: read more
 readLessButton: read less
 ---

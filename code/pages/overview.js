@@ -4,18 +4,17 @@ import React from "react";
 const Overview = ({
   title,
   header,
-
   footer,
   script,
   _relativeURL,
   _ID,
   pageHeader,
-  flexSection,
-  boxes,
+  topFlexSection,
+  boxes1,
   secondFlexSection,
-  secondImagesGrid,
+  imagesGrid,
   text,
-  secondBoxes,
+  boxes2,
   linkBtn,
 }) => (
   <html style={{ background: "#171819" }}>
@@ -36,14 +35,14 @@ const Overview = ({
       <main>
         {pageHeader}
         <div className="overview-flex">
-          <div className="overview-flex-top">{flexSection}</div>
-          <div className="flex-start overview-boxes-flex"> {boxes}</div>
+          {topFlexSection}
+          {boxes1}
           <div className="overview-bottom-flex">
             {secondFlexSection}
-            {secondImagesGrid}
+            {imagesGrid}
             {text}
           </div>
-          <div className="flex-start overview-boxes-flex"> {secondBoxes}</div>
+          {boxes2}
         </div>
         {linkBtn}
       </main>
