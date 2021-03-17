@@ -1,5 +1,13 @@
 .overview {
   position: relative;
+
+  .text,
+  .images-grid,
+  .list-box,
+  .text-with-title,
+  .overview-boxes-flex {
+    @extend .inside-margin;
+  }
   .page-header {
     position: relative;
     h1 {
@@ -16,19 +24,16 @@
     }
   }
   &-flex {
-    width: calc(100% - 200px);
+    width: 85%;
+
     &-top {
       width: 60%;
-      .text-with-title {
-        margin-bottom: 30px;
-      }
     }
   }
+
   .images-grid {
-    margin-top: 50px;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    margin-bottom: 30px;
   }
   &-boxes-flex {
     .box {
@@ -37,20 +42,18 @@
     }
   }
   &-bottom-flex {
-    margin-top: 40px;
+    .images-grid-list {
+      li {
+        margin-bottom: 0px;
+      }
+    }
     .text-with-title {
       border: 0px;
-      margin-bottom: 30px;
-    }
-    .text {
-      margin-bottom: 40px;
-    }
-    .images-grid {
-      margin-bottom: 40px;
     }
   }
   .list-box {
     width: 600px;
+
     li {
       padding-left: 20px;
       position: relative;

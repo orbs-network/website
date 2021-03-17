@@ -1,4 +1,11 @@
 .universe {
+  .text {
+    @extend .inside-margin;
+    font-size: 15px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
   .page-header {
     figure {
       height: 500px;
@@ -12,13 +19,16 @@
     }
   }
   &-first-sections {
-    align-items: stretch;
+    @extend .outside-margin;
+    align-items: flex-start;
     .universe-list-section {
       width: 50%;
+
       span {
         margin-bottom: 10px;
         img {
           margin-right: 10px;
+          width: 30px;
         }
         h4 {
           font-size: 20px;
@@ -47,13 +57,17 @@
         justify-content: center;
         color: black;
         font-weight: bold;
-        margin-top: 30px;
-        margin-bottom: 40px;
         text-decoration: none;
         transition: 0.2s all;
+
         &:hover {
           background: transparent;
           color: #03fbf4;
+        }
+      }
+      .text-p {
+        &:nth-of-type(2) {
+          margin-bottom: 50px;
         }
       }
       a[title="link"] {
@@ -62,7 +76,7 @@
       }
       ul {
         list-style: disc;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         padding-left: 17px;
         &:last-child {
           margin-bottom: 0px;
@@ -88,7 +102,7 @@
     }
   }
   &-second-sections {
-    margin-top: 120px;
+    @extend .outside-margin;
     align-items: flex-start;
     .text-with-title {
       width: 50%;
@@ -99,17 +113,19 @@
       width: 50%;
       padding-top: 40px;
       padding-left: 20px;
+      li {
+        &:nth-child(n + 7):nth-child(-n + 12) {
+          margin-bottom: 0px;
+        }
+      }
     }
   }
-  .text {
-    margin-top: 60px;
-    width: 75%;
-    font-size: 15px;
-  }
+
   &-third-sections {
+    margin-bottom: 30px;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 40px;
+
     .text-with-title {
       width: calc(100% / 2 - 30px);
       &:nth-child(even) {

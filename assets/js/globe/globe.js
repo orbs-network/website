@@ -34,7 +34,6 @@ export const globeController = new (class GlobeClass {
     this.setGlobeBaseConfig(newGlobe);
     this.setPathData(newGlobe);
     await this.setPoligons(newGlobe);
-    //this.setArcData(newGlobe);
     this.setGlobePoints(newGlobe);
     this.startGlobeAutoRotation(newGlobe);
     this.globe = newGlobe;
@@ -162,7 +161,6 @@ export const globeController = new (class GlobeClass {
     this.clickTriggerd = false;
     stopInterval();
     startInterval();
-
     this.hideSelectedCard();
   };
 
@@ -190,15 +188,7 @@ window.onload = async () => {
   globeController.init();
 };
 
-const restartInterval = () => {
-  stopInterval();
-  setTimeout(() => {
-    startInterval();
-  }, 1000);
-};
-
 const startInterval = () => {
-  console.log("interval started");
   pointSelectInterval = setInterval(() => {
     globeController.selectPoint();
     setAutoHideTimeout();
@@ -212,7 +202,6 @@ const setAutoHideTimeout = () => {
 };
 
 const stopInterval = () => {
-  console.log("interval stopped");
   if (!pointSelectInterval) return;
   window.clearTimeout(handleMouseOutTimeout);
   window.clearInterval(pointSelectInterval);

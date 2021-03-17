@@ -13,11 +13,11 @@ images:
     src: /assets/img/overview/grid-img-3.svg
 
   - text: Local development server (Gamma)
-    src:
+    src: /assets/img/overview/globe.svg
 
   - text: Block explorer (Prism)v
-    src:
+    src: /assets/img/overview/envelope.svg
 
   - text: Client SDKs for building web and mobile frontends in multiple     languages, and more
-    src:
+    src: /assets/img/overview/intersection.svg
 ---
