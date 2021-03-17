@@ -33,16 +33,15 @@ const Universe = ({
       <header className="main-header">{header}</header>
       <main>
         {pageHeader}
-        <div className="flex-start universe-first-sections">{topSections}</div>
+        {topSections}
         <div className="flex-start universe-second-sections">
           {leftText}
           {images}
         </div>
         {text}
-        <div className="flex-start universe-third-sections">
-          {expendingSection}
-        </div>
+        {expendingSection}
         {bottomText}
+        {footer}
       </main>
       {script != undefined ? (
         <script
@@ -50,7 +49,6 @@ const Universe = ({
           src={_relativeURL(`/assets/js/${script}.js`, _ID)}
         />
       ) : null}
-      {footer}
     </body>
   </html>
 );
