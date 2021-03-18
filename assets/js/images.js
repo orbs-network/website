@@ -14,6 +14,7 @@ export const images = {
       telegram: `${prefix}/globe/cards/delegator/telegram.svg`,
       twitter: `${prefix}/globe/cards/delegator/twitter.svg`,
       link: `${prefix}/globe/cards/delegator/link.svg`,
+      linkedin: `${prefix}/globe/cards/delegator/linkedin.svg`,
       figure: `${prefix}/globe/cards/delegator/figure.svg`,
     },
     guardian: {

@@ -13,7 +13,7 @@ joindDate: May 10, 2009
 location: New York, Usa
 email: test@test.com
 github: github.com
-website: link.com
+link: link.com
 firstRepositoryTitle: Denali-Jsq/Core
 firstRepositoryText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet sed eros quis accumsan.
 firstRepositoryLanguage: TypeScript

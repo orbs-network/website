@@ -5,7 +5,7 @@ name: test400
 image: /assets/img/globe/cards/card1.png
 weight: 10
 location: New York, Usa
-website: website
+link: website
 twitter: twitter
 telegram: telegram
 giveawayUrl: giveawayUrl

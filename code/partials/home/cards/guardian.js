@@ -2,6 +2,7 @@ import React from "react";
 import { images } from "../../../../assets/js/images";
 import { formatNumber } from "../../../util/numberUtil";
 import Img from "../../common/Img";
+import CardLinks from "./card-links";
 import { Border } from "./components/border";
 import CardTitle from "./components/card-title";
 import CardTooltip from "./components/card-tooltip";
@@ -15,16 +16,17 @@ const Guardian = ({
   _ID,
   effectiveStake,
   totalStake,
-  website,
+  link,
   github,
   telegram,
   type,
+  weight,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="globe-card g-card">
+    <div className="globe-card g-card" data-weight={weight}>
       <figure className="card-avatar">
         <CardTooltip
           img={generateUrl(images.globe.guardian.figure)}
@@ -38,17 +40,13 @@ const Guardian = ({
           <img src="" />
           <p>{location}</p>
         </span>
-        <section className="card-links flex-center">
-          <a href={website} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.guardian.link)} />
-          </a>
-          <a href={github} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.guardian.github)} />
-          </a>
-          <a href={telegram} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.guardian.telegram)} />
-          </a>
-        </section>
+        <CardLinks
+          link={link}
+          github={github}
+          telegram={telegram}
+          section="guardian"
+          generateUrl={generateUrl}
+        />
         <Border />
         <section className="column-center g-card-stake">
           <div className="column-center">
