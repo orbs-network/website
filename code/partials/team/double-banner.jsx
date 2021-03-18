@@ -1,22 +1,17 @@
 import React from "react";
+import { animations } from "../../../assets/js/consts/consts";
+import Img from "../common/Img";
 
-const DoubleBanner = ({ url, url2, customClassName }) => {
-  const mainClassName = "banner-double banner";
-  const className = customClassName
-    ? `${customClassName} ${mainClassName}`
-    : mainClassName;
+const DoubleBanner = ({ image1, image2, _relativeURL, _ID }) => {
+  const generateUrl = (url) => {
+    return `${_relativeURL(url, _ID)}`;
+  };
   return (
-    <figure className={className} data-aos="fade-up">
-      <img src={url} />
-      <img src={url2} />
+    <figure className="banner-double banner" data-aos={animations.fadeTop}>
+      <Img src={generateUrl(image1)} />
+      <Img src={generateUrl(image2)} />
     </figure>
   );
-};
-DoubleBanner.getInitialProps = async function (props) {
-  const { url, url2, customClassName } = await FetchMyDataFromSomewhere(
-    props._ID
-  );
-  return { url, url2, customClassName };
 };
 
 export default DoubleBanner;

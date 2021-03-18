@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../../../../assets/js/images";
 import Img from "../../common/Img";
+import CardLinks from "./card-links";
 import { Border } from "./components/border";
 import CardTitle from "./components/card-title";
 import CardTooltip from "./components/card-tooltip";
@@ -11,13 +12,14 @@ const Delegator = ({
   image,
   weight,
   location,
-  website,
+  link,
   twitter,
   telegram,
-  text,
+  title,
   _body,
   giveawayUrl,
   type,
+  text,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -32,22 +34,18 @@ const Delegator = ({
         <Img src={generateUrl(image)} className="card-avatar-img" />
       </figure>
       <div className="card-data flex-column">
-        <CardTitle title={text.title} />
+        <CardTitle title={title} />
         <span className="flex-center card-location">
           <img src="" />
           <p>{location}</p>
         </span>
-        <section className="card-links flex-center">
-          <a href={website} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.delegator.link)} />
-          </a>
-          <a href={twitter} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.delegator.twitter)} />
-          </a>
-          <a href={telegram} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.delegator.telegram)} />
-          </a>
-        </section>
+        <CardLinks
+          link={link}
+          twitter={twitter}
+          telegram={telegram}
+          section="delegator"
+          generateUrl={generateUrl}
+        />
         <Border />
         <section className="flex-center d-card-wallets">
           <h5>{text.favorite}</h5>

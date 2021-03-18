@@ -5,13 +5,12 @@ const Blog = (props) => {
   const {
     title,
     header,
-    management,
+    teamList,
     footer,
     script,
     _relativeURL,
     _ID,
-    leftText,
-    employees,
+    teamText,
     careers,
   } = props;
   return (
@@ -42,13 +41,8 @@ const Blog = (props) => {
         <header className="main-header">{header}</header>
         <main>
           <div className="team flex-between base-grid">
-            <section className="team-description sticky-section">
-              {leftText}
-            </section>
-            <div className="team-lists flex-column">
-              {management}
-              {employees}
-            </div>
+            {teamText}
+            {teamList}
           </div>
           {careers}
         </main>

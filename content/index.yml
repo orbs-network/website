@@ -1,6 +1,6 @@
 title: Home
 layout: pages/home
-script: globe/globe
+script: globe/index
 header:
   - /_shared/header/header.md
 

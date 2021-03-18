@@ -5,14 +5,11 @@ script: team/index
 header:
   - /_shared/header/header.md
 
-leftText:
-  - md/left-text.md
+teamText:
+  - md/team-text.md
 
-management:
-  - md/management.md
-
-employees:
-  - md/employees.md
+teamList:
+  - md/team-list.md
 
 careers:
   - md/careers/careers.md
