@@ -9,12 +9,13 @@ const ResearchPaper = ({
   image,
   _ID,
   _relativeURL,
+  weight,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="globe-card r-paper flex-column">
+    <div className="globe-card r-paper flex-column" data-weight={weight}>
       <CardTitle title={text.title} />
       <h5 className="r-paper-sub-title">{text.subTitle}</h5>
       <div className="r-paper-date flex-center">

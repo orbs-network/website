@@ -66,7 +66,6 @@ export const getRandomPointByWeight = (cards, weights, currentCard) => {
     const newCard = chance.weighted(cards, weights);
     const stop = !isTheSameCard(newCard, currentCard);
     if (stop) {
-      console.log("la");
       return newCard;
     }
 

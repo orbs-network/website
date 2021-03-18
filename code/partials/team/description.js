@@ -2,10 +2,10 @@ import React, { Fragment } from "react";
 
 const Description = ({ _body, socials }) => {
   return (
-    <div className="team-left-content">
+    <section className="team-description sticky-section">
       {_body}
       {socials}
-    </div>
+    </section>
   );
 };
 

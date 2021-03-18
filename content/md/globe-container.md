@@ -2,11 +2,11 @@
 layout: partials/home/globe-container
 
 cards:
-  - cards/card-1.md
-  - cards/card-2.md
-  - cards/card-3.md
-  - cards/card-4.md
-  - cards/card-5.md
-  - cards/card-6.md
-  - cards/card-7.md
+  - cards/contributors/card-1.md
+  - cards/guardians/card-2.md
+  - cards/delegatorscard-3.md
+  - cards/research-papers/card-4.md
+  - cards/blog-posts/card-5.md
+  - cards/use-cases/card-6.md
+  - cards/team-members/card-7.md
 ---
