@@ -3,8 +3,19 @@ import { animations } from "../../../assets/js/consts/consts";
 import { images } from "../../../assets/js/images";
 import Img from "../common/Img";
 
-const Teammate = ({ data, generateUrl }) => {
-  const { avatar, name, role, telegram, linkedin, twitter } = data;
+const Teammate = ({
+  name,
+  role,
+  twitter,
+  linkedin,
+  telegram,
+  avatar,
+  _relativeURL,
+  _ID,
+}) => {
+  const generateUrl = (url) => {
+    return `${_relativeURL(url, _ID)}`;
+  };
   return (
     <div className="teammate flex-column" data-aos={animations.fadeTop}>
       <figure className="teammate-avatar">

@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../../../../assets/js/images";
 import Img from "../../common/Img";
+import CardLinks from "./card-links";
 import { Border } from "./components/border";
 import CardTitle from "./components/card-title";
 import CardTooltip from "./components/card-tooltip";
@@ -9,7 +10,6 @@ const Contributor = ({
   _body,
   _relativeURL,
   _ID,
-  name,
   title,
   image,
   weight,
@@ -18,7 +18,7 @@ const Contributor = ({
   location,
   email,
   github,
-  website,
+  link,
   firstRepositoryTitle,
   firstRepositoryText,
   firstRepositoryLanguage,
@@ -50,17 +50,13 @@ const Contributor = ({
           <img src="" />
           <p>{location}</p>
         </span>
-        <section className="card-links flex-center">
-          <a href={email} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.contributor.email)} />
-          </a>
-          <a href={github} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.contributor.github)} />
-          </a>
-          <a href={website} target="_blank" className="flex-center">
-            <Img src={generateUrl(images.globe.contributor.link)} />
-          </a>
-        </section>
+        <CardLinks
+          email={email}
+          github={github}
+          link={link}
+          section="contributor"
+          generateUrl={generateUrl}
+        />
 
         <Border />
         <section className="flex-between c-card-repos">
