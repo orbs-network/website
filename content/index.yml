@@ -6,6 +6,7 @@ header:
 
 globeContainer:
   - md/globe-container.md
-
+cards:
+  - md/cards/cards.md
 pageText:
   - md/text-box.md

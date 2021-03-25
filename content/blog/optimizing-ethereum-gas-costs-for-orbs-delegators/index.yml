@@ -1,0 +1,19 @@
+title: Blog
+layout: pages/blog-inner
+script: blog/blog-inner
+
+header:
+  - ../../_shared/header/header.md
+pageHeader:
+  - ../md/header.md
+
+breadCrumbs:
+  - ../md/bread-crumbs.md
+
+main:
+  - body.md
+
+blog:
+  - blog.md
+footer:
+  - ../../_shared/footer/footer.md

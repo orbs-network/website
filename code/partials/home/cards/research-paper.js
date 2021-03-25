@@ -1,4 +1,5 @@
 import React from "react";
+import { cardsWeights } from "../../../../assets/js/consts/consts";
 import CardTitle from "./components/card-title";
 
 const ResearchPaper = ({
@@ -9,15 +10,19 @@ const ResearchPaper = ({
   image,
   _ID,
   _relativeURL,
-  weight,
+  category,
+  title,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="globe-card r-paper flex-column" data-weight={weight}>
-      <CardTitle title={text.title} />
-      <h5 className="r-paper-sub-title">{text.subTitle}</h5>
+    <div
+      className="globe-card r-paper flex-column"
+      data-weight={cardsWeights.researchPapers}
+    >
+      <CardTitle title={category} />
+      <h5 className="r-paper-sub-title">{title}</h5>
       <div className="r-paper-date flex-center">
         <h5>{text.publishedOn}:</h5>
         <p>{date}</p>

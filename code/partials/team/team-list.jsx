@@ -1,10 +1,10 @@
 import React from "react";
 
-const TeamList = ({ management, employees }) => {
+const TeamList = ({ team1, team2 }) => {
   return (
     <div className="team-lists flex-column">
-      {management}
-      {employees}
+      {team1}
+      {team2}
     </div>
   );
 };

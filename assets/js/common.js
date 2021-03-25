@@ -100,6 +100,21 @@ export const addListenersToNavbar = () => {
   addEvent(closeMenu, "click", hideMenu);
   onScrollEvent();
   navbarMenuOutsideClick();
+  const subscribeBtn = getElement(".subscribe-btn");
+  addEvent(subscribeBtn, "click", showSubscribePopup);
+  const overlay = getElement(".subscribe-popup-overlay");
+  addEvent(overlay, "click", hideSubscribePopup);
+};
+
+const showSubscribePopup = (e) => {
+  const popup = getElement(".subscribe-popup");
+  popup.classList.add("subscribe-popup-active");
+};
+
+const hideSubscribePopup = () => {
+  const popup = getElement(".subscribe-popup");
+
+  popup.classList.remove("subscribe-popup-active");
 };
 
 export const showMenu = () => {

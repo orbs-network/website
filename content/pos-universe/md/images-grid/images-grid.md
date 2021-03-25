@@ -3,50 +3,28 @@ layout: partials/common/images-grid
 imagesPerLine: 3
 title: "Below are some of the main key features of Orbs PoS Universe:"
 images:
-  - text:
-      - Operating the Network
-      - validator nodes by
-      - Guardians
+  - text: Operating the Network validator nodes by Guardians
+
     src: /assets/img/pos-universe/dots.svg
 
-  - text:
-      - Guardians’ Ownership
-      - Over Reward
-      - Distributions
-    src:
-
-  - text:
-      - PoS on
-      - Ethereum
+  - text: Guardians’ Ownership Over Reward Distributions
     src: /assets/img/pos-universe/triangle-shapes.svg
 
-  - text:
-      - Election
-      - Committees
+  - text: PoS on Ethereum
+    src: /assets/img/pos-universe/triangle-shapes.svg
+
+  - text: Election  Committees
     src: /assets/img/pos-universe/arrows.svg
 
-  - text:
-      - Rewards, Fees &
-      - Bootstrap Fund
+  - text: Rewards, Fees & Bootstrap Fund
     src: /assets/img/pos-universe/circles.svg
 
-  - text:
-      - Validator Nodes
-      - Streamlining
+  - text: Validator Nodes  Streamlining
     src: /assets/img/pos-universe/half-globe.svg
 
-  - text:
-      - Minimum Self
-      - Delegation
+  - text: Minimum Self Delegation
     src: /assets/img/pos-universe/shapes.svg
 
-  - text:
-      - Revamped Delegation
-      - Mechanism
+  - text: Revamped Delegation Mechanism
     src: /assets/img/pos-universe/plus.svg
-
-  - text:
-      - V2 Timeline and
-      - Transition Promotion
-    src: /assets/img/pos-universe/triangles.svg
 ---

@@ -3,6 +3,6 @@ layout: partials/common/box
 image: /assets/img/overview/triangle.svg
 ---
 
-##### registryAdmin
+##### NON-DETERMINISTIC EXECUTION
 
-The committee contract manages the current committee state. The committee contract holds the current committee members and their weights. Upon an effective stake change notice from the election contract, the committee contract updates the committee member weight and emits an update event. On a request to join the committee, the committee member checks that the candidate is qualified to join. If the candidate’s weight is higher than the committee member with the lowest weight, the candidate will join the committee instead of the minimal weight guardian.
+Since execution engines of standard languages are not deterministic in nature (eg. heap addresses), dealing with non-determinism is a core requirement of the platform. Starting from fail-safe mechanisms in the consensus algorithm itself for failing transactions where consensus is impossible, to APIs defining acceptable thresholds for consensus when the results for each validator differ (while storing each validator’s result for future audit), the Orbs Network employs a variety of methods for solving these issues.

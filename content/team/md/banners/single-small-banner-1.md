@@ -1,5 +1,5 @@
 ---
-layout: partials/team/single-small-banner
+layout: partials/team/banners/single-small-banner
 
 image: assets/img/team/management.jpg
 ---
