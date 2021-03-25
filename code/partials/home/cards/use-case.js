@@ -1,4 +1,6 @@
 import React from "react";
+import { cardsWeights } from "../../../../assets/js/consts/consts";
+import { images } from "../../../../assets/js/images";
 import Img from "../../common/Img";
 import CardTitle from "./components/card-title";
 
@@ -16,37 +18,42 @@ const UseCaseFlexElement = ({ text, img }) => {
 const UseCase = ({
   text,
   _body,
-  link,
-  firstImg,
-  secondImg,
-  thirdImg,
+  category,
   _ID,
   _relativeURL,
-  weight,
+  linkUrl,
+  title,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="globe-card u-card flex-column" data-weight={weight}>
-      <h5 className="card-top-subtitle">{text.subTitle}</h5>
-      <CardTitle title={text.title} />
+    <div
+      className="globe-card u-card flex-column"
+      data-weight={cardsWeights.useCases}
+    >
+      <h5 className="card-top-subtitle">{category}</h5>
+      <CardTitle title={title} />
       <section className="u-card-flex flex-between">
         <UseCaseFlexElement
-          text={text.firstSectionText}
-          img={generateUrl(firstImg)}
+          text={text.firstSection}
+          img={generateUrl(images.globe.useCases.firstImg)}
         />
         <UseCaseFlexElement
-          text={text.secondSectionText}
-          img={generateUrl(secondImg)}
+          text={text.secondSection}
+          img={generateUrl(images.globe.useCases.secondImg)}
         />
         <UseCaseFlexElement
-          text={text.firstSectionText}
-          img={generateUrl(thirdImg)}
+          text={text.firstSection}
+          img={generateUrl(images.globe.useCases.thirdImg)}
         />
       </section>
       <div className="card-text u-card-text">{_body}</div>
-      <a href={link} target="_blank" className="card-link-btn blog-post-link">
+      <a
+        href={linkUrl}
+        target="_blank"
+        className="card-link-btn blog-post-link"
+      >
         {text.link}
       </a>
     </div>

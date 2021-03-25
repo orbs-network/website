@@ -15,16 +15,10 @@ boxes1:
   - md/boxes-section-1.md
 
 secondFlexSection:
-  - md/expending-text/expending-text-5.md
-
-text:
-  - md/text/text.md
+  - md/second-flex-section.md
 
 boxes2:
   - md/boxes-section-2.md
-
-imagesGrid:
-  - md/images-grid/images-grid-2.md
 
 linkBtn:
   - md/link/link.md

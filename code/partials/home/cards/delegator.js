@@ -1,6 +1,8 @@
 import React from "react";
+import { cardsWeights } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
 import Img from "../../common/Img";
+import InnerLinks from "../../common/inner-links";
 import CardLinks from "./card-links";
 import { Border } from "./components/border";
 import CardTitle from "./components/card-title";
@@ -10,9 +12,8 @@ const Delegator = ({
   _relativeURL,
   _ID,
   image,
-  weight,
   location,
-  link,
+  website,
   twitter,
   telegram,
   title,
@@ -20,12 +21,15 @@ const Delegator = ({
   giveawayUrl,
   type,
   text,
+  firstWallet,
+  secondWallet,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
+  const links = { website, twitter, telegram };
   return (
-    <div className="globe-card d-card" data-weight={weight}>
+    <div className="globe-card d-card" data-weight={cardsWeights.delegator}>
       <figure className="card-avatar">
         <CardTooltip
           img={generateUrl(images.globe.delegator.figure)}
@@ -39,18 +43,20 @@ const Delegator = ({
           <img src="" />
           <p>{location}</p>
         </span>
-        <CardLinks
-          link={link}
-          twitter={twitter}
-          telegram={telegram}
-          section="delegator"
+        <InnerLinks
+          links={links}
+          section={images.globe.delegator}
           generateUrl={generateUrl}
         />
         <Border />
         <section className="flex-center d-card-wallets">
           <h5>{text.favorite}</h5>
-          <img src={generateUrl(images.globe.metamask)} />
-          <img src={generateUrl(images.globe.metamask)} />
+          <figure>
+            <Img src={generateUrl(firstWallet)} />
+          </figure>
+          <figure>
+            <Img src={generateUrl(secondWallet)} />
+          </figure>
         </section>
         <section className="card-text">
           <aside className="card-quotes card-quotes-left">"</aside>

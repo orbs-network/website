@@ -10,9 +10,9 @@ const MenuResources = ({ links, text, _relativeURL, _ID }) => {
       <ul>
         {links &&
           links.map((link) => {
-            const { url, name } = link;
+            const { url, name, subLink } = link;
             return (
-              <li>
+              <li className={subLink ? "nav-menu-section-sub" : ""}>
                 <a href={generateUrl(url)}>
                   <figure />
                   <p>{name}</p>

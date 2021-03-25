@@ -12,7 +12,6 @@ const SmartContract = ({
   _ID,
   pageHeader,
   expendingSection,
-  text,
   linkBack,
 }) => (
   <html style={{ background: "#171819" }}>
@@ -32,15 +31,9 @@ const SmartContract = ({
       <header className="main-header">{header}</header>
       <main>
         {pageHeader}
-
-        <div className="flex-start smart-contracts-flex">
-          {expendingSection}
-        </div>
-        <div className="smart-contracts-management"> {contractText}</div>
-        <div className="smart-contracts-boxes">
-          <h4 className="smart-contracts-boxes-title">{text.boxesTitle}</h4>
-          <div className="flex-start smart-contracts-boxes-flex"> {boxes}</div>
-        </div>
+        {expendingSection}
+        {contractText}
+        {boxes}
         {linkBack}
       </main>
       {script != undefined ? (

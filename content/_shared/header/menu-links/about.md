@@ -7,12 +7,12 @@ links:
     url: /white-papers
   - name: Team
     url: /team
+  - name: partnerships
+    url: /partnerships
   - name: Faq
     url: /faq
   - name: Blog
     url: /blog
-  - name: Technology
-    url: /technology
   - name: Contact
     url: /contact
 ---
