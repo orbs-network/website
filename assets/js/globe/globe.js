@@ -17,7 +17,6 @@ export class GlobeController {
   globe = null;
   cards = [];
   weights = [];
-  clickTriggerd = false;
   selectedCard = null;
   params = null;
   constructor(params) {
@@ -25,7 +24,6 @@ export class GlobeController {
     this.createGlobe();
   }
   async createGlobe() {
-    console.log("tests");
     const { cards, weights } = getGlobeCardsAndWeights();
     this.cards = cards;
     this.weights = weights;
@@ -45,12 +43,15 @@ export class GlobeController {
   addEventsToCards = () => {
     this.cards.forEach((card) => {
       onOutsideEvent(card, this.handleOutSideClick);
-      onMouseEnterAndLeaveEvent(card, this.params.stopInterval, () => {});
+      onMouseEnterAndLeaveEvent(
+        card,
+        this.params.stopInterval,
+        this.params.startIntervalWithDelay
+      );
     });
   };
 
   handleOutSideClick = () => {
-    this.clickTriggerd = false;
     this.hideSelectedCard();
     this.params.stopInterval();
     this.params.startInterval();
@@ -103,11 +104,7 @@ export class GlobeController {
       .pointsTransitionDuration(300)
       .onPointHover((point) => {
         if (point) {
-          this.params.stopInterval();
           return this.stopGlobeAutoRotation();
-        }
-        if (!this.clickTriggerd) {
-          this.params.startInterval();
         }
         return this.startGlobeAutoRotation();
       })
@@ -123,20 +120,16 @@ export class GlobeController {
       .pathDashLength(0.01)
       .pathDashGap(0.004)
       .pathDashAnimateTime(100000)
-      .pathPointAlt((pnt) => pnt[2]); // set altitude accessor
+      .pathPointAlt((pnt) => pnt[2]);
   };
 
   handlePointClick = () => {
+    this.selectPoint(true);
     this.params.stopInterval();
-
-    this.clickTriggerd = true;
-    this.selectPoint();
-    setTimeout(() => {
-      this.startGlobeAutoRotation();
-    }, 200);
+    this.params.startInterval();
   };
 
-  selectPoint() {
+  selectPoint(fromClick) {
     const card = getRandomPointByWeight(
       this.cards,
       this.weights,
@@ -144,11 +137,14 @@ export class GlobeController {
     );
 
     this.selectedCard = card;
-    let x = chance.floating({ min: -65, max: -35 });
-    let y = chance.floating({ min: -65, max: -35 });
+    // let x = chance.floating({ min: -65, max: -35 });
+    // let y = chance.floating({ min: -65, max: -35 });
 
-    const transform = `scale(1) translate(${x}%, ${y}% )`;
-    showElement(card, transform);
+    showElement(card);
+    if (!fromClick) return;
+    setTimeout(() => {
+      this.startGlobeAutoRotation();
+    }, 700);
   }
 
   hideSelectedCard = () => {
@@ -156,13 +152,3 @@ export class GlobeController {
     hideElement(this.selectedCard);
   };
 }
-
-//   setArcData = (globElem) => {
-//     const arcsData = generateArcData(this.points, globeConfig.colors);
-//     globElem
-//       .arcsData(arcsData)
-//       .arcColor("color")
-//       .arcDashLength(() => 1)
-//       .arcDashGap(() => Math.random())
-//       .arcDashAnimateTime(() => Math.random() * 4000 + 500);
-//   };

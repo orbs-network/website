@@ -16,7 +16,7 @@
   }
 }
 .home-globe {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   z-index: 1;
@@ -112,11 +112,10 @@ body {
   position: relative;
   height: calc(100% - 100px);
   width: fit-content;
-  z-index: 99;
   display: flex;
+  z-index: 10;
   flex-direction: column;
   &-text {
-    pointer-events: none;
     position: relative;
     top: 30%;
     transform: translate(0, -50%);

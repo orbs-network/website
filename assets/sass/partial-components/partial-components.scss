@@ -98,135 +98,12 @@ main {
   }
 }
 
-.text-box {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
-  &-base {
-    margin-bottom: 30px;
-    * {
-      text-align: left;
-      font-family: $text-font;
-    }
-    &-title {
-      text-transform: uppercase;
-      font-weight: 600;
-      margin-bottom: 15px;
-      font-size: 20px;
-    }
-    &-text {
-      font-size: 15px;
-      line-height: 24px;
-    }
-
-    &-expend {
-      padding: 10px 20px;
-      background: transparent;
-      border: 1px solid white;
-      border-radius: 20px;
-      margin-top: 20px;
-    }
-  }
-  &:last-of-type {
-    border: 0px;
-  }
-}
-
-.text-box-with-images {
-  .text-box-images {
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 30px;
-    align-items: flex-start;
-    li {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-right: 20px;
-      margin-bottom: 20px;
-
-      figure {
-        height: 40px;
-        margin-bottom: 10px;
-        width: 40px;
-        border: 2px solid white;
-        border-radius: 50%;
-        img {
-          opacity: 0;
-        }
-      }
-      p {
-        text-align: center;
-        font-size: 12px;
-      }
-    }
-  }
-}
 .limited-lines {
   -webkit-line-clamp: 2; /* number of lines to show */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: hidden;
   display: -webkit-box;
-}
-
-.text-box-with-dots {
-  ul {
-    li {
-      p {
-        text-align: left;
-        padding-left: 20px;
-        position: relative;
-        font-size: 14px;
-        &::after {
-          position: absolute;
-          left: 0px;
-          top: 50%;
-          transform: translate(0, -50%);
-          content: "";
-          width: 10px;
-          height: 10px;
-          background: $pink;
-          border-radius: 50%;
-        }
-      }
-    }
-  }
-}
-.text-cards {
-  height: fit-content;
-  align-items: stretch;
-}
-.text-card {
-  width: 200px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ffffff;
-
-  * {
-    text-align: left;
-  }
-  &-title {
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 14px;
-  }
-  &-text {
-    font-size: 12px;
-    margin-bottom: 30px;
-  }
-  &-img {
-    width: 40px;
-    height: 40px;
-    background: lightgray;
-    margin-top: auto;
-    border-radius: 50%;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      opacity: 0;
-    }
-  }
 }
 
 .images-grid {
@@ -246,7 +123,7 @@ main {
       align-items: center;
       margin-bottom: 45px;
       padding-left: 10px;
-      padding-right: 5px;
+      padding-right: 10px;
       p {
         font-size: 12px;
         line-height: 18px;
@@ -270,13 +147,34 @@ main {
 }
 
 .text-with-title {
-  padding-top: 30px;
   h5 {
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
     line-height: 26px;
+    margin-top: 40px;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  ul {
+    li {
+      font-size: 14px;
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+      &:after {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #ff3ee1;
+        content: "";
+        left: 0px;
+        top: 6px;
+      }
+    }
   }
 
   .expend-btn {
@@ -298,7 +196,7 @@ main {
     text-transform: uppercase;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-family: $bold-font;
     position: relative;
   }
@@ -342,21 +240,6 @@ main {
   }
 }
 
-.list-box {
-  margin-bottom: 50px;
-  h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-  ul {
-    li {
-      font-size: 14px;
-      margin-bottom: 5px;
-    }
-  }
-}
-
 .link-btn {
   padding: 8px 50px 8px 30px;
   border: 2px solid #53fffa;
@@ -373,7 +256,7 @@ main {
   transition: 0.2s all;
   // overflow: hidden;
   p {
-    letter-spacing: 2px;
+    letter-spacing: 1.3px;
     font-size: 14px;
     padding-top: 3px;
   }
@@ -460,6 +343,23 @@ main {
     opacity: 0;
     p {
       line-height: 23px;
+    }
+  }
+}
+
+.inner-links {
+  margin-bottom: 20px;
+  a {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 10px;
+    &:first-child {
+      margin-left: 0px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
 }
