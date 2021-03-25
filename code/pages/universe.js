@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React from "react";
 
 const Universe = ({
@@ -14,7 +13,6 @@ const Universe = ({
   _ID,
   pageHeader,
   expendingSection,
-  bottomText,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -40,7 +38,7 @@ const Universe = ({
         </div>
         {text}
         {expendingSection}
-        {bottomText}
+
         {footer}
       </main>
       {script != undefined ? (
@@ -52,24 +50,5 @@ const Universe = ({
     </body>
   </html>
 );
-
-Universe.propTypes = {
-  /**
-   * title: Homepage
-   */
-  title: PropTypes.string.isRequired,
-
-  /**
-   * main: (partials)(5)
-   */
-  main: PropTypes.node.isRequired,
-
-  /**
-   * footer: (partials)(2)
-   */
-  footer: PropTypes.node.isRequired,
-};
-
-Universe.defaultProps = {};
 
 export default Universe;

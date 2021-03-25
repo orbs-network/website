@@ -7,21 +7,27 @@ export const images = {
     contributor: {
       email: `${prefix}/globe/cards/contributor/email.svg`,
       github: `${prefix}/globe/cards/contributor/github.svg`,
-      link: `${prefix}/globe/cards/contributor/link.svg`,
+      website: `${prefix}/globe/cards/contributor/link.svg`,
       figure: `${prefix}/globe/cards/contributor/figure.svg`,
     },
     delegator: {
       telegram: `${prefix}/globe/cards/delegator/telegram.svg`,
       twitter: `${prefix}/globe/cards/delegator/twitter.svg`,
-      link: `${prefix}/globe/cards/delegator/link.svg`,
+      website: `${prefix}/globe/cards/delegator/link.svg`,
       linkedin: `${prefix}/globe/cards/delegator/linkedin.svg`,
       figure: `${prefix}/globe/cards/delegator/figure.svg`,
     },
     guardian: {
       telegram: `${prefix}/globe/cards/guardian/telegram.svg`,
       github: `${prefix}/globe/cards/guardian/github.svg`,
-      link: `${prefix}/globe/cards/guardian/link.svg`,
+      website: `${prefix}/globe/cards/guardian/link.svg`,
       figure: `${prefix}/globe/cards/guardian/figure.svg`,
+      location: `${prefix}/globe/cards/guardian/location.svg`,
+    },
+    useCases: {
+      firstImg: `${prefix}/globe/cards/`,
+      secondImg: `${prefix}/globe/cards/`,
+      thirdImg: `${prefix}/globe/cards/`,
     },
   },
   socials: {
@@ -41,14 +47,16 @@ export const images = {
   team: {
     management: `${prefix}/team/management.jpg`,
     arrow: `${prefix}/team/arrow.svg`,
-    socials: {
-      linkedin: `${prefix}/team/socials/linkedin.svg`,
-      twitter: `${prefix}/team/socials/twitter.svg`,
-      telegram: `${prefix}/team/socials/telegram.svg`,
-    },
+    linkedin: `${prefix}/team/socials/linkedin.svg`,
+    twitter: `${prefix}/team/socials/twitter.svg`,
+    telegram: `${prefix}/team/socials/telegram.svg`,
   },
   common: {
     close: `${prefix}/common/close.svg`,
     logo: `${prefix}/common/logo.svg`,
+  },
+  blog: {
+    calendar: `${prefix}/blog/calendar.svg`,
+    category: `${prefix}/blog/category.svg`,
   },
 };

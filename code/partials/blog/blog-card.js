@@ -1,19 +1,22 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
+import SplittedLinesText from "../common/splitted-lines-text";
 
-const BlogCard = ({
-  _body,
-  authorName,
-  authorImage,
-  image,
-  date,
-  _relativeURL,
-  _ID,
-  blogUrl,
-  authorUrl,
-  type,
-  typeImg,
-  dateImg,
-}) => {
+const BlogCard = (props) => {
+  const {
+    authorName,
+    authorImage,
+    image,
+    date,
+    _relativeURL,
+    _ID,
+    blogUrl,
+    authorUrl,
+    category,
+
+    title,
+    text,
+  } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -23,33 +26,39 @@ const BlogCard = ({
         <section className="blog-card-content">
           <div className="blog-card-content-type">
             <section>
-              <img src={generateUrl(dateImg)} />
-              <p>{type}</p>
+              <img src={generateUrl(images.blog.category)} />
+              <p>{category}</p>
             </section>
             <section>
-              <img src={generateUrl(typeImg)} />
+              <img src={generateUrl(images.blog.calendar)} />
 
               <p>{date}</p>
             </section>
           </div>
-          <div className="blog-card-content-text">{_body}</div>
+          <div className="blog-card-content-text">
+            <SplittedLinesText text={title} />
+          </div>
           <figure className="blog-card-content-img">
             <img src={generateUrl(image)} />
           </figure>
           <div className="blog-card-content-author flex-start">
-            <p>By:</p>
+            <p>{text.by}</p>
             <a href={authorUrl} className="blog-card-content-author-link">
               {authorName}
             </a>
           </div>
         </section>
       </a>
-      <section className="blog-card-author flex-start">
+      <a
+        href={authorUrl}
+        target="_blank"
+        className="blog-card-author flex-start"
+      >
         <figure>{authorImage && <img src={authorImage} alt="" />}</figure>
         <p>{authorName}</p>
-        <small></small>
+        <small />
         <p>{date}</p>
-      </section>
+      </a>
     </div>
   );
 };

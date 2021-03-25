@@ -9,6 +9,7 @@ links:
     url: /overview
   - name: orbs smart contracts
     url: /smart-contracts
+    subLink: true
   - name: proof of stake universe
     url: /pos-universe
 ---

@@ -9,8 +9,7 @@ pageHeader:
   - md/header.md
 
 blogs:
-  - first-blog/blog.md
-  - second-blog/blog.md
+  - blogs.md
 
 footer:
   - /_shared/footer/footer.md

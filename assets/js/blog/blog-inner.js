@@ -10,7 +10,7 @@ export const getBlogHeaderBreadcrumb = () => {
   const textContainer = getElement(".blog-bread-crumbs-text");
   let string = "";
   texts.forEach((t) => {
-    string += t.innerText;
+    string += ` ${t.innerText}`;
   });
   textContainer.innerText = string;
 };

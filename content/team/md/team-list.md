@@ -1,9 +1,8 @@
 ---
 layout: partials/team/team-list
 
-employees:
-  - employees/employees.md
-
-management:
-  - management/management.md
+team1:
+  - members-1.md
+team2:
+  - members-2.md
 ---

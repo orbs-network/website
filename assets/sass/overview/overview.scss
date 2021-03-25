@@ -6,7 +6,6 @@
   }
   .text,
   .images-grid,
-  .list-box,
   .text-with-title,
   .overview-boxes-flex {
     @extend .inside-margin;
@@ -40,12 +39,13 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   }
   &-boxes-flex {
+    align-items: stretch;
     .box {
       width: calc(100% / 3 - 10px);
       margin-right: 10px;
     }
   }
-  &-bottom-flex {
+  &-second-flex {
     .images-grid-list {
       li {
         margin-bottom: 0px;
@@ -55,27 +55,7 @@
       border: 0px;
     }
   }
-  .list-box {
-    width: 600px;
-    max-width: 100%;
-    li {
-      padding-left: 20px;
-      position: relative;
-      &:after {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background: #ff3ee1;
-        content: "";
-        left: 0px;
-        top: 6px;
-      }
-    }
-    ul {
-      margin-bottom: 20px;
-    }
-  }
+
   .expend-btn {
     padding: 10px 20px;
     background: transparent;
