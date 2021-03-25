@@ -1,7 +1,6 @@
-import PropTypes from "prop-types";
 import React from "react";
 
-const Blog = (props) => {
+const Team = (props) => {
   const {
     title,
     header,
@@ -12,7 +11,12 @@ const Blog = (props) => {
     _ID,
     teamText,
     careers,
+    _storeSet,
+    _store,
   } = props;
+
+  _storeSet({ section: "team" });
+
   return (
     <html style={{ background: "#171819" }}>
       <head>
@@ -20,9 +24,6 @@ const Blog = (props) => {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
@@ -31,22 +32,23 @@ const Blog = (props) => {
           rel="stylesheet"
           href="https://unpkg.com/swiper/swiper-bundle.min.css"
         />
-
         <link
           rel="stylesheet"
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="team-page grid-page">
+      <body className="team grid-page">
         <header className="main-header">{header}</header>
         <main>
-          <div className="team flex-between base-grid">
+          <div className="team-flex flex-between">
             {teamText}
             {teamList}
           </div>
           {careers}
         </main>
         {footer}
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         {script != undefined ? (
           <script
             type="module"
@@ -58,23 +60,4 @@ const Blog = (props) => {
   );
 };
 
-Blog.propTypes = {
-  /**
-   * title: Homepage
-   */
-  title: PropTypes.string.isRequired,
-
-  /**
-   * main: (partials)(5)
-   */
-  main: PropTypes.node.isRequired,
-
-  /**
-   * footer: (partials)(2)
-   */
-  footer: PropTypes.node.isRequired,
-};
-
-Blog.defaultProps = {};
-
-export default Blog;
+export default Team;

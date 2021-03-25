@@ -5,6 +5,7 @@ const SplittedLinesText = ({ text, className = "" }) => {
   if (!text) {
     return "";
   }
+
   if (isList) {
     return text.map((e) => {
       return <p className={className}>{e}</p>;

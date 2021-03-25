@@ -33,7 +33,7 @@ const ImagesGrid = ({
               <figure className="images-grid-list-img">
                 <Img src={generateUrl(src)} />
               </figure>
-              <SplittedLinesText text={text} />
+              <p>{text}</p>
             </li>
           );
         })}

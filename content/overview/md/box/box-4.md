@@ -3,6 +3,6 @@ layout: partials/common/box
 image: /assets/img/overview/spiral.svg
 ---
 
-##### registryAdmin
+##### SMART CONTRACTS IN ANY LANGUAGE
 
-The committee contract manages the current committee state. The committee contract holds the current committee members and their weights. Upon an effective stake change notice from the election contract, the committee contract updates the committee member weight and emits an update event. On a request to join the committee, the committee member checks that the candidate is qualified to join. If the candidate’s weight is higher than the committee member with the lowest weight, the candidate will join the committee instead of the minimal weight guardian.
+Orbs pioneers the paradigm of smart contracts as a library in any language, like Go and JavaScript, instead of dedicated languages like Solidity. This flexibility allows existing teams to transition to blockchain development and existing tools and libraries to be reused. Smart contracts are deployed on-chain as source code, making them easier to read and thus safer, and compiled locally on-demand by validators. Implementation challenges include efficient sandboxing and dealing with non deterministic outputs that cannot undergo consensus.

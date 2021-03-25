@@ -1,36 +1,42 @@
 import React from "react";
+import { cardsWeights } from "../../../../assets/js/consts/consts";
 import CardTitle from "./components/card-title";
 
-const BlogPosts = ({
-  text,
-  date,
-  _body,
-  link,
-  image,
-  _ID,
-  _relativeURL,
-  weight,
-}) => {
+const BlogPost = (props) => {
+  const {
+    text,
+    date,
+    _body,
+    title,
+    image,
+    _ID,
+    _relativeURL,
+    category,
+    blogUrl,
+  } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="globe-card blog-post flex-column" data-weight={weight}>
-      <h5 className="card-top-subtitle">{text.subTitle}</h5>
-      <CardTitle title={text.title} />
+    <div
+      className="globe-card blog-post flex-column"
+      data-weight={cardsWeights.blogPosts}
+    >
+      <h5 className="card-top-subtitle">{category}</h5>
+      <CardTitle title={title} oneLine={true} />
       <div className="blog-post-date flex-center">
-        <p className="blog-post-date-text">{text.publishedOn}:</p>
+        <p className="blog-post-date-text">{text.publishedOn}</p>
         <p>{date}</p>
       </div>
       <figure className="blog-post-img">
         <img src={generateUrl(image)} />
       </figure>
       <div className="card-text blog-pos-text">{_body}</div>
-      <a href={link} target="_blank" className="card-link-btn blog-post-link">
+      <a href={blogUrl} className="card-link-btn blog-post-link">
         {text.link}
       </a>
     </div>
   );
 };
 
-export default BlogPosts;
+export default BlogPost;

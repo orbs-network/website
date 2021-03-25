@@ -1,9 +1,8 @@
 import React from "react";
-const GlobeContainer = ({ cards }) => {
+const GlobeContainer = () => {
   return (
     <div className="home-globe">
       <div id="globeViz"></div>
-      {cards}
     </div>
   );
 };

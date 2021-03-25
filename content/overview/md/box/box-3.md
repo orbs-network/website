@@ -3,6 +3,6 @@ layout: partials/common/box
 image: /assets/img/overview/box-3.svg
 ---
 
-##### registryAdmin
+##### INFINITE HORIZONTAL SCALABILITY
 
-The committee contract manages the current committee state. The committee contract holds the current committee members and their weights. Upon an effective stake change notice from the election contract, the committee contract updates the committee member weight and emits an update event. On a request to join the committee, the committee member checks that the candidate is qualified to join. If the candidate’s weight is higher than the committee member with the lowest weight, the candidate will join the committee instead of the minimal weight guardian.
+The parallel and concurrent operation of different virtual chains results in virtual separation, as smart contracts are likely to interact mostly with smart contracts deployed on the same virtual chain. When a new virtual chain is created, Orbs validators dynamically allocate more resources for its execution (eg. instantiate a new AWS machine in the node cluster) allowing for a virtually limitless number of virtual chains to run on the network in parallel.

@@ -2,48 +2,22 @@ import React from "react";
 import { images } from "../../../../assets/js/images";
 import Img from "../../common/Img";
 
-const CardLinks = ({
-  generateUrl,
-  linkedin,
-  link,
-  twitter,
-  telegram,
-  email,
-  github,
-  section,
-}) => {
+const CardLinks = ({ generateUrl, links, section }) => {
   return (
-    <section className="card-links flex-center">
-      {email && (
-        <a href={`mailto:${email}`} target="_blank" className="flex-center">
-          <Img src={generateUrl(images.globe[section].email)} />
-        </a>
-      )}
-      {linkedin && (
-        <a href={linkedin} target="_blank" className="flex-center">
-          <Img src={generateUrl(images.globe[section].linkedin)} />
-        </a>
-      )}
-      {link && (
-        <a href={link} target="_blank" className="flex-center">
-          <Img src={generateUrl(images.globe[section].link)} />
-        </a>
-      )}
-      {twitter && (
-        <a href={twitter} target="_blank" className="flex-center">
-          <Img src={generateUrl(images.globe[section].twitter)} />
-        </a>
-      )}
-      {telegram && (
-        <a href={telegram} target="_blank" className="flex-center">
-          <Img src={generateUrl(images.globe[section].telegram)} />
-        </a>
-      )}
-      {github && (
-        <a href={github} target="_blank" className="flex-center">
-          <Img src={generateUrl(images.globe[section].github)} />
-        </a>
-      )}
+    <section className="inner-links flex-center">
+      {links &&
+        Object.keys(links).map((key) => {
+          return (
+            <a
+              href={links[key]}
+              target="_blank"
+              className="flex-center"
+              key={key}
+            >
+              <Img src={generateUrl(images[section][key])} />
+            </a>
+          );
+        })}
     </section>
   );
 };

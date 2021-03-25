@@ -23,7 +23,5 @@ text:
 images:
   - md/images-grid/images-grid.md
 
-bottomText:
-  - md/bottom-text.md
 footer:
   - /_shared/footer/footer.md

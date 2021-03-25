@@ -3,11 +3,11 @@
 }
 
 .team {
-  width: 100%;
-  align-items: flex-start;
-  padding-bottom: 100px;
-  padding-top: 40px;
-
+  &-flex {
+    padding-bottom: 100px;
+    padding-top: 40px;
+    align-items: flex-start;
+  }
   &-list {
     flex-wrap: wrap;
     display: flex;
@@ -25,15 +25,15 @@
       &-list {
         width: calc(100% / 2 - 10px);
         flex-wrap: wrap;
-        .teammate {
+        .team-member {
           width: calc(100% / 2 - 10px);
           margin-right: 20px;
         }
-        .teammate:nth-child(1),
-        .teammate:nth-child(2) {
+        .team-member:nth-child(1),
+        .team-member:nth-child(2) {
           margin-top: 0px;
         }
-        .teammate:nth-child(2n) {
+        .team-member:nth-child(2n) {
           margin-right: 0px;
         }
       }
@@ -78,11 +78,11 @@
     }
     &-employees {
       flex-wrap: wrap;
-      .teammate {
+      .team-member {
         width: calc(100% / 4 - 15px);
         margin-right: 20px;
       }
-      .teammate:nth-of-type(4n) {
+      .team-member:nth-of-type(4n) {
         margin-right: 0px;
       }
     }
@@ -151,19 +151,19 @@
   }
   &-lists {
     margin-top: auto;
-    padding-bottom: 200px;
-    width: 880px;
+    padding-bottom: 30px;
+    width: 920px;
   }
 
   &-description {
     color: white;
     display: flex;
     flex-direction: column;
-    width: calc(100% - 880px);
+    width: calc(100% - 920px);
     padding-right: 80px;
-    top: 190px;
+    top: 210px;
     h1 {
-      font-size: 21px;
+      font-size: 19px;
       text-align: left;
       font-family: $bold-font;
       line-height: 35px;
@@ -178,94 +178,157 @@
       }
     }
   }
+  &-member {
+    background: #2c2c2c;
+    height: 290px;
+    color: white;
+    margin-top: 20px;
+
+    cursor: pointer;
+    &-details {
+      margin-top: auto;
+      padding: 10px;
+      padding-bottom: 15px;
+    }
+    &-name {
+      font-size: 12px;
+      text-align: left;
+      margin-bottom: 0px;
+      font-family: $bold-font;
+      width: 95%;
+      text-transform: capitalize;
+    }
+    &-role {
+      font-size: 12px;
+      text-align: left;
+      text-transform: capitalize;
+    }
+    &-socials {
+      margin-top: 8px;
+    }
+    .inner-links {
+      justify-content: flex-start;
+      a {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    &-border {
+      width: calc(100% - 90px);
+      border-bottom: 1px solid #4b4b4b;
+      height: 60%;
+      margin-left: 10px;
+      transition: 0.2s all;
+      margin-top: auto;
+    }
+    &-arrow {
+      width: 15px;
+      height: 15px;
+
+      object-fit: contain;
+      margin-left: auto;
+    }
+    &-popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 999999;
+      align-items: flex-start;
+      transition: 0.2s all;
+      display: none;
+      &-overlay {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: rgba(0, 0, 0, 0.4);
+      }
+      &-c {
+        justify-content: center;
+        border-radius: 10px;
+        background: #1a1a1a;
+        position: relative;
+        width: 700px;
+        min-height: 350px;
+        height: auto;
+        border: 3px solid #00ffff;
+        padding: 5px;
+        top: 200px;
+        &-close {
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          cursor: pointer;
+          border: none;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        &-avatar {
+          width: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        &-details {
+          padding: 20px;
+          width: calc(100% - 200px);
+        }
+        &-name {
+          text-align: center;
+          font-family: $bold-font;
+          font-size: 16px;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+          letter-spacing: 1.6px;
+        }
+        &-role {
+          letter-spacing: 1px;
+
+          text-align: center;
+          font-size: 14px;
+          font-family: $bold-font;
+        }
+        .inner-links {
+          margin-top: 15px;
+          margin-bottom: 20px;
+
+          a {
+            width: 15px;
+            height: 15px;
+            margin-left: 15px;
+          }
+        }
+        .text-p {
+          font-size: 13px;
+          line-height: 22px;
+        }
+      }
+
+      &-active {
+        display: flex;
+        &-animation {
+          opacity: 1;
+          pointer-events: all;
+        }
+      }
+    }
+  }
 }
 
 .team-description {
   .socials {
     margin-top: 140px;
-  }
-}
-
-.teammate {
-  background: #2c2c2c;
-  height: 290px;
-  color: white;
-  margin-top: 20px;
-  &-avatar {
-    width: 100%;
-    flex-grow: 1;
-    position: relative;
-    overflow: hidden;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      transition: 0.1s all;
-    }
-  }
-  &-info {
-    margin-top: auto;
-    padding: 10px;
-    padding-bottom: 15px;
-  }
-  &-name {
-    font-size: 12px;
-    text-align: left;
-    margin-bottom: 0px;
-    font-family: $bold-font;
-    width: 95%;
-  }
-  &-position {
-    font-size: 12px;
-    text-align: left;
-  }
-  &-socials {
-    margin-top: 5px;
-    height: 30px;
-    align-items: center;
-
-    &-link {
-      width: 13px;
-      height: 13px;
-      margin-right: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      &:last-of-type {
-        margin-right: 0px;
-      }
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }
-    &-links {
-      height: 100%;
-    }
-  }
-  &-border {
-    width: calc(100% - 90px);
-    border-bottom: 1px solid #4b4b4b;
-    height: 60%;
-    margin-left: 10px;
-    transition: 0.2s all;
-  }
-  &-arrow {
-    width: 15px;
-    height: 15px;
-
-    object-fit: contain;
-    margin-left: auto;
-  }
-  &:hover {
-    .teammate-avatar {
-      img {
-        transform: scale(1.07);
-      }
-    }
   }
 }
 
@@ -278,25 +341,33 @@
     width: 100%;
     height: 100%;
   }
-}
-.banner-big-single {
-  width: 100%;
-  height: 400px;
-}
-.banner-single-small {
-  width: calc(100% / 2 - 10px);
-  margin-right: 0px;
-  height: 290px;
-  margin-left: auto;
-}
-.banner-double {
-  height: 400px;
-  width: 100%;
-  img:nth-child(1) {
-    width: 60%;
+  &-video {
+    width: 100%;
+    height: 100%;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
   }
-  img:nth-child(2) {
-    width: calc(40% - 20px);
+  &-big-single {
+    width: 100%;
+    height: 400px;
+  }
+  &-single-small {
+    width: calc(100% / 2 - 10px);
+    margin-right: 0px;
+    height: 290px;
+    margin-left: auto;
+  }
+  &-double {
+    height: 400px;
+    width: 100%;
+    img:nth-child(1) {
+      width: 60%;
+    }
+    img:nth-child(2) {
+      width: calc(40% - 20px);
+    }
   }
 }
 
@@ -318,7 +389,7 @@
   .team-lists {
     width: 750px;
   }
-  .teammate {
+  .team-member {
     height: 250px;
     &-name {
       font-size: 10px;
@@ -357,7 +428,7 @@
     width: 100%;
   }
 
-  .teammate {
+  .team-member {
     height: 25vw;
     &-name {
       font-size: 10px;
@@ -386,11 +457,11 @@
       height: 50vw;
     }
   }
-  .teammate {
+  .team-member {
     height: 40vw;
   }
   .team-list-employees {
-    .teammate {
+    .team-member {
       width: calc(50% - 10px);
       &:nth-of-type(4n) {
         margin-right: 20px;
@@ -411,7 +482,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-  .teammate {
+  .team-member {
     height: 45vw;
   }
   .team-description h1 {
@@ -420,18 +491,18 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .teammate {
+  .team-member {
     height: 90vw;
   }
   .team-list-employees {
-    .teammate {
+    .team-member {
       width: 100%;
       margin-right: 0px;
     }
   }
   .team-list-managers {
     &-list {
-      .teammate {
+      .team-member {
         margin-right: 0px;
         width: 100%;
       }

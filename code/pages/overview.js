@@ -37,11 +37,7 @@ const Overview = ({
         <div className="overview-flex">
           {topFlexSection}
           {boxes1}
-          <div className="overview-bottom-flex">
-            {secondFlexSection}
-            {imagesGrid}
-            {text}
-          </div>
+          {secondFlexSection}
           {boxes2}
         </div>
         {linkBtn}

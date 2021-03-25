@@ -18,10 +18,10 @@ const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
         </a>
       </div>
       <section class="navbar-flags">
-        <span class="flex-start">
+        <button class="flex-start subscribe-btn">
           <p>+</p>
           <p>{text.subscribe_to_updates}</p>
-        </span>
+        </button>
         <ul class="navbar-flags-list">
           {languages.map((lng) => {
             return (

@@ -4,7 +4,6 @@ import React from "react";
 const Blog = ({
   title,
   header,
-
   footer,
   script,
   _relativeURL,
@@ -29,7 +28,7 @@ const Blog = ({
       <header className="main-header">{header}</header>
       <main>
         {pageHeader}
-        <div className="blog-list">{blogs}</div>
+        {blogs}
       </main>
       {script != undefined ? (
         <script
