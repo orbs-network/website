@@ -1,15 +1,17 @@
 import React from "react";
-import BlogCard from "../../blog/blog-card";
+import { isRoot } from "../../../util/mappers";
+import Blog from "../../blog/blog";
 import BlogPost from "../../home/cards/blog-post";
 
 const BlogMapper = (props) => {
   const { _ID } = props;
-  switch (_ID) {
-    case ".":
+
+  switch (isRoot(_ID)) {
+    case true:
       return <BlogPost {...props} />;
 
     default:
-      return <BlogCard {...props} />;
+      return <Blog {...props} />;
   }
 };
 

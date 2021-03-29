@@ -22,7 +22,9 @@ module.exports = exports = function renderer({
   // };
 
   Marked.heading = (text, level) => {
-    return `<h${level} id="${text.toLowerCase().replace(/[^\w]+/g, "-")}" 
+    return `<h${level} id="${text
+      .toLowerCase()
+      .replace(/[^\w]+/g, "-")}"  class='title'
     >${text}</h${level}>\n`;
   };
 
@@ -62,11 +64,11 @@ module.exports = exports = function renderer({
     ) {
       sourcePath = _relativeURL(href, _ID);
     }
-    let out = `<img src="${sourcePath}" alt="${text}"`;
+    let out = `<figure class='image'><img src="${sourcePath}" alt="${text}"`;
     if (title) {
       out += ` title="${title}"`;
     }
-    out += ">";
+    out += "></figure>";
     return out;
   };
 

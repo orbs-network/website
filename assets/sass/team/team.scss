@@ -384,10 +384,10 @@
 
 @media only screen and (max-width: 1400px) {
   .team-description {
-    width: calc(100% - 750px);
+    width: calc(100% - 800px);
   }
   .team-lists {
-    width: 750px;
+    width: 800px;
   }
   .team-member {
     height: 250px;
@@ -410,26 +410,51 @@
 @media only screen and (max-width: 1250px) {
   .team {
     flex-direction: column;
-  }
-  .team-description {
-    position: static;
-    padding-right: 0px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 80px;
-    h1 {
-      text-align: center;
+    &-lists {
+      width: 520px;
     }
+    &-list-managers {
+      flex-direction: column;
+      &-slider {
+        width: 100%;
+        margin-top: 20px;
+        height: 500px;
+      }
+      &-list {
+        width: 100%;
+      }
+    }
+    &-list-employees {
+      .team-member {
+        width: calc(50% - 10px);
+        margin-right: 0px;
+        &:nth-child(even) {
+          margin-left: auto;
+        }
+      }
+    }
+    .banner-single-small {
+      width: 100%;
+    }
+    .banner-big-single,
+    .banner-double,
+    .banner-single-small {
+      height: 320px;
+    }
+  }
+
+  .team-description {
+    padding-right: 50px;
+    width: calc(100% - 520px);
+    margin-bottom: 80px;
+
     .socials {
       display: none;
     }
   }
-  .team-lists {
-    width: 100%;
-  }
 
   .team-member {
-    height: 25vw;
+    height: 280px;
     &-name {
       font-size: 10px;
     }
@@ -437,78 +462,43 @@
       font-size: 11px;
     }
   }
-  .banner-single-small {
-    height: 25vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .team-description {
+    width: calc(100% - 420px);
+    h1 {
+      font-size: 17px;
+    }
   }
-  .banner-big-single,
-  .banner-double {
-    height: 31vw;
+  .team {
+    &-lists {
+      width: 420px;
+    }
   }
 }
 
-@media only screen and (max-width: 850px) {
-  .team-list-managers {
-    &-list {
+@media only screen and (max-width: 1000px) {
+  .team {
+    &-flex {
+      flex-direction: column;
+    }
+    &-lists {
       width: 100%;
     }
-    &-slider {
-      margin-top: 20px;
+    &-description {
       width: 100%;
+      position: static;
+      *,
+      h1 {
+        text-align: center;
+      }
+    }
+    &-list-managers-list {
+      width: 100%;
+    }
+    &-member {
       height: 50vw;
-    }
-  }
-  .team-member {
-    height: 40vw;
-  }
-  .team-list-employees {
-    .team-member {
-      width: calc(50% - 10px);
-      &:nth-of-type(4n) {
-        margin-right: 20px;
-      }
-      &:nth-of-type(2n) {
-        margin-right: 0px;
-      }
-    }
-  }
-  .banner-single-small {
-    height: 36vw;
-    width: 100%;
-  }
-  .banner-big-single,
-  .banner-double {
-    height: 36vw;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .team-member {
-    height: 45vw;
-  }
-  .team-description h1 {
-    font-size: 17px;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .team-member {
-    height: 90vw;
-  }
-  .team-list-employees {
-    .team-member {
-      width: 100%;
-      margin-right: 0px;
-    }
-  }
-  .team-list-managers {
-    &-list {
-      .team-member {
-        margin-right: 0px;
-        width: 100%;
-      }
-    }
-    &-slider {
-      height: 90vw;
     }
   }
 }
