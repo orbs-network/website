@@ -1,6 +1,6 @@
 ---
 layout: partials/footer/footer-tweet
-image: assets/img/blog/blog1.jpg
+image:
 time: 2 hours ago
 ---
 
