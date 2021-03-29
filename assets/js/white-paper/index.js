@@ -7,7 +7,6 @@ import {
 } from "../common.js";
 window.onload = () => {
   init();
-  setEventsToPdfBtn();
 };
 
 const setEventsToPdfBtn = () => {

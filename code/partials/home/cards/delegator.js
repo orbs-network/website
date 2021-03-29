@@ -35,7 +35,7 @@ const Delegator = ({
           img={generateUrl(images.globe.delegator.figure)}
           type={type}
         />
-        <Img src={generateUrl(image)} className="card-avatar-img" />
+        {image && <Img src={generateUrl(image)} className="card-avatar-img" />}
       </figure>
       <div className="card-data flex-column">
         <CardTitle title={title} />
