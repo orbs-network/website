@@ -1,62 +1,18 @@
 .white-paper {
-  &-pdf {
-    position: fixed;
-    top: 0px;
+  &-inner {
+    height: 100%;
+    padding-bottom: 50px;
 
-    width: 0px;
-    height: 0px;
-    left: 0%;
-    top: 0%;
-    overflow: hidden;
-    z-index: 999999;
-
-    &-close {
-      width: 30px;
-      height: 30px;
-      position: absolute;
-      top: 20px;
-      right: -60px;
-      border: none;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }
     &-iframe {
-      transform: translate(-115%, -50%);
-      width: calc(100% - 150px);
-      height: 100%;
-      position: absolute;
-      transition: 0.4s all;
-      top: 50%;
+      width: 100%;
+      flex: 1;
       iframe {
         width: 100%;
         height: 100%;
       }
     }
-    &-overlay {
-      background: black;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: 0.2s all;
-    }
   }
 
-  .white-paper-pdf-active {
-    width: 100%;
-    height: 100%;
-  }
-  .white-paper-pdf-overlay-active {
-    opacity: 0.6;
-  }
-  .white-paper-pdf-iframe-active {
-    transform: translate(0%, -50%);
-  }
   &-list {
     width: calc(100% - 100px);
     margin: auto;
@@ -93,6 +49,7 @@
     }
     &-btn {
       @include read-more-btn();
+      text-decoration: none;
     }
     &-c {
       width: 66%;

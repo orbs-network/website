@@ -9,10 +9,11 @@ import { globeConfig } from "./config.js";
 import { points } from "./points.js";
 import {
   generatePathData,
+  getGlobeBackGroundImage,
   getGlobeCardsAndWeights,
   getRandomPointByWeight,
 } from "./util.js";
-
+import { geo } from "./geo.js";
 export class GlobeController {
   globe = null;
   cards = [];
@@ -67,7 +68,7 @@ export class GlobeController {
   setGlobeBaseConfig = () => {
     this.globe
       .backgroundColor(globeConfig.backgroundColor)
-      .globeImageUrl(globeConfig.img);
+      .globeImageUrl(getGlobeBackGroundImage(globeConfig.img));
     const globeMaterial = this.globe.globeMaterial();
 
     globeMaterial.fog = false;
@@ -83,15 +84,11 @@ export class GlobeController {
   };
 
   setPoligons = () => {
-    fetch("assets/js/globe/geo.geojson")
-      .then((res) => res.json())
-      .then((countries) => {
-        this.globe
-          .hexPolygonsData(countries.features)
-          .hexPolygonResolution(3)
-          .hexPolygonMargin(0.7)
-          .hexPolygonColor(() => globeConfig.orbsMainColor);
-      });
+    this.globe
+      .hexPolygonsData(geo.features)
+      .hexPolygonResolution(3)
+      .hexPolygonMargin(0.7)
+      .hexPolygonColor(() => globeConfig.orbsMainColor);
   };
 
   setGlobePoints = () => {
@@ -137,9 +134,9 @@ export class GlobeController {
     );
 
     this.selectedCard = card;
-    // let x = chance.floating({ min: -65, max: -35 });
-    // let y = chance.floating({ min: -65, max: -35 });
-
+    let x = chance.floating({ min: -65, max: -35 });
+    let y = chance.floating({ min: -65, max: -35 });
+    const transform = `translate(-50%, -50%)`;
     showElement(card);
     if (!fromClick) return;
     setTimeout(() => {
@@ -149,6 +146,10 @@ export class GlobeController {
 
   hideSelectedCard = () => {
     if (!this.selectedCard) return;
-    hideElement(this.selectedCard);
+
+    setTimeout(() => {
+      const transform = "translate(-50%, -200%)";
+      hideElement(this.selectedCard);
+    }, 300);
   };
 }
