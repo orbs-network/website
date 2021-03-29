@@ -37,7 +37,7 @@ const Guardian = ({
           img={generateUrl(images.globe.guardian.figure)}
           type={type}
         />
-        <Img src={generateUrl(image)} className="card-avatar-img" />
+        {image && <Img src={generateUrl(image)} className="card-avatar-img" />}
       </figure>
       <div className="card-data">
         <CardTitle title={name} />

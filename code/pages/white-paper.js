@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React from "react";
 
 const WhitePaper = ({
@@ -9,7 +8,6 @@ const WhitePaper = ({
   _relativeURL,
   _ID,
   whitePapersList,
-  pdfPreview,
 }) => (
   <html style={{ background: "#171819" }}>
     <head>
@@ -26,10 +24,7 @@ const WhitePaper = ({
     </head>
     <body className="white-paper grid-page">
       <header className="main-header">{header}</header>
-      <main>
-        {pdfPreview}
-        {whitePapersList}
-      </main>
+      <main>{whitePapersList}</main>
       {script != undefined ? (
         <script
           type="module"
@@ -40,24 +35,5 @@ const WhitePaper = ({
     </body>
   </html>
 );
-
-WhitePaper.propTypes = {
-  /**
-   * title: Homepage
-   */
-  title: PropTypes.string.isRequired,
-
-  /**
-   * main: (partials)(5)
-   */
-  main: PropTypes.node.isRequired,
-
-  /**
-   * footer: (partials)(2)
-   */
-  footer: PropTypes.node.isRequired,
-};
-
-WhitePaper.defaultProps = {};
 
 export default WhitePaper;
