@@ -553,10 +553,10 @@ main {
 .inner-links {
   margin-bottom: 20px; }
   .inner-links a {
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     position: relative;
-    margin-left: 10px; }
+    margin-left: 11px; }
     .inner-links a:first-child {
       margin-left: 0px; }
     .inner-links a img {
@@ -952,8 +952,6 @@ main {
     padding-right: 50px;
     width: calc(100% - 520px);
     margin-bottom: 80px; }
-    .team-description .socials {
-      display: none; }
   .team-member {
     height: 280px; }
     .team-member-name {
@@ -962,14 +960,37 @@ main {
       font-size: 11px; } }
 
 @media only screen and (max-width: 1000px) {
-  .team-description {
-    width: calc(100% - 420px); }
-    .team-description h1 {
-      font-size: 17px; }
-  .team-lists {
-    width: 420px; } }
+  .team {
+    flex-direction: column; }
+    .team-lists {
+      width: 400px; }
+    .team-member {
+      height: 250px; }
+    .team-description {
+      width: calc(100% - 400px);
+      padding-right: 30px; } }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 850px) {
+  .team-flex {
+    flex-direction: column; }
+  .team-lists {
+    width: 100%; }
+  .team-description {
+    width: 100%;
+    position: static;
+    padding-right: 0px; }
+    .team-description *,
+    .team-description h1 {
+      text-align: center; }
+    .team-description .socials {
+      margin-top: 30px;
+      justify-content: center; }
+  .team-list-managers-list {
+    width: 100%; }
+  .team-member {
+    height: 50vw; } }
+
+@media only screen and (max-width: 470px) {
   .team-flex {
     flex-direction: column; }
   .team-lists {
@@ -980,10 +1001,17 @@ main {
     .team-description *,
     .team-description h1 {
       text-align: center; }
-  .team-list-managers-list {
+  .team-list-managers-list, .team-list-employees {
     width: 100%; }
+    .team-list-managers-list .team-member, .team-list-employees .team-member {
+      width: 100%;
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: 20px; }
+      .team-list-managers-list .team-member:nth-child(1), .team-list-managers-list .team-member:nth-child(2), .team-list-employees .team-member:nth-child(1), .team-list-employees .team-member:nth-child(2) {
+        margin-top: 20px; }
   .team-member {
-    height: 50vw; } }
+    height: 100vw; } }
 
 .home-page {
   height: 100vh;
@@ -1004,12 +1032,7 @@ main {
   position: absolute;
   left: 0px;
   top: 0px;
-  z-index: 1;
-  transform: translate(170px); }
-
-#globeViz {
-  width: 100%;
-  height: 100vh; }
+  z-index: 1; }
 
 body {
   font-family: "Montserrat"; }
@@ -1112,38 +1135,6 @@ body {
     position: relative;
     transform: translate(0, -50%); }
 
-.addImgInput {
-  position: absolute;
-  right: 0px;
-  top: -10px;
-  transform: translate(0, -100%);
-  width: 40px;
-  height: 40px;
-  background: white;
-  z-index: 999999;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.addImgInput input {
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  opacity: 0;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 99;
-  cursor: pointer; }
-
-.addImgInput p {
-  color: black;
-  font-size: 24px;
-  position: relative;
-  z-index: 0;
-  cursor: pointer; }
-
 @media only screen and (max-width: 1400px) {
   .home-page {
     padding-left: 90px;
@@ -1161,17 +1152,28 @@ body {
 .globe-card {
   overflow: hidden;
   border-radius: 10px;
-  position: absolute;
+  position: fixed;
   z-index: 9999999;
   background: #1a1a1a;
-  top: 50%;
-  left: 55%;
-  transform-origin: center;
-  transform: translate(-50%, -50%);
-  transition: 0.4s all;
   display: none;
-  opacity: 0;
-  justify-content: space-between; }
+  justify-content: space-between;
+  transform: scale(0) translate(-50%, -50%);
+  transform-origin: top left;
+  transition: 0.2s all; }
+  .globe-card .inner-links {
+    margin-bottom: 25px; }
+
+.globe-card-active {
+  opacity: 1;
+  pointer-events: all;
+  transform: scale(1) translate(-50%, -50%);
+  transition: 0.3s; }
+
+.card-title {
+  font-size: 18px;
+  text-align: center;
+  font-family: "bold";
+  letter-spacing: 2.2px; }
 
 .card-quotes {
   position: absolute;
@@ -1188,7 +1190,7 @@ body {
 .d-card,
 .g-card,
 .u-card {
-  width: 700px; }
+  width: 647px; }
 
 .card-avatar {
   min-height: 100%;
@@ -1207,17 +1209,19 @@ body {
   width: fit-content;
   right: 0px;
   top: 0px;
-  height: 50px; }
+  height: 55px; }
   .card-type p {
     text-transform: uppercase;
     position: relative;
     z-index: 1;
     font-family: "bold";
-    letter-spacing: 1.26px;
-    font-size: 11px;
+    letter-spacing: 0.7px;
+    font-size: 10px;
     text-align: right;
     color: #00100c;
-    padding-right: 15px; }
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px; }
   .card-type img {
     width: 100%;
     transform: scale(1.25);
@@ -1227,12 +1231,6 @@ body {
     right: -5px;
     top: -2px;
     object-fit: contain; }
-
-.card-title {
-  font-size: 26px;
-  text-align: center;
-  font-family: "bold";
-  letter-spacing: 3.96px; }
 
 .card-top-subtitle {
   color: #d0d0d0;
@@ -1246,7 +1244,7 @@ body {
   margin-bottom: 10px; }
 
 .card-data {
-  padding: 10px 20px 20px 20px; }
+  padding: 25px 20px 20px 20px; }
 
 .card-date {
   text-transform: capitalize; }
@@ -1260,14 +1258,15 @@ body {
   width: 100%; }
 
 .card-location {
-  margin-bottom: 10px; }
+  margin-bottom: 23px;
+  margin-top: 15px; }
   .card-location img {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
     object-fit: contain; }
   .card-location p {
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Montserrat";
     letter-spacing: 1.08px; }
 
@@ -1407,28 +1406,25 @@ body {
     text-transform: uppercase; }
 
 .g-card {
-  height: auto;
-  border: 3px solid #cd91ff; }
+  border: 3px solid #cd91ff;
+  height: 350px; }
   .g-card .card-avatar {
-    width: 200px; }
+    width: 257px; }
   .g-card .card-data {
-    width: calc(100% - 200px);
-    padding-top: 10px; }
-  .g-card-stake {
-    padding-top: 20px;
-    padding-bottom: 10px; }
-    .g-card-stake h4 {
-      font-size: 24px;
-      font-family: "bold";
-      letter-spacing: 2.5px; }
-    .g-card-stake p {
-      font-size: 11px;
-      margin-top: 0px;
-      font-family: "light";
-      color: #d0d0d0;
-      text-transform: capitalize; }
-    .g-card-stake div:last-child {
-      margin-top: 15px; }
+    width: calc(100% - 257px); }
+  .g-card-stake h4 {
+    font-size: 22px;
+    font-family: "bold";
+    letter-spacing: 2.2px; }
+  .g-card-stake p {
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: "light";
+    color: #d0d0d0;
+    letter-spacing: 0.6px;
+    text-transform: capitalize; }
+  .g-card-stake div:last-child {
+    margin-top: 15px; }
   .g-card .card-links {
     margin-bottom: 20px;
     margin-top: 10px; }
@@ -1443,7 +1439,7 @@ body {
   padding: 20px; }
   .r-paper .card-title {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 10px; }
   .r-paper-sub-title {
     color: #ff7c00;
@@ -1598,18 +1594,14 @@ body {
   width: 100%;
   height: 100px;
   z-index: 999999;
-  position: relative; }
-
-.navbar-top {
-  width: 100%; }
-
-.main-navbar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  width: 100%;
   transition: 0.2s all; }
+
+.navbar-top {
+  width: 100%; }
 
 .menu-burger-wrapper {
   align-items: center; }

@@ -1,4 +1,5 @@
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const WhitePaperInner = ({
   title,
@@ -14,7 +15,7 @@ const WhitePaperInner = ({
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <html style={{ background: "#171819" }}>
+    <html style={{ background: colors.main }}>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -31,7 +32,7 @@ const WhitePaperInner = ({
         />
       </head>
       <body className="white-paper-inner grid-page">
-        <header className="main-header">{header}</header>
+        {header}
         <main className="flex-column">
           {breadCrumbs}
           <div className="white-paper-inner-iframe">

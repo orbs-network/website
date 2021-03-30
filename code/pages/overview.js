@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const Overview = ({
   title,
@@ -12,12 +12,10 @@ const Overview = ({
   topFlexSection,
   boxes1,
   secondFlexSection,
-  imagesGrid,
-  text,
   boxes2,
   linkBtn,
 }) => (
-  <html style={{ background: "#171819" }}>
+  <html style={{ background: colors.main }}>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -31,7 +29,7 @@ const Overview = ({
       />
     </head>
     <body className="overview grid-page">
-      <header className="main-header">{header}</header>
+      {header}
       <main>
         {pageHeader}
         <div className="overview-flex">
@@ -52,24 +50,5 @@ const Overview = ({
     </body>
   </html>
 );
-
-Overview.propTypes = {
-  /**
-   * title: Homepage
-   */
-  title: PropTypes.string.isRequired,
-
-  /**
-   * main: (partials)(5)
-   */
-  main: PropTypes.node.isRequired,
-
-  /**
-   * footer: (partials)(2)
-   */
-  footer: PropTypes.node.isRequired,
-};
-
-Overview.defaultProps = {};
 
 export default Overview;

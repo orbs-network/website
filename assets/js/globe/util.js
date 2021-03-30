@@ -61,7 +61,7 @@ export const getGlobeCardsAndWeights = () => {
   }
 };
 
-export const getRandomPointByWeight = (cards, weights, currentCard) => {
+export const getRandomCardByWeight = (cards, weights, currentCard) => {
   while (true) {
     const newCard = chance.weighted(cards, weights);
     const stop = !isTheSameCard(newCard, currentCard);
@@ -69,8 +69,29 @@ export const getRandomPointByWeight = (cards, weights, currentCard) => {
       return newCard;
     }
 
-    return getRandomPointByWeight(cards, weights, currentCard);
+    return getRandomCardByWeight(cards, weights, currentCard);
   }
+};
+
+export const getRandomGlobePoint = (points) => {
+  if (!points) return;
+  const limit = points.length;
+  const number = Math.floor(Math.random() * limit);
+  return points[number];
+};
+
+export const getRandomPointLatLng = (numOfPoints) => {
+  let points = [];
+  const from = -180;
+  const to = 180;
+  const fixed = 3;
+  for (let i = 0; i < numOfPoints; i++) {
+    const lat = (Math.random() * (to - from) + from).toFixed(fixed) * 1;
+    const lng = (Math.random() * (to - from) + from).toFixed(fixed) * 1;
+    const point = { lat, lng };
+    points.push(point);
+  }
+  return points;
 };
 
 const isTheSameCard = (newCard, currentCard) => {

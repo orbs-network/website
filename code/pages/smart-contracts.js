@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const SmartContract = ({
   title,
@@ -14,7 +15,7 @@ const SmartContract = ({
   expendingSection,
   linkBack,
 }) => (
-  <html style={{ background: "#171819" }}>
+  <html style={{ background: colors.main }}>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -28,7 +29,7 @@ const SmartContract = ({
       />
     </head>
     <body className="smart-contracts grid-page">
-      <header className="main-header">{header}</header>
+      {header}
       <main>
         {pageHeader}
         {expendingSection}

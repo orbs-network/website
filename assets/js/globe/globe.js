@@ -6,14 +6,16 @@ import {
   showElement,
 } from "../common.js";
 import { globeConfig } from "./config.js";
-import { points } from "./points.js";
 import {
   generatePathData,
   getGlobeBackGroundImage,
   getGlobeCardsAndWeights,
-  getRandomPointByWeight,
+  getRandomCardByWeight,
+  getRandomGlobePoint,
+  getRandomPointLatLng,
 } from "./util.js";
 import { geo } from "./geo.js";
+import { getPointCoordinates } from "./index.js";
 export class GlobeController {
   globe = null;
   cards = [];
@@ -38,6 +40,7 @@ export class GlobeController {
 
     this.resizeListener();
     this.addEventsToCards();
+
     return this.globe;
   }
 
@@ -92,8 +95,11 @@ export class GlobeController {
   };
 
   setGlobePoints = () => {
-    const globeContainer = getElement("#globeViz");
+    const globeContainer = document.createElement("div");
+    globeContainer.classList.add("home-globe");
+    const points = getRandomPointLatLng(30);
     this.globe
+
       .pointsData(points)
       .pointAltitude(0.003)
       .pointColor(() => globeConfig.orbsMainColor)
@@ -106,7 +112,20 @@ export class GlobeController {
         return this.startGlobeAutoRotation();
       })
       .pointRadius(0.7)(globeContainer);
+    const body = getElement("body");
+    body.appendChild(globeContainer);
   };
+
+  getViewPort() {
+    return {
+      width: this.globe.width(),
+      height: this.globe.height(),
+    };
+  }
+
+  getCamera() {
+    return { camera: this.globe.camera(), renderer: this.globe.renderer() };
+  }
 
   setPathData = () => {
     const pathData = generatePathData(globeConfig);
@@ -120,36 +139,69 @@ export class GlobeController {
       .pathPointAlt((pnt) => pnt[2]);
   };
 
-  handlePointClick = () => {
+  handlePointClick = ({ lat, lng }, event) => {
+    const { clientX, clientY } = event;
     this.selectPoint(true);
     this.params.stopInterval();
     this.params.startInterval();
+    this.commonCardSelect(clientX, clientY);
   };
 
-  selectPoint(fromClick) {
-    const card = getRandomPointByWeight(
+  getPoints() {
+    return this.globe.pointsData();
+  }
+
+  commonCardSelect(x, y) {
+    const card = getRandomCardByWeight(
       this.cards,
       this.weights,
       this.selectedCard
     );
-
+    if (!card) return;
     this.selectedCard = card;
-    let x = chance.floating({ min: -65, max: -35 });
-    let y = chance.floating({ min: -65, max: -35 });
-    const transform = `translate(-50%, -50%)`;
-    showElement(card);
-    if (!fromClick) return;
-    setTimeout(() => {
-      this.startGlobeAutoRotation();
-    }, 700);
+    card.style.left = `${x}px`;
+    card.style.top = `${y}px`;
+    showCard(card);
+  }
+
+  selectPoint(points) {
+    const card = getRandomCardByWeight(
+      this.cards,
+      this.weights,
+      this.selectedCard
+    );
+    const globePoint = getRandomGlobePoint(points);
+    if (!globePoint) return;
+    const { x, y } = getPointCoordinates(globePoint);
+    this.selectedCard = card;
+    card.style.left = `${x}px`;
+    card.style.top = `${y}px`;
+    showCard(card);
   }
 
   hideSelectedCard = () => {
-    if (!this.selectedCard) return;
-
-    setTimeout(() => {
-      const transform = "translate(-50%, -200%)";
-      hideElement(this.selectedCard);
-    }, 300);
+    hideCard(this.selectedCard);
   };
 }
+
+const showCard = (element) => {
+  element.style.display = "flex";
+
+  setTimeout(() => {
+    element.classList.add("globe-card-active");
+    element.style.left = `50%`;
+    element.style.top = `50%`;
+    element.style.opacity = 1;
+  }, 200);
+};
+
+const hideCard = (element) => {
+  console.log(element);
+  element.style.opacity = "0";
+
+  setTimeout(() => {
+    element.style.display = "none";
+    element.classList.remove("globe-card-active");
+    element.style.transform = `translate(-50%, -50%)`;
+  }, 200);
+};

@@ -1,4 +1,5 @@
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const Universe = ({
   title,
@@ -14,7 +15,7 @@ const Universe = ({
   pageHeader,
   expendingSection,
 }) => (
-  <html style={{ background: "#171819" }}>
+  <html style={{ background: colors.main }}>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -28,7 +29,7 @@ const Universe = ({
       />
     </head>
     <body className="universe grid-page">
-      <header className="main-header">{header}</header>
+      {header}
       <main>
         {pageHeader}
         {topSections}

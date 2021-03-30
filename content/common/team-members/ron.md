@@ -1,8 +1,8 @@
 ---
 layout: partials/common/mappers/team-members-mapper
 avatar: /assets/img/team/members/tal.png
-name: tal kol2
-role: President and Co-founder
+name: Ron
+role: Title here
 twitter: /
 telegram:
 linkedin: /

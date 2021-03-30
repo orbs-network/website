@@ -16,3 +16,7 @@ export const cardsWeights = {
   funFacts: 5,
   members: 10,
 };
+
+export const colors = {
+  main: "#171819",
+};
