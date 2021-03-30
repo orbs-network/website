@@ -2,12 +2,12 @@
 layout: partials/team/team-2
 
 list:
-  - ../../md/team-members/member-5.md
-  - ../../md/team-members/member-6.md
-  - ../../md/team-members/member-7.md
-  - ../../md/team-members/member-8.md
-  - ../../md/team-members/member-9.md
-  - ../../md/team-members/member-10.md
+  - ../../common/team-members/nechama.md
+  - ../../common/team-members/ran-hammer.md
+  - ../../common/team-members/ron.md
+  - ../../common/team-members/eran-peled.md
+  - ../../common/team-members/dolev.md
+  - ../../common/team-members/rani.md
   - banners/single-small-banner-1.md
   - banners/single-big-banner-1.md
   - banners/double-banner-1.md

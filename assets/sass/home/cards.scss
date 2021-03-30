@@ -5,18 +5,33 @@ $delegator-color: #d0fb6e;
 .globe-card {
   overflow: hidden;
   border-radius: 10px;
-  position: absolute;
+  position: fixed;
   z-index: 9999999;
   background: #1a1a1a;
-  top: 50%;
-  left: 55%;
-  transform-origin: center;
-  transform: translate(-50%, -50%);
-  transition: 0.4s all;
+
   display: none;
-  opacity: 0;
+
   justify-content: space-between;
+  transform: scale(0) translate(-50%, -50%);
+  transform-origin: top left;
+  transition: 0.2s all;
+  .inner-links {
+    margin-bottom: 25px;
+  }
 }
+.globe-card-active {
+  opacity: 1;
+  pointer-events: all;
+  transform: scale(1) translate(-50%, -50%);
+  transition: 0.3s;
+}
+.card-title {
+  font-size: 18px;
+  text-align: center;
+  font-family: $bold-font;
+  letter-spacing: 2.2px;
+}
+
 .card-quotes {
   position: absolute;
   font-family: $bold-oblique;
@@ -34,7 +49,7 @@ $delegator-color: #d0fb6e;
 .d-card,
 .g-card,
 .u-card {
-  width: 700px;
+  width: 647px;
 }
 .card-avatar {
   min-height: 100%;
@@ -54,18 +69,20 @@ $delegator-color: #d0fb6e;
   width: fit-content;
   right: 0px;
   top: 0px;
-  height: 50px;
+  height: 55px;
 
   p {
     text-transform: uppercase;
     position: relative;
     z-index: 1;
     font-family: $bold-font;
-    letter-spacing: 1.26px;
-    font-size: 11px;
+    letter-spacing: 0.7px;
+    font-size: 10px;
     text-align: right;
     color: #00100c;
     padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
   }
   img {
     width: 100%;
@@ -77,12 +94,6 @@ $delegator-color: #d0fb6e;
     top: -2px;
     object-fit: contain;
   }
-}
-.card-title {
-  font-size: 26px;
-  text-align: center;
-  font-family: $bold-font;
-  letter-spacing: 3.96px;
 }
 
 .card-top-subtitle {
@@ -99,7 +110,7 @@ $delegator-color: #d0fb6e;
   margin-bottom: $basic-margin;
 }
 .card-data {
-  padding: 10px 20px 20px 20px;
+  padding: 25px 20px 20px 20px;
 }
 .card-date {
   text-transform: capitalize;
@@ -116,15 +127,16 @@ $delegator-color: #d0fb6e;
 }
 
 .card-location {
-  margin-bottom: $basic-margin;
+  margin-bottom: 23px;
+  margin-top: 15px;
   img {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
     object-fit: contain;
   }
   p {
-    font-size: 12px;
+    font-size: 13px;
     font-family: $text-font;
     letter-spacing: 1.08px;
   }
@@ -308,30 +320,27 @@ $delegator-color: #d0fb6e;
 }
 
 .g-card {
-  height: auto;
   border: 3px solid #cd91ff;
 
+  height: 350px;
   .card-avatar {
-    width: 200px;
+    width: 257px;
   }
   .card-data {
-    width: calc(100% - 200px);
-    padding-top: 10px;
+    width: calc(100% - 257px);
   }
   &-stake {
-    padding-top: 20px;
-    padding-bottom: 10px;
-
     h4 {
-      font-size: 24px;
+      font-size: 22px;
       font-family: $bold-font;
-      letter-spacing: 2.5px;
+      letter-spacing: 2.2px;
     }
     p {
-      font-size: 11px;
+      font-size: 12px;
       margin-top: 0px;
       font-family: $light-font;
       color: $light-gray;
+      letter-spacing: 0.6px;
       text-transform: capitalize;
     }
     div {
@@ -357,7 +366,7 @@ $delegator-color: #d0fb6e;
 
   .card-title {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 10px;
   }
   &-sub-title {

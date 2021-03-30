@@ -50,7 +50,7 @@ const Guardian = ({
           section={images.globe.guardian}
           generateUrl={generateUrl}
         />
-        <Border />
+
         <section className="column-center g-card-stake">
           <div className="column-center">
             <h4>{formatNumber(totalStake)}</h4>

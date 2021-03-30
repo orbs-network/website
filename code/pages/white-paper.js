@@ -1,4 +1,5 @@
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const WhitePaper = ({
   title,
@@ -9,7 +10,7 @@ const WhitePaper = ({
   _ID,
   whitePapersList,
 }) => (
-  <html style={{ background: "#171819" }}>
+  <html style={{ background: colors.main }}>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -23,7 +24,7 @@ const WhitePaper = ({
       />
     </head>
     <body className="white-paper grid-page">
-      <header className="main-header">{header}</header>
+      {header}
       <main>{whitePapersList}</main>
       {script != undefined ? (
         <script

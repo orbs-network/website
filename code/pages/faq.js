@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 import FaqCategoriesList from "../partials/faq/faq-categories-list";
 
 const Faq = (props) => {
@@ -15,7 +16,7 @@ const Faq = (props) => {
     sections,
   } = props;
   return (
-    <html style={{ background: "#171819" }}>
+    <html style={{ background: colors.main }}>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -33,7 +34,7 @@ const Faq = (props) => {
         />
       </head>
       <body className="faq grid-page">
-        <header className="main-header">{header}</header>
+        {header}
         <main>
           <div className="faq-flex flex-between">
             <div className="faq-desc sticky-section">

@@ -60,6 +60,7 @@ export const onOutsideEvent = (element, callback) => {
   document.addEventListener("click", function (event) {
     const isClickInside = element.contains(event.target);
     const opacity = element.style.opacity == 1;
+    console.log(opacity);
     if (!isClickInside && opacity) {
       callback();
     }
@@ -78,7 +79,7 @@ export const navbarMenuOutsideClick = () => {
 };
 
 const onScrollEvent = () => {
-  const navbar = getElement(".main-navbar");
+  const navbar = getElement(".main-header");
   document.addEventListener(
     "scroll",
     () => {

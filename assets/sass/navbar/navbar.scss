@@ -7,18 +7,15 @@
   height: 100px;
   z-index: 999999;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s all;
 }
 .navbar-top {
   width: 100%;
 }
-.main-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  transition: 0.2s all;
-}
+
 .menu-burger-wrapper {
   align-items: center;
   .logo {

@@ -3,7 +3,7 @@ import SubscribePopup from "./subscribe-popup";
 
 const Navbar = ({ navbarTop, menu }) => {
   return (
-    <div class="main-navbar">
+    <div class="main-header">
       <SubscribePopup />
       {navbarTop}
       {menu}

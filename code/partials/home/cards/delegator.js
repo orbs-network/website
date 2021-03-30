@@ -16,7 +16,7 @@ const Delegator = ({
   website,
   twitter,
   telegram,
-  title,
+  name,
   _body,
   giveawayUrl,
   type,
@@ -38,7 +38,7 @@ const Delegator = ({
         {image && <Img src={generateUrl(image)} className="card-avatar-img" />}
       </figure>
       <div className="card-data flex-column">
-        <CardTitle title={title} />
+        <CardTitle title={name} />
         <span className="flex-center card-location">
           <img src="" />
           <p>{location}</p>

@@ -1,8 +1,8 @@
 ---
 layout: partials/common/mappers/team-members-mapper
 avatar: /assets/img/team/members/tal.png
-name: tal kol
-role: President and Co-founder
+name: Eran Peled
+role: Title here
 twitter: /
 telegram:
 linkedin: /

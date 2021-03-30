@@ -1,4 +1,5 @@
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const Team = (props) => {
   const {
@@ -11,14 +12,10 @@ const Team = (props) => {
     _ID,
     teamText,
     careers,
-    _storeSet,
-    _store,
   } = props;
 
-  _storeSet({ section: "team" });
-
   return (
-    <html style={{ background: "#171819" }}>
+    <html style={{ background: colors.main }}>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -38,7 +35,7 @@ const Team = (props) => {
         />
       </head>
       <body className="team grid-page">
-        <header className="main-header">{header}</header>
+        {header}
         <main>
           <div className="team-flex flex-between">
             {teamText}
