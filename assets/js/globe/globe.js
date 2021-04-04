@@ -25,7 +25,7 @@ export class GlobeController {
 
     this.globe = newGlobe;
     this.setGlobeBaseConfig();
-    // this.setPathData();
+    this.setPathData();
     await this.setPoligons();
 
     this.startGlobeAutoRotation();
