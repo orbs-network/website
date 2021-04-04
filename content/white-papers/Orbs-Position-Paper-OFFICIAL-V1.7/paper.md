@@ -5,10 +5,11 @@ image: /assets/img/white-papers/guardian.png
 readPaperBtn: read the paper
 date: July 2020
 url: white-papers/Orbs-Position-Paper-OFFICIAL-V1.7
-text:
-  linkText: Preview Paper
-  publishedOn: "Published on:"
-  published: Published
+button: Preview Paper
+published: "Published"
+on: "on:"
+category: Crypto
+type: Research Paper
 ---
 
-The Orbs Position Paper.
+An overview of all major technology and business aspects that make up the Orbs platform.

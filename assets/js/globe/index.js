@@ -1,48 +1,44 @@
-import { getElement, hideElement, init } from "../common.js";
+import {
+  getElement,
+  hideElement,
+  init,
+  onMouseEnterAndLeaveEvent,
+} from "../common.js";
 import { globeConfig } from "./config.js";
 
 import { GlobeController } from "./globe.js";
-import { getRandomCardByWeight, getRandomGlobePoint } from "./util.js";
+import {
+  getRandomCardByWeight,
+  hideCard,
+  showCard,
+  getGlobeCardsAndWeights,
+  onOutsideCardEvent,
+  getPointCoordinates,
+  getRandomGlobePoint,
+} from "./util.js";
 let pointSelectInterval = null;
 let pointHideTimeout = null;
 let cardOutTimeout = null;
 let globe = null;
-
+let selected = null;
+let cardsList = [];
+let weightsList = [];
+let allowClick = false;
 const closeCardIfVisible = () => {
-  const cards = document.querySelectorAll(".globe-card");
+  const cards = document.querySelectorAll(".globe-card-active");
   cards.forEach((card) => {
-    if (card.style.opacity == 1) {
-      hideElement(card);
-    }
+    hideCard(card);
   });
 };
 
-const selectPoint = () => {
-  const points = globe.getPoints();
-  const card = getRandomCardByWeight(
-    this.cards,
-    this.weights,
-    this.selectedCard
-  );
-  const globePoint = getRandomGlobePoint(points);
-  if (!globePoint) return;
-  const { x, y } = getPointCoordinates(globePoint);
-  this.selectedCard = card;
-  card.style.left = `${x}px`;
-  card.style.top = `${y}px`;
-  showCard(card);
-};
-
 const startInterval = () => {
-  // if (pointSelectInterval) return;
-  // console.log("inerval started");
-  // closeCardIfVisible();
-  // pointSelectInterval = setInterval(() => {
-  //   const points = globe.getPoints();
-  //   console.log(points);
-  //   globe.selectPoint(points);
-  //   setAutoHideTimeout();
-  // }, globeConfig.showCardInterval);
+  if (pointSelectInterval) return;
+  pointSelectInterval = setInterval(() => {
+    // const points = globe.getPoints();
+    // console.log(points);
+    // globe.selectPoint(points);
+    handleAutoPointSelect();
+  }, globeConfig.showCardInterval);
 };
 
 const startIntervalWithDelay = () => {
@@ -52,7 +48,6 @@ const startIntervalWithDelay = () => {
 };
 
 const stopInterval = () => {
-  console.log("interval stopped");
   window.clearInterval(pointSelectInterval);
   window.clearTimeout(pointHideTimeout);
   window.clearTimeout(cardOutTimeout);
@@ -63,7 +58,7 @@ const stopInterval = () => {
 
 const setAutoHideTimeout = () => {
   pointHideTimeout = setTimeout(() => {
-    globe.hideSelectedCard();
+    hideCard(selected);
   }, globeConfig.hideCardTimeout);
 };
 
@@ -71,46 +66,148 @@ const resetInterval = () => {
   stopInterval();
   startInterval();
 };
+
+const onPointHover = (value) => {
+  const body = document.querySelector("body");
+  allowClick = value;
+
+  if (value) {
+    return (body.style.cursor = "pointer");
+  }
+  return (body.style.cursor = "default");
+};
+
+const onGlobeReady = () => {
+  const { cards, weights } = getGlobeCardsAndWeights();
+  addEventsToCards(cards);
+  cardsList = cards;
+  weightsList = weights;
+  addListenerToCanvas();
+  setTimeout(() => {
+    const loader = getElement(".globe-loader");
+    hideElement(loader);
+    startInterval();
+  }, 3000);
+};
+
 const setupGlobe = async () => {
+  const container = document.createElement("div");
+  container.classList.add("home-globe");
+  const body = document.querySelector("body");
+  body.appendChild(container);
   const globeParams = {
-    stopInterval,
-    startInterval,
-    resetInterval,
-    startIntervalWithDelay,
+    handlePointClick,
+    onPointHover,
+    onGlobeReady,
+    container,
   };
   try {
     globe = await new GlobeController(globeParams);
-
-    setTimeout(() => {
-      const loader = getElement(".globe-loader");
-      hideElement(loader);
-      startInterval();
-    }, 3000);
   } catch (error) {
-    console.error("error in creating globe");
+    console.error(error);
   }
 };
 
-window.onload = async () => {
-  init();
-  await setupGlobe();
+const addEventsToCards = (cards) => {
+  cards.forEach((card) => {
+    onOutsideCardEvent(card, handleOutSideClick);
+    onMouseEnterAndLeaveEvent(card, stopInterval, startIntervalWithDelay);
+  });
 };
 
-export const getPointCoordinates = (point) => {
-  const mesh = point.__threeObj;
-  var vector = new THREE.Vector3();
-  const { camera, renderer } = globe.getCamera();
-  var widthHalf = 0.5 * renderer.context.canvas.width;
-  var heightHalf = 0.5 * renderer.context.canvas.height;
-  mesh.updateMatrixWorld();
-  vector.setFromMatrixPosition(mesh.matrixWorld);
-  vector.project(camera);
+const handlePointClick = ({ lat, lng }, event) => {
+  const { clientX, clientY } = event;
+  resetInterval();
+  try {
+    selectCard(clientX, clientY);
+  } catch (error) {
+    console.error("error in selecting card");
+  }
+};
 
-  vector.x = vector.x * widthHalf + widthHalf;
-  vector.y = -(vector.y * heightHalf) + heightHalf;
+const checkIfPointInView = (points) => {
+  const { camera, scene } = globe.getCameraAndRenderer();
+  scene.updateMatrixWorld(true);
+  let arr = [];
+  arr = points.filter((point) => {
+    const worldPosition = new THREE.Vector3();
 
-  return {
-    x: vector.x,
-    y: vector.y,
-  };
+    const mesh = point.__threeObj;
+    const world = mesh.getWorldPosition(worldPosition);
+    return world.y > 0;
+  });
+  return arr;
+};
+
+const handleAutoPointSelect = () => {
+  closeCardIfVisible();
+  const points = globe.getPoints();
+  const inViewPoints = checkIfPointInView(points);
+
+  const point = getRandomGlobePoint(inViewPoints);
+
+  // Your 3d point to check
+  const { x, y } = getPointCoordinates(point, globe);
+  selectCard(x, y);
+  setAutoHideTimeout();
+};
+
+const selectCard = (x, y) => {
+  selected = getRandomCardByWeight(cardsList, weightsList, selected);
+  if (!selected) return;
+  selected.style.left = `${x}px`;
+  selected.style.top = `${y}px`;
+  checkCardPosition(selected);
+
+  setTimeout(() => {
+    showCard(selected);
+  }, 50);
+};
+
+const checkCardPosition = (card) => {
+  try {
+    card.classList.add("globe-card-position-test");
+    const { top, right, left, width, height } = card.getBoundingClientRect();
+    //if card overflows from top, push to bottom
+    if (top < 30) {
+      card.style.top = `${height / 2 + 10}px`;
+    }
+    //if card overflows from bottom, push to top
+    if (top + height > window.innerHeight) {
+      card.style.top = `${window.innerHeight - height / 2 - 20}px`;
+    }
+    //if card overflows from right, push to left
+
+    if (right > window.innerWidth) {
+      card.style.left = `calc(100% - ${width / 2 + 10}px)`;
+    }
+    //if card overflows from left, push to right
+    if (left < 0) {
+      card.style.left = `0px`;
+    }
+    card.classList.remove("globe-card-position-test");
+  } catch (error) {
+    console.log("error in checking card position");
+  }
+};
+
+const handleOutSideClick = () => {
+  hideCard(selected);
+  resetInterval();
+};
+
+window.onload = () => {
+  init();
+  setupGlobe();
+};
+
+const addListenerToCanvas = () => {
+  const canvas = document.querySelector("canvas");
+  canvas.addEventListener("click", (event) => {
+    var x = event.clientX;
+    var y = event.clientY;
+    const test = document.querySelector(".globe-card-active");
+    if (test || !allowClick) return;
+    selectCard(x, y);
+  });
 };

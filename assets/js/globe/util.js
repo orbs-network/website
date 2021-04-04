@@ -57,27 +57,35 @@ export const getGlobeCardsAndWeights = () => {
     });
     return { cards, weights };
   } catch (error) {
-    console.log("couldnt get cards");
+    console.log("couldnt get cards and weights");
   }
 };
 
 export const getRandomCardByWeight = (cards, weights, currentCard) => {
-  while (true) {
-    const newCard = chance.weighted(cards, weights);
-    const stop = !isTheSameCard(newCard, currentCard);
-    if (stop) {
-      return newCard;
-    }
+  try {
+    while (true) {
+      const newCard = chance.weighted(cards, weights);
+      const stop = !isTheSameCard(newCard, currentCard);
+      if (stop) {
+        return newCard;
+      }
 
-    return getRandomCardByWeight(cards, weights, currentCard);
+      return getRandomCardByWeight(cards, weights, currentCard);
+    }
+  } catch (error) {
+    console.error("error in getting randon card");
   }
 };
 
 export const getRandomGlobePoint = (points) => {
-  if (!points) return;
-  const limit = points.length;
-  const number = Math.floor(Math.random() * limit);
-  return points[number];
+  try {
+    if (!points) return;
+    const limit = points.length;
+    const number = Math.floor(Math.random() * limit);
+    return points[number];
+  } catch (error) {
+    console.error("error in getting random globe point");
+  }
 };
 
 export const getRandomPointLatLng = (numOfPoints) => {
@@ -88,7 +96,9 @@ export const getRandomPointLatLng = (numOfPoints) => {
   for (let i = 0; i < numOfPoints; i++) {
     const lat = (Math.random() * (to - from) + from).toFixed(fixed) * 1;
     const lng = (Math.random() * (to - from) + from).toFixed(fixed) * 1;
-    const point = { lat, lng };
+    const radius = 1.4;
+    const alt = 0.002;
+    const point = { lat, lng, radius, alt };
     points.push(point);
   }
   return points;
@@ -108,4 +118,55 @@ export const getGlobeBackGroundImage = (imgName) => {
     return `../assets/img/globe/${imgName}`;
   }
   return `assets/img/globe/${imgName}`;
+};
+
+export const getPointCoordinates = (point, globe) => {
+  try {
+    const mesh = point.__threeObj;
+    var vector = new THREE.Vector3();
+    const { camera, renderer } = globe.getCameraAndRenderer();
+    var widthHalf = 0.5 * renderer.getContext().canvas.width;
+    var heightHalf = 0.5 * renderer.getContext().canvas.height;
+    mesh.updateMatrixWorld();
+    vector.setFromMatrixPosition(mesh.matrixWorld);
+    vector.project(camera);
+
+    vector.x = vector.x * widthHalf + widthHalf;
+    vector.y = -(vector.y * heightHalf) + heightHalf;
+
+    return {
+      x: vector.x,
+      y: vector.y,
+    };
+  } catch (error) {
+    console.error("error in getting point coordinates");
+  }
+};
+
+export const showCard = (element) => {
+  element.style.opacity = 1;
+
+  element.classList.add("globe-card-active");
+};
+
+export const hideCard = (element) => {
+  try {
+    element.style.opacity = 0;
+    setTimeout(() => {
+      element.classList.remove("globe-card-active");
+    }, 200);
+  } catch (error) {
+    console.error("error in hiding selected card");
+  }
+};
+
+export const onOutsideCardEvent = (element, callback) => {
+  if (!element) return;
+  document.addEventListener("click", function (event) {
+    const isClickInside = element.contains(event.target);
+    const isActive = element.classList.contains("globe-card-active");
+    if (!isClickInside && isActive) {
+      callback();
+    }
+  });
 };

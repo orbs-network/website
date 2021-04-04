@@ -20,6 +20,13 @@
   left: 0px;
   top: 0px;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .scene-container {
+    position: relative;
+    transform: translate(5vw, -12vh);
+  }
 }
 
 body {
@@ -105,36 +112,30 @@ body {
 
 .home-flex {
   position: relative;
-  height: calc(100% - 100px);
+  height: calc(100% - 230px);
   width: fit-content;
   display: flex;
   z-index: 10;
   flex-direction: column;
+  justify-content: space-between;
   &-text {
-    position: relative;
-    top: 30%;
-    transform: translate(0, -50%);
-
     .text-p {
-      letter-spacing: 3px;
+      letter-spacing: 2.2px;
       text-transform: uppercase;
       font-family: $light-font;
-      font-size: 20px;
+      font-size: 22px;
       margin-bottom: 0px;
     }
     h3 {
-      letter-spacing: 3px;
+      letter-spacing: 3.3px;
       font-family: $bold-font;
       margin-top: 10px;
       margin-bottom: 10px;
-      font-size: 24px;
+      font-size: 33px;
       text-transform: uppercase;
     }
   }
   .socials {
-    top: 60%;
-    position: relative;
-    transform: translate(0, -50%);
   }
 }
 

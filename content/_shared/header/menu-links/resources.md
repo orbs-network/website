@@ -16,9 +16,6 @@ links:
   - name: v1 reward
     url: https://orbs-network.github.io/v1-snapshot/
     image: assets/img/navbar/menu/v1.svg
-  - name: prism
-    url: url
-    image: assets/img/navbar/menu/prism.svg
   - name: vc portal
     url: https://vcs.orbs.network/
     image: assets/img/navbar/menu/vc.svg
@@ -31,4 +28,7 @@ links:
   - name: Staking Calculator
     url: https://vcs.orbs.network/
     image: assets/img/navbar/menu/calculator.svg
+  - name: prism
+    url: url
+    image: assets/img/navbar/menu/prism.svg
 ---

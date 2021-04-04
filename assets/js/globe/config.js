@@ -6,7 +6,7 @@ export const globeConfig = {
   MAX_STEP_ALT: 0.015,
   img: "globe-bg.jpg",
   N_PATHS: 20,
-  rotationSpeed: 0.5,
+  rotationSpeed: 0.8,
   backgroundColor: "#121822",
   showCardInterval: 10000,
   hideCardTimeout: 4000,
@@ -14,4 +14,6 @@ export const globeConfig = {
   minTransformX: -50,
   maxTransformY: 50,
   minTransformY: -50,
+  additionalWidth: window.innerWidth / 5,
+  additionalHeight: window.innerHeight / 5,
 };
