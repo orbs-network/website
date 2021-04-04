@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 import GlobeLoader from "../partials/home/globeLoader";
 
 const Home = ({
@@ -12,7 +12,7 @@ const Home = ({
   pageText,
 }) => {
   return (
-    <html style={{ background: "#171819" }}>
+    <html style={{ background: colors.main }}>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -20,8 +20,9 @@ const Home = ({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://chancejs.com/chance.min.js"></script>
         <script src="//unpkg.com/three"></script>
-
         <script src="//unpkg.com/globe.gl"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
@@ -34,13 +35,11 @@ const Home = ({
       </head>
       <body className="home-page">
         <GlobeLoader />
-        {cards}
+
+        {header}
         <main>
-          <header className="main-header">{header}</header>
+          {cards}
           {pageText}
-          <div className="home-globe">
-            <div id="globeViz"></div>
-          </div>
         </main>
         {script != undefined ? (
           <script

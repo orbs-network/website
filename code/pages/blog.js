@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import React from "react";
+import { colors } from "../../assets/js/consts/consts";
 
 const Blog = ({
   title,
@@ -11,7 +11,7 @@ const Blog = ({
   blogs,
   pageHeader,
 }) => (
-  <html style={{ background: "#171819" }}>
+  <html style={{ background: colors.main }}>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -25,7 +25,7 @@ const Blog = ({
       />
     </head>
     <body className="blog grid-page">
-      <header className="main-header">{header}</header>
+      {header}
       <main>
         {pageHeader}
         {blogs}
@@ -40,24 +40,5 @@ const Blog = ({
     </body>
   </html>
 );
-
-Blog.propTypes = {
-  /**
-   * title: Homepage
-   */
-  title: PropTypes.string.isRequired,
-
-  /**
-   * main: (partials)(5)
-   */
-  main: PropTypes.node.isRequired,
-
-  /**
-   * footer: (partials)(2)
-   */
-  footer: PropTypes.node.isRequired,
-};
-
-Blog.defaultProps = {};
 
 export default Blog;

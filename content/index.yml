@@ -4,9 +4,7 @@ script: globe/index
 header:
   - /_shared/header/header.md
 
-globeContainer:
-  - md/globe-container.md
 cards:
-  - md/cards/cards.md
+  - home/cards/cards.md
 pageText:
-  - md/text-box.md
+  - home/text-box.md

@@ -9,6 +9,8 @@ export const images = {
       github: `${prefix}/globe/cards/contributor/github.svg`,
       website: `${prefix}/globe/cards/contributor/link.svg`,
       figure: `${prefix}/globe/cards/contributor/figure.svg`,
+      location: `${prefix}/globe/cards/guardian/location.svg`,
+      repo: `${prefix}/globe/cards/contributor/repository.svg`,
     },
     delegator: {
       telegram: `${prefix}/globe/cards/delegator/telegram.svg`,

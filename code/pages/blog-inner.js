@@ -1,6 +1,5 @@
-import PropTypes from "prop-types";
 import React from "react";
-import BreadCrumbs from "../partials/common/bread-crumbs";
+import { colors } from "../../assets/js/consts/consts";
 
 const BlogInner = ({
   title,
@@ -18,7 +17,7 @@ const BlogInner = ({
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <html style={{ background: "#171819" }}>
+    <html style={{ background: colors.main }}>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -35,7 +34,7 @@ const BlogInner = ({
         />
       </head>
       <body className="blog blog-inner grid-page">
-        <header className="main-header">{header}</header>
+        {header}
         <main>
           {pageHeader}
           {breadCrumbs}
