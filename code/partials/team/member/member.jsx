@@ -15,8 +15,6 @@ const Member = (props) => {
     telegram,
     linkedin,
     twitter,
-    _body,
-    test,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;

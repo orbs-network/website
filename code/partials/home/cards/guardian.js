@@ -4,7 +4,6 @@ import { images } from "../../../../assets/js/images";
 import { formatNumber } from "../../../util/numberUtil";
 import Img from "../../common/Img";
 import InnerLinks from "../../common/inner-links";
-import { Border } from "./components/border";
 import CardTitle from "./components/card-title";
 import CardTooltip from "./components/card-tooltip";
 
@@ -37,7 +36,7 @@ const Guardian = ({
           img={generateUrl(images.globe.guardian.figure)}
           type={type}
         />
-        {image && <Img src={generateUrl(image)} className="card-avatar-img" />}
+        <Img src={generateUrl(image)} className="card-avatar-img" />
       </figure>
       <div className="card-data">
         <CardTitle title={name} />
@@ -50,7 +49,7 @@ const Guardian = ({
           section={images.globe.guardian}
           generateUrl={generateUrl}
         />
-        <Border />
+
         <section className="column-center g-card-stake">
           <div className="column-center">
             <h4>{formatNumber(totalStake)}</h4>

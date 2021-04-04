@@ -10,8 +10,8 @@ slider:
   - slider.md
 
 list:
-  - ../../md/team-members/member-1.md
-  - ../../md/team-members/member-2.md
-  - ../../md/team-members/member-3.md
-  - ../../md/team-members/member-4.md
+  - ../../common/team-members/daniel-peled.md
+  - ../../common/team-members/netta-korin.md
+  - ../../common/team-members/tal-kol.md
+  - ../../common/team-members/nadav-shemesh.md
 ---
