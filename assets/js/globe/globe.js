@@ -65,7 +65,7 @@ export class GlobeController {
         this.params.onGlobeReady(points);
       })
       .backgroundColor(globeConfig.backgroundColor)
-      .globeImageUrl(globeConfig.img)
+      // .globeImageUrl(globeConfig.img)
       .lineHoverPrecision(0.000001)
       .width(this.globe.width() + globeConfig.additionalWidth)
       .height(this.globe.height() + globeConfig.additionalHeight);
