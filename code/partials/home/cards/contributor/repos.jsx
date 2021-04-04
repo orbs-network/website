@@ -16,7 +16,7 @@ const Repos = ({
   return (
     <section className="flex-between c-card-repos">
       <div className="c-card-repos-top flex-center">
-        <Img src={images.globe.contributor.repo} />
+        <Img src={generateUrl(images.globe.contributor.repo)} />
         <p>{repositoriesTitle}</p>
       </div>
       <span className="c-card-repos-section c-card-repos-section-ts">

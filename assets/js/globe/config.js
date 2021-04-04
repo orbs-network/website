@@ -6,7 +6,6 @@ export const globeConfig = {
   MAX_POINTS_PER_LINE: 5000,
   MAX_STEP_DEG: 1,
   MAX_STEP_ALT: 0.015,
-  img: images.globe.bg,
   N_PATHS: 20,
   rotationSpeed: 0.8,
   backgroundColor: "#121822",
