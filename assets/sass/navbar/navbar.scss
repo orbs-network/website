@@ -7,22 +7,19 @@
   height: 100px;
   z-index: 999999;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s all;
 }
 .navbar-top {
   width: 100%;
 }
-.main-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  transition: 0.2s all;
-}
+
 .menu-burger-wrapper {
   align-items: center;
   .logo {
-    height: 30px;
+    height: 33px;
     object-fit: contain;
   }
 }
@@ -92,7 +89,7 @@
 .nav-menu {
   overflow: hidden;
   position: fixed;
-  width: 820px;
+  width: 760px;
   background: $base-bg-color;
   height: 100%;
   top: 0px;
@@ -104,7 +101,7 @@
   opacity: 0;
   z-index: 999999;
   .menu-burger-wrapper {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   a {
     color: white;
@@ -113,13 +110,13 @@
   }
 
   &-section {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     h4 {
       font-family: $bold-font;
-      font-size: 16px;
+      font-size: 18px;
       text-transform: uppercase;
       text-align: left;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       color: $yellow;
       letter-spacing: 2.1px;
     }
@@ -136,7 +133,7 @@
     li {
       position: relative;
       margin-bottom: 5px;
-      height: 24px;
+      height: 20px;
       display: flex;
       align-items: center;
       figure {
@@ -161,7 +158,7 @@
         p {
           letter-spacing: 2.22px;
           font-family: $light-font;
-          font-size: 12px;
+          font-size: 10px;
         }
         &:hover {
           padding-left: 20px;
@@ -181,24 +178,35 @@
       figure {
         border-left: 2px solid $pink;
         height: 14px;
-
+        left: 15px;
         top: 40%;
+      }
+      &:hover {
+        a {
+          padding-left: 36px;
+        }
+        figure {
+          opacity: 1;
+        }
       }
     }
   }
   &-resources {
+    width: 560px;
     ul {
       flex-wrap: wrap;
       display: flex;
       li {
-        height: 40px;
+        height: 45px;
         display: flex;
         align-items: center;
-        border: 1px solid #cecece;
+        border: 0.5px solid #cecece;
+
         justify-content: center;
-        margin-right: 7px;
-        margin-bottom: 7px;
+        margin-right: 6px;
+        margin-bottom: 6px;
         transition: 0.2s all;
+        flex: 1;
         a {
           padding-left: 10px;
           padding-right: 10px;
@@ -206,16 +214,17 @@
           height: 100%;
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-start;
           transition: 0.2s all;
           img {
             width: 18px;
-            margin-right: 5px;
+            margin-right: 10px;
             object-fit: contain;
           }
           p {
+            white-space: nowrap;
             letter-spacing: 1.5px;
-            font-size: 10px;
+            font-size: 7px;
             font-family: $bold-font;
           }
         }
