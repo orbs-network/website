@@ -11,7 +11,10 @@ const WhitePaperBox = ({
   date,
   title,
   url,
-  text,
+  on,
+  category,
+  type,
+  published,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -22,7 +25,7 @@ const WhitePaperBox = ({
       <div className="flex-column white-paper-box-c">
         <h4 className="white-paper-box-c-title">{title}</h4>
 
-        <p className="white-paper-box-c-date">{`${text.published} ${date}`}</p>
+        <p className="white-paper-box-c-date">{`${published} ${date}`}</p>
         <figure className="white-paper-box-mobile">
           <Img src={generateUrl(image)} />
         </figure>
