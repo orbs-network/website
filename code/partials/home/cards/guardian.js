@@ -41,7 +41,7 @@ const Guardian = ({
       <div className="card-data">
         <CardTitle title={name} />
         <span className="flex-center card-location">
-          <img src={images.globe.guardian.location} />
+          <img src={generateUrl(images.globe.guardian.location)} />
           <p>{location}</p>
         </span>
         <InnerLinks
