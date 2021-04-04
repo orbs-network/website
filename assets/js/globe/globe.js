@@ -1,90 +1,86 @@
-import {
-  getElement,
-  hideElement,
-  onMouseEnterAndLeaveEvent,
-  onOutsideEvent,
-  showElement,
-} from "../common.js";
 import { globeConfig } from "./config.js";
 import {
   generatePathData,
   getGlobeBackGroundImage,
-  getGlobeCardsAndWeights,
-  getRandomCardByWeight,
-  getRandomGlobePoint,
+  getPointCoordinates,
   getRandomPointLatLng,
 } from "./util.js";
 import { geo } from "./geo.js";
-import { getPointCoordinates } from "./index.js";
+
 export class GlobeController {
   globe = null;
-  cards = [];
-  weights = [];
-  selectedCard = null;
   params = null;
+  points = [];
+  cssPoints = [];
+  labelRenderer;
   constructor(params) {
     this.params = params;
     this.createGlobe();
   }
   async createGlobe() {
-    const { cards, weights } = getGlobeCardsAndWeights();
-    this.cards = cards;
-    this.weights = weights;
-    const newGlobe = Globe();
+    const { container } = this.params;
+    this.points = getRandomPointLatLng(35);
+
+    const newGlobe = Globe()(container);
+
     this.globe = newGlobe;
     this.setGlobeBaseConfig();
-    this.setPathData();
+    // this.setPathData();
     await this.setPoligons();
-    this.setGlobePoints(this.params);
+
     this.startGlobeAutoRotation();
-
     this.resizeListener();
-    this.addEventsToCards();
-
+    this.setGlobePoints(this.params);
     return this.globe;
   }
 
-  addEventsToCards = () => {
-    this.cards.forEach((card) => {
-      onOutsideEvent(card, this.handleOutSideClick);
-      onMouseEnterAndLeaveEvent(
-        card,
-        this.params.stopInterval,
-        this.params.startIntervalWithDelay
-      );
-    });
-  };
-
-  handleOutSideClick = () => {
-    this.hideSelectedCard();
-    this.params.stopInterval();
-    this.params.startInterval();
-  };
-
   resizeListener = () => {
     window.addEventListener("resize", (event) => {
-      this.globe.width([event.target.innerWidth]);
-      this.globe.height([event.target.innerHeight]);
+      const width = event.target.innerWidth + globeConfig.additionalWidth;
+      const height = event.target.innerHeight + globeConfig.additionalHeight;
+      this.resizeGlobe(width, height);
     });
   };
+
+  resizeGlobe(width, height) {
+    this.globe.width([width]);
+    this.globe.height([height]);
+  }
 
   setGlobeBaseConfig = () => {
     this.globe
+      .onGlobeReady((e) => {
+        const points = this.globe.customLayerData();
+        // points.forEach((point) => {
+        //   const id = point.__threeObj.uuid;
+        //   const coords = getPointCoordinates(this.)
+        //   const elem = document.createElement("div");
+        //   elem.classList.add("test-elem");
+        //   // elem.style.position.left =
+        //   elem.setAttribute("data-id", id);
+        //   const body = getElement("body");
+        //   body.appendChild(elem);
+        // });
+
+        this.params.onGlobeReady(points);
+      })
       .backgroundColor(globeConfig.backgroundColor)
-      .globeImageUrl(getGlobeBackGroundImage(globeConfig.img));
-    const globeMaterial = this.globe.globeMaterial();
-
-    globeMaterial.fog = false;
+      .globeImageUrl(getGlobeBackGroundImage(globeConfig.img))
+      .lineHoverPrecision(0.000001)
+      .width(this.globe.width() + globeConfig.additionalWidth)
+      .height(this.globe.height() + globeConfig.additionalHeight);
   };
 
-  startGlobeAutoRotation = () => {
-    this.globe.controls().autoRotate = true;
+  startGlobeAutoRotation() {
     this.globe.controls().autoRotateSpeed = globeConfig.rotationSpeed;
-  };
+    setTimeout(() => {
+      this.globe.controls().autoRotate = true;
+    }, 200);
+  }
 
-  stopGlobeAutoRotation = () => {
+  stopGlobeAutoRotation() {
     this.globe.controls().autoRotate = false;
-  };
+  }
 
   setPoligons = () => {
     this.globe
@@ -94,27 +90,81 @@ export class GlobeController {
       .hexPolygonColor(() => globeConfig.orbsMainColor);
   };
 
+  createMesh(d) {
+    const group = new THREE.Mesh();
+
+    const mesh = new THREE.Mesh(
+      new THREE.SphereBufferGeometry(d.radius),
+      new THREE.MeshLambertMaterial({ color: globeConfig.orbsMainColor })
+    );
+
+    return mesh;
+  }
+
+  moveSpheres = () => {
+    this.globe.customLayerData().forEach((point) => {
+      const mesh = point.__threeObj;
+      if (!mesh) return;
+      mesh.rotation.x = Date.now() * 0.0002;
+      mesh.rotation.y = Date.now() * 0.001;
+    });
+
+    const scene = this.globe.scene();
+    const camera = this.globe.camera();
+    const renderer = this.globe.renderer();
+    renderer.render(scene, camera);
+    requestAnimationFrame(this.moveSpheres);
+  };
   setGlobePoints = () => {
-    const globeContainer = document.createElement("div");
-    globeContainer.classList.add("home-globe");
-    const points = getRandomPointLatLng(30);
     this.globe
 
-      .pointsData(points)
-      .pointAltitude(0.003)
-      .pointColor(() => globeConfig.orbsMainColor)
-      .onPointClick(this.handlePointClick)
-      .pointsTransitionDuration(300)
-      .onPointHover((point) => {
-        if (point) {
-          return this.stopGlobeAutoRotation();
-        }
-        return this.startGlobeAutoRotation();
+      .customLayerData(this.points)
+      .customThreeObject((d) => this.createMesh(d))
+
+      .customThreeObjectUpdate((obj, d) => {
+        Object.assign(
+          obj.position,
+          this.globe.getCoords(d.lat, d.lng, d.alt, d.radius)
+        );
       })
-      .pointRadius(0.7)(globeContainer);
-    const body = getElement("body");
-    body.appendChild(globeContainer);
+      .onCustomLayerHover((point) => this.handleHover(point));
+
+    this.moveSpheres();
   };
+  onClick = (point, event) => {
+    this.params.handlePointClick(point, event);
+    this.startGlobeAutoRotation();
+  };
+  handleHover(point) {
+    try {
+      this.params.onPointHover(point ? true : false);
+      if (point) {
+        return this.stopGlobeAutoRotation();
+      }
+      return this.startGlobeAutoRotation();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  // setGlobePoints = () => {
+  //   const globeContainer = document.createElement("div");
+  //   globeContainer.classList.add("home-globe");
+  //   const points = getRandomPointLatLng(30);
+  //   this.globe
+
+  //     .pointsData(points)
+  //     .pointAltitude(0.005)
+  //     .pointColor(() => globeConfig.orbsMainColor)
+  //     .onPointClick((point, event) => {
+  //       this.startGlobeAutoRotation();
+  //       this.params.handlePointClick(point, event);
+  //     })
+
+  //     .pointRadius(0.5)(globeContainer);
+  //   const body = getElement("body");
+  //   body.appendChild(globeContainer);
+  // };
 
   getViewPort() {
     return {
@@ -123,8 +173,12 @@ export class GlobeController {
     };
   }
 
-  getCamera() {
-    return { camera: this.globe.camera(), renderer: this.globe.renderer() };
+  getCameraAndRenderer() {
+    return {
+      camera: this.globe.camera(),
+      renderer: this.globe.renderer(),
+      scene: this.globe.scene(),
+    };
   }
 
   setPathData = () => {
@@ -139,69 +193,7 @@ export class GlobeController {
       .pathPointAlt((pnt) => pnt[2]);
   };
 
-  handlePointClick = ({ lat, lng }, event) => {
-    const { clientX, clientY } = event;
-    this.selectPoint(true);
-    this.params.stopInterval();
-    this.params.startInterval();
-    this.commonCardSelect(clientX, clientY);
-  };
-
   getPoints() {
-    return this.globe.pointsData();
+    return this.globe.customLayerData();
   }
-
-  commonCardSelect(x, y) {
-    const card = getRandomCardByWeight(
-      this.cards,
-      this.weights,
-      this.selectedCard
-    );
-    if (!card) return;
-    this.selectedCard = card;
-    card.style.left = `${x}px`;
-    card.style.top = `${y}px`;
-    showCard(card);
-  }
-
-  selectPoint(points) {
-    const card = getRandomCardByWeight(
-      this.cards,
-      this.weights,
-      this.selectedCard
-    );
-    const globePoint = getRandomGlobePoint(points);
-    if (!globePoint) return;
-    const { x, y } = getPointCoordinates(globePoint);
-    this.selectedCard = card;
-    card.style.left = `${x}px`;
-    card.style.top = `${y}px`;
-    showCard(card);
-  }
-
-  hideSelectedCard = () => {
-    hideCard(this.selectedCard);
-  };
 }
-
-const showCard = (element) => {
-  element.style.display = "flex";
-
-  setTimeout(() => {
-    element.classList.add("globe-card-active");
-    element.style.left = `50%`;
-    element.style.top = `50%`;
-    element.style.opacity = 1;
-  }, 200);
-};
-
-const hideCard = (element) => {
-  console.log(element);
-  element.style.opacity = "0";
-
-  setTimeout(() => {
-    element.style.display = "none";
-    element.classList.remove("globe-card-active");
-    element.style.transform = `translate(-50%, -50%)`;
-  }, 200);
-};

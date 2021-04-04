@@ -43,7 +43,10 @@ html {
 .scrolled-navbar {
   background: $base-bg-color;
 }
-
+.label {
+  width: 100px;
+  height: 100px;
+}
 @media only screen and (max-width: 1600px) {
   .grid-page {
     width: 100%;

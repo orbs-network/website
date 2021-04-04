@@ -60,7 +60,7 @@ export const onOutsideEvent = (element, callback) => {
   document.addEventListener("click", function (event) {
     const isClickInside = element.contains(event.target);
     const opacity = element.style.opacity == 1;
-    console.log(opacity);
+    const Hidden = element.style.display == "none";
     if (!isClickInside && opacity) {
       callback();
     }

@@ -24,7 +24,12 @@
     border-bottom: 2px solid #ff2cbf;
   }
 }
-
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
 .inside-margin {
   margin-bottom: 80px;
 }
