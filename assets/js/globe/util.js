@@ -113,11 +113,14 @@ const isTheSameCard = (newCard, currentCard) => {
 
 export const getGlobeBackGroundImage = (imgName) => {
   const url = window.location.pathname;
-  const isNotEn = url.split("/").length > 2;
-  if (isNotEn) {
-    return `../website/assets/img/globe/${imgName}`;
-  }
-  return `/website/assets/img/globe/${imgName}`;
+  const isProd = url.indexOf("website") > -1;
+  console.log(isProd);
+  // const url = window.location.pathname;
+  // const isNotEn = url.split("/").length > 2;
+  // if (isNotEn) {
+  //   return `../website/assets/img/globe/${imgName}`;
+  // }
+  // return `/website/assets/img/globe/${imgName}`;
 };
 
 export const getPointCoordinates = (point, globe) => {
