@@ -32,14 +32,17 @@ const Contributor = (props) => {
   return (
     <div className="globe-card c-card" data-weight={cardsWeights.contributor}>
       <figure className="card-avatar">
-        <CardTooltip img={images.globe.contributor.figure} type={type} />
+        <CardTooltip
+          img={generateUrl(images.globe.contributor.figure)}
+          type={type}
+        />
         <Img src={generateUrl(image)} className="card-avatar-img" />
       </figure>
       <div className="card-data">
         <CardTitle title={name} />
         <p className="c-card-nickname">@{nickname}</p>
         <span className="flex-center card-location">
-          <Img src={images.globe.contributor.location} />
+          <Img src={generateUrl(images.globe.contributor.location)} />
           <p>{location}</p>
         </span>
         <InnerLinks
