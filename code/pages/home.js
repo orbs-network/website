@@ -33,6 +33,7 @@ const Home = ({
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
+
       <body className="home-page">
         <GlobeLoader />
 
