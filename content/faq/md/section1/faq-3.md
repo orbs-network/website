@@ -1,6 +1,6 @@
 ---
 layout: partials/common/opening-box
-title: what is teh connection between Orbs and Etheteum
+title: What are some of Orbs technological innovations?
 color: "#E61EA9"
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: partials/common/opening-box
-title: What is Orbs
-color: "#1EE673"
+title: Which Guardian should I delegate to?
+color: "#1EE6CF"
 ---
 
 this is a big test

@@ -1,7 +1,7 @@
 ---
 layout: partials/common/opening-box
-title: What is Orbs
-color: "#E6731E"
+title: What consensus algorithm does Orbs run on?
+color: "#1EB8E6"
 ---
 
 this is a big test

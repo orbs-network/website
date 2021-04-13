@@ -13,9 +13,6 @@ const BlogInner = ({
   pageHeader,
   blog,
 }) => {
-  const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
-  };
   return (
     <html style={{ background: colors.main }}>
       <head>

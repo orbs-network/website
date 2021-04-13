@@ -10,8 +10,9 @@ const Team = (props) => {
     script,
     _relativeURL,
     _ID,
-    teamText,
-    careers,
+    teamTextHeader,
+    teamTextLinks,
+    socials,
   } = props;
 
   return (
@@ -21,6 +22,7 @@ const Team = (props) => {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
@@ -34,14 +36,18 @@ const Team = (props) => {
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="team grid-page">
+      <body className="team">
         {header}
-        <main>
+        <main className="page-grid">
           <div className="team-flex flex-between">
-            {teamText}
+            <div className="team-side-text sticky-section">
+              {teamTextHeader}
+              {teamTextLinks}
+              {socials}
+            </div>
+
             {teamList}
           </div>
-          {careers}
         </main>
         {footer}
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
