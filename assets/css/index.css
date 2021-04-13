@@ -1090,11 +1090,6 @@ main {
   background: #121822;
   position: relative;
   z-index: 99999999; }
-  .home-page .main-header {
-    background: transparent;
-    margin: auto;
-    position: sticky;
-    height: 100px; }
   .home-page main {
     height: calc(100% - 100px); }
 

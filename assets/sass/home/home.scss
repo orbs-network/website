@@ -5,12 +5,7 @@
   background: #121822;
   position: relative;
   z-index: 99999999;
-  .main-header {
-    background: transparent;
-    margin: auto;
-    position: sticky;
-    height: 100px;
-  }
+
   main {
     height: calc(100% - 100px);
   }
