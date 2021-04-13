@@ -1,7 +1,7 @@
 ---
 layout: partials/common/opening-box
-title: What is Orbs
-color: "#1E7AE6"
+title: How is Orbs different from other blockchain infrastructure projects?
+color: "#1EE635"
 ---
 
 this is a big test

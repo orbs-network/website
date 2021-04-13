@@ -1,7 +1,6 @@
 ---
 layout: partials/navbar/menu-links
-text:
-  title: About
+title: About
 links:
   - name: White papers
     url: /white-papers

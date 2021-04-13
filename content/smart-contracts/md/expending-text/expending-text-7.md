@@ -1,7 +1,7 @@
 ---
 layout: partials/common/expendable-text-box
 linesLimit: 3
-title: stakingRewards
+title: staking Rewards
 readMoreButton: read more
 readLessButton: read less
 border: true

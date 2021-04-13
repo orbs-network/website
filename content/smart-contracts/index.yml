@@ -5,11 +5,8 @@ script: smart-contracts
 header:
   - /_shared/header/header.md
 
-pageHeader:
-  - md/header/page-header.md
-
 expendingSection:
-  - md/expending-section-1.md
+  - md/expending-section.md
 
 contractText:
   - md/text-section-1.md
@@ -22,3 +19,6 @@ linkBack:
 
 footer:
   - /_shared/footer/footer.md
+
+pageHeader:
+  - md/page-header/page-header.md

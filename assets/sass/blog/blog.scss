@@ -188,6 +188,14 @@
 }
 
 .blog-inner {
+  .title,
+  h2 {
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 700px;
+  }
   .blog-list {
     margin-top: 30px;
   }
@@ -234,13 +242,7 @@
       margin-bottom: 20px;
       margin-top: 20px;
     }
-    .title {
-      margin: auto;
-      margin-bottom: 15px;
-      font-size: 20px;
-      font-weight: bold;
-      width: 700px;
-    }
+
     .text-p {
       width: 700px;
       margin: auto;

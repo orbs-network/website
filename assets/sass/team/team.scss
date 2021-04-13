@@ -1,24 +1,62 @@
-.team-page {
-  position: relative;
-}
-
 .team {
+  &-side-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    height: calc(100vh - 230px);
+    top: 230px;
+    padding-right: 40px;
+    .page-menu-header {
+      margin-bottom: 120px;
+    }
+
+    .socials {
+      margin-top: auto;
+      margin-bottom: 60px;
+    }
+    .side-text-links {
+      .text-p {
+        &:nth-child(1) {
+          text-transform: uppercase;
+          font-size: 17px;
+          font-family: $bold-font;
+        }
+        &:nth-child(2) {
+          font-size: 17px;
+          font-weight: 300;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
   &-flex {
+    padding-top: 200px;
     padding-bottom: 100px;
-    padding-top: 40px;
+
     align-items: flex-start;
   }
-  &-list {
-    flex-wrap: wrap;
-    display: flex;
+
+  &-lists {
+    margin-top: auto;
+
+    width: 986px;
     &-title {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       width: 100%;
       text-align: center;
       text-transform: uppercase;
       font-family: $bold-font;
-      font-size: 15px;
+      font-size: 17px;
     }
+  }
+
+  &-list {
+    flex-wrap: wrap;
+    display: flex;
+
     &-managers {
       flex-wrap: wrap;
       align-items: stretch;
@@ -27,7 +65,6 @@
         flex-wrap: wrap;
         .team-member {
           width: calc(100% / 2 - 10px);
-          margin-right: 20px;
         }
         .team-member:nth-child(1),
         .team-member:nth-child(2) {
@@ -80,7 +117,6 @@
       flex-wrap: wrap;
       .team-member {
         width: calc(100% / 4 - 15px);
-        margin-right: 20px;
       }
       .team-member:nth-of-type(4n) {
         margin-right: 0px;
@@ -149,85 +185,45 @@
       }
     }
   }
-  &-lists {
-    margin-top: auto;
-    padding-bottom: 30px;
-    width: 920px;
-  }
 
-  &-description {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: calc(100% - 920px);
-    padding-right: 80px;
-    top: 210px;
-    h1 {
-      font-size: 19px;
-      text-align: left;
-      font-family: $bold-font;
-      line-height: 35px;
-      text-transform: uppercase;
-    }
-    .text-p {
-      margin-top: 15px;
-
-      &:last-of-type {
-        text-transform: uppercase;
-        font-family: $bold-font;
-      }
-    }
-  }
   &-member {
     background: #2c2c2c;
-    height: 290px;
+    height: 270px;
     color: white;
-    margin-top: 20px;
-
+    margin-top: 26px;
+    width: 226px;
+    margin-right: 20px;
     cursor: pointer;
     &-details {
       margin-top: auto;
-      padding: 10px;
+      padding: 10px 18px;
       padding-bottom: 15px;
+      background: rgba(0, 0, 0, 0.3);
+      &-name {
+        font-size: 11px;
+        text-align: left;
+        font-family: $bold-font;
+        width: 95%;
+        text-transform: capitalize;
+      }
+      &-role {
+        font-size: 10px;
+        text-align: left;
+        text-transform: capitalize;
+      }
     }
-    &-name {
-      font-size: 12px;
-      text-align: left;
-      margin-bottom: 0px;
-      font-family: $bold-font;
-      width: 95%;
-      text-transform: capitalize;
-    }
-    &-role {
-      font-size: 12px;
-      text-align: left;
-      text-transform: capitalize;
-    }
-    &-socials {
-      margin-top: 8px;
-    }
+
     .inner-links {
       justify-content: flex-start;
+      margin-top: 6px;
+      margin-bottom: 0px;
       a {
         width: 12px;
         height: 12px;
+        margin-right: 15px;
       }
     }
-    &-border {
-      width: calc(100% - 90px);
-      border-bottom: 1px solid #4b4b4b;
-      height: 60%;
-      margin-left: 10px;
-      transition: 0.2s all;
-      margin-top: auto;
-    }
-    &-arrow {
-      width: 15px;
-      height: 15px;
 
-      object-fit: contain;
-      margin-left: auto;
-    }
     &-popup {
       position: fixed;
       top: 0;
@@ -326,16 +322,10 @@
   }
 }
 
-.team-description {
-  .socials {
-    margin-top: 140px;
-  }
-}
-
 .banner {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 26px;
   img {
     object-fit: cover;
     width: 100%;
@@ -354,19 +344,19 @@
     height: 400px;
   }
   &-single-small {
-    width: calc(100% / 2 - 10px);
+    width: calc(100% / 2 - 13px);
     margin-right: 0px;
-    height: 290px;
+    height: 270px;
     margin-left: auto;
   }
   &-double {
-    height: 400px;
+    height: 270px;
     width: 100%;
     img:nth-child(1) {
       width: 60%;
     }
     img:nth-child(2) {
-      width: calc(40% - 20px);
+      width: calc(40% - 26px);
     }
   }
 }

@@ -14,6 +14,7 @@ const Universe = ({
   _ID,
   pageHeader,
   expendingSection,
+  link,
 }) => (
   <html style={{ background: colors.main }}>
     <head>
@@ -28,17 +29,20 @@ const Universe = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="universe grid-page">
+    <body className="universe">
       {header}
       <main>
         {pageHeader}
-        {topSections}
-        <div className="flex-start universe-second-sections">
-          {leftText}
-          {images}
+        <div className="content-grid">
+          {topSections}
+          <div className="flex-start universe-second-sections">
+            {leftText}
+            {images}
+          </div>
+          {text}
+          {expendingSection}
+          {link}
         </div>
-        {text}
-        {expendingSection}
 
         {footer}
       </main>

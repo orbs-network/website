@@ -1,7 +1,7 @@
 ---
 layout: partials/common/expendable-text-box
 linesLimit: 3
-title: stakingContract
+title: staking Contract
 readMoreButton: read more
 readLessButton: read less
 border: true

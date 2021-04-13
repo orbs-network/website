@@ -11,7 +11,9 @@ const Overview = ({
   pageHeader,
   topFlexSection,
   boxes1,
-  secondFlexSection,
+  expendableList,
+  imagesGrid,
+  text,
   boxes2,
   linkBtn,
 }) => (
@@ -28,14 +30,18 @@ const Overview = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="overview grid-page">
+    <body className="overview page">
       {header}
       <main>
         {pageHeader}
         <div className="overview-flex">
-          {topFlexSection}
+          <div className="overview-flex-top">{topFlexSection}</div>
           {boxes1}
-          {secondFlexSection}
+          <div className="overview-second-flex">
+            {expendableList}
+            {imagesGrid}
+            {text}
+          </div>
           {boxes2}
         </div>
         {linkBtn}

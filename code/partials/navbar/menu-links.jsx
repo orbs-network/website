@@ -1,26 +1,31 @@
 import React from "react";
 
-const MenuResources = ({ links, text, _relativeURL, _ID }) => {
+const MenuResources = ({ links, title, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <section className="nav-menu-section nav-menu-links">
-      <h4>{text.title}</h4>
-      <ul>
+    <section className="nav-menu-section">
+      <h4 className="nav-menu-section-title">{title}</h4>
+      <div>
         {links &&
           links.map((link) => {
             const { url, name, subLink } = link;
             return (
-              <li className={subLink ? "nav-menu-section-sub" : ""}>
-                <a href={generateUrl(url)}>
-                  <figure />
-                  <p>{name}</p>
-                </a>
-              </li>
+              <a
+                className={
+                  subLink
+                    ? "nav-menu-section-link nav-menu-section-sub"
+                    : "nav-menu-section-link"
+                }
+                href={generateUrl(url)}
+              >
+                <figure />
+                <p className="nav-menu-section-link-text">{name}</p>
+              </a>
             );
           })}
-      </ul>
+      </div>
     </section>
   );
 };

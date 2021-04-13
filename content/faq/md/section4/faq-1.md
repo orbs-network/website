@@ -1,7 +1,7 @@
 ---
 layout: partials/common/opening-box
-title: What is Orbs
-color: "#E6731E"
+title: Does Orbs have a block explorer?
+color: "#1EB8E6"
 ---
 
 this is a big test
