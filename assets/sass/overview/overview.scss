@@ -1,36 +1,26 @@
 .overview {
-  position: relative;
-  main {
-    transform: translate(0, -100px);
-    overflow: hidden;
+  .footer {
+    margin-top: 120px;
   }
   .text,
   .images-grid,
   .text-with-title,
   .overview-boxes-flex {
-    @extend .inside-margin;
+    margin-bottom: 60px;
   }
   .page-header {
-    position: relative;
-    margin-top: 30px;
-    h1 {
-      margin-top: 0px;
-    }
+    margin-bottom: 75px;
     figure {
-      overflow: hidden;
-      width: 100%;
-      height: 580px;
-      transform: scale(1.5) translate(-70px, 0px);
-      margin-bottom: 30px;
-      img {
-        object-fit: contain;
-      }
+      height: 74vh;
     }
   }
   &-flex {
-    width: calc(100% - 200px);
+    width: calc(100% - 400px);
+    max-width: 1520px;
+    margin: auto;
     &-top {
-      width: 60%;
+      max-width: 860px;
+      width: calc(100% - 200px);
     }
   }
 
@@ -57,15 +47,8 @@
   }
 
   .expend-btn {
-    padding: 10px 20px;
-    background: transparent;
-    border-radius: 20px;
     border: 2px solid #53fffa;
     font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: $text-font;
-    transition: 0.15s all;
   }
 }
 

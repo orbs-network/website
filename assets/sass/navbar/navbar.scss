@@ -2,15 +2,21 @@
   border: none;
 }
 .main-header {
-  margin: 0px;
-  width: 100%;
+  position: fixed;
   height: 100px;
-  z-index: 999999;
-  position: relative;
+  width: 100%;
+  z-index: 9999999;
+  left: 0px;
   display: flex;
+  top: 0px;
   justify-content: space-between;
   align-items: center;
   transition: 0.2s all;
+  &-content {
+    width: 100%;
+    width: 1720px;
+    margin: auto;
+  }
 }
 .navbar-top {
   width: 100%;
@@ -83,59 +89,73 @@
   }
 }
 
-.navbar-menu-show {
-  transform: translate(0%);
-}
 .nav-menu {
-  overflow: hidden;
   position: fixed;
-  width: 760px;
-  background: $base-bg-color;
-  height: 100%;
+
   top: 0px;
   left: 0px;
-  transform: translate(-100%);
-  transition: 0.2s all ease-in;
-  padding-left: 110px;
-  padding-top: 35px;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   z-index: 999999;
-  .menu-burger-wrapper {
-    margin-bottom: 60px;
+  overflow: auto;
+  pointer-events: none;
+  transition: 0.2s all ease-in;
+  &-content {
+    background: $base-bg-color;
+    position: relative;
+    width: 860px;
+    padding-left: 100px;
+    padding-top: 35px;
+    transform: translate(-100%);
+    padding-bottom: 100px;
+    height: 100vh;
+    left: 0px;
+    transition: 0.2s all ease-in;
   }
-  a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
+  &-overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s all ease-in;
+    opacity: 0;
+    background: #2eb790;
+  }
+  .menu-burger-wrapper {
+    margin-bottom: 42px;
+  }
+  &-show {
+    opacity: 1;
+    pointer-events: all;
+    .nav-menu-content {
+      transform: translate(0%);
+    }
+    .nav-menu-overlay {
+      opacity: 0.15;
+    }
   }
 
   &-section {
-    margin-bottom: 30px;
-    h4 {
+    margin-bottom: 40px;
+    &-title {
       font-family: $bold-font;
       font-size: 18px;
       text-transform: uppercase;
       text-align: left;
-      margin-bottom: 20px;
-      color: $yellow;
-      letter-spacing: 2.1px;
+      margin-bottom: 24px;
+      color: #03fcf5;
+      letter-spacing: 2.11px;
+      line-height: 30px;
     }
-  }
-
-  &-show {
-    transform: translate(0%);
-    opacity: 1;
-  }
-  .socials {
-    margin-top: 40px;
-  }
-  &-links {
-    li {
+    &-link {
       position: relative;
-      margin-bottom: 5px;
-      height: 20px;
+      margin-bottom: 15px;
       display: flex;
-      align-items: center;
+      width: fit-content;
+      text-decoration: none;
+      transition: 0.2s all;
       figure {
         position: absolute;
         left: 0px;
@@ -148,43 +168,36 @@
         pointer-events: none;
         transition: 0.2s all;
       }
-
-      a {
-        transition: 0.15s all;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        position: relative;
-        p {
-          letter-spacing: 2.22px;
-          font-family: $light-font;
-          font-size: 10px;
-        }
-        &:hover {
-          padding-left: 20px;
-          figure {
-            opacity: 1;
-          }
-        }
+      &-text {
+        letter-spacing: 1.17px;
+        font-family: $light-font;
+        font-size: 10px;
+        line-height: 17px;
+        text-transform: uppercase;
       }
-      .hovered-link {
+      &:hover {
         padding-left: 20px;
         figure {
           opacity: 1;
         }
       }
+      &:last-child {
+        margin-bottom: 0px;
+      }
     }
-    .nav-menu-section-sub {
+
+    .socials {
+      margin-top: 30px;
+    }
+    &-sub {
       figure {
         border-left: 2px solid $pink;
         height: 14px;
         left: 15px;
-        top: 40%;
+        top: 30%;
       }
       &:hover {
-        a {
-          padding-left: 36px;
-        }
+        padding-left: 36px;
         figure {
           opacity: 1;
         }
@@ -192,45 +205,55 @@
     }
   }
   &-resources {
-    width: 560px;
+    padding-right: 70px;
     ul {
-      flex-wrap: wrap;
       display: flex;
-      li {
-        height: 45px;
-        display: flex;
-        align-items: center;
-        border: 0.5px solid #cecece;
-
-        justify-content: center;
-        margin-right: 6px;
-        margin-bottom: 6px;
-        transition: 0.2s all;
-        flex: 1;
-        a {
-          padding-left: 10px;
-          padding-right: 10px;
-          width: 100%;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          transition: 0.2s all;
-          img {
-            width: 18px;
-            margin-right: 10px;
-            object-fit: contain;
-          }
-          p {
-            white-space: nowrap;
-            letter-spacing: 1.5px;
-            font-size: 7px;
-            font-family: $bold-font;
-          }
-        }
-        figure {
-          display: none;
-        }
+      flex-wrap: wrap;
+    }
+    &-box {
+      width: calc(100% / 3 - 7.5px);
+      margin-right: 10px;
+      margin-top: 10px;
+      border: 0.5px solid #cecece;
+      height: 72px;
+      padding: 12px;
+      justify-content: space-between;
+      &:nth-child(3n) {
+        margin-right: 0px;
+      }
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        margin-top: 0px;
+      }
+      * {
+        text-decoration: none;
+      }
+      &-icon {
+        width: 20px;
+        height: 19px;
+        object-fit: contain;
+      }
+      span {
+        overflow: hidden;
+      }
+      &-title {
+        font-family: $bold-font;
+        font-size: 9px;
+        letter-spacing: 1.05px;
+        white-space: nowrap;
+        max-width: calc(100% - 20px);
+        text-transform: uppercase;
+        padding-left: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      &-text {
+        margin-top: 5px;
+        font-family: $light-font;
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
       }
     }
   }
@@ -294,8 +317,8 @@
   }
 }
 
-@media only screen and (max-width: 1600px) {
-  .nav-menu {
+@media only screen and (max-width: 1900px) {
+  .nav-menu-content {
     padding-left: 80px;
   }
 }
