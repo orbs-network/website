@@ -33,20 +33,13 @@ const Member = (props) => {
     >
       <MemberPopup {...props} />
       <div className="team-member-details">
-        <p className="team-member-name text-overflow">{name}</p>
-        <p className="team-member-role">{role}</p>
-        <section className="team-member-socials flex-start">
-          <InnerLinks
-            generateUrl={generateUrl}
-            section={images.team}
-            links={linksProps}
-          />
-          <figure className="team-member-border" />
-          <Img
-            src={generateUrl(images.team.arrow)}
-            className="team-member-arrow"
-          />
-        </section>
+        <p className="team-member-details-name text-overflow">{name}</p>
+        <p className="team-member-details-role">{role}</p>
+        <InnerLinks
+          generateUrl={generateUrl}
+          section={images.team}
+          links={linksProps}
+        />
       </div>
     </div>
   );

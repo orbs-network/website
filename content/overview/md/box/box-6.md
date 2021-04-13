@@ -5,4 +5,4 @@ image: /assets/img/overview/spiral-circle.svg
 
 ##### WEB ORACLES AND OFF-CHAIN INTEROPERABILITY
 
-Providing non-determinism as a feature opens up new use cases for smart contracts such as accessing web oracles and off-chain data that isn’t straightforward to access under consensus. The benefits are clear, as many real-world applications require the ability to interoperate with existing systems or databases that are not on-chain. Native support for direct query of external data by validator nodes makes reliance on dedicated oracle nodes, that often become the weak links in the system, obsolete.
+The parallel and concurrent operation of different virtual chains results in virtual separation, as smart contracts are likely to interact mostly with smart contracts deployed on the same virtual chain. When a new virtual chain is created, Orbs validators dynamically allocate more resources for its execution (eg. instantiate a new AWS machine in the node cluster) allowing for a virtually limitless number of virtual chains to run on the network in parallel.

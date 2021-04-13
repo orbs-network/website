@@ -1,67 +1,58 @@
 .faq {
-  .menu-burger {
-    aside {
-      background: $pink;
-    }
-  }
   &-flex {
     margin: auto;
     height: auto;
-    padding-bottom: 200px;
     align-items: flex-start;
   }
-  &-desc {
+  &-side-text {
     position: sticky;
-
+    top: 190px;
+    width: 500px;
+    height: calc(100vh - 190px);
+    display: flex;
+    padding-right: 40px;
+    flex-direction: column;
     * {
       text-align: left;
     }
-    &-title {
-      font-size: 27px;
-      font-family: $bold-font;
-      margin-bottom: 20px;
-    }
-    &-sub-title {
-      font-size: 15px;
-      width: 250px;
-      margin-bottom: 80px;
-    }
+
     &-links {
-      margin-top: 20px;
+      margin-top: 60px;
       display: flex;
       flex-direction: column;
-      a {
-        letter-spacing: 1.4px;
-        margin-bottom: 15px;
+      &-link {
+        letter-spacing: 1.06px;
+        margin-bottom: 10px;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 12px;
         text-transform: uppercase;
         color: white;
+        font-family: $bold-font;
         text-decoration: none;
       }
     }
-
-    &-questions {
-      margin-top: 50px;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-bottom: 80px;
-      h5 {
-        margin-bottom: 10px;
+    .side-text-links {
+      margin-top: 20px;
+      * {
+        font-size: 12px;
         font-family: $bold-font;
-        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
       }
       a {
-        text-decoration: underline;
         color: #e61ea9;
-        font-family: $bold-font;
-        font-size: 11px;
       }
+    }
+
+    .socials {
+      margin-bottom: 60px;
+      margin-top: auto;
     }
   }
 
   &-lists {
-    width: calc(100% - 500px);
+    padding-top: 200px;
+    width: calc(100% - 550px);
     &-category {
       position: relative;
       margin-bottom: 25px;

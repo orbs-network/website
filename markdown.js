@@ -42,6 +42,17 @@ module.exports = exports = function renderer({
 
   // making all links relative
   Marked.link = (href, title, text) => {
+    if (title === "email") {
+      return `<a href="mailto:${href}"${
+        title ? `title="${title}"` : ""
+      } class='email-link'>${text}</a>`;
+    }
+    if (title === "link") {
+      return `<a href="${href}"${
+        title ? `title="${title}"` : ""
+      } class='link' target='_blank' >${text}</a>`;
+    }
+
     if (
       !href.startsWith("http://") &&
       !href.startsWith("https://") &&
@@ -50,9 +61,8 @@ module.exports = exports = function renderer({
     ) {
       href = _relativeURL(href, _ID);
     }
-    return `<a href="${href}"${
-      title ? ` title="${title}"` : ""
-    } target='_blank'>${text}</a>`;
+
+    return `<a href="${href}"${title ? ` title="${title}"` : ""} >${text}</a>`;
   };
 
   // making all images relative

@@ -61,7 +61,12 @@ main {
   text-overflow: ellipsis;
   width: 90%;
 }
-
+.text {
+  display: flex;
+  * {
+    margin-bottom: 0px;
+  }
+}
 * {
   user-select: none;
 }
@@ -114,26 +119,31 @@ main {
     font-weight: 600;
     text-align: center;
     font-size: 14px;
+    line-height: 30px;
   }
   &-list {
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
     li {
-      margin-right: 20px;
       align-items: center;
-      margin-bottom: 45px;
-      padding-left: 10px;
-      padding-right: 10px;
-      p {
-        font-size: 12px;
+      margin-bottom: 40px;
+
+      .text-p {
+        font-size: 11px;
         line-height: 18px;
         text-align: center;
         letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+        &:last-child {
+          margin-bottom: 0px;
+        }
       }
     }
     &-img {
-      width: 40px;
-      height: 40px;
+      width: 55px;
+      height: 55px;
 
       border-radius: 50%;
       margin-bottom: 15px;
@@ -144,30 +154,69 @@ main {
       }
     }
   }
+  .grid-1 {
+    li {
+      width: 100%;
+    }
+  }
+  .grid-2 {
+    li {
+      width: calc(50% - 20px);
+    }
+  }
+  .grid-3 {
+    li {
+      width: calc(100% / 3 - 20px);
+    }
+  }
+  .grid-4 {
+    li {
+      width: calc(100% / 4 - 20px);
+    }
+  }
+  .grid-5 {
+    li {
+      width: calc(100% / 5 - 20px);
+    }
+  }
+  .grid-6 {
+    li {
+      width: calc(100% / 6 - 20px);
+    }
+  }
 }
 
 .text-with-title {
   h5 {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     line-height: 26px;
     margin-top: 40px;
+    line-height: 33px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    width: calc(100% - 20px);
     &:first-child {
       margin-top: 0px;
     }
   }
+  .text-p {
+    font-size: 15px;
+    letter-spacing: 0.3px;
+  }
   ul {
     li {
-      font-size: 14px;
+      font-size: 15px;
       margin-bottom: 10px;
       position: relative;
-      padding-left: 20px;
+      padding-left: 30px;
       &:after {
         position: absolute;
-        width: 10px;
-        height: 10px;
+        width: 11px;
+        height: 11px;
         border-radius: 50%;
         background: #ff3ee1;
         content: "";
@@ -184,51 +233,76 @@ main {
     }
   }
 }
-
-.page-header {
-  margin-bottom: 50px;
-
-  .text-p {
-    font-size: 15px;
-  }
+.title {
   h1 {
-    font-size: 30px;
+    font-size: 33px;
     text-transform: uppercase;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 50px;
     font-family: $bold-font;
     position: relative;
+    color: #03fcf5;
+    margin: 0px;
+    &:first-child {
+      margin-bottom: 10px;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
   }
+}
+.page-header {
+  margin-bottom: 50px;
+  .sub-title {
+    font-size: 15px;
+    max-width: 1330px;
+    margin: auto;
+    width: 85%;
+    font-weight: 500;
+    text-align: center;
+    .text-p {
+      margin-top: 60px;
+    }
+  }
+
   figure {
     width: 100%;
-    height: 600px;
+    height: 100%;
     margin: auto;
     position: relative;
+    background: gray;
     img {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      position: absolute;
+      left: 0px;
+      top: 0px;
     }
   }
 }
 
 .box {
   border: 1px solid white;
-  padding: 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   p {
-    font-size: 13px;
+    font-size: 15px;
+    max-height: 365px;
     margin-bottom: 30px;
+    overflow: hidden;
+    line-height: 1.66em;
   }
   h5 {
-    font-size: 17px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    font-weight: 500;
   }
   figure {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin-top: auto;
 
@@ -241,7 +315,7 @@ main {
 }
 
 .link-btn {
-  padding: 8px 50px 8px 30px;
+  padding: 8px 30px 8px 30px;
   border: 2px solid #53fffa;
   border-radius: 42px;
   display: flex;
@@ -259,24 +333,30 @@ main {
     font-size: 14px;
     padding-top: 3px;
   }
-  &-arrow {
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
-    transition: 0.2s all;
-    position: absolute;
+  .link-btn-arrow {
     width: 10px;
     height: 10px;
+    position: absolute;
+    transition: 0.2s all;
     top: 50%;
-    right: 20px;
-    transform: rotate(-45deg) translate(0, -50%);
   }
-  &:hover {
-    padding-right: 30px;
+  &-right {
+    padding: 8px 50px 8px 30px;
     .link-btn-arrow {
-      opacity: 0;
+      border-bottom: 2px solid white;
+      border-right: 2px solid white;
+
+      right: 20px;
+      transform: rotate(-45deg) translate(0, -50%);
+    }
+    &:hover {
+      padding-right: 30px;
+      .link-btn-arrow {
+        opacity: 0;
+      }
     }
   }
-  &-back {
+  &-left {
     padding: 8px 30px 8px 50px;
     .link-btn-arrow {
       border: 0px;
@@ -300,11 +380,11 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 10px;
-  min-height: 50px;
+  padding-left: 20px;
+  min-height: 67px;
   cursor: pointer;
   padding-right: 50px;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
   &:last-of-type {
     margin-bottom: 0px;
   }
@@ -313,7 +393,7 @@ main {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 50px;
+    height: 67px;
   }
   &-arrow {
     width: 8px;
@@ -327,7 +407,7 @@ main {
     text-align: left;
   }
   &-title {
-    height: 50px;
+    height: 67px;
     display: flex;
     align-items: center;
 
@@ -352,9 +432,9 @@ main {
     width: 27px;
     height: 27px;
     position: relative;
-    margin-left: 7px;
-    &:first-child {
-      margin-left: 0px;
+    margin-right: 7px;
+    &:last-child {
+      margin-right: 0px;
     }
     img {
       width: 100%;

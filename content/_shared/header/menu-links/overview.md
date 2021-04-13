@@ -1,8 +1,7 @@
 ---
 layout: partials/navbar/menu-links
 
-text:
-  title: Overview
+title: Overview
 
 links:
   - name: the orbs network

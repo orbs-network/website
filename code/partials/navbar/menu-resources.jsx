@@ -1,22 +1,30 @@
 import React from "react";
 import Img from "../common/Img";
 
-const MenuLinks = ({ links, text, _relativeURL, _ID }) => {
+const MenuLinks = ({ links, title, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
     <section className="nav-menu-section nav-menu-resources">
-      <h4>{text.title}</h4>
+      <h4 className="nav-menu-section-title">{title}</h4>
       <ul>
         {links &&
           links.map((link) => {
-            const { url, name, image } = link;
+            const { url, name, image, text } = link;
             return (
-              <li>
-                <a href={generateUrl(url)}>
-                  <Img src={generateUrl(image)} />
-                  <p>{name}</p>
+              <li className="nav-menu-resources-box flex-column">
+                <a href={generateUrl(url)} className="flex-column">
+                  <span className="flex-center">
+                    <Img
+                      src={generateUrl(image)}
+                      className="nav-menu-resources-box-icon"
+                    />
+                    <h5 className="nav-menu-resources-box-title">{name}</h5>
+                  </span>
+                  <p className="nav-menu-resources-box-text text-overflow">
+                    {text}
+                  </p>
                 </a>
               </li>
             );
