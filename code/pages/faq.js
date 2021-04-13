@@ -2,19 +2,23 @@ import PropTypes from "prop-types";
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
 import FaqCategoriesList from "../partials/faq/faq-categories-list";
+import FaqMenu from "../partials/faq/faq-menu";
 
 const Faq = (props) => {
   const {
     title,
     header,
-    text,
+
     footer,
     script,
     _relativeURL,
     _ID,
     socials,
     sections,
+    menuHeader,
+    menuLinks,
   } = props;
+
   return (
     <html style={{ background: colors.main }}>
       <head>
@@ -33,32 +37,16 @@ const Faq = (props) => {
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="faq grid-page">
+      <body className="faq page-grid">
         {header}
         <main>
           <div className="faq-flex flex-between">
-            <div className="faq-desc sticky-section">
-              <h3 className="faq-desc-title">{text.faq}</h3>
-              <p className="faq-desc-sub-title">{text.publicBlockchain}</p>
-              <div className="faq-desc-links">
-                {sections &&
-                  sections.map((section) => {
-                    return (
-                      <a
-                        href={`#${section.title}`}
-                        className="faq-desc-links-link"
-                      >
-                        {section.title}
-                      </a>
-                    );
-                  })}
-              </div>
-              <div className="faq-desc-questions">
-                <h5>{text.haveQuestion}</h5>
-                <a href="">{text.askUs}</a>
-              </div>
-              {socials}
-            </div>
+            <FaqMenu
+              sections={sections}
+              socials={socials}
+              menuLinks={menuLinks}
+              menuHeader={menuHeader}
+            />
             <FaqCategoriesList sections={sections} />
           </div>
         </main>

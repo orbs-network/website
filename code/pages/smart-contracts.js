@@ -28,14 +28,16 @@ const SmartContract = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="smart-contracts grid-page">
+    <body className="smart-contracts">
       {header}
       <main>
         {pageHeader}
-        {expendingSection}
-        {contractText}
-        {boxes}
-        {linkBack}
+        <div className="content-grid">
+          {expendingSection}
+          {contractText}
+          {boxes}
+          {linkBack}
+        </div>
       </main>
       {script != undefined ? (
         <script

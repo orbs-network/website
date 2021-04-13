@@ -68,14 +68,8 @@ export const onOutsideEvent = (element, callback) => {
 };
 
 export const navbarMenuOutsideClick = () => {
-  document.addEventListener("click", function (event) {
-    const menu = getElement(".main-header");
-    if (!menu) return;
-    const isClickInside = menu.contains(event.target);
-    if (!isClickInside) {
-      hideMenu();
-    }
-  });
+  const overlay = getElement(".nav-menu-overlay");
+  addEvent(overlay, "click", hideMenu);
 };
 
 const onScrollEvent = () => {

@@ -3,7 +3,7 @@ layout: partials/common/expendable-text-box
 title: Advantages
 readMoreButton: read more
 readLessButton: read less
-linesLimit: 7
+linesLimit: 5
 ---
 
 - Each application operates its own virtual chain

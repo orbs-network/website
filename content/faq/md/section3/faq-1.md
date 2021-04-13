@@ -1,7 +1,7 @@
 ---
 layout: partials/common/opening-box
-title: What is Orbs
-color: "#911EE6"
+title: What is Tetra?
+color: "#E6541E"
 ---
 
 this is a big test

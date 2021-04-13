@@ -1,7 +1,7 @@
 import React from "react";
 
 const OpeningBox = ({ _body, title, color = "#E61EA9" }) => {
-  const borderStyle = `1px solid ${color}`;
+  const borderStyle = `2px solid ${color}`;
   return (
     <li className="opening-box" style={{ border: borderStyle }}>
       <figure

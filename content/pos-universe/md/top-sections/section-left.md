@@ -4,16 +4,14 @@ title: Delegators
 img: ../assets/img/pos-universe/delegators.svg
 ---
 
-Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long-term vision of the ecosystem.
+Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
 
 [Stake your ORBS tokens!](http://www.google.com "button")
 
 ##### Roles and Responsibilities
 
 - Actively contribute to the network’s success by staking your ORBS tokens. Read these instructions on how to stake using the Orbs Tetra wallet
-
 - Select a worthy Guardian to delegate your voting power to
-
 - Staked tokens will be locked for a period of 14 days. Read more about the Orbs locking mechanism
 
 ##### Economic Incentives

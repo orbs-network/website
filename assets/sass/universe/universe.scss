@@ -1,55 +1,66 @@
 .universe {
-  main {
-    transform: translate(0, -30px);
+  .link-btn {
+    margin-top: 80px;
   }
   .text {
+    max-width: 1260px;
+    width: 100%;
     @extend .inside-margin;
     font-size: 15px;
     &:last-child {
       margin-bottom: 0px;
     }
   }
+
   .page-header {
+    margin-bottom: 120px;
     figure {
-      height: 500px;
-      img {
-        position: relative;
-      }
-    }
-    h1 {
-      margin-top: 10px;
+      height: 75vh;
     }
   }
   &-first-sections {
-    @extend .outside-margin;
+    position: relative;
+    margin-bottom: 140px;
     align-items: flex-start;
+    &:after {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 0px;
+      height: 100%;
+      width: 2px;
+      background-color: white;
+      opacity: 0.3;
+      content: "";
+    }
     .universe-list-section {
       width: 50%;
 
       span {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         img {
-          margin-right: 10px;
-          width: 30px;
+          margin-right: 30px;
+          width: 58px;
+          height: 69px;
+          object-fit: contain;
         }
         h4 {
           font-size: 20px;
-          font-weight: bold;
-          letter-spacing: 1.2px;
+          font-weight: 500;
+          letter-spacing: 0.5px;
           text-transform: uppercase;
         }
       }
       &:nth-child(odd) {
-        padding-right: 80px;
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        padding-right: 105px;
       }
       &:nth-child(even) {
-        padding-left: 80px;
+        padding-left: 105px;
       }
 
       a[title="button"] {
         padding: 0px 25px;
-        height: 38px;
+        height: 50px;
         display: flex;
         width: fit-content;
         border: 1px solid #03fbf4;
@@ -60,6 +71,7 @@
         color: black;
         font-weight: bold;
         text-decoration: none;
+        font-size: 16px;
         transition: 0.2s all;
 
         &:hover {
@@ -68,8 +80,11 @@
         }
       }
       .text-p {
+        &:nth-of-type(1) {
+          margin-bottom: 35px;
+        }
         &:nth-of-type(2) {
-          margin-bottom: 50px;
+          margin-bottom: 80px;
         }
       }
       a[title="link"] {
@@ -77,29 +92,40 @@
         text-decoration: underline;
       }
       ul {
-        list-style: disc;
         margin-bottom: 50px;
-        padding-left: 17px;
+
         &:last-child {
           margin-bottom: 0px;
         }
         li {
           letter-spacing: 0.4px;
-
-          margin-bottom: 8px;
-          font-size: 14px;
-          line-height: 20px;
+          padding-left: 26px;
+          margin-bottom: 30px;
+          font-size: 15px;
+          line-height: 23px;
           font-weight: 500;
-          ine &:last-child {
+          position: relative;
+          &:after {
+            border-radius: 50%;
+            position: absolute;
+            left: 0px;
+            top: 6px;
+            content: "";
+            width: 11px;
+            height: 11px;
+            background: white;
+          }
+          &:last-child {
             margin-bottom: 0px;
           }
         }
       }
       h5 {
         letter-spacing: 1.2px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         text-transform: uppercase;
         font-weight: 500;
+        font-size: 25px;
       }
     }
   }
@@ -108,28 +134,36 @@
     align-items: flex-start;
     .text-with-title {
       width: 50%;
+      max-width: 636px;
       padding-top: 0px;
       padding-right: 60px;
+      h5 {
+        margin-bottom: 50px;
+        font-size: 33px;
+      }
     }
     .images-grid {
       width: 50%;
       padding-top: 40px;
       padding-left: 20px;
+      margin-left: auto;
       li {
-        &:nth-child(n + 7):nth-child(-n + 12) {
-          margin-bottom: 0px;
-        }
+        margin-bottom: 50px;
+      }
+      &-title {
+        color: #03fcf5;
+        text-transform: uppercase;
+        font-size: 17px;
       }
     }
   }
 
   &-third-sections {
-    margin-bottom: 30px;
     flex-wrap: wrap;
     align-items: flex-start;
 
     .text-with-title {
-      width: calc(100% / 2 - 30px);
+      width: calc(100% / 2 - 35px);
       &:nth-child(even) {
         margin-left: auto;
       }
