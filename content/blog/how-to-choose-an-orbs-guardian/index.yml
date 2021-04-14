@@ -1,17 +1,12 @@
 title: Blog
-layout: pages/blog-inner
+layout: pages/single-blog-page
 script: blog/blog-inner
 
 header:
   - ../../_shared/header/header.md
-pageHeader:
-  - ../md/header.md
 
 breadCrumbs:
   - bread-crumbs.md
-
-main:
-  - body.md
 
 blog:
   - blog.md

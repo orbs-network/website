@@ -6,7 +6,7 @@ header:
   - /_shared/header/header.md
 
 pageHeader:
-  - md/header.md
+  - md/page-header/page-header.md
 
 blogs:
   - blogs.md

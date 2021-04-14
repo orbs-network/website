@@ -24,9 +24,9 @@ const Blog = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="blog grid-page">
+    <body className="blog">
       {header}
-      <main>
+      <main className="page-grid page-padding">
         {pageHeader}
         {blogs}
       </main>

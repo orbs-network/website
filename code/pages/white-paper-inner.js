@@ -31,9 +31,9 @@ const WhitePaperInner = ({
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="white-paper-inner grid-page">
+      <body className="white-paper-inner">
         {header}
-        <main className="flex-column">
+        <main className="page-grid flex-column">
           {breadCrumbs}
           <div className="white-paper-inner-iframe">
             <iframe src={generateUrl(pdfUrl)}></iframe>
