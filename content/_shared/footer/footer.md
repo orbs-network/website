@@ -8,7 +8,7 @@ tweets:
   - tweets/tweets.md
 
 navigation:
-  - navigation.md
+  - navigation/navigation.md
 
 logoSection:
   - logo-section.md

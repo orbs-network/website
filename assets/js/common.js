@@ -68,8 +68,15 @@ export const onOutsideEvent = (element, callback) => {
 };
 
 export const navbarMenuOutsideClick = () => {
-  const overlay = getElement(".nav-menu-overlay");
-  addEvent(overlay, "click", hideMenu);
+  document.addEventListener("click", function (event) {
+    const overlay = getElement(".nav-menu-content-flex");
+    const btn = getElement(".menu-burger");
+    if (!overlay || !btn || btn.contains(event.target)) return;
+    const isClickInside = overlay.contains(event.target);
+    if (!isClickInside) {
+      hideMenu();
+    }
+  });
 };
 
 const onScrollEvent = () => {
@@ -114,14 +121,12 @@ const hideSubscribePopup = () => {
 
 export const showMenu = () => {
   const menu = getElement(".nav-menu");
-  menu.style.pointerEvent = "all";
-
   addClass(menu, "nav-menu-show");
 };
 
 export const hideMenu = () => {
   const menu = getElement(".nav-menu");
-  menu.style.pointerEvent = "none";
+
   removeClass(menu, "nav-menu-show");
 };
 

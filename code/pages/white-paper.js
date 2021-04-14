@@ -23,9 +23,9 @@ const WhitePaper = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="white-paper grid-page">
+    <body className="white-paper">
       {header}
-      <main>{whitePapersList}</main>
+      <main className="page-grid">{whitePapersList}</main>
       {script != undefined ? (
         <script
           type="module"
