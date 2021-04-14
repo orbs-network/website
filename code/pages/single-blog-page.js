@@ -1,18 +1,18 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
 
-const BlogInner = ({
-  title,
-  header,
-  breadCrumbs,
-  footer,
-  script,
-  _relativeURL,
-  _ID,
-  main,
-  pageHeader,
-  blog,
-}) => {
+const BlogInner = (props) => {
+  const {
+    title,
+    header,
+    footer,
+    script,
+    _relativeURL,
+    _ID,
+
+    blog,
+  } = props;
+
   return (
     <html style={{ background: colors.main }}>
       <head>
@@ -30,14 +30,10 @@ const BlogInner = ({
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="blog blog-inner grid-page">
+      <body className="single-blog">
         {header}
-        <main>
-          {pageHeader}
-          {breadCrumbs}
-          <div className="blog-list">{blog}</div>
-          {main}
-        </main>
+
+        <main>{blog}</main>
         {script != undefined ? (
           <script
             type="module"

@@ -1,8 +1,9 @@
 .white-paper {
+  padding-top: 160px;
   &-inner {
     height: 100%;
     padding-bottom: 50px;
-
+    padding-top: 140px;
     &-iframe {
       width: 100%;
       flex: 1;
@@ -17,7 +18,7 @@
     max-width: 1300px;
     width: 100%;
     margin: auto;
-    padding-top: 70px;
+
     margin-bottom: 150px;
     &-title {
       margin-bottom: 120px;

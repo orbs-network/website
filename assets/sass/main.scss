@@ -26,19 +26,9 @@ html {
 }
 
 .main-grid {
-  max-width: 1720px;
+  max-width: 1600px;
   width: calc(100% - 160px);
   margin: auto;
-}
-
-.page {
-}
-
-.home-gage {
-  .main-header {
-    width: 1400px;
-    margin: auto;
-  }
 }
 
 .scrolled-navbar {
@@ -47,25 +37,4 @@ html {
 .label {
   width: 100px;
   height: 100px;
-}
-@media only screen and (max-width: 1600px) {
-  .grid-page {
-    width: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .grid-page {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .grid-page {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }

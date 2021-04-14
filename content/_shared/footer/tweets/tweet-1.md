@@ -1,6 +1,5 @@
 ---
 layout: partials/footer/footer-tweet
-image:
 time: 2 hours ago
 ---
 
