@@ -18,19 +18,22 @@ const NavbarMenu = ({
   return (
     <div className="nav-menu">
       <section className="nav-menu-overlay"></section>
-      <div className="nav-menu-content">
-        <div className="menu-burger-wrapper flex-start">
-          <button className="menu-burger navbar-burger-close">
-            <img src={generateUrl(images.common.close)} />
-          </button>
-          <a href={generateUrl(home)} className="flex-center">
-            <Img src={generateUrl(logo)} className="logo" />
-          </a>
+      <figure className="nav-menu-bg" />
+      <div className="nav-menu-content page-grid">
+        <div className="nav-menu-content-flex">
+          <div className="menu-burger-wrapper flex-start">
+            <button className="menu-burger navbar-burger-close">
+              <img src={generateUrl(images.common.close)} />
+            </button>
+            <a href={generateUrl(home)} className="flex-center">
+              <Img src={generateUrl(logo)} className="logo" />
+            </a>
+          </div>
+          {overview}
+          {resources}
+          {about}
+          {socials}
         </div>
-        {overview}
-        {resources}
-        {about}
-        {socials}
       </div>
     </div>
   );

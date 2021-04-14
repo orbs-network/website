@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogList = (props) => {
   const { list } = props;
-  return <div className="blog-list">{list}</div>;
+  return <ul className="blog-list">{list}</ul>;
 };
 
 export default BlogList;

@@ -4,7 +4,7 @@ socials:
   - ../socials.md
 
 text:
-  placeholder: + SUBSCRIBE FOR UPDATES,
+  placeholder: SUBSCRIBE FOR UPDATES
   policy: Privacy Policy - Terms of Use
   successMsg: submitted
 ---

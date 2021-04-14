@@ -1,13 +1,12 @@
 import React from "react";
 
-const FooterNavigation = ({ navigation, text, _relativeURL, _ID }) => {
-  const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
-  };
+const FooterNavigation = ({ title, links, resourcesTitle, resources }) => {
   return (
-    <section className="footer-section">
-      <h5 className="footer-section-title">{text.navigation}</h5>
-      <div className="footer-navigation">{navigation}</div>
+    <section className="footer-section footer-navigation">
+      <h5 className="footer-section-title">{title}</h5>
+      <div className="footer-navigation-links">{links}</div>
+      <h5 className="footer-navigation-subtitle">{resourcesTitle}</h5>
+      <div className="footer-navigation-links">{resources}</div>
     </section>
   );
 };

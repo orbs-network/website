@@ -1,18 +1,20 @@
 import React from "react";
 import Img from "../common/Img";
-
-const FooterTweet = ({ _body, _relativeURL, image, _ID, time }) => {
+import { images } from "../../../assets/js/images";
+const FooterTweet = ({ _body, _relativeURL, _ID, time }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="footer-tweet flex-start">
-      <figure>
-        <Img src={generateUrl(image)} />
+    <div className="footer-post footer-tweet flex-start">
+      <figure className="footer-tweet-image">
+        <Img src={generateUrl(images.socials.twitter)} />
       </figure>
-      <section className="flex-column footer-tweet-content">
-        <p className="footer-overflow-text footer-text">{_body}</p>
-        <small>{time}</small>
+      <section className="flex-column footer-post-content">
+        <p className="footer-overflow-text footer-content-text">{_body}</p>
+        <span className="footer-tweet-content-date">
+          <p>{time}</p>
+        </span>
       </section>
     </div>
   );

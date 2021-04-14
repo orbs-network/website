@@ -1,10 +1,9 @@
 ---
 layout: partials/footer/footer-posts
 
-text:
-  posts: posts
+title: Latest Blog Posts
 
 posts:
-  - ../../../blog/how-to-choose-an-orbs-guardian/blog.md
-  - ../../../blog/optimizing-ethereum-gas-costs-for-orbs-delegators/blog.md
+  - post1.md
+  - post2.md
 ---
