@@ -27,7 +27,7 @@ const BlogListElement = (props) => {
         <div className="blog-list-blog-content flex-column">
           {title}
           <div className="blog-list-blog-content-author flex-start">
-            <Img src={authorImage} />
+            <Img src={generateUrl(authorImage)} />
             <p>{authorName}</p>
             <small>|</small>
             <p>{date}</p>
