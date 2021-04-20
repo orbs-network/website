@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
 import Img from "../common/Img";
+import MenuToggle from "./components/menu-toggle";
 
 const NavbarMenu = ({
   socials,
@@ -19,20 +20,20 @@ const NavbarMenu = ({
     <div className="nav-menu">
       <section className="nav-menu-overlay"></section>
       <figure className="nav-menu-bg" />
-      <div className="nav-menu-content page-grid">
+      <div className="nav-menu-content main-grid">
         <div className="nav-menu-content-flex">
-          <div className="menu-burger-wrapper flex-start">
-            <button className="menu-burger navbar-burger-close">
-              <img src={generateUrl(images.common.close)} />
-            </button>
-            <a href={generateUrl(home)} className="flex-center">
-              <Img src={generateUrl(logo)} className="logo" />
-            </a>
+          <div className="nav-menu-content-header flex-between">
+            <MenuToggle
+              image={generateUrl(logo)}
+              url={generateUrl(home)}
+              customClassName="navbar-burger-close"
+              toggleImg={generateUrl(images.common.close)}
+            />
+            {socials}
           </div>
           {overview}
           {resources}
           {about}
-          {socials}
         </div>
       </div>
     </div>

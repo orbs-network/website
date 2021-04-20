@@ -1,7 +1,7 @@
-title: Partnerships
+title: Ecosystem
 layout: pages/partnerships
 
-script: partnerships/partnerships
+script: partnerships/index
 header:
   - /_shared/header/header.md
 footer:
@@ -10,7 +10,7 @@ exchange:
   - md/categories/exchanges/index.md
 staking:
   - md/categories/staking/index.md
-transparencyAndata:
+transparencyAndData:
   - md/categories/transparency-and-data/index.md
 socialImpact:
   - md/categories/social-impact/index.md

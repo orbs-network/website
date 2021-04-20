@@ -7,11 +7,11 @@ const ListSection = ({ _body, title, img, _relativeURL, _ID }) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="universe-list-section" data-aos={animations.fadeTop}>
-      <span className="flex-start">
+    <div className="universe-first-flex-section" data-aos={animations.fadeTop}>
+      <div className="flex-start universe-first-flex-section-top">
         <Img src={generateUrl(img)} />
         <h4>{title}</h4>
-      </span>
+      </div>
       {_body}
     </div>
   );

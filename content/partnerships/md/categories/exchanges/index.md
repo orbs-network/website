@@ -14,5 +14,5 @@ title: Exchanges
 ![alt text](/assets/img/partnerships/exchanges/latoken.svg)
 ![alt text](/assets/img/partnerships/exchanges/kucoin.svg)
 ![alt text](/assets/img/partnerships/exchanges/ftx.svg)
-![alt text](/assets/img/partnerships/exchanges/indodax.svg)
+![alt text](/assets/img/partnerships/exchanges/dax.svg)
 ![alt text](/assets/img/partnerships/exchanges/gateio.svg)

@@ -1,6 +1,6 @@
 ---
 layout: partials/common/mappers/team-members-mapper
-avatar: /assets/img/team/members/tal.png
+avatar: /assets/img/team/members/daniel-peled.jpg
 name: Daniel Peled
 role: Co-Founder & CEO
 twitter: /

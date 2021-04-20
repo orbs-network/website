@@ -5,17 +5,11 @@ script: team/index
 header:
   - /_shared/header/header.md
 
-teamTextHeader:
-  - md/team-side-text-header.md
-teamTextLinks:
-  - md/team-side-text-links.md
+sideContent:
+  - md/side-content/index.md
 
 teamList:
-  - md/team-list.md
-socials:
-  - /_shared/socials.md
-careers:
-  - md/careers/careers.md
+  - md/team-members/index.md
 
 footer:
   - /_shared/footer/footer.md

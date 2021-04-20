@@ -26,7 +26,7 @@ const Blog = ({
     </head>
     <body className="blog">
       {header}
-      <main className="page-grid page-padding">
+      <main className="main-grid page-padding">
         {pageHeader}
         {blogs}
       </main>

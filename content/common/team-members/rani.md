@@ -1,7 +1,7 @@
 ---
 layout: partials/common/mappers/team-members-mapper
-avatar: /assets/img/team/members/tal.png
-name: Ranu
+avatar: /assets/img/team/members/rani.jpg
+name: Rani
 role: Title here
 twitter: /
 telegram:

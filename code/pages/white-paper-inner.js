@@ -33,7 +33,7 @@ const WhitePaperInner = ({
       </head>
       <body className="white-paper-inner">
         {header}
-        <main className="page-grid flex-column">
+        <main className="main-grid flex-column">
           {breadCrumbs}
           <div className="white-paper-inner-iframe">
             <iframe src={generateUrl(pdfUrl)}></iframe>

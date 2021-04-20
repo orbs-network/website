@@ -10,7 +10,7 @@ const WhitePaper = ({
   _ID,
   whitePapersList,
 }) => (
-  <html style={{ background: colors.main }}>
+  <html>
     <head>
       <title>Orbs - {title}</title>
       <meta charSet="utf-8" />
@@ -23,9 +23,9 @@ const WhitePaper = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="white-paper">
+    <body className="white-paper" style={{ background: colors.main }}>
       {header}
-      <main className="page-grid">{whitePapersList}</main>
+      <main className="main-grid">{whitePapersList}</main>
       {script != undefined ? (
         <script
           type="module"

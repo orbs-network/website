@@ -6,7 +6,7 @@ header:
   - /_shared/header/header.md
 
 whitePapersList:
-  - white-papers-list.md
+  - collection.md
 
 footer:
   - /_shared/footer/footer.md

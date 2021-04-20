@@ -1,6 +1,6 @@
 ---
 layout: partials/common/page-header/page-header
-image: /assets/img/overview/overview.png
+image:
 title:
   - title.md
 subTitle:

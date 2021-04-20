@@ -5,7 +5,7 @@ import Categories from "../partials/partnerships/categories";
 const Partnerships = (props) => {
   const { title, header, footer, script, _relativeURL, _ID, pageTitle } = props;
   return (
-    <html style={{ background: colors.main }}>
+    <html>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -21,9 +21,9 @@ const Partnerships = (props) => {
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="partnerships">
+      <body className="partnerships" style={{ background: colors.main }}>
         {header}
-        <main className="content-grid">
+        <main className="main-grid">
           {pageTitle}
           <Categories {...props} />
         </main>

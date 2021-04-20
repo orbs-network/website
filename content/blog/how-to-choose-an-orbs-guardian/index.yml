@@ -10,5 +10,7 @@ breadCrumbs:
 
 blog:
   - blog.md
+bottomSection:
+  - ../md/blog-bottom-section.md
 footer:
   - ../../_shared/footer/footer.md
