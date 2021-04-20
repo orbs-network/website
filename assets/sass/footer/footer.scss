@@ -7,9 +7,9 @@
 }
 
 .footer {
-  margin-top: 120px;
-
-  background: $base-bg-color;
+  width: 100%;
+  padding-top: 120px;
+  background: black;
   color: white;
   padding-bottom: 70px;
   font-family: "Montserrat";
@@ -105,14 +105,18 @@
     line-height: 20px;
   }
   &-navigation {
+    display: flex;
     &-subtitle {
       margin-bottom: 20px;
       font-size: 17px;
       font-family: $bold-font;
     }
+    &-section {
+      display: flex;
+    }
     &-links {
       display: flex;
-      flex-direction: column;
+
       a {
         letter-spacing: 1.52px;
         text-decoration: none;
@@ -151,38 +155,6 @@
     &-policy {
       font-size: 12px;
       color: #acacac;
-    }
-    &-form {
-      margin-left: 40px;
-      width: 600px;
-      height: 60px;
-      background: #2e2e2e80;
-      padding-right: 10px;
-      &-input {
-        letter-spacing: 0.5px;
-        background: transparent;
-        color: white;
-        font-size: 15px;
-        text-indent: 20px;
-        width: 100%;
-        height: 100%;
-        border: none;
-        letter-spacing: 1.74px;
-        font-family: $text-font;
-        &::placeholder {
-          color: white;
-        }
-      }
-      &-submit {
-        background: white;
-        width: 36px;
-        height: 34px;
-        align-self: center;
-        border: none;
-        font-size: 18px;
-        color: black;
-        cursor: pointer;
-      }
     }
   }
 }

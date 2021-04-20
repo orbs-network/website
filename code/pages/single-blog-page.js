@@ -9,7 +9,7 @@ const BlogInner = (props) => {
     script,
     _relativeURL,
     _ID,
-
+    bottomSection,
     blog,
   } = props;
 
@@ -40,6 +40,7 @@ const BlogInner = (props) => {
             src={_relativeURL(`/assets/js/${script}.js`, _ID)}
           />
         ) : null}
+        {bottomSection}
         {footer}
       </body>
     </html>

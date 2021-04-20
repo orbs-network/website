@@ -1,6 +1,6 @@
 ---
 layout: partials/common/mappers/team-members-mapper
-avatar: /assets/img/team/members/tal.png
+avatar: /assets/img/team/members/ran-hammer.jpg
 name: Ran Hammer
 role: Title here
 twitter: /

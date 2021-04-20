@@ -3,7 +3,7 @@ import { animations } from "../../../../assets/js/consts/consts";
 
 const ImagesGrid = ({ title, images, imagesPerLine = 3, border }) => {
   const parentStyle = {
-    borderBottom: border ? "1px solid rgba(255,255,255, 0.5)" : "none",
+    borderBottom: border ? "1px solid #707070" : "none",
   };
   const className = `flex-start images-grid-list grid-${imagesPerLine}`;
   return (

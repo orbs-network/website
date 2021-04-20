@@ -1,6 +1,6 @@
 ---
 layout: partials/common/mappers/team-members-mapper
-avatar: /assets/img/team/members/tal.png
+avatar: /assets/img/team/members/nechama.jpg
 name: Nechama
 role: Title here
 twitter: /

@@ -1,6 +1,6 @@
 ---
 layout: partials/common/mappers/team-members-mapper
-avatar: /assets/img/team/members/tal.png
+avatar: /assets/img/team/members/dolev.jpg
 name: Dolev
 role: Title here
 twitter: /

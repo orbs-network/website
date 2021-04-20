@@ -7,7 +7,7 @@
 
 @import "./reset";
 @import "./partial-components/partial-components";
-@import "./team/team";
+@import "./team/index";
 @import "./home/home";
 @import "./home/cards.scss";
 
@@ -17,8 +17,9 @@
 @import "./blog/blog.scss";
 @import "./blog/blog-inner.scss";
 
-@import "./overview/overview.scss";
-@import "./universe/universe.scss";
+@import "./network/index.scss";
+@import "./universe/index.scss";
 @import "./smart-contracts/smart-contracts.scss";
 @import "./white-papers/white-papers.scss";
 @import "./partnerships/partnerships.scss";
+@import "./contact/contact.scss";

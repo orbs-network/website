@@ -1,5 +1,16 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
+
+const generateClassName = (borderTop, borderBottom) => {
+  let className = "expending-box";
+  if (borderTop) {
+    className += " expending-box-border-top";
+  }
+  if (borderBottom) {
+    className += " expending-box-border-bottom";
+  }
+  return className;
+};
 
 const ExpendableTextBox = ({
   _body,
@@ -11,37 +22,33 @@ const ExpendableTextBox = ({
   borderBottom,
 }) => {
   const style = { WebkitLineClamp: linesLimit };
-  const parentStyle = {
-    borderTop: border ? "1px solid #707070" : "none",
-    paddingTop: border ? "55px" : "0px",
-    borderBottom: borderBottom ? "1px solid #707070" : "none",
-    paddingBottom: borderBottom ? "55px" : "0px",
-  };
+
   return (
     <div
-      className="text-with-title"
+      className={generateClassName(border, borderBottom)}
       data-aos={animations.fadeTop}
-      style={parentStyle}
     >
-      <h5>{title}</h5>
-      <div
-        className={
-          linesLimit
-            ? "text-box-base-text limited-lines "
-            : "text-box-base-text"
-        }
-        style={linesLimit ? style : null}
-      >
-        {_body}
-      </div>
+      <div className="expending-box-content">
+        <h5 className="expending-box-title">{title}</h5>
+        <div
+          className={
+            linesLimit
+              ? "expending-box-text limited-lines "
+              : "expending-box-text"
+          }
+          style={linesLimit ? style : null}
+        >
+          {_body}
+        </div>
 
-      {linesLimit && (
-        <button
-          className="expend-btn"
-          data-open={`+ ${readMoreButton}`}
-          data-close={`- ${readLessButton}`}
-        >{`+ ${readMoreButton}`}</button>
-      )}
+        {linesLimit && (
+          <button
+            className="expend-btn"
+            data-open={`+ ${readMoreButton}`}
+            data-close={`- ${readLessButton}`}
+          >{`+ ${readMoreButton}`}</button>
+        )}
+      </div>
     </div>
   );
 };

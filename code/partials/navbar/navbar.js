@@ -4,8 +4,8 @@ import SubscribePopup from "./subscribe-popup";
 const Navbar = ({ navbarTop, menu }) => {
   return (
     <div class="main-header">
-      <div className="page-grid">
-        <SubscribePopup />
+      <SubscribePopup />
+      <div className="main-grid">
         {navbarTop}
         {menu}
       </div>
