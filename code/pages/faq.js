@@ -37,9 +37,9 @@ const Faq = (props) => {
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="faq page-grid">
+      <body className="faq">
         {header}
-        <main>
+        <main className="main-grid">
           <div className="faq-flex flex-between">
             <FaqMenu
               sections={sections}

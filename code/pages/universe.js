@@ -4,16 +4,13 @@ import { colors } from "../../assets/js/consts/consts";
 const Universe = ({
   title,
   header,
-  topSections,
   footer,
-  leftText,
   script,
   _relativeURL,
-  text,
-  images,
+
   _ID,
   pageHeader,
-  expendingSection,
+  content,
   link,
 }) => (
   <html style={{ background: colors.main }}>
@@ -29,23 +26,14 @@ const Universe = ({
         href={_relativeURL(`/assets/css/index.css`, _ID)}
       />
     </head>
-    <body className="universe">
+    <body className="universe" style={{ background: colors.main }}>
       {header}
       <main>
         {pageHeader}
-        <div className="content-grid">
-          {topSections}
-          <div className="flex-start universe-second-sections">
-            {leftText}
-            {images}
-          </div>
-          {text}
-          {expendingSection}
-          {link}
-        </div>
-
-        {footer}
+        {content}
+        {link}
       </main>
+      {footer}
       {script != undefined ? (
         <script
           type="module"

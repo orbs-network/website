@@ -1,8 +1,0 @@
----
-layout: partials/team/team-list
-title: Orbs leadership
-team1:
-  - members-1.md
-team2:
-  - members-2.md
----

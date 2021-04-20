@@ -1,5 +1,5 @@
 title: Faq
-script: faq/faq
+script: faq/index
 layout: pages/faq
 
 header:
