@@ -2,7 +2,7 @@ import React from "react";
 
 const FaqLeftSection = ({ text, faqCategories }) => {
   return (
-    <div className="faq-desc small-section">
+    <div className="faq-desc">
       <h3 className="faq-desc-title">{text.faq}</h3>
       <p>{text.publicBlockchain}</p>
       <div className="faq-desc-links">

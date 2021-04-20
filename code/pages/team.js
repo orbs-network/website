@@ -10,13 +10,11 @@ const Team = (props) => {
     script,
     _relativeURL,
     _ID,
-    teamTextHeader,
-    teamTextLinks,
-    socials,
+    sideContent,
   } = props;
 
   return (
-    <html style={{ background: colors.main }}>
+    <html>
       <head>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
@@ -36,16 +34,11 @@ const Team = (props) => {
           href={_relativeURL(`/assets/css/index.css`, _ID)}
         />
       </head>
-      <body className="team">
+      <body className="team" style={{ background: colors.main }}>
         {header}
-        <main className="page-grid">
-          <div className="team-flex flex-between">
-            <div className="team-side-text sticky-section">
-              {teamTextHeader}
-              {teamTextLinks}
-              {socials}
-            </div>
-
+        <main className="main-grid">
+          <div className="team-content-wrapper">
+            {sideContent}
             {teamList}
           </div>
         </main>

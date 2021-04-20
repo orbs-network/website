@@ -8,13 +8,9 @@ const OpeningBox = ({ _body, title, color = "#E61EA9" }) => {
         className="opening-box-arrow"
         style={{ borderLeft: borderStyle, borderBottom: borderStyle }}
       />
-      <section className="opening-box-overlay"></section>
-      <div className="opening-box-title">
-        <p>{title}</p>
-      </div>
-      <div className="opening-box-text">
-        <p>{_body}</p>
-      </div>
+
+      <div className="opening-box-title">{title}</div>
+      <div className="opening-box-text">{_body}</div>
     </li>
   );
 };

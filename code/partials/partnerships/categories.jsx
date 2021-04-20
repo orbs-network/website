@@ -2,6 +2,10 @@ import React from "react";
 import { images } from "../../../assets/js/images";
 import Img from "../common/Img";
 
+const Section = ({ children }) => {
+  return <div className="partnerships-grid-section">{children}</div>;
+};
+
 const Categories = (props) => {
   const {
     exchange,
@@ -23,26 +27,25 @@ const Categories = (props) => {
   };
   return (
     <div className="partnerships-grid flex-start">
-      <div className="partnerships-grid-section">
+      <Section>
         {exchange}
-        {staking}
-        {fiatOnRamps}
         {transparencyAndData}
-        {socialImpact}
-      </div>
-      <div className="partnerships-grid-section">
+        {staking}
+      </Section>
+      <Section>
         {partnerships}
         <section className="partnerships-grid-section-figure">
           <Img src={generateUrl(images.common.logo)} />
         </section>
         {cloudMirrorImage}
-      </div>
-      <div className="partnerships-grid-section">
+      </Section>
+      <Section>
         {wallets}
-        {media}
+
         {oracles}
         {defi}
-      </div>
+        {media}
+      </Section>
     </div>
   );
 };

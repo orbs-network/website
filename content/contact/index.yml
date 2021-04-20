@@ -1,0 +1,10 @@
+title: Contact us
+layout: pages/contact
+
+script: contact/index
+header:
+  - /_shared/header/header.md
+form:
+  - md/form.md
+footer:
+  - /_shared/footer/footer.md

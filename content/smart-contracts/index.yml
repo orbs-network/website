@@ -1,18 +1,12 @@
 title: pos
 layout: pages/smart-contracts
-script: smart-contracts
+script: smart-contracts/index
 
 header:
   - /_shared/header/header.md
 
-expendingSection:
-  - md/expending-section.md
-
-contractText:
-  - md/text-section-1.md
-
-boxes:
-  - md/boxes.md
+content:
+  - md/body.md
 
 linkBack:
   - md/links/link.md

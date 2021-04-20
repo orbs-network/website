@@ -1,4 +1,7 @@
 .single-blog {
+  .footer {
+    background: black;
+  }
   &-header {
     height: 70vh;
     background-size: cover;
@@ -6,17 +9,18 @@
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     overflow: hidden;
     position: relative;
     .title {
-      font-size: 35px;
+      font-size: 40px;
       color: white;
       font-family: $bold-font;
-      line-height: 50px;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
     }
     &-bg {
-      opacity: 0.5;
       position: absolute;
       left: 0px;
       top: 0px;
@@ -31,7 +35,9 @@
     &-author {
       margin-top: 40px;
       display: flex;
+      justify-content: center;
       &-img {
+        display: none;
         width: 80px;
         height: 80px;
         border-radius: 50%;
@@ -49,18 +55,59 @@
         p {
           margin-right: 5px;
           text-decoration: none;
-          font-size: 18px;
+          font-size: 20px;
         }
         a {
           &:hover {
             text-decoration: underline;
           }
+          &:last-of-type {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  &-bottom {
+    margin: auto;
+    margin-top: 100px;
+    background: black;
+    padding: 50px 0px;
+    width: 100%;
+    &-title {
+      font-size: 25px;
+
+      text-align: center;
+      font-family: $bold-font;
+      color: #53fffa;
+    }
+    &-flex {
+      width: 1000px;
+      margin: auto;
+      padding-top: 70px;
+      &-item {
+        align-items: center;
+        img {
+          margin-bottom: 28px;
+          width: 36px;
+          height: 34px;
+          object-fit: cover;
+        }
+        h4 {
+          font-size: 18px;
+          font-family: $bold-font;
+          margin-bottom: 28px;
+          text-transform: uppercase;
+        }
+        button {
+          @extend .btn;
+          text-transform: none;
         }
       }
     }
   }
   &-body {
-    width: 700px;
+    width: 800px;
     margin: auto;
     &-bg {
       width: 100%;
@@ -68,13 +115,17 @@
       margin-bottom: 40px;
     }
     .text-p {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
     .image {
       width: 100%;
       height: auto;
       margin-bottom: 20px;
       margin-top: 20px;
+    }
+    h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
     }
   }
 }

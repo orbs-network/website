@@ -8,7 +8,6 @@ const WhitePaperBoxPreview = ({ image, _relativeURL, _ID, _body }) => {
   return (
     <figure className="white-paper-box-preview">
       <Img src={generateUrl(image)} />
-      {_body}
     </figure>
   );
 };
