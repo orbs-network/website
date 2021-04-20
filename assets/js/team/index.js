@@ -1,11 +1,9 @@
-import { addEvent, getElement, getElements, init } from "../common.js";
-import { setFaqNodesEvent } from "../opening-box/opening-box.js";
+import { addEvent, getElements, init } from "../common.js";
 
 window.onload = () => {
   init();
-  setFaqNodesEvent();
   initSlider();
-  addClickListenetToMember();
+  addClickListenerToMember();
 };
 
 const initSlider = () => {
@@ -38,7 +36,7 @@ const initSlider = () => {
     },
   });
 };
-const addClickListenetToMember = () => {
+const addClickListenerToMember = () => {
   const members = getElements(".team-member");
   if (!members) return;
   members.forEach((member) => {

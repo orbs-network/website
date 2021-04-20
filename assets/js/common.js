@@ -1,3 +1,13 @@
+import { addListenersToFooter } from "./footer/index.js";
+import {
+  hideMenu,
+  navbarMenuOutsideClick,
+  showMenu,
+  showSubscribePopup,
+  hideSubscribePopup,
+  handleNavbarScroll,
+} from "./navbar/index.js";
+
 export const getElement = (element) => {
   try {
     return document.querySelector(element);
@@ -67,29 +77,11 @@ export const onOutsideEvent = (element, callback) => {
   });
 };
 
-export const navbarMenuOutsideClick = () => {
-  document.addEventListener("click", function (event) {
-    const overlay = getElement(".nav-menu-content-flex");
-    const btn = getElement(".menu-burger");
-    if (!overlay || !btn || btn.contains(event.target)) return;
-    const isClickInside = overlay.contains(event.target);
-    if (!isClickInside) {
-      hideMenu();
-    }
-  });
-};
-
 const onScrollEvent = () => {
-  const navbar = getElement(".main-header");
   document.addEventListener(
     "scroll",
     () => {
-      const offsetTop = window.pageYOffset;
-      if (offsetTop >= 30) {
-        navbar.classList.add("scrolled-navbar");
-      } else {
-        navbar.classList.remove("scrolled-navbar");
-      }
+      handleNavbarScroll();
     },
     { passive: true }
   );
@@ -106,28 +98,6 @@ export const addListenersToNavbar = () => {
   addEvent(subscribeBtn, "click", showSubscribePopup);
   const overlay = getElement(".subscribe-popup-overlay");
   addEvent(overlay, "click", hideSubscribePopup);
-};
-
-const showSubscribePopup = (e) => {
-  const popup = getElement(".subscribe-popup");
-  popup.classList.add("subscribe-popup-active");
-};
-
-const hideSubscribePopup = () => {
-  const popup = getElement(".subscribe-popup");
-
-  popup.classList.remove("subscribe-popup-active");
-};
-
-export const showMenu = () => {
-  const menu = getElement(".nav-menu");
-  addClass(menu, "nav-menu-show");
-};
-
-export const hideMenu = () => {
-  const menu = getElement(".nav-menu");
-
-  removeClass(menu, "nav-menu-show");
 };
 
 export const addEvent = (element, eventType, customEvent) => {
@@ -147,30 +117,7 @@ export const init = () => {
   addListenersToNavbar();
   addListenersToFooter();
   AOS.init({ once: true });
-};
-
-export const setToggleTextEvent = () => {
-  const elements = getElements(".expend-btn");
-  elements.forEach((element) => {
-    addEvent(element, "click", toggleTextBox);
-  });
-};
-
-const toggleTextBox = (event) => {
-  const nodes = event.target.parentNode.childNodes;
-  const limitedClassName = "limited-lines";
-  const textClassName = "text-box-base-text";
-  nodes.forEach((node) => {
-    if (!node.classList.contains(textClassName)) {
-      return;
-    }
-    if (node.classList.contains(limitedClassName)) {
-      event.target.innerText = event.target.dataset.close;
-      return node.classList.remove(limitedClassName);
-    }
-    event.target.innerText = event.target.dataset.open;
-    return node.classList.add(limitedClassName);
-  });
+  handleNavbarScroll();
 };
 
 export const getElementAttribute = (element, attr) => {
@@ -181,15 +128,4 @@ export const getElementAttribute = (element, attr) => {
 export const checkIfIncludesInUrl = (currentPath) => {
   const url = window.location.pathname;
   return url.indexOf(currentPath) > -1;
-};
-
-const addListenersToFooter = () => {
-  const form = getElement(".footer-bottom-form");
-  addEvent(form, "submit", submitFooterForm);
-};
-
-const submitFooterForm = (e) => {
-  e.preventDefault();
-  const inputValue = getElement(".footer-bottom-form-input").value;
-  alert(`youre email is: ${inputValue}`);
 };

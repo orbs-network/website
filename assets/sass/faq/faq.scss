@@ -1,12 +1,13 @@
 .faq {
   &-flex {
+    padding-top: 165px;
     margin: auto;
     height: auto;
     align-items: flex-start;
+    padding-bottom: 50px;
   }
-  &-side-text {
-    position: sticky;
-    top: 190px;
+  &-side-content {
+    top: 165px;
     width: 500px;
     height: calc(100vh - 190px);
     display: flex;
@@ -17,30 +18,33 @@
     }
 
     &-links {
-      margin-top: 60px;
       display: flex;
       flex-direction: column;
       &-link {
-        letter-spacing: 1.06px;
-        margin-bottom: 10px;
-        font-weight: 600;
-        font-size: 12px;
-        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 1.063rem;
+        letter-spacing: 0.04rem;
         color: white;
-        font-family: $bold-font;
+
         text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
     .side-text-links {
-      margin-top: 20px;
+      margin-top: 60px;
       * {
-        font-size: 12px;
-        font-family: $bold-font;
-        text-transform: uppercase;
+        font-size: 1.063rem;
+        font-weight: 500;
         margin-bottom: 0px;
+        text-decoration: none;
       }
-      a {
-        color: #e61ea9;
+      .text-p {
+        &:last-of-type {
+          margin-top: 10px;
+        }
       }
     }
 
@@ -51,18 +55,21 @@
   }
 
   &-lists {
-    padding-top: 200px;
     width: calc(100% - 550px);
+    max-width: 800px;
     &-category {
       position: relative;
       margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
 
       h5 {
-        letter-spacing: 2.2px;
+        letter-spacing: 0.063rem;
         text-transform: uppercase;
         margin-bottom: 10px;
         text-align: left;
-        font-size: 15px;
+        font-size: 0.938rem;
         font-family: $light-font;
       }
     }
