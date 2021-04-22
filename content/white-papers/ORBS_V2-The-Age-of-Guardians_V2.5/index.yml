@@ -1,9 +1,9 @@
-title: Home
-layout: pages/white-paper-inner
+title: "Orbs PoS V2: The Age of Guardians"
+layout: pages/page
 script: white-paper/index
-
+main:
+  - body.md
 header:
-  - /_shared/header/header.md
-breadCrumbs:
-  - bread-crumbs.md
-pdfUrl: /assets/docs/white-papers/ORBS_V2-The-Age-of-Guardians_V2.5.pdf
+  - /_shared/header/index.md
+footer:
+  - /_shared/footer/footer.md

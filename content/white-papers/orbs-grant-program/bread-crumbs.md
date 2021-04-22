@@ -1,5 +1,5 @@
 ---
-layout: partials/common/bread-crumbs
+layout: partials/shared/bread-crumbs
 
 url: /white-papers
 linkName: White Papers

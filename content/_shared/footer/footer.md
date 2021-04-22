@@ -1,11 +1,8 @@
 ---
 layout: partials/footer/footer
 
-posts:
-  - posts/posts.md
-
-tweets:
-  - tweets/tweets.md
+tweetsAndPosts:
+  - tweets-and-posts/collection.md
 
 navigation:
   - navigation/navigation.md

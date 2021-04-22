@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: what is ORBS tokens distributions?
 color: "#E61EA9"
 ---

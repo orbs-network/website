@@ -1,12 +1,5 @@
 import { addListenersToFooter } from "./footer/index.js";
-import {
-  hideMenu,
-  navbarMenuOutsideClick,
-  showMenu,
-  showSubscribePopup,
-  hideSubscribePopup,
-  handleNavbarScroll,
-} from "./navbar/index.js";
+import { handleNavbarScroll, addListenersToNavbar } from "./navbar/index.js";
 
 export const getElement = (element) => {
   try {
@@ -17,7 +10,7 @@ export const getElement = (element) => {
 };
 
 export const getElements = (element) => {
-  return document.querySelectorAll(element);
+  return document.querySelectorAll(element) || [];
 };
 
 export const addClass = (element, className) => {
@@ -38,17 +31,6 @@ export const hideElement = (element, transform) => {
   element.style.pointerEvents = "none";
   setTimeout(() => {
     element.style.display = "none";
-  }, 200);
-};
-
-export const showElement = (element, transform) => {
-  element.style.display = "flex";
-  if (transform) {
-    element.style.transform = transform;
-  }
-  setTimeout(() => {
-    element.style.opacity = 1;
-    element.style.pointerEvents = "all";
   }, 200);
 };
 
@@ -77,7 +59,7 @@ export const onOutsideEvent = (element, callback) => {
   });
 };
 
-const onScrollEvent = () => {
+const handleOnScroll = () => {
   document.addEventListener(
     "scroll",
     () => {
@@ -87,26 +69,9 @@ const onScrollEvent = () => {
   );
 };
 
-export const addListenersToNavbar = () => {
-  const hamburger = getElement(".navbar-burger-open");
-  addEvent(hamburger, "click", showMenu);
-  const closeMenu = getElement(".navbar-burger-close");
-  addEvent(closeMenu, "click", hideMenu);
-  onScrollEvent();
-  navbarMenuOutsideClick();
-  const subscribeBtn = getElement(".subscribe-btn");
-  addEvent(subscribeBtn, "click", showSubscribePopup);
-  const overlay = getElement(".subscribe-popup-overlay");
-  addEvent(overlay, "click", hideSubscribePopup);
-};
-
 export const addEvent = (element, eventType, customEvent) => {
   if (!element || !customEvent || !eventType) return;
   element.addEventListener(eventType, (e) => customEvent(e));
-};
-
-export const handleText = (text) => {
-  return text || "";
 };
 
 export const removeSpaces = (str, char) => {
@@ -116,6 +81,7 @@ export const removeSpaces = (str, char) => {
 export const init = () => {
   addListenersToNavbar();
   addListenersToFooter();
+  handleOnScroll();
   AOS.init({ once: true });
   handleNavbarScroll();
 };
@@ -123,9 +89,4 @@ export const init = () => {
 export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
-};
-
-export const checkIfIncludesInUrl = (currentPath) => {
-  const url = window.location.pathname;
-  return url.indexOf(currentPath) > -1;
 };

@@ -1,8 +1,6 @@
 ---
-layout: partials/common/images-grid/image-grid
+layout: partials/shared/images-grid/image-grid
 image: /assets/img/pos-universe/half-globe.svg
 ---
 
-Validator Nodes
-
-Streamlining
+Validator Nodes Streamlining

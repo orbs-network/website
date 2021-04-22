@@ -1,0 +1,10 @@
+title: Ecosystem
+layout: pages/page
+
+script: ecosystem/index
+main:
+  - body.md
+header:
+  - /_shared/header/index.md
+footer:
+  - /_shared/footer/footer.md

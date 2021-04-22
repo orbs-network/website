@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: Does TETRA wallet charge any fees?
 color: "#E6541E"
 ---

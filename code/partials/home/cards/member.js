@@ -1,8 +1,8 @@
 import React from "react";
 import { cardsWeights } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
-import Img from "../../common/Img";
-import InnerLinks from "../../common/inner-links";
+import Img from "../../shared/Img";
+import InnerLinks from "../../shared/inner-links";
 import CardTitle from "./components/card-title";
 
 const MemberCard = ({
