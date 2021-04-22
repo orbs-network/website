@@ -4,6 +4,7 @@ export const images = {
     logo: `${prefix}/globe/logo.png`,
     metamask: `${prefix}/globe/metamask.png`,
     repository: `${prefix}/globe/repository.svg`,
+    bg: `${prefix}/globe/test-bg.jpeg`,
     contributor: {
       email: `${prefix}/globe/cards/contributor/email.svg`,
       github: `${prefix}/globe/cards/contributor/github.svg`,
@@ -56,6 +57,9 @@ export const images = {
   common: {
     close: `${prefix}/common/close.svg`,
     logo: `${prefix}/common/logo.svg`,
+  },
+  footer: {
+    twitter: `${prefix}/socials/twitter.svg`,
   },
   blog: {
     calendar: `${prefix}/blog/calendar.svg`,

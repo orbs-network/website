@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 title: THE WINNING BLOCKCHAIN STACK
 readMoreButton: read more
 readLessButton: read less

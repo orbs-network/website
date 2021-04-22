@@ -1,6 +1,7 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 title: Contracts Management and Governance Architecture
+border: true
 ---
 
 Orbs’ PoS contacts architecture is designed for future migration, including migration of individual contracts. Contracts in the PoS system that interact with other contracts store their current address in the contact storage. Upon a migration of a contract, the registry sends a push notification to all its managed contacts to update their contract list accordingly.

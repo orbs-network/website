@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: What is Liquidity Nexus?
 color: "#B01EE6"
 ---

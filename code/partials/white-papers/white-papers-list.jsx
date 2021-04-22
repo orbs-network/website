@@ -3,15 +3,15 @@ import { animations } from "../../../assets/js/consts/consts";
 
 const WhitePaperslist = ({ list, title }) => {
   return (
-    <div className="white-paper-list">
-      <h1 className="white-paper-list-title">{title}</h1>
-      <div className="white-paper-list-flex">
+    <div className="white-papers-list">
+      <h1 className="white-papers-list-title">{title}</h1>
+      <div className="white-papers-list-flex">
         {list &&
           list.map((category) => {
             return (
-              <div className="white-paper-category">
+              <div className="white-papers-category">
                 <section
-                  className="white-paper-category-title"
+                  className="white-papers-category-title"
                   data-aos={animations.fadeIn}
                 >
                   {category.title}

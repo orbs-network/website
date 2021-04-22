@@ -1,0 +1,11 @@
+title: Blog
+layout: pages/page
+script: blog/index
+
+header:
+  - ../../_shared/header/index.md
+
+main: body.md
+
+footer:
+  - ../../_shared/footer/footer.md

@@ -5,7 +5,9 @@ import {
   onMouseEnterAndLeaveEvent,
 } from "../common.js";
 import { globeConfig } from "./config.js";
-
+import "https://chancejs.com/chance.min.js";
+import "//unpkg.com/three";
+import "//unpkg.com/globe.gl";
 import { GlobeController } from "./globe.js";
 import {
   getRandomCardByWeight,
@@ -93,7 +95,7 @@ const onGlobeReady = () => {
 const setupGlobe = async () => {
   const container = document.createElement("div");
   container.classList.add("home-globe");
-  const body = document.querySelector("body");
+  const body = document.querySelector(".home");
   body.appendChild(container);
   const globeParams = {
     handlePointClick,

@@ -1,15 +1,10 @@
 title: Blog
-layout: pages/blog
-script: blog/index
+layout: pages/page
+script: blogs/index
 
 header:
-  - /_shared/header/header.md
-
-pageHeader:
-  - md/page-header/page-header.md
-
-blogs:
-  - blogs.md
-
+  - /_shared/header/index.md
+main:
+  - body.md
 footer:
   - /_shared/footer/footer.md

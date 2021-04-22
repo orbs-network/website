@@ -1,13 +1,13 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
-import Img from "../../common/Img";
+import Img from "../../shared/Img";
 
 const TeamSlider = ({ _relativeURL, _ID, slides, text }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="team-slider" data-aos={animations.fadeTop}>
+    <div className="team-slider" data-aos={animations.fadeIn}>
       <div class="swiper-container">
         <div class="swiper-wrapper">
           {slides &&
@@ -19,9 +19,9 @@ const TeamSlider = ({ _relativeURL, _ID, slides, text }) => {
               );
             })}
         </div>
-        <div class="swiper-pagination"></div>
+        {/* <div class="swiper-pagination"></div> */}
       </div>
-      {text.ourOffice && <p className="team-slider-text">{text.ourOffice}</p>}
+      {/* {text.ourOffice && <p className="team-slider-text">{text.ourOffice}</p>} */}
     </div>
   );
 };

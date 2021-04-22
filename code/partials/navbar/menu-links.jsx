@@ -5,8 +5,8 @@ const MenuResources = ({ links, title, _relativeURL, _ID }) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <section className="nav-menu-section">
-      <h4 className="nav-menu-section-title">{title}</h4>
+    <section className="nav-menu-links">
+      <h4 className="nav-menu-links-title">{title}</h4>
       <div>
         {links &&
           links.map((link) => {
@@ -15,13 +15,13 @@ const MenuResources = ({ links, title, _relativeURL, _ID }) => {
               <a
                 className={
                   subLink
-                    ? "nav-menu-section-link nav-menu-section-sub"
-                    : "nav-menu-section-link"
+                    ? "nav-menu-links-link nav-menu-links-sub"
+                    : "nav-menu-links-link"
                 }
                 href={generateUrl(url)}
               >
                 <figure />
-                <p className="nav-menu-section-link-text">{name}</p>
+                <p className="nav-menu-links-link-text">{name}</p>
               </a>
             );
           })}

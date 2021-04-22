@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expending-list
+layout: partials/shared/expending-list
 title: Advantages
 readMoreButton: read more
 readLessButton: read less

@@ -2,7 +2,7 @@
 layout: partials/home/page-text
 
 socials:
-  - ../_shared/socials.md
+  - ../_shared/socials/index.md
 ---
 
 the public

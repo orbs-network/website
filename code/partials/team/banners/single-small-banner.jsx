@@ -9,7 +9,7 @@ const SingleSmallBanner = ({ image, _relativeURL, _ID, videoUrl }) => {
   return (
     <section
       className="banner-single-small banner"
-      data-aos={animations.fadeTop}
+      data-aos={animations.fadeIn}
     >
       {videoUrl ? (
         <BannerVideo videoUrl={videoUrl} />

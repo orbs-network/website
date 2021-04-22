@@ -5,6 +5,8 @@ list:
   - title: Community
     whitePapers:
       - ORBS_V2-The-Age-of-Guardians_V2.5/paper.md
+      - ORBS_V2-The-Age-of-Guardians_V2.5/paper.md
+      - ORBS_V2-The-Age-of-Guardians_V2.5/paper.md
 
   - title: Orbs Proof of Stake Universe
     whitePapers:

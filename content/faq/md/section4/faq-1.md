@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: Does Orbs have a block explorer?
 color: "#1EB8E6"
 ---

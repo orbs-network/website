@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: What is MetaMask?
 color: "#E6541E"
 ---

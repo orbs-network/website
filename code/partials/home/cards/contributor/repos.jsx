@@ -1,6 +1,6 @@
 import React from "react";
 import { images } from "../../../../../assets/js/images";
-import Img from "../../../common/Img";
+import Img from "../../../shared/Img";
 
 const Repos = ({
   locationImg,

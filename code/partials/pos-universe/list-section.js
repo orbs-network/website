@@ -1,6 +1,6 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
-import Img from "../common/Img";
+import Img from "../shared/Img";
 
 const ListSection = ({ _body, title, img, _relativeURL, _ID }) => {
   const generateUrl = (url) => {

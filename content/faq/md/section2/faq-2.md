@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: How do I stake my ORBS tokens?
 color: "#1EE6CF"
 ---
