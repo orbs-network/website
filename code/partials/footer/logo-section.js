@@ -1,7 +1,6 @@
 import React from "react";
-import { images } from "../../../assets/js/images";
 
-const LogoSection = ({ image, _body, email, _relativeURL, _ID }) => {
+const LogoSection = ({ image, _body, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };

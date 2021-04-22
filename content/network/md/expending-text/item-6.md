@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 title: Virtual Chains
 readMoreButton: read more
 readLessButton: read less

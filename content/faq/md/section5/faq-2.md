@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: Why would enterprises choose the Orbs public blockchain over private blockchain solutions?
 color: "#1EE635"
 ---

@@ -13,5 +13,5 @@ about:
   - menu-links/about.md
 
 socials:
-  - ../socials.md
+  - ../socials/index.md
 ---

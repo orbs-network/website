@@ -1,4 +1,4 @@
-import { getElement, removeClass, addClass } from "../common.js";
+import { getElement, removeClass, addClass, addEvent } from "../common.js";
 
 export const showMenu = () => {
   const menu = getElement(".nav-menu");
@@ -23,7 +23,7 @@ export const hideSubscribePopup = () => {
 export const navbarMenuOutsideClick = () => {
   document.addEventListener("click", function (event) {
     const overlay = getElement(".nav-menu-content-flex");
-    const btn = getElement(".menu-burger");
+    const btn = getElement(".menu-burger-toggle");
     if (!overlay || !btn || btn.contains(event.target)) return;
     const isClickInside = overlay.contains(event.target);
     if (!isClickInside) {
@@ -40,4 +40,16 @@ export const handleNavbarScroll = () => {
   } else {
     navbar.classList.remove("scrolled-navbar");
   }
+};
+
+export const addListenersToNavbar = () => {
+  const hamburger = getElement(".navbar-burger-open");
+  addEvent(hamburger, "click", showMenu);
+  const closeMenu = getElement(".navbar-burger-close");
+  addEvent(closeMenu, "click", hideMenu);
+  navbarMenuOutsideClick();
+  const subscribeBtn = getElement(".subscribe-btn");
+  addEvent(subscribeBtn, "click", showSubscribePopup);
+  const overlay = getElement(".subscribe-popup-overlay");
+  addEvent(overlay, "click", hideSubscribePopup);
 };

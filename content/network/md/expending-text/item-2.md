@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 title: SERVERLESS CLOUD FOR APP DEVELOPERS
 readMoreButton: read more
 readLessButton: read less

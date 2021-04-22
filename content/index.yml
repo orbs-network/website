@@ -1,10 +1,8 @@
 title: Home
-layout: pages/home
+layout: pages/page
 script: globe/index
 header:
-  - /_shared/header/header.md
+  - /_shared/header/index.md
 
-cards:
-  - home/cards/cards.md
-pageText:
-  - home/text-box.md
+main:
+  - home/body.md

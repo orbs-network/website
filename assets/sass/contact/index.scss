@@ -1,0 +1,115 @@
+.contact {
+  padding-top: 145px;
+  &-form {
+    width: 820px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+    .title {
+      margin-bottom: 65px;
+    }
+    &-sub-title {
+      font-size: 1.063rem;
+      text-align: center;
+      font-weight: 500;
+    }
+    &-inputs {
+      flex-wrap: wrap;
+      margin-top: 50px;
+      &-section {
+        width: calc(50% - 20px);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        position: relative;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        label {
+          margin-bottom: 10px;
+          font-size: 1.063rem;
+          font-weight: 300;
+        }
+        input {
+          background: transparent;
+          border: 0px;
+          border-bottom: 1px solid #4cfce2;
+          padding-bottom: 10px;
+          font-size: 1.063rem;
+          font-weight: 300;
+          font-family: inherit;
+          &::placeholder {
+            color: #696969;
+          }
+          &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+        .form-error {
+          opacity: 0;
+          position: absolute;
+          top: calc(100% + 5px);
+          font-size: 0.75rem;
+        }
+        .actve-error {
+          opacity: 1;
+        }
+        &:nth-child(even) {
+          margin-left: auto;
+        }
+        &:last-child {
+          width: 100%;
+        }
+      }
+    }
+    &-submit {
+      text-transform: uppercase;
+      background: transparent;
+      padding: 0px 60px;
+      margin: auto;
+      margin-top: 70px;
+      @extend .btn;
+      cursor: pointer;
+    }
+  }
+  &-success-popup {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s all;
+
+    &-overlay {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background: black;
+      opacity: 0.5;
+      width: 100%;
+      height: 100%;
+    }
+    &-content {
+      width: 300px;
+      min-height: 200px;
+      height: auto;
+      background: black;
+      border: 1px solid white;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%, 200px);
+      z-index: 10;
+    }
+  }
+}
+
+.active-popup {
+  opacity: 1;
+  pointer-events: all;
+}

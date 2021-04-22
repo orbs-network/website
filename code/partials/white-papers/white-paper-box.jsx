@@ -1,6 +1,6 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
-import Img from "../common/Img";
+import Img from "../shared/Img";
 
 const WhitePaperBox = ({
   _relativeURL,
@@ -19,23 +19,22 @@ const WhitePaperBox = ({
   };
 
   return (
-    <div className="white-paper-box" data-aos={animations.fadeTop}>
-      <h4 className="white-paper-box-title">{title}</h4>
-      <div className="white-paper-box-flex flex-start">
-        <div className="flex-column white-paper-box-c">
+    <div className="white-papers-box" data-aos={animations.fadeTop}>
+      <div className="white-papers-box-flex flex-start">
+        <div className="flex-column white-papers-box-c">
+          <h4 className="white-papers-box-title">{title}</h4>
           {published && date && (
-            <p className="white-paper-box-c-date">{`${published} ${date}`}</p>
+            <p className="white-papers-box-c-date">{`${published} ${date}`}</p>
           )}
-          <figure className="white-paper-box-mobile">
-            <Img src={generateUrl(image)} />
-          </figure>
-          <div className="white-paper-box-c-text">{_body}</div>
+          <div className="white-papers-box-c-text">{_body}</div>
           <a
             href={generateUrl(url)}
-            className="white-paper-box-btn"
+            className="white-papers-box-btn"
           >{`+ ${readPaperBtn}`}</a>
         </div>
-        {preview}
+        <figure className="white-papers-box-preview">
+          <Img src={generateUrl(image)} />
+        </figure>
       </div>
     </div>
   );

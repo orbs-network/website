@@ -1,5 +1,5 @@
 ---
-layout: partials/common/boxes/box
+layout: partials/shared/boxes/box
 image: /assets/img/smart-contracts/003-cancel.svg
 ---
 

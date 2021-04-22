@@ -1,15 +1,10 @@
 import React from "react";
 
-const Header = ({ subTitle, title, sections }) => {
+const Header = ({ subTitle, title }) => {
   return (
     <div className="blog-header" data-aos="fade-up">
       {title}
       {subTitle}
-      <ul className="blog-header-list">
-        {sections.map((section) => {
-          return <li>{`#${section}`}</li>;
-        })}
-      </ul>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 ---
-layout: partials/common/boxes/boxes
+layout: partials/shared/boxes/boxes
 title: Roles
 list:
   - item-1.md

@@ -1,21 +1,10 @@
 title: Network
-layout: pages/network
+layout: pages/page
 
 script: network/index
 header:
-  - /_shared/header/header.md
-
-pageHeader:
-  - md/page-header/page-header.md
-
-linkBtn:
-  - md/link/link.md
-
+  - /_shared/header/index.md
+main:
+  - body.md
 footer:
   - /_shared/footer/footer.md
-
-content:
-  - md/body.md
-
-text:
-  - md/text/item-1.md

@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: What is Orbs POS V2?
 color: "#1EE6CF"
 ---

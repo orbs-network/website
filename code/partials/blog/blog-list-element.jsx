@@ -1,5 +1,6 @@
 import React from "react";
-import Img from "../common/Img";
+import { animations } from "../../../assets/js/consts/consts";
+import Img from "../shared/Img";
 
 const BlogListElement = (props) => {
   const {
@@ -11,12 +12,17 @@ const BlogListElement = (props) => {
     _ID,
     blogUrl,
     title,
+    type,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <li className="blog-list-blog">
+    <li
+      className="blog-list-blog"
+      data-type={type}
+      data-aos={animations.fadeTop}
+    >
       <a href={generateUrl(blogUrl)} className="blog-list-blog-flex">
         <Img src={generateUrl(image)} className="blog-list-blog-bg" />
         <div className="blog-list-blog-content flex-column">

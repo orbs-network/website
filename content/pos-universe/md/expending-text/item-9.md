@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 title: The Age of Guardians
 ---
 
