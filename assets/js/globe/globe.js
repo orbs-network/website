@@ -25,8 +25,8 @@ export class GlobeController {
 
     this.globe = newGlobe;
     this.setGlobeBaseConfig();
-    this.setPathData();
-    await this.setPoligons();
+    // this.setPathData();
+    // await this.setPoligons();
 
     this.startGlobeAutoRotation();
     this.resizeListener();
@@ -51,20 +51,12 @@ export class GlobeController {
     this.globe
       .onGlobeReady((e) => {
         const points = this.globe.customLayerData();
-        // points.forEach((point) => {
-        //   const id = point.__threeObj.uuid;
-        //   const coords = getPointCoordinates(this.)
-        //   const elem = document.createElement("div");
-        //   elem.classList.add("test-elem");
-        //   // elem.style.position.left =
-        //   elem.setAttribute("data-id", id);
-        //   const body = getElement("body");
-        //   body.appendChild(elem);
-        // });
-
         this.params.onGlobeReady(points);
       })
       .backgroundColor(globeConfig.backgroundColor)
+      .globeImageUrl(
+        "https://unpkg.com/three-globe@2.18.0/example/img/earth-night.jpg"
+      )
       .lineHoverPrecision(0.000001)
       .width(this.globe.width() + globeConfig.additionalWidth)
       .height(this.globe.height() + globeConfig.additionalHeight);
@@ -82,11 +74,11 @@ export class GlobeController {
   }
 
   setPoligons = () => {
-    this.globe
-      .hexPolygonsData(geo.features)
-      .hexPolygonResolution(3)
-      .hexPolygonMargin(0.7)
-      .hexPolygonColor(() => globeConfig.orbsMainColor);
+    // this.globe
+    //   .hexPolygonsData(geo.features)
+    //   .hexPolygonResolution(3)
+    //   .hexPolygonMargin(0.7)
+    //   .hexPolygonColor(() => globeConfig.orbsMainColor);
   };
 
   createMesh(d) {

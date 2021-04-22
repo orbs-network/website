@@ -1,9 +1,6 @@
-.subscribe-btn {
-  border: none;
-}
 .main-header {
   position: fixed;
-  height: 100px;
+  height: $navbar-height;
   width: 100%;
   z-index: 9999999;
   left: 0px;
@@ -13,40 +10,43 @@
   align-items: center;
   transition: 0.2s all;
 }
-.navbar-top {
-  width: 100%;
-}
 
-.menu-burger-wrapper {
-  align-items: center;
-  .logo {
-    height: 33px;
-    object-fit: contain;
-  }
-}
 .menu-burger {
   display: flex;
-  background: transparent;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 0px;
-  width: 30px;
-  height: 20px;
-  margin-right: 25px;
+  &-toggle {
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px;
+    width: 30px;
+    height: 20px;
+    margin-right: 25px;
+  }
   img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
+
   aside {
     border-radius: 25px;
     width: 100%;
     height: 2px;
-    background: #5effd1;
+    background: white;
+  }
+
+  .logo {
+    object-fit: contain;
+    img {
+      height: 33px;
+      width: auto;
+    }
   }
 }
+
 .navbar-flags {
   display: flex;
   align-items: center;
@@ -57,20 +57,15 @@
     transition: 0.15s all;
     p {
       margin-left: 5px;
-      font-size: 11px;
+      font-size: 0.688rem;
       text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    &:hover {
-      border-bottom: 2px solid white;
+      letter-spacing: 0.125rem;
     }
   }
   &-list {
     display: flex;
     align-items: center;
     li {
-      background: transparent;
-      border: 0px;
       width: 25px;
       height: 20px;
       cursor: pointer;
@@ -86,7 +81,6 @@
 
 .nav-menu {
   position: fixed;
-
   top: 0px;
   left: 0px;
   width: 100%;
@@ -112,9 +106,7 @@
   }
   &-content {
     position: relative;
-
     transform: translate(-100%);
-
     left: 0px;
     transition: 0.3s all ease-in;
     &-header {
@@ -157,21 +149,21 @@
     }
   }
 
-  &-section {
-    margin-bottom: 40px;
+  &-links {
+    margin-bottom: 30px;
     &-title {
       font-family: $bold-font;
       font-size: 18px;
       text-transform: uppercase;
       text-align: left;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       color: #03fcf5;
       letter-spacing: 2.11px;
       line-height: 30px;
     }
     &-link {
       position: relative;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       display: flex;
       width: fit-content;
       text-decoration: none;
@@ -224,14 +216,18 @@
       }
     }
   }
+
   &-resources {
-    padding-right: 70px;
-    ul {
+    &-list {
       display: flex;
       flex-wrap: wrap;
     }
+    .grid-3 {
+      li {
+        width: calc(100% / 3 - 7.5px);
+      }
+    }
     &-box {
-      width: calc(100% / 3 - 7.5px);
       margin-right: 10px;
       margin-top: 10px;
       border: 0.5px solid #cecece;
@@ -241,11 +237,7 @@
       &:nth-child(3n) {
         margin-right: 0px;
       }
-      &:nth-child(1),
-      &:nth-child(2),
-      &:nth-child(3) {
-        margin-top: 0px;
-      }
+
       * {
         text-decoration: none;
       }
@@ -253,6 +245,7 @@
         width: 20px;
         height: 19px;
         object-fit: contain;
+        margin-right: 10px;
       }
       span {
         overflow: hidden;
@@ -264,15 +257,14 @@
         white-space: nowrap;
         max-width: calc(100% - 20px);
         text-transform: uppercase;
-        padding-left: 10px;
+        margin-bottom: 5px;
         overflow: hidden;
         text-overflow: ellipsis;
       }
       &-text {
-        margin-top: 5px;
         font-family: $light-font;
         font-size: 10px;
-        text-align: center;
+
         width: 100%;
       }
     }
@@ -337,49 +329,6 @@
   }
 }
 
-@media only screen and (max-width: 880px) {
-  .nav-menu {
-    height: 100vh;
-    width: 100%;
-    padding-left: 30px;
-    overflow-y: auto;
-    padding-bottom: 100px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .main-header {
-    height: 70px;
-  }
-  .navbar-flags {
-    display: none;
-  }
-  .menu-burger-wrapper {
-    .logo {
-      height: 20px;
-    }
-    .menu-burger {
-      width: 25px;
-      height: 17px;
-    }
-  }
-  .nav-menu-section {
-    h4 {
-      font-size: 14px;
-    }
-  }
-  .nav-menu-links {
-    li {
-      a {
-        p {
-          font-size: 10px;
-        }
-      }
-    }
-  }
-}
-@media only screen and (max-width: 600px) {
-  .nav-menu {
-    padding-left: 20px;
-  }
+.scrolled-navbar {
+  background: $base-bg-color;
 }

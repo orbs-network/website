@@ -1,3 +1,9 @@
+$yellow: #5effd1;
+$base-bg-color: #191919;
+$pink: #e61ea9;
+$light-blue: #60e4ff;
+$light-gray: #d0d0d0;
+
 @mixin pink-expend-btn() {
   color: #ff2cbf;
   background: transparent;
@@ -17,7 +23,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   width: fit-content;
-  padding: 0px 25px;
+  padding: 0px 35px;
   border: 2px solid #53fffa;
   border-radius: 42px;
   font-size: 0.75rem;
@@ -52,13 +58,15 @@
     margin-bottom: 0px;
   }
 }
-
+.page-padding-top {
+  padding-top: 145px;
+}
 .page-menu-header {
   h1 {
     color: #03fcf5;
     text-transform: uppercase;
     font-size: 1.75rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: $bold-font;
   }
 }
@@ -76,10 +84,6 @@
   top: -110px;
 }
 
-.sticky-section {
-  position: sticky;
-  top: 110px;
-}
 .page-header {
   margin-bottom: 60px;
 
@@ -101,6 +105,7 @@
       height: 100%;
       object-fit: cover;
       position: absolute;
+      object-position: bottom center;
       left: 0px;
       top: 0px;
       pointer-events: none;

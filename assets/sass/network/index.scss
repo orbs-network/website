@@ -1,17 +1,12 @@
 .network {
-  .footer {
-    margin-top: 120px;
-  }
-  .link-btn {
-    margin-top: 60px;
-  }
   .images-grid {
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     margin: 100px 0px 0px 0px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
+
     &-list {
-      width: 870px;
+      max-width: 870px;
       margin: auto;
     }
   }
@@ -29,15 +24,12 @@
         }
       }
     }
-    &-boxes {
-      align-items: stretch;
-      .box {
-        width: calc(100% / 3 - 10px);
-        margin-right: 10px;
-      }
+    .box {
+      width: calc(100% / 3 - 10px);
+      margin-right: 10px;
     }
     &-flex {
-      margin-top: 90px;
+      margin-top: 60px;
       margin-bottom: 80px;
       .expending-box {
         width: 50%;
@@ -51,9 +43,6 @@
         width: 50%;
         &-list {
           width: 100%;
-          li {
-            margin-bottom: 40px;
-          }
         }
       }
     }

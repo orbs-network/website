@@ -9,6 +9,7 @@ import {
 window.onload = () => {
   init();
   addEventsToForm();
+  addPopupSuccessListeners();
 };
 
 const errors = {};
@@ -119,16 +120,16 @@ const handleSubmit = (e) => {
   const firstName = getElement(".first-name").value;
   const lastName = getElement(".last-name").value;
   const email = getElement(".email").value;
-  const phone = getElement(".phone").value;
-  const comment = getElement(".comment").value;
+  const phone = getElement(".phone");
+  const comment = getElement(".comment");
   const body = {
     firstName,
     lastName,
     email,
-    phone,
-    comment,
+    phone: phone && phone.value,
+    comment: comment && comment.value,
   };
-  alert(`name ${firstName} ${lastName}, phone  ${phone},email ${email} `);
+  showPopup();
 };
 
 const validateInputsOnSubmit = () => {
@@ -141,4 +142,29 @@ const validateInputsOnSubmit = () => {
     }
   });
   return errors;
+};
+
+const addPopupSuccessListeners = () => {
+  const overlay = getElement(".contact-success-popup-overlay");
+  addEvent(overlay, "click", handleSuccessPopupClose);
+  const closeBtn = getElement(".contact-success-popup-btn");
+  addEvent(closeBtn, "click", handleSuccessPopupClose);
+};
+
+const hidePopup = () => {
+  const popup = getElement(".contact-success-popup");
+  popup.classList.remove("active-popup");
+};
+
+const showPopup = () => {
+  const popup = getElement(".contact-success-popup");
+  popup.classList.add("active-popup");
+};
+
+const handleSuccessPopupClose = () => {
+  hidePopup();
+  const inputs = getElements(".contact-form-inputs-section input");
+  inputs.forEach((input) => {
+    input.value = "";
+  });
 };

@@ -1,65 +1,51 @@
 .faq {
   &-flex {
-    padding-top: 165px;
     margin: auto;
     height: auto;
     align-items: flex-start;
     padding-bottom: 50px;
   }
-  &-side-content {
-    top: 165px;
-    width: 500px;
-    height: calc(100vh - 190px);
-    display: flex;
-    padding-right: 40px;
-    flex-direction: column;
-    * {
-      text-align: left;
-    }
-
-    &-links {
-      display: flex;
-      flex-direction: column;
-      &-link {
-        margin-bottom: 15px;
-        font-weight: 500;
-        font-size: 1.063rem;
-        letter-spacing: 0.04rem;
-        color: white;
-
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
+  .side-menu {
+    width: 420px;
+    .faq-side-menu {
+      &-links {
+        display: flex;
+        flex-direction: column;
+        &-link {
+          margin-bottom: 15px;
+          font-weight: 500;
+          font-size: 1.063rem;
+          letter-spacing: 0.04rem;
+          color: white;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
-    }
-    .side-text-links {
-      margin-top: 60px;
-      * {
-        font-size: 1.063rem;
-        font-weight: 500;
-        margin-bottom: 0px;
-        text-decoration: none;
-      }
-      .text-p {
-        &:last-of-type {
-          margin-top: 10px;
+      &-additional {
+        margin-top: 70px;
+        .text-p {
+          font-weight: 500;
+          font-size: 1.063rem;
+          &:last-of-type {
+            margin-top: 10px;
+          }
+          a {
+            text-decoration: none;
+          }
         }
       }
-    }
-
-    .socials {
-      margin-bottom: 60px;
-      margin-top: auto;
     }
   }
 
   &-lists {
-    width: calc(100% - 550px);
+    padding-top: 160px;
+    width: calc(100% - 420px);
     max-width: 800px;
     &-category {
       position: relative;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
       &:last-child {
         margin-bottom: 0px;
       }
@@ -67,7 +53,7 @@
       h5 {
         letter-spacing: 0.063rem;
         text-transform: uppercase;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         text-align: left;
         font-size: 0.938rem;
         font-family: $light-font;

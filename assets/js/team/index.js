@@ -1,5 +1,5 @@
 import { addEvent, getElements, init } from "../common.js";
-
+import "https://unpkg.com/swiper/swiper-bundle.min.js";
 window.onload = () => {
   init();
   initSlider();
