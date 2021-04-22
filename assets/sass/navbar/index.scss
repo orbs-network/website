@@ -90,8 +90,8 @@
   overflow: hidden;
   pointer-events: none;
   transition: 0.2s all ease-in;
-  display: flex;
   justify-content: center;
+  display: none;
 
   &-bg {
     background: #1a1a1a;

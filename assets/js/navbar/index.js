@@ -52,4 +52,12 @@ export const addListenersToNavbar = () => {
   addEvent(subscribeBtn, "click", showSubscribePopup);
   const overlay = getElement(".subscribe-popup-overlay");
   addEvent(overlay, "click", hideSubscribePopup);
+  setTimeout(() => {
+    onNavbarLoad();
+  }, 200);
+};
+
+const onNavbarLoad = () => {
+  const menu = getElement(".nav-menu");
+  menu.style.display = "flex";
 };
