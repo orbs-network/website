@@ -1508,8 +1508,8 @@ main {
   overflow: hidden;
   pointer-events: none;
   transition: 0.2s all ease-in;
-  display: flex;
-  justify-content: center; }
+  justify-content: center;
+  display: none; }
   .nav-menu-bg {
     background: #1a1a1a;
     width: 55vw;
