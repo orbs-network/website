@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 linesLimit: 3
 title: fees And Bootstrap Rewards
 readMoreButton: read more

@@ -1,6 +1,6 @@
 import React from "react";
 import { cardsWeights } from "../../../../assets/js/consts/consts";
-import Img from "../../common/Img";
+import Img from "../../shared/Img";
 import CardTitle from "./components/card-title";
 
 const BlogPost = (props) => {

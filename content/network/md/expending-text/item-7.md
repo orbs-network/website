@@ -1,5 +1,5 @@
 ---
-layout: partials/common/expendable-text-box
+layout: partials/shared/expendable-text-box
 title: More on the Overview
 readMoreButton: read more
 readLessButton: read less

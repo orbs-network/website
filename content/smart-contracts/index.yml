@@ -1,18 +1,12 @@
-title: pos
-layout: pages/smart-contracts
+title: POS
+layout: pages/page
 script: smart-contracts/index
 
 header:
-  - /_shared/header/header.md
+  - /_shared/header/index.md
 
-content:
-  - md/body.md
-
-linkBack:
-  - md/links/link.md
+main:
+  - body.md
 
 footer:
   - /_shared/footer/footer.md
-
-pageHeader:
-  - md/page-header/page-header.md

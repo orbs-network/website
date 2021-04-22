@@ -1,21 +1,21 @@
 import React from "react";
-import Img from "../common/Img";
+import Img from "../shared/Img";
 import BlogHeader from "./blog-header";
 
-const SingleBlog = (props) => {
-  const { _body, _ID, _relativeURL, image } = props;
+const Blog = (props) => {
+  const { _body, image, _relativeURL, _ID } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="single-blog">
+    <React.Fragment>
       <BlogHeader {...props} />
-      <div className="single-blog-body">
+      <div className="single-blog-body main-grid">
         <Img src={generateUrl(image)} className="single-blog-body-bg" />
         {_body}
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
-export default SingleBlog;
+export default Blog;

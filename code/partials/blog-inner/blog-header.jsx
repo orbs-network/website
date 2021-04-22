@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../common/Img";
+import Img from "../shared/Img";
 
 const BlogHeader = (props) => {
   const {

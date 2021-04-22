@@ -1,10 +1,10 @@
 import React from "react";
-import Img from "../../common/Img";
+import Img from "../../shared/Img";
 
 const MenuToggle = ({ url, toggleImg, customClassName, image }) => {
-  const className = `menu-burger ${customClassName}`;
+  const className = `menu-burger-toggle ${customClassName}`;
   return (
-    <div className="menu-burger-wrapper flex-start">
+    <div className="menu-burger flex-start">
       <button className={className}>
         {toggleImg ? (
           <Img src={toggleImg} />
@@ -16,8 +16,8 @@ const MenuToggle = ({ url, toggleImg, customClassName, image }) => {
           </React.Fragment>
         )}
       </button>
-      <a href={url} className="flex-center">
-        <Img src={image} className="logo" />
+      <a href={url} className="logo">
+        <Img src={image} />
       </a>
     </div>
   );

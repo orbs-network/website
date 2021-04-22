@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: What consensus algorithm does Orbs run on?
 color: "#1EB8E6"
 ---

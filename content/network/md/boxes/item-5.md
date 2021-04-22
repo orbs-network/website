@@ -1,5 +1,5 @@
 ---
-layout: partials/common/boxes/boxes
+layout: partials/shared/boxes/box
 image: /assets/img/overview/triangle.svg
 ---
 

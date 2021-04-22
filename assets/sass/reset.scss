@@ -157,4 +157,26 @@ button {
 button {
   background: transparent;
   cursor: pointer;
+  border: none;
+}
+
+:root {
+  font-size: 100%;
+}
+p,
+li {
+  font-family: $text-font;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.label {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  font-family: "Montserrat";
 }

@@ -5,7 +5,7 @@ title: Overview
 
 links:
   - name: the orbs network
-    url: /overview
+    url: /network
   - name: orbs smart contracts
     url: /smart-contracts
     subLink: true

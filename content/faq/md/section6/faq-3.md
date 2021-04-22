@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: Where can I find more info on Orbs and DeFi?
 color: "#B01EE6"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: Is there a locking period?
 color: "#1EE6CF"
 ---

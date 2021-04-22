@@ -1,7 +1,7 @@
 ---
 layout: partials/footer/footer-bottom
 socials:
-  - ../socials.md
+  - ../socials/index.md
 
 text:
   placeholder: SUBSCRIBE FOR UPDATES

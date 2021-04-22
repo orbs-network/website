@@ -1,17 +1,18 @@
 ---
 layout: partials/navbar/menu-links
 title: About
+
 links:
   - name: White papers
     url: /white-papers
   - name: Team
     url: /team
-  - name: partnerships
-    url: /partnerships
+  - name: orbs ecosystem
+    url: /ecosystem
   - name: Faq
     url: /faq
   - name: Blog
     url: /blog
-  - name: Contact
+  - name: Contact us
     url: /contact
 ---

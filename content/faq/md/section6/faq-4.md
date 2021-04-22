@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: How can I get involved in Orbs DeFi projects?
 color: "#B01EE6"
 ---

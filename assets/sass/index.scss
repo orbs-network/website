@@ -1,25 +1,20 @@
-@import "./colors/colors.scss";
 @import "./consts.scss";
 @import "./fonts.scss";
-@import "./common/common.scss";
-
-@import "./main.scss";
-
+@import "./common/index.scss";
 @import "./reset";
-@import "./partial-components/partial-components";
+@import "./partial-components/index.scss";
 @import "./team/index";
 @import "./home/home";
 @import "./home/cards.scss";
-
-@import "./navbar/navbar.scss";
-@import "./footer/footer.scss";
+@import "./navbar/index.scss";
+@import "./footer/index.scss";
 @import "./faq/faq.scss";
-@import "./blog/blog.scss";
-@import "./blog/blog-inner.scss";
-
+@import "./blogs/index.scss";
+@import "./blog/index.scss";
 @import "./network/index.scss";
 @import "./universe/index.scss";
-@import "./smart-contracts/smart-contracts.scss";
-@import "./white-papers/white-papers.scss";
-@import "./partnerships/partnerships.scss";
-@import "./contact/contact.scss";
+@import "./smart-contracts/index.scss";
+@import "./white-papers/index.scss";
+@import "./white-paper/index.scss";
+@import "./ecosystem/index.scss";
+@import "./contact/index.scss";

@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: What are some of Orbs technological innovations?
 color: "#E61EA9"
 ---

@@ -1,8 +1,8 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
-import Img from "../../common/Img";
-import InnerLinks from "../../common/inner-links";
+import Img from "../../shared/Img";
+import InnerLinks from "../../shared/inner-links";
 import MemberPopup from "./member-popup";
 
 const Member = (props) => {
@@ -24,7 +24,7 @@ const Member = (props) => {
   return (
     <div
       className="team-member flex-column"
-      data-aos={animations.fadeTop}
+      data-aos={animations.fadeIn}
       style={{
         background: `url('${generateUrl(avatar)}')`,
         backgroundSize: "cover",

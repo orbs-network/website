@@ -17,4 +17,5 @@ export const globeConfig = {
   minTransformY: -50,
   additionalWidth: window.innerWidth / 5,
   additionalHeight: window.innerHeight / 5,
+  backgroundImg: images.globe.bg,
 };

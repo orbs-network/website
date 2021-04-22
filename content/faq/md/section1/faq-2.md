@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: what is teh connection between Orbs and Etheteum
 color: "#E61EA9"
 ---

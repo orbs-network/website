@@ -1,5 +1,5 @@
 ---
-layout: partials/common/opening-box
+layout: partials/shared/opening-box
 title: How does the Orbs rewards distribution work?
 color: "#1EE6CF"
 ---

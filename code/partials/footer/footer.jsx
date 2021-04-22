@@ -1,17 +1,17 @@
 import React from "react";
 
-const Footer = ({ posts, tweets, navigation, logoSection, bottomSection }) => {
+const Footer = ({ tweetsAndPosts, navigation, logoSection, bottomSection }) => {
   return (
     <footer className="footer">
       <div className="main-grid">
         <div className="footer-flex">
           {logoSection}
-          {posts}
-          {tweets}
-        </div>
 
-        {bottomSection}
+          {tweetsAndPosts}
+        </div>
       </div>
+      {navigation}
+      {bottomSection}
     </footer>
   );
 };

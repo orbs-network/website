@@ -1,5 +1,5 @@
 ---
-layout: partials/common/page-header/page-header
+layout: partials/shared/page-header/page-header
 image: /assets/img/overview/overview.png
 title:
   - title.md
