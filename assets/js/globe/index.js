@@ -6,8 +6,9 @@ import {
 } from "../common.js";
 import { globeConfig } from "./config.js";
 import "https://chancejs.com/chance.min.js";
-import "//unpkg.com/three";
-import "//unpkg.com/globe.gl";
+
+import "http://unpkg.com/globe.gl";
+import "http://unpkg.com/three";
 import { GlobeController } from "./globe.js";
 import {
   getRandomCardByWeight,
