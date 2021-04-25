@@ -2,23 +2,28 @@
   .footer {
     background: black;
   }
-  &-header {
-    height: 70vh;
-    background-size: cover;
-    margin-bottom: 70px;
+  &-bg {
+    width: 100%;
+    height: 412px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-header {
+    max-width: 980px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     .title {
-      font-size: 40px;
       color: white;
-      font-family: $bold-font;
-      line-height: 60px;
-      text-align: center;
-      text-transform: uppercase;
+      text-align: start;
+      h1 {
+        margin-bottom: 0px;
+      }
     }
     &-bg {
       position: absolute;
@@ -29,17 +34,15 @@
       object-position: center;
       height: 100%;
     }
-    &-content {
-      position: relative;
-    }
+
     &-author {
-      margin-top: 40px;
+      margin-top: 15px;
       display: flex;
-      justify-content: center;
-      &-img {
-        display: none;
-        width: 80px;
-        height: 80px;
+      justify-content: flex-start;
+      align-items: center;
+      &-avatar {
+        width: 36px;
+        height: 36px;
         border-radius: 50%;
         overflow: hidden;
         margin-right: 15px;
@@ -50,27 +53,17 @@
           object-fit: cover;
         }
       }
-      &-details {
-        a,
-        p {
-          margin-right: 5px;
-          text-decoration: none;
-          font-size: 20px;
-        }
-        a {
-          &:hover {
-            text-decoration: underline;
-          }
-          &:last-of-type {
-            font-weight: 600;
-          }
-        }
+      a,
+      p {
+        text-decoration: none;
+        margin-right: 5px;
+        font-size: 0.875rem;
       }
     }
   }
   &-bottom {
     margin: auto;
-    margin-top: 100px;
+
     background: black;
     padding: 50px 0px;
     width: 100%;
@@ -107,8 +100,17 @@
     }
   }
   &-body {
-    width: 800px;
+    background: white;
     margin: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    &-grid {
+      width: 750px;
+      margin: auto;
+    }
+    * {
+      color: black;
+    }
     &-bg {
       width: 100%;
       height: auto;
