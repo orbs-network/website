@@ -1,4 +1,5 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 import Img from "../shared/Img";
 
 const Section = ({ src, title, btnText }) => {
@@ -18,9 +19,6 @@ const BlogGetInvloved = ({
   githubButton,
   documentationTitle,
   documentationButton,
-  whitePapersImage,
-  githubImage,
-  documentationImage,
   _relativeURL,
   _ID,
   title,
@@ -33,18 +31,18 @@ const BlogGetInvloved = ({
       <h3 className="single-blog-bottom-title">{title}</h3>
       <div className="single-blog-bottom-flex flex-between">
         <Section
-          src={generateUrl(whitePapersImage)}
+          src={generateUrl(images.blog.logo)}
           title={whitePapersTitle}
           btnText={whitePapersButton}
         />
 
         <Section
-          src={generateUrl(githubImage)}
+          src={generateUrl(images.blog.github)}
           title={githubTitle}
           btnText={githubButton}
         />
         <Section
-          src={generateUrl(documentationImage)}
+          src={generateUrl(images.blog.documents)}
           title={documentationTitle}
           btnText={documentationButton}
         />
