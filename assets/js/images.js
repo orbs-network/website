@@ -62,7 +62,8 @@ export const images = {
     twitter: `${prefix}/socials/twitter.svg`,
   },
   blog: {
-    calendar: `${prefix}/blog/calendar.svg`,
-    category: `${prefix}/blog/category.svg`,
+    logo: `${prefix}/blog-inner/logo.svg`,
+    documents: `${prefix}/blog-inner/documents.svg`,
+    github: `${prefix}/blog-inner/github.svg`,
   },
 };
