@@ -1,5 +1,3 @@
-const { animations } = require("./assets/js/consts/consts");
-
 // custom markdown extensions
 module.exports = exports = function renderer({
   Marked,
