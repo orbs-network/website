@@ -9,7 +9,6 @@ const Page = ({ title, header, footer, script, _relativeURL, _ID, main }) => (
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <link
         rel="stylesheet"
@@ -25,6 +24,7 @@ const Page = ({ title, header, footer, script, _relativeURL, _ID, main }) => (
           src={_relativeURL(`/assets/js/${script}.js`, _ID)}
         />
       ) : null}
+
       {footer && footer}
     </body>
   </html>
