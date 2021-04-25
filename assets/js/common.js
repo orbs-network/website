@@ -1,6 +1,5 @@
 import { addListenersToFooter } from "./footer/index.js";
 import { handleNavbarScroll, addListenersToNavbar } from "./navbar/index.js";
-
 export const getElement = (element) => {
   try {
     return document.querySelector(element);
