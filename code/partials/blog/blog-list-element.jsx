@@ -1,5 +1,6 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
+import { formatBlogDate } from "../../util/date";
 import Img from "../shared/Img";
 
 const BlogListElement = (props) => {
@@ -31,7 +32,7 @@ const BlogListElement = (props) => {
             <Img src={generateUrl(authorImage)} />
             <p>{authorName}</p>
             <small>|</small>
-            <p>{date}</p>
+            <p>{formatBlogDate(date)}</p>
           </div>
         </div>
       </a>

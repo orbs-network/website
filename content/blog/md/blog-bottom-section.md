@@ -1,6 +1,6 @@
 ---
 layout: partials/blog-inner/bottom-section
-title: GET INVOLVED
+title: Get involved
 
 whitePapersImage: /assets/img/blog-inner/github.svg
 whitePapersTitle: White papers
@@ -11,6 +11,6 @@ githubTitle: GitHub Repo
 githubButton: Review the code & contribute
 
 documentationImage: /assets/img/blog-inner/github.svg
-documentationTitle: documentation
-documentationButton: developer documentation
+documentationTitle: Documentation
+documentationButton: Developer documentation
 ---
