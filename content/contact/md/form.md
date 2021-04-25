@@ -18,4 +18,6 @@ emptyInputError: Please fill the field
 incorrentEmail: Please insert valid email
 incorrentPhone: Please insert valid phone number
 submit: submit
+success:
+  - success.md
 ---

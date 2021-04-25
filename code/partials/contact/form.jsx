@@ -1,4 +1,5 @@
 import React from "react";
+import Loader from "../shared/loader";
 const Form = ({
   title,
   firstName,
@@ -16,6 +17,7 @@ const Form = ({
   incorrentPhone,
   emptyInputError,
   subTitle,
+  success,
 }) => {
   const data = [
     {
@@ -60,49 +62,55 @@ const Form = ({
   ];
 
   return (
-    <form className="contact-form flex-column">
+    <div className="contact-container">
       {title}
-      <h3 className="contact-form-sub-title">{subTitle}</h3>
-      <div className="contact-form-inputs flex-between">
-        {data.map((input, index) => {
-          const {
-            name,
-            placeholder,
-            className,
-            error,
-            type,
-            isRequired,
-            validationText,
-          } = input;
-          return (
-            <section key={index} className="contact-form-inputs-section">
-              <label htmlFor={name}>{name}</label>
-              <input
-                data-type={type}
-                data-required={isRequired}
-                type="text"
-                placeholder={placeholder}
-                name={name}
-                className={className}
-              />
-              {isRequired && (
-                <aside className={`${className}-error form-error`}>
-                  {error}
-                </aside>
-              )}
+      <form className="contact-form flex-column">
+        {success}
+        <h3 className="contact-form-sub-title">{subTitle}</h3>
+        <div className="contact-form-inputs flex-between">
+          {data.map((input, index) => {
+            const {
+              name,
+              placeholder,
+              className,
+              error,
+              type,
+              isRequired,
+              validationText,
+            } = input;
+            return (
+              <section key={index} className="contact-form-inputs-section">
+                <label htmlFor={name}>{name}</label>
+                <input
+                  data-type={type}
+                  data-required={isRequired}
+                  type="text"
+                  placeholder={placeholder}
+                  name={name}
+                  className={className}
+                />
+                {isRequired && (
+                  <aside className={`${className}-error form-error`}>
+                    {error}
+                  </aside>
+                )}
 
-              {validationText && (
-                <aside className={`${className}-validation-error form-error`}>
-                  {validationText}
-                </aside>
-              )}
-            </section>
-          );
-        })}
-      </div>
+                {validationText && (
+                  <aside className={`${className}-validation-error form-error`}>
+                    {validationText}
+                  </aside>
+                )}
+              </section>
+            );
+          })}
+        </div>
 
-      <input type="submit" value={submit} className="contact-form-submit" />
-    </form>
+        <div className="contact-form-submit-container">
+          <input type="submit" value={submit} className="contact-form-submit" />
+          <Loader />
+        </div>
+      </form>
+    </div>
   );
 };
 
