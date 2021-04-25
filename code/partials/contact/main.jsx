@@ -1,12 +1,7 @@
 import React from "react";
 
-const Main = ({ form, successPopup }) => {
-  return (
-    <main className="contact flex-center">
-      {form}
-      {successPopup}
-    </main>
-  );
+const Main = ({ form }) => {
+  return <main className="contact flex-center page-padding-top">{form}</main>;
 };
 
 export default Main;

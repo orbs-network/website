@@ -1,4 +1,5 @@
 import React from "react";
+import { daysFromDate } from "../../util/date";
 import Img from "../shared/Img";
 
 const Blog = (props) => {
@@ -15,6 +16,9 @@ const Blog = (props) => {
     projectName,
     title,
     projectUrl,
+    readTime,
+    date,
+    daysAgo,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -31,6 +35,10 @@ const Blog = (props) => {
           <a href={authorUrl}>{authorName}</a>
           <p>{inThe}</p>
           <a href={projectUrl}>{projectName}</a>
+          <p>|</p>
+          <p>{`${daysFromDate(date)} ${daysAgo}`}</p>
+          <p>&middot;</p>
+          <p>{readTime}</p>
         </div>
       </div>
       <figure className="single-blog-bg">
