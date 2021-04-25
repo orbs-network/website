@@ -129,7 +129,10 @@ const handleSubmit = (e) => {
     phone: phone && phone.value,
     comment: comment && comment.value,
   };
-  showPopup();
+  handleLoading();
+  setTimeout(() => {
+    handleSuccess();
+  }, 2000);
 };
 
 const validateInputsOnSubmit = () => {
@@ -156,9 +159,16 @@ const hidePopup = () => {
   popup.classList.remove("active-popup");
 };
 
-const showPopup = () => {
-  const popup = getElement(".contact-success-popup");
-  popup.classList.add("active-popup");
+const handleSuccess = () => {
+  const form = getElement(".contact-form");
+  form.classList.add("form-submitted");
+};
+
+const handleLoading = () => {
+  const submitBtn = getElement(".contact-form-submit");
+  const loader = getElement(".loader");
+  submitBtn.style.display = "none";
+  loader.style.display = "block";
 };
 
 const handleSuccessPopupClose = () => {
