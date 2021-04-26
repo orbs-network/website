@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: PoS on Ethereum
+title: POS ON ETHEREUM
 readMoreButton: read more
 readLessButton: read less
 border: true

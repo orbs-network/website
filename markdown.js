@@ -22,7 +22,7 @@ module.exports = exports = function renderer({
   Marked.heading = (text, level) => {
     return `<h${level} id="${text
       .toLowerCase()
-      .replace(/[^\w]+/g, "-")}"  class='title'
+      .replace(/[^\w]+/g, "-")}"  class='md-title md-title-h${level}'
     >${text}</h${level}>\n`;
   };
 

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap");
 html {
   height: 100%;
 }
@@ -61,12 +59,7 @@ main {
   text-overflow: ellipsis;
   width: 90%;
 }
-.text {
-  display: flex;
-  * {
-    margin-bottom: 0px;
-  }
-}
+
 * {
   user-select: none;
 }
@@ -127,9 +120,7 @@ main {
     justify-content: space-between;
     li {
       align-items: center;
-      margin-top: 50px;
-      padding-left: 10px;
-      padding-right: 10px;
+
       .text-p {
         text-align: center;
         margin-bottom: 0px;
@@ -140,11 +131,11 @@ main {
       }
     }
     &-img {
-      width: 40px;
-      height: 40px;
+      width: 45px;
+      height: 45px;
 
       border-radius: 50%;
-      margin-bottom: 20px;
+      margin-bottom: 27px;
       img {
         width: 100%;
         height: 100%;
@@ -153,63 +144,16 @@ main {
     }
   }
 }
-.grid-1 {
-  li {
-    width: 100%;
-    &:nth-of-type(1) {
-      margin-top: 0px;
-    }
-  }
-}
-.grid-2 {
-  li {
-    width: calc(50% - 20px);
-    &:nth-of-type(-n + 2) {
-      margin-top: 0px;
-    }
-  }
-}
-.grid-3 {
-  li {
-    width: calc(100% / 3 - 20px);
-    &:nth-of-type(-n + 3) {
-      margin-top: 0px;
-    }
-  }
-}
-.grid-4 {
-  li {
-    width: calc(100% / 4 - 20px);
-    &:nth-of-type(-n + 4) {
-      margin-top: 0px;
-    }
-  }
-}
-.grid-5 {
-  li {
-    width: calc(100% / 5 - 20px);
-    &:nth-of-type(-n + 5) {
-      margin-top: 0px;
-    }
-  }
-}
-.grid-6 {
-  li {
-    width: calc(100% / 6 - 20px);
-    &:nth-of-type(n + 5) {
-      margin-top: 0px;
-    }
-  }
-}
+
 .expending-box {
   &-title {
     letter-spacing: 1px;
     font-size: 1.438rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 30px;
     line-height: 26px;
     margin-top: 40px;
-    line-height: 2rem;
+    line-height: 2.3rem;
 
     &:first-child {
       margin-top: 0px;
@@ -218,10 +162,7 @@ main {
 
   .expend-btn {
     @extend .btn;
-    margin-top: 30px;
-    &-close {
-      display: none;
-    }
+    margin-top: 40px;
   }
   &-border-top {
     border-top: 1px solid #707070;
@@ -236,13 +177,14 @@ main {
 .expending-box-list {
   .expending-box-title {
     font-size: 1.063rem;
+    margin-bottom: 20px;
   }
   ul {
     li {
       font-size: 0.875rem;
       margin-bottom: 15px;
       position: relative;
-      padding-left: 30px;
+      padding-left: 25px;
       line-height: 1.7rem;
       &:after {
         position: absolute;
@@ -252,26 +194,8 @@ main {
         background: #ff3ee1;
         content: "";
         left: 0px;
-        top: 6px;
+        top: 8px;
       }
-    }
-    &:last-child {
-      margin-bottom: 0px;
-    }
-  }
-}
-.title {
-  h1 {
-    font-size: 1.75rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    font-family: $bold-font;
-    position: relative;
-    color: #03fcf5;
-    margin: 0px;
-    &:first-child {
-      margin-bottom: 10px;
     }
     &:last-child {
       margin-bottom: 0px;
@@ -281,31 +205,29 @@ main {
 
 .boxes {
   &-title {
-    margin-bottom: 10px;
+    margin-bottom: 45px;
     color: #ff2cbf;
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: 500;
     letter-spacing: 2.9px;
   }
   &-list {
+    flex-wrap: wrap;
     align-items: stretch;
-
+    @include grid-3(14px, 14px, calc(100% / 3 - 14px));
     .box {
       border: 1px solid white;
-      padding: 25px;
+      padding: 31px 27px 37px 34px;
       display: flex;
       flex-direction: column;
       min-height: 400px;
-      margin-top: 14px;
-      margin-right: 14px;
-      p {
-        margin-bottom: 20px;
-      }
+
       h5 {
-        font-size: 1.438rem;
-        margin-bottom: 16px;
+        font-size: 1.25rem;
+        margin-bottom: 30px;
         line-height: 2rem;
-        font-weight: 500;
+        font-weight: 600;
+        padding-right: 40px;
       }
       figure {
         width: 35px;
@@ -340,13 +262,13 @@ main {
   margin-top: 60px;
   margin-bottom: 60px;
   p {
-    letter-spacing: 1.3px;
-    font-size: 14px;
-    padding-top: 3px;
+    letter-spacing: 0.081rem;
+    font-size: 0.75rem;
+    padding-top: 2px;
   }
   .link-btn-arrow {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     position: absolute;
     transition: 0.2s all;
     top: 50%;

@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: Operating the Network Validator Nodes
+title: OPERATING THE NETWORK VALIDATOR NODES
 readMoreButton: read more
 readLessButton: read less
 border: true
