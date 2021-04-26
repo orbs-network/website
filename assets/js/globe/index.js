@@ -5,10 +5,7 @@ import {
   onMouseEnterAndLeaveEvent,
 } from "../common.js";
 import { globeConfig } from "./config.js";
-import "https://chancejs.com/chance.min.js";
 
-import "https://unpkg.com/globe.gl";
-import "https://unpkg.com/three";
 import { GlobeController } from "./globe.js";
 import {
   getRandomCardByWeight,
@@ -148,7 +145,6 @@ const handleAutoPointSelect = () => {
   const inViewPoints = checkIfPointInView(points);
 
   const point = getRandomGlobePoint(inViewPoints);
-
   // Your 3d point to check
   const { x, y } = getPointCoordinates(point, globe);
   selectCard(x, y);

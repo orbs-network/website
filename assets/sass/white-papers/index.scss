@@ -1,19 +1,13 @@
 .white-papers {
+  .page-header {
+    height: 303px;
+    margin-bottom: 0px;
+  }
   &-list {
     width: 100%;
     margin: auto;
 
     margin-bottom: 150px;
-    &-flex {
-      margin-top: 90px;
-    }
-    &-title {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 1.75rem;
-      font-family: $bold-font;
-      color: #03fcf5;
-    }
   }
   &-box {
     align-items: flex-start;

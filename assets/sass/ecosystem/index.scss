@@ -1,31 +1,39 @@
 .ecosystem {
-  main {
-    margin-bottom: 40px;
-  }
   .title {
     text-align: center;
   }
   &-grid {
     width: 100%;
     align-items: flex-start;
-    margin-top: 60px;
+    margin-top: 70px;
     justify-content: space-between;
+    margin-bottom: 180px;
     &-section {
-      width: calc(100% / 3 - 4vw);
-      max-width: 330px;
+      width: calc(100% / 3 - 3vw);
+
+      &:nth-child(1) {
+        max-width: 310px;
+      }
+      &:nth-child(2) {
+        max-width: 325px;
+      }
+      &:nth-child(3) {
+        max-width: 345px;
+      }
       &-figure {
-        height: 21vw;
-        width: 21vw;
-        max-width: 330px;
-        max-height: 330px;
+        width: 450px;
+        height: 450px;
         margin: auto;
         border-radius: 50%;
-        margin-bottom: 120px;
-        margin-top: 100px;
+        margin-bottom: 45px;
+        margin-top: 60px;
         border: 2px solid white;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
         img {
           width: 150px;
           height: auto;
@@ -37,21 +45,26 @@
   &-category {
     margin-bottom: 60px;
     &-title {
-      padding-bottom: 20px;
-      margin-bottom: 20px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      font-size: 1.438rem;
+      font-size: 1.063rem;
       font-weight: 500;
-
       letter-spacing: 0.031rem;
+      border-bottom: 1px solid #707070;
+      h5 {
+        background: white;
+        padding: 20px 25px 15px 16px;
+        color: #191919;
+        width: fit-content;
+      }
     }
     &-list {
       flex-wrap: wrap;
+      padding-top: 50px;
       .image {
         width: calc(50% - 20px);
         height: auto;
 
-        margin-top: 35px;
+        margin-top: 25px;
         &:nth-of-type(1),
         &:nth-of-type(2) {
           margin-top: 0px;
@@ -60,6 +73,7 @@
           width: 100%;
           max-height: 80px;
           object-fit: contain;
+          object-position: left;
         }
         &:nth-of-type(even) {
           margin-left: auto;

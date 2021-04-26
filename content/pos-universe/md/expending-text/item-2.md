@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: A New Rewards Assignment and Distribution Architecture
+title: A NEW REWARDS ASSIGNMENT AND DISTRIBUTION ARCHITECTURE
 readMoreButton: read more
 readLessButton: read less
 border: true

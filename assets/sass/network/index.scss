@@ -2,8 +2,8 @@
   .images-grid {
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    margin: 100px 0px 0px 0px;
-    padding-bottom: 70px;
+    margin: 130px 0px 0px 0px;
+    padding-bottom: 100px;
 
     &-list {
       max-width: 870px;
@@ -11,31 +11,44 @@
     }
   }
 
+  .boxes-list {
+    .box {
+      margin-top: 0px;
+      &:nth-child(3n) {
+        margin-right: 0px;
+      }
+    }
+  }
+
   &-content {
     &-top {
       .expending-box {
         &-content {
-          max-width: 850px;
+          max-width: 879px;
           width: 100%;
         }
         margin-bottom: 45px;
-        &:last-child {
+        &:nth-last-child(2) {
           margin-bottom: 0px;
         }
+        &:nth-child(1) {
+          max-width: 740px;
+        }
+      }
+      .images-grid {
+        margin-top: 125px;
+        @include grid-3(55px, 20px, calc(100% / 3 - 20px));
       }
     }
-    .box {
-      width: calc(100% / 3 - 10px);
-      margin-right: 10px;
-    }
+
     &-flex {
-      margin-top: 60px;
-      margin-bottom: 80px;
+      margin-top: 70px;
+      margin-bottom: 105px;
       .expending-box {
         width: 50%;
       }
       .expending-box-list {
-        padding-top: 40px;
+        padding-top: 50px;
       }
       .images-grid {
         margin: 0px;
@@ -48,6 +61,9 @@
     }
     &-first-section {
       .expending-box {
+        &:first-child {
+          max-width: 615px;
+        }
         &:last-child {
           padding-left: 100px;
         }
@@ -55,10 +71,21 @@
     }
     &-second-section {
       .images-grid {
-        padding-top: 20px;
+        max-width: 700px;
+        padding-top: 17px;
+        &-list-img {
+          margin-bottom: 35px;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+
+        @include grid-2(80px, 45px, calc(50% - 45px));
       }
       .expending-box {
-        padding-right: 120px;
+        max-width: 495px;
+        padding-right: 50px;
       }
     }
   }

@@ -7,7 +7,6 @@ const Main = ({ pageHeader, link, firstFlex, secondFlex, thirdFlex }) => {
       <div className="main-grid">
         {firstFlex}
         {secondFlex}
-
         {thirdFlex}
       </div>
       {link}

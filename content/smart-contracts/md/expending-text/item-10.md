@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: "Fees wallets: general Fees Wallet and certified Fees Wallet"
+title: "FEES WALLETS: GENERAL FEES WALLET AND CERTIFIEDFEES WALLET"
 readMoreButton: read more
 readLessButton: read less
 border: true
