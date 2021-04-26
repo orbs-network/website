@@ -18,6 +18,7 @@ const Categories = (props) => {
     oracles,
     defi,
     _relativeURL,
+    socialImpact,
     _ID,
   } = props;
   const generateUrl = (url) => {
@@ -28,7 +29,7 @@ const Categories = (props) => {
       <Section>
         {exchange}
         {transparencyAndData}
-        {staking}
+        {socialImpact}
       </Section>
       <Section>
         {partnerships}
@@ -40,9 +41,10 @@ const Categories = (props) => {
       <Section>
         {wallets}
 
-        {oracles}
         {defi}
         {media}
+        {staking}
+        {oracles}
       </Section>
     </div>
   );

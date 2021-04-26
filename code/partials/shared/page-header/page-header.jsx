@@ -21,6 +21,7 @@ const PageHaeder = ({ image, video, title, _relativeURL, _ID, subTitle }) => {
           <img src={generateUrl(image)} />
         ) : null}
         {title}
+        <aside className="page-header-gradient" />
       </figure>
       {subTitle}
     </div>

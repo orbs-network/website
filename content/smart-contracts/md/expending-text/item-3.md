@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: staking Contract Handler
+title: STAKING CONTRACT HANDLER
 readMoreButton: read more
 readLessButton: read less
 border: true

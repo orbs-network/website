@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: Contracts Management and Governance Architecture
+title: CONTRACTS MANAGEMENT AND GOVERNANCE ARCHITECTURE
 border: true
 ---
 

@@ -1,11 +1,13 @@
 import { globeConfig } from "./config.js";
+import "https://chancejs.com/chance.min.js";
+
+import "https://unpkg.com/globe.gl";
+import "https://unpkg.com/three";
 import {
   generatePathData,
-  getGlobeBackGroundImage,
   getPointCoordinates,
   getRandomPointLatLng,
 } from "./util.js";
-import { geo } from "./geo.js";
 
 export class GlobeController {
   globe = null;
@@ -82,14 +84,12 @@ export class GlobeController {
   };
 
   createMesh(d) {
-    const group = new THREE.Mesh();
-
-    const mesh = new THREE.Mesh(
-      new THREE.SphereBufferGeometry(d.radius),
-      new THREE.MeshLambertMaterial({ color: globeConfig.orbsMainColor })
-    );
-
-    return mesh;
+    // const group = new THREE.Mesh();
+    // const mesh = new THREE.Mesh(
+    //   new THREE.SphereBufferGeometry(d.radius),
+    //   new THREE.MeshLambertMaterial({ color: globeConfig.orbsMainColor })
+    // );
+    // return mesh;
   }
 
   moveSpheres = () => {
@@ -106,22 +106,35 @@ export class GlobeController {
     renderer.render(scene, camera);
     requestAnimationFrame(this.moveSpheres);
   };
+  // setGlobePoints = () => {
+  //   this.globe
+
+  //     .customLayerData(this.points)
+  //     .customThreeObject((d) => this.createMesh(d))
+
+  //     .customThreeObjectUpdate((obj, d) => {
+  //       Object.assign(
+  //         obj.position,
+  //         this.globe.getCoords(d.lat, d.lng, d.alt, d.radius)
+  //       );
+  //     })
+  //     .onCustomLayerHover((point) => this.handleHover(point));
+
+  //   this.moveSpheres();
+  // };
+
   setGlobePoints = () => {
     this.globe
 
-      .customLayerData(this.points)
-      .customThreeObject((d) => this.createMesh(d))
-
-      .customThreeObjectUpdate((obj, d) => {
-        Object.assign(
-          obj.position,
-          this.globe.getCoords(d.lat, d.lng, d.alt, d.radius)
-        );
-      })
-      .onCustomLayerHover((point) => this.handleHover(point));
+      .pointsData(this.points)
+      .pointAltitude(0.001)
+      .pointRadius(0.8)
+      .pointColor(() => "white")
+      .onPointHover((point) => this.handleHover(point));
 
     this.moveSpheres();
   };
+
   onClick = (point, event) => {
     this.params.handlePointClick(point, event);
     this.startGlobeAutoRotation();
@@ -185,6 +198,6 @@ export class GlobeController {
   };
 
   getPoints() {
-    return this.globe.customLayerData();
+    return this.globe.pointsData();
   }
 }

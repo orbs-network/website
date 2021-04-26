@@ -22,8 +22,9 @@ const NetworkFlex = ({
         {expendingBox1}
         {expendingBox2}
         {expendingBox3}
+        {imagesGrid1}
       </div>
-      {imagesGrid1}
+
       <FlexSection customClassName="network-content-first-section">
         {expendingBox4}
         {expendingBox5}
