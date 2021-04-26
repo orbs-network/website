@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap");
-
 @font-face {
   font-family: "bold";
   src: url("../fonts/bold.otf");
@@ -26,3 +25,25 @@ $light-oblique-font: "light-oblique";
 $bold-font: "bold";
 $bold-oblique: "bold-oblique";
 $text-font: "Montserrat";
+
+.md-title {
+  &-h5 {
+    font-size: 1.063rem;
+    font-weight: 500;
+  }
+  &-h4 {
+    font-size: 1.438rem;
+    font-weight: 600;
+  }
+}
+
+.text-p {
+  letter-spacing: 0.019rem;
+  font-size: 0.875rem;
+  color: white;
+  line-height: 1.563rem;
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
