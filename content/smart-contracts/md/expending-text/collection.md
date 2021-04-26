@@ -18,4 +18,4 @@ list:
   - item-15.md
 ---
 
-### The following are the key Orbs contracts deployed over Ethereum:
+#### THE FOLLOWING ARE THE KEY ORBS CONTRACTS DEPLOYED OVER ETHEREUM:

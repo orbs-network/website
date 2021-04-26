@@ -19,6 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "globe.gl": "^2.21.1",
     "moment": "^2.29.1"
   },
   "devDependencies": {

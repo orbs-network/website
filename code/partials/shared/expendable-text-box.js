@@ -29,7 +29,7 @@ const ExpendableTextBox = ({
       data-aos={animations.fadeTop}
     >
       <div className="expending-box-content">
-        <h5 className="expending-box-title">{title}</h5>
+        {title && <h4 className="expending-box-title">{title}</h4>}
         <div
           className={
             linesLimit

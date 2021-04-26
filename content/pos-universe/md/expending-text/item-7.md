@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: Minimum Self Delegation
+title: MINIMUM SELF DELEGATION
 readMoreButton: read more
 readLessButton: read less
 border: true
