@@ -27,7 +27,13 @@ module.exports = exports = function renderer({
   };
 
   Marked.paragraph = (text) => {
-    return `<p  class='text-p'>${text}</p>\n`;
+    switch (text) {
+      case "...":
+        return `<p  class='text-p dots'>&middot;&middot;&middot;</p>`;
+
+      default:
+        return `<p  class='text-p'>${text}</p>`;
+    }
   };
 
   // example for adding a class

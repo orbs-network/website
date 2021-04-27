@@ -2,6 +2,7 @@
   .footer {
     background: black;
   }
+  padding-top: 170px;
 
   &-bg {
     width: 100%;
@@ -40,7 +41,7 @@
     }
 
     &-author {
-      margin-top: 15px;
+      margin-top: 30px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -49,7 +50,7 @@
         height: 36px;
         border-radius: 50%;
         overflow: hidden;
-        margin-right: 15px;
+        margin-right: 17px;
 
         img {
           width: 100%;
@@ -105,10 +106,10 @@
   &-body {
     background: white;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 53px;
     padding-bottom: 30px;
     &-grid {
-      width: 750px;
+      max-width: 664px;
       margin: auto;
     }
     * {
@@ -120,7 +121,13 @@
       margin-bottom: 40px;
     }
     .text-p {
-      margin-bottom: 20px;
+      margin-bottom: 26px;
+      font-size: 1rem;
+    }
+    .dots {
+      text-align: center;
+      letter-spacing: 10px;
+      font-size: 30px;
     }
     .image {
       width: 100%;

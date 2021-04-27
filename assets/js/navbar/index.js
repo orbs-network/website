@@ -10,14 +10,14 @@ export const hideMenu = () => {
   removeClass(menu, "nav-menu-show");
 };
 
-export const showSubscribePopup = (e) => {
-  const popup = getElement(".subscribe-popup");
-  popup.classList.add("subscribe-popup-active");
+export const showSubscribePopup = () => {
+  const popup = getElement(".subscribe");
+  popup.classList.add("subscribe-active");
 };
 
 export const hideSubscribePopup = () => {
-  const popup = getElement(".subscribe-popup");
-  popup.classList.remove("subscribe-popup-active");
+  const popup = getElement(".subscribe");
+  popup.classList.remove("subscribe-active");
 };
 
 export const navbarMenuOutsideClick = () => {
@@ -59,5 +59,7 @@ export const addListenersToNavbar = () => {
 
 const onNavbarLoad = () => {
   const menu = getElement(".nav-menu");
+  const subscribe = getElement(".subscribe");
   menu.style.display = "flex";
+  subscribe.style.display = "flex";
 };
