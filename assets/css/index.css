@@ -88,7 +88,8 @@
   display: flex;
   flex-direction: column; }
   .page-header .sub-title {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     position: relative;
     z-index: 10;
@@ -2430,6 +2431,9 @@ main {
       padding: 0px;
       padding-bottom: 3px;
       border-radius: 0px; }
+
+.smart-contracts .page-header {
+  margin-bottom: 75px; }
 
 .smart-contracts-flex-title {
   margin-bottom: 70px;
