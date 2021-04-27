@@ -10,16 +10,6 @@ export const hideMenu = () => {
   removeClass(menu, "nav-menu-show");
 };
 
-export const showSubscribePopup = () => {
-  const popup = getElement(".subscribe");
-  popup.classList.add("subscribe-active");
-};
-
-export const hideSubscribePopup = () => {
-  const popup = getElement(".subscribe");
-  popup.classList.remove("subscribe-active");
-};
-
 export const navbarMenuOutsideClick = () => {
   document.addEventListener("click", function (event) {
     const overlay = getElement(".nav-menu-content-flex");
@@ -48,10 +38,7 @@ export const addListenersToNavbar = () => {
   const closeMenu = getElement(".navbar-burger-close");
   addEvent(closeMenu, "click", hideMenu);
   navbarMenuOutsideClick();
-  const subscribeBtn = getElement(".subscribe-btn");
-  addEvent(subscribeBtn, "click", showSubscribePopup);
-  const overlay = getElement(".subscribe-popup-overlay");
-  addEvent(overlay, "click", hideSubscribePopup);
+
   setTimeout(() => {
     onNavbarLoad();
   }, 200);

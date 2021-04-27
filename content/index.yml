@@ -7,4 +7,4 @@ header:
 main:
   - home/body.md
 subscribe:
-  - /_shared/subscribe.md
+  - /_shared/subscribe/subscribe.md

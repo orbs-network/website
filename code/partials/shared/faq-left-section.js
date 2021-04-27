@@ -7,9 +7,10 @@ const FaqLeftSection = ({ text, faqCategories }) => {
       <p>{text.publicBlockchain}</p>
       <div className="faq-desc-links">
         {faqCategories &&
-          faqCategories.map((category) => {
+          faqCategories.map((category, index) => {
             return (
               <a
+                key={index}
                 href={`#${removeSpaces(category.name, "-")}`}
                 className="faq-desc-links-link"
               >
