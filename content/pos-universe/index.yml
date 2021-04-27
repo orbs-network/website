@@ -8,3 +8,5 @@ main:
   - body.md
 footer:
   - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe.md

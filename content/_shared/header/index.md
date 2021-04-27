@@ -6,4 +6,6 @@ navbarTop:
 
 menu:
   - menu.md
+subscribe:
+  - subscribe.md
 ---

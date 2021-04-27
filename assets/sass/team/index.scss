@@ -12,16 +12,20 @@
   .side-menu {
     width: calc(100% - 880px);
     padding-right: 0px;
-    max-width: 360px;
+    max-width: 356px;
     padding-right: 40px;
     .text-p {
       &:first-of-type {
-        margin-bottom: 50px;
+        margin-bottom: 60px;
       }
       &:nth-of-type(2) {
         text-transform: uppercase;
         font-family: $bold-font;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
+        a {
+          text-decoration: none;
+          border-bottom: 2px solid white;
+        }
       }
       &:last-child {
         a {
@@ -64,12 +68,12 @@
     align-items: flex-start;
     width: 880px;
     &-title {
-      margin-bottom: 20px;
+      margin-bottom: 18px;
       width: 100%;
       text-align: center;
       text-transform: uppercase;
       font-family: $bold-font;
-      font-size: 1.063rem;
+      font-size: 1rem;
     }
     &-group {
       flex-wrap: wrap;
@@ -103,7 +107,7 @@
 
   &-member {
     background: #2c2c2c;
-    height: 270px;
+    height: 237px;
     color: white;
     margin-top: 26px;
 
@@ -259,11 +263,11 @@
   &-single-small {
     width: calc(100% / 2 - 10px);
     margin-right: 0px;
-    height: 270px;
+    height: 237px;
     margin-left: auto;
   }
   &-double {
-    height: 270px;
+    height: 237px;
     width: 100%;
     img:nth-child(1) {
       width: 60%;

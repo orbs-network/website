@@ -16,7 +16,7 @@ const MenuLinks = ({ links, title, _relativeURL, _ID }) => {
               <li className="nav-menu-resources-box flex-column">
                 <a href={generateUrl(url)} className="flex-column">
                   <h5 className="nav-menu-resources-box-title">{name}</h5>
-                  <span className="flex-center">
+                  <div className="nav-menu-resources-box-bottom flex-center">
                     <Img
                       src={generateUrl(image)}
                       className="nav-menu-resources-box-icon"
@@ -24,7 +24,7 @@ const MenuLinks = ({ links, title, _relativeURL, _ID }) => {
                     <p className="nav-menu-resources-box-text text-overflow">
                       {text}
                     </p>
-                  </span>
+                  </div>
                 </a>
               </li>
             );
