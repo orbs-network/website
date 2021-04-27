@@ -1,5 +1,5 @@
 title: pos
-layout: pages/PAGE
+layout: pages/page
 
 script: pos-universe/index
 header:
