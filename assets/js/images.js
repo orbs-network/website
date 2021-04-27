@@ -66,4 +66,7 @@ export const images = {
     documents: `${prefix}/blog-inner/documents.svg`,
     github: `${prefix}/blog-inner/github.svg`,
   },
+  ecosystem: {
+    logo: `${prefix}/ecosystem/logo.svg`,
+  },
 };

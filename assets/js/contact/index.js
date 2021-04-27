@@ -1,32 +1,39 @@
-import { addEvent, getElement, init } from "../common.js";
+import { addEvent, getElement, init, getElements } from "../common.js";
 import {
   validateInputsOnSubmit,
   addEventsToInputs,
+  handleLoading,
+  handleSuccess,
 } from "../components/form.js";
-
+let inputs = [];
 window.onload = () => {
   init();
   addEventsToContactForm();
 };
-
+const formClassName = ".contact-form";
+const inputClassName = ".contact-form .form-input input";
 export const addEventsToContactForm = () => {
-  const form = getElement(".contact form");
+  const form = getElement(formClassName);
   addEvent(form, "submit", handleSubmit);
-  addEventsToInputs();
+  inputs = getElements(inputClassName) || [];
+
+  addEventsToInputs(inputs, formClassName);
 };
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  const errors = validateInputsOnSubmit();
+  const errors = validateInputsOnSubmit(inputClassName, formClassName);
+  console.log(errors);
   if (errors.length > 0) {
     return;
   }
+  const className = `${formClassName} .form-input`;
+  const firstName = getElement(`${className}-first-name`).value;
 
-  const firstName = getElement(".first-name").value;
-  const lastName = getElement(".last-name").value;
-  const email = getElement(".email").value;
-  const phone = getElement(".phone");
-  const comment = getElement(".comment");
+  const lastName = getElement(`${className}-last-name`).value;
+  const email = getElement(`${className}-email`).value;
+  const phone = getElement(`${className}-phone`);
+  const comment = getElement(`${className}-comment`);
   const body = {
     firstName,
     lastName,
@@ -34,8 +41,8 @@ const handleSubmit = (e) => {
     phone: phone && phone.value,
     comment: comment && comment.value,
   };
-  handleLoading();
+  handleLoading(formClassName);
   setTimeout(() => {
-    handleSuccess();
+    handleSuccess(formClassName, inputs);
   }, 2000);
 };
