@@ -3,11 +3,11 @@
     text-align: center;
   }
   &-grid {
+    margin-bottom: 40px;
     width: 100%;
     align-items: flex-start;
     margin-top: 70px;
     justify-content: space-between;
-    margin-bottom: 180px;
     &-section {
       width: calc(100% / 3 - 3vw);
 
@@ -44,6 +44,9 @@
 
   &-category {
     margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
     &-title {
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       font-size: 1.063rem;
@@ -59,7 +62,7 @@
     }
     &-list {
       flex-wrap: wrap;
-      padding-top: 50px;
+      padding-top: 25px;
       .image {
         width: calc(50% - 20px);
         height: auto;
