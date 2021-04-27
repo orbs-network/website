@@ -12,9 +12,13 @@ const Main = ({
   const linksProps = (
     <div className="faq-side-menu-links">
       {sections &&
-        sections.map((section) => {
+        sections.map((section, index) => {
           return (
-            <a href={`#${section.title}`} className="faq-side-menu-links-link">
+            <a
+              href={`#${section.title}`}
+              className="faq-side-menu-links-link"
+              key={index}
+            >
               {section.title}
             </a>
           );

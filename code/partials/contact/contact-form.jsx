@@ -18,12 +18,12 @@ const ContactForm = (props) => {
     emptyInputError,
   } = props;
 
-  const customClassName = "contact-form";
+  const formClassName = "contact-form";
   const data = [
     {
       name: firstName,
       placeholder: firstNamePlaceholder,
-      className: `${customClassName}-first-name`,
+      propertyName: `first-name`,
       error: emptyInputError,
       type: "text",
       isRequired: true,
@@ -31,7 +31,7 @@ const ContactForm = (props) => {
     {
       name: lastName,
       placeholder: lastNamePlaceholder,
-      className: `${customClassName}-last-name`,
+      propertyName: `last-name`,
       error: emptyInputError,
       type: "text",
       isRequired: true,
@@ -39,7 +39,7 @@ const ContactForm = (props) => {
     {
       name: email,
       placeholder: emailPlaceholder,
-      className: `${customClassName}-email`,
+      propertyName: `email`,
       error: emptyInputError,
       type: "email",
       isRequired: true,
@@ -48,7 +48,7 @@ const ContactForm = (props) => {
     {
       name: phone,
       placeholder: phonePlaceholder,
-      className: `${customClassName}-phone`,
+      propertyName: `phone`,
       type: "phone",
       error: emptyInputError,
       validationText: incorrentPhone,
@@ -56,14 +56,14 @@ const ContactForm = (props) => {
     {
       name: message,
       placeholder: messagePlaceholder,
-      className: `${customClassName}-mesage`,
+      propertyName: `mesage`,
       error: emptyInputError,
     },
   ];
 
   return (
     <div className="contact-container">
-      <Form {...props} data={data} customClassName={customClassName} />
+      <Form {...props} data={data} formClassName={formClassName} />
     </div>
   );
 };

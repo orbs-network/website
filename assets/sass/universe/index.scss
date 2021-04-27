@@ -3,6 +3,7 @@
     margin-bottom: 100px;
   }
   .page-header {
+    height: 462px;
     margin-bottom: 0px;
     .sub-title {
       max-width: 970px;
@@ -13,11 +14,11 @@
   &-first-flex {
     position: relative;
 
-    margin-top: 90px;
+    margin-top: 101px;
     align-items: flex-start;
     &:after {
       position: absolute;
-      left: 50%;
+      left: 48.5%;
       transform: translate(-50%);
       top: 0px;
       height: 100%;
@@ -49,7 +50,7 @@
         padding-right: 32px;
       }
       &:nth-child(even) {
-        padding-left: 78px;
+        padding-left: 60px;
       }
 
       a[title="button"] {
@@ -75,7 +76,7 @@
       }
       .text-p {
         &:nth-of-type(1) {
-          margin-bottom: 45px;
+          margin-bottom: 52px;
           max-width: 500px;
         }
         &:nth-of-type(2) {
@@ -87,7 +88,7 @@
         text-decoration: underline;
       }
       ul {
-        margin-bottom: 60px;
+        margin-bottom: 37px;
 
         &:last-child {
           margin-bottom: 0px;
@@ -96,7 +97,7 @@
           letter-spacing: 0.4px;
           padding-left: 26px;
           font-size: 0.875rem;
-          margin-bottom: 30px;
+          margin-bottom: 37px;
           line-height: 1.5rem;
           font-weight: 500;
           position: relative;
@@ -135,11 +136,14 @@
       width: 50%;
       max-width: 530px;
       padding-top: 0px;
+      &-title {
+        margin-bottom: 37px;
+      }
     }
     .images-grid {
       width: 50%;
-      max-width: 650px;
-      @include grid-3(40px, 30px, calc(100% / 3 - 30px));
+      max-width: 640px;
+      @include image-grid-3(40px, 30px, 33%);
       margin-left: auto;
       &-list-img {
         width: 55px;

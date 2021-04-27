@@ -13,8 +13,12 @@ const CardTitle = ({ title, oneLine }) => {
     return <h3 className="card-title">{result}</h3>;
   }
   if (isList) {
-    return title.map((e) => {
-      return <h3 className="card-title">{e}</h3>;
+    return title.map((e, index) => {
+      return (
+        <h3 className="card-title" key={index}>
+          {e}
+        </h3>
+      );
     });
   }
 

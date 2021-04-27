@@ -1,8 +1,6 @@
 .smart-contracts {
   .page-header {
-    margin-bottom: 75px;
-    .sub-title {
-    }
+    margin-bottom: 80px;
   }
   &-flex {
     &-title {
@@ -14,7 +12,7 @@
       flex-wrap: wrap;
       align-items: flex-start;
       .expending-box {
-        margin-bottom: 65px;
+        margin-bottom: 50px;
         width: calc(50% - 50px);
         margin-right: 100px;
         &:nth-child(2n) {
@@ -32,6 +30,9 @@
       margin-top: 55px;
     }
     &-text {
+      .text-p {
+        margin-bottom: 30px;
+      }
       .expending-box {
         &-content {
           max-width: 880px;
@@ -40,7 +41,7 @@
           max-width: 810px;
         }
         &-title {
-          margin-bottom: 50px;
+          margin-bottom: 60px;
         }
       }
     }
