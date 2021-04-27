@@ -10,10 +10,10 @@ const MenuLinks = ({ links, title, _relativeURL, _ID }) => {
       <h4 className="nav-menu-links-title">{title}</h4>
       <ul className="grid-3 nav-menu-links-list nav-menu-resources-list">
         {links &&
-          links.map((link) => {
+          links.map((link, index) => {
             const { url, name, image, text } = link;
             return (
-              <li className="nav-menu-resources-box flex-column">
+              <li key={index} className="nav-menu-resources-box flex-column">
                 <a href={generateUrl(url)} className="flex-column">
                   <h5 className="nav-menu-resources-box-title">{name}</h5>
                   <div className="nav-menu-resources-box-bottom flex-center">

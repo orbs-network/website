@@ -2,9 +2,9 @@
 
 .team {
   &-content-wrapper {
-    margin-top: 124px;
+    margin-top: 117px;
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -16,7 +16,7 @@
     padding-right: 40px;
     .text-p {
       &:first-of-type {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
       }
       &:nth-of-type(2) {
         text-transform: uppercase;
@@ -35,6 +35,7 @@
     }
   }
   &-slider {
+    height: 100%;
     width: calc(50% - 10px);
     overflow: hidden;
     position: relative;
@@ -74,6 +75,8 @@
       text-transform: uppercase;
       font-family: $bold-font;
       font-size: 1rem;
+      transform: translate(36px);
+      position: relative;
     }
     &-group {
       flex-wrap: wrap;
@@ -81,6 +84,7 @@
       width: 100%;
     }
     &-top {
+      height: calc(237px * 2 + 26px);
       ul {
         width: 50%;
         flex-wrap: wrap;

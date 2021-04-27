@@ -9,10 +9,11 @@ const MenuResources = ({ links, title, _relativeURL, _ID }) => {
       <h4 className="nav-menu-links-title">{title}</h4>
       <div>
         {links &&
-          links.map((link) => {
+          links.map((link, index) => {
             const { url, name, subLink } = link;
             return (
               <a
+                key={index}
                 className={
                   subLink
                     ? "nav-menu-links-link nav-menu-links-sub"

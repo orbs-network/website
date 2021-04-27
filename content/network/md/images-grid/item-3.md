@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/images-grid/image-grid
 image: /assets/img/overview/grid-img-1.svg
+size: 4
 ---
 
 Smart contract SDKs for building backends in multiple languages

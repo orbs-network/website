@@ -1,3 +1,4 @@
+import { initSubscribeForm } from "./components/subscribe.js";
 import { addListenersToFooter } from "./footer/index.js";
 import { handleNavbarScroll, addListenersToNavbar } from "./navbar/index.js";
 export const getElement = (element) => {
@@ -83,10 +84,22 @@ export const init = () => {
   handleOnScroll();
   AOS.init({ once: true });
   handleNavbarScroll();
-  // initSubscribeForm();
+  initSubscribeForm();
+  const subscribeBtn = getElement(".subscribe-btn");
+  addEvent(subscribeBtn, "click", showSubscribePopup);
 };
 
 export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
+};
+
+export const showSubscribePopup = () => {
+  const popup = getElement(".subscribe");
+  popup.classList.add("subscribe-active");
+};
+
+export const hideSubscribePopup = () => {
+  const popup = getElement(".subscribe");
+  popup.classList.remove("subscribe-active");
 };

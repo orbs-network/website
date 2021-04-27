@@ -12,15 +12,15 @@ const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
         url={generateUrl(home)}
         customClassName="navbar-burger-open"
       />
-      <section class="navbar-flags">
-        <button class="flex-start subscribe-btn">
+      <section className="navbar-flags">
+        <button className="flex-start subscribe-btn">
           <p>+</p>
           <p>{text.subscribe_to_updates}</p>
         </button>
-        <ul class="navbar-flags-list">
-          {languages.map((lng) => {
+        <ul className="navbar-flags-list">
+          {languages.map((lng, index) => {
             return (
-              <li>
+              <li key={index}>
                 <a href={generateUrl(lng.link)}>
                   <img src={generateUrl(lng.img)} />
                 </a>

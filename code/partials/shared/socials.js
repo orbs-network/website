@@ -5,10 +5,10 @@ const Socials = ({ _relativeURL, _ID, links }) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <ul class="socials">
-      {links.map((link) => {
+    <ul className="socials">
+      {links.map((link, index) => {
         return (
-          <li className="socials-element">
+          <li className="socials-element" key={index}>
             <a href={link.url} target="_blank">
               <img src={generateUrl(link.img)} />
             </a>

@@ -19,23 +19,22 @@ export const validateEmail = (value) => {
   return isValidEmail;
 };
 
-export const addEventsToInputs = () => {
-  const inputs = getElements(".form-input input");
+export const addEventsToInputs = (inputs, formClassName) => {
   inputs.forEach((input) => {
-    addEvent(input, "focus", onFocus);
-    addEvent(input, "blur", onBlur);
+    addEvent(input, "focus", (e) => onFocus(e, formClassName));
+    addEvent(input, "blur", (e) => onBlur(e, formClassName));
   });
 };
 
-const onBlur = (e) => {
-  inputValidation(e.target);
+const onBlur = (e, formClassName) => {
+  inputValidation(e.target, formClassName);
 };
 
-const inputValidation = (input) => {
+const inputValidation = (input, location) => {
   const isRequired = getElementAttribute(input, "data-required");
   const isEmpty = !input.value;
   if (isEmpty && isRequired) {
-    const error = handleEmptyInput(input);
+    const error = handleEmptyInput(input, location);
     return error;
   }
   const type = getElementAttribute(input, "data-type");
@@ -51,41 +50,43 @@ const inputValidation = (input) => {
       break;
   }
   if (!isValid && !isEmpty) {
-    const validationError = handleValidationFailure(input);
+    const validationError = handleValidationFailure(input, location);
     return validationError;
   }
 };
 
-const handleValidationFailure = (input) => {
+const handleValidationFailure = (input, location) => {
   const className = input.classList.value;
-  const validationError = getElement(`.${className}-validation-error`);
+  const validationError = getElement(
+    `${location} .${className}-validation-error`
+  );
   if (!validationError) return;
   showError(validationError);
   return validationError;
 };
 
-const handleEmptyInput = (input) => {
+const handleEmptyInput = (input, location) => {
   const className = input.classList.value;
-  const error = getElement(`.${className}-error`);
+  const error = getElement(`${location} .${className}-error`);
   if (!error) return;
   showError(error);
   return error;
 };
 
-const onFocus = (input) => {
-  hideErrorOnFocus(input);
-  hideValidationErrorOnFocus(input);
+const onFocus = (input, formClassName) => {
+  hideErrorOnFocus(input, formClassName);
+  hideValidationErrorOnFocus(input, formClassName);
 };
 
-const hideErrorOnFocus = (input) => {
+const hideErrorOnFocus = (input, formClassName) => {
   const className = input.target.classList.value;
-  const error = getElement(`.${className}-error`);
+  const error = getElement(`${formClassName} .${className}-error`);
   hideError(error);
 };
 
-const hideValidationErrorOnFocus = (input) => {
+const hideValidationErrorOnFocus = (input, formClassName) => {
   const className = input.target.classList.value;
-  const error = getElement(`.${className}-validation-error`);
+  const error = getElement(`${formClassName} .${className}-validation-error`);
   hideError(error);
 };
 const showError = (input) => {
@@ -97,11 +98,11 @@ const hideError = (input) => {
   input.classList.remove("actve-error");
 };
 
-export const validateInputsOnSubmit = () => {
+export const validateInputsOnSubmit = (inputClassName, formClassName) => {
   const errors = [];
-  const inputs = getElements(".form-input input");
+  const inputs = getElements(inputClassName);
   inputs.forEach((input) => {
-    const error = inputValidation(input);
+    const error = inputValidation(input, formClassName);
     if (error) {
       errors.push(error);
     }
@@ -116,27 +117,26 @@ export const addPopupSuccessListeners = () => {
   addEvent(closeBtn, "click", handleSuccessPopupClose);
 };
 
-const hidePopup = () => {
-  const popup = getElement(".success-popup");
-  popup.classList.remove("active-popup");
-};
-
-const handleSuccess = () => {
-  const form = getElement(".form");
+export const handleSuccess = (formClassName) => {
+  const form = getElement(formClassName);
   form.classList.add("form-submitted");
 };
 
-const handleLoading = () => {
-  const submitBtn = getElement(".form-submit");
-  const loader = getElement(".loader");
+export const hideSuccess = (formClassName) => {
+  const form = getElement(formClassName);
+  form.classList.remove("form-submitted");
+};
+
+export const handleLoading = (formClassName) => {
+  const submitBtn = getElement(`${formClassName} .form-submit`);
+  const loader = getElement(`${formClassName} .loader`);
   submitBtn.style.display = "none";
   loader.style.display = "block";
 };
 
-const handleSuccessPopupClose = () => {
-  hidePopup();
-  const inputs = getElements(".form-input input");
-  inputs.forEach((input) => {
-    input.value = "";
-  });
+export const hideLoading = (formClassName) => {
+  const submitBtn = getElement(`${formClassName} .form-submit`);
+  const loader = getElement(`${formClassName} .loader`);
+  submitBtn.style.display = "block";
+  loader.style.display = "none";
 };
