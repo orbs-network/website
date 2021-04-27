@@ -2,6 +2,7 @@
   .footer {
     background: black;
   }
+
   padding-top: 170px;
 
   &-bg {
@@ -128,6 +129,21 @@
       text-align: center;
       letter-spacing: 10px;
       font-size: 30px;
+      position: relative;
+    }
+    li {
+      padding-left: 30px;
+      position: relative;
+      &::after {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        left: 8px;
+        top: 7px;
+        background: black;
+        content: "";
+      }
     }
     .image {
       width: 100%;

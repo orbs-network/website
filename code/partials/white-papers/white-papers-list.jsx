@@ -5,9 +5,9 @@ const WhitePaperslist = ({ list }) => {
   return (
     <div className="white-papers-list">
       {list &&
-        list.map((category) => {
+        list.map((category, index) => {
           return (
-            <div className="white-papers-category">
+            <div className="white-papers-category" key={index}>
               <section
                 className="white-papers-category-title"
                 data-aos={animations.fadeIn}

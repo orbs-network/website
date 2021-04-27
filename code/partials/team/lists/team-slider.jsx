@@ -11,9 +11,9 @@ const TeamSlider = ({ _relativeURL, _ID, slides, text }) => {
       <div class="swiper-container">
         <div class="swiper-wrapper">
           {slides &&
-            slides.map((slide) => {
+            slides.map((slide, index) => {
               return (
-                <div class="swiper-slide">
+                <div class="swiper-slide" key={index}>
                   <Img src={generateUrl(slide)} className="swiper-slide-img" />
                 </div>
               );

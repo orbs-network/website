@@ -7,8 +7,12 @@ const SplittedLinesText = ({ text, className = "" }) => {
   }
 
   if (isList) {
-    return text.map((e) => {
-      return <p className={className}>{e}</p>;
+    return text.map((e, index) => {
+      return (
+        <p className={className} key={index}>
+          {e}
+        </p>
+      );
     });
   }
 

@@ -12,10 +12,11 @@
         display: flex;
         flex-direction: column;
         &-link {
-          margin-bottom: 15px;
+          margin-bottom: 20px;
           font-weight: 500;
           font-size: 1.063rem;
           letter-spacing: 0.04rem;
+          line-height: 1.438rem;
           color: white;
           text-decoration: none;
           &:hover {
@@ -24,7 +25,7 @@
         }
       }
       &-additional {
-        margin-top: 70px;
+        margin-top: 58px;
         .text-p {
           font-weight: 500;
           font-size: 1.063rem;
@@ -40,9 +41,9 @@
   }
 
   &-lists {
-    padding-top: 160px;
+    padding-top: 165px;
     width: calc(100% - 420px);
-    max-width: 800px;
+    max-width: 792px;
     &-category {
       position: relative;
       margin-bottom: 30px;

@@ -1,4 +1,4 @@
 ---
 layout: partials/team/banners/single-big-banner
-image: assets/img/team/management.jpg
+image: assets/img/team/grid6.png
 ---

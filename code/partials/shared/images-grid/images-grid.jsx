@@ -1,14 +1,14 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
 
-const ImagesGrid = ({ title, images, border }) => {
+const ImagesGrid = ({ title, images, border, size }) => {
   const parentStyle = {
     borderBottom: border ? "1px solid #707070" : "none",
   };
-  const className = `flex-start images-grid-list grid`;
+  const className = `images-grid-list flex-start`;
   return (
     <div
-      className="images-grid"
+      className="images-grid "
       data-aos={animations.fadeTop}
       style={parentStyle}
     >

@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: THE AGE OF GUARDIANS
+title: The Age of Guardians
 ---
 
 The Orbs Network launched in March of 2019​. The successful mainnet launch has enabled the growth of the Orbs ecosystem across all vectors. During Year 0 of the mainnet, development efforts were focused on building and maintaining a secure, stable and inclusive network. While at first the goal was mostly network stability, with time it evolved into growth and scalability.

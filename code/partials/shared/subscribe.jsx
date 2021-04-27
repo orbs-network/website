@@ -14,7 +14,7 @@ const SubscribePopup = (props) => {
     {
       name: firstName,
       placeholder: firstNamePlaceholder,
-      className: "first-name",
+      propertyName: "first-name",
       error: emptyInputError,
       type: "text",
       isRequired: true,
@@ -22,7 +22,7 @@ const SubscribePopup = (props) => {
     {
       name: email,
       placeholder: emailPlaceholder,
-      className: "email",
+      propertyName: `email`,
       error: emptyInputError,
       type: "email",
       isRequired: true,
@@ -33,7 +33,7 @@ const SubscribePopup = (props) => {
   return (
     <div className="subscribe">
       <section className="subscribe-overlay"></section>
-      <Form {...props} data={data} customClassName="subscribe-form" />
+      <Form {...props} data={data} formClassName="subscribe-form" closeBtn />
     </div>
   );
 };

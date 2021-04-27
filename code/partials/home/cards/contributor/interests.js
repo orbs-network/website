@@ -9,7 +9,11 @@ const Interests = ({ title, interests }) => {
         {interests &&
           interests.map((interest, index) => {
             if (index <= limit) {
-              return <li className="flex-center">{interest}</li>;
+              return (
+                <li className="flex-center" key={index}>
+                  {interest}
+                </li>
+              );
             }
           })}
         {interests.length > limit && (
