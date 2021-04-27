@@ -17,5 +17,3 @@ list:
   - item-14.md
   - item-15.md
 ---
-
-#### THE FOLLOWING ARE THE KEY ORBS CONTRACTS DEPLOYED OVER ETHEREUM:
