@@ -83,6 +83,7 @@ export const init = () => {
   handleOnScroll();
   AOS.init({ once: true });
   handleNavbarScroll();
+  // initSubscribeForm();
 };
 
 export const getElementAttribute = (element, attr) => {

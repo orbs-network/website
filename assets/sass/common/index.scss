@@ -14,9 +14,6 @@ $light-gray: #d0d0d0;
   padding: 0px;
   padding-bottom: 3px;
   border-radius: 0px;
-  &:hover {
-    border-bottom: 2px solid #ff2cbf;
-  }
 }
 
 .btn {
@@ -62,7 +59,8 @@ $light-gray: #d0d0d0;
 
 .main-grid {
   margin: auto;
-  width: 1312px;
+  max-width: 1312px;
+  width: calc(100% - 100px);
 }
 .page-padding {
   padding-top: 200px;

@@ -6,3 +6,5 @@ header:
 
 main:
   - home/body.md
+subscribe:
+  - /_shared/subscribe.md

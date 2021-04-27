@@ -1,7 +1,16 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
 
-const Page = ({ title, header, footer, script, _relativeURL, _ID, main }) => (
+const Page = ({
+  title,
+  header,
+  footer,
+  script,
+  _relativeURL,
+  _ID,
+  main,
+  subscribe,
+}) => (
   <html>
     <head>
       <title>Orbs - {title}</title>
@@ -19,6 +28,7 @@ const Page = ({ title, header, footer, script, _relativeURL, _ID, main }) => (
     <body style={{ background: colors.main }}>
       {header}
       {main}
+      {subscribe && subscribe}
       {script != undefined ? (
         <script
           type="module"
