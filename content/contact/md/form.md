@@ -1,5 +1,5 @@
 ---
-layout: partials/contact/form
+layout: partials/contact/contact-form
 title:
   - title.md
 subTitle: LOREM IPSUM TEXT ABOUT CONTACT US
@@ -10,7 +10,7 @@ lastNamePlaceholder: Enter your last name here
 email: Email
 emailError: Please insert valid email
 emailPlaceholder: Enter your email here
-phone: Phone Number
+phone: Phone Number (optional)
 phonePlaceholder: Enter your phone number
 message: Message
 messagePlaceholder: Something you want to tell us? Or maybe to ask?

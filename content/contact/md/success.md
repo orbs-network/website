@@ -1,5 +1,5 @@
 ---
-layout: partials/contact/success
+layout: partials/shared/form/form-success
 title: Thank you for Reaching out!
 ---
 
