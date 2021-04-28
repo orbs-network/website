@@ -9,8 +9,8 @@ const PageHaeder = ({ image, video, title, _relativeURL, _ID, subTitle }) => {
       <figure className="flex-center">
         {video ? (
           <video autoPlay muted loop>
-            <source src={video} type="video/mp4" />
-            <source src={video} type="video/ogg" />
+            <source src={generateUrl(video)} type="video/mp4" />
+            <source src={generateUrl(video)} type="video/ogg" />
             Your browser does not support the video tag.
           </video>
         ) : image ? (
