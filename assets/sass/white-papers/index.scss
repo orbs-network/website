@@ -26,17 +26,19 @@
     &-btn {
       @extend .btn;
       text-decoration: none;
-      margin-top: 18px;
+      margin-top: 23px;
     }
     &-title {
       font-size: 1.063rem;
       font-weight: 500;
+      color: $light-color;
     }
     &-c {
       padding-right: 30px;
       flex: 1;
       max-width: 874px;
       &-date {
+        color: $light-color;
         font-size: 0.75rem;
         letter-spacing: 0.28px;
         margin: 15px 0px 20px 0px;

@@ -2,10 +2,10 @@
 layout: partials/shared/subscribe
 title:
   - title.md
-subTitle: sometimes we have interesting announcements to tell you... don't miss out!
-firstName: first name
+subTitle: Sometimes we have interesting announcements to tell you... don't miss out!
+firstName: First Name
 firstNamePlaceholder: Enter your name here
-email: email
+email: Email
 emailPlaceholder: Your Email
 submit: Subscribe
 incorrentEmail: Please insert valid Email

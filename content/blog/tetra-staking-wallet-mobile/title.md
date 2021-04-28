@@ -2,6 +2,6 @@
 layout: partials/shared/page-header/title
 ---
 
-### How to choose an Orbs
+### Tetra staking wallet by Orbs Now on
 
-### Guardian
+### Mobile!

@@ -27,7 +27,6 @@ export const initSubscribeForm = () => {
 const handleSubmit = (e) => {
   e.preventDefault();
   const errors = validateInputsOnSubmit(inputClassName, formClassName);
-  console.log(errors);
   if (errors.length > 0) {
     return;
   }
