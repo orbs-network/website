@@ -8,15 +8,11 @@ const PageHaeder = ({ image, video, title, _relativeURL, _ID, subTitle }) => {
     <div className="page-header">
       <figure className="flex-center">
         {video ? (
-          <iframe
-            class="b-hero_image lazy"
-            src={video}
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            muted
-            playsinline
-          ></iframe>
+          <video autoPlay muted loop>
+            <source src={video} type="video/mp4" />
+            <source src={video} type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
         ) : image ? (
           <img src={generateUrl(image)} />
         ) : null}
