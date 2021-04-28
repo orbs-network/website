@@ -57,6 +57,7 @@ export const images = {
   common: {
     close: `${prefix}/common/close.svg`,
     logo: `${prefix}/common/logo.svg`,
+    hamburger: `${prefix}/common/menu.svg`,
   },
   footer: {
     twitter: `${prefix}/socials/twitter.svg`,
