@@ -40,7 +40,6 @@ export const generatePathData = (globeConfig) => {
 
 export const getRadomColor = (colors) => {
   const index = Math.floor(Math.random() * colors.length);
-  console.log(index);
   return colors[index];
 };
 

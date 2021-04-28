@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 authorName: Erand Peled
-authorImage: ../../assets/img/blog/how-to-choose-an-orbs-guardian/bg.png
+authorImage: ../../assets/img/team/members/eran-peled.jpg
 authorUrl: https://www.linkedin.com/in/eran-peled-54244b162/
-image: ../../assets/img/blog/how-to-choose-an-orbs-guardian/bg.png
+image: ../../assets/img/blog/tetra-staking-mobile/bg.png
 date: 20/04/2021
-blogUrl: blog/how-to-choose-an-orbs-guardian2
+blogUrl: blog/tetra-staking-wallet-mobile
 weight: 20
 category: proof of stake
 title:
@@ -16,7 +16,7 @@ by: By
 projectName: The Orbs Project
 projectUrl:
 inThe: in The
-type: crypto
+type: blockchain
 readTime: 7 min read
 daysAgo: days ago
 ---
