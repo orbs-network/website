@@ -36,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    justify-content: space-between;
     .footer-blog {
       display: none;
       visibility: hidden;
@@ -46,9 +47,7 @@
       min-height: 280px;
       position: relative;
       margin-bottom: 55px;
-      &:nth-of-type(even) {
-        margin-left: auto;
-      }
+
       .title {
         font-size: 1.563rem;
       }
@@ -96,6 +95,7 @@
             border-radius: 50%;
             overflow: hidden;
             margin-right: 15px;
+            object-position: top;
           }
           p {
             font-size: 15px;
@@ -115,6 +115,7 @@
   width: 0px;
   height: 0px;
   transition: 0.2s all;
+  display: none;
 }
 
 .active-tag {

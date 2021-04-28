@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "blog-bold";
+  src: url("../fonts/CharterBold.otf");
+}
+@font-face {
+  font-family: "base-blog-font";
+  src: url("../fonts/CharterRegular.otf");
+}
+@font-face {
+  font-family: "blog-italic";
+  src: url("../fonts/CharterItalic.otf");
+}
+@font-face {
+  font-family: "blog-bold-italic";
+  src: url("../fonts/CharterBoldItalic.otf");
+}
+
+$blog-font: "base-blog-font";
+$blog-bold-font: "base-blog-font";
 .single-blog {
   .footer {
     background: black;
@@ -57,6 +76,7 @@
           width: 100%;
           height: 100%;
           object-fit: cover;
+          object-position: top;
         }
       }
       a,
@@ -115,6 +135,7 @@
     }
     * {
       color: black;
+      // font-family: $blog-font;
     }
     &-bg {
       width: 100%;
@@ -123,7 +144,9 @@
     }
     .text-p {
       margin-bottom: 26px;
-      font-size: 1rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: rgba(41, 41, 41, 1);
     }
     .dots {
       text-align: center;
@@ -140,7 +163,7 @@
         height: 7px;
         border-radius: 50%;
         left: 8px;
-        top: 7px;
+        top: 15px;
         background: black;
         content: "";
       }
@@ -152,7 +175,7 @@
       margin-top: 20px;
     }
     h3 {
-      font-size: 20px;
+      font-size: 28px;
       margin-bottom: 20px;
     }
   }
