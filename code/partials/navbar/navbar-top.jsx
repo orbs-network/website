@@ -1,4 +1,5 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 import MenuToggle from "./components/menu-toggle";
 
 const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
@@ -8,8 +9,9 @@ const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
   return (
     <div className="navbar-top flex-between">
       <MenuToggle
-        image={generateUrl(logo)}
+        image={generateUrl(images.common.logo)}
         url={generateUrl(home)}
+        toggleImg={generateUrl(images.common.hamburger)}
         customClassName="navbar-burger-open"
       />
       <section className="navbar-flags">
