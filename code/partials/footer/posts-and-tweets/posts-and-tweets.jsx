@@ -9,15 +9,24 @@ const PostsAndTweets = ({
   postsTitles,
 }) => {
   return (
-    <div className="footer-posts-and-tweets flex-start">
-      {postsTitles}
-      {tweetsTitle}
-
-      {post1}
-      {tweet1}
-      {post2}
-      {tweet2}
-    </div>
+    <React.Fragment>
+      <div className="footer-posts-and-tweets flex-start">
+        {postsTitles}
+        {tweetsTitle}
+        {post1}
+        {tweet1}
+        {post2}
+        {tweet2}
+      </div>
+      <div className="footer-posts-and-tweets footer-posts-and-tweets-mobile flex-start">
+        {postsTitles}
+        {post1}
+        {post2}
+        {tweetsTitle}
+        {tweet1}
+        {tweet2}
+      </div>
+    </React.Fragment>
   );
 };
 

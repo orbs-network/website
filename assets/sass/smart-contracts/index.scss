@@ -47,3 +47,14 @@
     }
   }
 }
+
+@media only screen and (max-width: $medium) {
+  .smart-contracts {
+    &-flex-list {
+      .expending-box {
+        width: 100%;
+        margin-right: 0px;
+      }
+    }
+  }
+}

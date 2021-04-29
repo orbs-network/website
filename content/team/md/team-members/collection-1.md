@@ -4,7 +4,7 @@ layout: partials/team/lists/team-top
 figure: /assets/img/team/management.jpg
 
 slider:
-  - slider.md
+  - ../sliders/item-1.md
 
 list:
   - ../../../_shared/team-members/daniel-peled.md

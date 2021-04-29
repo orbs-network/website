@@ -4,9 +4,9 @@ const Main = ({ pageHeader, tags, blogs }) => {
   return (
     <main className="blog page-padding-top">
       {pageHeader}
-      <div className="main-grid">
-        {tags}
-        {blogs}
+      {tags}
+      <div className="blog-content">
+        <div className="main-grid">{blogs}</div>
       </div>
     </main>
   );

@@ -6,7 +6,7 @@ const Main = ({ cards, pageText }) => {
     <main className="home">
       {/* <GlobeLoader /> */}
       <div className="main-grid">
-        {cards}
+        {/* {cards} */}
         {pageText}
       </div>
     </main>

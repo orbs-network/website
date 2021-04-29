@@ -2,15 +2,20 @@ import React from "react";
 
 const Tags = ({ tags }) => {
   return (
-    <ul className="blog-tags flex-center">
+    <div className="blog-tags">
       {tags.map((tag, index) => {
         return (
-          <li key={index} className="blog-tags-tag" data-type={tag}>
+          <a
+            key={index}
+            href={`#${tag}`}
+            className="blog-tags-tag"
+            data-type={tag}
+          >
             #{tag}
-          </li>
+          </a>
         );
       })}
-    </ul>
+    </div>
   );
 };
 

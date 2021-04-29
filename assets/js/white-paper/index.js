@@ -8,3 +8,5 @@ import {
 window.onload = () => {
   init();
 };
+
+const handleResize = (e) => {};

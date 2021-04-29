@@ -1,51 +1,62 @@
 import React from "react";
+import { images } from "../../../assets/js/images";
 import { daysFromDate } from "../../util/date";
 import Img from "../shared/Img";
+import InnerLinks from "../shared/inner-links";
 
 const Blog = (props) => {
   const {
-    _body,
+    content,
     image,
     _relativeURL,
     _ID,
     authorImage,
-    by,
     authorUrl,
     authorName,
-    inThe,
-    projectName,
+
     title,
-    projectUrl,
-    readTime,
+    telegram,
+    twitter,
     date,
     daysAgo,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
+
+  const links = {
+    twitter,
+    telegram,
+  };
+
   return (
     <React.Fragment>
       <div className="single-blog-header">
         {title}
         <div className="single-blog-header-author">
-          <figure className="single-blog-header-author-avatar">
-            <Img src={generateUrl(authorImage)} />
-          </figure>
-          <p>{by}</p>
-          <a href={authorUrl}>{authorName}</a>
-          <p>{inThe}</p>
-          <a href={projectUrl}>{projectName}</a>
-          <p>|</p>
-          <p>{`${daysFromDate(date)} ${daysAgo}`}</p>
-          <p>&middot;</p>
-          <p>{readTime}</p>
+          <div className="single-blog-header-author-details">
+            <figure className="single-blog-header-author-avatar">
+              <Img src={generateUrl(authorImage)} />
+            </figure>
+            <a className="single-blog-header-author-name" href={authorUrl}>
+              {authorName}
+            </a>
+            <p>|</p>
+            <p>{`${daysFromDate(date)} ${daysAgo}`}</p>
+          </div>
+
+          <InnerLinks
+            links={links}
+            section={images.socials}
+            generateUrl={generateUrl}
+          />
         </div>
       </div>
       <figure className="single-blog-bg">
         <Img src={generateUrl(image)} />
       </figure>
       <div className="single-blog-body">
-        <div className="single-blog-body-grid">{_body}</div>
+        <div className="single-blog-body-grid">{content}</div>
       </div>
     </React.Fragment>
   );

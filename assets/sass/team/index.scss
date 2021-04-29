@@ -34,35 +34,6 @@
       }
     }
   }
-  &-slider {
-    height: 100%;
-    width: calc(50% - 10px);
-    overflow: hidden;
-    position: relative;
-    margin-left: auto;
-
-    .swiper-button-next,
-    .swiper-button-prev {
-      display: none;
-    }
-    .swiper-pagination-bullet {
-      opacity: 1;
-      background: #4a4a4a;
-      &-active {
-        background: white;
-      }
-    }
-
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-      .swiper-slide-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    }
-  }
 
   &-list {
     margin-top: auto;
@@ -98,6 +69,12 @@
           margin-top: 0px;
         }
       }
+      .slider {
+        width: calc(50% - 10px);
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+      }
     }
     &-bottom {
       .team-member {
@@ -105,6 +82,12 @@
         &:nth-child(4n) {
           margin-right: 0px;
         }
+      }
+      .slider {
+        width: 100%;
+        height: 361px;
+        overflow: hidden;
+        margin-top: 26px;
       }
     }
   }

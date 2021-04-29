@@ -9,7 +9,7 @@ list:
   - ../../../_shared/team-members/dolev.md
   - ../../../_shared/team-members/rani.md
   - ../single-small-banners/item-1.md
-  - ../single-big-banners/item-1.md
+  - ../sliders/item-2.md
   - ../double-banners/item-1.md
   - ../single-big-banners/item-2.md
 ---
