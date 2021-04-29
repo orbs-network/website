@@ -1,17 +1,31 @@
 .blog {
+  &-content {
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   &-tags {
-    margin-bottom: 75px;
+    text-align: center;
+    @extend .main-grid;
+    justify-content: center;
+    margin-bottom: 40px;
+    white-space: nowrap;
+    overflow: auto;
+    height: 50px;
+    margin-top: 30px;
+
     &-tag {
-      padding: 0px 44px;
+      padding: 13px 44px;
       font-size: 1.063rem;
-      height: 50px;
+      height: 100%;
       border: 1px solid white;
       border-radius: 27px;
       margin-right: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       cursor: pointer;
+      position: relative;
+      top: 15px;
+
+      text-decoration: none;
       &:last-child {
         margin-right: 0px;
       }
@@ -21,11 +35,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+
+    .title {
+      @extend .main-grid;
+    }
     .sub-title {
+      margin: auto;
       margin-top: 30px;
+      @extend .main-grid;
       .text-p {
         font-size: 1.125rem;
+        text-align: center;
         font-weight: 500;
         letter-spacing: 0.36px;
       }
@@ -36,30 +56,42 @@
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: flex-start;
     .footer-blog {
       display: none;
       visibility: hidden;
     }
     &-blog {
       overflow: hidden;
-      width: calc(50% - 29px);
       min-height: 280px;
       position: relative;
-      margin-bottom: 55px;
 
-      .title {
-        font-size: 1.563rem;
+      * {
+        color: black;
+        text-decoration: none;
       }
-      &-bg {
-        position: absolute;
-        left: 0px;
-        top: 0px;
+      .title {
+        font-size: 1.375rem;
+        margin-top: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        line-height: 2.063rem;
+        padding-right: 10px;
+      }
+      .text-p {
+        font-size: 0.875rem;
+      }
+      &-img {
         width: 100%;
-        height: 100%;
+        height: 219px;
         transition: 0.2s all;
         transform-origin: center;
         object-fit: cover;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
       &-flex {
         display: flex;
@@ -68,42 +100,36 @@
         text-decoration: none;
         flex-direction: column;
       }
-      &-content {
+      &-wrapper {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        height: calc(100% - 80px);
-        line-height: 34px;
+        height: 100%;
+      }
+      &-author {
         margin-top: auto;
-        padding: 30px 20px 20px 20px;
-        position: relative;
-        &::after {
-          position: absolute;
-          left: 0px;
-          top: 0px;
+        img {
           width: 100%;
           height: 100%;
-          content: "";
-          background: rgba(255, 255, 255, 0.15);
+          object-fit: cover;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-right: 13px;
+          object-position: top;
         }
-        &-author {
-          margin-top: auto;
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            overflow: hidden;
-            margin-right: 15px;
-            object-position: top;
+        p {
+          font-size: 0.875rem;
+
+          &:first-of-type {
+            font-weight: bold;
+            text-transform: uppercase;
           }
-          p {
-            font-size: 15px;
-          }
-          small {
-            margin-left: 10px;
-            margin-right: 10px;
-          }
+        }
+        small {
+          margin-left: 10px;
+          margin-right: 10px;
         }
       }
     }
@@ -121,4 +147,46 @@
 .active-tag {
   background: white;
   color: black;
+}
+
+@media only screen and (min-width: $medium) {
+  .blog {
+    &-list {
+      @include grid-3(32, 32);
+    }
+  }
+}
+
+@media only screen and (min-width: $mobile) and (max-width: $medium) {
+  .blog {
+    &-list {
+      @include grid-2(25, 25);
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .blog {
+    &-list {
+      @include grid-1(25);
+      &-blog {
+        &-img {
+          height: 50vw;
+          min-height: 200px;
+        }
+      }
+    }
+    &-tags {
+      overflow: auto;
+      flex: none;
+      flex-wrap: nowrap;
+      height: auto;
+      &-tag {
+        display: inline-block;
+        font-size: 0.75rem;
+        padding: 15px 25px;
+        top: 0px;
+      }
+    }
+  }
 }
