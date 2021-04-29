@@ -1,8 +1,8 @@
 import { globeConfig } from "./config.js";
-import "https://chancejs.com/chance.min.js";
+// import "https://chancejs.com/chance.min.js";
 
-import "https://unpkg.com/globe.gl";
-import "https://unpkg.com/three";
+// import "https://unpkg.com/globe.gl";
+// import "https://unpkg.com/three";
 import {
   generatePathData,
   getPointCoordinates,

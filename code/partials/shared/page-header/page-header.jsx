@@ -16,10 +16,10 @@ const PageHaeder = ({ image, video, title, _relativeURL, _ID, subTitle }) => {
         ) : image ? (
           <img src={generateUrl(image)} />
         ) : null}
-        {title}
+        <div className="main-grid page-header-title">{title}</div>
         <aside className="page-header-gradient" />
       </figure>
-      {subTitle}
+      <div className="main-grid page-header-sub-title">{subTitle}</div>
     </div>
   );
 };

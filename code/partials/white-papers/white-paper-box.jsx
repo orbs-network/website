@@ -26,6 +26,9 @@ const WhitePaperBox = ({
           {published && date && (
             <p className="white-papers-box-c-date">{`${published} ${date}`}</p>
           )}
+          <figure className="white-papers-box-mobile">
+            <Img src={generateUrl(image)} />
+          </figure>
           <div className="white-papers-box-c-text">{_body}</div>
           <a
             href={generateUrl(url)}

@@ -14,6 +14,7 @@ const BlogListElement = (props) => {
     blogUrl,
     title,
     type,
+    _body,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -24,16 +25,17 @@ const BlogListElement = (props) => {
       data-type={type}
       data-aos={animations.fadeTop}
     >
-      <a href={generateUrl(blogUrl)} className="blog-list-blog-flex">
-        <Img src={generateUrl(image)} className="blog-list-blog-bg" />
-        <div className="blog-list-blog-content flex-column">
-          {title}
-          <div className="blog-list-blog-content-author flex-start">
-            <Img src={generateUrl(authorImage)} />
-            <p>{authorName}</p>
-            <small>|</small>
-            <p>{formatBlogDate(date)}</p>
-          </div>
+      <a href={generateUrl(blogUrl)} className="blog-list-blog-wrapper">
+        <figure className="blog-list-blog-img">
+          <Img src={generateUrl(image)} />
+        </figure>
+        {title}
+        {_body}
+        <div className="blog-list-blog-author flex-start">
+          <Img src={generateUrl(authorImage)} />
+          <p>{authorName}</p>
+          <small>|</small>
+          <p>{formatBlogDate(date)}</p>
         </div>
       </a>
     </li>
