@@ -1,11 +1,17 @@
-import { getElement, addEvent } from "../common.js";
+import { getElements, addEvent } from "../common.js";
 export const addListenersToFooter = () => {
-  const form = getElement(".footer-bottom-form");
-  addEvent(form, "submit", submitFooterForm);
+  const mobileNavigations = getElements(".footer-navigation-mobile");
+  mobileNavigations.forEach((element) => {
+    addEvent(element, "click", () => handleClick(element));
+  });
 };
 
-const submitFooterForm = (e) => {
-  e.preventDefault();
-  const inputValue = getElement(".footer-bottom-form-input").value;
-  alert(`youre email is: ${inputValue}`);
+const handleClick = (e) => {
+  const activeClass = "footer-navigation-mobile-list-active";
+  const list = e.querySelector(".footer-navigation-mobile-list");
+  const isActive = list.classList.contains(activeClass);
+  if (isActive) {
+    return list.classList.remove(activeClass);
+  }
+  return list.classList.add(activeClass);
 };

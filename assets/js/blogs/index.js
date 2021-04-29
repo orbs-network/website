@@ -1,26 +1,34 @@
-import { addEvent, getElementAttribute, getElements, init } from "../common.js";
+import {
+  addEvent,
+  getElement,
+  getElementAttribute,
+  getElements,
+  init,
+} from "../common.js";
 
 let selected;
+let blogs = [];
 window.onload = () => {
   init();
-  addEventsToFilter();
+  addEventsToTags();
+  blogs = getElements(".blog-list-blog");
+  getElementWidth();
 };
 
 const hideBlog = (elem) => {
-  const isHidden = elem.classList.contains("hidden-blog");
-  if (isHidden) return;
-  elem.classList.add("hidden-blog");
+  try {
+    const container = getElement(".blog-list");
+    container.removeChild(elem);
+  } catch (error) {}
 };
 
 const showBlog = (elem) => {
-  const isHidden = elem.classList.contains("hidden-blog");
-  if (!isHidden) return;
-  elem.classList.remove("hidden-blog");
+  const container = getElement(".blog-list");
+  container.appendChild(elem);
 };
 
 const filterPage = (type) => {
-  const elements = getElements(".blog-list-blog");
-  elements.forEach((blog) => {
+  blogs.forEach((blog) => {
     const blogType = getElementAttribute(blog, "data-type");
     if (!type) {
       return showBlog(blog);
@@ -31,6 +39,7 @@ const filterPage = (type) => {
     return showBlog(blog);
   });
 };
+
 const toggleActiveSelector = (selector, isActive) => {
   const selectors = getElements(".blog-tags-tag");
   selectors.forEach((tag) => {
@@ -55,9 +64,20 @@ const selectFilter = (element) => {
   return filterPage(formatted);
 };
 
-const addEventsToFilter = () => {
-  const filters = getElements(".blog-tags-tag");
-  filters.forEach((element) => {
+const addEventsToTags = () => {
+  const tags = getElements(".blog-tags-tag");
+  tags.forEach((element) => {
     addEvent(element, "click", () => selectFilter(element));
   });
+};
+
+const getElementWidth = () => {
+  // const tags = getElements(".blog-tags-tag");
+  // let totalWidth = 0;
+  // tags.forEach((tag) => {
+  //   const width = tag.getBoundingClientRect().width;
+  //   totalWidth += width;
+  // });
+  // const container = getElement(".blog-tags");
+  // container.style.width = `${totalWidth}px`;
 };

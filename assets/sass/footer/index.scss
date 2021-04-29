@@ -31,6 +31,9 @@
         margin-right: 0px;
       }
     }
+    &-mobile {
+      display: none;
+    }
   }
   &-flex {
     display: flex;
@@ -109,11 +112,46 @@
     border-bottom: 2px solid rgba(255, 255, 255, 1);
     margin-top: 40px;
     padding-bottom: 40px;
+    &-mobile {
+      display: none;
+      &-title {
+        height: 40px;
+        cursor: pointer;
+        padding-left: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        &::after {
+          position: absolute;
+          left: 0px;
+          top: 50%;
+          transform: translate(0, -50%);
+          content: "+";
+        }
+      }
+      &-list {
+        flex-direction: column;
+        display: none;
+        padding-left: 20px;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          margin-bottom: 20px;
+          min-width: 100%;
+          font-size: 14px;
+        }
+        &-active {
+          display: flex;
+        }
+      }
+    }
     &-links {
       &-title {
         font-size: 1rem;
         margin-bottom: 20px;
         text-transform: uppercase;
+        color: $light-color;
         font-family: $bold-font;
       }
       &-list {
@@ -151,6 +189,9 @@
         width: 50%;
       }
     }
+    &-mobile-links {
+      display: none;
+    }
   }
   &-logo-section {
     width: 30%;
@@ -182,6 +223,67 @@
     &-policy {
       font-size: 12px;
       color: #acacac;
+    }
+  }
+}
+@media only screen and (max-width: $medium) {
+  .footer {
+    &-flex {
+      flex-direction: column;
+    }
+    &-navigation {
+      .main-grid {
+        flex-direction: column;
+        > div {
+          width: 100%;
+        }
+      }
+      &-mobile {
+        display: block;
+      }
+
+      &-desktop-links {
+        display: none;
+      }
+    }
+    &-logo-section {
+      width: 100%;
+      padding-right: 0px;
+    }
+    &-posts-and-tweets {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .footer {
+    &-flex {
+      flex-direction: column;
+    }
+    &-logo-section {
+      width: 100%;
+      padding-right: 0px;
+    }
+    &-sub-title {
+      margin-top: 40px;
+      min-width: 100%;
+    }
+    &-post {
+      min-width: 100%;
+      margin-bottom: 30px;
+    }
+    &-tweet {
+      min-width: 100%;
+      margin-bottom: 30px;
+    }
+    &-posts-and-tweets {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      &-mobile {
+        display: flex;
+      }
     }
   }
 }

@@ -14,7 +14,7 @@ const WhitePaperslist = ({ list }) => {
               >
                 {category.title}
               </section>
-              {category.whitePapers}
+              {category.list}
             </div>
           );
         })}

@@ -197,7 +197,7 @@ const handleOutSideClick = () => {
 
 window.onload = () => {
   init();
-  setupGlobe();
+  // setupGlobe();
 };
 
 const addListenerToCanvas = () => {

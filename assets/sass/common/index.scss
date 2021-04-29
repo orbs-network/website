@@ -37,12 +37,6 @@ $light-gray: #d0d0d0;
 .uppercase {
   text-transform: uppercase;
 }
-.inside-margin {
-  margin-bottom: 80px;
-}
-.outside-margin {
-  margin-bottom: 110px;
-}
 
 .page-padding-top {
   padding-top: 145px;
@@ -51,7 +45,7 @@ $light-gray: #d0d0d0;
   h1 {
     color: #03fcf5;
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 1.563rem;
     margin-bottom: 30px;
     font-family: $bold-font;
   }
@@ -59,16 +53,10 @@ $light-gray: #d0d0d0;
 
 .main-grid {
   margin: auto;
-  max-width: 1312px;
-  width: calc(100% - 100px);
+  width: $grid;
 }
 .page-padding {
   padding-top: 200px;
-}
-
-.indicator {
-  position: absolute;
-  top: -110px;
 }
 
 .page-header {
@@ -76,10 +64,10 @@ $light-gray: #d0d0d0;
   height: 444px;
   display: flex;
   flex-direction: column;
-  .title {
+  &-title {
     margin-top: 139px;
   }
-  .sub-title {
+  &-sub-title {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -121,7 +109,7 @@ $light-gray: #d0d0d0;
 
 .title {
   h1 {
-    font-size: 1.75rem;
+    font-size: 1.563rem;
     text-transform: uppercase;
     text-align: center;
 
@@ -139,25 +127,22 @@ $light-gray: #d0d0d0;
   }
 }
 
-@mixin grid-1($margin-top, $margin-right, $width) {
+@mixin grid-1($margin-top) {
   li {
     width: 100%;
-    margin-top: $margin-top;
+    margin-top: #{$margin-top}px;
     margin-right: 0px;
     &:nth-of-type(1) {
       margin-top: 0px;
     }
-    &:first-child {
-      padding-left: 0px;
-    }
   }
 }
 
-@mixin grid-2($margin-top, $margin-right, $width) {
+@mixin grid-2($margin-top, $margin) {
   li {
-    margin-top: $margin-top;
-    margin-right: $margin-right;
-    width: $width;
+    margin-top: #{$margin-top}px;
+    margin-right: #{$margin}px;
+    width: calc(100% / 2 - #{$margin * 0.5}px);
     &:nth-of-type(-n + 2) {
       margin-top: 0px;
     }
@@ -167,11 +152,11 @@ $light-gray: #d0d0d0;
   }
 }
 
-@mixin grid-3($margin-top, $margin-right, $width) {
+@mixin grid-3($margin-top, $margin) {
   li {
-    margin-top: $margin-top;
-    margin-right: $margin-right;
-    width: $width;
+    margin-top: #{$margin-top}px;
+    width: calc(100% / 3 - #{$margin * 0.67}px);
+    margin-right: #{$margin}px;
     &:nth-of-type(-n + 3) {
       margin-top: 0px;
     }
@@ -225,7 +210,14 @@ $light-gray: #d0d0d0;
     }
   }
 }
-
+@mixin image-grid-1($margin-top, $padding, $width) {
+  li {
+    margin-top: $margin-top;
+    padding-left: $padding;
+    padding-right: $padding;
+    width: $width;
+  }
+}
 @mixin image-grid-3($margin-top, $padding, $width) {
   li {
     margin-top: $margin-top;
@@ -246,6 +238,35 @@ $light-gray: #d0d0d0;
     width: $width;
     &:nth-of-type(-n + 2) {
       margin-top: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: $laptop) {
+  .main-grid {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .main-grid {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .page-header {
+    height: 360px;
+    figure {
+      height: 300px;
+    }
+    .title h1 {
+      font-size: 1.375rem;
+    }
+    .sub-title {
+      .md-title-h4 {
+        font-size: 1.125rem;
+      }
     }
   }
 }
