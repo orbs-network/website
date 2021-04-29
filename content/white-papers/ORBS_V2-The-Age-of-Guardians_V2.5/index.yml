@@ -1,9 +1,0 @@
-title: "Orbs PoS V2: The Age of Guardians"
-layout: pages/page
-script: white-paper/index
-main:
-  - body.md
-header:
-  - /_shared/header/index.md
-footer:
-  - /_shared/footer/footer.md

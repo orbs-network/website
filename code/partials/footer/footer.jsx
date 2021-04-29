@@ -6,7 +6,6 @@ const Footer = ({ tweetsAndPosts, navigation, logoSection, bottomSection }) => {
       <div className="main-grid">
         <div className="footer-flex">
           {logoSection}
-
           {tweetsAndPosts}
         </div>
       </div>

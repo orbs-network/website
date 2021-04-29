@@ -5,6 +5,10 @@
   .page-header {
     height: 462px;
     margin-bottom: 0px;
+    &-gradient {
+      height: 100%;
+      bottom: 0px;
+    }
     .sub-title {
       max-width: 970px;
       width: 100%;
