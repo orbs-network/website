@@ -1,5 +1,6 @@
-import { addEvent, getElement, getElements, init } from "../common.js";
+import { addEvent, getElement, getElements } from "../common.js";
 import { setOpeningBoxEvents } from "../components/opening-box.js";
+import { init } from "../index.js";
 
 window.onload = () => {
   init();

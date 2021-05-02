@@ -8,8 +8,6 @@ date: 10/04/2021
 blogUrl: blog/how-to-choose-an-orbs-guardian
 weight: 20
 category: proof of stake
-title:
-  - title.md
 linkText: 5 minutes to read
 publishedOn: "Publishen on:"
 by: By
@@ -23,6 +21,7 @@ content:
   - content.md
 twitter: /
 telegram: /
+title: How to choose an Orbs Guardian
 ---
 
 The Orbs network was launched and opened to public participation at the end of March 2019 alongside the distribution of the ORBS token to…

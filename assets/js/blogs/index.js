@@ -3,8 +3,8 @@ import {
   getElement,
   getElementAttribute,
   getElements,
-  init,
 } from "../common.js";
+import { init } from "../index.js";
 
 let selected;
 let blogs = [];

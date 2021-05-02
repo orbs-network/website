@@ -13,6 +13,7 @@ languages:
     link: /jp
     img: /assets/img/navbar/japan.png
 
-text:
-  subscribe_to_updates: subscribe to updates
+subscribe_to_updates: subscribe to updates
+blog: blog
+blog_link: /blog
 ---

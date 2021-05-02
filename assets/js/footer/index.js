@@ -1,4 +1,5 @@
 import { getElements, addEvent } from "../common.js";
+
 export const addListenersToFooter = () => {
   const mobileNavigations = getElements(".footer-navigation-mobile");
   mobileNavigations.forEach((element) => {

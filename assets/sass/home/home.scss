@@ -3,7 +3,6 @@
 
   background: #121822;
   position: relative;
-  z-index: 999999;
 
   &-globe {
     position: absolute;
@@ -58,9 +57,7 @@
 .page-wrapper {
   height: 100%;
 }
-.navbar {
-  padding: 0px 30px;
-}
+
 .globe-loader {
   position: fixed;
   left: 0px;
