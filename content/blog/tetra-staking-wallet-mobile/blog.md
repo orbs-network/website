@@ -8,8 +8,7 @@ date: 20/04/2021
 blogUrl: blog/tetra-staking-wallet-mobile
 weight: 20
 category: proof of stake
-title:
-  - title.md
+title: Tetra staking wallet by Orbs Now on Mobile
 linkText: 5 minutes to read
 publishedOn: "Publishen on:"
 by: By

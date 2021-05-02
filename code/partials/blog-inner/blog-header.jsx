@@ -1,40 +1,51 @@
 import React from "react";
+import { daysFromDate } from "../../util/date";
 import Img from "../shared/Img";
-
+import InnerLinks from "../shared/inner-links";
+import { images } from "../../../assets/js/images";
 const BlogHeader = (props) => {
   const {
-    image,
     authorImage,
-    projectName,
-    projectUrl,
     authorName,
-    by,
     title,
     _relativeURL,
     _ID,
     authorUrl,
-    inThe,
+    telegram,
+    twitter,
+    date,
+    daysAgo,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
+
+  const links = {
+    twitter,
+    telegram,
+  };
   return (
     <div className="single-blog-header">
-      <Img src={generateUrl(image)} className="single-blog-header-bg" />
-      <div className="single-blog-header-content  page-grid">
-        {title}
-        <div className="single-blog-header-author">
-          <Img
-            src={generateUrl(authorImage)}
-            className="single-blog-header-author-img"
-          />
-          <div className="flex-start single-blog-header-author-details">
-            <p>{by}</p>
-            <a href={authorUrl}>{authorName}</a>
-            <p>{inThe}</p>
-            <a href={projectUrl}>{projectName}</a>
+      <h1 className="single-blog-header-title">{title}</h1>
+      <div className="single-blog-header-author">
+        <figure className="single-blog-header-author-avatar">
+          <Img src={generateUrl(authorImage)} />
+        </figure>
+        <div className="single-blog-header-author-flex flex-start">
+          <div className="single-blog-header-author-details flex-start">
+            <a className="single-blog-header-author-name" href={authorUrl}>
+              {authorName}
+            </a>
+            <p>|</p>
           </div>
+          <p>{`${daysFromDate(date)} ${daysAgo}`}</p>
         </div>
+
+        <InnerLinks
+          links={links}
+          section={images.socials}
+          generateUrl={generateUrl}
+        />
       </div>
     </div>
   );

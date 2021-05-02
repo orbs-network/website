@@ -5,13 +5,13 @@
   .page-header {
     height: 462px;
     margin-bottom: 0px;
-    &-gradient {
-      height: 100%;
-      bottom: 0px;
-    }
+
     .sub-title {
       max-width: 970px;
       width: 100%;
+      font-size: 0.875rem;
+      line-height: 26px;
+      font-weight: 400;
     }
   }
 
@@ -20,20 +20,8 @@
 
     margin-top: 101px;
     align-items: flex-start;
-    &:after {
-      position: absolute;
-      left: 48.5%;
-      transform: translate(-50%);
-      top: 0px;
-      height: 100%;
-      width: 2px;
-      background-color: white;
-      opacity: 0.3;
-      content: "";
-    }
-    &-section {
-      width: 50%;
 
+    &-section {
       &-top {
         margin-bottom: 30px;
 
@@ -49,12 +37,6 @@
           letter-spacing: 0.031rem;
           font-weight: 600;
         }
-      }
-      &:nth-child(odd) {
-        padding-right: 32px;
-      }
-      &:nth-child(even) {
-        padding-left: 60px;
       }
 
       a[title="button"] {
@@ -134,12 +116,7 @@
     margin-top: 105px;
     align-items: flex-start;
     margin-bottom: 85px;
-    > div {
-      align-items: flex-start;
-    }
     .expending-box {
-      width: 50%;
-      max-width: 530px;
       padding-top: 0px;
       &-title {
         margin-bottom: 37px;
@@ -147,10 +124,6 @@
       }
     }
     .images-grid {
-      width: 50%;
-      max-width: 640px;
-      @include image-grid-3(40px, 30px, 33%);
-      margin-left: auto;
       &-list-img {
         width: 55px;
         height: 55px;
@@ -185,6 +158,142 @@
       }
       .expend-btn {
         @include pink-expend-btn();
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $medium) {
+  .universe {
+    &-first {
+      &-flex {
+        &-section {
+          width: 50%;
+          &:nth-child(odd) {
+            padding-right: 32px;
+          }
+          &:nth-child(even) {
+            padding-left: 60px;
+          }
+        }
+        &:after {
+          position: absolute;
+          left: 48.5%;
+          transform: translate(-50%);
+          top: 0px;
+          height: 100%;
+          width: 2px;
+          background-color: white;
+          opacity: 0.3;
+          content: "";
+        }
+      }
+    }
+    &-second {
+      &-flex {
+        &-container {
+          align-items: flex-start;
+          .expending-box {
+            width: 50%;
+            max-width: 570px;
+            padding-top: 0px;
+            padding-right: 40px;
+            &-title {
+              margin-bottom: 37px;
+              color: $light-color;
+            }
+          }
+          .images-grid {
+            width: 50%;
+            max-width: 670px;
+            min-width: 500px;
+            @include image-grid-3(40px, 20px, 33%);
+            margin-left: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $medium) {
+  .universe {
+    &-first {
+      &-flex {
+        flex-direction: column;
+        &-section {
+          &:first-child {
+            margin-bottom: 100px;
+          }
+        }
+      }
+    }
+    &-second {
+      &-flex {
+        &-container {
+          flex-direction: column;
+        }
+        .expending-box {
+          width: 100%;
+        }
+        .images-grid {
+          margin-top: 100px;
+          width: 100%;
+        }
+      }
+    }
+    &-third {
+      &-flex {
+        .expending-box {
+          width: 100%;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: $mobile) and (max-width: $medium) {
+  .universe {
+    &-second {
+      &-flex {
+        .images-grid {
+          @include image-grid-3(40px, 30px, 33%);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .universe {
+    .page-header {
+      height: auto;
+      margin-bottom: 0px;
+      .sub-title {
+        margin-top: 100px;
+      }
+    }
+    &-first {
+      &-flex {
+        margin-top: 70px;
+        &-section {
+          &-top {
+            img {
+              width: 50px;
+              height: 60px;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    &-second {
+      &-flex {
+        &-container {
+          .images-grid {
+            @include image-grid-1(40px, 20px, 100%);
+          }
+        }
       }
     }
   }

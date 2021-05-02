@@ -16,12 +16,11 @@ const NavbarMenu = ({
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="nav-menu">
-      <section className="nav-menu-overlay"></section>
-      <figure className="nav-menu-bg" />
-      <div className="nav-menu-content main-grid">
-        <div className="nav-menu-content-flex">
-          <div className="nav-menu-content-header flex-between">
+    <div className="navbar-menu">
+      <section className="navbar-menu-overlay"></section>
+      <div className="navbar-menu-content">
+        <div className="navbar-menu-content-wrapper">
+          <div className="navbar-menu-content-header flex-between">
             <MenuToggle
               image={generateUrl(logo)}
               url={generateUrl(home)}

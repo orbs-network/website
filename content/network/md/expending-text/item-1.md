@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title:
+title: THE WINNING BLOCKCHAIN STACK
 readMoreButton: read more
 readLessButton: read less
 ---

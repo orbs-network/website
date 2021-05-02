@@ -1,4 +1,6 @@
-import { addEvent, getElements, init } from "../common.js";
+import { addEvent, getElements } from "../common.js";
+import { init } from "../index.js";
+
 import "https://unpkg.com/swiper/swiper-bundle.min.js";
 window.onload = () => {
   init();

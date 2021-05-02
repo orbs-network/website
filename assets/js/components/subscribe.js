@@ -2,7 +2,7 @@ import {
   addEvent,
   getElement,
   getElements,
-  hideSubscribePopup,
+  hideBodyOverflow,
 } from "../common.js";
 import {
   addEventsToInputs,
@@ -46,6 +46,18 @@ const handleSubmit = (e) => {
 
 const closeForm = () => {
   hideSubscribePopup();
+};
+
+export const showSubscribePopup = () => {
+  const popup = getElement(".subscribe");
+  popup.classList.add("subscribe-active");
+  hideBodyOverflow(true);
+};
+
+export const hideSubscribePopup = () => {
+  const popup = getElement(".subscribe");
+  popup.classList.remove("subscribe-active");
+  hideBodyOverflow(false);
 };
 
 const handleFormSubmitted = () => {

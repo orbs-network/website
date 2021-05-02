@@ -58,3 +58,15 @@
     }
   }
 }
+
+@media only screen and (max-width: $mobile) {
+  .smart-contracts {
+    .page-header {
+      &-text {
+        .sub-title {
+          font-size: 1.11rem;
+        }
+      }
+    }
+  }
+}

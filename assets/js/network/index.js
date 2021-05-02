@@ -1,5 +1,5 @@
-import { init, addEvent } from "../common.js";
 import { setToggleTextEvent } from "../components/expending-text.js";
+import { init } from "../index.js";
 
 window.onload = () => {
   init();

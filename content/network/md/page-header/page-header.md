@@ -5,5 +5,6 @@ title:
   - title.md
 subTitle:
   - sub-title.md
-video:
+video: /assets/video/bg-video.mp4
+poster: /assets/img/common/header/bg.jpg
 ---
