@@ -1,4 +1,6 @@
-import { addEvent, getElement, init, getElements } from "../common.js";
+import { addEvent, getElement, getElements } from "../common.js";
+import { init } from "../index.js";
+
 import {
   validateInputsOnSubmit,
   addEventsToInputs,

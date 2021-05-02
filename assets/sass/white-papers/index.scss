@@ -1,4 +1,7 @@
 .white-papers {
+  .text-p {
+    word-break: break-all;
+  }
   .page-header {
     height: 270px;
     margin-bottom: 27px;
@@ -100,6 +103,8 @@
     }
     &-c {
       padding-right: 0px;
+      max-width: none;
+      width: 100%;
     }
   }
 }

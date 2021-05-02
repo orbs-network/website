@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = ({ navbarTop, menu }) => {
   return (
-    <div class="main-header">
-      <div className="main-grid">
+    <div class="navbar">
+      <div className="main-grid navbar-flex">
         {navbarTop}
         {menu}
       </div>

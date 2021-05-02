@@ -2,7 +2,20 @@ import React from "react";
 import { images } from "../../../assets/js/images";
 import MenuToggle from "./components/menu-toggle";
 
-const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
+const ActionBtn = ({ text, customClassName }) => {
+  const className = `navbar-top-action-btn ${customClassName}`;
+  return <button className={className}>{text}</button>;
+};
+
+const NavbarTop = ({
+  languages,
+  _relativeURL,
+  _ID,
+  subscribe_to_updates,
+  home,
+  blog,
+  blog_link,
+}) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -14,12 +27,14 @@ const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
         toggleImg={generateUrl(images.common.hamburger)}
         customClassName="navbar-burger-open"
       />
-      <section className="navbar-flags">
-        <button className="flex-start subscribe-btn">
-          <p>+</p>
-          <p>{text.subscribe_to_updates}</p>
-        </button>
-        <ul className="navbar-flags-list">
+      <section className="navbar-top-right">
+        <a
+          href={blog_link}
+          className="navbar-top-action-btn blog-btn"
+        >{`+ ${blog}`}</a>
+        <button className="navbar-top-action-btn subscribe-btn">{`+ ${subscribe_to_updates}`}</button>
+
+        <ul className="navbar-flags">
           {languages.map((lng, index) => {
             return (
               <li key={index}>
@@ -35,4 +50,4 @@ const NavbarFlags = ({ languages, _relativeURL, _ID, text, logo, home }) => {
   );
 };
 
-export default NavbarFlags;
+export default NavbarTop;

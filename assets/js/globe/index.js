@@ -1,9 +1,10 @@
 import {
   getElement,
   hideElement,
-  init,
   onMouseEnterAndLeaveEvent,
 } from "../common.js";
+import { init } from "../index.js";
+
 import { globeConfig } from "./config.js";
 
 import { GlobeController } from "./globe.js";

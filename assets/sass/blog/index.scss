@@ -24,10 +24,8 @@ $blog-bold-font: "base-blog-font";
 
   &-bg {
     width: 100%;
-    max-height: 574px;
-    height: 30vw;
-    min-height: 350px;
-
+    height: 39.7vw;
+    min-height: 250px;
     img {
       width: 100%;
       height: 100%;
@@ -37,17 +35,18 @@ $blog-bold-font: "base-blog-font";
   &-header {
     max-width: 800px;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    .title {
-      h3 {
-        color: white;
-        text-align: start;
-        font-size: 2.25rem;
-        font-weight: 500;
-        margin-bottom: 0px;
-      }
+    &-title {
+      color: white;
+      font-size: 2.25rem;
+      font-weight: 400;
+      margin-bottom: 0px;
+      letter-spacing: 0.08rem;
+      text-align: left;
+      font-family: $text-font;
+      text-transform: none;
     }
 
     &-bg {
@@ -69,19 +68,29 @@ $blog-bold-font: "base-blog-font";
         display: flex;
         align-items: center;
       }
+      &-flex {
+        flex-wrap: wrap;
+        padding-right: 30px;
+        flex: 1;
+      }
       .inner-links {
         margin-left: auto;
         margin-bottom: 0px;
         a {
           width: 15px;
           height: 15px;
-          margin-left: 20px;
+          margin-left: 35px;
+          margin-right: 0px;
+          &:first-child {
+            margin-left: 0px;
+          }
         }
       }
       &-name {
         font-weight: bold;
         text-transform: uppercase;
         color: $light-color;
+        font-size: 0.875rem;
       }
       &-avatar {
         width: 60px;
@@ -89,7 +98,6 @@ $blog-bold-font: "base-blog-font";
         border-radius: 50%;
         overflow: hidden;
         margin-right: 12px;
-
         img {
           width: 100%;
           height: 100%;
@@ -101,15 +109,13 @@ $blog-bold-font: "base-blog-font";
       p {
         text-decoration: none;
         margin-right: 5px;
-        font-size: 0.875rem;
       }
     }
   }
   &-bottom {
     margin: auto;
-
     background: #313131;
-    padding: 50px 0px;
+    padding: 50px 0px 98px 0px;
     width: 100%;
     &-title {
       font-size: 1.375rem;
@@ -118,11 +124,17 @@ $blog-bold-font: "base-blog-font";
       color: #53fffa;
     }
     &-flex {
-      width: 1000px;
+      max-width: 1300px;
+      width: calc(100% - 60px);
       margin: auto;
-      padding-top: 70px;
+      padding-top: 30px;
+      flex-wrap: wrap;
+
       &-item {
+        margin: auto;
+        margin-top: 40px;
         align-items: center;
+
         img {
           margin-bottom: 28px;
           width: 36px;
@@ -132,10 +144,12 @@ $blog-bold-font: "base-blog-font";
         h4 {
           font-size: 1.063rem;
           font-weight: 500;
-          margin-bottom: 28px;
+          margin-bottom: 23px;
         }
         button {
           @extend .btn;
+          height: 51px;
+          border-radius: 42px;
           text-transform: none;
           padding: 0px 25px;
         }
@@ -145,7 +159,7 @@ $blog-bold-font: "base-blog-font";
   &-body {
     background: white;
     margin: auto;
-    padding-top: 53px;
+    padding-top: 37px;
     padding-bottom: 30px;
     &-grid {
       max-width: 840px;
@@ -163,10 +177,14 @@ $blog-bold-font: "base-blog-font";
       margin-bottom: 40px;
     }
     .text-p {
-      margin-bottom: 26px;
+      margin-top: 40px;
       font-size: 1.313rem;
+      margin-bottom: 0px;
       line-height: 2rem;
       color: rgba(41, 41, 41, 1);
+      &:first-child {
+        margin-top: 0px;
+      }
     }
     .dots {
       text-align: center;
@@ -196,12 +214,48 @@ $blog-bold-font: "base-blog-font";
     .image {
       width: 100%;
       height: auto;
-      margin-bottom: 20px;
       margin-top: 20px;
     }
-    .md-title-h3 {
+    .title-h3 {
       font-size: 1.875rem;
-      margin-bottom: 20px;
+      margin-top: 60px;
+      font-family: $text-font;
+      font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .single-blog {
+    &-header {
+      .inner-links {
+        a {
+          margin-left: 20px;
+        }
+      }
+      &-title {
+        font-size: 1.75rem;
+      }
+      &-author {
+        &-avatar {
+          width: 40px;
+          height: 40px;
+        }
+        &-name,
+        p {
+          font-size: 0.813rem;
+        }
+      }
+    }
+    &-body {
+      .text-p {
+        font-size: 1.125rem;
+        margin-top: 20px;
+      }
+      .title-h3 {
+        font-size: 1.5rem;
+        margin-top: 30px;
+      }
     }
   }
 }
