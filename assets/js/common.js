@@ -61,7 +61,7 @@ export const onOutsideEvent = (element, callback) => {
   });
 };
 
-const handleOnScroll = () => {
+export const handleOnScroll = () => {
   document.addEventListener(
     "scroll",
     () => {
@@ -80,28 +80,15 @@ export const removeSpaces = (str, char) => {
   return str.toLowerCase().split(" ").join(char);
 };
 
-export const init = () => {
-  addListenersToNavbar();
-  addListenersToFooter();
-  handleOnScroll();
-  AOS.init({ once: true });
-  handleNavbarScroll();
-  initSubscribeForm();
-  const subscribeBtn = getElement(".subscribe-btn");
-  addEvent(subscribeBtn, "click", showSubscribePopup);
-};
-
 export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
 };
 
-export const showSubscribePopup = () => {
-  const popup = getElement(".subscribe");
-  popup.classList.add("subscribe-active");
-};
-
-export const hideSubscribePopup = () => {
-  const popup = getElement(".subscribe");
-  popup.classList.remove("subscribe-active");
+export const hideBodyOverflow = (val) => {
+  const body = getElement("body");
+  if (val) {
+    return body.classList.add("overflow-hidden");
+  }
+  return body.classList.remove("overflow-hidden");
 };
