@@ -1,7 +1,6 @@
 ---
 layout: partials/shared/subscribe
-title:
-  - title.md
+title: SUBSCRIBE FOR UPDATES
 subTitle: Sometimes we have interesting announcements to tell you... don't miss out!
 firstName: First Name
 firstNamePlaceholder: Enter your name here

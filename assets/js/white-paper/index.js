@@ -1,10 +1,5 @@
-import {
-  getElements,
-  init,
-  addEvent,
-  getElement,
-  getElementAttribute,
-} from "../common.js";
+import { init } from "../index.js";
+
 window.onload = () => {
   init();
 };

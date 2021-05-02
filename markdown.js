@@ -9,20 +9,21 @@ module.exports = exports = function renderer({
   _globalProp,
   _relativeURL,
 }) {
-  // Marked.heading = (text, level) => {
-  //   return `<h${level} id="${text
-  //     .toLowerCase()
-  //     .replace(/[^\w]+/g, "-")}"
-  //     data-aos=${
-  //     animations.fadeTop
-  //   }
-  //   >${text}</h${level}>\n`;
-  // };
-
   Marked.heading = (text, level) => {
+    let className = `title-h${level}`;
+    switch (level) {
+      case 1:
+        className += " title";
+        break;
+      case 2:
+        className += " sub-title";
+        break;
+      default:
+        break;
+    }
     return `<h${level} id="${text
       .toLowerCase()
-      .replace(/[^\w]+/g, "-")}"  class='md-title md-title-h${level}'
+      .replace(/[^\w]+/g, "-")}"  class='${className}'
     >${text}</h${level}>\n`;
   };
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Title = ({ _body }) => {
-  return <div className="title">{_body}</div>;
+  return <React.Fragment>{_body}</React.Fragment>;
 };
 
 export default Title;

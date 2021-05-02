@@ -1,18 +1,31 @@
-import { getElement, removeClass, addClass, addEvent } from "../common.js";
+import {
+  getElement,
+  removeClass,
+  addClass,
+  addEvent,
+  hideBodyOverflow,
+} from "../common.js";
+import { showSubscribePopup } from "../components/subscribe.js";
 
+let menuIsOpen;
 export const showMenu = () => {
-  const menu = getElement(".nav-menu");
-  addClass(menu, "nav-menu-show");
+  const menu = getElement(".navbar-menu");
+  addClass(menu, "navbar-menu-show");
+  hideBodyOverflow(true);
+  menuIsOpen = true;
 };
 
 export const hideMenu = () => {
-  const menu = getElement(".nav-menu");
-  removeClass(menu, "nav-menu-show");
+  if (!menuIsOpen) return;
+  const menu = getElement(".navbar-menu");
+  removeClass(menu, "navbar-menu-show");
+  hideBodyOverflow(false);
+  menuIsOpen = false;
 };
 
 export const navbarMenuOutsideClick = () => {
   document.addEventListener("click", function (event) {
-    const overlay = getElement(".nav-menu-content-flex");
+    const overlay = getElement(".navbar-menu-content");
     const btn = getElement(".menu-burger-toggle");
     if (!overlay || !btn || btn.contains(event.target)) return;
     const isClickInside = overlay.contains(event.target);
@@ -23,7 +36,7 @@ export const navbarMenuOutsideClick = () => {
 };
 
 export const handleNavbarScroll = () => {
-  const navbar = getElement(".main-header");
+  const navbar = getElement(".navbar");
   const offsetTop = window.pageYOffset;
   if (offsetTop >= 30) {
     navbar.classList.add("scrolled-navbar");
@@ -33,6 +46,8 @@ export const handleNavbarScroll = () => {
 };
 
 export const addListenersToNavbar = () => {
+  const subscribeBtn = getElement(".subscribe-btn");
+  addEvent(subscribeBtn, "click", showSubscribePopup);
   const hamburger = getElement(".navbar-burger-open");
   addEvent(hamburger, "click", showMenu);
   const closeMenu = getElement(".navbar-burger-close");
@@ -45,7 +60,7 @@ export const addListenersToNavbar = () => {
 };
 
 const onNavbarLoad = () => {
-  const menu = getElement(".nav-menu");
+  const menu = getElement(".navbar-menu");
   const subscribe = getElement(".subscribe");
   menu.style.display = "flex";
   subscribe.style.display = "flex";

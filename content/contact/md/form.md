@@ -1,7 +1,6 @@
 ---
 layout: partials/contact/contact-form
-title:
-  - title.md
+title: contact us
 subTitle: LOREM IPSUM TEXT ABOUT CONTACT US
 firstName: First Name
 firstNamePlaceholder: Enter your first name here

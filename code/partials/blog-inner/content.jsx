@@ -1,7 +1,7 @@
 import React from "react";
 
 const Content = ({ _body }) => {
-  return <div>{_body}</div>;
+  return <React.Fragment>{_body}</React.Fragment>;
 };
 
 export default Content;

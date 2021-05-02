@@ -8,8 +8,7 @@ date: 20/04/2021
 blogUrl: blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-2
 weight: 20
 category: proof of stake
-title:
-  - title.md
+title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 2
 linkText: 5 minutes to read
 publishedOn: "Publishen on:"
 by: By

@@ -29,7 +29,7 @@ const BlogListElement = (props) => {
         <figure className="blog-list-blog-img">
           <Img src={generateUrl(image)} />
         </figure>
-        {title}
+        <h5 className="blog-list-blog-title">{title}</h5>
         {_body}
         <div className="blog-list-blog-author flex-start">
           <Img src={generateUrl(authorImage)} />
