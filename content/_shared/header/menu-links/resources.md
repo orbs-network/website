@@ -1,5 +1,5 @@
 ---
-layout: partials/navbar/menu-resources
+layout: partials/navbar/components/menu-resources
 title: Resources
 
 links:

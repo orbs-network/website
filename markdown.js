@@ -67,7 +67,9 @@ module.exports = exports = function renderer({
       href = _relativeURL(href, _ID);
     }
 
-    return `<a href="${href}"${title ? ` title="${title}"` : ""} >${text}</a>`;
+    return `<a href="${href}"${
+      title ? ` title="${title}"` : ""
+    } rel="noopener" >${text}</a>`;
   };
 
   // making all images relative

@@ -5,7 +5,7 @@ const CardTooltip = ({ type, img }) => {
   return (
     <aside className="card-type">
       <p> {type}</p>
-      <Img src={img} />
+      <Img src={img} alt="card tooltip" />
     </aside>
   );
 };

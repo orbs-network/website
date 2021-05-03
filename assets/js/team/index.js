@@ -49,7 +49,6 @@ const addClickListenerToMember = () => {
 const showMemberPopup = (element) => {
   const popup = element.querySelector(".team-member-popup");
   const body = document.querySelector("body");
-
   var bodyPopup = popup.cloneNode(true);
 
   const overlay = bodyPopup.querySelector(".team-member-popup-overlay");

@@ -2,11 +2,6 @@ import React from "react";
 import { images } from "../../../assets/js/images";
 import MenuToggle from "./components/menu-toggle";
 
-const ActionBtn = ({ text, customClassName }) => {
-  const className = `navbar-top-action-btn ${customClassName}`;
-  return <button className={className}>{text}</button>;
-};
-
 const NavbarTop = ({
   languages,
   _relativeURL,
@@ -29,16 +24,20 @@ const NavbarTop = ({
       />
       <section className="navbar-top-right">
         <a
-          href={blog_link}
+          rel="noreferrer"
+          href={generateUrl(blog_link)}
           className="navbar-top-action-btn blog-btn"
         >{`+ ${blog}`}</a>
-        <button className="navbar-top-action-btn subscribe-btn">{`+ ${subscribe_to_updates}`}</button>
+        <button
+          className="navbar-top-action-btn subscribe-btn"
+          aria-label="subscribe"
+        >{`+ ${subscribe_to_updates}`}</button>
 
         <ul className="navbar-flags">
           {languages.map((lng, index) => {
             return (
               <li key={index}>
-                <a href={generateUrl(lng.link)}>
+                <a href={generateUrl(lng.link)} rel="noopener">
                   <img src={generateUrl(lng.img)} />
                 </a>
               </li>

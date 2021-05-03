@@ -36,7 +36,13 @@ const Delegator = ({
           img={generateUrl(images.globe.delegator.figure)}
           type={type}
         />
-        {image && <Img src={generateUrl(image)} className="card-avatar-img" />}
+        {image && (
+          <Img
+            src={generateUrl(image)}
+            className="card-avatar-img"
+            alt="delegator avatar"
+          />
+        )}
       </figure>
       <div className="card-data flex-column">
         <CardTitle title={name} />
@@ -54,10 +60,10 @@ const Delegator = ({
           <section className="flex-center d-card-wallets">
             <h5>{favorite}</h5>
             <figure>
-              <Img src={generateUrl(firstWallet)} />
+              <Img src={generateUrl(firstWallet)} alt="crypto wallet" />
             </figure>
             <figure>
-              <Img src={generateUrl(secondWallet)} />
+              <Img src={generateUrl(secondWallet)} alt="crypto wallet" />
             </figure>
           </section>
           <Interests

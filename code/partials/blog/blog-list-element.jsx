@@ -21,18 +21,22 @@ const BlogListElement = (props) => {
   };
   return (
     <li
-      className="blog-list-blog"
+      className="blog-list-blog list-item"
       data-type={type}
       data-aos={animations.fadeTop}
     >
-      <a href={generateUrl(blogUrl)} className="blog-list-blog-wrapper">
+      <a
+        href={generateUrl(blogUrl)}
+        className="blog-list-blog-wrapper"
+        rel="noopener"
+      >
         <figure className="blog-list-blog-img">
-          <Img src={generateUrl(image)} />
+          <Img src={generateUrl(image)} alt="blog" />
         </figure>
         <h5 className="blog-list-blog-title">{title}</h5>
         {_body}
         <div className="blog-list-blog-author flex-start">
-          <Img src={generateUrl(authorImage)} />
+          <Img src={generateUrl(authorImage)} alt="author avatar" />
           <p>{authorName}</p>
           <small>|</small>
           <p>{formatBlogDate(date)}</p>

@@ -1,13 +1,23 @@
 import React from "react";
-import GlobeLoader from "./globeLoader";
+import Img from "../shared/Img";
 
-const Main = ({ cards, pageText }) => {
+const Main = ({ _body, globe_image, _relativeURL, _ID, socials }) => {
+  const generateUrl = (url) => {
+    return `${_relativeURL(url, _ID)}`;
+  };
   return (
     <main className="home">
-      {/* <GlobeLoader /> */}
-      <div className="main-grid">
-        {/* {cards} */}
-        {pageText}
+      <div className="home-flex main-grid flex-start">
+        <div className="home-flex-left flex-column">
+          <section />
+          <div className="home-flex-left-text"> {_body}</div>
+          {socials}
+        </div>
+        <Img
+          src={generateUrl(globe_image)}
+          alt="earth"
+          className="home-globe-image home-flex-right"
+        />
       </div>
     </main>
   );

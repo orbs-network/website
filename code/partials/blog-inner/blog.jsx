@@ -12,7 +12,7 @@ const Blog = (props) => {
     <React.Fragment>
       <BlogHeader {...props} />
       <figure className="single-blog-bg">
-        <Img src={generateUrl(image)} />
+        <Img src={generateUrl(image)} alt="blog" />
       </figure>
       <div className="single-blog-body">
         <div className="single-blog-body-grid">{content}</div>

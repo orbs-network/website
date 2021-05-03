@@ -8,9 +8,9 @@ const BlogMapper = (props) => {
   const { _ID } = props;
   const root = isRoot(_ID);
   const isBlogInnerPage = isBlogPage(_ID, props.blogUrl);
-  if (root) {
-    return <BlogPost {...props} />;
-  }
+  // if (root) {
+  //   return <BlogPost {...props} />;
+  // }
   if (isBlogInnerPage) {
     return <Blog {...props} />;
   }

@@ -24,7 +24,11 @@ const MemberCard = ({
   return (
     <div className="globe-card team-card" data-weight={cardsWeights.members}>
       <figure className="card-avatar">
-        <Img src={generateUrl(avatar)} className="card-avatar-img" />
+        <Img
+          src={generateUrl(avatar)}
+          className="card-avatar-img"
+          alt="orbs team member"
+        />
       </figure>
       <div className="card-data flex-column">
         <CardTitle title={name} />

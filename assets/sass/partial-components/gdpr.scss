@@ -1,0 +1,35 @@
+.gdpr {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 70px;
+  background: black;
+  padding: 0px 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.2s all;
+  &-btns {
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    button {
+      padding: 0px 30px;
+      height: 70%;
+      border: 2px solid white;
+      margin-left: 20px;
+      border-radius: 42px;
+    }
+    &-accept {
+    }
+    &-reject {
+    }
+  }
+  .text-p {
+    margin: 0px;
+  }
+  &-active {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
