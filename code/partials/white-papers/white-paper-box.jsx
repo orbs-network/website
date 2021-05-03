@@ -27,7 +27,7 @@ const WhitePaperBox = ({
             <p className="white-papers-box-c-date">{`${published} ${date}`}</p>
           )}
           <figure className="white-papers-box-mobile">
-            <Img src={generateUrl(image)} />
+            <Img src={generateUrl(image)} alt="mobile-pdf-preview" />
           </figure>
           <div className="white-papers-box-c-text">{_body}</div>
           <a
@@ -36,7 +36,7 @@ const WhitePaperBox = ({
           >{`+ ${readPaperBtn}`}</a>
         </div>
         <figure className="white-papers-box-preview">
-          <Img src={generateUrl(image)} />
+          <Img src={generateUrl(image)} alt="pdf-preview" />
         </figure>
       </div>
     </div>

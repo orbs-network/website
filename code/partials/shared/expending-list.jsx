@@ -43,6 +43,7 @@ const ExpendingList = ({
 
         {linesLimit && (
           <button
+            aria-label="expend-text"
             className="expend-btn"
             data-open={`+ ${readMoreButton}`}
             data-close={`- ${readLessButton}`}

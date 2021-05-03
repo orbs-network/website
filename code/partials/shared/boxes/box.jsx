@@ -7,10 +7,10 @@ const Box = ({ _body, image, _ID, _relativeURL }) => {
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <li className="box" data-aos={animations.fadeTop}>
+    <li className="box list-item" data-aos={animations.fadeTop}>
       {_body}
       <figure>
-        <Img src={generateUrl(image)} />
+        <Img src={generateUrl(image)} alt="box image" />
       </figure>
     </li>
   );

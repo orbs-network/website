@@ -1,9 +1,11 @@
 import React from "react";
 
-const Team2 = ({ list }) => {
+const TeamTop = ({ list }) => {
   return (
-    <div className="team-list-group team-list-bottom flex-start">{list}</div>
+    <div className="team-list-flex team-list-flex-bottom flex-start">
+      {list}
+    </div>
   );
 };
 
-export default Team2;
+export default TeamTop;

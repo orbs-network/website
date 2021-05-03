@@ -8,3 +8,7 @@ main:
   - home/body.md
 subscribe:
   - /_shared/subscribe/subscribe.md
+gdpr:
+  - /_shared/gdpr/index.md
+meta_description: orbs pos universe
+meta_keywords: orbs, pos universe

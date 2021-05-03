@@ -9,7 +9,7 @@ const UseCaseFlexElement = ({ text, img }) => {
     <div className="u-card-flex-element">
       <h5>{text}</h5>
       <figure>
-        <Img src={img} alt="" />
+        <Img src={img} alt="" alt="" />
       </figure>
     </div>
   );

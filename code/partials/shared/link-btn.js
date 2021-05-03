@@ -10,7 +10,7 @@ const LinkBtn = ({ text, url, left, right, _relativeURL, _ID }) => {
     ? "link-btn link-btn-right"
     : "link-btn";
   return (
-    <a href={generateUrl(url)} className={className}>
+    <a href={generateUrl(url)} className={className} rel="noopener">
       <p> {text}</p>
       <aside className="link-btn-arrow"></aside>
     </a>

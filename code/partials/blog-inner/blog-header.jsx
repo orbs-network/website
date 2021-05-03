@@ -29,7 +29,7 @@ const BlogHeader = (props) => {
       <h1 className="single-blog-header-title">{title}</h1>
       <div className="single-blog-header-author">
         <figure className="single-blog-header-author-avatar">
-          <Img src={generateUrl(authorImage)} />
+          <Img src={generateUrl(authorImage)} alt="author avatar" />
         </figure>
         <div className="single-blog-header-author-flex flex-start">
           <div className="single-blog-header-author-details flex-start">
