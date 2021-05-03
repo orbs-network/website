@@ -62,9 +62,18 @@
 @media only screen and (max-width: $mobile) {
   .smart-contracts {
     .page-header {
+      margin-bottom: 50px;
       &-text {
         .sub-title {
-          font-size: 1.11rem;
+          font-size: 1rem;
+          line-height: 1.4rem;
+        }
+      }
+    }
+    &-flex {
+      &-list {
+        .expending-box {
+          margin-bottom: 35px;
         }
       }
     }
