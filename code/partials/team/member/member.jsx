@@ -23,7 +23,7 @@ const Member = (props) => {
 
   return (
     <div
-      className="team-member flex-column"
+      className="team-member flex-column list-item"
       data-aos={animations.fadeIn}
       style={{
         background: `url('${generateUrl(avatar)}')`,

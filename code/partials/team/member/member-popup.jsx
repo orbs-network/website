@@ -24,11 +24,11 @@ const MemberPopup = (props) => {
     <div className="team-member-popup flex-center">
       <secrtion className="team-member-popup-overlay"></secrtion>
       <div className="team-member-popup-c flex-between">
-        <button className="team-member-popup-c-close">
-          <Img src={images.common.close} />
+        <button className="team-member-popup-c-close" aria-label="Close">
+          <Img src={images.common.close} alt="close" />
         </button>
         <figure className="team-member-popup-c-avatar">
-          <Img src={generateUrl(avatar)} />
+          <Img src={generateUrl(avatar)} alt="team-member-avatar" />
         </figure>
         <div className="team-member-popup-c-details flex-column">
           <h3 className="team-member-popup-c-name">{name}</h3>

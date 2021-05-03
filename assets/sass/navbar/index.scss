@@ -313,9 +313,19 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .navbar-menu-content {
-    width: 90vw;
+@media only screen and (max-width: 900px) {
+  .navbar {
+    &-top-action-btn {
+      display: none;
+    }
+    &-flags {
+      display: none;
+    }
+    &-menu {
+      &-content {
+        width: 90vw;
+      }
+    }
   }
 }
 
@@ -333,12 +343,7 @@
         }
       }
     }
-    &-top-action-btn {
-      display: none;
-    }
-    &-flags {
-      display: none;
-    }
+
     &-menu {
       .socials {
         display: none;

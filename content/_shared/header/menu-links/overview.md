@@ -1,5 +1,5 @@
 ---
-layout: partials/navbar/menu-links
+layout: partials/navbar/components/menu-links
 
 title: Overview
 

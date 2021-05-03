@@ -31,10 +31,10 @@ const BlogPost = (props) => {
         <p>{date}</p>
       </div>
       <figure className="blog-post-img">
-        <Img src={generateUrl(image)} />
+        <Img src={generateUrl(image)} alt="blog" />
       </figure>
       <div className="card-text blog-pos-text">{_body}</div>
-      <a href={blogUrl} className="card-link-btn blog-post-link">
+      <a href={blogUrl} className="card-link-btn blog-post-link" rel="noopener">
         {linkText}
       </a>
     </div>

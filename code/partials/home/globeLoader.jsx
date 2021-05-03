@@ -2,7 +2,7 @@ import React from "react";
 
 const GlobeLoader = () => {
   return (
-    <div class="globe-loader">
+    <div className="globe-loader">
       <p>Loading...</p>
     </div>
   );

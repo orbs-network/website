@@ -8,7 +8,7 @@ const FooterPost = (props) => {
   };
   return (
     <a className="footer-post flex-start" href={generateUrl(postUrl)}>
-      <Img className="footer-post-image" src={generateUrl(image)} />
+      <Img className="footer-post-image" src={generateUrl(image)} alt="post" />
       <section className="flex-column footer-post-content">
         <div className="footer-post-text">{_body}</div>
         <span className="footer-post-date flex-start">

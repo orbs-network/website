@@ -8,7 +8,9 @@ const BreadCrumbs = (props) => {
 
   return (
     <div className="bread-crumbs flex-start">
-      <a href={generateUrl(url)}>{linkName}</a>
+      <a href={generateUrl(url)} rel="noopener">
+        {linkName}
+      </a>
       <small>{">"}</small>
       <p className="bread-crumbs-text">{title}</p>
     </div>

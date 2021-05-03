@@ -1,4 +1,4 @@
-title: POS
+title: Smart Contracts
 layout: pages/page
 script: smart-contracts/index
 
@@ -12,3 +12,5 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
+meta_description: orbs smart cobtracts overview
+meta_keywords: orbs, smart contracts

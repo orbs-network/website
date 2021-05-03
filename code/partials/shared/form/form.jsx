@@ -25,8 +25,8 @@ const Form = (props) => {
   return (
     <form className={className}>
       {closeBtn && (
-        <button type="button" className="form-close-btn">
-          <Img src={generateUrl(images.common.close)} />
+        <button type="button" className="form-close-btn" aria-label="Close">
+          <Img src={generateUrl(images.common.close)} alt="close" />
         </button>
       )}
       <h3 className="form-title">{title}</h3>

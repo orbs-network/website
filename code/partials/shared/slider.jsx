@@ -9,13 +9,17 @@ const Slider = ({ _relativeURL, _ID, slides }) => {
 
   return (
     <div className="slider" data-aos={animations.fadeIn}>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
+      <div className="swiper-container">
+        <div className="swiper-wrapper">
           {slides &&
             slides.map((slide, index) => {
               return (
-                <div class="swiper-slide" key={index}>
-                  <Img src={generateUrl(slide)} className="swiper-slide-img" />
+                <div className="swiper-slide" key={index}>
+                  <Img
+                    src={generateUrl(slide)}
+                    className="swiper-slide-img"
+                    alt="slide image"
+                  />
                 </div>
               );
             })}

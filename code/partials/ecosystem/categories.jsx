@@ -34,7 +34,7 @@ const Categories = (props) => {
       <Section>
         {partnerships}
         <section className="ecosystem-grid-section-figure">
-          <Img src={generateUrl(images.ecosystem.logo)} />
+          <Img src={generateUrl(images.ecosystem.logo)} alt="orbs logo" />
         </section>
         {cloudMirrorImage}
       </Section>

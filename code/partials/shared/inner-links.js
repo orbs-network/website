@@ -13,7 +13,7 @@ const InnerLinks = ({ generateUrl, links, section }) => {
               className="flex-center"
               key={key}
             >
-              <Img src={generateUrl(section[key])} />
+              <Img src={generateUrl(section[key])} alt="social network" />
             </a>
           );
         })}
