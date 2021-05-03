@@ -21,7 +21,9 @@ const FaqLeftSection = ({ text, faqCategories }) => {
       </div>
       <div className="faq-desc-questions">
         <h5>{text.haveQuestion}</h5>
-        <a href="">{text.askUs}</a>
+        <a href="" rel="noopener">
+          {text.askUs}
+        </a>
       </div>
     </div>
   );

@@ -118,6 +118,8 @@ export const addPopupSuccessListeners = () => {
 };
 
 export const handleSuccess = (formClassName) => {
+  const submitContainer = getElement(".form-success");
+  submitContainer.style.display = "flex";
   const form = getElement(formClassName);
   form.classList.add("form-submitted");
 };

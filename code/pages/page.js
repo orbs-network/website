@@ -10,6 +10,10 @@ const Page = ({
   _ID,
   main,
   subscribe,
+  gdpr,
+  meta_description,
+  meta_keywords,
+  meta_author,
 }) => {
   return (
     <html>
@@ -18,9 +22,10 @@ const Page = ({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+        <meta name="description" content={meta_description} />
+        <meta name="keywords" content={meta_keywords} />
+        <meta name="author" content={meta_author} />
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
@@ -34,6 +39,7 @@ const Page = ({
         {header}
         {main}
         {subscribe && subscribe}
+        {gdpr}
         {script != undefined ? (
           <script
             type="module"

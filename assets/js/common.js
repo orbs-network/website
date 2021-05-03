@@ -1,7 +1,4 @@
-import { initSubscribeForm } from "./components/subscribe.js";
-import { addListenersToFooter } from "./footer/index.js";
-import { handleNavbarScroll, addListenersToNavbar } from "./navbar/index.js";
-import gdpr from "./services/gdpr.js";
+import { handleNavbarScroll } from "./navbar/index.js";
 
 export const getElement = (element) => {
   try {

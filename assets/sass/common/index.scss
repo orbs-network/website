@@ -18,7 +18,13 @@ $light-gray: #d0d0d0;
   padding-bottom: 3px;
   border-radius: 0px;
 }
-
+.absolute {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+}
 .btn {
   text-transform: uppercase;
   width: fit-content;
@@ -55,7 +61,8 @@ $light-gray: #d0d0d0;
 }
 
 .main-grid {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: $grid;
 }
 .page-padding {
@@ -67,6 +74,7 @@ $light-gray: #d0d0d0;
   height: 444px;
   display: flex;
   flex-direction: column;
+  position: relative;
   .title {
     &:first-of-type {
       margin-top: 139px;
@@ -89,41 +97,34 @@ $light-gray: #d0d0d0;
     font-weight: 600;
   }
   &-gradient {
-    position: absolute;
-    bottom: 0px;
-    height: 100%;
-    width: 100%;
     background: transparent
       linear-gradient(180deg, #ffffff00 0%, #19191952 18%, #191919 100%) 0% 0%
       no-repeat padding-box;
+    z-index: 2;
+  }
+  &-overlay {
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
   }
 
-  figure {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+  &-media {
     height: 350px;
-    align-items: flex-start;
-    img,
-    iframe,
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      object-position: bottom center;
-      left: 0px;
-      top: 0px;
+    overflow: hidden;
+    &-video {
       pointer-events: none;
-      opacity: 0.7;
+      object-fit: cover;
+    }
+
+    &-image {
+      pointer-events: none;
+      display: none;
     }
   }
 }
 
 @mixin grid-1($margin-top) {
-  li {
+  .list-item {
     width: 100%;
     margin-top: #{$margin-top}px;
     margin-right: 0px;
@@ -134,7 +135,7 @@ $light-gray: #d0d0d0;
 }
 
 @mixin grid-2($margin-top, $margin) {
-  li {
+  .list-item {
     margin-top: #{$margin-top}px;
     margin-right: #{$margin}px;
     width: calc(100% / 2 - #{$margin * 0.5}px);
@@ -148,7 +149,7 @@ $light-gray: #d0d0d0;
 }
 
 @mixin grid-3($margin-top, $margin) {
-  li {
+  .list-item {
     margin-top: #{$margin-top}px;
     width: calc(100% / 3 - #{$margin * 0.67}px);
     margin-right: #{$margin}px;
@@ -161,16 +162,16 @@ $light-gray: #d0d0d0;
   }
 }
 
-@mixin grid-4($margin-top, $padding-left) {
-  li {
-    margin-top: $margin-top;
-    padding-left: $padding-left;
-    width: calc(100% / 4);
+@mixin grid-4($margin-top, $margin) {
+  .list-item {
+    margin-top: #{$margin-top}px;
+    width: calc(100% / 4 - #{$margin * 0.75}px);
+    margin-right: #{$margin}px;
     &:nth-of-type(-n + 4) {
       margin-top: 0px;
     }
-    &:first-child {
-      padding-left: 0px;
+    &:nth-of-type(4n) {
+      margin-right: 0px;
     }
   }
 }
@@ -252,12 +253,31 @@ $light-gray: #d0d0d0;
     width: calc(100% - 44px);
   }
   .page-header {
-    height: 340px;
-    figure {
-      height: 300px;
+    height: auto;
+
+    &-media {
+      height: $mobile-header-height;
+      &-video {
+        display: none;
+      }
+      &-image {
+        display: block;
+      }
     }
-    .title:first-child {
-      margin-top: 120px;
+    &-text {
+      min-height: $mobile-header-height;
+      height: auto;
+    }
+    .sub-title {
+      margin-top: auto;
+    }
+    .title {
+      &:first-child {
+        margin-top: 120px;
+      }
+      &:last-of-type {
+        margin-bottom: 40px;
+      }
     }
   }
 }

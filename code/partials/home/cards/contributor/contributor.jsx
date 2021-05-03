@@ -36,13 +36,20 @@ const Contributor = (props) => {
           img={generateUrl(images.globe.contributor.figure)}
           type={type}
         />
-        <Img src={generateUrl(image)} className="card-avatar-img" />
+        <Img
+          src={generateUrl(image)}
+          className="card-avatar-img"
+          alt="contributor avatar"
+        />
       </figure>
       <div className="card-data">
         <CardTitle title={name} />
         <p className="c-card-nickname">@{nickname}</p>
         <span className="flex-center card-location">
-          <Img src={generateUrl(images.globe.contributor.location)} />
+          <Img
+            src={generateUrl(images.globe.contributor.location)}
+            alt="location icon"
+          />
           <p>{location}</p>
         </span>
         <InnerLinks

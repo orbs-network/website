@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../shared/Img";
+import Img from "../../shared/Img";
 
 const MenuLinks = ({ links, title, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
@@ -13,11 +13,19 @@ const MenuLinks = ({ links, title, _relativeURL, _ID }) => {
           links.map((link, index) => {
             const { url, name, image, text } = link;
             return (
-              <li key={index} className="navbar-menu-resources-box flex-column">
-                <a href={generateUrl(url)} className="flex-column">
+              <li
+                key={index}
+                className="navbar-menu-resources-box flex-column list-item"
+              >
+                <a
+                  href={generateUrl(url)}
+                  className="flex-column"
+                  rel="noopener"
+                >
                   <h5 className="navbar-menu-resources-box-title">{name}</h5>
                   <div className="navbar-menu-resources-box-bottom flex-center">
                     <Img
+                      alt="orbs resource"
                       src={generateUrl(image)}
                       className="navbar-menu-resources-box-icon"
                     />

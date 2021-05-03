@@ -12,7 +12,7 @@ const SingleBigBanner = ({ image, _relativeURL, _ID, videoUrl }) => {
       {videoUrl ? (
         <BannerVideo videoUrl={videoUrl} />
       ) : (
-        <Img src={generateUrl(image)} />
+        <Img src={generateUrl(image)} alt="banner" />
       )}
     </section>
   );

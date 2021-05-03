@@ -8,7 +8,7 @@ const Links = ({ title, links }) => {
         <div className="footer-navigation-links-list">
           {links.map(({ name, url }) => {
             return (
-              <a href={url} key={name}>
+              <a href={url} key={name} rel="noopener">
                 {name}
               </a>
             );
@@ -20,7 +20,7 @@ const Links = ({ title, links }) => {
         <div className="footer-navigation-mobile-list">
           {links.map(({ name, url }) => {
             return (
-              <a href={url} key={name}>
+              <a href={url} key={name} rel="noopener">
                 {name}
               </a>
             );

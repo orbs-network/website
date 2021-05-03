@@ -119,7 +119,7 @@
   }
 }
 
-@media only screen and (min-width: $mobile) and (max-width: $medium) {
+@media only screen and (max-width: $mobile) and (min-width: $medium) {
   .network {
     &-images {
       &-1 {
@@ -160,10 +160,18 @@
 
 @media only screen and (max-width: $mobile) {
   .network {
+    .page-header {
+      height: 300px;
+    }
+    &-content-flex {
+      margin-bottom: 60px;
+    }
     &-images {
       &-1 {
+        margin-top: 50px;
         ul {
           @include image-grid-1(40px, 40px, 100%);
+          padding-bottom: 70px;
         }
       }
       &-2 {

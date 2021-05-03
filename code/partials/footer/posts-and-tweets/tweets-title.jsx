@@ -8,7 +8,7 @@ const TweetsTitle = ({ title, _relativeURL, _ID }) => {
   };
   return (
     <div className="footer-sub-title">
-      <Img src={generateUrl(images.footer.twitter)} />
+      <Img src={generateUrl(images.footer.twitter)} alt="twitter icon" />
       <h4>{title}</h4>
     </div>
   );

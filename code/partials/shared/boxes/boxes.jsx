@@ -4,7 +4,7 @@ const Boxes = ({ list, title }) => {
   return (
     <div className="boxes">
       {title && <h5 className="boxes-title">{title}</h5>}
-      <ul className="boxes-list flex-start"> {list}</ul>
+      <ul className="boxes-list"> {list}</ul>
     </div>
   );
 };

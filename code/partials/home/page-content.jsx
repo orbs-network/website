@@ -2,9 +2,9 @@ import React from "react";
 
 const PageText = ({ _body, socials }) => {
   return (
-    <div className="home-flex">
+    <div className="home-text">
       <aside />
-      <section class="home-flex-text">{_body}</section>
+      <section className="home-text-flex">{_body}</section>
       {socials}
     </div>
   );

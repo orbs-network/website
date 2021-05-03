@@ -159,7 +159,7 @@ $blog-bold-font: "base-blog-font";
   &-body {
     background: white;
     margin: auto;
-    padding-top: 37px;
+    padding-top: 32px;
     padding-bottom: 30px;
     &-grid {
       max-width: 840px;
@@ -168,18 +168,18 @@ $blog-bold-font: "base-blog-font";
       margin: auto;
     }
     * {
-      color: black;
+      color: rgba(41, 41, 41, 1);
       font-family: $blog-font;
     }
     &-bg {
       width: 100%;
       height: auto;
-      margin-bottom: 40px;
+      margin-bottom: 32px;
     }
     .text-p {
-      margin-top: 40px;
+      margin-bottom: 32px;
       font-size: 1.313rem;
-      margin-bottom: 0px;
+
       line-height: 2rem;
       color: rgba(41, 41, 41, 1);
       &:first-child {
@@ -192,7 +192,10 @@ $blog-bold-font: "base-blog-font";
       font-size: 30px;
       position: relative;
     }
+
     ul {
+      margin-bottom: 40px;
+
       li {
         padding-left: 30px;
         position: relative;
@@ -206,6 +209,13 @@ $blog-bold-font: "base-blog-font";
           background: black;
           content: "";
         }
+        .text-p {
+          margin-bottom: 0px;
+        }
+        margin-bottom: 13.76px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
       }
     }
     ol {
@@ -218,7 +228,8 @@ $blog-bold-font: "base-blog-font";
     }
     .title-h3 {
       font-size: 1.875rem;
-      margin-top: 60px;
+      margin-bottom: 13.76px;
+      padding-top: 20px;
       font-family: $text-font;
       font-weight: 600;
     }
@@ -250,11 +261,11 @@ $blog-bold-font: "base-blog-font";
     &-body {
       .text-p {
         font-size: 1.125rem;
-        margin-top: 20px;
+        margin-bottom: 30px;
       }
       .title-h3 {
         font-size: 1.5rem;
-        margin-top: 30px;
+        margin-bottom: 10px;
       }
     }
   }
