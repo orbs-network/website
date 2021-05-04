@@ -12,3 +12,5 @@ subscribe:
   - /_shared/subscribe/subscribe.md
 meta_description: orbs pos universe
 meta_keywords: orbs, pos universe
+gdpr:
+  - /_shared/gdpr/index.md

@@ -14,3 +14,5 @@ subscribe:
   - /_shared/subscribe/subscribe.md
 meta_description: orbs smart cobtracts overview
 meta_keywords: orbs, smart contracts
+gdpr:
+  - /_shared/gdpr/index.md

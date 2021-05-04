@@ -2,23 +2,33 @@
   width: 100%;
   position: fixed;
   bottom: 0px;
-  height: 70px;
+  min-height: 70px;
   background: black;
-  padding: 0px 20px;
+  padding: 10px 40px;
   opacity: 0;
   pointer-events: none;
   transition: 0.2s all;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(0, 100%);
+  transition: 0.2s all;
+  z-index: 999999;
   &-btns {
     margin-left: auto;
-    height: 100%;
     display: flex;
     align-items: center;
+
     button {
       padding: 0px 30px;
-      height: 70%;
-      border: 2px solid white;
+      height: 45px;
+      border: 2px solid $light-color;
       margin-left: 20px;
+      font-size: 1rem;
       border-radius: 42px;
+      text-transform: capitalize;
+      &:first-child {
+        margin-left: 0px;
+      }
     }
     &-accept {
     }
@@ -27,9 +37,12 @@
   }
   .text-p {
     margin: 0px;
+    flex: 1;
+    padding-right: 50px;
   }
   &-active {
     opacity: 1;
     pointer-events: all;
+    transform: translate(0, 0%);
   }
 }

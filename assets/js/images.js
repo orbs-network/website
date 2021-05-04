@@ -42,9 +42,9 @@ export const images = {
     telegram: `${prefix}/socials/telegram.svg`,
   },
   navbar: {
-    korea: `${prefix}/navbar/korea.png`,
-    usa: `${prefix}/navbar/usa.png`,
-    japan: `${prefix}/navbar/japan.png`,
+    korea: `${prefix}/navbar/korea.svg`,
+    usa: `${prefix}/navbar/usa.svg`,
+    japan: `${prefix}/navbar/japan.svg`,
     hamburger: `${prefix}/navbar/hamburger.png`,
   },
   team: {
@@ -57,6 +57,7 @@ export const images = {
   common: {
     close: `${prefix}/common/close.svg`,
     logo: `${prefix}/common/logo.svg`,
+    appLoader: `${prefix}/common/app-loader.png`,
     hamburger: `${prefix}/common/menu.svg`,
   },
   footer: {
