@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
+import Flags from "./components/flags";
 import MenuToggle from "./components/menu-toggle";
 
 const NavbarMenu = ({
@@ -11,6 +12,8 @@ const NavbarMenu = ({
   _relativeURL,
   _ID,
   home,
+  languages,
+  subscribe_to_updates,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -29,6 +32,15 @@ const NavbarMenu = ({
             />
             {socials}
           </div>
+          <Flags
+            flags={languages}
+            generateUrl={generateUrl}
+            customClassName="navbar-menu-mobile-flags"
+          />
+          <button
+            className="mobile-subscribe subscribe-btn"
+            aria-label="subscribe"
+          >{`+ ${subscribe_to_updates}`}</button>
           {overview}
           {resources}
           {about}

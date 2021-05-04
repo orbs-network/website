@@ -29,7 +29,19 @@ const Page = ({
         <meta name="description" content={meta_description} />
         <meta name="keywords" content={meta_keywords} />
         <meta name="author" content={meta_author} />
-
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:url" content="https://www.orbs.com/" />
+        <meta property="og:site_name" content="Orbs" />
+        <meta
+          property="og:image:secure_url"
+          content="https://www.orbs.com/wp-content/uploads/2019/03/Orbs-Twitter-Post.png"
+        ></meta>
+        <meta
+          property="og:image"
+          content="https://www.orbs.com/wp-content/uploads/2019/03/Orbs-Twitter-Post.png"
+        ></meta>
+        <meta property="og:image:width" content="1024"></meta>
+        <meta property="og:image:height" content="512"></meta>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"

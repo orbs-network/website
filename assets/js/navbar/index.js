@@ -46,8 +46,10 @@ export const handleNavbarScroll = () => {
 };
 
 export const addListenersToNavbar = () => {
+  const mobileSubscribe = getElement(".mobile-subscribe");
   const subscribeBtn = getElement(".subscribe-btn");
   addEvent(subscribeBtn, "click", showSubscribePopup);
+  addEvent(mobileSubscribe, "click", handleMobileSubscribeClick);
   const hamburger = getElement(".navbar-burger-open");
   addEvent(hamburger, "click", showMenu);
   const closeMenu = getElement(".navbar-burger-close");
@@ -56,6 +58,12 @@ export const addListenersToNavbar = () => {
 
   setTimeout(() => {
     onNavbarLoad();
+  }, 200);
+};
+const handleMobileSubscribeClick = () => {
+  hideMenu();
+  setTimeout(() => {
+    showSubscribePopup();
   }, 200);
 };
 

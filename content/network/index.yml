@@ -3,7 +3,7 @@ layout: pages/page
 
 script: network/index
 header:
-  - /_shared/header/index.md
+  - /_shared/navbar/index.md
 main:
   - body.md
 footer:
