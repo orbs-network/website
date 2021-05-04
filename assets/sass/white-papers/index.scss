@@ -1,10 +1,7 @@
 .white-papers {
   .page-header {
-    height: 270px;
-    margin-bottom: 27px;
-    &-gradient {
-      height: 150px;
-    }
+    height: 303px;
+    margin-bottom: 0px;
   }
   &-list {
     width: 100%;
@@ -91,17 +88,22 @@
 }
 
 @media only screen and (max-width: $mobile) {
-  .white-papers-box {
-    &-preview {
-      display: none;
+  .white-papers {
+    &-box {
+      &-preview {
+        display: none;
+      }
+      &-mobile {
+        display: block;
+      }
+      &-c {
+        padding-right: 0px;
+        max-width: none;
+        width: 100%;
+      }
     }
-    &-mobile {
-      display: block;
-    }
-    &-c {
-      padding-right: 0px;
-      max-width: none;
-      width: 100%;
+    .page-header {
+      height: 220px;
     }
   }
 }

@@ -6,11 +6,13 @@ const init = () => {
 };
 
 const handleShowGdpr = () => {
-  const gdprSeen = localStorage.getItem("gdpr_accepted");
+  const gdprSeen = localStorage.getItem("gdpr_seen");
   if (gdprSeen) return;
   const gdprContainer = getElement(".gdpr");
   if (!gdprContainer) return;
-  gdprContainer.classList.add("gdpr-active");
+  setTimeout(() => {
+    gdprContainer.classList.add("gdpr-active");
+  }, 500);
 };
 
 const addEventListeners = () => {
@@ -35,7 +37,7 @@ const handleReject = () => {
 const hideGdpr = () => {
   const gdprContainer = getElement(".gdpr");
   gdprContainer.classList.remove("gdpr-active");
-  setLocalStorageItem();
+  localStorage.setItem("gdpr_seen", true);
 };
 
 const gdpr = {
