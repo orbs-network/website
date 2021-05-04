@@ -63,6 +63,7 @@ export const handleOnScroll = () => {
     "scroll",
     () => {
       handleNavbarScroll();
+      handleScrollTopBtn();
     },
     { passive: true }
   );
@@ -88,4 +89,24 @@ export const hideBodyOverflow = (val) => {
     return body.classList.add("overflow-hidden");
   }
   return body.classList.remove("overflow-hidden");
+};
+
+const handleScrollTopBtn = () => {
+  const offsetTop = window.pageYOffset;
+  if (offsetTop >= 500) {
+    const scrollBtn = getElement(".scroll-top");
+    return scrollBtn.classList.add("scroll-top-active");
+  }
+  if (offsetTop < 500) {
+    const scrollBtn = getElement(".scroll-top");
+    return scrollBtn.classList.remove("scroll-top-active");
+  }
+};
+
+export const scrollToTop = () => {
+  const btn = getElement(".scroll-top");
+  addEvent(btn, "click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
 };

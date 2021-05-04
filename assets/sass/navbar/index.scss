@@ -58,6 +58,13 @@
     justify-content: center;
     display: none;
     pointer-events: none;
+    &-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .mobile-subscribe {
+      display: none;
+    }
     .socials {
       padding-top: 5px;
       &-element {
@@ -342,8 +349,10 @@
       }
       .mobile-subscribe {
         margin-bottom: 20px;
+        margin-top: 10px;
         text-transform: uppercase;
         letter-spacing: 0.08rem;
+        display: block;
       }
     }
   }
@@ -358,6 +367,7 @@
         margin-right: 25px;
       }
       .logo {
+        margin-top: 3px;
         img {
           height: 27px;
         }
@@ -368,11 +378,16 @@
       .socials {
         display: none;
       }
-      &-resources {
-        @include grid-1(10);
-      }
+
       &-overlay {
         display: none;
+      }
+      &-links {
+        order: 1;
+      }
+      &-resources {
+        @include grid-1(10);
+        order: 2;
       }
       &-content {
         width: 100%;
@@ -394,6 +409,7 @@
   .navbar {
     .menu-burger {
       .logo {
+        margin-top: 3px;
         img {
           height: 22px;
         }
