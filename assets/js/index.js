@@ -1,6 +1,6 @@
 import { addListenersToFooter } from "./footer/index.js";
 import { addListenersToNavbar } from "./navbar/index.js";
-import { getElement, handleOnScroll } from "./common.js";
+import { getElement, handleOnScroll, scrollToTop } from "./common.js";
 import { initSubscribeForm } from "./components/subscribe.js";
 import gdpr from "./services/gdpr.js";
 export const init = () => {
@@ -11,6 +11,7 @@ export const init = () => {
   initSubscribeForm();
   gdpr.init();
   hideLoader();
+  scrollToTop();
 };
 
 const hideLoader = () => {

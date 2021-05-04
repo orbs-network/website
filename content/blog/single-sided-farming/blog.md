@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 authorName: Tal Kol
 authorImage: ../../assets/img/team/members/tal-kol.jpg
 authorUrl: https://www.linkedin.com/in/eran-peled-54244b162/
-image: ../../assets/img/blog/single-sided-farming/bg.png
+image: ../../assets/img/blog/single-sided-farming/bg.jpeg
 date: 23/04/2021
 blogUrl: blog/single-sided-farming
 weight: 20
@@ -18,6 +18,7 @@ inThe: in The
 type: crypto
 readTime: 7 min read
 daysAgo: days ago
+content:
   - content.md
 ---
 
