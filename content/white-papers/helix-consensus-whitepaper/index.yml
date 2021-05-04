@@ -3,7 +3,7 @@ layout: pages/page
 script: white-paper/index
 
 header:
-  - /_shared/header/index.md
+  - /_shared/navbar/index.md
 main: body.md
 footer:
   - /_shared/footer/footer.md

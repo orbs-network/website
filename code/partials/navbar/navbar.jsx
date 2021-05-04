@@ -1,11 +1,13 @@
 import React from "react";
+import NavbarMenu from "./navbar-menu";
+import NavbarTop from "./navbar-top";
 
-const Navbar = ({ navbarTop, menu }) => {
+const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="main-grid navbar-flex">
-        {navbarTop}
-        {menu}
+        <NavbarTop {...props} />
+        <NavbarMenu {...props} />
       </div>
     </div>
   );

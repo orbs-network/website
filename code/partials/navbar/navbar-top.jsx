@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
+import Flags from "./components/flags";
 import MenuToggle from "./components/menu-toggle";
 
 const NavbarTop = ({
@@ -33,17 +34,11 @@ const NavbarTop = ({
           aria-label="subscribe"
         >{`+ ${subscribe_to_updates}`}</button>
 
-        <ul className="navbar-flags">
-          {languages.map((lng, index) => {
-            return (
-              <li key={index}>
-                <a href={generateUrl(lng.link)} rel="noopener">
-                  <img src={generateUrl(lng.img)} />
-                </a>
-              </li>
-            );
-          })}
-        </ul>
+        <Flags
+          flags={languages}
+          generateUrl={generateUrl}
+          customClassName="navbar-top-flags"
+        />
       </section>
     </div>
   );

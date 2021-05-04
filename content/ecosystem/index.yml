@@ -5,7 +5,7 @@ script: ecosystem/index
 main:
   - body.md
 header:
-  - /_shared/header/index.md
+  - /_shared/navbar/index.md
 footer:
   - /_shared/footer/footer.md
 subscribe:
