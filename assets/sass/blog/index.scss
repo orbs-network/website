@@ -14,7 +14,7 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/CharterBoldItalic.otf");
 }
-
+$blog-text-size: 1.313rem;
 $blog-font: "base-blog-font";
 $blog-bold-font: "base-blog-font";
 .single-blog {
@@ -171,6 +171,12 @@ $blog-bold-font: "base-blog-font";
       color: rgba(41, 41, 41, 1);
       font-family: $blog-font;
     }
+    a,
+    p,
+    li {
+      font-size: $blog-text-size;
+      line-height: 2rem;
+    }
     &-bg {
       width: 100%;
       height: auto;
@@ -178,10 +184,6 @@ $blog-bold-font: "base-blog-font";
     }
     .text-p {
       margin-bottom: 32px;
-      font-size: 1.313rem;
-
-      line-height: 2rem;
-      color: rgba(41, 41, 41, 1);
       &:first-child {
         margin-top: 0px;
       }
@@ -219,7 +221,15 @@ $blog-bold-font: "base-blog-font";
       }
     }
     ol {
-      list-style-type: upper-roman;
+      margin-bottom: 40px;
+      list-style-type: decimal;
+      padding-left: 25px;
+      li {
+        .text-p {
+          margin-bottom: 0px;
+        }
+        margin-bottom: 13.76px;
+      }
     }
     .image {
       width: 100%;
@@ -245,7 +255,7 @@ $blog-bold-font: "base-blog-font";
         }
       }
       &-title {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
       }
       &-author {
         &-avatar {
@@ -260,8 +270,13 @@ $blog-bold-font: "base-blog-font";
     }
     &-body {
       .text-p {
-        font-size: 1.125rem;
         margin-bottom: 30px;
+      }
+      a,
+      p,
+      li,
+      ol {
+        font-size: 1.125rem;
       }
       .title-h3 {
         font-size: 1.5rem;
