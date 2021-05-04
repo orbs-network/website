@@ -1,6 +1,8 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
+import { images } from "../../assets/js/images";
 import AppLoader from "../partials/shared/app-loader";
+import Img from "../partials/shared/Img";
 
 const Page = ({
   title,
@@ -64,6 +66,9 @@ const Page = ({
           ) : null}
 
           {footer && footer}
+          <button className="scroll-top">
+            <Img src={generateUrl(images.common.up)} />
+          </button>
         </div>
       </body>
     </html>

@@ -41,9 +41,11 @@ const NavbarMenu = ({
             className="mobile-subscribe subscribe-btn"
             aria-label="subscribe"
           >{`+ ${subscribe_to_updates}`}</button>
-          {overview}
-          {resources}
-          {about}
+          <div className="navbar-menu-flex">
+            {overview}
+            {resources}
+            {about}
+          </div>
         </div>
       </div>
     </div>
