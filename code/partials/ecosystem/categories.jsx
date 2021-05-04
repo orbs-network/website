@@ -3,7 +3,7 @@ import { images } from "../../../assets/js/images";
 import Img from "../shared/Img";
 
 const Section = ({ children }) => {
-  return <div className="ecosystem-grid-section">{children}</div>;
+  return <div className="ecosystem-grid-section  list-item">{children}</div>;
 };
 
 const Categories = (props) => {

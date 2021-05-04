@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/rani.jpg
 name: Rani
-role: Title here
+role: Co-Founder & CEO
 twitter: /
 telegram:
 linkedin: /

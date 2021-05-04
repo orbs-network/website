@@ -1,6 +1,9 @@
 import React from "react";
 
-const Links = ({ title, links }) => {
+const Links = ({ title, links, _relativeURL, _ID }) => {
+  const generateUrl = (url) => {
+    return `${_relativeURL(url, _ID)}`;
+  };
   return (
     <React.Fragment>
       <div className="footer-navigation-desktop-links">
@@ -8,7 +11,7 @@ const Links = ({ title, links }) => {
         <div className="footer-navigation-links-list">
           {links.map(({ name, url }) => {
             return (
-              <a href={url} key={name} rel="noopener">
+              <a href={generateUrl(url)} key={name} rel="noopener">
                 {name}
               </a>
             );
@@ -20,7 +23,7 @@ const Links = ({ title, links }) => {
         <div className="footer-navigation-mobile-list">
           {links.map(({ name, url }) => {
             return (
-              <a href={url} key={name} rel="noopener">
+              <a href={generateUrl(url)} key={name} rel="noopener">
                 {name}
               </a>
             );

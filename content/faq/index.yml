@@ -3,7 +3,7 @@ script: faq/index
 layout: pages/page
 
 header:
-  - /_shared/header/index.md
+  - /_shared/navbar/index.md
 
 main:
   - body.md

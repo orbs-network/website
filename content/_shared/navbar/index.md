@@ -1,7 +1,17 @@
 ---
-layout: partials/navbar/navbar-top
-home: /
+layout: partials/navbar/navbar
 logo: assets/img/common/logo.svg
+home: /
+resources:
+  - menu-links/resources.md
+overview:
+  - menu-links/overview.md
+about:
+  - menu-links/about.md
+socials:
+  - ../socials/index.md
+subscribe:
+  - subscribe.md
 languages:
   - id: en
     link: /
@@ -12,7 +22,6 @@ languages:
   - id: jp
     link: /jp
     img: /assets/img/navbar/japan.svg
-
 subscribe_to_updates: subscribe to updates
 blog: blog
 blog_link: /blog

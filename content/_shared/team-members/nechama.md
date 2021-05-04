@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/nechama.jpg
 name: Nechama
-role: Title here
+role: Co-Founder & CEO
 twitter: /
 telegram:
 linkedin: /
