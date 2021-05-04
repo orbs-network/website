@@ -35,7 +35,7 @@ const PageHaeder = ({ video, title, _relativeURL, _ID, subTitle, poster }) => {
         </figure>
       )}
       <div className="page-header-text main-grid">
-        {title}
+        <div className="page-header-text-title"> {title}</div>
         {subTitle}
       </div>
     </div>

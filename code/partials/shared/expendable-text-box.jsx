@@ -33,7 +33,7 @@ const ExpendableTextBox = ({
         <div
           className={
             linesLimit
-              ? "expending-box-text limited-lines "
+              ? "expending-box-text limited-lines"
               : "expending-box-text"
           }
           style={linesLimit ? style : null}

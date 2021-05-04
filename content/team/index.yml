@@ -14,3 +14,5 @@ subscribe:
   - /_shared/subscribe/subscribe.md
 meta_description: orbs team members
 meta_keywords: orbs, team members
+gdpr:
+  - /_shared/gdpr/index.md

@@ -5,9 +5,6 @@ links:
   - img: /assets/img/socials/twitter.svg
     url: https://twitter.com/orbs_network
 
-  - img: /assets/img/socials/linkedin.svg
-    url: https://www.linkedin.com/company/orbs/
-
   - img: /assets/img/socials/telegram.svg
     url: https://t.me/OrbsNetwork
 

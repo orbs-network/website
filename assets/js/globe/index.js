@@ -1,4 +1,5 @@
 import {
+  addEvent,
   getElement,
   hideElement,
   onMouseEnterAndLeaveEvent,
@@ -83,7 +84,6 @@ const onGlobeReady = () => {
   addEventsToCards(cards);
   cardsList = cards;
   weightsList = weights;
-  addListenerToCanvas();
   setTimeout(() => {
     const loader = getElement(".globe-loader");
     hideElement(loader);
@@ -197,17 +197,14 @@ const handleOutSideClick = () => {
 };
 
 window.onload = () => {
+  addEvent(window, "resize", setContainerHeight);
+  setContainerHeight();
   init();
-  // setupGlobe();
 };
 
-const addListenerToCanvas = () => {
-  const canvas = document.querySelector("canvas");
-  canvas.addEventListener("click", (event) => {
-    var x = event.clientX;
-    var y = event.clientY;
-    const test = document.querySelector(".globe-card-active");
-    if (test || !allowClick) return;
-    selectCard(x, y);
-  });
+const setContainerHeight = () => {
+  const height = window.innerHeight;
+  const container = getElement(".home-flex");
+  const elementHeight = height - 110;
+  container.style.height = `${elementHeight}px`;
 };
