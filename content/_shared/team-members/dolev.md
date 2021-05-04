@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/dolev.jpg
 name: Dolev
-role: Title here
+role: Co-Founder & CEO
 twitter: /
 telegram:
 linkedin: /
