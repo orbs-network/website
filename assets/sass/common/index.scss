@@ -7,6 +7,24 @@ $light-gray: #d0d0d0;
 .overflow-hidden {
   overflow: hidden;
 }
+
+.app-loader {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s all;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.app-wrapper {
+  transition: 0.2s all;
+}
 @mixin pink-expend-btn() {
   color: #ff2cbf;
   background: transparent;
@@ -69,60 +87,6 @@ $light-gray: #d0d0d0;
   padding-top: 200px;
 }
 
-.page-header {
-  margin-bottom: 33px;
-  height: 444px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  .title {
-    &:first-of-type {
-      margin-top: 139px;
-    }
-  }
-  &-text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-  .sub-title {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    position: relative;
-    z-index: 10;
-    margin-top: auto;
-    font-size: 1.438rem;
-    font-weight: 600;
-  }
-  &-gradient {
-    background: transparent
-      linear-gradient(180deg, #ffffff00 0%, #19191952 18%, #191919 100%) 0% 0%
-      no-repeat padding-box;
-    z-index: 2;
-  }
-  &-overlay {
-    background: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
-
-  &-media {
-    height: 350px;
-    overflow: hidden;
-    &-video {
-      pointer-events: none;
-      object-fit: cover;
-    }
-
-    &-image {
-      pointer-events: none;
-      display: none;
-    }
-  }
-}
-
 @mixin grid-1($margin-top) {
   .list-item {
     width: 100%;
@@ -176,36 +140,6 @@ $light-gray: #d0d0d0;
   }
 }
 
-@mixin grid-5($margin-top, $padding-left) {
-  li {
-    margin-top: $margin-top;
-    padding-left: $padding-left;
-    width: calc(100% / 5);
-    &:nth-of-type(-n + 5) {
-      margin-top: 0px;
-    }
-    &:nth-of-type(6n) {
-      margin-right: 0px;
-    }
-    &:first-child {
-      padding-left: 0px;
-    }
-  }
-}
-
-@mixin grid-6($margin-top, $padding-left) {
-  li {
-    margin-top: $margin-top;
-    padding-left: $padding-left;
-    width: calc(100% / 6);
-    &:nth-of-type(n + 5) {
-      margin-top: 0px;
-    }
-    &:first-child {
-      padding-left: 0px;
-    }
-  }
-}
 @mixin image-grid-1($margin-top, $padding, $width) {
   li {
     margin-top: $margin-top;
@@ -246,38 +180,8 @@ $light-gray: #d0d0d0;
 }
 
 @media only screen and (max-width: $mobile) {
-  .page-padding-top {
-    padding-top: 100px;
-  }
-  .main-grid {
-    width: calc(100% - 44px);
-  }
-  .page-header {
-    height: auto;
-
-    &-media {
-      height: $mobile-header-height;
-      &-video {
-        display: none;
-      }
-      &-image {
-        display: block;
-      }
-    }
-    &-text {
-      min-height: $mobile-header-height;
-      height: auto;
-    }
-    .sub-title {
-      margin-top: auto;
-    }
-    .title {
-      &:first-child {
-        margin-top: 120px;
-      }
-      &:last-of-type {
-        margin-bottom: 40px;
-      }
-    }
+  .app-loader {
+    width: 100px;
+    height: 100px;
   }
 }
