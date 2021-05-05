@@ -6,8 +6,7 @@ date: July 2020
 url: white-papers/orbs-pos-v2-the-age-of-guardians
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/orbs-pos-v2-the-age-of-guardians.png
 ---
 

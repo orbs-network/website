@@ -1,8 +1,7 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
-import { images } from "../../assets/js/images";
 import AppLoader from "../partials/shared/app-loader";
-import Img from "../partials/shared/Img";
+import ScrollTop from "../partials/shared/scroll-top";
 
 const Page = ({
   title,
@@ -15,8 +14,6 @@ const Page = ({
   subscribe,
   gdpr,
   meta_description,
-  meta_keywords,
-  meta_author,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -29,8 +26,6 @@ const Page = ({
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={meta_description} />
-        <meta name="keywords" content={meta_keywords} />
-        <meta name="author" content={meta_author} />
         <meta property="og:type" content="website"></meta>
         <meta property="og:url" content="https://www.orbs.com/" />
         <meta property="og:site_name" content="Orbs" />
@@ -66,9 +61,7 @@ const Page = ({
           ) : null}
 
           {footer && footer}
-          <button className="scroll-top">
-            <Img src={generateUrl(images.common.up)} />
-          </button>
+          <ScrollTop generateUrl={generateUrl} />
         </div>
       </body>
     </html>

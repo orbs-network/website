@@ -130,12 +130,17 @@
 @media only screen and (max-width: $mobile) {
   .ecosystem {
     &-category {
+      &-title {
+        font-size: 0.875rem;
+        h5 {
+          padding: 15px;
+        }
+      }
       &-list {
         .image {
-          width: calc(50% - 7vw);
-          margin-right: 14vw;
+          width: calc(50% - 10vw);
           &:nth-of-type(2n) {
-            margin-right: 0px;
+            margin-left: auto;
           }
         }
       }

@@ -6,8 +6,6 @@ date: April 2018
 url: white-papers/bloom-filter-with-a-false-positive-free-zone
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
 image: /assets/img/white-papers/bloom-filter-with-a-false-positive-free-zone.png
 ---
 

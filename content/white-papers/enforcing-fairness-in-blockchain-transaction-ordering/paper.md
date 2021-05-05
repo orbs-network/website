@@ -6,8 +6,6 @@ date: May 2019
 url: white-papers/enforcing-fairness-in-blockchain-transaction-ordering
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
 image: /assets/img/white-papers/enforcing-fairness-in-blockchain-transaction-ordering.png
 ---
 

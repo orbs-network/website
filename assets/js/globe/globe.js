@@ -3,11 +3,7 @@ import { globeConfig } from "./config.js";
 
 // import "https://unpkg.com/globe.gl";
 // import "https://unpkg.com/three";
-import {
-  generatePathData,
-  getPointCoordinates,
-  getRandomPointLatLng,
-} from "./util.js";
+import { generatePathData, getRandomPointLatLng } from "./util.js";
 
 export class GlobeController {
   globe = null;

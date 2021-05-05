@@ -10,4 +10,6 @@ title: Transparency and Data
 ![alt text](//assets/img/ecosystem/data/startup.png)
 ![alt text](//assets/img/ecosystem/data/blockfolio.svg)
 ![alt text](//assets/img/ecosystem/data/rewards.png)
+![alt text](//assets/img/ecosystem/data/image1.png)
+
 ![alt text](//assets/img/ecosystem/data/coinmarketcap.svg)

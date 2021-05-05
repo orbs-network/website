@@ -1,9 +1,5 @@
-import {
-  addEvent,
-  getElement,
-  getElements,
-  hideBodyOverflow,
-} from "../common.js";
+import { addEvent, getElement, getElements } from "../heplers.js";
+import { toggleWindowScroll } from "../ui/ui.js";
 import {
   addEventsToInputs,
   handleLoading,
@@ -51,13 +47,13 @@ const closeForm = () => {
 export const showSubscribePopup = () => {
   const popup = getElement(".subscribe");
   popup.classList.add("subscribe-active");
-  hideBodyOverflow(true);
+  toggleWindowScroll(true);
 };
 
 export const hideSubscribePopup = () => {
   const popup = getElement(".subscribe");
   popup.classList.remove("subscribe-active");
-  hideBodyOverflow(false);
+  toggleWindowScroll(false);
 };
 
 const handleFormSubmitted = () => {

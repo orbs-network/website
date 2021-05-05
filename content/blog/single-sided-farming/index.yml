@@ -11,7 +11,7 @@ footer:
   - ../../_shared/footer/footer.md
 subscribe:
   - ../../_shared/subscribe/subscribe.md
-meta_description: orbs pos universe
+meta_description: Contact Orbs to find out more about our project, how to build your application on the Orbs blockchain or become an Orbs validator.
 meta_keywords: orbs, pos universe
 gdpr:
   - ../../_shared/gdpr/index.md

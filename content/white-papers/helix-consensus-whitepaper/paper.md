@@ -6,8 +6,7 @@ date: April 2018
 url: white-papers/helix-consensus-whitepaper
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/helix-consensus-whitepaper.png
 ---
 

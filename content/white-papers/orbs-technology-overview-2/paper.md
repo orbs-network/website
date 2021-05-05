@@ -6,8 +6,7 @@ date: May 2019
 url: white-papers/orbs-technology-overview-2
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/orbs-technology-overview-2.png
 ---
 
