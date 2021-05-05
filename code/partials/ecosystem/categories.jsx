@@ -15,7 +15,7 @@ const Categories = (props) => {
     cloudMirrorImage,
     wallets,
     media,
-    oracles,
+    explorers,
     defi,
     _relativeURL,
     socialImpact,
@@ -37,6 +37,7 @@ const Categories = (props) => {
           <Img src={generateUrl(images.ecosystem.logo)} alt="orbs logo" />
         </section>
         {cloudMirrorImage}
+        {explorers}
       </Section>
       <Section>
         {wallets}
@@ -44,7 +45,6 @@ const Categories = (props) => {
         {defi}
         {media}
         {staking}
-        {oracles}
       </Section>
     </div>
   );

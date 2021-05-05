@@ -1,4 +1,4 @@
-import { addEvent, getElement } from "../common.js";
+import { addEvent, getElement } from "../heplers.js";
 
 const init = () => {
   handleShowGdpr();
@@ -25,6 +25,7 @@ const addEventListeners = () => {
 
 const handleAccept = () => {
   alert("accepted");
+  // run some code
   localStorage.setItem("gdpr_accepted", true);
   hideGdpr();
 };

@@ -6,8 +6,7 @@ date: August 2017
 url: white-papers/orbs-position-paper
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/orbs-position-paper.png
 ---
 

@@ -6,8 +6,7 @@ date: February 2019
 url: white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms.png
 ---
 

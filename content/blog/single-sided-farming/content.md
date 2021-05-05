@@ -2,11 +2,11 @@
 layout: partials/blog-inner/content
 ---
 
-The Orbs [Liquidity Nexus protocol]('') introduces CeFi liquidity to DeFi.
+_The Orbs [Liquidity Nexus protocol introduces]('') CeFi liquidity to DeFi._
 
-Now, take any DEX, whether it’s SushiSwap or PancakeSwap, and choose a popular pool like ETH/USDC or BNB/BUSD.
+_Now, take any DEX, whether it’s SushiSwap or PancakeSwap, and choose a popular pool like ETH/USDC or BNB/BUSD._
 
-The CeFi capital provides the stable side — USDC or BUSD. The DeFi capital provides the crypto side — ETH or BNB. Now, let them farm together.
+_The CeFi capital provides the stable side — USDC or BUSD. The DeFi capital provides the crypto side — ETH or BNB. Now, let them farm together._
 
 ...
 

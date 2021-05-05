@@ -6,8 +6,7 @@ date: March 2019
 url: white-papers/proof-of-stake-ecosystem
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/proof-of-stake-ecosystem.png
 ---
 

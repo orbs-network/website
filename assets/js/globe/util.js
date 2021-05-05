@@ -1,4 +1,4 @@
-import { getElementAttribute, getElements } from "../common.js";
+import { getElementAttribute, getElements } from "../heplers.js";
 
 export const generateArcData = (data, colors) => {
   return data.map((currentPoint, index) => {

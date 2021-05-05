@@ -122,14 +122,27 @@
 
 @media only screen and (max-width: 900px) {
   .faq {
+    padding-top: 80px;
     &-flex {
       flex-direction: column;
     }
     .side-menu {
-      display: none;
+      position: relative;
+      height: auto;
+      margin-top: 0px;
+      top: 0px;
+      margin-bottom: 30px;
+      width: 100%;
+      .faq-side-menu-additional {
+        margin-top: 20px;
+      }
+      .socials {
+        margin-top: 20px;
+      }
     }
+
     &-mobile-menu {
-      display: block;
+      display: none;
     }
 
     &-lists {
@@ -138,7 +151,7 @@
       position: relative;
     }
     .indicator {
-      top: -200px;
+      top: -80px;
     }
   }
 }

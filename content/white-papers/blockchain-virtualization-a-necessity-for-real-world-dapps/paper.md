@@ -6,8 +6,7 @@ date: August 2018
 url: white-papers/blockchain-virtualization-a-necessity-for-real-world-dapps
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/blockchain-virtualization-a-necessity-for-real-world-dapps.png
 ---
 

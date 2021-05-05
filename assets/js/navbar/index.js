@@ -1,17 +1,12 @@
-import {
-  getElement,
-  removeClass,
-  addClass,
-  addEvent,
-  hideBodyOverflow,
-} from "../common.js";
+import { getElement, removeClass, addClass, addEvent } from "../heplers.js";
 import { showSubscribePopup } from "../components/subscribe.js";
+import { toggleWindowScroll } from "../ui/ui.js";
 
 let menuIsOpen;
 export const showMenu = () => {
   const menu = getElement(".navbar-menu");
   addClass(menu, "navbar-menu-show");
-  hideBodyOverflow(true);
+  toggleWindowScroll(true);
   menuIsOpen = true;
 };
 
@@ -19,7 +14,7 @@ export const hideMenu = () => {
   if (!menuIsOpen) return;
   const menu = getElement(".navbar-menu");
   removeClass(menu, "navbar-menu-show");
-  hideBodyOverflow(false);
+  toggleWindowScroll(false);
   menuIsOpen = false;
 };
 
@@ -68,8 +63,12 @@ const handleMobileSubscribeClick = () => {
 };
 
 const onNavbarLoad = () => {
-  const menu = getElement(".navbar-menu");
-  const subscribe = getElement(".subscribe");
-  menu.style.display = "flex";
-  subscribe.style.display = "flex";
+  try {
+    const menu = getElement(".navbar-menu");
+    const subscribe = getElement(".subscribe");
+    menu.style.display = "flex";
+    subscribe.style.display = "flex";
+  } catch (error) {
+    console.log(error);
+  }
 };
