@@ -90,7 +90,6 @@ $blog-bold-font: "base-blog-font";
         font-weight: bold;
         text-transform: uppercase;
         color: $light-color;
-        font-size: 0.875rem;
       }
       &-avatar {
         width: 60px;
@@ -109,6 +108,7 @@ $blog-bold-font: "base-blog-font";
       p {
         text-decoration: none;
         margin-right: 5px;
+        font-size: 0.875rem;
       }
     }
   }
@@ -160,7 +160,7 @@ $blog-bold-font: "base-blog-font";
     background: white;
     margin: auto;
     padding-top: 32px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     &-grid {
       max-width: 840px;
       padding-left: 20px;

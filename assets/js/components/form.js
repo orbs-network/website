@@ -3,7 +3,7 @@ import {
   getElement,
   getElementAttribute,
   getElements,
-} from "../common.js";
+} from "../heplers.js";
 
 const errors = {};
 

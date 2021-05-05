@@ -3,7 +3,7 @@ import {
   getElement,
   hideElement,
   onMouseEnterAndLeaveEvent,
-} from "../common.js";
+} from "../heplers.js";
 import { init } from "../index.js";
 
 import { globeConfig } from "./config.js";

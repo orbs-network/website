@@ -3,7 +3,7 @@ import {
   getElement,
   getElementAttribute,
   getElements,
-} from "../common.js";
+} from "../heplers.js";
 import { init } from "../index.js";
 
 let selected;
@@ -69,15 +69,4 @@ const addEventsToTags = () => {
   tags.forEach((element) => {
     addEvent(element, "click", () => selectFilter(element));
   });
-};
-
-const getElementWidth = () => {
-  // const tags = getElements(".blog-tags-tag");
-  // let totalWidth = 0;
-  // tags.forEach((tag) => {
-  //   const width = tag.getBoundingClientRect().width;
-  //   totalWidth += width;
-  // });
-  // const container = getElement(".blog-tags");
-  // container.style.width = `${totalWidth}px`;
 };

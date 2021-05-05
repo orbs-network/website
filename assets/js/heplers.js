@@ -1,5 +1,3 @@
-import { handleNavbarScroll } from "./navbar/index.js";
-
 export const getElement = (element) => {
   try {
     return document.querySelector(element);
@@ -58,17 +56,6 @@ export const onOutsideEvent = (element, callback) => {
   });
 };
 
-export const handleOnScroll = () => {
-  document.addEventListener(
-    "scroll",
-    () => {
-      handleNavbarScroll();
-      handleScrollTopBtn();
-    },
-    { passive: true }
-  );
-};
-
 export const addEvent = (element, eventType, customEvent) => {
   if (!element || !customEvent || !eventType) return;
   element.addEventListener(eventType, (e) => customEvent(e));
@@ -81,32 +68,4 @@ export const removeSpaces = (str, char) => {
 export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
-};
-
-export const hideBodyOverflow = (val) => {
-  const body = getElement("body");
-  if (val) {
-    return body.classList.add("overflow-hidden");
-  }
-  return body.classList.remove("overflow-hidden");
-};
-
-const handleScrollTopBtn = () => {
-  const offsetTop = window.pageYOffset;
-  if (offsetTop >= 500) {
-    const scrollBtn = getElement(".scroll-top");
-    return scrollBtn.classList.add("scroll-top-active");
-  }
-  if (offsetTop < 500) {
-    const scrollBtn = getElement(".scroll-top");
-    return scrollBtn.classList.remove("scroll-top-active");
-  }
-};
-
-export const scrollToTop = () => {
-  const btn = getElement(".scroll-top");
-  addEvent(btn, "click", () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  });
 };
