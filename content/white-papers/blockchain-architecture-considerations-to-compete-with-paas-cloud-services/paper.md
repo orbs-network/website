@@ -1,13 +1,12 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: "Blockchain Architecture Considerations to Compete with PaaS/Cloud Services"
+title: Blockchain Architecture Considerations to Compete with PaaS/Cloud Services
 readPaperBtn: read the paper
 date: August 2018
-url: white-papers/blockchain-architecture-considerations-to-compete-with-paas-cloud-services
+url: white-papers/eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
+
 image: /assets/img/white-papers/blockchain-architecture-considerations-to-compete-with-paas-cloud-services.png
 ---
 

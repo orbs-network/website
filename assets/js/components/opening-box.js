@@ -1,4 +1,4 @@
-import { getElements } from "../common.js";
+import { getElements } from "../heplers.js";
 
 const handleOpeningBoxClick = (e, element) => {
   e.stopPropagation();

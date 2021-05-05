@@ -218,8 +218,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
     &-policy {
-      font-size: 12px;
-      color: #acacac;
+      a {
+        font-size: 12px;
+        color: #acacac;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -281,6 +284,16 @@
       &-mobile {
         display: flex;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer-bottom {
+    flex-direction: column;
+    &-policy {
+      order: 2;
+      margin-top: 20px;
     }
   }
 }

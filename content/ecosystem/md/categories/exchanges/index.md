@@ -16,3 +16,5 @@ title: Exchanges
 ![alt text](//assets/img/ecosystem/exchanges/ftx.svg)
 ![alt text](//assets/img/ecosystem/exchanges/dax.svg)
 ![alt text](//assets/img/ecosystem/exchanges/gateio.svg)
+![alt text](//assets/img/ecosystem/exchanges/p2p.png)
+![alt text](//assets/img/ecosystem/exchanges/consbit.png)

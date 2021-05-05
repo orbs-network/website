@@ -1,4 +1,4 @@
-import { addEvent, getElements } from "../common.js";
+import { addEvent, getElements } from "../heplers.js";
 
 const toggleTextBox = (event, element) => {
   event.stopPropagation();

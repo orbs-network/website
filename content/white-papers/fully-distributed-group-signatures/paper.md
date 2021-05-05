@@ -6,8 +6,6 @@ date: April 2019
 url: white-papers/fully-distributed-group-signatures
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
 image: /assets/img/white-papers/fully-distributed-group-signatures.png
 ---
 
