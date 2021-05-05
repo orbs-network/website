@@ -4,15 +4,15 @@ title: Resources
 
 links:
   - name: tetra
-    url: url
+    url: https://staking.orbs.network/
     image: assets/img/navbar/menu/tetra.svg
     text: Few words about it
   - name: analytics
-    url: url
+    url: https://analytics.orbs.network
     image: assets/img/navbar/menu/analytics.svg
     text: Few words about it
   - name: status
-    url: url
+    url: http://status.orbs.network/
     image: assets/img/navbar/menu/status.svg
     text: Few words about it
   - name: v1 reward

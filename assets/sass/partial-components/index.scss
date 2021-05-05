@@ -8,6 +8,8 @@
 @import "./loader.scss";
 @import "./form.scss";
 @import "./opening-box.scss";
+@import "./subscribe.scss";
+
 body {
   min-height: 100%;
   display: flex;
@@ -70,6 +72,9 @@ body {
     img {
       width: 70%;
       height: 70%;
+    }
+    &:last-of-type {
+      margin-right: 0px;
     }
   }
   a {

@@ -6,8 +6,6 @@ date: August 2018
 url: white-papers/accelerating-decentralized-execution-of-blockchain
 button: Preview Paper
 published: "Published"
-preview:
-  - preview.md
 image: /assets/img/white-papers/accelerating-decentralized-execution-of-blockchain.png
 ---
 

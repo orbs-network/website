@@ -12,8 +12,8 @@ fiatOnRamps:
   - md/categories/fiat-on-ramps/index.md
 media:
   - md/categories/media/index.md
-oracles:
-  - md/categories/oracles/index.md
+explorers:
+  - md/categories/explorers/index.md
 partnerships:
   - md/categories/partnerships/index.md
 cloudMirrorImage:

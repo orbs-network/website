@@ -1,4 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: media
+title: Media
 ---
+
+![alt text](//assets/img/ecosystem/media/inbound.png)

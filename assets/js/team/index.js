@@ -1,11 +1,10 @@
-import { addEvent, getElements } from "../common.js";
 import { init } from "../index.js";
 
 import "https://unpkg.com/swiper/swiper-bundle.min.js";
+import { addEvent, getElements } from "../heplers.js";
 window.onload = () => {
   init();
   initSlider();
-  addClickListenerToMember();
 };
 
 const initSlider = () => {

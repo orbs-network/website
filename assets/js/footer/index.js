@@ -1,4 +1,4 @@
-import { getElements, addEvent } from "../common.js";
+import { getElements, addEvent } from "../heplers.js";
 
 export const addListenersToFooter = () => {
   const mobileNavigations = getElements(".footer-navigation-mobile");

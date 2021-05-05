@@ -1,4 +1,4 @@
-import { addEvent, getElement, getElements } from "../common.js";
+import { addEvent, getElement, getElements } from "../heplers.js";
 import { init } from "../index.js";
 
 import {
@@ -42,6 +42,8 @@ const handleSubmit = (e) => {
     phone: phone && phone.value,
     comment: comment && comment.value,
   };
+
+  // api request
   handleLoading(formClassName);
   setTimeout(() => {
     handleSuccess(formClassName, inputs);

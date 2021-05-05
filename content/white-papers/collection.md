@@ -4,16 +4,13 @@ title: white papers
 list:
   - title: Community
     list:
-      - orbs-grant-program-2/paper.md
-
+      - orbs-grant-program/paper.md
   - title: Orbs Proof of Stake Universe
     list:
       - orbs-pos-v2-the-age-of-guardians/paper.md
-
   - title: Orbs Technology Overview
     list:
       - orbs-technology-overview-2/paper.md
-
   - title: The Orbs Position Paper
     list:
       - orbs-position-paper/paper.md
@@ -37,4 +34,6 @@ list:
   - title: Token specifications
     list:
       - proof-of-stake-ecosystem/paper.md
+      - orbs-token-distribution/paper.md
+      - Orbs-Operation-Fees/paper.md
 ---
