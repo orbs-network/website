@@ -1,6 +1,7 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
 import { formatBlogDate } from "../../util/date";
+import { testString } from "../../util/string";
 import Img from "../shared/Img";
 
 const BlogListElement = (props) => {
