@@ -3,7 +3,6 @@ layout: partials/shared/mappers/blog-mapper
 image: ../../assets/img/blog/single-sided-farming/bg.jpeg
 blogUrl: blog/single-sided-farming
 type: crypto
-daysAgo: days ago
 author:
   - ../common/authors/tal.md
 date: 23/04/2021

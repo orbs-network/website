@@ -1,4 +1,3 @@
-title: Team
 layout: pages/page
 script: team/index
 
@@ -12,7 +11,7 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: orbs team members
-meta_keywords: orbs, team members
+meta_description: Orbs is made up of a group of experienced engineers, academics and business people. We're building fast and smart
+title: Orbs - Meet the people building the Hybrid Blockchain
 gdpr:
   - /_shared/gdpr/index.md
