@@ -1,9 +1,9 @@
 ---
 layout: partials/blog/main
 tags:
-  - ./md/tags.md
+  - ./common/tags.md
 pageHeader:
-  - md/page-header/page-header.md
+  - common/page-header/page-header.md
 
 blogs:
   - blogs.md

@@ -4,9 +4,7 @@ script: blog/index
 
 header:
   - ../../_shared/navbar/index.md
-
 main: body.md
-
 footer:
   - ../../_shared/footer/footer.md
 subscribe:

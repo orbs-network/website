@@ -80,8 +80,8 @@
     pointer-events: all; }
 
 .app-loader {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -353,7 +353,8 @@ body {
   .gdpr .text-p {
     margin: 0px;
     flex: 1;
-    padding-right: 50px; }
+    padding-right: 50px;
+    align-self: center; }
   .gdpr-active {
     opacity: 1;
     pointer-events: all;
@@ -749,7 +750,6 @@ body {
   opacity: 0;
   z-index: 999999;
   pointer-events: none;
-  display: none;
   overflow: auto;
   background: #191919; }
   .subscribe-overlay {
@@ -2154,7 +2154,10 @@ body {
       height: 33px;
       width: auto; }
 
-.scrolled-navbar {
+.navbar-hidden {
+  transform: translate(0, -100%); }
+
+.active-navbar {
   background: #191919; }
 
 @media only screen and (min-width: 700px) {
@@ -2629,25 +2632,28 @@ body {
   .blog-list-blog {
     overflow: hidden;
     min-height: 280px;
-    position: relative; }
+    position: relative;
+    display: flex;
+    flex-direction: column; }
     .blog-list-blog * {
       color: black;
       text-decoration: none; }
     .blog-list-blog-title {
       font-size: 1.375rem;
-      margin-top: 20px;
       font-weight: 600;
       margin-bottom: 10px;
       line-height: 2.063rem;
       padding-right: 10px; }
-    .blog-list-blog .text-p {
-      font-size: 0.875rem; }
+    .blog-list-blog-description .text-p {
+      font-size: 0.875rem;
+      margin-bottom: 0px; }
     .blog-list-blog-img {
       width: 100%;
       height: 219px;
       transition: 0.2s all;
       transform-origin: center;
-      object-fit: cover; }
+      object-fit: cover;
+      margin-bottom: 20px; }
       .blog-list-blog-img img {
         width: 100%;
         height: 100%;
@@ -2662,7 +2668,8 @@ body {
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 100%; }
+      height: auto;
+      margin-bottom: 20px; }
     .blog-list-blog-author {
       margin-top: auto; }
       .blog-list-blog-author img {
@@ -2675,11 +2682,12 @@ body {
         overflow: hidden;
         margin-right: 13px;
         object-position: top; }
+      .blog-list-blog-author a {
+        font-weight: bold;
+        font-size: 0.875rem;
+        text-transform: uppercase; }
       .blog-list-blog-author p {
         font-size: 0.875rem; }
-        .blog-list-blog-author p:first-of-type {
-          font-weight: bold;
-          text-transform: uppercase; }
       .blog-list-blog-author small {
         margin-left: 10px;
         margin-right: 10px; }
@@ -2727,7 +2735,7 @@ body {
     margin-right: 0px; }
     .blog-list .list-item:nth-of-type(1) {
       margin-top: 0px; }
-  .blog-list-blog-title {
+  .blog-list-blog .title-h3 {
     font-size: 1.125rem;
     line-height: 1.7rem; }
   .blog-list-blog-img {
@@ -2796,47 +2804,46 @@ body {
     object-position: center;
     height: 100%; }
   .single-blog-header-author {
-    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
-    align-items: center; }
-    .single-blog-header-author-details {
-      display: flex;
-      align-items: center; }
+    align-items: center;
+    flex-wrap: wrap; }
     .single-blog-header-author-flex {
       flex-wrap: wrap;
-      padding-right: 30px;
-      flex: 1; }
-    .single-blog-header-author .inner-links {
-      margin-left: auto;
-      margin-bottom: 0px; }
-      .single-blog-header-author .inner-links a {
-        width: 15px;
-        height: 15px;
-        margin-left: 35px;
-        margin-right: 0px; }
-        .single-blog-header-author .inner-links a:first-child {
-          margin-left: 0px; }
-    .single-blog-header-author-name {
+      margin-top: 20px;
+      display: flex; }
+      .single-blog-header-author-flex .inner-links {
+        margin-left: auto;
+        margin-bottom: 0px; }
+        .single-blog-header-author-flex .inner-links a {
+          width: 15px;
+          height: 15px;
+          margin-left: 35px;
+          margin-right: 0px; }
+          .single-blog-header-author-flex .inner-links a:first-child {
+            margin-left: 0px; }
+    .single-blog-header-author a {
       font-weight: bold;
       text-transform: uppercase;
       color: #03fcf5; }
-    .single-blog-header-author-avatar {
+    .single-blog-header-author a,
+    .single-blog-header-author p {
+      text-decoration: none;
+      font-size: 0.875rem; }
+    .single-blog-header-author small {
+      margin-left: 8px;
+      margin-right: 8px; }
+    .single-blog-header-author .image {
       width: 60px;
       height: 60px;
       border-radius: 50%;
       overflow: hidden;
       margin-right: 12px; }
-      .single-blog-header-author-avatar img {
+      .single-blog-header-author .image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: top; }
-    .single-blog-header-author a,
-    .single-blog-header-author p {
-      text-decoration: none;
-      margin-right: 5px;
-      font-size: 0.875rem; }
 
 .single-blog-bottom {
   margin: auto;
@@ -2947,10 +2954,10 @@ body {
     margin-left: 20px; }
   .single-blog-header-title {
     font-size: 1.4rem; }
-  .single-blog-header-author-avatar {
+  .single-blog-header-author .image {
     width: 40px;
     height: 40px; }
-  .single-blog-header-author-name,
+  .single-blog-header-author a,
   .single-blog-header-author p {
     font-size: 0.813rem; }
   .single-blog-body .text-p {
@@ -3453,7 +3460,7 @@ body {
   text-align: center; }
 
 .ecosystem-grid {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   width: 100%;
   align-items: flex-start;
   margin-top: 84px;
@@ -3494,15 +3501,19 @@ body {
       width: fit-content; }
   .ecosystem-category-list {
     flex-wrap: wrap;
-    padding-top: 54px; }
+    padding-top: 35px; }
     .ecosystem-category-list .image {
       height: auto;
       margin-top: 25px; }
+      .ecosystem-category-list .image a {
+        width: 100%;
+        height: 100%;
+        display: flex; }
       .ecosystem-category-list .image img {
         width: 100%;
         max-height: 80px;
         object-fit: contain;
-        object-position: left; }
+        object-position: top left; }
 
 @media only screen and (min-width: 1100px) {
   .ecosystem-grid .list-item {

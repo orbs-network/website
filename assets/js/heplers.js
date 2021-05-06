@@ -69,3 +69,19 @@ export const getElementAttribute = (element, attr) => {
   if (!element) return;
   return element.getAttribute(attr);
 };
+
+export const removeChild = (parent, element) => {
+  try {
+    return parent.removeChild(element);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const appendChild = (parent, element) => {
+  try {
+    return parent.appendChild(element);
+  } catch (error) {
+    console.log(error);
+  }
+};

@@ -303,7 +303,11 @@
   }
 }
 
-.scrolled-navbar {
+.navbar-hidden {
+  transform: translate(0, -100%);
+}
+
+.active-navbar {
   background: $base-bg-color;
 }
 

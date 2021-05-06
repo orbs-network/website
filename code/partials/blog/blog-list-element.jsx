@@ -5,16 +5,16 @@ import Img from "../shared/Img";
 
 const BlogListElement = (props) => {
   const {
-    authorName,
-    authorImage,
+    author,
     image,
     date,
     _relativeURL,
     _ID,
     blogUrl,
-    title,
     type,
     _body,
+    title,
+    short_description,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -33,15 +33,16 @@ const BlogListElement = (props) => {
         <figure className="blog-list-blog-img">
           <Img src={generateUrl(image)} alt="blog" />
         </figure>
-        <h5 className="blog-list-blog-title">{title}</h5>
-        {_body}
-        <div className="blog-list-blog-author flex-start">
-          <Img src={generateUrl(authorImage)} alt="author avatar" />
-          <p>{authorName}</p>
-          <small>|</small>
-          <p>{formatBlogDate(date)}</p>
+        <h4 className="blog-list-blog-title">{title}</h4>
+        <div className='"blog-list-blog-description'>
+          <p className="text-p">{short_description}</p>
         </div>
       </a>
+      <div className="blog-list-blog-author flex-start">
+        {author}
+        <small>|</small>
+        <p>{formatBlogDate(date)}</p>
+      </div>
     </li>
   );
 };

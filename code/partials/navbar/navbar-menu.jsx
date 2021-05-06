@@ -19,7 +19,7 @@ const NavbarMenu = ({
     return `${_relativeURL(url, _ID)}`;
   };
   return (
-    <div className="navbar-menu">
+    <div className="navbar-menu" style={{ display: "none" }}>
       <section className="navbar-menu-overlay"></section>
       <div className="navbar-menu-content">
         <div className="navbar-menu-content-wrapper">

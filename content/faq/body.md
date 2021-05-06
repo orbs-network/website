@@ -38,7 +38,7 @@ sections:
       - md/section5/faq-2.md
       - md/section5/faq-3.md
 
-  - title: deFi
+  - title: DeFi
     list:
       - md/section6/faq-1.md
       - md/section6/faq-2.md

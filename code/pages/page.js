@@ -1,5 +1,6 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
+import { images } from "../../assets/js/images";
 import AppLoader from "../partials/shared/app-loader";
 import ScrollTop from "../partials/shared/scroll-top";
 
@@ -23,22 +24,33 @@ const Page = ({
       <head style={{ background: colors.main, display: "none" }}>
         <title>Orbs - {title}</title>
         <meta charSet="utf-8" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta name="description" content={meta_description} />
-        <meta property="og:type" content="website"></meta>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="ko_KR" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={meta_description} />
         <meta property="og:url" content="https://www.orbs.com/" />
         <meta property="og:site_name" content="Orbs" />
+        <meta property="og:image" content={generateUrl(images.meta.logo)} />
         <meta
           property="og:image:secure_url"
-          content="https://www.orbs.com/wp-content/uploads/2019/03/Orbs-Twitter-Post.png"
-        ></meta>
+          content={generateUrl(images.meta.logo)}
+        />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="512" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content={meta_description} />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:site" content="@orbs_network" />
+        <meta name="twitter:image" content={generateUrl(images.meta.logo)} />
+        <meta name="twitter:creator" content="@orbs_network" />
         <meta
-          property="og:image"
-          content="https://www.orbs.com/wp-content/uploads/2019/03/Orbs-Twitter-Post.png"
-        ></meta>
-        <meta property="og:image:width" content="1024"></meta>
-        <meta property="og:image:height" content="512"></meta>
+          name="google-site-verification"
+          content="4GBadCDqEPfribk9lcTcWcjKVyjjIusfdC0H2FYojDw"
+        />
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
