@@ -10,16 +10,17 @@ const Categories = (props) => {
   const {
     exchange,
     staking,
-    transparencyAndData,
+    transparency_and_data,
     partnerships,
-    cloudMirrorImage,
+    cloud_mirror_image,
     wallets,
     media,
     explorers,
     defi,
     _relativeURL,
-    socialImpact,
+    social_impact,
     _ID,
+    fiat_on_ramps,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -28,16 +29,17 @@ const Categories = (props) => {
     <div className="ecosystem-grid flex-start">
       <Section>
         {exchange}
-        {transparencyAndData}
-        {socialImpact}
+        {transparency_and_data}
+        {social_impact}
       </Section>
       <Section>
         {partnerships}
         <section className="ecosystem-grid-section-figure">
           <Img src={generateUrl(images.ecosystem.logo)} alt="orbs logo" />
         </section>
-        {cloudMirrorImage}
+        {cloud_mirror_image}
         {explorers}
+        {fiat_on_ramps}
       </Section>
       <Section>
         {wallets}

@@ -31,7 +31,7 @@ const SubscribePopup = (props) => {
   ];
 
   return (
-    <div className="subscribe">
+    <div className="subscribe" style={{ display: "none" }}>
       <section className="subscribe-overlay"></section>
       <Form {...props} data={data} formClassName="subscribe-form" closeBtn />
     </div>

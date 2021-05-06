@@ -12,7 +12,6 @@ window.onload = () => {
   init();
   addEventsToTags();
   blogs = getElements(".blog-list-blog");
-  getElementWidth();
 };
 
 const hideBlog = (elem) => {

@@ -60,38 +60,44 @@ $blog-bold-font: "base-blog-font";
     }
 
     &-author {
-      margin-top: 20px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      &-details {
-        display: flex;
-        align-items: center;
-      }
+      flex-wrap: wrap;
       &-flex {
         flex-wrap: wrap;
-        padding-right: 30px;
-        flex: 1;
-      }
-      .inner-links {
-        margin-left: auto;
-        margin-bottom: 0px;
-        a {
-          width: 15px;
-          height: 15px;
-          margin-left: 35px;
-          margin-right: 0px;
-          &:first-child {
-            margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        .inner-links {
+          margin-left: auto;
+          margin-bottom: 0px;
+          a {
+            width: 15px;
+            height: 15px;
+            margin-left: 35px;
+            margin-right: 0px;
+            &:first-child {
+              margin-left: 0px;
+            }
           }
         }
       }
-      &-name {
+
+      a {
         font-weight: bold;
         text-transform: uppercase;
         color: $light-color;
       }
-      &-avatar {
+      a,
+      p {
+        text-decoration: none;
+        font-size: 0.875rem;
+      }
+      small {
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .image {
         width: 60px;
         height: 60px;
         border-radius: 50%;
@@ -103,12 +109,6 @@ $blog-bold-font: "base-blog-font";
           object-fit: cover;
           object-position: top;
         }
-      }
-      a,
-      p {
-        text-decoration: none;
-        margin-right: 5px;
-        font-size: 0.875rem;
       }
     }
   }
@@ -258,11 +258,11 @@ $blog-bold-font: "base-blog-font";
         font-size: 1.4rem;
       }
       &-author {
-        &-avatar {
+        .image {
           width: 40px;
           height: 40px;
         }
-        &-name,
+        a,
         p {
           font-size: 0.813rem;
         }
