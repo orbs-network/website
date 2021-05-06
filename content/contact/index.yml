@@ -1,6 +1,4 @@
-title: Contact us
 layout: pages/page
-
 script: contact/index
 header:
   - /_shared/navbar/index.md
@@ -10,7 +8,7 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: orbs pos universe
-meta_keywords: orbs, pos universe
+meta_description: Contact Orbs to find out more about our project, how to build your application on the Orbs blockchain or become an Orbs validator.
+title: Contact Us - Orbs
 gdpr:
   - /_shared/gdpr/index.md

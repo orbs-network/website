@@ -4,16 +4,7 @@ import Img from "../shared/Img";
 import InnerLinks from "../shared/inner-links";
 import { images } from "../../../assets/js/images";
 const BlogHeader = (props) => {
-  const {
-    _relativeURL,
-    _ID,
-    author,
-    telegram,
-    twitter,
-    date,
-    daysAgo,
-    title,
-  } = props;
+  const { _relativeURL, _ID, author, telegram, twitter, date, title } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -30,7 +21,7 @@ const BlogHeader = (props) => {
         <div className="single-blog-header-author flex-start">
           {author}
           <small>|</small>
-          <p>{`${daysFromDate(date)} ${daysAgo}`}</p>
+          <p className="blog-hedaer-date">{daysFromDate(date, _ID)}</p>
         </div>
 
         <InnerLinks
