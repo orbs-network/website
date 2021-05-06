@@ -4,11 +4,11 @@ exchange:
   - md/categories/exchanges/index.md
 staking:
   - md/categories/staking/index.md
-transparencyAndData:
+transparency_and_data:
   - md/categories/transparency-and-data/index.md
 socialImpact:
   - md/categories/social-impact/index.md
-fiatOnRamps:
+fiat_on_ramps:
   - md/categories/fiat-on-ramps/index.md
 media:
   - md/categories/media/index.md
@@ -16,12 +16,12 @@ explorers:
   - md/categories/explorers/index.md
 partnerships:
   - md/categories/partnerships/index.md
-cloudMirrorImage:
+cloud_mirror_image:
   - md/categories/cloud-mirror-image/index.md
 defi:
   - md/categories/defi/index.md
 wallets:
   - md/categories/wallets/index.md
-pageTitle:
+page_title:
   - md/title.md
 ---

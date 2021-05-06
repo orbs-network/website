@@ -4,7 +4,7 @@ import Img from "./Img";
 
 const AppLoader = ({ generateUrl }) => {
   return (
-    <div className="app-loader">
+    <div className="app-loader" style={{ opacity: 0 }}>
       <Img src={generateUrl(images.common.appLoader)} />
     </div>
   );

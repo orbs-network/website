@@ -1,6 +1,6 @@
 import { getElements, addEvent } from "../heplers.js";
 
-export const addListenersToFooter = () => {
+export const addEventsToFooter = () => {
   const mobileNavigations = getElements(".footer-navigation-mobile");
   mobileNavigations.forEach((element) => {
     addEvent(element, "click", () => handleClick(element));
