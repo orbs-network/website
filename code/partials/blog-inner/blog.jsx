@@ -3,7 +3,7 @@ import Img from "../shared/Img";
 import BlogHeader from "./blog-header";
 
 const Blog = (props) => {
-  const { content, image, _relativeURL, _ID } = props;
+  const { _body, image, _relativeURL, _ID } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -15,7 +15,7 @@ const Blog = (props) => {
         <Img src={generateUrl(image)} alt="blog" />
       </figure>
       <div className="single-blog-body">
-        <div className="single-blog-body-grid">{content}</div>
+        <div className="single-blog-body-grid">{_body}</div>
       </div>
     </React.Fragment>
   );

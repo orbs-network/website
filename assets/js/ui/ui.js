@@ -1,6 +1,6 @@
 import { addEvent, getElement } from "../heplers.js";
 import { handleNavbarScroll } from "../navbar/index.js";
-
+let loaderTimeOut;
 const handleScrollTopBtn = () => {
   const offsetTop = window.pageYOffset;
   if (offsetTop >= 500) {
@@ -41,6 +41,7 @@ export const handleOnScroll = () => {
 };
 
 export const hideAppLoader = () => {
+  window.clearTimeout(loaderTimeOut);
   const body = getElement("body");
   const loader = getElement(".app-loader");
   loader.style.opacity = 0;
@@ -49,4 +50,11 @@ export const hideAppLoader = () => {
   setTimeout(() => {
     body.removeChild(loader);
   }, 1000);
+};
+
+export const showAppLoader = () => {
+  loaderTimeOut = setTimeout(() => {
+    const loader = getElement(".app-loader");
+    loader.style.opacity = 1;
+  }, 250);
 };

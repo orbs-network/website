@@ -33,6 +33,9 @@ export const images = {
       thirdImg: `${prefix}/globe/cards/`,
     },
   },
+  meta: {
+    logo: `${prefix}/meta/Orbs-Twitter-Post.png`,
+  },
   socials: {
     reddit: `${prefix}/socials/reddit.svg`,
     github: `${prefix}/socials/github.svg`,

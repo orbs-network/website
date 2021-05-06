@@ -2,10 +2,10 @@ import React from "react";
 import Categories from "./categories";
 
 const Main = (props) => {
-  const { pageTitle } = props;
+  const { page_title } = props;
   return (
     <main className="ecosystem main-grid page-padding-top">
-      {pageTitle}
+      {page_title}
       <Categories {...props} />
     </main>
   );
