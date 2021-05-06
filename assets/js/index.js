@@ -8,6 +8,7 @@ import {
   hideAppLoader,
   showAppLoader,
 } from "./ui/ui.js";
+import { getElements } from "./heplers.js";
 
 export const init = () => {
   initNavbar();

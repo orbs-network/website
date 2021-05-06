@@ -1,4 +1,3 @@
-title: white papers
 layout: pages/page
 script: white-paper/index
 
@@ -10,5 +9,7 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
+meta_description: "Download the latest versions of the Orbs Position Paper, the Helix Consensus Algorithm White Paper and Pivoting to Blockchain: the Orbs podcast"
+title: White Papers - Orbs
 gdpr:
   - /_shared/gdpr/index.md
