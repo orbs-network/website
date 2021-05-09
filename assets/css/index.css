@@ -2973,6 +2973,8 @@ body {
     padding-top: 20px;
     font-family: "Montserrat";
     font-weight: 600; }
+  .single-blog-body .title-h2 {
+    font-size: 1.875rem !important; }
 
 @media only screen and (max-width: 700px) {
   .single-blog-header .inner-links a {

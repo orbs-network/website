@@ -2,17 +2,17 @@ layout: pages/page
 script: smart-contracts/index
 
 header:
-  - ../_shared/navbar/index.md
+  - /jp/_shared/navbar/index.md
 
 main:
   - body.md
 
 footer:
-  - ../_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /jp/_shared/gdpr/index.md
 
 title: Smart Contracts
 meta_description: orbs smart cobtracts overview

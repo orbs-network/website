@@ -7,5 +7,5 @@ list:
   - white-papers/cards-list.md
   - blogs/blogs.md
   - use-cases/cards-list.md
-  - ../../_shared/team-members/team-members-list.md
+  - /ko/_shared/team-members/team-members-list.md
 ---

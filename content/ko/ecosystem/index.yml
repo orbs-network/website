@@ -4,13 +4,13 @@ script: ecosystem/index
 main:
   - body.md
 header:
-  - ../_shared/navbar/index.md
+  - /ko/_shared/navbar/index.md
 footer:
-  - ../_shared/footer/footer.md
+  - /ko/_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
+  - /ko/_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /ko/_shared/gdpr/index.md
 
 title: Ecosystem
 meta_description: orbs pos universe
