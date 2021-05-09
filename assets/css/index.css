@@ -1388,6 +1388,8 @@ body {
   padding-top: 110px;
   background: #000001;
   position: relative; }
+  .home .link-btn {
+    display: none; }
   .home-globe {
     position: absolute;
     left: 0px;
@@ -1443,6 +1445,19 @@ body {
     transform: translate(180px); } }
 
 @media only screen and (max-width: 700px) {
+  .home .link-btn {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: "light";
+    min-height: 50px;
+    display: flex;
+    z-index: 99;
+    font-size: 0.75rem;
+    padding: 8px 40px 8px 20px; }
+    .home .link-btn-arrow {
+      right: 15px; }
   .home-flex {
     width: 100%;
     overflow: hidden;
@@ -1462,7 +1477,8 @@ body {
     position: relative;
     left: 50%;
     right: auto;
-    transform: translate(-50%); } }
+    transform: translate(-50%);
+    top: -33px; } }
 
 .globe-card {
   overflow: hidden;
