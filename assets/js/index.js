@@ -8,7 +8,8 @@ import {
   hideAppLoader,
   showAppLoader,
 } from "./ui/ui.js";
-import { getElements } from "./heplers.js";
+
+showAppLoader();
 
 export const init = () => {
   initNavbar();
@@ -19,10 +20,4 @@ export const init = () => {
   gdpr.init();
   scrollToTop();
   hideAppLoader();
-};
-
-document.onreadystatechange = function (e) {
-  if (document.readyState === "complete") {
-    showAppLoader();
-  }
 };
