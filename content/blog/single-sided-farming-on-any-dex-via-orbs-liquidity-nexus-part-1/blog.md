@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: ../../assets/img/blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-1/bg.jpeg
+image: /assets/img/blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-1/bg.jpeg
 blogUrl: blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-1
 date: 2021-04-01
 title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 1
@@ -9,7 +9,8 @@ author:
 type:
 short_description:
 ---
- 
+
+
 _The Orbs_ [_Liquidity Nexus protocol_](https://www.orbs.com/introducing-orbs-liquidity-nexus-liquidity-as-a-service/) _introduces CeFi liquidity to DeFi._
 
 _Now, take any DEX, whether it’s SushiSwap or PancakeSwap, and choose a popular pool like ETH/USDC or BNB/BUSD._
