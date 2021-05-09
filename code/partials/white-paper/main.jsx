@@ -8,11 +8,7 @@ const Main = ({ breadCrumbs, pdfUrl, _relativeURL, _ID }) => {
     <main className="white-paper main-grid flex-column page-padding-top">
       {breadCrumbs}
       <div className="white-paper-iframe">
-        <iframe
-          src={generateUrl(pdfUrl)}
-          frameborder="1"
-          scrolling="auto"
-        ></iframe>
+        <iframe src={generateUrl(pdfUrl)} scrolling="auto"></iframe>
       </div>
     </main>
   );
