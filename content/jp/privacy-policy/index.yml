@@ -1,0 +1,16 @@
+title: Home
+layout: pages/page
+script: policy/index
+header:
+  - ../_shared/navbar/index.md
+
+main:
+  - body.md
+subscribe:
+  - ../_shared/subscribe/subscribe.md
+gdpr:
+  - ../_shared/gdpr/index.md
+meta_description: "The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language."
+meta_keywords: orbs, pos universe
+footer:
+  - ../_shared/footer/footer.md

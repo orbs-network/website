@@ -1,0 +1,14 @@
+layout: pages/page
+script: contact/index
+header:
+  - ../_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - ../_shared/footer/footer.md
+subscribe:
+  - ../_shared/subscribe/subscribe.md
+meta_description: ""
+title: コンタクト - Orbs
+gdpr:
+  - ../_shared/gdpr/index.md

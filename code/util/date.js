@@ -2,7 +2,10 @@ import moment from "moment";
 export const daysFromDate = (date, id) => {
   const start = moment(date, "DD/MM/YYYY");
 
-  const lang = id.split("/")[0] || "en";
+  let lang = id.split("/")[0] || "en";
+  if (lang === "jp") {
+    lang = "ja";
+  }
   try {
     return moment(start).locale(lang).fromNow();
   } catch (error) {

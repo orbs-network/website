@@ -2,7 +2,7 @@ layout: pages/page
 script: globe/index
 header:
   - /_shared/navbar/index.md
-
+disable_animations: true
 main:
   - home/body.md
 subscribe:
