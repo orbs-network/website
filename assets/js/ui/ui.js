@@ -58,3 +58,14 @@ export const showAppLoader = () => {
     loader.style.opacity = 1;
   }, 250);
 };
+
+const init = () => {
+  handleOnScroll();
+  scrollToTop();
+  hideAppLoader();
+};
+
+export default {
+  init,
+  showAppLoader,
+};

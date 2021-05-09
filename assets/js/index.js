@@ -1,23 +1,16 @@
-import { addEventsToFooter } from "./footer/index.js";
-import { initNavbar } from "./navbar/index.js";
-import { initSubscribeForm } from "./components/subscribe.js";
+import footer from "./footer/index.js";
+import navbar from "./navbar/index.js";
+import subscribe from "./components/subscribe.js";
 import gdpr from "./services/gdpr.js";
-import {
-  handleOnScroll,
-  scrollToTop,
-  hideAppLoader,
-  showAppLoader,
-} from "./ui/ui.js";
+import ui from "./ui/ui.js";
 
-showAppLoader();
+ui.showAppLoader();
 
 export const init = () => {
-  initNavbar();
-  addEventsToFooter();
-  handleOnScroll();
-  AOS.init({ once: true });
-  initSubscribeForm();
+  navbar.init();
+  footer.init();
+  subscribe.init();
+  ui.init();
   gdpr.init();
-  scrollToTop();
-  hideAppLoader();
+  AOS.init({ once: true });
 };

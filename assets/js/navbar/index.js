@@ -88,7 +88,7 @@ export const addEventsToNavbar = () => {
   addEvent(closeMenu, "click", hideMenu);
 };
 
-export const initNavbar = () => {
+export const init = () => {
   addEventsToNavbar();
   navbarMenuOutsideClickListener();
   handleNavbarBackground();
@@ -99,4 +99,8 @@ const handleMobileSubscribeClick = () => {
   setTimeout(() => {
     showSubscribePopup();
   }, 200);
+};
+
+export default {
+  init,
 };
