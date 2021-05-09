@@ -1,9 +1,7 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
-import Img from "../../shared/Img";
 import InnerLinks from "../../shared/inner-links";
-import MemberPopup from "./member-popup";
 
 const Member = (props) => {
   const {
@@ -31,7 +29,6 @@ const Member = (props) => {
         backgroundPosition: "center",
       }}
     >
-      <MemberPopup {...props} />
       <div className="team-member-details">
         <p className="team-member-details-name text-overflow">{name}</p>
         <p className="team-member-details-role">{role}</p>

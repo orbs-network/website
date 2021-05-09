@@ -18,7 +18,6 @@ export const addEventsToContactForm = () => {
   const form = getElement(formClassName);
   addEvent(form, "submit", handleSubmit);
   inputs = getElements(inputClassName) || [];
-
   addEventsToInputs(inputs, formClassName);
 };
 
@@ -30,7 +29,6 @@ const handleSubmit = (e) => {
   }
   const className = `${formClassName} .form-input`;
   const firstName = getElement(`${className}-first-name`).value;
-
   const lastName = getElement(`${className}-last-name`).value;
   const email = getElement(`${className}-email`).value;
   const phone = getElement(`${className}-phone`);
