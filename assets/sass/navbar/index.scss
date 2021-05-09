@@ -142,8 +142,9 @@
       pointer-events: none;
     }
 
-    &-show {
+    &-active {
       pointer-events: all;
+      display: flex;
       .navbar-menu-content {
         transform: translate(0%);
         opacity: 1;
