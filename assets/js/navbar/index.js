@@ -17,9 +17,6 @@ export const hideMenu = () => {
   const menu = getElement(".navbar-menu");
   removeClass(menu, "navbar-menu-active");
   toggleWindowScroll(false);
-  setTimeout(() => {
-    menu.style.display = "none";
-  }, 300);
 };
 
 export const navbarMenuOutsideClickListener = () => {
