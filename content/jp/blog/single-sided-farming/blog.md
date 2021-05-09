@@ -5,7 +5,7 @@ blogUrl: jp/blog/single-sided-farming
 type: crypto
 daysAgo: days ago
 author:
-  - ../common/authors/tal.md
+  - /blog/common/authors/tal.md
 date: 23/04/2021
 title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 1
 short_description:
