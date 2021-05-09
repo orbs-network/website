@@ -4,7 +4,15 @@ import { images } from "../../../assets/js/images";
 const MetaTags = ({ meta_description, generateUrl, title }) => {
   return (
     <React.Fragment>
+      <link
+        rel="shortcut icon"
+        href={generateUrl(images.common.favicon)}
+        type="image/x-icon"
+      />
+
       <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       <meta name="description" content={meta_description} />
       <meta property="og:locale" content="en_US" />
       <meta property="og:locale:alternate" content="ko_KR" />
