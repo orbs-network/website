@@ -5,6 +5,7 @@ import {
   getElements,
   removeChild,
 } from "../heplers.js";
+import userPost from "../services/user-post.js";
 import { toggleWindowScroll } from "../ui/ui.js";
 import {
   addEventsToInputs,
@@ -41,24 +42,27 @@ const init = () => {
   subscribeElement = subscribe;
 };
 
-const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
   e.preventDefault();
   const errors = validateInputsOnSubmit(inputClassName, formClassName);
   if (errors.length > 0) {
     return;
   }
   const className = `${formClassName} .form-input`;
-  const firstName = getElement(`${className}-first-name`).value;
+  const first_name = getElement(`${className}-first-name`).value;
   const email = getElement(`${className}-email`).value;
   const body = {
-    firstName,
+    first_name,
     email,
   };
   handleLoading(formClassName);
-
-  setTimeout(() => {
+  try {
+    await userPost.subscribe(body);
     handleFormSubmitted();
-  }, 2000);
+  } catch (error) {
+    handleFormSubmitted();
+    console.log(error);
+  }
 };
 
 const closeForm = () => {

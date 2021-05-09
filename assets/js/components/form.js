@@ -118,9 +118,9 @@ export const addPopupSuccessListeners = () => {
 };
 
 export const handleSuccess = (formClassName) => {
-  const submitContainer = getElement(".form-success");
-  submitContainer.style.display = "flex";
   const form = getElement(formClassName);
+  const submitContainer = form.querySelector(".form-success");
+  submitContainer.style.display = "flex";
   form.classList.add("form-submitted");
 };
 

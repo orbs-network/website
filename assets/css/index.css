@@ -350,6 +350,8 @@ body {
       text-transform: capitalize; }
       .gdpr-btns button:first-child {
         margin-left: 0px; }
+  .gdpr a {
+    text-decoration: none; }
   .gdpr .text-p {
     margin: 0px;
     flex: 1;
@@ -1389,7 +1391,13 @@ body {
   background: #000001;
   position: relative; }
   .home .link-btn {
-    display: none; }
+    margin: 0px;
+    margin-top: 30px;
+    font-family: "light";
+    min-height: 50px;
+    display: flex;
+    z-index: 99;
+    font-size: 0.75rem; }
   .home-globe {
     position: absolute;
     left: 0px;
@@ -1407,7 +1415,7 @@ body {
     .home-flex-left {
       z-index: 100;
       position: relative;
-      padding-top: 30vh; }
+      padding-top: 28vh; }
       .home-flex-left h2 {
         font-size: 1.375rem;
         font-family: "light";
@@ -1446,16 +1454,12 @@ body {
 
 @media only screen and (max-width: 700px) {
   .home .link-btn {
-    margin: 0px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    font-family: "light";
-    min-height: 50px;
-    display: flex;
     z-index: 99;
-    font-size: 0.75rem;
-    padding: 8px 40px 8px 20px; }
+    padding: 8px 40px 8px 20px;
+    margin-bottom: 0px; }
     .home .link-btn-arrow {
       right: 15px; }
   .home-flex {
@@ -2052,12 +2056,13 @@ body {
       opacity: 0;
       background: #009a95;
       pointer-events: none; }
-    .navbar-menu-show {
-      pointer-events: all; }
-      .navbar-menu-show .navbar-menu-content {
+    .navbar-menu-active {
+      pointer-events: all;
+      display: flex; }
+      .navbar-menu-active .navbar-menu-content {
         transform: translate(0%);
         opacity: 1; }
-      .navbar-menu-show .navbar-menu-overlay {
+      .navbar-menu-active .navbar-menu-overlay {
         opacity: 0.42; }
     .navbar-menu-links {
       margin-bottom: 23px; }
@@ -2957,7 +2962,11 @@ body {
   .single-blog-body .image {
     width: 100%;
     height: auto;
-    margin-top: 20px; }
+    margin-bottom: 30px; }
+    .single-blog-body .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
   .single-blog-body .title-h3 {
     font-size: 1.875rem;
     margin-bottom: 13.76px;

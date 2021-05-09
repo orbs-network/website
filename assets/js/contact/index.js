@@ -1,12 +1,12 @@
 import { addEvent, getElement, getElements } from "../heplers.js";
 import { init } from "../index.js";
-
 import {
   validateInputsOnSubmit,
   addEventsToInputs,
   handleLoading,
   handleSuccess,
 } from "../components/form.js";
+import userPost from "../services/user-post.js";
 let inputs = [];
 window.onload = () => {
   init();
@@ -21,29 +21,31 @@ export const addEventsToContactForm = () => {
   addEventsToInputs(inputs, formClassName);
 };
 
-const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
   e.preventDefault();
   const errors = validateInputsOnSubmit(inputClassName, formClassName);
   if (errors.length > 0) {
     return;
   }
   const className = `${formClassName} .form-input`;
-  const firstName = getElement(`${className}-first-name`).value;
-  const lastName = getElement(`${className}-last-name`).value;
+  const first_name = getElement(`${className}-first-name`).value;
+  const last_name = getElement(`${className}-last-name`).value;
   const email = getElement(`${className}-email`).value;
   const phone = getElement(`${className}-phone`);
-  const comment = getElement(`${className}-comment`);
+  const message = getElement(`${className}-mesage`);
   const body = {
-    firstName,
-    lastName,
+    first_name,
+    last_name,
     email,
-    phone: phone && phone.value,
-    comment: comment && comment.value,
+    message: message ? message.value : "",
+    phone: phone ? phone.value : "",
   };
-
-  // api request
   handleLoading(formClassName);
-  setTimeout(() => {
+  try {
+    await userPost.contact(body);
     handleSuccess(formClassName, inputs);
-  }, 2000);
+  } catch (error) {
+    handleSuccess(formClassName, inputs);
+    console.log(error);
+  }
 };

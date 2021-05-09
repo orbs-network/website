@@ -11,3 +11,7 @@ gdpr:
   - _shared/gdpr/index.md
 meta_description: プラットフォームの成長は、どれだけユーザーのニーズに応えられるかにかかっています。だからこそ私たちは、ユーザーであるアプリケーション開発者を第一に考えてOrbsを開発しました。
 title: Orbs - ハイブリッドブロックチェーン
+
+meta_og_locale_alternate: en_US
+meta_og_locale: ko_KR
+meta_image:

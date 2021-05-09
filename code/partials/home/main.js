@@ -18,9 +18,10 @@ const Main = ({
         <div className="home-flex-left flex-column">
           <section />
           <div className="home-flex-left-text"> {_body}</div>
+          {mobile_btn}
           {socials}
         </div>
-        {mobile_btn}
+
         <Img
           src={generateUrl(globe_image)}
           alt="earth"
