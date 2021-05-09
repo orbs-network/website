@@ -236,12 +236,15 @@ $blog-bold-font: "base-blog-font";
       height: auto;
       margin-top: 20px;
     }
-    .title-h3 {
-      font-size: 1.875rem;
+    .title-h3, .title-h2 {
+      font-size: 1.5rem;
       margin-bottom: 13.76px;
       padding-top: 20px;
       font-family: $text-font;
       font-weight: 600;
+    }
+    .title-h2 {
+      font-size: 1.875rem !important;
     }
   }
 }
