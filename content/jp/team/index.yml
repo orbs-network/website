@@ -2,18 +2,17 @@ layout: pages/page
 script: team/index
 
 header:
-  - ../_shared/navbar/index.md
+  - /jp/_shared/navbar/index.md
 
 main:
   - body.md
 
 footer:
-  - ../_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
-
+  - /jp/_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /jp/_shared/gdpr/index.md
 
 meta_description: Orbsにはさまざまな業界の起業家や学者、開発者が所属しています。
 title: Orbs Team
