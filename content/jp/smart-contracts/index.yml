@@ -1,0 +1,18 @@
+title: Smart Contracts
+layout: pages/page
+script: smart-contracts/index
+
+header:
+  - ../_shared/navbar/index.md
+
+main:
+  - body.md
+
+footer:
+  - ../_shared/footer/footer.md
+subscribe:
+  - ../_shared/subscribe/subscribe.md
+meta_description: orbs smart cobtracts overview
+meta_keywords: orbs, smart contracts
+gdpr:
+  - ../_shared/gdpr/index.md

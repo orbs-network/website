@@ -32,7 +32,7 @@ const getElemenets = () => {
     subscribe,
   };
 };
-export const initSubscribeForm = () => {
+const init = () => {
   const { form, formInputs, close, subscribe } = getElemenets();
   addEvent(form, "submit", handleSubmit);
   inputs = formInputs;
@@ -90,4 +90,8 @@ const handleFormSubmitted = () => {
     hideSuccess(formClassName);
     hideLoading(formClassName);
   }, 6000);
+};
+
+export default {
+  init,
 };

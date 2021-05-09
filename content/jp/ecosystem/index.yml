@@ -1,0 +1,16 @@
+title: Ecosystem
+layout: pages/page
+
+script: ecosystem/index
+main:
+  - body.md
+header:
+  - ../_shared/navbar/index.md
+footer:
+  - ../_shared/footer/footer.md
+subscribe:
+  - ../_shared/subscribe/subscribe.md
+meta_description: orbs pos universe
+meta_keywords: orbs, pos universe
+gdpr:
+  - ../_shared/gdpr/index.md

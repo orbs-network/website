@@ -15,6 +15,7 @@ const Page = ({
   subscribe,
   gdpr,
   meta_description,
+  disable_animations,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -28,7 +29,6 @@ const Page = ({
           generateUrl={generateUrl}
           title={title}
         />
-
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"

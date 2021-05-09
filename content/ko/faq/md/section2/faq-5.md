@@ -1,0 +1,7 @@
+---
+layout: partials/shared/opening-box
+title: How does the Orbs rewards distribution work?
+color: "#1EE6CF"
+---
+
+this is a big test

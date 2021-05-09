@@ -1,6 +1,6 @@
 import { getElements, addEvent } from "../heplers.js";
 
-export const addEventsToFooter = () => {
+export const init = () => {
   const mobileNavigations = getElements(".footer-navigation-mobile");
   mobileNavigations.forEach((element) => {
     addEvent(element, "click", () => handleClick(element));
@@ -15,4 +15,8 @@ const handleClick = (e) => {
     return list.classList.remove(activeClass);
   }
   return list.classList.add(activeClass);
+};
+
+export default {
+  init,
 };
