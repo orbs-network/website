@@ -51,7 +51,9 @@ const handleNavbarTransform = () => {
   if (document.body.getBoundingClientRect().top > scrollPos) {
     navbar.classList.remove("navbar-hidden");
   } else {
-    navbar.classList.add("navbar-hidden");
+    if (document.body.getBoundingClientRect().top < -100) {
+      navbar.classList.add("navbar-hidden");
+    }
   }
   scrollPos = document.body.getBoundingClientRect().top;
 };

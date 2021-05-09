@@ -1,7 +1,14 @@
 import React from "react";
 import Img from "../shared/Img";
 
-const Main = ({ _body, globe_image, _relativeURL, _ID, socials }) => {
+const Main = ({
+  _body,
+  globe_image,
+  _relativeURL,
+  _ID,
+  socials,
+  mobile_btn,
+}) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -13,6 +20,7 @@ const Main = ({ _body, globe_image, _relativeURL, _ID, socials }) => {
           <div className="home-flex-left-text"> {_body}</div>
           {socials}
         </div>
+        {mobile_btn}
         <Img
           src={generateUrl(globe_image)}
           alt="earth"
