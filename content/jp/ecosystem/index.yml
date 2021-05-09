@@ -10,7 +10,12 @@ footer:
   - ../_shared/footer/footer.md
 subscribe:
   - ../_shared/subscribe/subscribe.md
-meta_description: orbs pos universe
-meta_keywords: orbs, pos universe
 gdpr:
   - ../_shared/gdpr/index.md
+
+meta_description: orbs pos universe
+
+meta_og_locale_alternate: ko_KR
+meta_og_locale_alternate_2: en_US
+meta_og_locale: ja_JP
+meta_image:

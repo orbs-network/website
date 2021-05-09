@@ -1,12 +1,14 @@
 import { addEvent, getElement } from "../heplers.js";
-
+import { setAnalytics } from "../index.js";
+import { GDPR_ACCEPTED, GDPR_SEEN } from "../keys.js";
+import localStorage from "./local-storage.js";
 const init = () => {
   handleShowGdpr();
   addEventListeners();
 };
 
 const handleShowGdpr = () => {
-  const gdprSeen = localStorage.getItem("gdpr_seen");
+  const gdprSeen = localStorage.get(GDPR_SEEN);
   if (gdprSeen) return;
   const gdprContainer = getElement(".gdpr");
   if (!gdprContainer) return;
@@ -24,21 +26,19 @@ const addEventListeners = () => {
 };
 
 const handleAccept = () => {
-  alert("accepted");
-  // run some code
-  localStorage.setItem("gdpr_accepted", true);
+  setAnalytics(true);
+  localStorage.set(GDPR_ACCEPTED, true);
   hideGdpr();
 };
 const handleReject = () => {
-  alert("rejected");
-  localStorage.setItem("gdpr_accepted", false);
+  localStorage.set(GDPR_ACCEPTED, false);
   hideGdpr();
 };
 
 const hideGdpr = () => {
   const gdprContainer = getElement(".gdpr");
   gdprContainer.classList.remove("gdpr-active");
-  localStorage.setItem("gdpr_seen", true);
+  localStorage.set(GDPR_SEEN, true);
 };
 
 const gdpr = {
