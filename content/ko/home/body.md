@@ -6,7 +6,7 @@ globe_image: /assets/img/globe/globe.png
 mobile_btn:
   - link/link.md
 socials:
-  - ../_shared/socials/index.md
+  - /ko/_shared/socials/index.md
 ---
 
 ## 公共
