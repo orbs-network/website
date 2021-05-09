@@ -11,7 +11,12 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: Orbs is made up of a group of experienced engineers, academics and business people. We're building fast and smart
-title: Orbs - Meet the people building the Hybrid Blockchain
+
 gdpr:
   - /_shared/gdpr/index.md
+
+meta_description: Orbs is made up of a group of experienced engineers, academics and business people. We're building fast and smart
+title: Orbs - Meet the people building the Hybrid Blockchain
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

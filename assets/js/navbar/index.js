@@ -8,14 +8,14 @@ export const showMenu = () => {
   const menu = getElement(".navbar-menu");
   menu.style.display = "flex";
   setTimeout(() => {
-    addClass(menu, "navbar-menu-show");
+    addClass(menu, "navbar-menu-active");
     toggleWindowScroll(true);
   }, 0);
 };
 
 export const hideMenu = () => {
   const menu = getElement(".navbar-menu");
-  removeClass(menu, "navbar-menu-show");
+  removeClass(menu, "navbar-menu-active");
   toggleWindowScroll(false);
   setTimeout(() => {
     menu.style.display = "none";

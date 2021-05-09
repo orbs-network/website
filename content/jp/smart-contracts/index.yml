@@ -1,4 +1,3 @@
-title: Smart Contracts
 layout: pages/page
 script: smart-contracts/index
 
@@ -12,7 +11,12 @@ footer:
   - ../_shared/footer/footer.md
 subscribe:
   - ../_shared/subscribe/subscribe.md
-meta_description: orbs smart cobtracts overview
-meta_keywords: orbs, smart contracts
 gdpr:
   - ../_shared/gdpr/index.md
+
+title: Smart Contracts
+meta_description: orbs smart cobtracts overview
+meta_og_locale_alternate: ko_KR
+meta_og_locale_alternate_2: en_US
+meta_og_locale: ja_JP
+meta_image:
