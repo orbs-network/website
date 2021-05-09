@@ -3,7 +3,13 @@
   background: #000001;
   position: relative;
   .link-btn {
-    display: none;
+    margin: 0px;
+    margin-top: 30px;
+    font-family: "light";
+    min-height: 50px;
+    display: flex;
+    z-index: 99;
+    font-size: 0.75rem;
   }
   &-globe {
     position: absolute;
@@ -25,7 +31,7 @@
     &-left {
       z-index: 100;
       position: relative;
-      padding-top: 30vh;
+      padding-top: 28vh;
 
       h2 {
         font-size: 1.375rem;
@@ -86,16 +92,12 @@
 @media only screen and (max-width: $mobile) {
   .home {
     .link-btn {
-      margin: 0px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 20px;
-      font-family: "light";
-      min-height: 50px;
-      display: flex;
       z-index: 99;
-      font-size: 0.75rem;
       padding: 8px 40px 8px 20px;
+      margin-bottom: 0px;
       &-arrow {
         right: 15px;
       }

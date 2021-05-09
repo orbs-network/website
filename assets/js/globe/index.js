@@ -204,6 +204,7 @@ window.onload = () => {
 
 const setContainerHeight = () => {
   const height = window.innerHeight;
+
   const container = getElement(".home-flex");
   const elementHeight = height - 110;
   container.style.height = `${elementHeight}px`;

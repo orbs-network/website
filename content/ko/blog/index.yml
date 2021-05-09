@@ -9,7 +9,12 @@ footer:
   - ../_shared/footer/footer.md
 subscribe:
   - ../_shared/subscribe/subscribe.md
-meta_description: The latest news, insights and thoughts from Orbs, the public-ready blockchain company.
-title: ブログ - Orbs
+
 gdpr:
   - ../_shared/gdpr/index.md
+
+meta_description: The latest news, insights and thoughts from Orbs, the public-ready blockchain company.
+title: ブログ - Orbs
+meta_og_locale_alternate: en_US
+meta_og_locale: ko_KR
+meta_image:

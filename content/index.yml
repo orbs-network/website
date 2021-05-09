@@ -11,3 +11,6 @@ gdpr:
   - /_shared/gdpr/index.md
 meta_description: The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language.
 title: "Orbs Hybrid Blockchain: Empowering business through decentralization"
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

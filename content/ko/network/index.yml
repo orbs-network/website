@@ -9,7 +9,12 @@ footer:
   - ../_shared/footer/footer.md
 subscribe:
   - ../_shared/subscribe/subscribe.md
-meta_description: Orbs is designed so that app developers can focus on what they do best - creating decentralized apps that disrupt their industry and empower their users.
-title: "Learn about the Orbs technology - RPoS Virtual Chains &amp; Interoperability"
+
 gdpr:
   - ../_shared/gdpr/index.md
+
+meta_description: Orbs is designed so that app developers can focus on what they do best - creating decentralized apps that disrupt their industry and empower their users.
+title: "Learn about the Orbs technology - RPoS Virtual Chains &amp; Interoperability"
+meta_og_locale_alternate: en_US
+meta_og_locale: ko_KR
+meta_image:
