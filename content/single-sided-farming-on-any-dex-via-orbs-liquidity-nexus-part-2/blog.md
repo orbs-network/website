@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-2/bg.jpeg
-blogUrl: blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-2
+blogUrl: single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-2
 date: 2021-04-07
 title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 2
 author:
@@ -9,7 +9,6 @@ author:
 type:
 short_description:
 ---
-
 
 _The Orbs_ [_Liquidity Nexus protocol_](https://www.orbs.com/introducing-orbs-liquidity-nexus-liquidity-as-a-service/) _introduces CeFi liquidity to DeFi._
 
@@ -74,23 +73,23 @@ In our [previous post](../single-sided-farming-on-any-dex-via-orbs-liquidity-ne
 
 Let’s try to make things completely asymmetric and make the ETH side responsible for all IL. This can make sense because DeFi players providing ETH can be offered higher portion of the rewards (higher APY) in exchange of taking more of the crypto volatility risk. CeFi players providing the USDC will compromise on lower rewards (lower APY), particularly if their exposure to crypto volatility is limited.
 
-How would that work in practice? Let’s go back to the numerical example from before. On day 1, ETH price is $2000. _Side A_ supplies 100 ETH and _Side B_ supplies 200,000 USDC. On day 30, when the sides want to remove liquidity, ETH price is higher and is now $2500. When the LP tokens are burned, instead of the original 100 ETH and 200,000 USDC, we now have 89.44 ETH and 223,606.80 USDC.
+How would that work in practice? Let’s go back to the numerical example from before. On day 1, ETH price is $2000. *Side A* supplies 100 ETH and *Side B* supplies 200,000 USDC. On day 30, when the sides want to remove liquidity, ETH price is higher and is now $2500. When the LP tokens are burned, instead of the original 100 ETH and 200,000 USDC, we now have 89.44 ETH and 223,606.80 USDC.
 
-If _Side B_ does not suffer any IL, the fact that ETH price moved to $2500 should not affect it at all. Since our example only has IL and no rewards and no fees, _Side B_ should withdraw exactly the 200,000 USDC it originally deposited. Since we have 223,606.80 USDC available on exit, after returning the 200,000, we have 23,606.80 USDC remaining. We will naturally use this remainder to compensate _Side A_ as much as possible.
+If *Side B* does not suffer any IL, the fact that ETH price moved to $2500 should not affect it at all. Since our example only has IL and no rewards and no fees, *Side B* should withdraw exactly the 200,000 USDC it originally deposited. Since we have 223,606.80 USDC available on exit, after returning the 200,000, we have 23,606.80 USDC remaining. We will naturally use this remainder to compensate *Side A* as much as possible.
 
 Let’s run the numbers and compare to the table from before:
 
 ![](/assets/img/blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-2/1_3KFuTfgeVYL5l1FBxp-bA-1030x164.png)
 
-We can see that the IL for _Side A_ is roughly doubled, which makes sense because only one side is taking on all of it. A different and interesting way of looking at this strategy is saying that _Side B_ doesn’t actually really farm. Instead, _Side B_ is giving a loan of USDC to _Side A._ But this loan is much more efficient than those available on Compound and Aave. The efficiency stems from the fact that the collateral doesn’t just sit there, it is actively farming and generating high yield. Since contracts will implement this behavior, we can allow _Side B_ to reclaim their USDC at any time by automatically unwinding the LP position when they do so. In other words, even if the collateral is farming, there isn’t much added risk.
+We can see that the IL for *Side A* is roughly doubled, which makes sense because only one side is taking on all of it. A different and interesting way of looking at this strategy is saying that *Side B* doesn’t actually really farm. Instead, *Side B* is giving a loan of USDC to *Side A.* But this loan is much more efficient than those available on Compound and Aave. The efficiency stems from the fact that the collateral doesn’t just sit there, it is actively farming and generating high yield. Since contracts will implement this behavior, we can allow *Side B* to reclaim their USDC at any time by automatically unwinding the LP position when they do so. In other words, even if the collateral is farming, there isn’t much added risk.
 
 Another interesting edge condition worth mentioning is what happens if ETH value drops by 75%. It is true that this is a bit extreme, but exploring the extremes helps us fine-tune the economics. In this case, you can see that _Side A_, that provided the ETH, loses all of its capital.
 
 Does this make sense? There’s no right or wrong answer. It may be justified by the following:
 
-- If we look at this as a loan, it is normal to define boundaries where liquidations take place and expect the side risking liquidation to unwind the position before those happen. If _Side A_ notices that ETH price starts dropping, they can reasonably be expected to withdraw before suffering major losses.
-- Our example is ignoring swap fees and rewards. In the majority of cases, swap fees alone are enough to counter IL. If this weren’t the case, all LPs would be losing money and nobody would provide any liquidity. If we add back the fees and rewards to this example, _Side A_ would no longer be losing all of their capital.
-- This loss is impermanent, it only becomes permanent if liquidity is removed. If ETH dips by 75% in a short period of time, history so far showed that given enough time, it will bounce back. _Side A_ can simply remain in position until this hopefully happens.
+- If we look at this as a loan, it is normal to define boundaries where liquidations take place and expect the side risking liquidation to unwind the position before those happen. If *Side A* notices that ETH price starts dropping, they can reasonably be expected to withdraw before suffering major losses.
+- Our example is ignoring swap fees and rewards. In the majority of cases, swap fees alone are enough to counter IL. If this weren’t the case, all LPs would be losing money and nobody would provide any liquidity. If we add back the fees and rewards to this example, *Side A* would no longer be losing all of their capital.
+- This loss is impermanent, it only becomes permanent if liquidity is removed. If ETH dips by 75% in a short period of time, history so far showed that given enough time, it will bounce back. *Side A* can simply remain in position until this hopefully happens.
 
 Nevertheless, you may not like this behavior, so we can tweak the algorithm slightly to avoid it and divide IL in a different way:
 
@@ -102,7 +101,7 @@ What if the USDC side shares some of the IL in this case? This wouldn’t give i
 
 How would that work? If ETH goes up, we behave like in strategy 1. So let’s examine a case where ETH goes down with numbers in our previous example. On day 30, this time, when the sides want to remove liquidity, ETH price is lower and is now $1500. When the LP tokens are burned, instead of the original 100 ETH and 200,000 USDC, we instead have 115.47 ETH and 173,205.08 USDC.
 
-Protecting _Side A_ to the fullest in this case would maintain its principal of 100 ETH. This would leave extra 15.47 ETH which we can use to compensate _Side B_ as it would incur a small loss. It’s an interesting question whether we want to keep this 15.47 ETH as ETH or swap it to USDC. On one hand, _Side B_ prefers to work in USDC, so swapping makes sense. On the other hand, if ETH just dropped in price, this might be a bad time to sell. Let’s leave this question open for now.
+Protecting *Side A* to the fullest in this case would maintain its principal of 100 ETH. This would leave extra 15.47 ETH which we can use to compensate *Side B* as it would incur a small loss. It’s an interesting question whether we want to keep this 15.47 ETH as ETH or swap it to USDC. On one hand, *Side B* prefers to work in USDC, so swapping makes sense. On the other hand, if ETH just dropped in price, this might be a bad time to sell. Let’s leave this question open for now.
 
 Let’s run the numbers and compare to the table from before:
 
@@ -114,7 +113,7 @@ One of the things I like about this strategy is that it has a nice back story. W
 
 For completeness, let’s also present the numbers we get if we were to split IL equally between the two parties. The calculation is quite simple and has a very nice air of symmetry about it.
 
-Back to our usual example.. On day 30, when the sides want to remove liquidity, ETH price is higher and is now $2500. When the LP tokens are burned, instead of the original 100 ETH and 200,000 USDC, we have 89.44 ETH and 223,606.80 USDC. _Side A_ has a small loss over its principal of 100 ETH, and _Side B_ has a small gain over its principal of 200,000 USDC. Can we find a number down the middle where both sides have the exact same loss over their principal?
+Back to our usual example.. On day 30, when the sides want to remove liquidity, ETH price is higher and is now $2500. When the LP tokens are burned, instead of the original 100 ETH and 200,000 USDC, we have 89.44 ETH and 223,606.80 USDC. *Side A* has a small loss over its principal of 100 ETH, and *Side B* has a small gain over its principal of 200,000 USDC. Can we find a number down the middle where both sides have the exact same loss over their principal?
 
 The magic number is taking exactly 24,845.2 USDC and swapping it to ETH. This will give us 99.38 ETH and 198,761.60 USDC. This means both sides now share a slight loss. How slight? Exactly 0.62% over their initial principal investment. This 0.62% figure should be familiar — this is exactly the IL that we had earlier when doing standard double-sided farming.
 
@@ -148,5 +147,3 @@ This document details a project which is currently being researched by the Orbs 
 Orbs is a decentralized project driven by community contribution and guidance. The product and functionality detailed in this document therefore constitute a mere proposal assembled from community feedback and are subject to change continuously as new requirements arrive. This document provides no guarantee that any offering, product or specific feature will become fully or partially developed.
 
 The information contained in this document shall not form the basis of, or be relied upon in connection with, any offer or commitment whatsoever in any jurisdiction.
-
-
