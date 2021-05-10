@@ -9,9 +9,9 @@ main:
 footer:
   - /ko/_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
+  - /ko/_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /ko/_shared/gdpr/index.md
 
 title: Faq
 meta_description: orbs pos universe

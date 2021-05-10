@@ -10,9 +10,9 @@ main:
 footer:
   - /jp/_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /jp/_shared/gdpr/index.md
 
 title: Smart Contracts
 meta_description: orbs smart cobtracts overview

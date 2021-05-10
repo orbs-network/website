@@ -8,9 +8,9 @@ main:
 subscribe:
   - /jp/_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /jp/_shared/gdpr/index.md
 footer:
-  - ../_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 
 title: Home
 meta_description: "The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language."

@@ -10,11 +10,11 @@ main:
 footer:
   - /jp/_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
-gdpr:
-  - ../_shared/gdpr/index.md
-
+  - /jp/_shared/subscribe/subscribe.md
 meta_description: orbs pos universe
+gdpr:
+  - /jp/_shared/gdpr/index.md
+
 meta_og_locale_alternate: ko_KR
 meta_og_locale_alternate_2: en_US
 meta_og_locale: ja_JP
