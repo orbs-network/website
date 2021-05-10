@@ -18,12 +18,8 @@ jobs:
           fingerprints:
             - "75:7f:ea:52:21:2e:9d:7f:e0:b5:36:d2:6d:6b:98:ae"
       - run:
-          name: Build with cuttlebelle
-          command: cross-env NODE_ENV=production cuttlebelle
-      - run:
           name: Deploy to gh-pages branch
           command: gh-pages --message "[skip ci] Deploy" --dist site
-
 workflows:
   version: 2
   build:
