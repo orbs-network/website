@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/bold.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bold-oblique";
+  src: url("../fonts/boldOblique.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "light";
+  src: url("../fonts/light.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "light-oblique";
+  src: url("../fonts/lightOblique.otf");
+  font-display: swap;
+}
+
+$light-font: "light";
+$light-oblique-font: "light-oblique";
+$bold-font: "bold";
+$bold-oblique: "bold-oblique";
+$text-font: "Montserrat";
+
+.md-title {
+  &-h5 {
+    font-size: 1.063rem;
+    font-weight: 500;
+  }
+  &-h4 {
+    font-size: 1.438rem;
+    font-weight: 600;
+  }
+}
+
+.text-p {
+  letter-spacing: 0.019rem;
+  font-size: 0.875rem;
+  color: white;
+  line-height: 1.75rem;
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.title {
+  font-size: 1.563rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: $bold-font;
+  position: relative;
+  color: $light-color;
+  margin-top: 0px;
+  z-index: 10;
+  line-height: 3.125rem;
+  &:first-child {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .title {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+}
