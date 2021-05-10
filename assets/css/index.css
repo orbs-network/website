@@ -1389,7 +1389,8 @@ body {
 .home {
   padding-top: 110px;
   background: #000001;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .home .link-btn {
     margin: 0px;
     margin-top: 30px;
@@ -2022,7 +2023,7 @@ body {
       height: 100vh;
       top: 0px;
       opacity: 1;
-      transform: translate(-100%); }
+      transform: translate(-65vw); }
       .navbar-menu-content:after {
         background: #1a1a1a;
         width: 100vw;
@@ -2032,8 +2033,7 @@ body {
         height: 100%;
         pointer-events: none;
         content: "";
-        z-index: 999;
-        transform: translate(-100%); }
+        z-index: 999; }
       .navbar-menu-content-wrapper {
         overflow-y: auto;
         height: 100%;
@@ -2199,6 +2199,10 @@ body {
     padding-left: 36px; }
     .navbar-menu-links-sub:hover figure {
       opacity: 1; } }
+
+@media only screen and (max-width: 1100px) {
+  .navbar-menu-content {
+    transform: translate(-130%); } }
 
 @media only screen and (max-width: 900px) {
   .navbar-top-action-btn {
@@ -2977,7 +2981,10 @@ body {
   .single-blog-body ul,
   .single-blog-body ol,
   .single-blog-body .title-h2,
-  .single-blog-body .title-h3 {
+  .single-blog-body .title-h3,
+  .single-blog-body h4,
+  .single-blog-body h5,
+  .single-blog-body h6 {
     width: 100%;
     max-width: 800px;
     margin-left: auto;

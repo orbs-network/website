@@ -19,6 +19,8 @@ const BlogListElement = (props) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
+
+  const url = process.env.IS_DEV ? `blog/${blogUrl}` : blogUrl;
   return (
     <li
       className="blog-list-blog list-item"
@@ -26,7 +28,7 @@ const BlogListElement = (props) => {
       data-aos={animations.fadeTop}
     >
       <a
-        href={generateUrl(blogUrl)}
+        href={generateUrl(url)}
         className="blog-list-blog-wrapper"
         rel="noopener"
       >

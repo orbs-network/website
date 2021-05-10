@@ -47,6 +47,9 @@ module.exports = exports = function renderer({
 
   // making all links relative
   Marked.link = (href, title, text) => {
+    if (title === "iframe") {
+      return `<iframe src="${href}"  class='iframe' />`;
+    }
     if (title === "email") {
       return `<a href="mailto:${href}"${
         title ? `title="${title}"` : ""
