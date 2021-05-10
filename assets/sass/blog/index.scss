@@ -251,7 +251,10 @@ $blog-bold-font: "base-blog-font";
     ul,
     ol,
     .title-h2,
-    .title-h3 {
+    .title-h3,
+    h4,
+    h5,
+    h6 {
       width: 100%;
       max-width: 800px;
       margin-left: auto;
