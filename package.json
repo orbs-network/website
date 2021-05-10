@@ -4,7 +4,7 @@
   "description": "Website for Orbs.com",
   "main": "index.js",
   "scripts": {
-    "prebuild": "mv content/blog/*/ content/ && cp -a content/common/ content/blog/common/ && rm -rf content/common/ && sed 's/  - /  - ..//g' content/blog/blogs.md > changed.txt && mv changed.txt content/blog/blogs.md",
+    "prebuild": "bash scripts.sh",
     "build": "cuttlebelle",
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass-prebuild": "node-sass ./assets/sass/index.scss ./assets/css/index.css",
