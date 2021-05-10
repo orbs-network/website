@@ -2021,8 +2021,7 @@ body {
       width: 100%;
       height: 100vh;
       top: 0px;
-      opacity: 0;
-      transform: translate(-10%); }
+      opacity: 0; }
       .navbar-menu-content:after {
         background: #1a1a1a;
         width: 100vw;
@@ -2060,7 +2059,6 @@ body {
       pointer-events: all;
       display: flex; }
       .navbar-menu-active .navbar-menu-content {
-        transform: translate(0%);
         opacity: 1; }
       .navbar-menu-active .navbar-menu-overlay {
         opacity: 0.4; }
