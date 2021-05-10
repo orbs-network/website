@@ -5,7 +5,7 @@ blogUrl: blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3
 date: 2021-04-12
 title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 3
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description:
 ---
