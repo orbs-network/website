@@ -2907,6 +2907,7 @@ body {
   padding-top: 32px;
   padding-bottom: 80px; }
   .single-blog-body-grid {
+    width: 100%;
     max-width: 840px;
     padding-left: 20px;
     padding-right: 20px;
@@ -2918,13 +2919,15 @@ body {
   .single-blog-body p,
   .single-blog-body li {
     font-size: 1.313rem;
-    line-height: 2rem; }
+    line-height: 2rem;
+    word-break: break-all; }
   .single-blog-body-bg {
     width: 100%;
     height: auto;
     margin-bottom: 32px; }
   .single-blog-body .text-p {
-    margin-bottom: 32px; }
+    margin-bottom: 32px;
+    white-space: normal; }
     .single-blog-body .text-p:first-child {
       margin-top: 0px; }
   .single-blog-body .dots {
@@ -2967,7 +2970,8 @@ body {
       width: 100%;
       height: 100%;
       object-fit: cover; }
-  .single-blog-body .title-h3 {
+  .single-blog-body .title-h3,
+  .single-blog-body .sub-title {
     font-size: 1.875rem;
     margin-bottom: 13.76px;
     padding-top: 20px;

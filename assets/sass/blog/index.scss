@@ -162,6 +162,7 @@ $blog-bold-font: "base-blog-font";
     padding-top: 32px;
     padding-bottom: 80px;
     &-grid {
+      width: 100%;
       max-width: 840px;
       padding-left: 20px;
       padding-right: 20px;
@@ -176,6 +177,7 @@ $blog-bold-font: "base-blog-font";
     li {
       font-size: $blog-text-size;
       line-height: 2rem;
+      word-break: break-all;
     }
     &-bg {
       width: 100%;
@@ -184,6 +186,7 @@ $blog-bold-font: "base-blog-font";
     }
     .text-p {
       margin-bottom: 32px;
+      white-space: normal;
       &:first-child {
         margin-top: 0px;
       }
@@ -241,7 +244,8 @@ $blog-bold-font: "base-blog-font";
         object-fit: cover;
       }
     }
-    .title-h3 {
+    .title-h3,
+    .sub-title {
       font-size: 1.875rem;
       margin-bottom: 13.76px;
       padding-top: 20px;
