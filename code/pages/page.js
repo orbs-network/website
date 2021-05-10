@@ -40,6 +40,7 @@ const Page = ({
       <body style={{ background: colors.main }}>
         <div style={{ opacity: 0 }} className="app-wrapper">
           {header}
+          {process.env.NODE_ENV === "production" && <h4>production</h4>}
           {main}
           {subscribe && subscribe}
           {gdpr}
