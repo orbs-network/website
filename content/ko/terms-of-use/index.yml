@@ -1,12 +1,12 @@
 layout: pages/page
 script: policy/index
 header:
-  - ../_shared/navbar/index.md
+  - /ko/_shared/navbar/index.md
 
 main:
   - body.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
+  - /ko/_shared/subscribe/subscribe.md
 gdpr:
   - ../_shared/gdpr/index.md
 footer:
