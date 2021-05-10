@@ -21,7 +21,7 @@ _The CeFi capital provides the stable side — USDC or BUSD. The DeFi capital pr
 
 ...
 
-### Not all liquidity is created equal
+## Not all liquidity is created equal
 
 In the Orbs project, we’ve been experimenting with the idea of CeFi sourced liquidity in DeFi for a while now. One of the interesting things we’ve learned is that different capital providers have different risk appetites and different goals.
 
@@ -41,7 +41,7 @@ _Type_ B is the crowd you usually see roaming the CeFi world — corporations, i
 
 The beauty of the Orbs Liquidity Nexus protocol is its potential to bridge _Type_ A and Type B together and allow them to pool their capital together for a joint effort using trustless and decentralized smart contracts.
 
-### Different appetites for risk = different rewards
+## Different appetites for risk = different rewards
 
 If you were to design a yield-bearing position for both crowds, how would you optimize risk/reward to attract as much liquidity as possible?
 
@@ -52,7 +52,7 @@ If you were to design a yield-bearing position for both crowds, how would you op
 
 It seems that we have a match made in heaven. Two sides looking for quite different things. We can play off that.
 
-### The dream of single-sided farming
+## The dream of single-sided farming
 
 The DeFi community has been toying with the idea of single-sided farming for quite a while now. If you’ve participated in farming at any point, you’re probably aware that farming usually comes in pairs. Why is that? It’s because normally farming rewards go towards incentivizing liquidity — and liquidity requires at least two sides.
 
@@ -70,7 +70,7 @@ If you’ve participated in any of the above, you probably know that the most an
 
 This notion has made the idea of single-sided farming very appealing a long time ago.
 
-### Alternatives to single-sided farming
+## Alternatives to single-sided farming
 
 Before we jump into single-sided farming, let’s explore the current alternatives. Largely, there are two:
 
@@ -78,7 +78,7 @@ Before we jump into single-sided farming, let’s explore the current alternativ
 
 2. Lending — If you don’t want to buy these assets, why not borrow them? Isn’t this exactly what Compound and Aave were invented for? Well, they do solve a lot of the problems in alternative 1, but they bring in several new disadvantages. One of them is low utilization. Borrowing assets introduces a wasteful collateral ratio. If you place your BTC as collateral, you’ll only be able to borrow a significantly smaller amount of USDC. This means that much less of your capital will participate in farming. Another big issue is the fear of liquidation. If these assets suffer a volatile night and you sleep through a 20% price change, you might find yourself liquidated in the morning and be hit with losses. Nobody likes to lose sleep.
 
-### Back to single-sided farming
+## Back to single-sided farming
 
 Now that we’ve agreed that there no good alternatives to single-sided farming, the question arises — why is this so annoying to implement?
 
@@ -88,7 +88,7 @@ It gets tricky though when you start splitting the rewards and splitting the ris
 
 An equal split along the middle doesn’t feel right, because by bringing in fundamentally different types of assets (USDC is stable for one), means the two parties are inherently unequal.
 
-### Enter Liquidity Nexus
+## Enter Liquidity Nexus
 
 The beauty behind the Liquidity Nexus concept is the marriage between two sides looking for different things.
 
@@ -100,7 +100,7 @@ This is one example of what makes the liquidity nexus exciting.
 
 In the next posts of this series, I’ll go into the details (and the code) of how we can implement single-sided farming. Stay tuned.
 
-### Learn more
+## Learn more
 
 If you’re curious about what we’re working on and don’t mind seeing work-in-progress that hasn’t been properly announced yet, feel free to follow us on Github:
 
