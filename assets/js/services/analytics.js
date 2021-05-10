@@ -102,6 +102,7 @@ const init = () => {
     e.amplitude = n;
   })(window, document);
   amplitude.getInstance().init("1e38d63309fedaa2d31b74f45e81728b");
+  amplitude.getInstance().logEvent("PAGE_LOAD");
 };
 
 export default {

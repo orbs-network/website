@@ -92,7 +92,7 @@
 
     &-content {
       left: 0px;
-      transition: 0.2s all ease-out;
+      transition: 0.25s all ease-out;
       background: transparent;
       z-index: 10;
       position: relative;
@@ -102,7 +102,7 @@
       height: 100vh;
       top: 0px;
       opacity: 0;
-      transform: translate(-50%);
+      transform: translate(-10%);
       &:after {
         background: #1a1a1a;
         width: 100vw;
@@ -136,7 +136,7 @@
       top: 0px;
       width: 100%;
       height: 100%;
-      transition: 0.2s all;
+      transition: 0.25s all;
       opacity: 0;
       background: #009a95;
       pointer-events: none;
@@ -150,7 +150,7 @@
         opacity: 1;
       }
       .navbar-menu-overlay {
-        opacity: 0.42;
+        opacity: 0.4;
       }
     }
 

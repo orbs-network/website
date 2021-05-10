@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3/bg.jpeg
-blogUrl: blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3
+blogUrl: single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3
 date: 2021-04-12
 title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 3
 author:
@@ -9,7 +9,6 @@ author:
 type:
 short_description:
 ---
-
 
 _The Orbs_ [_Liquidity Nexus protocol_](https://www.orbs.com/introducing-orbs-liquidity-nexus-liquidity-as-a-service/) _introduces CeFi liquidity to DeFi._
 
@@ -40,9 +39,9 @@ So what does a classic double-sided vault look like? Let’s take one that is fa
 
 ## Single sided-farming via Orbs Liquidity Nexus
 
-The idea we’ve been building towards in this series of posts is single-sided farming. One of the potential methods to introduce this concept to relevant target audiences is through a vault. Since vaults cater to _Type A_ participants (see previous posts for definition), the vault will only represent one of the sides — the ETH side.
+The idea we’ve been building towards in this series of posts is single-sided farming. One of the potential methods to introduce this concept to relevant target audiences is through a vault. Since vaults cater to *Type A* participants (see previous posts for definition), the vault will only represent one of the sides — the ETH side.
 
-The other side, USDC in our example, is provided by _Type B_ participants. Since they’re not frequent travelers in DeFi space, we can rely on the Liquidity Nexus protocol to bridge them in.
+The other side, USDC in our example, is provided by *Type B* participants. Since they’re not frequent travelers in DeFi space, we can rely on the Liquidity Nexus protocol to bridge them in.
 
 What would that look like?
 
@@ -66,9 +65,9 @@ Using the Liquidity Nexus protocol, we can develop a new type of ETH-only strate
 
 This result is quite attractive for existing vault projects like harvest.finance since chasing the highest APY for their users is exactly their bread and butter.
 
-The result is also quite attractive for the _Type A_ DeFi players, because the strategy is single-sided and requires a core crypto asset they normally hold a lot of (ETH) — without the annoying balancing act of acquiring USDC in equal value.
+The result is also quite attractive for the *Type A* DeFi players, because the strategy is single-sided and requires a core crypto asset they normally hold a lot of (ETH) — without the annoying balancing act of acquiring USDC in equal value.
 
-And last but not least, the result is also quite attractive for the _Type B_ CeFi players, because the strategy from their side requires USDC only and minimizes exposure to crypto volatility — while providing APY that is significantly higher than normally received in CeFi.
+And last but not least, the result is also quite attractive for the *Type B* CeFi players, because the strategy from their side requires USDC only and minimizes exposure to crypto volatility — while providing APY that is significantly higher than normally received in CeFi.
 
 ## Applicable for any DEX
 
@@ -127,7 +126,7 @@ This test for example demonstrates that using strategy 1 (defined in the previou
 
 ![](/assets/img/blog/single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3/1_UDA84-Qw1cMNPjseCwJCKA-1030x457.png)
 
-The sharp-eyed among you may ask how _changeEthPrice_ works in this phase, because it can’t be as easy to implement as in the simulation. It actually works the hard way, by swapping over and over until the price actually moves in the desired amount — you can see the implementation [here](https://github.com/orbs-network/nexus-sushiswap/blob/ffd6931e51ef077a1a021e53cd8d3de7f61cfe7b/test/test-base.ts#L102).
+The sharp-eyed among you may ask how *changeEthPrice* works in this phase, because it can’t be as easy to implement as in the simulation. It actually works the hard way, by swapping over and over until the price actually moves in the desired amount — you can see the implementation [here](https://github.com/orbs-network/nexus-sushiswap/blob/ffd6931e51ef077a1a021e53cd8d3de7f61cfe7b/test/test-base.ts#L102).
 
 ## Learn more
 
@@ -145,5 +144,3 @@ This document details a project which is currently being researched by the Orbs 
 Orbs is a decentralized project driven by community contribution and guidance. The product and functionality detailed in this document therefore constitute a mere proposal assembled from community feedback and are subject to change continuously as new requirements arrive. This document provides no guarantee that any offering, product or specific feature will become fully or partially developed.
 
 The information contained in this document shall not form the basis of, or be relied upon in connection with, any offer or commitment whatsoever in any jurisdiction.
-
-
