@@ -41,6 +41,7 @@ module.exports = exports = function renderer({
   Marked.hr = () => {
     return `<hr class="my-custom-class">\n`;
   };
+
   Marked.relativeLink = (src) => {
     return _relativeURL(src, _ID);
   };
@@ -50,26 +51,17 @@ module.exports = exports = function renderer({
     if (title === "email") {
       return `<a href="mailto:${href}"${
         title ? `title="${title}"` : ""
-      } class='email-link'>${text}</a>`;
+      } class='email-link' rel="noopener">${text}</a>`;
     }
-    if (title === "link") {
+
+    if (href.startsWith("http://") || href.startsWith("https://")) {
       return `<a href="${href}"${
         title ? `title="${title}"` : ""
-      } class='link' target='_blank' >${text}</a>`;
+      } class='email-link' rel="noopener" target='_blank'>${text}</a>`;
     }
-
-    if (
-      !href.startsWith("http://") &&
-      !href.startsWith("https://") &&
-      !href.startsWith("#") &&
-      typeof _relativeURL === "function"
-    ) {
-      href = _relativeURL(href, _ID);
-    }
-
-    return `<a href="${href}"${
+    return `<a href="${_relativeURL(href, _ID)}"${
       title ? ` title="${title}"` : ""
-    } rel="noopener" >${text}</a>`;
+    } rel="noopener">${text}</a>`;
   };
 
   // making all images relative
@@ -91,10 +83,9 @@ module.exports = exports = function renderer({
 
   // making all html tags with paths relative
   Marked.html = (html) => {
-    console.log(html);
-    for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
-      html = html.replace(match[1], _relativeURL(match[1], _ID));
-    }
+    // for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
+    //   html = html.replace(match[1], _relativeURL(match[1], _ID));
+    // }
     return html;
   };
 

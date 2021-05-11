@@ -1,71 +1,24 @@
-import {
-  addEvent,
-  getElement,
-  getElementAttribute,
-  getElements,
-} from "../heplers.js";
+import { getElement, getElements } from "../heplers.js";
 import { init } from "../index.js";
-
-let selected;
-let blogs = [];
+import { initInfiniteScrolling } from "./infinite-sctoll.js";
+import { initPagination } from "./pagination.js";
+import { addEventsToTags } from "./tags.js";
+let blogsList = [];
+let blogsContainer;
 window.onload = () => {
   init();
-  addEventsToTags();
-  blogs = getElements(".blog-list-blog");
+  // addEventsToTags();
+  handleBlogListOnLoad();
 };
 
-const hideBlog = (elem) => {
-  try {
-    const container = getElement(".blog-list");
-    container.removeChild(elem);
-  } catch (error) {}
-};
-
-const showBlog = (elem) => {
-  const container = getElement(".blog-list");
-  container.appendChild(elem);
-};
-
-const filterPage = (type) => {
-  blogs.forEach((blog) => {
-    const blogType = getElementAttribute(blog, "data-type");
-    if (!type) {
-      return showBlog(blog);
-    }
-    if (blogType !== type) {
-      return hideBlog(blog);
-    }
-    return showBlog(blog);
+const handleBlogListOnLoad = () => {
+  const list = getElements(".blog-list-blog");
+  blogsList = list;
+  blogsContainer = getElement(".blog-list");
+  blogsContainer.innerHTML = "";
+  list.forEach((element) => {
+    element.style.display = "flex";
   });
-};
-
-const toggleActiveSelector = (selector, isActive) => {
-  const selectors = getElements(".blog-tags-tag");
-  selectors.forEach((tag) => {
-    return tag.classList.remove("active-tag");
-  });
-  if (isActive) {
-    return selector.classList.add("active-tag");
-  }
-  return selector.classList.remove("active-tag");
-};
-
-const selectFilter = (element) => {
-  const type = getElementAttribute(element, "data-type");
-  const formatted = type.toLowerCase();
-  if (formatted === selected) {
-    selected = null;
-    toggleActiveSelector(element);
-    return filterPage();
-  }
-  selected = formatted;
-  toggleActiveSelector(element, true);
-  return filterPage(formatted);
-};
-
-const addEventsToTags = () => {
-  const tags = getElements(".blog-tags-tag");
-  tags.forEach((element) => {
-    addEvent(element, "click", () => selectFilter(element));
-  });
+  initInfiniteScrolling(blogsContainer, blogsList);
+  //initPagination(blogsContainer, blogsList);
 };

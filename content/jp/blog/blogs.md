@@ -1,5 +1,57 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
-  - single-sided-farming/blog.md
+  - orbsのステーキングがtrust-wallet-で利用可能となりました/blog.md
+  - what-elite-capture-means-and-why-it-should-enrage-you-2/blog.md
+  - orbs-update-april-2021/blog.md
+  - orbs-is-available-on-ens-ethereum-naming-service-2/blog.md
+  - orbs-is-live-on-microsoft-azure-2/blog.md
+  - improving-supply-chain-with-blockchain-2/blog.md
+  - orbs-is-now-live-on-pancakeswap-2/blog.md
+  - orbsとkrystal-がdefiに特化したパートナー提携を発表/blog.md
+  - orbsがp2pb2bに上場しました/blog.md
+  - orbsがbinance-smart-chainで利用可能となりました/blog.md
+  - orbs-チームのアップデート/blog.md
+  - orbsによるdex接続-シングルサイド・ファーミング-リク-2/blog.md
+  - orbsのスワップとステーキングが-metamaskで利用可能とな/blog.md
+  - orbsステーキング・ウォレットtetraが、モバイルで利用/blog.md
+  - new-orbsショップがオープンしました/blog.md
+  - orbsがamazonで利用可能となりました-awsマーケットプレイ/blog.md
+  - orbs-がblockfolioで利用可能になりました/blog.md
+  - orbsによるdex接続-シングルサイド・ファーミング-リク/blog.md
+  - orbsがgate-io-に上場しました/blog.md
+  - orbsがlatoken-に上場しました/blog.md
+  - orbsがkucoinへ上場しました/blog.md
+  - orbs-リクイディティnexusの紹介-流動性供給サービス/blog.md
+  - 2021年3月度orbsアップデート/blog.md
+  - orbs-and-flipside-crypto-team-up-to-launch-the-orbs-community-console-2/blog.md
+  - 2021年2月度orbsアップデート/blog.md
+  - staking-rewardsがorbsのステーキングを開始/blog.md
+  - orbsデリゲータのための-イーサリアム・ガスコスト/blog.md
+  - orbsとbinanceが共同で「defiアクセラレータ」のローンチを/blog.md
+  - orbsガーディアンの選び方：/blog.md
+  - 不正投票を排除するためのブロックチェーン活用/blog.md
+  - 2020年12月度orbsアップデート/blog.md
+  - getting-ready-for-round-7-of-orbs-rewards-distribution-jp/blog.md
+  - orbs-update-november-2020-2/blog.md
+  - orbs-pos-v2-5-the-age-of-guardians-is-here-2/blog.md
+  - 2020年10月度orbsアップデート/blog.md
+  - 2020年9月度orbsアップデート/blog.md
+  - ブロックチェーンベースのcovid-19免疫証明パスポート/blog.md
+  - 2020年8月度orbsアップデート/blog.md
+  - guardians-of-blockchain：-orbsの共同創業者tal-kolによる質疑応答/blog.md
+  - メタマスクのセキュリティ概要とtetraウォレットと/blog.md
+  - orbsの新しいロックアップメカニズムのご紹介/blog.md
+  - orbs-2019年8月のニュース/blog.md
+  - 2019年７月度-orbsアップデート/blog.md
+  - orbs-june-2019ブログ/blog.md
+  - orbs-may-2019ブログ/blog.md
+  - orbs-四月度ブログ/blog.md
+  - orbs-三月度ブログ/blog.md
+  - orbs-二月度ブログ/blog.md
+  - orbs-1月のニュース/blog.md
+  - orbs-10月のニュース：東アジアを席巻/blog.md
+  - orbs　8月のニュース-イベント参加を通じて存在感を/blog.md
+  - orbs7月のニュース-韓国を再訪/blog.md
+  - orbs-ニューストークン配布に関するアップデート、japan/blog.md
 ---

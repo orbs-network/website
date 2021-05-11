@@ -234,11 +234,22 @@ $blog-bold-font: "base-blog-font";
         margin-bottom: 13.76px;
       }
     }
-    .image {
+    .image,
+    iframe {
       width: 100%;
       max-width: 1100px;
-      height: auto;
       margin-bottom: 30px;
+    }
+    iframe {
+      position: relative;
+      transform: translate(-50%);
+      left: 50%;
+      height: 45vw;
+      max-height: 600px;
+      min-height: 260px;
+    }
+    .image {
+      height: auto;
       margin-left: auto;
       margin-right: auto;
       img {
@@ -251,7 +262,10 @@ $blog-bold-font: "base-blog-font";
     ul,
     ol,
     .title-h2,
-    .title-h3 {
+    .title-h3,
+    h4,
+    h5,
+    h6 {
       width: 100%;
       max-width: 800px;
       margin-left: auto;
