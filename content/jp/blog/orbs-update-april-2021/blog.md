@@ -7,7 +7,7 @@ title: 2021年4月度Orbsアップデート
 author:
   - ../common/authors/MayoHotta.md
 type:
-short_description: #### **今月のアップデート:** 取引所上場: FTX, KuCoin, ほか  ⁂ リクイディティ Nexus! ⁂ Orbsが AWS と MS Azureで利用可能 ⁂   BithumbでORBSのステーキング開始 ⁂ Moonstakeとパートナー提携 ⁂ Tetraがモバイルで利用可能に ⁂ Orbs公式ショップオープン ⁂ Talのウィークリーアップデート ⁂ その他にもたくさんのお知らせ
+short_description: "今月のアップデート:** 取引所上場: FTX, KuCoin, ほか  ⁂ リクイディティ Nexus! ⁂ Orbsが AWS と MS Azureで利用可能 ⁂   BithumbでORBSのステーキング開始 ⁂ Moonstakeとパートナー提携 ⁂ Tetraがモバイルで利用可能に ⁂ Orbs公式ショップオープン ⁂ Talのウィークリーアップデート ⁂ その他にもたくさんのお知らせ"
 ---
 
 #### **今月のアップデート:** 取引所上場: FTX, KuCoin, ほか   ⁂ リクイディティ Nexus! ⁂ Orbs が AWS と MS Azure で利用可能 ⁂   Bithumb で ORBS のステーキング開始 ⁂ Moonstake とパートナー提携 ⁂ Tetra がモバイルで利用可能に ⁂ Orbs 公式ショップオープン ⁂ Tal のウィークリーアップデート ⁂ その他にもたくさんのお知らせ

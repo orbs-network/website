@@ -7,7 +7,7 @@ title: Introducing PRISM - The Orbs Block Explorer
 author:
   - ../common/authors/EranK.md
 type:
-short_description: (https://github.com/orbs-network/prism).
+short_description:
 ---
 
 (https://github.com/orbs-network/prism).

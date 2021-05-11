@@ -7,10 +7,8 @@ title: Orbs Update August 2019
 author:
   - ../common/authors/Nate.md
 type:
-short_description: \_
+short_description:
 ---
-
-\_
 
 **In this update:** Japanese Orbs community ⁂ Huge Celsius partnership ⁂ V1.1.1 released with features ⁂ ORBS on Coinbase Custody ⁂ OKEx listing of ORBS ⁂ New Validator joins Orbs ⁂ Podcast interviews ⁂ Hexa Foundation Update
 

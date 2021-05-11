@@ -7,7 +7,7 @@ title: We’re Launching! And this is just the beginning
 author:
   - ../common/authors/DanielP.md
 type:
-short_description: \[ninja-popup ID=3646\]
+short_description:
 ---
 
 \[ninja-popup ID=3646\]

@@ -4,14 +4,8 @@ list:
   - orbs-is-live-on-google-cloud/blog.md
   - when-decentralized-finance-meets-the-traditional-system/blog.md
   - orbs-staking-is-now-available-on-the-trust-wallet-mobile/blog.md
-  - what-elite-capture-means-and-why-it-should-enrage-you-2/blog.md
-  - orbs-update-april-2021/blog.md
-  - orbs-is-available-on-ens-ethereum-naming-service-2/blog.md
-  - orbs-is-live-on-microsoft-azure-2/blog.md
   - orbs-update-april-2021-2/blog.md
   - single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3-2/blog.md
-  - improving-supply-chain-with-blockchain-2/blog.md
-  - orbs-is-now-live-on-pancakeswap-2/blog.md
   - orbs-is-now-live-on-pancakeswap/blog.md
   - bibox-exchange-lists-orbs-token-orbs/blog.md
   - orbs-and-krystal-announce-a-partnership-focused-on-defi/blog.md
@@ -42,7 +36,7 @@ list:
   - introducing-orbs-liquidity-nexus-liquidity-as-a-service/blog.md
   - bithumb-announces-orbs-staking/blog.md
   - moonstake-partners-with-hybrid-enterprise-grade-blockchain-orbs-to-soon-provide-full-scale-support-for-orbs-universe/blog.md
-  - orbs-and-flipside-crypto-team-up-to-launch-the-orbs-community-console-2/blog.md
+
   - orbs-update-march-2021/blog.md
   - orbs-and-flipside-crypto-team-up-to-launch-the-orbs-community-console/blog.md
   - orbs-update-february-2021/blog.md
@@ -57,8 +51,6 @@ list:
   - getting-ready-for-round-7-of-orbs-rewards-distribution/blog.md
   - orbs-pos-v2-5-official-launch/blog.md
   - tetra-deployment-announcement/blog.md
-  - orbs-update-november-2020-2/blog.md
-  - orbs-pos-v2-5-the-age-of-guardians-is-here-2/blog.md
   - blockchain-system-to-report-child-abuse/blog.md
   - orbs-pos-v2-5-the-age-of-guardians-is-here/blog.md
   - orbs-update-november-2020/blog.md

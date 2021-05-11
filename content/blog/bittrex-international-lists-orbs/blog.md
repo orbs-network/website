@@ -7,7 +7,7 @@ title: Bittrex International Lists Orbs Token (ORBS) Following Project’s Produ
 author:
   - ../common/authors/Nate.md
 type:
-short_description: \[ninja-popup ID=3646\]
+short_description:
 ---
 
 \[ninja-popup ID=3646\]

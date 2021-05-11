@@ -1,0 +1,1 @@
+mv content/ko/blog/*/ content/ko && cp -a content/common/ content/blog/common/ && rm -rf content/common/ && sed 's/  - /  - ..\//g' content/blog/blogs.md > changed.txt && mv changed.txt content/blog/blogs.md
