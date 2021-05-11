@@ -12,21 +12,23 @@ const BlogListElement = (props) => {
     _ID,
     blogUrl,
     type,
-    _body,
     title,
     short_description,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
+  // TODO: REMOVE COMMENT AFTER WE DEPLOY THE BLOGS SCRIPT
+  // const url = process.env.IS_DEV ? `blog/${blogUrl}` : blogUrl;
+  const url = `blog/${blogUrl}`;
   return (
     <li
       className="blog-list-blog list-item"
       data-type={type}
-      data-aos={animations.fadeTop}
+      style={{ display: "none" }}
     >
       <a
-        href={generateUrl(blogUrl)}
+        href={generateUrl(url)}
         className="blog-list-blog-wrapper"
         rel="noopener"
       >

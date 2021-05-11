@@ -8,7 +8,6 @@ sections:
       - md/section1/faq-2.md
       - md/section1/faq-3.md
       - md/section1/faq-4.md
-      - md/section1/faq-5.md
 
   - title: Orbs POS Universe
     list:

@@ -102,7 +102,7 @@
       height: 100vh;
       top: 0px;
       opacity: 1;
-      transform: translate(-100%);
+      transform: translate(-65vw);
       &:after {
         background: #1a1a1a;
         width: 100vw;
@@ -113,7 +113,6 @@
         pointer-events: none;
         content: "";
         z-index: 999;
-        transform: translate(-100%);
       }
       &-wrapper {
         overflow-y: auto;
@@ -340,7 +339,11 @@
     }
   }
 }
-
+@media only screen and (max-width: 1100px) {
+  .navbar-menu-content {
+    transform: translate(-130%);
+  }
+}
 @media only screen and (max-width: 900px) {
   .navbar {
     &-top {
