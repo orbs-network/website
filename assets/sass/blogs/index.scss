@@ -153,6 +153,22 @@
   color: black;
 }
 
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  button {
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .pagination-selected {
+    background: lightblue;
+  }
+}
+
 @media only screen and (min-width: $medium) {
   .blog {
     &-list {
