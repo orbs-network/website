@@ -27,7 +27,7 @@ The Orbs core team is excited that so many participants have already joined the 
 
 In the Orbs Universe, the Delegators assign their voting power to the Guardians, who, in turn, participate in Validator election on their behalf (DPoS). Growing delegated stake shows increasing interest in participating in the Orbs ecosystem:
 
-\[caption id="attachment_6974" align="aligncenter" width="1440"\]![Figure 2 - Growth of Orbs total delegated stake ](/assets/img/blog/orbs-universe-first-six-weeks/image8.jpg) Growth of Orbs total delegated stake\[/caption\]
+![Figure 2 - Growth of Orbs total delegated stake ](/assets/img/blog/orbs-universe-first-six-weeks/image8.jpg)
 
 **Acquired stake (from Exchanges) and delegation over time**
 
@@ -37,7 +37,7 @@ This analysis is based on collecting known addresses of cryptocurrency exchanges
 
 The following graph shows the percentage of the delegated stake of tokens acquired on exchanges:
 
-\[caption id="attachment_6976" align="aligncenter" width="1200"\]![Figure 3 - Growth of delegations of ORBS retrieved from exchanges](/assets/img/blog/orbs-universe-first-six-weeks/image2.jpg) Growth of delegations of ORBS retrieved from exchanges\[/caption\]
+![Figure 3 - Growth of delegations of ORBS retrieved from exchanges](/assets/img/blog/orbs-universe-first-six-weeks/image2.jpg)
 
 Based on our findings we can see that significant amounts of ORBS tokens acquired and retrieved from exchanges are delegated and participate in the Orbs PoS ecosystem. We believe this shows growing community education and interest, with a focus on long-term participation in the network (as opposed to speculation).
 
@@ -51,7 +51,7 @@ In the current PoS model, Guardians vote frequently to exclude misbehaving Valid
 
 The diagram below indicates how many different addresses hold the top 70% of delegated ORBS tokens, which means the minimal number of Delegators needed to reach the threshold of 70% of delegated stake in order to vote out a Validator:
 
-\[caption id="attachment_6975" align="aligncenter" width="1200"\]![Figure 4 - Increasing delegation distribution](/assets/img/blog/orbs-universe-first-six-weeks/image1.jpg) Increasing delegation distribution\[/caption\]
+![Figure 4 - Increasing delegation distribution](/assets/img/blog/orbs-universe-first-six-weeks/image1.jpg)
 
 We see a growing distribution of the delegated stake, thus increasing the decentralization.
 
@@ -61,8 +61,7 @@ In addition to the delegated stake, we also analyzed the distribution of ORBS to
 
 The metric we chose is how many different addresses hold 80% of ORBS tokens in circulation, which we measured over time:
 
-\[caption id="attachment_6978" align="aligncenter" width="1200"\]![Figure 5 - Increasing ORBS holdings distribution](/assets/img/blog/orbs-universe-first-six-weeks/image4.jpg) Increasing ORBS holdings distribution\[/caption\]
-
+![Figure 5 - Increasing ORBS holdings distribution](/assets/img/blog/orbs-universe-first-six-weeks/image4.jpg)
 We see that over time the holdings are distributed between more and more parties - currently, over 600 addresses hold 80% of ORBS float.
 
 ### Guardian activity
@@ -71,7 +70,7 @@ We see that over time the holdings are distributed between more and more parties
 
 The initial number of community organizers indicates the commitment of large private sale holders to the network long-term. The later growths show an increased organic interest for creating new communities around the Orbs PoS Universe.
 
-\[caption id="attachment_6980" align="alignnone" width="1200"\]![Figure 6 - Geographical distribution of ORBS Guardians](/assets/img/blog/orbs-universe-first-six-weeks/image6-2.jpg) Geographical distribution of ORBS Guardians\[/caption\]
+![Figure 6 - Geographical distribution of ORBS Guardians](/assets/img/blog/orbs-universe-first-six-weeks/image6-2.jpg)
 
 **Guardian weight change over time**
 
@@ -79,7 +78,7 @@ Guardians are soliciting appointments from Delegators to vote on their behalf in
 
 The following chart shows that the voting power of Guardians becomes more evenly distributed over time:
 
-\[caption id="attachment_6973" align="alignnone" width="1999"\]![Figure 7 - Guardians voting weight over time ](/assets/img/blog/orbs-universe-first-six-weeks/image7.jpg) Guardians voting weight over time\[/caption\]
+![Figure 7 - Guardians voting weight over time ](/assets/img/blog/orbs-universe-first-six-weeks/image7.jpg)
 
 ### **Guardian organization**
 

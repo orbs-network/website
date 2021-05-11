@@ -14,7 +14,7 @@ short_description: Welcome back to our monthly recap everyone!
 
 This was a very unusual month: On one hand, great things like hosting a US federal delegation and participating in useful talks to launch the industry forward. On the other hand, these COVID19 precautions make for unusual schedules for team members who are used to attending large events and meetups which have slowed down to a complete halt in the foreseeable future. In Orbs Tel Aviv headquarters, we have taken measures including private transportation and orders to work from home, as well as daily updates and guidelines from the state and abroad regarding the news. Sit tight!
 
-\[caption id="attachment_8186" align="aligncenter" width="1223"\]![](/assets/img/blog/orbs-update-march-2020/orbs-wfh-gallery.png) Orbs WFH meeting, yesterday\[/caption\]
+![Orbs WFH meeting, yesterday](/assets/img/blog/orbs-update-march-2020/orbs-wfh-gallery.png)
 
 We have already been conducting meetings from home, and so far, so good. There’s a strong sense of unity which is expected during bizarre times like this, and the comradery among Orbs members is no exception!
 

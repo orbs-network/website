@@ -174,7 +174,7 @@ _Luckily, we have a wonderful babysitter, who's able to take care of my little g
 
 _So far WFH works well. The downside is that scheduling has become more complicated, because we both take a lot of video calls and we need to ensure we don't both have calls at the same time. On the other hand, I don't snack as often as I did in the office, so until now the COVID-19 outbreak only made me healthier._
 
-\[caption id="attachment_8242" align="alignleft" width="523"\]![My WFH setup, my chicken coup, and my garden. Quarantine has never been this good.](/assets/img/blog/orbs-technology-update-april-2020/image6.png) _My WFH setup, my chicken coup, and my garden. Quarantine has never been this good._\[/caption\]
+![My WFH setup, my chicken coup, and my garden. Quarantine has never been this good.](/assets/img/blog/orbs-technology-update-april-2020/image6.png)
 
 **Jonathan Noam:** _Since I travelled to the US for detailed discussions with the customer of one of our more exciting new users (a world-leader in consumer goods), I was required to be quarantined for 14 days. Have just passed the halfway mark during the time of this photo and so far, so good. I am fortunate to have the perfect setup for WFH so can't complain too much :)_
 

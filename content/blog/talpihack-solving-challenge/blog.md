@@ -22,7 +22,7 @@ The challenges were brought and prepared by public service groups and NGOs, incl
 
 I joined Barak Gonen, Ido Bronstein, Omri Lifshitz, and Roy Mizrachi to work on the Related Parties Dealings challenge provided by the Financial Justice group. In short, we developed a system that would make it possible to analyze the behavior and votes of pension funds in public company board meetings, and to discover potentially problematic votes.
 
-\[caption id="attachment_7141" align="aligncenter" width="1999"\]![](/assets/img/blog/talpihack-solving-challenge/image2.jpg) The team\[/caption\]
+![The team](/assets/img/blog/talpihack-solving-challenge/image2.jpg)
 
 #### Some background
 
@@ -46,7 +46,7 @@ The Israel Capital Markets, Insurance and Savings Authority already requires the
 
 [The code is available here](https://github.com/olifshitz/TalpiHackPension).
 
-\[caption id="attachment_7142" align="aligncenter" width="1739"\]![](/assets/img/blog/talpihack-solving-challenge/image1.png) Example queries showing Institutionals votes vs Entropy recommendation and Institutionals votes vs final decision.\[/caption\]
+![ Example queries showing Institutionals votes vs Entropy recommendation and Institutionals votes vs final decision.](/assets/img/blog/talpihack-solving-challenge/image1.png)
 
 ## Feedback
 

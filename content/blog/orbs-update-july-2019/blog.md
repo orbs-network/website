@@ -127,7 +127,7 @@ The event went very well, with the program of the event as follows:
 - Closing remarks (Spunky)
 - QA
 
-\[caption id="attachment_7235" align="aligncenter" width="1920"\]![Getting ready](/assets/img/blog/orbs-update-july-2019/IMG_4389.jpg) Getting ready\[/caption\]
+![Getting ready](/assets/img/blog/orbs-update-july-2019/IMG_4389.jpg)
 
 **![](/assets/img/blog/orbs-update-july-2019/IMG_4390.jpg)**
 
@@ -153,7 +153,7 @@ The main MOA points are:
 
 https://twitter.com/ForbesCrypto/status/1143598241235263488
 
-\[caption id="attachment_7226" align="aligncenter" width="1536"\]![](/assets/img/blog/orbs-update-july-2019/D9h01LXXoAs1yK4.jpg) Forbes' Rachel Wolfson with Orbs Co-founder Tal Kol at Orbs HQ in Tel Aviv\[/caption\]
+![Forbes' Rachel Wolfson with Orbs Co-founder Tal Kol at Orbs HQ in Tel Aviv](/assets/img/blog/orbs-update-july-2019/D9h01LXXoAs1yK4.jpg)
 
 ### Baselayer interview
 

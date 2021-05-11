@@ -24,4 +24,4 @@ The launch of sey Chain is just a first and arguably most important step of buil
 
 In recent months, the Orbs team has been putting substantial efforts in East Asia, highlighting Korea and especially Korean enterprises. This exciting announcement is the latest to highlight the network’s production capabilities, resilience, scalability, and universality for corporate-grade applications.
 
-\[caption id="attachment_7826" align="aligncenter" width="1496"\][![](/assets/img/blog/sey-chain-yes24-partnership/fff.png)](http://ch.yes24.com/Article/View/40233) Via YES24. Click to image view announcement (Korean)\[/caption\]
+[![Via YES24. Click to image view announcement (Korean)](/assets/img/blog/sey-chain-yes24-partnership/fff.png)](http://ch.yes24.com/Article/View/40233)

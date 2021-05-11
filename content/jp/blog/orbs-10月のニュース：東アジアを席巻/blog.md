@@ -16,15 +16,15 @@ Orbs は東アジアを中心にその影響力を引き続き強めています
 
 去る 9 月 5 日、Orbs はテルアビブのオフィスに日本からの代表団（起業家や投資家など総勢４０名）を迎えました。テルアビブで毎年開催されるテック系カンファレンス DLD を訪れた彼らに対し、日本事業責任者の堀田 真代と CTO の Oded Wertheim は Orbs のコンセプトやブロックチェーンの活用方法を大きく変えることになるであろう Orbs ネットワークの仕組みについて説明しました。
 
-\[caption id="attachment_2957" align="aligncenter" width="1440"\]![](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_Wn1YewUc56f9_r5Fef-oFg.jpeg) テルアビブを訪れた日本の代表団に対してプレゼンテーションを行う日本事業責任者の堀田 真代と CTO の Oded Wertheim（2018 年 9 月 5 日　写真：Gedalyah Reback）\[/caption\]
+[テルアビブを訪れた日本の代表団に対してプレゼンテーションを行う日本事業責任者の堀田 真代と CTO の Oded Wertheim（2018 年 9 月 5 日　写真：Gedalyah Reback）](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_Wn1YewUc56f9_r5Fef-oFg.jpeg)
 
-\[caption id="attachment_2956" align="aligncenter" width="1435"\]![](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_2F3vxuLCVy7ZIpPf0Uilcw.png) テルアビブを訪れた日本の代表団に対してプレゼンテーションを行う日本事業責任者の堀田 真代と CTO の Oded Wertheim（2018 年 9 月 5 日　写真：Gedalyah Reback）\[/caption\]
+![テルアビブを訪れた日本の代表団に対してプレゼンテーションを行う日本事業責任者の堀田 真代と CTO の Oded Wertheim（2018 年 9 月 5 日　写真：Gedalyah Reback）](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_2F3vxuLCVy7ZIpPf0Uilcw.png)
 
 翌週には東京と大阪でミートアップを開催し、他国と比較しても極めて活発な日本のエコシステムから、開発者やブロックチェーン支持者が集いました。
 
 9 月 15、16 日にそれぞれ東京（参加者 200 名以上）と大阪（参加者 55 名以上）で開催されたミートアップには、堀田と Orbs 共同創業者の Uriel Peled が参加。日本のブロックチェーンエコシステムは東京に集中しているようにも見えますが、大阪も決して遅れをとっているわけではありません。その証拠に、Cardano に加え、ミートアップに出席した Orbs の主要投資家も大阪に本拠地を構えています。
 
-\[caption id="attachment_2955" align="aligncenter" width="1280"\]![総勢100名以上が参加した東京のミートアップでの1枚。OrbsからはUriel Peled（最前列右から3人目）と堀田 真代（最前列右から2人目）が参加（2018年9月）](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_hjsaJea2nVDyIeMwp38Wdw.jpeg) 総勢 100 名以上が参加した東京のミートアップでの 1 枚。Orbs からは Uriel Peled（最前列右から 3 人目）と堀田 真代（最前列右から 2 人目）が参加（2018 年 9 月）\[/caption\]
+![総勢100名以上が参加した東京のミートアップでの1枚。OrbsからはUriel Peled（最前列右から3人目）と堀田 真代（最前列右から2人目）が参加（2018年9月）](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_hjsaJea2nVDyIeMwp38Wdw.jpeg)
 
 日本で開催されたミートアップを通じて、低迷する市況をものともせず成長を続けるブロックチェーンコミュニティの活力や、スケーラビリティと実用性を重視する Orbs の哲学に共感してくださる人たちの多さを感じることができました。さらに日本の方々からは、ようやく Orbs のチームと直接会うことができて嬉しいという声をたくさんいただきました。
 
@@ -46,7 +46,7 @@ Cool Vendor に選ばれたことを誇りに思うと同時に、これは一�
 
 IEEE ICNP 2018
 
-\[caption id="attachment_2953" align="aligncenter" width="1104"\]![ケンブリッジ大学で開催されたIEEE ICNP 2018にてHelixコンセンサスアルゴリズムについて説明するDavid Yakira](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_7OlJoP7aQr9U5IZKZURCQw.jpeg) ケンブリッジ大学で開催された IEEE ICNP 2018 にて Helix コンセンサスアルゴリズムについて説明する David Yakira\[/caption\]
+![ケンブリッジ大学で開催されたIEEE ICNP 2018にてHelixコンセンサスアルゴリズムについて説明するDavid Yakira](/assets/img/blog/orbs-10月のニュース：東アジアを席巻/1_7OlJoP7aQr9U5IZKZURCQw.jpeg)
 
 David Yakira は 26 回目となる[IEEE International Conference on Network Protocols](http://icnp18.cs.ucr.edu/)（開催地：英ケンブリッジ大学）に参加し、未処理取引の選出メカニズムを中心に Orbs の Helix コンセンサスアルゴリズムについての講演を行いました。
 

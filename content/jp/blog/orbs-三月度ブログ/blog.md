@@ -81,7 +81,7 @@ Danny は、企業におけるブロックチェーン採択についてのパ�
 
 Orbs テクニカル共同創設者の Tal Kol が韓国の Orbs ファンから寄せられたさまざまな質問に答えます。これらの質問に対してとことん深堀して答える同イベントの全容は、こちらより閲覧することができます。
 
-[iframe](https://www.youtube.com/embed/cO373Y0HJKw?enablejsapi=1&autoplay=0&cc_load_policy=0&iv_load_policy=1&loop=0&modestbranding=1&rel=1&showinfo=1&fs=1&playsinline=0&controls=2&color=red&autohide=2&theme=dark&&wmode=opaque&rel=0 "iframe")
+<iframe src='https://www.youtube.com/embed/cO373Y0HJKw?enablejsapi=1&autoplay=0&cc_load_policy=0&iv_load_policy=1&loop=0&modestbranding=1&rel=1&showinfo=1&fs=1&playsinline=0&controls=2&color=red&autohide=2&theme=dark&&wmode=opaque&rel=0'></iframe>
 
 ### 今後のイベント
 

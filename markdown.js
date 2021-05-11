@@ -59,7 +59,7 @@ module.exports = exports = function renderer({
         title ? `title="${title}"` : ""
       } class='email-link' rel="noopener" target='_blank'>${text}</a>`;
     }
-    return `<a href="${href}"${
+    return `<a href="${_relativeURL(href, _ID)}"${
       title ? ` title="${title}"` : ""
     } rel="noopener">${text}</a>`;
   };
@@ -83,9 +83,9 @@ module.exports = exports = function renderer({
 
   // making all html tags with paths relative
   Marked.html = (html) => {
-    for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
-      html = html.replace(match[1], _relativeURL(match[1], _ID));
-    }
+    // for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
+    //   html = html.replace(match[1], _relativeURL(match[1], _ID));
+    // }
     return html;
   };
 

@@ -62,7 +62,7 @@ Private blockchains, such as [IBM Hyperledger](https://www.ibm.com/blockchain/in
 
 A schematic representation of the Orbs’ solution building blocks is presented in Figure 2:
 
-\[caption id="attachment_8469" align="aligncenter" width="2560"\]![](/assets/img/blog/track-trace-solution-on-orbs/8888Asset-9-100-scaled.jpg) _Figure 2: Schematic representation of the track & trace solution_\[/caption\]
+![Schematic representation of the track & trace solution](/assets/img/blog/track-trace-solution-on-orbs/8888Asset-9-100-scaled.jpg)
 
 As can be seen in Figure 2, the basis of the solution is a messaging platform built on top of the Orbs blockchain, which handles the data coming in from the external world. Each entity using the solution can decide the visibility of the data they are contributing to the blockchain and who else can see it. Each participant feeds the data available to him into an analysis tool that visualizes the information and alerts in case of suspicious activity. This part is a proprietary solution for each player, based on their goals and targets.
 
