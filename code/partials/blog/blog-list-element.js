@@ -12,7 +12,6 @@ const BlogListElement = (props) => {
     _ID,
     blogUrl,
     type,
-    _body,
     title,
     short_description,
   } = props;
@@ -25,7 +24,7 @@ const BlogListElement = (props) => {
     <li
       className="blog-list-blog list-item"
       data-type={type}
-      data-aos={animations.fadeTop}
+      style={{ display: "none" }}
     >
       <a
         href={generateUrl(url)}

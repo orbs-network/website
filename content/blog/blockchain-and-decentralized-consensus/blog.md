@@ -7,7 +7,7 @@ title: Blockchain and Decentralized Consensus
 author:
   - ../common/authors/TalKol.md
 type:
-short_description: (https://orbs.site.strattic.io/orbs-position-paper/)._
+short_description:
 ---
 
 (https://orbs.site.strattic.io/orbs-position-paper/).\_

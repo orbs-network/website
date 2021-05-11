@@ -7,7 +7,7 @@ title: Orbs Co-founder Promoting Projects Using Blockchain for Social Impact
 author:
   - ../common/authors/Nate.md
 type:
-short_description: _Blockchain technology can be leveraged for social impact projects bringing verifiable trust, transparency and external auditability. To promote such projects, Netta Korin, Orbs co-founder and Head of Hexa Foundation is one of 6 Israeli business executives attending the Economic Peace Conference._
+short_description: Blockchain technology can be leveraged for social impact projects bringing verifiable trust, transparency and external auditability. To promote such projects, Netta Korin, Orbs co-founder and Head of Hexa Foundation is one of 6 Israeli business executives attending the Economic Peace Conference.
 ---
 
 _Blockchain technology can be leveraged for social impact projects bringing verifiable trust, transparency and external auditability. To promote such projects, Netta Korin, Orbs co-founder and Head of Hexa Foundation is one of 6 Israeli business executives attending the Economic Peace Conference._

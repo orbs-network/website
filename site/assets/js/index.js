@@ -10,6 +10,8 @@ import { GDPR_ACCEPTED } from "./keys.js";
 ui.showAppLoader();
 
 export const init = () => {
+  window.scrollTo(0, 0);
+
   navbar.init();
   footer.init();
   subscribe.init();

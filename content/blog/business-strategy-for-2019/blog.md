@@ -7,7 +7,7 @@ title: The Road to Mainstream Use - Business Strategy for 2019
 author:
   - ../common/authors/UrielP.md
 type:
-short_description: \[ninja-popup ID=3646\]
+short_description:
 ---
 
 \[ninja-popup ID=3646\]

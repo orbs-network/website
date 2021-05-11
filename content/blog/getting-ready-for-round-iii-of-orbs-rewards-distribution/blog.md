@@ -7,7 +7,7 @@ title: Getting Ready for Round III of Orbs Rewards Distribution
 author:
   - ../common/authors/AndreyDulkin.md
 type:
-short_description: \[ninja-popup ID=3646\]
+short_description:
 ---
 
 \[ninja-popup ID=3646\]

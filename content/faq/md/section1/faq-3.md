@@ -4,4 +4,5 @@ title: What are some of Orbs technological innovations?
 color: "#E61EA9"
 ---
 
-this is a big test
+Orbs developed a set of advanced technologies to make its vision possible: Virtual Chains, PoS over Ethereum, Cross-Chain Interoperability, Non-Deterministic Execution, and Web Oracles and Off-Chain Interoperability.
+Read more [here](overview)

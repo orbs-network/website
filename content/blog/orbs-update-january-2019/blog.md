@@ -10,7 +10,7 @@ type:
 short_description: \[ninja-popup ID=3646\]
 ---
 
-\[ninja-popup ID=3646\]
+\=3646\]
 
 **Letter from Daniel Peled, Orbs President and Co-Founder**
 

@@ -7,7 +7,7 @@ title: A Sustainable Token Economy Cannot Be Inflationary
 author:
   - ../common/authors/OdedN.md
 type:
-short_description: _Blockchain is a young business, too young for us to have seen any project fully develop. If we look around, we see how inflationary models benefit projects in their infancy. But this observation will not remain once these projects grow out of their infancy._
+short_description: Blockchain is a young business, too young for us to have seen any project fully develop. If we look around, we see how inflationary models benefit projects in their infancy. But this observation will not remain once these projects grow out of their infancy.
 ---
 
 _Blockchain is a young business, too young for us to have seen any project fully develop. If we look around, we see how inflationary models benefit projects in their infancy. But this observation will not remain once these projects grow out of their infancy._

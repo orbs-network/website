@@ -7,7 +7,7 @@ title: Orbs March Update 2019
 author:
   - ../common/authors/Nate.md
 type:
-short_description: \[ninja-popup ID=3646\]
+short_description:
 ---
 
 \[ninja-popup ID=3646\]
