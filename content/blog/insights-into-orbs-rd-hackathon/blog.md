@@ -80,4 +80,4 @@ Some of the major improvement suggestions became obvious, such as scaffolding fo
 
 HUGE thanks to all who posted their ideas to the [Orbs Community board](https://community.orbs.network/) in the days leading up to the special day! We are looking forward in anticipation to the next Orbs hackathon, and hope to involve the global developing community to partake in this fun, productive event :)
 
-\[caption id="attachment_6406" align="aligncenter" width="580"\]![](/assets/img/blog/insights-into-orbs-rd-hackathon/photo_2019-05-30_12-51-35.jpg) My team aka 'Best Team'\[/caption\]
+![My team aka 'Best Team'](/assets/img/blog/insights-into-orbs-rd-hackathon/photo_2019-05-30_12-51-35.jpg)

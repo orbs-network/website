@@ -10,13 +10,11 @@ type:
 short_description:
 ---
 
-\[ninja-popup ID=3646\]
-
 The first month of 2019 is now behind us (I know, right?), and what a month it was! Kicking the year off with amazing news, events and awards, everyone here at Orbs is looking forward to the exciting road ahead.
 
 Some highlights from the past 30 days:
 
-\[caption id="attachment_6090" align="aligncenter" width="800"\]![Orbs at WEF Davos 2019](/assets/img/blog/orbs-update-feb-2019/Orbs-at-WEF-Davos-2019.jpeg) Orbs City? WEF 19, Davos\[/caption\]
+![Orbs at WEF Davos 2019](/assets/img/blog/orbs-update-feb-2019/Orbs-at-WEF-Davos-2019.jpeg)
 
 ### We have an Orbs launch date — Yeah baby!!!
 
@@ -56,7 +54,7 @@ Eyal Semel, an intern in the Orbs team, has been working on an example of a Batt
 
 **Ivan on Tech at Orbs**
 
-\[caption id="attachment_6094" align="aligncenter" width="600"\]![ivan on tech uriel orbs](/assets/img/blog/orbs-update-feb-2019/ivan-on-tech-uriel-orbs-1.jpeg) Ivan and Uriel yucking it up in TLV\[/caption\]
+![ivan on tech uriel orbs](/assets/img/blog/orbs-update-feb-2019/ivan-on-tech-uriel-orbs-1.jpeg)
 
 On the 14th, we’ve had the pleasure of hosting a Q&A event with the renown Swedish blockchain developer and educator Ivan Liljeqvist, known by most as [Ivan on Tech](https://www.youtube.com/user/LiljeqvistIvan), at Orbs offices in Tel-Aviv.
 
@@ -68,7 +66,7 @@ Special thanks to [WIB](https://twitter.com/womeninblock) for putting together
 
 ### WEF 2019
 
-\[caption id="attachment_6096" align="aligncenter" width="600"\]![Unlocking Human Potential with Blockchain & AI](/assets/img/blog/orbs-update-feb-2019/Unlocking-Human-Potential-with-Blockchain-AI-300x168.png) Unlocking Human Potential with Blockchain & AI\[/caption\]
+![Unlocking Human Potential with Blockchain & AI](/assets/img/blog/orbs-update-feb-2019/Unlocking-Human-Potential-with-Blockchain-AI-300x168.png)
 
 _The gang goes to Davos!_
 
@@ -76,23 +74,23 @@ Orbs traveled to speak at the World Economic Forum on the topic of Unlocking Hum
 
 ...
 
-[iframe](https://streamable.com/s/33pk7/lsfcwx "iframe")
+<iframe src='https://streamable.com/s/33pk7/lsfcwx'></iframe>
 
 Daniel Peled’s intro on GBBC panel at WEF19
 
 The following day, Orbs President Daniel Peled spoke at a Hub Culture forum and co-hosted a private lunch with MIT Media Lab on the Future Blockchain and AI Systems, alongside Doctor Yaniv Altshuler of Endor.
 
-\[caption id="attachment_6100" align="aligncenter" width="939"\]![MIT Media Lab on the Future Blockchain and AI Systems](/assets/img/blog/orbs-update-feb-2019/MIT-Media-Lab-on-the-Future-Blockchain-and-AI-Systems.png) Left to right: Professor Alex Pentland (MIT), Professor Yaniv Altshuler, President Daniel Peled\[/caption\]
+![MIT Media Lab on the Future Blockchain and AI Systems](/assets/img/blog/orbs-update-feb-2019/MIT-Media-Lab-on-the-Future-Blockchain-and-AI-Systems.png)
 
 Later at a private lunch hosted by MIT Connection Science, Hub Culture interviewed Daniel live on the air. The entire one-on-one interview can be viewed [here](https://www.youtube.com/watch?v=hy2AJnXXVQA).
 
 The trip was a great success and the gang returned tired but satisfied.
 
-\[caption id="attachment_6102" align="aligncenter" width="939"\]![Orbs in Davos](/assets/img/blog/orbs-update-feb-2019/Orbs-in-Davos.png) Tired and satisfied\[/caption\]
+![Orbs in Davos](/assets/img/blog/orbs-update-feb-2019/Orbs-in-Davos.png)
 
 ### Japan Blockchain Conference
 
-\[caption id="attachment_6105" align="alignleft" width="300"\]![Orbs at the 2019 Japan Blockchain Conference](/assets/img/blog/orbs-update-feb-2019/Orbs-at-the-2019-Japan-Blockchain-Conference-300x225.png) Orbs’ Rani Melamed (right)\[/caption\]
+![Orbs at the 2019 Japan Blockchain Conference](/assets/img/blog/orbs-update-feb-2019/Orbs-at-the-2019-Japan-Blockchain-Conference-300x225.png)
 
 _Big in Japan!_ Our delegation to Yokohama was in JBC 2019 to partake in several panels and events. Co-Founder Uriel Peled gave a keynote and spoke about the Orbs blockchain giving a first look at our launch date and plans.
 
@@ -122,6 +120,6 @@ Are you in town? Let’s find a time to meet up!
 
 TLV team photo with new sweatshirts and smiley faces :)
 
-\[caption id="attachment_6106" align="aligncenter" width="939"\]![Orbs is black](/assets/img/blog/orbs-update-feb-2019/Orbs-in-black.png) Can you identify yours truly?\[/caption\]
+![Orbs is black](/assets/img/blog/orbs-update-feb-2019/Orbs-in-black.png)
 
 That’s it for now! Be sure to follow all Orbs’ official channels, as well as our popular Business of Blockchain newsletter (below) for frequent news and updates. You can also reach out to yours truly personally [via LinkedIn](https://www.linkedin.com/in/natesimantov/).

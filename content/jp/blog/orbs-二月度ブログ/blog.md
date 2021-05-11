@@ -72,7 +72,7 @@ _“ギャング”がダボスに出陣_
 
 ダボスで開催された世界経済フォーラム(以下略、WEF)において、Orbs は「人間の潜在能力を解放し引き出す力～ブロックチェーンと AI の活用法～」といったテーマで講演。その後、グローバルブロックチェーンビジネス協議会（以下略、GBBC）主催のパネル「ブロックチェーンの相互運用性について」にも登壇しました。
 
-[iframe](https://streamable.com/s/33pk7/mooyxc "iframe")
+<iframe src='https://streamable.com/s/33pk7/mooyxc'></iframe>
 
 WEF2019 における GBBC の Daniel Peled によるイントロ
 

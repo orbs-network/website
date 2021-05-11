@@ -143,7 +143,7 @@ FNinnoedu は、韓国科学省ブロックチェーン教育プログラムを�
 
 https://twitter.com/ForbesCrypto/status/1143598241235263488
 
-\[caption id="attachment*7226" align="aligncenter" width="1536"\]![](/assets/img/blog/2019年７月度-orbsアップデート/D9h01LXXoAs1yK4.jpg) \_Forbs の Rachel Wolfson 氏と Orbs の共同創業者 Tal Kol-テルアビブ・Orbs 本社にて*\[/caption\]
+![Forbs の Rachel Wolfson 氏と Orbs の共同創業者 Tal Kol-テルアビブ・Orbs 本社にて](/assets/img/blog/2019年７月度-orbsアップデート/D9h01LXXoAs1yK4.jpg)
 
 ### Baselayer インタビュー
 

@@ -14,7 +14,7 @@ short_description: ### About SNAP
 
 The Supplemental Nutrition Assistance Program (SNAP) is the name of the formerly known Food Stamp Program. It is the US Department of Agriculture’s largest program, in terms of both money spent and number of recipients[\[1\]](#_ftn1). It provides food purchasing assistance to low income Americans. According to USDA’s data[\[2\]](#_ftn2), approximately 40 Million individuals of 20 Million households received SNAP in Fiscal Year 2018. The total cost to the US taxpayer is estimated at $65 Billion that year and the average monthly payout was about $125 per participant. Combining these with US household data[\[3\]](#_ftn3), suggests that 15.5%[\[4\]](#_ftn4) of US households received SNAP support at some point in 2018. Astounding as it may be, it is still an improvement compared to 17.3% and 16.6% in Fiscal Years 2016 and 2017, accordingly, as shown in Table 1:
 
-\[caption id="attachment_7817" align="aligncenter" width="1030"\]![Table 1: Individuals, households and total Cost of SNAP 2016-2018](/assets/img/blog/solution-against-snap-fraud/Table-Individuals-households-and-total-Cost-of-SNAP-2016-2018-1030x282.png) Table 1: Individuals, households and total Cost of SNAP 2016-2018\[/caption\]
+![Table 1: Individuals, households and total Cost of SNAP 2016-2018](/assets/img/blog/solution-against-snap-fraud/Table-Individuals-households-and-total-Cost-of-SNAP-2016-2018-1030x282.png)
 
 Participants in the program are issued with an Electronic Benefits Transfer (EBT) card which functions like an ordinary debit card, except that it can only be used to purchase authorized food items at specific retailers approved by SNAP. The EBT is recharged on a monthly basis with the amount that the participating household is eligible for.
 

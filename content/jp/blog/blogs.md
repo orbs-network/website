@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
-  - orbsのステーキングがtrust-wallet-で利用可能となりました！/blog.md
+  - orbsのステーキングがtrust-wallet-で利用可能となりました/blog.md
   - what-elite-capture-means-and-why-it-should-enrage-you-2/blog.md
   - orbs-update-april-2021/blog.md
   - orbs-is-available-on-ens-ethereum-naming-service-2/blog.md

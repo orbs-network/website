@@ -34,7 +34,7 @@ The event on April 3rd targeted Korean enterprises in several industries: More t
 
 April 4th: Orbs’ booth and VIP room were incredibly busy, and Uriel Peled’s keynote speech was very well received. Check out the slides from the event here:
 
-[iframe](https://docs.google.com/presentation/d/e/2PACX-1vSSWf97wTyUbjPFGRYgDE9Y-wZTwrQlpmqEAWLJoYXOD1im3LJDtr8YYci-_28A8iSyBlFn0MQ73EMl/embed?start=false&loop=false&delayms=3000 "iframe")
+<iframe src='https://docs.google.com/presentation/d/e/2PACX-1vSSWf97wTyUbjPFGRYgDE9Y-wZTwrQlpmqEAWLJoYXOD1im3LJDtr8YYci-_28A8iSyBlFn0MQ73EMl/embed?start=false&loop=false&delayms=3000'></iframe>
 
 Orbs team has been exploring use-cases and tech with key members of the industry. Gili has a lot of follow-ups to take care of! Some of the highlights from the Korea meetup: \[embedyt\] https://www.youtube.com/watch?v=n2htLz\_st78\[/embedyt\]
 
@@ -125,7 +125,7 @@ This month is Tal’s month, apparently! The daily Hebrew business newspaper The
 
 ### **Yes24**
 
-\[caption id="attachment_6108" align="aligncenter" width="300"\]![](/assets/img/blog/orbs-update-may-2019/image1-300x225.png) Yes24 Orbs MOU signing last October\[/caption\]
+![Yes24 Orbs MOU signing last October](/assets/img/blog/orbs-update-may-2019/image1-300x225.png)
 
 A contract has been officially been signed with Yes24 and Orbs: Yes24 has partnered with Orbs with the plan to develop an improved marketplace for digital goods and services, by implementing the technology into its online bookstore. The now finalized deal puts Korea’s largest online bookstore a step closer to transforming it into a blockchain-based ecosystem after the [MOU signed](http://www.thebchain.co.kr/news/articleView.html) in December.
 

@@ -7,14 +7,12 @@ title: Orbs Update January 2019
 author:
   - ../common/authors/Nate.md
 type:
-short_description: \[ninja-popup ID=3646\]
+short_description:
 ---
-
-\=3646\]
 
 **Letter from Daniel Peled, Orbs President and Co-Founder**
 
-\[caption id="" align="aligncenter" width="350"\]![](https://cdn-images-1.medium.com/max/600/1*xYm7AFZ6FJhLjDR_5Z37OQ.jpeg) Daniel Peled\[/caption\]
+![Daniel Peled](https://cdn-images-1.medium.com/max/600/1*xYm7AFZ6FJhLjDR_5Z37OQ.jpeg)
 
 _The beginning of any year is exciting, but there is something uniquely powerful about kicking off 2019 with our launch just around the corner. Watching the process of building Orbs, and all of the work that has gone into it, has been both inspiring and exciting, recognizing the dedication of our team and the potential that our product has to make the blockchain promise a reality._
 
@@ -52,7 +50,7 @@ _President and Co-Founder, Orbs_
 
 Here’s some of what we’ve been up to for the past month and change (for dev news, scroll down to R&D Updates):
 
-\[caption id="" align="aligncenter" width="800"\]![](https://cdn-images-1.medium.com/max/800/1*ZFkDZjvttnn1YY16fuCxEQ.png) Big in Japan\[/caption\]
+![Big in Japan](https://cdn-images-1.medium.com/max/800/1*ZFkDZjvttnn1YY16fuCxEQ.png)
 
 **Kakao Investment Joins the Orbs Journey**
 
@@ -76,7 +74,7 @@ Orbs’ dynamic product roadmap highlights several key updates to the project’
 
 #### Yes24 partnership
 
-\[caption id="" align="aligncenter" width="600"\]![](https://cdn-images-1.medium.com/max/600/1*G7n71LFvqTmHmXddBPvmQQ.png) Orbs and YES24 at MOU Signing Ceremony\[/caption\]
+![Orbs and YES24 at MOU Signing Ceremony](https://cdn-images-1.medium.com/max/600/1*G7n71LFvqTmHmXddBPvmQQ.png)
 
 YES24, Korea’s #1 online book and records retailer has signed a Memorandum of Understanding (MOU) on blockchain collaboration and co-development with Orbs.
 
@@ -124,13 +122,13 @@ Ethan presented the Orbs product and the critical perspectives that have helped 
 
 **Japan Events**
 
-\[caption id="" align="aligncenter" width="539"\]![](https://cdn-images-1.medium.com/max/600/1*XtsurHxxKpSCXpaSH2Z_fA.png) Mayo answering audience questions on ‘The technology challenge of DApp’ panel\[/caption\]
+![Mayo answering audience questions on ‘The technology challenge of DApp’ panel](https://cdn-images-1.medium.com/max/600/1*XtsurHxxKpSCXpaSH2Z_fA.png)
 
 Tokyo was a blast! On December 18th, approximately 250 enterprise executives came via invitation to the **DApp Summit** event. Our very own Mayo Hotta presented Orbs’ solutions and vision on a solo stage to the members, expanding on the immediate potential of blockchain for business.
 
 Later as part of a shared panel focused on “The technology challenge of DApp”, Mayo spoke about Orbs’ scalability by intelligence sharding and rPOS, and practical implementation of private blockchain to meet enterprises’ current needs.
 
-\[caption id="" align="aligncenter" width="600"\]![](https://cdn-images-1.medium.com/max/600/1*1bzAqrXyAD6EccAHGc6J9g.png) If you think you can pick up on Ethan’s high-energy from this photo, you are still underestimating it\[/caption\]
+![If you think you can pick up on Ethan’s high-energy from this photo, you are still underestimating it](https://cdn-images-1.medium.com/max/600/1*1bzAqrXyAD6EccAHGc6J9g.png)
 
 Meanwhile at a private blockchain meetup in Tokyo, our VP Marketing Ethan Chernofsky spoke to an enthusiastic crowd of ~80 about Orbs business updates and market situation.
 

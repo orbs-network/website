@@ -14,7 +14,7 @@ Orbs 共同創業者からの新年の抱負、GAMMA ローンチ、パートナ
 
 ## ORBS 　 1 月のニュース：2019 年の幕開け
 
-\[caption id="attachment_3545" align="alignleft" width="350"\]![Daniel Peled Note](/assets/img/blog/orbs-1月のニュース/daniel-for-blog1.jpeg) Daniel Peled, Orbs 共同創業者\[/caption\]
+![Daniel Peled Note](/assets/img/blog/orbs-1月のニュース/daniel-for-blog1.jpeg)
 
 **Orbs 共同創業者・共同創業者 Daniel Peled からの手紙**
 
@@ -52,7 +52,7 @@ Orbs 共同創業者
 
 以下は先月のまとめとプランの変更に関する情報です（開発状況については、さらに下の R&D アップデートをご覧ください）。
 
-\[caption id="attachment_3548" align="aligncenter" width="939"\]![Big in Japan　日本でも大人気のOrbs](/assets/img/blog/orbs-1月のニュース/orbs-big-in-japan.png) Big in Japan 　日本でも大人気の Orbs\[/caption\]
+[Big in Japan 　日本でも大人気の Orbs](/assets/img/blog/orbs-1月のニュース/orbs-big-in-japan.png)
 
 ### Kakao Investment が新たなパートナーに
 
@@ -78,7 +78,7 @@ Orbs のロードマップでは、プロジェクトの進捗度に一部変更
 
 ### YES24 とのパートナーシップ
 
-\[caption id="attachment_3551" align="alignleft" width="300"\]![覚書調印式に臨むOrbsとYES24](/assets/img/blog/orbs-1月のニュース/yes24-signing1.png) 覚書調印式に臨む Orbs と YES24\[/caption\]
+![覚書調印式に臨むOrbsとYES24](/assets/img/blog/orbs-1月のニュース/yes24-signing1.png)
 
 覚書調印式に臨む Orbs と YES24
 

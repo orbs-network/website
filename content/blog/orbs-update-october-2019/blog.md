@@ -46,7 +46,7 @@ Ultimately, the winner of the hackathon chose to rely on the Orbs blockchain for
 
 See: **[More thoughts on the UN Hackathon by Jonathan here.](https://www.orbs.com/un-hackathon-afterthought/)**
 
-\[caption id="attachment_7612" align="aligncenter" width="1600"\]![](/assets/img/blog/orbs-update-october-2019/ran-and-yonathan-at-hackathon.jpeg) Left to right: Orbs' Ran and Jonathan with David and Claire, the winning team\[/caption\]
+![Orbs' Ran and Jonathan with David and Claire, the winning team](/assets/img/blog/orbs-update-october-2019/ran-and-yonathan-at-hackathon.jpeg)
 
 ### Blockchain Education Webinars
 

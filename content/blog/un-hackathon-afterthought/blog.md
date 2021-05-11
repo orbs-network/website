@@ -52,4 +52,4 @@ Built with usability as its crown jewel, Orbs blockchain allowed them to rapidly
 
 You can learn more about the SDG Hackathon in [GBBCs post](https://medium.com/@GBBC/the-gbbc-hosts-hackathon-showcasing-how-blockchain-technology-can-be-used-to-advance-un-sdgs-67855f76a010), or reach out to me at [jonathanl@orbs.com](mailto:jonathanl@orbs.com).
 
-\[caption id="attachment_7612" align="aligncenter" width="1600"\]![](/assets/img/blog/un-hackathon-afterthought/ran-and-yonathan-at-hackathon.jpeg) Left to right: Orbs' Ran and Jonathan with David and Claire of the winning team\[/caption\]
+![Orbs' Ran and Jonathan with David and Claire of the winning team](/assets/img/blog/un-hackathon-afterthought/ran-and-yonathan-at-hackathon.jpeg)

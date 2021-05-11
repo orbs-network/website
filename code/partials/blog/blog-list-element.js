@@ -18,8 +18,9 @@ const BlogListElement = (props) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
-
-  const url = process.env.IS_DEV ? `blog/${blogUrl}` : blogUrl;
+  // TODO: REMOVE COMMENT AFTER WE DEPLOY THE BLOGS SCRIPT
+  // const url = process.env.IS_DEV ? `blog/${blogUrl}` : blogUrl;
+  const url = `blog/${blogUrl}`;
   return (
     <li
       className="blog-list-blog list-item"

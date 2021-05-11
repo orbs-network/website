@@ -44,7 +44,7 @@ We look forward to a wonderful partnership with an inspiring group of leaders an
 
 ![](/assets/img/blog/orbs-update-november-2019/Netta-Dubai.jpg)
 
-\[caption id="attachment*7674" align="aligncenter" width="845"\]![](/assets/img/blog/orbs-update-november-2019/dubai1-e1573054550506-845x684.jpg) \_This photo from WEF was taken by the Foundation's photo latest notarization app. More details on that to come soon ;)*\[/caption\]
+![This photo from WEF was taken by the Foundation's photo latest notarization app. More details on that to come soon](/assets/img/blog/orbs-update-november-2019/dubai1-e1573054550506-845x684.jpg)
 
 ...
 
@@ -151,4 +151,4 @@ As with any public event, if you plan to be in the neighborhood please feel free
 
 That’s it from me today! I must say its great to be back and in the full swing of things :) Be sure to follow Orbs’ official channels for upcoming exciting news and partnerships as they go public.
 
-\[caption id="attachment_7668" align="aligncenter" width="4608"\]![](/assets/img/blog/orbs-update-november-2019/socks-vietnam.jpg) Regards from Ha Long Bay, Vietnam\[/caption\]
+![Regards from Ha Long Bay, Vietnam](/assets/img/blog/orbs-update-november-2019/socks-vietnam.jpg)

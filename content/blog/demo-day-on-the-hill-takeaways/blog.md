@@ -47,4 +47,4 @@ It was exciting to see that leaders on the Hill understand that blockchain appli
 
 _**More on this event here:**_ [_Notable Remarks & Key Takeaways from the GBBC’s Demo Day on the Hill_](https://medium.com/@GBBC/notable-remarks-key-takeaways-from-the-gbbcs-demo-day-on-the-hill-258a895f8d50)
 
-\[caption id="attachment_7785" align="aligncenter" width="1199"\]![](/assets/img/blog/demo-day-on-the-hill-takeaways/Senator-Tom-Cotton-AR-speaks-at-“Demo-Day-on-the-Hill”-1-1199x630.jpeg) Senator Tom Cotton (AR) speaks at “Demo Day on the Hill” (via GBBC)\[/caption\]
+![Senator Tom Cotton (AR) speaks at “Demo Day on the Hill” (via GBBC)](/assets/img/blog/demo-day-on-the-hill-takeaways/Senator-Tom-Cotton-AR-speaks-at-“Demo-Day-on-the-Hill”-1-1199x630.jpeg)

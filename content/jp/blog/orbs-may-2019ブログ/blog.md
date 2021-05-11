@@ -36,7 +36,7 @@ Orbs のマンスリーブログにようこそ！　 4 月は私たちにとっ
 
 4 月 4 日は Orbs のブース、VIP ルームともに大盛況となりました。Uriel Peled の基調講演はとても好評で、聴衆の胸を打ちました。イベントで披露されたスライドはこちらでご覧いただけます。
 
-[iframe](https://docs.google.com/presentation/d/e/2PACX-1vSSWf97wTyUbjPFGRYgDE9Y-wZTwrQlpmqEAWLJoYXOD1im3LJDtr8YYci-_28A8iSyBlFn0MQ73EMl/embed?start=false&loop=false&delayms=3000 "iframe")
+<iframe src='https://docs.google.com/presentation/d/e/2PACX-1vSSWf97wTyUbjPFGRYgDE9Y-wZTwrQlpmqEAWLJoYXOD1im3LJDtr8YYci-_28A8iSyBlFn0MQ73EMl/embed?start=false&loop=false&delayms=3000'></iframe>
 
 Orbs チームは、韓国におけるブロックチェーン業界のキーメンバーとともに、さまざまなユースケースと技術の可能性を探っています。Gili が担当し、数多くの案件をフォローアップしています。韓国ミートアップのハイライトの一部はこちらでご覧いただけます。
 
@@ -132,7 +132,7 @@ Orbs は、イスラエルのブロックチェーン業界でどのようなイ
 
 ### **Yes24**
 
-\[caption id="attachment_6108" align="aligncenter" width="300"\]![](/assets/img/blog/orbs-may-2019ブログ/image1-300x225.png) 昨年 12 月に行われた Yes24 と Orbs の覚書締結の様子\[/caption\]
+![昨年 12 月に行われた Yes24 と Orbs の覚書締結の様子](/assets/img/blog/orbs-may-2019ブログ/image1-300x225.png)
 
 このたび、Yes24 と Orbs との間で正式に契約が締結されました。Yes24 は、Orbs 技術をオンライン書店に実装することで同社のデジタル製品およびサービスの市場拡大をはかる事業計画を策定し、Orbs と提携。昨年 12 月に覚書が締結されて以来の今回の最[終合意](http://www.thebchain.co.kr/news/articleView.html)で、韓国最大手のオンライン書店である Yes24 は、同社エコシステムをブロックチェーンベースに移行させることに一歩近づきました。
 
