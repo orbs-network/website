@@ -1,6 +1,7 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
 import { formatBlogDate } from "../../util/date";
+import { getBlogUrl, getBlogUrlProduction } from "../../util/mappers";
 import Img from "../shared/Img";
 
 const BlogListElement = (props) => {
@@ -18,9 +19,11 @@ const BlogListElement = (props) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
-  // TODO: REMOVE COMMENT AFTER WE DEPLOY THE BLOGS SCRIPT
-  // const url = process.env.IS_DEV ? `blog/${blogUrl}` : blogUrl;
-  const url = `blog/${blogUrl}`;
+  const isProduction = false;
+  const url = isProduction
+    ? getBlogUrlProduction(_ID, blogUrl)
+    : getBlogUrl(_ID, blogUrl);
+
   return (
     <li
       className="blog-list-blog list-item"

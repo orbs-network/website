@@ -1,4 +1,4 @@
-import { getElement, getElements } from "../heplers.js";
+import { getElement, getElementAttribute, getElements } from "../heplers.js";
 import { init } from "../index.js";
 import { initInfiniteScrolling } from "./infinite-sctoll.js";
 import { initPagination } from "./pagination.js";
@@ -16,8 +16,13 @@ const handleBlogListOnLoad = () => {
   blogsList = list;
   blogsContainer = getElement(".blog-list");
   blogsContainer.innerHTML = "";
-  list.forEach((element) => {
-    element.style.display = "flex";
+  list.forEach((blog) => {
+    const linkElement = blog.querySelector(".blog-list-blog-wrapper");
+    const src = getElementAttribute(linkElement, "href");
+    const newSrc = src;
+    linkElement.setAttribute("href", newSrc);
+    console.log(src);
+    blog.style.display = "flex";
   });
   initInfiniteScrolling(blogsContainer, blogsList);
   //initPagination(blogsContainer, blogsList);
