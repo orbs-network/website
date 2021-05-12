@@ -11,6 +11,7 @@ list:
   - orbsとkrystal-がdefiに特化したパートナー提携を発表/blog.md
   - orbsがp2pb2bに上場しました/blog.md
   - orbsがbinance-smart-chainで利用可能となりました/blog.md
+  - single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3-2/blog.md
   - orbs-チームのアップデート/blog.md
   - orbsによるdex接続-シングルサイド・ファーミング-リク-2/blog.md
   - orbsのスワップとステーキングが-metamaskで利用可能とな/blog.md
@@ -53,5 +54,6 @@ list:
   - orbs-10月のニュース：東アジアを席巻/blog.md
   - orbs　8月のニュース-イベント参加を通じて存在感を/blog.md
   - orbs7月のニュース-韓国を再訪/blog.md
+  - orbsftx/blog.md
   - orbs-ニューストークン配布に関するアップデート、japan/blog.md
 ---
