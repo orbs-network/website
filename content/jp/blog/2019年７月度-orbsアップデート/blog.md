@@ -117,7 +117,7 @@ Orbs の社長 Daniel Peled と私は韓国を定期訪問し、Orbs の韓国�
 
 ・開会の辞(Eddy) ・更新レポート(Gili) ・Orbs の概要（Daniel） ・閉会の辞（Spunky） ・Q&A
 
-![Getting ready](/assets/img/blog/2019年７月度-orbsアップデート/IMG_4389.jpg)準備をする
+![Getting ready](/assets/img/blog/2019年７月度-orbsアップデート/IMG_4389.jpg)
 
 **![](/assets/img/blog/2019年７月度-orbsアップデート/IMG_4390.jpg)**
 

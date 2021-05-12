@@ -2999,30 +2999,24 @@ body {
       width: 100%;
       height: 100%;
       object-fit: cover; }
-  .single-blog-body .text-p,
-  .single-blog-body ul,
-  .single-blog-body ol,
-  .single-blog-body .title-h2,
-  .single-blog-body .title-h3,
-  .single-blog-body h4,
-  .single-blog-body h5,
-  .single-blog-body h6 {
+  .single-blog-body * {
     width: 100%;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto; }
+  .single-blog-body .title-h2,
+  .single-blog-body .title-h3,
+  .single-blog-body .title-h4 {
+    margin-bottom: 13.76px;
+    padding-top: 20px;
+    font-family: "Montserrat";
+    font-weight: 600; }
   .single-blog-body .title-h2 {
-    font-size: 1.875rem;
-    margin-bottom: 13.76px;
-    padding-top: 20px;
-    font-family: "Montserrat";
-    font-weight: 600; }
+    font-size: 1.875rem; }
   .single-blog-body .title-h3 {
-    font-size: 1.575rem;
-    margin-bottom: 13.76px;
-    padding-top: 20px;
-    font-family: "Montserrat";
-    font-weight: 600; }
+    font-size: 1.563rem; }
+  .single-blog-body .title-h4 {
+    font-size: 1.375rem; }
 
 @media only screen and (max-width: 700px) {
   .single-blog-header .inner-links a {
@@ -3042,12 +3036,16 @@ body {
   .single-blog-body li,
   .single-blog-body ol {
     font-size: 1.125rem; }
-  .single-blog-body .title-h2 {
-    font-size: 1.5rem;
+  .single-blog-body .title-h2,
+  .single-blog-body .title-h3,
+  .single-blog-body .title-h4 {
     margin-bottom: 10px; }
+  .single-blog-body .title-h2 {
+    font-size: 1.5rem; }
   .single-blog-body .title-h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px; } }
+    font-size: 1.3rem; }
+  .single-blog-body .title-h4 {
+    font-size: 1.1rem; } }
 
 .network .page-header {
   margin-bottom: 13px;

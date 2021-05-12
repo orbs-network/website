@@ -8,7 +8,7 @@ links:
   - name: Team
     url: /jp/team
   - name: partnerships
-    url: /jp/partnerships
+    url: /jp/ecosystem
   - name: Faq
     url: /jp/faq
   - name: Blog

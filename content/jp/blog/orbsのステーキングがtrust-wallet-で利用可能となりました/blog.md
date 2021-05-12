@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/orbsのステーキングがtrust-wallet-で利用可能となりました！/bg.png
-blogUrl: orbsのステーキングがtrust-wallet-で利用可能となりました！
+blogUrl: orbsのステーキングがtrust-wallet-で利用可能となりました
 date: 2021-05-04
 title: OrbsのステーキングがTrust Wallet で利用可能となりました！
 author:
