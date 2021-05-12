@@ -5,7 +5,6 @@ list:
   - when-decentralized-finance-meets-the-traditional-system/blog.md
   - orbs-staking-is-now-available-on-the-trust-wallet-mobile/blog.md
   - orbs-update-april-2021-2/blog.md
-  - single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3-2/blog.md
   - orbs-is-now-live-on-pancakeswap/blog.md
   - bibox-exchange-lists-orbs-token-orbs/blog.md
   - orbs-and-krystal-announce-a-partnership-focused-on-defi/blog.md
