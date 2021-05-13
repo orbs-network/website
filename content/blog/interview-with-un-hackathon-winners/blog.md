@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/interview-with-un-hackathon-winners/bg.jpg
-blogUrl: blog/interview-with-un-hackathon-winners
+blogUrl: interview-with-un-hackathon-winners
 date: 2019-11-25
 title: "Developing on Orbs: Interview with UN Hackathon Winners"
 author:

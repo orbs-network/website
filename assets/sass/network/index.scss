@@ -31,7 +31,7 @@
       margin-bottom: 0px;
     }
     &-4 {
-      width: 60%;
+      width: 50%;
       max-width: 615px;
       .expending-box {
         &-list {
@@ -46,6 +46,14 @@
       padding-left: 100px;
       padding-top: 50px;
       margin-left: auto;
+      width: 50%;
+      .expending-box-title {
+        font-size: 1.063rem;
+      }
+    }
+    &-8 {
+      margin-top: 40px;
+      width: 100%;
     }
     &-6 {
       .expending-box-title {
@@ -91,6 +99,7 @@
 
   &-content {
     &-flex {
+      flex-wrap: wrap;
       display: flex;
       justify-content: space-between;
       margin-top: 70px;

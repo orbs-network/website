@@ -48,6 +48,11 @@ module.exports = exports = function renderer({
 
   // making all links relative
   Marked.link = (href, title, text) => {
+    if (title === "disabled") {
+      return `<a href="mailto:${href}"${
+        title ? `title="${title}"` : ""
+      } class='disabled-link' rel="noopener">${text}</a>`;
+    }
     if (title === "email") {
       return `<a href="mailto:${href}"${
         title ? `title="${title}"` : ""

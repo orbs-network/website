@@ -1,8 +1,8 @@
 import React from "react";
 
 const Section = (props) => {
-  const { order, children, type } = props;
-  const className = `network-${type}-${order} network-${type}`;
+  const { customClassName, children, type } = props;
+  const className = `network-${type}-${customClassName} network-${type}`;
   return <section className={className}>{children}</section>;
 };
 
@@ -13,6 +13,7 @@ const NetworkFlex = ({
   imagesGrid1,
   expendingBox4,
   expendingBox5,
+  expendingBox7,
   boxes1,
   boxes2,
   expendingBox6,
@@ -20,38 +21,41 @@ const NetworkFlex = ({
 }) => {
   return (
     <div className="network-content flex-column main-grid">
-      <Section order="1" type="text">
+      <Section customClassName="1" type="text">
         {expendingBox1}
       </Section>
-      <Section order="2" type="text">
+      <Section customClassName="2" type="text">
+        {expendingBox7}
+      </Section>
+      <Section customClassName="2" type="text">
         {expendingBox2}
       </Section>
-      <Section order="3" type="text">
+      <Section customClassName="3" type="text">
         {expendingBox3}
       </Section>
-      <Section order="1" type="images">
+      <Section customClassName="1" type="images">
         {imagesGrid1}
       </Section>
       <div className="network-content-flex network-content-flex-1">
-        <Section order="4" type="text">
+        <Section customClassName="4" type="text">
           {expendingBox4}
         </Section>
-        <Section order="5" type="text">
+        <Section customClassName="5" type="text">
           {expendingBox5}
         </Section>
       </div>
-      <Section order="1" type="boxes">
+      <Section customClassName="1" type="boxes">
         {boxes1}
       </Section>
       <div className="network-content-flex network-content-flex-2">
-        <Section order="6" type="text">
+        <Section customClassName="6" type="text">
           {expendingBox6}
         </Section>
-        <Section order="2" type="images">
+        <Section customClassName="2" type="images">
           {imagesGrid2}
         </Section>
       </div>
-      <Section order="2" type="boxes">
+      <Section customClassName="2" type="boxes">
         {boxes2}
       </Section>
     </div>

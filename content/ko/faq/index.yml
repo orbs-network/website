@@ -2,20 +2,19 @@ script: faq/index
 layout: pages/page
 
 header:
-  - /ko/_shared/navbar/index.md
+  - /_shared/navbar/index.md
 
 main:
   - body.md
 footer:
-  - /ko/_shared/footer/footer.md
+  - /_shared/footer/footer.md
 subscribe:
-  - /ko/_shared/subscribe/subscribe.md
+  - /_shared/subscribe/subscribe.md
 gdpr:
-  - /ko/_shared/gdpr/index.md
+  - /_shared/gdpr/index.md
 
 title: Faq
 meta_description: orbs pos universe
-
-meta_og_locale_alternate: en_US
-meta_og_locale: ko_KR
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
 meta_image:

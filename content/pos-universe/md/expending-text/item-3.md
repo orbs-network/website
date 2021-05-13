@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: POS ON ETHEREUM
+title: PoS on Ethereum
 readMoreButton: read more
 readLessButton: read less
 border: true
@@ -9,7 +9,7 @@ border: true
 
 Being a hybrid Blockchain, Orbs has always been able to utilize the benefits of both the Orbs PoS architecture along with the benefits of Ethereum - an external objective blockchain for the PoS logic.
 
-ORBS token, staking, delegation and voting already operate over Ethereum contracts, utilizing Ethereum’s value as an objective auditor, thus the Orbs platform’s architecture runs the core of the election logic on Ethereum. The entire election logic, reward calculation and distribution are carried out using Ethereum contracts providing multiple advantages.
+ORBS token, staking, delegation and voting already operate over Ethereum contracts, utilizing Ethereum’s value as an objective auditor., Tthus the Orbs platform’s architecture runs the core of the election logic on Ethereum. The entire election logic, reward calculation and distribution are carried out using Ethereum contracts, providing multiple advantages.
 
 First, it provides a high level of transparency, in particular to light clients. Orbs clients rely on the elected set of validators as the foundation on which applications’ data correctness is based. The ability of any application running on top of Orbs to validate the elected validators set by a simple light client, with no need to constantly audit the election process and PoS logic, is of high value to business applications.
 

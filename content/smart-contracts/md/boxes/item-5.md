@@ -5,4 +5,4 @@ image: /assets/img/smart-contracts/img-5.svg
 
 ##### certificationManager
 
-the certificationManager manages the guardians certification. The certificationManager can set and clear a guardian certification status. The guardian certification is determined according to the guardian’s identification data as advertised in the registration contract using the ID url metadata.
+the certificationManager manages the Gguardians’ certification. The certificationManager can set and clear a Gguardian certification status. The Gguardian certification is determined according to the Gguardian’s identification data as advertised in the registration contract using the ID url metadata.

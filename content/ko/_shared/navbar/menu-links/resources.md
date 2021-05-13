@@ -32,7 +32,7 @@ links:
     image: assets/img/navbar/menu/defi.svg
     text: Few words about it
   - name: Staking Calculator
-    url: https://vcs.orbs.network/
+    url: https://www.stakingrewards.com/earn/orbs
     image: assets/img/navbar/menu/calculator.svg
     text: Few words about it
   - name: prism

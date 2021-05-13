@@ -9,3 +9,5 @@ The fees and rewards in the Orbs Proof-of-Stake architecture serve two important
 Staking rewards are awarded for the stake that Guardians and Delegators allocate to contribute to the network’s security. A maximum annual reward equal to 12% of total delegated stake is awarded, subject to an 80M Orbs Token cap, addressing the tradeoff between an appealing incentive and sustainable inflation.
 
 Read more on the [Orbs POS V2 reward system](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund/)
+
+You can use this [staking calculator](https://www.stakingrewards.com/earn/orbs) by Staking Rewards.
