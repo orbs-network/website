@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: DELEGATIONS
+title: delegations
 readMoreButton: read more
 readLessButton: read less
 border: true

@@ -1,21 +1,20 @@
-title: Faq
 script: faq/index
 layout: pages/page
 
 header:
-  - /jp/_shared/navbar/index.md
+  - /_shared/navbar/index.md
 
 main:
   - body.md
 footer:
-  - /jp/_shared/footer/footer.md
+  - /_shared/footer/footer.md
 subscribe:
-  - /jp/_shared/subscribe/subscribe.md
-meta_description: orbs pos universe
+  - /_shared/subscribe/subscribe.md
 gdpr:
-  - /jp/_shared/gdpr/index.md
+  - /_shared/gdpr/index.md
 
+title: Faq
+meta_description: orbs pos universe
 meta_og_locale_alternate: ko_KR
-meta_og_locale_alternate_2: en_US
-meta_og_locale: ja_JP
+meta_og_locale: en_US
 meta_image:

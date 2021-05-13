@@ -9,9 +9,11 @@ const toggleTextBox = (event, element) => {
   const isClosedText = event.target.dataset.close;
   if (isOpen) {
     event.target.innerText = isClosedText;
+    limitedLinesText.classList.add("without-max-height");
     return limitedLinesText.classList.remove(limitedClassName);
   }
   event.target.innerText = isOpenText;
+  limitedLinesText.classList.remove("without-max-height");
   return limitedLinesText.classList.add(limitedClassName);
 };
 

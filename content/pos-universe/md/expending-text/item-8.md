@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: REVAMPED DELEGATION MECHANISM
+title: Revamped Delegation Mechanism
 readMoreButton: read more
 readLessButton: read less
 border: true

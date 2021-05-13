@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/link-btn
 text: Back to Orbs Overview
-url: /network
+url: /ko/network
 left: true
 ---

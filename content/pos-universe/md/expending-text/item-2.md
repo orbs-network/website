@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: A NEW REWARDS ASSIGNMENT AND DISTRIBUTION ARCHITECTURE
+title: A New Rewards Assignment and Distribution Architecture
 readMoreButton: read more
 readLessButton: read less
 border: true
@@ -15,4 +15,4 @@ This optimized reward distribution architecture provides a scalable and gas-effi
 
 This has multiple important benefits such as added flexibility to the Guardians and Delegators, who may claim the staking rewards at any point in time, significant reduction in costs for Guardians, and more.
 
-To learn more of our distribution mechanism, read our documentation​ on GitHub (insert link).
+To learn more aboutof thisour distribution mechanism, read our documentation​ on GitHub (insert link).

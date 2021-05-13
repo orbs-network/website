@@ -4,11 +4,11 @@ layout: partials/navbar/components/menu-links
 title: Overview
 
 links:
-  - name: the orbs network
+  - name: The Orbs Network
     url: /network
-  - name: orbs smart contracts
+  - name: Orbs smart contracts
     url: /smart-contracts
     subLink: true
-  - name: proof of stake universe
+  - name: Proof of stake Universe
     url: /pos-universe
 ---

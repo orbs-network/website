@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/orbs　8月のニュース-イベント参加を通じて存在感を/bg.jpg
+image: /assets/img/blog/orbs8月のニュース-イベント参加を通じて存在感を/bg.jpg
 blogUrl: orbs　8月のニュース-イベント参加を通じて存在感を
 date: 2018-09-12
 title: "ORBS　8月のニュース: イベント参加を通じて存在感を発揮"
