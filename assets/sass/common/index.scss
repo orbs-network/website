@@ -8,6 +8,10 @@ $light-gray: #d0d0d0;
   overflow: hidden;
 }
 
+.disabled-link {
+  pointer-events: none;
+}
+
 .scroll-top {
   position: fixed;
   right: 10px;
