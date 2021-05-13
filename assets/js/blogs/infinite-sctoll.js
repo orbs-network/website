@@ -2,7 +2,7 @@ import { getElement } from "../heplers.js";
 
 let lastRenderedElementIndex = 0;
 let listLoading = false;
-const pageSize = 9;
+const pageSize = 12;
 
 const loadMore = (container, blogsList) => {
   listLoading = true;
@@ -20,7 +20,7 @@ const loadMore = (container, blogsList) => {
 
 const handleScroll = (container, blogsList) => {
   const footer = getElement(".footer");
-  const extraOffset = 250;
+  const extraOffset = 180;
   window.addEventListener(
     "scroll",
     () => {
@@ -34,7 +34,6 @@ const handleScroll = (container, blogsList) => {
         scrollTop + clientHeight >=
         scrollHeight - footer.offsetHeight - extraOffset
       ) {
-        if (listLoading) return;
         loadMore(container, blogsList);
       }
     },

@@ -23,7 +23,7 @@ links:
     url: https://vcs.orbs.network/
 
   - name: Staking Calculator
-    url: https://vcs.orbs.network/
+    url: https://www.stakingrewards.com/earn/orbs
 
   - name: prism
     url: url

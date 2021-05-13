@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: "PROTOCOL WALLETS: STAKING REWARDS WALLET AND BOOTSTRAP REWARDS WALLET"
+title: "Protocol wallets: stakingRewardsWallet and bootstrapRewardsWallet"
 readMoreButton: read more
 readLessButton: read less
 border: true

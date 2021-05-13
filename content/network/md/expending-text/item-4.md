@@ -3,6 +3,7 @@ layout: partials/shared/expendable-text-box
 title: Virtual Chains
 readMoreButton: read more
 readLessButton: read less
+linesLimit: 14
 ---
 
 Every application running on Orbs typically runs on its own virtual chain. Virtualization
@@ -19,3 +20,7 @@ run concurrently on separate resources. The ledgers of virtual chains can
 also be
 maintained independently and their compute can be performed in parallel. Moreover,
 the isolation of state for each virtual chain reduces the memory requirements of the network’s virtual machine.
+
+#### More on Virtual Chains
+
+Virtual chains provide the feel and benefit of a dedicated blockchain while running on top of a shared physical node infrastructure, enjoying the security and decentralization provided by the shared environment as well as the isolation and customization provided by virtualization.

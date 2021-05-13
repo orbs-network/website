@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: FEES AND BOOTSTRAP REWARDS
+title: feesAndBootstrapRewards
 readMoreButton: read more
 readLessButton: read less
 border: true
