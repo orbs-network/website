@@ -3,16 +3,16 @@ layout: partials/navbar/components/menu-links
 title: About
 
 links:
-  - name: White papers
+  - name: Whitepapers
     url: /white-papers
   - name: Team
     url: /team
-  - name: orbs ecosystem
+  - name: Orbs ecosystem
     url: /ecosystem
   - name: Faq
     url: /faq
   - name: Blog
     url: /blog
-  - name: Contact us
+  - name: Contact
     url: /contact
 ---

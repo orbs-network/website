@@ -1,5 +1,5 @@
 ---
-layout: partials/shared/expending-list
+layout: partials/shared/expendable-text-box
 linesLimit: 3
 title: VALIDATOR NODES STREAMLINING
 readMoreButton: read more

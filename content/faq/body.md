@@ -8,6 +8,7 @@ sections:
       - md/section1/faq-2.md
       - md/section1/faq-3.md
       - md/section1/faq-4.md
+      - md/section1/faq-5.md
 
   - title: Orbs POS Universe
     list:
@@ -31,17 +32,13 @@ sections:
       - md/section4/faq-2.md
       - md/section4/faq-3.md
 
-  - title: Use cases & enterprise partnerships
-    list:
-      - md/section5/faq-1.md
-      - md/section5/faq-2.md
-      - md/section5/faq-3.md
-
   - title: DeFi
     list:
       - md/section6/faq-1.md
       - md/section6/faq-2.md
       - md/section6/faq-3.md
+      - md/section6/faq-4.md
+      - md/section6/faq-5.md
 sideMenuTitle: faq
 sideMenuLinks:
   - md/menu/index.md

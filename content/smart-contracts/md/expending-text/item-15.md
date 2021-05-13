@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/expendable-text-box
 linesLimit: 3
-title: PROTOCOL
+title: protocol
 readMoreButton: read more
 readLessButton: read less
 border: true

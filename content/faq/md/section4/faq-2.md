@@ -14,3 +14,5 @@ Documentation is available at:
 [https://docs.orbs.network/](https://docs.orbs.network/)
 Demos are available at:
 [https://demos.orbs.network/](https://demos.orbs.network/)
+
+Developers can also set up virtual machine images on [AWS](orbs-live-on-amazon-ami-published-by-aws-marketplace), [MS Azure](orbs-is-live-on-microsoft-azure) and [Google Cloud](orbs-is-live-on-google-cloud) in order to start experimenting with developing on the Orbs network

@@ -1,5 +1,5 @@
 ---
-layout: partials/shared/expending-list
+layout: partials/shared/expendable-text-box
 title: Advantages
 readMoreButton: read more
 readLessButton: read less

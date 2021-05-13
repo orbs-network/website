@@ -2,6 +2,8 @@
 layout: partials/network/network-flex
 expendingBox1:
   - ./expending-text/item-1.md
+expendingBox7:
+  - ./expending-text/item-10.md
 expendingBox2:
   - ./expending-text/item-2.md
 expendingBox3:

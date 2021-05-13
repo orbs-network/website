@@ -1,7 +1,7 @@
 ---
 layout: partials/footer/posts-and-tweets/footer-post
 image: ../../assets/img/blog/single-sided-farming/bg.jpeg
-postUrl: blog/single-sided-farming
+postUrl: ko/single-sided-farming
 date: Jan 01, 2019
 on: "On:"
 ---
