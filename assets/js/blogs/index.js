@@ -17,11 +17,17 @@ const handleBlogListOnLoad = () => {
   blogsContainer = getElement(".blog-list");
   blogsContainer.innerHTML = "";
   list.forEach((blog) => {
+    const imageSrc = getElementAttribute(blog, "data-image");
+    const imageContainer = blog.querySelector(".blog-list-blog-img");
+    const img = document.createElement("img");
+    img.setAttribute("src", imageSrc);
+    img.setAttribute("alt", "blog");
+    imageContainer.appendChild(img);
     const linkElement = blog.querySelector(".blog-list-blog-wrapper");
     const src = getElementAttribute(linkElement, "href");
     const newSrc = src;
     linkElement.setAttribute("href", newSrc);
-    console.log(src);
+    console.log(imageContainer);
     blog.style.display = "flex";
   });
   initInfiniteScrolling(blogsContainer, blogsList);
