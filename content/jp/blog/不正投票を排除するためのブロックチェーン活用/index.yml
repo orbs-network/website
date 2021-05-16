@@ -2,14 +2,14 @@ layout: pages/page
 script: blog/index
 
 header:
-  - /_shared/navbar/index.md
+  - ../../_shared/navbar/index.md
 main: body.md
 footer:
-  - /_shared/footer/footer.md
+  - ../../_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+  - ../../_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
 title: 不正投票を排除するためのブロックチェーン活用
 gdpr:
-  - /_shared/gdpr/index.md
+  - ../../_shared/gdpr/index.md
