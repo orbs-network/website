@@ -1,14 +1,14 @@
 layout: pages/page
 script: globe/index
 header:
-  - _shared/navbar/index.md
+  - ./_shared/navbar/index.md
 
 main:
   - home/body.md
 subscribe:
-  - _shared/subscribe/subscribe.md
+  - ./_shared/subscribe/subscribe.md
 gdpr:
-  - _shared/gdpr/index.md
+  - ./_shared/gdpr/index.md
 meta_description: プラットフォームの成長は、どれだけユーザーのニーズに応えられるかにかかっています。だからこそ私たちは、ユーザーであるアプリケーション開発者を第一に考えてOrbsを開発しました。
 title: Orbs - ハイブリッドブロックチェーン
 

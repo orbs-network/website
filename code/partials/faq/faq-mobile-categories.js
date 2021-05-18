@@ -10,6 +10,7 @@ const FaqMobileMenu = ({ sections }) => {
         {sections.map((section, index) => {
           return (
             <a
+              rel="noopener"
               href={`#${section.title}`}
               className="faq-mobile-menu-link"
               key={index}
