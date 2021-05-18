@@ -16,6 +16,7 @@ const Main = ({
         sections.map((section, index) => {
           return (
             <a
+              rel="noopener"
               href={`#${section.title}`}
               className="faq-side-menu-links-link"
               key={index}

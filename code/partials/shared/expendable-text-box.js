@@ -12,6 +12,20 @@ const generateClassName = (borderTop, borderBottom) => {
   return className;
 };
 
+const getTitle = (title, url) => {
+  if (!title) {
+    return "";
+  }
+  if (url) {
+    return (
+      <a href={url} target="_blank" className="expending-box-link">
+        <h4 className="expending-box-title">{title}</h4>
+      </a>
+    );
+  }
+  return <h4 className="expending-box-title">{title}</h4>;
+};
+
 const ExpendableTextBox = ({
   _body,
   linesLimit,
@@ -20,6 +34,7 @@ const ExpendableTextBox = ({
   readLessButton,
   border,
   borderBottom,
+  url,
 }) => {
   const style = {
     WebkitLineClamp: linesLimit,
@@ -32,7 +47,7 @@ const ExpendableTextBox = ({
       data-aos={animations.fadeTop}
     >
       <div className="expending-box-content">
-        {title && <h4 className="expending-box-title">{title}</h4>}
+        {getTitle(title, url)}
         <div
           className={
             linesLimit

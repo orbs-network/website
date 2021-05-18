@@ -395,6 +395,11 @@ body {
         height: 100%;
         object-fit: contain; }
 
+.expending-box a {
+  text-decoration: none; }
+  .expending-box a:hover {
+    text-decoration: underline; }
+
 .expending-box-title,
 .expending-box .title-h4 {
   letter-spacing: 1px;
@@ -572,6 +577,11 @@ body {
       display: none;
       object-fit: cover;
       transform-origin: center; }
+
+.expending-box a {
+  text-decoration: none; }
+  .expending-box a:hover {
+    text-decoration: underline; }
 
 .expending-box-title,
 .expending-box .title-h4 {
@@ -2358,6 +2368,8 @@ body {
       .footer-posts-and-tweets .footer-tweet:nth-child(even),
       .footer-posts-and-tweets .footer-sub-title:nth-child(even) {
         margin-right: 0px; }
+    .footer-posts-and-tweets a {
+      text-decoration: none; }
     .footer-posts-and-tweets-mobile {
       display: none; }
   .footer-flex {

@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/link-btn
 text: もっと詳しく知る
-url: /ko/smart-contracts
+url: /ko/network
 right: true
 ---

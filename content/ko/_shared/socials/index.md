@@ -9,7 +9,7 @@ links:
     url: https://t.me/OrbsNetwork
 
   - img: /assets/img/socials/quora.svg
-    url: https://community.orbs.network/
+    url: https://discord.gg/sswGDYGBt5
 
   - img: /assets/img/socials/github.svg
     url: https://github.com/orbs-network/
