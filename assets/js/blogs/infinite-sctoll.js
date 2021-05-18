@@ -1,11 +1,9 @@
 import { getElement } from "../heplers.js";
 
 let lastRenderedElementIndex = 0;
-let listLoading = false;
 const pageSize = 12;
 
 const loadMore = (container, blogsList) => {
-  listLoading = true;
   blogsList.forEach((blog, index) => {
     const renderElement =
       index >= lastRenderedElementIndex &&
@@ -15,7 +13,6 @@ const loadMore = (container, blogsList) => {
     }
   });
   lastRenderedElementIndex += pageSize;
-  listLoading = false;
 };
 
 const handleScroll = (container, blogsList) => {
@@ -29,11 +26,10 @@ const handleScroll = (container, blogsList) => {
         scrollHeight,
         clientHeight,
       } = document.documentElement;
-
-      if (
-        scrollTop + clientHeight >=
-        scrollHeight - footer.offsetHeight - extraOffset
-      ) {
+      const isLoadMore =
+        scrollTop + clientHeight >
+        scrollHeight - footer.offsetHeight - extraOffset;
+      if (isLoadMore) {
         loadMore(container, blogsList);
       }
     },
