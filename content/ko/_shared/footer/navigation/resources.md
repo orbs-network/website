@@ -1,5 +1,5 @@
 ---
-layout: partials/footer/navigation/links
+layout: partials/footer/navigation/resources-links
 title: Resources
 
 links:
@@ -26,5 +26,5 @@ links:
     url: https://www.stakingrewards.com/earn/orbs
 
   - name: prism
-    url: url
+    url: https://prism.orbs.network/
 ---
