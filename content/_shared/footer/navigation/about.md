@@ -7,8 +7,8 @@ links:
     url: /white-papers
   - name: Team
     url: /team
-  - name: partnerships
-    url: /partnerships
+  - name: Ecosystem
+    url: /ecosystem
   - name: Faq
     url: /faq
   - name: Blog

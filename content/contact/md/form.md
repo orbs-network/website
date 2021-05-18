@@ -1,7 +1,7 @@
 ---
 layout: partials/contact/contact-form
 title: contact us
-subTitle: LOREM IPSUM TEXT ABOUT CONTACT US
+subTitle: We'd love to hear from you. Here's how you can reach us...
 firstName: First Name
 firstNamePlaceholder: Enter your first name here
 lastName: Last Name

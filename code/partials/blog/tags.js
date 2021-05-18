@@ -7,6 +7,7 @@ const Tags = ({ tags }) => {
       {tags.map((tag, index) => {
         return (
           <a
+            rel="noopener"
             key={index}
             href={`#${tag}`}
             className="blog-tags-tag"

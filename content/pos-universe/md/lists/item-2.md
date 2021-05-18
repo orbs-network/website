@@ -6,7 +6,7 @@ img: ../assets/img/pos-universe/guardians.svg
 
 Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision, investing time and efforts in the network success.
 
-[Become an Orbs Guardian!](/ "button")
+[Become an Orbs Guardian!](https://github.com/orbs-network/validator-instructions "button")
 
 ##### Roles and Responsibilities
 

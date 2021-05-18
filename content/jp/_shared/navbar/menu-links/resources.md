@@ -36,7 +36,7 @@ links:
     image: assets/img/navbar/menu/calculator.svg
     text: Few words about it
   - name: prism
-    url: url
+    url: https://prism.orbs.network/
     image: assets/img/navbar/menu/prism.svg
     text: Few words about it
 ---
