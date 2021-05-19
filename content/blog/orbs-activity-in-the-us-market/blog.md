@@ -5,7 +5,7 @@ blogUrl: orbs-activity-in-the-us-market
 date: 2020-02-12
 title: Orbs’ Activity in the US Market
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## Orbs’ Activity in the US Market
 ---

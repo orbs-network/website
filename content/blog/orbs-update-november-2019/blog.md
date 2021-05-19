@@ -5,7 +5,7 @@ blogUrl: orbs-update-november-2019
 date: 2019-11-06
 title: Orbs Update November 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "In this update:** San Francisco Blockchain Week ⁂ SecurePro Partnership ⁂ New: Demos Page ⁂ Co-Founder Podcast Interview ⁂ Orbs Speaks to Congress ⁂ World Economic Forum in Dubai"
 ---

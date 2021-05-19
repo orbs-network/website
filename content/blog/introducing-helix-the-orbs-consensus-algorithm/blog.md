@@ -5,7 +5,7 @@ blogUrl: introducing-helix-the-orbs-consensus-algorithm
 date: 2018-05-08
 title: "Introducing Helix: The Orbs Consensus Algorithm"
 author:
-  - ../common/authors/DavidY.md
+  - /blog/common/authors/DavidY.md
 type:
 short_description: "Helix white paper by the Orbs Research Team: Avi Asayag, Gad Cohen, Ido Grayevsky, Maya Leshkowitz Ori Rottenstreich, Ronen Tamari and David Yakira"
 ---

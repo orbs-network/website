@@ -5,7 +5,7 @@ blogUrl: blockchain-system-to-report-child-abuse
 date: 2020-11-09
 title: Blockchain System to report child abuse
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: ## Preventing Repeat Abuse of Children -
 ---

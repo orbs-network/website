@@ -5,7 +5,7 @@ blogUrl: kucoin-exchange-lists-orbs-token-orbs
 date: 2021-03-26
 title: KuCoin Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: (/assets/img/blog/kucoin-exchange-lists-orbs-token-orbs/photo_2021-03-24_14-22-48-1030x579.jpg)
 ---

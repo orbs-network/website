@@ -5,7 +5,7 @@ blogUrl: staking-rewardsがorbsのステーキングを開始
 date: 2021-02-03
 title: Staking RewardsがOrbsのステーキングを開始
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 業界大手ステーキング・プロバイダーStaking Rewardsが、ステーキング・プラットフォームにORBSトークンを追加したことをお知らせします！
 ---

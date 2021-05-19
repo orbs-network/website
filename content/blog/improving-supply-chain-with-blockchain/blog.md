@@ -5,7 +5,7 @@ blogUrl: improving-supply-chain-with-blockchain
 date: 2021-04-04
 title: Improving Supply Chain with Blockchain
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: (https://www.youtube.com/watch?v=_jOy17fuzy8&t=2670s)_”_.  I was asked to discuss the value add that blockchain could provide for supply chains during the pandemic.  An apt topic for discussion, as during the last year corona has jarred many supply chains to their core.
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-technology-update-november-2019
 date: 2019-11-18
 title: Orbs Technology Update November 2019
 author:
-  - ../common/authors/OrenGampel.md
+  - /blog/common/authors/OrenGampel.md
 type:
 short_description: Highlights:** Ver 1.2.2 released ⁂ New Staking scheme research complete ⁂ New stress & endurance testing suite ⁂ New Reputation feature ⁂ New demos and status pages ⁂ More developers contributing
 ---

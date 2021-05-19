@@ -5,7 +5,7 @@ blogUrl: demo-day-on-the-hill-takeaways
 date: 2019-11-26
 title: Evangelizing Blockchain to the US Congress
 author:
-  - ../common/authors/DannyBrownWolf.md
+  - /blog/common/authors/DannyBrownWolf.md
 type:
 short_description: Earlier this month, I represented the Orbs team in Washington DC for “Demo Day on the Hill”. The event was organized by the [Global Blockchain Business Council](https://gbbcouncil.org/) in conjunction with [The Congressional Blockchain Caucus](https://soto.house.gov/media/press-releases/rep-darren-soto-named-co-chair-congressional-blockchain-caucus).
 ---

@@ -5,7 +5,7 @@ blogUrl: who-controls-your-blockchain
 date: 2018-05-03
 title: Who Controls Your Blockchain?
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: "This post was originally published on_** [**_Hackernoon_**](https://hackernoon.com/who-controls-your-blockchain-5b8bf7ec7f1a)"
 ---

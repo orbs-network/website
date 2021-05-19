@@ -5,7 +5,7 @@ blogUrl: orbs-update-march-2021
 date: 2021-03-14
 title: Orbs Update March 2021
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: #### **In this update:** Orbs Community Console ⁂ DeFi.org accelerator ⁂ Xangle ⁂ GBBC Annual Report ⁂ Weekly Updates with Tal Kol ⁂ Promos and Teasers
 ---

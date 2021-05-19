@@ -5,7 +5,7 @@ blogUrl: orbsのステーキングがtrust-wallet-で利用可能となりまし
 date: 2021-05-04
 title: OrbsのステーキングがTrust Wallet で利用可能となりました！
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: OrbsのステーキングがTrust Walletで利用可能になりました!
 ---

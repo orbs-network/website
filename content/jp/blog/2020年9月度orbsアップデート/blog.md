@@ -5,7 +5,7 @@ blogUrl: 2020年9月度orbsアップデート
 date: 2020-09-16
 title: 2020年9月度Orbsアップデート
 author:
-  - ../common/authors/EranPeled.md
+  - /jp/blog/common/authors/EranPeled.md
 type:
 short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
 ---

@@ -5,7 +5,7 @@ blogUrl: writing-front-end-on-orbs
 date: 2019-06-17
 title: "Guide to Apps on the Orbs Network, Part II: Writing a Front-End Part"
 author:
-  - ../common/authors/SergeyBolshchikov.md
+  - /blog/common/authors/SergeyBolshchikov.md
 type:
 short_description: In the [previous post](../writing-an-app-on-orbs/), we’ve discussed how to write and deploy a smart contract on the Orbs Network. This part will be devoted to writing a front-end application, and interaction with the contract via orbs-client-sdk in JavaScript.
 ---

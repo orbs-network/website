@@ -5,7 +5,7 @@ blogUrl: orbs-and-cban
 date: 2020-01-16
 title: Orbs and the Communications Business Automation Network (CBAN)
 author:
-  - ../common/authors/AssafBielski.md
+  - /blog/common/authors/AssafBielski.md
 type:
 short_description: (https://interactive.itwglf.com/ITW-Global-Leaders-Forum) (Global Leaders Forum), the main collaboration forum for the wholesale telecom business. Backed by some of the biggest telecom carriers globally, including names like Orange, Deutsche Telekom, and Telefonica, CBAN was jointly developed with a group of both telecom and blockchain technology providers.
 ---

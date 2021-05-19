@@ -5,7 +5,7 @@ blogUrl: node-upgrade-version-1-1-1
 date: 2019-07-24
 title: "Orbs Node Upgrade: Version 1.1.1"
 author:
-  - ../common/authors/NoamBerg.md
+  - /blog/common/authors/NoamBerg.md
 type:
 short_description: The latest proposed version of the Orbs platform was released on July 22, 2019 and accepted by the Orbs network’s Validators. The Orbs core team is very excited to publish the first version that is not a hot-fix and contains actual features.
 ---

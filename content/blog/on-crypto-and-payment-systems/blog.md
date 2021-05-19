@@ -5,7 +5,7 @@ blogUrl: on-crypto-and-payment-systems
 date: 2019-06-18
 title: On Cryptocurrencies and Payment Systems
 author:
-  - ../common/authors/NeilGandal.md
+  - /blog/common/authors/NeilGandal.md
 type:
 short_description: "Today (June 18, 2019,) Facebook formally announced a plan for a global financial system based on a new cryptocurrency called Libra."
 ---

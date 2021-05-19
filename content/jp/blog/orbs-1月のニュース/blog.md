@@ -5,7 +5,7 @@ blogUrl: orbs-1月のニュース
 date: 2019-01-21
 title: ORBS 1月のニュース
 author:
-  - ../common/authors/Gil.md
+  - /jp/blog/common/authors/Gil.md
 type:
 short_description: Orbs 共同創業者からの新年の抱負、GAMMAローンチ、パートナーシップ、開発状況、ニューリリース、特別イベントの情報など盛りだくさんでお届けします！
 ---

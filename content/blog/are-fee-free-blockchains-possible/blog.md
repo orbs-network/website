@@ -5,7 +5,7 @@ blogUrl: are-fee-free-blockchains-possible
 date: 2018-05-10
 title: Are fee-free blockchains possible?
 author:
-  - ../common/authors/DavidY.md
+  - /blog/common/authors/DavidY.md
 type:
 short_description: Kik’s announcements yesterday ([here](https://medium.com/kinfoundation/kin-blockchain-taking-fate-into-our-own-hands-f5bdfa759502) and [here](https://www.coindesk.com/chain-mobile-app-kik-fork-stellar-fee-free-blockchain/), for example) to fork the Stellar blockchain and develop a “fee-free blockchain” of their own invoked the question — is this even possible? Does it make sense? Can a fee-free blockchain be kept secure? What about spam?
 ---

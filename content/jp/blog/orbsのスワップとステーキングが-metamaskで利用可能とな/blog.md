@@ -5,7 +5,7 @@ blogUrl: orbsのスワップとステーキングが-metamaskで利用可能と�
 date: 2021-04-18
 title: Orbsのスワップとステーキングが MetaMaskで利用可能となりました!
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---

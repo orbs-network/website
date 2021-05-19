@@ -5,7 +5,7 @@ blogUrl: bithumb-announces-orbs-staking
 date: 2021-03-22
 title: Bithumb Announces ORBS Staking
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: (/assets/img/blog/bithumb-announces-orbs-staking/photo_2021-03-22_14-00-38-1030x438.jpg)
 ---

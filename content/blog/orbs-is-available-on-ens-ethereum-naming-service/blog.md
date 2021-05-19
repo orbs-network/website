@@ -5,7 +5,7 @@ blogUrl: orbs-is-available-on-ens-ethereum-naming-service
 date: 2021-04-14
 title: Orbs is Available on ENS (Ethereum Naming Service)
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---

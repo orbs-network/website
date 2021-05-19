@@ -5,7 +5,7 @@ blogUrl: rd-update-august-2019
 date: 2019-08-18
 title: Orbs R&D Update August 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: (https://www.orbs.com/orbs-update-august-2019/) I wanted to keep everyone in the loop regarding the R&D progress being made by Orbs contributors. Here is a breakdown of some of the things accomplished during the past month.
 ---

@@ -5,7 +5,7 @@ blogUrl: why-trump-should-want-everyone-using-bitcoin-including-bad-guys
 date: 2019-08-05
 title: "Dear President Trump: Here’s why you want everyone using Bitcoin, including the bad guys"
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: (https://twitter.com/realdonaldtrump/status/1149472282584072192) about Bitcoin and cryptocurrencies, stating that “Unregulated Crypto Assets can facilitate unlawful behavior, including drug trade and other illegal activity....” spooked the crypto market.
 ---

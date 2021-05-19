@@ -5,7 +5,7 @@ blogUrl: the-orbs-project-overview-of-enterprise-projects-and-partnerships
 date: 2020-09-18
 title: "The Orbs Project: Overview of Enterprise Projects and Partnerships"
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## The Orbs Project:
 ---

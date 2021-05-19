@@ -5,7 +5,7 @@ blogUrl: orbs-update-november-2020
 date: 2020-11-03
 title: Orbs Update November 2020
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: In this update:** DeFi Ecosystem Grant Program ⁂ Locking of Team’s Tokens ⁂ KBW 2020 ⁂ State of the Network ⁂ Orbs on CoinGecko ⁂ Media Highlights ⁂ Meet the Orbs Team Vlog
 ---

@@ -5,7 +5,7 @@ blogUrl: making-sense-of-libra
 date: 2019-06-30
 title: Making Sense of Libra
 author:
-  - ../common/authors/OdedN.md
+  - /blog/common/authors/OdedN.md
 type:
 short_description: Just like almost everyone in the blockchain space, I was very excited to learn about Facebook’s Libra blockchain and coin. Like many big moments in technology, the launch of Libra marks a step forward not because of unprecedented innovation, but rather because it takes a lot of advancements made in the field and makes use of them in what may become a mainstream product that touches the lives of billions of people. That said, I must add that the work behind Libra is nothing short of brilliant. Integrating so many state-of-the-art technologies into what seems to be 3 very intricate products, that can shortly be ready for large-scale deployment, is extremely complex. In such complex projects, fundamental errors are easy to make and may fail the entire endeavor. From what Libra published so far, I see a robust framework that appears very capable of succeeding at its very ambitious goals.
 ---

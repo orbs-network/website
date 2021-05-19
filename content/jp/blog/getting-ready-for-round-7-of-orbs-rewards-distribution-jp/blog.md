@@ -5,7 +5,7 @@ blogUrl: getting-ready-for-round-7-of-orbs-rewards-distribution-jp
 date: 2020-12-08
 title: 12月7日に第7回目のリワードを配布
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: Orbsネットワークは2019年3月28日にスタートしました。Orbsのコミュニティのみなさんがステーキングをしてくださることで、ネットワークがより強固に保たれ、Orbsネットワークをサービスに利用する企業の皆様にも安心してご使用いただけるようになります。
 ---

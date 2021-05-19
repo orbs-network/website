@@ -5,7 +5,7 @@ blogUrl: orbs-update-july-2019
 date: 2019-07-08
 title: Orbs Update July 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: In this update:** GLF Partnership ⁂ Hdac signing ⁂ Forbes feature ⁂ Orbs Awards distribution ⁂ App development guidelines ⁂ Founder interviews ⁂ and more
 ---

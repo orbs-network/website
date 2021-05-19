@@ -5,7 +5,7 @@ blogUrl: orbsとbinanceが共同で「defiアクセラレータ」のローン�
 date: 2021-01-11
 title: OrbsとBinanceが共同で「DeFiアクセラレータ」のローンチを発表
 author:
-  - ../common/authors/EranPeled.md
+  - /jp/blog/common/authors/EranPeled.md
 type:
 short_description: ### ![](/assets/img/blog/orbsとbinanceが共同で「defiアクセラレータ」のローンチを/Untitled-4-1030x839.jpg)
 ---

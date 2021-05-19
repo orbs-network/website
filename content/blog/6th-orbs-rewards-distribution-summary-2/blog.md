@@ -5,7 +5,7 @@ blogUrl: 6th-orbs-rewards-distribution-summary-2
 date: 2020-10-01
 title: "6th Orbs Rewards Distribution: Summary"
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: On September 30, 2020, Orbs network rewards distribution occurred, as described in the following post.
 ---

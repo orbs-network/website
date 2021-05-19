@@ -5,7 +5,7 @@ blogUrl: blog/coinsbit-exchange-lists-orbs-token-orbs
 date: 2021-04-14
 title: Coinsbit Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description:
 ---

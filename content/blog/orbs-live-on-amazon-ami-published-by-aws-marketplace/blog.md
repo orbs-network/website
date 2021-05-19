@@ -5,7 +5,7 @@ blogUrl: orbs-live-on-amazon-ami-published-by-aws-marketplace
 date: 2021-04-08
 title: Orbs Live on Amazon - AMI Published by AWS Marketplace
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---

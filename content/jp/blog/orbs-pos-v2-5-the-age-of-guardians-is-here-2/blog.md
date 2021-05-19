@@ -5,7 +5,7 @@ blogUrl: orbs-pos-v2-5-the-age-of-guardians-is-here-2
 date: 2020-11-17
 title: "OrbsのPoS V2.5: ガーディアンの時代がついに登場"
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: やっとオフィシャルに！
 ---

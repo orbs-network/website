@@ -5,7 +5,7 @@ blogUrl: ethereum-suffers-from-a-gas-crisis-and-its-by-design
 date: 2018-07-09
 title: Ethereum Suffers from a Gas Crisis, and It’s by Design
 author:
-  - ../common/authors/OdedN.md
+  - /blog/common/authors/OdedN.md
 type:
 short_description: It is far from the first time, but gas prices on Ethereum skyrocketed again last week, this time as a result of a [silly marketing gimmick](https://www.coindesk.com/new-crypto-exchange-draws-fire-over-controversial-business-model/) most Ethereum users shouldn’t have cared about in the first place. Apparently, Vitalik Buterin and Vlad Zamfir have been looking into [alternative transaction pricing models](https://ethresear.ch/t/first-and-second-price-auctions-and-improved-transaction-fee-markets/2410) to mitigate such crises.
 ---

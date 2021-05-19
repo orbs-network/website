@@ -5,7 +5,7 @@ blogUrl: before-eos-ehtereum-ppcoin
 date: 2018-06-25
 title: "Before EOS and Ethereum: How much has Proof-of-Stake evolved since PPCoin?"
 author:
-  - ../common/authors/DavidY.md
+  - /blog/common/authors/DavidY.md
 type:
 short_description: _This is Part II of a series on Proof-of-Stake’s growing influence in crypto and blockchain, as well as issues its implementation still faces. This is an expanded version of a talk I gave for Blockchain Academy on June 11, 2018._
 ---

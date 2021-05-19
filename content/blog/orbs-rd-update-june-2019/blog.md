@@ -5,7 +5,7 @@ blogUrl: orbs-rd-update-june-2019
 date: 2019-07-02
 title: Orbs R&D Update June 2019
 author:
-  - ../common/authors/EranK.md
+  - /blog/common/authors/EranK.md
 type:
 short_description: (https://www.orbs.com/technology/roadmap/), the internal R&D hackathon, development of the notary use-case, and the troubleshooting case study.
 ---

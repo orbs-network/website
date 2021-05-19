@@ -5,7 +5,7 @@ blogUrl: orbsがp2pb2bに上場しました
 date: 2021-04-27
 title: ORBSがP2PB2Bに上場しました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---

@@ -5,7 +5,7 @@ blogUrl: business-of-blockchain-march-12-2019
 date: 2019-03-17
 title: "Business of Blockchain: March 12, 2019"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: "This week in blockchain business: Facebook is making its preparations, Lyft is getting involved a little, dApps aren't dead after all and big companies are still pushing for mass market adoption."
 ---

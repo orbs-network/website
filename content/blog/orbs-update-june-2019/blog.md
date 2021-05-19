@@ -5,7 +5,7 @@ blogUrl: orbs-update-june-2019
 date: 2019-06-06
 title: Orbs Update June 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "In this update:** ⁂ NEW: Roadmap! ⁂ Orbs goes to India ⁂ NY Blockchain Week ⁂ 1st Hackathon ⁂ NEW: Validator monitoring tool ⁂ Co-founders AMA ⁂ WEF Membership ⁂ Ministry of Finance ⁂ IEEE Conference ⁂ Block TV Interview ⁂ Techstars Demo Day ⁂ Events"
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-partners-with-celsius-network
 date: 2019-07-17
 title: Orbs Partners with Celsius Network
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: # with Celsius Network
 ---

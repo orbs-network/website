@@ -5,7 +5,7 @@ blogUrl: orbsftx
 date: 2021-04-02
 title: ORBSがFTX取引所に上場しました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: (/assets/img/blog/orbsftx/photo_2021-04-01_22-13-11-1030x591.jpg)
 ---

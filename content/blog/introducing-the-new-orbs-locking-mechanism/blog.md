@@ -5,7 +5,7 @@ blogUrl: introducing-the-new-orbs-locking-mechanism
 date: 2020-04-06
 title: The New ORBS Locking Mechanism
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## **Update to the Orbs Network:** Staking and locking your Orbs Tokens
 ---

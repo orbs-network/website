@@ -5,7 +5,7 @@ blogUrl: orbs-is-now-live-on-pancakeswap-2
 date: 2021-05-01
 title: OrbsがPancakeSwapで利用可能となりました!
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 先日の投稿 では、EthereumとBSCの間のクロスチェーン・ブリッジとしてAnyswapの[multichain.xyz](https://multichain.xyz/)を使用し、Binance Smart Chain（BSC）でORBSトークンが利用可能になったことを発表しました。同記事ではまた、DeFi分野におけるBSCチェーンの急成長を検証し、Ethereum上に構築されたライバルのDeFiエコシステムと比較しました。
 ---

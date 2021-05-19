@@ -5,7 +5,7 @@ blogUrl: grant-approved-paradigm-fund
 date: 2020-10-13
 title: "Grant Approved: Paradigm"
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## **Orbs Ecosystem Grant Program -**
 ---

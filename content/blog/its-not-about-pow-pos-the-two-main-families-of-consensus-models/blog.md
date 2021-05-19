@@ -5,7 +5,7 @@ blogUrl: its-not-about-pow-pos-the-two-main-families-of-consensus-models
 date: 2018-04-30
 title: "It’s not about PoW/PoS: The Two Main Families of Consensus Models"
 author:
-  - ../common/authors/OdedN.md
+  - /blog/common/authors/OdedN.md
 type:
 short_description: When I’m discussing blockchain technology with people, I too often hear people ask, “Is it proof-of-stake or is it proof-of-work?” And in 99% of the times, the answer would be “neither.”
 ---

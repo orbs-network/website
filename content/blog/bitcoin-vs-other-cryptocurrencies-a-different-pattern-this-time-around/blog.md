@@ -5,7 +5,7 @@ blogUrl: bitcoin-vs-other-cryptocurrencies-a-different-pattern-this-time-around
 date: 2019-08-07
 title: "Bitcoin Vs. Other Cryptocurrencies: A Different Pattern This Time Around?:"
 author:
-  - ../common/authors/NeilGandal.md
+  - /blog/common/authors/NeilGandal.md
 type:
 short_description: _This is a guest post by professors Neil Gandal (Berglass school if economics, Tel Aviv University) and Joshua Gans (Rotman School of Management, University of Toronto), advisors to the Orbs project._
 ---

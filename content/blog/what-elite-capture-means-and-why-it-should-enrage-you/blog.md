@@ -5,7 +5,7 @@ blogUrl: what-elite-capture-means-and-why-it-should-enrage-you
 date: 2021-04-28
 title: What Elite Capture means - and why it should enrage you
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: When I first heard about blockchain I thought it was going to change the world. I was certain that the ability to transfer an asset with complete transparency was going to leapfrog foreign aid and charitable giving from the archaic systems that are currently in place - into systems that are capable of accounting for every last dollar given.
 ---

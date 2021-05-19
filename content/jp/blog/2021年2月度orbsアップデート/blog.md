@@ -5,7 +5,7 @@ blogUrl: 2021年2月度orbsアップデート
 date: 2021-02-19
 title: 2021年2月度Orbsアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: #### 今月のアップデート： DeFi.orgアクセラレータの審査がまもなく終了⁂StakeingRewardsがOrbsのステーキングを開始⁂OrbsDeFiポータルがリニューアル⁂メディアのハイライト⁂チームのアップデート
 ---

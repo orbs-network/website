@@ -5,7 +5,7 @@ blogUrl: orbs-チームのアップデート
 date: 2021-04-19
 title: Orbs チームのアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: Orbsチームは4人の新しいチームメンバーを迎えました!
 ---
