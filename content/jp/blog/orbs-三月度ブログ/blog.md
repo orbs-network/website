@@ -5,7 +5,7 @@ blogUrl: orbs-三月度ブログ
 date: 2019-03-14
 title: Orbs 三月度ブログ
 author:
-  - ../common/authors/Nate.md
+  - /jp/blog/common/authors/Nate.md
 type:
 short_description: 待ちに待った3月がやってきました。Orbsの本格始動にあたり、これまでどおり皆さんを私たちのアクティビティにどんどん巻き込んでいきたいと企んでいます。3月28日、Orbsの技術がいよいよ公開になります。まさしく多幸感に包まれた記念すべき日となることでしょう。（と同時にローンチまでの死闘の末、私たちスタッフは代わる代わるオフィスで爆睡していると思います）
 ---

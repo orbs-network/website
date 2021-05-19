@@ -5,7 +5,7 @@ blogUrl: blockchain-and-decentralized-consensus
 date: 2018-04-30
 title: Blockchain and Decentralized Consensus
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description:
 ---

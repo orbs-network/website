@@ -5,7 +5,7 @@ blogUrl: gate-io-exchange-lists-orbs-token-orbs
 date: 2021-04-03
 title: Gate.io Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: (/assets/img/blog/gate-io-exchange-lists-orbs-token-orbs/EyBNTZEWgAAAyxk-1030x515.jpeg)
 ---

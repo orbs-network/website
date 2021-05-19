@@ -5,7 +5,7 @@ blogUrl: track-trace-solution-on-orbs
 date: 2020-05-11
 title: Track & Trace Solution Built on Orbs
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: # Enterprise Use Case Spotlight
 ---

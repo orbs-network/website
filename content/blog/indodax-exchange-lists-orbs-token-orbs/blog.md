@@ -5,7 +5,7 @@ blogUrl: indodax-exchange-lists-orbs-token-orbs
 date: 2021-04-06
 title: Indodax Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: (/assets/img/blog/indodax-exchange-lists-orbs-token-orbs/photo_2021-04-06_09-36-19-1030x579.jpg)
 ---

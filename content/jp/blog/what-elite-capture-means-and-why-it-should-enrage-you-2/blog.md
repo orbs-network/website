@@ -5,7 +5,7 @@ blogUrl: what-elite-capture-means-and-why-it-should-enrage-you-2
 date: 2021-05-02
 title: エリート・キャプチャとは：海外援助の盲点
 author:
-  - ../common/authors/NettaKorin.md
+  - /jp/blog/common/authors/NettaKorin.md
 type:
 short_description: 私が初めてブロックチェーンについて聞いたとき、これは世界を変えるものだと思いました。完全な透明性をもって資産を移動できるということは、海外援助や慈善活動を現在の古いシステムから、1ドル単位で会計処理ができる新しいシステムへと飛躍させることになると確信しました。
 ---

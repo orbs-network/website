@@ -5,7 +5,7 @@ blogUrl: orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge
 date: 2021-04-23
 title: ORBS is now live on Binance Smart Chain Via AnySwap Cross-Chain Bridge!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## ORBS is now live on Binance Smart Chain Via AnySwap Cross-Chain Bridge!
 ---

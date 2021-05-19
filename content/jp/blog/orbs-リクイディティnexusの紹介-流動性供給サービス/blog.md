@@ -5,7 +5,7 @@ blogUrl: orbs-リクイディティnexusの紹介-流動性供給サービス
 date: 2021-03-29
 title: Orbs リクイディティNexusの紹介-流動性供給サービス
 author:
-  - ../common/authors/TalKol.md
+  - /jp/blog/common/authors/TalKol.md
 type:
 short_description: (/assets/img/blog/orbs-リクイディティnexusの紹介-流動性供給サービス/1_b1GMs87GwaJSdKLAY9i-dw-1030x434.png)
 ---

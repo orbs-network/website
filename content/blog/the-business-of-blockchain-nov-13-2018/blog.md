@@ -5,7 +5,7 @@ blogUrl: the-business-of-blockchain-nov-13-2018
 date: 2018-11-20
 title: "The Business of Blockchain: Nov 20, 2018"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: "The latest blockchain business news and analysis: Civil’s raise  crashes(kind of), US elections came and impacted the blockchain (obviously) and what some top industry minds think about the state of Ethereum. Read on for the details."
 ---

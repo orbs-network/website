@@ -5,7 +5,7 @@ blogUrl: business-of-blockchain-february-12-2019
 date: 2019-02-14
 title:"Business of Blockchain: February 12, 2019"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: "The latest in the business of blockchain: Google and Facebook continue their blockchain activities, lessons learned and pivots taken and how consumers really view blockchain."
 ---

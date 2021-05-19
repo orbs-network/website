@@ -5,7 +5,7 @@ blogUrl: orbs-四月度ブログ
 date: 2019-04-08
 title: Orbs 四月度ブログ
 author:
-  - ../common/authors/Nate.md
+  - /jp/blog/common/authors/Nate.md
 type:
 short_description:
 ---

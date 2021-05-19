@@ -5,7 +5,7 @@ blogUrl: getting-ready-for-round-v-of-orbs-rewards-distribution
 date: 2020-06-16
 title: Getting Ready for Round V of Orbs Rewards Distribution
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network.
 ---

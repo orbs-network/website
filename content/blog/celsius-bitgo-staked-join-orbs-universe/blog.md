@@ -5,7 +5,7 @@ blogUrl: celsius-bitgo-staked-join-orbs-universe
 date: 2019-08-01
 title: Celsius, BitGo and Staked Now Participate in Orbs' PoS Universe
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "(https://celsius.network) representatives met in Seoul, Korea to celebrate the highly anticipated collaboration between the projects: ORBS has been added to Celsius’ wallet, allowing their 30,000 users to stake the token as part of Orbs’ proof of stake universe. This partnership grants thousands of Celsius’ users unprecedented access to the Orbs network."
 ---

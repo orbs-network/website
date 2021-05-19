@@ -5,7 +5,7 @@ blogUrl: 2020年12月度orbsアップデート
 date: 2020-12-11
 title: 2020年12月度Orbsアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 今月のアップデート：**Orbs PoSV2.5公式リリース⁂Orbs DeFi⁂KBW 2020⁂ネットワークの状態⁂メディアのハイライト⁂Orbsチームのアップデート
 ---

@@ -5,7 +5,7 @@ blogUrl: solution-against-snap-fraud
 date: 2019-11-28
 title: The Blockchain-Based Solution to SNAP Fraud
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: ### About SNAP
 ---

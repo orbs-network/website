@@ -5,7 +5,7 @@ blogUrl: orbs-二月度ブログ
 date: 2019-02-25
 title: Orbs 二月度ブログ
 author:
-  - ../common/authors/Nate.md
+  - /jp/blog/common/authors/Nate.md
 type:
 short_description: 2019年1月に起こった出来事は、もうとうの昔のことのようにも感じられますが（そうですよね？）改めて振り返ると、夢のようなひと月だったと思います。 すばらしいニュース、イベント、そして賞の獲得――。実によいこと尽くめの新年の幕開けとなりました。Orbsに関わるすべての人々が、これまで以上に前途洋々と感じられたことでしょう。
 ---

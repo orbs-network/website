@@ -5,7 +5,7 @@ blogUrl: introducing-orbs-community
 date: 2019-04-17
 title: Introducing the new Orbs Community discussion board on Discourse
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: Hey everyone! In recent weeks, we’ve been mulling heavily over different ways to extend Orbs to the public and create an open environment for discussion and collaboration about the project. For this, we have to nurture a productive community of all participants in the Orbs Universe - delegators, developers, guardians, and validators.
 ---

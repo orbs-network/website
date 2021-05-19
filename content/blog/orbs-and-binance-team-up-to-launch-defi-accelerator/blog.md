@@ -5,7 +5,7 @@ blogUrl: orbs-and-binance-team-up-to-launch-defi-accelerator
 date: 2021-01-11
 title: Orbs and Binance Team Up to Launch DeFi Accelerator
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ### ![](/assets/img/blog/orbs-and-binance-team-up-to-launch-defi-accelerator/Untitled-4-1030x839.jpg)
 ---

@@ -5,7 +5,7 @@ blogUrl: single-sided-farming-on-any-dex-via-orbs-liquidity-nexus-part-3-2
 date: 2021-05-01
 title: OrbsによるDEX接続 シングルサイド・ファーミング リクイディティ Nexus — パート ３
 author:
-  - ../common/authors/TalKol.md
+  - /jp/blog/common/authors/TalKol.md
 type:
 short_description: ### [Orbs Liquidity Nexus](https://www.orbs.com/jp/orbs-%e3%83%aa%e3%82%af%e3%82%a4%e3%83%87%e3%82%a3%e3%83%86%e3%82%a3nexus%e3%81%ae%e7%b4%b9%e4%bb%8b-%e6%b5%81%e5%8b%95%e6%80%a7%e4%be%9b%e7%b5%a6%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9/)は、CeFiから来る流動性をDeFiに導入します。
 ---

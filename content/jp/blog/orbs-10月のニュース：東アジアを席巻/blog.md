@@ -5,7 +5,7 @@ blogUrl: orbs-10月のニュース：東アジアを席巻
 date: 2018-10-21
 title: Orbs 10月のニュース：東アジアを席巻
 author:
-  - ../common/authors/Greback.md
+  - /jp/blog/common/authors/Greback.md
 type:
 short_description: Orbsは東アジアを中心にその影響力を引き続き強めています。9月は新しい契約のほか、新たなコミュニティとの出会い、２件のミートアップの開催など、ベータ版リリースに向けて精力的な活動を展開しました。この記事では9月に行われた主要なイベントの様子や10月の動きについてお伝えします。
 ---

@@ -5,7 +5,7 @@ blogUrl: the-orbs-new-merchandise-shop-is-now-live
 date: 2021-04-09
 title: The Orbs New Merchandise Shop is Now Live!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---

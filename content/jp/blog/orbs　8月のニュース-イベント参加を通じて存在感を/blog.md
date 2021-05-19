@@ -5,7 +5,7 @@ blogUrl: orbs　8月のニュース-イベント参加を通じて存在感を
 date: 2018-09-12
 title: "ORBS　8月のニュース: イベント参加を通じて存在感を発揮"
 author:
-  - ../common/authors/Greback.md
+  - /jp/blog/common/authors/Greback.md
 type:
 short_description: (/assets/img/blog/orbs　8月のニュース-イベント参加を通じて存在感を/1_eca2_8ZkWARZIwLDebW1EA.jpeg)
 ---

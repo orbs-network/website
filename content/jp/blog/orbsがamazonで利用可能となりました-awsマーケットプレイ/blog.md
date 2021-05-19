@@ -5,7 +5,7 @@ blogUrl: orbsがamazonで利用可能となりました-awsマーケットプレ
 date: 2021-04-08
 title: OrbsがAmazonで利用可能となりました - AWSマーケットプレイスでのAMI公開
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---

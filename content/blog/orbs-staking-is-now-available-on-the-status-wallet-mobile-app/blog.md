@@ -5,7 +5,7 @@ blogUrl: orbs-staking-is-now-available-on-the-status-wallet-mobile-app
 date: 2021-04-27
 title: Orbs Staking is now available on the Status Wallet mobile app!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## Orbs Staking is now available on the Status Wallet mobile app!
 ---

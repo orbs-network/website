@@ -5,7 +5,7 @@ blogUrl: orbsガーディアンの選び方：
 date: 2021-01-10
 title: Orbsガーディアンの選び方：
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: ## デリゲータのためのクイックガイド
 ---

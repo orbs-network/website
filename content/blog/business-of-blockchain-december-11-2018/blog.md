@@ -5,7 +5,7 @@ blogUrl: business-of-blockchain-december-11-2018
 date: 2018-12-11
 title: "Business of Blockchain: December 11, 2018"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: This week, Facebook's blockchain plans, tough business decisions, Ohio and Wyoming compete for our decentralized love, enterprise blockchain deals and funding news.
 ---

@@ -5,7 +5,7 @@ blogUrl: defining-the-public-blockchain
 date: 2019-03-29
 title: Defining the Public Blockchain
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: _The blockchain industry makes heavy use of buzzwords. Terms like "public" and "private" are thrown around but what do they actually mean? Is this the right way to define a blockchain? Does a private blockchain really exist? Maybe we should even take one step back and ask - what is a blockchain, actually?_
 ---

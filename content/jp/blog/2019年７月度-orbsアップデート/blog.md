@@ -5,7 +5,7 @@ blogUrl: 2019年７月度-orbsアップデート
 date: 2019-07-31
 title: 2019年７月度 Orbsアップデート
 author:
-  - ../common/authors/Nate.md
+  - /jp/blog/common/authors/Nate.md
 type:
 short_description: 今月のアップデート**：⁂GLFパートナーシップ ⁂Hdac覚書合意 ⁂Forbesフィーチャー記事 ⁂Orbsリワード分配 ⁂アプリ開発ガイドライン ⁂創業者インタビュー ⁂その他
 ---

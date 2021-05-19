@@ -5,7 +5,7 @@ blogUrl: introducing-prism-the-orbs-block-explorer
 date: 2019-04-04
 title: Introducing PRISM - The Orbs Block Explorer
 author:
-  - ../common/authors/EranK.md
+  - /blog/common/authors/EranK.md
 type:
 short_description:
 ---

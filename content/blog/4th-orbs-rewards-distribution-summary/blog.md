@@ -5,7 +5,7 @@ blogUrl: 4th-orbs-rewards-distribution-summary
 date: 2020-03-25
 title: "4th Orbs Rewards Distribution: Summary"
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: On March 25, 2020, Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself.
 ---

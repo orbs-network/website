@@ -5,7 +5,7 @@ blogUrl: orbs-and-flipside-crypto-team-up-to-launch-the-orbs-community-console
 date: 2021-03-09
 title: Orbs and Flipside Crypto Team Up to Launch the Orbs Community Console
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## Orbs and Flipside Crypto Team Up to Launch the Orbs Community Console
 ---

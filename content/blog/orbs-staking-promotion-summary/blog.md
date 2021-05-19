@@ -5,7 +5,7 @@ blogUrl: orbs-staking-promotion-summary
 date: 2020-05-04
 title: Orbs Staking Promotion Summary
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: ## Insights and Data behind the first Orbs staking promotion
 ---

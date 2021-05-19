@@ -5,7 +5,7 @@ blogUrl: orbsがgate-io-に上場しました
 date: 2021-04-05
 title: ORBSがGate.io に上場しました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: (/assets/img/blog/orbsがgate-io-に上場しました/EyBNTZEWgAAAyxk-1030x515.jpeg)
 ---

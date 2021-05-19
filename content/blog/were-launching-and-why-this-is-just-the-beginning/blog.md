@@ -5,7 +5,7 @@ blogUrl: were-launching-and-why-this-is-just-the-beginning
 date: 2019-03-28
 title: We’re Launching! And this is just the beginning
 author:
-  - ../common/authors/DanielP.md
+  - /blog/common/authors/DanielP.md
 type:
 short_description:
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-update-december-2019
 date: 2019-12-11
 title: Orbs Update December 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "In this update:** Orbs team speaks to US Congress ⁂ Developer Feedback ⁂ Podcast, Messari and BlockTV Interviews ⁂ Orbs Rewards Incoming ⁂ Sey Chain: Yes24 Partnership"
 ---

@@ -5,7 +5,7 @@ blogUrl: business-strategy-for-2019
 date: 2019-04-08
 title: The Road to Mainstream Use - Business Strategy for 2019
 author:
-  - ../common/authors/UrielP.md
+  - /blog/common/authors/UrielP.md
 type:
 short_description:
 ---

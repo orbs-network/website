@@ -5,7 +5,7 @@ blogUrl: writing-an-app-on-orbs
 date: 2019-06-11
 title: Complete Guide to Writing an App on the Orbs Network (Part I of II)
 author:
-  - ../common/authors/Kiril.md
+  - /blog/common/authors/Kiril.md
 type:
 short_description: ### Introduction
 ---

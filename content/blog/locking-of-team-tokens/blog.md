@@ -5,7 +5,7 @@ blogUrl: locking-of-team-tokens
 date: 2020-09-16
 title: Locking of Team Tokens
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: (https://www.orbs.com/orbs-token-distribution/), at the time of the Orbs Token Distribution Event (“TDE”) on March 28, 2019, 20% of total supply was allocated to the team and founding partners. This pool had a vesting schedule of 36 months and a six-month initial lock-up period. During the almost 18 months since the TDE, the Orbs founders and team have not removed any tokens from the team pool.
 ---

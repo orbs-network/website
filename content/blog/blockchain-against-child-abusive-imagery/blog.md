@@ -5,7 +5,7 @@ blogUrl: blockchain-against-child-abusive-imagery
 date: 2020-08-26
 title: Blockchain against Child Abusive Imagery
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: Recently, Israel was shaken to the core from a heinous gang rape of a sixteen year old girl. As the investigation unfolds, reports of images and videos of the crime surface. Sadly, this type of crime and the documentation of it, occurs in every country. Survivors of sexual violence face even more emotional damage due to the existence of digital imagery of the crime that took place. Videos and photos are forwarded and posted on instant messaging and social media, and often cloud platforms are helpless (or choose not) to do anything to stop this.
 ---

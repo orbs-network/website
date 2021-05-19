@@ -5,7 +5,7 @@ blogUrl: interview-with-un-hackathon-winners
 date: 2019-11-25
 title: "Developing on Orbs: Interview with UN Hackathon Winners"
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: Last month in New York**, the Global Business Blockchain Council [hosted a hackathon event](https://medium.com/@GBBC/the-gbbc-hosts-hackathon-showcasing-how-blockchain-technology-can-be-used-to-advance-un-sdgs-67855f76a010) to demonstrate and discover the ways blockchain technology can be used to advance the [United Nations 2030 Sustainable Development Agenda](https://www.un.org/sustainabledevelopment/development-agenda/). Several leading blockchain networks including Microsoft, Bitfury, JPMorgan’s Quorum, and Orbs were made available to participants by providing them with the tools and resources to build their proposed solutions. You can read more about Orbs’ experience with the event in the [afterthought blog post by Jonathan Levison](https://www.orbs.com/un-hackathon-afterthought/). The hackathon’s winning solution was eventually built on the Orbs Network. In an effort to learn lessons for the platform from a developer’s outsider perspective, I set out to question David Acton of the winning team Dynamic Digital Cooperatives about his experience building an app on the Orbs network.
 ---

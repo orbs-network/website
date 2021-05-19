@@ -5,7 +5,7 @@ blogUrl: 不正投票を排除するためのブロックチェーン活用
 date: 2020-12-22
 title: 不正投票を排除するためのブロックチェーン活用
 author:
-  - ../common/authors/NettaKorin.md
+  - /jp/blog/common/authors/NettaKorin.md
 type:
 short_description: 。それなのに、またここへきて同じ問題が起きています。悲しいことに、アメリカでは数年にわたり、複数回の不正の申し立てが行われています。
 ---

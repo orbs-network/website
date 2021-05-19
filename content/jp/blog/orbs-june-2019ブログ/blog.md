@@ -5,7 +5,7 @@ blogUrl: orbs-june-2019ブログ
 date: 2019-07-02
 title: Orbs June 2019ブログ
 author:
-  - ../common/authors/Nate.md
+  - /jp/blog/common/authors/Nate.md
 type:
 short_description: 今月のトピックス:**
 ---

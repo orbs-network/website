@@ -5,7 +5,7 @@ blogUrl: business-of-blockchain-january-15-2019
 date: 2019-01-15
 title: "Business of Blockchain: January 15, 2019"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: "This week in the business of blockchain: Remittance continues to be a use case worth following, marketplaces continue to be a use case worth following and decentralized social networks may have a very high customer acquisition cost. Get the details below."
 ---

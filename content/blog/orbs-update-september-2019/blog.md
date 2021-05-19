@@ -5,7 +5,7 @@ blogUrl: orbs-update-september-2019
 date: 2019-09-08
 title: Orbs Update September 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "Alright, everyone! August has been a relatively quiet month for many of us, and yours truly is happy to watch his colleagues return from vacations all sunburned and happy. This post is going to be a quick flash update, so you know what has been happening while you were out sipping lemonade:"
 ---

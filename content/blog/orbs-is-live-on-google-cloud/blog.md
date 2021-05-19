@@ -5,7 +5,7 @@ blogUrl: orbs-is-live-on-google-cloud
 date: 2021-05-06
 title: Orbs is Live on Google Cloud!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ### For Developers, by Developers
 ---

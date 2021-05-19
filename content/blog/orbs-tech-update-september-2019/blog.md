@@ -5,7 +5,7 @@ blogUrl: orbs-tech-update-september-2019
 date: 2019-09-26
 title: Orbs Technology Update September 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "Ok gang, here's a breakdown of the technology highlightsfrom Orbs contributors during this past month. Feel free to reach out to any particular contributor for more information:"
 ---
