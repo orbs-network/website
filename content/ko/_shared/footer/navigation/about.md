@@ -1,18 +1,18 @@
 ---
-layout: partials/footer/navigation/links
+layout: partials/footer/components/navigation/links
 title: About
 
 links:
   - name: White papers
-    url: /ko/white-papers
+    url: /white-papers
   - name: Team
-    url: /ko/team
-  - name: partnerships
-    url: /ko/partnerships
+    url: /team
+  - name: Ecosystem
+    url: /ecosystem
   - name: Faq
-    url: /ko/faq
+    url: /faq
   - name: Blog
-    url: /ko/blog
+    url: /blog
   - name: Contact us
-    url: /ko/contact
+    url: /contact
 ---

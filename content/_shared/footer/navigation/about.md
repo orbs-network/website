@@ -1,5 +1,5 @@
 ---
-layout: partials/footer/navigation/links
+layout: partials/footer/components/navigation/links
 title: About
 
 links:

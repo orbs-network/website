@@ -2344,38 +2344,48 @@ body {
   color: white;
   border-top: 1px solid #707070;
   font-family: "Montserrat"; }
-  .footer-sub-title {
+  .footer-section-title {
     display: flex;
     margin-bottom: 20px;
     font-family: "bold";
     align-items: center;
     text-transform: uppercase;
     font-size: 0.875rem; }
-    .footer-sub-title img {
+    .footer-section-title img {
       margin-right: 16px;
       width: 20px;
       height: 20px; }
-  .footer-posts-and-tweets {
-    align-items: stretch;
-    width: 70%;
-    flex-wrap: wrap; }
-    .footer-posts-and-tweets .footer-post,
-    .footer-posts-and-tweets .footer-tweet,
-    .footer-posts-and-tweets .footer-sub-title {
-      width: calc(50% - 35px);
-      margin-right: 70px; }
-      .footer-posts-and-tweets .footer-post:nth-child(even),
-      .footer-posts-and-tweets .footer-tweet:nth-child(even),
-      .footer-posts-and-tweets .footer-sub-title:nth-child(even) {
-        margin-right: 0px; }
-    .footer-posts-and-tweets a {
-      text-decoration: none; }
-    .footer-posts-and-tweets-mobile {
-      display: none; }
   .footer-flex {
     display: flex;
-    margin: auto;
+    justify-content: space-between;
     align-items: stretch; }
+  .footer-logo-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 70px; }
+    .footer-logo-section .footer-logo {
+      width: auto;
+      margin-bottom: 20px;
+      height: 28px; }
+    .footer-logo-section .text-p {
+      margin-bottom: 0px; }
+      .footer-logo-section .text-p:nth-of-type(2) {
+        margin-top: 30px;
+        color: #03fcf5; }
+    .footer-logo-section a {
+      text-decoration: none; }
+  .footer-posts {
+    width: 35%;
+    padding-right: 40px; }
+  .footer-tweets {
+    width: 35%;
+    padding-left: 40px; }
+    .footer-tweets-content {
+      overflow: auto;
+      position: relative;
+      height: 100%; }
   .footer-post {
     padding-bottom: 15px;
     margin-bottom: 15px;
@@ -2404,19 +2414,6 @@ body {
     .footer-post-content {
       flex: 1; }
     .footer-post:last-of-type {
-      border: 0px;
-      margin-bottom: 0px;
-      padding-bottom: 0px; }
-  .footer-tweet {
-    border-bottom: 1px solid #707070;
-    padding-bottom: 15px;
-    margin-bottom: 15px; }
-    .footer-tweet-date {
-      color: #9f9e9e;
-      font-size: 0.75rem; }
-    .footer-tweet .text-p {
-      margin-bottom: 10px; }
-    .footer-tweet:last-of-type {
       border: 0px;
       margin-bottom: 0px;
       padding-bottom: 0px; }
@@ -2488,23 +2485,6 @@ body {
         width: 50%; }
     .footer-navigation-mobile-links {
       display: none; }
-  .footer-logo-section {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-right: 80px; }
-    .footer-logo-section .footer-logo {
-      width: auto;
-      margin-bottom: 20px;
-      height: 28px; }
-    .footer-logo-section .text-p {
-      margin-bottom: 20px; }
-      .footer-logo-section .text-p:nth-of-type(2) {
-        margin-top: auto;
-        color: #03fcf5; }
-    .footer-logo-section a {
-      text-decoration: none; }
   .footer-bottom {
     align-items: center;
     padding-top: 20px;
@@ -2515,6 +2495,21 @@ body {
       text-decoration: none; }
 
 @media only screen and (max-width: 1000px) {
+  .footer-logo-section {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 70px; }
+  .footer-posts {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 70px; }
+  .footer-tweets {
+    width: 100%;
+    padding: 0px; }
+    .footer-tweets-content {
+      max-height: 500px;
+      height: 50vw;
+      min-height: 280px; }
   .footer-flex {
     flex-direction: column; }
   .footer-navigation .main-grid, .footer-navigation .blog-tags, .footer-navigation .blog-header, .footer-navigation .contact {
@@ -2524,34 +2519,14 @@ body {
   .footer-navigation-mobile {
     display: block; }
   .footer-navigation-desktop-links {
-    display: none; }
-  .footer-logo-section {
-    width: 100%;
-    padding-right: 0px; }
-  .footer-posts-and-tweets {
-    width: 100%; } }
+    display: none; } }
 
 @media only screen and (max-width: 700px) {
   .footer-flex {
     flex-direction: column; }
-  .footer-logo-section {
-    width: 100%;
-    padding-right: 0px; }
-  .footer-sub-title {
-    margin-top: 40px;
-    min-width: 100%; }
   .footer-post {
     min-width: 100%;
-    margin-bottom: 30px; }
-  .footer-tweet {
-    min-width: 100%;
-    margin-bottom: 30px; }
-  .footer-posts-and-tweets {
-    display: none;
-    flex-direction: column;
-    width: 100%; }
-    .footer-posts-and-tweets-mobile {
-      display: flex; } }
+    margin-bottom: 30px; } }
 
 @media only screen and (max-width: 400px) {
   .footer-bottom {

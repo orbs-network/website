@@ -1,5 +1,5 @@
 ---
-layout: partials/footer/navigation/resources-links
+layout: partials/footer/components/navigation/resources-links
 title: Resources
 
 links:
