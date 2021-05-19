@@ -5,7 +5,7 @@ blogUrl: sey-chain-yes24-partnership
 date: 2019-12-04
 title: "Sey Chain: Partnership between YES24 & Orbs"
 author:
-  - ../common/authors/RanMelamed.md
+  - /blog/common/authors/RanMelamed.md
 type:
 short_description: (/assets/img/blog/sey-chain-yes24-partnership/7-01-1500x430.jpg)
 ---

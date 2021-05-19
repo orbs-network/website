@@ -5,7 +5,7 @@ blogUrl: orbsがkucoinへ上場しました
 date: 2021-03-29
 title: ORBSがKuCoinへ上場しました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: (/assets/img/blog/orbsがkucoinへ上場しました/photo_2021-03-24_14-22-48-1030x579.jpg)
 ---

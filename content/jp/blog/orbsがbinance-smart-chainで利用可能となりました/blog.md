@@ -5,7 +5,7 @@ blogUrl: orbsがbinance-smart-chainで利用可能となりました
 date: 2021-04-25
 title: ORBSがBinance Smart Chainで利用可能となりました!
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---

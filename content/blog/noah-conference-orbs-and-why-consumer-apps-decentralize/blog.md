@@ -5,7 +5,7 @@ blogUrl: noah-conference-orbs-and-why-consumer-apps-decentralize
 date: 2018-03-14
 title: "NOAH Conference: Orbs and Why Consumer Apps Decentralize"
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: I’m just returning from [NOAH](https://www.noah-conference.com/) — the conference that describes itself as the preeminent European event where Internet CEOs, executives and investors gain deep insights into the latest proven concepts, network with senior executives and establish new business relationships.
 ---

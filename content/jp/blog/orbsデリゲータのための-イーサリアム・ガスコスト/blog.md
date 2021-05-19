@@ -5,7 +5,7 @@ blogUrl: orbsデリゲータのための-イーサリアム・ガスコスト
 date: 2021-01-18
 title: Orbsデリゲータのための イーサリアム・ガスコストを最適化する方法
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: # イーサリアム・ガスコストを最適化する方法
 ---

@@ -5,7 +5,7 @@ blogUrl: latoken-exchange-lists-orbs-token-orbs
 date: 2021-03-30
 title: Latoken Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: (/assets/img/blog/latoken-exchange-lists-orbs-token-orbs/photo_2021-03-29_13-22-20-1030x579.jpg)
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-pos-v2-the-age-of-guardians-pos-v2-benefits-over-v1
 date: 2020-08-16
 title: "Orbs PoS V2: The Age of Guardians - PoS V2 Benefits Over V1"
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## PoS V2 Benefits Over V1
 ---

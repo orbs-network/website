@@ -5,7 +5,7 @@ blogUrl: business-of-blockchain-december-26-2018
 date: 2018-12-26
 title: "Business of Blockchain: December 26, 2018"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: "We hope our readers had a very happy holiday (or happy end-of-December if you don't celebrate Christmas)! This week: Asia becomes the early leader in blockchain, big businesses get even more serious about blockchain, blockchain + games = adoption and some big funding news."
 ---

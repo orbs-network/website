@@ -5,7 +5,7 @@ blogUrl: orbs-is-now-live-on-pancakeswap
 date: 2021-04-30
 title: Orbs is now live on PancakeSwap!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: In a [recent post](https://www.orbs.com/orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge/) we announced that the ORBS token is now available on Binance Smart Chain (BSC) using [multichain.xyz](https://multichain.xyz/) by Anyswap as a cross-chain bridge between Ethereum and BSC. In that same post, we also examined the meteoric rise of the BSC chain in the DeFi space and compared it to the rival DeFi ecosystem built on Ethereum.
 ---

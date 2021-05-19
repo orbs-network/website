@@ -5,7 +5,7 @@ blogUrl: blockchain-aid-for-the-refugee-crisis
 date: 2019-06-04
 title: Blockchain Aid for the Refugee Crisis
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: Can blockchain technology help alleviate the strain of the global refugee crisis on both refugees and host countries? I think so.
 ---

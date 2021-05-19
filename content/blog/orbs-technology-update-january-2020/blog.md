@@ -5,7 +5,7 @@ blogUrl: orbs-technology-update-january-2020
 date: 2020-01-09
 title: Orbs Technology Update January 2020
 author:
-  - ../common/authors/OdedW.md
+  - /blog/common/authors/OdedW.md
 type:
 short_description: Highlights:** Ver 1.3.5 released ⁂ A flow that identified a bug ahead of time ⁂ PoS architecture research ⁂ Onboarding of applications & new virtual chains ⁂ New monitoring tools
 ---

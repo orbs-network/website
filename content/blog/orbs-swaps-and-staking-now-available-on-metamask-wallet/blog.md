@@ -5,7 +5,7 @@ blogUrl: orbs-swaps-and-staking-now-available-on-metamask-wallet
 date: 2021-04-13
 title: Orbs Swaps and Staking Now Available on MetaMask Wallet!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---

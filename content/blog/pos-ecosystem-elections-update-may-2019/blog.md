@@ -5,7 +5,7 @@ blogUrl: pos-ecosystem-elections-update-may-2019
 date: 2019-05-14
 title: PoS Ecosystem Elections Update May 2019
 author:
-  - ../common/authors/OdedW.md
+  - /blog/common/authors/OdedW.md
 type:
 short_description: Hi all! The first month of the Orbs Network has completed, and I’m excited to share the network status and our experience with the elections. Since the launch of the production-ready Orbs platform and its release to the community, the Orbs core development team has continued to monitor its progress and work to develop improvements to propose to the community of participants in the Orbs network. This post will describe what we’ve learned so far, the problems the network has encountered and the fixes we’ve proposed to the Validators running the protocol.
 ---

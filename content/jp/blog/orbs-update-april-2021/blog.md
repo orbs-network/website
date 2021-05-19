@@ -5,7 +5,7 @@ blogUrl: orbs-update-april-2021
 date: 2021-05-02
 title: 2021年4月度Orbsアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: "今月のアップデート:** 取引所上場: FTX, KuCoin, ほか  ⁂ リクイディティ Nexus! ⁂ Orbsが AWS と MS Azureで利用可能 ⁂   BithumbでORBSのステーキング開始 ⁂ Moonstakeとパートナー提携 ⁂ Tetraがモバイルで利用可能に ⁂ Orbs公式ショップオープン ⁂ Talのウィークリーアップデート ⁂ その他にもたくさんのお知らせ"
 ---

@@ -5,7 +5,7 @@ blogUrl: improving-supply-chain-with-blockchain-2
 date: 2021-05-01
 title: ブロックチェーンによるサプライチェーンの改善
 author:
-  - ../common/authors/NettaKorin.md
+  - /jp/blog/common/authors/NettaKorin.md
 type:
 short_description: (https://www.youtube.com/watch?v=_jOy17fuzy8&t=2670s)」（分散型台帳による貿易のデジタル化促進）に登壇し、パンデミックの際にブロックチェーンがサプライチェーン\*において、どのように役立つかについてのディスカッションをしました。 昨年、コロナが多くのサプライチェーンを根底から揺さぶったことを考えると、良い話題だったと思います。
 ---

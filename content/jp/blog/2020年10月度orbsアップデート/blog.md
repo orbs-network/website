@@ -5,7 +5,7 @@ blogUrl: 2020年10月度orbsアップデート
 date: 2020-10-13
 title: 2020年10月度Orbsアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 今月のアップデートI：**Orbs PoS V2.5 ⁂ チームトークンのロックアップ ⁂ DeFiエコシステムの助成金プログラム ⁂ ネットワークの状態 ⁂ 事業開発の進捗 ⁂ メディアハイライト ⁂ OrbsチームのVlog ⁂ ホリデーのご挨拶
 ---

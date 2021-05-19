@@ -5,7 +5,7 @@ blogUrl: pos-external-oversight
 date: 2019-05-02
 title: Why Proof-Of-Stake Systems Can Benefit From External Oversight
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: (https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Westeros) of Westeros.
 ---

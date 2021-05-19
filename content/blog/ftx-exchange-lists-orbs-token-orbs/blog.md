@@ -5,7 +5,7 @@ blogUrl: ftx-exchange-lists-orbs-token-orbs
 date: 2021-04-02
 title: FTX Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: (/assets/img/blog/ftx-exchange-lists-orbs-token-orbs/photo_2021-04-01_22-13-11-1030x591.jpg)
 ---

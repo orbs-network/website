@@ -5,7 +5,7 @@ blogUrl: orbs-update-january-2021
 date: 2021-01-17
 title: Orbs Update January 2021
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: #### **In this update:** Binance Partnership!!! ⁂ DeFi.org accelerator ⁂ Orbs Featured on Hitachi ⁂ State of the Network ⁂ Media Highlights ⁂ Team Updates
 ---

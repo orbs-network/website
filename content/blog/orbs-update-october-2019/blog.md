@@ -5,7 +5,7 @@ blogUrl: orbs-update-october-2019
 date: 2019-10-05
 title: Orbs Update October 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: "In this update:** U.N Hackathon Win! ⁂ Tel Aviv Blockchain Week ⁂ Block TV Founder Interview ⁂ ORBS on Metamask ⁂ Blockchain Education Webinar ⁂ New Orbs Center in Korea ⁂ Enterprise Use-Case Panel ⁂ KOSDAQ Delegation ⁂ Korea Blockchain Week ⁂ Blockchain Bridge SF⁂ Orbs Rewards Distribution: Round 2 ⁂ Mousebelt alliance"
 ---

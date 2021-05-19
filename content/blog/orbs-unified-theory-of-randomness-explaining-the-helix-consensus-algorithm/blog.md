@@ -5,7 +5,7 @@ blogUrl: orbs-unified-theory-of-randomness-explaining-the-helix-consensus-algori
 date: 2018-07-17
 title: "Orbs’ Unified Theory of Randomness: Explaining the Helix Consensus Algorithm"
 author:
-  - ../common/authors/IdoG.md
+  - /blog/common/authors/IdoG.md
 type:
 short_description: Israeli Networking Day (IND) is an annual event bringing together researchers and engineers from both academia and industry to discuss recent research activity in the field of networking. The 2018 IND, jointly [organized by Orbs and VMware](https://medium.com/orbs-network/3-presentations-that-defined-2018s-israeli-networking-day-ec27c6d9e941), was held on May 24th, and included 24 talks on recently published papers or ongoing works.
 ---

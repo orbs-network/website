@@ -5,7 +5,7 @@ blogUrl: pos-under-the-orbs-architecture
 date: 2019-04-24
 title: PoS Under the Orbs Architecture
 author:
-  - ../common/authors/DavidY.md
+  - /blog/common/authors/DavidY.md
 type:
 short_description: The blockchain industry makes heavy use of buzzwords. Terms like "public" and "private" are thrown around but what do they actually mean? Is this the right way to define a blockchain? Does a private blockchain really exist? Maybe we should even take one step back and ask - what is a blockchain, actually?
 ---

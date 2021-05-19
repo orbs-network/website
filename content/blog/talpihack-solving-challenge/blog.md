@@ -5,7 +5,7 @@ blogUrl: talpihack-solving-challenge
 date: 2019-07-01
 title: "TalpiHack: Solving the Challenge of Related Parties Dealings"
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: On 27-28.06.19 I participated in the Talpiot Hackathon, attempting to solve a financial challenge - creating a system to identify and analyze related parties dealings. This was a great, very well organized event, where I met many brilliant people working on some really difficult challenges.
 ---

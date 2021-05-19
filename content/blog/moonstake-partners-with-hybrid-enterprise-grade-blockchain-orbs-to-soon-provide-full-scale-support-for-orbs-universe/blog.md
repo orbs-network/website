@@ -5,7 +5,7 @@ blogUrl: moonstake-partners-with-hybrid-enterprise-grade-blockchain-orbs-to-soon
 date: 2021-03-16
 title: Moonstake Partners with Hybrid Enterprise-Grade Blockchain Orbs to Soon Provide Full-Scale Support for Orbs Universe
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: ## Moonstake Partners with Hybrid Enterprise-Grade Blockchain Orbs to Soon Provide Full-Scale Support for Orbs Universe
 ---

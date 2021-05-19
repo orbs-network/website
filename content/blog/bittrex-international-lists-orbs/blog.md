@@ -5,7 +5,7 @@ blogUrl: bittrex-international-lists-orbs
 date: 2019-04-03
 title: Bittrex International Lists Orbs Token (ORBS) Following Project’s Production Launch
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description:
 ---

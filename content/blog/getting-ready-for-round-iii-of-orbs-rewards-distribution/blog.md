@@ -5,7 +5,7 @@ blogUrl: getting-ready-for-round-iii-of-orbs-rewards-distribution
 date: 2019-12-12
 title: Getting Ready for Round III of Orbs Rewards Distribution
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description:
 ---

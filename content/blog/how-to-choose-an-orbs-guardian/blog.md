@@ -5,7 +5,7 @@ blogUrl: how-to-choose-an-orbs-guardian
 date: 2020-12-30
 title: How to choose an Orbs Guardian
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## A Quick Guide for Delegators
 ---

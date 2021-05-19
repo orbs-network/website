@@ -5,7 +5,7 @@ blogUrl: bitcoins-unusual-property-rights
 date: 2019-08-27
 title: Bitcoin’s Unusual Property Rights
 author:
-  - ../common/authors/NeilGandal.md
+  - /blog/common/authors/NeilGandal.md
 type:
 short_description: _This is a guest post by Professors Neil Gandal (Berglass School of Economics, Tel Aviv University) and Joshua Gans (Rotman School of Management, University of Toronto), advisors to the Orbs project._
 ---

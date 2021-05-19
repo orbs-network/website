@@ -5,7 +5,7 @@ blogUrl: technical-ama-session-with-the-groundx-team-about-helix-and-orbs - 
 date: 2018-06-12
 title: Technical AMA Session with the GroundX Team about Helix and Orbs — June 2018
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: The Helix consensus algorithm and the Orbs architecture built around it are sparking interest from blockchain stakeholders around the world. Our team holds tech sessions with interested parties to help spread the knowledge about the protocol and encourage companies to adopt and build upon it.
 ---

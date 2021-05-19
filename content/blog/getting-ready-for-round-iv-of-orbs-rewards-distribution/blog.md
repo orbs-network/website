@@ -5,7 +5,7 @@ blogUrl: getting-ready-for-round-iv-of-orbs-rewards-distribution
 date: 2020-03-18
 title: Getting Ready for Round IV of Orbs Rewards Distribution
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network. There are currently 20 registered Guardians and 16 Validators running in production. There are now over 1700 Delegators participating in the Orbs PoS ecosystem.
 ---

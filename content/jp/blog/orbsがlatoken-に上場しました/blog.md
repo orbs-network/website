@@ -5,7 +5,7 @@ blogUrl: orbsがlatoken-に上場しました
 date: 2021-04-01
 title: ORBSがLatoken に上場しました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: (/assets/img/blog/orbsがlatoken-に上場しました/photo_2021-03-29_13-22-20-1030x579.jpg)
 ---

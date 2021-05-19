@@ -5,7 +5,7 @@ blogUrl: orbs-team-updates
 date: 2021-04-19
 title: Orbs Team Updates
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## Introducing New Team Members
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-staking-is-now-available-on-the-trust-wallet-mobile
 date: 2021-05-04
 title: Orbs Staking is now available on the Trust Wallet mobile app!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ### Orbs Staking is now available on Trust Wallet!
 ---

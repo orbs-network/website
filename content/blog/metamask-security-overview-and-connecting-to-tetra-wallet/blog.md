@@ -5,7 +5,7 @@ blogUrl: metamask-security-overview-and-connecting-to-tetra-wallet
 date: 2020-04-23
 title: MetaMask Security Overview and Connecting to Tetra Wallet
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: Hey everyone!
 ---

@@ -5,7 +5,7 @@ blogUrl: first-orbs-rewards-distribution-summary
 date: 2019-07-04
 title: "First Orbs Rewards Distribution: Summary"
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: On July 2nd, 2019, the first Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself.
 ---

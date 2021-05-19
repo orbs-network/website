@@ -5,7 +5,7 @@ blogUrl: hybrid-consensus-voting-model-taking-cue-from-indonesia
 date: 2019-09-08
 title: "A Hybrid Consensus Model for Voting: Taking a Cue From Indonesia"
 author:
-  - ../common/authors/AssafBielski.md
+  - /blog/common/authors/AssafBielski.md
 type:
 short_description: (https://www.orbs.com/the-blockchain-dichotomy-and-an-architecture-to-overcome-it/) and explained how the Orbs Network’s’ Hybrid consensus enables enterprise adoption of a public blockchain. The separation of block producers and validators allows organizations to keep control over their blockchain application while fulfilling blockchain’s role in generating trust. This hybrid two-tiered consensus is the architectural key to bridge the app/dapp divide.
 ---

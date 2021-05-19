@@ -5,7 +5,7 @@ blogUrl: orbs-update-november-2020-2
 date: 2020-11-19
 title: 2020年11月度Orbsアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: "今月のアップデート：** DeFiエコシステム補助金プログラム ⁂ チームトークンのロック ⁂ KBW 2020 ⁂ ネットワークの状態 ⁂ OrbsがCoinGeckoに登場 ⁂ メディアハイライト ⁂ OrbsチームのVlog"
 ---

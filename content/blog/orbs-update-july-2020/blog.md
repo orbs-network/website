@@ -5,7 +5,7 @@ blogUrl: orbs-update-july-2020
 date: 2020-07-12
 title: Orbs Update July 2020
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: In this update:** Orbs PoS Universe ⁂ New Locking Feature ⁂ New Validator ⁂ Media Highlights ⁂ Exciting Teasers ⁂ Return to Office ⁂ Nate’s Farewell
 ---

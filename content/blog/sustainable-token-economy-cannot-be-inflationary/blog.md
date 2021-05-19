@@ -5,7 +5,7 @@ blogUrl: sustainable-token-economy-cannot-be-inflationary
 date: 2019-06-24
 title: A Sustainable Token Economy Cannot Be Inflationary
 author:
-  - ../common/authors/OdedN.md
+  - /blog/common/authors/OdedN.md
 type:
 short_description: Blockchain is a young business, too young for us to have seen any project fully develop. If we look around, we see how inflationary models benefit projects in their infancy. But this observation will not remain once these projects grow out of their infancy.
 ---

@@ -5,7 +5,7 @@ blogUrl: the-impact-of-blockchain-technology-on-financial-services-provided-by-b
 date: 2019-02-14
 title: The Impact of Blockchain Technology on Financial Services Provided by Banks
 author:
-  - ../common/authors/HexaFoundation.md
+  - /blog/common/authors/HexaFoundation.md
 type:
 short_description: ## The Importance of Banks
 ---

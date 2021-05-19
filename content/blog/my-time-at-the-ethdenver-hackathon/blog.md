@@ -5,7 +5,7 @@ blogUrl: my-time-at-the-ethdenver-hackathon
 date: 2020-02-24
 title: My time at the EthDenver Hackathon
 author:
-  - ../common/authors/Kiril.md
+  - /blog/common/authors/Kiril.md
 type:
 short_description: I attended EthDenver to represent the Orbs team. Both the BUILDWeek and the conference that followed have been a blast, with many great talks and tech showcases. It was a great pleasure to talk and learn with fellow attendees.
 ---

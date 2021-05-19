@@ -5,7 +5,7 @@ blogUrl: how-to-run-a-blockchain-on-a-deserted-island-with-pen-and-paper
 date: 2018-05-10
 title: How to Run a Blockchain on a Deserted Island with Pen and Paper
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: "Note: This post by [_@talkol_](https://medium.com/@talkol) was originally featured on HackerNoon. If you wish to comment or clap, please visit the_ [_original publication here_](https://hackernoon.com/how-to-run-a-blockchain-on-a-deserted-island-with-pen-and-paper-899949ec555b)."
 ---

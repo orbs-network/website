@@ -5,7 +5,7 @@ blogUrl: orbsの新しいロックアップメカニズムのご紹介
 date: 2020-04-09
 title: ORBSの新しいロックアップメカニズムのご紹介
 author:
-  - ../common/authors/EranPeled.md
+  - /jp/blog/common/authors/EranPeled.md
 type:
 short_description: ORBSの新しいロックアップメカニズムのご紹介
 ---

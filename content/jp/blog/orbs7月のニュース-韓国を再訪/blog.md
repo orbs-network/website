@@ -5,7 +5,7 @@ blogUrl: orbs7月のニュース-韓国を再訪
 date: 2018-08-19
 title: "Orbs7月のニュース: 韓国を再訪"
 author:
-  - ../common/authors/Greback.md
+  - /jp/blog/common/authors/Greback.md
 type:
 short_description: 7月に行われたKorea Blockchain Weekへの参加は、韓国におけるOrbsの知名度を上げるうえで大きなステップとなりました。私たちは何ヶ月も前から、ソウルがブロックチェーンテクノロジーや仮想通貨の先進都市であると聞いていましたが、その噂は本当でした。
 ---

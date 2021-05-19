@@ -5,7 +5,7 @@ blogUrl: the-orbs-pos-universe-archetypes
 date: 2019-04-01
 title: The Orbs PoS Universe Archetypes — High Level Introduction
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: _The purpose of this short post is to give a high level introduction to the Orbs Universe and its proof-of-stake ecosystem. This post will not go into the specifics of the mechanics and will not go into exact numbers (this information is available here). Instead, we’ll focus on motivation and the main idea._
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-update-may-2019
 date: 2019-05-07
 title: Orbs Update May 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description:
 ---

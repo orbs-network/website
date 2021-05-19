@@ -5,7 +5,7 @@ blogUrl: orbs-update-january-2020
 date: 2020-01-31
 title: Orbs Update January 2020
 author:
-  - ../common/authors/Eddy.md
+  - /blog/common/authors/Eddy.md
 type:
 short_description: ##### **_Message from Orbs Korea Community Head, Eddy Kim:_**
 ---

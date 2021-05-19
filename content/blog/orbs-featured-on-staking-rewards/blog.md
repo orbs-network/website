@@ -5,7 +5,7 @@ blogUrl: orbs-featured-on-staking-rewards
 date: 2021-02-01
 title: Orbs Featured on Staking Rewards
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: (https://www.stakingrewards.com/), has added the ORBS token to their platform!
 ---

@@ -5,7 +5,7 @@ blogUrl: introducing-orbs-liquidity-nexus-liquidity-as-a-service
 date: 2021-03-23
 title: Introducing Orbs Liquidity Nexus — Liquidity as a Service
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: (/assets/img/blog/introducing-orbs-liquidity-nexus-liquidity-as-a-service/1_b1GMs87GwaJSdKLAY9i-dw-1030x434.png)
 ---

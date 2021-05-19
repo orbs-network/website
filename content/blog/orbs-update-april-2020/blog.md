@@ -5,7 +5,7 @@ blogUrl: orbs-update-april-2020
 date: 2020-04-30
 title: "Orbs Update April 2020: Recap"
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: Welcome back to our monthly recap everyone!
 ---

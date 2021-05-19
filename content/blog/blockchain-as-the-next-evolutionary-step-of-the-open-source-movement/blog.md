@@ -5,7 +5,7 @@ blogUrl: blockchain-as-the-next-evolutionary-step-of-the-open-source-movement
 date: 2019-03-26
 title: Blockchain as the Next Evolutionary Step of the Open Source Movement
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: There’s little argument that open source has transformed our world. As a developer, I cannot recall a single day in the last few years where I did not rely on open source software. I’m not the exception. The majority of software engineers today rely on open source daily in their professional lives.
 ---

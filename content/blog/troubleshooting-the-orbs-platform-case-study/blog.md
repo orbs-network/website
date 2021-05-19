@@ -5,7 +5,7 @@ blogUrl: troubleshooting-the-orbs-platform-case-study
 date: 2019-06-03
 title: Troubleshooting the Orbs Platform | Case Study
 author:
-  - ../common/authors/Ido.md
+  - /blog/common/authors/Ido.md
 type:
 short_description: ### Case Study
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-update-march-2020
 date: 2020-03-16
 title: Orbs Update March 2020
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: Welcome back to our monthly recap everyone!
 ---

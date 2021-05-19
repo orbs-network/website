@@ -5,7 +5,7 @@ blogUrl: orbsステーキング・ウォレットtetraが、モバイルで利�
 date: 2021-04-11
 title: Orbsステーキング・ウォレットTetraが、モバイルで利用可能となりました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: ## Orbsステーキング・ウォレットTetraが、モバイルで利用可能となりました
 ---
