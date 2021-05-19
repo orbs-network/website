@@ -13,11 +13,5 @@ rm -rf content/jp/common/
 sed 's/  - /  - ..\//g' content/jp/blog/blogs.md > changed.txt
 mv changed.txt content/jp/blog/blogs.md
 
-mv content/ko/blog/*/ content/ko/ 
-cp -a content/ko/common/ content/ko/blog/common/ 
-rm -rf content/ko/common/
-sed 's/  - /  - ..\//g' content/ko/blog/blogs.md > changed.txt
-mv changed.txt content/ko/blog/blogs.md
-
 
 echo "Prebuild is done!"

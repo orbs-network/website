@@ -13,6 +13,22 @@ const handleScrollTopBtn = () => {
   }
 };
 
+const setFooterTweetsHeight = () => {
+  if (window.innerWidth <= 1000) {
+    return;
+  }
+  const postsContainer = getElement(".footer-posts-list");
+  const postsContainerHeight = postsContainer.clientHeight;
+  const tweets = getElement(".footer-tweets-content");
+  tweets.style.height = `${postsContainerHeight}px`;
+};
+
+const handleResize = () => {
+  window.addEventListener("resize", () => {
+    setFooterTweetsHeight();
+  });
+};
+
 export const scrollToTop = () => {
   const btn = getElement(".scroll-top");
   addEvent(btn, "click", () => {
@@ -63,6 +79,8 @@ const init = () => {
   handleOnScroll();
   scrollToTop();
   hideAppLoader();
+  handleResize();
+  setFooterTweetsHeight();
 };
 
 export default {

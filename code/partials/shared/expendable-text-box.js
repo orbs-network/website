@@ -38,7 +38,7 @@ const ExpendableTextBox = ({
 }) => {
   const style = {
     WebkitLineClamp: linesLimit,
-    maxHeight: `${linesLimit * 30}px`,
+    maxHeight: `${linesLimit * 29}px`,
   };
 
   return (

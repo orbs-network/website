@@ -12,7 +12,7 @@ links:
   - name: Faq
     url: /ko/faq
   - name: ブログ
-    url: /ko/blog
+    url: /blog
   - name: コンタクト
     url: /ko/contact
 ---
