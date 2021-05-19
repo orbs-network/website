@@ -5,7 +5,7 @@ blogUrl: insights-into-orbs-rd-hackathon
 date: 2019-05-30
 title: Insights into Orbs’ R&D Hackathon
 author:
-  - ../common/authors/SergeyBolshchikov.md
+  - /blog/common/authors/SergeyBolshchikov.md
 type:
 short_description: Last week in the Tel Aviv offices, Orbs’ core team conducted its very first Hackathon! Within just two days of brainstorming, coding and eating junk, the teams developed the very first real-use apps on the Orbs network.
 ---

@@ -5,7 +5,7 @@ blogUrl: orbs-rd-update-may16-2019
 date: 2019-05-16
 title: Orbs R&D Update May 2019
 author:
-  - ../common/authors/EranK.md
+  - /blog/common/authors/EranK.md
 type:
 short_description: _After a year and a half of building the Orbs blockchain from the ground up with the most talented team I could hope for, mainnet was released to the public on March 28th. One of my non-technical post-launch goals is to focus on communicating directly all the work we’re doing._
 ---

@@ -5,7 +5,7 @@ blogUrl: business-of-blockchain-february-26-2019
 date: 2019-02-26
 title: "Business of Blockchain: February 26, 2019"
 author:
-  - ../common/authors/Gil.md
+  - /blog/common/authors/Gil.md
 type:
 short_description: "This week in blockchain business: Facebook is definitely going to do something sometime soon, proof that blockchain is useful, a stablecoin that's not stable and the latest in VC funding."
 ---

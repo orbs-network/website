@@ -5,7 +5,7 @@ blogUrl: orbs-update-january-2019
 date: 2019-01-08
 title: Orbs Update January 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description:
 ---

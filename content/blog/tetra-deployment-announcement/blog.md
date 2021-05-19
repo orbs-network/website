@@ -5,7 +5,7 @@ blogUrl: tetra-deployment-announcement
 date: 2020-11-19
 title: Tetra Deployment Announcement
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: Hi all -
 ---

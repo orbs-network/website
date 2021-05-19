@@ -5,7 +5,7 @@ blogUrl: the-sweet-spot-sfbw-blog
 date: 2019-11-17
 title: The Sweet Spot | SFBW Blog
 author:
-  - ../common/authors/GiliOvadia.md
+  - /blog/common/authors/GiliOvadia.md
 type:
 short_description: "On one hand, there is this utopian vision of the decentralized world: A free market in which decisions are pure reflections of parties’ will, where there are no fees and no cut, no friction, and no middlemen involved between two trustless sides. On the other hand, there is the world we live in; the world where middlemen rule, known by most as simply 'the marketplace' (companies like eBay, Uber, Yelp), who are getting bigger and more efficient every day, deepening their control over our day to day life. "
 ---

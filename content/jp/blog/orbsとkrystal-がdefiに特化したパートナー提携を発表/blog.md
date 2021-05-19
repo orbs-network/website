@@ -5,7 +5,7 @@ blogUrl: orbsとkrystal-がdefiに特化したパートナー提携を発表
 date: 2021-04-29
 title: OrbsとKrystal がDeFiに特化したパートナー提携を発表
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: パフォーマンス、コスト、セキュリティ、使いやすさのパーフェクトな組み合わせを開発者に提供する、無料でオープン・ソースのパブリック・ブロックチェーン・インフラを開発しているイスラエルのプロジェクト[Orbs](https://www.orbs.com/jp/)と、暗号通貨の保管とエクスチェンジ、パッシブ・インカムの獲得、さまざまなDeFiアプリケーションへのアクセスを一か所で行えるウォレット[Krystal](https://krystal.app/)は、分散型金融（DeFi）分野での相互協力とコラボレーションを発表しました。
 ---

@@ -5,7 +5,7 @@ blogUrl: bibox-exchange-lists-orbs-token-orbs
 date: 2021-04-30
 title: Bibox Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: "Bibox exchange has officially announced the listing of ORBS, the native token of the Orbs network. The following trading pairs are now available on Bibox: ORBS/USDT, and ORBS/ETH."
 ---

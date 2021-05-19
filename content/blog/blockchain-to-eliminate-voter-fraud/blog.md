@@ -5,7 +5,7 @@ blogUrl: blockchain-to-eliminate-voter-fraud
 date: 2020-12-17
 title: Blockchain to Eliminate Voter Fraud
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: "including solid advice on how to address concerns of domestic voter fraud. And yet, here we are again. Sadly, there have been multiple instances of fraud claims in America across the years: "
 ---

@@ -5,7 +5,7 @@ blogUrl: how-president-macron-can-really-bring-change-to-foreign-aid
 date: 2020-08-10
 title: Ensuring visibility and accountability - How President Macron can really bring change to foreign aid
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: ## Ensuring visibility and accountability -
 ---

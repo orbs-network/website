@@ -5,7 +5,7 @@ blogUrl: a-federated-model-can-protect-decentralized-platforms-from-some-players
 date: 2018-05-02
 title: A federated model can protect decentralized platforms from some players having too much power
 author:
-  - ../common/authors/OdedN.md
+  - /blog/common/authors/OdedN.md
 type:
 short_description: I’ve written about [consensus models](https://medium.com/p/c5fe1c24ef0c) in a general sense before. There, I briefly mentioned that I don’t believe consumers will be in the game of _permissionless decentralization_ even when consumer apps are. Here, I will try to elaborate on that.
 ---

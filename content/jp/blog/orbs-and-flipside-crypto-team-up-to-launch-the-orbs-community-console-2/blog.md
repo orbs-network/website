@@ -5,7 +5,7 @@ blogUrl: orbs-and-flipside-crypto-team-up-to-launch-the-orbs-community-console-2
 date: 2021-03-15
 title: OrbsとFlipside Cryptoが提携、Orbsコミュニティ・コンソールを発表
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: ## OrbsとFlipside Cryptoが提携、Orbsコミュニティ・コンソールを発表
 ---

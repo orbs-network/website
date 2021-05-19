@@ -5,7 +5,7 @@ blogUrl: orbs-update-august-2020
 date: 2020-08-11
 title: Orbs Update August 2020
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: "In this update:** Orbs PoS Universe: The Age of Guardians ⁂ New Validator ⁂ ORBS Staking ⁂ Tech Updates ⁂ Online Meetup ⁂ Media Highlights ⁂ Q&A with Tal Kol ⁂"
 ---

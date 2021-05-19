@@ -5,7 +5,7 @@ blogUrl: what-stops-a-successful-app-from-forking-a-blockchain
 date: 2018-05-28
 title: What Stops a Successful App from Forking a Blockchain?
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: "Note: This is a longer version of a post originally published in Blockonomi —_ [_What Prevents Apps from Forking Your Blockchain?_](https://blockonomi.com/apps-forking-blockchain/) _If you enjoy this post, please make sure to visit and share the original."
 ---

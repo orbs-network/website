@@ -5,7 +5,7 @@ blogUrl: メタマスクのセキュリティ概要とtetraウォレットと
 date: 2020-04-30
 title: メタマスクのセキュリティ概要とTetraウォレットとの接続について
 author:
-  - ../common/authors/EranPeled.md
+  - /jp/blog/common/authors/EranPeled.md
 type:
 short_description: みなさん、こんにちは！
 ---

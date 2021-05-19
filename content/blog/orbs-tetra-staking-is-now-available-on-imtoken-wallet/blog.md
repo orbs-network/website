@@ -5,7 +5,7 @@ blogUrl: orbs-tetra-staking-is-now-available-on-imtoken-wallet
 date: 2021-04-21
 title: Orbs Tetra Staking is now available on imToken Wallet!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: Tetra, the official staking wallet of the Orbs project is now available on mobile!
 ---

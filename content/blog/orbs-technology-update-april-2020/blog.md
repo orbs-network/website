@@ -5,7 +5,7 @@ blogUrl: orbs-technology-update-april-2020
 date: 2020-04-02
 title: Orbs Technology Update April 2020
 author:
-  - ../common/authors/Eddy.md
+  - /blog/common/authors/Eddy.md
 type:
 short_description: ## **Happy One-Year Anniversary to the Orbs public blockchain!**
 ---

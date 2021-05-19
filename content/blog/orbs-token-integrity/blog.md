@@ -5,7 +5,7 @@ blogUrl: orbs-token-integrity
 date: 2020-10-02
 title: Orbs Token Integrity
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: Lately, the Orbs team has been getting a lot of questions from people wondering about various tokens with similar names to Orbs that are out there in different DEXs and DEFI projects. This post will clarify the situation and serve as a resource to help the community avoid confusion as they do their own due diligence on the tokens they interact with.
 ---

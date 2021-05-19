@@ -5,7 +5,7 @@ blogUrl: monitoring-the-orbs-platform
 date: 2019-05-13
 title: Monitoring the Orbs Platform
 author:
-  - ../common/authors/Ido.md
+  - /blog/common/authors/Ido.md
 type:
 short_description: This update will elaborate on pre-Production load testing, and post-Production performance monitoring. Both use cases employ the Orbs monitoring dashboard as a key component.
 ---

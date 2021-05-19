@@ -5,7 +5,7 @@ blogUrl: orbs-is-live-on-microsoft-azure
 date: 2021-04-16
 title: Orbs is Live on Microsoft Azure!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---

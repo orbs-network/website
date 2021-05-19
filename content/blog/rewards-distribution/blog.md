@@ -5,7 +5,7 @@ blogUrl: rewards-distribution
 date: 2019-06-12
 title: Orbs Rewards Distribution
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network. There are 17 active Guardians currently registered and 14 Validators running in production. There are now over 1300 Delegators participating in the Orbs PoS ecosystem. At the beginning of July 2019, the first rewards distribution will occur. This post describes the various rewards, how they are calculated and the distribution process.
 ---

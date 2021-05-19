@@ -5,7 +5,7 @@ blogUrl: how-pow-and-pos-can-help-create-better-apps
 date: 2019-04-11
 title: How PoW and PoS Can Help Create Better Apps
 author:
-  - ../common/authors/DavidY.md
+  - /blog/common/authors/DavidY.md
 type:
 short_description: (https://medium.com/@_David) is Orbs Head of Research. He is also a PhD candidate in the Technion (Israel Institute of Technology) under the supervision of Prof. Idit Keidar. His research focuses on the interplay between game theory and distributed systems._
 ---

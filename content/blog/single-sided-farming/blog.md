@@ -4,7 +4,7 @@ image: /assets/img/blog/single-sided-farming/bg.jpeg
 blogUrl: single-sided-farming
 type: crypto
 author:
-  - /blog/common/authors/TalKol.md
+  - /bl/blog/common/authors/TalKol.md
 date: 23/04/2021
 title: Single Sided-Farming on Any DEX Via Orbs Liquidity Nexus — Part 1
 short_description:

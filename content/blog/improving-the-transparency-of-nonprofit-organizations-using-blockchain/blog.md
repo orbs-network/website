@@ -5,7 +5,7 @@ blogUrl: improving-the-transparency-of-nonprofit-organizations-using-blockchain
 date: 2019-02-14
 title: Improving the Transparency of Nonprofit Organizations Using Blockchain
 author:
-  - ../common/authors/HexaFoundation.md
+  - /blog/common/authors/HexaFoundation.md
 type:
 short_description: ## Introduction
 ---

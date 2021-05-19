@@ -5,7 +5,7 @@ blogUrl: orbs-is-now-available-on-blockfolio
 date: 2021-04-04
 title: ORBS Is Now Available on Blockfolio!
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: (/assets/img/blog/orbs-is-now-available-on-blockfolio/photo_2021-04-04_13-50-19-1030x579.jpg)
 ---

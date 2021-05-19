@@ -5,7 +5,7 @@ blogUrl: orbs-network-v1-3-6-fixes
 date: 2019-12-19
 title: Orbs Network — v1.3.6 fixes
 author:
-  - ../common/authors/YonathanL.md
+  - /blog/common/authors/YonathanL.md
 type:
 short_description: (https://www.orbs.com/getting-ready-for-round-iii-of-orbs-rewards-distribution/).
 ---

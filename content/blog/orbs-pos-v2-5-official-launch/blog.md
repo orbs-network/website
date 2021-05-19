@@ -5,7 +5,7 @@ blogUrl: orbs-pos-v2-5-official-launch
 date: 2020-11-30
 title: Orbs PoS V2.5 Official Launch!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: It's finally here, the moment we’ve all been waiting for -
 ---

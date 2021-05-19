@@ -5,7 +5,7 @@ blogUrl: orbs-pos-v2-5-the-age-of-guardians-is-here
 date: 2020-11-09
 title: "Orbs PoS V2.5: The Age of Guardians is here!"
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: It’s official!
 ---

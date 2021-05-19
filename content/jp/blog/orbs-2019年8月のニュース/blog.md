@@ -5,7 +5,7 @@ blogUrl: orbs-2019年8月のニュース
 date: 2019-09-01
 title: Orbs 2019年8月のニュース
 author:
-  - ../common/authors/Nate.md
+  - /jp/blog/common/authors/Nate.md
 type:
 short_description:
 ---

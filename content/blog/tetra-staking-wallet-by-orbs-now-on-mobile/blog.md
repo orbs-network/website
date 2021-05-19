@@ -5,7 +5,7 @@ blogUrl: tetra-staking-wallet-by-orbs-now-on-mobile
 date: 2021-04-09
 title: Tetra staking Wallet by Orbs Now on Mobile!
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ## Via Popular Crypto Wallet: ENJIN
 ---

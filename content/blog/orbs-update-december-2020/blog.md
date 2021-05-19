@@ -5,7 +5,7 @@ blogUrl: orbs-update-december-2020
 date: 2020-12-07
 title: Orbs Update December 2020
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: In this update:** Orbs PoS V2.5 Official Launch ⁂ Orbs DeFi ⁂ KBW 2020 ⁂ State of the Network ⁂ Media Highlights ⁂ Team Updates
 ---

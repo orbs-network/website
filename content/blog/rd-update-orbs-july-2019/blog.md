@@ -5,7 +5,7 @@ blogUrl: rd-update-orbs-july-2019
 date: 2019-07-18
 title: Orbs R&D Update July 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description: ## **Highlights**
 ---

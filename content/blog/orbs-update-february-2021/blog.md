@@ -5,7 +5,7 @@ blogUrl: orbs-update-february-2021
 date: 2021-02-15
 title: Orbs Update February 2021
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: #### **In this update:** DeFi.org accelerator ⁂ Orbs Featured on Staking Rewards ⁂ Orbs DeFi Portal ⁂ Media Highlights ⁂ Team Updates
 ---

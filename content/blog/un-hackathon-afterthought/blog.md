@@ -5,7 +5,7 @@ blogUrl: un-hackathon-afterthought
 date: 2019-10-03
 title: "GBBC's UN Hackathon: Afterthought"
 author:
-  - ../common/authors/YonathanL.md
+  - /blog/common/authors/YonathanL.md
 type:
 short_description: (https://gbbcouncil.org/) for a hackathon aimed at solving, or “hacking” sustainable development goals.
 ---

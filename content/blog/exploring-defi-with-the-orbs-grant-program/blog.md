@@ -5,7 +5,7 @@ blogUrl: exploring-defi-with-the-orbs-grant-program
 date: 2020-08-18
 title: Exploring DeFi with the Orbs Grant Program
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: In the last 6 months, the entire Orbs team has been hard at work on Orbs V2 - “The Age of Guardians”. This was a huge undertaking from both a technology development and business perspective. This very substantial 2.0 release improves on almost every aspect of the project - from the Proof-of-Stake incentives model, to a tighter integration with Ethereum and a revamped core architecture. I’m very excited that V2 has recently entered a public beta phase where Guardians are already running the new codebase!
 ---

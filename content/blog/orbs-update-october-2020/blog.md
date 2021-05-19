@@ -5,7 +5,7 @@ blogUrl: orbs-update-october-2020
 date: 2020-10-05
 title: Orbs Update October 2020
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: In this update:** Orbs PoS V2.5 ⁂ Locking of Team’s Tokens ⁂ DeFi Ecosystem Grant Program ⁂ State of the Network ⁂ Biz Dev Overview ⁂ Media Highlights ⁂ Meet the Orbs Team Vlog ⁂ Holiday Greetings
 ---

@@ -5,7 +5,7 @@ blogUrl: self-sovereign-identity-on-the-orbs-blockchain
 date: 2019-05-30
 title: Self-sovereign Identity on the Orbs Blockchain
 author:
-  - ../common/authors/AssafBielski.md
+  - /blog/common/authors/AssafBielski.md
 type:
 short_description: (https://www.orbs.com/defining-the-public-blockchain/)). Arguably, there is no area in which guarantees are needed more than our online identity and personal data. Online services made our lives easier in many ways, but these benefits far too often come at the expense of our privacy. Blockchain can change that, and by doing so, it would enable us to finally gain control of our digital identity.
 ---

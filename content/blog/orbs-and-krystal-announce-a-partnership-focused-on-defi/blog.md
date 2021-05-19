@@ -5,7 +5,7 @@ blogUrl: orbs-and-krystal-announce-a-partnership-focused-on-defi
 date: 2021-04-29
 title: Orbs and Krystal Announce a Partnership Focused on DeFi
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: Orbs an Israeli project developing a free, open-source, public blockchain infrastructure offering developers a proper mix of performance, cost, security and ease of use, and [**Krystal**](https://krystal.app/), a wallet for storing and exchanging cryptocurrency, earning passive income and accessing various DeFi applications in one place, announced a mutual cooperation and collaborations in the field of Decentralized Finance (DeFi).
 ---

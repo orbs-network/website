@@ -5,7 +5,7 @@ blogUrl: when-decentralized-finance-meets-the-traditional-system
 date: 2021-05-05
 title: When Decentralized Finance Meets the Traditional System
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: Had someone predicted any of the above only a few months ago (let alone more than a year ago...), she may have been laughed off of her blog...
 ---

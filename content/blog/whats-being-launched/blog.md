@@ -5,7 +5,7 @@ blogUrl: whats-being-launched
 date: 2019-03-26
 title: What's Being Launched - an Inventory List of Everything Part of V1 Release
 author:
-  - ../common/authors/EranK.md
+  - /blog/common/authors/EranK.md
 type:
 short_description: _With our launch rapidly approaching, we wanted to provide a full breakdown of what you’ll find in Version 1 of Orbs. The launch of V1 is a huge step forward for the Orbs project — building a full blockchain from scratch based on the requirements of real businesses._
 ---

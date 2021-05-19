@@ -5,7 +5,7 @@ blogUrl: private-vs-public-blockchain
 date: 2020-02-26
 title: Private vs Public Blockchain
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: ### History teaches us that this battle has already been decided
 ---

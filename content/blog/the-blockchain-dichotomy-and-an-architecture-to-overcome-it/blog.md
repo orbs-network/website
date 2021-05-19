@@ -5,7 +5,7 @@ blogUrl: the-blockchain-dichotomy-and-an-architecture-to-overcome-it
 date: 2019-04-15
 title: The Blockchain Dichotomy and an Architecture to Overcome It
 author:
-  - ../common/authors/TalKol.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description: "Trying to unlock mainstream adoption for public blockchain is one of the hardest challenges in the industry today. Real businesses are yet to see the value in public blockchain technology and adoption crawls. I believe this is largely caused by the blockchain dichotomy: the polarization of infrastructure solutions in the industry today. If this indeed is the cause, we can design architectures around it. Will this be enough to make mainstream adoption possible?"
 ---

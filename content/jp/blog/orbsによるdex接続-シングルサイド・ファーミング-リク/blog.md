@@ -5,7 +5,7 @@ blogUrl: orbsによるdex接続-シングルサイド・ファーミング-リ�
 date: 2021-04-05
 title: OrbsによるDEX接続 シングルサイド・ファーミング リクイディティ Nexus — パート 1
 author:
-  - ../common/authors/TalKol.md
+  - /jp/blog/common/authors/TalKol.md
 type:
 short_description: Orbs Liquidity Nexusは、CeFiから来る流動性をDeFiに導入します。
 ---

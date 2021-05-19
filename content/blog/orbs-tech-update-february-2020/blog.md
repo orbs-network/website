@@ -5,7 +5,7 @@ blogUrl: orbs-tech-update-february-2020
 date: 2020-02-19
 title: Orbs Technology Update February 2020
 author:
-  - ../common/authors/NoamBerg.md
+  - /blog/common/authors/NoamBerg.md
 type:
 short_description: ## New Token Locking in PoS
 ---

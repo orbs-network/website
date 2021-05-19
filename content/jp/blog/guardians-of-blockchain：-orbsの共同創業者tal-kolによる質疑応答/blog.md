@@ -5,7 +5,7 @@ blogUrl: guardians-of-blockchain：-orbsの共同創業者tal-kolによる質疑
 date: 2020-07-23
 title: Guardians of Blockchain： Orbsの共同創業者Tal Kolによる質疑応答
 author:
-  - ../common/authors/EranPeled.md
+  - /jp/blog/common/authors/EranPeled.md
 type:
 short_description: (/assets/img/blog/guardians-of-blockchain：-orbsの共同創業者tal-kolによる質疑応答/Tal-Kol-Orbs.jpg)
 ---

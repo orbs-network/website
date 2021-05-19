@@ -5,7 +5,7 @@ blogUrl: orbs-universe-first-six-weeks
 date: 2019-06-13
 title:"Orbs Universe: The First Six Weeks"
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: The Orbs network was launched and opened to public participation at the end of March 2019 alongside the distribution of the ORBS token to private sale purchasers. The following report highlights the main developments in the Orbs Proof-of-Stake (PoS) ecosystem based on accumulated data for the first six weeks.
 ---

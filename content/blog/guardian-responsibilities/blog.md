@@ -5,7 +5,7 @@ blogUrl: guardian-responsibilities
 date: 2019-06-13
 title: Guardian Responsibilities
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: Guardians play a central role in the Orbs PoS model - they are expected to be key participants within the Orbs Universe, who enforce the security of the network, align with the long term Orbs vision and actively work to make this vision a reality. A core role of the Guardians is to review the Validators, monitor their operations and ensure proper network operation and security by approving Validators that follow the protocol correctly.
 ---

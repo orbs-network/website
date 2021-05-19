@@ -5,7 +5,7 @@ blogUrl: orbs-update-august-2019
 date: 2019-08-09
 title: Orbs Update August 2019
 author:
-  - ../common/authors/Nate.md
+  - /blog/common/authors/Nate.md
 type:
 short_description:
 ---

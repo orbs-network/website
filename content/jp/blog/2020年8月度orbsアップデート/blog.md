@@ -5,7 +5,7 @@ blogUrl: 2020年8月度orbsアップデート
 date: 2020-08-18
 title: 2020年8月度Orbsアップデート
 author:
-  - ../common/authors/EranPeled.md
+  - /jp/blog/common/authors/EranPeled.md
 type:
 short_description: 今月のアップデート：**Orbs PoSユニバース：ガーディアンの時代 ⁂ 新しいバリデータ ⁂ ORBSステーキング ⁂ 技術アップデート ⁂ オンライン・ミートアップ ⁂ メディアハイライト ⁂ Tal Kolによる質疑応答 ⁂
 ---

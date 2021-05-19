@@ -5,7 +5,7 @@ blogUrl: distributed-key-generation-writing-smart-contracts-and-combatting-bad-a
 date: 2018-08-20
 title: "Distributed Key Generation: Writing Smart Contracts and Combatting Bad Actors"
 author:
-  - ../common/authors/DavidY.md
+  - /blog/common/authors/DavidY.md
 type:
 short_description: https://www.youtube.com/watch?v=KArXb07tGjY
 ---

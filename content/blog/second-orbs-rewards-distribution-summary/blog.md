@@ -5,7 +5,7 @@ blogUrl: second-orbs-rewards-distribution-summary
 date: 2019-09-25
 title: "2nd Orbs Rewards Distribution: Summary"
 author:
-  - ../common/authors/AndreyDulkin.md
+  - /blog/common/authors/AndreyDulkin.md
 type:
 short_description: _On September 25, 2019, Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself._
 ---

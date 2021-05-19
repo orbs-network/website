@@ -5,7 +5,7 @@ blogUrl: guardians-of-blockchain-qa-with-orbs-co-founder-tal-kol
 date: 2020-07-14
 title: "Guardians of Blockchain: Q&A with Orbs Co-founder Tal Kol"
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: (/assets/img/blog/guardians-of-blockchain-qa-with-orbs-co-founder-tal-kol/Tal-Kol-Orbs.jpg)
 ---

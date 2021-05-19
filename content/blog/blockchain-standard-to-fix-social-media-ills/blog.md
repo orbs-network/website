@@ -5,7 +5,7 @@ blogUrl: blockchain-standard-to-fix-social-media-ills
 date: 2019-12-25
 title: How an Open Blockchain Standard Can Fix the Ills of Social Media
 author:
-  - ../common/authors/DannyBrownWolf.md
+  - /blog/common/authors/DannyBrownWolf.md
 type:
 short_description: (https://www.linkedin.com/in/danny-brown-wolf-6346b242/), Head of Partnerships at Orbs and COO at Hexa Foundation_
 ---

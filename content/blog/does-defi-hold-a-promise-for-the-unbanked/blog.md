@@ -5,7 +5,7 @@ blogUrl: does-defi-hold-a-promise-for-the-unbanked
 date: 2020-11-02
 title: Does DeFi Hold a Promise for the Unbanked?
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: With the rise of cryptocurrencies in the last few years, also came the increased optimism that billions of the global unbanked population would finally have an inclusive financial solution.
 ---

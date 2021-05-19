@@ -5,7 +5,7 @@ blogUrl: p2pb2b-exchange-lists-orbs-token-orbs
 date: 2021-04-22
 title: P2PB2B Exchange Lists Orbs Token (ORBS)
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---

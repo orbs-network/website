@@ -5,7 +5,7 @@ blogUrl: orbs-is-live-on-microsoft-azure-2
 date: 2021-05-02
 title: OrbsがMicrosoft Azureで利用可能となりました!
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---

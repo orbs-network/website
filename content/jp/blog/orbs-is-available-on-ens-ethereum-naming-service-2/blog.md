@@ -5,7 +5,7 @@ blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
 date: 2021-05-02
 title: OrbsがENS (Ethereum Naming Service)で利用可能となりました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---

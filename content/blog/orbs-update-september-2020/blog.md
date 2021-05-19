@@ -5,7 +5,7 @@ blogUrl: orbs-update-september-2020
 date: 2020-09-06
 title: Orbs Update September 2020
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: In this update:** DeFi, DeFi, DeFi ⁂ Orbs Ecosystem Grant Program ⁂ Age of Guardians ⁂ State of the Network ⁂ Previews and Teasers ⁂ Hexa Foundation ⁂ Media Highlights ⁂ Meet the Orbs Team Vlog
 ---

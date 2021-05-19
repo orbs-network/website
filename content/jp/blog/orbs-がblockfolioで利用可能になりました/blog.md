@@ -5,7 +5,7 @@ blogUrl: orbs-がblockfolioで利用可能になりました
 date: 2021-04-06
 title: ORBS がBlockfolioで利用可能になりました
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: (/assets/img/blog/orbs-がblockfolioで利用可能になりました/photo_2021-04-04_13-50-19-1030x579.jpg)
 ---

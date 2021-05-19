@@ -5,7 +5,7 @@ blogUrl: 2021年3月度orbsアップデート
 date: 2021-03-15
 title: 2021年3月度Orbsアップデート
 author:
-  - ../common/authors/MayoHotta.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: #### **今月のアップデート：** Orbsコミュニティ・コンソール⁂DeFi.orgアクセラレーター⁂Xangle⁂GBBC年次報告書⁂TalKolのウィークリー動画⁂新しい公式サイトについて
 ---

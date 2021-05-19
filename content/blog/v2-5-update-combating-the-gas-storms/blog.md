@@ -5,7 +5,7 @@ blogUrl: v2-5-update-combating-the-gas-storms
 date: 2020-09-24
 title: V2.5 UPDATE - Combating the Gas Storms
 author:
-  - ../common/authors/RanHammer.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: ## Orbs PoS: The Age of Guardians
 ---

@@ -5,7 +5,7 @@ blogUrl: introducing-locking-when-staking-orbs
 date: 2020-04-07
 title: Introducing Locking When Staking ORBS
 author:
-  - ../common/authors/OdedW.md
+  - /blog/common/authors/OdedW.md
 type:
 short_description: ## Everything You Need to Know About Locking Your Tokens in the New Staking Contract
 ---

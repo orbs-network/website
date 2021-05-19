@@ -5,7 +5,7 @@ blogUrl: group-signature-schemes-with-distributed-traceability-or-how-to-open-a-
 date: 2018-06-28
 title: Group Signature Schemes with Distributed Traceability (or how to open a signature fairly)
 author:
-  - ../common/authors/MayaL.md
+  - /blog/common/authors/MayaL.md
 type:
 short_description: In this post I want to discuss group signature schemes, and specifically group signatures with distributed traceability and show why this is an interesting cryptographic tool for distributed systems, using the Helix consensus protocol as an example to how these signatures can be used.
 ---

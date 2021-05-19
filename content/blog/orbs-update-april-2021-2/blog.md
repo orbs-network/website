@@ -5,7 +5,7 @@ blogUrl: orbs-update-april-2021-2
 date: 2021-05-02
 title: Orbs Update April 2021
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: #### **In this update:** Exchange Listings: FTX, KuCoin, and more  ⁂ Liquidity Nexus! ⁂ Orbs Live on AWS and MS Azure ⁂ ORBS Staking on Bithumb ⁂ Moonstake Partnership ⁂ Tetra on Mobile! ⁂ New Merchandise Shop ⁂ Weekly Updates with Tal Kol ⁂ And much much more...
 ---

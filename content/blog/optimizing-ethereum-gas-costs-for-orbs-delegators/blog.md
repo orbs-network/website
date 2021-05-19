@@ -5,7 +5,7 @@ blogUrl: optimizing-ethereum-gas-costs-for-orbs-delegators
 date: 2021-01-06
 title: Optimizing Ethereum Gas Costs for Orbs Delegators
 author:
-  - ../common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
 short_description: Occasional high gas fees on Ethereum can inflict heavy costs on Orbs Delegators when executing transactions in the Orbs PoS mechanism, if done without preplanning. With a few simple steps, Delegators can significantly reduce losses incurred by these high gas prices.
 ---

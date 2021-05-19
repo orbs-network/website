@@ -5,7 +5,7 @@ blogUrl: blockchain-based-health-immunity-passport
 date: 2020-09-13
 title: Blockchain-based Health Immunity Passport
 author:
-  - ../common/authors/NettaKorin.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: COVID-19 has had a devastating global impact. Travel and tourism industries have been particularly crippled by the virus, with no near term end in sight. Also concerning is the understanding that this will probably not be the last time that a global pandemic will affect all aspects of life for the world’s population. There is, or there should be, an internalization that if the world is to remain open, it needs to be prepared. Some kind of systematic solution is needed that will assist the global community to live through a pandemic without a mass closing of borders.
 ---
