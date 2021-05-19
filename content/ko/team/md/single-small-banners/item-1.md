@@ -1,5 +1,5 @@
 ---
 layout: partials/team/banners/single-small-banner
 
-image: assets/img/team/grid3.png
+image: assets/img/team/grid7.png
 ---
