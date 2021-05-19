@@ -1,14 +1,14 @@
 ---
-layout: partials/footer/navigation/links
+layout: partials/footer/components/navigation/links
 
 title: Overview
 
 links:
   - name: the orbs network
-    url: /jp/network
+    url: /network
   - name: orbs smart contracts
-    url: /jp/smart-contracts
+    url: /smart-contracts
     subLink: true
   - name: proof of stake universe
-    url: /jp/pos-universe
+    url: /pos-universe
 ---

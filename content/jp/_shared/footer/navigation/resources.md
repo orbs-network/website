@@ -1,5 +1,5 @@
 ---
-layout: partials/footer/navigation/resources-links
+layout: partials/footer/components/navigation/resources-links
 title: Resources
 
 links:
@@ -7,7 +7,8 @@ links:
     url: https://staking.orbs.network/
   - name: analytics
     url: https://analytics.orbs.network
-  - name: status
+
+  - name: Network Status
     url: http://status.orbs.network/
 
   - name: v1 reward

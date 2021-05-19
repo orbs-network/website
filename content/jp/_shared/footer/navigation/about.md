@@ -1,18 +1,18 @@
 ---
-layout: partials/footer/navigation/links
+layout: partials/footer/components/navigation/links
 title: About
 
 links:
   - name: White papers
-    url: /jp/white-papers
+    url: /white-papers
   - name: Team
-    url: /jp/team
-  - name: partnerships
-    url: /jp/ecosystem
+    url: /team
+  - name: Ecosystem
+    url: /ecosystem
   - name: Faq
-    url: /jp/faq
+    url: /faq
   - name: Blog
-    url: /jp/blog
+    url: /blog
   - name: Contact us
-    url: /jp/contact
+    url: /contact
 ---

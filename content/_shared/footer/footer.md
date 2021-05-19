@@ -1,14 +1,16 @@
 ---
-layout: partials/footer/footer
+layout: partials/footer/index
 
-tweetsAndPosts:
-  - tweets-and-posts/collection.md
-
+posts:
+  - posts/index.md
+tweets:
+  - tweets/index.md
 navigation:
-  - navigation/navigation.md
+  - navigation/index.md
 
-logoSection:
+logo_section:
   - logo-section.md
-bottomSection:
-  - footer-bottom.md
+
+bottom_section:
+  - bottom/index.md
 ---

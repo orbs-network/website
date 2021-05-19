@@ -6,6 +6,7 @@ import ui from "./ui/ui.js";
 import analytics from "./services/analytics.js";
 import localStorage from "./services/local-storage.js";
 import { GDPR_ACCEPTED } from "./keys.js";
+import { getElement } from "./heplers.js";
 
 ui.showAppLoader();
 

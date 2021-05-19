@@ -5,7 +5,7 @@
   color: white;
   border-top: 1px solid #707070;
   font-family: "Montserrat";
-  &-sub-title {
+  &-section-title {
     display: flex;
     margin-bottom: 20px;
     font-family: $bold-font;
@@ -18,30 +18,49 @@
       height: 20px;
     }
   }
-  &-posts-and-tweets {
+  &-flex {
+    display: flex;
+    justify-content: space-between;
     align-items: stretch;
-    width: 70%;
-    flex-wrap: wrap;
-    .footer-post,
-    .footer-tweet,
-    .footer-sub-title {
-      width: calc(50% - 35px);
-      margin-right: 70px;
-      &:nth-child(even) {
-        margin-right: 0px;
+  }
+
+  &-logo-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding-right: 70px;
+    .footer-logo {
+      width: auto;
+      margin-bottom: 20px;
+      height: 28px;
+    }
+    .text-p {
+      margin-bottom: 0px;
+      &:nth-of-type(2) {
+        margin-top: 30px;
+        color: $light-color;
       }
     }
     a {
       text-decoration: none;
     }
-    &-mobile {
-      display: none;
-    }
   }
-  &-flex {
-    display: flex;
-    margin: auto;
-    align-items: stretch;
+  &-posts {
+    width: 35%;
+    padding-right: 40px;
+  }
+  &-tweets {
+    width: 35%;
+    padding-left: 40px;
+    &-content {
+      overflow: auto;
+      position: relative;
+      height: 100%;
+      iframe {
+      }
+    }
   }
 
   &-post {
@@ -78,25 +97,6 @@
     &-content {
       flex: 1;
     }
-    &:last-of-type {
-      border: 0px;
-      margin-bottom: 0px;
-      padding-bottom: 0px;
-    }
-  }
-
-  &-tweet {
-    border-bottom: 1px solid #707070;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    &-date {
-      color: #9f9e9e;
-      font-size: 0.75rem;
-    }
-    .text-p {
-      margin-bottom: 10px;
-    }
-
     &:last-of-type {
       border: 0px;
       margin-bottom: 0px;
@@ -193,29 +193,7 @@
       display: none;
     }
   }
-  &-logo-section {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 
-    padding-right: 80px;
-    .footer-logo {
-      width: auto;
-      margin-bottom: 20px;
-      height: 28px;
-    }
-    .text-p {
-      margin-bottom: 20px;
-      &:nth-of-type(2) {
-        margin-top: auto;
-        color: $light-color;
-      }
-    }
-    a {
-      text-decoration: none;
-    }
-  }
   &-bottom {
     align-items: center;
     padding-top: 20px;
@@ -231,6 +209,27 @@
 }
 @media only screen and (max-width: $medium) {
   .footer {
+    &-logo-section {
+      padding: 0px;
+      width: 100%;
+      margin-bottom: 70px;
+    }
+    &-posts {
+      width: 100%;
+      padding: 0px;
+      margin-bottom: 70px;
+    }
+    &-section-title {
+    }
+    &-tweets {
+      width: 100%;
+      padding: 0px;
+      &-content {
+        max-height: 500px;
+        height: 50vw;
+        min-height: 280px;
+      }
+    }
     &-flex {
       flex-direction: column;
     }
@@ -249,13 +248,6 @@
         display: none;
       }
     }
-    &-logo-section {
-      width: 100%;
-      padding-right: 0px;
-    }
-    &-posts-and-tweets {
-      width: 100%;
-    }
   }
 }
 
@@ -264,29 +256,10 @@
     &-flex {
       flex-direction: column;
     }
-    &-logo-section {
-      width: 100%;
-      padding-right: 0px;
-    }
-    &-sub-title {
-      margin-top: 40px;
-      min-width: 100%;
-    }
+
     &-post {
       min-width: 100%;
       margin-bottom: 30px;
-    }
-    &-tweet {
-      min-width: 100%;
-      margin-bottom: 30px;
-    }
-    &-posts-and-tweets {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      &-mobile {
-        display: flex;
-      }
     }
   }
 }

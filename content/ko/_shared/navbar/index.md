@@ -24,5 +24,5 @@ languages:
     img: /assets/img/navbar/japan.svg
 subscribe_to_updates: アップデートを購読する
 blog: ブログ
-blog_link: /ko/blog
+blog_link: /blog
 ---
