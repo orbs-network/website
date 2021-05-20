@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/eran-peled.jpg
 name: Eran Peled
-role: Co-Founder & CEO
+role: Product Manager
 twitter: /
 telegram:
 linkedin: /

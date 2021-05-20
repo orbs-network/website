@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/nadav-shemesh.jpg
 name: Nadav Shemesh
-role: Co-Founder & CEO
+role: Chief Executive Officer
 twitter: /
 telegram:
 linkedin: /

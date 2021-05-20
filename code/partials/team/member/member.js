@@ -30,7 +30,7 @@ const Member = (props) => {
       }}
     >
       <div className="team-member-details">
-        <p className="team-member-details-name text-overflow">{name}</p>
+        <p className="team-member-details-name">{name}</p>
         <p className="team-member-details-role">{role}</p>
         <InnerLinks
           generateUrl={generateUrl}
