@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/dolev.jpg
 name: Dolev
-role: Co-Founder & CEO
+role: Director of Finance
 twitter: /
 telegram:
 linkedin: /
