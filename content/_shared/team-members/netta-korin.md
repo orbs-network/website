@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/neta-korrin.jpg
 name: Netta Korin
-role: Co-Founder & CEO
+role: co-founder and director
 twitter: /
 telegram:
 linkedin: /

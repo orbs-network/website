@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/ran-hammer.jpg
 name: Ran Hammer
-role: Co-Founder & CEO
+role: General Counsel and Corporate Development
 twitter: /
 telegram:
 linkedin: /
