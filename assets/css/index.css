@@ -395,11 +395,6 @@ body {
         height: 100%;
         object-fit: contain; }
 
-.expending-box a {
-  text-decoration: none; }
-  .expending-box a:hover {
-    text-decoration: underline; }
-
 .expending-box-title,
 .expending-box .title-h4 {
   letter-spacing: 1px;
@@ -411,6 +406,10 @@ body {
   .expending-box-title:first-child,
   .expending-box .title-h4:first-child {
     margin-top: 0px; }
+
+.expending-box a {
+  color: #03fcf5;
+  text-decoration: underline; }
 
 .expending-box .title-h5 {
   letter-spacing: 1px;
@@ -578,11 +577,6 @@ body {
       object-fit: cover;
       transform-origin: center; }
 
-.expending-box a {
-  text-decoration: none; }
-  .expending-box a:hover {
-    text-decoration: underline; }
-
 .expending-box-title,
 .expending-box .title-h4 {
   letter-spacing: 1px;
@@ -594,6 +588,10 @@ body {
   .expending-box-title:first-child,
   .expending-box .title-h4:first-child {
     margin-top: 0px; }
+
+.expending-box a {
+  color: #03fcf5;
+  text-decoration: underline; }
 
 .expending-box .title-h5 {
   letter-spacing: 1px;

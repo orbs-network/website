@@ -1,8 +1,8 @@
 ---
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/nechama.jpg
-name: Nechama
-role: Co-Founder & CEO
+name: Nechama Ben Meir
+role: Chief Financial Office
 twitter: /
 telegram:
 linkedin: /
