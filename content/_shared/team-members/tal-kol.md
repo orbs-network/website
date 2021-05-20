@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/tal-kol.jpg
 name: Tal Kol
-role: co-founder and director
+role: co-founder & director
 twitter: /
 telegram:
 linkedin: /
