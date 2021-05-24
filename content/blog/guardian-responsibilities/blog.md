@@ -39,12 +39,12 @@ Below are some ideas for activities that Guardians can engage in:
 ### Introducing yourself as a new Guardian
 
 - Create a website (you can use a template like [https://github.com/paradigmcitadel/orbs_guardian_delegation](https://github.com/paradigmcitadel/orbs_guardian_delegation) or a service like Wix.com to make this easy) and provide the following information:
-  - - Information about yourself - are you a company or an individual, where are you located and any other relevant information
-      - Your background in the blockchain and crypto fields
-      - Your involvement in the Orbs ecosystem
-      - How will you perform your Guardian responsibilities?
-      - Why should a Delegator select you as a Guardian?
-      - New Delegators looking for a Guardian use these websites to learn about the potential Guardians. Use this opportunity to establish trust and promote yourself.
+  - Information about yourself - are you a company or an individual, where are you located and any other relevant information
+    - Your background in the blockchain and crypto fields
+    - Your involvement in the Orbs ecosystem
+    - How will you perform your Guardian responsibilities?
+    - Why should a Delegator select you as a Guardian?
+    - New Delegators looking for a Guardian use these websites to learn about the potential Guardians. Use this opportunity to establish trust and promote yourself.
 - Register in the Guardians’ smart contract - instructions available [here](https://github.com/orbs-network/orbs-ethereum-contracts/blob/master/voting/ethereum/instructions/guardian_registration.md) (don’t forget to include the website address)
 - Go to the Orbs [community forum](https://community.orbs.network/) and announce yourself as a new Guardian
 - Become active by engaging in the above-described activities
