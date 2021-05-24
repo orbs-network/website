@@ -34,9 +34,6 @@ const BlogListElement = (props) => {
       >
         <figure className="blog-list-blog-img"></figure>
         <h4 className="blog-list-blog-title">{title}</h4>
-        <div className='"blog-list-blog-description'>
-          <p className="text-p limited-lines">{short_description}</p>
-        </div>
       </a>
       <div className="blog-list-blog-author flex-start">
         {author}
