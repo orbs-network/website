@@ -40,7 +40,7 @@ const BlogGetInvloved = ({
           title={whitePapersTitle}
           btnText={whitePapersButton}
           alt="orbs logo"
-          url={whitePapersURL}
+          url={generateUrl(whitePapersURL)}
         />
 
         <Section
@@ -55,7 +55,7 @@ const BlogGetInvloved = ({
           title={documentationTitle}
           btnText={documentationButton}
           alt="document icon"
-          url={documentationURL}
+          url={generateUrl(documentationURL)}
         />
       </div>
     </div>
