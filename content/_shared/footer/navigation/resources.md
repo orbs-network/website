@@ -18,10 +18,10 @@ links:
     url: https://vcs.orbs.network/
 
   - name: community console
-    url: https://vcs.orbs.network/
+    url: https://orbs.flipsidecrypto.com/
 
   - name: defi portal
-    url: https://vcs.orbs.network/
+    url: https://orbsdefi.com/
 
   - name: Staking Calculator
     url: https://www.stakingrewards.com/earn/orbs

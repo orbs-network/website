@@ -1,7 +1,12 @@
 import React from "react";
+import { isOutherLink } from "../../../util/link";
 
 const MenuResources = ({ links, title, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
+    const isOuter = isOutherLink(url);
+    if (isOuter) {
+      return url;
+    }
     return `${_relativeURL(url, _ID)}`;
   };
   return (
@@ -13,6 +18,7 @@ const MenuResources = ({ links, title, _relativeURL, _ID }) => {
             const { url, name, subLink } = link;
             return (
               <a
+                target={isOutherLink(url) ? "_blank" : ""}
                 key={index}
                 className={
                   subLink

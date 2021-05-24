@@ -27,7 +27,6 @@ const handleBlogListOnLoad = () => {
     const src = getElementAttribute(linkElement, "href");
     const newSrc = src;
     linkElement.setAttribute("href", newSrc);
-    console.log(imageContainer);
     blog.style.display = "flex";
   });
   initInfiniteScrolling(blogsContainer, blogsList);
