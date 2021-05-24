@@ -17,7 +17,7 @@ const loadMore = (container, blogsList) => {
 
 const handleScroll = (container, blogsList) => {
   const footer = getElement(".footer");
-  const extraOffset = 180;
+  const extraOffset = 280;
   window.addEventListener(
     "scroll",
     () => {

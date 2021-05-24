@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/eran-peled.jpg
 name: Eran Peled
-role: Product Manager
+role: Project Manager
 twitter: /
 telegram:
 linkedin: /

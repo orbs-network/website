@@ -13,6 +13,8 @@ links:
     url: /faq
   - name: Blog
     url: /blog
+  - name: Hexa foundation
+    url: https://www.hexa.org/
   - name: Contact
     url: /contact
 ---
