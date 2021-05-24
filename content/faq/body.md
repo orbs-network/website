@@ -26,7 +26,7 @@ sections:
       - md/section3/faq-3.md
       - md/section3/faq-4.md
 
-  - title: technology
+  - title: Technology
     list:
       - md/section4/faq-1.md
       - md/section4/faq-2.md

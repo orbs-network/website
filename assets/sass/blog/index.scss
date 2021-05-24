@@ -47,6 +47,7 @@ $blog-bold-font: "base-blog-font";
       text-align: left;
       font-family: $text-font;
       text-transform: none;
+      word-wrap: break-word;
     }
 
     &-bg {
@@ -146,12 +147,13 @@ $blog-bold-font: "base-blog-font";
           font-weight: 500;
           margin-bottom: 23px;
         }
-        button {
+        a {
           @extend .btn;
           height: 51px;
           border-radius: 42px;
           text-transform: none;
           padding: 0px 25px;
+          text-decoration: none;
         }
       }
     }

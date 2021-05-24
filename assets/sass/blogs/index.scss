@@ -72,11 +72,15 @@
       }
       &-title {
         font-size: 1.375rem;
-
         font-weight: 600;
-        margin-bottom: 10px;
         line-height: 2.063rem;
         padding-right: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        max-height: 105px;
+        -webkit-line-clamp: 3; /* number of lines to show */
+        -webkit-box-orient: vertical;
       }
       &-description {
         .text-p {
@@ -109,7 +113,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
       }
       &-author {
         margin-top: auto;
