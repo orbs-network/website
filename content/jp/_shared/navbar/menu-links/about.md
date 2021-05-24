@@ -13,6 +13,8 @@ links:
     url: /jp/faq
   - name: ブログ
     url: /jp/blog
+  - name: Hexa foundation
+    url: https://www.hexa.org/
   - name: コンタクト
     url: /jp/contact
 ---
