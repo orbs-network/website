@@ -10,7 +10,7 @@ type:
 short_description: (/assets/img/blog/indodax-exchange-lists-orbs-token-orbs/photo_2021-04-06_09-36-19-1030x579.jpg)
 ---
 
-(/assets/img/blog/indodax-exchange-lists-orbs-token-orbs/photo_2021-04-06_09-36-19-1030x579.jpg)
+![indodax photo](/assets/img/blog/indodax-exchange-lists-orbs-token-orbs/photo_2021-04-06_09-36-19-1030x579.jpg)
 
 Indodax exchange, Indonesia’s largest crypto asset marketplace, has [officially announced](https://blog.indodax.com/the-sandbox-sand-orbs-orbs-listing-on-indodax) the listing of ORBS, the official native token of the Orbs network. The following trading pairs are now available on Indodax: ORBS/IDR
 

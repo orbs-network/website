@@ -2,12 +2,14 @@ import React from "react";
 import { images } from "../../../assets/js/images";
 import Img from "../shared/Img";
 
-const Section = ({ src, title, btnText, alt }) => {
+const Section = ({ src, title, btnText, alt, url }) => {
   return (
     <div className="single-blog-bottom-flex-item flex-column">
       <Img src={src} alt={alt} />
       <h4>{title}</h4>
-      <button aria-label="link">{btnText}</button>
+      <a href={url} target="_blank">
+        {btnText}
+      </a>
     </div>
   );
 };
@@ -22,6 +24,9 @@ const BlogGetInvloved = ({
   _relativeURL,
   _ID,
   title,
+  whitePapersURL,
+  githubURL,
+  documentationURL,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -35,6 +40,7 @@ const BlogGetInvloved = ({
           title={whitePapersTitle}
           btnText={whitePapersButton}
           alt="orbs logo"
+          url={whitePapersURL}
         />
 
         <Section
@@ -42,12 +48,14 @@ const BlogGetInvloved = ({
           title={githubTitle}
           btnText={githubButton}
           alt="github icon"
+          url={githubURL}
         />
         <Section
           src={generateUrl(images.blog.documents)}
           title={documentationTitle}
           btnText={documentationButton}
           alt="document icon"
+          url={documentationURL}
         />
       </div>
     </div>
