@@ -104,7 +104,7 @@
   width: 100%;
   top: 0px; }
 
-.btn, .expending-box .expend-btn, .form-submit-container .form-submit, .single-blog-bottom-flex-item button, .white-papers-box-btn {
+.btn, .expending-box .expend-btn, .form-submit-container .form-submit, .single-blog-bottom-flex-item a, .white-papers-box-btn {
   text-transform: uppercase;
   width: fit-content;
   padding: 0px 35px;
@@ -2714,9 +2714,15 @@ body {
     .blog-list-blog-title {
       font-size: 1.375rem;
       font-weight: 600;
-      margin-bottom: 10px;
       line-height: 2.063rem;
-      padding-right: 10px; }
+      padding-right: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      max-height: 105px;
+      -webkit-line-clamp: 3;
+      /* number of lines to show */
+      -webkit-box-orient: vertical; }
     .blog-list-blog-description .text-p {
       font-size: 0.875rem;
       margin-bottom: 0px; }
@@ -2742,7 +2748,7 @@ body {
       flex-direction: column;
       width: 100%;
       height: auto;
-      margin-bottom: 20px; }
+      margin-bottom: 15px; }
     .blog-list-blog-author {
       margin-top: auto; }
       .blog-list-blog-author img {
@@ -2880,7 +2886,8 @@ body {
     letter-spacing: 0.08rem;
     text-align: left;
     font-family: "Montserrat";
-    text-transform: none; }
+    text-transform: none;
+    word-wrap: break-word; }
   .single-blog-header-bg {
     position: absolute;
     left: 0px;
@@ -2960,11 +2967,12 @@ body {
         font-size: 1.063rem;
         font-weight: 500;
         margin-bottom: 23px; }
-      .single-blog-bottom-flex-item button {
+      .single-blog-bottom-flex-item a {
         height: 51px;
         border-radius: 42px;
         text-transform: none;
-        padding: 0px 25px; }
+        padding: 0px 25px;
+        text-decoration: none; }
 
 .single-blog-body {
   background: white;
