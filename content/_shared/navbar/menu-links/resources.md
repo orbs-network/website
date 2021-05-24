@@ -29,12 +29,12 @@ links:
     text: Orbs Virtual Chains
 
   - name: "Community Console"
-    url: https://vcs.orbs.network/
+    url: https://orbs.flipsidecrypto.com/
     image: assets/img/navbar/menu/vc.svg
     text: On-chain metrics
 
   - name: "DeFi Portal"
-    url: https://vcs.orbs.network/
+    url: https://orbsdefi.com/
     image: assets/img/navbar/menu/defi.svg
     text: Real-time DeFi data
 

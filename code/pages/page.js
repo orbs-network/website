@@ -15,7 +15,6 @@ const Page = ({
   subscribe,
   gdpr,
   meta_description,
-  disable_animations,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
