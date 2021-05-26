@@ -4,7 +4,7 @@ const Main = ({ pageHeader, tags, blogs }) => {
   return (
     <main className="blog page-padding-top">
       {pageHeader}
-      {tags}
+
       <div className="blog-content">
         <div className="main-grid">{blogs}</div>
       </div>

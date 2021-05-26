@@ -6,16 +6,13 @@ const InnerLinks = ({ generateUrl, links, section }) => {
     <section className="inner-links flex-center">
       {links &&
         Object.keys(links).map((key) => {
-          return (
-            <a
-              href={links[key]}
-              target="_blank"
-              className="flex-center"
-              key={key}
-            >
-              <Img src={generateUrl(section[key])} alt="social network" />
+          const url = links[key];
+          const image = section[key];
+          return url ? (
+            <a href={url} target="_blank" className="flex-center" key={key}>
+              <Img src={generateUrl(image)} alt="social network" />
             </a>
-          );
+          ) : null;
         })}
     </section>
   );

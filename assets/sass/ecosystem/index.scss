@@ -52,20 +52,26 @@
     }
     &-list {
       flex-wrap: wrap;
+      justify-content: space-between;
       padding-top: 35px;
-      .image {
-        height: auto;
-        margin-top: 25px;
-        a {
-          width: 100%;
-          height: 100%;
-          display: flex;
-        }
+      &-item {
+        height: 70px;
+        margin-top: 30px;
         img {
           width: 100%;
-          max-height: 80px;
+          height: 100%;
           object-fit: contain;
-          object-position: top left;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        &-big {
+          width: 80% !important;
         }
       }
     }
@@ -79,16 +85,15 @@
     }
     &-category {
       &-list {
-        .image {
+        .text-p {
+          width: fit-content;
+        }
+
+        &-item {
           width: calc(50% - 20px);
-
-          &:nth-of-type(1),
-          &:nth-of-type(2) {
+          &:nth-child(1),
+          &:nth-child(2) {
             margin-top: 0px;
-          }
-
-          &:nth-of-type(even) {
-            margin-left: auto;
           }
         }
       }
@@ -120,7 +125,7 @@
   .ecosystem {
     &-category {
       &-list {
-        .image {
+        &-item {
           width: calc(100% / 4 - 50px);
           margin-right: 50px;
           &:nth-of-type(4n) {
@@ -142,11 +147,8 @@
         }
       }
       &-list {
-        .image {
-          width: calc(50% - 10vw);
-          &:nth-of-type(2n) {
-            margin-left: auto;
-          }
+        &-item {
+          width: calc(50% - 6vw);
         }
       }
     }

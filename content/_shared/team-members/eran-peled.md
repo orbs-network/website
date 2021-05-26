@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/mappers/team-members-mapper
-avatar: /assets/img/team/members/eran-peled.jpg
+avatar: /assets/img/team/members/eran.jpg
 name: Eran Peled
 role: Project Manager
-twitter: /
+twitter:
 telegram:
-linkedin: /
+linkedin: https://www.linkedin.com/in/eran-peled-54244b162/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor sollicitudin viverra. Phasellus sagittis urna et tincidunt interdum. Aliquam eget nulla leo. Praesent dictum vel tortor quis placerat
+Eran holds a BSc in Chemical Engineering from the Technion and a MSc degree in Mechanical Engineering from Tel Aviv University. Prior to joining Orbs, he worked as a process engineer team leader in Intel.

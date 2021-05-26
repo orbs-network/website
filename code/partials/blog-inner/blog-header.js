@@ -20,8 +20,12 @@ const BlogHeader = (props) => {
       <div className="single-blog-header-author-flex">
         <div className="single-blog-header-author flex-start">
           {author}
-          <small>|</small>
-          <p className="blog-hedaer-date">{daysFromDate(date, _ID)}</p>
+          {date && (
+            <React.Fragment>
+              <small>|</small>
+              <p className="blog-hedaer-date">{daysFromDate(date, _ID)}</p>
+            </React.Fragment>
+          )}
         </div>
 
         <InnerLinks
