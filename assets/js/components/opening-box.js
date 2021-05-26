@@ -8,7 +8,8 @@ const handleOpeningBoxClick = (e, element) => {
 export const setOpeningBoxEvents = () => {
   const elements = getElements(".opening-box");
   elements.forEach((element) => {
-    element.addEventListener("click", (e) => handleOpeningBoxClick(e, element));
+    const title = element.querySelector(".opening-box-title");
+    title.addEventListener("click", (e) => handleOpeningBoxClick(e, element));
   });
 };
 

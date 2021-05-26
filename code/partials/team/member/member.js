@@ -2,6 +2,7 @@ import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
 import InnerLinks from "../../shared/inner-links";
+import Popup from "./popup";
 
 const Member = (props) => {
   const {
@@ -23,6 +24,7 @@ const Member = (props) => {
     <div
       className="team-member flex-column list-item"
       data-aos={animations.fadeIn}
+      data-name={name}
       style={{
         background: `url('${generateUrl(avatar)}')`,
         backgroundSize: "cover",
@@ -38,6 +40,7 @@ const Member = (props) => {
           links={linksProps}
         />
       </div>
+      <Popup {...props} generateUrl={generateUrl} />
     </div>
   );
 };

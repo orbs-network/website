@@ -1,9 +1,9 @@
 ---
 layout: partials/ecosystem/category
-title: Cloud Mirror Image
+title: Cloud Dev. Environment
+
+items:
+  - aws.md
+  - azure.md
+  - google-cloud.md
 ---
-
-[![alt text](//assets/img/ecosystem/cloud-mirror-image/aws.png)](https://docs.orbs.network/contract-sdk/gamma-in-depth/deploying-gamma-in-the-cloud/amazon-web-services)
-
-[![alt text](//assets/img/ecosystem/cloud-mirror-image/azure.png)](https://docs.orbs.network/contract-sdk/gamma-in-depth/deploying-gamma-in-the-cloud/azure)
-[![alt text](//assets/img/ecosystem/cloud-mirror-image/google-cloud.png)](https://docs.orbs.network/contract-sdk/gamma-in-depth/deploying-gamma-in-the-cloud/google-cloud-platform)

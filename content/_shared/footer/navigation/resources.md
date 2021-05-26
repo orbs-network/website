@@ -11,7 +11,7 @@ links:
   - name: Network Status
     url: http://status.orbs.network/
 
-  - name: v1 reward
+  - name: v1 rewards
     url: https://orbs-network.github.io/v1-snapshot/
 
   - name: vc portal
