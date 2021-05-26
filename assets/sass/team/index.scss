@@ -21,6 +21,9 @@
       object-fit: contain;
     }
   }
+  &-img {
+    height: 100%;
+  }
   &-overlay {
     background: #0a0a0a;
     opacity: 0.82;

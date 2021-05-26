@@ -1,6 +1,11 @@
 import { init } from "../index.js";
 import "https://unpkg.com/swiper/swiper-bundle.min.js";
-import { addEvent, getElementAttribute, getElements } from "../heplers.js";
+import {
+  addEvent,
+  getElement,
+  getElementAttribute,
+  getElements,
+} from "../heplers.js";
 window.onload = () => {
   init();
   initSlider();
@@ -45,6 +50,8 @@ const addEventsToMembers = () => {
   list.forEach((member) => {
     addEvent(member, "click", handleMemberSelect);
     const popup = member.querySelector(".member-popup");
+    const imageSrc = getElementAttribute(popup, "data-image");
+    addImagesSrc(popup, imageSrc);
     const overlay = member.querySelector(".member-popup-overlay");
     const closeButton = member.querySelector(".member-popup-close");
     addEvent(overlay, "click", hidePopup);
@@ -53,6 +60,13 @@ const addEventsToMembers = () => {
     popups[name] = popup;
     member.removeChild(popup);
   });
+};
+
+const addImagesSrc = (popup, imageSrc) => {
+  const mainImage = popup.querySelector(".member-popup-content-image");
+  const mobileImage = popup.querySelector(".member-popup-content-mobile");
+  mainImage.setAttribute("src", imageSrc);
+  mobileImage.setAttribute("src", imageSrc);
 };
 
 const handleMemberSelect = (e) => {
