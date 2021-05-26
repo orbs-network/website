@@ -64,7 +64,7 @@ This Privacy Policy and the ToU into which this Privacy Policy is incorporated r
 
    - Be able to contact Users for the purpose of providing them with technical assistance.
 
-   - Determine general geolocation information (i.e., country) from which the User’s computer is connected to the Internet in order for us to know the general location of our Site’s Users as well as in order to safeguard our Site. 5.
+   - Determine general geolocation information (i.e., country) from which the User’s computer is connected to the Internet in order for us to know the general location of our Site’s Users as well as in order to safeguard our Site.
 
 5. ##### Sharing Information with Third Parties
    **Orbs will not share any Personal Information it collects with any third party, other than in the following circumstances:** (a) to satisfy any applicable law, regulation, legal process, subpoena or governmental request; (b) to enforce this Privacy Policy and/or the TOU, including investigation of potential violations thereof; (c) to detect, prevent, or otherwise address fraud, security or technical issues; (d) to respond to claims that contact information (e.g. name, e-mail address, etc.) of a third-party has been posted or transmitted without their consent or as a form of harassment; (e) to protect the rights, property, or personal safety of Orbs, its Users or the general public; (f) by virtue of undergoing any change in control, including by means of merger, acquisition or purchase of all or substantially all of the assets of Orbs, so long as such acquirer maintains the same privacy terms hereunder; or (g) pursuant to your explicit approval prior to the disclosure.

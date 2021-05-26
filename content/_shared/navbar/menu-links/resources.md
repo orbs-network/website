@@ -18,7 +18,7 @@ links:
     image: assets/img/navbar/menu/status.svg
     text: Orbs Network Status Page
 
-  - name: "V1 Reward"
+  - name: "V1 Rewards"
     url: https://orbs-network.github.io/v1-snapshot/
     image: assets/img/navbar/menu/v1.svg
     text: PoS V1 Legacy

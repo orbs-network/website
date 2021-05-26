@@ -5,8 +5,6 @@
   flex-direction: column;
   padding-left: 20px;
   height: auto;
-  cursor: pointer;
-  padding-right: 50px;
   margin-bottom: 12px;
 
   &-arrow {
@@ -16,6 +14,7 @@
     right: 25px;
     transform: rotate(-45deg);
     top: 26px;
+    pointer-events: none;
   }
 
   &-title {
@@ -24,11 +23,15 @@
     align-items: center;
     font-size: 0.875rem;
     padding: 15px 0px;
+    padding-right: 50px;
+    cursor: pointer;
+    user-select: none;
   }
   &-text {
     padding-bottom: 20px;
     display: none;
     height: auto;
+    padding-right: 50px;
   }
   &-active {
     .opening-box-text {

@@ -62,8 +62,9 @@ module.exports = exports = function renderer({
     if (href.startsWith("http://") || href.startsWith("https://")) {
       return `<a href="${href}"${
         title ? `title="${title}"` : ""
-      } class='email-link' rel="noopener" target='_blank'>${text}</a>`;
+      } rel="noopener" target='_blank'>${text}</a>`;
     }
+
     return `<a href="${_relativeURL(href, _ID)}"${
       title ? ` title="${title}"` : ""
     } rel="noopener">${text}</a>`;

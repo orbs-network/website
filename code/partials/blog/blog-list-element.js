@@ -37,8 +37,12 @@ const BlogListElement = (props) => {
       </a>
       <div className="blog-list-blog-author flex-start">
         {author}
-        <small>|</small>
-        <p>{formatBlogDate(date)}</p>
+        {date && (
+          <React.Fragment>
+            <small>|</small>
+            <p>{formatBlogDate(date)}</p>
+          </React.Fragment>
+        )}
       </div>
     </li>
   );

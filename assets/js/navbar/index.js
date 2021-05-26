@@ -10,7 +10,7 @@ export const showMenu = () => {
   setTimeout(() => {
     addClass(menu, "navbar-menu-active");
     toggleWindowScroll(true);
-  }, 0);
+  }, 50);
 };
 
 export const hideMenu = () => {

@@ -15,4 +15,4 @@ This optimized reward distribution architecture provides a scalable and gas-effi
 
 This has multiple important benefits such as added flexibility to the Guardians and Delegators, who may claim the staking rewards at any point in time, significant reduction in costs for Guardians, and more.
 
-To learn more aboutof thisour distribution mechanism, read our documentation​ on GitHub (insert link).
+To learn more about our distribution mechanism, read our documentation​ on [GitHub.](https://github.com/orbs-network)
