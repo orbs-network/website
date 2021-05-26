@@ -1,22 +1,5 @@
-@font-face {
-  font-family: "blog-bold";
-  src: url("../fonts/CharterBold.otf");
-}
-@font-face {
-  font-family: "base-blog-font";
-  src: url("../fonts/CharterRegular.otf");
-}
-@font-face {
-  font-family: "blog-italic";
-  src: url("../fonts/CharterItalic.otf");
-}
-@font-face {
-  font-family: "blog-bold-italic";
-  src: url("../fonts/CharterBoldItalic.otf");
-}
 $blog-text-size: 1.313rem;
-$blog-font: "base-blog-font";
-$blog-bold-font: "base-blog-font";
+
 .single-blog {
   .footer {
     background: black;
@@ -85,7 +68,6 @@ $blog-bold-font: "base-blog-font";
       }
 
       a {
-        font-weight: bold;
         text-transform: uppercase;
         color: $light-color;
       }
@@ -171,6 +153,7 @@ $blog-bold-font: "base-blog-font";
     * {
       color: rgba(41, 41, 41, 1);
       font-family: $blog-font;
+      letter-spacing: 0.003rem;
     }
     a,
     p,
@@ -180,6 +163,12 @@ $blog-bold-font: "base-blog-font";
     }
     a {
       word-break: break-all;
+    }
+    .title {
+      text-align: left;
+    }
+    strong {
+      font-family: $blog-bold-font;
     }
     &-bg {
       width: 100%;
@@ -260,25 +249,56 @@ $blog-bold-font: "base-blog-font";
         object-fit: cover;
       }
     }
+    .line-separator {
+      background: #ebebeb;
+      width: 70%;
+      max-width: 400px;
+      height: 3px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      position: relative;
+      &::after {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        content: "";
+        background: white;
+        border: 2px solid #ebebeb;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+      }
+    }
     * {
       width: 100%;
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
     }
+    .title-h1,
     .title-h2,
     .title-h3,
     .title-h4 {
       margin-bottom: 13.76px;
       padding-top: 20px;
-      font-family: $text-font;
-      font-weight: 600;
+      font-family: $blog-bold-font;
+    }
+    .title-h1 {
+      font-size: 2rem;
     }
     .title-h2 {
       font-size: 1.875rem;
+      a {
+        font-size: 1.875rem;
+        text-decoration: none;
+      }
     }
     .title-h3 {
       font-size: 1.563rem;
+      a {
+        font-size: 1.563rem;
+      }
     }
     .title-h4 {
       font-size: 1.375rem;
@@ -317,6 +337,7 @@ $blog-bold-font: "base-blog-font";
       li,
       ol {
         font-size: 1.125rem;
+        letter-spacing: 100px;
       }
       .title-h2,
       .title-h3,
