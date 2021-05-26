@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/opening-box
-title: Which exchanges support orbs?
+title: Which exchanges support Orbs?
 color: "#E61EA9"
 ---
 

@@ -1,5 +1,83 @@
 @import "https://unpkg.com/swiper/swiper-bundle.min.css";
 
+.member-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+  transition: 0.2s all;
+  opacity: 0;
+  &-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 27px;
+    height: 27px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &-overlay {
+    background: #0a0a0a;
+    opacity: 0.82;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  &-name {
+    font-size: 0.938rem;
+    margin-bottom: 15px;
+    font-family: $bold-font;
+    text-transform: uppercase;
+    letter-spacing: 0.113rem;
+  }
+  &-role {
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+    font-family: $bold-font;
+    letter-spacing: 0.038rem;
+  }
+  .text-p {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  &-content {
+    border: 3px solid #03fcf5;
+    border-radius: 8px;
+    background: #1a1a1a;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 768px;
+    width: calc(100% - 50px);
+    height: auto;
+    padding: 12px;
+    display: flex;
+    align-items: stretch;
+    &-mobile {
+      display: none;
+    }
+    &-image {
+      width: 235px;
+      object-fit: cover;
+    }
+    &-right {
+      padding: 20px 25px 15px 40px;
+      flex: 1;
+    }
+  }
+  &-active {
+    opacity: 1;
+  }
+}
+
 .team {
   &-content-wrapper {
     margin-top: 130px;
@@ -45,6 +123,7 @@
       padding: 9px 16px;
       padding-bottom: 15px;
       background: rgba(0, 0, 0, 0.3);
+      cursor: default;
       &-name {
         font-size: 0.75rem;
         text-align: left;
@@ -66,101 +145,9 @@
       margin-top: 3px;
       margin-bottom: 0px;
       a {
-        width: 10px;
-        height: 10px;
+        width: 13px;
+        height: 13px;
         margin-right: 13px;
-      }
-    }
-
-    &-popup {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      pointer-events: none;
-      z-index: 999999;
-      align-items: flex-start;
-      transition: 0.2s all;
-      display: none;
-      &-overlay {
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        background: rgba(0, 0, 0, 0.4);
-      }
-      &-c {
-        justify-content: center;
-        border-radius: 10px;
-        background: #1a1a1a;
-        position: relative;
-        width: 700px;
-        min-height: 350px;
-        height: auto;
-        border: 3px solid #00ffff;
-        padding: 5px;
-        top: 200px;
-        &-close {
-          width: 20px;
-          height: 20px;
-          position: absolute;
-          right: 10px;
-          top: 10px;
-          cursor: pointer;
-          border: none;
-          img {
-            width: 100%;
-            height: 100%;
-          }
-        }
-        &-avatar {
-          width: 200px;
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-        }
-        &-details {
-          padding: 20px;
-          width: calc(100% - 200px);
-        }
-        &-name {
-          text-align: center;
-          font-family: $bold-font;
-          font-size: 16px;
-          margin-bottom: 10px;
-          text-transform: uppercase;
-          letter-spacing: 1.6px;
-        }
-        &-role {
-          letter-spacing: 1px;
-
-          text-align: center;
-          font-size: 14px;
-          font-family: $bold-font;
-        }
-        .inner-links {
-          margin-top: 15px;
-          margin-bottom: 20px;
-
-          a {
-            width: 15px;
-            height: 15px;
-            margin-left: 15px;
-          }
-        }
-      }
-
-      &-active {
-        display: flex;
-        &-animation {
-          opacity: 1;
-          pointer-events: all;
-        }
       }
     }
   }
@@ -366,7 +353,49 @@
     }
   }
 }
+@media only screen and (max-width: $mobile) {
+  .member-popup {
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-role,
+    &-name,
+    .text-p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .text-p {
+      padding-bottom: 40px;
+    }
+    &-content {
+      position: relative;
+      height: calc(100vh - 60px);
+      width: calc(100vw - 30px);
+      transform: translate(0%, 0);
+      left: 0px;
+      top: 0px;
+      overflow: auto;
+      padding: 40px 0px 0px 0px;
 
+      &-mobile {
+        display: block;
+        width: 100%;
+        max-height: 40vh;
+        object-fit: cover;
+        object-position: top;
+        margin-bottom: 20px;
+      }
+
+      &-image {
+        display: none;
+      }
+      &-right {
+        padding: 0px;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 500px) {
   $height: 100vw;
   .team {
