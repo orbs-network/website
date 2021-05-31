@@ -3,5 +3,5 @@ layout: partials/shared/bread-crumbs
 
 url: /white-papers
 linkName: White Papers
-title: eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols
+title: "Eliminating the Security-vs-Scalability Dilemma: Randomized-Committee Consensus Protocols"
 ---

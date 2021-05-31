@@ -14,18 +14,14 @@ const generateClassName = (borderTop, borderBottom) => {
 
 const ExpendableTextBox = ({
   _body,
-  linesLimit,
+
   title,
   readMoreButton,
   readLessButton,
   border,
   borderBottom,
+  extra,
 }) => {
-  const style = {
-    WebkitLineClamp: linesLimit,
-    maxHeight: `${linesLimit * 29}px`,
-  };
-
   return (
     <div
       className={generateClassName(border, borderBottom)}
@@ -34,23 +30,23 @@ const ExpendableTextBox = ({
       <div className="expending-box-content">
         <h4 className="expending-box-title">{title}</h4>
 
-        <div
-          className={
-            linesLimit
-              ? "expending-box-text limited-lines"
-              : "expending-box-text"
-          }
-          style={linesLimit ? style : null}
-        >
-          {_body}
+        <div className="expending-box-text">
+          <section className="expending-box-text-full">{_body}</section>
+          {extra && (
+            <section className="expending-box-text-more">{extra}</section>
+          )}
         </div>
-        {linesLimit && (
-          <button
-            aria-label="expend-text"
-            className="expend-btn"
-            data-open={`+ ${readMoreButton}`}
-            data-close={`- ${readLessButton}`}
-          >{`+ ${readMoreButton}`}</button>
+        {extra && (
+          <React.Fragment>
+            <button
+              aria-label="expend-text"
+              className="expend-btn read-more-btn"
+            >{`+ ${readMoreButton}`}</button>
+            <button
+              aria-label="expend-text"
+              className="expend-btn read-less-btn"
+            >{`- ${readLessButton}`}</button>
+          </React.Fragment>
         )}
       </div>
     </div>

@@ -1,14 +1,16 @@
 import React from "react";
 
-const PostsList = ({ posts, title }) => {
+const BlogsList = (props) => {
+  const { list, title } = props;
+
   return (
-    <div className="footer-posts">
+    <div className="footer-blogs">
       <section className="footer-section-title">
         <h4>{title}</h4>
       </section>
-      <div className="footer-posts-list">{posts}</div>
+      <ul className="footer-blog-list">{list}</ul>
     </div>
   );
 };
 
-export default PostsList;
+export default BlogsList;

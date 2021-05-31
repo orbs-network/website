@@ -1,0 +1,11 @@
+---
+layout: partials/shared/expendable-text-box
+title: More on the Overview
+readMoreButton: read more
+readLessButton: read less
+border: true
+extra:
+  - extra.md
+---
+
+Orbs is a public blockchain infrastructure designed for mass usage applications and close integration with EVM-based L1’s such as Ethereum and Binance SmartChain. Unlike private and permissioned blockchain solutions typically used for such applications, the Orbs infrastructure is open and permissionless. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus.

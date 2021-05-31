@@ -5,11 +5,19 @@
     font-size: 1.438rem;
     font-weight: 600;
     margin-bottom: 21px;
-    margin-top: 40px;
-    line-height: 2.3rem;
 
-    &:first-child {
-      margin-top: 0px;
+    line-height: 2.3rem;
+  }
+
+  &-text {
+    &-more {
+      display: none;
+      .text-p {
+        margin-top: 20px;
+      }
+      .title-h4 {
+        margin-top: 30px;
+      }
     }
   }
   a {
@@ -28,6 +36,9 @@
   .expend-btn {
     @extend .btn;
     margin-top: 27px;
+  }
+  .read-less-btn {
+    display: none;
   }
   &-border-top {
     border-top: 1px solid #707070;
@@ -57,6 +68,17 @@
     }
     &:last-child {
       margin-bottom: 0px;
+    }
+  }
+  &-active {
+    .read-less-btn {
+      display: block;
+    }
+    .read-more-btn {
+      display: none;
+    }
+    .expending-box-text-more {
+      display: block;
     }
   }
 }

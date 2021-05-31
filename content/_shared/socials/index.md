@@ -8,7 +8,7 @@ links:
   - img: /assets/img/socials/telegram.svg
     url: https://t.me/OrbsNetwork
 
-  - img: /assets/img/socials/quora.svg
+  - img: /assets/img/socials/discord.svg
     url: https://discord.gg/sswGDYGBt5
 
   - img: /assets/img/socials/github.svg

@@ -1,26 +1,20 @@
 import { addEvent, getElements } from "../heplers.js";
+const activeClassName = "expending-box-active";
 
-const toggleTextBox = (event, element) => {
-  event.stopPropagation();
-  const limitedClassName = "limited-lines";
-  const isOpen = element.querySelector(`.${limitedClassName}`);
-  const limitedLinesText = element.querySelector(`.expending-box-text`);
-  const isOpenText = event.target.dataset.open;
-  const isClosedText = event.target.dataset.close;
-  if (isOpen) {
-    event.target.innerText = isClosedText;
-    limitedLinesText.classList.add("without-max-height");
-    return limitedLinesText.classList.remove(limitedClassName);
-  }
-  event.target.innerText = isOpenText;
-  limitedLinesText.classList.remove("without-max-height");
-  return limitedLinesText.classList.add(limitedClassName);
+const showMoreText = (element) => {
+  element.classList.add(activeClassName);
+};
+
+const hideMoreText = (element) => {
+  return element.classList.remove(activeClassName);
 };
 
 export const setToggleTextEvent = () => {
   const elements = getElements(".expending-box");
   elements.forEach((element) => {
-    const button = element.querySelector(".expend-btn");
-    addEvent(button, "click", (e) => toggleTextBox(e, element));
+    const readMoreBtn = element.querySelector(".read-more-btn");
+    const readLessBtn = element.querySelector(".read-less-btn");
+    addEvent(readMoreBtn, "click", () => showMoreText(element));
+    addEvent(readLessBtn, "click", () => hideMoreText(element));
   });
 };
