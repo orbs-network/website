@@ -1,0 +1,11 @@
+title: "Orbs PoS V2: The Age of Guardians – PoS on Ethereum"
+layout: pages/page
+script: white-paper/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
