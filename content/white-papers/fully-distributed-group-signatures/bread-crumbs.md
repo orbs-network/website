@@ -3,5 +3,5 @@ layout: partials/shared/bread-crumbs
 
 url: /white-papers
 linkName: White Papers
-title: fully-distributed-group-signatures
+title: Fully Distributed Group Signatures
 ---

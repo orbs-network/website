@@ -47,12 +47,51 @@
       text-decoration: none;
     }
   }
-  &-posts {
+  &-blogs {
     width: 35%;
     padding-right: 40px;
+    .footer-blog {
+      border-bottom: 1px solid #707070;
+      padding-bottom: 40px;
+      margin-bottom: 30px;
+      display: flex;
+      text-decoration: none;
+      &-image {
+        width: 77px;
+        height: 67px;
+        margin-right: 24px;
+        margin-bottom: 0px;
+        object-fit: cover;
+      }
+      &-title {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        letter-spacing: 0.015rem;
+        margin-bottom: 10px;
+      }
+      &-prefix {
+        color: #666666;
+        font-size: 0.75rem;
+        margin-right: 5px;
+      }
+      &-right {
+        &-flex {
+          display: flex;
+        }
+      }
+      &-date {
+        margin-top: auto;
+        font-size: 0.75rem;
+        color: #b2b2b2;
+      }
+      &:last-of-type {
+        border: 0px;
+      }
+    }
   }
   &-tweets {
-    width: 35%;
+    flex: 1;
     padding-left: 40px;
     &-content {
       overflow: auto;
@@ -60,47 +99,6 @@
       height: 100%;
       iframe {
       }
-    }
-  }
-
-  &-post {
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #707070;
-    align-items: flex-start;
-    text-decoration: none;
-    display: flex;
-
-    .text-p {
-      margin-bottom: 10px;
-    }
-    &-image {
-      width: 90px;
-      height: 90px;
-      margin-right: 20px;
-      object-fit: cover;
-      object-position: center;
-    }
-    &-date {
-      display: flex;
-      align-items: center;
-      small {
-        margin-right: 5px;
-        font-size: 0.75rem;
-        color: rgba(255, 255, 255, 0.5);
-      }
-      p {
-        font-size: 0.75rem;
-        color: #b2b2b2;
-      }
-    }
-    &-content {
-      flex: 1;
-    }
-    &:last-of-type {
-      border: 0px;
-      margin-bottom: 0px;
-      padding-bottom: 0px;
     }
   }
 
@@ -214,10 +212,10 @@
       width: 100%;
       margin-bottom: 70px;
     }
-    &-posts {
+    &-blogs {
       width: 100%;
       padding: 0px;
-      margin-bottom: 70px;
+      margin-bottom: 20px;
     }
     &-section-title {
     }
@@ -256,10 +254,8 @@
     &-flex {
       flex-direction: column;
     }
-
-    &-post {
-      min-width: 100%;
-      margin-bottom: 30px;
+    .blog-list-blog-img {
+      min-height: auto;
     }
   }
 }

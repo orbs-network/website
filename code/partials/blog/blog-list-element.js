@@ -1,31 +1,29 @@
 import React from "react";
+import { setBlogAttributes } from "../../util/blog";
 import { formatBlogDate } from "../../util/date";
 import { getBlogUrl } from "../../util/mappers";
-import Img from "../shared/Img";
 
 const BlogListElement = (props) => {
   const {
     author,
-    image,
     date,
     _relativeURL,
     _ID,
     blogUrl,
-    type,
     title,
     short_description,
   } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
-  const url = getBlogUrl(_ID, blogUrl);
 
+  const url = getBlogUrl(_ID, blogUrl);
+  const dateToDisplay = formatBlogDate(date);
   return (
     <li
-      className="blog-list-blog list-item"
-      data-type={type}
+      className="blog-list-blog list-item blog-element"
+      {...setBlogAttributes(props)}
       style={{ display: "none" }}
-      data-image={generateUrl(image)}
     >
       <a
         href={generateUrl(url)}
@@ -35,12 +33,13 @@ const BlogListElement = (props) => {
         <figure className="blog-list-blog-img"></figure>
         <h4 className="blog-list-blog-title">{title}</h4>
       </a>
+
       <div className="blog-list-blog-author flex-start">
         {author}
         {date && (
           <React.Fragment>
             <small>|</small>
-            <p>{formatBlogDate(date)}</p>
+            <p>{dateToDisplay}</p>
           </React.Fragment>
         )}
       </div>
