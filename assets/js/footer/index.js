@@ -43,7 +43,7 @@ const buildBlog = (blog) => {
     leftSide,
   } = createBlogElements();
   titleText.innerText = title;
-  prefixText.innerText = prefix;
+  prefixText.innerText = `${prefix}:`;
   dateText.innerText = date;
   container.setAttribute("href", blogUrl);
   image.setAttribute("src", imageSrc);
@@ -94,14 +94,6 @@ const getBlogAttributes = (blog) => {
   const title = getElementAttribute(blog, "data-title");
 
   return { imageSrc, blogUrl, prefix, date, title };
-};
-
-const removeData = (blog) => {
-  const wrapper = blog.querySelector(".blog-list-blog-wrapper");
-  const title = wrapper.querySelector(".blog-list-blog-title");
-  const author = blog.querySelector(".blog-list-blog-author");
-  wrapper.removeChild(title);
-  blog.removeChild(author);
 };
 
 export const init = () => {
