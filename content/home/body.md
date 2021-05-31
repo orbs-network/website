@@ -9,8 +9,8 @@ mobile_btn:
   - link/link.md
 ---
 
-## the public
+## The winning
 
 # blockchain
 
-## network
+## Stack
