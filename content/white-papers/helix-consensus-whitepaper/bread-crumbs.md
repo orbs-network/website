@@ -3,5 +3,5 @@ layout: partials/shared/bread-crumbs
 
 url: /white-papers
 linkName: White Papers
-title: helix-consensus-whitepaper
+title: Helix Consensus White Paper
 ---

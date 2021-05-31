@@ -1,8 +1,9 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
+import Copyright from "./copyright";
 import Img from "./Img";
 
-const Slider = ({ _relativeURL, _ID, slides }) => {
+const Slider = ({ _relativeURL, _ID, slides, copyright }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -20,6 +21,7 @@ const Slider = ({ _relativeURL, _ID, slides }) => {
                     className="swiper-slide-img"
                     alt="slide image"
                   />
+                  <Copyright text={copyright} />
                 </div>
               );
             })}

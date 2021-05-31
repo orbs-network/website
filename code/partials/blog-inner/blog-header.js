@@ -1,17 +1,13 @@
 import React from "react";
 import { daysFromDate } from "../../util/date";
 import Img from "../shared/Img";
-import InnerLinks from "../shared/inner-links";
 import { images } from "../../../assets/js/images";
+import { baseUrl } from "../../consts";
+import ShareBtn from "../shared/share-btn";
 const BlogHeader = (props) => {
-  const { _relativeURL, _ID, author, telegram, twitter, date, title } = props;
+  const { _relativeURL, _ID, author, blogUrl, date, title } = props;
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
-  };
-
-  const links = {
-    twitter,
-    telegram,
   };
 
   return (
@@ -27,12 +23,16 @@ const BlogHeader = (props) => {
             </React.Fragment>
           )}
         </div>
-
-        <InnerLinks
-          links={links}
-          section={images.socials}
-          generateUrl={generateUrl}
-        />
+        <div className="blog-share flex-start">
+          <ShareBtn
+            url={`https://t.me/share/url?url=${baseUrl}/${blogUrl}`}
+            src={generateUrl(images.socials.telegram)}
+          />
+          <ShareBtn
+            url={`http://twitter.com/share?url=${baseUrl}/${blogUrl}`}
+            src={generateUrl(images.socials.twitter)}
+          />
+        </div>
       </div>
     </div>
   );

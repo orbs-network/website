@@ -16,6 +16,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.flex-list {
+  flex-wrap: wrap;
+  display: flex;
+}
+.copyright {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 0.75rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+}
 
 .flex-center {
   display: flex;

@@ -105,7 +105,6 @@
         margin-bottom: 12px;
         a {
           text-decoration: none;
-          border-bottom: 2px solid white;
         }
       }
       &:last-child {
@@ -203,6 +202,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
+  position: relative;
   img {
     object-fit: cover;
     width: 100%;
@@ -229,11 +229,14 @@
   &-double {
     height: 237px;
     width: 100%;
-    img:nth-child(1) {
-      width: 60%;
-    }
-    img:nth-child(2) {
-      width: calc(40% - 20px);
+    &-container {
+      position: relative;
+      &:nth-child(1) {
+        width: 60%;
+      }
+      &:nth-child(2) {
+        width: calc(40% - 20px);
+      }
     }
   }
 }
@@ -450,7 +453,7 @@
           }
         }
         .banner-double {
-          img {
+          &-container {
             &:nth-child(1) {
               width: calc(50% - 7.5px);
             }

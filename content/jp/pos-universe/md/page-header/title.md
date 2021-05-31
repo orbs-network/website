@@ -2,6 +2,6 @@
 layout: partials/shared/page-header/title
 ---
 
-# Orbs PoS Universe
+# Orbs PoS Universe V2:
 
-# Age of guardians pos v2
+# The Age of guardians

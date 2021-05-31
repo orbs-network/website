@@ -6,9 +6,6 @@ title: Overview
 links:
   - name: The Orbs Network
     url: /network
-  - name: Orbs smart contracts
-    url: /smart-contracts
-    subLink: true
   - name: Proof of stake Universe
     url: /pos-universe
 ---

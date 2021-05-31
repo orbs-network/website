@@ -30,7 +30,7 @@ export const getBlogUrl = (_ID, url) => {
   return getBlogUrlDev(_ID, url);
 };
 
-export const getBlogUrlProd = (_ID, url) => {
+const getBlogUrlProd = (_ID, url) => {
   const prefix = _ID.split("/")[0];
   if (prefix === "ko" || prefix === "jp") {
     return `${prefix}/${url}`;
