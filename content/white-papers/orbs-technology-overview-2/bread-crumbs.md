@@ -3,5 +3,5 @@ layout: partials/shared/bread-crumbs
 
 url: /white-papers
 linkName: White Papers
-title: orbs-technology-overview-2
+title: Orbs Technology Overview
 ---

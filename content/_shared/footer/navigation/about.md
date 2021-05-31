@@ -9,7 +9,7 @@ links:
     url: /team
   - name: Ecosystem
     url: /ecosystem
-  - name: Faq
+  - name: FAQ
     url: /faq
   - name: Blog
     url: /blog

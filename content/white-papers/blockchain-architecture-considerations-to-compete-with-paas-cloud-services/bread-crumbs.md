@@ -3,5 +3,5 @@ layout: partials/shared/bread-crumbs
 
 url: /white-papers
 linkName: White Papers
-title: blockchain-architecture-considerations-to-compete-with-paas-cloud-services
+title: Blockchain Architecture Considerations to Compete with PaaS/Cloud Services
 ---

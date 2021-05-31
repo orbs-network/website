@@ -12,9 +12,8 @@ subscribe:
 gdpr:
   - /jp/_shared/gdpr/index.md
 
-title: pos
+title: Orbs - Proof of stake universe
 meta_description: orbs pos universe
 meta_og_locale_alternate: ko_KR
-meta_og_locale_alternate_2: en_US
-meta_og_locale: ja_JP
+meta_og_locale: en_US
 meta_image:

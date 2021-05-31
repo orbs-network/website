@@ -43,8 +43,9 @@ const NavbarMenu = ({
           >{`+ ${subscribe_to_updates}`}</button>
           <div className="navbar-menu-flex">
             {overview}
-            {resources}
+
             {about}
+            {resources}
           </div>
         </div>
       </div>

@@ -1,19 +1,19 @@
 ---
 layout: partials/smart-contracts/top-flex
 list:
-  - item-1.md
-  - item-2.md
-  - item-3.md
-  - item-4.md
-  - item-5.md
-  - item-6.md
-  - item-7.md
-  - item-8.md
-  - item-9.md
-  - item-10.md
-  - item-11.md
-  - item-12.md
-  - item-13.md
-  - item-14.md
-  - item-15.md
+  - item-1/index.md
+  - item-2/index.md
+  - item-3/index.md
+  - item-4/index.md
+  - item-5/index.md
+  - item-6/index.md
+  - item-7/index.md
+  - item-8/index.md
+  - item-9/index.md
+  - item-10/index.md
+  - item-11/index.md
+  - item-12/index.md
+  - item-13/index.md
+  - item-14/index.md
+  - item-15/index.md
 ---

@@ -1,9 +1,8 @@
-export const testString = (data) => {
-  const str = data.props.dangerouslySetInnerHTML.__html;
-  //   const test = str.substring(0, 700);
-  //   const regex = /(<([^>]+)>)/gi;
-  //   const result = test.replace(regex, "");
-
-  //   console.log(result);
-  return "";
+export const cutText = (text, wordToCut) => {
+  var string_copy = (" " + text).slice(1);
+  const extraIndex = text.indexOf(wordToCut);
+  if (extraIndex < 0) {
+    return null;
+  }
+  return string_copy.substr(0, extraIndex);
 };

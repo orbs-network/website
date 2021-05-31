@@ -6,7 +6,9 @@ const Main = ({ pageHeader, tags, blogs }) => {
       {pageHeader}
 
       <div className="blog-content">
-        <div className="main-grid">{blogs}</div>
+        <div className="main-grid">
+          <ul className="blog-list">{blogs}</ul>
+        </div>
       </div>
     </main>
   );

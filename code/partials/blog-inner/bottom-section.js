@@ -55,7 +55,7 @@ const BlogGetInvloved = ({
           title={documentationTitle}
           btnText={documentationButton}
           alt="document icon"
-          url={generateUrl(documentationURL)}
+          url={documentationURL}
         />
       </div>
     </div>

@@ -1,3 +1,4 @@
+import footer from "../footer/index.js";
 import { addEvent, getElement } from "../heplers.js";
 import { handleNavbarScroll } from "../navbar/index.js";
 let loaderTimeOut;
@@ -13,19 +14,9 @@ const handleScrollTopBtn = () => {
   }
 };
 
-const setFooterTweetsHeight = () => {
-  if (window.innerWidth <= 1000) {
-    return;
-  }
-  const postsContainer = getElement(".footer-posts-list");
-  const postsContainerHeight = postsContainer.clientHeight;
-  const tweets = getElement(".footer-tweets-content");
-  tweets.style.height = `${postsContainerHeight}px`;
-};
-
 const handleResize = () => {
   window.addEventListener("resize", () => {
-    setFooterTweetsHeight();
+    footer.setFooterTweetsHeight();
   });
 };
 
@@ -80,7 +71,7 @@ const init = () => {
   scrollToTop();
   hideAppLoader();
   handleResize();
-  setFooterTweetsHeight();
+  footer.setFooterTweetsHeight();
 };
 
 export default {
