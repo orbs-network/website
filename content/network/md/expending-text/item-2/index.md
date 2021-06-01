@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: More on the Overview
+title: General Overview
 readMoreButton: read more
 readLessButton: read less
 border: true
