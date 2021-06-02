@@ -113,6 +113,13 @@
 
 @media only screen and (min-width: $medium) {
   .network {
+    &-content {
+      &-flex {
+        &-2 {
+          flex-wrap: nowrap;
+        }
+      }
+    }
     &-images {
       &-1 {
         ul {
@@ -127,7 +134,15 @@
     }
   }
 }
-
+@media only screen and (max-width: 1240px) {
+  .network-text-6 {
+    max-width: 430px;
+  }
+  .network-images-2 {
+    max-width: none;
+    width: calc(100% - 430px);
+  }
+}
 @media only screen and (min-width: $mobile) and (max-width: $medium) {
   .network {
     &-images {
