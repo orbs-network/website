@@ -5,30 +5,33 @@ import { init } from "../index.js";
 window.onload = () => {
   init();
   setOpeningBoxEvents();
-  addEventsToMobile();
+  removeListFromSideMenu();
 };
 
-const addEventsToMobile = () => {
-  const selectedConteiner = getElement(".faq-mobile-menu-selected");
-  if (!selectedConteiner) return;
-  addEvent(selectedConteiner, "click", toggleMenu);
-  const mobileLinks = getElements(".faq-mobile-menu-link");
-  mobileLinks.forEach((link) => {
-    addEvent(link, "click", () => handleLinkClicked(link));
+// const removeListFromSideMenu = () => {
+//   const categories = getElements(".side-menu .faq-lists-category");
+//   categories.forEach((category) => {
+//     const list = category.querySelector("ul");
+//     const indicator = category.querySelector(".indicator");
+//     category.removeChild(list);
+//     category.removeChild(indicator);
+//   });
+// };
+
+const removeListFromSideMenu = () => {
+  const container = getElement(".faq-side-menu-links");
+  const links = document.createElement("div");
+  links.classList.add("faq-side-menu-links-flex");
+  const categories = getElements(".side-menu .faq-lists-category");
+  categories.forEach((category) => {
+    const categoryName = category.querySelector(".faq-lists-category small")
+      .innerText;
+    console.log(categoryName);
+    const link = document.createElement("a");
+    link.setAttribute("href", `#${categoryName}`);
+    link.innerText = categoryName;
+    links.appendChild(link);
+    container.removeChild(category);
   });
-};
-
-const handleLinkClicked = (link) => {
-  const selectedElement = getElement(".faq-mobile-menu-selected");
-  selectedElement.textContent = link.textContent;
-  toggleMenu();
-};
-
-const toggleMenu = () => {
-  const menu = getElement(".faq-mobile-menu-list");
-  const isActive = menu.classList.contains("faq-mobile-menu-list-active");
-  if (!isActive) {
-    return menu.classList.add("faq-mobile-menu-list-active");
-  }
-  menu.classList.remove("faq-mobile-menu-list-active");
+  container.prepend(links);
 };

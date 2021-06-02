@@ -5,6 +5,9 @@
   color: white;
   border-top: 1px solid #707070;
   font-family: "Montserrat";
+  .main-grid {
+    align-items: flex-start;
+  }
   &-section-title {
     display: flex;
     margin-bottom: 20px;
@@ -109,6 +112,9 @@
     border-bottom: 2px solid rgba(255, 255, 255, 1);
     margin-top: 40px;
     padding-bottom: 40px;
+    .text-p {
+      line-height: normal;
+    }
     &-mobile {
       display: none;
       &-title {
@@ -132,10 +138,13 @@
         display: none;
         padding-left: 20px;
         margin-top: 10px;
+        .test-p {
+          min-width: 100%;
+        }
         a {
           text-decoration: none;
           margin-bottom: 20px;
-          min-width: 100%;
+
           font-size: 14px;
           text-transform: capitalize;
         }
@@ -160,30 +169,33 @@
           text-overflow: ellipsis;
           overflow: hidden;
           white-space: nowrap;
-          margin-bottom: 14px;
+
           text-decoration: none;
           font-size: 0.75rem;
           padding-right: 10px;
           text-transform: capitalize;
           font-weight: 500;
         }
+        .text-p {
+          margin-bottom: 14px;
+        }
       }
     }
     &-overview {
       width: 20%;
-      a {
+      .text-p {
         width: 100%;
       }
     }
     &-resources {
       width: 50%;
-      a {
+      .text-p {
         width: 30%;
       }
     }
     &-about {
       width: 30%;
-      a {
+      .text-p {
         width: 50%;
       }
     }

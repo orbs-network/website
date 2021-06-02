@@ -4,10 +4,10 @@ title: Navigation
 resourcesTitle: Resources
 
 overview:
-  - ./overview.md
+  - overview/index.md
 
 resources:
-  - ./resources.md
+  - resources/index.md
 about:
-  - ./about.md
+  - about/index.md
 ---

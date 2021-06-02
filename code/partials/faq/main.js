@@ -1,30 +1,19 @@
 import React from "react";
 import SideMenu from "../shared/side-menu";
 import FaqCategoriesList from "./faq-categories-list";
-import FaqMobileMenu from "./faq-mobile-categories";
 
-const Main = ({
-  sideMenuTitle,
-  sideMenuLinks,
+const Main = (props) => {
+  const {
+    title,
+    sideMenuLinks,
 
-  socials,
-  sections,
-}) => {
+    socials,
+    sections,
+  } = props;
+
   const linksProps = (
     <div className="faq-side-menu-links">
-      {sections &&
-        sections.map((section, index) => {
-          return (
-            <a
-              rel="noopener"
-              href={`#${section.title}`}
-              className="faq-side-menu-links-link"
-              key={index}
-            >
-              {section.title}
-            </a>
-          );
-        })}
+      {sections}
       {sideMenuLinks}
     </div>
   );
@@ -32,13 +21,9 @@ const Main = ({
   return (
     <main className="faq main-grid">
       <div className="faq-flex flex-between">
-        <SideMenu _body={linksProps} title={sideMenuTitle} socials={socials} />
-        <FaqMobileMenu
-          sections={sections}
-          title={sideMenuTitle}
-          socials={socials}
-        />
-        <FaqCategoriesList sections={sections} />
+        <SideMenu _body={linksProps} title={title} socials={socials} />
+
+        <FaqCategoriesList {...props} />
       </div>
     </main>
   );

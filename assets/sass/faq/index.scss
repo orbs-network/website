@@ -49,11 +49,19 @@
   }
   .side-menu {
     width: 420px;
+    ul {
+      display: none;
+    }
+    .faq-lists-category {
+      margin-bottom: 0px;
+    }
     .faq-side-menu {
       &-links {
-        display: flex;
-        flex-direction: column;
-        &-link {
+        &-flex {
+          display: flex;
+          flex-direction: column;
+        }
+        a {
           margin-bottom: 20px;
           font-weight: 500;
           font-size: 1.063rem;
@@ -92,7 +100,9 @@
       &:last-child {
         margin-bottom: 0px;
       }
-
+      small {
+        display: none;
+      }
       h5 {
         letter-spacing: 0.063rem;
         text-transform: uppercase;
@@ -112,9 +122,11 @@
     }
     .side-menu {
       width: 350px;
-      .faq-side-menu-links-link {
-        font-size: 90%;
-        margin-bottom: 10px;
+      .faq-side-menu-links {
+        a {
+          font-size: 90%;
+          margin-bottom: 10px;
+        }
       }
     }
   }

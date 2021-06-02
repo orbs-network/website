@@ -7,10 +7,6 @@ mobile_btn:
   - link/link.md
 socials:
   - /ko/_shared/socials/index.md
+title:
+  - title.md
 ---
-
-## 公共
-
-# ブロックチェーン
-
-## 通信網
