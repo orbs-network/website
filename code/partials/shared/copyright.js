@@ -1,7 +1,7 @@
 import React from "react";
 
-const Copyright = ({ text }) => {
-  return <div className="copyright">{text}</div>;
+const Copyright = ({ _body }) => {
+  return <div className="copyright">{_body}</div>;
 };
 
 export default Copyright;

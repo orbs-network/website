@@ -176,7 +176,7 @@
         margin-bottom: 19px;
         display: flex;
         width: fit-content;
-        text-decoration: none;
+
         transition: 0.2s all;
         figure {
           position: absolute;
@@ -190,7 +190,12 @@
           pointer-events: none;
           transition: 0.2s all;
         }
-        &-text {
+        .text-p {
+          line-height: normal;
+          margin-bottom: 0px;
+        }
+        a {
+          text-decoration: none;
           letter-spacing: 0.073rem;
           font-family: $light-font;
           font-size: 0.625rem;
@@ -246,6 +251,7 @@
         &-bottom {
           overflow: hidden;
           margin-top: auto;
+          justify-content: flex-start;
         }
         &-title {
           font-family: $bold-font;
@@ -254,15 +260,19 @@
           white-space: nowrap;
           max-width: calc(100% - 20px);
           text-transform: uppercase;
-
           overflow: hidden;
           text-overflow: ellipsis;
         }
-        &-text {
+        .text-p {
           font-family: $light-font;
-          font-size: 10px;
-          width: 100%;
+          font-size: 0.625rem;
+          flex: 1;
+          letter-spacing: normal;
           color: $light-color;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          line-height: normal;
         }
       }
     }

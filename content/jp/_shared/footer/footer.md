@@ -1,8 +1,6 @@
 ---
 layout: partials/footer/index
 
-posts:
-  - posts/index.md
 blogs:
   - blogs/index.md
 tweets:
