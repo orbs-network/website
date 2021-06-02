@@ -3,11 +3,11 @@ layout: partials/navbar/navbar
 logo: assets/img/common/logo.svg
 home: /
 resources:
-  - menu-links/resources.md
+  - menu-links/resources/index.md
 overview:
-  - menu-links/overview.md
+  - menu-links/overview/index.md
 about:
-  - menu-links/about.md
+  - menu-links/about/index.md
 socials:
   - ../socials/index.md
 subscribe:

@@ -3,11 +3,11 @@ layout: partials/navbar/navbar
 logo: assets/img/common/logo.svg
 home: /ko
 resources:
-  - menu-links/resources.md
+  - menu-links/resources/index.md
 overview:
-  - menu-links/overview.md
+  - menu-links/overview/index.md
 about:
-  - menu-links/about.md
+  - menu-links/about/index.md
 socials:
   - ../socials/index.md
 subscribe:
@@ -22,7 +22,7 @@ languages:
   - id: jp
     link: /jp
     img: /assets/img/navbar/japan.svg
-subscribe_to_updates: アップデートを購読する
-blog: ブログ
+subscribe_to_updates: subscribe to updates
+blog: blog
 blog_link: /blog
 ---

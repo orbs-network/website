@@ -1,12 +1,7 @@
 ---
 layout: partials/shared/opening-box
-title: What are some of the use-cases built on Orbs at the moment?
-color: "#1EE635"
+title: Where can I find more info on Orbs and DeFi?
+color: "#B01EE6"
 ---
 
-The Orbs platform is designed for enterprise clients who are interested in deploying blockchain based solutions that enhance trust with their clients and partners.
-Users of the Orbs network are generally applications or other businesses looking to provide guarantees to their own users using public blockchain technology.
-
-While we believe that Orbs technology will be useful in a variety of industries, we are currently focused on working with major partners in several sectors on blockchain based technological solutions, including advancing the following projects: **Document notarization, Telecom, Supply chain**
-
-You can learn more of the project currently being built on Orbs here: [link to “use-cases” page]
+The [Orbs DeFi Portal](https://orbsdefi.com/) is a project by one of the Orbs project prominent contributors: Paradigm Fund. The portal aggregates everything you need to know about Orbs and DeFi in one place - real-time market data for Orbs liquidity pools, Education materials and how-to manuals for swapping and adding liquidity, research papers, and more...

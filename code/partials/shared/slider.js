@@ -1,6 +1,5 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
-import Copyright from "./copyright";
 import Img from "./Img";
 
 const Slider = ({ _relativeURL, _ID, slides, copyright }) => {
@@ -21,7 +20,7 @@ const Slider = ({ _relativeURL, _ID, slides, copyright }) => {
                     className="swiper-slide-img"
                     alt="slide image"
                   />
-                  <Copyright text={copyright} />
+                  {copyright && copyright}
                 </div>
               );
             })}

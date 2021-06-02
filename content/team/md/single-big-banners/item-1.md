@@ -1,5 +1,6 @@
 ---
 layout: partials/team/banners/single-big-banner
 image: assets/img/team/grid6.png
-copyright: "Photos: Itay Benit"
+copyright:
+  - ../copyright/index.md
 ---

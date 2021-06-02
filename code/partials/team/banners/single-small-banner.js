@@ -1,6 +1,5 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
-import Copyright from "../../shared/copyright";
 import BannerVideo from "./banner-video";
 
 const SingleSmallBanner = ({
@@ -23,7 +22,7 @@ const SingleSmallBanner = ({
       ) : (
         <img src={generateUrl(image)} />
       )}
-      <Copyright text={copyright} />
+      {copyright}
     </section>
   );
 };
