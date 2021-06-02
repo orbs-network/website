@@ -7,10 +7,6 @@ socials:
   - /_shared/socials/index.md
 mobile_btn:
   - link/link.md
+title:
+  - title.md
 ---
-
-## The winning
-
-# blockchain
-
-## Stack

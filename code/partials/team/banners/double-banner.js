@@ -1,6 +1,5 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
-import Copyright from "../../shared/copyright";
 import Img from "../../shared/Img";
 import BannerVideo from "./banner-video";
 
@@ -23,11 +22,11 @@ const DoubleBanner = ({
         <React.Fragment>
           <div className="banner-double-container">
             <Img src={generateUrl(image1)} alt="first banner" />
-            <Copyright text={copyright} />
+            {copyright}
           </div>
           <div className="banner-double-container">
             <Img src={generateUrl(image2)} alt="second banner" />
-            <Copyright text={copyright} />
+            {copyright}
           </div>
         </React.Fragment>
       )}

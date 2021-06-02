@@ -2,20 +2,21 @@ layout: pages/page
 script: team/index
 
 header:
-  - ../_shared/navbar/index.md
+  - /_shared/navbar/index.md
 
 main:
   - body.md
 
 footer:
-  - ../_shared/footer/footer.md
+  - /_shared/footer/footer.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
-gdpr:
-  - ../_shared/gdpr/index.md
+  - /_shared/subscribe/subscribe.md
 
-meta_description: Orbsにはさまざまな業界の起業家や学者、開発者が所属しています。
-title: Orbs Team
-meta_og_locale_alternate: en_US
-meta_og_locale: ko_KR
+gdpr:
+  - /_shared/gdpr/index.md
+
+meta_description: Orbs is made up of a group of experienced engineers, academics and business people. We're building fast and smart
+title: Orbs - Meet the people building the Hybrid Blockchain
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
 meta_image:
