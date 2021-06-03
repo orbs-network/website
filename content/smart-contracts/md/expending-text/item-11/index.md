@@ -3,8 +3,11 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: guardiansRegistration
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /_shared/buttons/read-more-btn.md
+
+readLessButton:
+  - /_shared/buttons/read-less-btn.md
 border: true
 ---
 

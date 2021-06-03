@@ -1,6 +1,6 @@
 import React from "react";
 
-const LinkBtn = ({ text, url, left, right, _relativeURL, _ID }) => {
+const LinkBtn = ({ _body, url, left, right, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -11,7 +11,7 @@ const LinkBtn = ({ text, url, left, right, _relativeURL, _ID }) => {
     : "link-btn";
   return (
     <a href={generateUrl(url)} className={className} rel="noopener">
-      <p> {text}</p>
+      {_body}
       <aside className="link-btn-arrow"></aside>
     </a>
   );

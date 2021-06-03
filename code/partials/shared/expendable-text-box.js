@@ -38,14 +38,8 @@ const ExpendableTextBox = ({
         </div>
         {extra && (
           <React.Fragment>
-            <button
-              aria-label="expend-text"
-              className="expend-btn read-more-btn"
-            >{`+ ${readMoreButton}`}</button>
-            <button
-              aria-label="expend-text"
-              className="expend-btn read-less-btn"
-            >{`- ${readLessButton}`}</button>
+            {readMoreButton}
+            {readLessButton}
           </React.Fragment>
         )}
       </div>

@@ -3,8 +3,11 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: "Protocol wallets: stakingRewardsWallet and bootstrapRewardsWallet"
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
+
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 border: true
 ---
 

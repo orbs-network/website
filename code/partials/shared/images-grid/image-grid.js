@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "../Img";
 
-const ImageGrid = ({ _relativeURL, _ID, _body, image, size }) => {
+const ImageGrid = ({ _relativeURL, _ID, _body, image }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
