@@ -1,7 +1,5 @@
 ---
 layout: partials/shared/images-grid/images-grid
-
-imagesPerLine: 3
 border: true
 images:
   - item-1.md

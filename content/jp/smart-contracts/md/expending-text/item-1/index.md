@@ -1,8 +1,11 @@
 ---
 layout: partials/shared/expendable-text-box
 title: contractsRegistry
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /jp/_shared/buttons/read-more-btn.md
+
+readLessButton:
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 extra:
   - extra.md

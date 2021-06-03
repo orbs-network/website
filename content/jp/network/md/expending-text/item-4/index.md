@@ -2,8 +2,11 @@
 layout: partials/shared/expendable-text-box
 title: COMPLETE BLOCKCHAIN STACK
 
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /jp/_shared/buttons/read-more-btn.md
+
+readLessButton:
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 

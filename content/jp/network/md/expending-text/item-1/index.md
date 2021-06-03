@@ -1,8 +1,11 @@
 ---
 layout: partials/shared/expendable-text-box
 title: THE WINNING BLOCKCHAIN STACK
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /jp/_shared/buttons/read-more-btn.md
+
+readLessButton:
+  - /jp/_shared/buttons/read-less-btn.md
 ---
 
 Combining Orbs scalability, low fees and isolation between virtual chains with a first-grade developer
