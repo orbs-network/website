@@ -1,4 +1,4 @@
-import { addEvent, getElement, getElements } from "../heplers.js";
+import { getElement, getElements } from "../heplers.js";
 import { setOpeningBoxEvents } from "../components/opening-box.js";
 import { init } from "../index.js";
 
@@ -7,16 +7,6 @@ window.onload = () => {
   setOpeningBoxEvents();
   removeListFromSideMenu();
 };
-
-// const removeListFromSideMenu = () => {
-//   const categories = getElements(".side-menu .faq-lists-category");
-//   categories.forEach((category) => {
-//     const list = category.querySelector("ul");
-//     const indicator = category.querySelector(".indicator");
-//     category.removeChild(list);
-//     category.removeChild(indicator);
-//   });
-// };
 
 const removeListFromSideMenu = () => {
   const container = getElement(".faq-side-menu-links");

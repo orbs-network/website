@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
+import { handleUrl, isOutherLink } from "../../util/link";
 import Img from "../shared/Img";
 
 const Section = ({ src, title, btnText, alt, url }) => {
@@ -29,8 +30,9 @@ const BlogGetInvloved = ({
   documentationURL,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
+
   return (
     <div className="single-blog-bottom">
       <h3 className="single-blog-bottom-title">{title}</h3>
@@ -48,14 +50,14 @@ const BlogGetInvloved = ({
           title={githubTitle}
           btnText={githubButton}
           alt="github icon"
-          url={githubURL}
+          url={generateUrl(githubURL)}
         />
         <Section
           src={generateUrl(images.blog.documents)}
           title={documentationTitle}
           btnText={documentationButton}
           alt="document icon"
-          url={documentationURL}
+          url={generateUrl(documentationURL)}
         />
       </div>
     </div>

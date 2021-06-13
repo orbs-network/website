@@ -2,7 +2,7 @@ import React from "react";
 import { colors } from "../../assets/js/consts/consts";
 import AppLoader from "../partials/shared/app-loader";
 import ScrollTop from "../partials/shared/scroll-top";
-import MetaTags from "./parts/meta";
+import { handleUrl } from "../util/link";
 
 const Page = ({
   title,
@@ -14,20 +14,16 @@ const Page = ({
   main,
   subscribe,
   gdpr,
-  meta_description,
+  meta_tags,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <html>
       <head>
         <title>{title}</title>
-        <MetaTags
-          meta_description={meta_description}
-          generateUrl={generateUrl}
-          title={title}
-        />
+        {meta_tags}
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script
           async

@@ -1,14 +1,10 @@
 import React from "react";
-import { isOutherLink } from "../../util/link";
+import { handleUrl, isOutherLink } from "../../util/link";
 import Img from "../shared/Img";
 
 const CategoryItem = ({ image, url, _relativeURL, _ID, full_width }) => {
   const generateUrl = (url) => {
-    const isOuter = isOutherLink(url);
-    if (isOuter) {
-      return url;
-    }
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
 
   const className = full_width

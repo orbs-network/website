@@ -8,9 +8,9 @@ layout: partials/policy/main
 
 ### Last Revised: March 21, 2019
 
-Orbs Ltd. and its affiliates (“**Orbs**”, “**we**” or “**us**”) respect the privacy of users of our website at [https://orbs.com]() (the “**Site**”) and related services (“**User**” or “**you**”) and are committed to protect the personal information that their Users share with us. We believe that you have a right to know our practices regarding the information we may collect and use when you visit and/or use our Site.
+Orbs Ltd. and its affiliates (“**Orbs**”, “**we**” or “**us**”) respect the privacy of users of our website at [https://orbs.com](https://github.com/orbs-network/orbs-spec/blob/master/NETWORK-TOU.md) (the “**Site**”) and related services (“**User**” or “**you**”) and are committed to protect the personal information that their Users share with us. We believe that you have a right to know our practices regarding the information we may collect and use when you visit and/or use our Site.
 
-Capitalized terms which are not defined herein, shall have the meaning ascribed to them in our Terms of Use at [https://www.orbs.com/terms-of-use/]() (“TOU”), into which this Privacy Policy is incorporated by reference.
+Capitalized terms which are not defined herein, shall have the meaning ascribed to them in our Terms of Use at [https://www.orbs.com/terms-of-use/](https://github.com/orbs-network/orbs-spec/blob/master/NETWORK-TOU.md) (“TOU”), into which this Privacy Policy is incorporated by reference.
 
 This Privacy Policy and the ToU into which this Privacy Policy is incorporated relate solely to the Site and its use. Use of the Orbs decentralized network platform and any activity thereon is subject to the Orbs Network Terms of Use which are available at [https://www.orbs.com/terms-of-use/]().
 
@@ -64,7 +64,7 @@ This Privacy Policy and the ToU into which this Privacy Policy is incorporated r
 
    - Be able to contact Users for the purpose of providing them with technical assistance.
 
-   - Determine general geolocation information (i.e., country) from which the User’s computer is connected to the Internet in order for us to know the general location of our Site’s Users as well as in order to safeguard our Site. 5.
+   - Determine general geolocation information (i.e., country) from which the User’s computer is connected to the Internet in order for us to know the general location of our Site’s Users as well as in order to safeguard our Site.
 
 5. ##### Sharing Information with Third Parties
    **Orbs will not share any Personal Information it collects with any third party, other than in the following circumstances:** (a) to satisfy any applicable law, regulation, legal process, subpoena or governmental request; (b) to enforce this Privacy Policy and/or the TOU, including investigation of potential violations thereof; (c) to detect, prevent, or otherwise address fraud, security or technical issues; (d) to respond to claims that contact information (e.g. name, e-mail address, etc.) of a third-party has been posted or transmitted without their consent or as a form of harassment; (e) to protect the rights, property, or personal safety of Orbs, its Users or the general public; (f) by virtue of undergoing any change in control, including by means of merger, acquisition or purchase of all or substantially all of the assets of Orbs, so long as such acquirer maintains the same privacy terms hereunder; or (g) pursuant to your explicit approval prior to the disclosure.

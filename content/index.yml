@@ -1,16 +1,13 @@
 layout: pages/page
 script: globe/index
 header:
-  - /_shared/navbar/index.md
-disable_animations: true
+  - _shared/navbar/index.md
 main:
   - home/body.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - _shared/subscribe/subscribe.md
 gdpr:
-  - /_shared/gdpr/index.md
-meta_description: The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language.
+  - _shared/gdpr/index.md
 title: "Orbs Hybrid Blockchain: Empowering business through decentralization"
-meta_og_locale_alternate: ko_KR
-meta_og_locale: en_US
-meta_image:
+meta_tags:
+  - home/meta.md

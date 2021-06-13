@@ -1,11 +1,10 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
 
-const ImagesGrid = ({ title, images, border, size }) => {
+const ImagesGrid = ({ title, images, border }) => {
   const parentStyle = {
     borderBottom: border ? "1px solid #707070" : "none",
   };
-  const className = `images-grid-list flex-start`;
   return (
     <div
       className="images-grid "
@@ -13,7 +12,7 @@ const ImagesGrid = ({ title, images, border, size }) => {
       style={parentStyle}
     >
       {title && <h3 className="images-grid-title">{title}</h3>}
-      <ul className={className}>{images}</ul>
+      <ul className="images-grid-list flex-start">{images}</ul>
     </div>
   );
 };

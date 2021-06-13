@@ -1,8 +1,9 @@
 import React from "react";
+import { handleUrl } from "../../util/link";
 
 const Socials = ({ _relativeURL, _ID, links }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <ul className="socials">

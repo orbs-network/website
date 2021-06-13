@@ -1,6 +1,5 @@
 ---
 layout: partials/shared/images-grid/images-grid
-imagesPerLine: 2
 images:
   - item-7.md
   - item-8.md

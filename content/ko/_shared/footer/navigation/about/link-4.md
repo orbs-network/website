@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Faq](/ko/faq)
+[FAQ](/faq)

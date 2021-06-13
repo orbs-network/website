@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Orbs Token Distribution
 readPaperBtn: read the paper
 date: April 2019
-url: jp/white-papers/orbs-token-distribution
+url: white-papers/orbs-token-distribution
 button: Preview Paper
 published: "Published"
 image: /assets/img/white-papers/Orbs-Token-Distribution.png

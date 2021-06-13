@@ -20,5 +20,5 @@ Delegators are ORBS token holders who assign their voting weight (stake) to Guar
 
 - Token holders that delegate to an active Guardian are rewarded in proportion
   to their stake
-- Annual reward is up to 8% of the Delegator’s staked tokens (subject to an 80M ORBS Token cap on total rewards). [Find out more about the Orbs reward system.](white-papers/orbs-pos-v2-the-age-of-guardians)
+- Annual reward is up to 8% of the Delegator’s staked tokens (subject to an 80M ORBS Token cap on total rewards). [Find out more about the Orbs reward system.](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund)
 - Only delegation to an active Guardian that participates in the elected committee receives rewards. Also, it is important to note that staking rewards may vary between Guardians, so choose your Guardian carefully!

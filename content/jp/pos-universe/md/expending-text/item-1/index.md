@@ -3,8 +3,10 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: Operating the Network Validator Nodes by Guardians
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /_shared/buttons/read-more-btn.md
+readLessButton:
+  - /_shared/buttons/read-less-btn.md
 border: true
 ---
 

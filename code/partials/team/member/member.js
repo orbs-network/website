@@ -1,6 +1,7 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
+import { handleUrl } from "../../../util/link";
 import InnerLinks from "../../shared/inner-links";
 import Popup from "./popup";
 
@@ -16,7 +17,7 @@ const Member = (props) => {
     twitter,
   } = props;
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   const linksProps = { telegram, linkedin, twitter };
 

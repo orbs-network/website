@@ -1,9 +1,6 @@
 import React from "react";
 
-const Links = ({ title, links, _relativeURL, _ID }) => {
-  const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
-  };
+const Links = ({ title, links }) => {
   return (
     <React.Fragment>
       <div className="footer-navigation-desktop-links">
