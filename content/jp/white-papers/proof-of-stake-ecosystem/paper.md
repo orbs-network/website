@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs PoS Ecosystem
+title: Orbs PoS Ecosystem V1
 readPaperBtn: read the paper
 date: March 2019
-url: jp/white-papers/proof-of-stake-ecosystem
+url: white-papers/proof-of-stake-ecosystem
 button: Preview Paper
 published: "Published"
 

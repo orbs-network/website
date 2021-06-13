@@ -4,11 +4,11 @@ extra:
   - extra.md
 title: feesAndBootstrapRewards
 readMoreButton:
-  - /ko/_shared/buttons/read-more-btn.md
+  - /_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /ko/_shared/buttons/read-less-btn.md
+  - /_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The feesAndBootstrapRewards contract manages the fees and bootstrap rewards state of the guardians. The fees and bootstrap rewards architecture is similar to the architecture of the stakingRewards contract. The contract architecture is based on 2 levels: global allocation, committee guardians. The feesAndBootstrapRewards collects fees from two instances of fees wallets the certificated and general virtual chains fees.
+The [feesAndBootstrapRewards](https://etherscan.io/0xda7e381544Fc73cad7D9E63C86e561452b9B9E9C) contract manages the fees and bootstrap rewards state of the Guardians. The fees and bootstrap rewards architecture is similar to the architecture of the stakingRewards contract.

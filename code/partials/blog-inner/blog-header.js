@@ -4,10 +4,11 @@ import Img from "../shared/Img";
 import { images } from "../../../assets/js/images";
 import { baseUrl } from "../../consts";
 import ShareBtn from "../shared/share-btn";
+import { handleUrl } from "../../util/link";
 const BlogHeader = (props) => {
   const { _relativeURL, _ID, author, blogUrl, date, title } = props;
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
 
   return (

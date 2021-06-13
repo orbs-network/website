@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/netta.jpg
 name: Netta Korin
-role: Co-Founder & Director
+role: Co-Founder
 twitter:
 telegram:
 linkedin: https://il.linkedin.com/company/orbs

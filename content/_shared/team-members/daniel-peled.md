@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/daniel.jpg
 name: Daniel Peled
-role: Co-founder, Director & President
+role: Co-founder & President
 twitter:
 telegram:
 linkedin: https://www.linkedin.com/in/dpeled/

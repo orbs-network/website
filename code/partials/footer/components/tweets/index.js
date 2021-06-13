@@ -1,9 +1,11 @@
 import React from "react";
+import { twitterUrl } from "../../../../../assets/js/consts/consts";
+import { handleUrl } from "../../../../util/link";
 import Img from "../../../shared/Img";
 
 const Tweets = ({ title, title_img, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <div className="footer-tweets">
@@ -12,11 +14,7 @@ const Tweets = ({ title, title_img, _relativeURL, _ID }) => {
         <h4>{title}</h4>
       </section>
       <div className="footer-tweets-content">
-        <a
-          className="twitter-timeline"
-          data-theme="dark"
-          href="https://twitter.com/orbs_network?ref_src=twsrc%5Etfw"
-        ></a>
+        <a className="twitter-timeline" data-theme="dark" href={twitterUrl}></a>
       </div>
     </div>
   );

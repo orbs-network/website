@@ -1,5 +1,6 @@
 import React from "react";
 import { setBlogAttributes } from "../../util/blog";
+import { handleUrl } from "../../util/link";
 
 import Img from "../shared/Img";
 import BlogHeader from "./blog-header";
@@ -7,7 +8,7 @@ import BlogHeader from "./blog-header";
 const Blog = (props) => {
   const { _body, image, _relativeURL, _ID } = props;
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <div className="blog-element" {...setBlogAttributes(props)}>

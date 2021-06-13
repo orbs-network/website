@@ -4,10 +4,9 @@ extra:
   - extra.md
 title: A New Rewards Assignment and Distribution Architecture
 readMoreButton:
-  - /jp/_shared/buttons/read-more-btn.md
-
+  - /_shared/buttons/read-more-btn.md
 readLessButton:
-  - /jp/_shared/buttons/read-less-btn.md
+  - /_shared/buttons/read-less-btn.md
 border: true
 ---
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { cardsWeights } from "../../../../assets/js/consts/consts";
+import { handleUrl } from "../../../util/link";
 import Img from "../../shared/Img";
 import CardTitle from "./components/card-title";
 
@@ -17,7 +18,7 @@ const BlogPost = (props) => {
     linkText,
   } = props;
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <div

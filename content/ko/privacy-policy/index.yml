@@ -1,19 +1,16 @@
+title: Privacy Policy
 layout: pages/page
 script: policy/index
 header:
-  - ../_shared/navbar/index.md
+  - /_shared/navbar/index.md
 
 main:
   - body.md
 subscribe:
-  - ../_shared/subscribe/subscribe.md
+  - /_shared/subscribe/subscribe.md
 gdpr:
-  - ../_shared/gdpr/index.md
+  - /_shared/gdpr/index.md
 footer:
-  - ../_shared/footer/footer.md
-
-title: Privacy Policy
-meta_description: "The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language."
-meta_og_locale_alternate: en_US
-meta_og_locale: ko_KR
-meta_image:
+  - /_shared/footer/footer.md
+meta_tags:
+  - meta.md

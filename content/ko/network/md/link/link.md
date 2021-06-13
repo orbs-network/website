@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/link-btn
-url: /ko/smart-contracts
+url: /smart-contracts
 right: true
 ---
 

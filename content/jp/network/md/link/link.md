@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/link-btn
-url: /jp/smart-contracts
+url: /smart-contracts
 right: true
 ---
 

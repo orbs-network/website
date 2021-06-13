@@ -1,6 +1,7 @@
 import React from "react";
 import { setBlogAttributes } from "../../util/blog";
 import { formatBlogDate } from "../../util/date";
+import { handleUrl } from "../../util/link";
 import { getBlogUrl } from "../../util/mappers";
 
 const BlogListElement = (props) => {
@@ -14,7 +15,7 @@ const BlogListElement = (props) => {
     short_description,
   } = props;
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
 
   const url = getBlogUrl(_ID, blogUrl);

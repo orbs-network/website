@@ -1,8 +1,9 @@
 import React from "react";
+import { handleUrl } from "../../util/link";
 
 const Main = ({ breadCrumbs, pdfUrl, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <main className="white-paper main-grid flex-column page-padding-top">

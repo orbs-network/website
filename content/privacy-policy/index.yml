@@ -1,4 +1,4 @@
-title: Home
+title: Privacy Policy
 layout: pages/page
 script: policy/index
 header:
@@ -12,8 +12,5 @@ gdpr:
   - /_shared/gdpr/index.md
 footer:
   - /_shared/footer/footer.md
-meta_description: "The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language."
-
-meta_og_locale_alternate: ko_KR
-meta_og_locale: en_US
-meta_image:
+meta_tags:
+  - meta.md

@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[VC](https://vcs.orbs.network/)
+[VC Portal](https://vcs.orbs.network/)

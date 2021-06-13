@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: jp/white-papers
+url: /white-papers
 linkName: White Papers
-title: bloom-filter-with-a-false-positive-free-zone
+title: Bloom Filter with a False Positive Free Zone
 ---

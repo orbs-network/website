@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /ko/network
+url: /network
 right: true
 ---
 
-もっと詳しく知る
+Learn More
