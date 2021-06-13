@@ -4,11 +4,11 @@ extra:
   - extra.md
 title: certification
 readMoreButton:
-  - /jp/_shared/buttons/read-more-btn.md
+  - /_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /jp/_shared/buttons/read-less-btn.md
+  - /_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The certification contract stores the certification status for each Guardian. The certification data is managed by the certificationManager that may set and clear a guardian’s certification.
+The [certification](https://etherscan.io/0x8d2a2a4dbdf9c9d9dff72abc96a2751b70ab3011) contract stores the certification status for each Guardian. The certification data is managed by the certificationManager that may set and clear a Guardian’s certification.

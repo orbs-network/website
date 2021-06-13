@@ -2,18 +2,16 @@ layout: pages/page
 script: white-paper/index
 
 header:
-  - /ko/_shared/navbar/index.md
+  - /_shared/navbar/index.md
 main:
   - body.md
 footer:
-  - /ko/_shared/footer/footer.md
+  - /_shared/footer/footer.md
 subscribe:
-  - /ko/_shared/subscribe/subscribe.md
-gdpr:
-  - /ko/_shared/gdpr/index.md
+  - /_shared/subscribe/subscribe.md
 
-meta_description: "Download the latest versions of the Orbs Position Paper, the Helix Consensus Algorithm White Paper and Pivoting to Blockchain: the Orbs podcast"
+gdpr:
+  - /_shared/gdpr/index.md
 title: White Papers - Orbs
-meta_og_locale_alternate: en_US
-meta_og_locale: ko_KR
-meta_image:
+meta_tags:
+  - md/meta.md

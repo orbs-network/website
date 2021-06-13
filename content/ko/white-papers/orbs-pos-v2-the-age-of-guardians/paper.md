@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: "Orbs PoS V2: The Age of Guardians"
 readPaperBtn: read the paper
 date: July 2020
-url: jp/white-papers/orbs-pos-v2-the-age-of-guardians
+url: white-papers/orbs-pos-v2-the-age-of-guardians
 button: Preview Paper
 published: "Published"
 

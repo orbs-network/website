@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/expendable-text-box
-title: More on the Overview
+title: General Overview
 readMoreButton:
-  - /jp/_shared/buttons/read-more-btn.md
+  - /_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /jp/_shared/buttons/read-less-btn.md
+  - /_shared/buttons/read-less-btn.md
 border: true
 extra:
   - extra.md

@@ -1,10 +1,11 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
+import { handleUrl } from "../../util/link";
 import Img from "../shared/Img";
 
 const OrbsLogo = ({ _relativeURL, _ID }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <section className="ecosystem-grid-section-figure">

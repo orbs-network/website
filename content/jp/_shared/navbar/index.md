@@ -9,7 +9,7 @@ overview:
 about:
   - menu-links/about/index.md
 socials:
-  - ../socials/index.md
+  - /socials/index.md
 subscribe:
   - subscribe.md
 languages:

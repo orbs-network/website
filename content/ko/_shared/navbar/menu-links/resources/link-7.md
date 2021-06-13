@@ -1,7 +1,7 @@
 ---
 layout: partials/navbar/components/menu-resources-link
 title: DeFi Portal
-url: assets/img/navbar/menu/defi.svg
+url: https://orbsdefi.com/
 image: assets/img/navbar/menu/vc.svg
 ---
 

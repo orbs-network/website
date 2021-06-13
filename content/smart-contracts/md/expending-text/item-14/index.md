@@ -11,4 +11,4 @@ readLessButton:
 border: true
 ---
 
-The subscription plan contract is a stateless contract, responsible for the plan and fee structure of a virtual chain subscription. Virtual chain owners call the subscription plan contract to create a virtual chain and extend its subscription.
+The [subscription plan contract](https://etherscan.io/0xD11EFC10cf3A54B12e3F04143070BE3865E7Bb8E) is a stateless contract, responsible for the plan and fee structure of a virtual chain subscription. Virtual chain owners call the subscription plan contract to create a virtual chain and extend its subscription.

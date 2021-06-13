@@ -2,8 +2,8 @@
 layout: partials/shared/simple-md
 ---
 
-## 公共
+## The winning
 
-# ブロックチェーン
+# blockchain
 
-## 通信網
+## Stack

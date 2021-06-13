@@ -3,10 +3,10 @@ layout: partials/shared/expendable-text-box
 title: Virtual Chains
 
 readMoreButton:
-  - /ko/_shared/buttons/read-more-btn.md
+  - /_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /ko/_shared/buttons/read-less-btn.md
+  - /_shared/buttons/read-less-btn.md
 extra:
   - extra.md
 ---

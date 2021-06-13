@@ -20,3 +20,6 @@ export const cardsWeights = {
 export const colors = {
   main: "#191919",
 };
+
+export const twitterUrl =
+  "https://twitter.com/orbs_network?ref_src=twsrc%5Etfw";

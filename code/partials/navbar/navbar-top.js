@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
+import { handleUrl } from "../../util/link";
 import Flags from "./components/flags";
 import MenuToggle from "./components/menu-toggle";
 
@@ -13,7 +14,7 @@ const NavbarTop = ({
   blog_link,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <div className="navbar-top flex-between">

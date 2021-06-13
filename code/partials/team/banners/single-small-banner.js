@@ -1,5 +1,6 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
+import { handleUrl } from "../../../util/link";
 import BannerVideo from "./banner-video";
 
 const SingleSmallBanner = ({
@@ -10,7 +11,7 @@ const SingleSmallBanner = ({
   videoUrl,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <section

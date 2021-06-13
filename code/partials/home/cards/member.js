@@ -1,6 +1,7 @@
 import React from "react";
 import { cardsWeights } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
+import { handleUrl } from "../../../util/link";
 import Img from "../../shared/Img";
 import InnerLinks from "../../shared/inner-links";
 import CardTitle from "./components/card-title";
@@ -13,12 +14,11 @@ const MemberCard = ({
   telegram,
   _body,
   linkedin,
-  weight,
   name,
   role,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   const linksProps = { twitter, telegram, linkedin };
   return (

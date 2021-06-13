@@ -4,7 +4,6 @@ title: Staking
 
 items:
   - citadel.md
-  - wings.md
   - bitgo.md
   - celsius.md
   - staked.md

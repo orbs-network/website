@@ -2,10 +2,10 @@
 layout: partials/shared/expendable-text-box
 title: Advantages
 readMoreButton:
-  - /jp/_shared/buttons/read-more-btn.md
+  - /_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /jp/_shared/buttons/read-less-btn.md
+  - /_shared/buttons/read-less-btn.md
 ---
 
 - Each application operates its own virtual chain
