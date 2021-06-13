@@ -1,5 +1,6 @@
 import React from "react";
 import { animations } from "../../../assets/js/consts/consts";
+import { handleUrl } from "../../util/link";
 import Img from "../shared/Img";
 
 const WhitePaperBox = ({
@@ -12,10 +13,9 @@ const WhitePaperBox = ({
   title,
   url,
   published,
-  preview,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
 
   const MobileImage = ({ generateUrl, url, image }) => {

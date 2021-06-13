@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: jp/white-papers
+url: /white-papers
 linkName: White Papers
-title: orbs-pos-v2-the-age-of-guardians
+title: "Orbs PoS V2: The Age of Guardians"
 ---

@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "../../../../assets/js/images";
+import { handleUrl } from "../../../util/link";
 import Img from "../Img";
 import Loader from "../loader";
 import FormInput from "./form-input";
@@ -19,9 +20,8 @@ const Form = (props) => {
   const className = formClassName ? `${formClassName} form` : "form";
 
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
-
   return (
     <form className={className}>
       {closeBtn && (

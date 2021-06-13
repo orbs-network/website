@@ -529,10 +529,11 @@ body {
   transition: 0.2s all;
   margin-top: 60px;
   margin-bottom: 60px; }
-  .link-btn p {
+  .link-btn .text-p {
     letter-spacing: 0.081rem;
     font-size: 0.75rem;
-    padding-top: 2px; }
+    padding-top: 2px;
+    margin-bottom: 0px; }
   .link-btn .link-btn-arrow {
     width: 10px;
     height: 10px;

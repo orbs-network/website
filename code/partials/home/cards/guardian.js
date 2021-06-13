@@ -1,6 +1,7 @@
 import React from "react";
 import { cardsWeights } from "../../../../assets/js/consts/consts";
 import { images } from "../../../../assets/js/images";
+import { handleUrl } from "../../../util/link";
 import { formatNumber } from "../../../util/numberUtil";
 import Img from "../../shared/Img";
 import InnerLinks from "../../shared/inner-links";
@@ -22,7 +23,7 @@ const Guardian = ({
   type,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   const links = {
     website,

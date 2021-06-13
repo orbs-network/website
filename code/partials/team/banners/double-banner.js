@@ -1,5 +1,6 @@
 import React from "react";
 import { animations } from "../../../../assets/js/consts/consts";
+import { handleUrl } from "../../../util/link";
 import Img from "../../shared/Img";
 import BannerVideo from "./banner-video";
 
@@ -12,7 +13,7 @@ const DoubleBanner = ({
   videoUrl,
 }) => {
   const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
+    return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <section className="banner-double banner" data-aos={animations.fadeIn}>

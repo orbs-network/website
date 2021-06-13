@@ -2,8 +2,11 @@
 layout: partials/shared/expendable-text-box
 title: SERVERLESS CLOUD FOR APP DEVELOPERS
 
-readMoreButton: read more
-readLessButton: read less
+readMoreButton:
+  - /_shared/buttons/read-more-btn.md
+
+readLessButton:
+  - /_shared/buttons/read-less-btn.md
 border: true
 extra:
   - extra.md

@@ -1,7 +1,7 @@
 ---
 layout: partials/navbar/navbar
 logo: assets/img/common/logo.svg
-home: /
+home: /ko
 resources:
   - menu-links/resources/index.md
 overview:

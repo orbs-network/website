@@ -59,6 +59,13 @@ module.exports = exports = function renderer({
       } class='email-link' rel="noopener">${text}</a>`;
     }
 
+    if (title === "blog") {
+      const isDev = process.env.IS_DEV;
+      return `<a href="${_relativeURL(`blog/${href}`, _ID)}"${
+        title ? ` title="${title}"` : ""
+      } rel="noopener">${text}</a>`;
+    }
+
     if (href.startsWith("http://") || href.startsWith("https://")) {
       return `<a href="${href}"${
         title ? `title="${title}"` : ""
