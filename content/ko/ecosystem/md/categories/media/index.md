@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Media
+title: 미디어
 
 items:
   - item-1.md

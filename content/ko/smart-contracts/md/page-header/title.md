@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/title
 ---
 
-# Orbs Smart Contracts Overview
+# Orbs 스마트 컨트랙트

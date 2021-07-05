@@ -2,6 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-The first and main committee is the General committee. It comprises the top 22 Guardians with the most delegated stake, whether they have been certified or not. The General committee represents the vast majority of ORBS stake and therefore provides a high quality operation suitable for most applications.
+먼저 일반 위원회(General committee)가 메인에 위치합니다. 일반 위원회는 인증여부와 상관없이 생태계 내의 모든 가디언이 해당됩니다. 이는 대다수의 ORBS 지분을 대표하며 이로서 대부분의 앱들에게 적합한 고품질의 운영환경을 제공하게 됩니다.
 
-In contrast, the Certified committee includes only Guardians who meet certain requirements and have undergone a certification process that includes providing certain identification information. The Certified committee provides a suitable solution for developers with regulatory restrictions that are interested in running applications on a blockchain. Developers may also choose initially to use the Certified committee to reduce friction and transition to the General committee over time.
+이와는 대조적으로, 인증 위원회(Certified committee)는 특정 요구사항과 신원인증문서 제출과 같은 인증 프로세스를 만족한 가디언들로 구성됩니다. 인증 위원회는 규제와 각종 제한에 민감한 기업체들이 블록체인 상에 앱을 운영하기에 적합한 솔루션을 제공합니다.  기업체들은 불필요한 마찰을 줄이고 단계적으로 일반 위원회로 전환하기 전, 처음에는 인증 위원회를 이용하도록 선택할 것입니다.

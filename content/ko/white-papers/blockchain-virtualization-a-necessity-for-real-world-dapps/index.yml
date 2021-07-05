@@ -2,10 +2,7 @@ title: "Blockchain Virtualization: A Necessity for Real-World DApps"
 layout: pages/page
 script: white-paper/index
 
-header:
-  - /_shared/navbar/index.md
+header: -/ko/_shared/navbar/index.md
 main: body.md
-footer:
-  - /_shared/footer/footer.md
-subscribe:
-  - /_shared/subscribe/subscribe.md
+footer: -/ko/_shared/footer/footer.md
+subscribe: -/ko/_shared/subscribe/subscribe.md

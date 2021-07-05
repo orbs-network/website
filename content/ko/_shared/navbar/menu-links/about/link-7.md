@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Contact](/contact)
+[연락처](/ko/contact)

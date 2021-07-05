@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Exchanges
+title: 상장 거래소
 
 items:
   - bittrex.md
@@ -8,7 +8,6 @@ items:
   - upbit.md
   - bibox.md
   - okex.md
-  - huobi.md
   - coinone.md
   - bilaxy.md
   - latoken.md

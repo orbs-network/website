@@ -5,4 +5,4 @@ url: http://status.orbs.network/
 image: assets/img/navbar/menu/status.svg
 ---
 
-Orbs Network Status Page
+Orbs 네트워크 현황

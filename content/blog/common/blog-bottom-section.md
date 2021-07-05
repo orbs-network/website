@@ -12,5 +12,5 @@ githubURL: https://github.com/orbs-network
 
 documentationTitle: Documentation
 documentationButton: Developer documentation
-documentationURL: https://docs.orbs.network/contract-sdk/
+documentationURL: /white-papers/orbs-pos-v2-the-age-of-guardians
 ---

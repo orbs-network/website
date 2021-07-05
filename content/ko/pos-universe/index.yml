@@ -2,16 +2,18 @@ layout: pages/page
 
 script: pos-universe/index
 header:
-  - /_shared/navbar/index.md
+  - /ko/_shared/navbar/index.md
 main:
   - body.md
 footer:
-  - /_shared/footer/footer.md
+  - /ko/_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - /ko/_shared/subscribe/subscribe.md
 gdpr:
-  - /_shared/gdpr/index.md
+  - /ko/_shared/gdpr/index.md
 
-title: Orbs - Proof of stake universe
-meta_tags:
-  - md/meta.md
+title: Orbs - PoS 유니버스
+meta_description: Orbs pos 유니버스에 대해...
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

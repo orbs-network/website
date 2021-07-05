@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[DeFi Portal](https://orbsdefi.com/)
+[DeFi 포털](https://orbsdefi.com/)

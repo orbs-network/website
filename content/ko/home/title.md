@@ -2,8 +2,8 @@
 layout: partials/shared/simple-md
 ---
 
-## The winning
+## 최고의
 
-# blockchain
+# 블록체인
 
-## Stack
+## 솔루션

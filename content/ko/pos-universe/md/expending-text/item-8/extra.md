@@ -2,12 +2,12 @@
 layout: partials/shared/simple-md
 ---
 
-Orbs ​Locking Mechanism​ enhances the stability and security of the Orbs Network. In addition, the Orbs team developed TETRA​, a dedicated staking wallet, from which any ORBS holder can easily stake tokens with a Guardian of their choice. Both improvements were widely adopted by the Orbs community.
+Orbs 네트워크의 안정성과 보안성을 개선하기 위해 새로운 락업 방식을 도입하였습니다. 또한 Orbs팀은 ORBS 홀더분들이 쉽게 스테이킹하고 가디언을 선택할 수 있도록 전용 스테이킹 지갑인 TETRA를 개발하였습니다. 이런 개선사항들은 성공적인 전환기간을 거쳐 Orbs 커뮤니티에 정착되되고 있습니다.
 
-Moreover, Orbs PoS assists in reducing friction for Delegators by allowing for an easy transition of delegation between Guardians through the new staking contract. Delegators can now easily modify their stake between the various Guardians using the new Tetra Wallet, without the need to unstake first.
+또한 Orbs PoS는 델리게이터들이 새로운 스테이킹 컨트랙트를 통해 가디언들 사이에서 위임을 좀 더 쉽게 변경할수 있게 함으로써 불편을 줄여주고자 하였습니다. 델리게이터들은 가디언을 선택할 때 언락할 필요없이 Tetra 지갑을 이용하여 가디언을 쉽게 바꿀 수 있습니다.
 
-Token holders that delegate to an active Guardian are rewarded in proportion to their stake. Only delegation to an active Guardian that operates a validator node receives rewards. A Guardian that does not fulfill its responsibilities can harm the network and will cause its Delegators to lose their rewards. Therefore, it is imperative for Delegators to monitor their Guardians and make sure that they are fulfilling their responsibilities. The new features described above enable Delegators to efficiently stake to their chosen Guardian, or switch Guardians if necessary, thus helping them fulfill their important role in making the network safe and efficient.
+활동 중인 가디언에게 위임한 토큰 홀더는 자신의 지분에 비례하여 리워드를 받게 됩니다. 밸리데이터 노드를 운영하는 유효 가디언에게 위임하는 경우에만 리워드를 받을 수 있습니다. 만일 가디언이 자신의 의무사항을 다하지 않고 네트워크에 도움이 되지 않는다면 그 가디언의 델리게이터들은 리워드를 받을 수 없을 것입니다. 그러므로 델리게이터들은 반드시 자신이 선택한 가디언을 모니터하고 책임을 다하는지 살펴보아햐만 할 것입니다. 위에서 설명한 기능을 통해 델리게이터들은 가디언 변경을 통해 효율적으로 지분을 활용할 수 있으며, 이는 곧 가디언들이 네트워크의 안전과 효율성을 이끌어내는 중요한 역할을 다하는데 도움이 됩니다.
 
-Orbs’ rewards assignment and distribution architecture provides Orbs Delegators with an additional level of confidence and predictability for their rewards allocation. Under this architecture, staking rewards are distributed directly to the Orbs Delegators on a continuous basis. This continuous reward assignment allows both Guardians and Delegators to control the rate at which they claim their rewards. Under the new architecture, a Participant can claim their rewards by sending a claim transaction to the contract. This may be done using the Tetra staking interface. As the claim transaction has a gas cost, Delegators may initiate these transactions based on their need and the current gas price, which fluctuates heavily.
+Orbs 리워드 할당 및 배포 아키텍처는 Orbs 델리게이터에게 추가적으로 리워드 예측정보와 신뢰도를 더해줍니다. 스테이킹 리워드는 실시간으로 델리게이터에게 직접 할당됩니다. 실시간 리워드 할당은 가디언과 델리게이터 모두에게 각자의 리워드 비율을 확인할 수 있게하며 새로운 매커니즘에 따라 참여자들은 컨트랙트에 직접 트랜잭션하여 리워드를 청구할 수 있습니다. 테트라 또는 이용가능한 지갑에서 가능하며 청구하는데에는 가스비가 일부 소모되므로 관련하여 가스비의 변동성에 유의하여 트랜잭션을 진행하여야 합니다.
 
-For more information, read the ​Orbs V2.5 Update documentation.​
+더 많은 정보는 Orbs V2.5 문서에서 확인해보세요.

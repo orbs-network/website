@@ -1,15 +1,13 @@
 ---
 layout: partials/shared/expendable-text-box
-title: The Age of Guardians
-readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+title: 가디언의 시대
+readMoreButton: -/ko/_shared/buttons/read-more-btn.md
 
-readLessButton:
-  - /_shared/buttons/read-less-btn.md
+readLessButton: -/ko/_shared/buttons/read-less-btn.md
 ---
 
-The Orbs Network launched in March of 2019​. The successful mainnet launch has enabled the growth of the Orbs ecosystem across all vectors. During Year 0 of the mainnet, development efforts were focused on building and maintaining a secure, stable and inclusive network. While at first the goal was mostly network stability, with time it evolved into growth and scalability.
+Orbs 네트워크는 2019년 3월 출시되었습니다. 성공적인 메인넷 론칭을 통해 Orbs 생태계의 전반적인 성장을 이룰 수 있었습니다. 메인넷 론칭 후 첫 한해동안, 네트워크의 구축 및 보안과 안정성을 유지하는데 개발 역량의 초점을 맞추었습니다. 첫 목표는 주로 네트워크 안정화였지만 시간이 지남에 따라 성장과 확장성이 주요 목표가 되었습니다.
 
-The Orbs Universe now emphasizes usage and performance while empowering the Orbs Universe Guardians. It enables Orbs Universe Guardians to take an active role in building and maintaining a secure, scalable network, which will be the first choice for blockchain adoption, and to better manage and serve the network and its participants.
+Orbs 유니버스는 사용성을 강화하고 성능을 개선함과 동시에 가디언들에게 더 힘을 실어주고자 합니다. Orbs V2는 안정적이면서도 대용량의 네크워크를 구축하고 유지하는데 있어서 Orbs 유니버스의 가디언들이 중요한 역할을 수행하도록 이끌어 블록체인의 대중화시대에 앞서 갈 수 있게해 줄 것입니다. Orbs V2는 가디언들이 네트워크를 관리하고 운영하는 것과 그 자신의 참여에 있어서도 더욱 수월하도록 해줍니다.
 
-With the launch of V2.5, Orbs introduced numerous improvements, mainly in the staking rewards assignment and distribution architecture, leading to an improved distribution mechanism and significant reduction in Guardians operating costs. Orbs team aims to enhance network security and scalability through the Orbs PoS Universe and enables the on-boarding of clients with different use-cases.
+V2.5 론칭과 함께 많은 개선사항이 있었으며 주로 스테이킹 리워드 계산과 배포 설계에 중점을 두어 배포 매커니즘을 개선하고 가디언의 운영비를 획기적으로 줄였습니다. Orbs 팀은 PoS 유니버스를 통해 네트워크의 보안성과 확장성을 개선하여 열 다른 유즈케이스 클라이언트를 참여시키는데 목표를 두고 있습니다.

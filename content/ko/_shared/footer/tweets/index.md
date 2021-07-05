@@ -1,5 +1,5 @@
 ---
 layout: partials/footer/components/tweets/index
-title: latest tweets
+title: 최근 트위터
 title_img: /assets/img/socials/twitter.svg
 ---

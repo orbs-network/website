@@ -1035,7 +1035,8 @@ body {
     height: 100%; }
     .socials-element img {
       width: 70%;
-      height: 70%; }
+      height: 70%;
+      object-fit: contain; }
     .socials-element:last-of-type {
       margin-right: 0px; }
   .socials a {
@@ -1551,6 +1552,8 @@ body {
   background: #000001;
   position: relative;
   overflow: hidden; }
+  .home .title {
+    text-align: left; }
   .home .link-btn {
     margin: 0px;
     margin-top: 30px;
