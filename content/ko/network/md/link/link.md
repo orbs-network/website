@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /smart-contracts
+url: /ko/smart-contracts
 right: true
 ---
 
-orbs Smart Contracts Overview
+Orbs 스마트 컨트렉트 개요

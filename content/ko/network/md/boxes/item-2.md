@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/box-2.svg
 ---
 
-##### INDEPENDENT APP GOVERNANCE
+##### 독립적인 앱 거버넌스
 
-Isolation between virtual chains allows each app to make its own protocol governance decisions, such as fixing a vulnerability in a deployed smart contract or customizing a protocol parameter like its consensus block rate. This provides applications with the stability lacking in shared infrastructure solutions and reduces protocol forks as interests are less likely to conflict. Applications are also no longer at risk of having their block history reverted due to a network-wide decision such as The DAO fork or prevented from deploying a fix like with the Parity bug.
+가상 체인 간의 분리를 통해 각 앱은 배포된 스마트 컨트렉트의 취약성을 수정하거나 블록 속도 컨센서스와 같은 프로토콜 매개 변수를 커스터마이징 등 자체 프로토콜의 거버넌스를 결정할 수 있습니다. 이는 공유 인프라 솔루션이 제공하지 못하는 안정성을 각 애플리케이션에 제공하며 이해 관계 충돌의 가능성도 적기 때문에 프로토콜 포크를 감소시킵니다. 또한 The DAO 포크와 같은 네트워크 전반의 결정으로 인해 블록 기록을 되돌리거나 패리티 버그와 같은 픽스를 배포할 위험도 없게 됩니다.

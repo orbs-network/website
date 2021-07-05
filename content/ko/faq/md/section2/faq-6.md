@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: How can I become a Guardian?
+title: 어떻게 하면 가디언이 될 수 있나요?
 color: "#1EE6CF"
 ---
 
-Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision. As the most significant stakeholders in the network, they are most suitable to provide enterprise business applications the required security and availability.
+Orbs 가디언은 Orbs 커뮤니티를 대표하며, 네트워크의 보안을 유지하고 네트워크의 장기적인 비전을 유지합니다. 네트워크에서 가장 중요한 이해 당사자인 이들은 엔터프라이즈 비즈니스 애플리케이션에 필요한 보안 및 가용성을 제공하는 데 가장 적합합니다.
 
-Guardians are expected to build a community of Delegators that trust them to truthfully represent their and the network’s interests.
+보호자는 자신과 네트워크의 이익을 진정으로 대변할 수 있도록 신뢰하는 위임자 커뮤니티를 구축해야 합니다.
 
-For instructions use this [link](https://github.com/orbs-network/validator-instructions)
+지침을 보려면 이 [링크](https://github.com/orbs-network/validator-instructions)를 참고해주세요.

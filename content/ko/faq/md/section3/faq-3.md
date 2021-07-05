@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/opening-box
-title: How do I use the Tetra wallet?
+title: Tetra 지갑을 사용법이 궁금합니다
 color: "#E6541E"
 ---
 
-You can find a comprehensive tutorial [here](tetra-orbs-staking-wallet-tutorial)
+[여기 링크](tetra-orbs-staking-wallet-tutorial)의 튜토리얼을 확인해보세요.
 
-Don’t hesitate to contact us on the [Orbs official telegram channel](https://t.me/OrbsNetwork) if you require further support.
+그리고 사용 중 도움이 필요할 때 언제든지 공식 커뮤니티를 통해서 연락을 주시면 도와드리겠습니다.

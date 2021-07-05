@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/spiral-circle.svg
 ---
 
-##### WEB ORACLES AND OFF-CHAIN INTEROPERABILITY
+##### 웹 오라클 및 오프체인 상호운용성
 
-Providing non-determinism as a feature opens up new use cases for smart contracts such as accessing web oracles and off-chain data that isn’t straightforward to access under consensus. The benefits are clear, as many real-world applications require the ability to interoperate with existing systems or databases that are not on-chain. Native support for direct query of external data by validator nodes makes reliance on dedicated oracle nodes, that often become the weak links in the system, obsolete.
+비결정론을 한가지 기능으로 제공하면 기존 합의 하에서는 쉽게 접근할 수 없었던 웹 오라클 및 오프체인 데이터에 액세스가 가능해지며 스마트 컨트렉트의 새로운 유즈 케이스를 확보할 수 있게 됩니다. 대다수의 현재 애플리케이션들은 온체인이 아닌 기존 시스템, 혹은 데이터베이스와의 상호 운용성을 필요로 하기 때문에 장점은 명확합니다. 검증자 노드에서 외부 데이터를 직접 쿼리할 수 있도록 하면 전용 오라클 노드에 의존할 수 밖에 없으며, 이는 종종 시스템의 취약점이 됩니다.

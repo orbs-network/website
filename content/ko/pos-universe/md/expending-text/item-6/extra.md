@@ -2,11 +2,11 @@
 layout: partials/shared/simple-md
 ---
 
-Below is a list of the the key improvements in terms of efficiency and cost reduction:
+아래는 효율성 및 비용 절감 측면에서 주요 개선 사항들입니다:
 
-- Operation cost is significantly reduced
-- For AWS-deployed nodes: a base infrastructure monthly cost reduction, with options to reduce the cost further by reserving resources in advance.
-- An elastic architecture that leverages cloud architectures and enables compute and storage resources allocation as needed for the network use.
-- Transition to EFS/NFS-based block storage architecture, significantly reducing the storage cost and providing more flexible resource sharing among Virtual Chains, while maintaining the Virtual Chains isolation.
-- Utilizing light Ethereum client architecture to reduce the cost of the Ethereum service operation.
-- Automatic and simple node setup, with enhanced logging and monitoring tools for reduced operations overhead.
+- V2 노드 운영비가 V1에 비해 크게 감소
+- AWS에 노드를 설치하는 경우: 리소스를 미리 확보하여 추가 비용을 절감하는 옵션제공으로 기본 인프라에 대한 월 운영비 절감.
+- 클라우드 아키텍처를 활용하고 네트워크가 필요로하는 만큼만 연산 및 스토리지 리소스를 할당받도록하는 탄력적인 설계구조.
+- EFS/NFS기반의 블록 저장소 구조로 전환, 스토리지 비용을 크게 줄이고 가상체인들 사이에 리소스 공유가 더욱 유연해짐 (가상체인의 독립성은 그대로 유지)
+- 간단버전의 이더리움 클라이언트 구조를 활용하여 이더리움 서비스 운영비를 절감.
+- 향상된 로깅, 모니터링 툴과 함께 자동화된 간단한 노드 설치를 지원하여 추가 운영비용을 줄임.

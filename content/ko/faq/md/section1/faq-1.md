@@ -4,9 +4,10 @@ title: What is Orbs?
 color: "#E61EA9"
 ---
 
-Orbs is a public blockchain infrastructure designed for mass usage applications and providing a complete blockchain stack. Combining scalability, low fees and isolation between virtual chains with a top-grade developer experience, online IDE and smart contracts in familiar languages, Orbs provide developers the perfect mix of performance, cost, security and ease of use. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus. The Orbs protocol relies on the ORBS token, which is used for the settlement of fees related to app execution and provides the system of incentives used to elect validators (who are referred to as “Guardians”) in a secure and decentralized manner.
+Orbs는 퍼블릭 블록체인 인프라로, 대중화 애플리케이션을 목적으로 설계되었으며 완전한 블록체인 스택을 제공합니다. 확장성, 낮은 수수료, 가상 체인간의 독립화를 통해 개발자에게 최고의 개발환경을 제공하며, 온라인IDE 및 친숙한 스마트컨트렉트 언어, 성능, 비용, 보안 및 사용 편의성도 제공합니다. Orbs 프로토콜은 PoS(Proof-of-Stake) 컨센서스를 사용하여 오픈 벨리데이터(검증자)들을 통한 탈중앙화 네트워크 입니다. Orbs 프로토콜은 ORBS 라는 자체적인 토큰으로 앱의 실행 및 관련 수수료의 결제를 진행하며 안전하고 탈중앙화된 방식으로 선출된 검증자(가디언)들에게 인센티브를 제공합니다.
 
-Founded in 2017, Orbs is being developed by a dedicated team of more than 30 people out of Tel Aviv, Israel, London, UK, Singapore, Tokyo, Japan and Seoul, South Korea. Orbs was named Gartner’s “Cool Vendor in Blockchain Technology” for 2018.
-Find out more about Orbs [here.](https://www.about.orbs.com/)
+2017년에 창립되었으며, 이스라엘 텔아비브, 영국 런던, 싱가포르, 서울 및 일본 도쿄에서 30명 이상의 전담 인력에 의해 개발되고 있습니다. 2018년, 가트너(Gartner)가 선정한 주목해야할 블록체인 기업(Cool Vendor in Blockchain Technology)에 선정된 바가 있습니다.
 
-Listen to this [short video by Orbs co-founder Daniel Peled](https://drive.google.com/file/d/1ASbLSKWtyayDkckeHMrmFLbaVT7F6sIN/view) from KBW 2019.
+한국 블록체인주간(KBW)2019에서 진행된 [Orbs의 공동창립자 다니엘 펠레드의 연설](https://drive.google.com/file/d/1ASbLSKWtyayDkckeHMrmFLbaVT7F6sIN/view)을 통해 자세한 내용을 확인하실 수 있습니다.
+
+더 자세한 내용을 [여기](https://www.about.orbs.com/)에서 확인해보세요.

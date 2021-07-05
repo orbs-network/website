@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Team](/team)
+[팀 소개](/ko/team)

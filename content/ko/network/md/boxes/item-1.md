@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/box-1.svg
 ---
 
-##### ISOLATION AND DEDICATED RESOURCES
+##### 독립성 및 전용 리소스 제공
 
-Every virtual chain is allocated separate computing, storage and consensus resources providing a guaranteed SLA to its users. Congestion in one virtual chain does not propagate to other virtual chains, making performance predictable and reliable. Resource isolation also prevents fee surges resulting from competition for network resources between applications and enables a predictable fee model absent from most shared-resources blockchains.
+모든 가상 체인은 별도의 컴퓨팅, 스토리지 및 컨센서스 리소스를 할당받으며 SLA를 보장받습니다. 다른 가상 체인의 혼잡 및 지연이 다른 가상 체인에 영향일 미치지 않으므로 성능의 예측 및 신뢰가 가능합니다. 또한 리소스 독립으로 애플리케이션 간의 네트워크 리소스 경쟁에 따른 수수료 급증이 일어나지 않으며다른 여러 공유-리소스 블록 체인이 지원하지 않는 예측 가능한 수수료 모델을 가능하게 합니다.

@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/boxes/boxes
-title: Roles
+title: 역할들
 list:
   - item-1.md
   - item-2.md

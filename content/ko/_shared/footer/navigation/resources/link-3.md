@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Network Status](http://status.orbs.network/)
+[네트워크 현황](http://status.orbs.network/)

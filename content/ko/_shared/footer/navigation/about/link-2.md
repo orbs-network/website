@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Team](/team)
+[팀 소개](/ko/team)

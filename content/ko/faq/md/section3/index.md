@@ -6,5 +6,5 @@ list:
   - faq-3.md
   - faq-4.md
 
-title: Tetra Staking Wallet
+title: Tetra 스테이킹 월렛
 ---
