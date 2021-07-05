@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /network
+url: /ko/network
 right: true
 ---
 
-Learn More
+더 알아보기

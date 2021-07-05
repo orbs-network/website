@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: wallets
+title: 지갑
 
 items:
   - item-1.md

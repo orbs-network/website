@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Blog](/blog)
+[블로그](https://orbskorea.medium.com)

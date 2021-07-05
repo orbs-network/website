@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/form/form-success
-title: Thank you for Reaching out!
+title: 연락주셔서 감사합니다!
 ---
 
-We will contact you soon
+빠른 시일내에 회신드리겠습니다.

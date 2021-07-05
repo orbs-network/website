@@ -3,12 +3,10 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: feesAndBootstrapRewards
-readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+readMoreButton: -/ko/_shared/buttons/read-more-btn.md
 
-readLessButton:
-  - /_shared/buttons/read-less-btn.md
+readLessButton: -/ko/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The [feesAndBootstrapRewards](https://etherscan.io/0xda7e381544Fc73cad7D9E63C86e561452b9B9E9C) contract manages the fees and bootstrap rewards state of the Guardians. The fees and bootstrap rewards architecture is similar to the architecture of the stakingRewards contract.
+[feesAndBootstrapRewards](https://etherscan.io/0xda7e381544Fc73cad7D9E63C86e561452b9B9E9C) 컨트랙트는 수수료와 가디언 지원용 리워드 상황을 관리합니다. 수수료 및 지원금 보상 아키텍처는 스테이킹 리워드 컨트랙트와 유사한 설계로 이루어져 있습니다.

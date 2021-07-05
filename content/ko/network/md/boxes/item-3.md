@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/box-3.svg
 ---
 
-##### INFINITE HORIZONTAL SCALABILITY
+##### 무한한 수평적 확장성
 
-The parallel and concurrent operation of different virtual chains results in virtual separation, as smart contracts are likely to interact mostly with smart contracts deployed on the same virtual chain. When a new virtual chain is created, Orbs validators dynamically allocate more resources for its execution (eg. instantiate a new AWS machine in the node cluster) allowing for a virtually limitless number of virtual chains to run on the network in parallel.
+대부분의 스마트 컨트렉트는 동일한 가상 체인에 배포된 다른 스마트 컨트렉트들과 상호 작용할 가능성이 높기 때문에 가상 체인간의 병렬 및 동시 운영은 가상 분리 되게됩니다. 새로운 가상 체인이 생성되면 Orbs 검증자는 운영을 위해 더 많은 리소스를 동적으로 할당합니다(예: 노드 클러스터에서 새 AWS 시스템을 인스턴스화). 이를 통해 사실상 무제한의 가상 체인이 네트워크에서 병렬로 실행될 수 있습니다.

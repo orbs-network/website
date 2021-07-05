@@ -1,6 +1,6 @@
 ---
 layout: partials/footer/components/navigation/links
-title: Resources
+title: 관련 도구들
 links:
   - link-1.md
   - link-2.md
