@@ -1,6 +1,6 @@
 ---
 layout: partials/team/lists/team-list
-title: Orbs leadership
+title: Orbs를 이끄는 사람들
 teamTop:
   - collection-1.md
 teamBottom:

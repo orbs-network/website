@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Transparency and Data
+title: 정보 공개
 items:
   - xangle.md
   - messari.md

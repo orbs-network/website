@@ -60,7 +60,6 @@ module.exports = exports = function renderer({
     }
 
     if (title === "blog") {
-      const isDev = process.env.IS_DEV;
       return `<a href="${_relativeURL(`blog/${href}`, _ID)}"${
         title ? ` title="${title}"` : ""
       } rel="noopener">${text}</a>`;

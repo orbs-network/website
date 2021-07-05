@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[The Orbs Network](/network)
+[Orbs 네트워크](/ko/network)

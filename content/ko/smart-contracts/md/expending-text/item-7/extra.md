@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The staking rewards contract is updated upon two events: an update to a delegator’s stake and a change in a Guardian’s committee membership. A participant may claim his staking rewards that are staked in the staking contract and the system state is updated accordingly. The staking withdraws funds from the stakingRewardsWallet holds tokens up to the total unclaimed amount for all participants.
+스테이킹 리워드 컨트랙트는 두가지 이벤트를 업데이트합니다: 1) 델리게이터 스테이킹 수량 변경 2) 가디언의 위원회 참여여부 변경. 참여자는 자신의 스테이킹 리워드를 스테이킹 컨트랙트에 따라 청구할 수 있으며 시스템 상태는 이에 맞게 갱신됩니다. stakingRewardsWallet으로부터 출금되는 스테이킹 자금을 인출합니다. 해당 지갑에는 모든 참여가에 대해 청구되지 않은 총 금액의 토큰을 보유합니다.

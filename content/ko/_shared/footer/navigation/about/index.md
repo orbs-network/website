@@ -1,6 +1,6 @@
 ---
 layout: partials/footer/components/navigation/links
-title: About
+title: Orbs 프로젝트
 links:
   - link-1.md
   - link-2.md

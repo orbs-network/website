@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/title
 ---
 
-# white papers
+# 백서 및 기술문서

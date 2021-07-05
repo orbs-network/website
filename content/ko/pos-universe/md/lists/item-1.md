@@ -1,24 +1,22 @@
 ---
 layout: partials/pos-universe/list-section
-title: DELEGATORS
+title: 델리게이터
 img: ../assets/img/pos-universe/delegators.svg
 ---
 
-Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
+델리게이터는 ORBS 토큰 홀더로 자신들의 보팅파워를 가디언에게 위임하여 가디언들이 보안을 유지하며 생태계에 장기적인 비전을 이루어내게 해줍니다.
 
-[Stake your ORBS tokens!](https://staking.orbs.network/ "button")
+[ORBS 토큰 스테이킹하기](https://staking.orbs.network/ "button")
 
-##### Roles and Responsibilities
+##### 역할과 책임
 
-- Actively contribute to the network’s success by **staking your ORBS**
-  tokens. [Instructions](tetra-orbs-staking-wallet-tutorial) on how to stake using the Orbs Tetra wallet.
-- Select a worthy [Guardian](https://staking.orbs.network/?p=/guardians) to delegate your voting power to
-- Staked tokens will be locked for a period of 14 days.
-  Read more about the [Orbs locking](introducing-locking-when-staking-orbs) mechanism
+- **ORBS를 스테이킹함으로** 네트워크의 유지에 기여합니다. [테트라 사용 설명](tetra-orbs-staking-wallet-tutorial)을 보고 어떻게 스테이킹하는지 따라할 수 있습니다.
+- 적절한 [가디언](https://staking.orbs.network/?p=/guardians)을 선택하여 보팅파워를 위임하세요
+- 스테이킹된 토큰은 언락 시 14일의 기간이 필요합니다.
+  [락업과 관련해서 더 많은 내용을 확인해보세요](introducing-locking-when-staking-orbs)
 
-##### Economic Incentives
+##### 경제적 인센티브
 
-- Token holders that delegate to an active Guardian are rewarded in proportion
-  to their stake
-- Annual reward is up to 8% of the Delegator’s staked tokens (subject to an 80M ORBS Token cap on total rewards). [Find out more about the Orbs reward system.](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund)
-- Only delegation to an active Guardian that participates in the elected committee receives rewards. Also, it is important to note that staking rewards may vary between Guardians, so choose your Guardian carefully!
+- 적절한 가디언에게 위임한 토큰 홀더는 스테이킹 수량에 비례하여 보상을 받습니다
+-   연간 보상율은 스테이킹 수량의 최대 8%입니다. (총 보상은 연 최대 8천만 ORBS 토큰).  [Orbs 리워드 시스템](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund/)에서 자세한 내용을 확인하실 수 있습니다.
+-   위원회로 선출되어 활동에 참여하는 활성 가디언에 위임되어야 보상을 수령할 수 있습니다. 또한 가디언별로 보상 수량이 다를 수 있으니 신중하게 선택하시기 바랍니다!

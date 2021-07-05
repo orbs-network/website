@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Community Console](https://orbs.flipsidecrypto.com/)
+[커뮤니티 콘솔](https://orbs.flipsidecrypto.com/)

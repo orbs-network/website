@@ -7,5 +7,5 @@ list:
   - faq-4.md
   - faq-5.md
   - faq-6.md
-title: Orbs POS Universe
+title: Orbs POS 유니버스
 ---

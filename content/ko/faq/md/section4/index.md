@@ -5,5 +5,5 @@ list:
   - faq-2.md
   - faq-3.md
 
-title: Technology
+title: 기술 관련
 ---

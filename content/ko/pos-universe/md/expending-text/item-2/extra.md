@@ -2,12 +2,13 @@
 layout: partials/shared/simple-md
 ---
 
-Providing the Guardians with the ability to set the level of rewards that will be distributed to their respective Delegators tightens their relationships with their communities. Staking rewards are set by the Guardians, who determine how to split the rewards amongst their Delegators, while a minimum rate of compensation to Guardians is imposed by the protocol.
+가디언에게 리워드 배포 권한을 부여함으로서, 델리게이터와의 관계가 단단해질 것입니다. V2에서는 가디언이 스테이킹 리워드를 분배하게 됩니다. 가디언이 자신의 델리게이터들에게 언제 어떻게 배포할지 결정합니다. 자동화된 배포 매커니즘은 밸리데이터 코드에 구현이 되며 이를 통해 리워드 배포가 이루어지게 될것입니다.
 
-Guardians play an important role in the reward distribution process. A new automated mechanism to set the level of rewards that will be distributed to their Delegators was enabled at the protocol level and featured as part of the updated Guardian interface. The mechanism calculates the amount of rewards that each of the Guardian’s Delegators is entitled to, based on the Delegators’ stake over time and the allocated ratio. A maximum annual reward equal to 12% of total delegated stake is awarded, addressing the tradeoff between an appealing award and sustainable inflation (see Rewards). 1⁄3 of the rewards are guaranteed to the Guardians (i.e., up to 4% annual reward maximum), while the default values for the distribution application grant the remaining 2⁄3 to Delegators (i.e., up to 8% annual reward maximum). The new automated tool allows the Guardians to modify the Delegators’ rewards split.
+가디언은 리워드 배포 프로세스에서 중요한 역할을 담당합니다. 리워드 배포를 위한 새로운 자동화 메커니즘이 Orbs 노드 코드베이스의 일부기능으로 동작할 것입니다. 이 메커니즘은 가디언의 각 델리게이터들이 참여한 시간과 수량에 따라 받게될 리워드 수량을 계산합니다. 최대 연간 보상율은  총 참여 지분의 12%로 수익성과 지속적인 인플레이션의 상충관계를 해결하는 지점으로 고려하여 정했습니다 (아래 리워드 관련 챕터에 추가 설명이 있습니다). 기본적으로 전체 리워드는 2/3(최대 연간 8)가 델리게이터에게, 나머지 1/3(연간 4% 상당)은 가디언에게 보장 지급하도록 설정되어 있으며, 기간은 2주마다 분배가 이루어지도록 기본설정되어 있습니다. 새로운 자동화 툴에서는 이 비율과 배포 주기에 대해 가디언 별로 수정적용이 가능합니다.
 
-This optimized reward distribution architecture provides a scalable and gas-efficient reward distribution that occurs through the protocol itself. Under this system, once the level of distributions is set by the Guardians, the respective rewards are distributed by the protocol directly to both the Guardians and the Delegators, on a continuous basis. Delegators and Guardians can then decide when they wish to claim their reward tokens.
 
-This has multiple important benefits such as added flexibility to the Guardians and Delegators, who may claim the staking rewards at any point in time, significant reduction in costs for Guardians, and more.
+최적화된 리워드 배포 설계로 인해 프로토콜에 확장성 및 리워드 배포시 효율적인 가스소비율을 제공합니다. 이 시스템에서는, 가디언이 배포비율을 설정해두기만 하면 프로토콜에 의해 가디언과 델리게이터에게 자동으로 계산된 리워드가 계속해서 할당됩니다. 델리게이터와 가디언은 자신들의 리워드를 언제 청구해서 가져갈지 직접 결정할 수 있습니다.
 
-To learn more about our distribution mechanism, read our documentation​ on [GitHub.](https://github.com/orbs-network)
+이로서 가디언과 델리게이터에게 유연성을 더해주어 스테이킹 리워드를 원하는때에 청구할 수 있고, 가디언 유지비용을 획기적으로 줄여주는 등 여러 이점을 더하였습니다.
+
+배포 매커니즘에 대해 더 알고 싶으시다면 [GitHub의 문서](https://github.com/orbs-network)를 참고해보세요.

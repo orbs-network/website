@@ -89,6 +89,7 @@ body {
     img {
       width: 70%;
       height: 70%;
+      object-fit: contain;
     }
     &:last-of-type {
       margin-right: 0px;

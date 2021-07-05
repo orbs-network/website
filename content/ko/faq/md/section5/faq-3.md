@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/opening-box
-title: Where can I find more info on Orbs and DeFi?
+title: Orbs와 DeFi에 대해 더 많이 알고 싶어요.
 color: "#B01EE6"
 ---
 
-The [Orbs DeFi Portal](https://orbsdefi.com/) is a project by one of the Orbs project prominent contributors: Paradigm Fund. The portal aggregates everything you need to know about Orbs and DeFi in one place - real-time market data for Orbs liquidity pools, Education materials and how-to manuals for swapping and adding liquidity, research papers, and more...
+Orbs의 동반자적 파트너인 Paradigm Fund가 만든 [Orbs DeFi 포털](https://orbsdefi.com/)이 있습니다. 이 포털에 여러분들이 알고 싶은 Orbs와 DeFi에 대한 모든 것을 한자리에 모아두었습니다: Orbs 유동성 풀의 실시간 마켓 데이터, 교육 자료, 스왑 및 유동성 공급 메뉴얼, 연구 자료등이 있습니다.

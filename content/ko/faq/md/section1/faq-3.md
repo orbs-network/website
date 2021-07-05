@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/opening-box
-title: What are some of Orbs technological innovations?
+title: Orbs의 기술적 혁신에는 어떤 것들이 있나요?
 color: "#E61EA9"
 ---
 

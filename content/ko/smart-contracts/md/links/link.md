@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /network
+url: /ko/network
 left: true
 ---
 
-Back to Orbs Overview
+이전 화면으로 돌아가기

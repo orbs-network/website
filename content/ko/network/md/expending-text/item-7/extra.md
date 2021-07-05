@@ -2,6 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-#### More on Cross-chain Interoperability
+#### 크로스체인 상호운용성 추가 설명
 
-As blockchain development becomes mainstream, platforms must offer a lower barrier to entry for blockchain developers to remain competitive.
+블록체인 개발이 메인스트림으로 자리 잡으면서, 각 플랫폼들은 개발자들이 경쟁력을 유지할 수 있도록 플랫폼 진입 장벽을 낮춰야 합니다.

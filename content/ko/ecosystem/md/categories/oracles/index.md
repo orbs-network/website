@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Oracles
+title: 오라클
 
 items:
   - item-1.md
