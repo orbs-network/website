@@ -12,11 +12,3 @@ guaranteed SLA to its users. _Congestion in one virtual chain_ does not propagat
 virtual chains, making performance predictable and reliable. Resource isolation also
 prevents fee surges **resulting from competition** for network resources between
 applications and enables a predictable fee model absent from most [shared-resources](www.google.com) blockchains.
-
-### Example list
-
-- item 1
-- item 2
-- item 3
-- item 4
-- item 5

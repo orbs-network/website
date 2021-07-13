@@ -1,9 +1,11 @@
 ---
 layout: partials/shared/expendable-text-box
 title: 가디언의 시대
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 ---
 
 Orbs 네트워크는 2019년 3월 출시되었습니다. 성공적인 메인넷 론칭을 통해 Orbs 생태계의 전반적인 성장을 이룰 수 있었습니다. 메인넷 론칭 후 첫 한해동안, 네트워크의 구축 및 보안과 안정성을 유지하는데 개발 역량의 초점을 맞추었습니다. 첫 목표는 주로 네트워크 안정화였지만 시간이 지남에 따라 성장과 확장성이 주요 목표가 되었습니다.
