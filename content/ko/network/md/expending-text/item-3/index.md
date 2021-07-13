@@ -2,9 +2,12 @@
 layout: partials/shared/expendable-text-box
 title: 앱 개발자들을 위한 서버없는(SERVERLESS) 클라우드
 
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
+
 border: true
 extra:
   - extra.md

@@ -1,9 +1,11 @@
 ---
 layout: partials/shared/expendable-text-box
 title: 크로스체인 상호운용성
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 extra:
   - extra.md
 ---

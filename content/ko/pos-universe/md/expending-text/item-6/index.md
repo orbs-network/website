@@ -3,9 +3,11 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: 밸리데이터 노드의 능률향상
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 border: true
 ---
 

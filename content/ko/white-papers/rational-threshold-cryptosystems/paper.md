@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Rational Threshold Cryptosystems
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: January 2019
 url: white-papers/rational-threshold-cryptosystems
 button: Preview Paper

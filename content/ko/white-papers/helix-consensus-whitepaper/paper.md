@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Helix Consensus White Paper
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: April 2018
 url: white-papers/helix-consensus-whitepaper
 button: Preview Paper
