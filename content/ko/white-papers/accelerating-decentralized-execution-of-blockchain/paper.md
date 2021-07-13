@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Accelerating Decentralized Execution of Blockchain
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: August 2018
 url: white-papers/accelerating-decentralized-execution-of-blockchain
 button: Preview Paper

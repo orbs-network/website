@@ -17,6 +17,4 @@ Orbs는 Solidity같은 전용 언어를 대신하여 Go, JavaScript같은 대중
 Orbs 네트워크를 활용한 데모 앱들을 확인해보세요:
 [https://demos.orbs.network/](https://demos.orbs.network/)
 
-Developers can also set up virtual machine images on [AWS](orbs-live-on-amazon-ami-published-by-aws-marketplace), [MS Azure](orbs-is-live-on-microsoft-azure) and [Google Cloud](orbs-is-live-on-google-cloud) in order to start experimenting with developing on the Orbs network
-
 개발자들은 [AWS](orbs-live-on-amazon-ami-published-by-aws-marketplace), [MS Azure](orbs-is-live-on-microsoft-azure) , [Google Cloud](orbs-is-live-on-google-cloud)에서 직접 가상 머신 이미지를 셋팅하고 바로 Orbs 네트워크에서의 개발테스트를 시험해볼 수 있습니다

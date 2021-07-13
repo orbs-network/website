@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/opening-box
-title: What is Orbs?
+title: Orbs는 어떤 프로젝트인가요?
 color: "#E61EA9"
 ---
 

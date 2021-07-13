@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Orbs Technology Overview
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: May 2019
 url: white-papers/orbs-technology-overview-2
 button: Preview Paper

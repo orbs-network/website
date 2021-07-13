@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Use of Ethereum as a Base Layer for PoS and PoA Platforms
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: February 2019
 url: white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms
 button: Preview Paper

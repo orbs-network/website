@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Orbs Operation Fees
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: March 2019
 url: white-papers/Orbs-Operation-Fees
 button: Preview Paper
