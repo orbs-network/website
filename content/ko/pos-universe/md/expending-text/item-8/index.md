@@ -3,9 +3,11 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: 위임 메커니즘의 개선
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 border: true
 ---
 

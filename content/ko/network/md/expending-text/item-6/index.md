@@ -1,9 +1,11 @@
 ---
 layout: partials/shared/expendable-text-box
 title: 장점
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 ---
 
 - 각각의 애플리케이션이 자신만의 가상체인을 운영

@@ -21,7 +21,7 @@ const Main = (props) => {
   return (
     <main className="faq main-grid">
       <div className="faq-flex flex-between">
-        <SideMenu _body={linksProps} title={title} socials={socials} />
+        <SideMenu _body={linksProps} title={title} />
 
         <FaqCategoriesList {...props} />
       </div>

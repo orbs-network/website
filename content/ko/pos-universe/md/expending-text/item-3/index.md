@@ -3,9 +3,11 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: 이더리움에 구현된 POS
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 border: true
 ---
 
