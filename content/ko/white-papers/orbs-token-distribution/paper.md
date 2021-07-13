@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: Orbs Token Distribution
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: April 2019
 url: white-papers/orbs-token-distribution
 button: Preview Paper

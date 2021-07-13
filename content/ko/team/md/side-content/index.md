@@ -8,4 +8,4 @@ Orbs 팀은 경험많은 개발자, 학자, 사업가들로 구성되어 있습�
 
 ##### 저희 팀에 합류해 보세요!
 
-[hello@orbs.com](hello@orbs.com "email")으로 여러분의 이력서를 보내주세요
+[hello@orbs.com](hello@orbs.com "email") 으로 여러분의 이력서를 보내주세요
