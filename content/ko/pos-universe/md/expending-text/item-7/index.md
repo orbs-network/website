@@ -3,9 +3,11 @@ layout: partials/shared/expendable-text-box
 extra:
   - extra.md
 title: 최소 자체 스테이킹 수량
-readMoreButton: -/ko/_shared/buttons/read-more-btn.md
+readMoreButton:
+  - /ko/_shared/buttons/read-more-btn.md
 
-readLessButton: -/ko/_shared/buttons/read-less-btn.md
+readLessButton:
+  - /ko/_shared/buttons/read-less-btn.md
 border: true
 ---
 

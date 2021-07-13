@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
 title: "Blockchain Virtualization: A Necessity for Real-World DApps"
-readPaperBtn: read the paper
+readPaperBtn: 문서 읽기
 date: August 2018
 url: white-papers/blockchain-virtualization-a-necessity-for-real-world-dapps
 button: Preview Paper

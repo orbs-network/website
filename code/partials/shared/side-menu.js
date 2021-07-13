@@ -5,7 +5,7 @@ const SideMenu = ({ title, _body, socials }) => {
     <div className="side-menu">
       <h3 className="side-menu-title">{title}</h3>
       <div className="side-menu-body">{_body}</div>
-      {socials}
+      {socials && socials}
     </div>
   );
 };

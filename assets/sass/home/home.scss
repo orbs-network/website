@@ -95,6 +95,9 @@
 
 @media only screen and (max-width: $mobile) {
   .home {
+    .title {
+      text-align: center;
+    }
     .link-btn {
       margin-left: auto;
       margin-right: auto;
