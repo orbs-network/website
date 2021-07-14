@@ -1,23 +1,23 @@
 ---
 layout: partials/pos-universe/list-section
-title: GUARDIANS
-img: ../assets/img/pos-universe/guardians.svg
+title: ガーディアン
+img: /assets/img/pos-universe/guardians.svg
 ---
 
-Orbs Guardians represent the Orbs community, they maintain the security of the network and uphold its long term vision, investing time and effort in the network's success.
+Orbs のガーディアンは Orbs コミュニティの顔です。ネットワークのセキュリティを維持し、 ネットワークが成功するために時間と労力を割いています。ネットワークの最も重要なステー クホルダーとして、アプリケーションに必要なセキュリティと有効性を提供する役割を 担っています。
 
-[Become an Orbs Guardian!](https://guardians.orbs.network/ "button")
+[ガーディアンになる！](https://guardians.orbs.network/ "button")
 
-##### Roles and Responsibilities
+##### 役割と責任
 
-- Guardians operate the Orbs network nodes and run the virtual chains for the subscribed applications
-- Guardians are responsible for the [staking rewards distribution](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-distributions/) to their community of delegators
-- Orbs is a [hybrid blockchain](white-papers/orbs-pos-v2-the-age-of-guardians-section-pos-on-ethereum/), utilizing Ethereum for added security and transparency of the Orbs PoS ecosystem. Thus, Orbs Guardians are required to run an Ethereum node.
-- Guardians have an option to be part of the [Certified Committee](white-papers/orbs-pos-v2-the-age-of-guardians-section-election-committees/) and operate virtual chains that require certified Guardians. Certified Committee members are eligible for added incentives.
-- Guardians are expected to be committed to their communities and their Delegators’ staked tokens. Therefore, Guardians are required to have a [self-stake](white-papers/orbs-pos-v2-the-age-of-guardians-section-minimum-self-delegation/) of at least 8% of their total delegated stake.
+- ガーディアンは Orbs ネットワーク・ノードを運用し、Orbs ブロックチェーン上にあるアプリケーションの仮想チェーンを実行します
+- ガーディアンは、デリゲータのコミュニティへの[ステーキング報酬の配布](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-distributions/) の責任があります。
+- Orbs は[ハイブリッドブロックチェーン](white-papers/orbs-pos-v2-the-age-of-guardians-section-pos-on-ethereum/)であり、OrbsPoS エコシステムのセキュリティと透明性を高めるために Ethereum を利用しています。したがって、Orbs のガーディアンはイーサリアム・ノードを実行する必要があります。
+- ガーディアンは、[認定委員会](white-papers/orbs-pos-v2-the-age-of-guardians-section-election-committees/)に参加し、認定ガーディアンを必要とする仮想チェーンを運営するオプションがあります。認定委員会のメンバーは、追加のインセンティブを受ける資格があります。
+- ガーディアンは、コミュニティをまとめ、そのデリゲータがステーキングしたトークンにコミットすることが期待されています。したがって、ガーディアンは、委任された合計の少なくとも 8％の[セルフステーク](white-papers/orbs-pos-v2-the-age-of-guardians-section-minimum-self-delegation/)をする義務があります。
 
-##### Economic Incentives
+##### インセンティブ
 
-- Applications running virtual chains on Orbs pay fees directly to the Guardians, representing the cost of the computational resources allocated to the virtual chain.
-- Guardians receive [staking rewards](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund/) of at least 4% of their delegated stake (subject to an 80M Orbs Token cap on total rewards), for operating the network and contributing to the network’s security.
-- Guardians who choose to participate in the Certified Committee receive a [bootstrap fund](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund/) distributed in DAI
+- Orbs で仮想チェーンを実行しているアプリケーションは、仮想チェーンに割り当てられた計算リソースにかかる費用を月額料金としてガーディアンに直接支払います。
+- ガーディアンは、委任されたステークの少なくとも[4％のステーキング報酬](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund/) を受け取ります（年間報酬の上限は 8000 万 ORBS トークン）。
+- 認定委員会への参加を選択したガーディアンには、DAI で配布される[ブートストラップ基金](white-papers/orbs-pos-v2-the-age-of-guardians-section-rewards-fees-bootstrap-fund/)が配布されます。
