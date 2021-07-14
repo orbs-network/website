@@ -2,109 +2,110 @@
 layout: partials/policy/main
 ---
 
-# Privacy Policy
+# プライバシーポリシー
 
-## Orbs Privacy Policy
+## Orbs プライバシーポリシー
 
-### Last Revised: March 21, 2019
+### 改訂: 2019 年 3 月 21 日
 
-Orbs Ltd. and its affiliates (“**Orbs**”, “**we**” or “**us**”) respect the privacy of users of our website at [https://orbs.com](https://github.com/orbs-network/orbs-spec/blob/master/NETWORK-TOU.md) (the “**Site**”) and related services (“**User**” or “**you**”) and are committed to protect the personal information that their Users share with us. We believe that you have a right to know our practices regarding the information we may collect and use when you visit and/or use our Site.
+Orbs Ltd.およびその関連会社(以下総称して「**Orbs**」または「**私たち**」)は[https://orbs.com](https://github.com/orbs-network/orbs-spec/blob/master/NETWORK-TOU.md) (「**サイト**」) にあるユーザーのプライバシーを尊重します。そして、ユーザーが私たちと共有する個人情報を保護することをお約束します。私たちは、ユーザーが私たちのサイトにアクセスおよび/または使用する際に収集および使用する可能性のある情報に関して、知る権利があると考えます。
 
-Capitalized terms which are not defined herein, shall have the meaning ascribed to them in our Terms of Use at [https://www.orbs.com/terms-of-use/](https://github.com/orbs-network/orbs-spec/blob/master/NETWORK-TOU.md) (“TOU”), into which this Privacy Policy is incorporated by reference.
+ここで定義されていない用語は、[https://www.orbs.com/terms-of-use/](https://github.com/orbs-network/orbs-spec/blob/master/NETWORK-TOU.md)（「TOU」）の利用規約に記載されており、本プライバシーポリシーが参照されています。
 
-This Privacy Policy and the ToU into which this Privacy Policy is incorporated relate solely to the Site and its use. Use of the Orbs decentralized network platform and any activity thereon is subject to the Orbs Network Terms of Use which are available at [https://www.orbs.com/terms-of-use/]().
+本プライバシーポリシーと本プライバシーポリシーが組み込まれている TOU の範囲は、サイトとその使用にのみに限定します。Orbs 分散型ネットワーク・プラットフォームの使用およびその上での活動は、[https://www.orbs.com/terms-of-use/]Orbs ネットワーク利用規約を参照するものとします。
 
-1. ##### Your Consent (PLEASE READ CAREFULLY!)
+1. ##### ユーザー同意（注意深く読んでください！）
 
-   BY ENTERING, CONNECTING TO, ACCESSING OR USING THE SITE, YOU AGREE TO THE TERMS AND CONDITIONS SET FORTH IN THIS PRIVACY POLICY (THE “PRIVACY POLICY”), INCLUDING TO THE COLLECTION AND PROCESSING OF YOUR PERSONAL INFORMATION (AS DEFINED BELOW). IF YOU DISAGREE TO ANY TERM PROVIDED HEREIN, YOU MAY NOT ACCESS OR USE THE SITE.
+   サイトにアクセス、接続、アクセス、または使用することにより、個人情報の収集と処理（以下に定義）を含む、本プライバシーポリシー（「プライバシーポリシー」）に記載されている利用規約に同意したことになります。ここに記載されている条件に同意しない場合は、サイトにアクセスしたり、サイトを使用したりすることはできません。
 
-   FOR AVOIDANCE OF DOUBT, YOU HEREBY CONSENT TO THE COLLECTION, PROCESSING, TRANSFER AND USE OF YOUR PERSONAL INFORMATION. YOU ALSO ACKNOWLEDGE AND CONFIRM THAT YOU ARE NOT REQUIRED TO PROVIDE US WITH YOUR PERSONAL INFORMATION AND THAT SUCH INFORMATION IS VOLUNTARILY PROVIDED TO US.
+   疑義を回避するために、ユーザーはここに、個人情報の収集、処理、転送、および使用に同意するものとします。また、ユーザーが Orbs に個人情報を提供する場面はなく、いかなる時も任意で提供されるものとします。
 
-2. ##### Which information we may collect on our Users?
+2. ##### ユーザーに関して収集する可能性のある情報は何ですか？
 
-   ###### We may collect two types of data and information from our Users:
+   ###### ユーザーから 2 種類のデータと情報を収集する場合があります。
 
-   1. Non-identifiable and anonymous information (“Non-personal Information”). We are not aware of the identity of the User from whom we have collected the Non-personal Information. Non-Personal Information is any unconcealed information which does not enable identification of an individual User, and which is available to us while such User is entering into and/or using the Site. Non-personal Information which is being gathered consists of technical information, behavioral information and aggregated information, and may contain, among other things, the activity of the User on the Site, type of operating system, User’s ‘click-stream’ or searches on the Site, type and version of browser, keyboard language, screen resolution, etc.
-   2. Personally identifiable information (“Personal Information”). This information may identify an individual or may be of a private and/or **sensitive nature.**
+   1. 識別不可能で匿名の情報（「非個人情報」）。Orbs が収集する非個人情報は、ユーザーの身元を特定することはできません。非個人情報とは、個々のユーザーを特定できない情報のことをいい、ユーザーがサイトにアクセスしたり、サイトを使用したりする際に利用されます。収集される非個人情報は、技術情報、行動情報、および集約情報で構成され、特に、サイトでのユーザーのアクティビティ、オペレーティングシステムの種類、「クリックストリーム」、サイト上の検索、ブラウザの種類とバージョン、キーボードの言語、画面の解像度などが含まれる場合があります。
+   2. 個人を特定できる情報（「個人情報」）。本情報は、個人を特定する場合もあれば、個人情報や**機密情報**の場合もあります。
 
-      - Users of the Site automatically provide their IP address mainly for enhancing the User’s experience and for geo-location and security purposes as further detailed below.
+      - サイトのユーザーは、主にユーザーエクスペリエンスを向上させるため、位置情報とセキュリティの目的で、以下でさらに詳しく説明するように、IP アドレスを自動的に送信します。
 
-      - In addition, Personal Information which is being gathered consists of any personal details provided consciously and voluntarily by the User:
+      - さらに、収集される個人情報については、ユーザーが意識的かつ任意で提供したものとなります。
 
-        - The Personal Information is collected from the details the Users provide in any contact, subscription or registration form which may be available on the Site, which may include, inter alia, the User’s name, country, company/organization name, the User’s position in the company/organization, his/her e-mail address and telephone number. Once your contact details are received by us, our representatives may contact you for further communication. Our representative may collect additional Personal Information from you.For avoidance of doubt, any Non-Personal Information connected or linked to any Personal Information shall be deemed as Personal Information as long as such connection or linkage exists. **We do not collect any Personal Information from you or related to you without your approval, which is obtained, inter alia, through your active acceptance to the TOU and the Privacy Policy.**
+        - 個人情報は、ユーザーがサイトで利用できる連絡先、サブスクリプション、または登録フォームで提供する詳細から収集されます。これには、とりわけ、ユーザーの名前、所在国、会社/組織名、役職、会社/組織、電子メールアドレスおよび電話番号が含まれる場合があります。連絡先の提出があった際、私たちから連絡をする可能性があります。Orbs の担当者は、ユーザーから追加の個人情報を収集する場合があります。誤解を避けるために、個人情報に接続またはリンクされている非個人情報は、そのような接続またはリンクが存在する限り、個人情報と見なされます。 **私たちはユーザーの許可なく個人情報を収集することは一切ございません。これは、とりわけ、TOU とプライバシーポリシーへの積極的な同意を通じて取得されます。**
 
-3. ##### How Do We Collect Information on Our Users?
+3. ##### ユーザーに関する情報をどのように収集しますか？
 
-   ###### There are a few methods that we use:
+   ###### 使用する方法はいくつかあります。
 
-   1. **We collect information through your entry and use of the Site.** In other words, when you are using the Site we are aware of it and may gather, collect and store the information relating to such usage.
+   1. **私たちはユーザーがサイトへアクセスした際の利用情報を収集します。**言い換えれば、あなたがサイトを使用しているとき、私たちはそれを確認し、利用に関連する情報を収集、そして保存することがあります。
 
-   2. **We collect information which you decide to provide us voluntarily.** For example, we collect Personal Information when you fill in any contact, subscription or registration forms available on the Site.
+   2. **私たちはユーザーが任意で提供した情報を収集します。**例えば、サイトから入力された連絡先、サブスクリプション、または登録フォームに含まれる個人情報が対象となります。
 
-      We may gather, collect and store such information either independently or through the help of our authorized third-party service providers as detailed below.
+      当社は、以下に詳述するように、外部の認定された第三者のサービスプロバイダーを介して、そのような情報を収集および保存する場合があります。
 
-4. ##### What are the Purposes of the Collection of Information?
+4. ##### 情報収集の目的は何ですか？
 
-   Non-personal Information is collected in order to:
+   非個人情報は、次の目的で収集されます。
 
-   - Use it for statistical and research purposes and for customization and improvement of our Site and services.
+   - 統計および調査の目的です。また Orbs のサイトおよびサービスの改善のために使用します。
 
-   - Enhance the User’s experience while using the Site.
+   - サイトの利用中のユーザーエクスペリエンスを向上させます。
 
-   Personal Information is collected in order to:
-   Respond to your inquiry.
+   個人情報は、次の目的で収集されます。
 
-   - Provide the Users with commercial materials, updates about Orbs’ developments, new offerings, news regarding the Site and platform, etc.
+   - ユーザーからのお問い合わせに適切に回答できるようにします。
 
-   - Be able to contact Users for marketing and sales purposes.
+   - ユーザーにビジネス上の資料、Orbs の開発に関する最新情報、新サービス、サイトとプラットフォームに関するニュースなどを提供します。
 
-   - To conduct online surveys to better understand your business needs and how we can improve our products, services and platform.
+   - マーケティングおよびセールスの目的でユーザーにコンタクトできるようにします。
 
-   - Provide Users with updated information regarding our products, services and platform.
+   - オンライン調査を実施して、ユーザーのビジネスニーズと、製品、サービス、およびプラットフォームを改善する方法を探ることがあります。
 
-   - Be able to contact Users for the purpose of providing them with technical assistance.
+   - Orbs の製品、サービス、およびプラットフォームに関する最新情報をユーザーに提供します。
 
-   - Determine general geolocation information (i.e., country) from which the User’s computer is connected to the Internet in order for us to know the general location of our Site’s Users as well as in order to safeguard our Site.
+   - 迅速に技術的サポートをする目的でユーザーに連絡できるようにします。
 
-5. ##### Sharing Information with Third Parties
-   **Orbs will not share any Personal Information it collects with any third party, other than in the following circumstances:** (a) to satisfy any applicable law, regulation, legal process, subpoena or governmental request; (b) to enforce this Privacy Policy and/or the TOU, including investigation of potential violations thereof; (c) to detect, prevent, or otherwise address fraud, security or technical issues; (d) to respond to claims that contact information (e.g. name, e-mail address, etc.) of a third-party has been posted or transmitted without their consent or as a form of harassment; (e) to protect the rights, property, or personal safety of Orbs, its Users or the general public; (f) by virtue of undergoing any change in control, including by means of merger, acquisition or purchase of all or substantially all of the assets of Orbs, so long as such acquirer maintains the same privacy terms hereunder; or (g) pursuant to your explicit approval prior to the disclosure.
+   - ユーザーのコンピューターがインターネットに接続されている一般的な位置情報（国など）を特定して、ユーザーの場所を把握すると共に、サイトを保護することにも使います。
 
-Note, that we collect, hold and/or manage Personal Information through Orbs’ authorized third parties vendors of certain products or services (such as, hosting cloud services) (including, as applicable, their affiliates) solely and limited to providing us with such requested services, and not for any other purposes. Such vendors may be located in a country that does not have the same data protection laws as your jurisdiction.
+5. ##### 第三者との情報の共有
+   **Orbs は、以下の状況を除き、収集した個人情報を第三者と共有することはありません。**（a）適用される法律、規制、法的手続き、召喚状、または政府の要求に応じるため。 （b）本プライバシーポリシーおよび/または TOU の潜在的違反性を調査するため。 （c）詐欺、セキュリティ、または技術的な問題を検出、防止、またはその他の方法で対処するため。 （d）第三者の連絡先情報（名前、電子メールアドレスなど）が、第三者の同意なしに、または嫌がらせの形で投稿または送信されたという申し立てに対応するため。 （e）Orbs、そのユーザー、または一般の人々の権利、財産、または個人の安全を保護するため。 （f）合併、買収、または Orbs 資産の譲渡、支配権の移動が発生した際に、取得者が本契約に基づくプライバシー条件を同程度維持するため。または（g）開示前の明示的な承認に従うため。
 
-For avoidance of doubt, Orbs may use **Non-personal Information** and transfer and disclose it to third parties at its discretion.
+Orbs は、特定の製品またはサービス（クラウドサービスのホスティングなど）（該当する場合はその関連会社を含む）において、認定第三者ベンダーを通じて個人情報を収集、保持、および/または管理することがあります。これは特定のサービスを目的としたもので、それ以外の目的に利用されることは一切ありません。本ようなベンダーが、ユーザーの地域と同程度のデータ保護法がない国に所在している場合があります。
 
-6. ##### Deletion or Modification of Personal Information
-   In any event, if for any reason you (or any person) wish to delete or modify Personal Information, please send us an e-mail with adequate detail of your request to: [hello@orbs.com](hello@orbs.com "email") and we will make reasonable efforts to modify or delete any such Personal Information pursuant to any applicable privacy laws. Note that unless otherwise explicitly specified herein and/or unless you instruct us otherwise we may retain your Personal Information for as long as reasonably required for the purposes of which such Personal Information was collected, all as permitted under any applicable privacy laws.
+誤解を避けるために、Orbs は**非個人情報**を使用し、その裁量で第三者に転送および開示する場合があります。
 
-Aggregated and/or anonymous information derived from your use of the Site may remain on our servers indefinitely.
+6. ##### 個人情報の削除または変更
+   いずれにせよ、何らかの理由であなた（または誰か）が個人情報を削除または変更したい場合は、適切な詳細を記載した依頼メールを[hello@orbs.com]（hello@orbs.com）に送信してください。 「電子メール」）および適用されるプライバシー法に従って、そのような個人情報を変更または削除するために合理的な努力をします。本書で明示的に指定されていない限り、および/またはユーザーが別途指示しない限り、適用されるプライバシー法で許可されているすべての目的で、かかる個人情報が収集された目的で合理的に必要な限り、ユーザーの個人情報を保持する場合があります。
 
-7. ##### Minors
+ユーザーによる本サイトの使用から得られた集約および/または匿名の情報は、当社のサーバーに無期限に残る場合があります。
 
-   The Site is intended for Users over the age of eighteen (18). Therefore, Orbs does not intend and does not knowingly collect Personal Information from children under this age. We reserve the right to request proof of age at any stage so that we can verify that minors under this age are not using the Site.
+7. ##### 未成年者
 
-8. ##### Security
+   本サイトは 18 歳以上のユーザーを対象としています。したがって、Orbs は、本年齢未満の子供から個人情報を収集することを意図せず、故意に収集することはありません。Orbs は、本年齢未満の未成年者がサイトを使用していないことを確認できるように、いつでも年齢の証明を要求する権利を留保します。 Personal Information is collected in order to:
 
-   We take reasonable measures to maintain the security and integrity of our Site and prevent unauthorized access to it or use thereof through generally accepted industry standard technologies and internal procedures. The Personal Information is hosted on the Strattic servers which provide advanced strict security standards (both physical and logical). In addition we employ highly secure services design and implementation using encryption and architectures mechanisms. Please note, however, that there are inherent risks in transmission of information over the Internet or other methods of electronic storage and we cannot guarantee that unauthorized access or use will never occur. ORBS SHALL NOT BE RESPONSIBLE OR LIABLE FOR UNAUTHORIZED ACCESS, HACKING, OR OTHER SECURITY INTRUSIONS OR FAILURE TO STORE OR THE THEFT, DELETION, CORRUPTION, DESTRUCTION, DAMAGE, OR LOSS OF ANY DATA OR INFORMATION.
+8. ##### 情報セキュリティ
 
-9. ##### Third Party Service Providers
+   当社は、当サイトの情報セキュリティと誠実性を維持し、一般に認められている業界標準の技術と内部手順を通じて、当サイトへの不正アクセスまたはその使用を防止するための合理的な措置を講じています。個人情報は、高度な厳格なセキュリティ標準（物理的および論理的の両方）を提供する Strattic サーバーで管理されます。さらに、暗号化とアーキテクチャのメカニズムを使用して、安全性の高いサービスの設計と実装を採用しています。ただし、インターネットやその他の電子ストレージを介した情報の送信には固有のリスクがあり、不正なアクセスや使用が発生しないことを保証することはできませんのでご注意ください。Orbs は、不正アクセス、ハッキング、その他のセキュリティ上の問題、またはデータや情報の保存、盗難、削除、破損、破壊、損傷、損失についていかなる責任も負わないものとします。
 
-   While using the Site we may be using third party service providers, who may collect, store and/or process the information detailed herein. Orbs uses commercially reasonable efforts to engage with third parties that post a privacy policy governing their collection, processing and use of non-personal and personal information.
+9. ##### 第三者サービスプロバイダー
 
-10. ##### Cookies and Other Tracking Technologies.
+   本サイトを使用している間、本書に詳述されている情報を収集、保存、および/または処理する可能性のある第三者のサービスプロバイダーを使用している場合があります。Orbs は、商業的に合理的な努力を払って、非個人情報および個人情報の収集、処理、および使用を管理するプライバシーポリシーを掲載する第三者機関とのみ連携します。
 
-    When you access or use the Site, we or our third party service providers may use industry-wide technologies such as “**cookies**” or other similar technologies which store certain information on your computer or device (“Cookies”), which will allow us to enable automatic activation of certain features and make your experience much more convenient and effortless. We or our authorized third party service providers may use both session cookies (which expire once you close the Site) and persistent cookies (which stay on your system until you delete them). It is easy to disable or delete Cookies. Most browsers will allow you to erase cookies from your computer’s hard drive, block acceptance of cookies, or receive a warning before a cookie is stored. However, if you disable or erase cookies, your online experience may be limited. Cookies usually store only a Non-personal Information, such as the web pages you have visited, the duration of your browsing, etc. Orbs does not control such third party service providers.
+10. ##### Cookie およびその他の追跡技術
 
-11. ##### International Data Transfer
+    ユーザーが本サイトにアクセスまたは利用する場合、Orbs またはその第三者サービスプロバイダーは、業界で一般的に利用されている「Cookies」または、ユーザーのコンピューターやデバイスに特定の情報を保存する他の同様の技術「**Cookies**」を使用する場合があります。そうすることにより特定の機能の自動アクティブ化を有効にし、ユーザー体験をより便利なものにすることができます。Orbs またはその第三者サービスプロバイダーは、セッション Cookie（サイトを閉じると期限切れになる）と永続 Cookie（削除するまでシステムに残る）の両方を使用する場合があります。 Cookie を無効にしたり削除したりするのは簡単です。ほとんどのブラウザでは、コンピュータのハードドライブから Cookie を消去したり、Cookie の受け入れをブロックしたり、Cookie が保存される前に警告を受け取ったりすることができます。ただし、Cookie を無効にするか消去すると、オンラインエクスペリエンスが制限される場合があります。 Cookie は通常、アクセスした Web ページ、閲覧時間などの非個人情報のみを保存します。Orbs はそのような第三者サービスプロバイダーを管理はしていません。
 
-    In order to provide the Site, we may transfer information collected about you, including Personal Information, to affiliated entities, or to other third party service provides (as provided herein) across borders and from your country or jurisdiction to other countries or jurisdictions around the world. Please note that we may transfer such information to a country and jurisdiction that does not have the same data protection laws as your jurisdiction, and you consent to such transfer of information.
+11. ##### 国際データ転送
 
-12. ##### Direct Marketing
+    本サイトを提供するために、個人情報を含むユーザーに関して収集された情報を、関連会社、または国境を越えて、ユーザーの国または地域から他の国または地域に提供する他の第三者サービスに転送する場合があります。Orbs は、ユーザーの地域と同等のデータ保護法を持たない国および地域にそのような情報を転送する場合があり、ユーザーはそのような情報の転送に同意します。
 
-    You hereby agree that we may use your contact details you provided us with (including, without limitation, e-mail address and phone number) for the purpose of providing you commercial and/or non-commercial materials related to our current and/or future products, services and platform. You may withdraw your consent by sending a written notice to Orbs’ e-mail address that appears in the Site or alternatively follow the instructions for removing yourself from the mailing list which are available in the message transmitted to you.
+12. ##### ダイレクトマーケティング
 
-13. ##### Changes to the Privacy Policy
+    ユーザーは、Orbs の現在および/または将来に関連する商用および/または非商用の資料を提供する目的で、ユーザーから提供された連絡先の詳細（電子メールアドレスおよび電話番号を含むがこれらに限定されない）を使用する場合があることに同意します。製品、サービス、プラットフォーム。サイトに表示されている Orbs の電子メールアドレスに書面で通知を送信するか、送信されたメッセージに記載されているメーリングリストから自身を削除する手続きをすることにより、同意を取り消すことができます。
 
-    The terms of this Privacy Policy will govern the use of the Site and any information collected therein. Orbs reserves the right to change this policy at any time, so please re-visit this page frequently. We will provide notice of substantial changes of this policy on the homepage of the Site and/or we will send you an e-mail regarding such changes to the e-mail address that you may have provided us with. Such substantial changes will take effect seven (7) days after such notice was provided on our Site or sent by e-mail, whichever is the earlier. Otherwise, all other changes to this Privacy Policy are effective as of the stated “Last Revised” date and your continued use of the Site after the Last Revised date will constitute acceptance of, and agreement to be bound by, those changes. In the event that the Terms should be amended to comply with any legal requirements, the amendments may take effect immediately, or as required by law and without any prior notice.
+13. ##### プライバシーポリシーの変更
 
-14. ##### Got any Questions?
-    If you have any questions (or comments) concerning this Privacy Policy, you are most welcome to send us an email to the following address: [hello@orbs.com](hello@orbs.com "email").
+    本プライバシーポリシーの内容は、サイトの使用およびサイトで収集される情報に適用されます。 Orbs はいつでも本ポリシーを変更する権利を留保しますので、本ページにて頻繁に確認してください。本ポリシーの大幅な変更については、サイトのホームページで通知するか、提供された可能性のある電子メールアドレスに変更された場合は電子メールを送信します。そのような大幅な変更は、そのような通知が Orbs のサイトで提供された後、または電子メールで送信された後のいずれか早い方の 7 日後に有効になります。それ以外の場合、本プライバシーポリシーに対する他のすべての変更は、記載された「最終改訂日」の時点で有効であり、最終改訂日以降もサイトを継続して使用することにより、これらの変更を受け入れ、それに拘束されることに同意したものと見なされます。法的要件に準拠するために本規約を修正する必要がある場合、修正は直ちに、または法律で義務付けられているとおりに、事前の通知なしに有効になる場合があります。
+
+14. ##### 質問がある場合
+    本プライバシーポリシーに関して質問（またはコメント）がある場合は、次のアドレスに電子メールを送信してください：[hello@orbs.com](hello@orbs.com "email")
