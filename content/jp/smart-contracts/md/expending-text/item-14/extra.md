@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The subscription plan contracts assigns a tier (plan) and the monthly fee rate based on the contract plan. Multiple subscription contracts may be deployed in the system.
+サブスクリプション・プラン・コントラクトでは、事前の契約に基づいてティア（プラン）と月額料金が割り当てます。複数のサブスクリプション・コントラクトがシステムに展開される場合があります。

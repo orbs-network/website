@@ -12,5 +12,5 @@ sections:
 sideMenuLinks:
   - md/menu/index.md
 socials:
-  - /_shared/socials/index.md
+  - /jp/_shared/socials/index.md
 ---

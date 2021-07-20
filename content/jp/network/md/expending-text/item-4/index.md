@@ -3,11 +3,11 @@ layout: partials/shared/expendable-text-box
 title: COMPLETE BLOCKCHAIN STACK
 
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The Orbs project includes a full blockchain stack designed and implemented from scratch by the core team, and is not a fork of any existing solution. The project is active on open source with about 150 repositories publicly available on Github. The codebase provides an end-to-end developer experience with everything needed to create and execute blockchain applications including:
+Orbs プロジェクトには、コアチームによってゼロから設計および実装された完全なブロックチェーン・スタックが含まれており、既存のソリューションのフォークではありません。 本プロジェクトはオープンソースであり、Github で約 150 のリポジトリが公開されています。コードベースは、次のようなブロックチェーンアプリケーションの作成と実行に必要なすべての機能を備えたエンドツーエンドの開発者エクスペリエンスを提供します。

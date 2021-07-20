@@ -1,6 +1,6 @@
 ---
 layout: partials/navbar/components/menu-links
-title: About
+title: プロジェクトについて
 links:
   - link-1.md
   - link-2.md

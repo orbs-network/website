@@ -2,5 +2,5 @@
 layout: partials/shared/simple-md
 ---
 
-The contract architecture is based on 2 levels: global allocation, committee Guardians. The feesAndBootstrapRewards collects fees from two instances of fees wallets the certificated and general virtual chains fees.
-The protocol wallets are disconnected from the PoS contracts governance and management infrastructure and are managed by two types of administrators: a functional administrator that sets the wallet’s client and a migration administrator that controls the withdrawal of funds.
+コントラクト・アーキテクチャは、グローバル割り当てと委員会ガーディアンの2つのレベルに基づいています。フィーアンドブートストラップ報酬は、認証された仮想チェーン料金と一般的な仮想チェーン料金の2つのインスタンスから料金を収集します。
+プロトコルウォレットは、PoSコントラクトのガバナンスおよび管理インフラストラクチャから切断され、ウォレットのクライアントを設定する機能管理者と資金の引き出しを制御する移行管理者の2種類の管理者によって管理されます。

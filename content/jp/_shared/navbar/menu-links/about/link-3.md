@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Orbs ecosystem](/jp/ecosystem)
+[Orbs エコシステム](/jp/ecosystem)

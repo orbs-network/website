@@ -2,12 +2,12 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: A New Rewards Assignment and Distribution Architecture
+title: 新しい報酬の割り当てと配布のアーキテクチャ
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The Guardians are the key players responsible for network security and operation. Guardians are expected to build a community of Delegators that trust them to truthfully represent their and the network’s interests.
+ガーディアンは、ネットワークのセキュリティと運用に責任を持つ重要な役割を持っています。またガーディアンは、デリゲータ・コミュニティとの信頼を構築し、ネットワークへの関心を持ってもらうための責任を果たすことが期待されています。

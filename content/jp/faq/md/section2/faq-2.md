@@ -1,11 +1,10 @@
 ---
 layout: partials/shared/opening-box
-title: How do I stake my ORBS tokens?
+title: ORBSトークンのステーキング方法を教えてください。
 color: "#1EE6CF"
 ---
 
-TETRA is Orbs’ dedicated staking wallet, from which any ORBS holder can easily stake tokens with a Guardian of their choice.
+TetraはOrbs専用のステーキング・スウォレットであり、ORBSトークンホルダは簡単に自分の選んだガーディアンにトークンをステークすることができます。
+[Tetraウォレットはこちら](https://staking.orbs.network/)
 
-[Link to Tetra wallet](https://staking.orbs.network/)
-
-You can find a comprehensive tutorial on how to use the Tetra wallet [here](tetra-orbs-staking-wallet-tutorial)
+Tetraウォレットの使い方については[こちら](Tetra-orbs-staking-wallet-tutorial)

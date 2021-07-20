@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/sub-title
 ---
 
-## THE FOLLOWING ARE THE KEY ORBS CONTRACTS DEPLOYED OVER ETHEREUM:
+## 以下は、イーサリアム上に展開される主要なOrbsコントラクトです。

@@ -1,13 +1,13 @@
 ---
 layout: partials/shared/expendable-text-box
-title: CONTRACTS MANAGEMENT AND ADMINISTRATIVE ARCHITECTURE
+title: コントラクト管理および管理アーキテクチャ
 border: true
 ---
 
-Orbs’ PoS contacts architecture is designed for future migration, including migration of individual contracts. Contracts in the PoS system that interact with other contracts store their current address in the contact storage. Upon a migration of a contract, the registry sends a push notification to all its managed contacts to update their contract list accordingly.
+OrbsのPoSコンタクト・アーキテクチャは、個々のコントラクトの移行や、将来を見越した大幅な移行のために設計されています。他のコントラクトと相互作用するPoSシステムのコントラクトは、既存のアドレスをコンタクト・ストレージに保存します。コントラクトの移行時に、レジストリはすべての管理対象のコンタクトにプッシュ通知を送信して、それに応じてコントラクト・リストを更新します。
 
-In addition to the system contracts, the contract registry stores the up-to-date managers list. To ensure synchronization, the contacts query the registry on the current relevant manager before every administrative operation. Managers are appointed by the registryAdmin, which can appoint or revoke the role of a manager.
+システム・コントラクトに加えて、コントラクト・レジストリには最新の管理者リストが保存されます。同期を確実にするために、コンタクトは、すべての管理操作の前に、現在の適切な管理者のレジストリを照会します。管理者はレジストリ・アドミンによって任命され、レジストリ・アドミンは管理者の役割を任命または取り消すことができます。
 
-The contract registry emits an update event for any contact address update as well as upon registry migration. By knowing the initial contract registry address, an application may track the up to date contracts list as well as construct an integrated event list from all the contract versions.
+コントラクト・レジストリは、レジストリの移行時だけでなく、コンタクトアドレスの更新に対しても更新イベントを発行します。アプリケーションは、初期段階のコントラクト・レジストリ・アドレスを知ることにより、最新のコントラクト・リストを追跡したり、すべてのコントラクト・バージョンから統合イベントリストを作成したりできます。
 
-An exception to contacts management by the contract registry are the protocol wallet contracts. The protocol wallet contracts have separate admins that manage their functionality and migration.
+コントラクト・レジストリによるコンタクト管理の例外は、プロトコル・ウォレット・コントラクトです。プロトコル・ウォレット・コントラクトには、機能と移行を管理する個別の管理者がいます。

@@ -2,12 +2,13 @@
 layout: partials/shared/simple-md
 ---
 
-Providing the Guardians with the ability to set the level of rewards that will be distributed to their respective Delegators tightens their relationships with their communities. Staking rewards are set by the Guardians, who determine how to split the rewards amongst their Delegators, while a minimum rate of compensation to Guardians is imposed by the protocol.
+デリゲータに分配される報酬は、ガーディアンに委ねられています。なお設定できる機能をガーディアンに提供することで、コミュニティとの関係を強化することができると思っています。ガーディアンへの報酬の最低額はプロトコルで定めており、ガーディアンは自身とデリゲータ間の分配率を設定できる仕組みです。
 
-Guardians play an important role in the reward distribution process. A new automated mechanism to set the level of rewards that will be distributed to their Delegators was enabled at the protocol level and featured as part of the updated Guardian interface. The mechanism calculates the amount of rewards that each of the Guardian’s Delegators is entitled to, based on the Delegators’ stake over time and the allocated ratio. A maximum annual reward equal to 12% of total delegated stake is awarded, addressing the tradeoff between an appealing award and sustainable inflation (see Rewards). 1⁄3 of the rewards are guaranteed to the Guardians (i.e., up to 4% annual reward maximum), while the default values for the distribution application grant the remaining 2⁄3 to Delegators (i.e., up to 8% annual reward maximum). The new automated tool allows the Guardians to modify the Delegators’ rewards split.
+ガーディアンは、報酬の分配プロセスにおいて重要な役割を果たしています。ガーディアンから委任者に分配される報酬額は、新しいメカニズムの中で、ガーディアン・インターフェースの一部として自動化されています。このメカニズムでは、ガーディアン傘下の各デリゲータのステーキング期間とその量に基づいて、報酬の量が算出されます。ステーキングを促す魅力的な報酬と持続可能なインフレとの間のトレードオフに対処するため、年間報酬は最大、委任されたステークの合計額の12％（「報酬」を参照）としています。報酬の1/3はガーディアンに保証され（すなわち、年間報酬の最大値は4％）、報酬分配アプリケーションのデフォルト値では、残りの2/3がデリゲーターに付与されます（すなわち、年間報酬の最大値は8％）。新しい自動化されたツールでは、ガーディアンがデリゲータの報酬配分を変更することができます。
 
-This optimized reward distribution architecture provides a scalable and gas-efficient reward distribution that occurs through the protocol itself. Under this system, once the level of distributions is set by the Guardians, the respective rewards are distributed by the protocol directly to both the Guardians and the Delegators, on a continuous basis. Delegators and Guardians can then decide when they wish to claim their reward tokens.
+この最適化された報酬分配アーキテクチャは、プロトコル自体を介して行われ、スケーラブルでガス効率が良い設計です。このシステムでは、ガーディアンによって分配のレベルが設定されると、それぞれの報酬がプロトコルによってガーディアンとデリゲータの両方に継続的に直接分配されます。デリゲータとガーディアンは、報酬トークンをいつ請求するかを決めることができます。
 
-This has multiple important benefits such as added flexibility to the Guardians and Delegators, who may claim the staking rewards at any point in time, significant reduction in costs for Guardians, and more.
+これには、ガーディアンとデレゲートが柔軟に対応できること、ガーディアンの費用を大幅に削減できることなど、複数の重要なメリットがあります。
 
-To learn more about our distribution mechanism, read our documentation​ on [GitHub.](https://github.com/orbs-network)
+配信の仕組みについては、[GitHub](https://github.com/orbs-network)のドキュメントをご覧ください。
+

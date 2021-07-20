@@ -2,18 +2,18 @@
 layout: partials/shared/simple-md
 ---
 
-The fees and rewards in the Orbs PoS architecture serve two important purposes. The first is compensation for operating a validator node. The second is a reward for contributing to network security by staking. The reward model is targeted to award the ones who deserve it - participants that contribute to the network operation and security.
+OrbsのPoSアーキテクチャにおける手数料と報酬には、2つの重要な目的があります。1つ目は、バリデータ・ノードを運用するための報酬です。2つ目はステーキングによるネットワークセキュリティへの貢献に対する報酬です。報酬モデルは、ネットワークの運営とセキュリティに貢献したと認められる人に報酬を支払うことを目的にしています。
 
-Operating a validator node has a cost that includes both computational resources cost and operations cost. Two forms of compensation are designed to cover these costs. First, Virtual Chain fees are paid in the form of Orbs Tokens by the network users who launch a virtual chain. The fees paid for each Virtual Chain are expected to represent the cost with a profit margin. As the network matures and runs more Virtual Chains, the cost per Virtual Chain is expected to be almost constant, representing the cost of the computational resources allocated to the Virtual Chain.This suggests a scalable solution, as the Guardians’ profit increases as the usage increases.
+バリデータ・ノードの運用には、計算量にかかる費用と運用費用の両方がかかります。これらの費用をカバーするために、2種類の報酬が用意されている。まず、仮想・チェーンの手数料は、仮想・チェーンを立ち上げたネットワーク・ユーザーによってORBSトークンで支払われます。各仮想チェーンに支払われる料金は、費用に利益率を加えたものになると考えられます。ネットワークが成熟し、より多くの仮想チェーンが運営されるようになると、仮想チェーンごとの費用はほぼ一定になると予想され、これは仮想チェーンに割り当てられた計算資源費用を表しています。これは、使用量の増加に伴い、ガーディアンの利益が増加するため、スケーラブルなソリューションであることを示唆しています。
 
-In order to incentivize Guardians to participate in the Certified committee by covering their costs, we included an additional bootstrap fund for Guardians who join the Certified committee. This fund is distributed in DAI, pegged to USD, popular in many DeFi applications. It provides profitability even if the token value fluctuates. Furthermore the fund is designed to cover the cost of operating a validator node while running a small number of Virtual Chains during the network early stages. This is important as it provides developers with the ease of mind that the network will continue to operate even under unexpected price fluctuations.
+認証委員会への参加を促すために、認証委員会に参加するガーディアンには追加のブートストラップ基金を用意しました。この資金は、多くのDeFiアプリケーションで人気のあるUSDにペッグされたDAIで分配されます。これにより、トークンの価値が変動しても利益を得ることができます。さらに、このファンドは、ネットワークの初期段階において、少数の仮想チェーンを運用しながらバリデータノードを運用するための費用をカバーするように設計されています。これは、予想外の価格変動があっても、ネットワークが継続して運営されるという安心感を開発者に提供するために重要なことです。
 
-A Guardian that operates a validator node and goes through the certification process to participate in the Certified committee will be entitled to receive the annual total of 3000 DAI. This fund provides an incentive for Guardians to participate in the Certified committee, thus increasing the participating stake in this committee and making the network more attractive to app users, while covering the reduced cost of operation as further described in the next episode.
+バリデータノードを運用し、認証委員会に参加するための認証プロセスを経たガーディアンは、年間合計で3000DAIを受け取る権利があります。この基金は、ガーディアンが認証委員会に参加するインセンティブとなるため、この委員会への参加比率を高め、アプリユーザーにとってネットワークをより魅力的なものにするとともに、次のエピソードでさらに説明するように、削減された運営費用をカバーすることができます。
 
-Virtual Chain fees and the bootstrap fund are awarded for the operation of validator nodes by Guardians. Therefore, unlike staking rewards, the fees and the bootstrap fund are distributed directly to the Guardians operating the validator nodes. The fees and the bootstrap fund are not staked or shared with the Delegators, allowing the Guardians to utilize them to cover their costs. The fees and the bootstrap fund are awarded for the time period that a Guardian participates in the applicable committee. Once awarded, the rewards can be claimed by the Guardian at any time.
+仮想チェーンの手数料とブートストラップ基金は、ガーディアンがバリデータノードを運用することで得られます。したがって、ステーキング報酬とは異なり、手数料とブートストラップ基金はバリデータノードを運用するガーディアンに直接分配されます。手数料とブートストラップ基金はステーキングされず、デジゲータにも共有されないため、ガーディアンはその費用をカバーするために特化して利用することができます。手数料とブートストラップ基金は、ガーディアンが認定委員会に参加している期間中与えられます。本報酬は、ガーディアンがいつでも請求することができます。
 
-Staking rewards are awarded for the stake that elected Guardians and their Delegators allocate to contribute to the network security. It is important to note that **​Only the top 22 elected Guardians are eligible for the rewards, fees and bootstrap funds.**
+ステーキング報酬は、選出されたガーディアンとそのデリゲータがネットワークセキュリティに貢献するために配分したステークに対して与えられます。なお、報酬、手数料、ブートストラップ基金を受け取ることができるのは、**​選出された上位22名のガーディアンに限られています。**​
 
-A maximum annual reward equal to 12% of total delegated stake is awarded, addressing the tradeoff between an appealing award and sustainable inflation. 1⁄3 of the rewards are guaranteed to the Guardians (i.e., up to 4% annual reward maximum), while the default values for the distribution application grant the remaining 2⁄3 to Delegators (i.e., up to 8% annual reward maximum).
+年間報酬の最大値は、委任されたステーキング合計量の12%に相当し、魅力的な報酬と持続的なインフレとの間のトレードオフに対応しています。報酬の1⁄3はガーディアンに（つまり、年間報酬の最大値は4％）、分配アプリケーションのデフォルト値では、残りの2⁄3をデリゲータに（つまり、年間報酬の最大値は8％）付与されます。
 
-The staking reward is capped at 80M ORBS annually. If a larger percentage of ORBS token holders participates, this reward will be allocated pro-rata according to the Guardians’ effective delegated stake. Rewards are calculated continuously based on the effective delegated stake in each time period.
+ステーキング報酬は、年間80M ORBSを上限とします。ORBSトークン保有者のより多くの割合が参加した場合、この報酬はガーディアンに委任された有効なステーキング量に応じて均等に配分されます。報酬は、各期間の有効な委任されたステーキングに基づいて継続的に計算されます。

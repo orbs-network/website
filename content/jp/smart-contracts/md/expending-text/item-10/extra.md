@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The two fees wallets client, the feesAndBootstrapRewards, collect the paid fees for the time period since the last collect.
+2つの料金ウォレットクライアントであるフィーアンドブートストラップ報酬は、前回の支払いから今回の支払いまでの支払い済み料金を収集します。

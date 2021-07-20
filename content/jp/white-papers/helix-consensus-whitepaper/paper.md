@@ -1,15 +1,15 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Helix Consensus White Paper
-readPaperBtn: read the paper
-date: April 2018
-url: white-papers/helix-consensus-whitepaper
-button: Preview Paper
-published: "Published"
+title: Helixコンセンサス・ホワイトペーパー
+readPaperBtn: ペーパーを読む
+date: 2018年4月
+url: /jp/white-papers/helix-consensus-whitepaper
+button: ペーパーのプレビュー
+published: "公開"
 
 image: /assets/img/white-papers/helix-consensus-whitepaper.png
 ---
 
-An introduction to Helix, a decentralized, scalable and fair consensus algorithm.
+分散型でスケーラブルで公正なコンセンサス・アルゴリズムである Helix の紹介。
 
-\*A concise version of this paper is now in proceedings of the 26th IEEE International Conference on Network Protocols (ICNP ’18). For citations, please refer to the official IEEE page at [https://ieeexplore.ieee.org/document/8526804](https://ieeexplore.ieee.org/document/8526804 "link")
+\*このペーパーの簡潔なバージョンは、第 26 回 IEEE International Conference on Network Protocols（ICNP ’18）の提出物にあります。引用は、IEEE の公式ページ[https://ieeexplore.ieee.org/document/8526804]（https://ieeexplore.ieee.org/document/8526804 "リンク"）をご参照してください。

@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: Subscription plan
+title: サブスクリプション・プラン
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The [subscription plan contract](https://etherscan.io/0xD11EFC10cf3A54B12e3F04143070BE3865E7Bb8E) is a stateless contract, responsible for the plan and fee structure of a virtual chain subscription. Virtual chain owners call the subscription plan contract to create a virtual chain and extend its subscription.
+サブスクリプション・プラン・コントラクトはステートレス・コントラクトであり、仮想チェーン・サブスクリプションのプランと料金体系を担当します。仮想チェーンの所有者は、サブスクリプション・プラン・コントラクトを呼び出して、仮想チェーンを作成し、そのサブスクリプションを継続します。

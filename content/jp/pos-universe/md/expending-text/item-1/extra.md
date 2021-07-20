@@ -2,8 +2,8 @@
 layout: partials/shared/simple-md
 ---
 
-Direct communication with the Validators, along with a mandatory minimal technical due-diligence process, enabled a stable network for applications, while the permissionless Guardian role allowed the PoS ecosystem to flourish.
+最低限の必須技術デューデリジェンスの中で、バリデータとの直接コミュニケーションをとることで、アプリケーションにとって安定したネットワークを実現し、且つパーミッションレスのガーディアンの役割を最大限引き出すことができました。
 
-Orbs Guardians represent the Orbs community; they maintain the security of the network and they invest time and efforts in the network success. As the most significant stakeholders in the network, they are most suitable to provide applications developers the required security and availability.
+Orbsのガーディアンは、Orbsコミュニティを代表して時間と労力を費やし、ネットワークの成功の鍵である安全性を維持する役割を担っています。ネットワークの最も重要なステークホルダーである彼らは、アプリケーション開発者に必要なセキュリティと可用性を提供する立場にあります。
 
-The Orbs Universe provides community members that are not constantly active an opportunity to contribute to the network by delegating their stake to Guardians. Therefore, when a Guardian operates a validator node and signs a block, it is backed not just by the Guardian’s own stake, but also by the stake delegated to him. The delegated stake significantly increases the amount of stake that backs the network security and therefore increases applications' trust in its operation. Moreover, the delegated stake plays an important role in preventing network attacks. An attacker that wishes to gain control of the network for a short period of time and act maliciously will need to possess more stake than the current network Guardians and their community in order to be elected.
+Orbsユニバースでは、日常的な業務としての関わりを持たずともOrbsに貢献できる方法として、コミュニティメンバーがガーディアンにステークを委ねる機会を提供しています。そのためガーディアンは、バリデータノードを操作してブロックに署名する際には、ガーディアン自身のステークだけではなく、ガーディアンに委任されたステークによってもバックアップされます。委任されたステークは、ネットワークのセキュリティの担保にもなり、多くステーキングされることにより、アプリケーションの運用に対する信頼性を高めます。さらに、委任されたステークは、ネットワーク攻撃の防止にも重要な役割を果たします。ネットワークの乗っ取りを図る悪意のある攻撃者が現れた場合、短期間で、既存のガーディアンとそのコミュニティよりも多くのステークを保有する必要があります。

@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The staking rewards contract is updated upon two events: an update to a delegator’s stake and a change in a Guardian’s committee membership. A participant may claim his staking rewards that are staked in the staking contract and the system state is updated accordingly. The staking withdraws funds from the stakingRewardsWallet holds tokens up to the total unclaimed amount for all participants.
+ステーキング報酬コントラクトは、デリゲータのステークの更新とガーディアンの委員会メンバーの変更という2つのイベントで更新します。参加者は、ステーキング・コントラクトで得られたステーキング報酬を請求することができ、それに応じてシステム状態が更新されます。ステーキングは、ステーキング報酬ウォレットから資金を引き出し、すべての参加者の未請求額と同等のトークン数を保持します。

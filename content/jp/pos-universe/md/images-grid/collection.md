@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/images-grid/images-grid
 imagesPerLine: 3
-title: "Below are some of the main key features of Orbs PoS Universe:"
+title: "以下は、OrbsのPoSユニバースの主な機能:"
 images:
   - item-1.md
   - item-2.md

@@ -2,14 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: Election Committee
+title: 選挙委員会
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-Orbs’ architecture deploys a hybrid model of two committees: General and Certified.
-This innovative two-committee approach is introduced to address developers’ needs and reduce their barrier of entry, while maintaining an open and permissionless PoS ecosystem.
+Orbs のアーキテクチャは、2 つの委員会のハイブリッドモデルを展開しています：一般と認定。この革新的な 2 つの委員会によるアプローチは、オープンでパーミッションレスな PoS エコシステムを維持しつつ、開発者のニーズに応え、参入障壁を下げるために導入されました。

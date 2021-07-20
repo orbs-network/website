@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /jp/white-papers
 linkName: White Papers
-title: Rational Threshold Cryptosystems
+title: 合理的なしきい値の暗号システム
 ---

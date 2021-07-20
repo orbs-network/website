@@ -2,11 +2,11 @@
 layout: partials/shared/simple-md
 ---
 
-Below is a list of the the key improvements in terms of efficiency and cost reduction:
+ここでは、効率化と費用削減の観点から、主な改善点をご紹介します。
 
-- Operation cost is significantly reduced
-- For AWS-deployed nodes: a base infrastructure monthly cost reduction, with options to reduce the cost further by reserving resources in advance.
-- An elastic architecture that leverages cloud architectures and enables compute and storage resources allocation as needed for the network use.
-- Transition to EFS/NFS-based block storage architecture, significantly reducing the storage cost and providing more flexible resource sharing among Virtual Chains, while maintaining the Virtual Chains isolation.
-- Utilizing light Ethereum client architecture to reduce the cost of the Ethereum service operation.
-- Automatic and simple node setup, with enhanced logging and monitoring tools for reduced operations overhead.
+- 運用費用を大幅に削減
+- AWSでデプロイされたノードの場合：ベースインフラの月額費用を削減することがで きます。また事前にリソースを予約することでさらなる費用削減が可能
+- クラウドアーキテクチャを活用し、ネットワークの使用に必要なコンピューティング・リソースとストレージリソースの割り当てを可能にする融通性があるアーキテクチャ
+- EFS/NFSベースのブロックストレージ・アーキテクチャに移行し、ストレージ費用を大幅に削減するとともに、仮想チェーンの分離を維持しつつ、仮想チェーン間でより柔軟なリソースの共有を実現
+- ライトなイーサリアムクライアント・アーキテクチャの活用により、イーサリアムサービスの運用費用を削減
+- 自動かつシンプルなノード設定と、強化されたロギングおよびモニタリングツールにより、運用のオーバーヘッドを削減

@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-Virtual chain creation and subscription extension are not done by directly interacting with the subscriptions contract but rather by calling the subscription plan contract that updates the subscriptions contract. The subscriptions contact holds a list of valid subscription plan contracts.
+仮想チェーンの作成とサブスクリプションの拡張は、サブスクリプション・コントラクトと直接対話することによってではなく、サブスクリプション・コントラクトを更新するサブスクリプション・プラン・コントラクトを呼び出すことによって行われます。サブスクリプションのコンタクトは、有効なサブスクリプション・プラン・コントラクトのリストを保持しています。

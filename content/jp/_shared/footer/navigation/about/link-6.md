@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Hexa foundation](https://www.hexa.org)
+[Hexa財団](https://www.hexa.org)

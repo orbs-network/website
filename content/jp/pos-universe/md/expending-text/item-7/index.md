@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: Minimum Self Delegation
+title: 最低限の自己ステーキング要件
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-Guardians are responsible for operating the validator nodes, maintaining the security of the network and upholding its long term vision. As such, Guardians are required to gain the trust of both the Delegators and the developers that rely on the network with their applications.
+ガーディアンは、バリデータ・ノードの運用、ネットワークのセキュリティ維持、および長期 的なビジョンの共有を担当します。そのため、ガーディアンは、デリゲータとビジネスアプリ ケーションでネットワークに依存する企業の両方の信頼を獲得する必要があります。

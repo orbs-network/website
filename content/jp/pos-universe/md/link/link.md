@@ -4,4 +4,4 @@ url: white-papers/orbs-pos-v2-the-age-of-guardians/
 right: true
 ---
 
-Orbs V2.5 Update documentation
+OrbsのV2.5アップデート資料

@@ -1,12 +1,12 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Accelerating Decentralized Execution of Blockchain
-readPaperBtn: read the paper
+title: ブロックチェーンの分散化の実行を加速
+readPaperBtn: ペーパーを読む
 date: August 2018
-url: white-papers/accelerating-decentralized-execution-of-blockchain
-button: Preview Paper
+url: /jp/white-papers/accelerating-decentralized-execution-of-blockchain
+button: ペーパーのプレビュー
 published: "Published"
 image: /assets/img/white-papers/accelerating-decentralized-execution-of-blockchain.png
 ---
 
-To allow scalability, we suggest a decentralized execution model in which network nodes interact with a stronger accelerator.
+スケーラビリティを可能にするために、ネットワーク・ノードがより強力なアクセラレータと相互作用する分散実行モデルを提案します。

@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Team](/jp/team)
+[チーム](/jp/team)
