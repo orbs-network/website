@@ -2,5 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-On a request to join the committee, the committee member checks that the candidate is qualified to join. If the candidate’s weight is higher than the committee member with the lowest weight, the candidate will join the committee instead of the minimal weight Guardian.
-Upon a change in the committee members list or their certification, the contact notifies the stakingRewards and FeesAndBootstrap contracts on the leaving and joining members to update their rewards state.
+委員会への参加要請に応じて、委員会のメンバーは候補者が参加する資格があることを確認します。候補者のウエイトが最もウエイトの少ない委員会のメンバーよりも高い場合、候補者は最小ウエイトのガーディアンに代わり委員会に参加します。委員会のメンバーリストまたはその認定が変更されると、連絡先は、退会および参加メンバーのステーキング・リワードおよびフィーアンドブートストラップ・コントラクトに通知して、報酬の状態を更新します。

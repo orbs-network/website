@@ -3,4 +3,4 @@ layout: partials/shared/images-grid/image-grid
 image: /assets/img/pos-universe/half-globe.svg
 ---
 
-Validator Nodes Streamlining
+バリデータ・ノードの合理化

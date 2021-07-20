@@ -3,4 +3,4 @@ layout: partials/shared/images-grid/image-grid
 image: /assets/img/pos-universe/arrows.svg
 ---
 
-Election Committees
+選挙委員会

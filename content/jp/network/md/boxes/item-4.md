@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/spiral.svg
 ---
 
-##### SMART CONTRACTS IN ANY LANGUAGE
+##### あらゆる言語に対応したスマートコントラクト
 
-Orbs pioneers the paradigm of smart contracts as a library in any language, like Go and JavaScript, instead of dedicated languages like Solidity. This flexibility allows existing teams to transition to blockchain development and existing tools and libraries to be reused. Smart contracts are deployed on-chain as source code, making them easier to read and thus safer, and compiled locally on-demand by validators. Implementation challenges include efficient sandboxing and dealing with non deterministic outputs that cannot undergo consensus.
+Orbsは、Solidityのような専用言語ではなく、GoやJavaScriptなどの一般的な言語でスマートコントラクトが構築されえおり、開発者にとっての使いやすさを追求しています。この柔軟性により、開発者はブロックチェーン開発に移行する際、既存のツールとライブラリを再利用できます。スマートコントラクトはソースコードとしてオンチェーンで展開されるため、読みやすく安全になり、バリデータによってオンデマンドでローカルにコンパイルされます。実装の課題には、効率的なサンドボックス化と、コンセンサスを得ることができない非決定論的な出力の処理が含まれます。

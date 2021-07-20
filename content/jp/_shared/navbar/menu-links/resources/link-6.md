@@ -1,8 +1,8 @@
 ---
 layout: partials/navbar/components/menu-resources-link
-title: Community Console
+title: コミュニティ・コンソール
 url: https://orbs.flipsidecrypto.com/
 image: assets/img/navbar/menu/vc.svg
 ---
 
-On-chain metrics
+オンチェーンのメトリックス

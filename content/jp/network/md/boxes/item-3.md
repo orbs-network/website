@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/box-3.svg
 ---
 
-##### INFINITE HORIZONTAL SCALABILITY
+##### 無限の水平スケーラビリティ
 
-The parallel and concurrent operation of different virtual chains results in virtual separation, as smart contracts are likely to interact mostly with smart contracts deployed on the same virtual chain. When a new virtual chain is created, Orbs validators dynamically allocate more resources for its execution (eg. instantiate a new AWS machine in the node cluster) allowing for a virtually limitless number of virtual chains to run on the network in parallel.
+スマートコントラクトは、同じ仮想チェーンにデプロイされたスマートコントラクトと主に相互作用する可能性が高いため、異なる仮想チェーンの並列および同時操作により、仮想分離が発生します。新しい仮想チェーンが作成されると、Orbsバリデータはその実行のためにより多くのリソースを動的に割り当て（たとえば、ノードクラスタで新しいAWSマシンをインスタンス化する）、事実上無制限の数の仮想チェーンをネットワーク上で並行して実行できるようにします。

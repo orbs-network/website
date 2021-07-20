@@ -1,13 +1,13 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs Technology Overview
-readPaperBtn: read the paper
-date: May 2019
-url: white-papers/orbs-technology-overview-2
-button: Preview Paper
-published: "Published"
+title: Orbsテクノロジー概要
+readPaperBtn: ペーパーを読む
+date: 2019年5月
+url: /jp/white-papers/orbs-technology-overview-2
+button: ペーパーのプレビュー
+published: "公開"
 
 image: /assets/img/white-papers/orbs-technology-overview-2.png
 ---
 
-An overview of all major technology and business aspects that make up the Orbs platform.
+Orbs プラットフォームを構成するすべての主要なテクノロジーとビジネスに関する概要。

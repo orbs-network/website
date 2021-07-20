@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: Revamped Delegation Mechanism
+title: 改良された委任メカニズム
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, thereby empowering them to maintain security of the Network and uphold the long term vision of the ecosystem. Therefore, it is the role of the Orbs delegators to actively contribute to the network’s success by staking their ORBS tokens.
+デリゲータは ORBS トークンの保有者であり、自身の保有する投票の重み（ステーク）をガー ディアンに委任します。これにより、ネットワークのセキュリティを維持し、エコシステムの 長期的なビジョンを実現します。したがって、Orbs のデリゲータは自身が保有する ORBS トー クンをステーキングすることで、ネットワークの成功に貢献することができるわけです。

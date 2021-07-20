@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: What are some of Orbs technological innovations?
+title: Orbsの技術的な特徴はなんですか？
 color: "#E61EA9"
 ---
 
-The Orbs project includes a full blockchain stack designed and implemented from scratch by the core team, and is not a fork of any existing solution. The project is active on open source with about 150 repositories publicly available on [Github.](https://github.com/orbs-network)
+Orbsプロジェクトには、コア・チームがゼロから設計・実装した独自のブロックチェーン・スタックが含まれており、既存のブロックチェーン技術をフォークしたものではありません。このプロジェクトはオープンソースで活動しており、[Github](https://github.com/orbs-network)では約150のリポジトリが公開されています。
 
-Orbs developed a set of advanced technologies to make its vision possible: Virtual Chains, PoS over Ethereum, Cross-Chain Interoperability, Non-Deterministic Execution, and Web Oracles and Off-Chain Interoperability.
+Orbsは、自らのビジョンを実現するために、最先端の技術を開発しました。特徴としてはバーチャル・チェーン、イーサリアム上のPoS、クロスチェーン・インターオペラビリティ、非決定的実行、ウェブ・オラクルとオフチェーン・インターオペラビリティです。
+詳細は[こちら](/network)
 
-Read more [here.](/network)

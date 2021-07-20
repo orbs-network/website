@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: How can I become a Guardian?
+title: ガーディアンの役割と登録の方法は？
 color: "#1EE6CF"
 ---
 
-Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision. As the most significant stakeholders in the network, they are most suitable to provide enterprise business applications the required security and availability.
+Orbsのガーディアンは、Orbs コミュニティの代表です。ネットワークのセキュリティを維持し、長期的なビジョン実現するための役割を果たします。ネットワークの最も重要なステーク・ホルダであり、企業のビジネス・アプリケーションに必要なセキュリティと可用性を提供する中心的役割を持っています。
 
-Guardians are expected to build a community of Delegators that trust them to truthfully represent their and the network’s interests.
+ガーディアンは、ネットワークの信頼性を上げるために、デリゲータ・コミュニティを組成し、信頼関係を構築することが期待されています。
 
-For instructions use this [link](https://github.com/orbs-network/validator-instructions)
+ガーディアンになる方法はこの[リンク](https://github.com/orbs-network/validator-instructions)を参照

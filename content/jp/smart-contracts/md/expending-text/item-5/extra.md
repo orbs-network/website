@@ -2,5 +2,5 @@
 layout: partials/shared/simple-md
 ---
 
-Upon a notification from the delegation contract, the elections contract calculates the participant's new effective stake and updates the committee contract.
-Upon a Guardian’s readyForCommittee, the committee, the election contract validates that the Guardian is registered and not voted-out and requests that the committee contract add it. If a Guardian was voted-unready or voted-out, the elections contract requests that the committee contract remove it from the committee.
+委任コントラクトからの通知に応じて、選挙コントラクトは参加者の新しい有効なステーキング量を計算し、委員会コントラクトを更新します。
+ガーディアンのreadyForCommitteeである委員会で、選挙コントラクトはガーディアンが登録されており、投票されていないことを検証し、委員会コントラクトに追加するよう要求します。もしガーディアンがvoteUnreadyとvoteOutを投票された場合、選挙コントラクトは委員会コントラクトにガーディアンを委員会から削除することを要求します。

@@ -2,6 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-#### More on Virtual Chains
+#### 仮想チェーンの詳細
 
-Virtual chains provide the feel and benefit of a dedicated blockchain while running on top of a shared physical node infrastructure, enjoying the security and decentralization provided by the shared environment as well as the isolation and customization provided by virtualization.
+仮想チェーンは、共有物理ノード・インフラストラクチャ上で実行しながら、専用ブロックチェーンの使いやすさと良さを提供し、共有環境によって提供されるセキュリティと分散化、および仮想化によって提供される分離とカスタマイズを可能にします。

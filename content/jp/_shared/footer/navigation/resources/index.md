@@ -1,6 +1,6 @@
 ---
 layout: partials/footer/components/navigation/links
-title: Resources
+title: ツール
 links:
   - link-1.md
   - link-2.md

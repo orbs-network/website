@@ -1,13 +1,13 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs PoS Ecosystem V1
-readPaperBtn: read the paper
-date: March 2019
-url: white-papers/proof-of-stake-ecosystem
-button: Preview Paper
-published: "Published"
+title: OrbsのPoSエコシステムV1
+readPaperBtn: ペーパーを読む
+date: 2019年3月
+url: /jp/white-papers/proof-of-stake-ecosystem
+button: ペーパーのプレビュー
+published: "公開"
 
 image: /assets/img/white-papers/proof-of-stake-ecosystem.png
 ---
 
-The Orbs Proof-of-Stake (PoS) ecosystem is the back bone of the Orbs network and the Universe that is being created. This document is provided for discussion purposes and presents the PoS architecture and model in its Year Zero genesis, implemented in V1.
+Orbs の Proof-of-Stake（PoS）エコシステムは、Orbs ネットワークとユニバースの重要な基盤です。本ドキュメントは、ディスカッションの目的で提供され、V1 で実装されたジェネシス元年の PoS アーキテクチャとモデルを示しています。

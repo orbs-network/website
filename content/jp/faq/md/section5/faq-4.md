@@ -1,10 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: How can I get involved in Orbs DeFi projects?
+title: Orbs DeFiのプロジェクトに参加する方法は？
 color: "#B01EE6"
 ---
 
-As a decentralized project, Orbs understands the power in community contributions and is always looking for ways to further expand the number of contributors developing the network and ecosystem.
+分散型プロジェクトであるOrbsは、コミュニティの貢献を大切にしており、ネットワークとエコシステムの発展をサポートしてくださるコミュニティメンバーを常に募集しています。
 
-In August 2020, the [Orbs team announced the Orbs Ecosystem Grant Program (OEGP)](white-papers/orbs-grant-program), which is intended to involve even more developers and teams in the development of the Orbs ecosystem.
-Any team or individual can submit a proposal to receive a grant for DeFi projects that may integrate with Orbs ecosystem. Such projects include among others: Liquidity pools, collateral-backed loans, oracles, and more. Once submitted, the Orbs team will evaluate the proposal and approved applications will have the means to carry out their project in collaboration with the Orbs team.
+2020年8月、Orbsチームは、Orbsエコシステムの更なる発展のために、貢献してもらえる開発者やチームに対して助成金を出す[Orbs エコシステム助成金プログラム（OEGP）](white-papers/orbs-grant-program)を発表しました。
+
+DeFiプロジェクトに関わるチームや個人が提案書を提出し、助成金を受け取ることができます。また内容次第では、Orbsのエコシステムに直接統合される場合もあり、具体的にリクイディティプール、担保付きローン、オラクルなどのプロジェクトが該当します。提案書が提出されると、Orbsチームが評価を行い、承認された申請者は場合によってはOrbsチームとコラボレーションしてプロジェクトを実行することができます。		

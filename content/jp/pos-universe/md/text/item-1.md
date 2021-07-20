@@ -2,4 +2,4 @@
 layout: partials/shared/text
 ---
 
-The Orbs Network is a community-based project and cannot succeed without the collective effort of all participants, including the Orbs development team, Guardians, users and token holders
+Orbsネットワークはコミュニティベースのプロジェクトであり、Orbs開発チーム、ガーディアン、ユーザー、トークンホルダーを含むすべての参加者の総力を結集せずに成功することはできません。

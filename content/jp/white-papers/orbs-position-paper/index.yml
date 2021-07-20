@@ -1,11 +1,12 @@
-title: Orbs Position Paper
+title: Orbsポジションペーパー
 layout: pages/page
 script: white-paper/index
 
 header:
-  - /_shared/navbar/index.md
-main: body.md
+  - /jp/_shared/navbar/index.md
+main:
+  - body.md
 footer:
-  - /_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md

@@ -5,4 +5,4 @@ image: /assets/img/smart-contracts/img-1.svg
 
 ##### registryAdmin
 
-The registryAdmin manages the contract registry and is the most privileged administrative entity. The registryAdmin can update the registry properties and contacts and assign managers. The registryAdmin admin is stored on each of the contracts managed by the registry allowing to modify an individual contact appointed registry.
+RegistryAdminはコントラクト・レジストリを管理し、中核となる管理エンティティです。RegistryAdminは、レジストリのプロパティとコンタクトを更新し、マネージャーを割り当てることができます。レジストリ管理者は、レジストリによって管理される各コントラクトに保存され、コンタクトが指定した個々のレジストリを変更できます。

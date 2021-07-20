@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/boxes/boxes
-title: Roles
+title: 役割
 list:
   - item-1.md
   - item-2.md

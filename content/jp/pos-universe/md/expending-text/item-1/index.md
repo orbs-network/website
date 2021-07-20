@@ -2,12 +2,12 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: Operating the Network Validator Nodes by Guardians
+title: ガーディアンによるネットワーク・バリデータ・ノードの操作
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-In Year 0 of the project, the separation of Validators and Guardians provided applications with the ability to run their business applications on the network prior to full stabilization of the network ecosystem.
+ネットワークのエコシステムが完全に安定する前のプロジェクト元年には、バリデータとガーディアンを分離していました。そうすることで、完全な状態ではなくとも、アプリケーションの実装を可能にしていました。

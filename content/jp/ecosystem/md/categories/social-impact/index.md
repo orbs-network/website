@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Social Impact
+title: ソーシャルインパクト
 
 items:
   - hexa.md

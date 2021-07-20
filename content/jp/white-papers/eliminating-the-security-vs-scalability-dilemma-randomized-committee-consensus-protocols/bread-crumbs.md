@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /jp/white-papers
 linkName: White Papers
-title: "Eliminating the Security-vs-Scalability Dilemma: Randomized-Committee Consensus Protocols"
+title: "セキュリティとスケーラビリティのジレンマの排除：ランダム化された委員会のコンセンサス・プロトコル"
 ---

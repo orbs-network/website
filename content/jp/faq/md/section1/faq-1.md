@@ -1,12 +1,14 @@
 ---
 layout: partials/shared/opening-box
-title: What is Orbs?
+title: Orbsはどんなプロジェクトですか？
 color: "#E61EA9"
 ---
 
-Orbs is a public blockchain infrastructure designed for mass usage applications and providing a complete blockchain stack. Combining scalability, low fees and isolation between virtual chains with a top-grade developer experience, online IDE and smart contracts in familiar languages, Orbs provide developers the perfect mix of performance, cost, security and ease of use. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus. The Orbs protocol relies on the ORBS token, which is used for the settlement of fees related to app execution and provides the system of incentives used to elect validators (who are referred to as “Guardians”) in a secure and decentralized manner.
+Orbsは、利用頻度が高いアプリケーション向けに設計されたパブリック・ブロックチェーン・インフラで、完全なブロックチェーン・スタックを提供します。スケーラビリティ、低料金、仮想チェーン間の分離に加え、オンラインIDEや使い慣れた開発言語によるスマートコントラクトの作成といった、ベストな開発者体験を提供します。また、Orbsは、パフォーマンス、コスト、セキュリティ、使いやすさといった利便性も開発者に提供します。
 
-Founded in 2017, Orbs is being developed by a dedicated team of more than 30 people out of Tel Aviv, Israel, London, UK, Singapore, Tokyo, Japan and Seoul, South Korea. Orbs was named Gartner’s “Cool Vendor in Blockchain Technology” for 2018.
-Find out more about Orbs [here.](https://www.about.orbs.com/)
+このようなアプリケーションに一般的に使用されるプライベートなパーミッション型（許可型）ブロックチェーン・ソリューションとは異なり、Orbsのインフラはオープンでパーミッションレス（非許可型）です。Orbsプロトコルは分散化されており、Proof-of-Stake（PoS）コンセンサスを使用してパーミッションレスのバリデータのパブリック・ネットワークによって実行されます。Orbsプロトコルの実行にはORBSトークンが重要な役割を果たし、それらのトークンはアプリケーションを実行するための決済と、安全で分散化された方法で「ガーディアン」と呼ばれるバリデータを選出するためのインセンティブの提供に使われます。
 
-Listen to this [short video by Orbs co-founder Daniel Peled](https://drive.google.com/file/d/1ASbLSKWtyayDkckeHMrmFLbaVT7F6sIN/view) from KBW 2019.
+Orbsは2017年に設立され、イスラエルのテルアビブ、英国ロンドン、シンガポール、東京、韓国ソウルに合計30人以上の専任チームを置いて開発を進めています。Orbsは2018年に、世界有数のリサーチ＆アドバイザリ企業ガートナー社の「ブロックチェーン・テクノロジーにおけるクールベンダー」に選出されました。詳細は[こちら](https://www.about.orbs.com/)をご覧ください。
+
+[共同創設者 Daniel PeledによるOrbs紹介動画（ KBW 2019より）](https://drive.google.com/file/d/1ASbLSKWtyayDkckeHMrmFLbaVT7F6sIN/view) をご視聴ください。
+

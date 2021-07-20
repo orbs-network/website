@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: Can I use Orbs on Binance Smart Chain?
+title: Binance Smart ChainでOrbsを使うことはできますか？
 color: "#B01EE6"
 ---
 
-Yes!
+できます。
+ORBSトークンはBinance Smart Chain（BSC）で利用可能になり、イーサリアムのメインネットからBSCのメインネットへ、またその逆へとスワップできるようになりました。この機能は、multichain.xyzが開発した[クロスチェーン・ブリッジ](orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge)・インフラを活用しています。
 
-The ORBS token is now available on Binance Smart Chain (BSC) and can be swapped from the Ethereum mainnet to the BSC mainnet and back. This integration is a result of work done by multichain.xyz utilizing the [cross-chain bridge](orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge) infrastructure they have developed.
+ORBSトークンはBSCで最も人気のあるDEX/AMMのひとつ、PancakeSwapでも[ご利用可能](orbs-is-now-live-on-pancakeswap)です。Orbsチームは、OrbsをBSCにより統合していくよう取り組んでいます。
 
-The ORBS token is also [available](orbs-is-now-live-on-pancakeswap) on PancakeSwap, one of the most popular DEX/AMM on BSC. The Orbs team is working on expanding the Orbs integration into BSC.

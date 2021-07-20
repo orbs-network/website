@@ -1,14 +1,14 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Enforcing Fairness in Blockchain Transaction Ordering
-readPaperBtn: read the paper
-date: May 2019
-url: white-papers/enforcing-fairness-in-blockchain-transaction-ordering
-button: Preview Paper
-published: "Published"
+title: ブロックチェーン・トランザクションの順序付けにおける公平性の強化
+readPaperBtn: ペーパーを読む
+date: 2019年5月
+url: /jp/white-papers/enforcing-fairness-in-blockchain-transaction-ordering
+button: ペーパーのプレビュー
+published: "公開"
 image: /assets/img/white-papers/enforcing-fairness-in-blockchain-transaction-ordering.png
 ---
 
-In this work, we propose a toolbox of techniques to enforce fair block selection for improved quality of service.
+この作業では、サービス品質を向上させるために公正なブロック選択を実施するための手法のツールボックスを提案します。
 
-\*A version of this paper is now in proceedings of the 2019 IEEE International Conference on Blockchain and Cryptocurrency, [http://icbc2019.ieee-icbc.org/.](http://icbc2019.ieee-icbc.org "link")
+\*このペーパーのバージョンは、ブロックチェーンと暗号通貨に関する 2019 IEEE International Conference [http://icbc2019.ieee-icbc.org/.](http://icbc2019.ieee-icbc.org "リンク")に提出されました。

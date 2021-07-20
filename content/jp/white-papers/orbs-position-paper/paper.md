@@ -1,13 +1,13 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs Position Paper
-readPaperBtn: read the paper
-date: August 2017
-url: white-papers/orbs-position-paper
-button: Preview Paper
-published: "Published"
+title: Orbsポジションペーパー
+readPaperBtn: ペーパーを読む
+date: 2017年8月
+url: /jp/white-papers/orbs-position-paper
+button: ペーパーのプレビュー
+published: "公開"
 
 image: /assets/img/white-papers/orbs-position-paper.png
 ---
 
-The Orbs Position Paper.
+Orbs のポジションペーパー

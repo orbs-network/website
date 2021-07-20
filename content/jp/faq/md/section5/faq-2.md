@@ -1,9 +1,10 @@
 ---
 layout: partials/shared/opening-box
-title: What is the connection between Orbs and the DeFi.org accelerator?
+title: OrbsとDeFi.orgアクセラレータの関係は？
 color: "#B01EE6"
 ---
 
-On January 11, Orbs and Binance exchange [announced](https://www.binance.org/en/blog/orbs-and-binance-team-up-to-launch-defi-accelerator/) that they are teaming up to promote innovation in the decentralized finance (DeFi) space by serving as the first core sponsors of the [DeFi.org](https://defi.org/) accelerator, which bootstraps new projects and DeFi protocols.
+2021年1月11日、OrbsとBinance exchangeは、新しいプロジェクトやDeFiプロトコルを支援する[DeFi.org](https://defi.org/)アクセラレータの最初の主力スポンサーとなり、分散型金融（DeFi）分野の開発を促進するために提携することを[発表](https://www.orbs.com/jp/orbs%e3%81%a8binance%e3%81%8c%e5%85%b1%e5%90%8c%e3%81%a7%e3%80%8cdefi%e3%82%a2%e3%82%af%e3%82%bb%e3%83%a9%e3%83%ac%e3%83%bc%e3%82%bf%e3%80%8d%e3%81%ae%e3%83%ad%e3%83%bc%e3%83%b3%e3%83%81%e3%82%92/)しました。
 
-The [DeFi.org Accelerator](https://www.defi.org/) is dedicated to supporting research, development of open-source software, and community engagement. The accelerator looks for projects that are built on the principles of fair distribution, community ownership, innovation, responsible approach to risk, sustainable economics and composability with the broader ecosystem
+[DeFi.orgアクセラレータ](https://www.defi.org/)は、研究、オープンソース・ソフトウェアの開発、より良いコミュニティ作りの支援をゴールとしています。本アクセラレータでは、公正な分配、オーナーシップを感じるコミュニティ、イノベーション、リスクに対する責任あるアプローチ、持続可能なエコノミクス、より広範なエコシステムとの連携を目指すために活動するプロジェクトを募集しています。
+

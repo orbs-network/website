@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-Upon protocol version upgrade, a future time is set as the cutoff date for the protocol upgrade.
+プロトコル・バージョンのアップグレード時に、将来の時刻がプロトコル・アップグレードの失効基準日として設定されます。

@@ -4,14 +4,16 @@ script: ecosystem/index
 main:
   - body.md
 header:
-  - /_shared/navbar/index.md
+  - /jp/_shared/navbar/index.md
 footer:
-  - /_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md
 gdpr:
-  - /_shared/gdpr/index.md
+  - /jp/_shared/gdpr/index.md
 
 title: Ecosystem
-meta_tags:
-  - md/meta.md
+meta_description: orbs Ecosystem
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

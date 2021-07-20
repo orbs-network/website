@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Fiat on-ramps
+title: フィアットオンランプ
 
 items:
   - item-1.md

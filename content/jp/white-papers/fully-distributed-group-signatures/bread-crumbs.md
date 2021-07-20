@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /jp/white-papers
 linkName: White Papers
-title: Fully Distributed Group Signatures
+title: 完全に分散されたグループ署名
 ---

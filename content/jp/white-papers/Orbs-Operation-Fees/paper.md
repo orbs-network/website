@@ -1,12 +1,12 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs Operation Fees
-readPaperBtn: read the paper
-date: March 2019
-url: white-papers/Orbs-Operation-Fees
-button: Preview Paper
-published: "Published"
+title: Orbsの利用料金
+readPaperBtn: ペーパーを読む
+date: 2019年3月
+url: /jp/white-papers/Orbs-Operation-Fees
+button: ペーパーのプレビュー
+published: "公開"
 image: /assets/img/white-papers/V6-Orbs-Operation-Fees-Orbs-March-27-2019.png
 ---
 
-This list of operation fees provides the specifics of how the overall vision of stable and predictable operation fees will be implemented in the Orbs network. The goal of predictability is accomplished because the purchasing power of ORBS tokens is fixed as equal to a defined amount of computing power.
+この利用料金のリストは、安定した予測可能な利用料金の全体的なビジョンが Orbs ネットワークでどのように実装されるかについての詳細を提供します。 ORBS トークンの購買力は、定義された計算能力と同様に固定されているため、予測可能性の目標は達成されます。

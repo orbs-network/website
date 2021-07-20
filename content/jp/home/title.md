@@ -2,8 +2,8 @@
 layout: partials/shared/simple-md
 ---
 
-## The winning
+## 最高の
 
-# blockchain
+# ブロックチェーン
 
-## Stack
+## スタック
