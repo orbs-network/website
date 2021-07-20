@@ -857,6 +857,9 @@ body {
     display: none;
     height: auto;
     padding-right: 50px; }
+  .opening-box a {
+    display: block;
+    min-width: 100%; }
   .opening-box-active .opening-box-text {
     display: block; }
   .opening-box:last-child {
@@ -1011,7 +1014,7 @@ body {
 .one-line {
   white-space: nowrap; }
 
-.text-overflow, .bread-crumbs-text {
+.text-overflow, .opening-box a, .bread-crumbs-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
