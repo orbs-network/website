@@ -4,4 +4,4 @@ url: /network
 left: true
 ---
 
-Back to Orbs Overview
+Orbs全体像に戻る

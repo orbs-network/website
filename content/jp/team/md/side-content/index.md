@@ -1,11 +1,9 @@
 ---
 layout: partials/shared/side-menu
 
-title: our team
+title: チーム
 ---
 
-The Orbs team is made up of a group of experienced engineers, academics and business people. We’re building fast and smart with a team that includes successful founders, researchers from Israel’s top universities, startup veterans and leading executives.
+Orbs チームは、経験豊富なエンジニア、研究者、事業メンバーで構成されています。会社設立の経験者、イスラエルのトップ大学の研究者、スタートアップの経験者、マネージメント経験者など、Orbs プロジェクトを迅速に牽引できる方を常に採用しています！
 
-we are always hiring!
-
-Send us your cv to [hello@orbs.com](hello@orbs.com "email")
+[hello@orbs.com](hello@orbs.com "eメール")に履歴書を送ってください。

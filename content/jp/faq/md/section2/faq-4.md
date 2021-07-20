@@ -1,9 +1,13 @@
 ---
 layout: partials/shared/opening-box
-title: Is there a locking period?
+title: ステーキングのロック期間はありますか？
 color: "#1EE6CF"
 ---
 
-Orbs' locking period, of 14 days is in place to assure that participants in the PoS ecosystem are committed to the network and maintain its security. Delegators are not expected to unstake their tokens until they decide to leave the PoS ecosystem and transfer them to another use or an exchange. If a delegator does decide to leave, only then there will be a 14 days cooldown during which the tokens are not staked anymore and do not receive rewards. This is similar to other leading PoS systems such as Cosmos or PolkaDot.
+4日間のロック期間があり、それはPoSエコシステムの参加者がネットワークにコミットし、そのセキュリティを維持することを保証するために設けられています。デリゲータが、PoSエコシステムからステーキング解除し、トークンを別の用途や取引所に送金するまで、トークンにはロックがかけられています。デリゲータがステーキングを解除した場合は、14日間のクールダウンが行われます。その間はトークンはステークから解除され、報酬を受け取ることはできません。これは、CosmosやPolkaDotといった他の主要なPoSシステムと同様です。
 
-Here is a [comprehensive paper on the Orbs PoS staking](introducing-locking-when-staking-orbs/) mechanism
+[OrbsのPoSステーキングに関する包括的な論文](introducing-locking-when-staking-orbs/) のメカニズムはこちら
+
+
+[ORBSの新しいロックアップメカニズムのご紹介](
+https://www.orbs.com/jp/orbs%e3%81%ae%e6%96%b0%e3%81%97%e3%81%84%e3%83%ad%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%a1%e3%82%ab%e3%83%8b%e3%82%ba%e3%83%a0%e3%81%ae%e3%81%94%e7%b4%b9%e4%bb%8b/)

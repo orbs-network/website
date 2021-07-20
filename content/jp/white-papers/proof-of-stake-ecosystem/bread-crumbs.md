@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /jp/white-papers
 linkName: White Papers
-title: Orbs PoS Ecosystem
+title: OrbsのPoSエコシステム
 ---

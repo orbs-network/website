@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/form/form-success
-title: Thank you for Reaching out!
+title: お問い合わせをいただき、ありがとうございます！
 ---
 
-We will contact you soon
+なるべく早くご連絡させていただきます。

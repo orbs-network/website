@@ -3,14 +3,14 @@ layout: partials/shared/expendable-text-box
 title: Virtual Chains
 
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 extra:
   - extra.md
 ---
 
-Every application running on Orbs typically runs on its own virtual chain. Virtualization provides applications with an isolated environment while utilizing a shared physical infrastructure of nodes. Each virtual chain maintains its own separate chain of blocks, state, and runs its own concurrent instance of consensus. All Orbs validators run all virtual chains in parallel, making the permissionless pool of validators completely shared and staked across the full network. This provides applications with the security and decentralization of the entire network while maintaining a strong degree of independence.
+Orbs で実行されるすべてのアプリケーションは、通常、独自の仮想チェーンで実行されます。仮想化は、ノードの共有物理インフラストラクチャを利用しながら、アプリケーションに分離された専用環境を提供します。各仮想チェーンは、ブロック、個別のチェーンを維持し、独自のコンセンサスの同時インスタンスを実行します。すべての Orbs バリデータは、すべての仮想チェーンを並行して実行し、ネットワーク全体に完全共有型の無許可性バリデータ・プールを提供します。これにより、アプリケーションは、独立性を維持しながら、ネットワーク全体のセキュリティと分散化を実現できます。
 
-Consensus on transactions of different virtual chains can be run independently and are run concurrently on separate resources. The ledgers of virtual chains can also be maintained independently and their compute can be performed in parallel. Moreover, the isolation of state for each virtual chain reduces the memory requirements of the network’s virtual machine.
+異なる仮想チェーンのトランザクションに関するコンセンサスは、独立して実行でき、別々のリソースで同時に実行されます。仮想チェーンの元帳も独立して保守でき、それらの計算を並行して実行できます。 さらに、各仮想チェーンの状態を分離することで、ネットワークの仮想マシンのメモリ要件が軽減されます。

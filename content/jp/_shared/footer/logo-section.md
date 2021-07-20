@@ -3,6 +3,6 @@ layout: partials/footer/components/logo-section
 image: /assets/img/common/logo.svg
 ---
 
-Combining scalability, low fees and isolation between virtual chains with a first-grade developer experience, online IDE and smart contracts in familiar languages, Orbs provides developers the perfect mix of performance, cost, security and ease of use.
+Orbsは、スケーラビリティや、低料金、仮想チェーン間の分離といった機能と共に、開発者エクスペリエンスや、オンラインIDE、使い慣れた言語でのスマートコントラクトを提供します。それにより、開発者が求めるパフォーマンスや、コスト、セキュリティ、使いやすさを組み合わせた最高のブロックチェーンを実現しました。
 
 [hello@orbs.com](hello@orbs.com "email")

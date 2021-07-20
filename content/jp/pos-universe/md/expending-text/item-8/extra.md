@@ -2,12 +2,14 @@
 layout: partials/shared/simple-md
 ---
 
-Orbs ​Locking Mechanism​ enhances the stability and security of the Orbs Network. In addition, the Orbs team developed TETRA​, a dedicated staking wallet, from which any ORBS holder can easily stake tokens with a Guardian of their choice. Both improvements were widely adopted by the Orbs community.
 
-Moreover, Orbs PoS assists in reducing friction for Delegators by allowing for an easy transition of delegation between Guardians through the new staking contract. Delegators can now easily modify their stake between the various Guardians using the new Tetra Wallet, without the need to unstake first.
 
-Token holders that delegate to an active Guardian are rewarded in proportion to their stake. Only delegation to an active Guardian that operates a validator node receives rewards. A Guardian that does not fulfill its responsibilities can harm the network and will cause its Delegators to lose their rewards. Therefore, it is imperative for Delegators to monitor their Guardians and make sure that they are fulfilling their responsibilities. The new features described above enable Delegators to efficiently stake to their chosen Guardian, or switch Guardians if necessary, thus helping them fulfill their important role in making the network safe and efficient.
+Orbsの​ロックメカニズム​ は、安定性と安全性をOrbsネットワークにもたらす重要な仕組みです。さらに、Orbsチームは専用のステーキング・ウォレットであるTETRA​を開発し、ORBSトークン保有者は誰でも、簡単にステーキングができ、ガー ディアンを選択することができます。どちらもOrbsコミュニティに広く受け入れられています。
 
-Orbs’ rewards assignment and distribution architecture provides Orbs Delegators with an additional level of confidence and predictability for their rewards allocation. Under this architecture, staking rewards are distributed directly to the Orbs Delegators on a continuous basis. This continuous reward assignment allows both Guardians and Delegators to control the rate at which they claim their rewards. Under the new architecture, a Participant can claim their rewards by sending a claim transaction to the contract. This may be done using the Tetra staking interface. As the claim transaction has a gas cost, Delegators may initiate these transactions based on their need and the current gas price, which fluctuates heavily.
+OrbsのPoSは、ステーキング・コントラクトを使うことで、デリゲータがガーディアンを変更する際の手間を簡素化しています。デリゲータは、新しいTETRAウォレットを使い、 度々ステーキングを解除することなく、ガーディアン間のステーキングの変更が簡単にできます。
 
-For more information, read the ​Orbs V2.5 Update documentation.​
+アクティブなガーディアンに委任したトークンホルダーは、その持ち分に比例して報酬を受け取れます。報酬を受け取るためには、バリデータ・ノードを適切に運用しているガーディアン に委任する必要があります。責任を果たさないガーディアンは、ネットワークに害を及ぼす可能性があり、デリゲータは報酬を失うことになります。したがって、デリゲータは自ら選択したガーディアンを監視し、そのガーディアンがしっかりと責任を果たしていることを確認することが重要です。上記の新機能により、デリゲータはスムーズにガーディアンを選択することができ、必要に応じてガーディアンを切り替えることもできるため、ネットワークを安全かつ効率的に運用するための重要な役割を果たすことができます。
+
+Orbsの報酬割り当ておよび配布アーキテクチャは、Orbsデリゲータに、報酬割り当ての信頼性と予測可能性のレベルを提供します。このアーキテクチャでは、ステーキング報酬は継続的にOrbsデリゲータに直接配布されます。この継続的な報酬の割り当てにより、ガーディアンとデリゲータの両方が報酬を請求する割合を決めることができます。またこのアーキテクチャでは、デイゲータはコントラクトに請求トランザクションを送信することで簡単に報酬を請求できます。これは、Tetraステーキング・インターフェイスを使用して実行できます。 請求取引にはガス代がかかるため、デリゲータは、ニーズと現在のガス価格に基づいてこれらの取引を行う必要があります。なお、現在のガス価格は大きく変動します。
+
+詳細については、Orbs V2.5Updateのドキュメントをご覧ください。

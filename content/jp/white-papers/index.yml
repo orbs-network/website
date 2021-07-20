@@ -2,16 +2,18 @@ layout: pages/page
 script: white-paper/index
 
 header:
-  - /_shared/navbar/index.md
+  - /jp/_shared/navbar/index.md
 main:
   - body.md
 footer:
-  - /_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md
 
 gdpr:
-  - /_shared/gdpr/index.md
+  - /jp/_shared/gdpr/index.md
+meta_description: "最新のOrbsのポジションペーパー、Helixコンセンサス・アルゴリズム・ホワイトペーパー、ブロックチェーンへのピボットはOrbsのポッドキャストをダウンロード"
 title: White Papers - Orbs
-meta_tags:
-  - md/meta.md
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

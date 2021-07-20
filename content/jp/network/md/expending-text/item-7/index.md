@@ -2,12 +2,12 @@
 layout: partials/shared/expendable-text-box
 title: Cross-chain Interoperability
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 extra:
   - extra.md
 ---
 
-Orbs smart contracts provide seamless cross-chain access to Ethereum state under consensus, thus allowing applications to read the Ethereum state directly using the above mechanism. This allows applications running on Orbs to leverage the power of Ethereum directly without leaving the platform. An example of this technology is autonomous swap, a secure mechanism that allows developers to move part of the base-layer assets (ex: ERC-20 tokens) to run on Orbs for their utility while keeping other parts on the base-layer for trade.
+Orbs のスマートコントラクトは、コンセンサスを Ethereum とのシームレスなクロスチェーン・アクセスで実行しているため、アプリケーションはその設計上の利点を生かして Ethereum を直接読み取りに行くことができます。これにより、Orbs で実行されているアプリケーションは、プラットフォームを離れることなく、Ethereum を直接活用できます。これを技術的には自律スワップと呼びます。開発者がベースレイヤーアセットの一部（例：ERC-20 トークン）を移動して、ユーティリティのために Orbs で実行し、他の部分をトレードのためにベースレイヤーに保持できるようにする安全なメカニズムです。

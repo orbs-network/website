@@ -3,4 +3,4 @@ layout: partials/shared/images-grid/image-grid
 image: /assets/img/overview/grid-img-7.svg
 ---
 
-Take advantage of the liquidity of the base-layer while using Orbs’ scalable production environment
+Orbsのスケーラブルな本番環境を使用しながら、ベースレイヤの流動性を活用可能

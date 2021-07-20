@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/opening-box
-title: What is the connection between Orbs and Ethereum?
+title: Orbsとイーサリアムにはどのような関係ですか？
 color: "#E61EA9"
 ---
 
-Orbs is an ERC20 token but has its own mainnet.
+OrbsはERC20トークンですが、独自のメインネットを持っています。
 
-Orbs is designed as a hybrid blockchain, maintaining both an independent blockchain and PoS architecture, as well as utilizing the Ethereum network as an [ external objective blockchain](white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/) for the PoS logic. ORBS token, staking, delegation and voting operate over Ethereum contracts. This PoS over Ethereum architecture provides multiple advantages, including a high level of transparency, ease of subscription payments and staking, additional security and [ensuring the integrity of elections.](pos-external-oversight)
+Orbsはハイブリッド・ブロックチェーンとして設計されており、独立したブロックチェーンとPoSアーキテクチャの両方の機能を維持し、PoSロジックの[第三者ブロックチェーン](white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/) としてイーサリアム・ネットワークを利用しています。 ORBSトークン、ステーキング、委任、および投票は、イーサリアム・コントラクト上で実行されます。このイーサリアム上でのPoSアーキテクチャには、高い透明性があり、サブスクリプションの支払いとステーキングの容易さ、さらなるセキュリティと、[投票の完全性が担保](pos-external-oversight)ができるなど、複数の利点があります。

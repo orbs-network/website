@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The Orbs protocol relies on the ORBS token, which is used for the settlement of fees related to app execution and provides the system of incentives used to elect validators (who are referred to as “Guardians”) in a secure and decentralized manner.
+Orbsプロトコルは、アプリケーションの実行に必要な料金の支払いに使用されるORBSトークンを軸に、安全で分散化された方法でバリデータ（「ガーディアン」と呼ばれる）を選出するために使用されるインセンティブのシステムを提供します。

@@ -1,6 +1,6 @@
 ---
 layout: partials/footer/components/posts/index
-title: Latest Blog Posts
+title: 最新のブログ
 type: footer
 list:
   - /orbs-is-live-on-google-cloud/blog.md

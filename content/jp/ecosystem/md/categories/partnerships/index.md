@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Partnerships
+title: パートナーシップ
 
 items:
   - item-1.md

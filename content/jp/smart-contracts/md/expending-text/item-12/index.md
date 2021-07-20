@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: certification
+title: 認証
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The [certification](https://etherscan.io/0x8d2a2a4dbdf9c9d9dff72abc96a2751b70ab3011) contract stores the certification status for each Guardian. The certification data is managed by the certificationManager that may set and clear a Guardian’s certification.
+[認証](https://etherscan.io/0x8d2a2a4dbdf9c9d9dff72abc96a2751b70ab3011)コントラクトは、各ガーディアンの認証ステータスを保存します。認証データは、ガーディアンの認証を設定およびクリアできる CertificationManager によって管理されます。

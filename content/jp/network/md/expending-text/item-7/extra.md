@@ -2,6 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-#### More on Cross-chain Interoperability
+#### クロスチェーンの相互運用性の詳細
 
-As blockchain development becomes mainstream, platforms must offer a lower barrier to entry for blockchain developers to remain competitive.
+ブロックチェーン開発が主流になるにつれ、プラットフォームは、ブロックチェーン開発者が競争力を維持するための参入障壁を低くする必要があります。

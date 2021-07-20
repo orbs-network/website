@@ -1,10 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: What is Orbs POS V2?
+title: OrbsのPOS V2とはどのようなものですか？
 color: "#1EE6CF"
 ---
 
-The Orbs PoS Universe is the backbone of the Orbs network and the Universe that is being created. Orbs’ current PoS model - “Orbs Universe V2.5: The Age of Guardians”, empowers the Orbs Universe Guardians to take an active role in building and maintaining a secure, scalable network, that will be the first choice for blockchain adoption. In V2.5, the POS ecosystem is centered around two core roles – Guardians and Delegators.
+OrbsのPoSユニバースは、Orbsネットワークの基幹となるもので、その成長を支えています。Orbsの現在のPoSモデルである「Orbs Universe V2.5: The Age of Guardians、ガーディアンの時代」では、Orbsユニバースのガーディアンは、企業がブロックチェーンを採用する際の最初の選択肢となる、安全でスケーラブルなネットワークの構築と維持に積極的な役割を果たしています。V2.5では、PoSエコシステムはガーディアンとデリゲータという2つの主要な役割を中心においています。それぞれの役割を説明します。
 
-Here you can find more details on the Orbs PoS architecture: [Overview of the Orbs POS V2 Universe](white-papers/orbs-pos-v2-the-age-of-guardians)
-[Orbs V2.5 Update - Combating the Gas Storms](v2-5-update-combating-the-gas-storms "blog")
+Orbs PoSアーキテクチャについてはこちらをご参照ください： [OrbsのPOSのV2概要書](white-papers/orbs-pos-v2-the-age-of-guardians)
+[Orbs V2.5アップデート - ガス代との戦い](v2-5-update-combating-the-gas-storms)
+

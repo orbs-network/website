@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/box-2.svg
 ---
 
-##### INDEPENDENT APP GOVERNANCE
+##### 独立したガバナンス
 
-Isolation between virtual chains allows each app to make its own protocol governance decisions, such as fixing a vulnerability in a deployed smart contract or customizing a protocol parameter like its consensus block rate. This provides applications with the stability lacking in shared infrastructure solutions and reduces protocol forks as interests are less likely to conflict. Applications are also no longer at risk of having their block history reverted due to a network-wide decision such as The DAO fork or prevented from deploying a fix like with the Parity bug.
+仮想チェーン間の分離により、各アプリケーションは、展開されたスマートコントラクトの脆弱性の修正や、コンセンサス・ブロックレートなどのプロトコルパラメーターのカスタマイズなど、独自のプロトコルガバナンスの決定を行うことができます。これにより、共有インフラストラクチャ・ソリューションに欠けている安定性がアプリケーションに提供され、利害が競合する可能性が低くなるため、プロトコルフォークが削減されます。また、DAOフォークなどのネットワーク全体の決定により、アプリケーションがブロック履歴を元に戻すリスクがなくなったり、パリティバグのように修正プログラムを展開できなくなったりすることもなくなりました。

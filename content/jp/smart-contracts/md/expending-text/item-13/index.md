@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: subscriptions
+title: サブスクリプション
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The [subscription](https://etherscan.io/0xD11EFC10cf3A54B12e3F04143070BE3865E7Bb8E) contract manages the virtual chains’ subscription status. The contract allows developers to create a virtual chain, modify its properties, including metadata properties used by the Orbs platform, and extend a virtual chain subscription.
+[サブスクリプション](https://etherscan.io/0xD11EFC10cf3A54B12e3F04143070BE3865E7Bb8E)コントラクトは、仮想チェーンのサブスクリプション・ステータスを管理します。このコントラクトにより、開発者は仮想チェーンを作成し、Orbs プラットフォームで使用されるメタデータ・プロパティを含むそのプロパティを変更し、仮想チェーン・サブスクリプションを拡張できます。

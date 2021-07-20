@@ -3,4 +3,4 @@ layout: partials/shared/form/form-success
 title:
 ---
 
-Amazing! Thank you for subscribing
+登録が完了しました。ありがとうございます！

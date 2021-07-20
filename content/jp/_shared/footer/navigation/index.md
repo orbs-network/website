@@ -1,6 +1,6 @@
 ---
 layout: partials/footer/components/navigation/index
-title: Navigation
+title: ナビゲーション
 
 overview:
   - overview/index.md

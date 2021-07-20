@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/gdpr/index
-accept_text: accept
-reject_text: reject
+accept_text: 許可
+reject_text: 拒否
 ---
 
-We use cookies to ensure that we give you the best experience on our website. By continuing to use our site, you accept our [cookie policy](https://aave.com/cookie-policy "link").
+本ウェブサイトでより良い経験を提供するため、クッキーを使用しています。当サイトを継続して使用することにより、[クッキーポリシー](https://aave.com/cookie-policy "リンク")に同意したことになります。

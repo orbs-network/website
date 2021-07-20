@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Faq](/jp/faq)
+[FAQ](/jp/faq)
