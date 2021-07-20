@@ -3,6 +3,6 @@ layout: partials/shared/boxes/box
 image: /assets/img/overview/triangle.svg
 ---
 
-##### NON-DETERMINISTIC EXECUTION
+##### 非決定的実行
 
-Since execution engines of standard languages are not deterministic in nature (eg. heap addresses), dealing with non-determinism is a core requirement of the platform. Starting from fail-safe mechanisms in the consensus algorithm itself for failing transactions where consensus is impossible, to APIs defining acceptable thresholds for consensus when the results for each validator differ (while storing each validator’s result for future audit), the Orbs Network employs a variety of methods for solving these issues.
+標準言語の実行エンジンは本質的に決定論的ではないため（ヒープアドレスなど）、非決定論に対処することはプラットフォームのコア要件です。コンセンサスがトランザクションの失敗に対するコンセンサス・アルゴリズム自体のフェイルセーフメカニズムから、各バリデータの結果が異なる場合のコンセンサスの許容可能なしきい値を定義するAPI（将来の監査のために各バリデータの結果を保存する間）まで、Orbsネットワークはさまざまな問題を解決手段を設計しています。

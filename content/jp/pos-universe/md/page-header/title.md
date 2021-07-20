@@ -2,6 +2,6 @@
 layout: partials/shared/page-header/title
 ---
 
-# Orbs PoS Universe:
+# OrbsのPoSユニバース：
 
-# The Age of guardians
+# ガーディアンの時代

@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/opening-box
-title: What is the ORBS tokens distribution?
+title: ORBSトークンの分配方法について教えてください。
 color: "#E61EA9"
 ---
 
-This [document](white-papers/orbs-token-distribution) explains the use of the ORBS token, the total supply, and distribution pools.
+この[資料](white-papers/orbs-token-distribution) では、ORBSトークンの使用方法、総供給量、分配プールについて説明しています。

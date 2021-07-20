@@ -1,10 +1,10 @@
 ---
 layout: partials/shared/opening-box
-title: Can I use Tetra from my favorite wallet?
+title: 自分の好きなウォレットからTetraに接続することができますか？
 color: "#E6541E"
 ---
 
-Yes! Tetra has now also been made available on desktop and mobile (android and iOS) through a variety of other platforms, enabling the community to stake with even greater ease, including:
+はい！　Tetraは現在、さまざまなプラットフォームを通じて、デスクトップとモバイル（AndroidとiOS）でも利用できるようになり、より簡単にステーキングができるようになりました。
 
 - [Metamask](orbs-swaps-and-staking-now-available-on-metamask-wallet)
 - [Enjin Wallet](tetra-staking-wallet-by-orbs-now-on-mobile)

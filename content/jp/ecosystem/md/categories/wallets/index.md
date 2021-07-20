@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: wallets
+title: ウォレット
 
 items:
   - item-1.md

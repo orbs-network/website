@@ -1,13 +1,15 @@
 layout: pages/page
 script: globe/index
 header:
-  - _shared/navbar/index.md
+  - /jp/_shared/navbar/index.md
 main:
   - home/body.md
 subscribe:
-  - _shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md
 gdpr:
-  - _shared/gdpr/index.md
-title: "Orbs Hybrid Blockchain: Empowering business through decentralization"
-meta_tags:
-  - home/meta.md
+  - /jp/_shared/gdpr/index.md
+meta_description: 実用的なブロックチェーンソリューション。 スケーリング可能な予測可能な料金。アプリ間の分離。 あらゆる言語のスマートコントラクト。
+title: "Orbsハイブリッド・ブロックチェーン：ビジネスの分散化を後押し"
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

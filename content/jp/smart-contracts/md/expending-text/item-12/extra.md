@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The certification contract notifies the election contract on any change in a guardian certification.
+認証コントラクトは、ガーディアン認証の変更について選挙コントラクトに通知します。

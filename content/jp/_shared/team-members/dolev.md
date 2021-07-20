@@ -2,10 +2,10 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/dolev.jpg
 name: Dolev Kenn
-role: Director of Finance
+role: ファイナンス・ディレクター
 twitter:
 telegram:
 linkedin: https://www.linkedin.com/in/dolev-kenn-8a45a3114/
 ---
 
-Dolev is Director of Finance at Orbs. Prior to Orbs, Dolev was a senior consultant at Cognum (formerly Prof. Itzhak Swary & Co.), a leading boutique financial consulting firm. He is a CPA with the second highest score nationwide on the Israeli CPA exams. Dolev holds a BA in Accounting and Political Science and MBA , both from Tel Aviv University.
+Dolevは大手金融コンサルティング会社のCognum（旧Prof. Itzhak Swary＆Co。）のシニアコンサルタントを経て、Orbsに参加。イスラエルの公認会計士試験で全国で2番目に高いスコアを持つ公認会計士でもある。テルアビブ大学で会計学と政治学の学士号、MBAを取得。

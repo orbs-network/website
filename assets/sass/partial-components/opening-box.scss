@@ -33,6 +33,11 @@
     height: auto;
     padding-right: 50px;
   }
+  a {
+    @extend .text-overflow;
+    display: block;
+    min-width: 100%;
+  }
   &-active {
     .opening-box-text {
       display: block;

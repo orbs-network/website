@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /network
+url: /jp/network
 right: true
 ---
 
-Learn More
+詳細はこちら

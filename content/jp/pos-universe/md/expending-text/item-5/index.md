@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: Rewards, Fees & Bootstrap Fund
+title: 報酬、手数料、ブートストラップ基金
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The Orbs incentive layer is built to incentivize a maximum overlap between the two committees. A high overlap implies a higher stake backing each committee. Guardians are incentivized to meet the certification requirements and earn additional rewards associated with participation in the certified committee. Certified Guardians are incentivized to accumulate a high stake to enjoy the rewards of the General committee.
+Orbs のインセンティブは、2 つの委員会間で最大に重複するように構築されています。重複 が高いということは、各委員会がより高いステーキングをバックアップしていることを意味し ます。要件を満たしたガーディアンは、認定委員会へ参加して追加の報酬を獲得できるように 設計されています。 認定されたガーディアンは、一般委員会の報酬を累積的に享受するために なるべく高い委任を受けるモチベーションがあります。

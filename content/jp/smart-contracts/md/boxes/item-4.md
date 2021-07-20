@@ -5,4 +5,4 @@ image: /assets/img/smart-contracts/img-4.svg
 
 ##### functionalManager
 
-The functionalManager is appointed by the contract registry, and controls contracts administrative parameters and functionality.
+FunctionalManagerは、コントラクト・レジストリによって任命され、コントラクトの管理パラメータと機能を制御します。

@@ -1,15 +1,15 @@
 ---
 layout: partials/shared/expendable-text-box
-title: The Age of Guardians
+title: ガーディアンの時代
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 ---
 
-The Orbs Network launched in March of 2019​. The successful mainnet launch has enabled the growth of the Orbs ecosystem across all vectors. During Year 0 of the mainnet, development efforts were focused on building and maintaining a secure, stable and inclusive network. While at first the goal was mostly network stability, with time it evolved into growth and scalability.
+2019 年３月 ​ に Orbs ネットワークがローンチしました。メインネットが順調にローンチし、 様々な方向で Orbs エコシステムが発展を遂げ始めています。メインネット開始の初年度の開発は、安全で安定した包括的なネットワークの構築と維持に集中して取り組みました。この最初の目標は達成され、次はネットワークの成長と拡大に軸足を移しました。
 
-The Orbs Universe now emphasizes usage and performance while empowering the Orbs Universe Guardians. It enables Orbs Universe Guardians to take an active role in building and maintaining a secure, scalable network, which will be the first choice for blockchain adoption, and to better manage and serve the network and its participants.
+現在、Orbs ユニバースでは、ガーディアンにこれまで以上の権限を与えながら、使いやすさとパフォーマンスを強化しています。ガーディアンは、安全でスケーラブルなネットワー クの構築と維持に積極的な役割を果たすことができます。これにより企業がブロックチェーン を採用する際の最初の選択肢となり、ネットワークとその参加者へのサービスを向上させるこ とにも繋がります。
 
-With the launch of V2.5, Orbs introduced numerous improvements, mainly in the staking rewards assignment and distribution architecture, leading to an improved distribution mechanism and significant reduction in Guardians operating costs. Orbs team aims to enhance network security and scalability through the Orbs PoS Universe and enables the on-boarding of clients with different use-cases.
+V2.5 のローンチでは複数の改善が実現し、特にステーキング報酬の割り当てや、配布のアーキテクチャを変更することで、報酬メカニズムがより良いものになり、ガーディアンの運用費用が大幅に削減されました。Orbs チームは、Orbs の PoS ユニバースを通じてネットワークのセキュリティとスケーラビリティを強化し、さまざまなクライアントのユース ケースに応じた採用を可能にすることを目指して取り組んでいます。

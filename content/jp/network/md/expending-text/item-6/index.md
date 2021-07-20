@@ -2,14 +2,14 @@
 layout: partials/shared/expendable-text-box
 title: Advantages
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 ---
 
-- Each application operates its own virtual chain
-- App developers choose their virtual chain’s consensus protocol and governance model
-- Autonomous governance and flexibility
-- Isolation from congestion in other virtual chains
-- Ability to start with a private instance and later switch to public without having to migrate blockchains
+- 各アプリケーションは独自の仮想チェーンを運用できます。
+- アプリ開発者は、仮想チェーンのコンセンサス・プロトコルとガバナンスモデルを選択できます。
+- 自律的なガバナンスと柔軟性があります。
+- 他の仮想チェーンの輻輳から分離されています。
+- Orbs 上で、プライベート利用から開始し、後でパブリックに切り替えることができます。

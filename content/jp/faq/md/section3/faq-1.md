@@ -1,9 +1,10 @@
 ---
 layout: partials/shared/opening-box
-title: What is Tetra?
+title: Tetraとはどのようなものですか？
 color: "#E6541E"
 ---
 
-In order to participate in the Orbs universe, token holders are required to stake their tokens and select a Guardian to delegate their voting power to.
+Orbsユニバースに参加するためには、トークン・ホルダはトークンをステークし、投票権を委譲する先のガーディアンを選択する必要があります。
 
-In order to simplify the interaction with the staking contract, the Orbs team developed the [Tetra wallet](https://staking.orbs.network/), with a simple and convenient interface. The Tetra staking wallet allows you to stake your tokens and select a Guardian to delegate to.
+ステーキング・コントラクトの手順を簡素化するために、Orbsチームはシンプルで便利なインターフェースを備えた[Tetraウォレット](https://staking.orbs.network/)を開発しました。Tetra staking walletでは、トークンをステークして、委任するガーディアンを選ぶことができます。
+

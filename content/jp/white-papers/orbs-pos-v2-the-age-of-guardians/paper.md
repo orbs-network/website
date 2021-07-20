@@ -1,13 +1,13 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: "Orbs PoS V2: The Age of Guardians"
-readPaperBtn: read the paper
-date: July 2020
-url: white-papers/orbs-pos-v2-the-age-of-guardians
-button: Preview Paper
+title: "OrbsのPoS V2：The Age of Guardians「ガーディアンの時代」"
+readPaperBtn: ペーパーを読む
+date: 2020年7月
+url: /jp/white-papers/orbs-pos-v2-the-age-of-guardians
+button: ペーパーのプレビュー
 published: "Published"
 
 image: /assets/img/white-papers/orbs-pos-v2-the-age-of-guardians.png
 ---
 
-An overview of all the major features in the new and improved Orbs proof-of-stake mechanism
+新しく改良された Orbs の Proof-of-stake メカニズムのすべての主要機能の概要

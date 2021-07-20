@@ -1,11 +1,12 @@
-title: "Orbs PoS V2: The Age of Guardians – Election Committees"
+title: "OrbsのPoS V2：The Age of Guardians「ガーディアンの時代」･･･選挙委員会"
 layout: pages/page
 script: white-paper/index
 
 header:
-  - /_shared/navbar/index.md
-main: body.md
+  - /jp/_shared/navbar/index.md
+main:
+  - body.md
 footer:
-  - /_shared/footer/footer.md
+  - /jp/_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - /jp/_shared/subscribe/subscribe.md

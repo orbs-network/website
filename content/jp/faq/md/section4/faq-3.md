@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/opening-box
-title: What consensus algorithm does Orbs run on?
+title: Orbsはどのようなコンセンサス・アルゴリズムで動いていますか？
 color: "#1EB8E6"
 ---
 
-Orbs uses a [Randomized Proof of Stake](white-papers/eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols/) (RPOS) consensus model
+Orbsは [ランダムProof of Stake](white-papers/eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols/) (RPOS)コンセンサスモデルを採用しています。

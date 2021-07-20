@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /jp/white-papers
 linkName: White Papers
-title: "Blockchain Virtualization: A Necessity for Real-World DApps"
+title: "ブロックチェーンの仮想化：現実世界のDAppから求められるもの"
 ---

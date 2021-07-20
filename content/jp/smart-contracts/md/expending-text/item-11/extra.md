@@ -2,4 +2,4 @@
 layout: partials/shared/simple-md
 ---
 
-The guardiansRegistration provides mapping functions, such as from Orbs addresses to Ethereum addresses, used by other contracts to allow function calls using the Orbs address. The guardiansRegistration contract notifies the election contract on changes in Guardians registration status.
+ガーディアン・レジストレーションは、OrbsアドレスからEthereumアドレスなどの他のコントラクトがOrbsアドレスを使用した関数呼び出しを許可するために使用するマッピング関数を提供します。ガーディアン・レジストレーション・コントラクトは、ガーディアン登録ステータスの変更について選挙コントラクトに通知します。

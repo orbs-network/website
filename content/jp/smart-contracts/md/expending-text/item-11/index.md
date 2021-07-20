@@ -2,13 +2,13 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: GuardiansRegistration
+title: ガーディアン・レジストレーション
 readMoreButton:
-  - /_shared/buttons/read-more-btn.md
+  - /jp/_shared/buttons/read-more-btn.md
 
 readLessButton:
-  - /_shared/buttons/read-less-btn.md
+  - /jp/_shared/buttons/read-less-btn.md
 border: true
 ---
 
-The [GuardiansRegistration](https://etherscan.io/0xce97f8c79228c53b8b9ad86800a493d1e7e5d1e3) contract stores the Guardians registration data. And allow Guardians to register, modify their data and unregister. In addition the contact stores a metadata map allowing each Guardian to store general purpose keys to be queried by the Orbs platform. For example, a link to the Guardian identification data may be stored at the "ID_FORM_URL" metadata key.
+[ガーディアン・レジストレーション](https://etherscan.io/0xce97f8c79228c53b8b9ad86800a493d1e7e5d1e3)コントラクトは、ガーディアン登録データを保存します。また、ガーディアンがデータを登録、変更、および登録解除できるようにします。さらに、コンタクトはメタデータマップを保存し、各ガーディアンが Orbs プラットフォームによって照会される汎用キーを保存できるようにします。例えば、ガーディアンの識別データへのリンクを「ID_FORM_URL」のメタデータキーに保存できます。

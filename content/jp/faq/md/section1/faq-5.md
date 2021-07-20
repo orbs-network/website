@@ -1,9 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: Which exchanges support Orbs?
+title: Orbsが取引されている取引所はどこですか？
 color: "#E61EA9"
 ---
 
-Orbs is listed on tier 1 exchanges such as [KuCoin](kucoin-exchange-lists-orbs-token-orbs), [FTX](ftx-exchange-lists-orbs-token-orbs), and more…
+Orbsは、次のような有名な取引所に上場しています。[KuCoin](kucoin-exchange-lists-orbs-token-orbs)、 [FTX](ftx-exchange-lists-orbs-token-orbs)、などです。
 
-You can find the full list [here](https://coinmarketcap.com/currencies/orbs/markets/)
+
+より詳しいリストは[こちら](https://coinmarketcap.com/currencies/orbs/markets/)をご参照ください
+

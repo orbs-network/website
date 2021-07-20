@@ -2,6 +2,4 @@
 layout: partials/shared/text
 ---
 
-As blockchain development becomes mainstream, platforms must offer a lower barrier to entry for blockchain
-
-developers to remain competitive.
+ブロックチェーン開発が主流になるにつれ、プラットフォームは、ブロックチェーン開発者が競争力を維持するための参入障壁を低くする必要があります。

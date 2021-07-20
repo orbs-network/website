@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /jp/white-papers
 linkName: White Papers
-title: "Orbs PoS V2: The Age of Guardians – Rewards distribution"
+title: "OrbsのPoS V2：The Age of Guardians「ガーディアンの時代」･･･報酬の分配"
 ---

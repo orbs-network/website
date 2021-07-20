@@ -1,14 +1,14 @@
 ---
 layout: partials/shared/subscribe
-title: SUBSCRIBE FOR UPDATES
+title: 最新情報を入手
 subTitle: Sometimes we have interesting announcements to tell you... don't miss out!
-firstName: First Name
-firstNamePlaceholder: Enter your name here
-email: Email
-emailPlaceholder: Your Email
-submit: Subscribe
-incorrentEmail: Please insert valid Email
-emptyInputError: Please fill the input
+firstName: 氏名
+firstNamePlaceholder: 氏名を入力
+email: Eメール
+emailPlaceholder: Eメールを入力
+submit: 登録する
+incorrentEmail: Eメールアドレスをご入力ください
+emptyInputError: 必要な項目をご入力ください
 success:
   - success.md
 ---
