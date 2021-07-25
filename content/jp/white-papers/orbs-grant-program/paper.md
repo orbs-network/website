@@ -5,7 +5,7 @@ readPaperBtn: ペーパーを読む
 date: 2020年8月
 url: /jp/white-papers/orbs-grant-program
 button: ペーパーのプレビュー
-published: "Published"
+published: "公開"
 
 image: /assets/img/white-papers/orbs-grant-program.png
 ---

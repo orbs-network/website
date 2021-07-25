@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[ブログ](/blog)
+[ブログ](/jp/blog)

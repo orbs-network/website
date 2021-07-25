@@ -5,7 +5,7 @@ readPaperBtn: ペーパーを読む
 date: 2020年7月
 url: /jp/white-papers/orbs-pos-v2-the-age-of-guardians
 button: ペーパーのプレビュー
-published: "Published"
+published: "公開"
 
 image: /assets/img/white-papers/orbs-pos-v2-the-age-of-guardians.png
 ---
