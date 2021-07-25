@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[ホワイトペーパー](/white-papers)
+[ホワイトペーパー](/jp/white-papers)
