@@ -2,10 +2,10 @@
 layout: partials/contact/contact-form
 title: 問い合わせ
 subTitle: たくさんのお問い合わせをお待ちしています。ご連絡方法はこちらです...
-firstName: 名前
-firstNamePlaceholder: 名前を入力
-lastName: 氏名
-lastNamePlaceholder: 氏名を入力
+firstName: 姓
+firstNamePlaceholder: 姓を入力
+lastName: 名
+lastNamePlaceholder: 名を入力
 email: eメール
 emailError: 正しいeメールアドレスを入力
 emailPlaceholder: eメールアドレスを入力

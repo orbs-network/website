@@ -5,7 +5,7 @@ readPaperBtn: ペーパーを読む
 date: 2018年8月
 url: /jp/white-papers/eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols
 button: ペーパーのプレビュー
-published: "Published"
+published: "公開"
 
 image: /assets/img/white-papers/blockchain-architecture-considerations-to-compete-with-paas-cloud-services.png
 ---

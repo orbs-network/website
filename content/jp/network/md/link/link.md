@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /smart-contracts
+url: /jp/smart-contracts
 right: true
 ---
 
-Orbsスマートコントラクト概要
+Orbs スマートコントラクト概要

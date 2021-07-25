@@ -1,9 +1,8 @@
 import React from "react";
-import { twitterUrl } from "../../../../../assets/js/consts/consts";
 import { handleUrl } from "../../../../util/link";
 import Img from "../../../shared/Img";
 
-const Tweets = ({ title, title_img, _relativeURL, _ID }) => {
+const Tweets = ({ title, title_img, _relativeURL, _ID, twitterUrl }) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };

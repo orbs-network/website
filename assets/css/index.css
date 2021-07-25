@@ -288,7 +288,7 @@ table {
   color: white;
   outline: none;
   user-select: text;
-  word-break: keep-all; }
+  overflow-wrap: break-word; }
 
 button {
   padding: 0px;
