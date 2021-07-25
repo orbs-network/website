@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/link-btn
-url: /network
+url: /jp/network
 left: true
 ---
 
-Orbs全体像に戻る
+Orbs 全体像に戻る
