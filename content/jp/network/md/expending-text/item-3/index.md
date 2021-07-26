@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: SERVERLESS CLOUD FOR APP DEVELOPERS
+title: アプリ開発者向けのサーバーレスクラウド
 
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md

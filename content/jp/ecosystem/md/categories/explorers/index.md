@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Explorers
+title: エクスプローラ
 
 items:
   - prism.md
