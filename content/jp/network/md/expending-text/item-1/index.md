@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: THE WINNING BLOCKCHAIN STACK
+title: 最高のブロックチェーンスタック
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md
 
