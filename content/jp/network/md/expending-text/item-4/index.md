@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: COMPLETE BLOCKCHAIN STACK
+title: 完全なブロックチェーンスタック
 
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md

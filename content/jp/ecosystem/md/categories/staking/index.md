@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Staking
+title: ステーキング
 
 items:
   - citadel.md

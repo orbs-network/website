@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: Cross-chain Interoperability
+title: クロスチェーンの相互運用性
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md
 

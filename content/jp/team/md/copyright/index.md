@@ -2,4 +2,4 @@
 layout: partials/shared/copyright
 ---
 
-Photos: Itay Benit
+写真: Itay Benit

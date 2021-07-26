@@ -1,6 +1,6 @@
 ---
 layout: partials/faq/main
-title: FAQ
+title: よくある質問
 
 sections:
   - md/section1/index.md
