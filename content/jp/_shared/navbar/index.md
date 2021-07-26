@@ -22,7 +22,7 @@ languages:
   - id: jp
     link: /jp
     img: /assets/img/navbar/japan.svg
-subscribe_to_updates: subscribe to updates
-blog: blog
+subscribe_to_updates: 最新情報を取得
+blog: ブログ
 blog_link: /jp/blog
 ---

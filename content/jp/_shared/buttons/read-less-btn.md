@@ -1,4 +1,4 @@
 ---
 layout: partials/shared/read-less-btn
-text: "- read less"
+text: "- 表示を戻す"
 ---

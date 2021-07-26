@@ -1,13 +1,16 @@
 ---
 layout: partials/blog-inner/bottom-section
-title: Get involved
+title: 参加する
 
-whitePapersTitle: White papers
-whitePapersButton: Read the Orbs white papers
+whitePapersTitle: ホワイトペーパー
 
-githubTitle: GitHub Repo
-githubButton: Review the code & contribute
+whitePapersButton: Orbsのホワイトペーパーを読む
 
-documentationTitle: Documentation
-documentationButton: Developer documentation
+githubTitle: GitHubリポジトリ
+
+githubButton: コードを確認して貢献
+
+documentationTitle: ドキュメント
+
+documentationButton: 開発者向けドキュメント
 ---

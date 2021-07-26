@@ -1,4 +1,4 @@
 ---
 layout: partials/shared/read-more-btn
-text: "+ read more"
+text: "+ 続きを読む"
 ---

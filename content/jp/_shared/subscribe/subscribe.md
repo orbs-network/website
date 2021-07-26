@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/subscribe
 title: 最新情報を入手
-subTitle: Sometimes we have interesting announcements to tell you... don't miss out!
+subTitle: 最新の情報が届きます...お見逃しなく！
 firstName: 氏名
 firstNamePlaceholder: 氏名を入力
 email: Eメール

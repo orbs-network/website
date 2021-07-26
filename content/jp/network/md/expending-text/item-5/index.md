@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/expendable-text-box
-title: Virtual Chains
+title: 仮想チェーン
 
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md
