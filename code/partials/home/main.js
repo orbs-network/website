@@ -8,6 +8,7 @@ const Main = ({
   socials,
   mobile_btn,
   title,
+  globe_video,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
@@ -22,11 +23,17 @@ const Main = ({
           {socials}
         </div>
 
-        <Img
-          src={generateUrl(globe_image)}
-          alt="earth"
-          className="home-globe-image home-flex-right"
-        />
+        {globe_video ? (
+          <video className="home-video" autoPlay poster loop>
+            <source src={globe_video} type="video/mp4" />
+          </video>
+        ) : (
+          <Img
+            src={generateUrl(globe_image)}
+            alt="earth"
+            className="home-globe-image home-flex-right"
+          />
+        )}
       </div>
     </main>
   );
