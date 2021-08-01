@@ -10,8 +10,6 @@ img: ../assets/img/pos-universe/delegators.svg
 
 ##### 役割と責任
 
-- ** ORBS をステーキングする**ことにより、ネットワークの成功に積極的に貢献します。
-  Orbs の Tetra ウォレットを使って[ステーキングする手順](tetra-orbs-staking-wallet-tutorial) はこちらです。
 - 投票権を委任する価値のある[ガーディアン]（https://staking.orbs.network/?p=/guardians）を選択します
 - ステーキングしたトークンは 14 日間ロックされます。
   [Orbs のロック](introducing-locking-when-staking-orbs)メカニズムの詳細を読む

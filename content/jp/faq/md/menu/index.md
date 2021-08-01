@@ -2,6 +2,6 @@
 layout: partials/faq/side-menu-links
 ---
 
-何かご質問はありますか？
+ご質問はこちらよりお願いします！
 
 [hello@orbs.com](hello@orbs.com "email")
