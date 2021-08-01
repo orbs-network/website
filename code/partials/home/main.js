@@ -25,7 +25,7 @@ const Main = ({
 
         {globe_video ? (
           <video className="home-video" autoPlay poster loop>
-            <source src={globe_video} type="video/mp4" />
+            <source src={generateUrl(globe_video)} type="video/mp4" />
           </video>
         ) : (
           <Img
