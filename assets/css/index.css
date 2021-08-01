@@ -1558,6 +1558,12 @@ body {
   overflow: hidden; }
   .home .title {
     text-align: left; }
+  .home-video {
+    width: 1770px;
+    position: absolute;
+    right: -40%;
+    top: 45%;
+    transform: translate(0, -50%); }
   .home .link-btn {
     margin: 0px;
     margin-top: 30px;
