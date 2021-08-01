@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: 交換
+title: エクスチェンジ
 
 items:
   - bittrex.md
