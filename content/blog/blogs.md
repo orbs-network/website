@@ -1,6 +1,15 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - orbs-pos-info-app-is-now-launched/blog.md
+  - orbs-integrated-with-the-graph-protocol-thegraph-com/blog.md
+  - understanding-bitcoin-mixers/blog.md
+  - orbs-is-now-live-on-sushiswap/blog.md
+  - orbs-staking-is-now-available-on-myetherwallet-mobile-app/blog.md
+  - the-orbs-ecosystem-is-growing/blog.md
+  - orbs-integrates-chainlink-price-feeds-to-secure-single-sided-farming-against-flash-loan-attacks/blog.md
+  - orbs-staking-is-now-available-on-the-coinbase-wallet-mobile-app/blog.md
+  - bhex-bluehelix-exchange-lists-orbs-token-orbs/blog.md
   - orbs-is-live-on-google-cloud/blog.md
   - when-decentralized-finance-meets-the-traditional-system/blog.md
   - orbs-staking-is-now-available-on-the-trust-wallet-mobile/blog.md
