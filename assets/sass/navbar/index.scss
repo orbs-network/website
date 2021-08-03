@@ -195,6 +195,7 @@
           margin-bottom: 0px;
         }
         a {
+          transition: 0.2s all;
           text-decoration: none;
           letter-spacing: 0.073rem;
           font-family: $light-font;
@@ -332,9 +333,11 @@
       &-links {
         &-link {
           &:hover {
-            padding-left: 20px;
             figure {
               opacity: 1;
+            }
+            a {
+              padding-left: 20px;
             }
           }
         }
