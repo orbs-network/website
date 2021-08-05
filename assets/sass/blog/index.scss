@@ -248,9 +248,12 @@ $blog-text-size: 1.313rem;
       height: auto;
       margin-left: auto;
       margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       img {
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
         object-fit: cover;
       }
     }
