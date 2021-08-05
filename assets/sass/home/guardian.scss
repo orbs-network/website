@@ -1,0 +1,41 @@
+.guardian-card {
+  border: 3px solid #cd91ff;
+
+  min-height: 320px;
+  .card-type {
+    p {
+      padding-left: 45px;
+    }
+  }
+  .card-avatar {
+    width: 257px;
+  }
+  .card-data {
+    width: calc(100% - 257px);
+  }
+
+  &-stake {
+    h4 {
+      font-size: 22px;
+      font-family: $bold-font;
+      letter-spacing: 2.2px;
+    }
+    p {
+      font-size: 12px;
+      margin-top: 0px;
+      font-family: $light-font;
+      color: $light-gray;
+      letter-spacing: 0.6px;
+      text-transform: capitalize;
+    }
+    div {
+      &:last-child {
+        margin-top: 15px;
+      }
+    }
+  }
+  .card-links {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+}

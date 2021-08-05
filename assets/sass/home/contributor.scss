@@ -1,0 +1,141 @@
+.contributor-card {
+  border: 3px solid #60e5ff;
+  width: 700px;
+
+  &-nickname {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #b4ccff;
+    text-align: center;
+    font-family: $light-font;
+    letter-spacing: 1.9px;
+  }
+  &-bottom {
+    padding: 0px 20px;
+  }
+  .card-type {
+    p {
+      padding-left: 50px;
+    }
+  }
+  .card-data {
+    width: calc(100% - 230px);
+    padding: 20px 10px 20px 10px;
+  }
+  .card-avatar {
+    width: 230px;
+  }
+
+  &-repos {
+    padding: 10px 5px;
+    flex-wrap: wrap;
+
+    &-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 30px;
+      h5 {
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #60e4ff;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 11px;
+        line-height: 20px;
+        text-align: left;
+
+        color: #d0d0d0;
+        &:last-of-type {
+          margin-bottom: 15px;
+        }
+      }
+      aside {
+        margin-top: auto;
+        border-radius: 20px;
+        padding: 0px 22px;
+        height: 30px;
+        font-size: 12px;
+        width: fit-content;
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      &-ts {
+        padding-right: 20px;
+        aside {
+          border: 2px solid #56baca;
+          color: #56baca;
+          &:before {
+            background: #56baca;
+          }
+        }
+      }
+      &-js {
+        padding-left: 20px;
+        border-left: 2px solid $border-color;
+        aside {
+          border: 2px solid #fcde7b;
+          color: #fcde7b;
+          &:before {
+            background: #fcde7b;
+          }
+        }
+      }
+    }
+    &-top {
+      width: 100%;
+      margin-bottom: 20px;
+      p {
+        letter-spacing: 0.3px;
+        font-size: 15px;
+        font-weight: 400;
+      }
+      img {
+        margin-right: 10px;
+        width: 25px;
+        height: auto;
+      }
+    }
+  }
+  .card-links {
+    margin-top: $basic-margin;
+    margin-bottom: 20px;
+  }
+  &-interests {
+    padding-top: 20px;
+    align-items: center;
+    p {
+      font-size: 13px;
+      text-transform: capitalize;
+    }
+    ul {
+      margin-left: 13px;
+      flex: 1;
+      li {
+        padding: 0px 10px;
+        height: 35px;
+        background: transparent
+          linear-gradient(180deg, #63daff 0%, #69bafc 100%) 0% 0% no-repeat
+          padding-box;
+        border: 1px solid #2d3c41;
+        margin-right: 8px;
+        border-radius: 20px;
+        font-size: 12px;
+        white-space: nowrap;
+        color: #1a1a1a;
+        font-weight: 500;
+        flex-grow: 1;
+        &:last-child {
+          margin: 0px;
+          background: transparent;
+          border: 1px solid #63daff;
+          color: #63daff;
+        }
+      }
+    }
+  }
+}
