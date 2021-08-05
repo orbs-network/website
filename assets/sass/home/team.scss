@@ -1,0 +1,27 @@
+.team-card {
+  width: 650px;
+  border: 3px solid #e5fe00;
+
+  min-height: 330px;
+  .card-avatar {
+    width: 260px;
+    padding: 5px;
+  }
+  .card-data {
+    width: calc(100% - 260px);
+  }
+
+  .card-text {
+    padding: 0px;
+    p {
+      text-align: left;
+    }
+  }
+  &-sub-title {
+    text-align: center;
+    letter-spacing: 0.85px;
+    font-family: $bold-font;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+}

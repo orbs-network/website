@@ -1,0 +1,79 @@
+import React from "react";
+import { cardsWeights } from "../../../../../assets/js/consts/consts";
+import { images } from "../../../../../assets/js/images";
+import { handleUrl } from "../../../../util/link";
+import Img from "../../../shared/Img";
+import InnerLinks from "../../../shared/inner-links";
+import { Border } from "../components/border";
+import CardTitle from "../components/card-title";
+import CardTooltip from "../components/card-tooltip";
+import Interests from "./interests";
+import Repos from "./repos";
+const Contributor = (props) => {
+  const {
+    _relativeURL,
+    _ID,
+    nickname,
+    image,
+    date,
+    location,
+    email,
+    github,
+    website,
+    interestsList,
+    type,
+    name,
+    joind,
+    interestsTitle,
+  } = props;
+  const generateUrl = (url) => {
+    return handleUrl(url, _relativeURL, _ID);
+  };
+  const links = { email, github, website };
+  return (
+    <div
+      className="globe-card contributor-card"
+      data-weight={cardsWeights.contributor}
+    >
+      <figure className="card-avatar">
+        <CardTooltip
+          img={generateUrl(images.globe.contributor.figure)}
+          type={type}
+        />
+        <Img
+          src={generateUrl(image)}
+          className="card-avatar-img"
+          alt="contributor avatar"
+        />
+      </figure>
+      <div className="card-data">
+        <CardTitle title={name} />
+        <p className="contributor-card-nickname">@{nickname}</p>
+        <span className="flex-center card-location">
+          <Img
+            src={generateUrl(images.globe.contributor.location)}
+            alt="location icon"
+          />
+          <p>{location}</p>
+        </span>
+        <InnerLinks
+          links={links}
+          section={images.globe.contributor}
+          generateUrl={generateUrl}
+        />
+
+        <Border />
+        <div className="contributor-card-bottom">
+          <span className="flex-center card-date">
+            <p>{`${joind}: ${date}`}</p>
+          </span>
+
+          <Repos {...props} generateUrl={generateUrl} />
+          <Interests interests={interestsList} title={interestsTitle} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contributor;

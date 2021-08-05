@@ -1,5 +1,5 @@
 ---
-layout: partials/home/cards/cards-container
+layout: partials/home/cards/container/index
 list:
   - daniel-peled.md
   - netta-korin.md
