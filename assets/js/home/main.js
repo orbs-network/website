@@ -19,6 +19,8 @@ class GlobeHandler {
             .polygonLabel(({properties: p}) => p.NAME_LONG)
             .polygonAltitude(0.01)
             .atmosphereColor('#00ffff')
+            .pointAltitude(0.005)
+            .pointRadius(0.6)
 
         // Auto-rotate
         const controls = this.world.controls()
@@ -101,6 +103,19 @@ class GlobeHandler {
 
         if (this.finishedWelcome) {
 
+            this.arcsData = this.arcsData || []
+
+            if (this.arcsData.length !== cardsData.length) {
+
+                this.arcsData.push({
+                    startLat: currentCardData.lat,
+                    startLng: currentCardData.lng,
+                    endLat: nextCardData.lat,
+                    endLng: nextCardData.lng
+                })
+
+            }
+
             this.world.controls().autoRotateSpeed = 0.1
 
             this.world
@@ -111,14 +126,7 @@ class GlobeHandler {
                     cardsData
                 )
                 .arcsData(
-                    [
-                        {
-                            startLat: currentCardData.lat,
-                            startLng: currentCardData.lng,
-                            endLat: nextCardData.lat,
-                            endLng: nextCardData.lng
-                        }
-                    ]
+                    this.arcsData
                 )
                 .pointOfView(
                     Object.assign({altitude: 3}, currentCardData),
