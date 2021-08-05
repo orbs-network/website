@@ -9,7 +9,6 @@ telegram: /
 effectiveStake: 60
 totalStake: 203450000
 type: guardian
-text:
-  effectiveStake: effective stake
-  totalStake: total stake
+effectiveStakeText: effective stake
+totalStakeText: total stake
 ---
