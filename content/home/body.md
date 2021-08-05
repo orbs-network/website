@@ -1,7 +1,7 @@
 ---
-layout: partials/home/main
+layout: partials/home/index
 cards:
-  - cards/cards.md
+  - cards/index.md
 globe_image: /assets/img/globe/globe.png
 globe_video: /assets/video/background.mp4
 socials:

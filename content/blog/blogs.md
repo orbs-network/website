@@ -1,6 +1,30 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - defi-org-twitter-tool/blog.md
+  - qatari-aid-and-cbdc-can-change-international-giving/blog.md
+  - orbs-staking-is-now-available-on-dcent-wallet-mobile-app/blog.md
+  - how-to-bridge-orbs-tokens-onto-the-polygon-network/blog.md
+  - orbs-added-to-wowswap/blog.md
+  - how-to-use-the-orbs-pool-on-alpaca-finance/blog.md
+  - how-to-use-the-orbs-vault-on-beefy-finance/blog.md
+  - are-your-bitcoins-clean-or-dirty/blog.md
+  - orbs-added-to-alpaca-finance-vaults/blog.md
+  - orbs-added-to-beefy-finance-vaults/blog.md
+  - orbs-ecosystem-expansion-whats-next/blog.md
+  - orbs-on-bsc-status-update/blog.md
+  - orbs-staking-is-now-available-on-token-pocket-wallet-mobile-app/blog.md
+  - orbs-is-now-live-on-bscscan/blog.md
+  - everything-you-need-to-know-about-the-orbs-syrup-pool-on-pancakeswap/blog.md
+  - orbs-launches-a-syrup-pool-on-pancakeswap/blog.md
+  - could-china-force-a-cleaner-bitcoin/blog.md
+  - orbs-is-now-live-on-1inch-exchange/blog.md
+  - bitbns-exchange-lists-orbs-token-orbs/blog.md
+  - el-salvador-adopts-bitcoin/blog.md
+  - orbs-sponsors-chainlinks-price-data-feed/blog.md
+  - response-to-krugmans-column-in-nyt/blog.md
+  - orbs-is-now-live-on-kyber-dmm/blog.md
+  - tracking-gaza-terror-funding/blog.md
   - orbs-pos-info-app-is-now-launched/blog.md
   - orbs-integrated-with-the-graph-protocol-thegraph-com/blog.md
   - understanding-bitcoin-mixers/blog.md

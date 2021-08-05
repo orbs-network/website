@@ -1,0 +1,65 @@
+.delegator-card {
+  border: 3px solid #d0fb6e;
+
+  &-bottom {
+    padding: 0px 15px;
+  }
+  &-interests {
+    margin-bottom: 20px;
+    h5,
+    li {
+      font-size: 12px;
+      letter-spacing: 0.6px;
+      color: #d9d9d9;
+    }
+    h5 {
+      font-family: $bold-font;
+    }
+    li {
+      font-family: $light-font;
+      margin-left: 5px;
+    }
+  }
+  .text-p {
+    margin: 0px;
+  }
+  .card-avatar {
+    width: 260px;
+  }
+  .card-data {
+    width: calc(100% - 260px);
+  }
+  .card-links {
+    margin: 10px 0px 20px 0px;
+  }
+  &-wallets {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    h5 {
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-family: $light-font;
+      text-align: center;
+      letter-spacing: 0.8px;
+      color: #d9d9d9;
+    }
+    figure {
+      img {
+        width: 130px;
+        height: auto;
+      }
+    }
+  }
+  .card-text {
+    .card-quotes {
+      color: $delegator-color;
+    }
+    .text-p {
+      font-size: 12px;
+    }
+  }
+}
