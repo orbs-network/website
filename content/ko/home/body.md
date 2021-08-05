@@ -1,5 +1,5 @@
 ---
-layout: partials/home/main
+layout: partials/home/index
 cards:
   - cards/cards.md
 globe_image: /assets/img/globe/globe.png

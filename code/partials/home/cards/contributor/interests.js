@@ -3,7 +3,7 @@ import React from "react";
 const Interests = ({ title, interests }) => {
   const limit = 3;
   return (
-    <section className="c-card-interests flex-start">
+    <section className="contributor-card-interests flex-start">
       <p>{title}</p>
       <ul className="flex-start">
         {interests &&
@@ -16,7 +16,7 @@ const Interests = ({ title, interests }) => {
               );
             }
           })}
-        {interests.length > limit && (
+        {interests && interests.length > limit && (
           <li className="flex-center">{`+ ${interests.length - limit}`}</li>
         )}
       </ul>

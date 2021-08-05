@@ -1660,16 +1660,308 @@ body {
     transform: translate(-50%);
     top: -33px; } }
 
+.contributor-card {
+  border: 3px solid #60e5ff;
+  width: 700px; }
+  .contributor-card-nickname {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #b4ccff;
+    text-align: center;
+    font-family: "light";
+    letter-spacing: 1.9px; }
+  .contributor-card-bottom {
+    padding: 0px 20px; }
+  .contributor-card .card-type p {
+    padding-left: 50px; }
+  .contributor-card .card-data {
+    width: calc(100% - 230px);
+    padding: 20px 10px 20px 10px; }
+  .contributor-card .card-avatar {
+    width: 230px; }
+  .contributor-card-repos {
+    padding: 10px 5px;
+    flex-wrap: wrap; }
+    .contributor-card-repos-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 30px; }
+      .contributor-card-repos-section h5 {
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #60e4ff;
+        font-weight: 500; }
+      .contributor-card-repos-section p {
+        font-size: 11px;
+        line-height: 20px;
+        text-align: left;
+        color: #d0d0d0; }
+        .contributor-card-repos-section p:last-of-type {
+          margin-bottom: 15px; }
+      .contributor-card-repos-section aside {
+        margin-top: auto;
+        border-radius: 20px;
+        padding: 0px 22px;
+        height: 30px;
+        font-size: 12px;
+        width: fit-content;
+        position: relative;
+        display: flex;
+        align-items: center; }
+      .contributor-card-repos-section-ts {
+        padding-right: 20px; }
+        .contributor-card-repos-section-ts aside {
+          border: 2px solid #56baca;
+          color: #56baca; }
+          .contributor-card-repos-section-ts aside:before {
+            background: #56baca; }
+      .contributor-card-repos-section-js {
+        padding-left: 20px;
+        border-left: 2px solid #333333; }
+        .contributor-card-repos-section-js aside {
+          border: 2px solid #fcde7b;
+          color: #fcde7b; }
+          .contributor-card-repos-section-js aside:before {
+            background: #fcde7b; }
+    .contributor-card-repos-top {
+      width: 100%;
+      margin-bottom: 20px; }
+      .contributor-card-repos-top p {
+        letter-spacing: 0.3px;
+        font-size: 15px;
+        font-weight: 400; }
+      .contributor-card-repos-top img {
+        margin-right: 10px;
+        width: 25px;
+        height: auto; }
+  .contributor-card .card-links {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .contributor-card-interests {
+    padding-top: 20px;
+    align-items: center; }
+    .contributor-card-interests p {
+      font-size: 13px;
+      text-transform: capitalize; }
+    .contributor-card-interests ul {
+      margin-left: 13px;
+      flex: 1; }
+      .contributor-card-interests ul li {
+        padding: 0px 10px;
+        height: 35px;
+        background: transparent linear-gradient(180deg, #63daff 0%, #69bafc 100%) 0% 0% no-repeat padding-box;
+        border: 1px solid #2d3c41;
+        margin-right: 8px;
+        border-radius: 20px;
+        font-size: 12px;
+        white-space: nowrap;
+        color: #1a1a1a;
+        font-weight: 500;
+        flex-grow: 1; }
+        .contributor-card-interests ul li:last-child {
+          margin: 0px;
+          background: transparent;
+          border: 1px solid #63daff;
+          color: #63daff; }
+
+.delegator-card {
+  border: 3px solid #d0fb6e; }
+  .delegator-card-bottom {
+    padding: 0px 15px; }
+  .delegator-card-interests {
+    margin-bottom: 20px; }
+    .delegator-card-interests h5,
+    .delegator-card-interests li {
+      font-size: 12px;
+      letter-spacing: 0.6px;
+      color: #d9d9d9; }
+    .delegator-card-interests h5 {
+      font-family: "bold"; }
+    .delegator-card-interests li {
+      font-family: "light";
+      margin-left: 5px; }
+  .delegator-card .text-p {
+    margin: 0px; }
+  .delegator-card .card-avatar {
+    width: 260px; }
+  .delegator-card .card-data {
+    width: calc(100% - 260px); }
+  .delegator-card .card-links {
+    margin: 10px 0px 20px 0px; }
+  .delegator-card-wallets {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between; }
+    .delegator-card-wallets h5 {
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-family: "light";
+      text-align: center;
+      letter-spacing: 0.8px;
+      color: #d9d9d9; }
+    .delegator-card-wallets figure img {
+      width: 130px;
+      height: auto; }
+  .delegator-card .card-text .card-quotes {
+    color: #d0fb6e; }
+  .delegator-card .card-text .text-p {
+    font-size: 12px; }
+
+.guardian-card {
+  border: 3px solid #cd91ff;
+  min-height: 320px; }
+  .guardian-card .card-type p {
+    padding-left: 45px; }
+  .guardian-card .card-avatar {
+    width: 257px; }
+  .guardian-card .card-data {
+    width: calc(100% - 257px); }
+  .guardian-card-stake h4 {
+    font-size: 22px;
+    font-family: "bold";
+    letter-spacing: 2.2px; }
+  .guardian-card-stake p {
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: "light";
+    color: #d0d0d0;
+    letter-spacing: 0.6px;
+    text-transform: capitalize; }
+  .guardian-card-stake div:last-child {
+    margin-top: 15px; }
+  .guardian-card .card-links {
+    margin-bottom: 20px;
+    margin-top: 10px; }
+
+.team-card {
+  width: 650px;
+  border: 3px solid #e5fe00;
+  min-height: 330px; }
+  .team-card .card-avatar {
+    width: 260px;
+    padding: 5px; }
+  .team-card .card-data {
+    width: calc(100% - 260px); }
+  .team-card .card-text {
+    padding: 0px; }
+    .team-card .card-text p {
+      text-align: left; }
+  .team-card-sub-title {
+    text-align: center;
+    letter-spacing: 0.85px;
+    font-family: "bold";
+    margin-bottom: 15px;
+    font-size: 12px; }
+
+.paper-card {
+  border: 3px solid #ff7c00;
+  align-items: center;
+  padding: 20px 40px;
+  width: 490px; }
+  .paper-card-category {
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-family: "bold";
+    margin-bottom: 10px; }
+  .paper-card .card-title {
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .paper-card-sub-title {
+    color: #ff7c00;
+    font-family: "bold";
+    letter-spacing: 0.8px;
+    font-family: 16px;
+    margin: auto;
+    text-align: center; }
+  .paper-card .card-date {
+    margin-top: 0px; }
+    .paper-card .card-date h5 {
+      color: #ff7c00;
+      margin-right: 5px; }
+  .paper-card-img {
+    width: 100%;
+    height: 320px;
+    position: relative; }
+    .paper-card-img img {
+      width: 100%;
+      height: calc(100% + 60px);
+      object-fit: cover;
+      position: absolute;
+      top: -50px; }
+  .paper-card-link {
+    background: #ff7c00;
+    color: white;
+    height: 45px; }
+
+.blog-card {
+  align-items: center;
+  padding: 23px 50px 23px 50px;
+  border: 3px solid #00bfe8;
+  width: 466px; }
+  .blog-card .card-top-subtitle {
+    margin-bottom: 10px; }
+  .blog-card .card-title {
+    text-transform: uppercase; }
+  .blog-card .card-date p {
+    font-family: "light"; }
+  .blog-card-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 175px; }
+    .blog-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .blog-card .card-link-btn {
+    background: #00d9c4;
+    color: #00100c;
+    height: 37px;
+    padding: 0px 37px; }
+  .blog-card .card-text p {
+    font-size: 12px;
+    line-height: 22px; }
+
+.use-case-card {
+  padding: 20px 30px 20px 30px;
+  border: 3px solid #00d9c4; }
+  .use-case-card-flex {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .use-case-card-flex-element {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .use-case-card-flex-element h5 {
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-size: 12px; }
+      .use-case-card-flex-element figure {
+        width: 50%;
+        height: 120px;
+        margin-top: 15px; }
+        .use-case-card-flex-element figure img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+
 .globe-card {
   overflow: hidden;
   border-radius: 10px;
   position: fixed;
   z-index: 9999999;
   background: #1a1a1a;
-  display: flex;
-  visibility: hidden;
+  display: none;
+  left: 50%;
+  top: 50%;
   justify-content: space-between;
-  transform: scale(0) translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   transform-origin: top left; }
   .globe-card .inner-links {
     margin-bottom: 20px; }
@@ -1812,297 +2104,6 @@ body {
     font-size: 14px;
     font-family: "Montserrat";
     letter-spacing: 0.84px; }
-
-.c-card {
-  border: 3px solid #60e5ff;
-  width: 700px; }
-  .c-card-nickname {
-    margin-top: 10px;
-    font-size: 15px;
-    color: #b4ccff;
-    text-align: center;
-    font-family: "light";
-    letter-spacing: 1.9px; }
-  .c-card-bottom {
-    padding: 0px 20px; }
-  .c-card .card-type p {
-    padding-left: 50px; }
-  .c-card .card-data {
-    width: calc(100% - 230px);
-    padding: 20px 10px 20px 10px; }
-  .c-card .card-avatar {
-    width: 230px; }
-  .c-card-repos {
-    padding: 10px 5px;
-    flex-wrap: wrap; }
-    .c-card-repos-section {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 30px; }
-      .c-card-repos-section h5 {
-        text-align: left;
-        font-size: 15px;
-        margin-bottom: 10px;
-        color: #60e4ff;
-        font-weight: 500; }
-      .c-card-repos-section p {
-        font-size: 11px;
-        line-height: 20px;
-        text-align: left;
-        color: #d0d0d0; }
-        .c-card-repos-section p:last-of-type {
-          margin-bottom: 15px; }
-      .c-card-repos-section aside {
-        margin-top: auto;
-        border-radius: 20px;
-        padding: 0px 22px;
-        height: 30px;
-        font-size: 12px;
-        width: fit-content;
-        position: relative;
-        display: flex;
-        align-items: center; }
-      .c-card-repos-section-ts {
-        padding-right: 20px; }
-        .c-card-repos-section-ts aside {
-          border: 2px solid #56baca;
-          color: #56baca; }
-          .c-card-repos-section-ts aside:before {
-            background: #56baca; }
-      .c-card-repos-section-js {
-        padding-left: 20px;
-        border-left: 2px solid #333333; }
-        .c-card-repos-section-js aside {
-          border: 2px solid #fcde7b;
-          color: #fcde7b; }
-          .c-card-repos-section-js aside:before {
-            background: #fcde7b; }
-    .c-card-repos-top {
-      width: 100%;
-      margin-bottom: 20px; }
-      .c-card-repos-top p {
-        letter-spacing: 0.3px;
-        font-size: 15px;
-        font-weight: 400; }
-      .c-card-repos-top img {
-        margin-right: 10px;
-        width: 25px;
-        height: auto; }
-  .c-card .card-links {
-    margin-top: 10px;
-    margin-bottom: 20px; }
-  .c-card-interests {
-    padding-top: 20px;
-    align-items: center; }
-    .c-card-interests p {
-      font-size: 13px;
-      text-transform: capitalize; }
-    .c-card-interests ul {
-      margin-left: 13px;
-      flex: 1; }
-      .c-card-interests ul li {
-        padding: 3px 10px;
-        background: transparent linear-gradient(180deg, #63daff 0%, #69bafc 100%) 0% 0% no-repeat padding-box;
-        border: 1px solid #2d3c41;
-        margin-right: 8px;
-        border-radius: 20px;
-        font-size: 12px;
-        white-space: nowrap;
-        color: #1a1a1a;
-        font-weight: 500;
-        flex-grow: 1; }
-        .c-card-interests ul li:last-child {
-          margin: 0px;
-          background: transparent;
-          border: 1px solid #63daff;
-          color: #63daff; }
-
-.d-card {
-  border: 3px solid #d0fb6e; }
-  .d-card-bottom {
-    padding: 0px 15px; }
-  .d-card-interests {
-    margin-bottom: 20px; }
-    .d-card-interests h5,
-    .d-card-interests li {
-      font-size: 12px;
-      letter-spacing: 0.6px;
-      color: #d9d9d9; }
-    .d-card-interests h5 {
-      font-family: "bold"; }
-    .d-card-interests li {
-      font-family: "light";
-      margin-left: 5px; }
-  .d-card .text-p {
-    margin: 0px; }
-  .d-card .card-avatar {
-    width: 260px; }
-  .d-card .card-data {
-    width: calc(100% - 260px); }
-  .d-card .card-links {
-    margin: 10px 0px 20px 0px; }
-  .d-card-wallets {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-    margin-bottom: 20px;
-    justify-content: space-between; }
-    .d-card-wallets h5 {
-      width: 100%;
-      margin-bottom: 20px;
-      font-size: 14px;
-      font-family: "light";
-      text-align: center;
-      letter-spacing: 0.8px;
-      color: #d9d9d9; }
-    .d-card-wallets figure img {
-      width: 130px;
-      height: auto; }
-  .d-card .card-text .card-quotes {
-    color: #d0fb6e; }
-  .d-card .card-text .text-p {
-    font-size: 12px; }
-
-.g-card {
-  border: 3px solid #cd91ff;
-  min-height: 350px; }
-  .g-card .card-type p {
-    padding-left: 45px; }
-  .g-card .card-avatar {
-    width: 257px; }
-  .g-card .card-data {
-    width: calc(100% - 257px); }
-  .g-card-stake h4 {
-    font-size: 22px;
-    font-family: "bold";
-    letter-spacing: 2.2px; }
-  .g-card-stake p {
-    font-size: 12px;
-    margin-top: 0px;
-    font-family: "light";
-    color: #d0d0d0;
-    letter-spacing: 0.6px;
-    text-transform: capitalize; }
-  .g-card-stake div:last-child {
-    margin-top: 15px; }
-  .g-card .card-links {
-    margin-bottom: 20px;
-    margin-top: 10px; }
-
-.r-paper {
-  border: 3px solid #ff7c00;
-  align-items: center;
-  padding: 20px 40px;
-  width: 490px; }
-  .r-paper-category {
-    letter-spacing: 0.8px;
-    font-size: 16px;
-    font-family: "bold";
-    margin-bottom: 10px; }
-  .r-paper .card-title {
-    text-transform: uppercase;
-    margin-bottom: 10px; }
-  .r-paper-sub-title {
-    color: #ff7c00;
-    font-family: "bold";
-    letter-spacing: 0.8px;
-    font-family: 16px;
-    margin: auto;
-    text-align: center; }
-  .r-paper .card-date {
-    margin-top: 0px; }
-    .r-paper .card-date h5 {
-      color: #ff7c00;
-      margin-right: 5px; }
-  .r-paper-img {
-    width: 100%;
-    height: 320px;
-    position: relative; }
-    .r-paper-img img {
-      width: 100%;
-      height: calc(100% + 60px);
-      object-fit: cover;
-      position: absolute;
-      top: -50px;
-      opacity: 0.2; }
-  .r-paper-link {
-    background: #ff7c00;
-    color: white;
-    height: 45px; }
-
-.blog-post {
-  align-items: center;
-  padding: 23px 50px 23px 50px;
-  border: 3px solid #00bfe8;
-  width: 466px; }
-  .blog-post .card-top-subtitle {
-    margin-bottom: 10px; }
-  .blog-post .card-title {
-    text-transform: uppercase; }
-  .blog-post .card-date p {
-    font-family: "light"; }
-  .blog-post-img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 175px; }
-    .blog-post-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; }
-  .blog-post .card-link-btn {
-    background: #00d9c4;
-    color: #00100c;
-    height: 37px;
-    padding: 0px 37px; }
-  .blog-post .card-text p {
-    font-size: 12px;
-    line-height: 22px; }
-
-.u-card {
-  padding: 20px 30px 20px 30px;
-  border: 3px solid #00d9c4; }
-  .u-card-flex {
-    margin-top: 30px;
-    margin-bottom: 30px; }
-    .u-card-flex-element {
-      width: fit-content;
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .u-card-flex-element h5 {
-        white-space: nowrap;
-        text-transform: uppercase;
-        font-size: 12px; }
-      .u-card-flex-element figure {
-        width: 50%;
-        height: 120px;
-        margin-top: 15px; }
-        .u-card-flex-element figure img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover; }
-
-.team-card {
-  width: 650px;
-  border: 3px solid #e5fe00;
-  min-height: 330px; }
-  .team-card .card-avatar {
-    width: 260px;
-    padding: 5px; }
-  .team-card .card-data {
-    width: calc(100% - 260px); }
-  .team-card .card-text {
-    padding: 0px; }
-    .team-card .card-text p {
-      text-align: left; }
-  .team-card-sub-title {
-    text-align: center;
-    letter-spacing: 0.85px;
-    font-family: "bold";
-    margin-bottom: 15px;
-    font-size: 12px; }
 
 @media only screen and (max-width: 1400px) {
   .globe-card {
@@ -3136,10 +3137,13 @@ body {
   .single-blog-body .image {
     height: auto;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     .single-blog-body .image img {
-      width: 100%;
-      height: 100%;
+      width: auto;
+      height: auto;
       object-fit: cover; }
   .single-blog-body .line-separator {
     background: #ebebeb;

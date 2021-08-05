@@ -14,20 +14,20 @@ const Repos = ({
   generateUrl,
 }) => {
   return (
-    <section className="flex-between c-card-repos">
-      <div className="c-card-repos-top flex-center">
+    <section className="flex-between contributor-card-repos">
+      <div className="contributor-card-repos-top flex-center">
         <Img
           src={generateUrl(images.globe.contributor.repo)}
           alt="repository icon"
         />
         <p>{repositoriesTitle}</p>
       </div>
-      <span className="c-card-repos-section c-card-repos-section-ts">
+      <span className="contributor-card-repos-section c-card-repos-section-ts">
         <h5>{firstRepositoryTitle}</h5>
         <p>{firstRepositoryText}</p>
         <aside>{firstRepositoryLanguage}</aside>
       </span>
-      <span className="c-card-repos-section c-card-repos-section-js">
+      <span className="contributor-card-repos-section contributor-card-repos-section-js">
         <h5 className="capitalize">{secondRepositoryTitle}</h5>
         <p>{secondRepositoryText}</p>
         <aside>{secondRepositoryLanguage}</aside>
