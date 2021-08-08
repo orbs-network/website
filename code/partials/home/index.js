@@ -1,19 +1,6 @@
 import React from "react";
-import Img from "../shared/Img";
 
-const Main = ({
-  globe_image,
-  _relativeURL,
-  _ID,
-  socials,
-  mobile_btn,
-  title,
-  globe_video,
-  cards,
-}) => {
-  const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
-  };
+const Main = ({ socials, mobile_btn, title, cards }) => {
   return (
     <main className="home">
       <div className="home-flex main-grid flex-start">
@@ -24,17 +11,21 @@ const Main = ({
           {socials}
         </div>
         {cards}
-        {/* {globe_video ? (
-          <video className="home-video" autoPlay poster loop muted>
-            <source src={generateUrl(globe_video)} type="video/mp4" />
-          </video>
-        ) : (
-          <Img
-            src={generateUrl(globe_image)}
-            alt="earth"
-            className="home-globe-image home-flex-right"
-          />
-        )} */}
+        <div
+          id="globeArea"
+          style={{ left: "0", top: 0, position: "fixed" }}
+        ></div>
+
+        <div
+          id="guardianDetails"
+          style={{
+            display: "none",
+            position: "absolute",
+            right: "10vw",
+            bottom: "30vh",
+            width: "20vw",
+          }}
+        ></div>
       </div>
     </main>
   );
