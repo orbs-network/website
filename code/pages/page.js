@@ -1,6 +1,5 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
-import AppLoader from "../partials/shared/app-loader";
 import ScrollTop from "../partials/shared/scroll-top";
 import { handleUrl } from "../util/link";
 
@@ -32,15 +31,22 @@ const Page = ({
         ></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossOrigin="anonymous"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js"></script>
+        <script src="//unpkg.com/globe.gl"></script>
+        <script type="module" src={generateUrl(`/assets/js/home/main.js`)} />
         <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
         />
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
-      <AppLoader generateUrl={generateUrl} />
       <body style={{ background: colors.main }}>
-        <div style={{ opacity: 0 }} className="app-wrapper">
+        <div className="app-wrapper">
           {header}
           {main}
           {subscribe && subscribe}

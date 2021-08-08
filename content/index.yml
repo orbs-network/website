@@ -1,5 +1,5 @@
 layout: pages/page
-script: globe/index
+script: home/main
 header:
   - _shared/navbar/index.md
 main:
