@@ -1,6 +1,5 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
-import AppLoader from "../partials/shared/app-loader";
 import ScrollTop from "../partials/shared/scroll-top";
 import { handleUrl } from "../util/link";
 
@@ -46,9 +45,8 @@ const Page = ({
         />
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
-      <AppLoader generateUrl={generateUrl} />
       <body style={{ background: colors.main }}>
-        <div style={{ opacity: 0 }} className="app-wrapper">
+        <div className="app-wrapper">
           {header}
           {main}
           {subscribe && subscribe}

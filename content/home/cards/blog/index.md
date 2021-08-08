@@ -2,5 +2,9 @@
 layout: partials/home/cards/container/index
 
 list:
-  - /blog/orbs-and-krystal-announce-a-partnership-focused-on-defi/blog.md
+  - item-1.md
+  - item-2.md
+  - item-3.md
+  - item-4.md
+  - item-5.md
 ---
