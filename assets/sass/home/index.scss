@@ -1,0 +1,118 @@
+@import "./cards.scss";
+
+.home {
+  padding-top: 110px;
+  background: #000001;
+  position: relative;
+  overflow: hidden;
+  .title {
+    text-align: left;
+  }
+
+  .link-btn {
+    margin: 0px;
+    margin-top: 30px;
+    font-family: "light";
+    min-height: 50px;
+    display: flex;
+    z-index: 99;
+    font-size: 0.75rem;
+  }
+
+  &-flex {
+    align-items: flex-start;
+    position: relative;
+    &-left {
+      z-index: 100;
+      position: relative;
+      padding-top: 28vh;
+
+      h2 {
+        font-size: 1.375rem;
+        font-family: $light-font;
+        text-transform: uppercase;
+        letter-spacing: 0.138rem;
+      }
+      h1 {
+        font-size: 2.063rem;
+        letter-spacing: 0.206rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .socials {
+        margin-top: 18vh;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .home {
+    &-globe-image {
+      right: -30vw;
+    }
+  }
+}
+
+@media only screen and (max-width: $medium) {
+  .home {
+    &-flex-left {
+      h2 {
+        font-size: 1.125rem;
+        letter-spacing: 0.138rem;
+      }
+      h1 {
+        font-size: 1.563rem;
+        letter-spacing: 0.13rem;
+      }
+    }
+    &-globe-image {
+      transform: translate(180px);
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .home {
+    .title {
+      text-align: center;
+    }
+    .link-btn {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      z-index: 99;
+      padding: 8px 40px 8px 20px;
+      margin-bottom: 0px;
+      &-arrow {
+        right: 15px;
+      }
+    }
+    &-flex {
+      width: 100%;
+      overflow: hidden;
+
+      flex-direction: column;
+      &-left {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: flex-start;
+        height: auto;
+        text-align: center;
+        .socials {
+          display: none;
+        }
+      }
+    }
+    &-globe-image {
+      transform: none;
+      width: 345vw;
+      position: relative;
+      left: 50%;
+      right: auto;
+      transform: translate(-50%);
+      top: -33px;
+    }
+  }
+}

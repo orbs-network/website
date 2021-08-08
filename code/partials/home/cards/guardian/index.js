@@ -1,73 +1,16 @@
 import React from "react";
-import { cardsWeights } from "../../../../../assets/js/consts/consts";
-import { images } from "../../../../../assets/js/images";
-import { handleUrl } from "../../../../util/link";
-import Img from "../../../shared/Img";
-import InnerLinks from "../../../shared/inner-links";
-import CardTitle from "../components/card-title";
-import CardTooltip from "../components/card-tooltip";
-import { formatNumber } from "../../../../util/numberUtil";
-const Guardian = ({
-  image,
-  name,
-  location,
-  text,
-  _relativeURL,
-  _ID,
-  effectiveStake,
-  totalStake,
-  website,
-  github,
-  telegram,
-  type,
-}) => {
-  const generateUrl = (url) => {
-    return handleUrl(url, _relativeURL, _ID);
-  };
-  const links = {
-    website,
-    github,
-    telegram,
-  };
+
+const Guardian = ({ name, website, location, countryCode, lat, lng }) => {
   return (
     <div
-      className="globe-card guardian-card"
-      data-weight={cardsWeights.guardian}
+      className="card guardian-card"
+      data-countryCode={countryCode}
+      data-lng={lng}
+      data-lat={lat}
     >
-      <figure className="card-avatar">
-        <CardTooltip
-          img={generateUrl(images.globe.guardian.figure)}
-          type={type}
-        />
-        <Img
-          src={generateUrl(image)}
-          className="card-avatar-img"
-          alt="guardian avatar"
-        />
-      </figure>
-      <div className="card-data">
-        <CardTitle title={name} />
-        <span className="flex-center card-location">
-          <img src={generateUrl(images.globe.guardian.location)} />
-          <p>{location}</p>
-        </span>
-        <InnerLinks
-          links={links}
-          section={images.globe.guardian}
-          generateUrl={generateUrl}
-        />
-
-        <section className="column-center guardian-card-stake">
-          <div className="column-center">
-            <h4>{formatNumber(totalStake)}</h4>
-            <p>{text.totalStake}</p>
-          </div>
-          <div className="column-center">
-            <h4>{`${effectiveStake}%`}</h4>
-            <p>{text.effectiveStake}</p>
-          </div>
-        </section>
-      </div>
+      <h3>{name}</h3>
+      <a href={website}>{website}</a>
+      <h3>{location}</h3>
     </div>
   );
 };

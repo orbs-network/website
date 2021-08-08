@@ -1,76 +1,60 @@
 import React from "react";
-import { cardsWeights } from "../../../../../assets/js/consts/consts";
 import { images } from "../../../../../assets/js/images";
 import { handleUrl } from "../../../../util/link";
-import Img from "../../../shared/Img";
-import InnerLinks from "../../../shared/inner-links";
-import { Border } from "../components/border";
-import CardTitle from "../components/card-title";
-import CardTooltip from "../components/card-tooltip";
-import Interests from "./interests";
-import Repos from "./repos";
-const Contributor = (props) => {
-  const {
-    _relativeURL,
-    _ID,
-    nickname,
-    image,
-    date,
-    location,
-    email,
-    github,
-    website,
-    interestsList,
-    type,
-    name,
-    joind,
-    interestsTitle,
-  } = props;
-  const generateUrl = (url) => {
-    return handleUrl(url, _relativeURL, _ID);
-  };
-  const links = { email, github, website };
+
+const Social = ({ name, url, _relativeURL, _ID }) => {
+  return name ? (
+    <a href={url}>
+      <img src={handleUrl(images.socials[name], _relativeURL, _ID)} />
+    </a>
+  ) : null;
+};
+
+const Contributor = ({
+  name,
+  github,
+  twitter,
+  linkedin,
+  interests,
+  _relativeURL,
+  _ID,
+  countryCode,
+  lat,
+  lng,
+}) => {
   return (
     <div
-      className="globe-card contributor-card"
-      data-weight={cardsWeights.contributor}
+      className="card contributor-card"
+      data-countryCode={countryCode}
+      data-lng={lng}
+      data-lat={lat}
     >
-      <figure className="card-avatar">
-        <CardTooltip
-          img={generateUrl(images.globe.contributor.figure)}
-          type={type}
+      <h3>{name}</h3>
+      <ul className="contributor-card-interests">
+        {interests &&
+          interests.map((interest, key) => {
+            return <li key={key}>{interest}</li>;
+          })}
+      </ul>
+      <div className="contributor-card-socials">
+        <Social
+          name="github"
+          url={github}
+          _relativeURL={_relativeURL}
+          _ID={_ID}
         />
-        <Img
-          src={generateUrl(image)}
-          className="card-avatar-img"
-          alt="contributor avatar"
+        <Social
+          name="twitter"
+          url={twitter}
+          _relativeURL={_relativeURL}
+          _ID={_ID}
         />
-      </figure>
-      <div className="card-data">
-        <CardTitle title={name} />
-        <p className="contributor-card-nickname">@{nickname}</p>
-        <span className="flex-center card-location">
-          <Img
-            src={generateUrl(images.globe.contributor.location)}
-            alt="location icon"
-          />
-          <p>{location}</p>
-        </span>
-        <InnerLinks
-          links={links}
-          section={images.globe.contributor}
-          generateUrl={generateUrl}
+        <Social
+          name="linkedin"
+          url={linkedin}
+          _relativeURL={_relativeURL}
+          _ID={_ID}
         />
-
-        <Border />
-        <div className="contributor-card-bottom">
-          <span className="flex-center card-date">
-            <p>{`${joind}: ${date}`}</p>
-          </span>
-
-          <Repos {...props} generateUrl={generateUrl} />
-          <Interests interests={interestsList} title={interestsTitle} />
-        </div>
       </div>
     </div>
   );

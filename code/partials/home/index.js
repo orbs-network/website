@@ -1,17 +1,6 @@
 import React from "react";
 
-const Main = ({
-  globe_image,
-  _relativeURL,
-  _ID,
-  socials,
-  mobile_btn,
-  title,
-}) => {
-  const generateUrl = (url) => {
-    return `${_relativeURL(url, _ID)}`;
-  };
-
+const Main = ({ socials, mobile_btn, title, cards }) => {
   return (
     <main className="home">
       <div className="home-flex main-grid flex-start">
@@ -21,7 +10,7 @@ const Main = ({
           {mobile_btn}
           {socials}
         </div>
-
+        {cards}
         <div
           id="globeArea"
           style={{ left: "0", top: 0, position: "fixed" }}
