@@ -101,23 +101,6 @@ export const init = () => {
   handleBlogs();
 };
 
-const setFooterTweetsHeight = () => {
-  if (window.innerWidth <= 1000) {
-    return;
-  }
-  const blogContainer = getElement(".footer-blog-list");
-  if (!blogContainer) return;
-  const blogContainerHeight = blogContainer ? blogContainer.clientHeight : 0;
-  try {
-    const tweets = getElement(".footer-tweets-content");
-    tweets.style.height =
-      blogContainerHeight < 200 ? `300px` : `${blogContainerHeight}px`;
-  } catch (error) {
-    console.log(error);
-  }
-};
-
 export default {
   init,
-  setFooterTweetsHeight,
 };

@@ -1,9 +1,9 @@
 ---
 layout: partials/home/cards/container/index
 list:
-  - daniel-peled.md
-  - nadav-shemesh.md
-  - nechama-ben-meir.md
-  - netta-korin.md
-  - ran-hammer.md
+  - daniel-peled/index.md
+  - nadav-shemesh/index.md
+  - nechama-ben-meir/index.md
+  - netta-korin/index.md
+  - ran-hammer/index.md
 ---

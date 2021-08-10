@@ -1,9 +1,9 @@
 ---
 layout: partials/home/cards/container/index
 list:
-  - wings.md
-  - guardian-of-orbs
-  - japan-guardian-orbs
-  - moonstake
-  - whale-core-stake
+  - wings/index.md
+  - guardian-of-orbs/index.md
+  - japan-guardian-orbs/index.md
+  - moonstake/index.md
+  - whale-core-stake/index.md
 ---
