@@ -1,10 +1,10 @@
 ---
 layout: partials/home/cards/container/index
 list:
-  - locking-mechanism.md
-  - orbs-community-console.md
-  - orbs-pos-analytics.md
-  - orbs-pos-v2.md
-  - staking-calculator.md
-  - tetra-staking-wallet.md
+  - locking-mechanism/index.md
+  - orbs-community-console/index.md
+  - orbs-pos-analytics/index.md
+  - orbs-pos-v2/index.md
+  - staking-calculator/index.md
+  - tetra-staking-wallet/index.md
 ---

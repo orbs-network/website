@@ -22,6 +22,7 @@
     }
   }
   &-flex {
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -94,6 +95,8 @@
     }
   }
   &-tweets {
+    height: 320px;
+    overflow: hidden;
     flex: 1;
     padding-left: 40px;
     &-content {
