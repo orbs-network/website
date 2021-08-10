@@ -4,6 +4,19 @@ $pink: #e61ea9;
 $light-blue: #60e4ff;
 $light-gray: #d0d0d0;
 
+.typed-cursor {
+  margin-left: 10px;
+  position: relative;
+  &::after {
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    content: ".";
+    font-size: 100px;
+    color: white;
+  }
+}
+
 .overflow-hidden {
   overflow: hidden;
 }

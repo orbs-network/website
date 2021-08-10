@@ -14,12 +14,6 @@ const handleScrollTopBtn = () => {
   }
 };
 
-const handleResize = () => {
-  window.addEventListener("resize", () => {
-    footer.setFooterTweetsHeight();
-  });
-};
-
 export const scrollToTop = () => {
   const btn = getElement(".scroll-top");
   addEvent(btn, "click", () => {
@@ -48,30 +42,28 @@ export const handleOnScroll = () => {
 };
 
 export const hideAppLoader = () => {
-  window.clearTimeout(loaderTimeOut);
-  const body = getElement("body");
-  const loader = getElement(".app-loader");
-  loader.style.opacity = 0;
-  const appWrapper = getElement(".app-wrapper");
-  appWrapper.style.opacity = 1;
-  setTimeout(() => {
-    body.removeChild(loader);
-  }, 1000);
+  // window.clearTimeout(loaderTimeOut);
+  // const body = getElement("body");
+  // const loader = getElement(".app-loader");
+  // loader.style.opacity = 0;
+  // const appWrapper = getElement(".app-wrapper");
+  // appWrapper.style.opacity = 1;
+  // setTimeout(() => {
+  //   body.removeChild(loader);
+  // }, 1000);
 };
 
 export const showAppLoader = () => {
-  loaderTimeOut = setTimeout(() => {
-    const loader = getElement(".app-loader");
-    loader.style.opacity = 1;
-  }, 250);
+  // loaderTimeOut = setTimeout(() => {
+  //   const loader = getElement(".app-loader");
+  //   loader.style.opacity = 1;
+  // }, 250);
 };
 
 const init = () => {
   handleOnScroll();
   scrollToTop();
   hideAppLoader();
-  handleResize();
-  footer.setFooterTweetsHeight();
 };
 
 export default {
