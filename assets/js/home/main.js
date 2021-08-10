@@ -27,7 +27,7 @@ class GlobeHandler {
     controls.enableZoom = false;
     controls.enablePan = false;
 
-    fetch("/assets/datasets/ne_110m_admin_0_countries.geojson")
+    fetch("/assets/js/home/ne_110m_admin_0_countries.geojson")
       .then((res) => res.json())
       .then((countries) => {
         this.world.polygonsData(countries.features);
