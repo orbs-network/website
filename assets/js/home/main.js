@@ -1,4 +1,4 @@
-import { cardTypes } from "./consts.js";
+import { init } from "../index.js";
 import { getCardDataByType } from "./helpers.js";
 class GlobeHandler {
   constructor(timerHandler) {
@@ -50,12 +50,12 @@ class GlobeHandler {
   getCardsData() {
     const cards = [];
     const cardsHtmlElements = document.querySelectorAll(".card");
+
     cardsHtmlElements.forEach((card, index) => {
       const cardData = getCardDataByType(card, index);
       cards.push(cardData);
       card.remove();
     });
-    console.log(cards);
     return cards;
   }
 
@@ -107,7 +107,21 @@ class GlobeHandler {
       const $guardianDetails = $("#guardianDetails");
 
       $guardianDetails.html(cardData.component);
+      const container = cardData.component.querySelector(".card-title");
 
+      container.innerHTML = `<span class='card-title-text'></span>`;
+
+      try {
+        new Typed(".card-title-text", {
+          strings: [cardData.title],
+          typeSpeed: 50,
+          startDelay: 500,
+          cursorChar: ".",
+          autoInsertCss: true,
+        });
+        const cursor = document.querySelector(".typed-cursor");
+        cursor.innerHTML = "";
+      } catch (error) {}
       $guardianDetails.show();
     }
   }
@@ -117,7 +131,7 @@ class GlobeHandler {
   }
 }
 
-const init = async () => {
+const initGlobe = async () => {
   const ArrayUtils = {
     getRandom: (array, exclude) => {
       let temp = Object.values(array);
@@ -250,5 +264,6 @@ const init = async () => {
 };
 
 window.onload = () => {
+  initGlobe();
   init();
 };
