@@ -10,5 +10,3 @@ countryCode: CL
 ---
 
 Ecosystem: Polygon
-
-Application: Polygon Bridge

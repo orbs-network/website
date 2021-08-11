@@ -10,5 +10,3 @@ countryCode: AT
 ---
 
 Ecosystem: BSC
-
-Application: PancakeSwap

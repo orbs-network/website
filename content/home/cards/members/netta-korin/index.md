@@ -1,10 +1,10 @@
 ---
 layout: partials/home/cards/main/index
-type: member
+type: TEAM
 title: Netta Korin
 links:
-  - hexa.md
-image: /assets/img/team/members/ran.jpg
+  - linekdin.md
+image: /assets/img/team/members/netta.jpg
 lat: 46.603354
 lng: 1.8883335
 countryCode: FR

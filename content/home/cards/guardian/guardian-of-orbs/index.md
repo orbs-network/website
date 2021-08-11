@@ -6,7 +6,6 @@ lat: 35.907757
 lng: 127.766922
 countryCode: KR
 icon: /assets/img/home/guardian.svg
-image: /assets/img/team/members/ran.jpg
 links:
   - website.md
   - location.md

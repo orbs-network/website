@@ -6,7 +6,7 @@
   background: #010010;
   position: relative;
   border: 1px solid #03fcf5;
-  width: 400px;
+  width: 100%;
   display: flex;
   align-items: stretch;
   justify-content: flex-start;
@@ -72,7 +72,7 @@
 
     &-text {
       letter-spacing: 0.6px;
-      font-size: 30px;
+      font-size: 1.875rem;
     }
   }
   &-tooltip {
@@ -123,6 +123,22 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .card {
+    p {
+      margin-bottom: 0px;
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+    }
+    &-title {
+      margin-bottom: 0px;
+      &-text {
+        font-size: 1.375rem;
+      }
     }
   }
 }

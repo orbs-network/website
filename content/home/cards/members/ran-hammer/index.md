@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: member
+type: TEAM
 title: Ran Hammer
 links:
   - linkedin.md

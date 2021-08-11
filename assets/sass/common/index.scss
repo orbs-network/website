@@ -52,6 +52,7 @@ $light-gray: #d0d0d0;
   width: 120px;
   height: 120px;
   position: fixed;
+  transition: 0.5s all;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -62,7 +63,7 @@ $light-gray: #d0d0d0;
   }
 }
 .app-wrapper {
-  transition: 0.2s all;
+  transition: 0.5s all;
 }
 @mixin pink-expend-btn() {
   color: #ff2cbf;

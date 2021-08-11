@@ -42,31 +42,40 @@ export const handleOnScroll = () => {
 };
 
 export const hideAppLoader = () => {
-  // window.clearTimeout(loaderTimeOut);
-  // const body = getElement("body");
-  // const loader = getElement(".app-loader");
-  // loader.style.opacity = 0;
-  // const appWrapper = getElement(".app-wrapper");
-  // appWrapper.style.opacity = 1;
-  // setTimeout(() => {
-  //   body.removeChild(loader);
-  // }, 1000);
+  console.log("test");
+  window.clearTimeout(loaderTimeOut);
+  const body = getElement("body");
+  const loader = getElement(".app-loader");
+  loader.style.opacity = 0;
+  const appWrapper = getElement(".app-wrapper");
+  appWrapper.style.opacity = 1;
+  setTimeout(() => {
+    body.removeChild(loader);
+  }, 1000);
 };
 
 export const showAppLoader = () => {
-  // loaderTimeOut = setTimeout(() => {
-  //   const loader = getElement(".app-loader");
-  //   loader.style.opacity = 1;
-  // }, 250);
+  loaderTimeOut = setTimeout(() => {
+    const loader = getElement(".app-loader");
+    loader.style.opacity = 1;
+  }, 250);
 };
 
+const handleScreenHeightOnMobile = () => {
+  const height = window.innerHeight;
+  if (window.innerWidth <= 600) {
+    const app = document.querySelector(".app-wrapper");
+    app.style.height = `${height}px`;
+  }
+};
 const init = () => {
   handleOnScroll();
   scrollToTop();
-  hideAppLoader();
+  handleScreenHeightOnMobile();
 };
 
 export default {
   init,
   showAppLoader,
+  hideAppLoader,
 };
