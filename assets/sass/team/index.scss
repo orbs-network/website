@@ -376,7 +376,7 @@
     }
     &-content {
       position: relative;
-      height: calc(100vh - 60px);
+      height: calc(100% - 60px);
       width: calc(100vw - 30px);
       transform: translate(0%, 0);
       left: 0px;

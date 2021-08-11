@@ -10,5 +10,3 @@ countryCode: JP
 ---
 
 Ecosystem: Polygon
-
-Application: Polygon Bridge

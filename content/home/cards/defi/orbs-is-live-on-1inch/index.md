@@ -10,5 +10,3 @@ countryCode: AU
 ---
 
 Ecosystem: Ethereum
-
-Application: 1inch

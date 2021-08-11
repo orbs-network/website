@@ -9,11 +9,9 @@ import { GDPR_ACCEPTED } from "./keys.js";
 
 ui.showAppLoader();
 
-export const init = () => {
+export const init = (keepLoader) => {
   history.scrollRestoration = "manual";
-
   window.scrollTo(0, 0);
-
   navbar.init();
   footer.init();
   subscribe.init();
@@ -21,6 +19,9 @@ export const init = () => {
   gdpr.init();
   AOS.init({ once: true });
   setAnalytics(false);
+  if (!keepLoader) {
+    ui.hideAppLoader();
+  }
 };
 
 export const setAnalytics = (allowed) => {
