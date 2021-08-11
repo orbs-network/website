@@ -28,7 +28,8 @@ class GlobeHandler {
     controls.enablePan = false;
 
     const isDev = document.body.getAttribute("data-dev");
-    const pathToGeolocation = isDev
+
+    const pathToGeolocation = JSON.parse(isDev)
       ? "/assets/datasets/ne_110m_admin_0_countries.geojson"
       : "/website/assets/datasets/ne_110m_admin_0_countries.geojson";
     fetch(pathToGeolocation)
