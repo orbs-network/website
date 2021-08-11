@@ -10,5 +10,3 @@ countryCode: BE
 ---
 
 Ecosystem: Ethereum
-
-Application: SushiSwap

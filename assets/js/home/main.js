@@ -1,4 +1,5 @@
 import { init } from "../index.js";
+import { hideAppLoader } from "../ui/ui.js";
 import { getCardDataByType } from "./helpers.js";
 class GlobeHandler {
   constructor(timerHandler) {
@@ -14,7 +15,7 @@ class GlobeHandler {
       .polygonCapColor((feat) => "rgb(0,109,109)")
       .pointOfView({ altitude: 3.8 }, this.timings.welcomeCountryPop * 2)
       .polygonSideColor(() => "rgba(3,252,245,0.04)")
-      .polygonLabel(({ properties: p }) => p.NAME_LONG)
+      // .polygonLabel(({ properties: p }) => p.NAME_LONG)
       .polygonAltitude(0.01)
       .atmosphereColor("#00ffff")
       .pointAltitude(0.005)
@@ -50,6 +51,10 @@ class GlobeHandler {
           }, 2200);
         }, 2000);
       });
+    window.addEventListener("resize", (event) => {
+      this.world.width([event.target.innerWidth]);
+      this.world.height([event.target.innerHeight]);
+    });
   }
 
   getCardsData() {
@@ -127,12 +132,12 @@ class GlobeHandler {
         const cursor = document.querySelector(".typed-cursor");
         cursor.innerHTML = "";
       } catch (error) {}
-      $guardianDetails.show();
+      $guardianDetails.fadeIn();
     }
   }
 
   hideCard() {
-    $("#guardianDetails").hide();
+    $("#guardianDetails").fadeOut();
   }
 }
 
@@ -256,7 +261,7 @@ const initGlobe = async () => {
   };
 
   await changeCard(true);
-
+  hideAppLoader();
   while (true) {
     await delay(1000);
 
@@ -268,7 +273,7 @@ const initGlobe = async () => {
   }
 };
 
-window.onload = () => {
-  initGlobe();
-  init();
+window.onload = async () => {
+  init(true);
+  await initGlobe();
 };
