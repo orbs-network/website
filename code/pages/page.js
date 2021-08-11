@@ -1,5 +1,6 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
+import AppLoader from "../partials/shared/app-loader";
 import ScrollTop from "../partials/shared/scroll-top";
 import { isProduction } from "../util/env";
 import { handleUrl } from "../util/link";
@@ -49,7 +50,8 @@ const Page = ({
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
       <body style={{ background: colors.main }} data-dev={!isProduction()}>
-        <div className="app-wrapper">
+        <AppLoader generateUrl={generateUrl} />
+        <div className="app-wrapper" style={{ opacity: 0 }}>
           {header}
           {main}
           {subscribe && subscribe}

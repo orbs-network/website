@@ -10,5 +10,3 @@ countryCode: BR
 ---
 
 Ecosystem: BSC
-
-Application: BSC Bridge
