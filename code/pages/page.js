@@ -1,6 +1,7 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
 import ScrollTop from "../partials/shared/scroll-top";
+import { isProduction } from "../util/env";
 import { handleUrl } from "../util/link";
 
 const Page = ({
@@ -47,7 +48,7 @@ const Page = ({
 
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
-      <body style={{ background: colors.main }}>
+      <body style={{ background: colors.main }} data-dev={!isProduction()}>
         <div className="app-wrapper">
           {header}
           {main}
