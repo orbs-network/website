@@ -70,10 +70,15 @@
     min-height: 35px;
     position: relative;
 
+    * {
+      color: #03fcf5;
+    }
+    .typed-cursor::after {
+      color: #03fcf5;
+    }
     &-text {
       letter-spacing: 0.6px;
       font-size: 1.5rem;
-      color: #03fcf5;
     }
   }
   &-tooltip {

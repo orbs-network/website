@@ -282,7 +282,10 @@
 
 .menu-burger {
   display: flex;
+
   &-toggle {
+    position: relative;
+    top: -2px;
     display: flex;
     background: transparent;
     align-items: center;
@@ -309,6 +312,7 @@
 
   .logo {
     object-fit: contain;
+
     img {
       height: 33px;
       width: auto;

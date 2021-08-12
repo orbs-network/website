@@ -35,7 +35,6 @@
   }
   a {
     @extend .text-overflow;
-    display: block;
     min-width: 100%;
   }
   &-active {
