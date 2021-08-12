@@ -171,6 +171,10 @@
 .page-padding {
   padding-top: 200px; }
 
+@media only screen and (min-width: 2000px) {
+  .main-grid, .blog-header, .contact {
+    width: calc(100% - 400px); } }
+
 @media only screen and (max-width: 1400px) {
   .main-grid, .blog-header, .contact {
     width: calc(100% - 100px); } }
@@ -1764,6 +1768,8 @@ html {
 @media only screen and (max-width: 700px) {
   .globe-container {
     height: 100%; }
+  #globeArea {
+    top: 40px; }
   #guardianDetails {
     left: 50%;
     transform: translate(-50%);

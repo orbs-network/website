@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/meta
-description: The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language.
+description: Orbs is a public blockchain infrastructure designed for mass usage applications and close integration with EVM-based L1’s such as Ethereum, Binance SmartChain and Polygon. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus.
 title: "Orbs Hybrid Blockchain: Empowering business through decentralization"
 locale_alternate: ko_KR
 locale: en_US
