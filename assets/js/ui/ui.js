@@ -42,7 +42,6 @@ export const handleOnScroll = () => {
 };
 
 export const hideAppLoader = () => {
-  console.log("test");
   window.clearTimeout(loaderTimeOut);
   const body = getElement("body");
   const loader = getElement(".app-loader");

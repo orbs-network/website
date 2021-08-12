@@ -16,7 +16,6 @@ const removeListFromSideMenu = () => {
   categories.forEach((category) => {
     const categoryName = category.querySelector(".faq-lists-category small")
       .innerText;
-    console.log(categoryName);
     const link = document.createElement("a");
     link.setAttribute("href", `#${categoryName}`);
     link.innerText = categoryName;
