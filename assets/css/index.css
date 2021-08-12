@@ -1611,16 +1611,16 @@ html {
         object-fit: contain; }
   .card p {
     margin-bottom: 0px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     letter-spacing: 0.4px; }
   .card * {
     font-family: "card-font";
-    color: #03fcf5; }
+    color: white; }
   .card-content {
     padding: 10px 15px 20px 20px;
     width: 100%; }
   .card-body-text {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   .card-image {
     width: 90px;
     position: relative; }
@@ -1629,12 +1629,13 @@ html {
       height: 100%;
       object-fit: cover; }
   .card-title {
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     min-height: 35px;
     position: relative; }
     .card-title-text {
       letter-spacing: 0.6px;
-      font-size: 1.875rem; }
+      font-size: 1.5rem;
+      color: #03fcf5; }
   .card-tooltip {
     position: absolute;
     top: -20px;

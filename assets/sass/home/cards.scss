@@ -39,19 +39,19 @@
 
   p {
     margin-bottom: 0px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     letter-spacing: 0.4px;
   }
   * {
     font-family: "card-font";
-    color: #03fcf5;
+    color: white;
   }
   &-content {
     padding: 10px 15px 20px 20px;
     width: 100%;
   }
   &-body-text {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   &-image {
@@ -66,13 +66,14 @@
   }
 
   &-title {
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     min-height: 35px;
     position: relative;
 
     &-text {
       letter-spacing: 0.6px;
-      font-size: 1.875rem;
+      font-size: 1.5rem;
+      color: #03fcf5;
     }
   }
   &-tooltip {
