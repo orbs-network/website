@@ -3,7 +3,7 @@ layout: partials/home/cards/main/index
 type: TEAM
 title: Netta Korin
 links:
-  - linekdin.md
+  - linkedin.md
 image: /assets/img/team/members/netta.jpg
 lat: 46.603354
 lng: 1.8883335
