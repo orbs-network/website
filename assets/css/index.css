@@ -888,7 +888,6 @@ html {
     height: auto;
     padding-right: 50px; }
   .opening-box a {
-    display: block;
     min-width: 100%; }
   .opening-box-active .opening-box-text {
     display: block; }
@@ -1632,10 +1631,13 @@ html {
     margin-bottom: 3px;
     min-height: 35px;
     position: relative; }
+    .card-title * {
+      color: #03fcf5; }
+    .card-title .typed-cursor::after {
+      color: #03fcf5; }
     .card-title-text {
       letter-spacing: 0.6px;
-      font-size: 1.5rem;
-      color: #03fcf5; }
+      font-size: 1.5rem; }
   .card-tooltip {
     position: absolute;
     top: -20px;
@@ -2030,6 +2032,8 @@ html {
 .menu-burger {
   display: flex; }
   .menu-burger-toggle {
+    position: relative;
+    top: -2px;
     display: flex;
     background: transparent;
     align-items: center;

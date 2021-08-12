@@ -1,7 +1,7 @@
 ---
 layout: partials/home/index
 cards:
-  - cards/cards.md
+  - cards/index.md
 globe_image: /assets/img/globe/globe.png
 socials:
   - /jp/_shared/socials/index.md
