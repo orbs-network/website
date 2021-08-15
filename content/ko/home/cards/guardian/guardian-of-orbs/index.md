@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: guardian
+type: 가디언
 title: Guardians of Orbs
 lat: 35.907757
 lng: 127.766922

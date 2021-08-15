@@ -10,4 +10,4 @@ lng: 10.3333283
 countryCode: DK
 ---
 
-Chief Financial Office
+Chief Financial Officer

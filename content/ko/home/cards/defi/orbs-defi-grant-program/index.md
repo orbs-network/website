@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: defi
-title: Orbs DeFi Grant Program
+title: DeFi 지원 프로그램
 links:
   - link.md
 lat: 47.2286086
@@ -9,4 +9,4 @@ lng: 65.2093197
 countryCode: KZ
 ---
 
-Ecosystem: Ethereum / BSC / Polygon
+관련 네트워크: Ethereum / BSC / Polygon
