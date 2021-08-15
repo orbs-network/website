@@ -7,11 +7,6 @@
   font-display: swap; }
 
 @font-face {
-  font-family: "card-font";
-  src: url("../fonts/Open-24-Display-St.ttf");
-  font-display: swap; }
-
-@font-face {
   font-family: "bold-oblique";
   src: url("../fonts/boldOblique.otf");
   font-display: swap; }
@@ -79,9 +74,8 @@
   .typed-cursor::after {
     position: absolute;
     left: 0px;
-    bottom: -10px;
     content: ".";
-    font-size: 100px;
+    font-size: 90px;
     color: white; }
 
 .overflow-hidden {
@@ -1590,7 +1584,7 @@ html {
   align-items: stretch;
   justify-content: flex-start; }
   .card-with-image .card-content {
-    width: calc(100% - 100px); }
+    width: calc(100% - 110px); }
   .card-socials {
     align-items: center;
     display: flex;
@@ -1616,12 +1610,12 @@ html {
     font-family: "card-font";
     color: white; }
   .card-content {
-    padding: 10px 15px 20px 20px;
+    padding: 15px 15px 20px 20px;
     width: 100%; }
   .card-body-text {
     margin-bottom: 5px; }
   .card-image {
-    width: 90px;
+    width: 100px;
     position: relative; }
     .card-image img {
       width: 100%;
@@ -1637,13 +1631,14 @@ html {
       color: #03fcf5; }
     .card-title-text {
       letter-spacing: 0.6px;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      line-height: 2rem; }
   .card-tooltip {
     position: absolute;
     top: -20px;
     right: 30px;
-    padding: 5px 16px;
-    padding-top: 3px;
+    padding: 8px 16px;
+    padding-top: 5px;
     background: #010010;
     border: 1px solid #03fcf5;
     font-size: 1.125rem;
@@ -1652,13 +1647,13 @@ html {
     align-items: center; }
     .card-tooltip img {
       margin-right: 10px;
-      width: 20px;
+      width: 18px;
       height: 100%;
       object-fit: contain; }
     .card-tooltip p {
       letter-spacing: 1.8px;
       color: #ffffff;
-      font-size: 1.125rem; }
+      font-size: 1.11rem; }
   .card-link {
     overflow: hidden;
     display: flex;
