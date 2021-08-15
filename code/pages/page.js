@@ -16,6 +16,8 @@ const Page = ({
   subscribe,
   gdpr,
   meta_tags,
+
+  style,
 }) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
@@ -46,7 +48,12 @@ const Page = ({
           rel="stylesheet"
         />
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
+        {style && (
+          <link
+            rel="stylesheet"
+            href={generateUrl(`/assets/css/${style}.css`)}
+          />
+        )}
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
       <body style={{ background: colors.main }} data-dev={!isProduction()}>

@@ -1,5 +1,5 @@
 ---
 layout: partials/home/cards/components/link
-text: https://www.orbs.com/orbs-token-integrity/
-url: https://www.orbs.com/orbs-token-integrity/
+text: https://link.medium.com/r507pNo0Fib
+url: https://link.medium.com/r507pNo0Fib
 ---

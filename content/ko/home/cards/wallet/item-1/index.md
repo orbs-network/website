@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: wallet
+type: 지갑
 title: Coinbase Wallet
 links:
   - link.md
@@ -9,4 +9,4 @@ lng: 113.5514142
 countryCode: MO
 ---
 
-Supported devices: Android and iOS
+지원 단말: Android / iOS
