@@ -1,5 +1,6 @@
 layout: pages/page
 script: home/main
+style: en
 header:
   - _shared/navbar/index.md
 main:

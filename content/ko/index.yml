@@ -1,5 +1,6 @@
 layout: pages/page
 script: home/main
+style: ko
 header:
   - /ko/_shared/navbar/index.md
 main:
