@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: guardian
+type: 가디언
 title: Japan Guardian Orbs
 lat: 36.204823
 lng: 138.252930

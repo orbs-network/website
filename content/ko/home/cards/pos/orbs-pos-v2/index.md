@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: pos
-title: "Orbs PoS V2: The Age of Guardians Overview Document"
+title: "Orbs PoS V2: 가디언의 시대 소개 문서"
 link: https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/
 links:
   - link.md
@@ -10,4 +10,4 @@ lng: 24.6859225
 countryCode: RO
 ---
 
-Everything you need to know about the Orbs PoS Universe
+오브스 PoS 유니버스에 대한 모든 것

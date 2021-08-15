@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: Blog
-title: Optimizing Ethereum Gas Costs for Orbs Delegators
+type: 블로그
+title: PoS 참여시 가스비를 최적화해보세요
 links:
   - link.md
 lat: 71.706940
@@ -9,6 +9,6 @@ lng: -42.604301
 countryCode: GL
 ---
 
-Proof of Stake
+분류: PoS
 
-reading time: 5 min
+읽는데 5분 정도 걸려요

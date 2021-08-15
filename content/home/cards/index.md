@@ -10,4 +10,5 @@ list:
   - members/index.md
   - pos/index.md
   - blog/index.md
+  - github-repositories/index.md
 ---

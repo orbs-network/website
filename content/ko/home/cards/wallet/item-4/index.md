@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: wallet
+type: 지갑
 title: MyEtherWallet (MEW)
 url: https://www.orbs.com/orbs-staking-is-now-available-on-myetherwallet-mobile-app/
 links:
@@ -10,4 +10,4 @@ lng: 103.8499736
 countryCode: MN
 ---
 
-Supported devices: Android
+지원 단말: Android

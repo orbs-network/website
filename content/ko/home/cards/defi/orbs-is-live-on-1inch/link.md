@@ -1,5 +1,5 @@
 ---
 layout: partials/home/cards/components/link
-text: https://www.orbs.com/orbs-is-now-live-on-1inch-exchange/
-url: https://www.orbs.com/orbs-is-now-live-on-1inch-exchange/
+text: https://link.medium.com/x8VFVAEDGib
+url: https://link.medium.com/x8VFVAEDGib
 ---
