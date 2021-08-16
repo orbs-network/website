@@ -4,6 +4,7 @@ image: /assets/img/blog/orbs-launches-a-syrup-pool-on-pancakeswap/bg.png
 blogUrl: orbs-launches-a-syrup-pool-on-pancakeswap
 date: 2021-06-21
 title: Orbs Launches a Syrup Pool on PancakeSwap!
+
 author:
   - /blog/common/authors/RanHammer.md
 type:
