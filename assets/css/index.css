@@ -1697,8 +1697,7 @@ html {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  transform: translate(100px);
-  display: none; }
+  transform: translate(100px); }
 
 #globeArea {
   left: 0;
@@ -1719,6 +1718,7 @@ html {
   padding-top: 110px;
   background: #000011;
   position: relative;
+  overflow: hidden;
   height: 100vh; }
   .home .title {
     text-align: left; }
