@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - orbs-website-launch/blog.md
   - defi-org-twitter-tool/blog.md
   - qatari-aid-and-cbdc-can-change-international-giving/blog.md
   - orbs-staking-is-now-available-on-dcent-wallet-mobile-app/blog.md
