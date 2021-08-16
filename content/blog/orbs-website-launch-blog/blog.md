@@ -56,12 +56,6 @@ Another important part of the new website is the “Resources” section, where 
 
 ![orbs website](/assets/img/blog/orbs-website-launch-blog/img2.jpeg)
 
-Additional information on any one of those tools can be found in the [Blog](/blog) page, and of course any additional questions and queries can be directed to the Orbs official Telegram [group](https://t.me/OrbsNetwork).
-
-
-The website has only just gone live so there might be a few glitches here and there. We invite everyone to browse through the content and get back to us with any feedback you might have.
-
-
 
 
 
