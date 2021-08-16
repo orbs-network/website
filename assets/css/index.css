@@ -1741,12 +1741,11 @@ html {
         font-size: 1.375rem;
         font-family: "light";
         text-transform: uppercase;
-        letter-spacing: 0.138rem; }
+        letter-spacing: 0.138rem;
+        margin-bottom: 5px; }
       .home-flex-left h1 {
         font-size: 2.063rem;
-        letter-spacing: 0.206rem;
-        margin-top: 5px;
-        margin-bottom: 5px; }
+        letter-spacing: 0.206rem; }
       .home-flex-left .socials {
         margin-top: 18vh; }
 

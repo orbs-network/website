@@ -4,6 +4,6 @@ layout: partials/shared/simple-md
 
 ## Decentralized
 
-# Public
+## Public
 
-## Blockchain
+# Blockchain
