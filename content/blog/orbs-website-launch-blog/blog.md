@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/orbs-website-launch-blog/bg.jpeg
 blogUrl: orbs-website-launch-blog
-date: 2021-08-17
+date: 2021-08-16
 title: Announcing The New Orbs Website!
 author:
   - /blog/common/authors/EranPeled.md
