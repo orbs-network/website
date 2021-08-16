@@ -30,9 +30,8 @@ class GlobeHandler {
 
     const isDev = document.body.getAttribute("data-dev");
 
-    const pathToGeolocation = JSON.parse(isDev)
-      ? "/assets/datasets/ne_110m_admin_0_countries.geojson"
-      : "/website/assets/datasets/ne_110m_admin_0_countries.geojson";
+    const pathToGeolocation =
+      "/assets/datasets/ne_110m_admin_0_countries.geojson";
     fetch(pathToGeolocation)
       .then((res) => res.json())
       .then((countries) => {
