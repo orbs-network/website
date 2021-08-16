@@ -1,5 +1,6 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
+import { images } from "../../assets/js/images";
 import AppLoader from "../partials/shared/app-loader";
 import ScrollTop from "../partials/shared/scroll-top";
 import { isProduction } from "../util/env";
@@ -26,6 +27,11 @@ const Page = ({
     <html>
       <head>
         <title>{title}</title>
+        <link
+          rel="shortcut icon"
+          href={generateUrl(images.common.favicon)}
+          type="image/x-icon"
+        />
         {meta_tags}
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script

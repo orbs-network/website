@@ -12,7 +12,7 @@ gdpr:
   - /jp/_shared/gdpr/index.md
 footer:
   - /jp/_shared/footer/footer.md
-meta_description: "The practical blockchain solution. Predictable fees you can scale with.Isolation between apps. Smart contracts in any language."
+meta_description: "Orbs is a public blockchain infrastructure designed for mass usage applications and close integration with EVM-based L1’s such as Ethereum, Binance SmartChain and Polygon. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus."
 
 meta_og_locale_alternate: ko_KR
 meta_og_locale: en_US
