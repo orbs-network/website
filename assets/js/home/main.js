@@ -275,5 +275,6 @@ const initGlobe = async () => {
 
 window.onload = async () => {
   init(true);
-  await initGlobe();
+  hideAppLoader();
+  // await initGlobe();
 };
