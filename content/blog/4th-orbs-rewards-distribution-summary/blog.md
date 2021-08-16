@@ -18,7 +18,7 @@ Rewards are continuously calculated on the Orbs network; [click here for the det
 
 ## Rewards displayed
 
-The distributed Rewards are displayed in the UI: [https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward).
+The distributed Rewards are displayed in the UI: [https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
 
 **The UI shows:**
 
@@ -34,7 +34,6 @@ The distributed Rewards are displayed in the UI: [https://orbs-network.github.io
 - Number of election cycles for which rewards were distributed – 28
 - Highest reward to a single address – 3,668,828 ORBS
 - Participating stake in 110th elections cycle – 678,838,150 ORBS
-
 
 # Summary
 
