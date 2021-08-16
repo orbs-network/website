@@ -18,7 +18,7 @@ Rewards are continuously calculated on the Orbs network; [click here for the det
 
 ## Rewards displayed
 
-The distributed Rewards are displayed in the UI: [https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
+The distributed Rewards are displayed in the UI: [https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward).
 
 **The UI shows:**
 
