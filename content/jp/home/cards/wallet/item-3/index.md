@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: wallet
+type: ウォレット
 title: Coinbase Wallet
 links:
   - link.md
@@ -9,4 +9,4 @@ lng: -100.000037
 countryCode: MX
 ---
 
-Supported devices: Android and iOS
+サポートデバイス：AndroidとiOS

@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: wallet
+type: ウォレット
 title: Trust Wallet
 links:
   - link.md
@@ -9,4 +9,4 @@ lng: 73.3287853
 countryCode: MV
 ---
 
-Supported devices: Android
+サポートデバイス：Android
