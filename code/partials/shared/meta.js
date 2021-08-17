@@ -11,6 +11,7 @@ const MetaTags = ({
   og_locale_alternate_2,
   _relativeURL,
   _ID,
+  url,
 }) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
@@ -28,7 +29,7 @@ const MetaTags = ({
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content="https://www.orbs.com/" />
+      <meta property="og:url" content={url || "https://www.orbs.com/"} />
       <meta property="og:site_name" content="Orbs" />
       <meta
         property="og:image"
