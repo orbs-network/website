@@ -21,11 +21,11 @@ jobs:
           name: Build with cuttlebelle
           command: npm run build
       - run:
-          name: Create CNAME file
+          name: Create CNAME file. $DEPLOY_DOMAIN_NAME is defined on circleci project env variables.
           command: echo $DEPLOY_DOMAIN_NAME > ./site/CNAME
       - run:
           name: Deploy to gh-pages branch
-          command: gh-pages --message "[ci skip] Deploy" --dist site
+          command: gh-pages --message "[ci skip] Deploy" --dist site --dotfiles
 
 workflows:
   version: 2
