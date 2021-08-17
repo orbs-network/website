@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: delegator
-title: delegator
+type: デリゲータ
+title: デリゲータ
 
 socials:
   - socials/index.md
@@ -10,4 +10,4 @@ lng: -73.783892
 countryCode: CO
 ---
 
-ORBS IS AWESOME
+魅力的なORBS

@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: Blog
-title: Optimizing Ethereum Gas Costs for Orbs Delegators
+type: ブログ
+title: Orbsデリゲータのイーサリアムガス料金の最適化
 links:
   - link.md
 lat: 71.706940
@@ -11,4 +11,4 @@ countryCode: GL
 
 Proof of Stake
 
-reading time: 5 min
+読み時間：5分
