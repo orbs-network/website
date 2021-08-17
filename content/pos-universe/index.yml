@@ -13,5 +13,7 @@ gdpr:
   - /_shared/gdpr/index.md
 
 title: Orbs - Proof of stake universe
-meta_tags:
-  - md/meta.md
+description: orbs pos universe
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

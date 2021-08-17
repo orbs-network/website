@@ -9,8 +9,8 @@ subscribe:
   - /jp/_shared/subscribe/subscribe.md
 gdpr:
   - /jp/_shared/gdpr/index.md
-meta_description: 実用的なブロックチェーンソリューション。 スケーリング可能な予測可能な料金。アプリ間の分離。 あらゆる言語のスマートコントラクト。
+
+description: 実用的なブロックチェーンソリューション。 スケーリング可能な予測可能な料金。アプリ間の分離。 あらゆる言語のスマートコントラクト。
 title: "Orbsハイブリッド・ブロックチェーン：ビジネスの分散化を後押し"
-meta_og_locale_alternate: ko_KR
-meta_og_locale: en_US
-meta_image:
+locale_alternate: en_US
+locale: ja_JP
