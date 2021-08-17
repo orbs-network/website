@@ -8,8 +8,13 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Announcing The New Orbs Website!
+
 gdpr:
   - /_shared/gdpr/index.md
+
+title: Announcing The New Orbs Website!
+
+description: Orbs is excited to announce the launch of the new Orbs website!
+locale_alternate: ko_KR
+locale: en_US
+image: /assets/img/blog/orbs-website-launch-blog/bg.jpeg
