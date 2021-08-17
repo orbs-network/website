@@ -13,5 +13,7 @@ gdpr:
   - /_shared/gdpr/index.md
 
 title: Contact Us - Orbs
-meta_tags:
-  - md/meta.md
+description: Contact Orbs to find out more about our project, how to build your application on the Orbs blockchain or become an Orbs validator.
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:
