@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: Blog
-title: Orbs Token Integrity
+type: ブログ
+title: トークンの整合性
 links:
   - link.md
 lat: 39.074207
@@ -9,6 +9,6 @@ lng: 21.824312
 countryCode: GR
 ---
 
-ORBS token
+ORBSトークン
 
-reading time: 3 min
+読み時間：3分

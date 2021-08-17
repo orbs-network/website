@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: TEAM
+type: チーム
 title: Nadav Shemesh
 links:
   - linkedin.md
@@ -10,4 +10,4 @@ lng: 33.1451285
 countryCode: CY
 ---
 
-Chief Executive Officer
+最高経営責任者（CEO）

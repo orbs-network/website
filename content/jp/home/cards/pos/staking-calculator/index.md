@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: pos
-title: Staking Calculator
+title: ステーキング計算機
 link: https://www.stakingrewards.com/earn/orbs
 links:
   - link.md
@@ -10,4 +10,4 @@ lng: 20.55144
 countryCode: RS
 ---
 
-Orbs staking calculator by Staking Rewards
+Staking RewardsによるOrbsステーキングの計算機
