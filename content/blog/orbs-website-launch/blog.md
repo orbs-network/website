@@ -18,7 +18,7 @@ Having a clear and concise website is extremely important as it serves as a foca
 
 So what are you waiting for?! Check out the new website here:
 
-[https://orbs-network.github.io/website/](https://orbs-network.github.io/website/)
+[https://www.orbs.com/](https://www.orbs.com/)
 
 ### A Dazzling New Homepage!
 

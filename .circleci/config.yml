@@ -25,7 +25,7 @@ jobs:
           command: echo $DEPLOY_DOMAIN_NAME > ./site/CNAME
       - run:
           name: Deploy to gh-pages branch
-          command: gh-pages --message "[skip ci] Deploy" --dist site
+          command: gh-pages --message "[ci skip] Deploy" --dist site
 
 workflows:
   version: 2
