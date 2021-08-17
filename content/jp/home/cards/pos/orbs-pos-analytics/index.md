@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: pos
-title: Orbs PoS Analytics
+title: OrbsのPoSアナリティックス
 links:
   - link.md
 lat: 12.7503486
@@ -9,4 +9,4 @@ lng: 122.7312101
 countryCode: PH
 ---
 
-analytical tool for both Guardians and Delegators
+ガーディアンとデリゲータの両方のための分析ツール

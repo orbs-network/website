@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: white paper
-title: Orbs Technology Overview
+type: ホワイトペーパー
+title: Orbsの技術概要
 links:
   - link.md
 lat: 14.8971921
@@ -9,6 +9,5 @@ lng: 100.83273
 countryCode: TH
 ---
 
-Category: Technology
-
-Date: May 2019
+カテゴリ：技術
+日付：2019年5月

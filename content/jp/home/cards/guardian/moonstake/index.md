@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: guardian
+type: ガーディアン
 title: Moonstake
 lat: 1.352083
 lng: 103.819839
