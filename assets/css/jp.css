@@ -3,6 +3,7 @@
   src: url("../fonts/Open-24-Display-St.ttf");
   font-display: swap;
 }
+
 .typed-cursor::after {
   bottom: -10px;
 }
