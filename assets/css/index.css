@@ -1310,7 +1310,9 @@ html {
   .team-member-details {
     margin-top: auto;
     padding: 9px 16px;
+    height: 100px;
     padding-bottom: 15px;
+    position: relative;
     background: rgba(0, 0, 0, 0.3);
     cursor: default; }
     .team-member-details-name {
@@ -1326,9 +1328,10 @@ html {
       text-align: left;
       text-transform: capitalize; }
   .team-member .inner-links {
+    position: absolute;
+    bottom: 11px;
     justify-content: flex-start;
-    margin-top: 3px;
-    margin-bottom: 0px; }
+    margin: 0px; }
     .team-member .inner-links a {
       width: 13px;
       height: 13px;
@@ -1444,6 +1447,8 @@ html {
       margin-top: 25px; } }
 
 @media only screen and (min-width: 500px) and (max-width: 1200px) {
+  .banner-single-small {
+    width: 100%; }
   .team-list-flex-top ul .list-item {
     margin-top: 25px;
     margin-right: 25px;
@@ -1488,6 +1493,8 @@ html {
       height: 40vw; } }
 
 @media only screen and (max-width: 700px) {
+  .team-member-details {
+    height: 120px; }
   .member-popup {
     z-index: 9999999;
     display: flex;

@@ -3,6 +3,6 @@ layout: partials/footer/components/posts/index
 title: 最新のブログ
 type: footer
 list:
-  - /orbs-is-live-on-google-cloud/blog.md
-  - /when-decentralized-finance-meets-the-traditional-system/blog.md
+  - /jp/orbsのステーキングがtrust-wallet-で利用可能となりました/blog.md
+  - /jp/what-elite-capture-means-and-why-it-should-enrage-you-2/blog.md
 ---
