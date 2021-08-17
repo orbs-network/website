@@ -13,6 +13,8 @@ subscribe:
 gdpr:
   - /_shared/gdpr/index.md
 
+description: orbs pos universe
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:
 title: FAQ
-meta_tags:
-  - md/meta.md

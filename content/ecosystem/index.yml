@@ -13,5 +13,7 @@ gdpr:
   - /_shared/gdpr/index.md
 
 title: Ecosystem
-meta_tags:
-  - md/meta.md
+description: orbs Ecosystem
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:
