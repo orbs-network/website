@@ -66,6 +66,5 @@ Orbs.com website source code and build (served from github pages)
 A nice solution meeting these goals was relying on the following:
 
 * https://cuttlebelle.com/ - lean open-source framework for server-side rendering of static websites in React
-* https://bulma.io/ - lean open-source css framework for core components / UI that does not rely on JS
-* 
+* https://bulma.io/ - lean open-source css framework for core components / UI that does not rely on JS 
 
