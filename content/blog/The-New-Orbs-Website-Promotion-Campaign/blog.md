@@ -37,8 +37,8 @@ Fill up the form for a chance to be named as a top 5 Orbs Delegator and earn ete
 ![Promotion image](/assets/img/blog/The-New-Orbs-Website-Promotion-Campaign/image1.jpeg)
 
 
-<div class=’line-separator’></div>
+<div class="line-separator"></div>
 
 
-* The Orbs merchandise shop is a non-profit project from the Orbs team for the community. All prices in the shop are the minimum prices set by the platform operator. Orbs does not receive any profit from the selling of products in the shop.
-** Orbs reserves the right to use any content that is shared in the attached google form.
+\* _The Orbs merchandise shop is a non-profit project from the Orbs team for the community. All prices in the shop are the minimum prices set by the platform operator. Orbs does not receive any profit from the selling of products in the shop._
+\** _Orbs reserves the right to use any content that is shared in the attached google form._
