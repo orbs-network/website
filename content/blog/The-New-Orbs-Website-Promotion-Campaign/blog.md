@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
+image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpg
 blogUrl: The-New-Orbs-Website-Promotion-Campaign
 date: 2021-08-18
 title: The New Orbs Website Promotion Campaign!
@@ -33,6 +33,8 @@ Each campaign winner will have his own customized Delegator card added to the Or
 
 So what are you waiting for?! 
 Fill up the form for a chance to be named as a top 5 Orbs Delegator and earn eternal glory!
+
+![Promotion image](/assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/image1.jpeg)
 
 
 <div class=’line-separator’></div>
