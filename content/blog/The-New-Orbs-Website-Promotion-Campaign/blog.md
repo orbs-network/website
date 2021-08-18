@@ -1,67 +1,42 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+blogUrl: The-New-Orbs-Website-Promotion-Campaign
+date: 2021-08-18
+title: The New Orbs Website Promotion Campaign!
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: We are excited to announce the new Orbs website promotion campaign!
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**We are excited to announce the new Orbs website promotion campaign!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+We recently [announced](https://www.orbs.com/orbs-website-launch/) the launch of the new [Orbs website](https://orbs-network.github.io/website/). As you might have noticed, the homepage has an AWESOME new design of rotating globe with pop-up cards, each showing a different element of the Orbs network such as Orbs Guardians, Contributors, and more.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+However, there is one important element of the Orbs network that is still missing…
+the Orbs Delegators of course!
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold  the ecosystem. They make up an essential part of the Orbs network and as such, deserve a special place in the new website.
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+### Calling All Orbs Delegators!
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+**In this Orbs website promotion campaign, we are looking for Orbs Delegators to be featured in the new homepage!**
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In order to participate in the campaign, all you need to do is fill up this [FORM](https://docs.google.com/forms/d/e/1FAIpQLSejp_vB3dBsH4HXschA-pWRlSJUAOa69rqaJX7BFwAdPSrVQg/viewform?usp=pp_url)** and we will pick the top 5 Orbs Delegators to be featured in the new website homepage.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Each campaign winner will have his own customized Delegator card added to the Orbs network globe, and also receive a $100 gift card for the Orbs merchandise shop*:
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+[https://shop.spreadshirt.com/orbs](https://shop.spreadshirt.com/orbs)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+So what are you waiting for?! 
+Fill up the form for a chance to be named as a top 5 Orbs Delegator and earn eternal glory!
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+<div class=’line-separator’></div>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+* The Orbs merchandise shop is a non-profit project from the Orbs team for the community. All prices in the shop are the minimum prices set by the platform operator. Orbs does not receive any profit from the selling of products in the shop.
+** Orbs reserves the right to use any content that is shared in the attached google form.
