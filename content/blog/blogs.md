@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - The-New-Orbs-Website-Promotion-Campaign/blog.md
   - orbs-website-launch/blog.md
   - defi-org-twitter-tool/blog.md
   - qatari-aid-and-cbdc-can-change-international-giving/blog.md
