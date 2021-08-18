@@ -14,6 +14,9 @@ On March 25, 2020, Orbs network rewards distribution occurred. This post summari
 
 ## The Process
 
+
+
+
 Rewards are continuously calculated on the Orbs network; [click here for the details](https://www.orbs.com/getting-ready-for-round-iv-of-orbs-rewards-distribution/). They are sent directly to the addresses of the Orbs participants and include Participation (delegation), Guardian Excellency and Validators Rewards.  To distribute the Rewards, a dedicated Ethereum-deployed contract is used. Contract address: [0xb2969e54668394bcA9B8AF61bC39B92754b7A7a0](https://etherscan.io/address/0xb2969e54668394bca9b8af61bc39b92754b7a7a0). This contract was loaded with the total sum of tokens to be distributed and configured with hashes of transaction batches (the transactions are sent in batches due to gas limitations of the Ethereum platform). The transaction batches themselves were then sent to the contract, which dispersed the Rewards.
 
 ## Rewards displayed
