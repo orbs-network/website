@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/eran.jpg
 name: Eran Peled
-role: Project Manager
+role: Director of Markets and Communities
 twitter:
 telegram:
 linkedin: https://www.linkedin.com/in/eran-peled-54244b162/
