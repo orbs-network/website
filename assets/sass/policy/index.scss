@@ -8,6 +8,9 @@
   .text-p {
     font-size: 1rem;
   }
+  h2 {
+    margin-bottom: 40px;
+  }
   h4 {
     padding: 30px;
     margin-top: 10px;
@@ -35,7 +38,7 @@
     line-height: 1.5rem;
     margin-bottom: 20px;
     &::marker {
-      font-size: 1.375rem;
+      font-size: 1.1rem;
     }
   }
   .title-h3 {
