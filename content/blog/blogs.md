@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - orbs-is-now-live-on-quickswap/blog.md
   - The-New-Orbs-Website-Promotion-Campaign/blog.md
   - orbs-website-launch/blog.md
   - defi-org-twitter-tool/blog.md
