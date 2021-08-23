@@ -24,9 +24,9 @@ DinoSwap interfaces directly with third party AMM liquidity pools on Polygon suc
 
 The Orbs Extinction Pools mechanism works as follows:
 
-* Add liquidity to the ORBS-USDC pool on [QuickSwap](https://quickswap.exchange/#/swap) to receive ORBS-USDC LP tokens. Learn [here](https://www.orbs.com/orbs-is-now-live-on-quickswap/) how to add liquidity for the  ORBS-USDC pool on QuickSwap.
-* Stake the LP tokens in DinoSwap’s Fossil-Farms to earn DINO tokens in a process called “Excavation”. 
-* These DINO tokens can then be used in the Orbs Extinction Pool to earn ORBS tokens.
+1. Add liquidity to the ORBS-USDC pool on [QuickSwap](https://quickswap.exchange/#/swap) to receive ORBS-USDC LP tokens. Learn [here](https://www.orbs.com/orbs-is-now-live-on-quickswap/) how to add liquidity for the  ORBS-USDC pool on QuickSwap.
+2. Stake the LP tokens in DinoSwap’s Fossil-Farms to earn DINO tokens in a process called “Excavation”. 
+3. These DINO tokens can then be used in the Orbs Extinction Pool to earn ORBS tokens.
 
 You can read more about Fossil Farms and Extinction Pools in DinoSwap’s [documentation](https://docs.dinoswap.exchange/).
 
@@ -81,3 +81,4 @@ For more information, visit [https://www.orbs.com/](https://www.orbs.com/)
 _Use of the DinoSwap platform, Quickswap and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses. 
 
 Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+
