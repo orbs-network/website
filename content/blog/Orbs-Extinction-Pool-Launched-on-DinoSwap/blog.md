@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/bg.jpeg
+image: /assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/bg.jpg
 blogUrl: Orbs-Extinction-Pool-Launched-on-DinoSwap
 date: 2021-08-23
 title: Orbs Extinction Pool Launched on DinoSwap
@@ -10,7 +10,7 @@ type:
 short_description: DinoSwap has announced the launch of the Orbs Extinction Pool!
 ---
 
-**DinoSwap has announced the launch of the Orbs Extinction Pool!
+**DinoSwap has announced the launch of the Orbs Extinction Pool!**
 
 The Orbs Extinction Pool on DinoSwap enables users to earn ORBS tokens rewards by staking DINO tokens.
 
@@ -48,7 +48,7 @@ As always, exercise caution when working with 3rd party technologies, educate yo
 
 Read this blog post for a [tutorial](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) on how to use the polygon bridge.
 
-![Bridge image](/assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/image1.jpeg)
+![Bridge image](/assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/image1.jpg)
 
 
 ### DinoSwap - The next evolution in DeFi
@@ -78,7 +78,7 @@ For more information, visit [https://www.orbs.com/](https://www.orbs.com/)
 
 **Please Note**
 
-_Use of the DinoSwap platform, Quickswap and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses. 
+_Use of the DinoSwap platform, Quickswap and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses._
 
-Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
 
