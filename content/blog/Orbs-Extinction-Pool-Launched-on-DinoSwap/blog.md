@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/bg.jpeg
+image: /assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/bg.jpg
 blogUrl: Orbs-Extinction-Pool-Launched-on-DinoSwap
 date: 2021-08-23
 title: Orbs Extinction Pool Launched on DinoSwap
@@ -48,7 +48,7 @@ As always, exercise caution when working with 3rd party technologies, educate yo
 
 Read this blog post for a [tutorial](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) on how to use the polygon bridge.
 
-![Bridge image](/assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/image1.jpeg)
+![Bridge image](/assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/image1.jpg)
 
 
 ### DinoSwap - The next evolution in DeFi
