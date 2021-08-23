@@ -16,7 +16,6 @@ The Orbs Extinction Pool on DinoSwap enables users to earn ORBS tokens rewards b
 
 We are very excited about this special integration with DinoSwap as it is expected to strengthen the ties of Orbs to the Polygon DeFi ecosystem, increase ORBS liquidity, and also increase exposure of the Orbs project to the Polygon user-base.
 
-The Orbs Extinction Pool campaign will last xxx days with a total of xxxM ORBS tokens available for farming.
 
 
 ### What are Fossil Farms and Extinction Pools?
