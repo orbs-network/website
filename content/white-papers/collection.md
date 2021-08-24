@@ -4,6 +4,7 @@ title: white papers
 list:
   - title: Community
     list:
+      - orbs-grant-grogram-second-call-for-grants/paper.md
       - orbs-grant-program/paper.md
   - title: Orbs Proof of Stake Universe
     list:
