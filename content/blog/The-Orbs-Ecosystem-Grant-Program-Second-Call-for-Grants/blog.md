@@ -1,67 +1,74 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/bg.jpg
+blogUrl: The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants
+date: 2021-08-24
+title: The Orbs Ecosystem Grant Program - Second Call for Grants
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: The Orbs project is now launching a new call for grants under the Orbs Ecosystem Grant Program (OEGP).
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The Orbs project is now launching a new call for grants under the Orbs Ecosystem Grant Program (OEGP).** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+For this round, the focus will be on applications that will draw on the power of the Orbs Universe, with its Guardians and Delegators, using their ability to arrive at consensus through the Orbs protocol incentive layer powered by the ORBS token.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+**The full details of the grant program are available [here](https://www.orbs.com/white-papers/orbs-grant-grogram-second-call-for-grants/).**
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**Proposals can be sent to [grants@orbs.com](grants@orbs.com)** 
+				
 
-### Step-by-Step Guide
+### Background
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The Orbs project, together with our community, is building a public and permissionless ecosystem. Orbs was born as an open source project and the Orbs team continues to strongly believe in the immense potential of open source collaboration and are always looking to work with others.
 
-Please also see our disclaimers below.
+Recently, there has been a major expansion of the Orbs ecosystem, with a large focus on integrations with DeFi ecosystems. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The Orbs project is now ready to advance to the next level...
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Ecosystem image](/assets/img/blog/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/image1.jpg)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+### Traction As Primary KPI
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+**In the second call of the OEGP, we are looking for proposals that utilize the Orbs decentralized network of nodes and leverage Orbs Guardians to gain a competitive advantage.**
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+We are looking for proposals that will contribute to ecosystem growth, measured by three traction related Key Performance Indicators (KPI’s). The first is user activity, such as the amount of transactions and API calls performed by end-users. The second is the number of integrations with leading industry platforms and popular projects. The third is Total Value Locked (TVL) that engages with Orbs ecosystem products. 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+**We are looking for proposals that will contribute to any of these three KPI’s.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### Grant Opportunities and Proposal 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+To direct you towards proposal ideas, below are some examples of areas where we feel the Orbs network has a unique competitive advantage that can be leveraged towards meeting the KPI’s discussed above:
 
-### 2) Lend ALPACA tokens
+* Data Indexing and Analysis Infrastructure
+* Notification and Monitoring Infrastructure
+* Bridging and Cross Protocol Infrastructure
+* Algo Trading Technologies and Infrastructure
+* Enriching EVM Contract Capabilities
+* Consumer Dashboards and Calculators
+* DeFi and NFT applications oriented at retail
+* Integrating existing Orbs Apps to new projects
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+These areas and examples are not exhaustive, we’d love to hear if you have ideas for projects that go beyond the above. 
 
-### 3) Earn Orbs in the Grazing Range
+If you and your team have an idea for a grant proposal, please provide us with a proposal with the detailed information about your project listed in the grant program doc. 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+### Selection Process
 
-#### And that’s it – You are now a senior Alpaca!
+Once a proposal has been submitted, the Orbs team will undertake the thorough review process laid out in the Grant program document.
 
-<div class='line-separator'> </div>
+The OEGP Grant Committee reserves the right to alter this process as it deems appropriate, in its sole discretion. For example, in some circumstances, when projects are of significant importance to the Orbs ecosystem, the OEGP Grant Committee may push applications through on an expedited process.
 
-**Please Note**
+### Grant Delivery
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Grants may be paid out in multiple installments and may be made in either fiat, cryptocurrency such as BTC and ETH or by delivery of Orbs Tokens. Such installments are subject to a payment schedule to ensure that predefined milestones are achieved. The OEGP Grant Committee controls payments and may assess milestone reports from grantees prior to follow-on payments. Orbs may not distribute follow-on payments for projects that do not hit their deliverables.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+**The full details of the grant program are available [here](https://www.orbs.com/white-papers/orbs-grant-grogram-second-call-for-grants/).**
+
+**Proposals can be sent to [grants@orbs.com](grants@orbs.com)** 
+
