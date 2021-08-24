@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/orbs-website-launch-blog/bg.jpeg
+image: /assets/img/blog/orbs-website-launch-blog/bg.png
 blogUrl: orbs-website-launch
 date: 2021-08-17
 title: Announcing The New Orbs Website!
