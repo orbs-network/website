@@ -27,7 +27,7 @@ Recently, there has been a major expansion of the Orbs ecosystem, with a large f
 
 The Orbs project is now ready to advance to the next level...
 
-![Ecosystem image](/assets/img/blog/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/image1.jpg)
+![Ecosystem image](/assets/img/blog/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/image1.png)
 
 
 ### Traction As Primary KPI
