@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: A Sustainable Token Economy Cannot Be Inflationary
+image: /assets/img/blog/sustainable-token-economy-cannot-be-inflationary/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: We’re Launching! And this is just the beginning
+image: /assets/img/blog/were-launching-and-why-this-is-just-the-beginning/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Update March 2021
+image: /assets/img/blog/orbs-update-march-2021/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

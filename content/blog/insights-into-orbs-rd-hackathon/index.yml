@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Insights into Orbs’ R&D Hackathon
+image: /assets/img/blog/insights-into-orbs-rd-hackathon/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

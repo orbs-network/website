@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: How an Open Blockchain Standard Can Fix the Ills of Social Media
+image: /assets/img/blog/blockchain-standard-to-fix-social-media-ills/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

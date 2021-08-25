@@ -8,8 +8,9 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: A federated model can protect decentralized platforms from some players having too much power
+image: /assets/img/blog/a-federated-model-can-protect-decentralized-platforms-from-some-players-having-too-much-power/bg.jpeg
 gdpr:
   - /_shared/gdpr/index.md

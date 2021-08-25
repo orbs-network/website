@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Coinsbit Exchange Lists Orbs Token (ORBS)
+image: /assets/img/blog/coinsbit-exchange-lists-orbs-token-orbs/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

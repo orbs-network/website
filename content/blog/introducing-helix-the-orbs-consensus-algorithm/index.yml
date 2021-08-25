@@ -11,5 +11,7 @@ subscribe:
 meta_description:
 meta_keywords:
 title: "Introducing Helix: The Orbs Consensus Algorithm"
+image: /assets/img/blog/introducing-helix-the-orbs-consensus-algorithm/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

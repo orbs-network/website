@@ -11,5 +11,7 @@ subscribe:
 meta_description:
 meta_keywords:
 title: "TalpiHack: Solving the Challenge of Related Parties Dealings"
+image: /assets/img/blog/talpihack-solving-challenge/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

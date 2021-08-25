@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Group Signature Schemes with Distributed Traceability (or how to open a signature fairly)
+image: /assets/img/blog/group-signature-schemes-with-distributed-traceability-or-how-to-open-a-signature-fairly/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

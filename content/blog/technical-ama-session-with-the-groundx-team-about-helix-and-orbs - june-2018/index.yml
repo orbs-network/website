@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Technical AMA Session with the GroundX Team about Helix and Orbs — June 2018
+image: /assets/img/blog/technical-ama-session-with-the-groundx-team-about-helix-and-orbs - june-2018/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

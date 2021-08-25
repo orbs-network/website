@@ -10,5 +10,7 @@ subscribe:
   - /_shared/subscribe/subscribe.md
 meta_description: The latest news, insights and thoughts from Orbs, the public-ready blockchain company.
 title: The Orbs Project Blog
+image: /assets/img/blog/single-sided-farming/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

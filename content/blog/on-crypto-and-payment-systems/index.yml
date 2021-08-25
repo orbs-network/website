@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: On Cryptocurrencies and Payment Systems
+image: /assets/img/blog/on-crypto-and-payment-systems/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

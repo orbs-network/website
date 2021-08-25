@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: How PoW and PoS Can Help Create Better Apps
+image: /assets/img/blog/how-pow-and-pos-can-help-create-better-apps/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Orbs and Krystal Announce a Partnership Focused on DeFi
+meta_description:
+meta_keywords:
+title: How to Use the Orbs Vault on Beefy Finance
+image: /assets/img/blog/how-to-use-the-orbs-vault-on-beefy-finance/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: What Elite Capture means - and why it should enrage you
+image: /assets/img/blog/what-elite-capture-means-and-why-it-should-enrage-you/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

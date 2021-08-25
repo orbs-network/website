@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: The Blockchain-Based Solution to SNAP Fraud
+image: /assets/img/blog/solution-against-snap-fraud/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

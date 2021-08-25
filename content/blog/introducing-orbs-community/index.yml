@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Introducing the new Orbs Community discussion board on Discourse
+image: /assets/img/blog/introducing-orbs-community/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

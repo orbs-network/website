@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Update December 2019
+image: /assets/img/blog/orbs-update-december-2019/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

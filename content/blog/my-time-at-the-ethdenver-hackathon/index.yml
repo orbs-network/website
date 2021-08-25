@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: My time at the EthDenver Hackathon
+image: /assets/img/blog/my-time-at-the-ethdenver-hackathon/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

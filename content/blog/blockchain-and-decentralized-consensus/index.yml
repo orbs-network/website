@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Blockchain and Decentralized Consensus
+image: /assets/img/blog/blockchain-and-decentralized-consensus/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md
