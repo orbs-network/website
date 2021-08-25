@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Self-sovereign Identity on the Orbs Blockchain
+image: /assets/img/blog/self-sovereign-identity-on-the-orbs-blockchain/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

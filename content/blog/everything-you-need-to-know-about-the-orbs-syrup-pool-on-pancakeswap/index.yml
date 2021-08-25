@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Orbs and Krystal Announce a Partnership Focused on DeFi
+meta_description:
+meta_keywords:
+title: Everything You Need to Know About the Orbs Syrup Pool on PancakeSwap
+image: /assets/img/blog/everything-you-need-to-know-about-the-orbs-syrup-pool-on-pancakeswap/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

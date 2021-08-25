@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Network — v1.3.6 fixes
+image: /assets/img/blog/orbs-network-v1-3-6-fixes/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

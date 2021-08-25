@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs and Flipside Crypto Team Up to Launch the Orbs Community Console
+image: /assets/img/blog/orbs-and-flipside-crypto-team-up-to-launch-the-orbs-community-console/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

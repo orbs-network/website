@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Blockchain against Child Abusive Imagery
+image: /assets/img/blog/blockchain-against-child-abusive-imagery/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

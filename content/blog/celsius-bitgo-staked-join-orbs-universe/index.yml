@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Celsius, BitGo and Staked Now Participate in Orbs' PoS Universe
+image: /assets/img/blog/celsius-bitgo-staked-join-orbs-universe/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

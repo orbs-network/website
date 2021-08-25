@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs and Krystal Announce a Partnership Focused on DeFi
+image: /assets/img/blog/orbs-and-krystal-announce-a-partnership-focused-on-defi/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

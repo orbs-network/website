@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Optimizing Ethereum Gas Costs for Orbs Delegators
+image: /assets/img/blog/optimizing-ethereum-gas-costs-for-orbs-delegators/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

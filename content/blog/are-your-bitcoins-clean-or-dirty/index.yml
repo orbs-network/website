@@ -8,8 +8,9 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Orbs and Krystal Announce a Partnership Focused on DeFi
+meta_description:
+meta_keywords:
+title: Are Your Bitcoins Clean or Dirty?
+image: /assets/img/blog/are-your-bitcoins-clean-or-dirty/bg.png
 gdpr:
   - /_shared/gdpr/index.md

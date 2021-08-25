@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Update October 2020
+image: /assets/img/blog/orbs-update-october-2020/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

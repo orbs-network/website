@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: The Orbs PoS Universe Archetypes — High Level Introduction
+image: /assets/img/blog/the-orbs-pos-universe-archetypes/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

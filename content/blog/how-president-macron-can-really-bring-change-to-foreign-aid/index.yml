@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Ensuring visibility and accountability - How President Macron can really bring change to foreign aid
+image: /assets/img/blog/how-president-macron-can-really-bring-change-to-foreign-aid/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

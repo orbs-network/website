@@ -8,8 +8,9 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Bitcoin’s Unusual Property Rights
+image: /assets/img/blog/bitcoins-unusual-property-rights/bg.jpg
 gdpr:
   - /_shared/gdpr/index.md

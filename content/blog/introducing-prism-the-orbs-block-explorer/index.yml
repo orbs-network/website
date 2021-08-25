@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Introducing PRISM - The Orbs Block Explorer
+image: /assets/img/blog/introducing-prism-the-orbs-block-explorer/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md
