@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Blockchain to Eliminate Voter Fraud
+image: /assets/img/blog/blockchain-to-eliminate-voter-fraud/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

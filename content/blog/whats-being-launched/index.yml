@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: What's Being Launched - an Inventory List of Everything Part of V1 Release
+image: /assets/img/blog/whats-being-launched/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

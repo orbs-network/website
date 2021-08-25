@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Deep Dive into the FRI Protocol
+image: /assets/img/blog/fri-protocol/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

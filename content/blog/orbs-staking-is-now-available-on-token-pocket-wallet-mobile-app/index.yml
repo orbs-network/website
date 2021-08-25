@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Orbs and Krystal Announce a Partnership Focused on DeFi
+meta_description:
+meta_keywords:
+title: Orbs Staking is now available on the Token Pocket Wallet mobile app!
+image: /assets/img/blog/orbs-staking-is-now-available-on-token-pocket-wallet-mobile-app/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Getting Ready for Round IV of Orbs Rewards Distribution
+image: /assets/img/blog/getting-ready-for-round-iv-of-orbs-rewards-distribution/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

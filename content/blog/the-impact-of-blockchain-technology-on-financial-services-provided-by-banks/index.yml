@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: The Impact of Blockchain Technology on Financial Services Provided by Banks
+image: /assets/img/blog/the-impact-of-blockchain-technology-on-financial-services-provided-by-banks/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

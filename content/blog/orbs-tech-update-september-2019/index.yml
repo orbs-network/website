@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Technology Update September 2019
+image: /assets/img/blog/orbs-tech-update-september-2019/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

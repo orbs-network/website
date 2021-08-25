@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Featured on Staking Rewards
+image: /assets/img/blog/orbs-featured-on-staking-rewards/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

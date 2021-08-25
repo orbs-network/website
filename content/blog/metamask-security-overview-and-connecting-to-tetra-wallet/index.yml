@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: MetaMask Security Overview and Connecting to Tetra Wallet
+image: /assets/img/blog/metamask-security-overview-and-connecting-to-tetra-wallet/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs R&D Update July 2019
+image: /assets/img/blog/rd-update-orbs-july-2019/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

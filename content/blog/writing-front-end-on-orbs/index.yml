@@ -11,5 +11,7 @@ subscribe:
 meta_description:
 meta_keywords:
 title: "Guide to Apps on the Orbs Network, Part II: Writing a Front-End Part"
+image: /assets/img/blog/writing-front-end-on-orbs/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

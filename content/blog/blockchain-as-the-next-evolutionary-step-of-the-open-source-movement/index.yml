@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Blockchain as the Next Evolutionary Step of the Open Source Movement
+image: /assets/img/blog/blockchain-as-the-next-evolutionary-step-of-the-open-source-movement/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Troubleshooting the Orbs Platform | Case Study
+image: /assets/img/blog/troubleshooting-the-orbs-platform-case-study/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md
