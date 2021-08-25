@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: The Road to Mainstream Use - Business Strategy for 2019
+image: /assets/img/blog/business-strategy-for-2019/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

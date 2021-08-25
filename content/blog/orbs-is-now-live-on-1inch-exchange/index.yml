@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Orbs and Krystal Announce a Partnership Focused on DeFi
+meta_description:
+meta_keywords:
+title: Orbs is now live on 1inch Exchange!
+image: /assets/img/blog/orbs-is-now-live-on-1inch-exchange/bg.jpeg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Introducing Orbs Liquidity Nexus — Liquidity as a Service
+image: /assets/img/blog/introducing-orbs-liquidity-nexus-liquidity-as-a-service/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

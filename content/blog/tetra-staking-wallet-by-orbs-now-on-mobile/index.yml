@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Tetra staking Wallet by Orbs Now on Mobile!
+image: /assets/img/blog/tetra-staking-wallet-by-orbs-now-on-mobile/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

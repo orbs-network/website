@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Why Proof-Of-Stake Systems Can Benefit From External Oversight
+image: /assets/img/blog/pos-external-oversight/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

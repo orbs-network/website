@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: DinoSwap has announced the launch of the Orbs Extinction Pool!
+image: /assets/img/blog/Orbs-Extinction-Pool-Launched-on-DinoSwap/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Exploring DeFi with the Orbs Grant Program
+image: /assets/img/blog/exploring-defi-with-the-orbs-grant-program/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

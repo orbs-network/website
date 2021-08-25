@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: The Sweet Spot | SFBW Blog
+image: /assets/img/blog/the-sweet-spot-sfbw-blog/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

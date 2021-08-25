@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs and Binance Team Up to Launch DeFi Accelerator
+image: /assets/img/blog/orbs-and-binance-team-up-to-launch-defi-accelerator/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

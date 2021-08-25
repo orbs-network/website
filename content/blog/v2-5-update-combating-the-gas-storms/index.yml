@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: V2.5 UPDATE - Combating the Gas Storms
+image: /assets/img/blog/v2-5-update-combating-the-gas-storms/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Orbs Live on Amazon - AMI Published by AWS Marketplace
+image: /assets/img/blog/orbs-live-on-amazon-ami-published-by-aws-marketplace/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

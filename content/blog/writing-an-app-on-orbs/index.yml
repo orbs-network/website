@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Complete Guide to Writing an App on the Orbs Network (Part I of II)
+image: /assets/img/blog/writing-an-app-on-orbs/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

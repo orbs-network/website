@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: Improving the Transparency of Nonprofit Organizations Using Blockchain
+image: /assets/img/blog/improving-the-transparency-of-nonprofit-organizations-using-blockchain/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: ORBS Is Now Available on Blockfolio!
+image: /assets/img/blog/orbs-is-now-available-on-blockfolio/bg.jpg
+
 gdpr:
   - /_shared/gdpr/index.md

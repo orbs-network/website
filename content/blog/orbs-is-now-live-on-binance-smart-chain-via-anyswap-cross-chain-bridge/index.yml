@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
+meta_description:
+meta_keywords:
 title: ORBS is now live on Binance Smart Chain Via AnySwap Cross-Chain Bridge!
+image: /assets/img/blog/orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md

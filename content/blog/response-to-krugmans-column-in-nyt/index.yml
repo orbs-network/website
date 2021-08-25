@@ -8,8 +8,10 @@ footer:
   - /_shared/footer/footer.md
 subscribe:
   - /_shared/subscribe/subscribe.md
-meta_description: 
-meta_keywords: 
-title: Orbs and Krystal Announce a Partnership Focused on DeFi
+meta_description:
+meta_keywords:
+title: Response to Krugman’s Column in NYT
+image: /assets/img/blog/response-to-krugmans-column-in-nyt/bg.png
+
 gdpr:
   - /_shared/gdpr/index.md
