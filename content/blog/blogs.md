@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/blog.md
   - Orbs-Extinction-Pool-Launched-on-DinoSwap/blog.md
   - orbs-is-now-live-on-quickswap/blog.md
   - The-New-Orbs-Website-Promotion-Campaign/blog.md
