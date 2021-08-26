@@ -5,7 +5,7 @@ blogUrl: The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants
 date: 2021-08-24
 title: The Orbs Ecosystem Grant Program - Second Call for Grants
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: The Orbs project is now launching a new call for grants under the Orbs Ecosystem Grant Program (OEGP).
 ---
