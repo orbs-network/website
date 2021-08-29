@@ -1,67 +1,51 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-By-the-Numbers/bg.jpeg
+blogUrl: Orbs-By-the-Numbers
+date: 2021-08-30
+title: Orbs By the Numbers 
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: The numbers behind the Orbs project
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Since Orbs Ltd. was established in 2017 and the production-ready Orbs Network mainnet was launched in 2019, the Orbs Network has been growing through a variety of efforts by the entire community, including: the token distribution event, listing on exchanges, the continued growth of the PoS universe, partnerships with enterprise businesses, DeFi integration with multi chain support, etc. To help easily understand the current state of the project, the Orbs core team  has  sorted out some of what has been accomplished  over the last 2 years during this journey by the numbers. Some of these numbers are very interesting to us and some may be interesting to community members as well.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Here it is!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![infographic](/assets/img/blog/Orbs-By-the-Numbers/img1.jpg)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_Orbs by the numbers; All data is as of August 2021. The numbers will be updated as the Orbs Network grows_
 
-### Step-by-Step Guide
+### About Orbs: 1, 5, 30+
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Orbs is the leading blockchain company in Israel, a country that is famous for its innovation and start-ups. Orbs has been selected as one of the [“Cool vendors in blockchain technology”](https://www.gartner.com/en/documents/3889066) by Gartner. Now there are more than 30 team members who are working hard in global offices (Israel, UK, S.Korea, Singapore, Japan); more than half are part of the R&D team. The ecosystem contains many partners around the globe.
 
-Please also see our disclaimers below.
+### Origin of Innovation and R&D: 3, 161
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Orbs is developer-friendly. Developers can start working on Orbs easily, with just a few clicks in the most popular cloud environments including AWS, Azure by Microsoft, and Google Cloud. Orbs is a full open-source project and there are 161 repositories in the project’s [official github](https://github.com/orbs-network). As mentioned, half of the team members are R&D and the Orbs Network is not a fork of any existing solution but was developed from scratch and is a fully public, permissionless blockchain solution.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Status of Orbs network: 18, 879, 2017, 46K
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Orbs was established in 2017 and launched our production-ready mainnet in March 2019. As of 19 August 2021, the Orbs Network is 879 days old. And we now have 46K+ twitter followers and thousands more community members via other global and local social channels. ORBS tokens can be traded on 18 exchanges globally.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+### Orbs is Decentralized: 8589, 224K, 38M
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+As the Orbs network is a permissionless public blockchain, it is distributed to more than 8000 addresses holding ORBS tokens on all integrated blockchain networks (ETH, BSC, Polygon) and there have been over 224K transactions of ORBS tokens to date. In addition to the main circulating supply on Ethereum,  there are now also 38M tokens swapped to the BSC and Polygon networks, which are outside of the Ethereum network.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+### Orbs PoS Universe(1): 8, 11, 14
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+You can participate in Orbs PoS Universe to earn a Maximum of 8% rewards (APR). To participate by staking ORBS, there are 11 popular wallets that can be used easily on Win, Mac, Android, iOS. There is a 14-day cooldown period to unlock staked tokens.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+### Orbs PoS Universe(2): 21, 1067, 898M
 
-Once the position is opened, you can always re-adjust the parameters:
+There are 21 active Guardians securing the Orbs network, together with 1000+ delegators. The total number of staked tokens in the PoS Universe is 898M, which is about 40% of the current circulating supply. This stake provides security and consensus governance to the network.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+### Trading Volume: 215M, 2.23B, 10B
 
-### 2) Lend ALPACA tokens
+Orbs is now ranked #184 on [Coinmarketcap](https://coinmarketcap.com/currencies/orbs/) with a market capitalization of about $215M. 2.23B ORBS are now active in the market out of 10B total supply.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Of course these numbers are not final and will continue to change with the growth of the Orbs Network.
 
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
