@@ -5,7 +5,7 @@ blogUrl: Orbs-By-the-Numbers
 date: 2021-08-30
 title: Orbs By the Numbers 
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Eddy.md
 type:
 short_description: The numbers behind the Orbs project
 ---
