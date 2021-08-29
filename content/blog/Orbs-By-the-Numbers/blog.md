@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-By-the-Numbers/bg.jpeg
+image: /assets/img/blog/Orbs-By-the-Numbers/bg.jpg
 blogUrl: Orbs-By-the-Numbers
 date: 2021-08-30
 title: Orbs By the Numbers 
