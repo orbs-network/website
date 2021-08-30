@@ -3530,18 +3530,81 @@ html {
   .ecosystem-category-list-item {
     width: calc(50% - 6vw); } }
 
-.contact-container {
-  max-width: 820px;
-  width: 100%; }
-
-.contact .form {
-  margin-bottom: 90px; }
-
-.contact .form-inputs {
-  margin-top: 90px; }
-  .contact .form-inputs .form-input:last-child {
-    margin-bottom: 0px;
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contact-socials {
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative; }
+    .contact-socials::after {
+      position: absolute;
+      content: "";
+      width: 100vw;
+      left: 50%;
+      height: 100%;
+      transform: translate(-50%, -50%);
+      background: #2b2b2b;
+      top: 50%; }
+    .contact-socials-section h4 {
+      margin-bottom: 20px;
+      color: white; }
+    .contact-socials-section-link {
+      margin-bottom: 20px;
+      padding-right: 20px; }
+      .contact-socials-section-link:last-of-type {
+        margin-bottom: 0px; }
+      .contact-socials-section-link a {
+        color: #03fcf5;
+        text-decoration: none; }
+      .contact-socials-section-link p {
+        color: #03fcf5;
+        margin-bottom: 5px; }
+    .contact-socials #contact-youtube .contact-socials-section-link {
+      display: flex;
+      align-items: center; }
+      .contact-socials #contact-youtube .contact-socials-section-link a {
+        margin-left: 5px;
+        text-decoration: underline; }
+      .contact-socials #contact-youtube .contact-socials-section-link p {
+        margin-bottom: 0px; }
+    .contact-socials h3 {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 30px;
+      position: relative;
+      z-index: 1; }
+    .contact-socials-flex {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 1;
+      position: relative; }
+  .contact .form {
+    margin-bottom: 80px; }
+  .contact-container {
+    max-width: 820px;
     width: 100%; }
+  .contact .form-inputs {
+    margin-top: 90px; }
+    .contact .form-inputs .form-input:last-child {
+      margin-bottom: 0px;
+      width: 100%; }
+
+@media only screen and (max-width: 1100px) {
+  .contact-socials-flex {
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .contact-socials-section {
+    width: 33%;
+    margin-bottom: 70px; } }
+
+@media only screen and (max-width: 900px) {
+  .contact-socials-section {
+    width: 50%; } }
 
 @media only screen and (max-width: 700px) {
   .contact .form-inputs {
