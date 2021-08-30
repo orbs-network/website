@@ -13,4 +13,7 @@ links:
 
   - img: /assets/img/socials/github.svg
     url: https://github.com/orbs-network/
+
+  - img: /assets/img/socials/ko/youtube.png
+    url: https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured
 ---
