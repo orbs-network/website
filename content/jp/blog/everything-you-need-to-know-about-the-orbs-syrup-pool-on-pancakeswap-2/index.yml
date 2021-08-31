@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /jp/_shared/navbar/index.md
+main: body.md
+footer:
+  - /jp/_shared/footer/footer.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: PancakeSwapのOrbs Syrup Pool 操作解説
+
+gdpr:
+  - /jp/_shared/gdpr/index.md
