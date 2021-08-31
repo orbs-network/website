@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Added-to-KogeFarm-Vaults/blog.md
   - Orbs-By-the-Numbers/blog.md
   - The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/blog.md
   - Orbs-Extinction-Pool-Launched-on-DinoSwap/blog.md
