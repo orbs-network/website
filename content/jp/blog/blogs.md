@@ -1,6 +1,39 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - defi-org-twitter-tool-2/blog.md
+  - qatari-aid-and-cbdc-can-change-international-giving-2/blog.md
+  - orbs-staking-is-now-available-on-dcent-wallet-mobile-app-2/blog.md
+  - how-to-bridge-orbs-tokens-onto-the-polygon-network-2/blog.md
+  - orbs-added-to-wowswap-2/blog.md
+  - how-to-use-the-orbs-pool-on-alpaca-finance-2/blog.md
+  - how-to-use-the-orbs-vault-on-beefy-finance-2/blog.md
+  - are-your-bitcoins-clean-or-dirty-2/blog.md
+  - orbs-added-to-alpaca-finance-vaults-2/blog.md
+  - orbs-added-to-beefy-finance-vaults-2/blog.md
+  - orbs-ecosystem-expansion-whats-next-2/blog.md
+  - orbs-on-bsc-status-update-2/blog.md
+  - token-pocket-wallet/blog.md
+  - orbs-is-now-live-on-bscscan-2/blog.md
+  - everything-you-need-to-know-about-the-orbs-syrup-pool-on-pancakeswap-2/blog.md
+  - orbs-launches-a-syrup-pool-on-pancakeswap-2/blog.md
+  - could-china-force-a-cleaner-bitcoin-2/blog.md
+  - orbs-is-now-live-on-1inch-exchange-2/blog.md
+  - el-salvador-adopts-bitcoin-2/blog.md
+  - orbs、chainlink価格データ・フィードのスポンサーに/blog.md
+  - orbs-is-now-live-on-kyber-dmm-2/blog.md
+  - tracking-gaza-terror-funding-2/blog.md
+  - response-to-krugmans-column-in-nyt-2/blog.md
+  - orbs-pos-info-app-is-now-launched-3/blog.md
+  - orbs-integrated-with-the-graph-protocol-thegraph-com-2/blog.md
+  - understanding-bitcoin-mixers-2/blog.md
+  - orbs-staking-is-now-available-on-myetherwallet-mobile-app-2/blog.md
+  - the-orbs-ecosystem-is-growing-2/blog.md
+  - orbs-is-now-live-on-sushiswap-2/blog.md
+  - orbs-integrates-chainlink-price-feeds-to-secure-single-sided-farming-against-flash-loan-attacks-2/blog.md
+  - orbs-staking-is-now-available-on-the-coinbase-wallet-mobile-app-2/blog.md
+  - bhex-bluehelix-exchange-lists-orbs-token-orbs-2/blog.md
+  - orbs-is-live-on-google-cloud-2/blog.md
   - orbsのステーキングがtrust-wallet-で利用可能となりました/blog.md
   - when-decentralized-finance-meets-the-traditional-system-2/blog.md
   - what-elite-capture-means-and-why-it-should-enrage-you-2/blog.md
