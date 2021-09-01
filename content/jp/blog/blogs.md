@@ -1,6 +1,12 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-By-the-Numbers-2/blog.md
+  - The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants-2/blog.md
+  - Orbs-Extinction-Pool-Launched-on-DinoSwap-2/blog.md
+  - The-New-Orbs-Website-Promotion-Campaign-2/blog.md
+  - orbs-website-launch-2/blog.md
+  - orbs-is-now-live-on-quickswap-2/blog.md
   - defi-org-twitter-tool-2/blog.md
   - qatari-aid-and-cbdc-can-change-international-giving-2/blog.md
   - orbs-staking-is-now-available-on-dcent-wallet-mobile-app-2/blog.md
