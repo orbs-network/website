@@ -1,67 +1,80 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/bg.jpg
+blogUrl: How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap
+date: 2021-09-02
+title: How to Use the Orbs Fossil Farms & Extinction Pool on DinoSwap
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: In this blog post you will find a short tutorial of how to use the Orbs pools on DinoSwap.
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The Orbs project [recently](https://www.orbs.com/orbs-ecosystem-expansion-whats-next/) announced that it has expanded its ecosystem into the Polygon Network. ORBS was integrated into the official Polygon [bridge](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) and Orbs [pools](https://www.orbs.com/orbs-is-now-live-on-quickswap/) were opened on QuickSwap.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+**Soon after, DinoSwap [announced](https://www.orbs.com/Orbs-Extinction-Pool-Launched-on-DinoSwap/) that they are launching the Orbs Fossil Farm and Extinction Pool!**
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+DinoSwap is an advanced DeFi protocol that interfaces directly with the ORBS-USDC pool on QuickSwap. We are very excited about this special integration with DinoSwap as it is expected to strengthen the ties of Orbs to the Polygon DeFi ecosystem, increase ORBS liquidity, and also increase exposure of the Orbs project to the Polygon user-base.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+In this blog post you will find a short tutorial of how to use the Orbs pools on DinoSwap.
+
+![Dino banner](/assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/image1.jpg)
+
+
 
 ### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The Orbs Fossil Farm interfaces directly with the QuickSwap DEX-AMM on Polygon. Orbs users will need 2 basic things in order to be able to interact with the Polygon network:
 
-Please also see our disclaimers below.
+1. Set up MetaMask wallet for Polygon. This is a very simple and easy process as explained in this short [guide](https://medium.com/stakingbits/setting-up-metamask-for-polygon-matic-network-838058f6d844).
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+2. On the Polygon network, MATIC is the currency used for conducting transactions. Each transaction costs a very small fee to process, and that fee is paid in the form of gas with a MATIC token. If you do not have any MATIC in your wallet, then you can not send any transactions! You can get initial MATIC to get you started on Polygon for free [here](https://macncheese.finance/matic-polygon-mainnet-faucet.php). After that, you can always swap more MATIC tokens on any DEX for ongoing transaction fees
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Now you are all set to start!**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Here is a short tutorial and a summarized process flow for using the OrbsFossil Farms & Extinction Pool on DinoSwap:
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+<iframe src="https://www.youtube.com/embed/YDJHe1HQlUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Here is the basic flow you'll need to do:
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![dino flow](/assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/image2.png)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+**1) Bridge Orbs tokens onto Polygon**
 
-Once the position is opened, you can always re-adjust the parameters:
+The first step is to bridge your Orbs tokens from Ethereum to Polygon, if you haven't already done so. Read this [blog post](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) to learn how it's done using the official Polygon [bridge](https://wallet.matic.network/bridge/).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+**2) Add liquidity on QuickSwap**
 
-### 2) Lend ALPACA tokens
+Next, you’ll need to [add liquidity](https://quickswap.exchange/#/add/0x614389eaae0a6821dc49062d56bda3d9d45fa2ff/ETH) to the ORBS-USDC pool on QuickSwap. After adding liquidity, you will receive **ORBS-USDC LP tokens** which you’ll need to use in the next step. Here is a short [guide](https://www.orbs.com/orbs-is-now-live-on-quickswap/) for using Orbs on QuickSwap.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+![add liquidity](/assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/image3.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+To add liquidity, you will need ORBS and USDC in equal parts in terms of USD value. To achieve this you can bridge USDC to Polygon, or simply swap some of your ORBS for USDC.
 
-### 3) Earn Orbs in the Grazing Range
+**3) Stake in DinoSwap’s Fossil Farms**
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+The next step is to stake your **ORBS-USDC LP** tokens in the Orbs [Fossil Farm](https://dinoswap.exchange/farms?t=l) on DinoSwap. Once the LP tokens are staked you will start to earn DINO tokens. Claiming these DINO tokens is done by pressing the “Excavate” button.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+![fossil farm](/assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/image4.png)
 
-#### And that’s it – You are now a senior Alpaca!
+
+**4) Excavate Orbs in the Extinction Pools**
+
+The final step is to stake your DINO tokens in the Orbs [Extinction Pool](https://dinoswap.exchange/pools?t=l) and earn ORBS tokens rewards. Note that by entering these pools, you should understand that **100% of your deposited DINO will be burned** to earn the reward tokens over the remaining duration of the pool.
+
+![extinction pool](/assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/image5.png)
+
+
+### And that’s it - You are now a certified paleontologist!
+
+
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_Use of DinoSwap, QuickSwap, Polygon bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position._
 
 _Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
