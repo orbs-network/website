@@ -36,7 +36,7 @@ Here is a short tutorial and a summarized process flow for using the OrbsFossil 
 
 <iframe src="https://www.youtube.com/embed/YDJHe1HQlUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Here is the basic flow you'll need to do:
+And here is the basic flow you'll need to do:
 
 ![dino flow](/assets/img/blog/How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/image2.png)
 
