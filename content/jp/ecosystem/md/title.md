@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/title
 ---
 
-# エコシステム
+# OUR ECOSYSTEM

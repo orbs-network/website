@@ -1,6 +1,7 @@
 ---
 layout: partials/ecosystem/category
 title: 정보 공개
+
 items:
   - xangle.md
   - messari.md
