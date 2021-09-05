@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Intro-to-CBDC/bg.jpeg
 blogUrl: Intro-to-CBDC
 date: 2021-09-05
-title: Intro to CBDC
+title: Introduction to Central Bank Digital Currency (CBDC)
 author:
   - /blog/common/authors/NettaKorin.md
 type:
