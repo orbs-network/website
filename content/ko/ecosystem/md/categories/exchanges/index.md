@@ -8,6 +8,7 @@ items:
   - upbit.md
   - bibox.md
   - okex.md
+  - huobi.md
   - coinone.md
   - bilaxy.md
   - latoken.md

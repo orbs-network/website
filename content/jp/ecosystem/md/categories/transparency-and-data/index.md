@@ -1,6 +1,7 @@
 ---
 layout: partials/ecosystem/category
 title: 透明性とデータ
+
 items:
   - xangle.md
   - messari.md
