@@ -5,7 +5,7 @@ title: Alan KIM
 lat: 35.907757
 lng: 127.766922
 countryCode: KR
-image: /assets/img/home/delegators/delegator3.JPG
+image: /assets/img/home/delegators/Alan KIM.jpeg
 ---
 
 Country: South Korea
