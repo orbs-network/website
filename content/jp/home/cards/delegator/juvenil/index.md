@@ -9,3 +9,5 @@ image: /assets/img/home/delegators/orbs - Murat K.jpg
 ---
 
 Country: Turkey
+
+Twitter: @coinbucks\_

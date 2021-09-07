@@ -9,3 +9,5 @@ image: /assets/img/home/delegators/Alan KIM.jpeg
 ---
 
 Country: South Korea
+
+Kakao: 장투코인 69.5
