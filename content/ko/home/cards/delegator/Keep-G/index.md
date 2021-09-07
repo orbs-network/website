@@ -9,3 +9,5 @@ image: /assets/img/home/delegators/delegator1.jpg
 ---
 
 Country: South Korea
+
+Telegram: Keep G
