@@ -9,3 +9,5 @@ image: /assets/img/home/delegators/인문학적 저�
 ---
 
 Country: South Korea
+
+Kakao: 인문학초대졸 석창맨
