@@ -9,3 +9,5 @@ image: /assets/img/home/delegators/delegator3.JPG
 ---
 
 Country: Japan
+
+Twitter: @bjnpmud
