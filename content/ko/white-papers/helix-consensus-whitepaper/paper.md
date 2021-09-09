@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Helix Consensus White Paper
 readPaperBtn: 문서 읽기
 date: April 2018
-url: white-papers/helix-consensus-whitepaper
+url: white-papers/ko/helix-consensus-whitepaper
 button: Preview Paper
 published: "Published"
 
