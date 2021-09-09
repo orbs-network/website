@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Enforcing Fairness in Blockchain Transaction Ordering
 readPaperBtn: 문서 읽기
 date: May 2019
-url: white-papers/enforcing-fairness-in-blockchain-transaction-ordering
+url: white-papers/ko/enforcing-fairness-in-blockchain-transaction-ordering
 button: Preview Paper
 published: "Published"
 image: /assets/img/white-papers/enforcing-fairness-in-blockchain-transaction-ordering.png

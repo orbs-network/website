@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Fully Distributed Group Signatures
 readPaperBtn: 문서 읽기
 date: April 2019
-url: white-papers/fully-distributed-group-signatures
+url: white-papers/ko/fully-distributed-group-signatures
 button: Preview Paper
 published: "Published"
 image: /assets/img/white-papers/fully-distributed-group-signatures.png

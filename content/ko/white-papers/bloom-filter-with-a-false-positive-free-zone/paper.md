@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Bloom Filter with a False Positive Free Zone
 readPaperBtn: 문서 읽기
 date: April 2018
-url: white-papers/bloom-filter-with-a-false-positive-free-zone
+url: white-papers/ko/bloom-filter-with-a-false-positive-free-zone
 button: Preview Paper
 published: "Published"
 image: /assets/img/white-papers/bloom-filter-with-a-false-positive-free-zone.png
