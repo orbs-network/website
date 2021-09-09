@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
-  - rbs-Coming-to-Solana/blog.md
+  - Orbs-Coming-to-Solana/blog.md
   - Intro-to-CBDC/blog.md
   - How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/blog.md
   - Orbs-Added-to-KogeFarm-Vaults/blog.md
