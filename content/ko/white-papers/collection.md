@@ -2,6 +2,11 @@
 layout: partials/white-papers/white-papers-list
 title: white papers
 list:
+  - title: 커뮤니티 관련
+    list:
+      - orbs-grant-grogram-second-call-for-grants/paper.md
+      - orbs-grant-program/paper.md
+
   - title: Orbs PoS 유니버스
     list:
       - orbs-pos-v2-the-age-of-guardians/paper.md
@@ -9,10 +14,6 @@ list:
   - title: 정책방침서(Position Paper)
     list:
       - orbs-position-paper/paper.md
-
-  - title: 커뮤니티 관련
-    list:
-      - orbs-grant-program/paper.md
 
   - title: Orbs 기술 개요
     list:
