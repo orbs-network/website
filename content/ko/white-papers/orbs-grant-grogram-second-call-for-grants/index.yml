@@ -1,0 +1,11 @@
+title: "오브스 지원 프로그램: 두번째 라운드"
+layout: pages/page
+script: white-paper/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
