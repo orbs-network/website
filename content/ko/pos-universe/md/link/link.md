@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/link-btn
-url: white-papers/ko/orbs-pos-v2-the-age-of-guardians/
+url: /ko/white-papers/orbs-pos-v2-the-age-of-guardians/
 right: true
 ---
 
