@@ -1,67 +1,56 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/A-Closer-Look-At-CBDCs/bg.jpg
+blogUrl: A-Closer-Look-At-CBDCs
+date: 2021-09-13
+title: A Closer Look At CBDCs
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+As part of our blockchain education efforts, we have had multiple discussions with the Bank of Israel and other government bodies regarding the potential of CBDC. Ran Melamed, Head of Research at the Hexa Foundation, detailed our thoughts on CBDCs.  In this second post on the topic, we discuss the advantages of deploying [CBDCs](https://98485716-4f63-4760-97b8-9800c57425f8.filesusr.com/ugd/36247c_7888d2661fb34ac18fe605d965c5cd1e.pdf), as an effective instrument for tackling the multiple economical challenges and trends. We focus on the following:
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+- Using this new monetary tool to adjust discount rates
+- Reducing the amount of circulated cash 
+- Driving Competition in Banking Industry
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+CBDCs’ key advantage is providing central banks an additional and powerful monetary tool. Adjusting interest rates is a central bank’s most powerful instrument for carrying out monetary policy. These adjustments have a direct effect on macroeconomic factors such as the commercial bank’s liquidity and credit cost, and as a result consumer spending and borrowing. According to conventional monetary theory, a central bank has three conventional means to affect a market’s interest rate:
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+- Open market operations (OMO) – Buying or issuing bonds, to increase or decrease the total supply of money.
+- Discount rate on banks’ reserve accounts – Determining the cost of banks’ credit, rolled down to their customers
+- Reserve requirements – Setting the minimum cash reserve ratio of commercial banks
 
-### Step-by-Step Guide
+CBDCs could be used by central banks as part of the first two conventions, by issuing or absorbing issued CBDCs and by setting the discount rates on CBDC accounts, respectively. Let us further examine the implications of both.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Adjusting Discount Rates
 
-Please also see our disclaimers below.
+Utilizing CBDCs for Open Market Operations may be highly efficient and even improve central banks’ current arsenal. Naturally, that depends on whether the CBDC is considered a desirable asset by the economic agents, i.e. banks, households (i.e. individuals), companies, government, etc. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+A simplified scenario assumes that households are able to manage CBDC accounts in the central bank, and consider it as an adequate substitute for cash and retail bank accounts. As they increasingly use them, the central bank’s liability shifts from banknotes towards CBDCs, thus reducing commercial banks’ cash reserves and pushing them to increase their CBDC reserves. The outcome of this scenario is an increase in the central bank’s CBDC liability and CBDC credit facilities, while its banknote liability decreases. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In the eyes of the central bank, it will be required to hold assets to back up its CBDC liabilities in the same manner it would have needed to back banknotes. In short, CBDCs could be implemented as part of a central bank’s OMO strategy just like printing cash. However, as it is easier to issue a digital currency than printing new cash, the process is more efficient for the central bank. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Let us now examine how CBDCs can be used to set market discount rates. This becomes more straightforward once CBDC accounts are available for everyone – not just commercial banks. Moreover, once the counterparty risk is eliminated and everyone has direct access to the central bank, CBDCs are likely to become the most secure and liquid asset in the market. The mechanism of this interest rate would be similar to that of the discount rate on banks’ reserves today. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+As mentioned above, the central bank may set CBDC interest rates as positive, negative or zero. Each policy would result in different outcomes depending on the central bank’s intention. While a positive rate might establish the market’s inflation rate or even an indicated risk-free interest rate, a zero-percent interest rate may support the notion that CBDC is electronic cash. The case for negative interest rate is more tricky as it might create two sets of currencies, i.e. a currency denoted by cash in circulation and another one denoted by the CBDC reserve accounts . On the face of it, this might cause instability, but might be useful in other scenarios when extreme measures are required.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### Reducing amount of circulated cash 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Another potential merit of CBDCs is reducing the amount of circulated cash in the market. In our opinion, a modern economy should aspire to be as efficient as possible. One way to reach this goal is to minimize, if not outright eliminate, the use of physical cash. One may argue that people could never overcome the  psychological need for “physical” money. Still, the history of currency challenges that presupposition. Before notes, coins were the primary form of payment, backed by the metal’s intrinsic value. However, as soon as people realized that carrying a single note that guarantees 100 coins is more convenient than carrying 100 heavy coins, notes gained popularity. The leap of faith was on the receiving side, acknowledging that notes had no intrinsic value and were bonded to some reserve that backed its declared value. Therefore, they had to be confident that there actually is a third party who guaranteed the note’s written value, if required. For many years, countries backed the money they issued with gold reserves and other valuable metals, or issued money back in the foreign currencies of other countries who did so. Only in 1971, as part of the Nixon Shock, the United States abolished direct convertibility of USD to gold. By doing this, it finally became evident that currency note value was only backed conceptually, not physically. 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Needless to mention that there are multiple substitutes for cash – credit cards or other digital payment services for example – although not necessarily perfect substitutes, either because of a credit fee or on account of partial adoption. While the former is on account of a competitive market, the latter may be influenced by government policy. Therefore, if a government decides to abolish the use of cash, e-wallet adoption would likely increase immediately. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Naturally, any migration to a cashless economy should be gradual in order to deploy proper digital infrastructure, anticipate potential security threats, and educate the public for the upcoming change (something that India’s demonetization experiment did not do). It is our view that removing a reliance on cash is in the best interest of most, if not all, countries. Furthermore, our estimation is that the general public would consider CBDC as the closest substitute for cash, hence issuing it could be the first step towards a cashless economy. 
 
-Once the position is opened, you can always re-adjust the parameters:
+### Driving Competition in Banking Industry
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+The banking industry is undergoing a major change. Digitization technologies make core banking services trivial. As a result, banking services broaden the reach to wider audiences, undermining the advantage of deep acquaintance with customers. 
 
-### 2) Lend ALPACA tokens
+Core banking services, such as a checking account, are already becoming redundant as consumers have alternatives such as e-wallets. In addition, calls for reform, such as [Narrow Banking](http://www.narrowbanking.org/) have been proposed as a better solution for most consumer checking accounts. Narrow Banking suggests that deposit accounts should be separated from all other banking activities, and be kept in dedicated banks, i.e. narrow banks. Those banks will have full reserves against those deposits, and could only lend money of the depositors who agreed not to keep their deposits liquid. Thus, CBDC will provide the public with an additional, central bank-based, alternative. I believe this is the next step in making those trivial banking services into true public utilities. This shift will probably result in transition of checking accounts out of commercial banks.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Some, like the [Bank of International Settlements](https://www.coindesk.com/central-bank-digital-currencies-fuel-bank-runs-bis-says), suggest that this might threaten financial stability as banks’ cash reserves decrease, and in certain scenarios might end up in a bank run. We consider this to be an extreme scenario, and believe that central banks have the tools to prevent that, as discussed in the next section. An alternative and far more likely scenario in my view, is that commercial banks will readapt. In order to be competitive, they would likely have to increase the interest rate on deposits to attract these deposits back, which may result in increasing credit spreads. In the short term, banks’ profits might decrease, forcing them to be more efficient. This is due to the excess profit that banks make out of these services. This would be a positive outcome from the general public’s perspective, both in releasing value and in improving the efficiency of the financial system. In the middle and long terms, I expect banks to start generating new revenue streams by providing new financial services, and by focusing on services that produce real value to the consumer.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+While focusing on the benefits, we do not suggest that deploying CBDCs is a walk in the park. It involves both technical difficulties and political and economical challenges. Those will be further discussed in our next post on this topic.
 
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
