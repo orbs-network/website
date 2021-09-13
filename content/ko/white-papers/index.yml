@@ -14,6 +14,6 @@ gdpr:
   - /ko/_shared/gdpr/index.md
 meta_description: "Download the latest versions of the Orbs Position Paper, the Helix Consensus Algorithm White Paper and Pivoting to Blockchain: the Orbs podcast"
 title: 백서 및 개발문서 - Orbs
-meta_og_locale_alternate: ko_KR
-meta_og_locale: en_US
+meta_og_locale_alternate: en_US
+meta_og_locale: ko_KR
 meta_image:
