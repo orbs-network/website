@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs Grant Program
+title: "오브스 지원 프로그램 (ENG)"
 readPaperBtn: 문서 읽기
 date: August 2020
-url: white-papers/orbs-grant-program
+url: /ko/white-papers/orbs-grant-program
 button: Preview Paper
 published: "Published"
 

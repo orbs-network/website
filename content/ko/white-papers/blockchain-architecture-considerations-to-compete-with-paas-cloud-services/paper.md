@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Blockchain Architecture Considerations to Compete with PaaS/Cloud Services
 readPaperBtn: 문서 읽기
 date: August 2018
-url: white-papers/eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols
+url: /ko/white-papers/eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols
 button: Preview Paper
 published: "Published"
 

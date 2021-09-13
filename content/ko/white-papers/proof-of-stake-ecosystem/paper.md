@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: Orbs PoS Ecosystem V1
 readPaperBtn: 문서 읽기
 date: March 2019
-url: white-papers/proof-of-stake-ecosystem
+url: /ko/white-papers/proof-of-stake-ecosystem
 button: Preview Paper
 published: "Published"
 

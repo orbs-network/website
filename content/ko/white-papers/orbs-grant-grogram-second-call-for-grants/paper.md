@@ -3,7 +3,7 @@ layout: partials/shared/mappers/white-paper-mapper
 title: "오브스 지원 프로그램: 두번째 라운드 (한글)"
 readPaperBtn: 문서 읽기
 date: August 2021
-url: white-papers/orbs-grant-grogram-second-call-for-grants
+url: /ko/white-papers/orbs-grant-grogram-second-call-for-grants
 button: Preview Paper
 published: "Published"
 
