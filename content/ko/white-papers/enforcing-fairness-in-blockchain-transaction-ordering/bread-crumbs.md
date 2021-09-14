@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/bread-crumbs
 
-url: /white-papers
+url: /ko/white-papers
 linkName: White Papers
 title: Enforcing Fairness in Blockchain Transaction Ordering
 ---
