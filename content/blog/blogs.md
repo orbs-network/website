@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - A-Closer-Look-At-CBDCs/blog.md
   - Orbs-Coming-to-Solana/blog.md
   - Intro-to-CBDC/blog.md
   - How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/blog.md

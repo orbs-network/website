@@ -4,7 +4,8 @@ script: white-paper/index
 
 header:
   - /ko/_shared/navbar/index.md
-main: body.md
+main:
+  - body.md
 footer:
   - /ko/_shared/footer/footer.md
 subscribe:
