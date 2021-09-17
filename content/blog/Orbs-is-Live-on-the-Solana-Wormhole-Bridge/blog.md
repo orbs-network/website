@@ -7,7 +7,7 @@ title: Orbs is Live on the Solana Wormhole Bridge
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: Orbs is now live on Wormhole: a cross-chain bridge between Ethereum and Solana
+short_description: "Orbs is now live on Wormhole: a cross-chain bridge between Ethereum and Solana"
 ---
 
 **We’re excited to announce that Orbs is now live on Wormhole: a cross-chain bridge between Ethereum and Solana!**
@@ -16,10 +16,7 @@ In this [recent](https://www.orbs.com/Orbs-Coming-to-Solana/) post, we gave a br
 
 Solana is ranked fourth among all blockchains in terms of DeFi TVL (Total Value Locked). The top three are Ethereum, BSC, and Polygon, all of which have been integrated with Orbs. In addition, Solana has shown amazing growth lately, exhibiting its high-performance features (such as low fees, fast transactions throughput, etc.), making it extremely attractive to new DeFi and NFT projects in the crypto space.
 
-
 ![orbs-solana](/assets/img/blog/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/image1.jpg)
-
-
 
 ### Opening a Wormhole to Solana
 
@@ -40,8 +37,6 @@ To use the Wormhole bridge, connect your Ethereum and Solana wallets on each sid
 
 ![wormhole bridge](/assets/img/blog/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/image2.png)
 
-
-
 You can find the bridged ORBS token contract on Solana here:
 
 [69UtB9WVmwJkxqHWdmydAB1oQfgS37SZfCVQmar5nvVf](https://explorer.solana.com/address/69UtB9WVmwJkxqHWdmydAB1oQfgS37SZfCVQmar5nvVf)
@@ -50,13 +45,11 @@ As always, exercise caution when working with 3rd party technologies, educate yo
 
 ### Tapping Solana’s Potential
 
-
 Solana is a fast-growing ecosystem, hosting many of today’s most prominent crypto projects. Some of these include DeFi powerhouses such as [Serum](https://medium.com/solana-labs/ftx-chooses-solana-for-serum-a-high-speed-non-custodial-decentralized-derivatives-exchange-c346a27c1f2b) and [Raydium](https://raydium.io/), the largest DEX-AMM currently on Solana with over $1.5B in TVL. In addition, Solana has also become a very [popular](https://solanart.io/) platform for NFTs.
 
-All of the above factors make Solana a treasure trove for projects looking to solidify their presence in the DeFi space. Consequently, the integration of Orbs with Solana is sure to open up many new and exciting opportunities for the Orbs community. 
+All of the above factors make Solana a treasure trove for projects looking to solidify their presence in the DeFi space. Consequently, the integration of Orbs with Solana is sure to open up many new and exciting opportunities for the Orbs community.
 
 **Expect more exciting news to come soon!**
-
 
 <div class='line-separator'> </div>
 
