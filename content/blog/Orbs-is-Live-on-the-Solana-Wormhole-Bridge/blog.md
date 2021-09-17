@@ -1,67 +1,67 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/bg.jpg
+blogUrl: Orbs-is-Live-on-the-Solana-Wormhole-Bridge
+date: 2021-09-17
+title: Orbs is Live on the Solana Wormhole Bridge
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: Orbs is now live on Wormhole: a cross-chain bridge between Ethereum and Solana
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**We’re excited to announce that Orbs is now live on Wormhole: a cross-chain bridge between Ethereum and Solana!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+In this [recent](https://www.orbs.com/Orbs-Coming-to-Solana/) post, we gave a brief overview of the Layer-1 projects cryptoscape and discussed why Solana is the obvious next step for the expansion of the Orbs Network’s ecosystem.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Solana is ranked fourth among all blockchains in terms of DeFi TVL (Total Value Locked). The top three are Ethereum, BSC, and Polygon, all of which have been integrated with Orbs. In addition, Solana has shown amazing growth lately, exhibiting its high-performance features (such as low fees, fast transactions throughput, etc.), making it extremely attractive to new DeFi and NFT projects in the crypto space.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+![orbs-solana](/assets/img/blog/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/image1.jpg)
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Opening a Wormhole to Solana
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+As with any new network integration, the first step is to bridge the ORBS Token in order to make it available on Solana.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+**To achieve this, the Orbs token has been integrated to Wormhole, the leading bridge to the Solana network.**
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+[Wormhole](https://solana.com/wormhole) is a secured bridge between Solana and other top DeFi networks such as Ethereum, BSC and Terra. It enables existing projects, platforms and communities to move their tokens seamlessly onto Solana in order to benefit from the high performance features offered by the Solana network.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Consequently, ORBS token holders can now easily migrate their ERC20 tokens to Solana using the following link:
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+[https://www.wormholebridge.com/#/move](https://www.wormholebridge.com/#/move)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+**Note:**
+In order to use the Solana Wormhole bridge you will need to set up a Solana wallet and fund it with some SOL tokens for transaction fees. Here is a list of [recommended](https://docs.solana.com/wallet-guide) wallets from the Solana official documentation library.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+To use the Wormhole bridge, connect your Ethereum and Solana wallets on each side of the bridge, search for the Orbs token in the search bar and approve the transfer, as shown below:
 
-Once the position is opened, you can always re-adjust the parameters:
+![wormhole bridge](/assets/img/blog/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+You can find the bridged ORBS token contract on Solana here:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+[69UtB9WVmwJkxqHWdmydAB1oQfgS37SZfCVQmar5nvVf](https://explorer.solana.com/address/69UtB9WVmwJkxqHWdmydAB1oQfgS37SZfCVQmar5nvVf)
 
-### 3) Earn Orbs in the Grazing Range
+As always, exercise caution when working with 3rd party technologies, educate yourself regarding the risks involved and read all security audits.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+### Tapping Solana’s Potential
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
 
-#### And that’s it – You are now a senior Alpaca!
+Solana is a fast-growing ecosystem, hosting many of today’s most prominent crypto projects. Some of these include DeFi powerhouses such as [Serum](https://medium.com/solana-labs/ftx-chooses-solana-for-serum-a-high-speed-non-custodial-decentralized-derivatives-exchange-c346a27c1f2b) and [Raydium](https://raydium.io/), the largest DEX-AMM currently on Solana with over $1.5B in TVL. In addition, Solana has also become a very [popular](https://solanart.io/) platform for NFTs.
+
+All of the above factors make Solana a treasure trove for projects looking to solidify their presence in the DeFi space. Consequently, the integration of Orbs with Solana is sure to open up many new and exciting opportunities for the Orbs community. 
+
+**Expect more exciting news to come soon!**
+
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_Use of Wormhole, the Solana blockchain and any other platforms and services described above carries significant risk. Such risks may include lack of stability or other technical issues resulting from upgrades of the Solona blockchain to a new version or the launch of its non-beta MainNet. Digital assets, decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses._
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
