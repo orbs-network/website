@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-is-Live-on-the-Solana-Wormhole-Bridge/blog.md
   - A-Closer-Look-At-CBDCs/blog.md
   - Orbs-Coming-to-Solana/blog.md
   - Intro-to-CBDC/blog.md
