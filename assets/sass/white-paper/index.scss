@@ -1,0 +1,13 @@
+.white-paper {
+  height: 100vh;
+  padding-bottom: 10px;
+  padding-top: 110px;
+  &-iframe {
+    width: 100%;
+    flex: 1;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
