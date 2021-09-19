@@ -39,7 +39,7 @@ To use the Wormhole bridge, connect your Ethereum and Solana wallets on each sid
 
 You can find the bridged ORBS token contract on Solana here:
 
-[69UtB9WVmwJkxqHWdmydAB1oQfgS37SZfCVQmar5nvVf](https://explorer.solana.com/address/69UtB9WVmwJkxqHWdmydAB1oQfgS37SZfCVQmar5nvVf)
+[7JnHPPJBBKSTJ7iEmsiGSBcPJgbcKw28uCRXtQgimncp](https://solscan.io/token/7JnHPPJBBKSTJ7iEmsiGSBcPJgbcKw28uCRXtQgimncp)
 
 As always, exercise caution when working with 3rd party technologies, educate yourself regarding the risks involved and read all security audits.
 
