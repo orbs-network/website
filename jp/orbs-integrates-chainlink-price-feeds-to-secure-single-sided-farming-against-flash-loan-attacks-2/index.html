@@ -9,26 +9,26 @@
 <p  class='text-p'>シングルサイド・ファーミングには 2 つの参加グループがあります。一方は CeFi から調達し、Nexus のコントラクトに多額の USDC を事前に提供グループです。この USDC はコントラクトの中で ETH の提供者を待っています。2 つ目のグループは、ETH を提供する親愛なる DeFi プレイヤーです。この ETH はすぐにリザーブから利用可能な USDC とペアになり、ETH/USDC のファーミングを開始します。ETH 入金者が引き出しを決定すると、ETH/USDC はペアリングが解除され、USDC はリザーブに戻され、ETH は ETH 提供者に戻されます（もちろん報酬もプラスされます）。</p><p  class='text-p'>ETH 提供者はそれぞれ分離されているため、ある ETH 提供者が別の ETH 提供者を攻撃することはできません。ここで説明する攻撃手法は、ETH 提供者が USDC のリザーブ提供者を攻撃するというものです。</p><h1 id="attack-1-dump-eth-price-and-exploit-on-exit"  class='title-h1 title'
     >Attack 1: dump ETH price and exploit on exit</h1>
 <p  class='text-p'>攻撃 1：ETH 価格を下げる＆出金時の悪行</p><p  class='text-p'>まず、予想される攻撃を順を追って示します。</p><ol>
-<li><p  class='text-p'>Nexus のリザーブに大量の利用可能な USDC が入金されるのを待つ。</p></li>
-<li><p  class='text-p'>ETH を Nexus に入金、利用可能なすべてのリザーブ USDC とペアにする（流動性を高める）。</p></li>
-<li><p  class='text-p'>ETH を大量にフラッシュ・ローンする（数億ドル分）。</p></li>
-<li><p  class='text-p'>SushiSwap で、ETH の巨額ローン全てを USDC にスワップして ETH/USDC ペアの ETH 価格を暴落させる。</p></li>
-<li><p  class='text-p'>Nexus のステップ 2 で ETH を出金してペアを解消する（流動性の引出）。</p></li>
-<li><p  class='text-p'>なんと、するとリザーブから USDC が消えてしまう！</p></li>
-<li><p  class='text-p'>SushiSwap の ETH/USDC ペアで、ステップ 4 の USDC を ETH に戻して ETH の価格を通常に戻す。</p></li>
-<li><p  class='text-p'>ステップ 7 の ETH を使って ETH のフラッシュ・ローンを返す。</p></li>
+<li><p  class='text-p'> Nexus のリザーブに大量の利用可能な USDC が入金されるのを待つ。</p></li>
+<li><p  class='text-p'> ETH を Nexus に入金、利用可能なすべてのリザーブ USDC とペアにする（流動性を高める）。</p></li>
+<li><p  class='text-p'> ETH を大量にフラッシュ・ローンする（数億ドル分）。</p></li>
+<li><p  class='text-p'> SushiSwap で、ETH の巨額ローン全てを USDC にスワップして ETH/USDC ペアの ETH 価格を暴落させる。</p></li>
+<li><p  class='text-p'> Nexus のステップ 2 で ETH を出金してペアを解消する（流動性の引出）。</p></li>
+<li><p  class='text-p'> なんと、するとリザーブから USDC が消えてしまう！</p></li>
+<li><p  class='text-p'> SushiSwap の ETH/USDC ペアで、ステップ 4 の USDC を ETH に戻して ETH の価格を通常に戻す。</p></li>
+<li><p  class='text-p'> ステップ 7 の ETH を使って ETH のフラッシュ・ローンを返す。</p></li>
 </ol>
 <p  class='text-p'>この攻撃は、<a href="https://github.com/orbs-network/nexus-sushiswap/blob/main/test/nexus-flashloan-test.ts" rel="noopener" target='_blank'>こちらの Nexus test suite</a>でコードの実証がされています。</p><p  class='text-p'>分析</p><p  class='text-p'>この攻撃は USDC のリザーブ提供者を危険にさらし、悪意のある ETH 入金者が USDC のリザーブを流出させます。なぜこのようなことが可能なのでしょうか？</p><p  class='text-p'>経済面からの答えは、<a href="https://academy.binance.com/en/articles/impermanent-loss-explained" rel="noopener" target='_blank'>Impermanent Loss</a> （IL、変動損失）という概念にあります。IL は、流動性プロバイダーにとっては生活の一部であり、ペアの 2 つの資産間の価格が変動するたびに発生します。IL を 2 者間で分割することは、実はシングルサイド・ファーミングの主要な革新的技術であり、<a href="https://www.orbs.com/jp/orbs%e3%81%ab%e3%82%88%e3%82%8bdex%e6%8e%a5%e7%b6%9a-%e3%82%b7%e3%83%b3%e3%82%b0%e3%83%ab%e3%82%b5%e3%82%a4%e3%83%89%e3%83%bb%e3%83%95%e3%82%a1%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0-%e3%83%aa%e3%82%af-2/" rel="noopener" target='_blank'>こちらの記事</a>で詳細を書いています。Nexus が実施する IL の分割戦略は、「戦略 1 - すべての IL を ETH 側に置く」です。これは、ETH 入金者が、ファーミング・リワードをより多く受け取ることと引き換えに、すべての暗号資産のボラティリティー・リスクを負うことを意味します。理論的には、USDC リザーブ提供者は IL によって損失を被ることはないということになります。</p><p  class='text-p'>しかし、極端な状況下ではそうはいきません。ETH の価格が 75％以上急速に下落した場合、IL は非常に深刻になり、ETH 入金者は USDC 提供者に全元金を渡したとしても、全額には足りません。このような極端なケースでは、USDC 提供者が損失を被ります。このようなクラッシュが起こる可能性は低いので、日常的に心配をする必要はないかと思います。</p><p  class='text-p'>問題なのはフラッシュローンを利用して、攻撃者が ETH の価格を 95%以上も人為的に暴落させ、USDC 提供者に大きな損失を与え、その損失を低い価格でスワップ・バックすることで巧妙に利益を得ることです。</p><h1 id="attack-2-pump-eth-price-and-exploit-on-enter"  class='title-h1 title'
     >Attack 2: pump ETH price and exploit on enter</h1>
 <p  class='text-p'>攻撃 2：ETH 価格を吊り上げる＆入金時の悪行</p><p  class='text-p'>まず、予想される攻撃を順を追って説明します。</p><ol>
-<li><p  class='text-p'>Nexus のリザーブに大量の利用可能な USDC が入金されるのを待つ。</p></li>
-<li><p  class='text-p'>USDC を大量にフラッシュ・ローンする（数億ドル分）。</p></li>
-<li><p  class='text-p'>ETH の価格を SushiSwap ETH/USDC ペアで吊り上げ、巨額ローンの全額を USDC から ETH に交換する。</p></li>
-<li><p  class='text-p'>ETH を Nexus に入金して、利用可能なすべてのリザーブ USDC とペアにする（流動性を高める）。ETH の価値が非常に高くなっているので、ETH はほとんど必要ないことに注意。</p></li>
-<li><p  class='text-p'>ETH の価格を SushiSwap ETH/USDC ペアで通常の価格に戻し、ステップ 3 の ETH を USDC に戻す。</p></li>
-<li><p  class='text-p'>なんと、するとリザーブから USDC が消えてしまう。</p></li>
-<li><p  class='text-p'>Nexus のステップ 4 での ETH の引き出す（流動性の引出）は必要ないので、放棄してもいい。</p></li>
-<li><p  class='text-p'>ステップ 5 の USDC を使って、USDC のフラッシュ・ローンを返す。</p></li>
+<li><p  class='text-p'> Nexus のリザーブに大量の利用可能な USDC が入金されるのを待つ。</p></li>
+<li><p  class='text-p'> USDC を大量にフラッシュ・ローンする（数億ドル分）。</p></li>
+<li><p  class='text-p'> ETH の価格を SushiSwap ETH/USDC ペアで吊り上げ、巨額ローンの全額を USDC から ETH に交換する。</p></li>
+<li><p  class='text-p'> ETH を Nexus に入金して、利用可能なすべてのリザーブ USDC とペアにする（流動性を高める）。ETH の価値が非常に高くなっているので、ETH はほとんど必要ないことに注意。</p></li>
+<li><p  class='text-p'> ETH の価格を SushiSwap ETH/USDC ペアで通常の価格に戻し、ステップ 3 の ETH を USDC に戻す。</p></li>
+<li><p  class='text-p'> なんと、するとリザーブから USDC が消えてしまう。</p></li>
+<li><p  class='text-p'> Nexus のステップ 4 での ETH の引き出す（流動性の引出）は必要ないので、放棄してもいい。</p></li>
+<li><p  class='text-p'> ステップ 5 の USDC を使って、USDC のフラッシュ・ローンを返す。</p></li>
 </ol>
 <p  class='text-p'>この攻撃は、<a href="https://github.com/orbs-network/nexus-sushiswap/blob/main/test/nexus-flashloan-test.ts" rel="noopener" target='_blank'>こちらの Nexus test suite</a>でコードの実証がされています。</p><p  class='text-p'>分析</p><p  class='text-p'>この攻撃では、USDC リザーブの提供者が危険にさらされ、悪意のある ETH 入金者が USDC のリザーブを流出させることができます。この場合何が起こるのでしょうか？</p><p  class='text-p'>IL は同様の極端な条件でもう一度攻撃を受けます。ステップ 4 の ETH の入金は、ETH の価格が操作され、極端に上昇したときに行われるため、利用可能な USDC リザーブをすべてペアにするために必要な ETH はとても少なくて済みます。ETH 価格が通常に戻ると、その価格は入金時の 95％も暴落していることになるので、ETH 提供者が USDC 提供者にスワップのペアを提供できないほど深刻な IL が発生します。また、この損失は、低い価格でスワップ・バックすることで、巧みに利益として得られます。</p><div class='line-separator'></div>
 
