@@ -1,6 +1,11 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-is-Live-on-EVAI/blog.md
+  - Orbs-Coming-to-Solana/blog.md
+  - Intro-to-CBDC/blog.md
+  - How-to-Use-the-Orbs-Fossil-Farms-&-Extinction-Pool-on-DinoSwap/blog.md
+  - Orbs-Added-to-KogeFarm-Vaults/blog.md
   - Orbs-By-the-Numbers-2/blog.md
   - The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants-2/blog.md
   - Orbs-Extinction-Pool-Launched-on-DinoSwap-2/blog.md

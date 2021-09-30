@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Coming-to-Avalanche/blog.md
   - Orbs-is-Live-on-EVAI/blog.md
   - Orbs-is-Live-on-the-Solana-Wormhole-Bridge/blog.md
   - A-Closer-Look-At-CBDCs/blog.md
