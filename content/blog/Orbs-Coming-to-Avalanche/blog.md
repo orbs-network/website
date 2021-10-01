@@ -32,7 +32,7 @@ The Orbs team has already started working on this exciting next step in the Orbs
 
 So why Avalanche? Avalanche is an important project in the L-1 space, boasting high speeds, a large ecosystem and an innovative approach to DeFi.
 
-Since its launch in 2018, Avalanche has managed to rapidly expand its ecosystem, boasting over [140 ecosystem partners](https://ecosystem.avax.network/marketplace?tag=) and more than [320 projects](https://www.avax-projects.com/) building on its blockchain. Some of these include major players like SushiSwap, Chainlink, Circle and the Graph. Solana has also made a strong mark in the NFT space, including an integration with Topps, a major sports card company, which launched a Major League Baseball card collection and video moments from the German Bundesliga football team as NFTs on Avalanche.
+Since its launch in 2018, Avalanche has managed to rapidly expand its ecosystem, boasting over [140 ecosystem partners](https://ecosystem.avax.network/marketplace?tag=) and more than [320 projects](https://www.avax-projects.com/) building on its blockchain. Some of these include major players like SushiSwap, Chainlink, Circle and the Graph. Avalanche has also made a strong mark in the NFT space, including an integration with Topps, a major sports card company, which launched a Major League Baseball card collection and video moments from the German Bundesliga football team as NFTs on Avalanche.
 
 Currently, Avalanche has the sixth highest DeFi TVL of all chains, with over $3.17B locked.
 
