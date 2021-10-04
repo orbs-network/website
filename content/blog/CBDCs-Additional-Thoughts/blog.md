@@ -5,7 +5,7 @@ blogUrl: CBDCs-Additional-Thoughts
 date: 2021-10-03
 title: "CBDCs - Additional Thoughts"
 author:
-  - /blog/common/authors/RanHammer.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description:
 ---
