@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - AnySwap-Avalanche/blog.md
   - CBDCs-Additional-Thoughts/blog.md
   - Orbs-Coming-to-Avalanche/blog.md
   - Orbs-is-Live-on-EVAI/blog.md
