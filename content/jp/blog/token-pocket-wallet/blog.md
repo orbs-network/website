@@ -29,27 +29,14 @@ Here is a short demo video for connecting to Tetra from the Token Pocket wallet 
 
 <iframe src="https://www.youtube.com/embed/JBgUKPm6QHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Token Pocket : Make Blockchain Happen Everywhere
-
-Token Pocket is a trusted multi-chain wallet that allows its users to easily  store, send and receive all of the main cryptocurrencies such as Bitcoin (BTC), Ethereum (ETH), EOS, TRON (TRX), IOST, Cosmos,Biance (BNB), and more...
 
 トークン・ポケット： どこにいてもブロックチェーン取引を
 
 トークン・ポケットは、ビットコイン(BTC)、イーサリアム(ETH)、EOS、TRON(TRX)、IOST、Cosmos、Bias(BNB)などの主要な暗号通貨を簡単に保存、送信、受信できる信頼できるマルチチェーン・ウォレットです。
 
-With its powerful Web3 browser, Token Pocket lets its users interact with over 2000 Decentralized Applications (DApp), trade ERC20 tokens, BTC and EOS in decentralized exchanges (DEX), and play blockchain games directly inside the wallet.
-
 トークン・ポケットはパワフルな Web3 ブラウザを搭載しており、ユーザーは 2000 以上の分散型アプリケーション（DApp）を利用し、ERC20 トークンや BTC、EOS を分散型取引所（DEX）で取引したり、ブロックチェーン・ゲームをウォレット内で直接プレイしたりすることができます。
 
-Token Pocket is an open-sourced decentralized wallet, with an emphasis on security: With the "Observation Mode", TokenPocket can access any cold storage wallet - Trezor, Ledger, Yubikey, etc., without exposing your private key. Token Pocket also uses advanced biotechnology to ensure the safety of its users' assets, providing secondary protection even if the phone is unlocked.
-
 トークン・ポケットは、オープンソースの分散型ウォレットで、セキュリティを重視しています。「オブザベーション・モード」により、トークン・ポケットは、秘密鍵を公開することなく、Trezor、Ledger、Yubikey など、あらゆるコールドストレージ・ウォレットにアクセスすることができます。また、トークン・ポケットは、ユーザーの資産の安全性を確保するために高度なバイオテクノロジーを使用しており、万が一携帯電話のロックが解除されても、二次的な保護を提供しています。
-
-A Variety to Choose From
-
-The Orbs team is working hard to ensure that participating in the Orbs Universe is as user friendly and accessible as possible for ORBS token holders. Having Tetra available on mobile is an important step towards that goal.
-
-To date, in addition to Token Pocket,Orbs staking using Tetra is available from the following wallet applications:
 
 ### ORBS が採用されたウォレットがどんどん広がる
 
@@ -71,19 +58,6 @@ Orbs チームは、Orbs ユニバースへの参加が、ORBS トークン・�
 
 - [MyEtherWallet](https://www.orbs.com/jp/orbs-staking-is-now-available-on-myetherwallet-mobile-app-2/)
 
-About Orbs:
-
-Orbs is a public blockchain infrastructure designed for mass usage applications - offering developers a proper mix of performance, cost, security and ease of use. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus.
-
-For more information, please visit [www.orbs.com](http://www.orbs.com/), or join our community at:
-
-- Telegram: <https://t.me/OrbsNetwork>
-
-- Twitter: <https://twitter.com/orbs_network>
-
-Contact:
-
-[hello@orbs.com](hello@orbs.com, "email")
 
 ### Orbs について
 
