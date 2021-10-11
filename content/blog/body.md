@@ -1,10 +1,7 @@
 ---
-layout: partials/blog/main
-tags:
-  - ./common/tags.md
-pageHeader:
-  - common/page-header/page-header.md
-
-blogs:
-  - blogs.md
+layout: partials/blog-inner/main
+blog:
+  - blog.md
+bottomSection:
+  - /blog/common/blog-bottom-section.md
 ---
