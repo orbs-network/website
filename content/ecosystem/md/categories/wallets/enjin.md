@@ -1,5 +1,5 @@
 ---
 layout: partials/ecosystem/category-item
 image: /assets/img/ecosystem/wallets/enjin.png
-url: https://enjin.io/software/wallet
+url: tetra-staking-wallet-by-orbs-now-on-mobile
 ---

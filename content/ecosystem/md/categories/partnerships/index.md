@@ -3,10 +3,9 @@ layout: partials/ecosystem/category
 title: Partnerships
 
 items:
-  - item-1.md
-  - item-2.md
-  - item-3.md
-  - item-4.md
-  - item-5.md
-  - item-6.md
+  - gbbc.md
+  - wef.md
+  - cban.md
+  - paradigm.md
+  - yes.md
 ---
