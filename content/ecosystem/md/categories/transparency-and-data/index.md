@@ -11,8 +11,6 @@ items:
   - marketcap.md
   - tokensight.md
   - ens.md
-
-  - marketcap.md
   - thegraph.md
   - evai.md
   - moonlight.md
