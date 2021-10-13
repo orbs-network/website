@@ -1,7 +1,7 @@
 ---
 layout: partials/ecosystem/category
-title: Fiat on-ramps
+title: NFT
 
 items:
-  - item-1.md
+  - mynft.md
 ---
