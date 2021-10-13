@@ -15,6 +15,7 @@ second_section:
   - md/categories/cloud-mirror-image/index.md
   - md/categories/explorers/index.md
   - md/categories/oracles/index.md
+  - md/categories/chains/index.md
 
 third_section:
   - md/categories/wallets/index.md
