@@ -7,6 +7,7 @@ first_section:
   - md/categories/exchanges/index.md
   - md/categories/transparency-and-data/index.md
   - md/categories/social-impact/index.md
+  - md/categories/nft/index.md
 
 second_section:
   - md/categories/partnerships/index.md
