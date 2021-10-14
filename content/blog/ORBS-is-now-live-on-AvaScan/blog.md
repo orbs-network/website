@@ -1,67 +1,56 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/ORBS-is-now-live-on-AvaScan/bg.jpg
+blogUrl: ORBS-is-now-live-on-AvaScan
+date: 2021-10-14
+title: ORBS is now live on AvaScan
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: ORBS token is now available on AvaScan, the leading Avalanche block explorer!
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**We are excited to announce that the ORBS token is now available on [AvaScan](https://avascan.info/), the leading Avalanche block explorer!
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+AvaScan is the leading block explorer for the Avalanche (AVAX) blockchain, allowing users to easily lookup, confirm and validate transactions that have taken place on Avalanche, similar to how [Etherscan](https://etherscan.io/) is used for the Ethereum Network.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+In a [recent](https://www.orbs.com/AnySwap-Avalanche/) post we announced that the ORBS token is now available on Avalanche using the [AnySwap](https://anyswap.exchange/#/bridge) cross-chain bridge between Ethereum, BSC and Avalanche. Following that successful integration, Orbs is now officially part of the Avalanche ecosystem. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**As a result, Orbs can now be tracked on the Avalanche blockchain using the AvaScan explorer!
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Orbs Contract on Avalanche
 
-Please also see our disclaimers below.
+The official ORBS token contract address on Avalanche is:
+[https://avascan.info/blockchain/c/token/0x340fE1D898ECCAad394e2ba0fC1F93d27c7b717A](https://avascan.info/blockchain/c/token/0x340fE1D898ECCAad394e2ba0fC1F93d27c7b717A)
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+**Always verify the token address before making a transaction.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![AvaScan](/assets/img/blog/ORBS-is-now-live-on-AvaScan/image1.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### Orbs - A Leader in L-1 Chain Interoperability
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+With this latest integration, Orbs is now live on all 5 major L-1 chains: Ethereum, BSC, Polygon, Solana, and now - Avalanche, as well as over 17 of the leading DeFi protocols.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+![avalanche](/assets/img/blog/ORBS-is-now-live-on-AvaScan/image1.jpg)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+**With the recent [accelerated growth](https://www.orbs.com/orbs-ecosystem-expansion-whats-next/) of the Orbs ecosystem in the DeFi space, the Orbs team is ready for the next evolution of the project! 
 
-Once the position is opened, you can always re-adjust the parameters:
+Orbs unique features designed for interoperability primarily with EVM-compatible blockchains, together with its decentralized network of nodes, gives it a competitive advantage in various DeFi applications.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+We are calling all developers seeking to optimize their DeFi protocols to explore the [Orbs Ecosystem Grant Program](https://www.orbs.com/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/), which focuses on harnessing the power of the Orbs Universe to gain an edge in DeFi applications.
 
-### 2) Lend ALPACA tokens
+We are very excited about  tapping the potential of Orbs in the DeFi space. Already we are seeing applications of amazing innovative projects being developed on Orbs. 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+**More exciting news to come soon!
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_Use of the AnySwap bridge, AvaScan, the Avalanche mainnet and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses._
 
 _Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
