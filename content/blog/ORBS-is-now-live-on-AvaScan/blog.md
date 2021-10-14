@@ -36,7 +36,7 @@ With this latest integration, Orbs is now live on all 5 major L-1 chains: Ethere
 
 ![avalanche](/assets/img/blog/ORBS-is-now-live-on-AvaScan/image2.jpg)
 
-**With the recent [accelerated growth](https://www.orbs.com/orbs-ecosystem-expansion-whats-next/) of the Orbs ecosystem in the DeFi space, the Orbs team is ready for the next evolution of the project! 
+**With the recent [accelerated growth](https://www.orbs.com/orbs-ecosystem-expansion-whats-next/) of the Orbs ecosystem in the DeFi space, the Orbs team is ready for the next evolution of the project!**
 
 Orbs unique features designed for interoperability primarily with EVM-compatible blockchains, together with its decentralized network of nodes, gives it a competitive advantage in various DeFi applications.
 
