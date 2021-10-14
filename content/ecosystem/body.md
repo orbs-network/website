@@ -10,12 +10,12 @@ first_section:
   - md/categories/nft/index.md
 
 second_section:
-  - md/categories/partnerships/index.md
+  - md/categories/chains/index.md
   - md/logo-figure.md
   - md/categories/cloud-mirror-image/index.md
   - md/categories/explorers/index.md
   - md/categories/oracles/index.md
-  - md/categories/chains/index.md
+  - md/categories/partnerships/index.md
 
 third_section:
   - md/categories/wallets/index.md
