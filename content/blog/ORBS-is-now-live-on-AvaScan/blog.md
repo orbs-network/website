@@ -34,7 +34,7 @@ The official ORBS token contract address on Avalanche is:
 
 With this latest integration, Orbs is now live on all 5 major L-1 chains: Ethereum, BSC, Polygon, Solana, and now - Avalanche, as well as over 17 of the leading DeFi protocols.
 
-![avalanche](/assets/img/blog/ORBS-is-now-live-on-AvaScan/image1.jpg)
+![avalanche](/assets/img/blog/ORBS-is-now-live-on-AvaScan/image2.jpg)
 
 **With the recent [accelerated growth](https://www.orbs.com/orbs-ecosystem-expansion-whats-next/) of the Orbs ecosystem in the DeFi space, the Orbs team is ready for the next evolution of the project! 
 
