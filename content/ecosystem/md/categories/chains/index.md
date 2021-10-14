@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: Explorers
+title: Supported Chains
 
 items:
   - ethereum.md
