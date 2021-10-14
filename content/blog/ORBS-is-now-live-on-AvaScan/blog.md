@@ -10,13 +10,13 @@ type:
 short_description: ORBS token is now available on AvaScan, the leading Avalanche block explorer!
 ---
 
-**We are excited to announce that the ORBS token is now available on [AvaScan](https://avascan.info/), the leading Avalanche block explorer!
+**We are excited to announce that the ORBS token is now available on [AvaScan](https://avascan.info/), the leading Avalanche block explorer!**
 
 AvaScan is the leading block explorer for the Avalanche (AVAX) blockchain, allowing users to easily lookup, confirm and validate transactions that have taken place on Avalanche, similar to how [Etherscan](https://etherscan.io/) is used for the Ethereum Network.
 
 In a [recent](https://www.orbs.com/AnySwap-Avalanche/) post we announced that the ORBS token is now available on Avalanche using the [AnySwap](https://anyswap.exchange/#/bridge) cross-chain bridge between Ethereum, BSC and Avalanche. Following that successful integration, Orbs is now officially part of the Avalanche ecosystem. 
 
-**As a result, Orbs can now be tracked on the Avalanche blockchain using the AvaScan explorer!
+**As a result, Orbs can now be tracked on the Avalanche blockchain using the AvaScan explorer!**
 
 
 ### Orbs Contract on Avalanche
@@ -44,7 +44,7 @@ We are calling all developers seeking to optimize their DeFi protocols to explor
 
 We are very excited about  tapping the potential of Orbs in the DeFi space. Already we are seeing applications of amazing innovative projects being developed on Orbs. 
 
-**More exciting news to come soon!
+**More exciting news to come soon!**
 
 
 <div class='line-separator'> </div>
