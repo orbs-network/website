@@ -1,5 +1,5 @@
 ---
 layout: partials/ecosystem/category-item
 image: /assets/img/ecosystem/staking/img9.png
-url:
+url: bithumb-announces-orbs-staking
 ---
