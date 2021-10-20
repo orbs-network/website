@@ -3,10 +3,10 @@ layout: pages/page
 script: white-paper/index
 
 header:
-  - /_shared/navbar/index.md
+  - /ko/_shared/navbar/index.md
 main:
   - body.md
 footer:
-  - /_shared/footer/footer.md
+  - /ko/_shared/footer/footer.md
 subscribe:
-  - /_shared/subscribe/subscribe.md
+  - /ko/_shared/subscribe/subscribe.md

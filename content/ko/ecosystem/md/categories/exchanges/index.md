@@ -20,5 +20,4 @@ items:
   - p2p.md
   - consbit.md
   - bhex.md
-  - soon.md
 ---
