@@ -33,6 +33,7 @@ const Page = (props) => {
           href={generateUrl(images.common.favicon)}
           type="image/x-icon"
         />
+
         <MetaTags {...props} />
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

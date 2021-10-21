@@ -1,8 +1,7 @@
 ---
 layout: partials/ecosystem/category
-title: オラクル
+title: Oracles
 
 items:
-  - item-1.md
-  - soon.md
+  - chainlink.md
 ---

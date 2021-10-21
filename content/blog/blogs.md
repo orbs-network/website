@@ -1,6 +1,13 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-is-now-live-on-Trader-Joe/blog.md
+  - ORBS-is-now-live-on-AvaScan/blog.md
+  - AnySwap-Avalanche/blog.md
+  - CBDCs-Additional-Thoughts/blog.md
+  - Orbs-Coming-to-Avalanche/blog.md
+  - Orbs-is-Live-on-EVAI/blog.md
+  - Orbs-is-Live-on-the-Solana-Wormhole-Bridge/blog.md
   - A-Closer-Look-At-CBDCs/blog.md
   - Orbs-Coming-to-Solana/blog.md
   - Intro-to-CBDC/blog.md

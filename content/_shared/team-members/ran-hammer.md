@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/ran.jpg
 name: Ran Hammer
-role: General Counsel & Corporate Development
+role: VP BizDev
 twitter:
 telegram:
 linkedin: https://www.linkedin.com/in/ran-hammer-32323278/

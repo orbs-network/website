@@ -4,10 +4,20 @@ title: DeFi
 
 items:
   - balancer.md
-  - anyswap.md
+  - uniswap.md
   - defi.md
   - benchmark.md
-  - uniswap.md
+  - orbsdefi.md
+  - multichain.md
+  - benchmark.md
   - pancake.md
   - sushiswap.md
+  - kyber.md
+  - 1inch.md
+  - alpaca.md
+  - beefy.md
+  - quickswap.md
+  - dinoswap.md
+  - kogefarm.md
+  - solana.md
 ---
