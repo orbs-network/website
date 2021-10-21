@@ -6,10 +6,13 @@ items:
   - xangle.md
   - messari.md
   - flipside.md
-  - coingecko.md
   - startup.md
-  - rewards.md
-  - ens.md
-  - tokensight.md
+  - staking-reward.md
+  - coingecko.md
   - marketcap.md
+  - tokensight.md
+  - ens.md
+  - thegraph.md
+  - evai.md
+  - moonlight.md
 ---
