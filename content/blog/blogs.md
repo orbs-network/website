@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-Open-DeFi-Notification-Protocol/blog.md
   - ORBS-is-now-live-on-Trader-Joe/blog.md
   - ORBS-is-now-live-on-AvaScan/blog.md
   - AnySwap-Avalanche/blog.md
