@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Introducing-Open-DeFi-Notification-Protocol/bg.png
+image: /assets/img/blog/Introducing-Open-DeFi-Notification-Protocol/bg2.jpg
 blogUrl: Introducing-Open-DeFi-Notification-Protocol
 date: 2021-10-21
 title: Introducing Open DeFi Notification Protocol
@@ -63,9 +63,13 @@ Watch a video of a user in action setting up a notification in Aave to monitor h
 <iframe src="https://www.youtube.com/embed/TNhu7YN5rIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. An open-source web component can be integrated right inside Aave web frontend to let users set up notifications right from Aave’s UI. This is not mandatory though.
+
 2.The user downloads the mobile app “DeFi Notifications” for iOS or Android and scans their address QR in MetaMask or the position QR in Aave UI. No other registration is required.
+
 3. The user chooses the type of notification to receive — those are contributed by the Aave developer community. Dozens of supported DeFi projects show up right in the app. Any project contributor can add more.
+
 4. The user approves push notifications on their mobile device. Alert sound can be fully customized to gain your attention. Alternatively, they can select a Telegram message or even a Twilio phone call.
+
 5. Decentralized protocol alert nodes start to monitor new blocks for the user, looking for on-chain events that trigger a notification. In the second phase after launch, the Orbs Network is planning to  provide consensus-as-a-service through its Orbs Guardian validator nodes for this purpose.
 
 
