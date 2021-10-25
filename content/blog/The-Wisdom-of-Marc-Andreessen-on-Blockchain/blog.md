@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/The-Wisdom-of-Marc-Andreessen-on-Blockchain/bg.jpg
 blogUrl: The-Wisdom-of-Marc-Andreessen-on-Blockchain
 date: 2021-10-25
-title: How to Use the Orbs Pool on Alpaca Finance
+title: The Wisdom of Marc Andreessen on Blockchain
 author:
   - /blog/common/authors/NettaKorin.md
 type:
