@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - test/blog.md
   - ORBS-is-now-live-on-Rango/blog.md
   - ORBS-is-Now-Available-on-Pangolin/blog.md
   - The-Wisdom-of-Marc-Andreessen-on-Blockchain/blog.md
