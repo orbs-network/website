@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Update-October-2021/blog.md
   - ORBS-is-now-live-on-Rango/blog.md
   - ORBS-is-Now-Available-on-Pangolin/blog.md
   - Introducing-Open-DeFi-Notification-Protocol/blog.md
