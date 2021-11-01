@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-Update-October-2021/bg.jpeg
+image: /assets/img/blog/Orbs-Update-October-2021/bg.jpg
 blogUrl: Orbs-Update-October-2021
 date: 2021-31-10
 title: Orbs Update October 2021
@@ -31,10 +31,15 @@ Ready? Let’s dive in!
 First of, we invite you to have a look at some of the latest updates:
 
 📌  Orbs introduces [Open DeFi Notification Protocol](https://www.orbs.com/Introducing-Open-DeFi-Notification-Protocol/)
+
 📌  Orbs is now live on all 5 major L-1 chains: Ethereum (the Orbs token’s native chain), [BSC](https://www.orbs.com/orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge/), [Polygon](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/), [Solana](https://www.orbs.com/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/), and [Avalanche](https://www.orbs.com/AnySwap-Avalanche/)
+
 📌  Orbs’ latest integration into Avalanche is continuing in full force, with Orbs added to: [AvaScan](https://www.orbs.com/ORBS-is-now-live-on-AvaScan/), [Pangolin](https://www.orbs.com/ORBS-is-Now-Available-on-Pangolin/) and [Trader Joe](https://www.orbs.com/ORBS-is-now-live-on-Trader-Joe/)
+
 📌 DeFi.org and Orbs present: [myNFT.fyi](https://mynft.fyi/) for NFT PfP certification and real-time statistics on [DeFi Tweets](https://www.orbs.com/defi-org-twitter-tool/)
+
 📌 Orbs success story on Polygon: [QuickSwap](https://www.orbs.com/orbs-is-now-live-on-quickswap/), [DinoSwap](https://www.orbs.com/orbs-is-now-live-on-quickswap/) & [KogeFarm](https://www.orbs.com/Orbs-Added-to-KogeFarm-Vaults/)
+
 📌Orbs co-founder and head of the Hexa Foundation, Netta Korin, had her latest [article](https://cointelegraph.com/news/blockchain-technology-can-make-micropayments-finally-functional) on blockchain and micropayments published by Cointelegraph! Read also her insightful 3 part series on CBDCs: [1](https://www.orbs.com/Intro-to-CBDC/), [2](https://www.orbs.com/A-Closer-Look-At-CBDCs/), [3](https://www.orbs.com/CBDCs-Additional-Thoughts/) 
 
 Just in case you haven’t done so yet, we invite you to take a look at the newly redesigned 🌎 [Orbs website](https://www.orbs.com/orbs-website-launch/).
@@ -116,16 +121,24 @@ Look for Orbs on social media - we’re always here for our community - answerin
 🔗  Social Channels:
 
 [Telegram official channel](https://t.me/OrbsNetwork)
+
 [Telegram Announcements](https://t.me/OrbsAnnouncements) 
+
 [Twitter](https://twitter.com/orbs_network) 
+
 [YouTube](https://yt.vu/c/UCfpV4z-MGxeiabFkht1LNPQ)
+
 [Japanese chat](https://line.me/R/ti/p/%40vrf9558a) (LINE)
+
 [Korean chat](https://open.kakao.com/o/giYtuTRb) (Kakao)
+
 [Discourse](https://community.orbs.network/) (Orbs Universe members talk)
 
 
 🌎 Our Official Websites
+
 [Orbs website](https://www.orbs.com/) 
+
 [Hexa Foundation](https://www.hexa.org/) 
 
 You’ll be hearing from us soon!
