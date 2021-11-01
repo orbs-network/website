@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Update-October-2021/bg.jpg
 blogUrl: Orbs-Update-October-2021
-date: 2021-31-10
+date: 2021-10-31
 title: Orbs Update October 2021
 author:
   - /blog/common/authors/EranPeled.md
