@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /jp/_shared/navbar/index.md
+main: body.md
+footer:
+  - /jp/_shared/footer/footer.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: Open DeFi Notification プロトコルの紹介
+image: /assets/img/blog/Introducing-Open-DeFi-Notification-Protocol/bg2.jpg
+gdpr:
+  - /jp/_shared/gdpr/index.md

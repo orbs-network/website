@@ -1,6 +1,10 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-is-now-live-on-Rango/blog.md
+  - ORBS-is-Now-Available-on-Pangolin/blog.md
+  - Introducing-Open-DeFi-Notification-Protocol/blog.md
+  - ORBS-is-now-live-on-Trader-Joe/blog.md
   - ORBS-is-now-live-on-AvaScan/blog.md
   - AnySwap-Avalanche/blog.md
   - CBDCs-Additional-Thoughts/blog.md
