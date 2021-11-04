@@ -40,9 +40,10 @@ Here is a short [tutorial](https://docs.pangolin.exchange/getting-started-on-pan
 
 Orbs is currently one of only four tokens which have been added to Pangolin’s staking. This is a great vote of confidence by Pangolin in the Orbs project!
 
-<div class='line-separator'> </div>
+
 
 And that’s it! You can now farm and earn Orbs on Pangolin.
+
 Stay tuned for more news on Orbs and Avalanche soon!
 
 
