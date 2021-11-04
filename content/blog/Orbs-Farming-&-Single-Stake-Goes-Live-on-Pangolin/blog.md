@@ -1,57 +1,67 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-Farming-&-Single-Stake-Goes-Live-on-Pangolin/bg.jpg
-blogUrl: Orbs-Farming-&-Single-Stake-Goes-Live-on-Pangolin
-date: 2021-11-04
-title: Orbs Farming & Single Stake Goes Live on Pangolin!
+image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
+blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
+date: 2021-07-20
+title: How to Use the Orbs Pool on Alpaca Finance
 author:
   - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---
 
+PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
 
-**Pangolin users can now farm PNG tokens on the ORBS-AVAX pool and earn ORBS tokens in Pangolin’s Single-stake feature!**
+Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
 
-After [recently](https://www.orbs.com/ORBS-is-Now-Available-on-Pangolin/) adding the Orbs tokens to their platform, [Pangolin](https://app.pangolin.exchange/#/swap) are now launching farming and Single-stake for ORBS. Users can now farm Pangolin’s native token, PNG, by providing liquidity to the ORBS-AVAX pool which can then be staked to earn ORBS tokens.
+Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
 
-The launch of ORBS farming and staking by Pangolin, one of the leading DEX-AMMs on the Avalanche network, is another important step to solidify the Orbs community’s presence on Avalanche. This follows other successful protocol integrations on the Avalanche network such as [AvaScan](https://www.orbs.com/ORBS-is-now-live-on-AvaScan/) and [Trader Joe](https://www.orbs.com/ORBS-is-now-live-on-Trader-Joe/). 
+[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-Be sure to check out our blog post on how to [bridge](https://www.orbs.com/AnySwap-Avalanche/) ORBS onto Avalanche, in order to be able to participate in Orbs farming and staking on Pangolin.
+### Step-by-Step Guide
 
-### Orbs Farming on Pangolin
+Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Orbs token holders can earn PNG tokens by [adding liquidity](https://docs.pangolin.exchange/getting-started-on-pangolin/stake-liquidity) to the ORBS-AVAX pool. By adding liquidity you will receive PGL tokens, which is a representation of your ownership of the pool. 
+Please also see our disclaimers below.
 
-Users can then Deposit their PGL tokens in the Orbs farm to participate in [liquidity mining](https://docs.pangolin.exchange/getting-started-on-pangolin/liquidity-mining) and earn PNG rewards.
+Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
+<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![pool](/assets/img/blog/Orbs-Farming-&-Single-Stake-Goes-Live-on-Pangolin/image1.png)
+![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
+### 1) Add Liquidity to the ORBS-BUSD Farm
 
-### Stake PNG - Earn Orbs
+Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Pangolin’s [Single-stake](https://app.pangolin.exchange/#/stake/0) feature enables users to deposit and stake their PNG tokens to earn ORBS without the risk of impermanent loss.
+Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-Using Single-staking is very easy and user-friendly.
-Here is a short [tutorial](https://docs.pangolin.exchange/getting-started-on-pangolin/staking-png) by Pangolin on how to use this feature.
+When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![stake](/assets/img/blog/Orbs-Farming-&-Single-Stake-Goes-Live-on-Pangolin/image2.png)
+![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
+Once the position is opened, you can always re-adjust the parameters:
 
-Orbs is currently one of only four tokens which have been added to Pangolin’s staking. This is a great vote of confidence by Pangolin in the Orbs project!
+![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-<div class='line-separator'> </div>
+### 2) Lend ALPACA tokens
 
-And that’s it! You can now farm and earn Orbs on Pangolin.
-Stay tuned for more news on Orbs and Avalanche soon!
+Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
+![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
+### 3) Earn Orbs in the Grazing Range
+
+In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+
+![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+
+#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Pangolin, Trader Joe, the AnySwap bridge, AvaScan, the Avalanche mainnet and the other platforms and services described above carries significant risk. Digital assets and decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses.  _
+_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
 _Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
