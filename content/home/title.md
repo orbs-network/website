@@ -2,8 +2,8 @@
 layout: partials/shared/simple-md
 ---
 
-## Decentralized
+## MAKING YOUR
 
-## Public
+## SMART CONTRACTS
 
-# Blockchain
+# SMARTER
