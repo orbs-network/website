@@ -1,67 +1,122 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/bg.jpg
+blogUrl: How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi
+date: 2021-11-11
+title: How Orbs Hybrid Architecture Is Becoming a Game Changer in DeFi
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/TalKol.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The crypto industry is truly a blue ocean where anything can happen!
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+We suspect few people could have foreseen a few years ago the way the crypto space has evolved and the explosion of applications such as DeFi and NFTs. Who knows what the future may bring, you can let your imagination run wild and still you’ll probably be far from the mark of what actually happens in the crypto revolution.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Projects that exhibit persistence and flexibility to adapt to new market conditions will prevail, while those who don’t are at risk of getting left behind.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Orbs, being a relatively early project, has always strived to be at the forefront of blockchain innovation. In this blog post, we’d like to share with you some of our thoughts on where the market is heading and how Orbs, with its unique hybrid architecture, is in a great position to bring a leading building block in the crypto space.
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Enterprise Blockchain: Long Road to Adoption
 
-Please also see our disclaimers below.
+Orbs was established as a company in 2017, and developed a mainnet that was launched by its network of Guardians in March 2019.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The Orbs Networks’ original value proposition was a public blockchain infrastructure designed specifically for enterprises. More so, the platform aimed to bring the [full value](https://www.orbs.com/defining-the-public-blockchain/) of permissionless infrastructure to enterprise business.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+We saw targeting enterprises as the best go-to market path to unlock mainstream adoption for public blockchains, as enterprises already have millions of users whose experiences could be enhanced by the guarantees that public blockchain can provide. Orbs was and still is well positioned to be a leader in this area, as our blockchain-based solution is one of the only public blockchain infrastructures with a live mainnet that is designed and optimized for enterprise use-cases.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+However, big enterprises are taking their time pursuing the concept of a public blockchain infrastructure, and this transformation in the world is going to take years to fully mature. While the Orbs Network is ready to be used for enterprise large-scale applications when the time is ripe, the Orbs team sees a lot of opportunity in broadening its vision and adapting to the shifts and opportunities of the fast moving crypto market - particularly DeFi and NFT.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### The Killer Apps of Decentralization
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+After a great deal of research and strategic planning, the Orbs core team has shifted much of its focus to the DeFi space. As Tal Kol, Orbs co-founder, explains in this 2 part [video](https://www.youtube.com/watch?v=-W9vdCysEYc&list=PLRzXm1LAkP8y5W5KTTBGa8fmHARB9wSTk&index=1&t=22s), we believe that DeFi will emerge as the killer app of blockchain technology.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Since making the shift to DeFi, Orbs has seen a rapid expansion of its [ecosystem](https://www.orbs.com/ecosystem/).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Orbs is now live on all 5 major layer-1 (L1) chains: Ethereum, BSC, Polygon, Solana, with Avalanche being the latest addition. This in turn accelerated the integration of the Orbs ecosystem with over 17 major DeFi protocols (such as UniSwap, SushiSwap, PancakeSwap, Kyber Networks, 1inch, Alpaca Finance, Beefy Finance, QuickSwap, DinoSwap, Raydium, Trader Joe, Pangolin, with more to come in the near future...).
 
-Once the position is opened, you can always re-adjust the parameters:
+![ecosystem](/assets/img/blog/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/image1.jpg)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+All of these multi-chain integrations set down the necessary foundation for Orbs’ future expansion. Orbs’ DeFi interoperability plays a critical role for the next stage of the project’s roadmap, which is based on a new and innovative concept and analysis of the current needs of the entire DeFi community. At this stage, the project’s focus will shift to developing and deploying more applications utilizing the Orbs Network as a separate execution layer that operates in conjunction with EVM-based L1’s and L2's chains. 
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+### Introducing a Whole New Layer 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
-### 3) Earn Orbs in the Grazing Range
+Existing L1 and L2 infrastructure chains are, generally, all implemented as EVM smart contracts. These smart contracts are powerful in securing and processing TVL, but are very limited in their capabilities. 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+But, what if we add another layer on top, let’s call it L3 for now, that can work in conjunction with other L1+L2 layers to enrich the capabilities of EVM-based smart contracts? Such a layer opens the door for many exciting and innovative applications in the DeFi space which are currently not available.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+![stack](/assets/img/blog/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/image2.png)
 
-#### And that’s it – You are now a senior Alpaca!
+So what will such an L3 look like in the overall blockchain stack?
+
+1) The first infrastructure layer, L1 - like Ethereum - is in charge of security.
+2) The second infrastructure layer, L2 - such as Polygon - is in charge of scalability.
+3) The third infrastructure layer, L3 - is in charge of helping apps build and extract more value. This layer provides services to existing DeFi applications to enhance their capabilities.
+
+
+With its unique hybrid architecture, the Orbs Network is designed for interoperability with EVM compatible blockchains such as Ethereum, Binance Smart Chain, Polygon and, Avalanche, which are the leading venues in terms of asset liquidity and user engagement.
+
+The Orbs public blockchain infrastructure, powered by its Guardians, a public network of permissionless validators, can serve as that separate L3 execution layer and operate in conjunction with EVM-based L1s and L2s, all powered by the ORBS token PoS.
+
+We are very excited about this new concept of an additional layer to the existing blockchain stack. The Orbs team is hard at work building apps and tools that utilize Orbs for enriching the capabilities of EVM smart contract. 
+
+
+### Sir, We Need an Example Please 
+
+We understand that the whole concept of another layer might sound a bit peculiar, so let’s look at a concrete example:
+
+One of the most successful types of DeFi apps is vault applications, such as Yearn Finance. This type of app is a sort of decentralized hedge fund, where users can deposit funds inside vaults, and let the vaults manage their money and create yield. Since the app directly generates profits to its users, it can allow itself to take a cut of these profits and generate its own revenue. Some vaults, like Harvest Finance, take as much as 30% of the profit as fee.
+
+Overall, the strategies employed by these vaults are pretty simplistic, since they’re all implemented as EVM smart contracts and the EVM is limited in its capabilities. Most vaults take LP tokens and simply stake them to get rewards, sell the rewards and buy more LP tokens and compound the investment repeatedly. A schematic representation of a standard vault can be seen below.
+
+![vault1](/assets/img/blog/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/image3.png)
+
+
+A more sophisticated strategy could lead to greater yields. 
+
+How can L3 infrastructure increase the pie here? By implementing smarter vaults.
+
+Since the EVM is very limited and has access to very little state to base decisions on, vault strategies must be very simple.
+
+But, imagine that you had an L3 that would let the vault developer implement much smarter strategies, for example, hop automatically between multiple positions depending on their APY, or take a loan at an optimal time to add some leverage. This dynamic infrastructure would allow Yearn to generate better yields for its users and therefore generate more revenue. This additional revenue can be shared between the application and L3.
+
+**The Orbs Network can provide the infrastructure for this type of L3 application.**
+
+![vault2](/assets/img/blog/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/image4.png)
+
+
+### DeFi Notifications Protocol - The Tip of the Iceberg
+
+The first project released by the Orbs team that demonstrates Orbs’ L3 capabilities is the [Open DeFi Notifications Protocol](https://www.orbs.com/Introducing-Open-DeFi-Notification-Protocol/).
+
+![notifications](/assets/img/blog/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/image5.png)
+
+
+The Open DeFi Notifications protocol is an open initiative to provide users with decentralized and free mobile notifications for on-chain events. This is an example of L3 innovation, because it is a layer of infrastructure that can read a variety of activity on underlying L1 and L2 blockchains and provide information that allows DeFi users to execute more sophisticated and dynamic strategies.  We believe this is a critical piece of the DeFi infrastructure puzzle and its impact on the industry could be massive.
+
+The app provides a polished user experience. Here is a [video example](https://www.youtube.com/watch?v=TNhu7YN5rIQ) of a user in action setting up a notification in Aave to monitor health factors getting low (risk of liquidation).
+
+Orbs is proud to be a primary design partner to help implement the protocol. We are contributing many of the integrations to the most popular DeFi projects out there (like Sushi and Aave) and helped design a decentralized architecture of how it can be implemented. While the initial version involves only one centralized node monitoring on-chain events and providing notifications, in future versions the Orbs Network’s universe of decentralized Guardians will run the protocol as an app over the Orbs Network, providing decentralized infrastructure execution!
+
+This utilizes the Orbs Network’s unique consensus as a service architecture to enhance the security and reliability of the protocol. This is just one of many examples of the ways that L3 infrastructure can add real value to the DeFi space. 
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+### Show Us What You Can Do - Be at the Forefront of Innovation!
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The Orbs project has recently [announced](https://www.orbs.com/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants/) a new call for grants under the Orbs Ecosystem Grant Program (OEGP). For this round, the focus will be on applications that will draw on the power of the Orbs network to serve as that L3 execution layer in order to provide greater value extraction for DeFi protocols.
+
+Already we are seeing applications of amazing innovative projects being developed on Orbs. Stay tuned for more exciting announcements to come soon!
+
+
+
+
+
+
+
