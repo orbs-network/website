@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/test-blog/bg.jpeg
+image: /assets/img/blog/test-blog/bg.jpg
 blogUrl: test-blog
 date: 2021-11-11
 title: "This is a test blog"
