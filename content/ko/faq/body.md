@@ -11,6 +11,7 @@ sections:
 
 sideMenuLinks:
   - md/menu/index.md
-socials:
+
+socials: 
   - /ko/_shared/socials/index.md
 ---
