@@ -2,8 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-## 최고의
+## 스마트 컨트렉트,
 
-# 블록체인
-
-## 솔루션
+# 더 스마트하게
