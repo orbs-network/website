@@ -4,6 +4,7 @@ title: ホワイトぺーぱー
 list:
   - title: コミュニティ
     list:
+      - Orbs-Grant-Program-Second-Call-for-Grants/paper.md
       - orbs-grant-program/paper.md
   - title: OrbsのProof of Stakeユニバース
     list:
