@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/before-eos-ehtereum-ppcoin/bg.jpeg
+image: /assets/img/blog/US-Afghanistan-Terror/bg.jpeg
 blogUrl: US-Afghanistan-Terror
 date: 2021-11-22
 title: US Afghanistan Terror
