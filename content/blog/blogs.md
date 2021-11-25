@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/blog.md
   - US-Afghanistan-Terror/blog.md
   - Orbs-is-now-live-on-Raydium/blog.md
   - How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/blog.md
