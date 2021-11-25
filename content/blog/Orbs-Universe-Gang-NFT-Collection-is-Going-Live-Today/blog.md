@@ -72,6 +72,6 @@ Each participant can enter one meme.
 
 <div class='line-separator'></div>
 
-Participation is subject to the Orbs NFT Contest Official Rules, available at [__ _]. 
+Participation is subject to the Orbs NFT Contest Official Rules, available at [link](https://www.orbs.com/ORBS-NFT-CONTEST-OFFICIAL-RULES). 
 
 * By participating, you confirm that you understand that the prizes are intended for the purposes of fun and showing pride in the Orbs community only and are not expected to have any economic or monetary value and that you accept such terms.
