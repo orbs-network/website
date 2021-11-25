@@ -22,7 +22,7 @@ Meet the [Orbso NFT collection](https://opensea.io/collection/orbso-universe-gan
 
 **Check them out:**
 
-![](https://lh4.googleusercontent.com/fcwtDar52AP4UOcjlVLBHReQG3d3tc8NA3MLErW_fNBjJd8JfkBsjMKCiUERfePvhATTtH82iQglxnrKmVSKUOthPF4y-0-8ETwuzKe79aAguW5yHpyGiK5DNsUxp5wtLxbKZOgN)
+![](/assets/img/blog/Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/img1.jpeg)
 
 **You can also view the entire collection on OpenSea in the following [link](https://opensea.io/collection/orbso-universe-gang)**.
 
@@ -60,7 +60,7 @@ Starts: November 25th, 10:00 UTC Time
 
 These are the NFTs you can win this week:
 
-![](https://lh3.googleusercontent.com/javTu7uXsF7qojSBYELvuhe3bnv4EZcQstWhl5Z8Im_YjBJASTXq6v_mTGsnLMZSQOO2w1hHrZl-JZ_H1kgrF4cbQy8INjLb0MMx9bNli8_G1R4pod4C8YiCrEl_9ozRcNpIbsrc)
+![](/assets/img/blog/Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/img2.jpg)
 
 You have 5 days to follow the rules and get a chance to win!
 
