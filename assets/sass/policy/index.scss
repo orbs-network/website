@@ -11,6 +11,7 @@
   h2 {
     margin-bottom: 40px;
   }
+
   h4 {
     padding: 30px;
     margin-top: 10px;
@@ -66,6 +67,14 @@
   }
 }
 
+#contest {
+  h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    text-decoration: underline;
+  }
+}
+
 @media only screen and (max-width: $mobile) {
   .policy {
     h5 {
@@ -86,3 +95,5 @@
     }
   }
 }
+
+
