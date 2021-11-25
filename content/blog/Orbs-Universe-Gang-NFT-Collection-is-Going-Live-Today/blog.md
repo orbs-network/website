@@ -32,7 +32,7 @@ So, how does it work? Each week a new contest will be announced with its own spe
 
 **How to win?** Keep being an enthusiastic participant, follow each contest's rules & get a chance to win an exclusive NFT designed by the Orbs team.
 
-To enter the contests you will need to meet certain  **rules***.
+To enter the contests you will need to meet certain **[rules](https://www.orbs.com/ORBS-NFT-CONTEST-OFFICIAL-RULES/)**.
 
 ### Now, Let the Fun Begin. Orbs' First Meme Contest Starts...Today!
 
