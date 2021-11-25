@@ -12,9 +12,6 @@ short_description:
 
 
 
-![](https://lh6.googleusercontent.com/5y-WBjy1ktrAFe0zCcSxvaIFFzPzeF7PNKvARDg86LH0JovlYon2VyXijcYQXNzmBb9p7X2u5QIjNZFzgGWtZpSPUTFX4nHml-_UHJkGlD8XR7CmQYPAJWAGUwd0FV_rskY7N4_U)
-
-
 Dear Orbs enthusiasts,
 
 It has been a long journey and the project wouldn't have come so far without the contributions of our amazing community. This is why, we've decided to show our gratitude and share with all of you a brand-new awesome NFT collection - Orbs Universe Gang, designed and dedicated to the Orbs community.
