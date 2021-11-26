@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball/blog.md
   - Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/blog.md
   - US-Afghanistan-Terror/blog.md
   - Orbs-is-now-live-on-Raydium/blog.md
