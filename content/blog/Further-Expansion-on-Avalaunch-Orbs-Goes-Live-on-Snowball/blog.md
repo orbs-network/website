@@ -1,67 +1,67 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball/bg.jpg
+blogUrl: Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball
+date: 2021-11-26
+title: Further Expansion on Avalaunch: Orbs Goes Live on Snowball!
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/OlgaChef.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**We’re pleased to announce that Orbs is now available on [Snowball Finance](https://snowball.network/) - a yield optimizer and a new AMM DEX running on the Avalanche Network.**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Snowball is a DeFi protocol running on Avalanche blockchain. It has launched alongside other leading financial protocols on the [Avalanche Network](https://www.avax.network/). The protocol benefits from yield farming on [Pangolin](https://app.pangolin.exchange/#/png/1) and affordable gas fees on Avalanche. The Snowball protocol builds upon the work of Pickle Finance from the Ethereum Mainnet.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Snowball allows users to automatically compound PNG rewards several times a day.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**Well, what is auto compounding?**
 
-### Step-by-Step Guide
+Auto compounding is one of Snowball’s services, which allows users to earn rewards by reinvesting the rewards in pools. Snowball’s yield farm pools are optimized for Pangolin, Trader Joe, BENQI where users come to compound their token rewards.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+**So, how does auto compounding work?**
 
-Please also see our disclaimers below.
+Deposit your liquidity provider (LP) tokens into the SnowGlobe. After making the deposit, you will receive S tokens, equivalent to the token pair you deposited. The rewards you receive as a liquidity provider (LP) are redeposited into the same pool as your original deposit. Snowball takes a 10% fee of the rewards you receive as a LP. Compounding takes place several times a day, depending on the pool size. Snob tokens received from depositing your S tokens into IceQueen are not compounded.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+**Here’s How Compound & Earn Looks for AVAX-ORBS:**
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![snowball](/assets/img/blog/Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball/image1.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+**Steps to Compound & Earn**
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+1. First, you should click Compound & Earn and choose your preferred pair, then click Get PGL (Get Token). After, you will be directed to the website where you will add liquidity for the selected pair, for instance, the ORBS-AVAX pair.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+![snowball](/assets/img/blog/Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+2. Then, connect the wallet with the website address.
+3. Enter the supplying amount and click “supply” to confirm your transaction.
+4. Go back to Compound & Earn, find the same pool and click Deposit.
+5. Enter the depositing amount, then Approve the transaction in the Coin98 Extension Wallet. You will be asked twice.
+6.  Click Deposit, then confirm the transaction. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+**How to Calculate APR and APY**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Calculate APR, using the same logic as illustrated [here](https://vfat.tools/avax/png/.): 
 
-### 3) Earn Orbs in the Grazing Range
+It takes the price of the two tokens in a pair, price of PNG, and PNG emissions rates from Pangolin Exchange into factor.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+For APY you can use the standard formula A = P(1 + r/n)nt. You can check it [here](https://www.calculatorsoup.com/calculators/financial/compound-interest-calculator.php). 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+The Avalanche ecosystem keeps rapidly exploding and breaking its own records, being one of the fastest growing Layer-1 chains with astonishing [TVL](https://defillama.com/chain/Avalanche)! 
 
-#### And that’s it – You are now a senior Alpaca!
+In previous blogs we stated that Avalanche is the next avenue for the expansion of Orbs’ ecosystem and the launch on Snowball is the latest step forward.
+
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_Use of Snowball Finance, the Snowglobe, Pangolin, the Avalanche blockchain and the other platforms and services described above carries significant risk. Digital assets and decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses._
 
 _Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
