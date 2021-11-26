@@ -47,7 +47,7 @@ Deposit your liquidity provider (LP) tokens into the SnowGlobe. After making the
 
 **How to Calculate APR and APY**
 
-Calculate APR, using the same logic as illustrated [here].(https://vfat.tools/avax/png/.): 
+Calculate APR, using the same logic as illustrated [here](https://vfat.tools/avax/png/.): 
 
 It takes the price of the two tokens in a pair, price of PNG, and PNG emissions rates from Pangolin Exchange into factor.
 
