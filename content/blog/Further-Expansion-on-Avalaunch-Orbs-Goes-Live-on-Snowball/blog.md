@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball/bg.jpg
 blogUrl: Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball
 date: 2021-11-26
-title: Further Expansion on Avalaunch: Orbs Goes Live on Snowball!
+title: "Further Expansion on Avalaunch: Orbs Goes Live on Snowball!"
 author:
   - /blog/common/authors/OlgaChef.md
 type:
