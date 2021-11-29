@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/ould Decentralization-Transform-the-Art-Market?/bg.jpg
+image: /assets/img/blog/ould Decentralization-Transform-the-Art-Market?/bg2.png
 blogUrl: ould Decentralization-Transform-the-Art-Market?
 date: 2021-11-29
 title: "Could Decentralization Transform the Art Market?"
