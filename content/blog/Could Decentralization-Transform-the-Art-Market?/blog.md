@@ -1,67 +1,31 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/ould Decentralization-Transform-the-Art-Market?/bg.jpg
+blogUrl: ould Decentralization-Transform-the-Art-Market?
+date: 2021-11-29
+title: "Could Decentralization Transform the Art Market?"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+In the past, esteemed works of art were considered a unique investment opportunity only to wealthy individuals or corporations. One could not have parcelled out a Rembrandt to share with friends. However, it could be that what we recently witnessed with the latest bid for the US Constitution changed all that.   
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+[ConstitutionDAO](https://twitter.com/ConstitutionDAO) is a decentralized autonomous organization (DAO) formed in November 2021 to purchase an incredibly rare copy of the United States Constitution. The group raised $47 million in Ether but eventually lost to hedge fund billionaire [Ken Griffin’s](https://www.washingtonpost.com/business/2021/11/19/griffin-crypto-constitution/) bid of $43.2 million in the [Sotheby's auction](https://www.sothebys.com/en/), under its organizers' belief that ConstitutionDAO group would have insufficient funding to protect, insure, and move the artifact with a higher bid. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+[Austin Cain and Graham Novak](https://techcrunch.com/2021/11/18/constitutiondaos-bold-crypto-bid-for-us-constitution-falls-short/), first initiated a Discord channel discussion to pursue the effort to collectively bid on an early and unique copy of the U.S. constitution, with the purpose to have the contributors decentrally control it. The channel rapidly grew to  more than 8,000 members. In just a week from launching, the Constitution DAO raised over $40 million worth of ETH on [Juicebox.money](https://juicebox.money/#/), an early stage [DAO platform](https://makerdao.com/en/).
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The collective initiative of the [Constitution DAO group](https://twitter.com/ConstitutionDAO) showcased the **true power of decentralized platforms (e.g.,DAO), proving they have the fundamental instruments to change the entire art market as well as rare historical collectables**, allowing ordinary people who have never dealt with crypto or owned a masterpiece before to officially acquire a piece of rare items, thus paving the way for the masses to engage in new markets they could not have reached before due to their high entry barrier. This way, art will no longer belong only to the top 1%, who can afford buying the entire piece. 
 
-### Step-by-Step Guide
+According to [Bloomberg](https://www.bloomberg.com/news/articles/2021-11-19/what-will-happen-to-constitutiondao-s-40-million-after-ken-griffin-s-win), had the group won the auction, contributors would have received a governance token depending on their share of the investment, which would have enabled them to vote on decisions such where the copy would be displayed or how it should be exhibited.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The Constitution DAO effort, which came to life on [Twitter](https://twitter.com/ConstitutionDAO) and Discord, demonstrates how **empowering a decentralized platform can be, even to a spontaneous community effort, whose shared ownership and transparency are guiding principles.** Buying and owning such a rare historic document, or eventually a masterwork of art has with the help of decentralization become feasible for the masses and not just for the wealthy. This [historic effort](https://twitter.com/ConstitutionDAO/status/1461527514485035009) brought over seventeen thousand people together, hundreds of whom entered the crypto ecosystem for the first time. **Blockchain enables** large groups of people from all over the world to collaborate in order to reach a collective goal and potentially achieve incredible results. 
 
-Please also see our disclaimers below.
+This time it was the Constitution.  Perhaps next time it will be a Picasso.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+It should be also noted that today there are quite a few projects bold enough to pursue a fractionalized way of buying, collecting and preserving pieces of art. Indeed, such [projects](https://news.bitcoin.com/breaking-nfts-to-pieces-these-4-projects-are-fractionalizing-grimes-banksy-cryptopunk-nfts/) haven’t gained traction yet and are currently more focused on digital rather than physical art. However, anyone familiar with [NFTs hype](https://www.thisislocallondon.co.uk/news/19747837.nfts-hype/) would argue that NFTs enable a new and exciting way of creating art that will no longer be a victim of time, decay and unaffordable prices. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+For instance, [Fractional](https://fractional.art/), is a good example of a project that aims to bolster the idea of fractionalized non-fungible tokens, asserting that fractionalization can also help with price discovery. “Fractionalizing the item and selling 20% of it on the market can be a valuable tool to help understand how the market values the NFT,” [claim](https://news.bitcoin.com/breaking-nfts-to-pieces-these-4-projects-are-fractionalizing-grimes-banksy-cryptopunk-nfts/) Fractional project creators. Another project that is also fractionalizing non-fungible tokens is a protocol called [Daofi](https://daofi.org/) which breaks NFTs down into fungible ERC20 tokens. Daofi also attempts to explain how the [fractionalization process works](https://medium.com/daofi/daofis-entry-into-nfts-announcing-fraction-art-a-crowdsale-platform-for-fractionalized-nft-art-2920d6740d10).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
