@@ -1,181 +1,189 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/Nov-Update-Images2/bernard-hermant-XyzPOIMqWfc-unsplash.jpg
+
+blogUrl: Nov-Update
+date: 2021-12-03
+title: November Update
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/OlgaChef.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
 
-...
 
-## **DeFi の時代！**
+Hey Orbs follower!
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+Get ready for a bunch of hot news, updates, successful integrations, releases and further expansion plans for Orbs project.
 
-みなさん!
+The last couple of weeks have been super fun, impressively productive and cool - the Orbs team enjoyed every moment of it!
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+Dive in this short read to share our fun & find topics that interest you :)
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+Take a look at some of the highlights:
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+📌 Orbs introduces a whole new layer [L3 - a game-changer in DeFi](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/)
+📌 Orbs goes live on [Raydium](https://www.orbs.com/Orbs-is-now-live-on-Raydium/)
+📌 Orbs farming & single stake goes [live on Pangolin](https://www.orbs.com/Orbs-Farming-&-Single-Stake-Goes-Live-on-Pangolin/)
+📌 Pangolin moves Orbs to their [V2 farms](https://twitter.com/pangolindex/status/1462632722858496005) 
+📌 Orbs releases [Universe Gang NFTs Collection & Contest](https://www.orbs.com/Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/)
+📌 Orbs goes live on [Snowball](https://www.orbs.com/Further-Expansion-on-Avalanche-Orbs-Goes-Live-on-Snowball/), an auto-compounder on Pangolin
 
-...
+Ready? Here we go!
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+<div class='line-separator'></div>
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+How Orbs Hybrid Architecture Is Becoming a Game Changer in DeFi
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+![](/assets/img/blog/Nov-Update-Images2/avalanche.jpeg)
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+Since making the shift to DeFi, Orbs has seen a rapid expansion of its ecosystem.
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+Orbs is now live on all 5 major layer-1 (L1) chains: Ethereum, BSC, Polygon, Solana, with Avalanche being the latest addition. This in turn accelerated the integration of the Orbs ecosystem with over 17 major DeFi protocols.
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+![](/assets/img/blog/Nov-Update-Images2/Giveaway.jpg)
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+Orbs' DeFi interoperability plays a critical role for the next stage of the project's roadmap, which is based on a new and innovative concept and analysis of the current needs of the entire DeFi community.
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+Existing L1 and L2 infrastructure chains are, generally, all implemented as EVM smart contracts. These smart contracts are powerful in securing and processing TVL, but are very limited in their capabilities.
 
-...
+[Orbs adds another layer](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) on top of L1 and L2 (let's call it L3 for now) that can work in conjunction with other L1+L2 layers to enrich the capabilities of EVM-based smart contracts. Such a layer opens the door for many exciting and innovative applications in the DeFi space which are currently not available.
 
-## **Orbs PoS V2：ガーディアンの時代**
+![](/assets/img/blog/Nov-Update-Images2/l3.png)
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+1.  The first infrastructure layer, L1 - like Ethereum - is in charge of security.
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+2.  The second infrastructure layer, L2 - such as Polygon - is in charge of scalability.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+3.  The third infrastructure layer, L3 - is in charge of helping apps build and extract more value. This layer provides services to existing DeFi applications to enhance their capabilities. Orbs is in a strong position to be a major contributor here. 
 
-### ベータプロモーションリワード
+<div class='line-separator'></div>
 
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
+Orbs Goes Live on Raydium
 
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+![](/assets/img/blog/Nov-Update-Images2/OrbsRace.jpg)
 
-...
+After bridging the ORBS token into Solana, the next step is to integrate it with Solana's DeFi ecosystem.
 
-## **ネットワークの状況**
+Raydium: The Next Evolution of DeFi
 
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
+Raydium is an automated market maker (AMM) built on the Solana blockchain which enables lightning-fast trades, shared liquidity and new features for earning yield.
 
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
+Raydium has a Total Value Locked of over $2B, with daily trading volume exceeding $250M.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
+There is currently one Orbs pool on Raydium for ORBS-SOL, with a total liquidity of ~$57K.
 
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
+You can read more [here](https://www.orbs.com/Orbs-is-now-live-on-Raydium/).
 
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
+<div class='line-separator'></div>
 
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
+Avalanche integrations & further expansion: Orbs farming & single stake goes live on 
 
-_\*出所_ [_https://staked.us/_](https://staked.us/)
+Pangolin
 
-ORBS のデリゲータに毎月のリマインドです：
+![](/assets/img/blog/Nov-Update-Images2/poster2.jpg)
 
-### リワードを得るために、必ずステーキングしてください！
+Pangolin users can now farm PNG tokens on the ORBS-AVAX pool and earn ORBS tokens in Pangolin's 
 
-### 今月からロックされたもののみがリワードの対象となります。
+Single-stake feature!
 
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
+After recently adding the Orbs tokens to their platform, Pangolin is now launching farming and Single-stake for ORBS.
 
-必ず新しい Tetra ウォレットからステーキングしてください：
+Users can now farm Pangolin's native token, PNG, by providing liquidity to the ORBS-AVAX pool which can then 
 
-[https://staking.orbs.network/](https://staking.orbs.network/)
+be staked to earn ORBS tokens.
 
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
+The launch of ORBS farming and staking by Pangolin, one of the leading DEX-AMMs on the Avalanche network, 
 
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
+is another important step to solidify the Orbs community's presence on Avalanche. This follows other 
 
-ステーキングメカニズムはこちらからご確認ください：
+successful protocol integrations on the Avalanche network such as AvaScan and Trader Joe.
 
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
+![](/assets/img/blog/Nov-Update-Images2/raydium.jpeg)
 
-...
+In addition, Pangolin has recently announced their V2 farms and chose the ORBS-AVAX pool to be included in 
 
-## **プレビューとティーザー**
+their [V2 launch](https://twitter.com/pangolindex/status/1462632722858496005).
 
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
+<div class='line-separator'></div>
 
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
+Orbs releases Universe Gang NFTs Collection & Meme Contest
 
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
+![](/assets/img/blog/Nov-Update-Images2/snowball.png)
 
-...
+Orbs has released a brand-new NFT collection - Orbs Universe Gang, designed and dedicated to the Orbs 
 
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
+Community.
 
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
+You can also view the entire collection on OpenSea in the following [link](https://opensea.io/collection/orbso-universe-gang).
 
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
+Hence, we've started an exciting series of contests to give out the entire collection to the community. 
 
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
+Every couple of weeks, a new contest will be held to choose the lucky winners.
 
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
+Meet the Orbs Universe Gang NFT collection - 77 exclusively designed Orbso NFT cards, including a gang of 70 basic NFTs - 
 
-最近公開されたブログ投稿のうち 2 つをご紹介します：
+Orbso Mobsters (divided into seven groups of ten), plus a special and even more exciting group of 7 unique NFTs - 
 
-### Blockchain の児童虐待画像への対応
+Orbso Bosses.
 
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
+To Enter the Contest:
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
+1️⃣  Create an awesome #Orbs Meme/Artwork
+2️⃣  Share your Meme/Artwork on Twitter and tag @orbs_network
+3️⃣  Like @orbs_network on Twitter 
+4️⃣ RT & like 5 tweets posted by @orbs_network
 
-### 可視化と説明責任の確保–
+Fill out information for participants in contest #1 in this [FORM](https://docs.google.com/forms/d/1QV_895-KjzCnSUIa4LbJBQ0hbtGEef9daMPm2kYDjF0/edit):
 
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
+🎯 Winners: 7
+Starts: November 25th, 10:00 UTC Time
+⏰ Ends: December 2nd, 10:00 UTC Time
+🏆 Prize: each winner will get one NFT from the Orbso Mobsters NFT cards collection shown below:
 
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
+![](/assets/img/blog/Nov-Update-Images2/stakingpools.jpeg)
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
+<div class='line-separator'></div>
 
-...
+ Orbs goes live on Snowball, an auto-compounder on Pangolin   
 
-## **メディアハイライト**
+![](/assets/img/blog/Nov-Update-Images2/v.png)
 
-### Global Blockchain Business Council (GBBC)
+Orbs is now available on Snowball Finance - a yield optimizer and a new AMM DEX running on the 
 
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
+Avalanche Network. Snowball allows users to automatically compound PNG rewards several times a day. 
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
+Check more [here](https://www.orbs.com/Further-Expansion-on-Avalanche-Orbs-Goes-Live-on-Snowball/).
 
-### REIMAGINE 2020
+<div class='line-separator'></div>
 
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
+And of course, there's so much more coming soon! Keep following and don't miss any important update)
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
+Look for the Orbs team on social media - we're always here for our community - answering questions, providing support and trying to reach out to new participants. Want to talk to us? You can find us on the following:
 
-...
+🔗 Social Channels:
 
-## **Vlog の Orbs チーム**
+[Telegram official channel](https://t.me/OrbsNetwork)
+[Telegram Announcements](https://t.me/OrbsAnnouncements)
+[Twitter](https://twitter.com/orbs_network)
+[YouTube](https://yt.vu/c/UCfpV4z-MGxeiabFkht1LNPQ)
+[Japanese chat](https://line.me/R/ti/p/%40vrf9558a) (LINE)
+[Korean chat](https://open.kakao.com/o/giYtuTRb) (Kakao)
+[Discourse](https://community.orbs.network/) (Orbs Universe members talk)
 
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
+🌎 Our Official Websites:
 
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
+[Orbs website](https://www.orbs.com/)
+[Hexa Foundation](https://www.hexa.org/)
 
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
+You'll be hearing from us soon!
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
+Until next time!
 
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
+Please Note
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
+Use of Raydium, the Solona Blockchain, Pangolin, Snowball Finance, the Avalanche blockchain and the other platforms and services described above carries significant risk. Digital assets and decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses. Without limiting the generality of hte foregoing, such risks may include lack of stability or other technical issues resulting from upgrades of the Solona blockchain to a new version or the launch of its non-beta MainNet.
 
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services.
