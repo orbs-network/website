@@ -24,10 +24,15 @@ Dive in this short read to share our fun & find topics that interest you :)
 Take a look at some of the highlights:
 
 📌 Orbs introduces a whole new layer [L3 - a game-changer in DeFi](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/)
+
 📌 Orbs goes live on [Raydium](https://www.orbs.com/Orbs-is-now-live-on-Raydium/)
+
 📌 Orbs farming & single stake goes [live on Pangolin](https://www.orbs.com/Orbs-Farming-&-Single-Stake-Goes-Live-on-Pangolin/)
+
 📌 Pangolin moves Orbs to their [V2 farms](https://twitter.com/pangolindex/status/1462632722858496005) 
+
 📌 Orbs releases [Universe Gang NFTs Collection & Contest](https://www.orbs.com/Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/)
+
 📌 Orbs goes live on [Snowball](https://www.orbs.com/Further-Expansion-on-Avalanche-Orbs-Goes-Live-on-Snowball/), an auto-compounder on Pangolin
 
 Ready? Here we go!
@@ -36,13 +41,13 @@ Ready? Here we go!
 
 How Orbs Hybrid Architecture Is Becoming a Game Changer in DeFi
 
-![](/assets/img/blog/Nov-Update-Images2/avalanche.jpeg)
+![](/assets/img/blog/Nov-Update-Images2/OrbsRace.jpg)
 
 Since making the shift to DeFi, Orbs has seen a rapid expansion of its ecosystem.
 
 Orbs is now live on all 5 major layer-1 (L1) chains: Ethereum, BSC, Polygon, Solana, with Avalanche being the latest addition. This in turn accelerated the integration of the Orbs ecosystem with over 17 major DeFi protocols.
 
-![](/assets/img/blog/Nov-Update-Images2/Giveaway.jpg)
+![](/assets/img/blog/Nov-Update-Images2/avalanche.jpeg)
 
 
 Orbs' DeFi interoperability plays a critical role for the next stage of the project's roadmap, which is based on a new and innovative concept and analysis of the current needs of the entire DeFi community.
@@ -63,7 +68,7 @@ Existing L1 and L2 infrastructure chains are, generally, all implemented as EVM 
 
 Orbs Goes Live on Raydium
 
-![](/assets/img/blog/Nov-Update-Images2/OrbsRace.jpg)
+![](/assets/img/blog/Nov-Update-Images2/raydium.jpeg)
 
 After bridging the ORBS token into Solana, the next step is to integrate it with Solana's DeFi ecosystem.
 
@@ -83,7 +88,7 @@ Avalanche integrations & further expansion: Orbs farming & single stake goes liv
 
 Pangolin
 
-![](/assets/img/blog/Nov-Update-Images2/poster2.jpg)
+![](/assets/img/blog/Nov-Update-Images2/stakingpools.jpeg)
 
 Pangolin users can now farm PNG tokens on the ORBS-AVAX pool and earn ORBS tokens in Pangolin's 
 
@@ -101,7 +106,7 @@ is another important step to solidify the Orbs community's presence on Avalanche
 
 successful protocol integrations on the Avalanche network such as AvaScan and Trader Joe.
 
-![](/assets/img/blog/Nov-Update-Images2/raydium.jpeg)
+![](/assets/img/blog/Nov-Update-Images2/v.png)
 
 In addition, Pangolin has recently announced their V2 farms and chose the ORBS-AVAX pool to be included in 
 
@@ -111,7 +116,7 @@ their [V2 launch](https://twitter.com/pangolindex/status/1462632722858496005).
 
 Orbs releases Universe Gang NFTs Collection & Meme Contest
 
-![](/assets/img/blog/Nov-Update-Images2/snowball.png)
+![](/assets/img/blog/Nov-Update-Images2/poster2.jpg)
 
 Orbs has released a brand-new NFT collection - Orbs Universe Gang, designed and dedicated to the Orbs 
 
@@ -143,13 +148,13 @@ Starts: November 25th, 10:00 UTC Time
 ⏰ Ends: December 2nd, 10:00 UTC Time
 🏆 Prize: each winner will get one NFT from the Orbso Mobsters NFT cards collection shown below:
 
-![](/assets/img/blog/Nov-Update-Images2/stakingpools.jpeg)
+![](/assets/img/blog/Nov-Update-Images2/giveaway.jpg)
 
 <div class='line-separator'></div>
 
  Orbs goes live on Snowball, an auto-compounder on Pangolin   
 
-![](/assets/img/blog/Nov-Update-Images2/v.png)
+![](/assets/img/blog/Nov-Update-Images2/snowball.png)
 
 Orbs is now available on Snowball Finance - a yield optimizer and a new AMM DEX running on the 
 
