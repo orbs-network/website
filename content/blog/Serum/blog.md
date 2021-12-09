@@ -9,7 +9,6 @@ author:
 type:
 short_description: 
 ---
-Orbs is Now Live on Serum!
 
 
 In light of the skyrocketing popularity of DeFi (Orbs followers know that the project has been focused on unlocking the [potential of Orbs in the DeFi space](https://www.orbs.com/Introducing-Open-DeFi-Notification-Protocol/)), the latest step forward for the Orbs ecosystem is [integrating ORBS tokens](https://www.orbs.com/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/) with Solana's leading DeFi ecosystem - one of the most productive DeFi ecosystems in the crypto-verse at the moment.
