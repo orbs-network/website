@@ -31,7 +31,7 @@ Now, you can add liquidity to Orbs pool which is currently available on [Raydium
 
 ![](/assets/img/blog/Serum-images/image2.png)
 
-### bCross-Chain Swap Solution
+### Cross-Chain Swap Solution
 
 The Serum project intends to [solve the swapping issues](https://assets.website-files.com/61382d4555f82a75dc677b6f/61384a6d5c937269dbed185c_serum_white_paper.88d98f84.pdf) that cross-chain DeFi is currently facing. In general, despite being on Solana and having the speed and cost that go along with that, Serum is also fully usable from Ethereum. This means that existing DeFi projects can access Serum's features and liquidity directly from their native blockchain, creating fast integration between the current infrastructure and Serum.
 
