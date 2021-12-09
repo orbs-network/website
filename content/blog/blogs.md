@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Serum/blog.md
   - Nov-Update/blog.md
   - Could-Decentralization-Transform-the-Art-Market/blog.md
   - Further-Expansion-on-Avalanche-Orbs-Goes-Live-on-Snowball/blog.md
