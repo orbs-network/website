@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DeflationaryAsset/blog.md
   - Serum/blog.md
   - Nov-Update/blog.md
   - Could-Decentralization-Transform-the-Art-Market/blog.md
