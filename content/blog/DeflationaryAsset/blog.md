@@ -9,7 +9,6 @@ author:
 type:
 short_description: 
 ---
-Are We Witnessing the First Deflationary Asset?
 
 There has been a lot of talk about inflation for quite some time, not only in the US but also in other leading markets. The spur in overall US CPI started in [April](https://www.bls.gov/opub/ted/2021/consumer-prices-increase-6-2-percent-for-the-year-ended-october-2021.htm) (4.2%), later stabilized on a higher level of (5.0-5.4% during May-September), and reached its highest level of more than 30 years in October (6.2%). Similar trends occur in [Germany](https://www.global-rates.com/en/economic-indicators/inflation/consumer-prices/cpi/germany.aspx) (4.5%), [GB](https://www.global-rates.com/en/economic-indicators/inflation/consumer-prices/cpi/great-britain.aspx) (3.8%) and [China](https://www.global-rates.com/en/economic-indicators/inflation/consumer-prices/cpi/china.aspx) (1.5%). In light of this, it may be interesting to share some recent Ether price analyses which may broaden the reader's horizons in seeking means of preserving their portfolio value.
 
