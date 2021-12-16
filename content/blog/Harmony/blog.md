@@ -1,181 +1,60 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/Harmony-images/bg.jpg
+blogUrl: Harmony
+date: 2021-12-16
+title: Orbs Ecosystem Growth: Harmony
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
+We recently announced an additional vertical for the Orbs network, building another layer: L3, operating in conjunction with L1 + L2 layers to enrich the capabilities of EVM-based smart contracts. Such a layer opens the door for many exciting and innovative applications in the DeFi space which are currently not available. Thus, the Orbs core team has shifted much of its focus to the DeFi space.
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+To realize this vision the Orbs project needs to keep strengthening its position as a multi-chain asset across the DeFi space. Hence, Orbs project is already available on 5 major layer-1 (L1) chains: Ethereum, BSC, Polygon, Solana, with Avalanche being the latest addition. This in turn accelerated the integration of the Orbs ecosystem with over 17 major DeFi platforms (such as UniSwap, SushiSwap, PancakeSwap, Kyber Network, 1inch, Alpaca Finance, Beefy Finance, QuickSwap, DinoSwap, Raydium, Trader Joe, Pangolin, with more to come in the near future...).
 
-...
+So what's next?
 
-## **DeFi の時代！**
+Along Comes Harmony
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+Harmony is one of the leading Layer 2 chains in the Ethereum stack, focusing on expanding and improving scaling solutions on Ethereum. The project positions itself as an interoperable Layer 2 to Ethereum, bringing together several key blockchain innovations, such as faster settlement, shorter withdrawal wait times and gas-efficient interoperability, while also enabling some unique features.
 
-みなさん!
+Harmony is the first project to launch on both Binance's traditional exchange and its DEX. It's also the second project (the first being Matic Network) to fundraise on Binance's IEO Launchpad using their lottery system.
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+Take a look at the Harmony's Protocol Features chart that shows how to compare optimistic and zero-knowledge rollups versus the project's trustless bridge:
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+![](/assets/img/blog/Harmony-images/image1.png)
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+So, Why Harmony?
 
-...
+Here are some Harmony's highlights:
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+![](/assets/img/blog/Harmony-images/image2.png)
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+The Harmony protocol is driving blockchain adoption by building bridges to all networks to scale applications across Ethereum, Binance, Terra, Polkadot, Bitcoin and other chains.
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+The project has called for working together with builders and communities, recently announcing a [$1M Hackathon & DAO](https://open.harmony.one/1m-hackathon-dao-on-building-bridges) as well as a [$300 million ecosystem](https://twitter.com/harmonyprotocol/status/1436031205959405570) fund to accelerate 10,000 builders.
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+Some Stats on Harmony
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+The current [Total Locked Value](https://defillama.com/chain/Harmony) (TVL) on the Harmony chain is over $520M, with a clear uptrend of growth. [DeFi Kingdoms](https://defikingdoms.com/), a native protocol on Harmony, is the top highest TVL project on Harmony with over $280M in TVL. In second place is SushiSwap, which also chose to integrate its protocol into the Harmony network.
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+![](/assets/img/blog/Harmony-images/image3.png)
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
+Harmony's Main Value Proposition: Sharding
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+Harmony implements deep sharding with innovations on both protocol and networking layers of blockchain by introducing:
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+-   Highly scalable FBFT (Fast Byzantine Fault Tolerant) consensus using BLS (Boneh-Lynn-Shacham) multi-signatures.
 
-...
+-   Secure distributed randomness generation protocol using VDF (Verifiable Delay Function).
 
-## **Orbs PoS V2：ガーディアンの時代**
+-   Sharding with adaptive Proof-of-Stake for strong network security.
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+-   Kademlia routing and erasure encoding for optimal network performance
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+Overall, Harmony is considered a promising project with many excellent ideas and tech solutions, quickly closing the gap with the current market leaders. Despite the recent rise of L1 projects such Solana and Avalanche, Ethereum still maintains its status as the market leader in the defi space, with the strongest developer activity building on the Ethereum stack. Thus, we believe that Ethereum-based projects such as Harmony will have a huge potential and we're excited to start the Orbs  journey with Harmony, exploring the possibilities and opportunities it presents.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+For the latest updates, join the official [Orbs Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork) groups.
 
-### ベータプロモーションリワード
-
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
-
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
-
-...
-
-## **ネットワークの状況**
-
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
-
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
-
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
-
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
-
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
-
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
-
-_\*出所_ [_https://staked.us/_](https://staked.us/)
-
-ORBS のデリゲータに毎月のリマインドです：
-
-### リワードを得るために、必ずステーキングしてください！
-
-### 今月からロックされたもののみがリワードの対象となります。
-
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
-
-必ず新しい Tetra ウォレットからステーキングしてください：
-
-[https://staking.orbs.network/](https://staking.orbs.network/)
-
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
-
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
-
-ステーキングメカニズムはこちらからご確認ください：
-
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
-
-...
-
-## **プレビューとティーザー**
-
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
-
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
-
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
-
-...
-
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
-
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
-
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
-
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
-
-最近公開されたブログ投稿のうち 2 つをご紹介します：
-
-### Blockchain の児童虐待画像への対応
-
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-### 可視化と説明責任の確保–
-
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
-
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
-
-...
-
-## **メディアハイライト**
-
-### Global Blockchain Business Council (GBBC)
-
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+Expect more news soon!
