@@ -15,7 +15,7 @@ To realize this vision the Orbs project needs to keep strengthening its position
 
 So what's next?
 
-Along Comes Harmony
+### Along Comes Harmony
 
 Harmony is one of the leading Layer 2 chains in the Ethereum stack, focusing on expanding and improving scaling solutions on Ethereum. The project positions itself as an interoperable Layer 2 to Ethereum, bringing together several key blockchain innovations, such as faster settlement, shorter withdrawal wait times and gas-efficient interoperability, while also enabling some unique features.
 
@@ -25,7 +25,7 @@ Take a look at the Harmony's Protocol Features chart that shows how to compare o
 
 ![](/assets/img/blog/Harmony-images/image1.png)
 
-So, Why Harmony?
+### So, Why Harmony?
 
 Here are some Harmony's highlights:
 
@@ -35,13 +35,13 @@ The Harmony protocol is driving blockchain adoption by building bridges to all n
 
 The project has called for working together with builders and communities, recently announcing a [$1M Hackathon & DAO](https://open.harmony.one/1m-hackathon-dao-on-building-bridges) as well as a [$300 million ecosystem](https://twitter.com/harmonyprotocol/status/1436031205959405570) fund to accelerate 10,000 builders.
 
-Some Stats on Harmony
+### Some Stats on Harmony
 
 The current [Total Locked Value](https://defillama.com/chain/Harmony) (TVL) on the Harmony chain is over $520M, with a clear uptrend of growth. [DeFi Kingdoms](https://defikingdoms.com/), a native protocol on Harmony, is the top highest TVL project on Harmony with over $280M in TVL. In second place is SushiSwap, which also chose to integrate its protocol into the Harmony network.
 
 ![](/assets/img/blog/Harmony-images/image3.png)
 
-Harmony's Main Value Proposition: Sharding
+### Harmony's Main Value Proposition: Sharding
 
 Harmony implements deep sharding with innovations on both protocol and networking layers of blockchain by introducing:
 
