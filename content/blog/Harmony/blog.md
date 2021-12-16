@@ -39,7 +39,7 @@ The project has called for working together with builders and communities, recen
 
 The current [Total Locked Value](https://defillama.com/chain/Harmony) (TVL) on the Harmony chain is over $520M, with a clear uptrend of growth. [DeFi Kingdoms](https://defikingdoms.com/), a native protocol on Harmony, is the top highest TVL project on Harmony with over $280M in TVL. In second place is SushiSwap, which also chose to integrate its protocol into the Harmony network.
 
-![](/assets/img/blog/Harmony-images/image3.png)
+![](/assets/img/blog/Harmony-images/umage3.png)
 
 ### Harmony's Main Value Proposition: Sharding
 
