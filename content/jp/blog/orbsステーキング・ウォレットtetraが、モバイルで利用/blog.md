@@ -24,7 +24,7 @@ Enjin ウォレットと Tetra の接続により、Android と iOS の両方で
 
 [Enjin](https://enjin.io/)ウォレットは、大人気の暗号通貨プロジェクト Enjin による、安全で使いやすく、便利機能が豊富なモバイルウォレットです。
 
-ステーキングを始めるのはとても簡単です。Enjin モバイルアプリより[Tetra のウェブページ](https://staking.orbs.network/jp/)に移動し、ORBS をステーキングするだけです。[Tetra の使い方](https://www.orbs.com/tetra-orbs-staking-wallet-tutorial)はこちらをご覧ください。動画には日本語字幕がついております。
+ステーキングを始めるのはとても簡単です。Enjin モバイルアプリより[Tetra のウェブページ](https://staking.orbs.network/jp/)に移動し、ORBS をステーキングするだけです。[Tetra の使い方](https://www.orbs.com/tetra-staking-wallet-by-orbs-now-on-mobile)はこちらをご覧ください。動画には日本語字幕がついております。
 
 Enjin ウォレットと Tetra の接続方法は、こちらの動画をご参照ください。
 
