@@ -7,4 +7,4 @@ color: "#1EE6CF"
 TetraはOrbs専用のステーキング・スウォレットであり、ORBSトークンホルダは簡単に自分の選んだガーディアンにトークンをステークすることができます。
 [Tetraウォレットはこちら](https://staking.orbs.network/)
 
-Tetraウォレットの使い方については[こちら](Tetra-orbs-staking-wallet-tutorial)
+Tetraウォレットの使い方については[こちら](tetra-orbs-staking-wallet-tutorial)
