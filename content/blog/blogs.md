@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - D-Kuru/blog.md
   - Harmony/blog.md
   - DeflationaryAsset/blog.md
   - Serum/blog.md
