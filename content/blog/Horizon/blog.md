@@ -22,7 +22,7 @@ Harmony has recently launched [Horizon](https://bridge.harmony.one/busd), a trus
 
 In order to bridge Orbs onto Harmony, simply pick the ORBS token from the pulldown list in the [Horizon Bridge page](https://bridge.harmony.one/erc20). Orbs holders can select between Ethereum and BSC chains.
 
-![](/assets/img/blog/Horizon-images/image1.png)
+![](/assets/img/blog/Horizon-images/image2.png)
 
 ### The ORBS token address on Horizon can be found in the following link:
 
