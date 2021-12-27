@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: delegator
-title: FFB
+type: guardian
+title: D-kuru
 lat: 36.204823
 lng: 138.252930
 countryCode: JP
