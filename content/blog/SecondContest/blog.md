@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/SecondContest-images/bg.jpg
+image: /assets/img/blog/SecondContest-images/bg2.png
 blogUrl: SecondContest
 date: 2021-12-27
 title: Orbs Second Contest Starts...Today!
