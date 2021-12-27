@@ -12,7 +12,7 @@ short_description:
 
 Dear Orbs enthusiasts,
 
-We're continuing our exciting series of contests to give out the entire [Universe G](https://opensea.io/collection/orbso-universe-gang)[ang NFT collection](https://opensea.io/collection/orbso-universe-gang)designed and dedicated to the Orbs community.
+We're continuing our exciting series of contests to give out the entire [Universe G](https://opensea.io/collection/orbso-universe-gang)[ang NFT collection](https://opensea.io/collection/orbso-universe-gang) designed and dedicated to the Orbs community.
 
 A quick reminder. The [Orbso NFT collection](https://opensea.io/collection/orbso-universe-gang) consists of 77 exclusively designed Orbso NFT cards, including a gang of 70 basic NFTs - Orbso Mobsters (divided into seven groups of ten), plus a special and even more exciting group of 7 unique NFTs - Orbso Bosses.
 
@@ -32,7 +32,7 @@ You can also view the entire collection on OpenSea in the following [link.](http
 
 3️⃣ Create a short video about Orbs. For example: a video review of the Orbs Tetra staking wallet. You may take a look at the project's [YouTube](https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured) channel for more ideas.
 
-*Contest participants will also need to fill out the following [[FORM](https://docs.google.com/forms/d/1QDy46SCH8LAio1PKLfqyvQovgh9xCvG4piLkSus6TIQ/edit)] with their Ethereum wallet address information to receive the NFT giveaways in case they win.
+### *Contest participants will also need to fill out the following [[FORM](https://docs.google.com/forms/d/1QDy46SCH8LAio1PKLfqyvQovgh9xCvG4piLkSus6TIQ/edit)] with their Ethereum wallet address information to receive the NFT giveaways in case they win.
 
 ⏰ Starts: December 27th 2021, 10:00 UTC Time
 
