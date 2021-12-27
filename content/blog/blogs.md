@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - SecondContest/blog.md
   - Horizon/blog.md
   - D-Kuru/blog.md
   - Harmony/blog.md
