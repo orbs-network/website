@@ -12,9 +12,7 @@ short_description:
 
 Dear Orbs enthusiasts,
 
-We're continuing our exciting series of contests to give out the entire [Universe G](https://opensea.io/collection/orbso-universe-gang)
-
-[ang NFT collection](https://opensea.io/collection/orbso-universe-gang) designed and dedicated to the Orbs community.
+We're continuing our exciting series of contests to give out the entire [Universe G](https://opensea.io/collection/orbso-universe-gang)[ang NFT collection](https://opensea.io/collection/orbso-universe-gang)designed and dedicated to the Orbs community.
 
 A quick reminder. The [Orbso NFT collection](https://opensea.io/collection/orbso-universe-gang) consists of 77 exclusively designed Orbso NFT cards, including a gang of 70 basic NFTs - Orbso Mobsters (divided into seven groups of ten), plus a special and even more exciting group of 7 unique NFTs - Orbso Bosses.
 
@@ -42,7 +40,7 @@ You can also view the entire collection on OpenSea in the following [link.](http
 
 🏆 Prize: winners will get one NFT from Orbso Mobsters NFT cards collection, while the first prize winner 🥇 will get an NFT from a group of 7 unique Orbso NFTs - Orbso Boss!
 
-"These are the NFTs you can win this week + 1 unique Orbso Boss:"
+### These are the NFTs you can win this week + 1 unique Orbso Boss:
 
 ![](/assets/img/blog/SecondContest-images/image2.jpg)
 
