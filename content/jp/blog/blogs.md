@@ -1,6 +1,14 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Horizon/blog.md
+  - Orbs日本語コミュニティ貢献者支援プログラム/blog.md
+  - DeflationaryAsset/blog.md
+  - D-Kuru/blog.md
+  - Novermber-update/blog.md
+  - Could-Decentralization-Transform-the-Art-Market/blog.md
+  - Further-Expansion-on-Avalanche-Orbs-Goes-Live-on-Snowball/blog.md
+  - US-Afghanistan-Terror/blog.md
   - Orbs-Universe-Gang-NFT-Collection-is-Going-Live-Today/blog.md
   - Orbs-is-now-live-on-Raydium/blog.md
   - How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/blog.md
