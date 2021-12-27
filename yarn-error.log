@@ -1,30 +1,25 @@
 Arguments: 
-  /usr/local/Cellar/node/15.3.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add CookieConsent
+  /usr/local/Cellar/node/17.2.0/bin/node /usr/local/Cellar/yarn/1.22.17_1/libexec/bin/yarn.js install
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/denis/Library/Android/sdk/emulator:/Users/denis/Library/Android/sdk/tools:/Users/denis/Library/Android/sdk/tools/bin:/Users/denis/Library/Android/sdk/platform-tools
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/denis/Library/Android/sdk/emulator:/Users/denis/Library/Android/sdk/tools:/Users/denis/Library/Android/sdk/tools/bin:/Users/denis/Library/Android/sdk/platform-tools:/Users/denis/Library/Android/sdk/emulator:/Users/denis/Library/Android/sdk/tools:/Users/denis/Library/Android/sdk/tools/bin:/Users/denis/Library/Android/sdk/platform-tools
 
 Yarn version: 
-  1.22.10
+  1.22.17
 
 Node version: 
-  15.3.0
+  17.2.0
 
 Platform: 
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/CookieConsent: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
-      at Request.emit (node:events:376:20)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
-      at Request.emit (node:events:376:20)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
-      at Object.onceWrapper (node:events:482:28)
-      at IncomingMessage.emit (node:events:388:22)
-      at endReadableNT (node:internal/streams/readable:1294:12)
-      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+  SyntaxError: /Users/denis/Documents/projects/orbs/website/package.json: Unexpected token } in JSON at position 867
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.17_1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.17_1/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.17_1/libexec/lib/cli.js:321:13
 
 npm manifest: 
   {
@@ -33,11 +28,13 @@ npm manifest:
     "description": "Website for Orbs.com",
     "main": "index.js",
     "scripts": {
+      "prebuild": "sh prebuild.sh",
       "build": "cuttlebelle",
       "test": "echo \"Error: no test specified\" && exit 1",
-      "prebuild": "node-sass ./assets/sass/index.scss ./assets/css/index.css",
+      "sass-prebuild": "node-sass ./assets/sass/index.scss ./assets/css/index.css",
       "watch-sass": "node-sass -w ./assets/sass/index.scss ./assets/css/index.css",
-      "watch": "rm -rf ./site && yarn watch-sass & cuttlebelle -w"
+      "watch": "yarn watch-sass & cross-env IS_DEV=true cuttlebelle -w",
+      "watch-prod": "yarn watch-sass &  cuttlebelle -w"
     },
     "cuttlebelle": {
       "site": {
@@ -48,12 +45,12 @@ npm manifest:
     "author": "",
     "license": "MIT",
     "dependencies": {
+      "cross-env": "^7.0.3",
       "globe.gl": "^2.21.1",
       "moment": "^2.29.1"
     },
     "devDependencies": {
       "@babel/plugin-proposal-class-properties": "^7.13.0",
-      "node-sass": "^5.0.0"
     }
   }
 
@@ -454,7 +451,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
     integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
   
-  cross-spawn@^7.0.3:
+  cross-env@^7.0.3:
+    version "7.0.3"
+    resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
+    integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
+    dependencies:
+      cross-spawn "^7.0.1"
+  
+  cross-spawn@^7.0.1, cross-spawn@^7.0.3:
     version "7.0.3"
     resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
     integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
