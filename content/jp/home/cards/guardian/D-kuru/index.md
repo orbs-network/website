@@ -1,13 +1,11 @@
 ---
 layout: partials/home/cards/main/index
-type: guardian
+type: ガーディアン
 title: D-kuru
 lat: 36.204823
 lng: 138.252930
 countryCode: JP
-image: /assets/img/home/delegators/delegator3.JPG
+icon: /assets/img/home/guardian.svg
+links:
+  - website.md
 ---
-
-Country: Japan
-
-Twitter: @bjnpmud
