@@ -5,7 +5,7 @@ blogUrl: Novermber-update
 date: 2021-12-03
 title: 2021年11月度Orbsアップデート
 author:
-  - /jp/blog/common/authors/OlgaChef.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 
 ---
