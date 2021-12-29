@@ -5,7 +5,7 @@ blogUrl: Orbs日本語コミュニティ貢献者支援プログラム
 date: 2021-12-14
 title: Orbs グラント」日本語コミュニティ貢献者支援プログラム
 author:
-  - /jp/blog/common/authors/OlgaChef.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 
 ---
