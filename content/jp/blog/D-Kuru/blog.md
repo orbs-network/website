@@ -5,7 +5,7 @@ blogUrl: D-Kuru
 date: 2021-12-08
 title: Orbsの新しいガーディアンを紹介します！
 author:
-  - /jp/blog/common/authors/OlgaChef.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 
 ---
