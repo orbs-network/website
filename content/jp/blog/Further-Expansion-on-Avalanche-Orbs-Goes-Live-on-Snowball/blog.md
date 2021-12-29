@@ -5,7 +5,7 @@ blogUrl: Further-Expansion-on-Avalanche-Orbs-Goes-Live-on-Snowball
 date: 2021-11-28
 title: "OrbsがSnowballで利用可能になりました：Avalanche上でのさらなる展開へ"
 author:
-  - /jp/blog/common/authors/OlgaChef.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description: 
 ---
