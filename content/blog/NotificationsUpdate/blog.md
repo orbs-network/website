@@ -43,9 +43,7 @@ Here are just a few of the benefits the DeFi Notifications can offer:
 
 -   Be notified on the contract upgrade event
 
--   Notifications are a free core blockchain service accessible to anyone -
-
-       no subscription fees or ads
+-   Notifications are a free core blockchain service accessible to anyone - no subscription fees or ads
 
 -   It's very hard to miss an alert
 
