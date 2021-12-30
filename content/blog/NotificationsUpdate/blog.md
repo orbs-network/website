@@ -24,7 +24,7 @@ With a quick 30 minute integration on Github, any DeFi project can provide its u
 
 Furthermore, as was noted above, the Open DeFi Notifications protocol is also an example of Layer-3 innovation, as it is utilizes a layer of infrastructure that can read a variety of activity on underlying Layer-1 and Layer-2 blockchains and provide information that allows DeFi users to execute more sophisticated and dynamic strategies. We believe this is a critical piece of the DeFi infrastructure puzzle and its impact on the industry could be massive.
 
-### Here is a video example 
+Here is a video example 
 <iframe src="https://www.youtube.com/watch?v=ecdgzJ7tA1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 of a user in action setting up a notification in Aave to monitor health factors getting low (risk of liquidation).
