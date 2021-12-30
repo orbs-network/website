@@ -16,7 +16,7 @@ the core element that allows interoperability with EVM compatible blockchains su
 
 As part of this process, and in parallel to the tremendous ecosystem expansion the project undergoes, Orbs continues to work within the DeFi.Org Accelerator as a design partner in developing and enhancing the functionality of the Open DeFi Notification Protocol - an open initiative to provide DeFi users with decentralized and free mobile notifications for on-chain events. Moreover, the Open DeFi Notifications Protocol is the first project that the Orbs team participated in that demonstrates Orbs' unique [Layer-3](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) capabilities.
 
-A Quick Reminder
+### A Quick Reminder
 
 The Open DeFi Notification Protocol is a community led initiative to provide users with decentralized and free mobile notifications for on-chain events.
 
@@ -24,7 +24,7 @@ With a quick 30 minute integration on Github, any DeFi project can provide its u
 
 Furthermore, as was noted above, the Open DeFi Notifications protocol is also an example of Layer-3 innovation, as it is utilizes a layer of infrastructure that can read a variety of activity on underlying Layer-1 and Layer-2 blockchains and provide information that allows DeFi users to execute more sophisticated and dynamic strategies. We believe this is a critical piece of the DeFi infrastructure puzzle and its impact on the industry could be massive.
 
-Here is a video example: 
+### Here is a video example: 
 <iframe src="https://www.youtube.com/watch?v=ecdgzJ7tA1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 of a user in action setting up a notification in Aave to monitor health factors getting low (risk of liquidation.
 
@@ -44,17 +44,17 @@ Here are just a few of the benefits the DeFi Notifications can offer:
 
 -   Notifications are a free core blockchain service accessible to anyone -
 
-    no subscription fees or ads
+       no subscription fees or ads
 
 -   It's very hard to miss an alert
 
--   Multi network support - Ethereum, BSC, Polygon and more
+-   Multi network support: Ethereum, BSC, Polygon and more
 
--   The notifications are community-led and open --- public and decentralized alert nodes
+-   The notifications are community-led and open - public and decentralized alert nodes
 
 You're more than welcome to read the official[  DeFi.org blog post  ](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0)announcing the protocol and providing an in-depth explanation on its functionality.
 
-So, What's New?
+### So, What's New?
 
 Now, when we've had a quick reminder of the core idea of the project and went over some of its features, we're thrilled to update you that the Beta Version launch date is coming very soon!  Hold on and don't forget to follow us to stay updated on the exact launch day, promise, it's coming soon.
 
