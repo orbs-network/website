@@ -31,7 +31,7 @@ of a user in action setting up a notification in Aave to monitor health factors 
 
 Another strong point of the protocol is that it is chain agnostic and designed to integrate with any ecosystem.
 
-Notifications are an Absolute Must When Money is at Stake - Never Miss A Crucial Alert
+### Notifications are an Absolute Must When Money is at Stake - Never Miss A Crucial Alert
 
 Have you ever encountered a situation when the price collapse took place and you weren't alerted beforehand? This is exactly what the DeFi Notification Protocol enables. Now you can get alerts on a wide range of crucial on-chain events you can't miss.
 
@@ -57,9 +57,9 @@ You're more than welcome to read the official[  DeFi.org blog post  ](https://me
 
 ### So, What's New?
 
-Now, when we've had a quick reminder of the core idea of the project and went over some of its features, we're thrilled to update you that the Beta Version launch date is coming very soon!  Hold on and don't forget to follow us to stay updated on the exact launch day, promise, it's coming soon.
+*Now, when we've had a quick reminder of the core idea of the project and went over some of its features, we're thrilled to update you that the Beta Version launch date is coming very soon!  Hold on and don't forget to follow us to stay updated on the exact launch day, promise, it's coming soon.*
 
-For those who have missed our announcements - the Alpha Version of the Defi Notifications is already live and available on [AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp). It's time to check it out!
+*For those who have missed our announcements - the Alpha Version of the Defi Notifications is already live and available on [AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp). It's time to check it out!*
 
 Currently, our development team is proceeding with testing the Beta Version of the DeFi Notifications Protocol, to make sure everything is running fluently.
 
@@ -67,4 +67,4 @@ For the latest updates, join the official [Orbs Twitter](https://twitter.com/orb
 
 Also see the DeFi.org channels for more information about the happenings in that community.
 
-The app and protocol are in beta and their use is subject to risks. Use of the app is subject to the terms and conditions set forth at <https://defi.org/defi-notifications-terms-of-use/index.html>.
+*The app and protocol are in beta and their use is subject to risks. Use of the app is subject to the terms and conditions set forth at <https://defi.org/defi-notifications-terms-of-use/index.html>.*
