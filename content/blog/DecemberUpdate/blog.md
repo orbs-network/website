@@ -1,181 +1,147 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/DecemberUpdate-images/bg.jpg
+blogUrl: DecemberUpdate
+date: 2022-01-03
+title: Orbs December 2021 Update 
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/OlgaChef.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+Hey Orbs follower!
 
-...
+First, let us send you and your family our best wishes for a fabulous holiday season from across the miles! May peace, love, prosperity and joy be with you throughout the year.
 
-## **DeFi の時代！**
+Now, let's recap the most exciting news, updates, integrations and releases taking place during the last month of the year 🌟
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+Dive in this short read to share our fun & find topics that interest you 🤓
 
-みなさん!
+### Take a look at some of the highlights:
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+📌 Orbs Goes Live on [Serum](https://www.orbs.com/Serum/)
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+📌 Orbs Ecosystem Keeps Growing: Orbs is Now Live on [Harmony](https://www.orbs.com/Harmony/)!
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+📌 Orbs Welcomes Onboard a [New JP Guardian, D-Kuru](https://www.orbs.com/D-Kuru/)
 
-...
+📌 ORBS Goes Live on Harmony Using the [Horizon Cross-Chain Bridge](https://www.orbs.com/Horizon/)!
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+📌 Orbs Runs the Second [Orbso Universe Gang NFT Contest](https://www.orbs.com/SecondContest/)! Are you in? :)
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+📌 Orbs Hits 50+K Followers on [Twitter](https://twitter.com/orbs_network) & Aims to Double This Number!
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+📌 The Open DeFi Notifications Beta Version [Launch is Coming Soon!](https://www.orbs.com/NotificationsUpdate/)
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+<div class='line-separator'> </div>
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+### Orbs Goes Live on Serum
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+![](/assets/img/blog/DecemberUpdate-images/image1.jpg)
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
+🔹After successfully bridging the ORBS token via Solana's Wormhole cross-chain bridge and going live on Raydium, Orbs went live on [Serum](https://www.orbs.com/Serum/), further expanding its ecosystem.
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+🔹Serum's on-chain central limit order book and matching engine provides liquidity and price-time-priority matching to traders and composing projects. Now, you can add liquidity to Orbs pool which is currently available on Raydium for ORBS-SOL, with a total liquidity of ~$58K. In return you will receive trading fees for that pair, and LP Tokens that you may stake elsewhere to earn additional rewards.
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+Read more about Serum in the [full blog post.](https://www.orbs.com/Serum/)
 
-...
+<div class='line-separator'> </div>
 
-## **Orbs PoS V2：ガーディアンの時代**
+### Orbs Ecosystem Growth: Harmony!
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+![](/assets/img/blog/DecemberUpdate-images/image2.jpg)
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+🔹As you probably know, Orbs keeps strengthening its position as a multi-chain asset across the DeFi space. So, the project's next step has been integrating with Harmony, as it brings together several key blockchain innovations, such as faster settlement, shorter withdrawal wait times and gas-efficient interoperability.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+🔹Moreover, bringing the Orbs ecosystem to Harmony introduces new opportunities to explore deep sharding. The sharding approach of this network uses adaptive proof-of-Stake to maintain strong network security. More so, the current Total Locked Value (TVL) on the Harmony chain is over $508M, with a clear uptrend of growth.
 
-### ベータプロモーションリワード
+Find out more in [this blog post](https://www.orbs.com/Harmony/).
 
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
+<div class='line-separator'> </div>
 
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+### ORBS Goes Live on Harmony Using the Horizon Cross-Chain Bridge
 
-...
+![](/assets/img/blog/DecemberUpdate-images/image3.jpg)
 
-## **ネットワークの状況**
+🔹To start its chain integration with Harmony, Orbs went live on the Horizon bridge, the official cross-chain bridge recently launched by Harmony.
 
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
+🔹In order to bridge Orbs onto Harmony, you can pick the ORBS token from the pulldown list in the Horizon Bridge page. Orbs holders can select between Ethereum and BSC chains.
 
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
+![](/assets/img/blog/DecemberUpdate-images/image4.jpg)
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
+The ORBS token address on Horizon can be found [here](https://explorer.harmony.one/address/0xAaD96d04f00b718b9Ed43E39DB8E73DE61cEf8b7?activeTab=3):
 
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
+Find out more details about the Horizon bridge in our [blog post](https://www.orbs.com/Harmony/).
 
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
+<div class='line-separator'> </div>
 
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
+### Orbs Welcomes Onboard a New Guardian, D-Kuru!
 
-_\*出所_ [_https://staked.us/_](https://staked.us/)
+![](/assets/img/blog/DecemberUpdate-images/image5.jpg)
 
-ORBS のデリゲータに毎月のリマインドです：
+🔹Orbs team is thrilled to welcome aboard a new Guardian, D-Kuru! D-Kuru aims to represent the Orbs community, maintain the security of the network and uphold its long term vision, investing time and effort in the network's success.
 
-### リワードを得るために、必ずステーキングしてください！
+Read all about our new Guardian in a dedicated [blog post](https://www.orbs.com/D-Kuru/).
 
-### 今月からロックされたもののみがリワードの対象となります。
+<div class='line-separator'> </div>
 
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
+### Orbs' Exciting Series of Contests Continues
 
-必ず新しい Tetra ウォレットからステーキングしてください：
+![](/assets/img/blog/DecemberUpdate-images/image6.jpg)
 
-[https://staking.orbs.network/](https://staking.orbs.network/)
+🔹We're continuing the exciting series of contests to give out the entire Universe Gang NFT collection designed and dedicated to the Orbs community.
 
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
+Check them out:
 
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
+![](/assets/img/blog/DecemberUpdate-images/image7.jpg)
 
-ステーキングメカニズムはこちらからご確認ください：
+🔹You can also view the entire collection on [OpenSea](https://opensea.io/collection/orbso-universe-gang).
 
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
+🏆 Prize: winners will get one NFT from Orbso Mobsters NFT cards collection, while the first prize winner 🥇 will get an NFT from a group of 7 unique Orbso NFTs - Orbso Boss!
 
-...
+Read everything about the Second Contest [here](https://www.orbs.com/SecondContest/).
 
-## **プレビューとティーザー**
+<div class='line-separator'> </div>
 
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
+![](/assets/img/blog/DecemberUpdate-images/image8.jpg)
 
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
+### 🔹We're excited to share that Orbs has recently reached 50+K followers on [Twitter](https://twitter.com/orbs_network) and aims to double this number with the help of our dedicated followers and supporters.
 
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
+<div class='line-separator'> </div>
 
-...
+### The Open DeFi Notifications Protocol Update: The Beta Version Launch is Coming Soon!
 
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
+![](/assets/img/blog/DecemberUpdate-images/image9.jpg)
 
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
+🔹The Orbs core team keeps working hard on the Open DeFi Notifications Protocol Beta Version aimed at notifying the users on the crucial on-chain events via free mobile notifications.
 
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
+🔹The Beta Version launch date is coming soon! Hold on and don't forget to follow us to stay updated on the exact launch day.
 
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
+Read all about the DeFi Notifications Protocol [here.](https://www.orbs.com/NotificationsUpdate/)
 
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
+<div class='line-separator'> </div>
 
-最近公開されたブログ投稿のうち 2 つをご紹介します：
+And of course, there's so much more coming soon! Keep following and don't miss any important update)
 
-### Blockchain の児童虐待画像への対応
+Look for the Orbs team on social media - we're always here for our community - answering questions, providing support and trying to reach out to new participants. Want to talk to us? You can find us on the following:
 
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
+🔗 Social Channels:
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
+[Telegram official channel](https://t.me/OrbsNetwork)  [Telegram Announcements](https://t.me/OrbsAnnouncements)  [Twitter](https://twitter.com/orbs_network)  [YouTube](https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured)  [Japanese chat](https://page.line.me/?accountId=718ayvky) (LINE) [Korean chat](https://open.kakao.com/o/giYtuTRb) (Kakao) [Discourse](https://www.orbs.com/contact/) (Orbs Universe members talk)
 
-### 可視化と説明責任の確保–
+🌎 Our Official Websites:
 
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
+[Orbs website](https://www.orbs.com/) 
 
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
+[Hexa Foundation](https://www.hexa.org/)
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
+You'll be hearing from us soon!
 
-...
+Until next time!
 
-## **メディアハイライト**
+Please Note
 
-### Global Blockchain Business Council (GBBC)
+Use of the platforms and services described above carries significant risk. Digital assets and decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses.
 
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services.
