@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DecemberUpdate/blog.md
   - NotificationsUpdate/blog.md
   - SecondContest/blog.md
   - Horizon/blog.md
