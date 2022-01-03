@@ -126,7 +126,7 @@ And of course, there's so much more coming soon! Keep following and don't miss a
 
 Look for the Orbs team on social media - we're always here for our community - answering questions, providing support and trying to reach out to new participants. Want to talk to us? You can find us on the following:
 
-🔗 Social Channels:
+### 🔗 Social Channels:
 
 [Telegram official channel](https://t.me/OrbsNetwork)  [Telegram Announcements](https://t.me/OrbsAnnouncements)  [Twitter](https://twitter.com/orbs_network)  [YouTube](https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured)  [Japanese chat](https://page.line.me/?accountId=718ayvky) (LINE) [Korean chat](https://open.kakao.com/o/giYtuTRb) (Kakao) [Discourse](https://www.orbs.com/contact/) (Orbs Universe members talk)
 
@@ -140,8 +140,8 @@ You'll be hearing from us soon!
 
 Until next time!
 
-Please Note
+*Please Note
 
 Use of the platforms and services described above carries significant risk. Digital assets and decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses.
 
-Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services.
+Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services.*
