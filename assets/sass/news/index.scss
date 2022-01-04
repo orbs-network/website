@@ -1,0 +1,38 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    &-main {
+        &-post {
+            max-width: 1300px;
+            width: calc(100% - 100px);
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            &-content {
+                width: 550px;
+                padding-right: 50px;
+
+                h1 {
+                    font-weight: bold;
+                    font-size: 52px;
+                    line-height: 88px;
+                    font-family: main-font;
+                }
+
+                &-body {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+
+            &-image {
+                width: calc(100% - 550px);
+                object-fit: cover;
+            }
+        }
+    }
+}
