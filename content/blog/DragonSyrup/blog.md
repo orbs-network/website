@@ -47,7 +47,7 @@ Dragon's Syrup enables QUICK stakers to generate an extra yield from staking in 
 
 We are thrilled about this special launch on QuickSwap's Dragon's Syrup, as it is expected to support and strengthen Orbs position in the DeFi space, as well as enhance exposure for the Orbs project to the Polygon ecosystem.
 
-Stay tuned for more information and updates in the official Orbs [telegram channel](https://t.me/OrbsNetwork).
+Stay tuned for more information and updates in the official Orbs [Telegram  ](https://t.me/OrbsNetwork)and [Twitter](https://twitter.com/orbs_network) channels.
 
 <div class='line-separator'> </div>
 
