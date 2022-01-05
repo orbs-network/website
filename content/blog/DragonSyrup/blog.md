@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/DragonSyrup-images/bg.png
+image: /assets/img/blog/DragonSyrup-images/bg.jpg
 blogUrl: DragonSyrup
 date: 2022-01-05
 title: QuickSwap Launches a Dragon’s Syrup Pool for Orbs
