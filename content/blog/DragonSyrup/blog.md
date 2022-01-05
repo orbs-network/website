@@ -23,7 +23,7 @@ According to QuickSwap's [Orbs token page](https://info.quickswap.exchange/#/tok
 
 -   ORBS-QUICK, with liquidity of ~$62k
 
-Dragon's Syrup: a New Way to Generate Yield on QuickSwap
+### Dragon's Syrup: a New Way to Generate Yield on QuickSwap
 
 The "Dragon's Syrup" is a program launched by QuickSwap to allow $QUICK token stakers to earn extra rewards by staking their $dQUICK (the asset you receive when you deposit your Quick into the staking contract) to earn tokens that are traded on the DEX.
 
@@ -31,7 +31,7 @@ Put simply, users deposit QUICK, and get a variable rate of dQUICK in return. Th
 
 Dragon's Syrup enables QUICK stakers to generate an extra yield from staking in the Dragon's Lair by distributing tokens to those who stake their dQUICK in the Dragons' Syrup rewards pools.
 
-Here's How it Works:
+### Here's How it Works:
 
 1.  Provide liquidity in the '[ORBS Pools](https://info.quickswap.exchange/#/pair/0xb2b6d423e535b57aad06e9866803b95fb66152ea)' to earn LP (liquidity provider) tokens, as well as a 0.25% share in the trading fees on all trades in the pool.
 
@@ -43,13 +43,13 @@ Here's How it Works:
 
 1.  [Dragon's Syrup Pools](https://quickswap.exchange/#/syrup) --- Stake your dQUICK to earn ORBS tokens under 'Farms -> Dragon's Syrup' tab.
 
--- separator --
+<div class='line-separator'> </div>
 
 We are thrilled about this special launch on QuickSwap's Dragon's Syrup, as it is expected to support and strengthen Orbs position in the DeFi space, as well as enhance exposure for the Orbs project to the Polygon ecosystem.
 
 Stay tuned for more information and updates in the official Orbs [telegram channel](https://t.me/OrbsNetwork).
 
--- separator --
+<div class='line-separator'> </div>
 
 ### Please Note
 
