@@ -39,9 +39,9 @@ Dragon's Syrup enables QUICK stakers to generate an extra yield from staking in 
 
 1.  Stake your QUICK in Dragon's Lair on the same '[Farms -> LP Mining](https://quickswap.exchange/#/quick)' tab to get dQUICK --- This gets you a share of ALL trading fees that QuickSwap generates.
 
-![](/assets/img/blog/DragonSyrup-images/image2.jpg)
+![](/assets/img/blog/DragonSyrup-images/image2.png)
 
-1.  [Dragon's Syrup Pools](https://quickswap.exchange/#/syrup) --- Stake your dQUICK to earn ORBS tokens under 'Farms -> Dragon's Syrup' tab.
+1.  [Dragon's Syrup Pools](https://quickswap.exchange/#/syrup) - Stake your dQUICK to earn ORBS tokens under 'Farms -> Dragon's Syrup' tab.
 
 <div class='line-separator'> </div>
 
