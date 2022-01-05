@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DragonSyrup/blog.md
   - DecemberUpdate/blog.md
   - NotificationsUpdate/blog.md
   - SecondContest/blog.md
