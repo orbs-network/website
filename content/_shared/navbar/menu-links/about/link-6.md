@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Hexa foundation](https://www.hexa.org)
+[Orbs in the News](/news)
