@@ -1,10 +1,14 @@
 import React from 'react'
+import { handleUrl } from '../../util/link';
 
-function Author({ image, name, text }) {
+const  Author = ({ image,_body, _relativeURL, _ID }) =>  {
+    const generateUrl = (url) => {
+        return handleUrl(url, _relativeURL, _ID);
+      };
     return (
         <div className='news-author'>
-            <img src={image} />
-            <p>{text} {name}</p>
+            <img src={generateUrl(image)} className='news-author-avatar' />
+            {_body}
         </div>
     )
 }
