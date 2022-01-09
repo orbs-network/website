@@ -1,133 +1,79 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/orbs-is-available-on-ens-ethereum-naming-service-2/bg.png
-blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
-date: 2021-05-02
-title: OrbsがENS (Ethereum Naming Service)で利用可能となりました
+image: /assets/img/blog/NotificationsUpdate-images/bg.jpg
+blogUrl: NotificationsUpdate
+date: 2021-12-30
+title: "Open DeFi Notification プロトコル アップデート：ベータ版近日公開！"
+
 author:
   - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---
 
-![](/assets/img/blog/orbs-is-available-on-ens-ethereum-naming-service-2/photo_2021-03-11_08-52-58-1030x438.jpg)
 
-Ethereum で最も利用されているブロックチェーンのネーミング・サービス、[ENS プロトコル](https://ens.domains/ja/)で Orbs が利用可能となったことを発表します。
 
-今後は、安全なネーミングのために ENS を利用している Metamask、Uniswap、Chainlink などの他のメジャーなプロジェクトの、例えば[uniswap.eth](https://app.ens.domains/name/uniswap.eth)というアドレスと同じように、[token.orbs.eth](https://etherscan.io/enslookup-search?search=staking.orbs.eth)もご利用可能となります。
+![](https://lh5.googleusercontent.com/xFvVOSZgxUFbpkAv_j4CPpWPJ0u4UbvI0AZ8z-Aceccd1NxuFMz9RIVeZkoev3SuOgUnZT8I73Q_eVY01A6uNXdKbTrLzbMq6UNzQYshFPya2VK3RA4ptAeVUrX_fUF66rF-dVUd)
 
-ENS により、Orbs プロジェクトは Ethereum 上の Orbs ユニバースのスマート・コントラクトのアドレスに名前を付けることができ、より安全でより便利でユーザー・フレンドリーなインタラクションを実現しています。ネーミングの決まりとわかりやすいアドレスを持つことは、開発者が Orbs プロジェクトを採用するのに役立ち、ユーザーへの負担を減らし、アドレスを入力する際のミスを避けるための重要なステップとなります。
+親愛なるコミュニティの皆さんへ
 
-Orbs は、誰もが Orbs ネットワーク上で開発し、プロトコルを監査できる、分散型のオープン・プロジェクトです。ENS の活用は、その目標に向けた重要なステップです。
+Orbsを応援してくださっている皆さんは、DeFi分野においてOrbsの可能性を引き出すために、プロジェクトが新たな目標を立て続けていることをよくご存知でしょう。
 
-Orbs の研究開発チームは、Orbs プロジェクトに関連するすべての主要なコントラクトとアドレスが ENS 上に表示されるようにしました。チームは、このサービスを Orbs プロトコルの他の部分にも活用し、プロファイル情報やテキスト・レコードなどの ENS の機能を追加することに取り組んでいます。
+Orbsのユニークなハイブリッド・アーキテクチャは [EVM互換性](https://hashhub-research.com/articles/2021-01-04-considering-the-impact-of-evm)のあるブロックチェーン（Ethereum、Binance Smart Chain、Polygon、Avalancheなど）との相互運用性を可能にする中核となる要素で、これらは資産の流動性とユーザーのエンゲージメントという点で、主要な場となっています。
 
-今回お知らせする最も素晴らしい機能の一つは、覚えやすい名前ですべての Orbs ガーディアンに安全にアクセスできることです。面倒な 16 進数のアドレスを覚える代わりに、例えば 1 つ目のガーディアンには次のような名前でアクセスできるようになりました。
+このプロセスの一環として、また、プロジェクトが経験する驚異的なエコシステムの拡大と並行して、OrbsはDeFi.Org Accelerator内でのデザイン・パートナーとして、Open DeFi Notification プロトコル（オンチェーン・イベントの通知を分散化し無料でモバイル提供するオープンな取り組み）の機能強化を開発し続けています。
 
-0.committee.orbs.eth
+さらに、Open DeFi Notification プロトコルは、Orbsチームが携わるプロジェクトの中で、Orbs独自の[レイヤー3](https://www.orbs.com/jp/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi)を実証する最初のプロジェクトとなりました。
 
-以下に、初期ガーディアンのコントラクトとアドレスをリスト表示します。
+簡単な紹介
 
-(ドメイン名には、空白、ドット、大文字がないことに注意してください)
+Open DeFi Notificationプロトコルは、オンチェーン・イベントのモバイル通知を分散化し、ユーザーに無料で提供するためのコミュニティ主導の取り組みです。
 
-**Ethereum の公式 ORBS トークン ERC20 アドレス：**
+Githubで30分程の統合をするだけで、どのDeFiプロジェクトでも、累積保留報酬、価格変動、清算リスク、ストップロス、コントラクト・アップグレード、新しいガバナンス投票などの重要な事象に関する無料のモバイル通知をユーザーに提供することができます。
 
-token.orbs.eth
+さらに、上述したように、Open DeFi Notificationsプロトコルは、基盤となるレイヤー1およびレイヤー2のブロックチェーン上のさまざまなアクティビティを読み取り、DeFiユーザーがより洗練されたダイナミックな戦略を実行できる情報を提供できるインフラのレイヤーを利用しており、レイヤー3のイノベーションの一例ともなっています。私たちは、これがDeFiインフラのパズルの重要なピースであり、業界へのインパクトは巨大になると考えています。
 
-**Ethereum の Orbs ステーキング・コントラクト :**
+ここでは、実際に清算リスクを監視するために Aave に通知を設定している様子を動画で紹介します。
 
-staking.orbs.eth
+<iframe src="https://www.youtube.com/embed/ecdgzJ7tA1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**現在のガーディアン・ノード・アドレス:**
+このプロトコルのもう一つの長所は、チェーンにとらわれず、あらゆるエコシステムと統合できるように設計されていることです。
 
-orbsguardians.guardian.orbs.eth
+アラートを見逃しません：
 
-citadel-one.guardian.orbs.eth
+値崩れが起きた時に、事前にアラートに気づかなかったという事態に遭遇したことはありませんか。お金が絡み、清算されようとしている場面では、通知を見逃すことはできません。DeFi Notificationプロトコルは、まさにそれを可能にするものです。見逃すことのできない重要なオンチェーン・イベントのアラートを幅広く受け取ることができるようになります。
 
-paradigm.guardian.orbs.eth
+ここでは、DeFi Notificationが提供できるメリットをいくつか紹介します。
 
-mollbbang.guardian.orbs.eth
+-   新しくリリースされたムーンショット購入時、ストップ・ロスに注意
 
-delight.guardian.orbs.eth
+-   値動きとTVL上昇を更新
 
-chainvalid8.guardian.orbs.eth
+-   コントラクトのアップグレードを通知
 
-orbspos.guardian.orbs.eth
+-   通知は、誰でもアクセス可能な無料のコア・ブロックチェーンサービス：サブスク課金や広告なし
 
-orbsian.guardian.orbs.eth
+-   明確なアラート
 
-wings-stiftung.guardian.orbs.eth
+-   マルチネットワーク対応 ：Ethereum、BSC、Polygonなど
 
-bitgosu.guardian.orbs.eth
+-   通知はコミュニティ主導でオープン ：公開・分散化アラート・ノード
 
-guardiansofblockchain.guardian.orbs.eth
+機能に関する詳細な説明は、[DeFi.org公式ブログ](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0)をお読みください。
 
-goodrelationguardian.guardian.orbs.eth
+最新情報情について
 
-freeman.guardian.orbs.eth
+それでは、プロジェクトの核となるアイデアとその機能の一部を簡単に説明したところで、ベータ版が近日ローンチされることを発表します！正式なベータ版ローンチ日については、改めてお知らせします。
 
-guardiansoforbs.guardian.orbs.eth
+アルファ版のDefi Notificationsは、すでに[AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632)で公開されています。ぜひチェックしてみてくださいね！
 
-angelsongoforbs.guardian.orbs.eth
+現在、開発チームはDefi Notifications プロトコルのベータ版のテストを進めており、すべてがスムーズに実行されていることを確認しています。
 
-blackbullguardiancooperative.guardian.orbs.eth
+最新情報については、Orbs公式 [Twitter](https://twitter.com/orbs_network)、[Telegram](https://t.me/OrbsNetwork)グループにご参加ください。
 
-japanguardianaltiveorbs.guardian.orbs.eth
+[DeFi.orgテレグラム・グループ](https://t.me/defiorg)
 
-zzang-orbs.guardian.orbs.eth
 
-whalecorestake.guardian.orbs.eth
+<div class='line-separator'></div>
 
-Neoply.guardian.orbs.eth
-
-**委員会参加のガーディアン（順位はトータルステーク量による）**
-
-（0〜21 が Orbs 委員会での順位となります）
-
-0.commiittee.orbs.eth
-
-1.commiittee.orbs.eth
-
-2.commiittee.orbs.eth
-
-3.commiittee.orbs.eth
-
-4.commiittee.orbs.eth
-
-5.commiittee.orbs.eth
-
-6.commiittee.orbs.eth
-
-7.commiittee.orbs.eth
-
-8.commiittee.orbs.eth
-
-9.commiittee.orbs.eth
-
-10.commiittee.orbs.eth
-
-11.commiittee.orbs.eth
-
-12.commiittee.orbs.eth
-
-13.commiittee.orbs.eth
-
-14.commiittee.orbs.eth
-
-15.commiittee.orbs.eth
-
-16.commiittee.orbs.eth
-
-17.commiittee.orbs.eth
-
-18.commiittee.orbs.eth
-
-19.commiittee.orbs.eth
-
-20.commiittee.orbs.eth
-
-21.commiittee.orbs.eth
-
-...
-
-ご質問はいつでも[Orbs Japan Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)、[オフィシャル LINE](https://line.me/R/ti/p/%40vrf9558a)へご連絡ください。[Orbs Japan twitter](https://twitter.com/JapanOrbs)、日本語[youtube チャンネル](https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg) へのご登録もお待ちしています。
+アプリとプロトコルはベータ版であり、その使用にはリスクが伴います。アプリの使用は、[利用規約](https://defi.org/defi-notifications-terms-of-use/index.html)に従うものとします。
