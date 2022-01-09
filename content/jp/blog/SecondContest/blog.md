@@ -1,133 +1,62 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/orbs-is-available-on-ens-ethereum-naming-service-2/bg.png
+image: /assets/img/blog/SecondContest-images/bg2.png
 blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
-date: 2021-05-02
-title: OrbsがENS (Ethereum Naming Service)で利用可能となりました
+date: 2021-12-27
+title: 第2回Orbsコンテスト本日スタート！
 author:
   - /jp/blog/common/authors/MayoHotta.md
 type:
 short_description:
 ---
 
-![](/assets/img/blog/orbs-is-available-on-ens-ethereum-naming-service-2/photo_2021-03-11_08-52-58-1030x438.jpg)
 
-Ethereum で最も利用されているブロックチェーンのネーミング・サービス、[ENS プロトコル](https://ens.domains/ja/)で Orbs が利用可能となったことを発表します。
+親愛なるOrbsコミュニティの皆さまへ
 
-今後は、安全なネーミングのために ENS を利用している Metamask、Uniswap、Chainlink などの他のメジャーなプロジェクトの、例えば[uniswap.eth](https://app.ens.domains/name/uniswap.eth)というアドレスと同じように、[token.orbs.eth](https://etherscan.io/enslookup-search?search=staking.orbs.eth)もご利用可能となります。
+第1回目NFTコンテストには、たくさんのご応募をいただきありがとうございました！
 
-ENS により、Orbs プロジェクトは Ethereum 上の Orbs ユニバースのスマート・コントラクトのアドレスに名前を付けることができ、より安全でより便利でユーザー・フレンドリーなインタラクションを実現しています。ネーミングの決まりとわかりやすいアドレスを持つことは、開発者が Orbs プロジェクトを採用するのに役立ち、ユーザーへの負担を減らし、アドレスを入力する際のミスを避けるための重要なステップとなります。
+コミュニティのためにデザインされた、[Orbsユニバース・ギャングNFTコレクション](https://opensea.io/collection/orbso-universe-gang)全シリーズをプレゼントする、エキサイティングなコンテスト第2回開催のお知らせです。
 
-Orbs は、誰もが Orbs ネットワーク上で開発し、プロトコルを監査できる、分散型のオープン・プロジェクトです。ENS の活用は、その目標に向けた重要なステップです。
+簡単に説明します。77枚の[Orbso NFTコレクション](https://opensea.io/collection/orbso-universe-gang)には、70枚のベーシック・デザインのNFT「Orbso Mobsters」（10枚ずつ7つのグループに分かれています）と、7枚の特別なNFT「Orbso Boss」が含まれています。
 
-Orbs の研究開発チームは、Orbs プロジェクトに関連するすべての主要なコントラクトとアドレスが ENS 上に表示されるようにしました。チームは、このサービスを Orbs プロトコルの他の部分にも活用し、プロファイル情報やテキスト・レコードなどの ENS の機能を追加することに取り組んでいます。
+### こちらをご覧ください：
 
-今回お知らせする最も素晴らしい機能の一つは、覚えやすい名前ですべての Orbs ガーディアンに安全にアクセスできることです。面倒な 16 進数のアドレスを覚える代わりに、例えば 1 つ目のガーディアンには次のような名前でアクセスできるようになりました。
+![](/assets/img/blog/SecondContest-images/image1.jpg)
 
-0.committee.orbs.eth
+[こちらのリンクから](https://opensea.io/collection/orbso-universe-gang)OpenSeaで全コレクションをご覧いただけます。
 
-以下に、初期ガーディアンのコントラクトとアドレスをリスト表示します。
+それでは、第2回Orbsコンテストのルールを説明します！
 
-(ドメイン名には、空白、ドット、大文字がないことに注意してください)
+以下の3つの中から1つを選び、[@orbs_network](https://twitter.com/orbs_network)と[＠JapanOrbs](https://twitter.com/JapanOrbs)をフォローのうえ、タグ付けしてTwitterに投稿してください。
 
-**Ethereum の公式 ORBS トークン ERC20 アドレス：**
+1️⃣ Orbsに関連するインフォグラフィックス（イラスト・チャート・グラフなど）の作成：急速に拡大するOrbsエコシステムについて、[Orbs PoSユニバース・アナリティクス](https://analytics.orbs.network/overview/stake)、[新しいレイヤー３](https://www.orbs.com/jp/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi)についてなどを作成してください。[Orbsウェブサイト](https://www.orbs.com/jp/)のリソース・セクションに多くの情報が掲載されています。
 
-token.orbs.eth
+2️⃣ Orbsについてのブログ作成：[Orbs公式ブログ](https://www.orbs.com/jp/blog/)を参考に、Orbsの簡単な紹介ブログなどを作成してください。
 
-**Ethereum の Orbs ステーキング・コントラクト :**
+3️⃣ Orbsについての動画作成：Orbsを紹介するショート動画や、Orbs Tetraステーキング・ウォレットのレビュー動画などを作成してください。プロジェクトのYouTube（[グローバル](https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured)、[日本語](https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg)）チャンネルをご参考になさってください。
 
-staking.orbs.eth
+※第2回コンテストへのご参加は、[こちらのフォーム](https://forms.gle/arvEVSydzHBowhAX7)よりご応募ください。当選後、スムーズに賞品のNFTをお受け取りいただけるよう、Ethereumウォレット・アドレスの入力をお願いします。
 
-**現在のガーディアン・ノード・アドレス:**
+キャンペーン開始：2021年12月27日（月）日本時間　19:00 
 
-orbsguardians.guardian.orbs.eth
+キャンペーン終了：2022年  1月  6日（木）日本時間　19:00
 
-citadel-one.guardian.orbs.eth
+賞品：Orbso Mobsters コレクションよりNFTをおひとつ、1等受賞者には、7枚組のユニーク Orbso Boss コレクションより、NFTをおひとつプレゼントします！
 
-paradigm.guardian.orbs.eth
+今週の賞品はこちら！
 
-mollbbang.guardian.orbs.eth
+### Orbsoユニバース・ギャング7枚+Orbso Bossコレクション1枚です！
 
-delight.guardian.orbs.eth
+![](/assets/img/blog/SecondContest-images/image2.jpg)
 
-chainvalid8.guardian.orbs.eth
+応募期間は本日より10日間です。参加ルールをお読みになり、当選のチャンスをゲットしてください！
 
-orbspos.guardian.orbs.eth
+さて、優勝は誰の手に！？インフォグラフィック、ブログ、動画などの応募作品より、Orbsチームが選考します。最もオリジナリティあふれる制作者には、Orbso Mobsterコレクションより1枚ずつ、そして最優秀賞受賞者には、7枚のユニークOrbso NFTコレクション、Orbs Bossより1枚が贈られます！
 
-orbsian.guardian.orbs.eth
+🏁OrbsのスペシャルNFTをゲットしてくださいね。ご応募お待ちしています！
 
-wings-stiftung.guardian.orbs.eth
+<div class='line-separator'></div>
 
-bitgosu.guardian.orbs.eth
+ご参加の際は、こちらの[Orbs NFTコンテスト#2公式ルール](https://drive.google.com/file/d/1eyuQwXTme1X3B7IIiaQHxlpH1XPP_zkX/view?usp=sharing)に従うものとします。 
 
-guardiansofblockchain.guardian.orbs.eth
-
-goodrelationguardian.guardian.orbs.eth
-
-freeman.guardian.orbs.eth
-
-guardiansoforbs.guardian.orbs.eth
-
-angelsongoforbs.guardian.orbs.eth
-
-blackbullguardiancooperative.guardian.orbs.eth
-
-japanguardianaltiveorbs.guardian.orbs.eth
-
-zzang-orbs.guardian.orbs.eth
-
-whalecorestake.guardian.orbs.eth
-
-Neoply.guardian.orbs.eth
-
-**委員会参加のガーディアン（順位はトータルステーク量による）**
-
-（0〜21 が Orbs 委員会での順位となります）
-
-0.commiittee.orbs.eth
-
-1.commiittee.orbs.eth
-
-2.commiittee.orbs.eth
-
-3.commiittee.orbs.eth
-
-4.commiittee.orbs.eth
-
-5.commiittee.orbs.eth
-
-6.commiittee.orbs.eth
-
-7.commiittee.orbs.eth
-
-8.commiittee.orbs.eth
-
-9.commiittee.orbs.eth
-
-10.commiittee.orbs.eth
-
-11.commiittee.orbs.eth
-
-12.commiittee.orbs.eth
-
-13.commiittee.orbs.eth
-
-14.commiittee.orbs.eth
-
-15.commiittee.orbs.eth
-
-16.commiittee.orbs.eth
-
-17.commiittee.orbs.eth
-
-18.commiittee.orbs.eth
-
-19.commiittee.orbs.eth
-
-20.commiittee.orbs.eth
-
-21.commiittee.orbs.eth
-
-...
-
-ご質問はいつでも[Orbs Japan Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)、[オフィシャル LINE](https://line.me/R/ti/p/%40vrf9558a)へご連絡ください。[Orbs Japan twitter](https://twitter.com/JapanOrbs)、日本語[youtube チャンネル](https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg) へのご登録もお待ちしています。
+本コンテストはOrbsコミュニティのメンバーが、プロジェクトに関わる一環でコンテストに参加し、一緒に楽しむことを目的としております。経済的または金銭的価値を期待するものではないことをご理解いただいた上でご応募ください。
