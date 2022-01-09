@@ -2,12 +2,12 @@
 layout: partials/shared/mappers/blog-list-mapper
 list:
   - NotificationsUpdate/blog.md
+  - SecondContest/blog.md
   - Horizon/blog.md
+  - Harmony/blog.md
   - Orbs日本語コミュニティ貢献者支援プログラム/blog.md
   - DeflationaryAsset/blog.md
   - D-Kuru/blog.md
-  - SecondContest/blog.md
-  - Harmony/blog.md
   - Serum/blog.md
   - Novermber-update/blog.md
   - Could-Decentralization-Transform-the-Art-Market/blog.md
