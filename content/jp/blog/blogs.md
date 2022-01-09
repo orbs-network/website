@@ -5,6 +5,7 @@ list:
   - Orbs日本語コミュニティ貢献者支援プログラム/blog.md
   - DeflationaryAsset/blog.md
   - D-Kuru/blog.md
+  - SecondContest/blog.md
   - Harmony/blog.md
   - Serum/blog.md
   - Novermber-update/blog.md
