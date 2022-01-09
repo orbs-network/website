@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - US-Afghanistan-Terror/blog.md
   - Horizon/blog.md
   - Orbs日本語コミュニティ貢献者支援プログラム/blog.md
   - DeflationaryAsset/blog.md
