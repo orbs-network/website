@@ -1,133 +1,62 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/orbs-is-available-on-ens-ethereum-naming-service-2/bg.png
+image: /assets/img/blog/Harmony-images/bg.jpg
 blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
-date: 2021-05-02
-title: OrbsがENS (Ethereum Naming Service)で利用可能となりました
+date: 2021-12-15
+title: Orbsエコシステムの成長：Harmony
 author:
-  - /jp/blog/common/authors/MayoHotta.md
+  - /jp/blog/common/authors/RanHammer.md
 type:
 short_description:
 ---
 
-![](/assets/img/blog/orbs-is-available-on-ens-ethereum-naming-service-2/photo_2021-03-11_08-52-58-1030x438.jpg)
 
-Ethereum で最も利用されているブロックチェーンのネーミング・サービス、[ENS プロトコル](https://ens.domains/ja/)で Orbs が利用可能となったことを発表します。
+先日私たちは、Orbsネットワークの更なる成長戦略として、[L3構想を発表しました](https://www.orbs.com/jp/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/)。L3は、L1 + L2層と連動し、EVMベースのスマート・コントラクトの機能を充実させます。このレイヤーは、現在存在しないDeFi分野における多くのエキサイティングで革新的なアプリケーションへの扉を開くものです。このことから、OrbsコアチームはDeFi分野へとフォーカスを移しています。
 
-今後は、安全なネーミングのために ENS を利用している Metamask、Uniswap、Chainlink などの他のメジャーなプロジェクトの、例えば[uniswap.eth](https://app.ens.domains/name/uniswap.eth)というアドレスと同じように、[token.orbs.eth](https://etherscan.io/enslookup-search?search=staking.orbs.eth)もご利用可能となります。
+このビジョンを実現するために、OrbsプロジェクトはDeFi分野の境界を超えるマルチチェーン・アセットとしての地位を強化し続ける必要があります。それゆえ、Orbsプロジェクトはすでに5つの主要なレイヤー1（L1）チェーンで利用可能です。Ethereum、BSC、Polygon、Solana、そしてAvalancheも追加されました。これにより、17以上の主要なDeFiプラットフォーム（UniSwap, SushiSwap, PancakeSwap, Kyber Network, 1inch, Alpaca Finance, Beefy Finance, QuickSwap, DinoSwap, Raydium, Trader Joe, Pangolin, さらに今後の発表にもご期待ください）とのOrbsエコシステムの統合を促進してきました。
 
-ENS により、Orbs プロジェクトは Ethereum 上の Orbs ユニバースのスマート・コントラクトのアドレスに名前を付けることができ、より安全でより便利でユーザー・フレンドリーなインタラクションを実現しています。ネーミングの決まりとわかりやすいアドレスを持つことは、開発者が Orbs プロジェクトを採用するのに役立ち、ユーザーへの負担を減らし、アドレスを入力する際のミスを避けるための重要なステップとなります。
+それでは次の発表です。
 
-Orbs は、誰もが Orbs ネットワーク上で開発し、プロトコルを監査できる、分散型のオープン・プロジェクトです。ENS の活用は、その目標に向けた重要なステップです。
+Harmonyの登場
 
-Orbs の研究開発チームは、Orbs プロジェクトに関連するすべての主要なコントラクトとアドレスが ENS 上に表示されるようにしました。チームは、このサービスを Orbs プロトコルの他の部分にも活用し、プロファイル情報やテキスト・レコードなどの ENS の機能を追加することに取り組んでいます。
+Harmonyは、Ethereumスタックにおける主要なレイヤー2チェーンの1つで、Ethereum上のスケーリング・ソリューションの拡張と改善に注力しています。このプロジェクトは、Ethereumの相互運用可能なレイヤー2として位置づけられ、決済の高速化、出金待ち時間の短縮、ガス効率の良い相互運用性など、いくつかの主要ブロックチェーン・イノベーションをまとめ上げながら、ユニークな機能を使うこともできます。
 
-今回お知らせする最も素晴らしい機能の一つは、覚えやすい名前ですべての Orbs ガーディアンに安全にアクセスできることです。面倒な 16 進数のアドレスを覚える代わりに、例えば 1 つ目のガーディアンには次のような名前でアクセスできるようになりました。
+Harmonyは、Binanceの従来型取引所とそのDEXの両方で開始された最初のプロジェクトです。また、BinanceのIEO Launchpadで抽選システムを利用して資金調達を行った2番目のプロジェクト（1番目はMatic Network）でもあります。
 
-0.committee.orbs.eth
+レイヤー2のプロジェクト比較図をご覧ください。
 
-以下に、初期ガーディアンのコントラクトとアドレスをリスト表示します。
+![](/assets/img/blog/Harmony-images/image1.png)
 
-(ドメイン名には、空白、ドット、大文字がないことに注意してください)
+なぜHarmonyか？
 
-**Ethereum の公式 ORBS トークン ERC20 アドレス：**
+それでは、Harmonyを詳しくみていきましょう。
 
-token.orbs.eth
+![](/assets/img/blog/Harmony-images/image2.png)
 
-**Ethereum の Orbs ステーキング・コントラクト :**
+Harmonyプロトコルは、Ethereum、Binance、Terra、Polkadot、Bitcoinなどのチェーン間でアプリケーションを拡張するために、すべてのネットワークへのブリッジを構築し、ブロックチェーンの普及を促進しています。
 
-staking.orbs.eth
+このプロジェクトは、ビルダーやコミュニティとの連携を呼びかけており、最近で[は$100万ドル・ハッカソン＆DAO](https://open.harmony.one/1m-hackathon-dao-on-building-bridges)や、1万人のビルダーを促進させるための[$3億エコシステム・ファンド](https://twitter.com/harmonyprotocol/status/1436031205959405570)を発表しています。
 
-**現在のガーディアン・ノード・アドレス:**
+Harmonyに関する統計
 
-orbsguardians.guardian.orbs.eth
+Harmonyチェーンの現在の[預かり資産](https://defillama.com/chain/Harmony) (TVL)は5億2千万ドル以上で、明らかに上昇傾向にあります。Harmonyのネイティブ・プロトコルである[DeFi Kingdoms](https://defikingdoms.com/)は、TVLが2億8000万ドルを超え、Harmonyで最もTVLが高いプロジェクトです。2位はHarmonyネットワークへの、プロトコル統合も選択したSushiSwapです。
 
-citadel-one.guardian.orbs.eth
+![](/assets/img/blog/Harmony-images/umage3.png)
 
-paradigm.guardian.orbs.eth
+Harmonyの主なバリュー・プロポジション：シャーディング
 
-mollbbang.guardian.orbs.eth
+Harmonyは、ブロックチェーンのプロトコルとネットワーク・レイヤーの両方に革新的な技術を導入し、深いシャーディング（データベースの負荷の分散）を実現しています。
 
-delight.guardian.orbs.eth
+-   BLS (Boneh-Lynn-Shacham) マルチ・シグネチャを用いた高スケーラブルなFBFT （高速ビザンチン・フォールト・トレラント） コンセンサス
 
-chainvalid8.guardian.orbs.eth
+-   VDF(Verifiable Delay Function)を用いた安全な分散型ランダムネス生成プロトコル
 
-orbspos.guardian.orbs.eth
+-   強力なネットワーク・セキュリティに適応したProof-of-Stakeを用いたシャーディング
 
-orbsian.guardian.orbs.eth
+-   Kademliaルーティングとイレージャーコーディングによりネットワークの負荷を軽減
 
-wings-stiftung.guardian.orbs.eth
+全体として、Harmonyは多くの優れたアイデアと技術的ソリューションを持つ有望なプロジェクトであり、現在のマーケット・リーダー達との差を急速に縮めていると考えられています。最近、SolanaやAvalancheなどのL1プロジェクトが台頭してきましたが、Ethereumは依然としてDeFi分野におけるマーケット・リーダーとしての地位を維持しており、Ethereumスタック上に構築する開発者の活動が最も盛んです。したがって、私たちはHarmonyのようなEthereumベースのプロジェクトが大きな可能性を持つと考えています。そのため、Orbs はHarmony の可能性を探りながら、引き続き連携を強化していこうと思います。
 
-bitgosu.guardian.orbs.eth
+最新情報は[Orbs公式ツイッター](https://twitter.com/orbs_network)と[テレグラム・グループ](https://t.me/OrbsNetwork)でお知らせしています。
 
-guardiansofblockchain.guardian.orbs.eth
-
-goodrelationguardian.guardian.orbs.eth
-
-freeman.guardian.orbs.eth
-
-guardiansoforbs.guardian.orbs.eth
-
-angelsongoforbs.guardian.orbs.eth
-
-blackbullguardiancooperative.guardian.orbs.eth
-
-japanguardianaltiveorbs.guardian.orbs.eth
-
-zzang-orbs.guardian.orbs.eth
-
-whalecorestake.guardian.orbs.eth
-
-Neoply.guardian.orbs.eth
-
-**委員会参加のガーディアン（順位はトータルステーク量による）**
-
-（0〜21 が Orbs 委員会での順位となります）
-
-0.commiittee.orbs.eth
-
-1.commiittee.orbs.eth
-
-2.commiittee.orbs.eth
-
-3.commiittee.orbs.eth
-
-4.commiittee.orbs.eth
-
-5.commiittee.orbs.eth
-
-6.commiittee.orbs.eth
-
-7.commiittee.orbs.eth
-
-8.commiittee.orbs.eth
-
-9.commiittee.orbs.eth
-
-10.commiittee.orbs.eth
-
-11.commiittee.orbs.eth
-
-12.commiittee.orbs.eth
-
-13.commiittee.orbs.eth
-
-14.commiittee.orbs.eth
-
-15.commiittee.orbs.eth
-
-16.commiittee.orbs.eth
-
-17.commiittee.orbs.eth
-
-18.commiittee.orbs.eth
-
-19.commiittee.orbs.eth
-
-20.commiittee.orbs.eth
-
-21.commiittee.orbs.eth
-
-...
-
-ご質問はいつでも[Orbs Japan Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)、[オフィシャル LINE](https://line.me/R/ti/p/%40vrf9558a)へご連絡ください。[Orbs Japan twitter](https://twitter.com/JapanOrbs)、日本語[youtube チャンネル](https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg) へのご登録もお待ちしています。
+今後のニュースにもご期待ください！
