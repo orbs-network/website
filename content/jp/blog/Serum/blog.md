@@ -5,19 +5,17 @@ blogUrl: Serum
 date: 2021-12-03
 title: OrbsがSerumで利用可能になりました！
 author:
-  - /jp/blog/common/authors/OlgaChef.md
+  - /jp/blog/common/authors/MayoHotta.md
 type:
-short_description: 
+short_description:
 ---
-
-
 
 
 DeFiの人気が急上昇していることを踏まえ（コミュニティの皆さんは、私たちのプロジェクトが[DeFi分野でOrbsの可能性を引き出そうと](https://www.orbs.com/jp/Introducing-Open-DeFi-Notification-Protocol/)注力してきたことをご存知ですね）、Orbsエコシステムの最新の進捗は、ORBSトークンを、現在クリプトバースで最も生産性の高いDeFiエコシステムの1つである[Solanaの主要なDeFiエコシステムに統合](https://www.orbs.com/jp/Orbs-is-Live-on-the-Solana-Wormhole-Bridge/)することです。
 
 ORBSトークンをSolanaの[Wormholeクロスチェーン・ブリッジ](https://wormholebridge.com/#/)に接続し、[Raydium](https://raydium.io/)で利用可能となった後に、OrbsがSerumでも利用できるようになり、エコシステムがさらに拡大したことを発表します。
 
-高速でパワフルなエコシステム
+### 高速でパワフルなエコシステム
 
 [Serum](https://www.projectserum.com/roadmap)はSolana上に構築されたプロトコルとエコシステムで、DeFi領域において、取引のスピードと安価な取引手数料を実現した魅力的なプロジェクトです。Serumエコシステムのパートナーは、Serumのチェーン上の中央指値注文帳を作成し、流動性の共有と市場に即した機能の追加をすることができます。
 
@@ -49,8 +47,8 @@ Raydium、Wormhole、Serum DEXおよび上記の他のプラットフォーム�
 
 上記のプラットフォーム、アプリケーション、および/またはサービスの使用は、お客様自身の責任で行われ、すべての取引の決定はお客様自身が行うものとします。お客様は、ご自身で調査を行い、第三者のサービスおよびプラットフォーム、ならびに当該プラットフォームおよびサービスに適用される情報の条件または方針を独自に確認する必要があります。
 
-<div class='line-separator'></div>
 
+<div class='line-separator'></div>
 
 [Orbs 公式サイト](https://www.orbs.com/jp/)
 

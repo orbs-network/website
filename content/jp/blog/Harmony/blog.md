@@ -1,191 +1,62 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年8月度orbsアップデート/bg.png
-blogUrl: 2020年8月度orbsアップデート
-date: 2020-08-18
-title: 2020年8月度Orbsアップデート
+image: /assets/img/blog/Harmony-images/bg.jpg
+blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
+date: 2021-12-15
+title: Orbsエコシステムの成長：Harmony
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /jp/blog/common/authors/RanHammer.md
 type:
-short_description: 今月のアップデート：**Orbs PoSユニバース：ガーディアンの時代 ⁂ 新しいバリデータ ⁂ ORBSステーキング ⁂ 技術アップデート ⁂ オンライン・ミートアップ ⁂ メディアハイライト ⁂ Tal Kolによる質疑応答 ⁂
+short_description:
 ---
 
-**今月のアップデート：**Orbs PoS ユニバース：ガーディアンの時代 ⁂ 新しいバリデータ ⁂ ORBS ステーキング ⁂ 技術アップデート ⁂ オンライン・ミートアップ ⁂ メディアハイライト ⁂ Tal Kol による質疑応答 ⁂
 
-...
+先日私たちは、Orbsネットワークの更なる成長戦略として、[L3構想を発表しました](https://www.orbs.com/jp/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/)。L3は、L1 + L2層と連動し、EVMベースのスマート・コントラクトの機能を充実させます。このレイヤーは、現在存在しないDeFi分野における多くのエキサイティングで革新的なアプリケーションへの扉を開くものです。このことから、OrbsコアチームはDeFi分野へとフォーカスを移しています。
 
-## **Orbs PoS V2：ガーディアンの時代がやってきた！！**
+このビジョンを実現するために、OrbsプロジェクトはDeFi分野の境界を超えるマルチチェーン・アセットとしての地位を強化し続ける必要があります。それゆえ、Orbsプロジェクトはすでに5つの主要なレイヤー1（L1）チェーンで利用可能です。Ethereum、BSC、Polygon、Solana、そしてAvalancheも追加されました。これにより、17以上の主要なDeFiプラットフォーム（UniSwap, SushiSwap, PancakeSwap, Kyber Network, 1inch, Alpaca Finance, Beefy Finance, QuickSwap, DinoSwap, Raydium, Trader Joe, Pangolin, さらに今後の発表にもご期待ください）とのOrbsエコシステムの統合を促進してきました。
 
-![](/assets/img/blog/2020年8月度orbsアップデート/Guardian-Shield.jpeg)
+それでは次の発表です。
 
-みなさん、こんにちは!
+Harmonyの登場
 
-今月は、新しくリリースした Orbs の Proof-of-Stake メカニズム：**ガーディアンの時代**について、アクション満載のアップデートです！
+Harmonyは、Ethereumスタックにおける主要なレイヤー2チェーンの1つで、Ethereum上のスケーリング・ソリューションの拡張と改善に注力しています。このプロジェクトは、Ethereumの相互運用可能なレイヤー2として位置づけられ、決済の高速化、出金待ち時間の短縮、ガス効率の良い相互運用性など、いくつかの主要ブロックチェーン・イノベーションをまとめ上げながら、ユニークな機能を使うこともできます。
 
-この Orbs PoS V2 は素晴らしい名前がついているだけではなく（Orbs チームの Ran Hammer の功績）、チームがこれまでやってきた中で最も野心的な取り組みの 1 つでもあります。
+Harmonyは、Binanceの従来型取引所とそのDEXの両方で開始された最初のプロジェクトです。また、BinanceのIEO Launchpadで抽選システムを利用して資金調達を行った2番目のプロジェクト（1番目はMatic Network）でもあります。
 
-今月のアップデートでは、この新しいメカニズムについて全て解明できるように作りました。
+レイヤー2のプロジェクト比較図をご覧ください。
 
-さあいきますよ…
+![](/assets/img/blog/Harmony-images/image1.png)
 
-...
+なぜHarmonyか？
 
-## **Orbs PoS ユニバース：ガーディアンの時代**
+それでは、Harmonyを詳しくみていきましょう。
 
-![](/assets/img/blog/2020年8月度orbsアップデート/AoG-1030x576.png)
+![](/assets/img/blog/Harmony-images/image2.png)
 
-Orbs PoS V2：ガーディアンの時代を正式に発表できることを非常に嬉しく思います！ 🛡
+Harmonyプロトコルは、Ethereum、Binance、Terra、Polkadot、Bitcoinなどのチェーン間でアプリケーションを拡張するために、すべてのネットワークへのブリッジを構築し、ブロックチェーンの普及を促進しています。
 
-Orbs Network は 2019 年 3 月に立ち上げられました。メインネットの立ち上げが成功したことで、Orbs エコシステムは様々な角度から成長を遂げました。
+このプロジェクトは、ビルダーやコミュニティとの連携を呼びかけており、最近で[は$100万ドル・ハッカソン＆DAO](https://open.harmony.one/1m-hackathon-dao-on-building-bridges)や、1万人のビルダーを促進させるための[$3億エコシステム・ファンド](https://twitter.com/harmonyprotocol/status/1436031205959405570)を発表しています。
 
-メインネットの初年度は、安全で安定した包括的なネットワークの構築と維持に重点を置いて技術開発を進めてきました。この目標が達成され、ネットワークの成長と拡大に伴い、Orbs チームは、Orbs ユニバースの新しいアーキテクチャである Orbs V2 を導入する適切な時期がきたと感じています。
+Harmonyに関する統計
 
-Orbs V2 では、使い勝手とパフォーマンスを改善しつつ、Orbs ユニバースのガーディアンにさらなる権限を移譲します。 Orbs V2 により、Orbs ユニバースのガーディアンは、安全でスケーラブルなネットワークの構築と維持に重要な役割を果たすことになります。これによりネットワーク利用者に適切なサービスが提供でき、ブロックチェーン技術を採用しようと考えるクライアントにとって、Orbs が最初の選択肢になり得ると考えます。
+Harmonyチェーンの現在の[預かり資産](https://defillama.com/chain/Harmony) (TVL)は5億2千万ドル以上で、明らかに上昇傾向にあります。Harmonyのネイティブ・プロトコルである[DeFi Kingdoms](https://defikingdoms.com/)は、TVLが2億8000万ドルを超え、Harmonyで最もTVLが高いプロジェクトです。2位はHarmonyネットワークへの、プロトコル統合も選択したSushiSwapです。
 
-過去数か月にわたって、Orbs 開発チームは、著名なコミュニティメンバーおよびステークホルダーと共に、Orbs PoS ユニバースの次のバージョンの構築に取り組んできました。以下のドキュメントは、この取り組みの全てをまとめたもので、V2 プロトコルの開発の羅針盤です。
+![](/assets/img/blog/Harmony-images/umage3.png)
 
-[ORBS POS V2 機能説明](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+Harmonyの主なバリュー・プロポジション：シャーディング
 
-Orbs ネットワークはコミュニティベースのプロジェクトであり、Orbs 開発チーム、ガーディアン、ユーザー、トークン保有者を含む全ての参加者の総力がなければ成功することはできません。この資料を注意深くご確認いただき、質問やフィードバックがあればいつでもコミュニティチャネルからご連絡ください。
+Harmonyは、ブロックチェーンのプロトコルとネットワーク・レイヤーの両方に革新的な技術を導入し、深いシャーディング（データベースの負荷の分散）を実現しています。
 
-### **Tal Kol によるステータスアップデート**
+-   BLS (Boneh-Lynn-Shacham) マルチ・シグネチャを用いた高スケーラブルなFBFT （高速ビザンチン・フォールト・トレラント） コンセンサス
 
-Orbs チームの Bar が Tal に最新の Orbs プロジェクトのアップデートをインタビューしました。Orbs PoS V2：ガーディアンの時代についても話しているので、ぜひご覧ください。（日本語翻訳が選択できるようになっています。）
+-   VDF(Verifiable Delay Function)を用いた安全な分散型ランダムネス生成プロトコル
 
-[![](/assets/img/blog/2020年8月度orbsアップデート/Screen-Shot-2020-08-10-at-13.11.39.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
+-   強力なネットワーク・セキュリティに適応したProof-of-Stakeを用いたシャーディング
 
-...
+-   Kademliaルーティングとイレージャーコーディングによりネットワークの負荷を軽減
 
-## ネットワークの状態
+全体として、Harmonyは多くの優れたアイデアと技術的ソリューションを持つ有望なプロジェクトであり、現在のマーケット・リーダー達との差を急速に縮めていると考えられています。最近、SolanaやAvalancheなどのL1プロジェクトが台頭してきましたが、Ethereumは依然としてDeFi分野におけるマーケット・リーダーとしての地位を維持しており、Ethereumスタック上に構築する開発者の活動が最も盛んです。したがって、私たちはHarmonyのようなEthereumベースのプロジェクトが大きな可能性を持つと考えています。そのため、Orbs はHarmony の可能性を探りながら、引き続き連携を強化していこうと思います。
 
-新たなステーキング・マイルストーンが達成され、現在、**10 億以上の ORBS トークン**がステーキングされています。ORBS トークンがロックされています。 新記録！ みなさんありがとうございます。引き続き頑張りましょう！
+最新情報は[Orbs公式ツイッター](https://twitter.com/orbs_network)と[テレグラム・グループ](https://t.me/OrbsNetwork)でお知らせしています。
 
-### ![](/assets/img/blog/2020年8月度orbsアップデート/1b-staked-1030x634.jpg)
-
-### 報酬をゲットするために必ずロックしてくださいね！ **今後は新システムからロックされたトークンのみが報酬の対象となります。**
-
-![](/assets/img/blog/2020年8月度orbsアップデート/lock-your-tokens-1030x611.jpg)
-
-新しい Tetra ウォレットからステーキングしてください：
-
-[https://staking.orbs.network/](https://staking.orbs.network/)
-
-無事ステーキングされているかどうか、ここから確認できます：
-
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
-
-ステーキング・メカニズムについてはこちらを参照：
-
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
-
-### ネットワークは引き続き成長を続けます！ー新しいバリデータシステムの登場
-
-新しいバリデータノードが登場し、**NEOPLY**さんが運用しています。よろしく！
-
-...
-
-## ORBS ステーキング
-
-新しいステーキングウォレット：**CITADEL**は今月初めに ORBS トークンのステーキングをサポートすると発表しました。 ORBS は、CITADEL ウォレットで現在ステーキングできる 4 つのトークンの 1 つです。 CITADEL チームは Orbs ネットワークをよく調査した上で、自社の製品に統合する最初のトークンの 1 つとして選択しました。
-
-Orbs エコシステムの拡大に貴重な時間と労力を費やしている人が増えているというのは非常にエキサイティングなことです。
-
-![](/assets/img/blog/2020年8月度orbsアップデート/Screen-Shot-2020-08-11-at-9.38.28-1030x571.png)
-
-Citadel の詳細：
-
-リンク： [citadel.one](https://citadel.one/)
-
-テレグラム：[https://t.me/citadelofficial](https://t.me/citadelofficial)
-
-...
-
-## 技術アップデート
-
-#### このセクションは[@ronnno](https://github.com/ronnno)によって寄稿されました。
-
-#### 先月、Orbs V2 ベータ・ネットワークが無事ローンチされました。ベータ版は、Orbs V2 のロールアウトの最初の一歩です。これは、新しい PoS モデル、新しいノード展開ツール、ノード・サービス・アーキテクチャおよび自動報酬配布をテストすることを目的としています。さらに、ベータフェーズでは、イーサリアム契約のアップグレードを実験したり、V2 ガーディアンの登録やサブスクリプション・インターフェイスをテストしていきます。
-
-#### ベータネットワークには現在 6 人のガーディアンと新しいガーディアンが参加するまで Orbs Ltd として仮保有している 4 つテストノードがあります！また、追加のガーディアンが近日中に委員会に参加する予定です。
-
-#### V2 の中心は、新しい PoS モデルを実装するイーサリアム・スマートコントラクトの採用です。このコントラクトは Orbs ステーキング・コントラクトに接続され、PoS アーキテクチャのさまざまな側面を実装します。これらの契約によって実装される PoS 機能には、委員会の選挙、報酬の割り当てと配布、ガーディアンの登録、仮想チェーンの設計、サブスクリプションの支払いが含まれます。 PoS コントラクトはベータ段階の一部として展開される予定で、現在最終確認をしているところです。コントラクトはアップグレードをサポートするように設計されており、ベータ段階で更新されます。
-
-#### V2 では、既存のノードサービスが更新され、いくつかの新しいノードサービスが導入されています。ノードサービスには、イーサリアム管理サービス、ノードステートマシーンとイーサリアム・ライター、および自動化された報酬配布サービスが含まれるようになりました。これらのサービスはベータ段階でリリースされる予定で、現在は開発テスト中です。
-
-#### 新しい改良された Boyar ノードマネージャーは、ノードサービスの稼働をサポートし、そのロジックの一部はアップグレード可能なサービスに移行されました。V1 ネブラに基づく拡張ノードデプロイメント CLI（Polygon）は、V2 ノードをサポートするために開発されました。
-
-#### モニタリングエンドポイントがすべてのノードサービスに追加され、メンテナンスとトラブルシューティングが容易になりました。 新しいログ配信メカニズムにより、すべてのノードサービスや仮想チェーン実装のログへアクセスができるようになりました。
-
-#### チームは、V2 ガーディアンをサポートするため、Tetra ステーキング・ウォレットなど、さまざまな UI / UX ツールの開発と更新を続けています。 さらに、新しい報酬分析ツールの作成や、新しいガーディアンのオンボーディング、V2 メインネットへの切替準備を順次進めています。
-
-...
-
-## 韓国でのオンラインミートアップ
-
-韓国の私たちのチームは、定期的なオンライン会議を始めました。 7 月 30 日に Orbs コリアユーチューブで最初のミートアップが開催されました。ORBS のメンバーに毎月インタビューするコーナーもあります。初回は Ran Melanad がインタビューを受けました。 次は誰でしょうね！
-
-### [ビデオはこちら 📢](https://www.youtube.com/watch?v=vexYtOEdsuo)
-
-韓国語です。（一部 Ran Melamed のインタビューが英語)
-
-...
-
-# メディアハイライト
-
-### 世界経済フォーラム
-
-Orbs の共同創業者 Netta Korin がこちらの[世界経済フォーラムの記事](https://www.weforum.org/agenda/2020/07/what-covid-19-taught-10-startups-about-pivoting-problem-solving-and-tackling-the-unknown/)で Orbs の事業機会について話しました。
-
-![](/assets/img/blog/2020年8月度orbsアップデート/photo_2020-08-11_09-46-02.jpg)
-
-### Twitter フォロワーが新記録達成！
-
-Orbs ネットワークの twitter アカウント([@orbs_network](https://twitter.com/orbs_network))のフォロワーが 2 万人を超えました！素晴らしい達成です。引き続き質が高いコンテンツをフォロワーに提供していきます。
-
-[![](/assets/img/blog/2020年8月度orbsアップデート/Screen-Shot-2020-08-11-at-9.47.22.png)](https://twitter.com/orbs_network/status/1284734020589441024)
-
-...
-
-# まだ見ていない人ために
-
-[![](/assets/img/blog/2020年8月度orbsアップデート/Screen-Shot-2020-08-11-at-9.49.46-1030x513.png)](https://www.orbs.com/guardians-of-blockchain-qa-with-orbs-co-founder-tal-kol/)
-
-見逃した方のために、次のような質問に対する Tal の質疑応答セッションがあります。次の Orbs V2 や、IBM や Facebook の Libra を Orbs と比較した話など…
-
-このブログ投稿に貢献してくれた Guardians of Blockchain に感謝します。
-
-\------------------
-
-別のテーマですが、この Uber の非常に興味深い記事を読んでください。
-
-[![](/assets/img/blog/2020年8月度orbsアップデート/Screen-Shot-2020-08-11-at-9.51.33-1030x542.png)](https://www.theguardian.com/technology/2020/jul/20/uber-drivers-to-launch-legal-bid-to-uncover-apps-algorithm)
-
-次に、Tal がこの記事とまさに同じ説明を、Orbs のバリュープロポジションの例で話しているのをお聞きください（9:25 開始、日本語字幕選択可能）：
-
-[![](/assets/img/blog/2020年8月度orbsアップデート/Screen-Shot-2020-08-11-at-9.53.12.png)](https://www.youtube.com/watch?v=hbd0S_jk0SQ)
-
-...
-
-## Orbs チームからご挨拶
-
-Orbs チームは COVID-19🦠 にも負けず頑張っています！
-
-在宅勤務での効率 UP は実現できましたが、オフィスに戻れる日が早く来ることを願っています。
-
-コミュニティのみなさんも、健康で、幸せで、安全にお過ごしください 🙏
-
-![](/assets/img/blog/2020年8月度orbsアップデート/photo_2020-08-11_09-55-35-724x1030.jpg)
-
-...
-
-Wow wow wow!
-
-今月のアップデートは長かった〜
-
-来月は、Orbs PoS V2 の主な機能であるガーディアンの時代について説明し、コミュニティにもう少し詳細な情報を提供します。
-
-必ず公式チャンネルをフォローしてくださいね！
-
-安全に元気にお過ごしください。
-
-**Eran**
+今後のニュースにもご期待ください！
