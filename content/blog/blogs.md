@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - polygon-staking/blog.md
   - DragonSyrup/blog.md
   - DecemberUpdate/blog.md
   - NotificationsUpdate/blog.md
