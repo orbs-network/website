@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/polygon-staking/bg.jpg
+image: /assets/img/blog/polygon-staking/bg2.jpg
 blogUrl: polygon-staking
 date: 2022-01-11
 title: "Orbs Protocol Upgrade Proposal - Multi-Chain Staking on Ethereum and Polygon"
