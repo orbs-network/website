@@ -9,7 +9,6 @@ items:
   - benchmark.md
   - orbsdefi.md
   - multichain.md
-  - benchmark.md
   - pancake.md
   - sushiswap.md
   - kyber.md
