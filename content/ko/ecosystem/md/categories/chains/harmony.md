@@ -1,5 +1,5 @@
 ---
 layout: partials/ecosystem/category-item
-image: /assets/img/ecosystem/chains/solana.svg
-url: https://solana.com/
+image: /assets/img/ecosystem/chains/harmony.svg
+url: https://www.harmony.one/
 ---
