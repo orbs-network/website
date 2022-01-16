@@ -76,7 +76,4 @@ export const images = {
   ecosystem: {
     logo: `${prefix}/ecosystem/logo.svg`,
   },
-  pos: {
-    banner: `${prefix}/pos-universe/banner.png`,
-  }
 };
