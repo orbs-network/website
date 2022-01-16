@@ -7,5 +7,4 @@ button: SUBSCRIBE
 subscribe_link: http://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ?sub_confirmation=1
 ---
 
-Orbs is the hybrid blockchain offering performance as fast as centralized
-solutions without compromising security. 
+Orbs is the hybrid blockchain offering performance as fast as centralized solutions without compromising security.

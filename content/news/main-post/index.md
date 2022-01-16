@@ -3,8 +3,7 @@ layout: partials/news/header-post
 image: /assets/img/news/placeholder.png
 ---
 
-# Discover ORBS </br> news and follow </br> developments
 
+# Stay Tuned to Orbs </br>  Latest News & Updates
 
-
-##### Follow the development of world news which is very </br> hot so that we don't fall behind and know what is </br> happening in this world.
+ ##### Orbs is a public blockchain infrastructure designed as a separate execution layer that operates in conjunction with EVM-based L1s and L2s and executed by a public network of permissionless validators using POS powered by the ORBS token.
