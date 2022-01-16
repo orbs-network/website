@@ -4,8 +4,8 @@ image: /assets/img/news/posts/Orbs-The-Leading-Public-Blockchain/bg.png
 url: https://cryptobriefing.com/orbs-leading-public-blockchain-infrastructure-introduces-ground-breaking-layer-3-architecture/
 date: 11, November
 show: true
-author: 
-  - ../authors/guest.md
+logo: /assets/img/news/posts/Popular-Dapps-on-Avalanche/bg.png
+
 ---
 
 

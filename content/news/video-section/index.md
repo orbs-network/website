@@ -7,4 +7,4 @@ button: SUBSCRIBE
 subscribe_link: http://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ?sub_confirmation=1
 ---
 
-Orbs is the hybrid blockchain offering performance as fast as centralized solutions without compromising security.
+Orbs is a public blockchain infrastructure designed as a separate Layer3 that operates in conjunction with EVM-based L1s and L2s and executed by a public network of permissionless validators using POS powered by the ORBS token.

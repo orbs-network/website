@@ -51,8 +51,7 @@ const loadMore = () => {
 const createItem = (element) => {
   const data = JSON.parse(element.getAttribute('data-component'))
   const { props } = data
-  const { author, date, image, url, _body: body } = props
-  const authorData = author[0]
+  const { date, image, url, _body: body, logo } = props
 
 
   const post = document.createElement('li')
@@ -61,10 +60,13 @@ const createItem = (element) => {
   const html = `
   <a href=${url} target='_blank' class='news-post-link'>
       <img src=${image} class='news-post-img' />
+      <div class='news-post-content'>
+      <img src = ${logo} alt='logo' class='news-post-logo'  />
       <div class='news-post-body'>${body.props.dangerouslySetInnerHTML.__html}</div>
-      <div class='news-post-bottom'>
-    ${authorData.props.dangerouslySetInnerHTML.__html}
-      <p>${date}</p></div>
+      <div class='news-post-date'>
+      ${date}
+      </div>
+      </div>
   </a>`
   post.innerHTML = html
   return post
@@ -88,7 +90,7 @@ const addEventsToSubscribe = () => {
 
 const validateAndSubmit = async () => {
   const input = document.querySelector('.news-subscribe-input')
-  const {value} = input
+  const { value } = input
   if (!value) {
     return setError(errorTypes.empty)
   }
