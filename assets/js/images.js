@@ -1,5 +1,9 @@
 const prefix = "../assets/img";
 export const images = {
+  news:{
+    figure: `${prefix}/news/figure.svg`,
+    headerBg: `${prefix}/news/header-bg.svg`,
+  },
   globe: {
     logo: `${prefix}/globe/logo.png`,
     metamask: `${prefix}/globe/metamask.png`,

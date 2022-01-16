@@ -4,9 +4,10 @@ image: /assets/img/news/posts/Orbs-Network-Joins-Forces/bg.jpeg
 url: https://btcmanager.com/orbs-network-harmony-defi-ambition/
 date: 17, December
 show: true
-author: 
-  - ../authors/dalmas-ngetich.md
+
 title: Harmony
+logo: /assets/img/news/posts/Popular-Dapps-on-Avalanche/bg.png
+
 ---
 
 

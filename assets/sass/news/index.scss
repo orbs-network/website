@@ -3,6 +3,17 @@
     flex-direction: column;
     padding-top: 150px;
     padding-bottom: 100px;
+    position: relative;
+
+    &-header-video {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 400px;
+        width: 100vw;
+        opacity: 0.6;
+
+    }
 
     &-figure {
         max-width: 1500px;
@@ -23,7 +34,7 @@
     &-subscribe {
         background: rgba(58, 58, 58, 0.5);
         width: 100%;
-        height: 340px;
+        height: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -118,20 +129,6 @@
         }
     }
 
-    &-author {
-        display: flex;
-        align-items: center;
-        margin-right: 5px;
-
-        &-avatar {
-            width: 35px;
-            height: 35px;
-            object-fit: cover;
-            margin-right: 10px;
-            border-radius: 50%;
-            overflow: hidden;
-        }
-    }
 
     &-video {
         border-top: 1px solid #53FFFA;
@@ -216,6 +213,16 @@
     &-post {
         width: calc(100% / 3 - 20px);
 
+        &-logo {
+            height: 42px;
+            width: auto;
+            margin-top: 14px;
+        }
+
+        &-title {
+            display: none;
+        }
+
         &-link {
             text-decoration: none;
             display: flex;
@@ -232,7 +239,7 @@
         }
 
         &-body {
-            margin-top: 18px;
+            margin-top: 5px;
 
             * {
                 font-weight: 500;
@@ -241,16 +248,10 @@
             }
         }
 
-        &-bottom {
-            display: flex;
-            align-items: center;
+        &-date {
+            font-size: 16px;
+            font-weight: bold;
             margin-top: 15px;
-
-            * {
-                font-size: 16px;
-                font-weight: bold;
-            }
-
         }
     }
 
@@ -258,21 +259,20 @@
 
         &-post {
             position: relative;
-            width: calc(100% - 100px);
+           
             margin: 0 auto;
             display: flex;
             align-items: flex-start;
-            justify-content: center;
+            justify-content: space-between;
 
             &-content {
 
-                margin-right: 50px;
 
                 h1 {
                     text-align: left;
                     text-transform: none;
-                    font-size: 46px;
-                    line-height: 70px;
+                    font-size: 52px;
+                    line-height: 75px;
                     font-family: $bold-font;
                     margin-bottom: 20px;
                 }
@@ -287,9 +287,10 @@
             }
 
             &-image {
-                max-width: 800px;
-                width: 45vw;
+                width: 880px;
                 object-fit: cover;
+                position: relative;
+                transform: translate(80px);
             }
         }
     }
@@ -299,22 +300,23 @@
         margin: 0 auto;
         margin-top: 100px;
         position: relative;
-        transform: translate(140px);
+
 
         &-rotated {
             transform: rotate(-90deg);
             position: absolute;
-            left: -400px;
+            left: -270px;
             font-size: 60px;
             letter-spacing: 0.5em;
             font-weight: bold;
-            top: 300px;
+            top: 230px;
             color: transparent;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: white;
         }
 
         &-flex {
+            padding-left: 130px;
 
             &-title {
                 font-weight: 300;
@@ -327,16 +329,15 @@
             &-posts {
                 display: flex;
                 align-items: flex-start;
-                gap: 45px;
+                gap: 40px;
 
                 .news-post {
-                    max-width: 730px;
-                    width: 40vw;
+                    width: calc(50% - 20px);
 
                     &-img {
                         width: 100%;
-                        max-height: 480px;
-                        height: 27vw;
+                        max-height: unset;
+                        height: 414px;
                         object-fit: cover;
                     }
 
@@ -348,12 +349,28 @@
                         padding-right: 20px;
                     }
 
-                    &-body {
-                        margin-top: 30px;
-                        padding-right: 20px;
+                    &-content {
+                        display: flex;
+                        padding-top: 20px;
                     }
 
-                  
+                    &-logo {
+                        width: 166px;
+                        height: auto;
+                        margin-top: 0px;
+                    }
+
+                    &-date {
+                        display: none;
+                    }
+
+                    &-body {
+                        margin-top: 0px;
+                        padding-left: 20px;
+                        flex: 1;
+                    }
+
+
                 }
             }
         }
@@ -431,10 +448,12 @@
         padding-top: 100px;
         padding-left: 20px;
         padding-right: 20px;
-        &-post{
-            &-bottom{
+
+        &-post {
+            &-bottom {
                 flex-direction: column;
-                .news-author{
+
+                .news-author {
                     margin-bottom: 15px;
                 }
             }
@@ -447,11 +466,12 @@
         &-trending {
             margin-left: unset;
             width: 100%;
-            .news-post{
-                &-body{
+
+            .news-post {
+                &-body {
                     padding-right: 0px;
                 }
-                
+
             }
 
             &-rotated {
@@ -555,6 +575,7 @@
 
         &-posts {
             margin-top: 70px;
+
             ul {
                 flex-direction: column;
 
@@ -581,6 +602,7 @@
 
         &-video {
             text-align: center;
+
             &-youtube {
                 height: 30px;
                 margin-bottom: 30px;
@@ -590,7 +612,8 @@
                 flex-direction: column;
                 align-items: center;
             }
-            &-left{
+
+            &-left {
                 width: 100%;
                 height: 40vw;
                 max-height: 450px;
