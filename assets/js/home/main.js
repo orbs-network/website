@@ -28,7 +28,6 @@ class GlobeHandler {
     controls.enableZoom = false;
     controls.enablePan = false;
 
-    const isDev = document.body.getAttribute("data-dev");
 
     const pathToGeolocation =
       "/assets/datasets/ne_110m_admin_0_countries.geojson";
