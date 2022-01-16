@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "../Img";
 
-const PageHaeder = ({ video, title, _relativeURL, _ID, subTitle, poster }) => {
+const PageHaeder = ({ video, title, _relativeURL, _ID, subTitle, poster, children }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   };
@@ -34,8 +34,10 @@ const PageHaeder = ({ video, title, _relativeURL, _ID, subTitle, poster }) => {
           <aside className="page-header-overlay absolute" />
         </figure>
       )}
+     
       <div className="page-header-text main-grid">
         <div className="page-header-text-title"> {title}</div>
+        {children  ? children : null}
         {subTitle}
       </div>
     </div>
