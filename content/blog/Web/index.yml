@@ -2,14 +2,15 @@ layout: pages/page
 script: blog/index
 
 header:
-  - /jp/_shared/navbar/index.md
+  - /_shared/navbar/index.md
 main: body.md
 footer:
-  - /jp/_shared/footer/footer.md
+  - /_shared/footer/footer.md
 subscribe:
-  - /jp/_shared/subscribe/subscribe.md
+  - /_shared/subscribe/subscribe.md
 meta_description:
 meta_keywords:
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/Web-images/bg1.jpg
+title: Is Web 3.0 Worth it?
 gdpr:
-  - /jp/_shared/gdpr/index.md
+  - /_shared/gdpr/index.md
