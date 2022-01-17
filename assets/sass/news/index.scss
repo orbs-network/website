@@ -5,15 +5,7 @@
     padding-bottom: 100px;
     position: relative;
 
-    &-header-video {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        height: 400px;
-        width: 100vw;
-        opacity: 0.6;
-
-    }
+  
 
     &-figure {
         max-width: 1500px;
@@ -149,7 +141,7 @@
 
         &-left {
             width: 512px;
-            height: 260px;
+            height: 268px;
         }
 
         &-right {
@@ -157,6 +149,9 @@
             padding-left: 100px;
             display: flex;
             flex-direction: column;
+            &-body{
+               
+            }
 
             &-title {
                 font-weight: 700;
@@ -168,13 +163,13 @@
                 font-family: $text-font;
                 background: #53FFFA;
                 border-radius: 50px;
-                height: 55px;
+                height: 44px;
                 padding: 0px 60px;
                 font-weight: 500;
-                font-size: 18px;
+                font-size: 17px;
                 color: #383838;
-                margin: 0 auto;
-                margin-top: auto;
+                
+                margin-top: 45px;
                 text-decoration: none;
                 display: flex;
                 align-items: center;
@@ -249,9 +244,8 @@
         }
 
         &-date {
-            font-size: 16px;
-            font-weight: bold;
-            margin-top: 15px;
+          
+            margin-top: 12px;
         }
     }
 
@@ -259,7 +253,7 @@
 
         &-post {
             position: relative;
-           
+
             margin: 0 auto;
             display: flex;
             align-items: flex-start;
@@ -352,6 +346,7 @@
                     &-content {
                         display: flex;
                         padding-top: 20px;
+                        align-items: flex-start;
                     }
 
                     &-logo {
@@ -378,18 +373,40 @@
 }
 
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1650px) {
     .news {
-        &-trending {
-            margin-right: unset;
-            margin-left: auto;
-            transform: none;
+        &-main-post {
+            &-image {
+                width: 53vw;
+                transform: none;
+                min-width: 750px;
+            }
         }
     }
 }
 
+
+
 @media only screen and (max-width: 1500px) {
     .news {
+        &-post {
+            &-body {
+                line-height: 23px;
+            }
+        }
+
+        &-trending-flex-posts {
+            .news-post {
+                &-img {
+                    height: 27vw;
+                }
+
+                &-logo {
+                    width: 10vw;
+                }
+            }
+        }
+
         &-main {
             &-post {
                 &-content {
@@ -403,11 +420,20 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
     .news {
+        &-main-post {
+            &-image {
+
+                transform: none;
+                min-width: 650px;
+            }
+        }
+
         &-video {
             &-right {
                 padding-left: 50px;
+               
             }
 
             &-left {
@@ -457,6 +483,12 @@
                     margin-bottom: 15px;
                 }
             }
+            &-body{
+                *{
+                    line-height: 23px;
+                    font-size: 15px;
+                }
+            }
         }
 
         &-grid {
@@ -472,6 +504,10 @@
                     padding-right: 0px;
                 }
 
+                &-logo {
+                    width: 80px;
+                }
+
             }
 
             &-rotated {
@@ -479,6 +515,8 @@
             }
 
             &-flex {
+                padding-left: 0px;
+
                 &-title {
                     text-align: center;
                 }
@@ -490,14 +528,14 @@
 
                     .news-post {
                         width: 100%;
-                        text-align: center;
+                        max-width: 500px;
+
 
                         &-title {
                             padding-right: 0px;
                         }
 
                         &-img {
-                            max-width: 500px;
                             width: 100%;
                             height: auto;
                         }
@@ -508,12 +546,12 @@
 
         &-main-post {
             flex-direction: column;
-            width: 100%;
             align-items: center;
 
             &-image {
+                min-width: unset;
                 max-width: 500px;
-                width: 100%;
+                width: 90%;
                 margin-top: 40px;
             }
 
@@ -578,16 +616,18 @@
 
             ul {
                 flex-direction: column;
+            align-items: center;
 
                 .news-post {
                     width: 100%;
-                    text-align: center;
+                    max-width: 500px;
+                   
                     display: flex;
                     flex-direction: column;
                     align-items: center;
 
                     &-img {
-                        max-width: 500px;
+                        width: 100%;
                         margin: 0 auto;
                         height: auto;
                         max-height: unset;
@@ -624,8 +664,10 @@
                 padding-left: 0px;
                 margin-top: 30px;
 
-                &-button {
+                &-button{
                     margin-top: 40px;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
         }
