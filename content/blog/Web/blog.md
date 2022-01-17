@@ -1,0 +1,32 @@
+---
+layout: partials/shared/mappers/blog-mapper
+image: /assets/img/blog/Web-images/bg1.jpg
+blogUrl: Web
+date: 2022-01-17
+title: Is Web 3.0 Worth it?
+author:
+  - /blog/common/authors/NettaKorin.md
+type:
+short_description: 
+---
+Web 3.0 (or web3 as the kids call it) is one of those terms that always spurs debate. Most of us have heard *something* about it, though are not fully sure what it exactly stands for. On the other hand, there are those with a coherent point of view who will enthusiastically explain how it can revolutionize the web as we know it. However, they inevitably will be criticized by those who believe that it is a complete and utter fraud which will undoubtedly amount to nothing. In that regard, I found the recent [tweetstorm](https://www.theverge.com/2021/12/21/22848162/jack-dorsey-web3-criticism-a16z-ownership-venture-capital-twitter) involving Jack Dorsey, Elon Musk and others thought provoking.
+
+But before we get in to it, let's shed some light on what Web 3.0 actually means, at least the minimal common ground most can agree upon:
+
+The key concept behind Web 3.0 is decentralization. While Web 1.0 refers to the Internet in its origins, where most websites were a static source of information, Web 2.0 denotes the revolution that emanated from social networks empowering the people to create and share content at an unprecedented scale. While this sounds great on paper, in real life the web has become extremely centralized as most new markets underwent consolidation up to full control of new monopolies, i.e. the Big Techs, reaping the lion's share of the financial benefit. Therefore, Web 3.0 may be rightfully regarded as the reaction to that consolidation, providing not only a more equal platform, but one that is considered as more secure, scalable and providing enhanced user privacy. As blockchain, and especially cryptocurrency, have gained global momentum and are based on the same principles, it would be a no-brainer that they should be deeply intertwined, if not be the technological infrastructure of Web 3.0. Still, from this point on, things become more complicated.
+
+![](/assets/img/blog/Web-images/image123.jpg)
+
+2021 was an amazing year for blockchain - record breaking market cap valuations, DeFi booming, NFT emerging and so much more. Should these events and trends compound into Web 3.0? If so, how? Will it be led by decentralized autonomous organizations (DAOs)? How can self sovereign identity (SSI) be incorporated? The answers depend on who you ask.
+
+Hence we reach the recent clash on Twitter. It started with Dorsey tweeting that Web 3.0 is promoted and owned by VCs, later replied by Chris Dixon, then replied by Elon Musk and on and on... You can guess where this further leads to.
+
+As in so many aspects the Web 3.0 concept is so far from being fully-baked, I guess that the truth lies somewhere in between. Meaning that it is easy to be sceptical and negate the possibility of a decentralized internet (at least to some extent at some point), while in the meantime, the Big Techs, and other stakeholders, will surely maximize their levers to maintain their power positions whether it is in current Web 2.0 or a "new" Web 3.0. Whichever you believe is more likely, I see the following open questions for the most interesting for discussion:
+
+-   **Can it really happen?** - I believe that at this day and age, living through the Internet (particularly mobile) revolution, it would be difficult even for the strictest conservative mind to rule out the possibility of any kind of new technology, let alone the evolution of existing ones. Taking into account Bitcoin and past year's blockchain milestones, which in my opinion both are still far from maximizing their potential, I believe that Web 3.0 is a feasible option that may happen in the foreseeable future. Having said that, while the concept is inspiring in many aspects, it still requires a lot of work in order to formalize into an improved version of the current web as we know it. Let us not forget that there are many highly powerful actors who are very happy with the web as-is, and would not take it lightly if someone tried to move their cheese.
+
+-   **What would it take?** - Assuming we successfully made our leap of faith towards the possibility of a Web 3.0 that fully decentralized, I guess that here is where things get complicated. Naturally, there are many technical aspects like which protocols should be deployed, new user interfaces etc. This should not be taken lightly as it will have major significance on how everything will work and look to provide us the optimized experience. Still, in my opinion, this is all of secondary importance compared to the major change of perception Web 3.0 would require from all of us. It took some time for (most?) users to realize that most of the so-called "free" services we get on the web, whether on search engines or social networks, bear a grave price, as user privacy is the currency. As Web 3.0 will be based on blockchain it will require deployment of electronic wallets through which users will interact, whether being compensated for data or content they share or pay for services they consume. It is impossible to know how things will change when users are required to pay $0.0000001 (just guessing...) for the next search, or $0.00001 for posting a new post on a favorite social network.
+
+-   **Who would be the prime beneficiaries?** - As mentioned above, this new concept aims to provide a better Web that is more equal and secure, while providing better user privacy, through selectively sharing user information and microtransactions. Naturally, as the market becomes more competitive new service providers could gain substantial market shares and provide new alternatives, in a virtuous cycle. Yet, probably, the main beneficiaries would be us, the users. As previously indicated, users will have better control on their private data, especially what they share, who they share it with and what they get in return. After all, isn't that the primary reason to embark on this journey?
+
+Web 3.0 is still a concept that is under heavy debate and depends on many factors before it can even come close to fulfilling the vision it is based on. It holds great promises for the individual, and raises questions as to the future of the Big Techs.  Only time will tell if the vision of the Web 3.0 community will succeed.  I hope it does.
