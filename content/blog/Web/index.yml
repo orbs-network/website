@@ -1,6 +1,5 @@
 layout: pages/page
 script: blog/index
-
 header:
   - /_shared/navbar/index.md
 main: body.md
