@@ -1,67 +1,96 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/notifications-launch/bg.jpg
+blogUrl: notifications-launch
+date: 2022-01-25
+title: "The Open DeFi Notification Protocol - Public Beta Launching Today!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Time to share some good news!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+**The Open DeFi Notification Protocol, powered by Orbs, is Launching Public Beta today!**
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+We are happy to share this update with the Orbs community. As you know, the Orbs team is highly involved in the DeFi space, and from time to time contributes ideas and tools to the greater DeFi community under [DeFi.org](https://defi.org/). As part of these initiatives, the team is happy to contribute to the [Open DeFi Notification Protocol](https://defi.org/notifications/). In addition to being a super helpful tool to the community, this is the first project by the team that will utilize and demonstrate Orbs’ unique L3 positioning as a layer 3 execution protocol. 
 
-### Step-by-Step Guide
+The [Open DeFi Notification Protocol](https://defi.org/notifications/) is now available on both [AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp). You’re welcome to check it out and try it for yourself.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+![app store](/assets/img/blog/notifications-launch/image1.png)
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+### The OPEN DeFi Notification Protocol - a Quick Recap
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+The Open DeFi Notification Protocol is a community inspired initiative to provide users with decentralized and free mobile notifications for crucial on-chain events:
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+- Free for use — **no subscription fees or ads!**
+- Dependable — never miss an alert
+- Multi network support — Ethereum, BSC, Polygon and more
+- Community-led and open — public and decentralized alert nodes
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+With a quick 30 minute integration on Github, any DeFi project can provide its users with free mobile notifications for important events like accumulated pending rewards, price swings, near liquidations, stop loss, contract upgrades, new governance votes and more.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+### A First-rate Lineup of Launch Partners
 
-### 2) Lend ALPACA tokens
+Right from the launch we already have a top-notch roster of leading DeFi protocols having their platform integrated into the Notification App. These protocols are across multiple chains such as Ethereum, BSC, Polygon and Avalanche, and multiple functionalities: DEX-AMMs, yield aggregators and vaults.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+![partners](/assets/img/blog/notifications-launch/image2.jpg)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+Let’s take a closer look at the Open DeFi Notification Protocol **Launch Partners & Supported Protocols:**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+The Open Defi Notification Launch Partners include: [Orbs](https://www.orbs.com/), [QuickSwap](https://quickswap.exchange/#/swap), [TraderJoe](https://traderjoexyz.com/#/home), [Dot.Finance](https://dot.finance/), [Dinoswap](https://dinoswap.exchange/), [Revault Network](https://www.revault.network/), [WOWSwap](https://wowswap.io/swap), & [KogeFarm](https://kogefarm.io/vaults).
 
-#### And that’s it – You are now a senior Alpaca!
+The Open Defi Notification Networks comprise of: **Ethereum, Polygon, BSC, & Avalanche.**
+
+
+We are seeing a lot of interest for the Notification App from many other top DeFi protocols - stay tuned for more big names joining the list soon!
+
+
+### Set Your Own Personal Alerts!
+ 
+**Here are just a few of the benefits the DeFi Notifications can offer:**
+
+- Be alerted on stop-loss when buying a newly released moonshot
+- Be updated on the price movement and TVL increase
+- Receive an alert when your position is closed to your liquidation threshold
+- Be notified on the contract upgrade event
+- Get a notification for high/low gas price on Ethereum
+- And many more…
+
+Take a closer look at the following video to set up a “position worth” notification on QuickSwap: 
+
+<iframe src="https://www.youtube.com/embed/PyS3A11XlWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+It’s important to emphasize that the Orbs core team keeps contributing to the DeFi Notification Protocol, adding new sophisticated features and elevating the app functionality. So that we can already see more and more DeFi projects interested in providing its users with free mobile notifications for crucial on-chain events.
+
+
+
+### What’s Next…
+
+We believe that real-time DeFi notifications are a critical piece of the DeFi infrastructure puzzle and its impact on the industry will be massive. Already we are seeing top protocols getting onboard to provide their users with this important functionality. We expect more top DeFi protocols to integrate the Open DeFi Notification Protocol and contribute additional notifications relevant for their use-cases and users.
+
+Orbs is proud to be the first project to implement the protocol and contribute to the success of this initiative. The Open DeFi Notification protocol is also an example of Orbs’ [Layer-3 innovation](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/), as it utilizes a layer of infrastructure that can read a variety of activity on underlying Layer-1 and Layer-2 blockchains and provide information that allows DeFi users to execute more sophisticated and dynamic strategies.
+
+Stay tuned for announcements of additional protocols integrating the Notification app and adding new alerts and functionalities!
+
+For the latest updates, join the official Orbs [Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork) groups.
+
+Also, see the DeFi.org [channels](https://t.me/defiorg) for questions, support, feedback or anything else you'd like to share about the Notification app. 
+
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_The app and protocol are in beta, under active development, and their use is subject to risks. Use of the app is subject to the terms and conditions set forth at https://defi.org/defi-notifications-terms-of-use/index.html._
