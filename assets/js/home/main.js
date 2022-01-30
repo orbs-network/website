@@ -1,3 +1,4 @@
+import { images } from "../images.js";
 import { init } from "../index.js";
 import { hideAppLoader } from "../ui/ui.js";
 import { getCardDataByType } from "./helpers.js";
@@ -11,7 +12,7 @@ class GlobeHandler {
     $guardianDetails.on("mouseout", timerHandler.resumeTimer);
 
     this.world = Globe()(document.getElementById("globeArea"))
-      .globeImageUrl("//unpkg.com/three-globe/example/img/earth-dark.jpg")
+      .globeImageUrl(images.globe.earthDark)
       .polygonCapColor((feat) => "rgb(0,109,109)")
       .pointOfView({ altitude: 3.8 }, this.timings.welcomeCountryPop * 2)
       .polygonSideColor(() => "rgba(3,252,245,0.04)")

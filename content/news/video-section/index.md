@@ -1,6 +1,6 @@
 ---
 layout: partials/news/video-section
-video: https://www.youtube.com/embed/OhjisWeDhrU
+video: https://www.youtube.com/embed/-W9vdCysEYc
 image: /assets/img/news/youtube.svg
 title: The Official YouTube Channel of the Orbs Network
 button: SUBSCRIBE

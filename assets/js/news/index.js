@@ -1,31 +1,46 @@
 import { validateEmail } from "../components/form.js";
 import { init } from "../index.js";
 import userPost from "../services/user-post.js";
-let hiddenPosts = []
+let posts = []
 let lastLoadedIndex = 0
-let container
-const loadAmount = 6
+let bottomContainer = document.querySelector('#news-posts-bottom')
+let topContainer = document.querySelector('#news-posts-top')
+let trendingContainer = document.querySelector('.news-trending-flex-posts')
+
 
 const errorTypes = {
   empty: 'empty',
   validation: 'validation'
 }
+
+
 window.onload = () => {
   init();
   addEventsToLoadMoreButton()
-  getHiddenPosts()
+  getPosts()
   addEventsToSubscribe()
+  createPostsOnload(trendingContainer)
+
 };
 
-const getHiddenPosts = () => {
-  container = document.querySelector('#news-posts-bottom')
-  const elements = document.querySelectorAll('.news-post-hidden')
+
+const createPostsOnload = (container) => {
+  const elements = container.querySelectorAll('.news-post-hidden')
+  elements.forEach((hiddenPost) => {
+    container.removeChild(hiddenPost)
+    const component = createItem(hiddenPost)
+    container.appendChild(component)
+  })
+}
+
+const getPosts = () => {
+  const elements = topContainer.querySelectorAll('.news-post-hidden')
   elements.forEach((hiddenPost, index) => {
     hiddenPost.id = index
-    hiddenPosts.push(hiddenPost)
-    container.removeChild(hiddenPost)
+    posts.push(hiddenPost)
+    topContainer.removeChild(hiddenPost)
   })
-  loadMore()
+  loadMore(12)
 }
 
 const hideLoadMorebtn = () => {
@@ -34,14 +49,19 @@ const hideLoadMorebtn = () => {
 }
 
 
-const loadMore = () => {
-  const elements = hiddenPosts.slice(lastLoadedIndex, lastLoadedIndex + loadAmount)
+const loadMore = (amount) => {
+  const elements = posts.slice(lastLoadedIndex, lastLoadedIndex + amount)
   elements.forEach(element => {
     const component = createItem(element)
-    container.appendChild(component)
+    if (element.id <= 5) {
+      topContainer.appendChild(component)
+    } else {
+      bottomContainer.appendChild(component)
+    }
+
   })
-  lastLoadedIndex += loadAmount
-  if (lastLoadedIndex >= hiddenPosts.length) {
+  lastLoadedIndex += amount
+  if (lastLoadedIndex >= posts.length) {
     hideLoadMorebtn()
   }
 }
@@ -49,33 +69,43 @@ const loadMore = () => {
 
 
 const createItem = (element) => {
-  const data = JSON.parse(element.getAttribute('data-component'))
-  const { props } = data
-  const { date, image, url, _body: body, logo } = props
+  const props = JSON.parse(element.getAttribute('data-component'))
+  try {
+    
 
-
-  const post = document.createElement('li')
-  post.classList.add('news-post')
-  post.id = element.id
-  const html = `
-  <a href=${url} target='_blank' class='news-post-link'>
-      <img src=${image} class='news-post-img' />
-      <div class='news-post-content'>
-      <img src = ${logo} alt='logo' class='news-post-logo'  />
-      <div class='news-post-body'>${body.props.dangerouslySetInnerHTML.__html}</div>
-      <div class='news-post-date'>
-      ${date}
-      </div>
-      </div>
-  </a>`
-  post.innerHTML = html
-  return post
+    const { date, image, url, _body: body, logo } = props
+    const post = document.createElement('li')
+    post.classList.add('news-post')
+    post.id = element.id
+  
+    const logoElement = logo && logo[0] && logo[0].props.dangerouslySetInnerHTML.__html
+    const html = `
+    <a href=${url} target='_blank' class='news-post-link'>
+        <img src=${image} class='news-post-img' />
+        <div class='news-post-content'>
+          <div class='news-post-content-flex'>
+          <div  class='news-post-logo'>
+          ${logoElement ? logoElement : '<img src="" />'}
+          </div>
+          <div class='news-post-date'>
+          ${date}
+          </div>
+          </div>
+        <div class='news-post-body'>${body.props.dangerouslySetInnerHTML.__html}</div>
+       
+        </div>
+    </a>`
+    post.innerHTML = html
+    return post
+  } catch (error) {
+      console.log(element.id, props)
+  }
 }
 
 
 const addEventsToLoadMoreButton = () => {
   const btn = document.querySelector('#load-more-posts')
-  btn.addEventListener('click', loadMore)
+  btn.addEventListener('click', loadMore.bind(null, 6))
 }
 
 

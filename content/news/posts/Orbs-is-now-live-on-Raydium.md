@@ -1,13 +1,11 @@
 ---
 layout: partials/news/post
-image: /assets/img/news/posts/Orbs-is-now-live-on-Raydium/bg.jpeg
+image: /assets/img/news/posts/Orbs-is-now-live-on-Raydium.jpeg
 url: https://www.orbs.com/Orbs-is-now-live-on-Raydium/
-date: 18, November
-show: true
-
+date: 18, November 2021
 title: Raydium
-logo: /assets/img/news/posts/Popular-Dapps-on-Avalanche/bg.png
-
+logo: 
+  - ../website-logos/orbs.md
 ---
 
 

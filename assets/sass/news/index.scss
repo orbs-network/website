@@ -6,7 +6,15 @@
     position: relative;
 
   
-
+    &-bg{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: auto;
+        min-height: 600px;
+        object-fit: cover;
+    }
     &-figure {
         max-width: 1500px;
         width: 80%;
@@ -123,11 +131,12 @@
 
 
     &-video {
+        border-bottom: 1px solid #53FFFA;
         border-top: 1px solid #53FFFA;
         padding-top: 40px;
         margin-top: 70px;
         margin-bottom: 100px;
-
+        padding-bottom: 40px;
         &-youtube {
             height: 40px;
             width: auto;
@@ -209,9 +218,26 @@
         width: calc(100% / 3 - 20px);
 
         &-logo {
-            height: 42px;
+            height: fit-content;
             width: auto;
+            max-width: 120px;
+            height: 44px;
             margin-top: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 100%;
+                height: auto;
+                max-height: 42px;
+                object-fit: contain;
+            }
+        }
+        &-content{
+            &-flex{
+                display: flex;
+                align-items: flex-end;
+            }
         }
 
         &-title {
@@ -232,9 +258,10 @@
             height: 20vw;
             object-fit: cover;
         }
+     
 
         &-body {
-            margin-top: 5px;
+            margin-top: 10px;
 
             * {
                 font-weight: 500;
@@ -244,8 +271,8 @@
         }
 
         &-date {
-          
-            margin-top: 12px;
+            margin-left: 20px;
+            padding-bottom: 5px;
         }
     }
 
@@ -281,10 +308,10 @@
             }
 
             &-image {
-                width: 880px;
+                width: 700px;
                 object-fit: cover;
                 position: relative;
-                transform: translate(80px);
+             
             }
         }
     }
@@ -292,7 +319,7 @@
     &-trending {
 
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 70px;
         position: relative;
 
 
@@ -350,8 +377,9 @@
                     }
 
                     &-logo {
-                        width: 166px;
-                        height: auto;
+                        width: auto;
+                        max-width: 166px;
+                        height: fit-content;
                         margin-top: 0px;
                     }
 
@@ -377,9 +405,7 @@
     .news {
         &-main-post {
             &-image {
-                width: 53vw;
-                transform: none;
-                min-width: 750px;
+              
             }
         }
     }
@@ -403,6 +429,10 @@
 
                 &-logo {
                     width: 10vw;
+                    height: auto;
+                    img{
+                        max-height: 73px;
+                    }
                 }
             }
         }
@@ -551,7 +581,7 @@
             &-image {
                 min-width: unset;
                 max-width: 500px;
-                width: 90%;
+                width: 100%;
                 margin-top: 40px;
             }
 
