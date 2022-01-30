@@ -3,7 +3,6 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
-  - demo-news-post.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-bloomberg.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-yahoo.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-nasdaq.md
