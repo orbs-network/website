@@ -1,9 +1,7 @@
 ---
 layout: partials/news/main
 postsTop: 
-  - posts/top.md
-postsBottom: 
-  - posts/bottom.md
+  - posts/index.md
 mainPost:
   - main-post/index.md
 trendingPosts:

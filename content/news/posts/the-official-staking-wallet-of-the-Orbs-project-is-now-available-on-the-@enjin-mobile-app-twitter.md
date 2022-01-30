@@ -1,0 +1,11 @@
+---
+layout: partials/news/post
+image: /assets/img/news/posts/the-official-staking-wallet-of-the-Orbs-project-is-now-available-on-the-@enjin-mobile-app-twitter.jpeg
+
+url: https://twitter.com/orbs_network/status/1380493080315502593
+date: 9, April 2021
+logo: 
+  - ../website-logos/twitter.md
+---
+
+The official staking wallet of the Orbs project, is now available on the @enjin mobile app! 

@@ -3,12 +3,14 @@ export const images = {
   news:{
     figure: `${prefix}/news/figure.svg`,
     headerBg: `${prefix}/news/header-bg.svg`,
+    dots: `${prefix}/news/dots.svg`,
   },
   globe: {
     logo: `${prefix}/globe/logo.png`,
     metamask: `${prefix}/globe/metamask.png`,
     repository: `${prefix}/globe/repository.svg`,
     bg: `${prefix}/globe/test-bg.jpeg`,
+    earthDark: `${prefix}/globe/earth-dark.jpeg`,
     contributor: {
       email: `${prefix}/globe/cards/contributor/email.svg`,
       github: `${prefix}/globe/cards/contributor/github.svg`,
