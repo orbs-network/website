@@ -39,6 +39,8 @@ The system is implemented with a set of [Solidity smart contracts](https://gith
 
 Another Solidity smart contract takes care of calculating delegations and outputting the election results on every delegation change. This means that to stake your ORBS and delegate them, you have to send an Ethereum transaction. Another Solidity contract distributes staking rewards to all participants, which need to be claimed by participants as another Ethereum transaction.
 
+![](https://miro.medium.com/max/60/1*mCO3veXyaD4lQFufOz-54g.png?q=20)
+
 ![](/assets/img/blog/PolygonTech-imgages/image1.png)
 
 **Orbs V3: PoS over Ethereum + PoS over Polygon**
@@ -70,6 +72,8 @@ Staking actions will still be performed on [Tetra](https://staking.orbs.network
 **Guardians** - will be able to support both networks and receive delegations on both Ethereum and Polygon. Keep in mind that each network has its own separate self stake requirement, so a Guardian looking to receive delegations on both networks will be required to self stake separately in both. Guardians will still run a single validator node like before. Once updated, the new Orbs node will support both Ethereum and Polygon at the same time. We've put a lot of emphasis on optimization, so running the new Orbs node will not be more expensive.
 
 **Delegators** - will need to decide on which network they want to stake their tokens --- Ethereum or Polygon. Since the existing Ethereum mainnet smart contracts remain intact, ORBS can still be staked on Ethereum like before. Both networks pay the same staking rewards and have the same unstaking cooldown period, but gas is cheaper on Polygon so all actions on Polygon will require a fraction of the cost in fees.
+
+![](https://miro.medium.com/max/56/1*_NYoZOObSgFlxSoD9465vA.png?q=20)
 
 ![](/assets/img/blog/PolygonTech-imgages/image2.png)
 
