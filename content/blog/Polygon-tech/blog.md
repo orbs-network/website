@@ -1,37 +1,76 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/el-salvador-adopts-bitcoin/bg.png
-blogUrl: el-salvador-adopts-bitcoin
-date: 2021-06-14
-title: El Salvador Adopts Bitcoin
+image: /assets/img/blog/Polygon-tech/bg.jpeg
+blogUrl: Polygon-tech
+date: 2022-02-03
+title: "Orbs — Building the World’s First Multi-Chain Staking with Ethereum and Polygon"
 author:
-  - /blog/common/authors/NettaKorin.md
+  - /blog/common/authors/TalKol.md
 type:
-short_description:
+short_description: 
 ---
+*Orbs is one of the pioneering protocols utilizing Proof-of-Stake for securing its consensus layer. Orbs V1 executed PoS elections in an internal virtual chain. Orbs V2 innovated by adding the security of Ethereum's PoW to create the most secure PoS implementation to date. Orbs V3 is setting a new bar --- expanding PoS elections to Polygon and creating the world's first PoS implementation that spans 3 chains: Orbs, Ethereum and Polygon!*
 
-A few days ago President Nayib Bukele of El Salvador [announced](https://www.bbc.com/news/world-latin-america-57373058) that Bitcoin was approved as legal tender in his country. This is an extraordinary measure for the country, and follows El Salvador’s past experience with regards to Bitcoin, as about a year ago one of the country’s villages had already de-facto [accepted it as a currency](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/). In his [Twitter](https://twitter.com/nayibbukele/status/1401335885497524226) thread of the proposed announcement, Bukele further suggested this move could assist in cutting the significant expense of intermediary fees and addressing the country’s severe unbanked problem (70% of its population). His plan could dramatically improve the lives of millions in El Salvador.
+<div class='line-separator'> </div>
 
-According to the IMF’s [latest report](https://www.imf.org/en/Publications/WEO/weo-database/2021/April/weo-report), El Salvador’s GDP per capita ranks 114th in the world. It struggles with poverty, inequality and gang-related violent crime. Its economy relies heavily on remittances – around 20% of GDP, which [ranks as the 6th most remittance-dependent country.](https://www.theglobaleconomy.com/rankings/remittances_percent_gdp/) It is very interesting to note that since 2001 El Salvador’s currency has been the US Dollar, replacing the Colon. The motive behind this measure was the stabilization of the economy and the facilitation of trade with the United States. However, the move involved sacrificing a major aspect of its sovereignty. El Salvador cannot print US Dollars, which means that it does not control its currency, hence its monetary liberty is severely limited and its economic dependence is intensified.
+**Orbs V1: Self executed PoS elections**
 
-![graph](/assets/img/blog/el-salvador-adopts-bitcoin/img1.png)
+What's wrong with executing your blockchain's own Proof-of-Stake on your own blockchain nodes? Pretty much everybody does it.. If you look at popular PoS networks like EOS, Tezos and Cosmos, they are all running their PoS implementations on their own nodes.
 
-_El Salvador adopting Bitcoin as a legal tender could significantly reduce remittance fees. Will other countries follow?_
+This works. And Orbs V1 that launched in March 2019 did the same. The first version of Orbs Proof-of-Stake ran as an Orbs virtual chain executed by Orbs own validators. Is this such a bad thing?
 
-Having already foregone monetary independence, accepting cryptocurrencies as a legal tender could be a huge leap forward for El Salvador. My guess is that now that Bitcoin is officially accepted, stablecoins will become the predominant means of payment instead. Bitcoin is too volatile and cannot support the scale of expected transactions, hence it is simply not the best solution for that purpose. Stablecoins, on the other hand, are more efficient and better fit for this task. The most significant potential concern is their credibility. However, in the last year stablecoins have experienced a significant rise in value and integrity, with the total market cap of the four largest USD-pegged stablecoins rising to around $100B (Tether – $62B, USDC – $23B, BUSD – $10B, DAI – $5B) at the time of writing. These coins are accepted with full confidence as digital dollars in the crypto landscape.
+The issue with PoS is that it's simply not as elegantly secure as PoW. In [Vitalik's own words](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/), this boils down to PoS being *subjective* while PoW has the wonderful property of being *objective*. This is a tricky concept to understand, so in 2019 I published a [post explaining this](https://medium.com/hackernoon/what-game-of-thrones-teaches-us-about-proof-of-stake-don-t-trust-cersei-a9caba418d36) with a cool little analogy from Game of Thrones:
 
-President Bukele suggested two powerful arguments to support his plan. The first was the egregious fees involved in remittances. A recent [World Bank report](https://remittanceprices.worldbank.org/sites/default/files/rpw_main_report_and_annex_q121_final.pdf) found that the global average remittance intermediary fee is 6.38%. Perhaps many readers would agree that this fee may be among the most wrongful financial exploits that exist today. Foreign workers are often legally taken advantage of, due to the lack of financial options that they are facing. Using cryptocurrencies could eliminate remittance fees to a fraction of a cent, instead of dozens of dollars. This could have an immediate and long-lasting effect on the lives of the recipients, and on the senders, who would now be able to save more of their own money instead of spending it on a third party transfer. Add to that the convenience of sending the funds to your relative’s mobile device instead of to a local agent exchange where she might get robbed or attacked, as is sadly a common occurrence when dealing with cash. Though it is clear that this process will not happen overnight, the potential value-add to the lives of foreign employees should provide enough incentives for employers to eventually transition into paying with crypto.
+Consider queen Cersei offering a way to end all the wars in Westeros and elect the rightful ruler for the seven kingdoms in a cunning spin on democracy. Cersei's army has gone to every village and collected a vote from every single citizen, bringing them all to her Red Keep where Cersei sat by herself and counted them all. To her pleasant surprise, she claims to have won in a landslide and now she expects you and everybody else to bend the knee. Would you trust such a system?
 
-As mentioned above, the vast majority of El Salvador’s population is unbanked. I have written [before](/does-defi-hold-a-promise-for-the-unbanked) about the social impact that DeFi, and specifically stablecoins, may have on the financial inclusion of the unbanked. In that respect, I can only hope that El Salvador could be an example to many other countries suffering from a similar problem.
+This isn't much different from asking Orbs elected nodes to run the next elections that will get them elected once again.
 
-It is clear that the transition to a crypto-based economy, even to a partial extent, can be riddled with issues and obstacles. On a global level, we see that the unbanked are willing and eager to adopt new technologies that enable them financial savings, but the technical transition will be challenging. By “technical” I mean migrating one’s financial activity to a crypto wallet and grasping the concept that she is now **fully in charge of her assets**, with no third party who can assist in case of fraud, mistake or any other type of problem. This challenge should not be disregarded.
+**Orbs V2: PoS over Ethereum's PoW**
 
-While there are many digital wallets to handle crypto, in order to make this transition as safe as possible the government of El Salvador would need to lead an extensive educational public campaign in order to teach people about the potential risks and fraud involved. This may perhaps involve a government-recommended list of wallet service providers, in order to assist the population in avoiding scams. And there may need to be some training provided in order to make sure that people handle wallets correctly, for their own security and for that of their assets. This is the most challenging part of crypto adoption and it encapsulates massive risk of fraud and deceit, therefore it requires detailed planning in order to avoid mass loss of value which might derail the initiative even in its earliest phase.
+In November 2020 we proposed a clever solution to this problem and launched the world's most secure PoS implementation in [Orbs V2.5](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/). This was the first PoS implementation that relied on an external side-chain to verify its own election results!
 
-Despite the risks, if done correctly and responsibly, accepting cryptocurrencies as a form of legal tender is a strategic and correct decision for El Salvador. The country is facing extreme poverty, crime and a tenuous economic situation. Ameliorating even part of the dire financial issues with a greater percentage of remittance income could bring about a significant economic boost. A great many eyes will be on El Salvador in the next few months. This little country might just show the world a way to a brighter future.
+And we didn't just choose any side-chain, we chose Ethereum itself. Orbs is an independent blockchain to Ethereum, it has its own separate nodes, its own consensus algorithm and its own separate incentive layer --- the ORBS token. By harnessing the power of Ethereum, we've utilized Ethereum's own ironclad security to increase the security of our own protocol.
 
-<div class='line-separator'></div>
+**How did this work under the hood?**
 
-**Netta Korin** is a cofounder of Orbs. Prior to Orbs Netta worked for many years on Wall Street as a hedge fund manager. She later held senior positions in the Israeli government, including Senior Advisor in the Israeli Ministry of Defense to General Yoav (Poly) Mordechai, Head of CoGAT, and Senior Advisor to Deputy Minister Dr. Michael Oren in the Prime Minister’s Office in Israel, focusing on Palestinian issues. Netta has held board positions in several non-profit foundations in both Israel and the United States. She also founded The Hexa Foundation with the aim of promoting blockchain for social impact and harnessing the mind power of the Orbs ecosystem and network to help solve the region’s and the world’s most pressing humanitarian problems.
+The heart of Orbs PoS is allowing ORBS token holders to stake their tokens and elect honest validators. Elected validators are also called Orbs Guardians and represent the network's consensus committee. This committee executes the Orbs protocol and guarantees the network is fully decentralized and controlled by its token holders.
 
-For more information please contact Netta Korin [(netta@orbs.com)](netta@orbs.com, "email")
+The system is implemented with a set of [Solidity smart contracts](https://github.com/orbs-network/orbs-ethereum-contracts-v2) that are deployed to Ethereum mainnet. The first of these contracts is the Orbs Staking Contract, which you can see [right here](https://etherscan.io/address/0x01d59af68e2dcb44e04c50e05f62e7043f2656c3), that is holding several hundreds of millions of dollars worth of ORBS tokens that have been staked by the Orbs community. The great thing about this implementation is that user funds are absolutely protected. To hack and steal staked ORBS tokens, you would have to hack Ethereum itself. If you could do that, Orbs Staking would probably not be your first target :)
+
+Another Solidity smart contract takes care of calculating delegations and outputting the election results on every delegation change. This means that to stake your ORBS and delegate them, you have to send an Ethereum transaction. Another Solidity contract distributes staking rewards to all participants, which need to be claimed by participants as another Ethereum transaction.
+
+![]( /assets/img/blog/Polygon-tech/img1.png)
+
+**Orbs V3: PoS over Ethereum + PoS over Polygon**
+
+Orbs V2 architecture has some excellent security properties, but as Ethereum became more and more congested and ETH price climbed, so did the gas costs of users participating in Orbs PoS.
+
+High participation costs slow down network growth and make it harder to onboard new delegators, particularly those looking to stake smaller amounts. It became clear that as the first feature of the next major version of the Orbs protocol we want to address this issue.
+
+Without further ado, we're proud to announce Orbs staking on Polygon! (previously Matic). This will be the first major feature that will be part of the upcoming Orbs V3 release.
+
+**Why Polygon?**
+
+First of all, we love Polygon and we're good friends with the Polygon core team. Polygon has been one of the first alternative chains to support the ORBS token via its [official bridge](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) and promote the Orbs ecosystems with an incentivized liquidity program for ORBS token on its popular DEX [QuickSwap](https://www.orbs.com/orbs-is-now-live-on-quickswap/).
+
+Polygon is an L2 EVM-compatible blockchain which fully supports the same Solidity smart contracts already running on Ethereum mainnet. This means delicate code that has undergone rigorous [audits](https://github.com/orbs-network/orbs-staking-contract#security-audit), such as Orbs Staking Contract, can be used without modification. This would give new ORBS stakers on Polygon peace of mind that the new Orbs Staking Contract on Polygon is just as secure as the current one on Ethereum.
+
+Polygon is also a scalability layer for Ethereum and provides faster block times and fees that are considerably cheaper --- every staking or claim rewards transaction would cost a tiny fraction of the gas cost on Ethereum, practically resolving all existing gas issues.
+
+**How will this work under the hood?**
+
+The full suite of [Orbs PoS Solidity contracts](https://github.com/orbs-network/orbs-ethereum-contracts-v2) will be deployed to Polygon mainnet. This includes the Orbs Staking Contract, the contract calculating delegations and emitting committee results and the contract distributing staking rewards.
+
+Instead of working with the ERC20 Ethereum ORBS token, these contracts would naturally work with the Polygon [bridged ORBS token](https://polygonscan.com/token/0x614389eaae0a6821dc49062d56bda3d9d45fa2ff). This means that every participant that wants to stake and delegate on Polygon would have to first take their ORBS tokens and use the official Polygon bridge to move them over to Polygon. If this sounds complicated don't worry, simple step by step tutorials will be published before launch. If you change your mind and want to move your ORBS back to Ethereum, simply use the Polygon bridge to send them back.
+
+If you had been using an Ethereum wallet like MetaMask to send Ethereum transactions, chances are your wallet fully supports Polygon as well. You can use the exact same account, address and private key you use on Ethereum mainnet. You will have to hold some [MATIC](https://coinmarketcap.com/currencies/polygon/) tokens to pay for gas, similar in principle to holding some ETH to pay for gas on Ethereum mainnet.
+
+Staking actions will still be performed on [Tetra](https://staking.orbs.network/#/) --- the Orbs staking wallet. The new Tetra wallet will soon be upgraded to support both Ethereum and Polygon side by side.
+
+**Guardians** - will be able to support both networks and receive delegations on both Ethereum and Polygon. Keep in mind that each network has its own separate self stake requirement, so a Guardian looking to receive delegations on both networks will be required to self stake separately in both. Guardians will still run a single validator node like before. Once updated, the new Orbs node will support both Ethereum and Polygon at the same time. We've put a lot of emphasis on optimization, so running the new Orbs node will not be more expensive.
+
+**Delegators** - will need to decide on which network they want to stake their tokens --- Ethereum or Polygon. Since the existing Ethereum mainnet smart contracts remain intact, ORBS can still be staked on Ethereum like before. Both networks pay the same staking rewards and have the same unstaking cooldown period, but gas is cheaper on Polygon so all actions on Polygon will require a fraction of the cost in fees.
+
+![]( /assets/img/blog/Polygon-tech/img2.png)
+
+As you can see in the architecture diagram above, the committee of elected validators is no longer dictated by Ethereum only. Since every set of election contracts emits a committee, the Orbs network will now have an Ethereum committee and a Polygon committee. There will probably be some overlap between the two as some Guardians are expected to seek delegations in both. The super committee of Orbs Network will be the union of the two committees.
