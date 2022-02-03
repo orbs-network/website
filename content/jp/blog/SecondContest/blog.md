@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/SecondContest-images/bg2.png
-blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
+blogUrl: SecondContest
 date: 2021-12-27
 title: 第2回Orbsコンテスト本日スタート！
 author:
