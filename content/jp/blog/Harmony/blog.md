@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Harmony-images/bg.jpg
-blogUrl: orbs-is-available-on-ens-ethereum-naming-service-2
+blogUrl: Harmony
 date: 2021-12-15
 title: Orbsエコシステムの成長：Harmony
 author:
