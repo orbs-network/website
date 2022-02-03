@@ -41,8 +41,6 @@ Another Solidity smart contract takes care of calculating delegations and output
 
 ![](https://miro.medium.com/max/60/1*mCO3veXyaD4lQFufOz-54g.png?q=20)
 
-![](/assets/img/blog/PolygonTech-imgages/image1.png)
-
 **Orbs V3: PoS over Ethereum + PoS over Polygon**
 
 Orbs V2 architecture has some excellent security properties, but as Ethereum became more and more congested and ETH price climbed, so did the gas costs of users participating in Orbs PoS.
@@ -74,7 +72,5 @@ Staking actions will still be performed on [Tetra](https://staking.orbs.network
 **Delegators** - will need to decide on which network they want to stake their tokens --- Ethereum or Polygon. Since the existing Ethereum mainnet smart contracts remain intact, ORBS can still be staked on Ethereum like before. Both networks pay the same staking rewards and have the same unstaking cooldown period, but gas is cheaper on Polygon so all actions on Polygon will require a fraction of the cost in fees.
 
 ![](https://miro.medium.com/max/56/1*_NYoZOObSgFlxSoD9465vA.png?q=20)
-
-![](/assets/img/blog/PolygonTech-imgages/image2.png)
 
 As you can see in the architecture diagram above, the committee of elected validators is no longer dictated by Ethereum only. Since every set of election contracts emits a committee, the Orbs network will now have an Ethereum committee and a Polygon committee. There will probably be some overlap between the two as some Guardians are expected to seek delegations in both. The super committee of Orbs Network will be the union of the two committees.
