@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Polygon-tech/blog.md
   - ElSalvadorBTC/blog.md
   - notifications-launch/blog.md
   - Web/blog.md
