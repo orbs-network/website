@@ -1,181 +1,76 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/PolygonTech-imgages/bg.jpg
+blogUrl: PolygonTech
+date: 2022-02-03
+title: Orbs — Building the World’s First Multi-Chain Staking with Ethereum and Polygon
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/TalKol.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
+*Orbs is one of the pioneering protocols utilizing Proof-of-Stake for securing its consensus layer. Orbs V1 executed PoS elections in an internal virtual chain. Orbs V2 innovated by adding the security of Ethereum's PoW to create the most secure PoS implementation to date. Orbs V3 is setting a new bar --- expanding PoS elections to Polygon and creating the world's first PoS implementation that spans 3 chains: Orbs, Ethereum and Polygon!*
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+<div class='line-separator'> </div>
 
-...
+**Orbs V1: Self executed PoS elections**
 
-## **DeFi の時代！**
+What's wrong with executing your blockchain's own Proof-of-Stake on your own blockchain nodes? Pretty much everybody does it.. If you look at popular PoS networks like EOS, Tezos and Cosmos, they are all running their PoS implementations on their own nodes.
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+This works. And Orbs V1 that launched in March 2019 did the same. The first version of Orbs Proof-of-Stake ran as an Orbs virtual chain executed by Orbs own validators. Is this such a bad thing?
 
-みなさん!
+The issue with PoS is that it's simply not as elegantly secure as PoW. In [Vitalik's own words](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/), this boils down to PoS being *subjective* while PoW has the wonderful property of being *objective*. This is a tricky concept to understand, so in 2019 I published a [post explaining this](https://medium.com/hackernoon/what-game-of-thrones-teaches-us-about-proof-of-stake-don-t-trust-cersei-a9caba418d36) with a cool little analogy from Game of Thrones:
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+Consider queen Cersei offering a way to end all the wars in Westeros and elect the rightful ruler for the seven kingdoms in a cunning spin on democracy. Cersei's army has gone to every village and collected a vote from every single citizen, bringing them all to her Red Keep where Cersei sat by herself and counted them all. To her pleasant surprise, she claims to have won in a landslide and now she expects you and everybody else to bend the knee. Would you trust such a system?
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+This isn't much different from asking Orbs elected nodes to run the next elections that will get them elected once again.
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+**Orbs V2: PoS over Ethereum's PoW**
 
-...
+In November 2020 we proposed a clever solution to this problem and launched the world's most secure PoS implementation in [Orbs V2.5](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/). This was the first PoS implementation that relied on an external side-chain to verify its own election results!
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+And we didn't just choose any side-chain, we chose Ethereum itself. Orbs is an independent blockchain to Ethereum, it has its own separate nodes, its own consensus algorithm and its own separate incentive layer --- the ORBS token. By harnessing the power of Ethereum, we've utilized Ethereum's own ironclad security to increase the security of our own protocol.
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+**How did this work under the hood?**
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+The heart of Orbs PoS is allowing ORBS token holders to stake their tokens and elect honest validators. Elected validators are also called Orbs Guardians and represent the network's consensus committee. This committee executes the Orbs protocol and guarantees the network is fully decentralized and controlled by its token holders.
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+The system is implemented with a set of [Solidity smart contracts](https://github.com/orbs-network/orbs-ethereum-contracts-v2) that are deployed to Ethereum mainnet. The first of these contracts is the Orbs Staking Contract, which you can see [right here](https://etherscan.io/address/0x01d59af68e2dcb44e04c50e05f62e7043f2656c3), that is holding several hundreds of millions of dollars worth of ORBS tokens that have been staked by the Orbs community. The great thing about this implementation is that user funds are absolutely protected. To hack and steal staked ORBS tokens, you would have to hack Ethereum itself. If you could do that, Orbs Staking would probably not be your first target :)
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+Another Solidity smart contract takes care of calculating delegations and outputting the election results on every delegation change. This means that to stake your ORBS and delegate them, you have to send an Ethereum transaction. Another Solidity contract distributes staking rewards to all participants, which need to be claimed by participants as another Ethereum transaction.
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+![](/assets/img/blog/PolygonTech-imgages/image1.png)
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
+**Orbs V3: PoS over Ethereum + PoS over Polygon**
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+Orbs V2 architecture has some excellent security properties, but as Ethereum became more and more congested and ETH price climbed, so did the gas costs of users participating in Orbs PoS.
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+High participation costs slow down network growth and make it harder to onboard new delegators, particularly those looking to stake smaller amounts. It became clear that as the first feature of the next major version of the Orbs protocol we want to address this issue.
 
-...
+Without further ado, we're proud to announce Orbs staking on Polygon! (previously Matic). This will be the first major feature that will be part of the upcoming Orbs V3 release.
 
-## **Orbs PoS V2：ガーディアンの時代**
+**Why Polygon?**
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+First of all, we love Polygon and we're good friends with the Polygon core team. Polygon has been one of the first alternative chains to support the ORBS token via its [official bridge](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) and promote the Orbs ecosystems with an incentivized liquidity program for ORBS token on its popular DEX [QuickSwap](https://www.orbs.com/orbs-is-now-live-on-quickswap/).
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+Polygon is an L2 EVM-compatible blockchain which fully supports the same Solidity smart contracts already running on Ethereum mainnet. This means delicate code that has undergone rigorous [audits](https://github.com/orbs-network/orbs-staking-contract#security-audit), such as Orbs Staking Contract, can be used without modification. This would give new ORBS stakers on Polygon peace of mind that the new Orbs Staking Contract on Polygon is just as secure as the current one on Ethereum.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+Polygon is also a scalability layer for Ethereum and provides faster block times and fees that are considerably cheaper --- every staking or claim rewards transaction would cost a tiny fraction of the gas cost on Ethereum, practically resolving all existing gas issues.
 
-### ベータプロモーションリワード
+**How will this work under the hood?**
 
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
+The full suite of [Orbs PoS Solidity contracts](https://github.com/orbs-network/orbs-ethereum-contracts-v2) will be deployed to Polygon mainnet. This includes the Orbs Staking Contract, the contract calculating delegations and emitting committee results and the contract distributing staking rewards.
 
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+Instead of working with the ERC20 Ethereum ORBS token, these contracts would naturally work with the Polygon [bridged ORBS token](https://polygonscan.com/token/0x614389eaae0a6821dc49062d56bda3d9d45fa2ff). This means that every participant that wants to stake and delegate on Polygon would have to first take their ORBS tokens and use the official Polygon bridge to move them over to Polygon. If this sounds complicated don't worry, simple step by step tutorials will be published before launch. If you change your mind and want to move your ORBS back to Ethereum, simply use the Polygon bridge to send them back.
 
-...
+If you had been using an Ethereum wallet like MetaMask to send Ethereum transactions, chances are your wallet fully supports Polygon as well. You can use the exact same account, address and private key you use on Ethereum mainnet. You will have to hold some [MATIC](https://coinmarketcap.com/currencies/polygon/) tokens to pay for gas, similar in principle to holding some ETH to pay for gas on Ethereum mainnet.
 
-## **ネットワークの状況**
+Staking actions will still be performed on [Tetra](https://staking.orbs.network/#/) --- the Orbs staking wallet. The new Tetra wallet will soon be upgraded to support both Ethereum and Polygon side by side.
 
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
+**Guardians** - will be able to support both networks and receive delegations on both Ethereum and Polygon. Keep in mind that each network has its own separate self stake requirement, so a Guardian looking to receive delegations on both networks will be required to self stake separately in both. Guardians will still run a single validator node like before. Once updated, the new Orbs node will support both Ethereum and Polygon at the same time. We've put a lot of emphasis on optimization, so running the new Orbs node will not be more expensive.
 
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
+**Delegators** - will need to decide on which network they want to stake their tokens --- Ethereum or Polygon. Since the existing Ethereum mainnet smart contracts remain intact, ORBS can still be staked on Ethereum like before. Both networks pay the same staking rewards and have the same unstaking cooldown period, but gas is cheaper on Polygon so all actions on Polygon will require a fraction of the cost in fees.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
+![](/assets/img/blog/PolygonTech-imgages/image2.png)
 
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
-
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
-
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
-
-_\*出所_ [_https://staked.us/_](https://staked.us/)
-
-ORBS のデリゲータに毎月のリマインドです：
-
-### リワードを得るために、必ずステーキングしてください！
-
-### 今月からロックされたもののみがリワードの対象となります。
-
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
-
-必ず新しい Tetra ウォレットからステーキングしてください：
-
-[https://staking.orbs.network/](https://staking.orbs.network/)
-
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
-
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
-
-ステーキングメカニズムはこちらからご確認ください：
-
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
-
-...
-
-## **プレビューとティーザー**
-
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
-
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
-
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
-
-...
-
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
-
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
-
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
-
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
-
-最近公開されたブログ投稿のうち 2 つをご紹介します：
-
-### Blockchain の児童虐待画像への対応
-
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-### 可視化と説明責任の確保–
-
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
-
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
-
-...
-
-## **メディアハイライト**
-
-### Global Blockchain Business Council (GBBC)
-
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+As you can see in the architecture diagram above, the committee of elected validators is no longer dictated by Ethereum only. Since every set of election contracts emits a committee, the Orbs network will now have an Ethereum committee and a Polygon committee. There will probably be some overlap between the two as some Guardians are expected to seek delegations in both. The super committee of Orbs Network will be the union of the two committees.
