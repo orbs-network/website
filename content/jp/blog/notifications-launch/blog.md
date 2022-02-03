@@ -1,53 +1,96 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-By-the-Numbers/bg.png
-blogUrl: Orbs-By-the-Numbers-2
-date: 2021-08-30
-title: 数字で見るOrbs
+image: /assets/img/blog/notifications-launch/bg.jpg
+blogUrl: notifications-launch
+date: 2022-01-25
+title: "The Open DeFi Notification Protocol ：本日パブリック・ベータ版ローンチ！"
+
 author:
-  - /jp/blog/common/authors/Eddy.md
+  - /jp/blog/common/authors/RanHammer.md
 type:
 short_description:
 ---
 
-2017 年に Orbs Ltd.が設立され、2019 年に、商用利用可能な Orbs ネットワークのメインネットがスタートして以来、トークン・ディストリビューション・イベント、様々な取引所への上場、PoS ユニバースの継続的な成長、エンタープライズ・ビジネスとのパートナーシップ、マルチ・チェーン対応の DeFi 統合など、コミュニティが一丸となり、様々な努力によって Orbs Network は成長を続けてきました。プロジェクトの現状を簡単に理解するために、Orbs コアチームは、この道のりの中で過去 2 年間に達成されたことをピックアップして数字で表しました。これらの数字は、私たちにとっても、コミュニティメンバーにとっても、非常に興味深いものになるでしょう。
 
-こちらをご覧ください。
+グッドニュースです！
 
-![](/assets/img/blog/Orbs-By-the-Numbers/img1.jpg)
+本日、Orbsが提供するOpen DeFi Notification Protocolが、パブリック・ベータ版をローンチします！
 
-「数字で見る Orbs」について、 すべてのデータは 2021 年 8 月時点のものです。今後 Orbs ネットワークの成長に合わせて更新されます。
+このアップデートをOrbsコミュニティにお知らせできることを嬉しく思います。ご存知の通り、OrbsチームはDeFi分野に深く関わっており、[DeFi.org](https://defi.org/)のもと、より大きなDeFiコミュニティにアイデアやツールを提供することもあります。これらの取り組みの一環として、Orbsチームが Open DeFi Notification Protocolに貢献できることを嬉しく思います。これは、コミュニティにとって非常に有用なツールであることに加え、レイヤー３エグゼキューション・プロトコルとしてOrbs独自のL3ポジショニングを利用し実証する、チームによる最初のプロジェクトとなります。
 
-#### Orbs について: 1、5、30+
+[Open DeFi Notification Protocol](https://defi.org/notifications/)は、現在、[AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632)と[Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)の両方で公開されています。ぜひご自身でチェックしてみてください。
 
-Orbs は、イノベーションとスタートアップで有名なイスラエルにおけるブロックチェーンの有力企業です。Gartner 社による「[Cool vendors in blockchain technology](https://www.gartner.com/en/documents/3889066)」の 1 つに選ばれています。現在、30 人以上のチームメンバーが世界各地のオフィス（イスラエル、イギリス、韓国、シンガポール）で懸命に働いており、半数以上が研究開発チームです。Orbs のエコシステムの中には、世界中の多くのパートナーがいます。
 
-#### イノベーションと研究開発が原点：3、161
 
-Orbs は開発者に寄り添います。開発者は、AWS、Microsoft の Azure 、Google Cloud などの最も一般的なクラウド環境で、数回のクリックで簡単に Orbs での作業を始めることができます。Orbs は完全なオープンソース・プロジェクトで、プロジェクトの公式 github には 161 のリポジトリがあります。前述の通り、チームメンバーの半数は研究開発者であり、Orbs ネットワークは既存のソリューションのフォークではなく、ゼロから開発された、完全にパブリックでパーミションレスなブロックチェーン・ソリューションです。
+![](/assets/img/blog/notifications-launch/image1.png)
 
-#### Orbs ネットワークの状況 ：18、879、 2017、 4 万 6,000
 
-Orbs は 2017 年に設立され、2019 年 3 月に商用利用可能なメインネットをローンチしました。2021 年 8 月 19 日このブログ執筆時に、Orbs ネットワークは 879 日目を迎えています。そして現在、4 万 6,000 以上のツイッターのフォロワーと、その他のグローバルおよびローカルなソーシャル・チャンネルを通じて数千人のコミュニティ・メンバーを抱えています。ORBS トークンは、世界の 18 箇所の取引所で取引することができます。
+### OPEN DeFi Notification Protocol ：簡単な紹介
 
-#### Orbs は非中央集権型：8589、22 万 4000、3,800 万
+Open DeFi Notification Protocolは、オンチェーンでの重要イベントを分散化された無料のモバイル通知でユーザーに提供する、コミュニティ主導の取り組みです。
 
-Orbs ネットワークはパーミションレスのパブリック・ブロックチェーンであるため、統合されたすべてのブロックチェーン・ネットワーク（ETH、BSC、Polygon）上の ORBS トークンを保有する 8000 以上のアドレスに送信され、現在までに 22 万 4000 回以上の ORBS トークンの取引が行われています。イーサリアム上の主な流通供給に加えて、現在、イーサリアム・ネットワーク外に、BSC と Polygon ネットワークにスワップされた 3,800 万トークンも存在しています。
+* 無料：購読料や広告はありません！
 
-#### Orbs PoS ユニバース(1)： 8、 11、 14
+* 信頼性：アラートを見逃すことはありません
 
-Orbs PoS ユニバース に参加すると、最大 8% の報酬 (APR、年換算利回り) を得ることができます。ORBS のステーキングには、Win、Mac、Android、iOS で簡単に使用できる 11 種類の人気ウォレットで参加できます。ステークしたトークンをアンロックするには、14 日間のクールダウン期間があります。
+* マルチネットワーク対応：Ethereum、BSC、Polygon、など
 
-#### Orbs PoS ユニバース(2): 21、 1067、8 億 9800 万
+* コミュニティ主導でオープン： 公開され分散化されたアラートノード
 
-21 人のアクティブなガーディアンが、1,000 人以上のデリゲータとともに Orbs ネットワークを維持しています。PoS ユニバースにステークされたトークンの総数は 8 億 9800 万で、これは現在の流通量の約 40%にあたります。ステーキングされた Orbs トークンは、ネットワークにセキュリティとコンセンサス・ガバナンスを提供します。
+Githubで30分程の統合をするだけで、どのDeFiプロジェクトでも、累積保留報酬、価格変動、清算リスク、ストップロス、コントラクト・アップグレード、新しいガバナンス投票などの重要な事象に関する無料のモバイル通知をユーザーに提供することができます。
 
-#### 取引ボリューム：21,500 万、2 億 2,300 万、100 億
+ローンチ・パートナーも一流ぞろい
 
-Orbs は現在、Coinmarketcap のランキング 184 位で、時価総額は約 21,500 万です。100 億の総供給量のうち、2 億 2,300 万 ORBS が現在市場に出ています。
+このNotificationアプリには、ローンチ時からDeFiを代表する一流のプロトコルが統合されています。これらのプロトコルは、Ethereum、BSC、Polygon、Avalancheなど複数のチェーンにまたがり、DEX-AMM、イールド・アグリゲーター、ボールトなど複数の機能性を持っています。
 
-もちろん、これらの数字は最終的なものではなく、Orbs ネットワークの成長に伴って変化し続けます。
+![](/assets/img/blog/notifications-launch/image2.jpg)
+
+Open DeFi Notification Protocol のローンチ・パートナーと、サポート・プロトコルを詳しく見ていきましょう。
+
+Open Defi Notificationのローンチ・パートナー： [Orbs](https://www.orbs.com/)、[QuickSwap](https://quickswap.exchange/#/swap)、[TraderJoe](https://traderjoexyz.com/#/home)、[Dot.Finance](https://dot.finance/)、 [Dinoswap](https://dinoswap.exchange/)、[Revault Network](https://www.revault.network/)、[WOWSwap](https://wowswap.io/swap)、[KogeFarm](https://kogefarm.io/vaults)
+
+Open Defi Notification Networksの構成：Ethereum、Polygon、BSC、Avalanche
+
+他にも多くのトップDeFiプロトコルからNotification Appに対する関心が寄せられています。今後すぐにより多くの有名プロジェクトが参加しますので、お見逃しなく！
+
+自分だけのアラートを設定しよう！
+
+ここでは、DeFi Notificationが提供できるメリットをいくつか紹介します。
+
+-   新しくリリースされたムーンショット購入時、ストップ・ロスに注意
+
+-   値動きとTVL上昇を更新
+
+-   ポジション清算アラートを受信
+
+-   コントラクトのアップグレードを通知
+
+-   Ethereumガス価格の上下を通知
+
+-   他、多くのアラート
+
+次のビデオで、QuickSwapでの「ポジション値」の通知設定詳細をご覧ください。
+
+<iframe src="https://www.youtube.com/embed/PyS3A11XlWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Orbsコアチームは、DeFi Notification Protocolに貢献し続け、新しく洗練された機能を追加し、アプリの機能性を高めるために尽力しています。そして、多くのトップDeFiプロジェクトが、重要なオンチェーン・イベントのモバイル通知を、無料でユーザーに提供することに関心を寄せています。
+
+今後の発表
+
+私たちは、リアルタイムDeFi通知はDeFiインフラの重要な１部であり、業界に与える影響は非常に大きいと考えています。すでに、この重要な機能をユーザーに提供するため、トップ・プロトコルが動き出しています。そして、より多くのトップDeFiプロトコルがOpen DeFi Notification Protocolを統合し、それぞれのユースケースやユーザーに適した通知を提供することを期待しています。
+
+Orbsは、このプロトコルを実装する最初のプロジェクトであり、この取り組みの成功に貢献できること嬉しく思います。
+
+また、Open DeFi Notification protocolは、基盤となるLayer-1およびLayer-2のブロックチェーン上の様々なアクティビティを読み取り、DeFiユーザーがより高度でダイナミックな戦略を実行できるような情報を提供するインフラ・レイヤーを活用しており、[OrbsのLayer-3イノベーション](https://www.orbs.com/jp/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/)の一例でもあります。
+
+Notificationアプリを統合し、新しいアラートと機能を追加する、さらなるプロトコルの発表にご期待ください！
+
+最新情報については、Orbs公式 [Twitter](https://twitter.com/orbs_network)、[Telegram](https://t.me/OrbsNetwork)グループにご参加ください。
+
+[DeFi.orgテレグラム・グループ](https://t.me/defiorg)
 
 <div class='line-separator'></div>
 
-ご質問はいつでも[Orbs Japan Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)、[オフィシャル LINE](https://line.me/R/ti/p/%40vrf9558a)へご連絡ください。[Orbs Japan twitter](https://twitter.com/JapanOrbs)、日本語[youtube チャンネル](https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg) へのご登録もお待ちしています。
+ご注意ください
+
+アプリとプロトコルは開発中のベータ版であり、その使用にはリスクが伴います。アプリの使用は、https://defi.org/defi-notifications-terms-of-use/index.html に記載されている取引条件に従うものとします。
