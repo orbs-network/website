@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/polygon-staking/bg2.jpg
 blogUrl: polygon-staking
-date: 2022-11-01
+date: 2022-01-11
 title: "Orbsプロトコル・アップグレード計画：Ethereum と Polygon でのマルチチェーン・ステーキング"
 author:
   - /jp/blog/common/authors/RanHammer.md
