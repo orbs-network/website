@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Web-images/bg1.jpg
 blogUrl: Web
 date: 2022-01-17
-title: Web 3.0は価値があるか？
+title: "Web 3.0は価値があるか？"
 author:
   - /jp/blog/common/authors/NettaKorin.md
 type:
