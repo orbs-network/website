@@ -1,6 +1,9 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
-list:
+list: 
+  - notifications-launch/blog.md
+  - Web/blog.md
+  - polygon-staking/blog.md
   - NotificationsUpdate/blog.md
   - SecondContest/blog.md
   - Horizon/blog.md
