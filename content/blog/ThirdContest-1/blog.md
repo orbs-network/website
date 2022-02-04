@@ -28,7 +28,6 @@ And of course, we want to celebrate this important milestone with you, the Orbs 
 Post a short video of yourself setting up a[  DeFi Notification alert](https://www.orbs.com/notifications-launch/) for your favorite defi protocol; you are welcome to take a look at the following example:
 
 ✅ ⏰ The Open DeFi Notification Protocol - Position worth on [QuickSwap](https://www.youtube.com/watch?v=PyS3A11XlWQ&t=1s)
-<iframe src="https://www.youtube.com/embed/PyS3A11XlWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***And don't forget***  to post your video on Twitter and tag us at  [@orbs_network](https://twitter.com/orbs_network).
 
