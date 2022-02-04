@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/ThirdContest-images-1/bg.png
+image: /assets/img/blog/ThirdContest-images-1/bg.jpg
 blogUrl: ThirdContest-1
 date: 2022-02-04
 title: Orbs Third NFTs Contest Starts TODAY!
