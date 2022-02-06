@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: An Introduction to Proof-of-Stake and the Future of Consensus — a Talk by Orbs’ Head of Research
+image: /assets/img/blog/an-introduction-to-proof-of-stake-and-the-future-of-consensus - a-talk-by-orbs-head-of-research/bg.jpeg
+gdpr:
+  - /_shared/gdpr/index.md
