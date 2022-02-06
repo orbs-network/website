@@ -8,4 +8,5 @@ items:
   - polygon.md
   - solana.md
   - avalanche.md
+  - harmony.md
 ---

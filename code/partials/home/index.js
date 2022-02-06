@@ -8,6 +8,7 @@ const Main = ({ socials, mobile_btn, title, cards, _relativeURL, _ID }) => {
 
   return (
     <main className="home">
+
       {cards}
       <div className="home-flex main-grid flex-start">
         <div className="home-flex-left flex-column">
@@ -22,6 +23,17 @@ const Main = ({ socials, mobile_btn, title, cards, _relativeURL, _ID }) => {
           <div id="guardianDetails"></div>
         </div>
       </div>
+      <script
+        src={generateUrl('/assets/js/dependencies/jquery.js')}
+      ></script>
+      <script
+       
+        src={generateUrl(`/assets/js/dependencies/typed.js`)}
+      />
+   
+      <script src={generateUrl('/assets/js/dependencies/three.js')}></script>
+      <script src={generateUrl('/assets/js/dependencies/globe.js')}></script>
+      <script type="module" src={generateUrl(`/assets/js/home/main.js`)} />
     </main>
   );
 };

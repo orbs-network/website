@@ -1,4 +1,4 @@
-import "https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js";
+import "../dependencies/emailjs.js";
 import {
   USER_POST_USER_ID,
   USER_POST_SERVICE_ID,
