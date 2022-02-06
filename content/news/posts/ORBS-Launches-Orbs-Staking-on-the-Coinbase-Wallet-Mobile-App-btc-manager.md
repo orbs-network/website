@@ -1,0 +1,12 @@
+---
+layout: partials/news/post
+image: /assets/img/news/posts/ORBS-Launches-Orbs-Staking-on-the-Coinbase-Wallet-Mobile-App-btc-manager.jpeg
+url: https://crypto.news/coinbase-wallet-supports-orbs-staking/
+date: 13, May 2021
+logo: 
+  - ../website-logos/btc-manager.md
+
+---
+
+
+ORBS Launches Orbs Staking on the Coinbase Wallet Mobile App
