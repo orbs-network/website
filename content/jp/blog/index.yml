@@ -1,0 +1,16 @@
+layout: pages/page
+script: blogs/index
+
+header: /jp/_shared/navbar/index.md
+main:
+  - body.md
+footer: /jp/_shared/footer/footer.md
+subscribe: /jp/_shared/subscribe/subscribe.md
+gdpr: /jp/_shared/gdpr/index.md
+
+meta_description: The latest news, insights and thoughts from Orbs, the public-ready blockchain company.
+title: ブログ - Orbs
+meta_og_locale_alternate: ko_KR
+meta_og_locale_alternate_2: en_US
+meta_og_locale: ja_JP
+meta_image:

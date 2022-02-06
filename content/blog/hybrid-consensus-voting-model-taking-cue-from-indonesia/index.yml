@@ -1,0 +1,17 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: "A Hybrid Consensus Model for Voting: Taking a Cue From Indonesia"
+image: /assets/img/blog/hybrid-consensus-voting-model-taking-cue-from-indonesia/bg.jpg
+
+gdpr:
+  - /_shared/gdpr/index.md
