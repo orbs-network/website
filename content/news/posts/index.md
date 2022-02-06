@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - top-defi-projects-join-the-orbs-networkpowered-open-defi-notification-protocol.md
+  - DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-nasdaq.md
+  - DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-yahoo.md
+  - DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-marketwatch.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-bloomberg.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-yahoo.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-nasdaq.md
@@ -12,14 +16,14 @@ posts:
   - Orbs-Goes-Live-On-Harmony-Via-The-Horizon-Cross-Chain-Bridge.md
   - Orbs-Ecosystem-Expands-Further-With-Addition-of-Harmony-Network.md
   - Avalanche-DeFi-ecosystem-grows-45x-in-less-than-4-months-Orbs-speeds-up-expansion.md
-  - Orbs-is-now-live-on-Raydium.md
+  - Popular-Dapps-on-Avalanche.md
   - Orbs-the-Leading-Public-Blockchain-Infrastructure-Introduces-Its-Groundbreaking-Layer-3-Architecture.md
   - Orbs-Farming-Single-stake-Goes-Live-on-Pangolin.md
   - Open-DeFi-Notification-Protocol-Aims-to-Help-Traders-Manage-Risk-yahoo.md
   - Defi.Org-Accelerator-Launches-Open-DeFi-Notification-Protocol-by-Orbs.md
   - Open-DeFi-Notification-Protocol-Aims-to-Help-Traders-Manage-Risk-insider.md
-  - ORBS-Launches-on-Avalanche-based-DEX-Trader-Joe.md
   - ORBS-Gets-Listed-on-Largest-Avalanche-Based-DEX-Trader-Joe.md
+  - ORBS-Launches-on-Avalanche-based-DEX-Trader-Joe.md
   - The-Future-of-Crypto-is-One-of-Multiple-Chains-Orbs-and-Avalanche.md
   - Solana-Becomes-the-Next-Blockchain-Integration-for-Orbs-coingape.md
   - KogeFarm-Opens-an-ORBS-Vault-Which-Promises-up-to-920%-APY-coinpedia.md
@@ -46,6 +50,8 @@ posts:
   - Orbs-Announces-Integration-With-The-Graph-Protocol-cryptonews.md
   - Orbs-lists-Its-native-token-on-SushiSwap-DEX-zycrypto.md
   - Orbs-lists-Its-native-token-on-SushiSwap-DEX-crypto-news-flash.md
+  - ORBS-Launches-Orbs-Staking-on-the-Coinbase-Wallet-Mobile-App-btc-manager.md
+  - ORBS-Launches-Orbs-Staking-on-the-Coinbase-Wallet-Mobile-App-blockonomi.md
   - Orbs-Integrates-@chainlink-Price-Feeds-to-Secure-Single-Sided-Farming-Against-Flash-Loan-Attacks!-cryptopotato.md
   - Orbs-Integrates-@chainlink-Price-Feeds-to-Secure-Single-Sided-Farming-Against-Flash-Loan-Attacks!-cryptoslate.md
   - Orbs-Integrates-@chainlink-Price-Feeds-to-Secure-Single-Sided-Farming-Against-Flash-Loan-Attacks!-hodl.md
@@ -67,9 +73,5 @@ posts:
   - the-official-staking-wallet-of-the-Orbs-project-is-now-available-on-the-@enjin-mobile-app-reddit.md
   - the-official-staking-wallet-of-the-Orbs-project-is-now-available-on-the-@enjin-mobile-app-twitter.md
   - the-official-staking-wallet-of-the-Orbs-project-is-now-available-on-the-@enjin-mobile-app-utoday.md
-  
-
-  
-
 ---
 
