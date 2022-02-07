@@ -27,6 +27,7 @@ Take a look at some of the highlights:
 
 <div class='line-separator'> </div>
 
+
 **Orbs Introduces Multi-chain Staking Proposal**
 
 ![](/assets/img/blog/JanUpdate-images/image1.jpg)
