@@ -71,17 +71,17 @@ Read all about it in the [full blog](https://www.orbs.com/notifications-launch/)
 
 <div class='line-separator'> </div>
 
-**Leading DeFi Protocols are Integrating their Platforms into the Open DeFi Notification App
+**Leading DeFi Protocols are Integrating their Platforms into the Open DeFi Notification App**
 
 ![](/assets/img/blog/JanUpdate-images/image3.jpg)
 
 🔹Right from the launch of the Open DeFi Notification Protocol, we already have leading DeFi protocols having their platform integrated into the Notification App! 🦾😎
 
-**Launch Partners: 
+**Launch Partners:** 
 
 [Orbs](https://www.orbs.com/), [QuickSwap](https://quickswap.exchange/#/swap), [TraderJoe](https://traderjoexyz.com/#/home), [Dot.Finance](https://dot.finance/), [DinoSwap](https://dinoswap.exchange/), [Revault Network](https://www.revault.network/), [WOWSwap](https://wowswap.io/swap), [KogeFarm](https://kogefarm.io/vaults)
 
-**Supported Networks: 
+**Supported Networks:** 
 
 Ethereum, Polygon, BSC, Avalanche
 
@@ -89,7 +89,7 @@ Ethereum, Polygon, BSC, Avalanche
 
 <div class='line-separator'> </div>
 
-**QuickSwap Launches a Dragon's Syrup Pool for Orbs
+**QuickSwap Launches a Dragon's Syrup Pool for Orbs**
 
 ![](/assets/img/blog/JanUpdate-images/image5.jpg)
 
