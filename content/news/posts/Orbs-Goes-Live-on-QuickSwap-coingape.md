@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/Orbs-Goes-Live-on-QuickSwap-coingape.jpeg
 url: https://coingape.com/orbs-is-available-on-quickswap/
 date: 10, August 2021

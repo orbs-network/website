@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs-paceholder.webp
 
 url: https://old.reddit.com/r/economy/comments/mrwp5p/orbs_network_a_blockchainbased_platform_designed/

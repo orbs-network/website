@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs-paceholder.webp
 
 url: https://old.reddit.com/r/Chainlink/comments/nki7a7/orbs_integrates_with_chainlink_to_create_flash/
