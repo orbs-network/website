@@ -1,181 +1,142 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/JanUpdate-images/bg.jpg
+blogUrl: JanUpdate
+date: 2022-02-07
+title: Orbs January 2022 Update 
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/OlgaChef.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
+Hey Orbs followers!
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+The first month of the year has brought with it new beginnings, exciting events, challenging projects and integrations.
 
-...
+Let's dive in this short recap together and see which updates you like the most 🤓
 
-## **DeFi の時代！**
+Take a look at some of the highlights:
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+📌 Orbs [Multi-chain Staking Proposal](https://www.orbs.com/polygon-staking/) makes the headlines of the top media sources!
 
-みなさん!
+📌 The Open DeFi Notification Protocol, powered by Orbs, [Launches Public Beta](https://www.orbs.com/notifications-launch/) 
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+📌 Leading DeFi protocols are integrating their platforms into the [Open DeFi Notification App](https://defi.org/notifications/)
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+📌 QuickSwap Launches a [Dragon's Syrup Pool](https://www.orbs.com/DragonSyrup/) for Orbs
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+<div class='line-separator'> </div>
 
-...
+**Orbs Introduces Multi-chain Staking Proposal
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+![](/assets/img/blog/JanUpdate-images/image1.jpg)
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+🔹The Orbs team proposed utilizing Orbs' hybrid architecture and cross-chain properties to deploy multi-chain Orbs PoS staking, adding Polygon to the existing staking on Ethereum.
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+🔹The multi-chain staking solution proposed by the team is expected to completely mitigate the current high Ethereum gas costs for Orbs delegators interacting with the Orbs staking contracts.
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+🔹The end result will, if accepted by the ecosystem, allow Orbs Delegators to have the ability to choose between staking on Ethereum and staking on Polygon, based on their own personal preferences and considerations.
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+🔹Having the Orbs governance mechanism deployed on multiple chains is a revolutionary and bold move by the Orbs project which conforms with Orbs vision of interoperability across the crypto space.
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+🔹Right after the proposal release, top media sources featured the event. Read more on: [Investing.com](https://www.investing.com/news/cryptocurrency-news/orbs-seek-community-consensus-to-pioneer-multichain-staking-on-ethereum--polygon-2735935), [Yahoo](https://finance.yahoo.com/news/orbs-pioneers-multi-chain-staking-164500489.html), [CoinCodex](https://coincodex.com/article/13368/orbs-network-proposes-multi-chain-staking-on-ethereum-and-polygon-blockchains/).
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
+Read all about Orbs Multi-Chain Staking on Ethereum and Polygon in the [full blog](https://www.orbs.com/polygon-staking/).
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+<div class='line-separator'> </div>
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+**The Open DeFi Notification Protocol, powered by Orbs, Launches Public Beta!
 
-...
+![](/assets/img/blog/JanUpdate-images/image2.jpg)
 
-## **Orbs PoS V2：ガーディアンの時代**
+🔹The Open DeFi Notification Protocol is a community inspired initiative spearheaded by DeFi.org, to provide users with decentralized and free mobile notifications for crucial on-chain events:
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+✅ Free for use --- no subscription fees or ads!
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+✅ Dependable --- never miss an alert
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+✅ Multi network support --- Ethereum, BSC, Polygon and more
 
-### ベータプロモーションリワード
+✅ Community-led and open --- public and decentralized alert nodes
 
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
+🔹We believe that real-time DeFi notifications are a critical piece of the DeFi infrastructure puzzle and its impact on the industry will be massive.
 
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+🔹Orbs is excited to be the first project to implement the protocol and contribute to the success of this initiative as part of Orbs' Layer-3 innovation!
 
-...
+🔹The Open DeFi Notification Protocol is now available on both [AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp). You're welcome to check it out and try it for yourself.
 
-## **ネットワークの状況**
+🔹Right after the launch, top media sources featured the launch. Read more on: [Bloomberg](https://www.bloomberg.com/press-releases/2022-01-25/defi-org-launches-the-open-defi-notification-protocol-powered-by-the-orbs-network), [Yahoo](https://finance.yahoo.com/news/defi-org-launches-open-defi-123000053.html#:~:text=Newsfile-,DeFi.org%20Launches%20the%20Open%20DeFi%20Notification%20Protocol%20Powered%20by,Newsfile%20Corp.&text=Orbs%20ushers%20in%20the%20next,on%20Apple%20and%20iOS%20devices), [Nasdaq](https://www.nasdaq.com/press-release/defi.org-launches-the-open-defi-notification-protocol-powered-by-the-orbs-network).
 
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
+Read all about it in the [full blog](https://www.orbs.com/notifications-launch/).
 
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
+<div class='line-separator'> </div>
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
+**Leading DeFi Protocols are Integrating their Platforms into the Open DeFi Notification App
 
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
+![](/assets/img/blog/JanUpdate-images/image3.jpg)
 
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
+🔹Right from the launch of the Open DeFi Notification Protocol, we already have leading DeFi protocols having their platform integrated into the Notification App! 🦾😎
 
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
+**Launch Partners: 
 
-_\*出所_ [_https://staked.us/_](https://staked.us/)
+[Orbs](https://www.orbs.com/), [QuickSwap](https://quickswap.exchange/#/swap), [TraderJoe](https://traderjoexyz.com/#/home), [Dot.Finance](https://dot.finance/), [DinoSwap](https://dinoswap.exchange/), [Revault Network](https://www.revault.network/), [WOWSwap](https://wowswap.io/swap), [KogeFarm](https://kogefarm.io/vaults)
 
-ORBS のデリゲータに毎月のリマインドです：
+**Supported Networks: 
 
-### リワードを得るために、必ずステーキングしてください！
+Ethereum, Polygon, BSC, Avalanche
 
-### 今月からロックされたもののみがリワードの対象となります。
+![](/assets/img/blog/JanUpdate-images/image4.png)
 
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
+<div class='line-separator'> </div>
 
-必ず新しい Tetra ウォレットからステーキングしてください：
+**QuickSwap Launches a Dragon's Syrup Pool for Orbs
 
-[https://staking.orbs.network/](https://staking.orbs.network/)
+![](/assets/img/blog/JanUpdate-images/image5.jpg)
 
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
+🔹One of the first Orbs integrations was with Polygon. It has been accomplished by bridging the ORBS token into Polygon, and then integrating the bridged Orbs token with QuickSwap, the Polygon DeFi ecosystem's biggest and most active DEX-AMM.
 
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
+🔹Next, the Orbs Dragon Syrup Pool on QuickSwap went [live](https://twitter.com/orbs_network/status/1483507403811401734?cxt=HHwWjMC5nfaHvZYpAAAA)! The "Dragon's Syrup" program by QuickSwap enables $QUICK token stakers to earn extra rewards by staking their $dQUICK (the asset you receive when you deposit your Quick into the staking contract) to earn tokens that are traded on the DEX.
 
-ステーキングメカニズムはこちらからご確認ください：
+🔹To make things simple: you can now stake your dQUICK to earn ORBS tokens under 'Farms -> [Dragon's Syrup' tab](https://quickswap.exchange/#/syrup).
 
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
+![](/assets/img/blog/JanUpdate-images/image6.png)
 
-...
+Read all about it in the [full blog](https://www.orbs.com/DragonSyrup/).
 
-## **プレビューとティーザー**
+<div class='line-separator'> </div>
 
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
+And of course, there's so much more coming soon! Keep following and don't miss any important update)
 
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
+Look for the Orbs team on social media - we're always here for our community - answering questions, providing support and trying to reach out to new participants. Want to talk to us? You can find us on the following:
 
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
+🔗 Social Channels:
 
-...
+[Telegram official channel](https://t.me/OrbsNetwork) 
 
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
+[Telegram Announcements](https://t.me/OrbsAnnouncements) 
 
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
+[Twitter](https://twitter.com/orbs_network)
 
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
+ [YouTube](https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured) 
 
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
+[Japanese chat](https://page.line.me/?accountId=718ayvky) (LINE)
 
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
+[Korean chat](https://open.kakao.com/o/giYtuTRb) (Kakao)
 
-最近公開されたブログ投稿のうち 2 つをご紹介します：
+[Discourse](https://www.orbs.com/contact/) (Orbs Universe members talk)
 
-### Blockchain の児童虐待画像への対応
+🌎 Our Official Websites:
 
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
+[Orbs website](https://www.orbs.com/) 
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
+[Hexa Foundation](https://www.hexa.org/)
 
-### 可視化と説明責任の確保–
+You'll be hearing from us soon!
 
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
+Until next time!
 
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
+***Please Note***
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
+*Use of the platforms and services described above carries significant risk. Digital assets and decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses.*
 
-...
-
-## **メディアハイライト**
-
-### Global Blockchain Business Council (GBBC)
-
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+*Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services.*
