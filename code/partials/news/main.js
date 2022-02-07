@@ -24,7 +24,7 @@ const Main = ({ mainPost, postsTop, videoSection, loadMoreButton, subscribe, _re
                 <Posts id='news-posts-bottom' />
             </div>
             {loadMoreButton}
-
+            <script type='module' src={generateUrl(`/assets/js/news/index.js`)} />
         </main>
     )
 }

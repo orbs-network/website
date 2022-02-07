@@ -1,6 +1,5 @@
 layout: pages/page
 
-script: news/index
 header:
   - /_shared/navbar/index.md
 main:
