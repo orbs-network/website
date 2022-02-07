@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs-paceholder.webp
 url: https://markets.businessinsider.com/news/stocks/orbs-is-now-accessible-on-the-binance-smart-chain-via-anyswap-cross-chain-bridge-1030337577
 date: 30, April 2021

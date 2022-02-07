@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/Orbs-is-now-live-on-@PancakeSwap-After-bridging-the-ORBS-token-into-BSC-using-@anyswapnetwork-and-@multichainxyz-orbs.jpeg
 
 url: https://www.orbs.com/orbs-is-now-live-on-pancakeswap/

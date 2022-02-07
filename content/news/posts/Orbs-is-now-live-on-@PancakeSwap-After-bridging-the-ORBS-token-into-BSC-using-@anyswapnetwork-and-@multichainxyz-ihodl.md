@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/Orbs-is-now-live-on-@PancakeSwap-After-bridging-the-ORBS-token-into-BSC-using-@anyswapnetwork-and-@multichainxyz-ihodl.jpeg
 
 url: https://ihodl.com/topnews/2021-04-23/orbs-now-binance-smart-chain-aniswap-bridge/

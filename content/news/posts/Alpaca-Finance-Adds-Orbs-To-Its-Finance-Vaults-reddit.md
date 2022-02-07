@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs-paceholder.webp
 
 url: https://old.reddit.com/r/ethtrader/comments/ok7vlf/alpaca_finance_adds_orbs_to_its_finance_vaults/

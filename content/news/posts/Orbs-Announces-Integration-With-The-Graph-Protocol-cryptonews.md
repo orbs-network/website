@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/Orbs-Announces-Integration-With-The-Graph-Protocol-cryptonews.png
 
 url: https://cryptonews.com/news/orbs-announces-integration-with-the-graph-protocol-10441.htm

@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/The-ORBS-BUSD-Pool-on-Pancakeswap-Was-Added-By-Beefy-Finance-utoday.png
 
 url: https://u.today/the-orbs-busd-pool-on-pancakeswap-was-added-by-beefy-finance

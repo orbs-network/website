@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs-paceholder.webp
 
 url: https://markets.businessinsider.com/news/stocks/orbs-integrates-with-chainlink-to-create-flash-loan-proof-single-sided-farming-protocol-1030425844

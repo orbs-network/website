@@ -1,7 +1,7 @@
 import React from 'react'
 import { images } from '../../../assets/js/images';
 import { handleUrl } from '../../util/link'
-import Posts from './posts';
+import Posts from './Posts';
 
 const Main = ({ mainPost, postsTop, videoSection, loadMoreButton, subscribe, _relativeURL, _ID, trendingPosts }) => {
     const generateUrl = (url) => {
