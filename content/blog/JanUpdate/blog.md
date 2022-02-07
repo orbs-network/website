@@ -27,7 +27,6 @@ Take a look at some of the highlights:
 
 <div class='line-separator'> </div>
 
-
 **Orbs Introduces Multi-chain Staking Proposal**
 
 ![](/assets/img/blog/JanUpdate-images/image1.jpg)
@@ -45,6 +44,7 @@ Take a look at some of the highlights:
 Read all about Orbs Multi-Chain Staking on Ethereum and Polygon in the [full blog](https://www.orbs.com/polygon-staking/).
 
 <div class='line-separator'> </div>
+
 
 **The Open DeFi Notification Protocol, powered by Orbs, Launches Public Beta!**
 
@@ -71,6 +71,7 @@ Read all about Orbs Multi-Chain Staking on Ethereum and Polygon in the [full blo
 Read all about it in the [full blog](https://www.orbs.com/notifications-launch/).
 
 <div class='line-separator'> </div>
+
 
 **Leading DeFi Protocols are Integrating their Platforms into the Open DeFi Notification App**
 
