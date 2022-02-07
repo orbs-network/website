@@ -42,6 +42,7 @@ Take a look at some of the highlights:
 🔹Right after the proposal release, top media sources featured the event. Read more on: [Investing.com](https://www.investing.com/news/cryptocurrency-news/orbs-seek-community-consensus-to-pioneer-multichain-staking-on-ethereum--polygon-2735935), [Yahoo](https://finance.yahoo.com/news/orbs-pioneers-multi-chain-staking-164500489.html), [CoinCodex](https://coincodex.com/article/13368/orbs-network-proposes-multi-chain-staking-on-ethereum-and-polygon-blockchains/).
 
 Read all about Orbs Multi-Chain Staking on Ethereum and Polygon in the [full blog](https://www.orbs.com/polygon-staking/).
+
 <div class='line-separator'> </div>
 
 **The Open DeFi Notification Protocol, powered by Orbs, Launches Public Beta!**
