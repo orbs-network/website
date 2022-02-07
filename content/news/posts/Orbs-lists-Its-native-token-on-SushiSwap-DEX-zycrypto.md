@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/Orbs-lists-Its-native-token-on-SushiSwap-DEX-zycrypto.jpeg
 
 url: https://zycrypto.com/orbs-token-is-now-accessible-on-sushiswap-decentralized-exchange/

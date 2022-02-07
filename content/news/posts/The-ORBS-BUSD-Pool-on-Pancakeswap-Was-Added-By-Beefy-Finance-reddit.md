@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs-paceholder.webp
 
 url: https://old.reddit.com/r/CryptoCurrencies/comments/oj1t43/binance_smart_chainbased_beefy_finance_adds/

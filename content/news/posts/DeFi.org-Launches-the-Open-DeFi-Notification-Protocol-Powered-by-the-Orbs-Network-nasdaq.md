@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/nasdaq-placeholder-1.png
 
 url: https://www.nasdaq.com/press-release/defi.org-launches-the-open-defi-notification-protocol-powered-by-the-orbs-network

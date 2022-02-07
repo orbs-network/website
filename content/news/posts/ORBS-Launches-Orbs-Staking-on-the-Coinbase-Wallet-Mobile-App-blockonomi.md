@@ -1,8 +1,8 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/ORBS-Launches-Orbs-Staking-on-the-Coinbase-Wallet-Mobile-App-blockonomi.jpeg
 url: https://blockonomi.com/orbs-staking-coinbase-wallet/
-date: 2, September 2021
+date: 13, May 2021
 logo: 
   - ../website-logos/blockonomi.md
 

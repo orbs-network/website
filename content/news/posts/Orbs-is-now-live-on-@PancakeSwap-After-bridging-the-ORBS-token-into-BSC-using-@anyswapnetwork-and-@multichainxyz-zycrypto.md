@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/Orbs-is-now-live-on-@PancakeSwap-After-bridging-the-ORBS-token-into-BSC-using-@anyswapnetwork-and-@multichainxyz-zycrypto.jpeg
 url: https://zycrypto.com/orbs-now-bridged-to-binance-smart-chain-bsc-with-anyswap/
 date: 30, April 2021

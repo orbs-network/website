@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/orbs_network-holders-can-now-stake-directly-from-@MetaMask.jpeg
 
 url: https://btcmanager.com/orbs-network-orbs-holders-stake-metamask/

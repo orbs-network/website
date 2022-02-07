@@ -1,5 +1,5 @@
 ---
-layout: partials/news/post
+layout: partials/news/Post
 image: /assets/img/news/posts/yahoo-finance-placeholder.jpeg
 
 url: https://finance.yahoo.com/news/orbs-integrates-chainlink-create-flash-120000128.html
