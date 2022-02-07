@@ -13,8 +13,6 @@ const Main = ({ mainPost, postsTop, videoSection, loadMoreButton, subscribe, _re
             <img className='news-figure news-figure-top' src={generateUrl(images.news.figure)} />
             <img className='news-figure news-figure-bottom' src={generateUrl(images.news.figure)} />
             <img className='news-bg' src={generateUrl(images.news.dots)} />
-
-
             <div className='news-grid'>
                 {mainPost}
                 {trendingPosts}
