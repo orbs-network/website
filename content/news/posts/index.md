@@ -1,5 +1,5 @@
 ---
-layout: partials/news/Posts
+layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
