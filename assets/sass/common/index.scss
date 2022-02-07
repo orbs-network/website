@@ -218,7 +218,7 @@ $light-gray: #d0d0d0;
   }
 }
 
-@media only screen and (max-width: $laptop) {
+@media only screen and (max-width: 1500px) {
   .main-grid {
     width: calc(100% - 100px);
   }
