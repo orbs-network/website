@@ -1,0 +1,153 @@
+@import "./cards.scss";
+
+.globe-container {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(100px);
+}
+
+#globeArea {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#guardianDetails {
+  display: none;
+  position: absolute;
+  right: 20vw;
+  bottom: 20vh;
+  max-width: 400px;
+  width: calc(100% - 40px);
+}
+.home {
+  padding-top: 110px;
+  background: #000011;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  .title {
+    text-align: left;
+  }
+
+  .link-btn {
+    margin: 0px;
+    margin-top: 30px;
+    font-family: "light";
+    min-height: 50px;
+    display: flex;
+    z-index: 99;
+    font-size: 0.75rem;
+  }
+
+  &-flex {
+    align-items: flex-start;
+    position: relative;
+    &-left {
+      z-index: 100;
+      position: relative;
+      padding-top: 28vh;
+
+      h2 {
+        font-size: 1.375rem;
+        font-family: $light-font;
+        text-transform: uppercase;
+        letter-spacing: 0.138rem;
+        margin-bottom: 5px;
+      }
+      h1 {
+        font-size: 2.063rem;
+        letter-spacing: 0.206rem;
+      }
+      .socials {
+        margin-top: 18vh;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .home {
+    &-globe-image {
+      right: -30vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .globe-container {
+    transform: translate(0);
+  }
+}
+
+@media only screen and (max-width: $medium) {
+  .home {
+    &-flex-left {
+      h2 {
+        font-size: 1.125rem;
+        letter-spacing: 0.138rem;
+      }
+      h1 {
+        font-size: 1.563rem;
+        letter-spacing: 0.13rem;
+      }
+    }
+    &-globe-image {
+      transform: translate(180px);
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .globe-container {
+    height: 100%;
+  }
+  #globeArea {
+    top: 40px;
+  }
+  #guardianDetails {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 30px;
+    right: auto;
+  }
+  .home {
+    padding-top: 90px;
+    height: 100%;
+    .title {
+      text-align: center;
+    }
+    .link-btn {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      z-index: 99;
+      padding: 8px 40px 8px 20px;
+      margin-bottom: 0px;
+      &-arrow {
+        right: 15px;
+      }
+    }
+    &-flex {
+      width: 100%;
+      overflow: hidden;
+
+      flex-direction: column;
+      &-left {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: flex-start;
+        height: auto;
+        text-align: center;
+        .socials {
+          display: none;
+        }
+      }
+    }
+  }
+}

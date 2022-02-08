@@ -1,0 +1,81 @@
+.smart-contracts {
+  .page-header {
+    margin-bottom: 80px;
+  }
+  &-flex {
+    &-title {
+      margin-bottom: 70px;
+      letter-spacing: 0.029rem;
+      text-align: center;
+    }
+    &-list {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      .expending-box {
+        margin-bottom: 50px;
+        width: calc(50% - 50px);
+        margin-right: 100px;
+        &:nth-child(2n) {
+          margin-right: 0px;
+        }
+        .expend-btn {
+          @include pink-expend-btn();
+        }
+      }
+    }
+  }
+
+  &-content {
+    .boxes {
+      margin-top: 55px;
+    }
+    &-text {
+      .text-p {
+        margin-bottom: 30px;
+      }
+      .expending-box {
+        &-content {
+          max-width: 880px;
+        }
+        &-text {
+          max-width: 810px;
+        }
+        &-title {
+          margin-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $medium) {
+  .smart-contracts {
+    &-flex-list {
+      .expending-box {
+        width: 100%;
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .smart-contracts {
+    .page-header {
+      margin-bottom: 50px;
+      &-text {
+        .sub-title {
+          font-size: 1rem;
+          line-height: 1.4rem;
+        }
+      }
+    }
+    &-flex {
+      &-list {
+        .expending-box {
+          margin-bottom: 35px;
+        }
+      }
+    }
+  }
+}
