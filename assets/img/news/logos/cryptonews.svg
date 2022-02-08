@@ -1,3 +1,61 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:754e9a112d8705bed202c781cd95f06d1a2c651d69f0c6edef0f45825ee3296d
-size 3631
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <linearGradient id="9sscldxbva" x1="-.052%" x2="99.948%" y1="50.122%" y2="50.122%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".52"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".62"/>
+        </linearGradient>
+        <linearGradient id="hgz81fip5b" x1="-.104%" x2="99.896%" y1="50.081%" y2="50.081%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".97"/>
+        </linearGradient>
+        <linearGradient id="4n7suem3ac" x1="-.052%" x2="99.948%" y1="50.203%" y2="50.203%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".52"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".62"/>
+        </linearGradient>
+        <linearGradient id="26rz0jq92d" x1="-.052%" x2="99.948%" y1="50.284%" y2="50.284%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".8"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".7"/>
+        </linearGradient>
+        <linearGradient id="8g4l5zgu3e" x1="-.052%" x2="99.948%" y1="50.041%" y2="50.041%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".67"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".62"/>
+        </linearGradient>
+        <linearGradient id="2ate2znlqf" x1="-.052%" x2="99.948%" y1="50.041%" y2="50.041%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".89"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".8"/>
+        </linearGradient>
+        <linearGradient id="jaq0fappfg" x1="-.052%" x2="99.948%" y1="50.284%" y2="50.284%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".67"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".62"/>
+        </linearGradient>
+        <linearGradient id="722hihw56h" x1="-.052%" x2="99.948%" y1="50.284%" y2="50.284%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".89"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".8"/>
+        </linearGradient>
+        <linearGradient id="dfy6cdmegi" x1="-.052%" x2="99.948%" y1="50.041%" y2="50.041%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".8"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".7"/>
+        </linearGradient>
+        <linearGradient id="sckydja3lj" x1="-.052%" x2="99.948%" y1="50.122%" y2="50.122%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".9"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".95"/>
+        </linearGradient>
+        <linearGradient id="r74uhwd9bk" x1="-.052%" x2="99.948%" y1="50.203%" y2="50.203%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".9"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".95"/>
+        </linearGradient>
+    </defs>
+    <g fill="none">
+        <path fill="url(#9sscldxbva)" d="M18 12L12 18 24 18z"/>
+        <path fill="url(#hgz81fip5b)" d="M6 12L0 6 0 18z"/>
+        <path fill="url(#4n7suem3ac)" d="M18 12L24 6 12 6z"/>
+        <path fill="url(#26rz0jq92d)" d="M12 6L18 0 6 0z"/>
+        <path fill="url(#8g4l5zgu3e)" d="M18 24L24 18 12 18z"/>
+        <path fill="url(#2ate2znlqf)" d="M6 24L12 18 0 18z"/>
+        <path fill="url(#jaq0fappfg)" d="M18 0L12 6 24 6z"/>
+        <path fill="url(#722hihw56h)" d="M0 6L12 6 6 0z"/>
+        <path fill="url(#dfy6cdmegi)" d="M12 18L6 24 18 24z"/>
+        <path fill="url(#sckydja3lj)" d="M6 12L0 18 12 18z"/>
+        <path fill="url(#r74uhwd9bk)" d="M12 6L0 6 6 12z"/>
+    </g>
+</svg>

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2eafd88ff8deecbebdd95ac9b8b7ee5771963b8a1962fcf51c5935c46103a3a9
-size 850
+<svg xmlns="http://www.w3.org/2000/svg" width="248.132" height="81.847" viewBox="0 0 248.132 81.847">
+  <g id="Group_2148" data-name="Group 2148" transform="translate(780.438 2590.087) rotate(180)">
+    <path id="Path_982" data-name="Path 982" d="M0,0,20.088,44.3,241.63,80.652V0Z" transform="translate(776.477 2588.893) rotate(180)" fill="#ca6bfc"/>
+    <path id="Path_983" data-name="Path 983" d="M-3102.695-500.668l102.621,54.74h-98.383Z" transform="translate(3635 3036.016)" fill="#43455a" opacity="0.2"/>
+    <path id="Path_984" data-name="Path 984" d="M-2958.385-486.642l27.362,37.224H-3091.9Z" transform="translate(3711.461 3039.505)" fill="#43455a" opacity="0.2"/>
+    <path id="Path_985" data-name="Path 985" d="M-2980.607-513.984l182.011,53.443h-153.9Z" transform="translate(3562.114 3049.15)" fill="#a862fe" opacity="0.55"/>
+  </g>
+</svg>
