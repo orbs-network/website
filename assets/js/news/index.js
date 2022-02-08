@@ -71,27 +71,25 @@ const loadMore = (amount) => {
 const createItem = (element) => {
   const props = JSON.parse(element.getAttribute('data-component'))
   try {
-    
-
-    const { date, image, url, _body: body, logo } = props
+  
+    const { date, image, url,body, logo } = props
     const post = document.createElement('li')
     post.classList.add('news-post')
     post.id = element.id
   
-    const logoElement = logo && logo[0] && logo[0].props.dangerouslySetInnerHTML.__html
     const html = `
     <a href=${url} target='_blank' class='news-post-link'>
         <img src=${image} class='news-post-img' />
         <div class='news-post-content'>
           <div class='news-post-content-flex'>
           <div  class='news-post-logo'>
-          ${logoElement ? logoElement : '<img src="" />'}
+           <img src="${logo}" />
           </div>
           <div class='news-post-date'>
           ${date}
           </div>
           </div>
-        <div class='news-post-body'>${body.props.dangerouslySetInnerHTML.__html}</div>
+        <div class='news-post-body'>${body}</div>
        
         </div>
     </a>`
