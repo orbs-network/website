@@ -4,8 +4,7 @@ image: /assets/img/news/posts/Orbs-Announces-Integration-With-The-Graph-Protocol
 
 url: https://www.crypto-news-flash.com/the-next-level-of-open-source-data-from-orbs-as-seen-through-the-graph-protocol-lens/
 date: 25, May 2021
-logo: 
-  - ../website-logos/crypto-news-flash.md
+logo: /assets/img/news/logos/crypto-news-flash.webp
 ---
 
 Orbs Announces Integration With The Graph Protocol
