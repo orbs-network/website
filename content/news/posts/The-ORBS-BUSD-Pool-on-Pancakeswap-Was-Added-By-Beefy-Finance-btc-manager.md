@@ -4,8 +4,7 @@ image: /assets/img/news/posts/The-ORBS-BUSD-Pool-on-Pancakeswap-Was-Added-By-Bee
 
 url: https://btcmanager.com/binance-smart-chain-beefy-finance-orbs-busd-pool-vault/
 date: 8, July 2021
-logo: 
-  - ../website-logos/btc-manager.md
+logo: /assets/img/news/logos/btc-manager.png
 ---
 
 The ORBS-BUSD Pool on Pancakeswap Was Added By Beefy Finance

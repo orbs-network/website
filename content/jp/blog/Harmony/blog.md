@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Harmony-images/bg.jpg
 blogUrl: Harmony
 date: 2021-12-15
-title: Orbsエコシステムの成長：Harmony
+title: "Orbsエコシステムの成長：Harmony"
 author:
   - /jp/blog/common/authors/RanHammer.md
 type:
