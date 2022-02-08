@@ -4,8 +4,7 @@ image: /assets/img/news/posts/Orbs-is-live-on-@awscloud-AMI-published-by-AWS-Mar
 
 url: https://twitter.com/orbs_network/status/1380136495319748609
 date: 8, April 2021
-logo: 
-  - ../website-logos/twitter.md
+logo: /assets/img/news/logos/twitter.png
 ---
 
 Orbs is live on @awscloud AMI, published by AWS Marketplace 
