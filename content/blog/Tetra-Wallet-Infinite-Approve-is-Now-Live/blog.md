@@ -25,7 +25,7 @@ Up until now, each time an Orbs Delegator wanted to stake ORBS on Tetra, he had 
 
 We received a lot of feedback from the community that this step is redundant and only puts additional costs for Orbs Delegators. It is true that for most protocols, like DEXs for example, there is only a 1-time approval when swapping tokens.
 
-**As a result, the team has updated Tetra architecture and, from now on, the ORBS approval transaction will be required only when staking ORBS for the first time, after which it will no longer be needed when re-staking*.**
+**As a result, the team has updated Tetra architecture and, from now on, the ORBS approval transaction will be required only when staking ORBS for the first time, after which it will no longer be needed when re-staking(*).**
 
 *Orbs Delegators can always remove the ORBS token approval using existing tools such as [approved.zone](https://approved.zone/).
 
