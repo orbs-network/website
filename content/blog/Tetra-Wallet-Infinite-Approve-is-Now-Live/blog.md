@@ -1,67 +1,60 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Tetra-Wallet-Infinite-Approve-is-Now-Live/bg.png
+blogUrl: Tetra-Wallet-Infinite-Approve-is-Now-Live
+date: 2021-02-10
+title: "Tetra Wallet: Infinite Approve is Now Live"
 author:
   - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Hello Orbs community!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Orbs recently announced its latest protocol update [proposal](https://www.orbs.com/polygon-staking/) for multi-chain staking on Ethereum and Polygon.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+This proposal addresses one of the key feedbacks from the community following the V2 launch: the substantial increase in ETH price and soaring gas prices for Orbs Delegators. The multi-chain staking solution proposed by the Orbs team is expected to completely mitigate the current high Ethereum gas costs for Orbs Delegators interacting with the Orbs staking contracts. The end result will allow Orbs Delegators to have the ability to choose between staking on Ethereum and staking on Polygon, based on their own personal preferences and considerations.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+One of the action items for Polygon staking is revamping [Tetra](https://staking.orbs.network/): the official staking wallet by the Orbs team. As part of this revamp, the Orbs team also took the time to address one other feedback from the community regarding the staking flow - **specifically the “Approval” step.**
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Improved Staking Flow
 
-Please also see our disclaimers below.
+Up until now, each time an Orbs Delegator wanted to stake ORBS on Tetra, he had to send an “Approve” transaction for his ORBS tokens in order to allow Tetra to stake the ORBS. Originally, this was designed as a security feature, as it is good practice to not leave open token approvals when interacting with smart contracts.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+We received a lot of feedback from the community that this step is redundant and only puts additional costs for Orbs Delegators. It is true that for most protocols, like DEXs for example, there is only a 1-time approval when swapping tokens.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**As a result, the team has updated Tetra architecture and, from now on, the ORBS approval transaction will be required only when staking ORBS for the first time, after which it will no longer be needed when re-staking*.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+*Orbs Delegators can always remove the ORBS token approval using existing tools such as [approved.zone](https://approved.zone/).
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Here is the new staking flow on Tetra -
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+**1) First time ever Staking:**
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Connect Metamask Wallet with TETRA -> Select a Guardian (Transaction #1) -> Approve ORBS token usage (Transaction #2) -> Stake ORBS (Transaction #3)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+![Approve](/assets/img/blog/Tetra-Wallet-Infinite-Approve-is-Now-Live/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+**2) Additional Staking (Improved flow):**
 
-Once the position is opened, you can always re-adjust the parameters:
+Connect Metamask Wallet with TETRA -> Stake ORBS (Transaction #1, **no approval needed**)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+![NoApprove](/assets/img/blog/Tetra-Wallet-Infinite-Approve-is-Now-Live/image2.png)
 
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+### A Community Effort
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+As always, we are attentive to feedback from the community. The Orbs Network is a community-based project and cannot succeed without the collective effort of all participants, including the Orbs development team, Guardians, users and token holders.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The Orbs team is extremely excited about the upcoming upgrades to its staking architecture which will put Orbs as the first protocol to have its PoS mechanism deployed on multiple chains. 
+
+Stay tuned for more information and updates in the official Orbs [telegram channel](https://t.me/OrbsNetwork).
+
+
+
+
+
