@@ -9,7 +9,6 @@ posts:
   - DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-marketwatch.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-bloomberg.md
   - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-yahoo.md
-  - Open-DeFi-Notifications-Public-Beta-Launch-Powered-by-Orbs-nasdaq.md
   - Multi-Chain-Staking-yahoo.md
   - Multi-Chain-Staking-investing.md
   - QuickSwap-Launches-a-Dragon’s-Syrup-Pool-for-Orbs.md
