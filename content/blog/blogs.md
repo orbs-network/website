@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Tetra-Wallet-Infinite-Approve-is-Now-Live/blog.md
   - JanUpdate/blog.md
   - ThirdContest-1/blog.md
   - Polygon-tech/blog.md
