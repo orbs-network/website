@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Contact](/contact)
+[HEXA FOUNDATION](https://www.hexa.org/)
