@@ -19,7 +19,7 @@ The Orbs Network is a community-led project that values openness and transparenc
 
 So, what exactly is a bubble map? Let's take a deeper look:
 
-Bubble Maps Announces V2
+**Bubble Maps Announces V2**
 
 The Bubble Maps project has recently announced Bubble Maps V2 that enables the [following](https://twitter.com/moonlight_bsc/status/1490773632485928964) features:
 
@@ -39,13 +39,13 @@ transfer between the corresponding wallets
 
 ![](/assets/img/blog/BubbleMapsMoonlight-images/image1.png)
 
-Let's Take a Look at the Orbs Bubble Map
+**Let's Take a Look at the Orbs Bubble Map**
 
 Let's dive deeper into the Ethereum Bubble Map of [Orbs](https://bubbles.moonlighttoken.com/eth/token/0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa) which showcases an overall healthy distribution of the ORBS token across the network:
 
 ![](/assets/img/blog/BubbleMapsMoonlight-images/image2.png)
 
-As mentioned above, the map shows 150 bubbles that represent the top 150 holders and each bubble size is proportional to its holdings. The biggest bubble of the Orbs Bubble Map belongs to Upbit exchange and holds 12.87% of the ORBS token supply (you can check it out inside the Wallets List on the top left corner), while the second biggest bubble drops to 2.21%.  We also notice that there is very little connectivity between the top 150 wallets.
+As mentioned above, the map shows 150 bubbles that represent the top 150 holders and each bubble size is proportional to its holdings. The biggest bubble of the Orbs Bubble Map belongs to Upbit exchange and holds 12.87% of the ORBS token supply (you can check it out inside the **Wallets List** on the top left corner), while the second biggest bubble drops to 2.21%.  We also notice that there is very little connectivity between the top 150 wallets.
 
 *Note that certain known wallets, such as the Orbs long term reserves and the Orbs staking contract (bubbles #1+ #2 are in hide mode)
 
@@ -57,7 +57,7 @@ In addition, we can also see that some of the big wallets belong also to exchang
 
 ![](/assets/img/blog/BubbleMapsMoonlight-images/image4.png)
 
-Another Tool for Orbs On-Chain Analytics
+**Another Tool for Orbs On-Chain Analytics**
 
 Bubble Maps by Moonlight is an awesome way for exploring on-chain data through powerful visualizations. Featuring Orbs on [Bubble Maps](https://bubbles.moonlighttoken.com/eth/token/0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa) provides the Orbs community with another helpful tool that can assist users to visualize ORBS token activity across a wide range of wallets.
 
