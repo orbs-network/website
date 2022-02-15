@@ -25,7 +25,7 @@ The direct result of the above might have been a **severe user privacy concern**
 
 In addition, there would have been an interesting macroeconomic effect on global foreign exchange markets. The Diem was supposed to be backed by a basket of currencies and securities, hence there would probably have been an immediate effect on many of both, depending on whether they were included in this basket or not. Assuming the token had become more and more popular, so would the demand for those currencies and securities have grown. Of course, the opposite goes for those that would not have been included.
 
-*It is rare that I advocate for government involvement in private business initiatives. However, perhaps in this particular case which instigated the failure of Diem, our privacy became a bit more secure.*
+***It is rare that I advocate for government involvement in private business initiatives. However, perhaps in this particular case which instigated the failure of Diem, our privacy became a bit more secure.***
 
 It is also possible that the failure of Diem actually opens up the possibility that we can get a more nuanced and appropriate form of regulation for stablecoins down the road. The proposal by the Joint Working Group suffers from a lack of creativity - the only approach considered in detail is to expand the current standard approaches of banking regulation to apply to stablecoin issuers and related entities as well. The report does not consider whether new regulatory approaches might be possible that achieve the same goals, but with different methods that leverage the blockchain technology on which stablecoins are built.
 
