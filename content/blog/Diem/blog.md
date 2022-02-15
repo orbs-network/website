@@ -1,181 +1,34 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/Diem-images/bg.jpg
+blogUrl: Diem
+date: 2022-02-15
+title: Diem could not Seize the Day
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
+In January of 2022 it was [reported](https://www.bloomberg.com/news/articles/2022-01-25/zuckerberg-s-stablecoin-ambitions-unravel-with-diem-sale-talks?sref=gni836kR) that the Diem Association was negotiating the sale of its IP assets, most likely, as a way to repay capital to its investors. The deal was ultimately signed on January 27, 2022, with Diem reportedly agreeing to sell its assets to Silvergate Bank for $200 million.
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+**A quick recap**, Diem was [launched](https://www.theguardian.com/technology/2019/jun/18/libra-facebook-cryptocurrency-new-digital-money-transactions) as the Libra Association in 2019. The leading force behind it was Meta (then, Facebook), who gathered additional 20 giants from the payment, telecom, technology, blockchain, non-profit and venture capital industries as founding members. The goal of this project was to revolutionize global financial services by launching a new stablecoin backed by a basket of currencies and securities, and powered by a newly Facebook-created blockchain protocol. The announcement created quite the buzz. Not surprisingly, it did not take long for financial regulators around the world to realize what was going on and fight it.
 
-...
+Within a few months of the launch announcement, Zuckerberg was [subpoenaed](https://edition.cnn.com/2019/10/23/tech/mark-zuckerberg-facebook-libra-hearing/index.html) to testify at the US Congress, and ended up admitting that Facebook would be "forced to leave" the project's governance organization, unless US policymakers approved the new currency. Later on, as some partners left the project it was rebranded as Diem, however, more importantly it readjusted its goals - instead of launching a brand new global stablecoin, launching multiple stablecoins (e.g., Libra-USD and Libra-EUR). In addition, it rebranded the Calibra (a Libra/Diem founding member) digital wallet to Novi, as the project's core product. Last October plans [changed](https://techcrunch.com/2021/10/19/facebook-scales-back-its-crypto-ambitions-once-again/) once again, as Novi was planned to launch only in the US and Guatemala, supporting Paxos' USD-backed stablecoin (USDP) with Coinbase as the custodian.
 
-## **DeFi の時代！**
+The recent joint [report](https://home.treasury.gov/news/press-releases/jy0454) on stablecoins, by a working group that included all of the major US financial regulators, may have been the last nail in Diem's coffin. In a nutshell, the report recommends that all stablecoin issuers should be required to register as financial institutions and comply with US regulations accordingly, meaning - must maintain adequate deposits and adhere to risk management standards. Anyone who doesn't meet these requirements will be barred from stablecoin issuance.
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+***One can only imagine what would have been the global effects had this ambitious project initiative materialized according to its original plan. Let us examine a few:***
 
-みなさん!
+Even though Facebook/Meta was only a founding member of Diem, it was undoubtedly the driving force behind the project. Its global reach could have potentially made it one of the world's largest financial institutions. Integrating a digital wallet into Facebook, whether desktop or mobile, would have meant that on Day 1 this wallet would have billions of users who already have it installed and ready for use on their devices. Furthermore, it would have been available in a closed technological environment users trust and spend hours a day in. Moreover, as practically every place of business, big or small, is on Facebook, the perfect marketplace for the new integrated currency is there. I dare guess that it would not have taken long before the new currency was used in real life as well, starting with the small coffee shop around the corner and later accepted by all large retailers. In that case, Meta (sorry, Diem) would have turned into a large global non-governmental central bank.
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+The direct result of the above might have been a severe user privacy concern. As the new payment platform would have gained more and more traction, attracting more service providers in a virtuous (or perhaps vicious?) cycle, Facebook would have gained even a deeper level of insights on users actions, preferences and even intents. Not surprisingly, Meta had obviously been aware of this concern, and in its Novi pilot version announcement last October [addressed](https://www.novi.com/news/pilot-version-of-novi-now-available/) it, stating that: "We know privacy is top of mind for Novi customers, so it will always be top of mind for us. We prioritize the security and privacy of people's information by encrypting sensitive financial information". Try not to laugh when you read that, I know.
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+In addition, there would have been an interesting macroeconomic effect on global foreign exchange markets. The Diem was supposed to be backed by a basket of currencies and securities, hence there would probably have been an immediate effect on many of both, depending on whether they were included in this basket or not. Assuming the token had become more and more popular, so would the demand for those currencies and securities have grown. Of course, the opposite goes for those that would not have been included.
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+It is rare that I advocate for government involvement in private business initiatives. However, perhaps in this particular case which instigated the failure of Diem, our privacy became a bit more secure.
 
-...
+It is also possible that the failure of Diem actually opens up the possibility that we can get a more nuanced and appropriate form of regulation for stablecoins down the road. The proposal by the Joint Working Group suffers from a lack of creativity - the only approach considered in detail is to expand the current standard approaches of banking regulation to apply to stablecoin issuers and related entities as well. The report does not consider whether new regulatory approaches might be possible that achieve the same goals, but with different methods that leverage the blockchain technology on which stablecoins are built.
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+Luckily, as the report fully admits, the proposal cannot be implemented without new legislation by the Congress. This means that the agencies in charge cannot simply dictate that the approach laid out in the report must be followed. Instead, there will be a legislative process in which the blockchain community can have a voice. If lawmakers are willing to listen, the end result could be something better for everyone involved than what was proposed in the November report.
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
-
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
-
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
-
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
-
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
-
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
-
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
-
-...
-
-## **Orbs PoS V2：ガーディアンの時代**
-
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
-
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
-
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
-
-### ベータプロモーションリワード
-
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
-
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
-
-...
-
-## **ネットワークの状況**
-
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
-
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
-
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
-
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
-
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
-
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
-
-_\*出所_ [_https://staked.us/_](https://staked.us/)
-
-ORBS のデリゲータに毎月のリマインドです：
-
-### リワードを得るために、必ずステーキングしてください！
-
-### 今月からロックされたもののみがリワードの対象となります。
-
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
-
-必ず新しい Tetra ウォレットからステーキングしてください：
-
-[https://staking.orbs.network/](https://staking.orbs.network/)
-
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
-
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
-
-ステーキングメカニズムはこちらからご確認ください：
-
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
-
-...
-
-## **プレビューとティーザー**
-
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
-
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
-
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
-
-...
-
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
-
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
-
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
-
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
-
-最近公開されたブログ投稿のうち 2 つをご紹介します：
-
-### Blockchain の児童虐待画像への対応
-
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-### 可視化と説明責任の確保–
-
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
-
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
-
-...
-
-## **メディアハイライト**
-
-### Global Blockchain Business Council (GBBC)
-
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+Diem and Meta being out of the picture can only help with this process. Fairly or unfairly, Facebook/Meta is not politically popular on either side of the aisle. The left blames this company for allegedly facilitating misinformation which they claim led to the loss of HIllary Clinton during the presidential election. Conservatives claim that it favors the left and censors them. Having Diem, driven by Facebook/Meta, as the face of stablecoins was not a good recipe for an open-minded hearing from the US Congress. Maybe Diem's failure will end up removing this political baggage and ultimately allow us all to seize a better day.
