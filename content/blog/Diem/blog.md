@@ -5,7 +5,7 @@ blogUrl: Diem
 date: 2022-02-15
 title: Diem could not Seize the Day
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/NettaKorin.md
 type:
 short_description: 
 ---
