@@ -44,9 +44,7 @@ With all of this activity going on, Orbs' newly revamped [Media Page](https://ww
 Orbs Media Page already covers more than 100 big announcements, featuring various aspects of the Orbs' project:
 
 -   Insights into the Orbs ecosystem from a wide range of external media sources
-
 -   Trending news & updates
-
 -   Mentions of Orbs in the news in a chronological order
 
 Don't miss any of the upcoming announcements and events. Stay tuned for more information and updates in the official [Orbs Twitter](https://twitter.com/orbs_network), [Telegram](https://t.me/OrbsNetwork) channels and now also [Media Page](https://www.orbs.com/news/).
