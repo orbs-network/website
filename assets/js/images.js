@@ -4,6 +4,7 @@ export const images = {
     figure: `${prefix}/news/figure.svg`,
     headerBg: `${prefix}/news/header-bg.svg`,
     dots: `${prefix}/news/dots.svg`,
+    trending: `${prefix}/news/trending.svg`,
   },
   globe: {
     logo: `${prefix}/globe/logo.png`,

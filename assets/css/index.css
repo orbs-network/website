@@ -4901,20 +4901,13 @@ html {
   margin: 0 auto;
   position: relative;
 }
-.news-trending-rotated {
-  transform: rotate(-90deg);
+.news-trending-img {
   position: absolute;
-  left: -240px;
-  font-size: 56px;
-  letter-spacing: 0.5em;
-  font-weight: bold;
-  top: 210px;
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #53FFFA;
+  left: 0px;
+  top: 0px;
 }
 .news-trending-flex {
-  padding-left: 100px;
+  padding-left: 80px;
 }
 .news-trending-flex-posts {
   display: flex;
@@ -4970,10 +4963,6 @@ html {
   }
   .news-trending-flex-posts .news-post-logo img {
     max-height: 73px;
-  }
-  .news-main-post-content h1 {
-    font-size: 38px;
-    line-height: 55px;
   }
 }
 @media only screen and (max-width: 1250px) {
@@ -5053,7 +5042,7 @@ html {
   .news-trending .news-post-logo {
     width: 80px;
   }
-  .news-trending-rotated {
+  .news-trending-img {
     display: none;
   }
   .news-trending-flex {
