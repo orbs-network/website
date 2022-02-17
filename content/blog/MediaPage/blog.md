@@ -20,11 +20,8 @@ Orbs was fortunate to draw interest from top-tier media sources and news channel
 First, Orbs' Layer 3 value proposition - the new idea that the Orbs blockchain will act as a separate layer on top existing EVM-based L1s and L2s to enhance the capabilities of smart contracts and DeFi applications - made the headlines:
 
 -   [The Daily Hodl](https://dailyhodl.com/2021/11/11/orbs-the-leading-public-blockchain-infrastructure-introduces-its-groundbreaking-layer-3-architecture/)
-
 -   [Blockonomi](https://blockonomi.com/orbs-introduces-layer-3-architecture/)
-
 -   [Crypto News Flash](https://www.crypto-news-flash.com/how-orbs-is-positively-impacting-booming-defi-space-with-layer-3/)
-
 -   [Crypto Briefing](https://cryptobriefing.com/orbs-leading-public-blockchain-infrastructure-introduces-ground-breaking-layer-3-architecture/)
 
 ![](/assets/img/blog/MediaPage-images/image2.png)
