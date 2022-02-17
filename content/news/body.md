@@ -2,8 +2,8 @@
 layout: partials/news/main
 postsTop: 
   - posts/index.md
-mainPost:
-  - main-post/index.md
+hero:
+  - hero/index.md
 trendingPosts:
   - trending-posts/index.md
 videoSection:
