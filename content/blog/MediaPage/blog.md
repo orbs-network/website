@@ -32,17 +32,11 @@ First, Orbs' Layer 3 value proposition - the new idea that the Orbs blockchain w
 More recently, Orbs' pioneering [PoS V3 Multichain Staking Proposal](https://www.orbs.com/polygon-staking/), which represents a unique approach to putting proof-of-stake on two different chains, drew interest from media giants.   Here are just some of them:
 
 -   [Yahoo Finance](https://finance.yahoo.com/news/orbs-pioneers-multi-chain-staking-164500489.html)
-
 -   [Investing.com](https://www.investing.com/news/cryptocurrency-news/top-defi-projects-join-the-orbs-networkpowered-open-defi-notification-protocol-2748537)
-
 -   [Coincodex](https://coincodex.com/article/13368/orbs-network-proposes-multi-chain-staking-on-ethereum-and-polygon-blockchains/)
-
 -   [Utoday](https://u.today/orbs-introduces-multi-chain-staking-on-ethereum-and-polygon-details)
-
 -   [Cryptodaily](https://cryptodaily.co.uk/2022/01/a-first-for-multi-chain-staking-by-community-approval-from-orbs)
-
 -   [Marketinsider](https://markets.businessinsider.com/news/stocks/orbs-pioneers-multi-chain-staking-on-ethereum-and-polygon-through-community-proposal-1031094734)
-
 -   [Cryptonews](https://cryptonews.com/news/orbs-network-delegates-asked-vote-for-multi-chain-staking-ethereum-polygon.htm)
 
 With all of this activity going on, Orbs' newly revamped [Media Page](https://www.orbs.com/news/) is the place to find all of the "hot news" and big announcements, featuring the major events happening at Orbs: the project's tech innovation, recent achievements, cooperation plans, releases, new tools, challenges and future goals.
