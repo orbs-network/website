@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - BlockchainCity/blog.md
   - MediaPage/blog.md
   - Diem/blog.md
   - BubbleMapsMoonlight/blog.md
