@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/Alpaca-Finance-Adds-Orbs-To-Its-Finance-Vaults-coinquora.jpeg
-url: https://coinquora.com/alpaca-finance-adds-orbs-token-to-its-alpaca-vault/
-date: 12, July 2021
-logo: /assets/img/news/logos/coinquora.svg
+image: /assets/img/news/posts/demo-post.png
+url: https://www.orbs.com/news/
+date: 23, February 2022
+logo: /assets/img/news/logos/newsbtc.png
 ---
 
-Alpaca Finance Adds Orbs To Its Finance Vaults
+This is a demo post
