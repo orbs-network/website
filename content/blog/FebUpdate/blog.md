@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/FebUpdate/bg.jpg
+image: /assets/img/blog/FebUpdate/bg.jpg
 blogUrl: FebUpdate
 date: 2022-02-28
 title: Orbs February 2022 Update 
@@ -33,7 +33,7 @@ Let's dive into a short recap together and see which updates made some noise �
 
 **Orbs Builds the World's First Multi-Chain Staking with Ethereum and Polygon**
 
-![](/assets/img/FebUpdate/image1.jpg)
+![](/assets/img/blog/FebUpdate/image1.jpg)
 
 As you know, Orbs utilizes Proof-of-Stake to secure its consensus layer. The newest development is that Orbs is building the world's first Multi-Chain Staking, with both Ethereum and Polygon. To pioneer this vision,.
 
@@ -43,11 +43,11 @@ So, how does this work under the hood? let's do a short recap of the Orbs PoS me
 
 🌐 Orbs V2: Introduced Orbs innovative hybrid model of PoS over PoW, by adding the security of Ethereum's PoW to verify the Orbs' election results. By harnessing the power of Ethereum, we utilized Ethereum's own ironclad security to increase the security of our own protocol.
 
-![](/assets/img/FebUpdate/image2.jpg)
+![](/assets/img/blog/FebUpdate/image2.jpg)
 
 🌐 Orbs V3: PoS over Ethereum + PoS over Polygon is setting a new bar --- expanding PoS elections to Polygon and creating the world's first PoS multi-chain implementation that spans 3 chains: Orbs, Ethereum and Polygon!
 
-![](/assets/img/FebUpdate/image3.jpg)
+![](/assets/img/blog/FebUpdate/image3.jpg)
 
 Read all about the world's first PoS implementation that spans 3 chains: Orbs, Ethereum and Polygon in the [full blog](https://www.orbs.com/Polygon-tech/).
 
@@ -55,7 +55,7 @@ Read all about the world's first PoS implementation that spans 3 chains: Orbs, E
 
 **The Open DeFi Notification Protocol adds support for Alpaca Finance and Pangolin**
 
-![](/assets/img/FebUpdate/image4.jpg)
+![](/assets/img/blog/FebUpdate/image4.jpg)
 
 🌐The Open DeFi Notification Protocol, powered by Orbs, now supports [AlpacaFinance](https://www.alpacafinance.org/) (has over $800M in TVL), the largest lending protocol for leveraged yield farming (LYF) on BSC.
 
@@ -63,7 +63,7 @@ Read all about the world's first PoS implementation that spans 3 chains: Orbs, E
 
 🌐Using the [Open DeFi Notification Protocol,](https://defi.org/notifications/) users who take a loan can now set up a "position health" notification which will issue an alert once their safety buffer drops below a specified threshold. In this way, users have 24/7 monitoring of their position health!
 
-![](/assets/img/FebUpdate/image5.jpg)
+![](/assets/img/blog/FebUpdate/image5.jpg)
 
 🌐[Pangolin  ](https://pangolin.exchange/)users can also receive real-time notifications for their positions to better manage their trading strategies and risk.
 
@@ -73,7 +73,7 @@ Read all about the world's first PoS implementation that spans 3 chains: Orbs, E
 
 2.  Position Worth: Track your open positions total worth to take profit or to protect against losses.
 
-![](/assets/img/FebUpdate/image6.jpg)
+![](/assets/img/blog/FebUpdate/image6.jpg)
 
 Read all about the available notifications in the full blogs: 
 
@@ -85,7 +85,7 @@ Read all about the available notifications in the full blogs: 
 
 **Tetra Wallet: Infinite Approve is Now Live!**
 
-![](/assets/img/FebUpdate/image7.jpg)
+![](/assets/img/blog/FebUpdate/image7.jpg)
 
 🌐 Orbs PoS V3 multi-chain staking proposal on Ethereum and Polygon addresses the key feedback from the community following the V2 launch: the substantial increase in ETH price and soaring gas prices for Orbs Delegators.
 
@@ -99,7 +99,7 @@ Read everything about the new staking flow on Tetra in [the full blog](https://w
 
 **Orbs Is Featured on Bubble Maps V2 by Moonlight**
 
-![](/assets/img/FebUpdate/image8.jpg)
+![](/assets/img/blog/FebUpdate/image8.jpg)
 
 🟣 Bubble Maps is a powerful visualization tool for Orbs on-chain analytics that enables to explore on-chain activity by providing different token contracts with a map that shows how top holders have interacted with each other, revealing deeper connections between wallets.
 
@@ -113,7 +113,7 @@ Discover all the Bubble Maps features in the [full blog](https://www.orbs.com/Bu
 
 **Announcing the New Orbs Media Page**
 
-![](/assets/img/FebUpdate/image9.jpg)
+![](/assets/img/blog/FebUpdate/image9.jpg)
 
 🌐We've recently added the [Orbs' Media Page](https://www.orbs.com/news/) on Orbs Network website. Orbs announcements frequently draw attention from top-tier media sources and news channels, here're some of them:
 
@@ -133,7 +133,7 @@ Discover all the Bubble Maps features in the [full blog](https://www.orbs.com/Bu
 
 -   [Cryptonews](https://cryptonews.com/news/orbs-network-delegates-asked-vote-for-multi-chain-staking-ethereum-polygon.htm)
 
-![](/assets/img/FebUpdate/image10.jpg)
+![](/assets/img/blog/FebUpdate/image10.jpg)
 
 🌐Therefore, we decided to add the Orbs' Media Page to make it easy to find all of Orbs media mentions in one place; it already covers more than 100 big announcements, featuring various aspects of the Orbs' project.
 
@@ -143,7 +143,7 @@ Discover all the Bubble Maps features in the [full blog](https://www.orbs.com/Bu
 
 **Orbso Third NFTs Contest**
 
-![](/assets/img/FebUpdate/image11.jpg)
+![](/assets/img/blog/FebUpdate/image11.jpg)
 
 🌐 We're continuing the exciting series of contests to give out the entire Orbs Universe Gang NFT collection designed and dedicated to the Orbs community.
 
@@ -157,7 +157,7 @@ Read everything about the Third Contest [here.](https://www.orbs.com/ThirdContes
 
 Orbs Hits 55K Followers on Twitter!
 
-![]((/assets/img/FebUpdate/image12.jpg))
+![]((/assets/img/blog/FebUpdate/image12.jpg))
 
 🌐Orbs has just hit [55K followers on Twitter](https://twitter.com/orbs_network/status/1496098819485978631)! We are excited to keep  engaging with even more members of the community!🙏👌🏻🤩
 
