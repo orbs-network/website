@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - FebUpdate/blog.md
   - BlockchainCity/blog.md
   - MediaPage/blog.md
   - Diem/blog.md
