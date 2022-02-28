@@ -155,9 +155,9 @@ Read everything about the Third Contest [here.](https://www.orbs.com/ThirdContes
 
 <div class='line-separator'> </div>
 
-Orbs Hits 55K Followers on Twitter!
+**Orbs Hits 55K Followers on Twitter!**
 
-![]((/assets/img/blog/FebUpdate/image12.jpg))
+![]((/assets/img/blog/blog/FebUpdate/image12.jpg))
 
 🌐Orbs has just hit [55K followers on Twitter](https://twitter.com/orbs_network/status/1496098819485978631)! We are excited to keep  engaging with even more members of the community!🙏👌🏻🤩
 
