@@ -15,12 +15,18 @@ For Orbs the month of February was very productive, fulfilling and fun!
 
 Let's dive into a short recap together and see which updates made some noise 🤓
 
-📌 Orbs builds the [World's First Multi-Chain Staking with Ethereum and Polygon!](https://www.orbs.com/Polygon-tech/) 
+📌 Orbs builds the [World's First Multi-Chain Staking with Ethereum and Polygon!](https://www.orbs.com/Polygon-tech/)
+
 📌 The Open DeFi Notification Protocol adds support for [Alpaca Finance](https://medium.com/@defiorg/the-open-defi-notification-protocol-now-supports-alpaca-finance-c99213c5f72d) and [Pangolin](https://medium.com/@defiorg/the-open-defi-notification-protocol-now-supports-pangolin-exchange-f0e45461e770)
+
 📌 [Tetra Wallet Infinite Approve](https://www.orbs.com/Tetra-Wallet-Infinite-Approve-is-Now-Live/) that addresses key feedbacks from the community is Live!
+
 📌 Orbs Is Featured on [Bubble Maps V2 by Moonlight](https://www.orbs.com/BubbleMapsMoonlight/) - a new tool the community can use to explore the on-chain activity of the project.
+
 📌 We have updated [Orbs' Media Page](https://www.orbs.com/MediaPage/) 🦾 that covers all the top media headlines Orbs has hit!
+
 📌 [The #3 Orbso NFT Contest](https://www.orbs.com/ThirdContest-1/) attracts even more participants. Lucky winners got their rewards 🏆
+
 📌 Orbs hits [55K followers](https://twitter.com/orbs_network/status/1496098819485978631) on Twitter!
 
 <div class='line-separator'> </div>
