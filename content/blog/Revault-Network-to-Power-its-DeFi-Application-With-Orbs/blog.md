@@ -1,67 +1,86 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Revault-Network-to-Power-its-DeFi-Application-With-Orbs/bg.jpg
+blogUrl: Revault-Network-to-Power-its-DeFi-Application-With-Orbs
+date: 2022-02-28
+title: "Revault Network to Power its DeFi Application With Orbs 3.0"
 author:
   - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs and Revault Network announce a partnership to utilize Orbs Layer-3 (L3) architecture to enhance the Revault protocol.**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Revault will utilize Orbs 3.0 capabilities in order to decentralize the operation of its protocol’s components and features which are currently run in a centralized manner.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+The Orbs public blockchain infrastructure, powered by its Guardians (a public network of permissionless validators), [recently introduced](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) its L3 execution layer concept, which operates in conjunction with EVM-based L1s and L2s, to enhance the security and reliability of DeFi applications.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+### Revault: Maximize your vaults’ APY!
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+[Revault](https://www.revault.network/) is a vault aggregator aiming to become the “Google search engine” of DeFi. 
 
-Please also see our disclaimers below.
+The Revault engine automatically finds and deposits funds in the best performing vaults in the market at any given time.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+![pyramid](/assets/img/blog/Revault-Network-to-Power-its-DeFi-Application-With-Orbs/image1.png)
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Revault continuously indexes every vault in the market to bring its users the top results for any asset at any given time. If Revault finds a better vault for your asset, an alert is issued and with one click you can move your funds from your existing vault to the better one, thereby maximizing your APY.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### Layer-3 Decentralization Using Orbs
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Revault network will utilize Orbs 3.0 capabilities to power 3 of its main features, in order to enhance their robustness, reliability and security:
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+**a) Auto-compound**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Revault’s auto-compound tool, which currently runs in a centralized manner, enables Revault’s users who are staking their REVA tokens to automatically re-stake their earned REVA in order to increase their APY.
 
-Once the position is opened, you can always re-adjust the parameters:
+In the below example, the auto-compound feature increases the staking yield from 60.52% APR to 83.07% APY:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+![autocomp](/assets/img/blog/Revault-Network-to-Power-its-DeFi-Application-With-Orbs/image2.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**b) TVL-APR Calculation**
 
-### 3) Earn Orbs in the Grazing Range
+$REVA is the native token of the Revault Network. It has several [utility functions](https://revaultnetwork.medium.com/revaults-token-economics-e9bef267d9d2) such as being the governance token of the Revault DAO for voting on different protocol proposals, as well as being eligible for part of the protocol profits.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+REVA is also used to incentivize users to deposit funds in the Revault’s vaults, in order to earn additional REVA rewards, in addition to the vault’s APY. For this feature, Revault will use Orbs to determine the total vault’s TVL in order to calculate the REVA rewards APR. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+Similar to the auto-compound, this function is also run centrally at the moment and will be integrated into the Orbs network to be executed decentrally by the Orbs validators.
 
-#### And that’s it – You are now a senior Alpaca!
+
+**c) Auto-rebalance**
+
+The auto-rebalancing feature is planned further down the project’s roadmap and will serve as one of the main features offered by the Revault network.
+
+As mentioned above, the Revault engine indexes the top results for any asset at any given time. Once a vault with a higher APY is found, an alert is issued prompting the user to rebalance their position into the better vault.
+
+The auto-rebalance, once enabled by the user, will execute the rebalancing action automatically. Meaning that Revault will continuously scan the market for the best performing vaults and will rotate the users funds in order to maximize the APY. All of this will be powered by the Orbs Network’s unique consensus as a service L3 architecture.
+
+![rebalance](/assets/img/blog/Revault-Network-to-Power-its-DeFi-Application-With-Orbs/image3.png)
+
+
+### Orbs: Decentralizing DeFi
+
+Similar to Revault, most of today’s DeFi applications run many of their features in a centralized manner. This is due to the limitations of EVM-based L1 and L2 chains which are not built to provide the proper infrastructure to execute these features in a decentralized way.
+
+Orbs, with its unique hybrid architecture, designed for interoperability with EVM compatible blockchains such as Ethereum, Binance Smart Chain, Polygon and Avalanche, can provide the 
+tools for enriching the capabilities of EVM smart contracts.
+
+In the short time since launching its L3 initiative, already we are seeing “L3 applications” powered by the Orbs network. These include the [Open DeFI Notification Protocol](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0) which is an open initiative to provide users with decentralized and free mobile notifications for on-chain events.
+
+Orbs novel L3 value proposition opens the door for many more exciting and innovative applications in the DeFi space which are currently not available. We expect many more DeFi protocols to utilize this unique feature offered by the Orbs network in order to extract more value for their users.
+
+Be sure to join the Official Orbs [Telegram channel](https://t.me/OrbsNetwork) for more updates.
+
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_Use of the platforms and services described above carries significant risk. Digital assets, decentralized finance products are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries risk of substantial losses. In addition, the platforms described and services described above are under active development and may contain bugs, errors or other defects._
 
 _Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
