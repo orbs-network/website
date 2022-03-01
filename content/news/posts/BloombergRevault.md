@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/Alpaca-Finance-Adds-Orbs-To-Its-Finance-Vaults-coinquora.jpeg
-url: https://coinquora.com/alpaca-finance-adds-orbs-token-to-its-alpaca-vault/
-date: 12, July 2021
-logo: /assets/img/news/logos/coinquora.svg
+image: /assets/img/news/posts/BloombergRevault.jpg
+url: www.bloomberg.com/press-releases/2022-03-01/revault-network-aims-to-be-google-for-vaults-alongside-orbs-layer-3
+date: 1, March 2022
+logo: /assets/img/news/logos/bloomberg.svg
 ---
 
-Alpaca Finance Adds Orbs To Its Finance Vaults
+Revault Network Aims to Be "Google" for Vaults Alongside Orbs Layer-3
