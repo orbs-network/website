@@ -3,6 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - BloombergRevault.md
   - top-defi-projects-join-the-orbs-networkpowered-open-defi-notification-protocol.md
   - DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-nasdaq.md
   - DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-yahoo.md
