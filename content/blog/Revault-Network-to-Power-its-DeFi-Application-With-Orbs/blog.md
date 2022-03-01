@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Revault-Network-to-Power-its-DeFi-Application-With-Orbs/bg.jpg
 blogUrl: Revault-Network-to-Power-its-DeFi-Application-With-Orbs
-date: 2022-02-28
+date: 2022-03-01
 title: "Revault Network to Power its DeFi Application With Orbs 3.0"
 author:
   - /blog/common/authors/EranPeled.md
