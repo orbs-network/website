@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs3.0/blog.md
   - Revault-Network-to-Power-its-DeFi-Application-With-Orbs/blog.md
   - FebUpdate/blog.md
   - BlockchainCity/blog.md
