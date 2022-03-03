@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs3.0-images/bg.jpg
 blogUrl: Orbs3.0
 date: 2022-03-03
-title: Orbs 3.0 - A Key Building Block for the Future of the Internet
+title: "Orbs 3.0 - A Key Building Block for the Future of the Internet"
 author:
   - /blog/common/authors/EranPeled.md
 type:
