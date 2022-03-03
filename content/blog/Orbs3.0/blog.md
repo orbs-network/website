@@ -1,181 +1,98 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/Orbs3.0-images/bg.jpg
+blogUrl: Orbs3.0
+date: 2022-03-03
+title: Orbs 3.0 - A Key Building Block for the Future of the Internet
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
+**We are excited to announce that 2022 will be the year for Orbs 3.0**
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+But what exactly is Orbs 3.0? 
 
-...
+Let us discuss..
 
-## **DeFi の時代！**
+Since making our [pivot to DeFi](https://www.youtube.com/watch?v=-W9vdCysEYc) in early 2021, the Orbs team has been hard at work on laying down the proper foundation for Orbs 3.0. This included making ORBS a cross-chain asset with integrations to over 30 of the leading DeFi protocols across 5 of the major L1+L2 chains, making the necessary improvements to the Orbs protocol, testing L3 proof of concept and use-cases, and more...
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+But what exactly is Orbs 3.0?
 
-みなさん!
+**Orbs 3.0** is composed of three major building blocks. These are:
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+-   **PoS V3**: The Orbs network Proof of Stake mechanism, powering the network by utilizing multi-chain staking on Ethereum and Polygon.
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+-   **Layer 3**: Orbs value proposition - acting as a separate layer on top existing EVM-based L1s and L2s to enhance the capabilities of smart contracts and DeFi applications.
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+-   **Web 3.0**: The Orbs go-to-market, with the goal to become a major player in the next evolution of the internet.
 
-...
+-   **3 Years**: At the end of March, the Orbs network will be celebrating the third anniversary of its mainnet and token launch.
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+![](/assets/img/blog/Orbs3.0-images/image1.jpg)
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+The combination of these 3 components: PoS V3, L3, and Web 3.0 positions Orbs to be the go-to blockchain infrastructure for developers and projects who wish to deploy the next generation of DeFi and Web 3.0 applications.
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+Let's examine them one by one in more detail:
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+**Orbs PoS V3 Multichain Staking**
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+The Orbs protocol is decentralized and executed by a public network of permissionless validators (who are referred to as "Guardians") using Proof-of-Stake (PoS) consensus. The Orbs protocol relies on the ORBS token which is utilized for the settlement of fees related to app execution and provides the system of incentives used to elect Guardians in a secure and decentralized manner.
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+Orbs PoS V1, launched in March 2019 with the Orbs mainnet, first introduced the novel concept of a [hybrid blockchain](https://www.orbs.com/white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/) by using Ethereum as a base layer for external oversight and added security of the Orbs PoS mechanism.
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
+Orbs PoS V2: The Age of Guardians, introduced in March 2019, took the Orbs' Proof-of-Stake over Proof-of-Work architecture to the next level by fully deploying the Orbs PoS staking contracts on the Ethereum network. While V1's focus was on maintaining a secure, stable and inclusive network, V2 emphasized usage and performance.
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+The PoS V2 transition has overall been a great success, with the vast majority of Guardians participating and over 1 Billion Orbs tokens staked. However, it was also a very active period on Ethereum, largely due to the explosion in usage of DeFi protocols, which resulted in a significant spike in gas prices for using the Ethereum network. As a result, the team released Orbs PoS V2.5: [Combatting the gas storms](https://www.orbs.com/v2-5-update-combating-the-gas-storms/), which partly resolved this issue by optimizing gas costs when interacting with the PoS smart contracts.
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+Orbs PoS V3, is the latest revision of the Orbs PoS architecture, implementing [multi-chain staking](https://www.orbs.com/polygon-staking/) on Ethereum and Polygon.
 
-...
+Adding Orbs PoS staking on Polygon means that the Orbs network utilizes the available blockchain stack to its fullest potential: The security of Ethereum as the base layer, and the scalability & low fees of Polygon as L2.
 
-## **Orbs PoS V2：ガーディアンの時代**
+This unique upgrade of the Orbs PoS addresses one of the key feedbacks from the community following the V2 launch and is expected to mitigate the current high Ethereum gas costs for Orbs delegators interacting with the Orbs staking contracts.
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+![](/assets/img/blog/Orbs3.0-images/image2.jpg)
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+**The Orbs PoS mechanism is the backbone of the Orbs blockchain. The Orbs staking contract secures a TVL of nearly $200M worth of ORBS tokens and ensures a secure, robust and performant network - fit for developers to power their decentralized applications.**
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+**Orbs As a Layer 3 Infrastructure Blockchain**
 
-### ベータプロモーションリワード
+Towards the end of 2021, Orbs [unveiled](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) its latest concept of utilizing the Orbs Network as a separate execution layer (L3) that operates in conjunction with EVM-based L1's and L2's chains.
 
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
+Existing L1 (in charge of security) and L2 (in charge of scalability) infrastructure chains are, generally, all implemented as EVM smart contracts. These smart contracts are powerful in securing and processing TVL, but are very limited in their capabilities.
 
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+Adding Orbs as a layer 3 on top of the existing blockchain stack, working in conjunction with other L1+L2 layers, can significantly enrich the capabilities of EVM-based smart contracts.
 
-...
+**The Orbs public blockchain infrastructure, powered by its Guardians, a public network of permissionless validators, can serve as that separate L3 execution layer all powered by the ORBS token PoS.**
 
-## **ネットワークの状況**
+![](/assets/img/blog/Orbs3.0-images/image3.jpg)
 
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
+We are very excited about this new concept of an additional layer to the existing blockchain stack. Such a layer opens the door for many exciting and[ innovative applications](https://www.orbs.com/Introducing-Open-DeFi-Notification-Protocol/) in the DeFi space which are currently not available.
 
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
+**Web 3.0: Revolutionizing the Internet**
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
+Web 3.0 is a general term used to describe a set of emerging technologies such as DeFi, NFTs, GameFi and the Metaverse.
 
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
+Web 3.0's vision is of permissionless applications, without the gatekeepers of today, where users can have a stake in the project, governance votes, own their data, and can monetize on it.
 
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
+![](/assets/img/blog/Orbs3.0-images/image4.jpg)
 
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
+Orbs is totally committed to the vision and the values that Web 3.0 stands for: Open-source, decentralized, permissionless, trustless and transparent, powered by blockchain technology.
 
-_\*出所_ [_https://staked.us/_](https://staked.us/)
+We believe that Orbs 3.0 can play a major role in the Web 3.0 revolution.
 
-ORBS のデリゲータに毎月のリマインドです：
+**2022: The Year of the Orb**
 
-### リワードを得るために、必ずステーキングしてください！
+PoS V3, L3 and Web 3.0 are all integral building blocks that make up Orbs 3.0.
 
-### 今月からロックされたもののみがリワードの対象となります。
+Orbs positioning itself as a leader of this new layer in the blockchain stack gives it a unique advantage and a great stepping stone in the DeFi and Web 3.0 space.
 
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
+The Orbs team is already hard at work on building the necessary tools and features to make Orbs the number one choice for developers and projects to deploy their L3 applications, powered by the Orbs network.
 
-必ず新しい Tetra ウォレットからステーキングしてください：
+And one last thing...
 
-[https://staking.orbs.network/](https://staking.orbs.network/)
+Coincidentally (or is it?), this March Orbs will celebrate its 3 year anniversary since the mainet launch. This is the place to give a huge thank you to the awesome community who are working together to build and achieve the Orbs vision. You have been an essential part of bringing the Orbs project to where it is today.
 
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
+We could not have asked for anyone else to share this amazing journey with, and to continue it forward for many years still to come.
 
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
-
-ステーキングメカニズムはこちらからご確認ください：
-
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
-
-...
-
-## **プレビューとティーザー**
-
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
-
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
-
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
-
-...
-
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
-
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
-
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
-
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
-
-最近公開されたブログ投稿のうち 2 つをご紹介します：
-
-### Blockchain の児童虐待画像への対応
-
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-### 可視化と説明責任の確保–
-
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
-
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
-
-...
-
-## **メディアハイライト**
-
-### Global Blockchain Business Council (GBBC)
-
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+Stay tuned for more information and updates in the official Orbs [Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork) channels.
