@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Fantom-images/bg.jpg
 blogUrl: Fantom
 date: 2022-03-08
-title: Orbs Ecosystem Expansion: Fantom
+title: "Orbs Ecosystem Expansion: Fantom"
 author:
   - /blog/common/authors/EranPeled.md
 type:
