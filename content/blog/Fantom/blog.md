@@ -36,7 +36,7 @@ With its unique value proposition and laser-focus on DeFi applications, Fantom's
 
 The top 3 Fantom-native DeFi protocols: SpookySwap, Geist Finance and Scream, have all managed to amass approximately $1B in TVL. 
 
-In addition,Fantom's EVM-compatibility together with its rapid growth has also motivated some of the biggest DeFi projects to integrate their protocols onto Fantom. These include among others: Curve, Yearn Finance, SushiSwap and more...
+In addition, Fantom's EVM-compatibility together with its rapid growth has also motivated some of the biggest DeFi projects to integrate their protocols onto Fantom. These include among others: Curve, Yearn Finance, SushiSwap and more...
 
 ![](/assets/img/blog/Fantom-images/image2.jpg)
 
