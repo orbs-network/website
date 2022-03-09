@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Multichain/blog.md
   - Fantom/blog.md
   - Orbs3.0/blog.md
   - Revault-Network-to-Power-its-DeFi-Application-With-Orbs/blog.md
