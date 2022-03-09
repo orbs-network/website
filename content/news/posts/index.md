@@ -3,6 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - BloombergFantom.md
   - NasdaqFantom.md
   - BloombergRevault.md
   - top-defi-projects-join-the-orbs-networkpowered-open-defi-notification-protocol.md
