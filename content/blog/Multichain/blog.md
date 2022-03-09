@@ -49,7 +49,7 @@ On June 4th 2021, Multichain launched its Multichain router V3 beta mainnet. The
 
 -   Assets' transfers between any two or more chains:
 
--   Chain A to Chain B ✅
+&#8594;   Chain A to Chain B ✅
 
 -   Chain A to Chain C ✅
 
