@@ -50,7 +50,9 @@ On June 4th 2021, Multichain launched its Multichain router V3 beta mainnet. The
 -   Assets' transfers between any two or more chains:
 
 &#8594; Chain A to Chain B ✅
+
 &#8594; Chain A to Chain C ✅
+
 &#8594; Chain B to Chain C ✅
 
 -   It can work with pre-existing assets on blockchains, by using liquidity pools for those assets.
