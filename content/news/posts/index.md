@@ -3,6 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - YahooFantom.md
   - BloombergFantom.md
   - NasdaqFantom.md
   - BloombergRevault.md
