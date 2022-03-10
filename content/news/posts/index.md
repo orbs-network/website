@@ -4,7 +4,7 @@ title: Latest News
 id: news-posts-top
 posts:
   - InvestingRevault.md
-  - InvestingYahoo.md
+  - YahooRevault.md
   - NasdaqFantom.md
   - BloombergRevault.md
   - top-defi-projects-join-the-orbs-networkpowered-open-defi-notification-protocol.md
