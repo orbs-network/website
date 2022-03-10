@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/InvestingRevault.md
+  - ../posts/BloombergFantom1.md
   - ../posts/DeFi.org-Launches-the-Open-DeFi-Notification-Protocol-Powered-by-the-Orbs-Network-yahoo.md
 ---
 
