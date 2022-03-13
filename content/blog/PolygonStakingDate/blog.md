@@ -56,6 +56,7 @@ Let us examine the effect of this on the Orbs Guardians and Delegators:
 Orbs PoS V2 has a maximum annual reward equal to 12% of total delegated stake capped at 80M ORBS annually.  At the current total stake of approx. 838.5M ORBS (as of 8/3/22), rewards are at the max. cap of 80M, which means that the actual V2 staking rewards are 9.54% APR.
 
 Polygon staking is expected to be a driver for further increase in the total ORBS staked. In addition, the total stake is predicted to increase organically if the Orbs network continues to grow and mature. In such a scenario, the actual APR for V2 would have been even lower than the current 9.54%.
+
 ![](/assets/img/blog/PolygonStakingDate-images/image1.jpg)
 
 **Orbs PoS V2 vs V3 Staking Rewards Comparison**
