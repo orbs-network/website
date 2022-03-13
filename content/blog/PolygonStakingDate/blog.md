@@ -57,9 +57,9 @@ Orbs PoS V2 has a maximum annual reward equal to 12% of total delegated stake ca
 
 Polygon staking is expected to be a driver for further increase in the total ORBS staked. In addition, the total stake is predicted to increase organically if the Orbs network continues to grow and mature. In such a scenario, the actual APR for V2 would have been even lower than the current 9.54%.
 
-![](/assets/img/blog/PolygonStakingDate-images/image1.jpg) 
+<p align="center">![](/assets/img/blog/PolygonStakingDate-images/image1.jpg)</p> 
 
-**Orbs PoS V2 vs V3 Staking Rewards Comparison**
+<p align="center"> **Orbs PoS V2 vs V3 Staking Rewards Comparison**</p>
 
 As can be seen in the table above, the PoS V3 updated APR of a fixed 10% increases the rewards allocation to Guardians and Delegators in comparison to V2, especially when taking into account future network growth and increased adoption.
 
