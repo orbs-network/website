@@ -59,7 +59,7 @@ Polygon staking is expected to be a driver for further increase in the total ORB
 
 ![](/assets/img/blog/PolygonStakingDate-images/image1.jpg)
 
-Orbs PoS V2 vs V3 Staking Rewards Comparison
+**Orbs PoS V2 vs V3 Staking Rewards Comparison**
 
 As can be seen in the table above, the PoS V3 updated APR of a fixed 10% increases the rewards allocation to Guardians and Delegators in comparison to V2, especially when taking into account future network growth and increased adoption.
 
