@@ -3,8 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/PolygonStakingDate-images/bg.jpg
 blogUrl: PolygonStakingDate
 date: 2022-03-14
-title: Orbs PoS V3: Multi-chain Staking on Polygon 
-Launch Date, Protocol Improvements and Special Features
+title: "Orbs PoS V3: Multi-chain Staking on Polygon Launch Date, Protocol Improvements and Special Features"
 
 author:
   - /blog/common/authors/EranPeled.md
