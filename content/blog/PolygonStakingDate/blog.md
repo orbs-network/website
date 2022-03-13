@@ -1,181 +1,96 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/2020年9月度orbsアップデート/bg.png
-blogUrl: 2020年9月度orbsアップデート
-date: 2020-09-16
-title: 2020年9月度Orbsアップデート
+image: /assets/img/blog/PolygonStakingDate-images/bg.jpg
+blogUrl: PolygonStakingDate
+date: 2022-03-14
+title: Orbs PoS V3: Multi-chain Staking on Polygon 
+Launch Date, Protocol Improvements and Special Features
+
 author:
-  - /jp/blog/common/authors/EranPeled.md
+  - /blog/common/authors/EranPeled.md
 type:
-short_description: 今月のアップデート：** DeFi、DeFi、DeFi　⁂Orbsエコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa財団　⁂メディアハイライト　⁂Orbsチームのブログ
+short_description: 
 ---
+**Polygon Staking Launch Date Confirmed!**
 
-**今月のアップデート：** DeFi、DeFi、DeFi 　⁂Orbs エコシステム助成金プログラム　⁂ガーディアンの時代　⁂ネットワークの状態　⁂プレビューとティーザー　⁂Hexa 財団　⁂メディアハイライト　⁂Orbs チームのブログ
+**After a lot of hard work by the Orbs team and many community members, we are excited to announce that Orbs PoS V3: Multi-chain Staking on Polygon will launch on 29/03/2022 (which also happens to be the three year anniversary of Orbs mainnet launch)!**
 
-...
+Around 2 months ago, the Orbs team put forward a [protocol upgrade proposal](https://www.orbs.com/polygon-staking/) for Orbs PoS V3: Multi-chain Staking on Ethereum and Polygon. We are happy to say that we have been busy working on implementing this proposal with invaluable feedback and advice from the community.
 
-## **DeFi の時代！**
+The team is currently working on the final QA and testing in order to ensure a successful launch. In addition, educational materials will be provided to both Orbs Guardians and Delegators for staking on Polygon.
 
-![](/assets/img/blog/2020年9月度orbsアップデート/defi-1030x579.jpg)
+We wish to give a huge thank you to the Orbs community who were instrumental in delivering this important protocol update of the Orbs network. We feel that this whole process has banded together the community making it stronger than ever.
 
-みなさん!
+**Protocol Adjustments and Improvements**
 
-DeFi（分散型金融う）は間違いなく、ホットトピックです。 Orbs チームは DeFi の大きな可能性を信じ、この分野を研究するためにより多くの時間とリソースを割いています。
+Polygon is an L2 EVM-compatible blockchain which fully supports the same Solidity smart contracts already running on Ethereum mainnet. This means delicate code that has undergone rigorous [audits](https://github.com/orbs-network/orbs-staking-contract#security-audit), such as Orbs Staking Contract, can be used without modification, making it just as secure as the current one on Ethereum.
 
-本アップデートでは、**Orbs エコシステム助成金プログラム（OEGP）**をレビューし、Orbs ネットワークが DeFi プロジェクトに採用されるためにどう適しているかを説明します。
+However, multi-chain staking on Ethereum and Polygon can bring about various issues when needing to verify the joint state of the two chains. As a result, several improvements and modifications have been made to the Orbs PoS V3 mechanism. These changes apply to staking on both Ethereum and Polygon, so that the mechanism is identical in respect to both chains.
 
-ただし、これだけではありません。チームは既にいくつかの DeFi 関連プロジェクトに取り組んでいます。この点については、さらなるニュースにご期待ください！
+The Orbs PoS V3 staking mechanism stays the same as V2, with the following adjustments:
 
-...
+**1) Multi-chain Staking**
 
-## **Orbs エコシステム助成金プログラム（OEGP）**
+Orbs PoS V3: Multi-chain staking, [utilizes](https://www.orbs.com/Polygon-tech/) Orbs' hybrid architecture and cross-chain properties to deploy novel multi-chain PoS staking on Ethereum and Polygon.
 
-Orbs は、Orbs エコシステムの開発にさらに多くの開発者やチームが参加することで分散化のプロセスを前進させることを約束し、Orbs エコシステム助成金プログラム（OEGP）を導入しました。 Orbs ネットワークのブロックチェーン・インフラストラクチャの特別な機能と Orbs PoS ユニバースの信じられないほど強力でアクティブなコミュニティが一緒になって、Defi プロトコルとのインターフェースとコラボレーションを行うユニークな機会を提供できると信じています。
+Adding Orbs PoS staking on Polygon means that the Orbs network utilizes the Ethereum stack to its fullest potential: The security of Ethereum as the base layer, and the scalability & low fees of Polygon as L2.
 
-[ORBS エコシステム助成金プログラムの詳細はこちら](https://www.orbs.com/white-papers/orbs-grant-program-jp/)
+Following the Orbs PoS V3 release, Orbs Guardians and Delegators will have the ability to choose between staking on Ethereum and staking on Polygon, based on their own personal preferences and considerations.
 
-チームまたは個人は、Orbs エコシステムと統合できる DeFi プロジェクトの助成金を受け取るための提案を提出できます。 このようなプロジェクトには、流動性プール、担保付きローン、オラクルなどが含まれます。 提出されると、Orbs チームは提案を評価し、承認されたアプリケーションは Orbs チームと協力してプロジェクトを実行する機会を持ちます。
+**2) Tetra Staking Wallet Support for Polygon**
 
-すでに OEGP には多くの関心が寄せられており、随時進捗をコミュニティに更新していきます。
+In order to participate in the Orbs universe, token holders are required to stake their tokens and select a Guardian to delegate their voting power to.
 
-### Orbs の助成金プログラムを活用して DeFi の可能性を模索
+In order to simplify the interaction with the staking contract, the Orbs team previously developed the Tetra wallet, with a simple and convenient interface. The [Tetra staking wallet](https://staking.orbs.network/) allows you to stake your tokens and select a Guardian to delegate to.
 
-本ブログ記事では、Tal Kol が Orbs チームの DeFi へのアプローチと、イーサリアムに基づいて構築された ERC20 トークンである Orbs ネットワークが、他のインフラ・プロジェクトよりも優れている点について説明しています。 これは、ORBS トークンを主要な DeFi プロジェクトと直接統合できることを意味します。これは、EOS や Tezos などの他のプロジェクトでは実現が難しいタスクです。
+For the release of Orbs V3, Tetra has been updated to enable staking on Polygon with a simple and intuitive UI to switch between the Ethereum and Polygon networks.
 
-また、トークンがイーサリアム上で実行される PoS プロジェクトは多くはありません。 これは Orbs ネットワークの新たなベネフィットでもあります。 ガバナンストークンの利用は、DeFi に多くの価値をもたらします（MKR など）。 Orbs PoS ユニバースは大規模なデリゲータ・コミュニティに支えられたガーディアン・コミュニティが安全な分散型ガバナンスを提供します。
+**3) Changes in Staking Rewards**
 
-[![](/assets/img/blog/2020年9月度orbsアップデート/defi_tal.jpg)](https://www.orbs.com/exploring-defi-with-the-orbs-grant-program/)
+The Orbs PoS rewards are calculated continuously based on the effective delegated stake in each time period. Having Orbs PoS deployed on Ethereum and Polygon can create syncing errors in parameters such as Total Stake on both chains, which is required to calculate the staking rewards. This calls for certain simplification in the rewards mechanism in order to avoid miscalculation of rewards.
 
-...
+**After consultation with Orbs Guardians and major stakeholders in the ecosystem, it was decided to increase the annual staking rewards to a fixed 10% APR and remove the annual maximum cap.**
 
-## **Orbs PoS V2：ガーディアンの時代**
+Let us examine the effect of this on the Orbs Guardians and Delegators:
 
-既に**13 のガーディアン**が PoS V2 べーたプログラムに参加し、アクティブに V2 ノードを稼働しています。
+Orbs PoS V2 has a maximum annual reward equal to 12% of total delegated stake capped at 80M ORBS annually.  At the current total stake of approx. 838.5M ORBS (as of 8/3/22), rewards are at the max. cap of 80M, which means that the actual V2 staking rewards are 9.54% APR.
 
-V2 ベータ期間は予想以上にスムーズに進捗しております。V2 ガーディアンのみなさんに心から感謝を申し上げます。🛡
+Polygon staking is expected to be a driver for further increase in the total ORBS staked. In addition, the total stake is predicted to increase organically if the Orbs network continues to grow and mature. In such a scenario, the actual APR for V2 would have been even lower than the current 9.54%.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/v2-guardians-1030x710.jpg)
+![](/assets/img/blog/PolygonStakingDate-images/image1.jpg)
 
-### ベータプロモーションリワード
+Orbs PoS V2 vs V3 Staking Rewards Comparison
 
-🏆🏆 8 月には V2 ガーディアンの全てに、ベータプロモーション・プログラムとして DAI が配布されています！ 🏆🏆
+As can be seen in the table above, the PoS V3 updated APR of a fixed 10% increases the rewards allocation to Guardians and Delegators in comparison to V2, especially when taking into account future network growth and increased adoption.
 
-**Orbs PoS V2：ガーディアンの時代については、**[こちらを参照](https://www.orbs.com/wp-content/uploads/2020/08/JP_ORBS_V2-The-Age-of-Guardians.pdf)
+All in all, the V3 simplified rewards mechanism is a good compromise between avoiding potential staking rewards distribution errors while minimizing the impact on, and even improving, the rewards APR for Guardians and Delegators.
 
-...
+**4) Removal of Guardian's Self Stake**
 
-## **ネットワークの状況**
+Orbs PoS V3 removes the [self-stake](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians-section-minimum-self-delegation/) requirement for Orbs Guardians. This means that Guardians will no longer be required to have a self-stake of at least 8% of their total delegated stake.
 
-Orbs ネットワークが達成した大きなマイルストーンを再度強調したいと思います。
+The purpose of this is to reduce operating friction for Guardians serving on both an Ethereum and a Polygon committee. Such a state could cause capacity issues which will force the Guardians to maneuver their ORBS between Ethereum and Polygon in order to fulfill the self-stake requirement.
 
-新しいステーキング契約では、**10 億**を超える ORBS トークンがロックされています。 これは、Orbs ネットワークにとって史上最高の新記録です！
+Therefore, to avoid this operational headwind and potential loss of revenue for the Orbs Guardians, it was decided to remove the self-stake requirement as part of the PoS V3 upgrade.
 
-### ![](/assets/img/blog/2020年9月度orbsアップデート/1b-staked-1030x634.jpg)
+**5) Special Feature: Auto-compound for Polygon Staking**
 
-ステーキング率は、トークン所有者によるプロジェクトへの信頼度を示し、Orbs ネットワークのセキュリティ向上に貢献します。
+Polygon is a scalability L2 chain on top of Ethereum and provides faster block times and fees that are considerably cheaper - every staking or claim rewards transaction is expected to cost a tiny fraction of the gas cost on Ethereum, practically resolving all existing gas issues.
 
-10 億の ORBS トークンがステーキングされているということは、現在の ORBS の供給量の約 50％に値します。これにより、以下のグラフに示すように、カルダノ、コスモス、ポルカドットなどのいくつかの注目度の高い PoS プロジェクトと比較した場合、ステーキング率に関して Orbs は引けを取らないところまできていると言えます。
+Polygon's reduced gas costs also paves the way for new and exciting features that were not practically available on Ethereum. One of these is auto-compounding.
 
-![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-03-at-15.34.13-1030x655.png)
+Auto-compounding will be the first special feature for Polygon staking and it will be available right from the launch of PoS V3. The auto-compounding feature will enable Orbs Delegators to increase their staking rewards APY by periodically re-staking their ORBS rewards back into the staking contract.
 
-_\*出所_ [_https://staked.us/_](https://staked.us/)
+**Pos V3: A major milestone for Orbs 3.0**
 
-ORBS のデリゲータに毎月のリマインドです：
+Orbs PoS V3: Multi-chain staking is a key building block of [Orbs 3.0](https://www.orbs.com/Orbs3.0/) and a significant milestone for the Orbs project.
 
-### リワードを得るために、必ずステーキングしてください！
+![](/assets/img/blog/PolygonStakingDate-images/image2.jpg)
 
-### 今月からロックされたもののみがリワードの対象となります。
+We are really excited about Orbs coming into 2022!
 
-![](/assets/img/blog/2020年9月度orbsアップデート/lock-your-tokens-1030x611.jpg)
+The upcoming Orbs PoS V3, together with the potential for increased network usage thanks to [L3 applications](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) powered by Orbs coming to fruition, like [The Open DeFi Notification Protocol](https://www.orbs.com/notifications-launch/) and [Revault](https://www.orbs.com/Revault-Network-to-Power-its-DeFi-Application-With-Orbs/), could help make 2022 the breakthrough year for Orbs becoming a major player in Web 3.0.
 
-必ず新しい Tetra ウォレットからステーキングしてください：
+Last but not least, Orbs is also celebrating its 3 year anniversary this month. 3 years is a big number in crypto years - the project has been through a lot: from surviving crypto winter, market-fit pivots, and much much more. Through all of this the Orbs community has fully participated and shown a lot of resilience and loyalty. 
 
-[https://staking.orbs.network/](https://staking.orbs.network/)
-
-お持ちのトークンがリワードの対象かどうかはこちらから確認できます：
-
-[https://orbs-network.github.io/voting/reward](https://orbs-network.github.io/voting/reward)
-
-ステーキングメカニズムはこちらからご確認ください：
-
-[Introducing Locking When Staking Orbs](https://www.orbs.com/introducing-locking-when-staking-orbs/#:~:text=When%20you%20stake%20your%20ORBS,withdrawn%20using%20your%20private%20key.)
-
-...
-
-## **プレビューとティーザー**
-
-チームは新しいウェブサイトの作成に取り組んでいます。主な改善点は、Orbs PoS V2：ガーディアンの時代など、プロジェクトの進捗毎に情報にアクセスしやすいように、全体的なデザインも更新しています。
-
-これは、新しいウェブサイトのティーザーです。完成までもう少々お待ちください！
-
-![](/assets/img/blog/2020年9月度orbsアップデート/homepage-teaser-1030x663.png)
-
-...
-
-## **Hexa 財団**[](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-Hexa 財団について、あまりご存知ではない人のためにこちらを書きました。
-
-Hexa 財団は、ブロックチェーンを活用して社会に影響を与えることに焦点を当てた非営利組織です。 Hexa 財団は、イスラエル最大のブロックチェーングループである Orbs グループの一部で、社会に影響を与えるためにブロックチェーンを活用することを目的としており、このテクノロジーを利用して、地域の、そして世界の最も差し迫った人道的課題の解決を支援しています。
-
-Hexa 財団は研究論文や興味深い洞察に満ちたブログ投稿を作成しています。
-
-詳細については、[Hexa 財団のウェブサイト](https://www.hexa.org/)をご覧ください。
-
-最近公開されたブログ投稿のうち 2 つをご紹介します：
-
-### Blockchain の児童虐待画像への対応
-
-より良く安全な社会作りのために Hexa 財団は、法執行機関にブロックチェーンを活用して子どもたちを保護するよう要請します：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_1.jpg)](https://www.orbs.com/blockchain-against-child-abusive-imagery/)
-
-### 可視化と説明責任の確保–
-
-### マクロン大統領が実際に国際援助に変化をもたらすことができる方法
-
-ブロックチェーン技術を活用して、援助資金を追跡することで、資金が目的に沿った活用をされているかをモニタリングすることができます：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/foundation_2.jpg)](https://www.orbs.com/how-president-macron-can-really-bring-change-to-foreign-aid/)
-
-...
-
-## **メディアハイライト**
-
-### Global Blockchain Business Council (GBBC)
-
-Orbs の事業開発責任者である Ran Melamed が、Orbs ブロックチェーンベースのヘルスパスポートについて話しました：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/health-passport-1030x579.jpg)](https://www.youtube.com/watch?v=WBJ0ptfkR0Q&feature=youtu.be)
-
-### REIMAGINE 2020
-
-エネルギッシュな Ran は、今回は REIMAGINE 2020 のイベントに登壇しました
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.31.23.png)](https://www.youtube.com/watch?v=8rH5iGR1X48&t=148s)
-
-...
-
-## **Vlog の Orbs チーム**
-
-もっとコミュニティのみなさんと顔が見える関係を築きたいと考え、Vlog をやっています。
-
-定期的に最新の情報や背景情報などをメンバーの口からお伝えしていきますのでお楽しみに！
-
-前回、Bar は Orbs の共同創設者である Tal Kol にインタビューしました。 逃した方はここちらを：
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.34.08.png)](https://www.youtube.com/watch?v=BecohhBUAV8)
-
-今回、Bar は、Orbs の事業開発責任者である Ran Melamed をインタビューしています。Ran がヘルスパスポートや、GBBC とのパートナーシップなどを含む事業開発の短いアップデートをするので聞いてください…
-
-[![](/assets/img/blog/2020年9月度orbsアップデート/Screen-Shot-2020-09-06-at-11.35.53.png)](https://www.youtube.com/watch?v=jv-ZZ4T6mzI&feature=youtu.be)
-
-前回の Tal や今回の Ran、そしてその他のメンバーに質問がある場合は、お気軽に Orbs の[公式日本語 Telegram](https://t.me/joinchat/G0HZhBQssmZ05v6sp_G6jg)に質問を投稿してください。恥ずかしがらないでくださいね。
-
-...
-
-それではまた来月の情報満載のアップデートをさせていただきます。
-
-みなさんお元気で！
-
-**\-Eran**
+Expect some big surprises coming soon!
