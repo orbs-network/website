@@ -78,7 +78,7 @@ Polygon is a scalability L2 chain on top of Ethereum and provides faster block t
 
 Polygon's reduced gas costs also paves the way for new and exciting features that were not practically available on Ethereum. One of these is auto-compounding.
 
-Auto-compounding will be the first special feature for Polygon staking and it will be available right from the launch of PoS V3. The auto-compounding feature will enable Orbs Delegators to increase their staking rewards APY by periodically re-staking their ORBS rewards back into the staking contract.
+Auto-compounding will be the first special feature for Polygon staking and it will be available shortly after the launch of PoS V3. The auto-compounding feature will enable Orbs Delegators to increase their staking rewards APY by periodically re-staking their ORBS rewards back into the staking contract.
 
 **Pos V3: A major milestone for Orbs 3.0**
 
