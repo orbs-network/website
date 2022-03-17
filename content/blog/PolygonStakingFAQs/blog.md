@@ -9,9 +9,9 @@ author:
 type:
 short_description: 
 ---
-The Orbs team is hard at work putting the finishing touches to the much anticipated launch of the Orbs PoS V3: [Multi-chain Staking](https://www.orbs.com/PolygonStakingDate/) on Ethereum and Polygon, planned for 29/03/22.
+The Orbs team is hard at work putting the finishing touches to the much anticipated launch of the Orbs PoS V3: [Multi-chain Staking](https://www.orbs.com/polygon-staking/) on Ethereum and Polygon, planned for 29/03/22.
 
-Even though Orbs PoS V3 is an extension of Orbs V2: [The Age of Guardians](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/), sharing a very similar mechanism and architecture, there are still some important adjustments and [improvements](https://docs.google.com/document/d/1K7wR_IPzdn3eFSpf7XG9_w79fr2RHsYD-dDZfsewFds/edit) being implemented in V3.
+Even though Orbs PoS V3 is an extension of Orbs V2: [The Age of Guardians](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/), sharing a very similar mechanism and architecture, there are still some important adjustments and [improvements](https://www.orbs.com/PolygonStakingDate/) being implemented in V3.
 
 Therefore, we thought it would be a good idea to have a comprehensive Orbs PoS FAQ document to refresh some of the more important aspects of Orbs proof of stake mechanism, as well as highlight the key components of V3. As always, we refer everyone wishing to learn more about the Orbs proof-of-stake, to the [PoS webpage](https://www.orbs.com/pos-universe/) in the Orbs website.
 
