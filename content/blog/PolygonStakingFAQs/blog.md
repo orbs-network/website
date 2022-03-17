@@ -79,7 +79,7 @@ The Orbs team will make an official announcement if and when the app can be used
 
 **Q6. What are the staking rewards?**
 
-Orbs PoS V3 adjusts the staking rewards to a fixed 10% APR of the Delegators staked ORBS tokens
+Orbs PoS V3 adjusts the staking rewards to a fixed 10% APR of the total delegated staked ORBS tokens.
 
 **Q7. Is there a locking period when unstaking?**
 
