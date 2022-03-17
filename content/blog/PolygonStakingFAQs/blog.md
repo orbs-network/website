@@ -37,7 +37,7 @@ Ethereum is the native chain for the ORBS ERC20 token. As such, ORBS tokens on E
 
 Polygon, being a scalable L2 solution on top of Ethereum, offers significantly lower gas fees when interacting with the Orbs staking contracts. This enables certain special features such as staking rewards auto-compounding which is only available for Polygon staking.
 
-*Note that each network requires its own token for transaction fees: ETH for Ethereum and MATIC for Polygon.*
+**Note that each network requires its own token for transaction fees: ETH for Ethereum and MATIC for Polygon.*
 
 **Q3. What is the Tetra staking wallet?**
 
