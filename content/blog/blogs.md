@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - PolygonStakingFAQs/blog.md
   - PolygonStakingDate/blog.md
   - Multichain/blog.md
   - Fantom/blog.md
