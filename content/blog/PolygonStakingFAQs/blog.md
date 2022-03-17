@@ -99,4 +99,4 @@ Delegators should note that Guardians are entitled to change the [rewards ratio]
 
 The full Guardians list for staking on Ethereum and Polygon can be seen in the [Tetra](https://staking.orbs.network/#/) staking wallet.
 
-You can learn more on how to choose an Orbs Guardian [here](https://www.orbs.com/how-to-choose-an-orbs-guardian)
+You can learn more on how to choose an Orbs Guardian [here](https://www.orbs.com/how-to-choose-an-orbs-guardian).
