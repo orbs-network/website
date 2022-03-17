@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/PolygonStakingFAQs-images/bg.jpg
 blogUrl: PolygonStakingFAQs
 date: 2022-03-17
-title: Orbs PoS V3: Multi-chain Staking FAQ
+title: "Orbs PoS V3: Multi-chain Staking FAQ"
 author:
   - /blog/common/authors/EranPeled.md
 type:
