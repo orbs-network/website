@@ -8,6 +8,5 @@ list:
   - expending-text/item-4/index.md
   - expending-text/item-5/index.md
   - expending-text/item-6/index.md
-  - expending-text/item-7/index.md
   - expending-text/item-8/index.md
 ---

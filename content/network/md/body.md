@@ -4,6 +4,8 @@ expendingBox1:
   - ./expending-text/item-1/index.md
 expendingBox7:
   - ./expending-text/item-2/index.md
+layer3Infrastructure:
+  - ./expending-text/layer-3-infrastructure/index.md
 expendingBox2:
   - ./expending-text/item-3/index.md
 expendingBox3:

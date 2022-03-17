@@ -2,7 +2,7 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: A New Rewards Assignment and Distribution Architecture
+title: Rewards Assignment and Distribution Architecture
 readMoreButton:
   - /_shared/buttons/read-more-btn.md
 readLessButton:

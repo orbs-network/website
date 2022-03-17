@@ -4,6 +4,7 @@ title: white papers
 list:
   - title: Community
     list:
+      - Orbs-PoS-V3-Multi-chain-Staking/paper.md
       - orbs-grant-grogram-second-call-for-grants/paper.md
       - orbs-grant-program/paper.md
   - title: Orbs Proof of Stake Universe

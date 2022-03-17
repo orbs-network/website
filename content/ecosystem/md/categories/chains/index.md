@@ -9,4 +9,5 @@ items:
   - solana.md
   - avalanche.md
   - harmony.md
+  - fantom.md
 ---

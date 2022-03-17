@@ -1,11 +1,13 @@
 ---
 layout: partials/shared/opening-box
-title: How can I become a Guardian?
+title: How do I choose an Orbs Guardian?
 color: "#1EE6CF"
 ---
 
-Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision. As the most significant stakeholders in the network, they are most suitable to provide enterprise business applications the required security and availability.
+In order to participate in the Orbs universe, token holders are required to stake their tokens and select a Guardian to delegate their voting power to. Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision. Therefore, it is important for Orbs Delegators to choose a trustworthy and active Guardian.
 
-Guardians are expected to build a community of Delegators that trust them to truthfully represent their and the network’s interests.
+Delegators should note that Guardians are entitled to change the [rewards ratio](how-to-choose-an-orbs-guardian) to their Delegators within the allowed range of 66.667% to 0%. Therefore, it is important to note that staking rewards may vary between Guardians, so choose your Guardian carefully!
 
-For instructions use this [link](https://github.com/orbs-network/validator-instructions)
+The full Guardians list for staking on Ethereum and Polygon can be seen in the [Tetra](https://staking.orbs.network/#/) staking wallet. 
+ 
+You can learn more on how to choose an Orbs Guardian [here](how-to-choose-an-orbs-guardian)

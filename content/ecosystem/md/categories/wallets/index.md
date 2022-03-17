@@ -14,4 +14,6 @@ items:
   - status.md
   - krystal.md
   - pocket.md
+  - imToken.md
+  - dcent.md
 ---
