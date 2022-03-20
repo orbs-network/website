@@ -79,8 +79,9 @@ The Orbs team will make an official announcement if and when the app can be used
 
 **Q6. What are the staking rewards?**
 
-Orbs PoS V3 adjusts the staking rewards to a fixed 10% APR of the Delegators staked ORBS tokens.
-depends on each guardian's setting, it splits for guardian and delegator. Currently, all guardians are choosing the default setting (⅓ for guardian, ⅔ for Delegator)so the final reward rate for delegators is 6.67% and 10% for guardians.
+Orbs PoS V3 adjusts the staking rewards to a fixed 10% APR of the Total Delegated Staked ORBS tokens.
+
+Guardians are responsible for the staking rewards distribution to their community of delegators by being able to modify their Delegator’s rewards split. 1⁄3 of the rewards are guaranteed to the Guardians (i.e., 3.33% for a full year of staking), while the default values for the distribution application grant the remaining 2⁄3 to Delegators (i.e., up to 6.66% annual reward maximum). 
 
 **Q7. Is there a locking period when unstaking?**
 
