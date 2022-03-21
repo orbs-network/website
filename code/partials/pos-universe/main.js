@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = ({ pageHeader, link, firstFlex, secondFlex, thirdFlex }) => {
+const Main = ({ pageHeader, link, firstFlex, secondFlex, thirdFlex, link2 }) => {
   return (
     <main className="universe">
       {pageHeader}
@@ -9,7 +9,10 @@ const Main = ({ pageHeader, link, firstFlex, secondFlex, thirdFlex }) => {
         {secondFlex}
         {thirdFlex}
       </div>
+      <div>
       {link}
+      {link2}
+      </div>
     </main>
   );
 };

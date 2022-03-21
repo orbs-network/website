@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/link-btn
-url: white-papers/orbs-pos-v2-the-age-of-guardians/
+url: white-papers/Orbs-PoS-V3-Multi-chain-Staking/
 right: true
 blank: true
 ---

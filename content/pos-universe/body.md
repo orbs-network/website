@@ -11,6 +11,8 @@ pageHeader:
 
 link:
   - md/link/link.md
+link2:
+  - md/link/link-2.md
 
 thirdFlex:
   - md/third-flex.md

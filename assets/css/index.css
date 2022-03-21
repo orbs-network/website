@@ -3757,7 +3757,11 @@ html {
   }
 }
 .universe .link-btn {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
+}
+.universe .link-btn:last-of-type {
+  margin-bottom: 80px;
+  margin-top: 20px;
 }
 .universe .page-header {
   height: auto;

@@ -5,9 +5,9 @@ images:
   - item-1.md
   - item-2.md
   - item-3.md
-  - multi-chain.md
+  - layer-3.md
   - item-4.md
   - item-5.md
   - item-6.md
-  - layer-3.md
+  - multi-chain.md
 ---

@@ -21,4 +21,6 @@ items:
   - solana.md
   - snowball.md
   - trader-joe.md
+  - pangolin.md
+  - rango.md
 ---
