@@ -1,8 +1,9 @@
 ---
 layout: partials/shared/link-btn
-url: white-papers/Orbs-PoS-V3-Multi-chain-Staking/
+url: https://www.orbs.com/PolygonStakingDate/
 right: true
 blank: true
+outer: true
 ---
 
 Orbs V3: Multi-chain Staking
