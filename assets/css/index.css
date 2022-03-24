@@ -3578,10 +3578,10 @@ html {
 .network-text-1 .expending-box-content {
   max-width: 740px;
 }
-.network-text-2 .expending-box-content, .network-text-3 .expending-box-content {
+.network-text-2 .expending-box-content, .network-text-3 .expending-box-content, .network-text-7 .expending-box-content {
   max-width: 879px;
 }
-.network-text-2 .expending-box-border-top, .network-text-3 .expending-box-border-top {
+.network-text-2 .expending-box-border-top, .network-text-3 .expending-box-border-top, .network-text-7 .expending-box-border-top {
   padding-top: 40px;
 }
 .network-text-3 {
@@ -3635,6 +3635,9 @@ html {
   margin: auto;
   padding-bottom: 115px;
 }
+.network-images-1 ul li {
+  width: 25%;
+}
 .network-images-2 {
   max-width: 820px;
   width: 53%;
@@ -3665,9 +3668,9 @@ html {
     margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 33.3%;
+    width: 25%;
   }
-  .network-images-1 ul li:nth-of-type(-n + 3) {
+  .network-images-1 ul li:nth-of-type(-n + 4) {
     margin-top: 0px;
   }
   .network-images-2 ul li {
@@ -3754,7 +3757,11 @@ html {
   }
 }
 .universe .link-btn {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
+}
+.universe .link-btn:last-of-type {
+  margin-bottom: 80px;
+  margin-top: 20px;
 }
 .universe .page-header {
   height: auto;

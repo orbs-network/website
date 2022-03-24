@@ -200,6 +200,18 @@ $light-gray: #d0d0d0;
   }
 }
 
+@mixin image-grid-4($margin-top, $padding, $width) {
+  li {
+    margin-top: $margin-top;
+    padding-left: $padding;
+    padding-right: $padding;
+    width: $width;
+    &:nth-of-type(-n + 4) {
+      margin-top: 0px;
+    }
+  }
+}
+
 @mixin image-grid-2($margin-top, $padding, $width) {
   li {
     margin-top: $margin-top;
