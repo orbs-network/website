@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: "6th Orbs Rewards Distribution: Summary"
+image: /assets/img/blog/6th-orbs-rewards-distribution-summary-2/bg.jpg
+gdpr:
+  - /_shared/gdpr/index.md
