@@ -23,6 +23,8 @@ const Page = (props) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
+
+  
   return (
     <html>
       <head>
