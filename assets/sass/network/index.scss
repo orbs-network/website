@@ -17,7 +17,7 @@
       }
     }
     &-2,
-    &-3 {
+    &-3, &-7 {
       .expending-box {
         &-content {
           max-width: 879px;
@@ -80,6 +80,9 @@
         max-width: 860px;
         margin: auto;
         padding-bottom: 115px;
+        li{
+          width: 25%;
+        }
       }
     }
     &-2 {
@@ -123,7 +126,7 @@
     &-images {
       &-1 {
         ul {
-          @include image-grid-3(50px, 20px, 33.3%);
+          @include image-grid-4(50px, 20px, 25%);
         }
       }
       &-2 {

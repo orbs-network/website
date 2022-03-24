@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/opening-box
-title: Which Guardian should I delegate to?
+title: What are the staking rewards?
 color: "#1EE6CF"
 ---
 
-In order to participate in the Orbs universe, token holders are required to stake their tokens and select a Guardian to delegate their voting power to. Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision. Therefore, it is important for Orbs Delegators to choose a trustworthy and active Guardian.
+Orbs PoS V3 adjusts the staking rewards to a fixed 10% APR of the Delegators staked ORBS tokens.
 
-Learn more on how to choose a Guardian [here](how-to-choose-an-orbs-guardian)
+depends on each guardian's setting, it splits for guardian and delegator. Currently, all guardians are choosing the default setting (⅓ for guardian, ⅔ for Delegator)so the final reward rate for delegators is 6.67% and 10% for guardians.

@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/opening-box
-title: How do I use the Tetra wallet?
+title: Does the “ORBS PoS Wallet” support Polygon staking?
 color: "#E6541E"
 ---
 
-You can find a comprehensive tutorial [here](tetra-orbs-staking-wallet-tutorial)
+No. The [ORBS PoS Wallet](orbs-pos-info-app-is-now-launched) app is connected to “Samsung blockchain keystore” and ledger,  which do not yet support Polygon. Therefore, as of right now the app can only be used for staking on Ethereum. 
 
-Don’t hesitate to contact us on the [Orbs official telegram channel](https://t.me/OrbsNetwork) if you require further support.
+The Orbs team will make an official announcement if and when the app can be used for Polygon staking as well.

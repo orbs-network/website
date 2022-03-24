@@ -8,4 +8,5 @@ items:
   - ethplorer.md
   - etherscan.md
   - bscscan.md
+  - avascan.md
 ---

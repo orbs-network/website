@@ -2,6 +2,6 @@
 layout: partials/shared/page-header/title
 ---
 
-# Orbs PoS Universe:
+# Orbs PoS V3:
 
-# The Age of guardians
+# Multi-chain Staking

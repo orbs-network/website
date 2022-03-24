@@ -1,9 +1,9 @@
 ---
 layout: partials/pos-universe/Banner
 logo: /assets/img/pos-universe/polygon.svg
-btnText: More Info
-url: https://www.orbs.com/polygon-staking/
+btnText: Stake now!
+url: https://staking.orbs.network/?chainId=137
 ---
 
 
-#### Orbs staking coming soon to polygon
+#### Orbs staking on Polygon is live!

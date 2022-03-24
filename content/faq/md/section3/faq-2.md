@@ -12,3 +12,9 @@ Yes! Tetra has now also been made available on desktop and mobile (android and i
 - [Status Wallet](orbs-staking-is-now-available-on-the-status-wallet-mobile-app)
 - [Trust Wallet](orbs-staking-is-now-available-on-the-trust-wallet-mobile)
 - [Coinbase Wallet](orbs-staking-is-now-available-on-the-coinbase-wallet-mobile-app)
+- [MyEtherWallet](orbs-staking-is-now-available-on-myetherwallet-mobile-app)
+- [TokenPocket](orbs-staking-is-now-available-on-token-pocket-wallet-mobile-app)
+
+
+Note that all of the above are Ethereum-compatible wallets and therefore enable the use of Tetra for staking on Ethereum.
+For Polygon staking - be sure that the wallet supports the Polygon network.

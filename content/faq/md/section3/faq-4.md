@@ -1,7 +1,9 @@
 ---
 layout: partials/shared/opening-box
-title: Does TETRA wallet charge any fees?
+title: How do I use the Tetra wallet?
 color: "#E6541E"
 ---
 
-The TETRA staking wallet does not charge any fees. However, the staking process involves using smart contracts on the Ethereum network subject to gas fees. In addition, the rewards distributed by Guardians may vary, so be sure to [choose your Guardian carefully.](how-to-choose-an-orbs-guardian)
+You can find a comprehensive tutorial [here](tetra-orbs-staking-wallet-tutorial)
+
+Don’t hesitate to contact us on the [Orbs official telegram channel](https://t.me/OrbsNetwork) if you require further support.

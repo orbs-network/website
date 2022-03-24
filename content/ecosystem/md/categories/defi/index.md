@@ -19,4 +19,8 @@ items:
   - dinoswap.md
   - kogefarm.md
   - solana.md
+  - snowball.md
+  - trader-joe.md
+  - pangolin.md
+  - rango.md
 ---

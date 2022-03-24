@@ -18,6 +18,7 @@ const NetworkFlex = ({
   boxes2,
   expendingBox6,
   imagesGrid2,
+  layer3Infrastructure
 }) => {
   return (
     <div className="network-content flex-column main-grid">
@@ -26,6 +27,9 @@ const NetworkFlex = ({
       </Section>
       <Section customClassName="2" type="text">
         {expendingBox7}
+      </Section>
+      <Section customClassName="7" type="text">
+        {layer3Infrastructure}
       </Section>
       <Section customClassName="2" type="text">
         {expendingBox2}

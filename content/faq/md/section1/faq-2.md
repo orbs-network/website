@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/opening-box
-title: What is the connection between Orbs and Ethereum?
+title: What is Layer 3 infrastructure?
 color: "#E61EA9"
 ---
 
-Orbs is an ERC20 token but has its own mainnet.
+Orbs unique features designed for interoperability with EVM-compatible blockchains, together with its decentralized network of nodes, allow it to be set up as a separate L-3 execution layer operating to enhance the capabilities of EVM smart contracts. By working in conjunction with other L1 and L2 solutions as part of a tiered blockchain stack, Orbs opens up a whole new spectrum of possibilities for DeFi, NFT, Metaverse and GameFi.
 
-Orbs is designed as a hybrid blockchain, maintaining both an independent blockchain and PoS architecture, as well as utilizing the Ethereum network as an [ external objective blockchain](white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/) for the PoS logic. ORBS token, staking, delegation and voting operate over Ethereum contracts. This PoS over Ethereum architecture provides multiple advantages, including a high level of transparency, ease of subscription payments and staking, additional security and [ensuring the integrity of elections.](pos-external-oversight)
+Learn more [here](How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi).
