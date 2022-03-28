@@ -36,7 +36,9 @@ During the following 3 weeks you will get special  triple rewards for staking on
 Here are the full promotion details:
 
 ⏰ Starts: April 12th 2022
+
 🏁 Ends: May 3rd 2022
+
 🏆 Prize: 30% APR staking rewards (x3 the current rewards rate of 10%)
 
 Network: Polygon (the promotion rewards will apply to Polygon staking only, not on Ethereum)
