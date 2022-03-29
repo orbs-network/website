@@ -47,22 +47,3 @@ Polygonへのブリッジ、Tetraの使い方などはこちらをご参考に�
 
 この重要なマイルストーンを迎えることができたのは、素晴らしいOrbsコミュニティの皆さまのサポートのお陰です！改めて感謝申し上げます。来年のOrbsメインネット4周年記念では、さらなる成功をお祝いできますよう、これからも応援よろしくお願いいたします！
 
-<div class='line-separator'></div>
-
-Twitter:
-
-### Announcing the Orbs special staking promotion on Polygon:
-
-3 weeks, x3 rewards, 30% APR!
-
-Join us in celebrating the 3 year Orbs mainnet anniversary and the launch of Orbs PoS V3: Multi-chain staking on Polygon!
-
-Read all about the promotion details here:
-
-[link to blog]
-
-ORBSのPolygonでのステーキング・キャンペーンのお知らせ🎉
-
-通常の3倍の報酬を得られる、3周年を記念した、3週間、報酬3倍、30％APRのキャンペーンです！
-
-Orbsメインネット3周年とOrbs PoS V3: Polygonでのマルチチェーン・ステーキングの開始を一緒にお祝いしましょう！
