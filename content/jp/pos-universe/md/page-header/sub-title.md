@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/sub-title
 ---
 
-## OrbsのPoSユニバースは、Orbsネットワークとユニバースの基盤です。Orbsの現在のPoSモデルである「OrbsユニバースV2.5：ガーディアンの時代」は、Orbsユニバースのガーディアンが安全でスケーラブルなネットワークの構築と維持に積極的な役割を果たすことを可能にします。この基盤が強固であることは、アプリケーションにとって、Orbsを採用する重要なポイントとなります。
+## Orbs PoSユニバースは、Orbsネットワークの基幹となるUniverseを構築しています。Orbsの現在のPoSモデルである「Orbs PoS V3: マルチチェーン・ステーキング」は、Orbsのハイブリッドアーキテクチャとクロスチェーン機能を活用し、EthereumとPolygonでのマルチチェーンOrbs PoS ステーキングを展開します。

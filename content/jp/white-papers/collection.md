@@ -8,6 +8,7 @@ list:
       - orbs-grant-program/paper.md
   - title: OrbsのProof of Stakeユニバース
     list:
+      - Orbs-PoS-V3-Multi-chain-Staking/paper.md
       - orbs-pos-v2-the-age-of-guardians/paper.md
   - title: Orbsのテクノロジー概要
     list:
