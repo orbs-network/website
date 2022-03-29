@@ -1,7 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
-  - PolygonPromotion/blog.md
   - FTMScan/blog.md
   - PolygonStakingFAQs/blog.md
   - PolygonStakingDate/blog.md
