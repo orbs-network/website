@@ -2,7 +2,7 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: 新しい報酬の割り当てと配布のアーキテクチャ
+title: 報酬の割り当てと配布の構造
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md
 readLessButton:

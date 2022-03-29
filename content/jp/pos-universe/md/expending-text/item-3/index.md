@@ -2,7 +2,7 @@
 layout: partials/shared/expendable-text-box
 extra:
   - extra.md
-title: イーサリアム上のPoS
+title: Ethereum上のPoS
 readMoreButton:
   - /jp/_shared/buttons/read-more-btn.md
 
