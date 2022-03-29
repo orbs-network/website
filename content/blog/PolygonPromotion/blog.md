@@ -9,7 +9,7 @@ author:
 type:
 short_description: 
 ---
-**A New Orbs Era Has Just Begun!**
+### A New Orbs Era Has Just Begun!
 
 **March 29th 2022** marks **the third-year anniversary** of Orbs' mainnet launch, as well as the release of Orbs PoS V3. It's incredible to think about everything that the project has already achieved and the exciting outlook ahead!
 
@@ -21,7 +21,7 @@ Through all of this, the Orbs community has been super active and involved and h
 
 Ready? Here you go!
 
-**Announcing the Orbs Staking Promotion on Polygon 🎉**
+### Announcing the Orbs Staking Promotion on Polygon 🎉
 
 To celebrate the 3rd year mainnet anniversary and the launch of Staking on Polygon as part of Orbs PoS V3, we've prepared something really awesome - **3 Year Anniversary Promotion!**
 
@@ -41,9 +41,11 @@ Here are the full promotion details:
 
 🏆 Prize: 30% APR total staking rewards (x3 the current rewards rate of 10%)
 
-Network: Polygon (the promotion rewards will apply to Polygon staking only, not on Ethereum)
+🌐 Network: Polygon (the promotion rewards will apply to Polygon staking only, not on Ethereum)
 
-How to participate: Staking using the [Tetra Staking Wallet](https://staking.orbs.network/#/)
+❓ How to participate: Staking using the [Tetra Staking Wallet](https://staking.orbs.network/#/)
+
+<div class='line-separator'> </div>
 
 Useful links:
 
