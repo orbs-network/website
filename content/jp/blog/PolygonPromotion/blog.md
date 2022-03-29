@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/PolygonPromotion-images/bg.jpg
 blogUrl: PolygonPromotion
 date: 2022-03-29
-title: Orbsメインネット3周年記念！スペシャル・キャンペーン開催
+title: "Orbsメインネット3周年記念！スペシャル・キャンペーン開催"
 author:
   - /jp/blog/common/authors/MayoHotta.md
 type:
