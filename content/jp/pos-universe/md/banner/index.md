@@ -6,4 +6,4 @@ url: https://staking.orbs.network/?chainId=137
 ---
 
 
-#### Orbs staking on Polygon is live!
+#### PolygonでOrbsステーキングが可能に！
