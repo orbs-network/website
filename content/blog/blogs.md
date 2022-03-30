@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - How-to-Stake-ORBS-on-Polygon-Using-Tetra/blog.md
   - PolygonPromotion/blog.md
   - FTMScan/blog.md
   - PolygonStakingFAQs/blog.md
