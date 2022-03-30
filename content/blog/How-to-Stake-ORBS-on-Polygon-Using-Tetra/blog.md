@@ -1,67 +1,108 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/How-to-Stake-ORBS-on-Polygon-Using-Tetra/bg.jpg
+blogUrl: How-to-Stake-ORBS-on-Polygon-Using-Tetra
+date: 2022-03-30
+title: How to Stake ORBS on Polygon Using Tetra
 author:
   - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+[Tetra](https://staking.orbs.network) is the official staking wallet by the Orbs team, from which any ORBS holder can easily stake tokens with a Guardian of their choice.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+For the [release](https://www.orbs.com/PolygonStakingDate/) of Orbs PoS V3: Multi-chain staking, Tetra has been updated to enable staking on Polygon with a simple and intuitive UI to switch between the Ethereum and Polygon networks.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+You can see the entire Polygon staking process in this short video:
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+<iframe src="https://www.youtube.com/embed/JkhyqfdxAS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+**1) Select Network**
 
-Please also see our disclaimers below.
+There are no differences in the Orbs staking mechanism between Ethereum and Polygon. Orbs Delegators have the ability to choose between staking on Ethereum and staking on Polygon, based on their own personal preferences and considerations.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+*_Note that each network requires its own token for transaction fees: ETH for Ethereum and MATIC for Polygon._
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**2) Select Guardian**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+In order to participate in the Orbs universe, token holders are required to stake their tokens and select a Guardian to delegate their voting power to. Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long term vision. Therefore, it is important for Orbs Delegators to choose a trustworthy and active Guardian.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+*_Delegators should note that Guardians are entitled to change the [rewards ratio](https://www.orbs.com/how-to-choose-an-orbs-guardian/) to their Delegators within the allowed range of 66.667% to 0%. Therefore, it is important to note that staking rewards may vary between Guardians, so choose your Guardian carefully!_
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+The full Guardians list for staking on Ethereum and Polygon can be seen in the [Tetra](https://staking.orbs.network/#/) staking wallet.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+You can learn more on how to choose an Orbs Guardian [here](https://www.orbs.com/how-to-choose-an-orbs-guardian).
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+**3) Approve ORBS Usage**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+An ORBS [approval transaction](https://www.orbs.com/Tetra-Wallet-Infinite-Approve-is-Now-Live/) will be required only when staking ORBS for the first time, after which it will no longer be needed when re-staking.
 
-Once the position is opened, you can always re-adjust the parameters:
+**4) Stake ORBS**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+This transaction will interact with the Orbs staking contract on Polygon in order to stake your specified ORBS amount to your chosen Guardian.
 
-### 2) Lend ALPACA tokens
+**5) ORBS Staking Confirmation!**
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+All done! You will now see your staked tokens in the Tetra wallet’s UI as well as your accumulated ORBS staking rewards.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+### How to Get ORBS Tokens on Polygon
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+Staking on Polygon requires Orbs Delegators to have their ORBS tokens on the Polygon network. This can be achieved in 2 main ways:
 
-#### And that’s it – You are now a senior Alpaca!
+**1) Swap ORBS tokens on a native Polygon DEX-AMM:** There are ORBS liquidity pools on [QuickSwap](https://quickswap.exchange/#/swap), the biggest DEX-AMM on Polygon, with the largest pool being [ORBS-USDC](https://info.quickswap.exchange/#/pair/0xb2b6d423e535b57aad06e9866803b95fb66152ea) which has over $1.2M in total liquidity.
+
+
+![pool](/assets/img/blog/How-to-Stake-ORBS-on-Polygon-Using-Tetra/image1.png)
+
+
+**2) Bridge ORBS from Ethereum to Polygon:** Another option is to bridge ORBS tokens from Ethereum to Polygon. We recommend using the [official Polygon bridge](https://wallet.polygon.technology/bridge/).
+
+
+### New Feature: Orbs Staking Notifications!
+
+The new Tetra wallet introduces a cool new feature: [free mobile notifications](https://medium.com/@defiorg/the-open-defi-notification-protocol-now-supports-the-orbs-network-f32c9f3d4b78) using the Open DeFi Notification Protocol! 
+
+Tetra users can now set up 2 types of notifications to keep track of their Orbs staking:
+
+**1) Pending Reward:** Get notified when your pending ORBS rewards are above a specified amount.
+
+**2) Unlock Cooldown:** Get notified when the 14 days cooldown period for your claimed ORBS tokens is over.
+
+To set up a notification, simply click on the “Set Notification” button on the Tetra interface which will send you to the Notification app.
+
+_The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a free-for-use, community-inspired initiative to provide users with decentralized and free mobile notifications for all sorts of on-chain events. The Protocol is powered by the Orbs network and will be executed by its decentralized network of Orbs Guardians._
+
+
+![notifications](/assets/img/blog/How-to-Stake-ORBS-on-Polygon-Using-Tetra/image2.png)
+
+
+### More Information on Tetra and Orbs Staking
+
+This tutorial demonstrates how to stake ORBS on Polygon using the new Tetra wallet’s UI.
+
+If you are new to using the Tetra wallet, we recommend you watch this more [comprehensive tutorial](https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/) which includes other important functions in the Tetra wallet, such as:
+
+- How to unstake
+- How to re-stake
+- How to withdraw
+- How to change Guardians
+
+In addition, we recommend that you go over some of our Orbs staking documentation which you can find in the Orbs [PoS webpage](https://www.orbs.com/pos-universe/), and also in this [FAQ](https://www.orbs.com/PolygonStakingFAQs/) document.
+
+As always, don't hesitate to contact us if you have any questions on how to use Tetra (or any other Orbs related issue). The team would be happy to assist you in the Official Orbs [Telegram channel](https://t.me/OrbsNetwork).
+
+Happy Polygon staking <3
+
+
 
 <div class='line-separator'> </div>
 
+
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information regarding Tetra, please see the [Terms of Use](https://staking.orbs.network/34ddbf2e660b9b7d284130e8444f09be.pdf) and [Privacy Policy](https://staking.orbs.network/bf7dd07efc692312eb717f6d2c367392.pdf).
