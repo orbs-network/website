@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Staking-is-Now-Available-on-ONTO-Wallet/bg.jpg
+blogUrl: Orbs-Staking-is-Now-Available-on-ONTO-Wallet
+date: 2021-04-07
+title: "Orbs Staking is Now Available on ONTO Wallet"
 author:
   - /blog/common/authors/EranPeled.md
 type:
