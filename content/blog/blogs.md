@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-is-now-live-on-SpookySwap/blog.md
   - Orbs-Staking-is-Now-Available-on-the-SafePal-Crypto-Wallet/blog.md
   - How-to-Stake-ORBS-on-Polygon-Using-Tetra/blog.md
   - PolygonPromotion/blog.md
