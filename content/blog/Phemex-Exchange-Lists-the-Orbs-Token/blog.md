@@ -1,67 +1,54 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Phemex-Exchange-Lists-the-Orbs-Token/bg.jpg
+blogUrl: Phemex-Exchange-Lists-the-Orbs-Token
+date: 2022-04-18
+title: "Phemex Exchange Lists the Orbs Token (ORBS)"
 author:
   - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**[Phemex](https://phemex.com/) crypto exchange has listed ORBS, the native token of the Orbs network!** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+The following trading pair is now available on Phemex: ORBS/USDT. Phemex is a leading crypto exchange ranked in the top 50 by [CMC](https://coinmarketcap.com/rankings/exchanges/), with more than 2m active users and over $6.5B in daily trading volume.
+ 
+ ![phemex](/assets/img/blog/Phemex-Exchange-Lists-the-Orbs-Token/image1.png)
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+ 
+Phemex exchange offers its users the following key benefits:
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+- **High performance** of up to 300,000 transactions per second, with order response times of less than 1 millisecond.
+- **Advanced Functionalities** such FIX API and sub accounts.
+- **High Wallet Security**, including cold wallet storage and  2-level human scrutiny offline signatures for transfers.
+- **24/7 access and support**.
 
-### Step-by-Step Guide
+Apart from spot trading, Phemex also boasts various products such as derivatives trading with up to x100 leverage, passive earning on a selection of crypto tokens, knowledge center, and more…
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Major Listings on Both CEXs and DEXs
 
-Please also see our disclaimers below.
+In addition to Phemex, ORBS is listed on other tier-1 centralized exchanges (CEXs) such as Upbit, OKX, FTX, KUCOIN, Bithumb and more. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+But centralized exchanges are only part of the picture. During the past year, the Orbs DeFi ecosystem has consistently expanded, with integrations into 7 leading L1+L2 including: Ethereum, BSC, Polygon, Solana, Avalanche, Harmony and Fantom. As a result, the ORBS token is now available on most major DeFi protocols and projects on each of these chains (such as Serum, Snowball, Rango, UniSwap, SushiSwap, PancakeSwap, Kyber Network, 1inch, Alpaca Finance, Beefy Finance, QuickSwap, DinoSwap, WOWswap, Raydium, Trader Joe, Pangolin, AnySwap, SpookySwap, etc, with more to come in the near future...).
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ ![ecosystem](/assets/img/blog/Phemex-Exchange-Lists-the-Orbs-Token/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Making Orbs a multi-chain asset, with ample liquidity on both on-chain and off-chain exchanges has been one of the key elements in the rollout of [Orbs 3.0](https://www.orbs.com/Orbs3.0/), as well as a key factor in making the Orbs project accessible to additional participants to accelerate the project’s growth.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs:**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is a public blockchain infrastructure executed by a decentralized network of permissionless validators using Proof-of-Stake (PoS) consensus.
+Orbs’ unique features designed for interoperability with EVM-compatible blockchains, together with its decentralized network of nodes, allow it to be set up as a separate execution layer (“L3” ) operating to enhance the capabilities of EVM smart contracts. By working in conjunction with other L1 and L2 solutions as part of a tiered blockchain stack, Orbs opens up a whole new spectrum of possibilities for DeFi, NFT, Metaverse and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, Singapore, Tokyo and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at:
+
+- Telegram: https://t.me/OrbsNetwork
+- Twitter: https://twitter.com/orbs_network
