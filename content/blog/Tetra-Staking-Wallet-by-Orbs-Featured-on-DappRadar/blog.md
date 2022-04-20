@@ -1,67 +1,73 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Tetra-Staking-Wallet-by-Orbs-Featured-on-DappRadar/bg.jpg
+blogUrl: Tetra-Staking-Wallet-by-Orbs-Featured-on-DappRadar
+date: 2022-04-21
+title: Tetra Staking Wallet by Orbs Featured on DappRadar
 author:
   - /blog/common/authors/EranPeled.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**[Tetra](https://staking.orbs.network/), the official staking wallet by the [Orbs](https://www.orbs.com/) project, has been added to popular crypto website DappRadar!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+DappRadar is one of the most popular websites to explore, track and rank crypto dapps. With over 10,000 listed dapps, DappRadar provides trusted data and coverage on the widest selections of dapps across the industry, including NFT collections, DeFi projects and more.
+ 
+The DappRadar’s Tetra [page](https://dappradar.com/multichain/other/tetra) contains all the necessary information about the Tetra wallet by Orbs, such as dapp description and ranking by DappRadar, links to github and social, a short tutorial video, etc.
+ 
+In addition, DappRadar also started monitoring and providing statistics on the Orbs staking contracts deployed on both Ethereum and Polygon, which hold a combined impressive TVL of over $200m in staked ORBS using Tetra.
+ 
+ 
+![dappradar](/assets/img/blog/Tetra-Staking-Wallet-by-Orbs-Featured-on-DappRadar/image1.png)
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The addition of Tetra to DappRadar is another important step in establishing Tetra as a reliable and secure wallet application, as well as helping to expose Tetra and the Orbs project to new participants.
 
-### Step-by-Step Guide
+### A Key Component of Orbs 3.0
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Orbs has recently launched its novel Orbs PoS V3: [Multichain staking](https://www.orbs.com/PolygonStakingDate/) on Ethereum and Polygon.
 
-Please also see our disclaimers below.
+**Having Orbs PoS staking on Polygon means that the Orbs network utilizes the Ethereum stack to its fullest potential: The security of Ethereum as the base layer, and the scalability & low fees of Polygon as L2.**
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+In order to participate in the Orbs PoS mechanism, token holders are required to stake their tokens and select a Guardian to delegate their voting power to. In order to simplify the interaction with the staking contract, the Orbs team developed the Tetra wallet, with a simple and convenient interface. The Tetra staking wallet allows you to stake your tokens and select a Guardian to delegate to.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+For the release of Orbs PoS V3, Tetra has been updated to enable staking on both Ethereum and Polygon, with a simple and intuitive UI to switch between the two networks.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+### Staking from All Major Wallets
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+It is important for the Orbs project to ensure that participating in the Orbs proof-of-stake is as user friendly and accessible as possible for ORBS token holders. [Tetra](https://staking.orbs.network/) is available on both desktop and mobile (Android & iOS) and in addition, Orbs Delegators can use Tetra to stake ORBS tokens from their favorite wallets. 
+ 
+To date, Orbs staking using Tetra is available from the following wallet applications:
+ 
+- [Coinbase](https://www.orbs.com/orbs-staking-is-now-available-on-the-coinbase-wallet-mobile-app)
+- [Metamask](https://www.orbs.com/orbs-swaps-and-staking-now-available-on-metamask-wallet)
+- [Enjin Wallet](https://www.orbs.com/tetra-staking-wallet-by-orbs-now-on-mobile)
+- [imToken Wallet](https://www.orbs.com/orbs-tetra-staking-is-now-available-on-imtoken-wallet)
+- [Status Wallet](https://www.orbs.com/orbs-staking-is-now-available-on-the-status-wallet-mobile-app)
+- [Trust Wallet](https://www.orbs.com/orbs-staking-is-now-available-on-the-trust-wallet-mobile)
+- [Token Pocket](https://www.orbs.com/orbs-staking-is-now-available-on-token-pocket-wallet-mobile-app)
+- [D’CENT](https://www.orbs.com/orbs-staking-is-now-available-on-dcent-wallet-mobile-app/)
+- [Krystal](https://www.orbs.com/orbs-and-krystal-announce-a-partnership-focused-on-defi/)
+- [FTX (Former BlockFolio)](https://www.orbs.com/orbs-is-now-available-on-blockfolio/)
+- [MEW](https://play.google.com/store/apps/details?id=com.myetherwallet.mewwallet&hl=en&gl=US)
+- [SafePal](https://www.orbs.com/Orbs-Staking-is-Now-Available-on-the-SafePal-Crypto-Wallet/)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs:**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is a public blockchain infrastructure operating as an independent execution layer enhancing the capabilities of EVM based smart contracts. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus.
+
+Orbs unique features designed for interoperability with EVM-compatible blockchains, together with its decentralized network of nodes, allow it to be set up as a separate [execution layer](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) (“L3” ) operating to enhance the capabilities of EVM smart contracts. By working in conjunction with other L1 and L2 solutions as part of a tiered blockchain stack, Orbs opens up a whole new spectrum of possibilities for DeFi, NFT, Metaverse and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, Singapore, Tokyo and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at:
+
+Telegram: https://t.me/OrbsNetwork
+
+Twitter: https://twitter.com/orbs_network
+
