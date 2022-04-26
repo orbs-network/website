@@ -7,7 +7,7 @@ color: "#E6541E"
 
 Does the “ORBS PoS Wallet support Polygon staking?
 
-Yes! The Orbs PoS wallet app supports ORBS staking on both Ethereum and Polygon, as well as Ethereum <-> Polygon bridging for easy transfer of ORBS tokens between the two networks.
+Yes! The Orbs PoS wallet [app](https://play.google.com/store/apps/details?id=com.orbs.pos&hl=en&gl=US) supports ORBS staking on both Ethereum and Polygon, as well as Ethereum <-> Polygon bridging for easy transfer of ORBS tokens between the two networks.
 
 The Orbs PoS wallet is an android native staking app which is connected to the Samsung blockchain keystore and can also be used with a Ledger hardware wallet.
 
