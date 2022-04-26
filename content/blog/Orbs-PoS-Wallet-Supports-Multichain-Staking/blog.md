@@ -1,67 +1,51 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-PoS-Wallet-Supports-Multichain-Staking/bg.jpg
+blogUrl: Orbs-PoS-Wallet-Supports-Multichain-Staking
+date: 2022-04-26
+title: "Orbs PoS Wallet Supports Multi-chain Staking"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Eddy.md
 type:
 short_description:
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs recently launched its [PoS V3](https://www.orbs.com/PolygonStakingDate/): Multi-chain staking which enables Orbs Delegators to stake their ORBS tokens on both the Ethereum and Polygon networks.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+**In addition to using the [Tetra staking wallet](https://staking.orbs.network/), we are happy to announce that the Orbs PoS Wallet now also fully supports staking on Ethereum and Polygon!**
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+You can download the Orbs PoS wallet app [here](https://play.google.com/store/apps/details?id=com.orbs.pos&hl=en&gl=US).
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The Orbs PoS wallet is an open-source, android-native staking app which is connected to the Samsung blockchain keystore and can be used with a Ledger hardware wallet. This is another important step to facilitate ORBS staking for Orbs Delegators from a wider range of tools and services.
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Staking and Bridging using the Orbs PoS Wallet 
 
-Please also see our disclaimers below.
+So what’s new in the Orbs PoS Wallet [app](https://play.google.com/store/apps/details?id=com.orbs.pos&hl=en&gl=US)?
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+**1) ORBS staking on both Ethereum and Polygon**
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The Orbs PoS Wallet now fully supports Orbs PoS V3: Multi-chain staking on Ethereum and Polygon. The app users can easily switch between Ethereum and Polygon in the UI to manage their ORBS staking positions on both networks.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![PoSWallet1](/assets/img/blog/Orbs-PoS-Wallet-Supports-Multichain-Staking/image1.jpg)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+**2) Ethereum/Polygon ORBS bridging**
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Another cool feature of the Orbs Staking Wallet is a built-in Ethereum <-> Polygon cross chain bridge for transferring ORBS tokens between the two networks.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+This makes it easier for Orbs Delegators to manage their staking position on both Ethereum and Polygon in one place!
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+![PoSWallet1](/assets/img/blog/Orbs-PoS-Wallet-Supports-Multichain-Staking/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+As always, please do not hesitate to contact us if you have any questions on how to use the Orbs PoS Wallet (or any other Orbs related issue). The team would be happy to assist you in the Official Orbs [Telegram channel](https://t.me/OrbsNetwork).
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_For more information regarding the Orbs PoS Wallet, please see the [Terms of Use](https://drive.google.com/file/d/1x46hq9nwtG1hG8HzoYJenu05I2osVbph/view?usp=sharing) and [Privacy Policy](https://drive.google.com/file/d/11N4FHscwYaijsCpCUeBW5BlQK0ddnmBU/view?usp=sharing)._
