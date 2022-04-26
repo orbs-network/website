@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-PoS-Wallet-Supports-Multichain-Staking/blog.md
   - Tetra-Staking-Wallet-by-Orbs-Featured-on-DappRadar/blog.md
   - Phemex-Exchange-Lists-the-Orbs-Token/blog.md
   - Orbs-Staking-is-Now-Available-on-ONTO-Wallet/blog.md
