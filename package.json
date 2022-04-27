@@ -6,6 +6,7 @@
   "scripts": {
     "prebuild": "sh prebuild.sh",
     "build": "cuttlebelle",
+    "postbuild": "node ./build-rss-feed.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass-prebuild": "sass ./assets/sass/index.scss ./assets/css/index.css",
     "watch-sass": "sass -w ./assets/sass/index.scss ./assets/css/index.css",
@@ -24,7 +25,11 @@
     "cross-env": "^7.0.3",
     "globe.gl": "^2.21.1",
     "moment": "^2.29.1",
-    "sass": "^1.45.1"
+    "sass": "^1.45.1",
+    "node-html-parser": "^5.3.3",
+    "rss-generator": "0.0.3",
+    "xml": "^1.0.1",
+    "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.13.0"
