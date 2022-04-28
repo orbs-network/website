@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 Apr 2022 13:36:51 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 28 Apr 2022 13:44:11 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[ORBS is now live on SpiritSwap!]]></title>
@@ -103,6 +103,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs PoS V3: Multi-chain Staking FAQ]]></title>
+            <description><![CDATA[Even though Orbs PoS V3 is an extension of Orbs V2: The Age of Guardians, sharing a very similar mechanism and architecture, there are still some important adjustments and improvements being implemented in V3. Therefore, we thought it would be a good idea to have a comprehensive Orbs PoS FAQ document to refresh some of the more important aspects of Orbs proof of stake mechanism, as well as highlight the key components of V3.]]></description>
             <link>https://www.orbs.com/PolygonStakingFAQs</link>
             <guid isPermaLink="true">https://www.orbs.com/PolygonStakingFAQs</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -111,6 +112,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs PoS V3: Multi-chain Staking on Polygon Launch Date, Protocol Improvements and Special Features]]></title>
+            <description><![CDATA[After a lot of hard work by the Orbs team and many community members, we are excited to announce that Orbs PoS V3: Multi-chain Staking on Polygon will launch on 29/03/2022 (which also happens to be the three year anniversary of Orbs mainnet launch)!]]></description>
             <link>https://www.orbs.com/PolygonStakingDate</link>
             <guid isPermaLink="true">https://www.orbs.com/PolygonStakingDate</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -119,6 +121,7 @@
         </item>
         <item>
             <title><![CDATA[ORBS is now Live on Fantom Via Multichain Cross-Chain Bridge]]></title>
+            <description><![CDATA[We are excited to announce that the ORBS token is now available on Fantom using the Multichain (previously Anyswap) cross-chain bridge!]]></description>
             <link>https://www.orbs.com/Multichain</link>
             <guid isPermaLink="true">https://www.orbs.com/Multichain</guid>
             <dc:creator><![CDATA[Olga Chef]]></dc:creator>
@@ -127,6 +130,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Ecosystem Expansion: Fantom]]></title>
+            <description><![CDATA[As we outlined in our recent introduction to Orbs 3.0, a key component of the Orbs architecture is multi-chain interoperability. This is essential in order to unlock the value of Orbs 3.0 as Layer-3 infrastructure and multi-chain PoS staking.]]></description>
             <link>https://www.orbs.com/Fantom</link>
             <guid isPermaLink="true">https://www.orbs.com/Fantom</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -135,6 +139,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs 3.0 - A Key Building Block for the Future of the Internet]]></title>
+            <description><![CDATA[Since making our pivot to DeFi in early 2021, the Orbs team has been hard at work on laying down the proper foundation for Orbs 3.0. This included making ORBS a cross-chain asset with integrations to over 30 of the leading DeFi protocols across 5 of the major L1+L2 chains, making the necessary improvements to the Orbs protocol, testing L3 proof of concept and use-cases, and more...]]></description>
             <link>https://www.orbs.com/Orbs3.0</link>
             <guid isPermaLink="true">https://www.orbs.com/Orbs3.0</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
