@@ -7,8 +7,7 @@ title: Celebrating the Orbs 3 Year  Mainnet Anniversary with a Special Promotion
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: March 29th 2022 marks the third-year anniversary of Orbs' mainnet launch, as well as the release of Orbs PoS V3. It's incredible to think about everything that the project has already achieved and the exciting outlook ahead!
-
+short_description: "March 29th 2022 marks the third-year anniversary of Orbs' mainnet launch, as well as the release of Orbs PoS V3. It's incredible to think about everything that the project has already achieved and the exciting outlook ahead!"
 ---
 ### A New Orbs Era Has Just Begun!
 

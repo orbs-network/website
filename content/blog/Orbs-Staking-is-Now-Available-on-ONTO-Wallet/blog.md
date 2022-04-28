@@ -7,8 +7,7 @@ title: "Orbs Staking is Now Available on ONTO Wallet"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: We are happy to announce that ORBS staking is now available on the ONTO Crypto Wallet mobile app for Android, iOS and desktop!
-
+short_description: "We are happy to announce that ORBS staking is now available on the ONTO Crypto Wallet mobile app for Android, iOS and desktop!"
 ---
 
 **We are happy to announce that ORBS staking is now available on the [ONTO Crypto Wallet](https://onto.app/en/) mobile app for Android, iOS and desktop!**

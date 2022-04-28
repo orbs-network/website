@@ -7,7 +7,7 @@ title: "Orbs PoS Wallet Supports Multi-chain Staking"
 author:
   - /blog/common/authors/Eddy.md
 type:
-short_description: we are happy to announce that the Orbs PoS Wallet now also fully supports staking on Ethereum and Polygon!
+short_description: "we are happy to announce that the Orbs PoS Wallet now also fully supports staking on Ethereum and Polygon!"
 ---
 
 Orbs recently launched its [PoS V3](https://www.orbs.com/PolygonStakingDate/): Multi-chain staking which enables Orbs Delegators to stake their ORBS tokens on both the Ethereum and Polygon networks.
