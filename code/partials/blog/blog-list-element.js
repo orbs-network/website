@@ -26,6 +26,9 @@ const BlogListElement = (props) => {
       {...setBlogAttributes(props)}
       style={{ display: "none" }}
     >
+      <div className="short-description-container" style={{ display: "none" }}>
+        {short_description}
+      </div>
       <a
         href={generateUrl(url)}
         className="blog-list-blog-wrapper"
