@@ -7,8 +7,7 @@ title: "ORBS is now live on SpookySwap!"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: We are excited to announce that the ORBS token is now available on SpookySwap, the leading DEX-AMM on Fantom!
-
+short_description: "We are excited to announce that the ORBS token is now available on SpookySwap, the leading DEX-AMM on Fantom!"
 ---
 
 **BOO!** 😱😱😱
