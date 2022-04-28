@@ -30,7 +30,7 @@ async function generateRss() {
 
             const imageUrl = blogHtml.attrs['data-image']
             const link = blogHtml.querySelector('a').attrs['href']
-            const authorImg = blogHtml.querySelector('.blog-list-blog-author').querySelector('img').attrs['src']
+            const description = blogHtml.querySelector('.short-description-container').rawText
 
             try {
 
@@ -41,9 +41,10 @@ async function generateRss() {
                     url: fixSiteUrl(link),
                     enclosure: {url: fixSiteUrl(imageUrl)},
                     author: author.childNodes[0].rawText,
+                    description: description,
                     date: new Date(date)
                 })
-                
+
             } catch (ignore) {
                 // failed for some reason, probably date parsing
             }
