@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 Apr 2022 07:52:17 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 28 Apr 2022 12:21:30 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[ORBS is now live on SpiritSwap!]]></title>
@@ -413,6 +413,7 @@
         </item>
         <item>
             <title><![CDATA[ORBS is now live on Trader Joe!]]></title>
+            <description><![CDATA[ORBS token is now available on Trader Joe, the leading DEX-AMM on the Avalanche network!]]></description>
             <link>https://www.orbs.com/ORBS-is-now-live-on-Trader-Joe</link>
             <guid isPermaLink="true">https://www.orbs.com/ORBS-is-now-live-on-Trader-Joe</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -421,6 +422,7 @@
         </item>
         <item>
             <title><![CDATA[ORBS is now live on AvaScan]]></title>
+            <description><![CDATA[ORBS token is now available on AvaScan, the leading Avalanche block explorer!]]></description>
             <link>https://www.orbs.com/ORBS-is-now-live-on-AvaScan</link>
             <guid isPermaLink="true">https://www.orbs.com/ORBS-is-now-live-on-AvaScan</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -461,6 +463,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs is Live on the Solana Wormhole Bridge]]></title>
+            <description><![CDATA[Orbs is now live on Wormhole: a cross-chain bridge between Ethereum and Solana]]></description>
             <link>https://www.orbs.com/Orbs-is-Live-on-the-Solana-Wormhole-Bridge</link>
             <guid isPermaLink="true">https://www.orbs.com/Orbs-is-Live-on-the-Solana-Wormhole-Bridge</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -477,6 +480,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Coming to Solana!]]></title>
+            <description><![CDATA[Solana will be the next chain for Orbs integration.]]></description>
             <link>https://www.orbs.com/Orbs-Coming-to-Solana</link>
             <guid isPermaLink="true">https://www.orbs.com/Orbs-Coming-to-Solana</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -493,6 +497,7 @@
         </item>
         <item>
             <title><![CDATA[How to Use the Orbs Fossil Farms &amp; Extinction Pool on DinoSwap]]></title>
+            <description><![CDATA[In this blog post you will find a short tutorial of how to use the Orbs pools on DinoSwap.]]></description>
             <link>https://www.orbs.com/How-to-Use-the-Orbs-Fossil-Farms-&amp;-Extinction-Pool-on-DinoSwap</link>
             <guid isPermaLink="true">https://www.orbs.com/How-to-Use-the-Orbs-Fossil-Farms-&amp;-Extinction-Pool-on-DinoSwap</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -501,6 +506,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Added to KogeFarm Vaults]]></title>
+            <description><![CDATA[The ORBS-USDC pool on DinoSwap has been added by KogeFarm to their active vaults!]]></description>
             <link>https://www.orbs.com/Orbs-Added-to-KogeFarm-Vaults</link>
             <guid isPermaLink="true">https://www.orbs.com/Orbs-Added-to-KogeFarm-Vaults</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -509,6 +515,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs By the Numbers]]></title>
+            <description><![CDATA[The numbers behind the Orbs project]]></description>
             <link>https://www.orbs.com/Orbs-By-the-Numbers</link>
             <guid isPermaLink="true">https://www.orbs.com/Orbs-By-the-Numbers</guid>
             <dc:creator><![CDATA[Eddy Kim]]></dc:creator>
@@ -517,6 +524,7 @@
         </item>
         <item>
             <title><![CDATA[The Orbs Ecosystem Grant Program - Second Call for Grants]]></title>
+            <description><![CDATA[The Orbs project is now launching a new call for grants under the Orbs Ecosystem Grant Program (OEGP).]]></description>
             <link>https://www.orbs.com/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants</link>
             <guid isPermaLink="true">https://www.orbs.com/The-Orbs-Ecosystem-Grant-Program-Second-Call-for-Grants</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -525,6 +533,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Extinction Pool Launched on DinoSwap]]></title>
+            <description><![CDATA[DinoSwap has announced the launch of the Orbs Extinction Pool!]]></description>
             <link>https://www.orbs.com/Orbs-Extinction-Pool-Launched-on-DinoSwap</link>
             <guid isPermaLink="true">https://www.orbs.com/Orbs-Extinction-Pool-Launched-on-DinoSwap</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -541,6 +550,7 @@
         </item>
         <item>
             <title><![CDATA[The New Orbs Website Promotion Campaign!]]></title>
+            <description><![CDATA[We are excited to announce the new Orbs website promotion campaign!]]></description>
             <link>https://www.orbs.com/The-New-Orbs-Website-Promotion-Campaign</link>
             <guid isPermaLink="true">https://www.orbs.com/The-New-Orbs-Website-Promotion-Campaign</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -549,6 +559,7 @@
         </item>
         <item>
             <title><![CDATA[Announcing The New Orbs Website!]]></title>
+            <description><![CDATA[Orbs is excited to announce the launch of the new Orbs website!]]></description>
             <link>https://www.orbs.com/orbs-website-launch</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-website-launch</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -821,6 +832,7 @@
         </item>
         <item>
             <title><![CDATA[When Decentralized Finance Meets the Traditional System]]></title>
+            <description><![CDATA[Had someone predicted any of the above only a few months ago (let alone more than a year ago...), she may have been laughed off of her blog...]]></description>
             <link>https://www.orbs.com/when-decentralized-finance-meets-the-traditional-system</link>
             <guid isPermaLink="true">https://www.orbs.com/when-decentralized-finance-meets-the-traditional-system</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -845,6 +857,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs is now live on PancakeSwap!]]></title>
+            <description><![CDATA[In a [recent post](https://www.orbs.com/orbs-is-now-live-on-binance-smart-chain-via-anyswap-cross-chain-bridge/) we announced that the ORBS token is now available on Binance Smart Chain (BSC) using [multichain.xyz](https://multichain.xyz/) by Anyswap as a cross-chain bridge between Ethereum and BSC. In that same post, we also examined the meteoric rise of the BSC chain in the DeFi space and compared it to the rival DeFi ecosystem built on Ethereum.]]></description>
             <link>https://www.orbs.com/orbs-is-now-live-on-pancakeswap</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-is-now-live-on-pancakeswap</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -853,6 +866,7 @@
         </item>
         <item>
             <title><![CDATA[Bibox Exchange Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[Bibox exchange has officially announced the listing of ORBS, the native token of the Orbs network. The following trading pairs are now available on Bibox: ORBS/USDT, and ORBS/ETH.]]></description>
             <link>https://www.orbs.com/bibox-exchange-lists-orbs-token-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/bibox-exchange-lists-orbs-token-orbs</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -861,6 +875,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs and Krystal Announce a Partnership Focused on DeFi]]></title>
+            <description><![CDATA[Orbs an Israeli project developing a free, open-source, public blockchain infrastructure offering developers a proper mix of performance, cost, security and ease of use, and [**Krystal**](https://krystal.app/), a wallet for storing and exchanging cryptocurrency, earning passive income and accessing various DeFi applications in one place, announced a mutual cooperation and collaborations in the field of Decentralized Finance (DeFi).]]></description>
             <link>https://www.orbs.com/orbs-and-krystal-announce-a-partnership-focused-on-defi</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-and-krystal-announce-a-partnership-focused-on-defi</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -869,6 +884,7 @@
         </item>
         <item>
             <title><![CDATA[What Elite Capture means - and why it should enrage you]]></title>
+            <description><![CDATA[When I first heard about blockchain I thought it was going to change the world. I was certain that the ability to transfer an asset with complete transparency was going to leapfrog foreign aid and charitable giving from the archaic systems that are currently in place - into systems that are capable of accounting for every last dollar given.]]></description>
             <link>https://www.orbs.com/what-elite-capture-means-and-why-it-should-enrage-you</link>
             <guid isPermaLink="true">https://www.orbs.com/what-elite-capture-means-and-why-it-should-enrage-you</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -901,6 +917,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Tetra Staking is now available on imToken Wallet!]]></title>
+            <description><![CDATA[Tetra, the official staking wallet of the Orbs project is now available on mobile!]]></description>
             <link>https://www.orbs.com/orbs-tetra-staking-is-now-available-on-imtoken-wallet</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-tetra-staking-is-now-available-on-imtoken-wallet</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -973,6 +990,7 @@
         </item>
         <item>
             <title><![CDATA[Indodax Exchange Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[(/assets/img/blog/indodax-exchange-lists-orbs-token-orbs/photo_2021-04-06_09-36-19-1030x579.jpg)]]></description>
             <link>https://www.orbs.com/indodax-exchange-lists-orbs-token-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/indodax-exchange-lists-orbs-token-orbs</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -981,6 +999,7 @@
         </item>
         <item>
             <title><![CDATA[Improving Supply Chain with Blockchain]]></title>
+            <description><![CDATA[(https://www.youtube.com/watch?v=_jOy17fuzy8&amp;t=2670s)_”_.  I was asked to discuss the value add that blockchain could provide for supply chains during the pandemic.  An apt topic for discussion, as during the last year corona has jarred many supply chains to their core.]]></description>
             <link>https://www.orbs.com/improving-supply-chain-with-blockchain</link>
             <guid isPermaLink="true">https://www.orbs.com/improving-supply-chain-with-blockchain</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -989,6 +1008,7 @@
         </item>
         <item>
             <title><![CDATA[ORBS Is Now Available on Blockfolio!]]></title>
+            <description><![CDATA[(/assets/img/blog/orbs-is-now-available-on-blockfolio/photo_2021-04-04_13-50-19-1030x579.jpg)]]></description>
             <link>https://www.orbs.com/orbs-is-now-available-on-blockfolio</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-is-now-available-on-blockfolio</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -997,6 +1017,7 @@
         </item>
         <item>
             <title><![CDATA[Gate.io Exchange Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[(/assets/img/blog/gate-io-exchange-lists-orbs-token-orbs/EyBNTZEWgAAAyxk-1030x515.jpeg)]]></description>
             <link>https://www.orbs.com/gate-io-exchange-lists-orbs-token-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/gate-io-exchange-lists-orbs-token-orbs</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -1005,6 +1026,7 @@
         </item>
         <item>
             <title><![CDATA[ORBSがFTX取引所に上場しました]]></title>
+            <description><![CDATA[(/assets/img/blog/orbsftx/photo_2021-04-01_22-13-11-1030x591.jpg)]]></description>
             <link>orbsftx</link>
             <guid isPermaLink="true">orbsftx</guid>
             <dc:creator><![CDATA[Mayo Hotta]]></dc:creator>
@@ -1013,6 +1035,7 @@
         </item>
         <item>
             <title><![CDATA[FTX Exchange Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[(/assets/img/blog/ftx-exchange-lists-orbs-token-orbs/photo_2021-04-01_22-13-11-1030x591.jpg)]]></description>
             <link>https://www.orbs.com/ftx-exchange-lists-orbs-token-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/ftx-exchange-lists-orbs-token-orbs</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -1029,6 +1052,7 @@
         </item>
         <item>
             <title><![CDATA[Latoken Exchange Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[(/assets/img/blog/latoken-exchange-lists-orbs-token-orbs/photo_2021-03-29_13-22-20-1030x579.jpg)]]></description>
             <link>https://www.orbs.com/latoken-exchange-lists-orbs-token-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/latoken-exchange-lists-orbs-token-orbs</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1037,6 +1061,7 @@
         </item>
         <item>
             <title><![CDATA[KuCoin Exchange Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[(/assets/img/blog/kucoin-exchange-lists-orbs-token-orbs/photo_2021-03-24_14-22-48-1030x579.jpg)]]></description>
             <link>https://www.orbs.com/kucoin-exchange-lists-orbs-token-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/kucoin-exchange-lists-orbs-token-orbs</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1045,6 +1070,7 @@
         </item>
         <item>
             <title><![CDATA[Introducing Orbs Liquidity Nexus — Liquidity as a Service]]></title>
+            <description><![CDATA[(/assets/img/blog/introducing-orbs-liquidity-nexus-liquidity-as-a-service/1_b1GMs87GwaJSdKLAY9i-dw-1030x434.png)]]></description>
             <link>https://www.orbs.com/introducing-orbs-liquidity-nexus-liquidity-as-a-service</link>
             <guid isPermaLink="true">https://www.orbs.com/introducing-orbs-liquidity-nexus-liquidity-as-a-service</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -1053,6 +1079,7 @@
         </item>
         <item>
             <title><![CDATA[Bithumb Announces ORBS Staking]]></title>
+            <description><![CDATA[(/assets/img/blog/bithumb-announces-orbs-staking/photo_2021-03-22_14-00-38-1030x438.jpg)]]></description>
             <link>https://www.orbs.com/bithumb-announces-orbs-staking</link>
             <guid isPermaLink="true">https://www.orbs.com/bithumb-announces-orbs-staking</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1093,6 +1120,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Featured on Staking Rewards]]></title>
+            <description><![CDATA[(https://www.stakingrewards.com/), has added the ORBS token to their platform!]]></description>
             <link>https://www.orbs.com/orbs-featured-on-staking-rewards</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-featured-on-staking-rewards</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1117,6 +1145,7 @@
         </item>
         <item>
             <title><![CDATA[Optimizing Ethereum Gas Costs for Orbs Delegators]]></title>
+            <description><![CDATA[Occasional high gas fees on Ethereum can inflict heavy costs on Orbs Delegators when executing transactions in the Orbs PoS mechanism, if done without preplanning. With a few simple steps, Delegators can significantly reduce losses incurred by these high gas prices.]]></description>
             <link>https://www.orbs.com/optimizing-ethereum-gas-costs-for-orbs-delegators</link>
             <guid isPermaLink="true">https://www.orbs.com/optimizing-ethereum-gas-costs-for-orbs-delegators</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1133,6 +1162,7 @@
         </item>
         <item>
             <title><![CDATA[Blockchain to Eliminate Voter Fraud]]></title>
+            <description><![CDATA[including solid advice on how to address concerns of domestic voter fraud. And yet, here we are again. Sadly, there have been multiple instances of fraud claims in America across the years: ]]></description>
             <link>https://www.orbs.com/blockchain-to-eliminate-voter-fraud</link>
             <guid isPermaLink="true">https://www.orbs.com/blockchain-to-eliminate-voter-fraud</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -1141,6 +1171,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update December 2020]]></title>
+            <description><![CDATA[In this update:** Orbs PoS V2.5 Official Launch ⁂ Orbs DeFi ⁂ KBW 2020 ⁂ State of the Network ⁂ Media Highlights ⁂ Team Updates]]></description>
             <link>https://www.orbs.com/orbs-update-december-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-december-2020</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1149,6 +1180,7 @@
         </item>
         <item>
             <title><![CDATA[Getting Ready for Round 7 of Orbs Rewards Distribution]]></title>
+            <description><![CDATA[The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network.]]></description>
             <link>getting-ready-for-round-7-of-orbs-rewards-distribution</link>
             <guid isPermaLink="true">getting-ready-for-round-7-of-orbs-rewards-distribution</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1157,6 +1189,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs PoS V2.5 Official Launch!]]></title>
+            <description><![CDATA[It&#x27;s finally here, the moment we’ve all been waiting for -]]></description>
             <link>https://www.orbs.com/orbs-pos-v2-5-official-launch</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-pos-v2-5-official-launch</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1165,6 +1198,7 @@
         </item>
         <item>
             <title><![CDATA[Tetra Deployment Announcement]]></title>
+            <description><![CDATA[Hi all -]]></description>
             <link>https://www.orbs.com/tetra-deployment-announcement</link>
             <guid isPermaLink="true">https://www.orbs.com/tetra-deployment-announcement</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -1181,6 +1215,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs PoS V2.5: The Age of Guardians is here!]]></title>
+            <description><![CDATA[It’s official!]]></description>
             <link>https://www.orbs.com/orbs-pos-v2-5-the-age-of-guardians-is-here</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-pos-v2-5-the-age-of-guardians-is-here</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1189,6 +1224,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update November 2020]]></title>
+            <description><![CDATA[In this update:** DeFi Ecosystem Grant Program ⁂ Locking of Team’s Tokens ⁂ KBW 2020 ⁂ State of the Network ⁂ Orbs on CoinGecko ⁂ Media Highlights ⁂ Meet the Orbs Team Vlog]]></description>
             <link>https://www.orbs.com/orbs-update-november-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-november-2020</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1197,6 +1233,7 @@
         </item>
         <item>
             <title><![CDATA[Does DeFi Hold a Promise for the Unbanked?]]></title>
+            <description><![CDATA[With the rise of cryptocurrencies in the last few years, also came the increased optimism that billions of the global unbanked population would finally have an inclusive financial solution.]]></description>
             <link>https://www.orbs.com/does-defi-hold-a-promise-for-the-unbanked</link>
             <guid isPermaLink="true">https://www.orbs.com/does-defi-hold-a-promise-for-the-unbanked</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -1213,6 +1250,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update October 2020]]></title>
+            <description><![CDATA[In this update:** Orbs PoS V2.5 ⁂ Locking of Team’s Tokens ⁂ DeFi Ecosystem Grant Program ⁂ State of the Network ⁂ Biz Dev Overview ⁂ Media Highlights ⁂ Meet the Orbs Team Vlog ⁂ Holiday Greetings]]></description>
             <link>https://www.orbs.com/orbs-update-october-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-october-2020</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1221,6 +1259,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Token Integrity]]></title>
+            <description><![CDATA[Lately, the Orbs team has been getting a lot of questions from people wondering about various tokens with similar names to Orbs that are out there in different DEXs and DEFI projects. This post will clarify the situation and serve as a resource to help the community avoid confusion as they do their own due diligence on the tokens they interact with.]]></description>
             <link>https://www.orbs.com/orbs-token-integrity</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-token-integrity</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
@@ -1229,6 +1268,7 @@
         </item>
         <item>
             <title><![CDATA[6th Orbs Rewards Distribution: Summary]]></title>
+            <description><![CDATA[On September 30, 2020, Orbs network rewards distribution occurred, as described in the following post.]]></description>
             <link>https://www.orbs.com/6th-orbs-rewards-distribution-summary-2</link>
             <guid isPermaLink="true">https://www.orbs.com/6th-orbs-rewards-distribution-summary-2</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1253,6 +1293,7 @@
         </item>
         <item>
             <title><![CDATA[Locking of Team Tokens]]></title>
+            <description><![CDATA[(https://www.orbs.com/orbs-token-distribution/), at the time of the Orbs Token Distribution Event (“TDE”) on March 28, 2019, 20% of total supply was allocated to the team and founding partners. This pool had a vesting schedule of 36 months and a six-month initial lock-up period. During the almost 18 months since the TDE, the Orbs founders and team have not removed any tokens from the team pool.]]></description>
             <link>https://www.orbs.com/locking-of-team-tokens</link>
             <guid isPermaLink="true">https://www.orbs.com/locking-of-team-tokens</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1261,6 +1302,7 @@
         </item>
         <item>
             <title><![CDATA[Getting Ready for Round 6 of Orbs Rewards Distribution]]></title>
+            <description><![CDATA[The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network.]]></description>
             <link>https://www.orbs.com/getting-ready-for-round-6-of-orbs-rewards-distribution</link>
             <guid isPermaLink="true">https://www.orbs.com/getting-ready-for-round-6-of-orbs-rewards-distribution</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1269,6 +1311,7 @@
         </item>
         <item>
             <title><![CDATA[Blockchain-based Health Immunity Passport]]></title>
+            <description><![CDATA[COVID-19 has had a devastating global impact. Travel and tourism industries have been particularly crippled by the virus, with no near term end in sight. Also concerning is the understanding that this will probably not be the last time that a global pandemic will affect all aspects of life for the world’s population. There is, or there should be, an internalization that if the world is to remain open, it needs to be prepared. Some kind of systematic solution is needed that will assist the global community to live through a pandemic without a mass closing of borders.]]></description>
             <link>https://www.orbs.com/blockchain-based-health-immunity-passport</link>
             <guid isPermaLink="true">https://www.orbs.com/blockchain-based-health-immunity-passport</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -1277,6 +1320,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update September 2020]]></title>
+            <description><![CDATA[In this update:** DeFi, DeFi, DeFi ⁂ Orbs Ecosystem Grant Program ⁂ Age of Guardians ⁂ State of the Network ⁂ Previews and Teasers ⁂ Hexa Foundation ⁂ Media Highlights ⁂ Meet the Orbs Team Vlog]]></description>
             <link>https://www.orbs.com/orbs-update-september-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-september-2020</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1285,6 +1329,7 @@
         </item>
         <item>
             <title><![CDATA[Blockchain against Child Abusive Imagery]]></title>
+            <description><![CDATA[Recently, Israel was shaken to the core from a heinous gang rape of a sixteen year old girl. As the investigation unfolds, reports of images and videos of the crime surface. Sadly, this type of crime and the documentation of it, occurs in every country. Survivors of sexual violence face even more emotional damage due to the existence of digital imagery of the crime that took place. Videos and photos are forwarded and posted on instant messaging and social media, and often cloud platforms are helpless (or choose not) to do anything to stop this.]]></description>
             <link>https://www.orbs.com/blockchain-against-child-abusive-imagery</link>
             <guid isPermaLink="true">https://www.orbs.com/blockchain-against-child-abusive-imagery</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -1293,6 +1338,7 @@
         </item>
         <item>
             <title><![CDATA[Exploring DeFi with the Orbs Grant Program]]></title>
+            <description><![CDATA[In the last 6 months, the entire Orbs team has been hard at work on Orbs V2 - “The Age of Guardians”. This was a huge undertaking from both a technology development and business perspective. This very substantial 2.0 release improves on almost every aspect of the project - from the Proof-of-Stake incentives model, to a tighter integration with Ethereum and a revamped core architecture. I’m very excited that V2 has recently entered a public beta phase where Guardians are already running the new codebase!]]></description>
             <link>https://www.orbs.com/exploring-defi-with-the-orbs-grant-program</link>
             <guid isPermaLink="true">https://www.orbs.com/exploring-defi-with-the-orbs-grant-program</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -1309,6 +1355,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update August 2020]]></title>
+            <description><![CDATA[In this update:** Orbs PoS Universe: The Age of Guardians ⁂ New Validator ⁂ ORBS Staking ⁂ Tech Updates ⁂ Online Meetup ⁂ Media Highlights ⁂ Q&amp;A with Tal Kol ⁂]]></description>
             <link>https://www.orbs.com/orbs-update-august-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-august-2020</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1325,6 +1372,7 @@
         </item>
         <item>
             <title><![CDATA[Guardians of Blockchain: Q&amp;A with Orbs Co-founder Tal Kol]]></title>
+            <description><![CDATA[(/assets/img/blog/guardians-of-blockchain-qa-with-orbs-co-founder-tal-kol/Tal-Kol-Orbs.jpg)]]></description>
             <link>https://www.orbs.com/guardians-of-blockchain-qa-with-orbs-co-founder-tal-kol</link>
             <guid isPermaLink="true">https://www.orbs.com/guardians-of-blockchain-qa-with-orbs-co-founder-tal-kol</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1333,6 +1381,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update July 2020]]></title>
+            <description><![CDATA[In this update:** Orbs PoS Universe ⁂ New Locking Feature ⁂ New Validator ⁂ Media Highlights ⁂ Exciting Teasers ⁂ Return to Office ⁂ Nate’s Farewell]]></description>
             <link>https://www.orbs.com/orbs-update-july-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-july-2020</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1341,6 +1390,7 @@
         </item>
         <item>
             <title><![CDATA[5th Orbs Rewards Distribution: Summary]]></title>
+            <description><![CDATA[On July 06, 2020, Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself.]]></description>
             <link>https://www.orbs.com/5th-orbs-rewards-distribution-summary</link>
             <guid isPermaLink="true">https://www.orbs.com/5th-orbs-rewards-distribution-summary</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1349,6 +1399,7 @@
         </item>
         <item>
             <title><![CDATA[Getting Ready for Round V of Orbs Rewards Distribution]]></title>
+            <description><![CDATA[The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network.]]></description>
             <link>https://www.orbs.com/getting-ready-for-round-v-of-orbs-rewards-distribution</link>
             <guid isPermaLink="true">https://www.orbs.com/getting-ready-for-round-v-of-orbs-rewards-distribution</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1373,6 +1424,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update April 2020: Recap]]></title>
+            <description><![CDATA[Welcome back to our monthly recap everyone!]]></description>
             <link>https://www.orbs.com/orbs-update-april-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-april-2020</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1381,6 +1433,7 @@
         </item>
         <item>
             <title><![CDATA[MetaMask Security Overview and Connecting to Tetra Wallet]]></title>
+            <description><![CDATA[Hey everyone!]]></description>
             <link>https://www.orbs.com/metamask-security-overview-and-connecting-to-tetra-wallet</link>
             <guid isPermaLink="true">https://www.orbs.com/metamask-security-overview-and-connecting-to-tetra-wallet</guid>
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
@@ -1413,6 +1466,7 @@
         </item>
         <item>
             <title><![CDATA[4th Orbs Rewards Distribution: Summary]]></title>
+            <description><![CDATA[On March 25, 2020, Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself.]]></description>
             <link>https://www.orbs.com/4th-orbs-rewards-distribution-summary</link>
             <guid isPermaLink="true">https://www.orbs.com/4th-orbs-rewards-distribution-summary</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1421,6 +1475,7 @@
         </item>
         <item>
             <title><![CDATA[Getting Ready for Round IV of Orbs Rewards Distribution]]></title>
+            <description><![CDATA[The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network. There are currently 20 registered Guardians and 16 Validators running in production. There are now over 1700 Delegators participating in the Orbs PoS ecosystem.]]></description>
             <link>https://www.orbs.com/getting-ready-for-round-iv-of-orbs-rewards-distribution</link>
             <guid isPermaLink="true">https://www.orbs.com/getting-ready-for-round-iv-of-orbs-rewards-distribution</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1429,6 +1484,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update March 2020]]></title>
+            <description><![CDATA[Welcome back to our monthly recap everyone!]]></description>
             <link>https://www.orbs.com/orbs-update-march-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-march-2020</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1445,6 +1501,7 @@
         </item>
         <item>
             <title><![CDATA[My time at the EthDenver Hackathon]]></title>
+            <description><![CDATA[I attended EthDenver to represent the Orbs team. Both the BUILDWeek and the conference that followed have been a blast, with many great talks and tech showcases. It was a great pleasure to talk and learn with fellow attendees.]]></description>
             <link>https://www.orbs.com/my-time-at-the-ethdenver-hackathon</link>
             <guid isPermaLink="true">https://www.orbs.com/my-time-at-the-ethdenver-hackathon</guid>
             <dc:creator><![CDATA[Kiril Maksimov]]></dc:creator>
@@ -1477,6 +1534,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs and the Communications Business Automation Network (CBAN)]]></title>
+            <description><![CDATA[(https://interactive.itwglf.com/ITW-Global-Leaders-Forum) (Global Leaders Forum), the main collaboration forum for the wholesale telecom business. Backed by some of the biggest telecom carriers globally, including names like Orange, Deutsche Telekom, and Telefonica, CBAN was jointly developed with a group of both telecom and blockchain technology providers.]]></description>
             <link>https://www.orbs.com/orbs-and-cban</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-and-cban</guid>
             <dc:creator><![CDATA[Assaf Bielski]]></dc:creator>
@@ -1493,6 +1551,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Technology Update January 2020]]></title>
+            <description><![CDATA[Highlights:** Ver 1.3.5 released ⁂ A flow that identified a bug ahead of time ⁂ PoS architecture research ⁂ Onboarding of applications &amp; new virtual chains ⁂ New monitoring tools]]></description>
             <link>https://www.orbs.com/orbs-technology-update-january-2020</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-technology-update-january-2020</guid>
             <dc:creator><![CDATA[Oded Wertheim]]></dc:creator>
@@ -1501,6 +1560,7 @@
         </item>
         <item>
             <title><![CDATA[3rd Orbs Rewards Distribution: Summary]]></title>
+            <description><![CDATA[On December 25, 2019, Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself.]]></description>
             <link>https://www.orbs.com/3rd-orbs-rewards-distribution-summary</link>
             <guid isPermaLink="true">https://www.orbs.com/3rd-orbs-rewards-distribution-summary</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1509,6 +1569,7 @@
         </item>
         <item>
             <title><![CDATA[How an Open Blockchain Standard Can Fix the Ills of Social Media]]></title>
+            <description><![CDATA[(https://www.linkedin.com/in/danny-brown-wolf-6346b242/), Head of Partnerships at Orbs and COO at Hexa Foundation_]]></description>
             <link>https://www.orbs.com/blockchain-standard-to-fix-social-media-ills</link>
             <guid isPermaLink="true">https://www.orbs.com/blockchain-standard-to-fix-social-media-ills</guid>
             <dc:creator><![CDATA[Danny Brown Wolf]]></dc:creator>
@@ -1517,6 +1578,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Network — v1.3.6 fixes]]></title>
+            <description><![CDATA[(https://www.orbs.com/getting-ready-for-round-iii-of-orbs-rewards-distribution/).]]></description>
             <link>https://www.orbs.com/orbs-network-v1-3-6-fixes</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-network-v1-3-6-fixes</guid>
             <dc:creator><![CDATA[Jonathan Levison]]></dc:creator>
@@ -1533,6 +1595,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update December 2019]]></title>
+            <description><![CDATA[In this update:** Orbs team speaks to US Congress ⁂ Developer Feedback ⁂ Podcast, Messari and BlockTV Interviews ⁂ Orbs Rewards Incoming ⁂ Sey Chain: Yes24 Partnership]]></description>
             <link>https://www.orbs.com/orbs-update-december-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-december-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1541,6 +1604,7 @@
         </item>
         <item>
             <title><![CDATA[Sey Chain: Partnership between YES24 &amp; Orbs]]></title>
+            <description><![CDATA[(/assets/img/blog/sey-chain-yes24-partnership/7-01-1500x430.jpg)]]></description>
             <link>https://www.orbs.com/sey-chain-yes24-partnership</link>
             <guid isPermaLink="true">https://www.orbs.com/sey-chain-yes24-partnership</guid>
             <dc:creator><![CDATA[Ran Melamed]]></dc:creator>
@@ -1557,6 +1621,7 @@
         </item>
         <item>
             <title><![CDATA[Evangelizing Blockchain to the US Congress]]></title>
+            <description><![CDATA[Earlier this month, I represented the Orbs team in Washington DC for “Demo Day on the Hill”. The event was organized by the [Global Blockchain Business Council](https://gbbcouncil.org/) in conjunction with [The Congressional Blockchain Caucus](https://soto.house.gov/media/press-releases/rep-darren-soto-named-co-chair-congressional-blockchain-caucus).]]></description>
             <link>https://www.orbs.com/demo-day-on-the-hill-takeaways</link>
             <guid isPermaLink="true">https://www.orbs.com/demo-day-on-the-hill-takeaways</guid>
             <dc:creator><![CDATA[Danny Brown Wolf]]></dc:creator>
@@ -1565,6 +1630,7 @@
         </item>
         <item>
             <title><![CDATA[Developing on Orbs: Interview with UN Hackathon Winners]]></title>
+            <description><![CDATA[Last month in New York**, the Global Business Blockchain Council [hosted a hackathon event](https://medium.com/@GBBC/the-gbbc-hosts-hackathon-showcasing-how-blockchain-technology-can-be-used-to-advance-un-sdgs-67855f76a010) to demonstrate and discover the ways blockchain technology can be used to advance the [United Nations 2030 Sustainable Development Agenda](https://www.un.org/sustainabledevelopment/development-agenda/). Several leading blockchain networks including Microsoft, Bitfury, JPMorgan’s Quorum, and Orbs were made available to participants by providing them with the tools and resources to build their proposed solutions. You can read more about Orbs’ experience with the event in the [afterthought blog post by Jonathan Levison](https://www.orbs.com/un-hackathon-afterthought/). The hackathon’s winning solution was eventually built on the Orbs Network. In an effort to learn lessons for the platform from a developer’s outsider perspective, I set out to question David Acton of the winning team Dynamic Digital Cooperatives about his experience building an app on the Orbs network.]]></description>
             <link>https://www.orbs.com/interview-with-un-hackathon-winners</link>
             <guid isPermaLink="true">https://www.orbs.com/interview-with-un-hackathon-winners</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1573,6 +1639,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Technology Update November 2019]]></title>
+            <description><![CDATA[Highlights:** Ver 1.2.2 released ⁂ New Staking scheme research complete ⁂ New stress &amp; endurance testing suite ⁂ New Reputation feature ⁂ New demos and status pages ⁂ More developers contributing]]></description>
             <link>https://www.orbs.com/orbs-technology-update-november-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-technology-update-november-2019</guid>
             <dc:creator><![CDATA[Oren Gampel]]></dc:creator>
@@ -1581,6 +1648,7 @@
         </item>
         <item>
             <title><![CDATA[The Sweet Spot | SFBW Blog]]></title>
+            <description><![CDATA[On one hand, there is this utopian vision of the decentralized world: A free market in which decisions are pure reflections of parties’ will, where there are no fees and no cut, no friction, and no middlemen involved between two trustless sides. On the other hand, there is the world we live in; the world where middlemen rule, known by most as simply &#x27;the marketplace&#x27; (companies like eBay, Uber, Yelp), who are getting bigger and more efficient every day, deepening their control over our day to day life. ]]></description>
             <link>https://www.orbs.com/the-sweet-spot-sfbw-blog</link>
             <guid isPermaLink="true">https://www.orbs.com/the-sweet-spot-sfbw-blog</guid>
             <dc:creator><![CDATA[Gili Ovadia]]></dc:creator>
@@ -1589,6 +1657,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update November 2019]]></title>
+            <description><![CDATA[In this update:** San Francisco Blockchain Week ⁂ SecurePro Partnership ⁂ New: Demos Page ⁂ Co-Founder Podcast Interview ⁂ Orbs Speaks to Congress ⁂ World Economic Forum in Dubai]]></description>
             <link>https://www.orbs.com/orbs-update-november-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-november-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1597,6 +1666,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update October 2019]]></title>
+            <description><![CDATA[In this update:** U.N Hackathon Win! ⁂ Tel Aviv Blockchain Week ⁂ Block TV Founder Interview ⁂ ORBS on Metamask ⁂ Blockchain Education Webinar ⁂ New Orbs Center in Korea ⁂ Enterprise Use-Case Panel ⁂ KOSDAQ Delegation ⁂ Korea Blockchain Week ⁂ Blockchain Bridge SF⁂ Orbs Rewards Distribution: Round 2 ⁂ Mousebelt alliance]]></description>
             <link>https://www.orbs.com/orbs-update-october-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-october-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1605,6 +1675,7 @@
         </item>
         <item>
             <title><![CDATA[GBBC&#x27;s UN Hackathon: Afterthought]]></title>
+            <description><![CDATA[(https://gbbcouncil.org/) for a hackathon aimed at solving, or “hacking” sustainable development goals.]]></description>
             <link>https://www.orbs.com/un-hackathon-afterthought</link>
             <guid isPermaLink="true">https://www.orbs.com/un-hackathon-afterthought</guid>
             <dc:creator><![CDATA[Jonathan Levison]]></dc:creator>
@@ -1613,6 +1684,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Technology Update September 2019]]></title>
+            <description><![CDATA[Ok gang, here&#x27;s a breakdown of the technology highlightsfrom Orbs contributors during this past month. Feel free to reach out to any particular contributor for more information:]]></description>
             <link>https://www.orbs.com/orbs-tech-update-september-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-tech-update-september-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1621,6 +1693,7 @@
         </item>
         <item>
             <title><![CDATA[2nd Orbs Rewards Distribution: Summary]]></title>
+            <description><![CDATA[_On September 25, 2019, Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself._]]></description>
             <link>https://www.orbs.com/second-orbs-rewards-distribution-summary</link>
             <guid isPermaLink="true">https://www.orbs.com/second-orbs-rewards-distribution-summary</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1629,6 +1702,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update September 2019]]></title>
+            <description><![CDATA[Alright, everyone! August has been a relatively quiet month for many of us, and yours truly is happy to watch his colleagues return from vacations all sunburned and happy. This post is going to be a quick flash update, so you know what has been happening while you were out sipping lemonade:]]></description>
             <link>https://www.orbs.com/orbs-update-september-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-september-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1637,6 +1711,7 @@
         </item>
         <item>
             <title><![CDATA[A Hybrid Consensus Model for Voting: Taking a Cue From Indonesia]]></title>
+            <description><![CDATA[(https://www.orbs.com/the-blockchain-dichotomy-and-an-architecture-to-overcome-it/) and explained how the Orbs Network’s’ Hybrid consensus enables enterprise adoption of a public blockchain. The separation of block producers and validators allows organizations to keep control over their blockchain application while fulfilling blockchain’s role in generating trust. This hybrid two-tiered consensus is the architectural key to bridge the app/dapp divide.]]></description>
             <link>https://www.orbs.com/hybrid-consensus-voting-model-taking-cue-from-indonesia</link>
             <guid isPermaLink="true">https://www.orbs.com/hybrid-consensus-voting-model-taking-cue-from-indonesia</guid>
             <dc:creator><![CDATA[Assaf Bielski]]></dc:creator>
@@ -1645,6 +1720,7 @@
         </item>
         <item>
             <title><![CDATA[Getting Ready for Round II of Orbs Rewards Distribution]]></title>
+            <description><![CDATA[The Orbs network launched on March 28th, 2019. The network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network. There are 18 active Guardians currently registered and 15 Validators running in production. There are now over 1650 Delegators participating in the Orbs PoS ecosystem.]]></description>
             <link>https://www.orbs.com/getting-ready-for-round-ii-of-orbs-rewards-distribution</link>
             <guid isPermaLink="true">https://www.orbs.com/getting-ready-for-round-ii-of-orbs-rewards-distribution</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1653,6 +1729,7 @@
         </item>
         <item>
             <title><![CDATA[Bitcoin’s Unusual Property Rights]]></title>
+            <description><![CDATA[_This is a guest post by Professors Neil Gandal (Berglass School of Economics, Tel Aviv University) and Joshua Gans (Rotman School of Management, University of Toronto), advisors to the Orbs project._]]></description>
             <link>https://www.orbs.com/bitcoins-unusual-property-rights</link>
             <guid isPermaLink="true">https://www.orbs.com/bitcoins-unusual-property-rights</guid>
             <dc:creator><![CDATA[Prof. Neil Gandal]]></dc:creator>
@@ -1661,6 +1738,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs R&amp;D Update August 2019]]></title>
+            <description><![CDATA[(https://www.orbs.com/orbs-update-august-2019/) I wanted to keep everyone in the loop regarding the R&amp;D progress being made by Orbs contributors. Here is a breakdown of some of the things accomplished during the past month.]]></description>
             <link>https://www.orbs.com/rd-update-august-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/rd-update-august-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1677,6 +1755,7 @@
         </item>
         <item>
             <title><![CDATA[Bitcoin Vs. Other Cryptocurrencies: A Different Pattern This Time Around?:]]></title>
+            <description><![CDATA[_This is a guest post by professors Neil Gandal (Berglass school if economics, Tel Aviv University) and Joshua Gans (Rotman School of Management, University of Toronto), advisors to the Orbs project._]]></description>
             <link>https://www.orbs.com/bitcoin-vs-other-cryptocurrencies-a-different-pattern-this-time-around</link>
             <guid isPermaLink="true">https://www.orbs.com/bitcoin-vs-other-cryptocurrencies-a-different-pattern-this-time-around</guid>
             <dc:creator><![CDATA[Prof. Neil Gandal]]></dc:creator>
@@ -1685,6 +1764,7 @@
         </item>
         <item>
             <title><![CDATA[Dear President Trump: Here’s why you want everyone using Bitcoin, including the bad guys]]></title>
+            <description><![CDATA[(https://twitter.com/realdonaldtrump/status/1149472282584072192) about Bitcoin and cryptocurrencies, stating that “Unregulated Crypto Assets can facilitate unlawful behavior, including drug trade and other illegal activity....” spooked the crypto market.]]></description>
             <link>https://www.orbs.com/why-trump-should-want-everyone-using-bitcoin-including-bad-guys</link>
             <guid isPermaLink="true">https://www.orbs.com/why-trump-should-want-everyone-using-bitcoin-including-bad-guys</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -1693,6 +1773,7 @@
         </item>
         <item>
             <title><![CDATA[Celsius, BitGo and Staked Now Participate in Orbs&#x27; PoS Universe]]></title>
+            <description><![CDATA[(https://celsius.network) representatives met in Seoul, Korea to celebrate the highly anticipated collaboration between the projects: ORBS has been added to Celsius’ wallet, allowing their 30,000 users to stake the token as part of Orbs’ proof of stake universe. This partnership grants thousands of Celsius’ users unprecedented access to the Orbs network.]]></description>
             <link>https://www.orbs.com/celsius-bitgo-staked-join-orbs-universe</link>
             <guid isPermaLink="true">https://www.orbs.com/celsius-bitgo-staked-join-orbs-universe</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1701,6 +1782,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Node Upgrade: Version 1.1.1]]></title>
+            <description><![CDATA[The latest proposed version of the Orbs platform was released on July 22, 2019 and accepted by the Orbs network’s Validators. The Orbs core team is very excited to publish the first version that is not a hot-fix and contains actual features.]]></description>
             <link>https://www.orbs.com/node-upgrade-version-1-1-1</link>
             <guid isPermaLink="true">https://www.orbs.com/node-upgrade-version-1-1-1</guid>
             <dc:creator><![CDATA[Noam Berg]]></dc:creator>
@@ -1725,6 +1807,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update July 2019]]></title>
+            <description><![CDATA[In this update:** GLF Partnership ⁂ Hdac signing ⁂ Forbes feature ⁂ Orbs Awards distribution ⁂ App development guidelines ⁂ Founder interviews ⁂ and more]]></description>
             <link>https://www.orbs.com/orbs-update-july-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-july-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1733,6 +1816,7 @@
         </item>
         <item>
             <title><![CDATA[First Orbs Rewards Distribution: Summary]]></title>
+            <description><![CDATA[On July 2nd, 2019, the first Orbs network rewards distribution occurred. This post summarizes the process and provides resources that can be used by any interested party to review and validate the calculation and distribution itself.]]></description>
             <link>https://www.orbs.com/first-orbs-rewards-distribution-summary</link>
             <guid isPermaLink="true">https://www.orbs.com/first-orbs-rewards-distribution-summary</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1741,6 +1825,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs R&amp;D Update June 2019]]></title>
+            <description><![CDATA[(https://www.orbs.com/technology/roadmap/), the internal R&amp;D hackathon, development of the notary use-case, and the troubleshooting case study.]]></description>
             <link>https://www.orbs.com/orbs-rd-update-june-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-rd-update-june-2019</guid>
             <dc:creator><![CDATA[Eran Kirshenboim]]></dc:creator>
@@ -1749,6 +1834,7 @@
         </item>
         <item>
             <title><![CDATA[TalpiHack: Solving the Challenge of Related Parties Dealings]]></title>
+            <description><![CDATA[On 27-28.06.19 I participated in the Talpiot Hackathon, attempting to solve a financial challenge - creating a system to identify and analyze related parties dealings. This was a great, very well organized event, where I met many brilliant people working on some really difficult challenges.]]></description>
             <link>https://www.orbs.com/talpihack-solving-challenge</link>
             <guid isPermaLink="true">https://www.orbs.com/talpihack-solving-challenge</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1757,6 +1843,7 @@
         </item>
         <item>
             <title><![CDATA[Making Sense of Libra]]></title>
+            <description><![CDATA[Just like almost everyone in the blockchain space, I was very excited to learn about Facebook’s Libra blockchain and coin. Like many big moments in technology, the launch of Libra marks a step forward not because of unprecedented innovation, but rather because it takes a lot of advancements made in the field and makes use of them in what may become a mainstream product that touches the lives of billions of people. That said, I must add that the work behind Libra is nothing short of brilliant. Integrating so many state-of-the-art technologies into what seems to be 3 very intricate products, that can shortly be ready for large-scale deployment, is extremely complex. In such complex projects, fundamental errors are easy to make and may fail the entire endeavor. From what Libra published so far, I see a robust framework that appears very capable of succeeding at its very ambitious goals.]]></description>
             <link>https://www.orbs.com/making-sense-of-libra</link>
             <guid isPermaLink="true">https://www.orbs.com/making-sense-of-libra</guid>
             <dc:creator><![CDATA[Oded Noam]]></dc:creator>
@@ -1765,6 +1852,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Co-founder Promoting Projects Using Blockchain for Social Impact]]></title>
+            <description><![CDATA[Blockchain technology can be leveraged for social impact projects bringing verifiable trust, transparency and external auditability. To promote such projects, Netta Korin, Orbs co-founder and Head of Hexa Foundation is one of 6 Israeli business executives attending the Economic Peace Conference.]]></description>
             <link>https://www.orbs.com/promoting-blockchain-for-social-impact</link>
             <guid isPermaLink="true">https://www.orbs.com/promoting-blockchain-for-social-impact</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1773,6 +1861,7 @@
         </item>
         <item>
             <title><![CDATA[A Sustainable Token Economy Cannot Be Inflationary]]></title>
+            <description><![CDATA[Blockchain is a young business, too young for us to have seen any project fully develop. If we look around, we see how inflationary models benefit projects in their infancy. But this observation will not remain once these projects grow out of their infancy.]]></description>
             <link>https://www.orbs.com/sustainable-token-economy-cannot-be-inflationary</link>
             <guid isPermaLink="true">https://www.orbs.com/sustainable-token-economy-cannot-be-inflationary</guid>
             <dc:creator><![CDATA[Oded Noam]]></dc:creator>
@@ -1781,6 +1870,7 @@
         </item>
         <item>
             <title><![CDATA[On Cryptocurrencies and Payment Systems]]></title>
+            <description><![CDATA[Today (June 18, 2019,) Facebook formally announced a plan for a global financial system based on a new cryptocurrency called Libra.]]></description>
             <link>https://www.orbs.com/on-crypto-and-payment-systems</link>
             <guid isPermaLink="true">https://www.orbs.com/on-crypto-and-payment-systems</guid>
             <dc:creator><![CDATA[Prof. Neil Gandal]]></dc:creator>
@@ -1789,6 +1879,7 @@
         </item>
         <item>
             <title><![CDATA[Guide to Apps on the Orbs Network, Part II: Writing a Front-End Part]]></title>
+            <description><![CDATA[In the [previous post](../writing-an-app-on-orbs/), we’ve discussed how to write and deploy a smart contract on the Orbs Network. This part will be devoted to writing a front-end application, and interaction with the contract via orbs-client-sdk in JavaScript.]]></description>
             <link>https://www.orbs.com/writing-front-end-on-orbs</link>
             <guid isPermaLink="true">https://www.orbs.com/writing-front-end-on-orbs</guid>
             <dc:creator><![CDATA[Sergey Bolshchikov]]></dc:creator>
@@ -1797,6 +1888,7 @@
         </item>
         <item>
             <title><![CDATA[Guardian Responsibilities]]></title>
+            <description><![CDATA[Guardians play a central role in the Orbs PoS model - they are expected to be key participants within the Orbs Universe, who enforce the security of the network, align with the long term Orbs vision and actively work to make this vision a reality. A core role of the Guardians is to review the Validators, monitor their operations and ensure proper network operation and security by approving Validators that follow the protocol correctly.]]></description>
             <link>https://www.orbs.com/guardian-responsibilities</link>
             <guid isPermaLink="true">https://www.orbs.com/guardian-responsibilities</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1805,6 +1897,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Rewards Distribution]]></title>
+            <description><![CDATA[The Orbs network launched on March 28th, 2019. The Orbs network relies on all of the participants in the proof of stake ecosystem to provide for the security and operation of the network. There are 17 active Guardians currently registered and 14 Validators running in production. There are now over 1300 Delegators participating in the Orbs PoS ecosystem. At the beginning of July 2019, the first rewards distribution will occur. This post describes the various rewards, how they are calculated and the distribution process.]]></description>
             <link>https://www.orbs.com/rewards-distribution</link>
             <guid isPermaLink="true">https://www.orbs.com/rewards-distribution</guid>
             <dc:creator><![CDATA[Andrey Dulkin]]></dc:creator>
@@ -1821,6 +1914,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs Update June 2019]]></title>
+            <description><![CDATA[In this update:** ⁂ NEW: Roadmap! ⁂ Orbs goes to India ⁂ NY Blockchain Week ⁂ 1st Hackathon ⁂ NEW: Validator monitoring tool ⁂ Co-founders AMA ⁂ WEF Membership ⁂ Ministry of Finance ⁂ IEEE Conference ⁂ Block TV Interview ⁂ Techstars Demo Day ⁂ Events]]></description>
             <link>https://www.orbs.com/orbs-update-june-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-update-june-2019</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1829,6 +1923,7 @@
         </item>
         <item>
             <title><![CDATA[Blockchain Aid for the Refugee Crisis]]></title>
+            <description><![CDATA[Can blockchain technology help alleviate the strain of the global refugee crisis on both refugees and host countries? I think so.]]></description>
             <link>https://www.orbs.com/blockchain-aid-for-the-refugee-crisis</link>
             <guid isPermaLink="true">https://www.orbs.com/blockchain-aid-for-the-refugee-crisis</guid>
             <dc:creator><![CDATA[Netta Korin]]></dc:creator>
@@ -1845,6 +1940,7 @@
         </item>
         <item>
             <title><![CDATA[Self-sovereign Identity on the Orbs Blockchain]]></title>
+            <description><![CDATA[(https://www.orbs.com/defining-the-public-blockchain/)). Arguably, there is no area in which guarantees are needed more than our online identity and personal data. Online services made our lives easier in many ways, but these benefits far too often come at the expense of our privacy. Blockchain can change that, and by doing so, it would enable us to finally gain control of our digital identity.]]></description>
             <link>https://www.orbs.com/self-sovereign-identity-on-the-orbs-blockchain</link>
             <guid isPermaLink="true">https://www.orbs.com/self-sovereign-identity-on-the-orbs-blockchain</guid>
             <dc:creator><![CDATA[Assaf Bielski]]></dc:creator>
@@ -1853,6 +1949,7 @@
         </item>
         <item>
             <title><![CDATA[Insights into Orbs’ R&amp;D Hackathon]]></title>
+            <description><![CDATA[Last week in the Tel Aviv offices, Orbs’ core team conducted its very first Hackathon! Within just two days of brainstorming, coding and eating junk, the teams developed the very first real-use apps on the Orbs network.]]></description>
             <link>https://www.orbs.com/insights-into-orbs-rd-hackathon</link>
             <guid isPermaLink="true">https://www.orbs.com/insights-into-orbs-rd-hackathon</guid>
             <dc:creator><![CDATA[Sergey Bolshchikov]]></dc:creator>
@@ -1861,6 +1958,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs R&amp;D Update May 2019]]></title>
+            <description><![CDATA[_After a year and a half of building the Orbs blockchain from the ground up with the most talented team I could hope for, mainnet was released to the public on March 28th. One of my non-technical post-launch goals is to focus on communicating directly all the work we’re doing._]]></description>
             <link>https://www.orbs.com/orbs-rd-update-may16-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-rd-update-may16-2019</guid>
             <dc:creator><![CDATA[Eran Kirshenboim]]></dc:creator>
@@ -1869,6 +1967,7 @@
         </item>
         <item>
             <title><![CDATA[PoS Ecosystem Elections Update May 2019]]></title>
+            <description><![CDATA[Hi all! The first month of the Orbs Network has completed, and I’m excited to share the network status and our experience with the elections. Since the launch of the production-ready Orbs platform and its release to the community, the Orbs core development team has continued to monitor its progress and work to develop improvements to propose to the community of participants in the Orbs network. This post will describe what we’ve learned so far, the problems the network has encountered and the fixes we’ve proposed to the Validators running the protocol.]]></description>
             <link>https://www.orbs.com/pos-ecosystem-elections-update-may-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/pos-ecosystem-elections-update-may-2019</guid>
             <dc:creator><![CDATA[Oded Wertheim]]></dc:creator>
@@ -1877,6 +1976,7 @@
         </item>
         <item>
             <title><![CDATA[Monitoring the Orbs Platform]]></title>
+            <description><![CDATA[This update will elaborate on pre-Production load testing, and post-Production performance monitoring. Both use cases employ the Orbs monitoring dashboard as a key component.]]></description>
             <link>https://www.orbs.com/monitoring-the-orbs-platform</link>
             <guid isPermaLink="true">https://www.orbs.com/monitoring-the-orbs-platform</guid>
             <dc:creator><![CDATA[Ido Zilberberg]]></dc:creator>
@@ -1893,6 +1993,7 @@
         </item>
         <item>
             <title><![CDATA[Why Proof-Of-Stake Systems Can Benefit From External Oversight]]></title>
+            <description><![CDATA[(https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Westeros) of Westeros.]]></description>
             <link>https://www.orbs.com/pos-external-oversight</link>
             <guid isPermaLink="true">https://www.orbs.com/pos-external-oversight</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -1901,6 +2002,7 @@
         </item>
         <item>
             <title><![CDATA[PoS Under the Orbs Architecture]]></title>
+            <description><![CDATA[The blockchain industry makes heavy use of buzzwords. Terms like &quot;public&quot; and &quot;private&quot; are thrown around but what do they actually mean? Is this the right way to define a blockchain? Does a private blockchain really exist? Maybe we should even take one step back and ask - what is a blockchain, actually?]]></description>
             <link>https://www.orbs.com/pos-under-the-orbs-architecture</link>
             <guid isPermaLink="true">https://www.orbs.com/pos-under-the-orbs-architecture</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -1909,6 +2011,7 @@
         </item>
         <item>
             <title><![CDATA[Introducing the new Orbs Community discussion board on Discourse]]></title>
+            <description><![CDATA[Hey everyone! In recent weeks, we’ve been mulling heavily over different ways to extend Orbs to the public and create an open environment for discussion and collaboration about the project. For this, we have to nurture a productive community of all participants in the Orbs Universe - delegators, developers, guardians, and validators.]]></description>
             <link>https://www.orbs.com/introducing-orbs-community</link>
             <guid isPermaLink="true">https://www.orbs.com/introducing-orbs-community</guid>
             <dc:creator><![CDATA[Nate Simantov]]></dc:creator>
@@ -1917,6 +2020,7 @@
         </item>
         <item>
             <title><![CDATA[The Blockchain Dichotomy and an Architecture to Overcome It]]></title>
+            <description><![CDATA[Trying to unlock mainstream adoption for public blockchain is one of the hardest challenges in the industry today. Real businesses are yet to see the value in public blockchain technology and adoption crawls. I believe this is largely caused by the blockchain dichotomy: the polarization of infrastructure solutions in the industry today. If this indeed is the cause, we can design architectures around it. Will this be enough to make mainstream adoption possible?]]></description>
             <link>https://www.orbs.com/the-blockchain-dichotomy-and-an-architecture-to-overcome-it</link>
             <guid isPermaLink="true">https://www.orbs.com/the-blockchain-dichotomy-and-an-architecture-to-overcome-it</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -1925,6 +2029,7 @@
         </item>
         <item>
             <title><![CDATA[How PoW and PoS Can Help Create Better Apps]]></title>
+            <description><![CDATA[(https://medium.com/@_David) is Orbs Head of Research. He is also a PhD candidate in the Technion (Israel Institute of Technology) under the supervision of Prof. Idit Keidar. His research focuses on the interplay between game theory and distributed systems._]]></description>
             <link>https://www.orbs.com/how-pow-and-pos-can-help-create-better-apps</link>
             <guid isPermaLink="true">https://www.orbs.com/how-pow-and-pos-can-help-create-better-apps</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -1973,6 +2078,7 @@
         </item>
         <item>
             <title><![CDATA[The Orbs PoS Universe Archetypes — High Level Introduction]]></title>
+            <description><![CDATA[_The purpose of this short post is to give a high level introduction to the Orbs Universe and its proof-of-stake ecosystem. This post will not go into the specifics of the mechanics and will not go into exact numbers (this information is available here). Instead, we’ll focus on motivation and the main idea._]]></description>
             <link>https://www.orbs.com/the-orbs-pos-universe-archetypes</link>
             <guid isPermaLink="true">https://www.orbs.com/the-orbs-pos-universe-archetypes</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -1981,6 +2087,7 @@
         </item>
         <item>
             <title><![CDATA[Defining the Public Blockchain]]></title>
+            <description><![CDATA[_The blockchain industry makes heavy use of buzzwords. Terms like &quot;public&quot; and &quot;private&quot; are thrown around but what do they actually mean? Is this the right way to define a blockchain? Does a private blockchain really exist? Maybe we should even take one step back and ask - what is a blockchain, actually?_]]></description>
             <link>https://www.orbs.com/defining-the-public-blockchain</link>
             <guid isPermaLink="true">https://www.orbs.com/defining-the-public-blockchain</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -1997,6 +2104,7 @@
         </item>
         <item>
             <title><![CDATA[Blockchain as the Next Evolutionary Step of the Open Source Movement]]></title>
+            <description><![CDATA[There’s little argument that open source has transformed our world. As a developer, I cannot recall a single day in the last few years where I did not rely on open source software. I’m not the exception. The majority of software engineers today rely on open source daily in their professional lives.]]></description>
             <link>https://www.orbs.com/blockchain-as-the-next-evolutionary-step-of-the-open-source-movement</link>
             <guid isPermaLink="true">https://www.orbs.com/blockchain-as-the-next-evolutionary-step-of-the-open-source-movement</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -2005,6 +2113,7 @@
         </item>
         <item>
             <title><![CDATA[What&#x27;s Being Launched - an Inventory List of Everything Part of V1 Release]]></title>
+            <description><![CDATA[_With our launch rapidly approaching, we wanted to provide a full breakdown of what you’ll find in Version 1 of Orbs. The launch of V1 is a huge step forward for the Orbs project — building a full blockchain from scratch based on the requirements of real businesses._]]></description>
             <link>https://www.orbs.com/whats-being-launched</link>
             <guid isPermaLink="true">https://www.orbs.com/whats-being-launched</guid>
             <dc:creator><![CDATA[Eran Kirshenboim]]></dc:creator>
@@ -2013,6 +2122,7 @@
         </item>
         <item>
             <title><![CDATA[Business of Blockchain: March 12, 2019]]></title>
+            <description><![CDATA[This week in blockchain business: Facebook is making its preparations, Lyft is getting involved a little, dApps aren&#x27;t dead after all and big companies are still pushing for mass market adoption.]]></description>
             <link>https://www.orbs.com/business-of-blockchain-march-12-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/business-of-blockchain-march-12-2019</guid>
             <dc:creator><![CDATA[Gil Amran]]></dc:creator>
@@ -2029,6 +2139,7 @@
         </item>
         <item>
             <title><![CDATA[Business of Blockchain: February 26, 2019]]></title>
+            <description><![CDATA[This week in blockchain business: Facebook is definitely going to do something sometime soon, proof that blockchain is useful, a stablecoin that&#x27;s not stable and the latest in VC funding.]]></description>
             <link>https://www.orbs.com/business-of-blockchain-february-26-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/business-of-blockchain-february-26-2019</guid>
             <dc:creator><![CDATA[Gil Amran]]></dc:creator>
@@ -2061,6 +2172,7 @@
         </item>
         <item>
             <title><![CDATA[Business of Blockchain: January 15, 2019]]></title>
+            <description><![CDATA[This week in the business of blockchain: Remittance continues to be a use case worth following, marketplaces continue to be a use case worth following and decentralized social networks may have a very high customer acquisition cost. Get the details below.]]></description>
             <link>https://www.orbs.com/business-of-blockchain-january-15-2019</link>
             <guid isPermaLink="true">https://www.orbs.com/business-of-blockchain-january-15-2019</guid>
             <dc:creator><![CDATA[Gil Amran]]></dc:creator>
@@ -2077,6 +2189,7 @@
         </item>
         <item>
             <title><![CDATA[Business of Blockchain: December 26, 2018]]></title>
+            <description><![CDATA[We hope our readers had a very happy holiday (or happy end-of-December if you don&#x27;t celebrate Christmas)! This week: Asia becomes the early leader in blockchain, big businesses get even more serious about blockchain, blockchain + games = adoption and some big funding news.]]></description>
             <link>https://www.orbs.com/business-of-blockchain-december-26-2018</link>
             <guid isPermaLink="true">https://www.orbs.com/business-of-blockchain-december-26-2018</guid>
             <dc:creator><![CDATA[Gil Amran]]></dc:creator>
@@ -2085,6 +2198,7 @@
         </item>
         <item>
             <title><![CDATA[Business of Blockchain: December 11, 2018]]></title>
+            <description><![CDATA[This week, Facebook&#x27;s blockchain plans, tough business decisions, Ohio and Wyoming compete for our decentralized love, enterprise blockchain deals and funding news.]]></description>
             <link>https://www.orbs.com/business-of-blockchain-december-11-2018</link>
             <guid isPermaLink="true">https://www.orbs.com/business-of-blockchain-december-11-2018</guid>
             <dc:creator><![CDATA[Gil Amran]]></dc:creator>
@@ -2093,6 +2207,7 @@
         </item>
         <item>
             <title><![CDATA[The Business of Blockchain: Nov 20, 2018]]></title>
+            <description><![CDATA[The latest blockchain business news and analysis: Civil’s raise  crashes(kind of), US elections came and impacted the blockchain (obviously) and what some top industry minds think about the state of Ethereum. Read on for the details.]]></description>
             <link>https://www.orbs.com/the-business-of-blockchain-nov-13-2018</link>
             <guid isPermaLink="true">https://www.orbs.com/the-business-of-blockchain-nov-13-2018</guid>
             <dc:creator><![CDATA[Gil Amran]]></dc:creator>
@@ -2101,6 +2216,7 @@
         </item>
         <item>
             <title><![CDATA[Distributed Key Generation: Writing Smart Contracts and Combatting Bad Actors]]></title>
+            <description><![CDATA[https://www.youtube.com/watch?v=KArXb07tGjY]]></description>
             <link>https://www.orbs.com/distributed-key-generation-writing-smart-contracts-and-combatting-bad-actors</link>
             <guid isPermaLink="true">https://www.orbs.com/distributed-key-generation-writing-smart-contracts-and-combatting-bad-actors</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -2109,6 +2225,7 @@
         </item>
         <item>
             <title><![CDATA[Orbs’ Unified Theory of Randomness: Explaining the Helix Consensus Algorithm]]></title>
+            <description><![CDATA[Israeli Networking Day (IND) is an annual event bringing together researchers and engineers from both academia and industry to discuss recent research activity in the field of networking. The 2018 IND, jointly [organized by Orbs and VMware](https://medium.com/orbs-network/3-presentations-that-defined-2018s-israeli-networking-day-ec27c6d9e941), was held on May 24th, and included 24 talks on recently published papers or ongoing works.]]></description>
             <link>https://www.orbs.com/orbs-unified-theory-of-randomness-explaining-the-helix-consensus-algorithm</link>
             <guid isPermaLink="true">https://www.orbs.com/orbs-unified-theory-of-randomness-explaining-the-helix-consensus-algorithm</guid>
             <dc:creator><![CDATA[Ido Grayevsky]]></dc:creator>
@@ -2117,6 +2234,7 @@
         </item>
         <item>
             <title><![CDATA[Ethereum Suffers from a Gas Crisis, and It’s by Design]]></title>
+            <description><![CDATA[It is far from the first time, but gas prices on Ethereum skyrocketed again last week, this time as a result of a [silly marketing gimmick](https://www.coindesk.com/new-crypto-exchange-draws-fire-over-controversial-business-model/) most Ethereum users shouldn’t have cared about in the first place. Apparently, Vitalik Buterin and Vlad Zamfir have been looking into [alternative transaction pricing models](https://ethresear.ch/t/first-and-second-price-auctions-and-improved-transaction-fee-markets/2410) to mitigate such crises.]]></description>
             <link>https://www.orbs.com/ethereum-suffers-from-a-gas-crisis-and-its-by-design</link>
             <guid isPermaLink="true">https://www.orbs.com/ethereum-suffers-from-a-gas-crisis-and-its-by-design</guid>
             <dc:creator><![CDATA[Oded Noam]]></dc:creator>
@@ -2125,6 +2243,7 @@
         </item>
         <item>
             <title><![CDATA[Group Signature Schemes with Distributed Traceability (or how to open a signature fairly)]]></title>
+            <description><![CDATA[In this post I want to discuss group signature schemes, and specifically group signatures with distributed traceability and show why this is an interesting cryptographic tool for distributed systems, using the Helix consensus protocol as an example to how these signatures can be used.]]></description>
             <link>https://www.orbs.com/group-signature-schemes-with-distributed-traceability-or-how-to-open-a-signature-fairly</link>
             <guid isPermaLink="true">https://www.orbs.com/group-signature-schemes-with-distributed-traceability-or-how-to-open-a-signature-fairly</guid>
             <dc:creator><![CDATA[Maya Leshkowitz]]></dc:creator>
@@ -2133,6 +2252,7 @@
         </item>
         <item>
             <title><![CDATA[Before EOS and Ethereum: How much has Proof-of-Stake evolved since PPCoin?]]></title>
+            <description><![CDATA[_This is Part II of a series on Proof-of-Stake’s growing influence in crypto and blockchain, as well as issues its implementation still faces. This is an expanded version of a talk I gave for Blockchain Academy on June 11, 2018._]]></description>
             <link>https://www.orbs.com/before-eos-ehtereum-ppcoin</link>
             <guid isPermaLink="true">https://www.orbs.com/before-eos-ehtereum-ppcoin</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -2141,6 +2261,7 @@
         </item>
         <item>
             <title><![CDATA[An Introduction to Proof-of-Stake and the Future of Consensus — a Talk by Orbs’ Head of Research]]></title>
+            <description><![CDATA[_This is Part I of a series on Proof-of-Stake’s growing influence in crypto and blockchain, as well as issues its implementation still faces. This is an expanded version of a talk I gave for Blockchain Academy on June 11, 2018._]]></description>
             <link>https://www.orbs.com/an-introduction-to-proof-of-stake-and-the-future-of-consensus - a-talk-by-orbs-head-of-research</link>
             <guid isPermaLink="true">https://www.orbs.com/an-introduction-to-proof-of-stake-and-the-future-of-consensus - a-talk-by-orbs-head-of-research</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -2149,6 +2270,7 @@
         </item>
         <item>
             <title><![CDATA[Technical AMA Session with the GroundX Team about Helix and Orbs — June 2018]]></title>
+            <description><![CDATA[The Helix consensus algorithm and the Orbs architecture built around it are sparking interest from blockchain stakeholders around the world. Our team holds tech sessions with interested parties to help spread the knowledge about the protocol and encourage companies to adopt and build upon it.]]></description>
             <link>https://www.orbs.com/technical-ama-session-with-the-groundx-team-about-helix-and-orbs - june-2018</link>
             <guid isPermaLink="true">https://www.orbs.com/technical-ama-session-with-the-groundx-team-about-helix-and-orbs - june-2018</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -2157,6 +2279,7 @@
         </item>
         <item>
             <title><![CDATA[What Stops a Successful App from Forking a Blockchain?]]></title>
+            <description><![CDATA[Note: This is a longer version of a post originally published in Blockonomi —_ [_What Prevents Apps from Forking Your Blockchain?_](https://blockonomi.com/apps-forking-blockchain/) _If you enjoy this post, please make sure to visit and share the original.]]></description>
             <link>https://www.orbs.com/what-stops-a-successful-app-from-forking-a-blockchain</link>
             <guid isPermaLink="true">https://www.orbs.com/what-stops-a-successful-app-from-forking-a-blockchain</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -2165,6 +2288,7 @@
         </item>
         <item>
             <title><![CDATA[How to Run a Blockchain on a Deserted Island with Pen and Paper]]></title>
+            <description><![CDATA[Note: This post by [_@talkol_](https://medium.com/@talkol) was originally featured on HackerNoon. If you wish to comment or clap, please visit the_ [_original publication here_](https://hackernoon.com/how-to-run-a-blockchain-on-a-deserted-island-with-pen-and-paper-899949ec555b).]]></description>
             <link>https://www.orbs.com/how-to-run-a-blockchain-on-a-deserted-island-with-pen-and-paper</link>
             <guid isPermaLink="true">https://www.orbs.com/how-to-run-a-blockchain-on-a-deserted-island-with-pen-and-paper</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -2173,6 +2297,7 @@
         </item>
         <item>
             <title><![CDATA[Are fee-free blockchains possible?]]></title>
+            <description><![CDATA[Kik’s announcements yesterday ([here](https://medium.com/kinfoundation/kin-blockchain-taking-fate-into-our-own-hands-f5bdfa759502) and [here](https://www.coindesk.com/chain-mobile-app-kik-fork-stellar-fee-free-blockchain/), for example) to fork the Stellar blockchain and develop a “fee-free blockchain” of their own invoked the question — is this even possible? Does it make sense? Can a fee-free blockchain be kept secure? What about spam?]]></description>
             <link>https://www.orbs.com/are-fee-free-blockchains-possible</link>
             <guid isPermaLink="true">https://www.orbs.com/are-fee-free-blockchains-possible</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -2181,6 +2306,7 @@
         </item>
         <item>
             <title><![CDATA[Introducing Helix: The Orbs Consensus Algorithm]]></title>
+            <description><![CDATA[Helix white paper by the Orbs Research Team: Avi Asayag, Gad Cohen, Ido Grayevsky, Maya Leshkowitz Ori Rottenstreich, Ronen Tamari and David Yakira]]></description>
             <link>https://www.orbs.com/introducing-helix-the-orbs-consensus-algorithm</link>
             <guid isPermaLink="true">https://www.orbs.com/introducing-helix-the-orbs-consensus-algorithm</guid>
             <dc:creator><![CDATA[David Yakira]]></dc:creator>
@@ -2189,6 +2315,7 @@
         </item>
         <item>
             <title><![CDATA[Who Controls Your Blockchain?]]></title>
+            <description><![CDATA[This post was originally published on_** [**_Hackernoon_**](https://hackernoon.com/who-controls-your-blockchain-5b8bf7ec7f1a)]]></description>
             <link>https://www.orbs.com/who-controls-your-blockchain</link>
             <guid isPermaLink="true">https://www.orbs.com/who-controls-your-blockchain</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
@@ -2197,6 +2324,7 @@
         </item>
         <item>
             <title><![CDATA[A federated model can protect decentralized platforms from some players having too much power]]></title>
+            <description><![CDATA[I’ve written about [consensus models](https://medium.com/p/c5fe1c24ef0c) in a general sense before. There, I briefly mentioned that I don’t believe consumers will be in the game of _permissionless decentralization_ even when consumer apps are. Here, I will try to elaborate on that.]]></description>
             <link>https://www.orbs.com/a-federated-model-can-protect-decentralized-platforms-from-some-players-having-too-much-power</link>
             <guid isPermaLink="true">https://www.orbs.com/a-federated-model-can-protect-decentralized-platforms-from-some-players-having-too-much-power</guid>
             <dc:creator><![CDATA[Oded Noam]]></dc:creator>
@@ -2213,6 +2341,7 @@
         </item>
         <item>
             <title><![CDATA[It’s not about PoW/PoS: The Two Main Families of Consensus Models]]></title>
+            <description><![CDATA[When I’m discussing blockchain technology with people, I too often hear people ask, “Is it proof-of-stake or is it proof-of-work?” And in 99% of the times, the answer would be “neither.”]]></description>
             <link>https://www.orbs.com/its-not-about-pow-pos-the-two-main-families-of-consensus-models</link>
             <guid isPermaLink="true">https://www.orbs.com/its-not-about-pow-pos-the-two-main-families-of-consensus-models</guid>
             <dc:creator><![CDATA[Oded Noam]]></dc:creator>
@@ -2221,6 +2350,7 @@
         </item>
         <item>
             <title><![CDATA[NOAH Conference: Orbs and Why Consumer Apps Decentralize]]></title>
+            <description><![CDATA[I’m just returning from [NOAH](https://www.noah-conference.com/) — the conference that describes itself as the preeminent European event where Internet CEOs, executives and investors gain deep insights into the latest proven concepts, network with senior executives and establish new business relationships.]]></description>
             <link>https://www.orbs.com/noah-conference-orbs-and-why-consumer-apps-decentralize</link>
             <guid isPermaLink="true">https://www.orbs.com/noah-conference-orbs-and-why-consumer-apps-decentralize</guid>
             <dc:creator><![CDATA[Tal Kol]]></dc:creator>
