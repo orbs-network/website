@@ -7,8 +7,7 @@ title: ORBS is now live on FTMScan
 author:
   - /blog/common/authors/OlgaChef.md
 type:
-short_description: We are excited to announce that the ORBS token is now available on FTMScan, the leading block explorer for the Fantom network.
-
+short_description: "We are excited to announce that the ORBS token is now available on FTMScan, the leading block explorer for the Fantom network."
 ---
 **We are excited to announce that the ORBS token is now available on FTMScan, the leading block explorer for the Fantom network.**
 
