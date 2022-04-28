@@ -8,7 +8,7 @@ title: "Orbs PoS V3: Multi-chain Staking on Polygon Launch Date, Protocol Improv
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: 
+short_description: "After a lot of hard work by the Orbs team and many community members, we are excited to announce that Orbs PoS V3: Multi-chain Staking on Polygon will launch on 29/03/2022 (which also happens to be the three year anniversary of Orbs mainnet launch)!"
 ---
 **Polygon Staking Launch Date Confirmed!**
 

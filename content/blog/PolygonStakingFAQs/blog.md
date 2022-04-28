@@ -7,7 +7,7 @@ title: "Orbs PoS V3: Multi-chain Staking FAQ"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: 
+short_description: "Even though Orbs PoS V3 is an extension of Orbs V2: The Age of Guardians, sharing a very similar mechanism and architecture, there are still some important adjustments and improvements being implemented in V3. Therefore, we thought it would be a good idea to have a comprehensive Orbs PoS FAQ document to refresh some of the more important aspects of Orbs proof of stake mechanism, as well as highlight the key components of V3."
 ---
 The Orbs team is hard at work putting the finishing touches to the much anticipated launch of the Orbs PoS V3: [Multi-chain Staking](https://www.orbs.com/polygon-staking/) on Ethereum and Polygon, planned for 29/03/22.
 

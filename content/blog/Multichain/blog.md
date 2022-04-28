@@ -7,7 +7,7 @@ title: ORBS is now Live on Fantom Via Multichain Cross-Chain Bridge
 author:
   - /blog/common/authors/OlgaChef.md
 type:
-short_description: 
+short_description: "We are excited to announce that the ORBS token is now available on Fantom using the Multichain (previously Anyswap) cross-chain bridge!"
 ---
 In a recent [blog](https://www.orbs.com/Fantom/) we analyzed in detail the Fantom ecosystem and explained why it was chosen as the next chain for the Orbs ecosystem expansion.
 

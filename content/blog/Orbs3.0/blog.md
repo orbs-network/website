@@ -7,7 +7,7 @@ title: "Orbs 3.0 - A Key Building Block for the Future of the Internet"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: 
+short_description: "Since making our pivot to DeFi in early 2021, the Orbs team has been hard at work on laying down the proper foundation for Orbs 3.0. This included making ORBS a cross-chain asset with integrations to over 30 of the leading DeFi protocols across 5 of the major L1+L2 chains, making the necessary improvements to the Orbs protocol, testing L3 proof of concept and use-cases, and more..."
 ---
 **We are excited to announce that 2022 will be the year for Orbs 3.0**
 

@@ -7,7 +7,7 @@ title: "Orbs Ecosystem Expansion: Fantom"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: 
+short_description: "As we outlined in our recent introduction to Orbs 3.0, a key component of the Orbs architecture is multi-chain interoperability. This is essential in order to unlock the value of Orbs 3.0 as Layer-3 infrastructure and multi-chain PoS staking."
 ---
 
 As we outlined in our recent introduction to [Orbs 3.0](https://www.orbs.com/Orbs3.0/), a key component of the Orbs architecture is multi-chain interoperability. This is essential in order to unlock the value of Orbs 3.0 as [Layer-3](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) infrastructure and [multi-chain PoS staking](https://www.orbs.com/polygon-staking/).
