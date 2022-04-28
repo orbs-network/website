@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 Apr 2022 14:33:37 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 28 Apr 2022 07:33:17 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ORBS is now live on SpiritSwap!]]></title>
+            <link>https://www.orbs.com/ORBS-is-now-live-on-SpiritSwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/ORBS-is-now-live-on-SpiritSwap</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ORBS-is-now-live-on-SpiritSwap/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs PoS Wallet Supports Multi-chain Staking]]></title>
             <link>https://www.orbs.com/Orbs-PoS-Wallet-Supports-Multichain-Staking</link>
