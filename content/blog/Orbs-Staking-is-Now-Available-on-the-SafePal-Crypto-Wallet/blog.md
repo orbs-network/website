@@ -7,7 +7,8 @@ title: Orbs Staking is Now Available on the SafePal Crypto Wallet
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: We are happy to announce that ORBS staking is now available on the SafePal Crypto Wallet mobile app for Android and iOS!
+
 ---
 
 

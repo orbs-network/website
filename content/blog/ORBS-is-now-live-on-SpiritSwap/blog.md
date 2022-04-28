@@ -7,7 +7,7 @@ title: "ORBS is now live on SpiritSwap!"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: We are excited to announce that the ORBS token is now available on SpiritSwap, one of the biggest DEX-AMMs on Fantom with almost $200M in TVL! 
 ---
 
 **We are excited to announce that the ORBS token is now available on [SpiritSwap](https://www.spiritswap.finance/), one of the biggest DEX-AMMs on Fantom with almost $200M in TVL!**

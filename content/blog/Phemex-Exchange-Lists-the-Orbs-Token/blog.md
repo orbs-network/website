@@ -7,7 +7,7 @@ title: "Phemex Exchange Lists the Orbs Token (ORBS)"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: Phemex crypto exchange has listed ORBS, the native token of the Orbs network!
 ---
 
 **[Phemex](https://phemex.com/) crypto exchange has listed ORBS, the native token of the Orbs network!** 
