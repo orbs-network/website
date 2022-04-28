@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-is-now-live-on-SpiritSwap/blog.md
   - Orbs-PoS-Wallet-Supports-Multichain-Staking/blog.md
   - Tetra-Staking-Wallet-by-Orbs-Featured-on-DappRadar/blog.md
   - Phemex-Exchange-Lists-the-Orbs-Token/blog.md
