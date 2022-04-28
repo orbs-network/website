@@ -7,7 +7,7 @@ title: Tetra Staking Wallet by Orbs Featured on DappRadar
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: Tetra, the official staking wallet by the Orbs project, has been added to popular crypto website DappRadar!
+short_description: "Tetra, the official staking wallet by the Orbs project, has been added to popular crypto website DappRadar!"
 ---
 
 **[Tetra](https://staking.orbs.network/), the official staking wallet by the [Orbs](https://www.orbs.com/) project, has been added to popular crypto website DappRadar!**
