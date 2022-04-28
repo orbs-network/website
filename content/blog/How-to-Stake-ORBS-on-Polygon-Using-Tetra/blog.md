@@ -7,7 +7,8 @@ title: How to Stake ORBS on Polygon Using Tetra
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: For the release of Orbs PoS V3: Multi-chain staking, Tetra has been updated to enable staking on Polygon with a simple and intuitive UI to switch between the Ethereum and Polygon networks.
+
 ---
 
 [Tetra](https://staking.orbs.network) is the official staking wallet by the Orbs team, from which any ORBS holder can easily stake tokens with a Guardian of their choice.
