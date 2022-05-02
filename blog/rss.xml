@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 Apr 2022 13:44:11 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 02 May 2022 07:42:26 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs’ RSS Feed Integrated with Crypto.com]]></title>
+            <description><![CDATA[Orbs project information can now be found in the Crypto.com price page! Through the Orbs (ORBS) Price Page, you can now directly access Orbs’s RSS feed and acquire the latest news and updates on Orbs. On the price page, you can also obtain all of the information you require on the Orbs project, including price tracking and statistics, Orbs trading market data, Orbs ERC20 smart contract information, links to additional content and social media, etc. ]]></description>
+            <link>https://www.orbs.com/Orbs-RSS-Feed-Integrated-with-Cryptocom</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-RSS-Feed-Integrated-with-Cryptocom</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-RSS-Feed-Integrated-with-Cryptocom/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[ORBS is now live on SpiritSwap!]]></title>
             <description><![CDATA[We are excited to announce that the ORBS token is now available on SpiritSwap, one of the biggest DEX-AMMs on Fantom with almost $200M in TVL!]]></description>
