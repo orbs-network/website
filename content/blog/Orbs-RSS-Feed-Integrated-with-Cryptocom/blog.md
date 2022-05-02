@@ -1,67 +1,51 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-RSS-Feed-Integrated-with-Cryptocom/bg.jpg
+blogUrl: Orbs-RSS-Feed-Integrated-with-Cryptocom
+date: 2022-05-02
+title: "Orbs’ RSS Feed Integrated with Crypto.com"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Orbs project information can now be found in the Crypto.com price page! Through the Orbs (ORBS) Price Page, you can now directly access Orbs’s RSS feed and acquire the latest news and updates on Orbs. On the price page, you can also obtain all of the information you require on the Orbs project, including price tracking and statistics, Orbs trading market data, Orbs ERC20 smart contract information, links to additional content and social media, etc. "
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs project information can now be found in the Crypto.com price page!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Through the [Orbs (ORBS) Price Page](https://crypto.com/price/orbs), you can now directly access Orbs’s RSS feed and acquire the latest news and updates on Orbs. On the price page, you can also obtain all of the information you require on the Orbs project, including price tracking and statistics, Orbs trading market data, Orbs ERC20 smart contract information, links to additional content and social media, etc. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+In addition, the Crypto.com price page enables users to add the ORBS token price tracker to their watchlist as well as set up price and price movement alerts.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+![pricepage](/assets/img/blog/Orbs-RSS-Feed-Integrated-with-Cryptocom/image1.png)
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Orbs Price Widget by Crypto.com
 
-Please also see our disclaimers below.
+In addition to being added to the Crypto.com price page, the Orbs team has integrated a live price widget on the Orbs [PoS Analytics](https://analytics.orbs.network/ethereum/overview/stake) webpage. The Widget also links to the Orbs price page on Crypto.com, which allows Orbs token holders easy access to the Orbs token information provided by Crypto.com.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![pricepage](/assets/img/blog/Orbs-RSS-Feed-Integrated-with-Cryptocom/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+The addition of Orbs to the ecosystem of a major crypto project like Crypto.com is an important step to establish the credibility of the ORBS token as well as raise awareness about the project with a huge number of crypto users. We hope that this will pave the way for additional integrations and collaborations with Cypto.com.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+[Orbs](http://orbs.com) is a public blockchain infrastructure executed by a decentralized network of permissionless validators using Proof-of-Stake (PoS) consensus.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs’ unique features designed for interoperability with EVM-compatible blockchains, together with its decentralized network of nodes, allow it to be set up as a separate [execution layer](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) (“L3” ) operating to enhance the capabilities of EVM smart contracts. By working in conjunction with other L1 and L2 solutions as part of a tiered blockchain stack, Orbs opens up a whole new spectrum of possibilities for Web 3.0, DeFi, NFT and GameFi.
+
+For more information, please visit the website, or join the communities below.
+
+
+[Telegram](https://t.me/OrbsNetwork) | [Twitter](https://twitter.com/orbs_network)
+
+
+<div class='line-separator'> </div>
+
+**About Crypto.com**
+
+Founded in 2016, Crypto.com has grown into a full-fledged and well-known international cryptocurrency hub in just a few short years. Its crypto ecosystem consists of the [Crypto.com App](https://crypto.com/app), [Crypto.com Exchange](https://crypto.com/exchange), [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet), [DeFi Swap](https://crypto.com/defi/swap), [Crypto.com Visa Cards](https://crypto.com/cards), [Crypto Earn](https://crypto.com/defi-wallet#earn), [Crypto Credit](https://crypto.com/credit), [Price Page](https://crypto.com/price/), [NFT marketplace](https://crypto.com/nft/marketplace), [Ethereum Gas Fees Tracker](https://crypto.com/defi/dashboard/gas-fees), and many other services. Crypto.com works with regulatory institutions all over the globe, and aims to bring you the most convenient way to buy, sell, trade, and spend cryptocurrencies. The Crypto.com App allows users to buy over 100 top cryptocurrencies at true cost, to earn high interest on their crypto, to manage their Crypto.com Visa Card, and to easily make crypto payments, along with many other rewarding features. The company’s Crypto.com DeFi Wallet is non-custodial, so users can have full control of their private keys.
