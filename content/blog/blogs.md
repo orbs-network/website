@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet/blog.md
   - Orbs-RSS-Feed-Integrated-with-Cryptocom/blog.md
   - ORBS-is-now-live-on-SpiritSwap/blog.md
   - Orbs-PoS-Wallet-Supports-Multichain-Staking/blog.md
