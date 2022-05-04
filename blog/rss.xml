@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 May 2022 07:42:26 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 04 May 2022 20:02:04 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Multi-chain Staking is Now Available on the Coin98 Crypto Wallet]]></title>
+            <description><![CDATA[We are happy to announce that ORBS staking is now available on the Coin98 Crypto Wallet! This means that Orbs token holders can now stake their ORBS tokens directly from their Coin98 wallet mobile app for Android and iOS.]]></description>
+            <link>https://www.orbs.com/Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs’ RSS Feed Integrated with Crypto.com]]></title>
             <description><![CDATA[Orbs project information can now be found in the Crypto.com price page! Through the Orbs (ORBS) Price Page, you can now directly access Orbs’s RSS feed and acquire the latest news and updates on Orbs. On the price page, you can also obtain all of the information you require on the Orbs project, including price tracking and statistics, Orbs trading market data, Orbs ERC20 smart contract information, links to additional content and social media, etc. ]]></description>
