@@ -1,67 +1,82 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet/bg.jpg
+blogUrl: Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet
+date: 2022-05-05
+title: "Orbs Multi-chain Staking is Now Available on the Coin98 Crypto Wallet"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "We are happy to announce that ORBS staking is now available on the Coin98 Crypto Wallet! This means that Orbs token holders can now stake their ORBS tokens directly from their Coin98 wallet mobile app for Android and iOS."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**We are happy to announce that ORBS staking is now available on the [Coin98 Crypto Wallet!](https://coin98.com/wallet)**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+This means that Orbs token holders can now stake their ORBS tokens directly from their Coin98 wallet mobile app for [Android](https://play.google.com/store/apps/details?id=coin98.crypto.finance.media) and [iOS](https://apps.apple.com/us/app/coin98-wallet/id1561969966).
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### How to Stake ORBS from the Coin98 Wallet Browser
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The staking process is very intuitive and easy. All you need to do is navigate to the [Tetra webpage](https://staking.orbs.network/) from your Coin98 mobile app and stake your ORBS. 
 
-### Step-by-Step Guide
+_*Not sure how to use Tetra? Check out this simple [tutorial](https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/)._
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Orbs recently released its PoS V3: Multi-chain staking on Ethereum and Polygon. The Coin98 wallet supports both the Ethereum and Polygon chains, which means that Orbs token holders can stake on either chain from the Coin98 app.
 
-Please also see our disclaimers below.
+Here is a short demo video for connecting to Tetra from the Coin98 wallet mobile app:
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+<iframe src="https://www.youtube.com/embed/wuD32uvfxuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+### Coin98: The Ultimate Gateway to DeFi
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Coin98 is one of the leading DeFi wallets with over 400,000 users across 150 countries. 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+The Coin98 wallet is designed to seamlessly connect users to the crypto and DeFi world in a secure and safe manner, offering the following key features:
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+- **Multi-chain support:** Coin98 is connected to 26 of the leading crypto chains, to enable maximum accessibility to leading DeFi services across the crypto ecosystem.
+- **DeFi Gateway:** Coin98 provides low slippage multi-chain swaps using the top DEX-AMMs supported by its chains such as Uniswap, Sushi, Pancake, etc., as well as a browser to access popular dApps.
+- **Rewards system:** Using the X-Point tokens, earned for completing various tasks such as referrals for example, which can then be spent on the Coin98 native X-store.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+### A Variety to Choose From
 
-Once the position is opened, you can always re-adjust the parameters:
+It is important for the Orbs project that participating in the Orbs Universe is as user friendly and accessible as possible for ORBS token holders. Having [Tetra](https://staking.orbs.network/) available on mobile is an important step towards that goal. To date, in addition to Coin98, Orbs staking using Tetra is available from the following  wallet applications:
+ 
+- [Coinbase](https://www.orbs.com/orbs-staking-is-now-available-on-the-coinbase-wallet-mobile-app)
+- [Metamask](https://www.orbs.com/orbs-swaps-and-staking-now-available-on-metamask-wallet)
+- [Enjin Wallet](https://www.orbs.com/tetra-staking-wallet-by-orbs-now-on-mobile)
+- [imToken Wallet](https://www.orbs.com/orbs-tetra-staking-is-now-available-on-imtoken-wallet)
+- [Status Wallet](https://www.orbs.com/orbs-staking-is-now-available-on-the-status-wallet-mobile-app)
+- [Trust Wallet](https://www.orbs.com/orbs-staking-is-now-available-on-the-trust-wallet-mobile)
+- [Token Pocket](https://www.orbs.com/orbs-staking-is-now-available-on-token-pocket-wallet-mobile-app)
+- [D’CENT](https://www.orbs.com/orbs-staking-is-now-available-on-dcent-wallet-mobile-app/)
+- [Krystal](https://www.orbs.com/orbs-and-krystal-announce-a-partnership-focused-on-defi/)
+- [FTX (Former BlockFolio)](https://www.orbs.com/orbs-is-now-available-on-blockfolio/)
+- [MEW](https://play.google.com/store/apps/details?id=com.myetherwallet.mewwallet&hl=en&gl=US)
+- [SafePal](https://www.orbs.com/Orbs-Staking-is-Now-Available-on-the-SafePal-Crypto-Wallet/)
+- [ONTO](https://www.orbs.com/Orbs-Staking-is-Now-Available-on-ONTO-Wallet/)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+<div class='line-separator'> </div>
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**About Orbs:**
 
-### 3) Earn Orbs in the Grazing Range
+[Orbs](http://orbs.com) is a public blockchain infrastructure executed by a decentralized network of permissionless validators using Proof-of-Stake (PoS) consensus.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+Orbs’ unique features designed for interoperability with EVM-compatible blockchains, together with its decentralized network of nodes, allow it to be set up as a separate [execution layer](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) (“L3” ) operating to enhance the capabilities of EVM smart contracts. By working in conjunction with other L1 and L2 solutions as part of a tiered blockchain stack, Orbs opens up a whole new spectrum of possibilities for DeFi, NFT, Metaverse and GameFi.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+For more information, please visit the website, or join the communities below:
 
-#### And that’s it – You are now a senior Alpaca!
+
+[Telegram](https://t.me/OrbsNetwork) | [Twitter](https://twitter.com/orbs_network)
+
+
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information regarding Tetra, please see the [Terms of Use](https://staking.orbs.network/34ddbf2e660b9b7d284130e8444f09be.pdf) and [Privacy Policy](https://staking.orbs.network/bf7dd07efc692312eb717f6d2c367392.pdf)._
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+
