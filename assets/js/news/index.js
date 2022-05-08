@@ -1,6 +1,6 @@
 import { validateEmail } from "../components/form.js";
 import { init } from "../index.js";
-import analytics from "../services/analytics.js";
+import analytics from "../services/analytics/index.js";
 import userPost from "../services/user-post.js";
 let posts = [];
 let lastLoadedIndex = 0;
@@ -23,7 +23,7 @@ window.onload = () => {
 
 const addAnalyticsClickEventToPost = (post, url) => {
   post.addEventListener("click", () => {
-    analytics.sendEvent(analytics.events.newsClicked, { name: url });
+    analytics.sendAmplitudeAnalyticsEvent(analytics.events.newsClicked, { name: url });
   });
 };
 
