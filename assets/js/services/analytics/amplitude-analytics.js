@@ -1,10 +1,5 @@
-class Analytics {
-  events = {
-    blogClicked: "BLOG_CLIKED",
-    newsClicked: "NEWS_CLIKED",
-  };
+class AmplitudeAnalytics {
 
-  client;
   init() {
     (function (e, t) {
       var n = e.amplitude || { _q: [], _iq: {} };
@@ -124,4 +119,4 @@ class Analytics {
   }
 }
 
-export default new Analytics();
+export default AmplitudeAnalytics

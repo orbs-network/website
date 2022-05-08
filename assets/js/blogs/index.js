@@ -1,6 +1,6 @@
 import { getElement, getElementAttribute, getElements } from "../heplers.js";
 import { init } from "../index.js";
-import analytics from "../services/analytics.js";
+import analytics from "../services/analytics/index.js";
 import { initInfiniteScrolling } from "./infinite-sctoll.js";
 
 let blogsList = [];
@@ -13,7 +13,7 @@ const addAnalyticsEvents = () => {
     list.forEach(elem => {
       elem.addEventListener('click', () => {
         const title = elem.getAttribute('data-title')
-        analytics.sendEvent(analytics.events.blogClicked, {name: title} )
+        analytics.sendAmplitudeAnalyticsEvent(analytics.events.blogClicked, {name: title} )
       })
     })
 }
