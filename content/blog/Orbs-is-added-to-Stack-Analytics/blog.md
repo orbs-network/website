@@ -1,67 +1,57 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-is-added-to-Stack-Analytics/bg.jpg
+blogUrl: Orbs-is-added-to-Stack-Analytics
+date: 2022-05-09
+title: "Orbs is added to Stack Analytics"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Orbs has been added to Stack, the popular crypto research and analytics platform! Stack is a crypto analytics platform with an aim to build simple and effective tools for valuing and assessing crypto projects. To achieve this, Stack has developed their unique ranking systems which incorporates over 50 metrics into 3 ranks, each with a score of 0-100. The Orbs combined Stack Coinrank, which combines all 3 individual ranks is an impressive 91!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs has been added to [Stack](https://stack.money/), the popular crypto research and analytics platform!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Stack is a crypto analytics platform with an aim to build simple and effective tools for valuing and assessing crypto projects. To achieve this, Stack has developed their unique ranking systems which incorporates over 50 metrics into 3 ranks, each with a score of 0-100. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+These three ranks are:
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**1) Fundamental Rank:** calculated by analyzing several core value and liquidity metrics including: Market Capitalization, Trading Volume and Turnover Ratio (volume/market cap).
 
-### Step-by-Step Guide
+**2) Developer Rank:** analyzes the activity on the crypto projects source code repositories (repos). Key metrics include: Commits (weekly/monthly/yearly), Lines of code added/subtracted.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+**3) Social Rank:** calculated by looking at the social community around the project such as Twitter, Telegram, etc.
 
-Please also see our disclaimers below.
+**The Orbs combined Stack [Coinrank](https://stack.money/asset/orbs), which combines all 3 individual ranks is an impressive 91!**
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![stack](/assets/img/blog/Orbs-is-added-to-Stack-Analytics/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+### Everything You Need to Know About Orbs in One Place
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+The [Orbs page](https://stack.money/asset/orbs) on Stack breaks down the ranking system mentioned above into specific metrics and indicators. 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+These include, for example, developer activity in the Orbs [github repos](https://github.com/orbs-network/), which as can be seen, are well above the average in comparison to the crypto market:
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+![github](/assets/img/blog/Orbs-is-added-to-Stack-Analytics/image2.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+In addition, Stack users will be able to find other interesting information on Orbs such as social media activity across the main Orbs channels as well as a live Orbs news feed.
 
-### 2) Lend ALPACA tokens
+Orbs has always been an open-source, permissionless project. Transparency and accountability with the Orbs community and stakeholders have always been key values for us. Stack provides a comprehensive analysis on the Orbs network, making it a good place for new crypto users to learn about the project.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs:**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+[Orbs](http://orbs.com) is a public blockchain infrastructure executed by a decentralized network of permissionless validators using Proof-of-Stake (PoS) consensus.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs’ unique features designed for interoperability with EVM-compatible blockchains, together with its decentralized network of nodes, allow it to be set up as a separate [execution layer](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/) (“L3” ) operating to enhance the capabilities of EVM smart contracts. By working in conjunction with other L1 and L2 solutions as part of a tiered blockchain stack, Orbs opens up a whole new spectrum of possibilities for DeFi, NFT, Metaverse and GameFi.
+
+For more information, please visit the website, or join the communities below:
+
+
+[Telegram](https://t.me/OrbsNetwork) | [Twitter](https://twitter.com/orbs_network)
