@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 May 2022 13:23:03 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 09 May 2022 07:30:25 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs is added to Stack Analytics]]></title>
+            <description><![CDATA[Orbs has been added to Stack, the popular crypto research and analytics platform! Stack is a crypto analytics platform with an aim to build simple and effective tools for valuing and assessing crypto projects. To achieve this, Stack has developed their unique ranking systems which incorporates over 50 metrics into 3 ranks, each with a score of 0-100. The Orbs combined Stack Coinrank, which combines all 3 individual ranks is an impressive 91!]]></description>
+            <link>https://www.orbs.com/Orbs-is-added-to-Stack-Analytics</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-is-added-to-Stack-Analytics</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-is-added-to-Stack-Analytics/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Multi-chain Staking is Now Available on the Coin98 Crypto Wallet]]></title>
             <description><![CDATA[We are happy to announce that ORBS staking is now available on the Coin98 Crypto Wallet! This means that Orbs token holders can now stake their ORBS tokens directly from their Coin98 wallet mobile app for Android and iOS.]]></description>
