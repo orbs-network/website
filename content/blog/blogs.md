@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-is-added-to-Stack-Analytics/blog.md
   - Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet/blog.md
   - Orbs-RSS-Feed-Integrated-with-Cryptocom/blog.md
   - ORBS-is-now-live-on-SpiritSwap/blog.md
