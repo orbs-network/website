@@ -26,7 +26,6 @@ const addEventListeners = () => {
 };
 
 const handleAccept = () => {
-  analytics.init(true);
   localStorage.set(GDPR_ACCEPTED, true);
   hideGdpr();
 };
