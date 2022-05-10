@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/nasdaq_dappradar.jpg
+url: https://www.nasdaq.com/press-release/dappradar-lists-the-tetra-staking-wallet-by-orbs-and-tracks-multichain-staking
+date: 22, April 2022
+logo: /assets/img/news/logos/nasdaq.jpeg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+DappRadar Lists the Tetra Staking Wallet by Orbs and Tracks Multichain Staking Contracts
