@@ -15,12 +15,9 @@ class Analytics {
   amplitudeAnalytics = new AmplitudeAnalytics();
   hotjarAnalytics = new HotjarAnalytics();
 
-  init(allowed) {
-    if (allowed || localStorage.get(GDPR_ACCEPTED)) {
-      this.googleAnalytics.init();
-      this.amplitudeAnalytics.init();
-      this.hotjarAnalytics.init();
-    }
+  init() {
+    this.googleAnalytics.init();
+    this.amplitudeAnalytics.init();
   }
 
   sendAmplitudeAnalyticsEvent(eventType, properties) {

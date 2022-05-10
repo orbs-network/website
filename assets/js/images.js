@@ -12,6 +12,7 @@ export const images = {
     repository: `${prefix}/globe/repository.svg`,
     bg: `${prefix}/globe/test-bg.jpeg`,
     earthDark: `${prefix}/globe/earth-dark.jpeg`,
+    earthLight: `${prefix}/globe/earth-light.jpeg`,
     contributor: {
       email: `${prefix}/globe/cards/contributor/email.svg`,
       github: `${prefix}/globe/cards/contributor/github.svg`,
