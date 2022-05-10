@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/BloombergFantom1.md
-  - ../posts/YahooFantom.md
+  - ../posts/cmc_spooky.md
+  - ../posts/nasdaq_dappradar.md
 ---
 

@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - BloombergFantom1.md
+  - Investing_dappradar.md
   - InvestingRevault.md
   - NasdaqFantom.md
   - BloombergRevault.md
