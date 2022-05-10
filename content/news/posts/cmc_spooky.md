@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/cmc_spooky.jpg
+url: https://coinmarketcap.com/headlines/news/orbs-protocol-expands-to-fantom-blockchain-with-spookyswap-dex/
+date: 7, April 2022
+logo: /assets/img/news/logos/CoinMarketCap.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Protocol Expands To Fantom Blockchain With SpookySwap DEX
