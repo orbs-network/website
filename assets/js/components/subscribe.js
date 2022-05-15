@@ -57,7 +57,8 @@ const handleSubmit = async (e) => {
   };
   handleLoading(formClassName);
   try {
-    await userPost.subscribe(body);
+    userPost.subscribe(body);
+
     handleFormSubmitted();
   } catch (error) {
     handleFormSubmitted();
