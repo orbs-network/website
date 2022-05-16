@@ -17,7 +17,7 @@ Orbs PoS V3: [Multi-chain staking](https://www.orbs.com/PolygonStakingDate/) was
 
 Once again, we want to thank the entire Orbs community for making the launch of Orbs PoS V3 such a great success!
 
-![stats](/assets/img/blog/rbs-Staking-Auto-compound-is-Now-Live-on-Polygon/image1.jpg)
+![stats](/assets/img/blog/Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon/image1.jpg)
 
 
 ### Introducing Auto-compounding on Polygon
@@ -43,7 +43,7 @@ For example, If you were to invest $100 with 100% APR, you would make $100 in pr
  
 As can be seen below, this difference can be quite significant over longer periods of time as APR provides a linear yield, while APY is exponential!
  
-![APY](/assets/img/blog/rbs-Staking-Auto-compound-is-Now-Live-on-Polygon/image2.png)
+![APY](/assets/img/blog/Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon/image2.png)
 
 
 <div class='line-separator'> </div>
