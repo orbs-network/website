@@ -1,67 +1,63 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon/bg.jpg
+blogUrl: Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon
+date: 2022-05-16
+title: "Orbs Staking Auto-compound is Now Live on Polygon"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Polygon's reduced gas costs also paves the way for new and exciting features that were not practically available on Ethereum. One of these is auto-compounding. Auto-compounding means that the ORBS staking rewards tokens are automatically re-staked in order to optimize the Delegators’ staking APY."
+
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs PoS V3: [Multi-chain staking](https://www.orbs.com/PolygonStakingDate/) was recently launched on Ethereum and Polygon. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+**Since then, the total delegated stake has increased by ~60M ORBS, with almost 20% of it now staked on Polygon!**
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Once again, we want to thank the entire Orbs community for making the launch of Orbs PoS V3 such a great success!
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+![stats](/assets/img/blog/rbs-Staking-Auto-compound-is-Now-Live-on-Polygon/image1.jpg)
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Introducing Auto-compounding on Polygon
 
-Please also see our disclaimers below.
+Polygon's reduced gas costs also paves the way for new and exciting features that were not practically available on Ethereum. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+One of these is **auto-compounding.**
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Auto-compounding means that the ORBS staking rewards tokens are automatically re-staked in order to optimize the Delegators’ staking APY. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Polygon’s low fees makes this functionality economically viable, unlike on Ethereum where the gas costs are significantly higher. As a result, **the auto-compounding feature is available only on Polygon.**
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+After making the necessary calculations, the Orbs team concluded that the optimal auto-compounding frequency is once a week. **This means that all Orbs staking rewards on Polygon will be automatically re-staked once every week.** Orbs Delegators do not need to take any action at all and will be able to see the auto-compounding taking place in their [Tetra](https://staking.orbs.network/) staking wallet.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Furthermore, for the roll out of this new feature and until further notice, the Orbs project will cover all the MATIC gas costs for the auto-compounding transactions. This means that Orbs Delegators will not bear any additional costs as a result of the activation of the auto-compounding feature.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### What is the Difference Between APY and APR?
+ 
+APR stands for Annual Percentage Rate, while APY is Annual Percentage Yield. The difference is that APR does not include compounding effects. 
+ 
+For example, If you were to invest $100 with 100% APR, you would make $100 in profit. If, however, you reinvest your profits regularly, you will compound your interest. This calculated over a year gives you the APY. 
+ 
+As can be seen below, this difference can be quite significant over longer periods of time as APR provides a linear yield, while APY is exponential!
+ 
+![APY](/assets/img/blog/rbs-Staking-Auto-compound-is-Now-Live-on-Polygon/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+<div class='line-separator'> </div>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+The Orbs proof of stake mechanism is the backbone of the orbs network. Orbs PoS V3: Multi-chain staking on Ethereum and Polygon addressed one of the key feedbacks from the community following the V2 launch, ensuring inclusion and participation of more Orbs token holders in the Orbs PoS system.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+The Orbs team will continue to improve the Orbs PoS architecture, introducing new features such as auto-compounding, to ensure a robust and secure Orbs network.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+For the latest updates, be sure to follow Orbs on [Twitter](https://twitter.com/orbs_network) and join the official Orbs [Telegram group](https://t.me/OrbsNetwork).
 
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_For more information regarding Tetra, please see the [Terms of Use](https://staking.orbs.network/34ddbf2e660b9b7d284130e8444f09be.pdf) and [Privacy Policy](https://staking.orbs.network/bf7dd07efc692312eb717f6d2c367392.pdf)._
