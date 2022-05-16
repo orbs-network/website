@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon/blog.md
   - Orbs-is-added-to-Stack-Analytics/blog.md
   - Orbs-Multi-chain-Staking-is-Now-Available-on-the-Coin98-Crypto-Wallet/blog.md
   - Orbs-RSS-Feed-Integrated-with-Cryptocom/blog.md
