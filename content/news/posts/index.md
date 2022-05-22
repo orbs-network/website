@@ -5,6 +5,7 @@ id: news-posts-top
 posts:
   - BloombergFantom1.md
   - investing_dappradar.md
+  - cmc_spooky.md
   - InvestingRevault.md
   - NasdaqFantom.md
   - BloombergRevault.md
