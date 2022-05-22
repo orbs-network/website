@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/cointelegraph_polygon.jpeg
+url: https://cointelegraph.com/news/polygon-partners-with-orbs-and-defi-org-to-launch-an-accelerator-program
+date: 18, May 2022
+logo: /assets/img/news/logos/cointelegraph.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Polygon partners with Orbs and DeFi.org to launch an accelerator program
