@@ -15,5 +15,8 @@ items:
   - thegraph.md
   - evai.md
   - moonlight.md
+  - crypto-com.md
+  - delta.md
   - crypto-runner.md
+  - stack.md
 ---
