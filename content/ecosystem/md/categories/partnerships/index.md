@@ -8,5 +8,4 @@ items:
   - cban.md
   - paradigm.md
   - yes.md
-  - samsung.md
 ---

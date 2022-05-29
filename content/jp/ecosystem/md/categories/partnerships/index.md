@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: パートナーシップ
+title: Partnerships
 
 items:
   - gbbc.md
@@ -8,5 +8,4 @@ items:
   - cban.md
   - paradigm.md
   - yes.md
-  - samsung.md
 ---
