@@ -8,4 +8,5 @@ items:
   - ethplorer.md
   - bscscan.md
   - avascan.md
+  - ftm.md
 ---
