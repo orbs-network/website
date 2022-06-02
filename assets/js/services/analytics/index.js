@@ -18,6 +18,7 @@ class Analytics {
   init() {
     this.googleAnalytics.init();
     this.amplitudeAnalytics.init();
+    this.hotjarAnalytics.init();
   }
 
   sendAmplitudeAnalyticsEvent(eventType, properties) {

@@ -1,7 +1,6 @@
 ---
 layout: partials/ecosystem/category
 title: 透明性とデータ
-
 items:
   - xangle.md
   - messari.md
@@ -15,5 +14,8 @@ items:
   - thegraph.md
   - evai.md
   - moonlight.md
+  - crypto-com.md
+  - delta.md
   - crypto-runner.md
+  - stack.md
 ---

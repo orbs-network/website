@@ -6,19 +6,20 @@ items:
   - bittrex.md
   - bithub.md
   - upbit.md
-  - bibox.md
   - okex.md
   - huobi.md
   - coinone.md
-  - bilaxy.md
   - latoken.md
-  - probit.md
-  - ftx.md
   - kucoin.md
+  - ftx.md
   - gateio.md
+  - consbit.md
   - indodax.md
   - p2p.md
-  - consbit.md
+  - probit.md
+  - bibox.md
+  - bitbns.md
   - bhex.md
-  - soon.md
+  - zt.md
+  - phemex.md
 ---

@@ -6,7 +6,7 @@ items:
   - prism.md
   - tokenview.md
   - ethplorer.md
-  - etherscan.md
   - bscscan.md
   - avascan.md
+  - ftm.md
 ---

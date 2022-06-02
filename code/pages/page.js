@@ -42,6 +42,7 @@ const Page = (props) => {
         <MetaTags {...props} />
 
         <script src={generateUrl('/assets/js/dependencies/aos.js')}></script>
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-HJ74DHDLS3" />
         <script
           async
           src={generateUrl('/assets/js/dependencies/twitter-widgets.js')}

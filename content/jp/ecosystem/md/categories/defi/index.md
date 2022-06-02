@@ -6,9 +6,9 @@ items:
   - balancer.md
   - uniswap.md
   - defi.md
-  - benchmark.md
   - orbsdefi.md
   - multichain.md
+  - benchmark.md
   - pancake.md
   - sushiswap.md
   - kyber.md
@@ -19,4 +19,13 @@ items:
   - dinoswap.md
   - kogefarm.md
   - solana.md
+  - trader-joe.md
+  - pangolin.md
+  - rango.md
+  - snowball.md
+  - spookywap.md
+  - wowswap.md
+  - raydium.md
+  - serum.md
+  - spiritswap.md
 ---

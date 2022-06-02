@@ -16,4 +16,7 @@ items:
   - pocket.md
   - imToken.md
   - dcent.md
+  - safepal.md
+  - onto.md
+  - coin98.md
 ---
