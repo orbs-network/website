@@ -38,7 +38,7 @@ It’s great to see so many Orbs Delegators making use of the notification app, 
 
 We would appreciate it if you could take the time to fill in this short survey from your experience of using the app:
 
-[FORM](https://docs.google.com/forms/d/1ZtFQB6Jo92DEvr7SQbTANSLHZoptdwLGjn2qiSq3JhM/prefill)
+[FORM](https://docs.google.com/forms/d/e/1FAIpQLSeW7jI5cauSbMhJpYuiYd77reubj3-7CeOYC6r1WM9MhfAHRw/viewform)
 
 Any feedback is valuable and can help us improve the app for all users! 
 
