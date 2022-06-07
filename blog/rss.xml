@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jun 2022 08:07:20 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jun 2022 09:26:33 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs: A Re-introduction]]></title>
+            <description><![CDATA[Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. Orbs’ unique features, designed for interoperability with EVM and non-EVM blockchains, together with its decentralized network of nodes, allow it to be set up as a separate decentralized execution layer operating between the base blockchain layer and application layer.]]></description>
+            <link>https://www.orbs.com/Orbs-A-Re-introduction</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-A-Re-introduction</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-A-Re-introduction/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Community: Request for Feedback on the Notification App]]></title>
             <description><![CDATA[DeFi.org recently launched the public beta app for The Open DeFi Notifications Protocol - a community led initiative to provide users with decentralized and free mobile notifications for on-chain events, powered by the Orbs network. It’s great to see so many Orbs Delegators making use of the notification app, and we already received feedback from app users who reached out to us with some excellent input and suggestions for improvements. Therefore, we thought it would be a good idea to get additional feedback from the rest of the community.]]></description>
