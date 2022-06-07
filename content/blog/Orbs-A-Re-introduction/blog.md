@@ -69,7 +69,7 @@ Well, here are 2 nice examples to visualize it in terms using Orbs for smart con
 
 ![execution](/assets/img/blog/Orbs-A-Re-introduction/image1.jpg)
 
-![cloud](/assets/img/blog/Orbs-A-Re-introduction/image1.jpg)
+![cloud](/assets/img/blog/Orbs-A-Re-introduction/image2.jpg)
 
 
 
