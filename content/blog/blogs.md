@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-A-Re-introduction/blog.md
   - Request-for-Feedback-on-the-Notification-App/blog.md
   - Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon/blog.md
   - Orbs-is-added-to-Stack-Analytics/blog.md
