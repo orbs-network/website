@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[The Orbs Network](/network)
+[LAYER 3: DECENTRALIZED BACKEND](/network)

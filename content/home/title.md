@@ -2,8 +2,8 @@
 layout: partials/shared/simple-md
 ---
 
-## MAKING YOUR
+# MAKING SMART
 
-## SMART CONTRACTS
+# CONTRACTS
 
 # SMARTER

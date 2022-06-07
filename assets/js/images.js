@@ -12,7 +12,7 @@ export const images = {
     repository: `${prefix}/globe/repository.svg`,
     bg: `${prefix}/globe/test-bg.jpeg`,
     earthDark: `${prefix}/globe/earth-dark.jpeg`,
-    earthLight: `${prefix}/globe/earth-light.jpeg`,
+    earthLight: `${prefix}/globe/earth-light.jpg`,
     contributor: {
       email: `${prefix}/globe/cards/contributor/email.svg`,
       github: `${prefix}/globe/cards/contributor/github.svg`,
@@ -56,7 +56,7 @@ export const images = {
     korea: `${prefix}/navbar/korea.svg`,
     usa: `${prefix}/navbar/usa.svg`,
     japan: `${prefix}/navbar/japan.svg`,
-    hamburger: `${prefix}/navbar/hamburger.png`,
+    hamburger: `${prefix}/navbar/hamburger.svg`,
   },
   team: {
     management: `${prefix}/team/management.jpg`,
@@ -68,8 +68,8 @@ export const images = {
   common: {
     close: `${prefix}/common/close.svg`,
     logo: `${prefix}/common/logo.svg`,
-    appLoader: `${prefix}/common/app-loader.png`,
-    hamburger: `${prefix}/common/menu.svg`,
+    appLoader: `${prefix}/common/loader.svg`,
+    hamburger: `${prefix}/common/hamburger.svg`,
     up: `${prefix}/common/up.svg`,
     favicon: `${prefix}/common/favicon.ico`,
   },

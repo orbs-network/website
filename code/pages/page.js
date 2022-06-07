@@ -62,7 +62,8 @@ const Page = (props) => {
         )}
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
-      <body style={{ background: colors.main }}>
+      <body style={{ background: colors.background }}>
+        <div className="overlay"></div>
         <AppLoader generateUrl={generateUrl} />
         <div className="app-wrapper" style={{ opacity: 0 }}>
           {header}

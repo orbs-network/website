@@ -11,7 +11,7 @@
     align-items: stretch;
     display: flex;
     .box {
-      border: 1px solid white;
+      @include gradient-border(1px);
       padding: 31px 27px 27px 34px;
       display: flex;
       flex-direction: column;
@@ -22,6 +22,7 @@
         margin-bottom: 40px;
         line-height: 1.7rem;
         font-weight: 600;
+        @extend .gradient-text;
       }
       .text-p {
         line-height: 1.6rem;

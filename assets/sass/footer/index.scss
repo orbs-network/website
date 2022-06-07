@@ -1,7 +1,6 @@
 .footer {
   width: 100%;
   padding-top: 60px;
-  background: black;
   color: white;
   border-top: 1px solid #707070;
   font-family: "Montserrat";
@@ -73,6 +72,7 @@
         line-height: 1.375rem;
         letter-spacing: 0.015rem;
         margin-bottom: 10px;
+        @extend .gradient-text;
       }
       &-prefix {
         color: #666666;
@@ -103,8 +103,7 @@
       overflow: auto;
       position: relative;
       height: 100%;
-      iframe {
-      }
+   
     }
   }
 
@@ -161,8 +160,9 @@
         font-size: 1rem;
         margin-bottom: 20px;
         text-transform: uppercase;
-        color: $light-color;
+      
         font-family: $bold-font;
+        @extend .gradient-text;
       }
       &-list {
         display: flex;

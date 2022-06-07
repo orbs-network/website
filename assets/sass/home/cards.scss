@@ -3,11 +3,10 @@
   min-height: 70px;
   height: auto;
   padding: 5px;
-  background: #010010;
+  background: $main-bg-color;
   position: relative;
-  border: 1px solid #03fcf5;
+  @include gradient-border;
   width: 100%;
-
   display: flex;
   align-items: stretch;
   justify-content: flex-start;
@@ -45,11 +44,12 @@
     letter-spacing: 0.4px;
   }
   * {
-    font-family: "card-font";
-    color: white;
+    font-family: $text-font;
+    color: $text-color;
+    font-weight: 500;
   }
   &-content {
-    padding: 15px 15px 20px 20px;
+    padding: 20px 15px 20px 20px;
     width: 100%;
   }
   &-body-text {
@@ -75,31 +75,34 @@
     margin-bottom: 3px;
     min-height: 35px;
     position: relative;
-
-    * {
-      color: #03fcf5;
-    }
+    @extend .gradient-text;
+   
+    
+    
     .typed-cursor::after {
-      color: #03fcf5;
+      color: $text-color;
     }
     &-text {
-      letter-spacing: 0.6px;
-      font-size: 1.5rem;
+      font-family: $text-font;
+      letter-spacing: -0.15px;
+      font-size: 1.275rem;
       line-height: 2rem;
+      font-weight: 600;
+      text-transform: uppercase;
     }
   }
   &-tooltip {
     position: absolute;
-    top: -20px;
-    right: 30px;
-    padding: 8px 16px;
-    padding-top: 5px;
-    background: #010010;
-    border: 1px solid #03fcf5;
-    font-size: 1.125rem;
-    line-height: normal;
+    top: 0px;
+    transform: translate(0, -50%);
+    right: 25px;
+    padding: 0px 16px 4px 16px;
+    height: 41px;
+    background: $main-bg-color;
+    @include gradient-border;
     display: flex;
     align-items: center;
+   
     img {
       margin-right: 10px;
       width: 18px;
@@ -107,9 +110,13 @@
       object-fit: contain;
     }
     p {
-      letter-spacing: 1.8px;
-      color: #ffffff;
-      font-size: 1.11rem;
+      font-family: $text-font;
+      color: $text-color;
+      font-size: 1rem;
+      @extend .gradient-text;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
     }
   }
   &-link {

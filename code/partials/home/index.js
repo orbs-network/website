@@ -1,7 +1,7 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
 
-const Main = ({ socials, mobile_btn, title, cards, _relativeURL, _ID }) => {
+const Main = ({ socials, link_text,link_url, title, cards, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
@@ -14,7 +14,9 @@ const Main = ({ socials, mobile_btn, title, cards, _relativeURL, _ID }) => {
         <div className="home-flex-left flex-column">
           <section />
           <div className="home-flex-left-text"> {title}</div>
-          {mobile_btn}
+          <a target='_blank' href={link_url} className='home-link'>
+            {link_text}
+          </a>
           {socials}
         </div>
 

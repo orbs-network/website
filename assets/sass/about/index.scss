@@ -1,0 +1,123 @@
+.about {
+  &-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    &-grid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+    
+    }
+    display: flex;
+    align-items: center;
+
+
+    &-first {
+      background: #f4f4f4;
+      .about-section {
+        &-image {
+          width: 250px;
+          height: auto;
+        }
+        &-text{
+            max-width: 540px;
+            .separator{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                border: 1px dashed #6687E9;
+                width: 100%;
+            }
+        }
+      }
+    }
+
+
+
+    &-second {
+      background: #e5e5e5;
+      .about-section{
+          &-images{
+              width: 460px;
+              position: relative;
+              img{
+                  position: absolute;
+                  width: 250px;
+                  &:nth-child(1){
+                    top: 0px;
+                    right:0px;
+                  }
+                  &:nth-child(2){
+                      top: 50%;
+                      transform: translate(0, -50%);
+                      left: 0px;
+                  }
+                  &:nth-child(3){
+                    bottom: 0px;
+                    right: 0px;
+                  }
+              }
+          }
+          &-text{
+              flex: 1;
+          }
+      }
+
+    }
+    &-third {
+       
+      background: #5e75e8;
+      position: relative;
+      min-height: 600px;
+      .about-section{
+          &-image{
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+          }
+          &-text{
+              position: relative;
+              max-width: 600px;
+              margin-left: auto;
+              
+              h2{
+                font-size: 1.375rem;
+                font-weight: 900;
+                text-align: center;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+              }
+              h3{
+                font-weight: 500;
+                font-size: 1.375rem;
+                text-align: center;
+                margin-bottom: 40px;
+                text-transform: uppercase;
+              }
+              .text-p{
+                  color: white;
+              }
+          }
+      }
+    }
+  }
+  &-products{
+      &-flex{
+          gap: 23px;
+          flex-wrap: wrap;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          &-product{
+              width: 404px;
+              padding: 25px;
+              @include gradient-border(1px);
+          }
+      }
+  }
+}

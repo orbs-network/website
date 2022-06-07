@@ -18,5 +18,5 @@ export const cardsWeights = {
 };
 
 export const colors = {
-  main: "#191919",
+  background: "#FCF8FD",
 };

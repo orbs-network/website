@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Proof of stake Universe](/pos-universe)
+[Proof of stake](/pos)
