@@ -5,9 +5,9 @@ import { hideAppLoader } from "../ui/ui.js";
 import { getCardDataByType } from "./helpers.js";
 
 const globeColors = {
-  countries: "#999CE8",
+  countries: "#999CE8c0",
   background: colors.background,
-  arc: "#ED7EC4",
+  arc: "#15F9FF",
   polygonSideColor: "rgba(3,252,245,0.08)"
 };
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -23,16 +23,18 @@ class GlobeHandler {
 
     this.world = Globe()(document.getElementById("globeArea"))
       .globeImageUrl(images.globe.earthLight)
-      .polygonCapColor(() => globeColors.countries)
+      .polygonCapColor(() => "#999CE8")
       .pointOfView({ altitude: 3.2 }, this.timings.welcomeCountryPop * 2)
       .polygonSideColor(() => "rgba(3,252,245,0.08)")
       // .polygonLabel(({ properties: p }) => p.NAME_LONG)
       .polygonAltitude(0.005)
-       .atmosphereColor(globeColors.countries)
-       .atmosphereAltitude(0.2)
-      // .showAtmosphere(false)
-      .pointAltitude(0.005)
-      .pointRadius(0.6)
+       .atmosphereColor("#9feced")
+       .atmosphereAltitude(0.4)
+       .showAtmosphere(false)
+      .pointAltitude(0.015)
+      .pointRadius(0.4)
+      .arcStroke(0.5)
+      .pointColor(() => "#15F9FF")
       .backgroundColor(globeColors.background)
       // .pointColor(() => backgroundColor)
       .arcColor(() => globeColors.arc);
