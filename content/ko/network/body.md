@@ -1,13 +1,15 @@
 ---
-layout: partials/network/main
-pageHeader:
-  - md/page-header/page-header.md
+layout: partials/network/index
+page_header: 
+  - md/page-header/index.md
+first_section: 
+  - md/first-section.md
+second_section: 
+  - md/second-section.md
+third_section: 
+  - md/third-section.md
+products: 
+  - md/products/index.md
 
-linkBtn:
-  - md/link/link.md
-content:
-  - md/body.md
-
-text:
-  - md/text/item-1.md
 ---
+wef

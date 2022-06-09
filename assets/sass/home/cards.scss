@@ -40,7 +40,7 @@
 
   p {
     margin-bottom: 0px;
-    font-size: 1.1rem;
+    font-size: 0.938rem;
     letter-spacing: 0.4px;
   }
   * {
@@ -76,18 +76,18 @@
     min-height: 35px;
     position: relative;
     @extend .gradient-text;
-   
+    font-weight: 700;
     
     
     .typed-cursor::after {
-      color: $text-color;
+      display: none;
     }
     &-text {
       font-family: $text-font;
       letter-spacing: -0.15px;
-      font-size: 1.275rem;
+      font-size: 1.375rem;
+      font-weight: 700;
       line-height: 2rem;
-      font-weight: 600;
       text-transform: uppercase;
     }
   }

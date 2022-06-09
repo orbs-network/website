@@ -6,6 +6,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="main-grid navbar-flex">
+      <div className="overlay"></div>
         <NavbarTop {...props} />
         <NavbarMenu {...props} />
       </div>

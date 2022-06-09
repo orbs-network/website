@@ -1,13 +1,22 @@
 ---
-layout: partials/network/main
-pageHeader:
-  - md/page-header/page-header.md
+layout: partials/network/index
 
-linkBtn:
-  - md/link/link.md
-content:
-  - md/body.md
-
-text:
-  - md/text/item-1.md
+first_section: 
+  - md/first-section.md
+second_section: 
+  - md/second-section.md
+third_section: 
+  - md/third-section.md
+products: 
+  - md/products/index.md
+product_images_1:
+  - md/products-images/image1.md
+product_images_2:
+  - md/products-images/image2.md
 ---
+
+
+# Making Smart
+# Contracts Smarter
+
+## What is Orbs?

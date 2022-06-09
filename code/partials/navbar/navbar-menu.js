@@ -22,7 +22,7 @@ const NavbarMenu = ({
     <div className="navbar-menu">
       <div className="navbar-menu-header flex-between">
         <MenuToggle
-          image={generateUrl(logo)}
+          image={'/assets/img/navbar/menu/logo.svg'}
           url={generateUrl(home)}
           customClassName="navbar-burger-close"
           toggleImg={generateUrl(images.common.close)}
@@ -40,10 +40,10 @@ const NavbarMenu = ({
       >{`+ ${subscribe_to_updates}`}</button>
       <div className="navbar-menu-flex">
         {overview}
-
         {about}
         {resources}
       </div>
+      <div className="navbar-menu-mobile-social"> {socials}</div>
     </div>
   );
 };

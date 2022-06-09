@@ -151,7 +151,7 @@
   position: sticky;
   top: 150px;
   &-title {
-    color: #03fcf5;
+    @extend .gradient-text;
     font-size: 1.75rem;
     margin-bottom: 27px;
     text-transform: uppercase;

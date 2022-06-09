@@ -10,11 +10,7 @@ const MenuResourcesLink = ({ _relativeURL, _ID, image, title, _body, url }) => {
       <a href={url} className="flex-column" rel="noopener" target="_blank">
         <h5 className="navbar-menu-resources-box-title">{title}</h5>
         <div className="navbar-menu-resources-box-bottom flex-center">
-          <Img
-            alt="orbs resource"
-            src={generateUrl(image)}
-            className="navbar-menu-resources-box-icon"
-          />
+
           {_body}
         </div>
       </a>

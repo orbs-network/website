@@ -2,19 +2,19 @@ layout: pages/page
 
 script: network/index
 header:
-  - /jp/_shared/navbar/index.md
+  - /_shared/navbar/index.md
 main:
   - body.md
 footer:
-  - /jp/_shared/footer/footer.md
+  - /_shared/footer/footer.md
 subscribe:
-  - /jp/_shared/subscribe/subscribe.md
+  - /_shared/subscribe/subscribe.md
 
 gdpr:
-  - /jp/_shared/gdpr/index.md
+  - /_shared/gdpr/index.md
 
-meta_description: Orbsは、アプリ開発者が開発に専念できるように設計されています。画期的な新しい分散型アプリケーションの世界をユーザーに提供します。
-title: "Orbsの技術について知る - RPoS仮想チェーンとamp; 相互運用性"
-meta_og_locale_alternate: ko_KR
-meta_og_locale: en_US
-meta_image:
+description: Orbs is designed so that app developers can focus on what they do best - creating decentralized apps that disrupt their industry and empower their users.
+title: "Learn about the Orbs technology - RPoS Virtual Chains &amp; Interoperability"
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

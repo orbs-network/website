@@ -1,5 +1,5 @@
 $yellow: #5effd1;
-$base-bg-color: #FCF8FD;
+$base-bg-color: #fcf8fd;
 $pink: #e61ea9;
 $light-blue: #60e4ff;
 $light-gray: #d0d0d0;
@@ -86,7 +86,7 @@ $light-gray: #d0d0d0;
   text-transform: uppercase;
   width: fit-content;
   padding: 0px 35px;
-  border: 2px solid #53fffa;
+  border: 2px solid rgba(102, 135, 233, 0.7);
   border-radius: 42px;
   font-size: 0.75rem;
   font-weight: 400;
@@ -224,6 +224,25 @@ $light-gray: #d0d0d0;
   }
 }
 
+.header {
+  text-align: center;
+  margin-top: 126px;
+  h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    @extend .gradient-text;
+    
+  }
+  h2 {
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 44px;
+    @extend .gradient-text;
+
+  }
+}
+
 @media only screen and (min-width: 2000px) {
   .main-grid {
     width: calc(100% - 400px);
@@ -240,5 +259,15 @@ $light-gray: #d0d0d0;
   .app-loader {
     width: 100px;
     height: 100px;
+  }
+  .header{
+  
+    h1{
+      font-size: 1.625rem;
+      line-height: 2.375rem;
+    }
+    h2{
+
+    }
   }
 }

@@ -204,8 +204,7 @@ body {
   background: $main-bg-color;
 }
 
-
-$gradient:   linear-gradient(
+$gradient: linear-gradient(
   102.78deg,
   #6687e9 29.14%,
   #b082d5 53.97%,
@@ -213,21 +212,18 @@ $gradient:   linear-gradient(
 );
 
 .gradient-text {
- background: $gradient;
+  background: $gradient;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
 
-
 @mixin gradient-border($width: 3px) {
   border: $width solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
 }
-
-
 
 .md-title {
   &-h5 {
@@ -244,16 +240,16 @@ $gradient:   linear-gradient(
   letter-spacing: 0.019rem;
   font-size: 0.875rem;
   color: $text-color;
-  line-height: 1.75rem;
+  line-height: 1.375rem;
   margin-bottom: 20px;
   &:last-child {
     margin-bottom: 0px;
   }
-  strong{
+  strong {
     color: $text-color;
   }
 }
-*{
+* {
   color: $text-color;
 }
 
@@ -272,19 +268,18 @@ $gradient:   linear-gradient(
   }
 }
 
-
-.overlay{
+.overlay {
   position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(255,255,255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   z-index: 999;
   opacity: 0;
   transition: 0.2s all;
   pointer-events: none;
-  &-active{
+  &-active {
     opacity: 1;
   }
 }

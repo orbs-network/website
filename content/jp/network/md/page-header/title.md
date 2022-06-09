@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/title
 ---
 
-# Orbsネットワーク概要
+# Orbs Network Overview
