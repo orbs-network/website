@@ -7,8 +7,7 @@ list:
   - nadav-shemesh.md
   - nechama.md
   - ran-hammer.md
-  - ron.md
   - eran-peled.md
   - dolev.md
-  - rani.md
+  - shlomi.md
 ---

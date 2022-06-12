@@ -18,9 +18,7 @@
         &:nth-child(2n) {
           margin-right: 0px;
         }
-        .expend-btn {
-          @include pink-expend-btn();
-        }
+        
       }
     }
   }

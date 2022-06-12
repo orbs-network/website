@@ -1,7 +1,6 @@
 .link-btn {
   padding: 8px 30px 8px 30px;
-  border: 2px solid #53fffa;
-  border-radius: 42px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,13 +11,13 @@
   text-decoration: none;
   position: relative;
   transition: 0.2s all;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  background: linear-gradient(264.47deg, #7988E8 -9.16%, #5E75E8 40.94%, #DB89DF 93.26%);
   .text-p {
     letter-spacing: 0.081rem;
     font-size: 0.75rem;
     padding-top: 2px;
     margin-bottom: 0px;
+    color: white;
   }
   .link-btn-arrow {
     width: 10px;

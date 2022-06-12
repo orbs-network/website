@@ -7,7 +7,7 @@ globe_video: /assets/video/background.mp4
 socials:
   - /_shared/socials/index.md
 link_text: Read More
-link_url: /How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi
+link_url: /network
 title:
   - title.md
 ---

@@ -224,6 +224,7 @@ $gradient: linear-gradient(
   border-image-slice: 1;
   border-image-source: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
 }
+$text-letter-spacing: -0.009rem;
 
 .md-title {
   &-h5 {
@@ -237,7 +238,7 @@ $gradient: linear-gradient(
 }
 
 .text-p {
-  letter-spacing: 0.019rem;
+  letter-spacing: -0.009rem;
   font-size: 0.875rem;
   color: $text-color;
   line-height: 1.375rem;

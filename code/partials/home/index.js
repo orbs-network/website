@@ -8,13 +8,13 @@ const Main = ({ socials, link_text,link_url, title, cards, _relativeURL, _ID }) 
 
   return (
     <main className="home">
-
+ <div id="guardianDetails"></div>
       {cards}
       <div className="home-flex main-grid flex-start">
         <div className="home-flex-left flex-column">
           <section />
           <div className="home-flex-left-text"> {title}</div>
-          <a target='_blank' href={link_url} className='home-link'>
+          <a href={link_url} className='home-link'>
             {link_text}
           </a>
           {socials}
@@ -22,7 +22,7 @@ const Main = ({ socials, link_text,link_url, title, cards, _relativeURL, _ID }) 
 
         <div className="globe-container">
           <div id="globeArea"></div>
-          <div id="guardianDetails"></div>
+         
         </div>
       </div>
       <script

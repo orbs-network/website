@@ -49,7 +49,7 @@ const WhitePaperBox = ({
           <a
             href={generateUrl(url)}
             className="white-papers-box-btn"
-          >{`+ ${readPaperBtn}`}</a>
+          ><p>{`+ ${readPaperBtn}`}</p></a>
         </div>
         <DesktopImage generateUrl={generateUrl} image={image} url={url} />
       </div>

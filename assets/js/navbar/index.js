@@ -1,14 +1,12 @@
 import { getElement, removeClass, addClass, addEvent } from "../heplers.js";
 import { showSubscribePopup } from "../components/subscribe.js";
 import { toggleWindowScroll } from "../ui/ui.js";
-const shadow = document.querySelector('.overlay')
+const shadow = document.querySelector(".overlay");
 
 let scrollPos = 0;
 
 export const showMenu = () => {
-
-
-  shadow.classList.add('overlay-active')
+  shadow.classList.add("overlay-active");
   const menu = getElement(".navbar-menu");
   setTimeout(() => {
     addClass(menu, "navbar-menu-active");
@@ -17,12 +15,16 @@ export const showMenu = () => {
 };
 const isVisible = (elem) =>
   !!elem &&
-  !!(elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length); 
+  !!(elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length);
 
 function hideOnClickOutside() {
-  const element = document.querySelector('.navbar-menu')
+  const element = document.querySelector(".navbar-menu");
   const outsideClickListener = (event) => {
-    if (!element.contains(event.target) && isVisible(element) && element.classList.contains('navbar-menu-active')) {
+    if (
+      !element.contains(event.target) &&
+      isVisible(element) &&
+      element.classList.contains("navbar-menu-active")
+    ) {
       hideMenu();
     }
   };
@@ -31,8 +33,7 @@ function hideOnClickOutside() {
 }
 
 export const hideMenu = () => {
-console.log('test');
-   shadow.classList.remove('overlay-active')
+  shadow.classList.remove("overlay-active");
 
   const menu = getElement(".navbar-menu");
   removeClass(menu, "navbar-menu-active");
@@ -50,6 +51,13 @@ export const navbarMenuOutsideClickListener = () => {
     }
   });
 };
+
+
+// export const responsiveMenu = () => {
+//   document.addEventListener("resize", function (event) {
+//     window.innerWidth
+//   });
+// };
 
 const handleNavbarBackground = () => {
   const navbar = getElement(".navbar");
@@ -92,6 +100,9 @@ const getNabarElements = () => {
   };
 };
 
+
+
+
 export const addEventsToNavbar = () => {
   const { mobileSubscribe, subscribeBtn, hamburger, closeMenu } =
     getNabarElements();
@@ -104,7 +115,7 @@ export const addEventsToNavbar = () => {
 export const init = () => {
   addEventsToNavbar();
   handleNavbarBackground();
-  hideOnClickOutside()
+  hideOnClickOutside();
 };
 
 const handleMobileSubscribeClick = () => {

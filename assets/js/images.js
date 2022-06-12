@@ -66,6 +66,7 @@ export const images = {
     telegram: `${prefix}/team/socials/telegram.svg`,
   },
   common: {
+    closeWhite: `${prefix}/common/close-white.svg`,
     close: `${prefix}/common/close.svg`,
     logo: `${prefix}/common/logo.svg`,
     appLoader: `${prefix}/common/loader.svg`,

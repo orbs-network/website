@@ -8,7 +8,7 @@ const ImageGrid = ({ _relativeURL, _ID, _body, image }) => {
   };
 
   return (
-    <li className="flex-column">
+    <li>
       <figure className="images-grid-list-img">
         <Img src={generateUrl(image)} alt="grid image" />
       </figure>

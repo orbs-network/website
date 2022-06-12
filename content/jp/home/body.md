@@ -5,8 +5,8 @@ cards:
 globe_image: /assets/img/globe/globe.png
 socials:
   - /jp/_shared/socials/index.md
-mobile_btn:
-  - link/link.md
+link_text: 詳細はこちら
+link_url: /jp/network
 title:
   - title.md
 ---

@@ -12,7 +12,7 @@ const ImagesGrid = ({ title, images, border }) => {
       style={parentStyle}
     >
       {title && <h3 className="images-grid-title">{title}</h3>}
-      <ul className="images-grid-list flex-start">{images}</ul>
+      <ul className="images-grid-list">{images}</ul>
     </div>
   );
 };

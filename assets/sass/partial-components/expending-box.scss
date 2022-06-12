@@ -1,13 +1,16 @@
 .expending-box {
   &-title,
   .title-h4 {
-    @extend .gradient-text;
-    letter-spacing: 1px;
-    font-size: 1.438rem;
+    letter-spacing: $text-letter-spacing;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 21px;
-
-    line-height: 2.3rem;
+    margin-bottom: 20px;
+    line-height: 2.063rem;
+    max-width: 80%;
+  }
+  .text-p{
+    font-weight: 500;
+    line-height: 2.188rem;
   }
 
   &-text {
@@ -22,7 +25,7 @@
     }
   }
   a {
-    color: $light-color;
+    color: $text-color;
     text-decoration: underline;
   }
   .title-h5 {
@@ -35,18 +38,26 @@
   }
 
   .expend-btn {
-    @extend .btn;
+    color: $blue;
+    font-weight: 700;
+    font-size: 0.875rem;
     margin-top: 27px;
+    letter-spacing: $text-letter-spacing;
+    font-family: $text-font;
+    transition: 0.2s all;
+    &:hover{
+      color: $text-color;
+    }
   }
   .read-less-btn {
     display: none;
   }
   &-border-top {
-    border-top: 1px solid #707070;
+    border-top: 1px solid $blue;
     padding-top: 28px;
   }
   &-border-bottom {
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid $blue;
     padding-bottom: 45px;
   }
   ul {
@@ -87,4 +98,16 @@
 
 .without-max-height {
   max-height: none !important;
+}
+
+
+
+@media only screen and (max-width: $mobile) {
+ .expending-box{
+  &-title{
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+ }
 }

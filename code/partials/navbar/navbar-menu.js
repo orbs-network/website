@@ -4,8 +4,7 @@ import Flags from "./components/flags";
 import MenuToggle from "./components/menu-toggle";
 
 const NavbarMenu = ({
-  socials,
-  logo,
+  socials_white,
   overview,
   resources,
   about,
@@ -22,12 +21,12 @@ const NavbarMenu = ({
     <div className="navbar-menu">
       <div className="navbar-menu-header flex-between">
         <MenuToggle
-          image={'/assets/img/navbar/menu/logo.svg'}
+          image={"/assets/img/navbar/menu/logo.svg"}
           url={generateUrl(home)}
           customClassName="navbar-burger-close"
-          toggleImg={generateUrl(images.common.close)}
+          toggleImg={generateUrl(images.common.closeWhite)}
         />
-        {socials}
+        {socials_white}
       </div>
       <Flags
         flags={languages}
@@ -43,7 +42,7 @@ const NavbarMenu = ({
         {about}
         {resources}
       </div>
-      <div className="navbar-menu-mobile-social"> {socials}</div>
+      <div className="navbar-menu-mobile-social"> {socials_white}</div>
     </div>
   );
 };
