@@ -1,5 +1,7 @@
 ---
 layout: partials/network/FlexSectionThird
+image: assets/img/network/section-3-right.png
+
 ---
 
 ## Layer 3 

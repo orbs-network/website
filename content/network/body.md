@@ -19,4 +19,3 @@ product_images_2:
 # Making Smart
 # Contracts Smarter
 
-## What is Orbs?

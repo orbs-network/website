@@ -1,10 +1,12 @@
 ---
 layout: partials/network/FlexSectionThird
+image: assets/img/network/section-3-right.png
+
 ---
 
 ## Layer 3 
 
-###  The missing piece in the blockchain stack
+####  The missing piece in the blockchain stack
 
 The first infrastructure layer: L1, like Ethereum, is in charge of security.\
 The second infrastructure layer: L2, such as Polygon, is in charge of scalability.\

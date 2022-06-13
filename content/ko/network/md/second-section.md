@@ -2,9 +2,9 @@
 layout: partials/network/FlexSectionSecond
 ---
 
-### Pain and Solution - 
-### Removing Centralized Points of Failure
+### 문제 및 해결방법 -
+### 중앙화 방식에서의 문제요소들을 제거
 
-DeFi, Web 3.0 protocols and dApps are becoming more and more complex, while smart contracts are still inherently limited by design. This means that many DeFi and Web 3.0 projects still rely on centralized backend infrastructure, which is not ideal from security, liability and community perspectives.
+DeFi, Web3.0 프로토콜과 dApp들은 점점 더 복잡해지고 있는 반면, 스마트 컨트랙트는 아직도 본질적으로 구조적 한계를 지니고 있습니다. 이는 많은 DeFi와 Web3.0 프로젝트들이 여전히 중앙화된 백엔드 인프라에 의존하고 있으며, 그에 따라 보안, 법적인 부분, 커뮤니티 측면에서 이상적이지 않음을 의미합니다.
 
-The Orbs Network solves this pain by operating as a decentralized serverless cloud, allowing developers to extend smart contracts with L3 decentralized backend services. These are deployed to be executed by Orbs PoS validators (known as Guardians) and relieve projects of the need to rely on centralized backend solutions.
+오브스 네트워크는 탈중앙화된 서버리스 클라우드를 통해 이런 문제들을 해결해줍니다. 개발자들은 L3 탈중앙 백엔드 서비스를 활용하여 스마트 컨트랙트를 확장시킬 수 있습니다. 이 스마트 컨트랙트들은 가디언이라고 불리는 오브스 PoS 밸리데이터들에 의해 수행되며 프로젝트들이 중앙 집중식 백엔드 솔루션에 의존해야 할 필요성을 줄여줍니다.

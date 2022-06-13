@@ -13,7 +13,6 @@ const Network = ({
     <main className="network">
       <header className="header network-header">{_body}</header>
       <img className="network-figure network-figure-left" src = '/assets/img/network/big-figure-left.png' />
-      <img className="network-figure network-figure-right" src = '/assets/img/network/big-figure-right.png' />
       {first_section}
       {second_section}
       {third_section}

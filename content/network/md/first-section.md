@@ -1,6 +1,7 @@
 ---
 layout: partials/network/FlexSectionFirst
 ---
+### What is Orbs?
 
 Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
 

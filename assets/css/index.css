@@ -247,7 +247,7 @@ body {
   background: #fcf8fd;
 }
 
-.gradient-text, .news-posts-title, .news-hero-body h1, .contact-socials h3, .contact-socials-section h4, .contact .form-title, .network-product-image h3, .network-products-product h4, .network-products-header h4, .network-products-header h3, .network-section-second .network-section-text h3, .faq-lists-category h5, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .team-list-title, .member-popup-name, .side-menu-title, .subscribe .form-title, .boxes-list .box h5, .header h2, .header h1, .title {
+.gradient-text, .news-posts-title, .news-hero-body h1, .contact-socials h3, .contact-socials-section h4, .contact .form-title, .network-product-image h3, .network-products-product h4, .network-products-header h4, .network-products-header h3, .network-section h3, .single-blog-bottom-title, .single-blog-header-title, .faq-lists-category h5, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .team-list-title, .member-popup-name, .side-menu-title, .subscribe .form-title, .boxes-list .box h5, .header h2, .header h1, .title {
   background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -414,7 +414,7 @@ body {
 }
 
 .page-padding-top {
-  padding-top: 145px;
+  padding-top: 130px;
 }
 
 .page-menu-header h1 {
@@ -2091,7 +2091,7 @@ body {
   font-family: "Montserrat";
   letter-spacing: -0.15px;
   font-size: 1.375rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2rem;
   text-transform: uppercase;
 }
@@ -2159,7 +2159,8 @@ body {
     margin-bottom: 0px;
   }
   .card-title-text {
-    font-size: 1.375rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 }
 .globe-container {
@@ -2450,7 +2451,7 @@ body {
   margin-top: 10px;
 }
 .navbar-menu-resources-box {
-  border: 0.5px solid white;
+  border: 1px solid white;
   height: 57px;
   padding: 8px;
   transition: 0.15s all;
@@ -2467,7 +2468,7 @@ body {
 }
 .navbar-menu-resources-box img {
   width: 20px;
-  height: 19px;
+  height: 20px;
   object-fit: contain;
   margin-right: 5px;
 }
@@ -3322,9 +3323,6 @@ body {
     min-height: 200px;
   }
 }
-.single-blog .footer {
-  background: black;
-}
 .single-blog-bg {
   width: 100%;
   height: 39.7vw;
@@ -3343,11 +3341,10 @@ body {
   padding-right: 20px;
 }
 .single-blog-header-title {
-  color: white;
   font-size: 2.25rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 0px;
-  letter-spacing: 0.08rem;
+  letter-spacing: -0.009rem;
   text-align: left;
   font-family: "Montserrat";
   text-transform: none;
@@ -3393,7 +3390,6 @@ body {
 }
 .single-blog-header-author a {
   text-transform: uppercase;
-  color: #03fcf5;
 }
 .single-blog-header-author a,
 .single-blog-header-author p {
@@ -3419,7 +3415,6 @@ body {
 }
 .single-blog-bottom {
   margin: auto;
-  background: #313131;
   padding: 50px 0px 98px 0px;
   width: 100%;
 }
@@ -3427,7 +3422,6 @@ body {
   font-size: 1.375rem;
   text-align: center;
   font-weight: 500;
-  color: #53fffa;
 }
 .single-blog-bottom-flex {
   max-width: 1300px;
@@ -3671,7 +3665,7 @@ body {
 }
 
 .network {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   position: relative;
 }
 .network-figure {
@@ -3679,14 +3673,8 @@ body {
   width: 400px;
 }
 .network-figure-left {
-  top: 66%;
-  left: calc(50% - 630px);
-  transform: translate(-50%);
-}
-.network-figure-right {
-  top: 78%;
-  left: calc(50% + 630px);
-  transform: translate(-50%);
+  top: 68%;
+  left: -120px;
 }
 .network-section {
   display: flex;
@@ -3701,6 +3689,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.network-section h3 {
+  font-weight: 900;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.network-section h3:last-of-type {
+  margin-bottom: 20px;
 }
 .network-section-first .network-section-grid {
   gap: 100px;
@@ -3722,13 +3718,6 @@ body {
 .network-section-second .network-section-text {
   flex: 1;
   max-width: 700px;
-}
-.network-section-second .network-section-text h3 {
-  font-weight: 900;
-  font-size: 14px;
-}
-.network-section-second .network-section-text h3:last-of-type {
-  margin-bottom: 20px;
 }
 .network-section-second-top {
   position: absolute;
@@ -3760,7 +3749,7 @@ body {
   color: white;
   text-align: center;
 }
-.network-section-third .network-section-text h3 {
+.network-section-third .network-section-text h4 {
   font-weight: 500;
   font-size: 1.375rem;
   margin-bottom: 40px;
@@ -3838,8 +3827,9 @@ body {
 }
 .network-product-images {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
 }
 .network-product-image {
   text-align: center;
@@ -3849,14 +3839,11 @@ body {
   font-size: 1.375rem;
   margin-bottom: 58px;
 }
-.network-product-image-1 {
-  margin-bottom: 50px;
-}
 .network-product-image-1 img {
-  width: 660px;
+  width: 640px;
 }
 .network-product-image-2 img {
-  width: 553px;
+  width: 540px;
 }
 
 @media only screen and (max-width: 1680px) {
@@ -3865,14 +3852,7 @@ body {
     transform: translate(0, -50%);
   }
   .network-figure {
-    left: 20px;
-    transform: none;
     zoom: 0.8;
-  }
-  .network-figure-right {
-    left: unset;
-    right: 20px;
-    transform: none;
   }
 }
 @media only screen and (max-width: 1500px) {
@@ -3894,11 +3874,22 @@ body {
   .network-figure-right {
     width: 20vw;
   }
+  .network-product-image h3 {
+    font-size: 1.2rem;
+  }
+  .network-product-image-1 img {
+    width: 500px;
+  }
+  .network-product-image-2 img {
+    width: 400px;
+  }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .network-figure {
     display: none;
   }
+}
+@media only screen and (max-width: 1000px) {
   .network-section-grid {
     flex-direction: column;
   }
@@ -3933,6 +3924,14 @@ body {
   }
   .network-section-third .network-section-image {
     transform: translate(-300px);
+  }
+  .network-products {
+    margin-bottom: 100px;
+  }
+  .network-product-images {
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
   }
   .network-product-image-1 img {
     max-width: 400px;
