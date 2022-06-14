@@ -6,8 +6,7 @@ firstFlex:
 
 secondFlex:
   - md/second-flex.md
-pageHeader:
-  - md/page-header/page-header.md
+
 
 link:
   - md/link/link.md
@@ -16,8 +15,7 @@ link2:
 
 thirdFlex:
   - md/third-flex.md
-banner: 
-  - md/banner.md
+
 subText: 
   - md/sub-text.md
 ---

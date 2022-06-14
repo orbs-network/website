@@ -28,13 +28,14 @@ const Contributor = ({
         <p>{type}</p>
       </aside>
       {image && (
-        <figure className="card-image">
+        <div className="card-image">
+          <div className="card-image-border"></div>
           <img src={handleUrl(image, _relativeURL, _ID)} />
-        </figure>
+        </div>
       )}
       <div className="card-content">
         <div className="card-title">
-          <span className="card-title-text"></span>
+          <span className="card-title-text">{title}</span>
         </div>
         {socials}
         <div className="card-body-text">{_body}</div>

@@ -2065,18 +2065,34 @@ body {
   margin-bottom: 5px;
 }
 .card-image {
-  width: 100px;
+  width: 114px;
+  height: 114px;
   flex: 1;
   position: relative;
   display: flex;
   align-items: stretch;
   justify-content: center;
-  overflow: hidden;
+  border-radius: 50%;
+  padding: 10px;
+  background: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
+}
+.card-image-border {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background: #fcf8fd;
+  border-radius: 50%;
 }
 .card-image img {
+  border-radius: 50%;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
 }
 .card-title {
   margin-bottom: 3px;
@@ -2091,7 +2107,7 @@ body {
   font-family: "Montserrat";
   letter-spacing: -0.15px;
   font-size: 1.375rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 2rem;
   text-transform: uppercase;
 }
@@ -2147,6 +2163,9 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.card-link-website {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 700px) {
@@ -3954,6 +3973,7 @@ body {
   max-width: 730px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .universe-sub-text p {
   font-size: 0.875;

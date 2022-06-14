@@ -9,13 +9,11 @@ const Main = ({
   thirdFlex,
   link2,
   subText,
-  banner,
 }) => {
   return (
     <main className="universe">
       <header className="header universe-header">{_body}</header>
       <MainGrid>
-        {banner}
         <div className="universe-sub-text">{subText}</div>
       </MainGrid>
 
