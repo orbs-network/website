@@ -1,5 +1,5 @@
 ---
 layout: partials/home/cards/components/link
-text: https://link.medium.com/yWnvjN2DGib
-url: https://link.medium.com/yWnvjN2DGib
+text: https://www.orbs.com/orbs-is-now-live-on-sushiswap/
+url: https://www.orbs.com/orbs-is-now-live-on-sushiswap/
 ---

@@ -1,5 +1,5 @@
 ---
 layout: partials/home/cards/components/link
-text: https://link.medium.com/U6YpyNb2Fib
-url: https://link.medium.com/U6YpyNb2Fib
+text: https://www.orbs.com/how-to-choose-an-orbs-guardian/
+url: https://www.orbs.com/how-to-choose-an-orbs-guardian/
 ---

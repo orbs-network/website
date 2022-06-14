@@ -1,5 +1,5 @@
 ---
 layout: partials/home/cards/components/link
-text: https://link.medium.com/3ZT1bb2FGib
-url: https://link.medium.com/3ZT1bb2FGib
+text: https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/
+url: https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/
 ---

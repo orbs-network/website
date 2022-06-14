@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/components/website
-text: 웹사이트 링크
+text: Link to website
 url: https://www.guardians-of-orbs.com/
 image: /assets/img/home/globe.svg
 ---

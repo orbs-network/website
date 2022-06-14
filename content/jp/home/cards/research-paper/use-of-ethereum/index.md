@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: ホワイトペーパー
-title: PoSおよびPoAプラットフォームのベースレイヤーとしてのEthereumを使用
+type: white paper
+title: Use of Ethereum as a Base Layer for PoS and PoA Platforms
 links:
   - link.md
 lat: 49.4871968
@@ -9,6 +9,6 @@ lng: 31.2718321
 countryCode: UA
 ---
 
-カテゴリ：Proof of Stake
+Category: Proof of Stake
 
-日付：2019年2月
+Date: Feb 2019

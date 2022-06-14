@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/components/link
-text: 韓国
+text: South Korea
 url:
 image: /assets/img/home/location.svg
 ---

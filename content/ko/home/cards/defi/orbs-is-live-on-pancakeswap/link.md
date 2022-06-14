@@ -1,5 +1,5 @@
 ---
 layout: partials/home/cards/components/link
-text: https://link.medium.com/v7xqTRUDGib
-url: https://link.medium.com/v7xqTRUDGib
+text: https://www.orbs.com/orbs-is-now-live-on-pancakeswap/
+url: https://www.orbs.com/orbs-is-now-live-on-pancakeswap/
 ---

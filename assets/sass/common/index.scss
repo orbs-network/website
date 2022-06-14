@@ -226,6 +226,8 @@ $light-gray: #d0d0d0;
 .header {
   text-align: center;
   margin-top: 126px;
+  padding-left: 20px;
+  padding-right: 20px;
   h1 {
     font-weight: 900;
     font-size: 40px;
@@ -262,11 +264,13 @@ $light-gray: #d0d0d0;
   .header{
     margin-top: 90px;
     h1{
-      font-size: 1.625rem;
+      font-size: 1.525rem;
       line-height: 2.375rem;
+      margin-bottom: 10px;
     }
     h2{
-
+      font-size: 1.1rem;
+      line-height: 1.5rem;
     }
   }
 }

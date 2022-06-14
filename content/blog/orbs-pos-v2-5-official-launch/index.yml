@@ -1,0 +1,17 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: Orbs PoS V2.5 Official Launch!
+image: /assets/img/blog/orbs-pos-v2-5-official-launch/bg.png
+
+gdpr:
+  - /_shared/gdpr/index.md

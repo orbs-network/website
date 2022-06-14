@@ -6,17 +6,16 @@ items:
   - tetra.md
   - metamask.md
   - ledger.md
+  - onto.md
   - coinbase.md
-  - trust.md
   - enjin.md
-  - mew.md
-  - blockfolio.md
-  - status.md
   - krystal.md
+  - safepal.md
+  - status.md
+  - blockfolio.md
   - pocket.md
+  - trust.md
+  - mew.md
   - imToken.md
   - dcent.md
-  - safepal.md
-  - onto.md
-  - coin98.md
 ---

@@ -4,6 +4,6 @@ title: Cloud Dev. Environment
 
 items:
   - aws.md
-  - azure.md
   - google-cloud.md
+  - azure.md
 ---

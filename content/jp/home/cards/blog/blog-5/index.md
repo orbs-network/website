@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: ブログ
-title: チームトークンのロック
+type: Blog
+title: Locking of Team Tokens
 links:
   - link.md
 lat: 18.971188
@@ -9,6 +9,6 @@ lng: 72.285217
 countryCode: HT
 ---
 
-トークンの配布
+Token Distribution
 
-読み時間：2分
+reading time: 2 min

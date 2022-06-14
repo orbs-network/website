@@ -45,12 +45,12 @@ export const images = {
     logo: `${prefix}/meta/Orbs-Twitter-Post.png`,
   },
   socials: {
-    reddit: `${prefix}/socials/reddit.svg`,
-    github: `${prefix}/socials/github.svg`,
-    quora: `${prefix}/socials/quora.svg`,
-    linkedin: `${prefix}/socials/linkedin.svg`,
-    twitter: `${prefix}/socials/twitter.svg`,
-    telegram: `${prefix}/socials/telegram.svg`,
+    reddit: `${prefix}/socials/gray/reddit.svg`,
+    github: `${prefix}/socials/gray/github.svg`,
+    quora: `${prefix}/socials/gray/quora.svg`,
+    linkedin: `${prefix}/socials/gray/linkedin.svg`,
+    twitter: `${prefix}/socials/gray/twitter.svg`,
+    telegram: `${prefix}/socials/gray/telegram.svg`,
   },
   navbar: {
     korea: `${prefix}/navbar/korea.svg`,
@@ -61,9 +61,9 @@ export const images = {
   team: {
     management: `${prefix}/team/management.jpg`,
     arrow: `${prefix}/team/arrow.svg`,
-    linkedin: `${prefix}/team/socials/linkedin.svg`,
-    twitter: `${prefix}/team/socials/twitter.svg`,
-    telegram: `${prefix}/team/socials/telegram.svg`,
+    linkedin: `${prefix}/socials/white/linkedin.svg`,
+    twitter: `${prefix}/socials/white/twitter.svg`,
+    telegram: `${prefix}/socials/white/telegram.svg`,
   },
   common: {
     closeWhite: `${prefix}/common/close-white.svg`,
@@ -75,7 +75,7 @@ export const images = {
     favicon: `${prefix}/common/favicon.ico`,
   },
   footer: {
-    twitter: `${prefix}/socials/twitter.svg`,
+    twitter: `${prefix}/socials/gray/twitter.svg`,
   },
   blog: {
     logo: `${prefix}/blog-inner/logo.svg`,

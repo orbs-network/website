@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: contributor
-title: doronaviguy
+title: doron aviguy
 links:
   - github.md
 lat: 31.5313113

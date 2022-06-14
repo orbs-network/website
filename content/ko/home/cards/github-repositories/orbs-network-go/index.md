@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: 오픈소스
+type: Repository
 title: orbs-network-go
 lat: 25.03428
 lng: -77.39628
@@ -9,4 +9,4 @@ links:
   - github.md
 ---
 
-Go 언어로 오브스 가상체인을 구현할 수 있는 코어 레퍼런스
+Orbs node virtual chain core reference implementation in Go

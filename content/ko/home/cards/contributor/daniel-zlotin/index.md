@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: 주요 개발자
-title: DanielZlotin
+type: contributor
+title: Daniel Zlotin
 links:
   - github.md
 lat: 31.5313113
@@ -10,4 +10,4 @@ countryCode: US
 image: /assets/img/home/contributors/daniel.png
 ---
 
-관심분야: DeFi, Trading strategies
+Interests: DeFi, Trading strategies

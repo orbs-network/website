@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: contributor
-title: DanielZlotin
+title: Daniel Zlotin
 links:
   - github.md
 lat: 31.5313113

@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/components/link
-text: シンガポール
+text: Singapore
 url:
 image: /assets/img/home/location.svg
 ---

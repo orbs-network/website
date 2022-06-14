@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: 주요 팀원
+type: TEAM
 title: Ran Hammer
 links:
   - linkedin.md
@@ -10,4 +10,4 @@ lng: 9.0999715
 countryCode: "NO"
 ---
 
-법률, 협력 개발
+General Counsel and Corporate Development

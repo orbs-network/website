@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: 블로그
-title: 팀원 토큰 락업
+type: Blog
+title: Locking of Team Tokens
 links:
   - link.md
 lat: 18.971188
@@ -9,6 +9,6 @@ lng: 72.285217
 countryCode: HT
 ---
 
-분류: 토큰 정보
+Token Distribution
 
-읽는데 2분 정도 걸려요
+reading time: 2 min

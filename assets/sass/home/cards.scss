@@ -2,18 +2,18 @@
   width: fit-content;
   min-height: 70px;
   height: auto;
-  padding: 5px;
+  padding: 12px 16px;
   background: $main-bg-color;
   position: relative;
-  @include gradient-border;
+  @include gradient-border(1px);
   width: 100%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: flex-start;
 
   &-with-image {
     .card-content {
-      width: calc(100% - 110px);
+      width: calc(100% - 134px);
     }
   }
   &-socials {
@@ -34,14 +34,17 @@
         width: 100%;
         height: 100%;
         object-fit: contain;
+        object-position: top;
       }
     }
   }
 
   p {
     margin-bottom: 0px;
-    font-size: 0.938rem;
-    letter-spacing: 0.4px;
+    font-size: 0.813rem;
+    letter-spacing: $text-letter-spacing;
+    line-height: 1.25rem;
+    color: #454545;
   }
   * {
     font-family: $text-font;
@@ -49,7 +52,7 @@
     font-weight: 500;
   }
   &-content {
-    padding: 20px 15px 20px 20px;
+    padding: 20px 0px 0px 0px;
     width: 100%;
   }
   &-body-text {
@@ -60,7 +63,6 @@
     width: 114px;
     height: 114px;
 
-    flex: 1;
     position: relative;
     display: flex;
     align-items: stretch;
@@ -68,6 +70,7 @@
     border-radius: 50%;
     padding: 10px;
     background: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
+    margin-right: 20px;
     &-border {
       position: absolute;
       left: 50%;
@@ -103,9 +106,9 @@
     }
     &-text {
       font-family: $text-font;
-      letter-spacing: -0.15px;
-      font-size: 1.375rem;
-      font-weight: 700;
+      letter-spacing: $text-letter-spacing;
+      font-size: 1.25rem;
+      font-weight: 600;
       line-height: 2rem;
       text-transform: uppercase;
     }
@@ -115,10 +118,10 @@
     top: 0px;
     transform: translate(0, -50%);
     right: 25px;
-    padding: 0px 16px 4px 16px;
+    padding: 0px 16px 2px 16px;
     height: 41px;
     background: $main-bg-color;
-    @include gradient-border;
+    @include gradient-border(1px);
     display: flex;
     align-items: center;
 
@@ -131,9 +134,10 @@
     p {
       font-family: $text-font;
       color: $text-color;
-      font-size: 1rem;
+      font-size: 0.813rem;
       @extend .gradient-text;
-      font-weight: 700;
+      letter-spacing: $text-letter-spacing;
+      font-weight: 600;
       line-height: normal;
       text-transform: uppercase;
     }

@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: 주요 개발자
+type: contributor
 title: doronaviguy
 links:
   - github.md
@@ -10,4 +10,4 @@ countryCode: US
 image: /assets/img/home/contributors/doron.jpeg
 ---
 
-관심분야: Crypto, Defi, Vanila JS, Go, Web
+Interests: Crypto, Defi, Vanila JS, Go, Web

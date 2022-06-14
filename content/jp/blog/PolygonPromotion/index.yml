@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /jp/_shared/navbar/index.md
+main: body.md
+footer:
+  - /jp/_shared/footer/footer.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: "Orbsメインネット3周年記念！スペシャル・キャンペーン開催"
+image: /assets/img/blog/PolygonPromotion-images/bg.jpg
+gdpr:
+  - /jp/_shared/gdpr/index.md

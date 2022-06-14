@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: 주요 개발자
+type: contributor
 title: David Dayag
 links:
   - github.md
@@ -10,4 +10,4 @@ countryCode: IL
 image: /assets/img/home/contributors/david.jpeg
 ---
 
-관심분야: Finance, Crypto, ML
+Interests: Finance, Crypto, ML

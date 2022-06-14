@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/components/link
-text: Github 바로가기
+text:  Github
 url: https://github.com/doronaviguy
 image: /assets/img/socials/gray/github.svg
 ---

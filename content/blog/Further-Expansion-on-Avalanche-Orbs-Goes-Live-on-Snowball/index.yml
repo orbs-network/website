@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "Further Expansion on Avalanche: Orbs Goes Live on Snowball!"
+image: /assets/img/blog/Further-Expansion-on-Avalaunch-Orbs-Goes-Live-on-Snowball/bg.jpg
+gdpr:
+  - /_shared/gdpr/index.md

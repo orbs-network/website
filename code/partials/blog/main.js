@@ -1,8 +1,8 @@
 import React from "react";
 
-const Main = ({ pageHeader, tags, blogs, _body }) => {
+const Main = ({  blogs, _body }) => {
   return (
-    <main className="blog page-padding-top">
+    <main className="blog">
         <div className="header">{_body}</div>
 
       <div className="blog-content">

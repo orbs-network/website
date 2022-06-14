@@ -1,0 +1,17 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: "The Business of Blockchain: Nov 20, 2018"
+image: /assets/img/blog/the-business-of-blockchain-nov-13-2018/bg.jpg
+
+gdpr:
+  - /_shared/gdpr/index.md
