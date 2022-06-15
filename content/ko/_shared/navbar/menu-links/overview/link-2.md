@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[PoS 유니버스](/ko/pos-universe)
+[PoS (지분 증명)](/ko/pos-universe)

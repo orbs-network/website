@@ -9,4 +9,6 @@ lng: 4.6667145
 countryCode: BE
 ---
 
-Ecosystem: Ethereum
+관련 네트워크: Ethereum
+
+

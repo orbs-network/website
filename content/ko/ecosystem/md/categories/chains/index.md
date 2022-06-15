@@ -1,13 +1,13 @@
 ---
 layout: partials/ecosystem/category
-title: 지원되는 블록체인
+title: Supported Chains
 
 items:
   - ethereum.md
   - bsc.md
+  - avalanche.md
   - polygon.md
   - solana.md
-  - avalanche.md
   - harmony.md
   - fantom.md
 ---

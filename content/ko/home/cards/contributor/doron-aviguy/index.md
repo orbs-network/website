@@ -1,7 +1,8 @@
 ---
 layout: partials/home/cards/main/index
-type: contributor
-title: doronaviguy
+type: 주요 개발자
+
+title: doron aviguy
 links:
   - github.md
 lat: 31.5313113
@@ -10,4 +11,5 @@ countryCode: US
 image: /assets/img/home/contributors/doron.jpeg
 ---
 
-Interests: Crypto, Defi, Vanila JS, Go, Web
+관심분야: Crypto, Defi, Vanila JS, Go, Web
+

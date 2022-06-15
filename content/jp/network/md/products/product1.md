@@ -3,8 +3,8 @@ layout: partials/network/Products/Product
 img: /assets/img/network/lambda.png
 ---
 
-#### Orbs Lambda - Decentralized Serverless Cloud Function
+#### Orbs Lambda：分散型サーバーレスクラウド機能
 
-Event driven, serverless and decentralized computing solution, similar in concept to AWS Lambda - but decentralized.
+AWS Lambdaと概念が似ているが、分散型のイベント駆動型、サーバーレス、分散型コンピューティングソリューション。
 
-Write your cloud function in regular JavaScript, without any blockchain specific knowledge. Code can utilize familiar node.js libraries such as node-fetch. Select a trigger for execution, like running on a new L1/L2 block or on a new L1/L2 on-chain event, and deploy. Your function will be executed on dozens of independent decentralized validator nodes.
+ブロックチェーン固有の開発知識がなくても、クラウド関数を通常のJavaScriptで書くことができます。コードは、node-fetchなどの使い慣れたnode.jsライブラリを利用できます。新しいL1/L2ブロックまたは新しいL1/L2オンチェーンイベントで実行するなど、実行するトリガーを選択し実装します。関数は、数十の独立した分散型バリデーターノードで実行されます。

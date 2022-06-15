@@ -4,13 +4,12 @@ image: assets/img/network/section-3-right.png
 
 ---
 
-## Layer 3 
+## レイヤー3
 
-###  The missing piece in the blockchain stack
 
-The first infrastructure layer: L1, like Ethereum, is in charge of security.\
-The second infrastructure layer: L2, such as Polygon, is in charge of scalability.\
-The third infrastructure layer: L3 is in charge of executing more complex logics and scripts that cannot be
- implemented on smart contracts alone. This layer provides services to existing DeFi applications for further
-  decentralization and enhanced capabilities.
+###  ブロックチェーンスタックの欠落部分
 
+
+最初のインフラストラクチャレイヤー：イーサリアムのようなL1がセキュリティを担当します。
+2番目のインフラストラクチャレイヤー：PolygonなどのL2がスケーラビリティを担当します。
+3番目のインフラストラクチャレイヤー：L3は、スマートコントラクトだけでは実装できない、より複雑なロジックとスクリプトの実行を担当します。このレイヤーは、既存のDeFiアプリケーションにサービスを提供して、さらなる分散化と拡張機能を実現します。

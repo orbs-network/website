@@ -9,4 +9,5 @@ lng: 73.3287853
 countryCode: MV
 ---
 
-Supported devices: Android
+지원 단말: Android
+

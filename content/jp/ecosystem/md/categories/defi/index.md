@@ -3,29 +3,27 @@ layout: partials/ecosystem/category
 title: DeFi
 
 items:
-  - balancer.md
   - uniswap.md
-  - defi.md
-  - orbsdefi.md
+  - balancer.md
   - multichain.md
-  - benchmark.md
-  - pancake.md
   - sushiswap.md
-  - kyber.md
-  - 1inch.md
-  - alpaca.md
-  - beefy.md
-  - quickswap.md
-  - dinoswap.md
-  - kogefarm.md
-  - solana.md
-  - trader-joe.md
-  - pangolin.md
-  - rango.md
-  - snowball.md
   - spookywap.md
-  - wowswap.md
+  - defi.md
+  - benchmark.md
+  - 1inch.md
+  - beefy.md
+  - pangolin.md
+  - snowball.md
+  - pancake.md
+  - quickswap.md
+  - kyber.md
   - raydium.md
   - serum.md
+  - alpaca.md
+  - dinoswap.md
+  - wowswap.md
   - spiritswap.md
+  - rango.md
+  - kogefarm.md
+  - trader-joe.md
 ---

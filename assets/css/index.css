@@ -481,7 +481,7 @@ body {
   position: fixed;
   bottom: 0px;
   min-height: 70px;
-  background: #fcf8fd;
+  background: #5E75E8;
   padding: 10px 40px;
   opacity: 0;
   pointer-events: none;
@@ -492,6 +492,9 @@ body {
   transition: 0.2s all;
   z-index: 999999;
 }
+.gdpr * {
+  color: white;
+}
 .gdpr-btns {
   margin-left: auto;
   display: flex;
@@ -500,18 +503,17 @@ body {
 .gdpr-btns button {
   padding: 0px 30px;
   height: 45px;
-  border: 2px solid #DA88DE;
+  border: 2px solid white;
   margin-left: 20px;
   font-size: 1rem;
   border-radius: 42px;
   text-transform: capitalize;
-  color: #DA88DE;
+  color: white;
 }
 .gdpr-btns button:first-child {
   margin-left: 0px;
 }
 .gdpr-btns-accept {
-  color: white;
   background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
 }
 .gdpr a {
@@ -1422,7 +1424,6 @@ body {
   font-size: 1.75rem;
   margin-bottom: 27px;
   text-transform: uppercase;
-  font-family: "bold";
 }
 .side-menu-body .text-p {
   margin-bottom: 0px;
@@ -1475,6 +1476,13 @@ body {
   }
 }
 @media only screen and (max-width: 700px) {
+  .side-menu-body {
+    text-align: center;
+  }
+  .side-menu-title {
+    text-align: center;
+  }
+
   .title-h4 {
     font-size: 1.2rem;
     line-height: 1.7rem;
@@ -2312,7 +2320,7 @@ body {
   #guardianDetails {
     left: 50%;
     transform: translate(-50%);
-    bottom: 30px;
+    bottom: 20px;
     right: auto;
     position: fixed;
   }
@@ -2341,11 +2349,6 @@ body {
     display: none;
   }
 }
-.nav-bg, .navbar-menu {
-  background-color: red;
-  background-image: radial-gradient(at 40% 20%, #5b72e6 0px, transparent 50%), radial-gradient(at 83% 3%, #1fddff 0px, transparent 50%), radial-gradient(at 13% 21%, #ffdbde 0px, transparent 50%), radial-gradient(at 79% 25%, #ff8a97 0px, transparent 50%), radial-gradient(at 0% 100%, #ff8a97 0px, transparent 50%), radial-gradient(at 80% 100%, #5b74e6 0px, transparent 50%), radial-gradient(at 0% 0%, #ff85a7 0px, transparent 50%);
-}
-
 .navbar-menu {
   position: fixed;
   top: 0px;
@@ -2365,6 +2368,8 @@ body {
   padding-left: 200px;
   padding-right: 63px;
   transform: translate(-100%);
+  background-color: red;
+  background-image: radial-gradient(at 40% 20%, #5b72e6 0px, transparent 50%), radial-gradient(at 83% 3%, #1fddff 0px, transparent 50%), radial-gradient(at 13% 21%, #ffdbde 0px, transparent 50%), radial-gradient(at 79% 25%, #ff8a97 0px, transparent 50%), radial-gradient(at 0% 100%, #ff8a97 0px, transparent 50%), radial-gradient(at 80% 100%, #5b74e6 0px, transparent 50%), radial-gradient(at 0% 0%, #ff85a7 0px, transparent 50%);
 }
 .navbar-menu-mobile-social {
   display: none;
@@ -2540,6 +2545,8 @@ body {
 }
 @media only screen and (max-width: 750px) {
   .navbar-menu {
+    background-color: #61daea;
+    background-image: radial-gradient(at 55% 86%, #5b77e6 0px, transparent 50%), radial-gradient(at 79% 38%, #5b74e6 0px, transparent 50%), radial-gradient(at 16% 16%, #5b74e6 0px, transparent 50%), radial-gradient(at 71% 49%, #ff8a97 0px, transparent 50%), radial-gradient(at 95% 83%, #5b72e6 0px, transparent 50%);
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
@@ -3330,8 +3337,8 @@ body {
   .blog-list .list-item:nth-of-type(1) {
     margin-top: 0px;
   }
-  .blog-list-blog .title-h3 {
-    font-size: 1.125rem;
+  .blog-list-blog-title {
+    font-size: 1.12rem;
     line-height: 1.7rem;
   }
   .blog-list-blog-img {
@@ -3914,7 +3921,7 @@ body {
   }
   .network-section-first {
     padding-top: 60px;
-    padding-bottom: 180px;
+    padding-bottom: 140px;
   }
   .network-section-first .network-section-grid {
     gap: 70px;
@@ -3927,12 +3934,20 @@ body {
     max-width: 250px;
     order: 1;
   }
+  .network-section-second {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
   .network-section-second-top {
     width: 200px;
+  }
+  .network-section-second .network-section-right {
+    order: 1;
   }
   .network-section-second .network-section-image {
     max-width: 300px;
     width: 90%;
+    order: 2;
   }
   .network-section-third .network-section-right {
     transform: none;
@@ -4483,6 +4498,9 @@ body {
 
 @media only screen and (max-width: 700px) {
   .white-papers .header {
+    margin-bottom: 50px;
+  }
+  .white-papers-box {
     margin-bottom: 50px;
   }
   .white-papers-box-preview {

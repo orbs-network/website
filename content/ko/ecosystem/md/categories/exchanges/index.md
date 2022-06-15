@@ -1,26 +1,27 @@
 ---
 layout: partials/ecosystem/category
-title: 상장 거래소
-
+title: Exchanges
 
 items:
   - bittrex.md
+  - bilaxy.md
   - bithub.md
-  - upbit.md
-  - okex.md
-  - huobi.md
-  - coinone.md
-  - latoken.md
-  - kucoin.md
-  - ftx.md
-  - gateio.md
-  - consbit.md
-  - indodax.md
-  - p2p.md
   - probit.md
-  - bibox.md
-  - bitbns.md
-  - bhex.md
-  - zt.md
+  - coinone.md
+  - ftx.md
+  - upbit.md
+  - latoken.md
   - phemex.md
+  - bibox.md
+  - consbit.md
+  - kucoin.md
+  - okex.md
+  - indodax.md
+  - bhex.md
+  - gateio.md
+  - p2p.md
+  - bitbns.md
+  - zt.md
+  - ultorex.md
+
 ---

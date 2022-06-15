@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: contributor
+type: 주요 개발자
+
 title: uv-orbs
 links:
   - github.md
@@ -10,4 +11,5 @@ countryCode: US
 image: /assets/img/home/contributors/uv.png
 ---
 
-Interests: DeFi, Keto
+관심분야: DeFi, Keto
+

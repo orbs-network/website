@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: パートナーシップ
+title: Oracles
 
 items:
   - chainlink.md

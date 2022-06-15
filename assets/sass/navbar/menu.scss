@@ -1,14 +1,4 @@
-.nav-bg {
-  background-color:hsla(0,100%,50%,1);
-  background-image:
-  radial-gradient(at 40% 20%, hsla(230,74%,63%,1) 0px, transparent 50%),
-  radial-gradient(at 83% 3%, hsla(189,100%,56%,1) 0px, transparent 50%),
-  radial-gradient(at 13% 21%, hsla(355,100%,93%,1) 0px, transparent 50%),
-  radial-gradient(at 79% 25%, hsla(353,100%,77%,1) 0px, transparent 50%),
-  radial-gradient(at 0% 100%, hsla(353,100%,77%,1) 0px, transparent 50%),
-  radial-gradient(at 80% 100%, hsla(229,74%,63%,1) 0px, transparent 50%),
-  radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
-}
+
 
 .navbar-menu {
   position: fixed;
@@ -29,11 +19,20 @@
   padding-left: 200px;
   padding-right: 63px;
   transform: translate(-100%);
+  background-color:hsla(0,100%,50%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(230,74%,63%,1) 0px, transparent 50%),
+  radial-gradient(at 83% 3%, hsla(189,100%,56%,1) 0px, transparent 50%),
+  radial-gradient(at 13% 21%, hsla(355,100%,93%,1) 0px, transparent 50%),
+  radial-gradient(at 79% 25%, hsla(353,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(353,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(229,74%,63%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
   &-mobile-social{
     display: none
   }
 
-  @extend .nav-bg;
+  
 
   .mobile-subscribe {
     display: none;
@@ -235,7 +234,15 @@
 }
 
 @media only screen and (max-width: 750px) {
+
   .navbar-menu {
+    background-color:hsla(187,77%,65%,1);
+    background-image:
+    radial-gradient(at 55% 86%, hsla(228,74%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 79% 38%, hsla(229,74%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 16% 16%, hsla(229,74%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 71% 49%, hsla(353,100%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 95% 83%, hsla(230,74%,63%,1) 0px, transparent 50%);
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;

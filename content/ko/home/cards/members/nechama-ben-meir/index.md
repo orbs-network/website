@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: TEAM
+type: 주요 팀원
+
 title: Nechama Ben Meir
 links:
   - linkedin.md

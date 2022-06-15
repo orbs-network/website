@@ -9,4 +9,5 @@ lng: 134.755
 countryCode: AU
 ---
 
-Ecosystem: Ethereum
+관련 네트워크: Ethereum
+

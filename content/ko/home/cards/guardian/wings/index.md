@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: guardian
+type: 가디언
+
 title: Wings
 lat: 46.818188
 lng: 8.227512

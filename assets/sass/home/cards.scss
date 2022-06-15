@@ -10,7 +10,9 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
+  &-links{
+   
+  }
   &-with-image {
     .card-content {
       width: calc(100% - 134px);

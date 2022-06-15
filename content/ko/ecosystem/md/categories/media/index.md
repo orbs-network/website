@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: 미디어
+title: Media
 
 items:
   - inbound.md

@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: guardian
+type: 가디언
+
 title: WhaleCoreStake
 lat: 35.911855
 lng: 127.775529

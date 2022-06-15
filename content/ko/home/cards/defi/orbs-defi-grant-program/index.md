@@ -9,4 +9,5 @@ lng: 65.2093197
 countryCode: KZ
 ---
 
-Ecosystem: Ethereum / BSC / Polygon
+관련 네트워크: Ethereum / BSC / Polygon
+

@@ -2,7 +2,7 @@
 layout: partials/shared/simple-md
 ---
 
-# 스마트 컨트랙트
+# 스마트 컨트랙트,
 
 # 더욱 더
 

@@ -1,5 +1,5 @@
 ---
-layout: partials/home/cards/components/link
-text: https://www.orbs.com/how-to-choose-an-orbs-guardian/
+layout: partials/home/cards/components/website
+text: Link to blog
 url: https://www.orbs.com/how-to-choose-an-orbs-guardian/
 ---

@@ -16,6 +16,6 @@ product_images_2:
 ---
 
 
-# Making Smart
+# Making Your Smart
 # Contracts Smarter
 

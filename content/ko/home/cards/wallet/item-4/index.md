@@ -10,4 +10,5 @@ lng: 103.8499736
 countryCode: MN
 ---
 
-Supported devices: Android
+지원 단말: Android
+

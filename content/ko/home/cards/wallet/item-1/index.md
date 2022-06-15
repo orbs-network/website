@@ -9,4 +9,5 @@ lng: 113.5514142
 countryCode: MO
 ---
 
-Supported devices: Android and iOS
+지원 단말: Android / iOS
+

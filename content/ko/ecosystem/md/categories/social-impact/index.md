@@ -1,9 +1,9 @@
 ---
 layout: partials/ecosystem/category
-title: 사회 기여 활동
-
+title: Social Impact
 
 items:
   - hexa.md
   - yozma.md
+  - blockchain.md
 ---

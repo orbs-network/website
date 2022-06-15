@@ -2,8 +2,10 @@
 layout: partials/network/FlexSectionFirst
 ---
 
-Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+### Orbsとは？
 
-Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain.
+ Orbsは、Proof-of-Stake（PoS）コンセンサスを活用した、オープンなブリックブロックチェーンインフラストラクチャです。パーミションレス・バリデータにより、ネットワークの安全と分散化が実現できています。
 
-Orbs acts as a “decentralized backend”, enhancing the capabilities of existing EVM smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+Orbsは、ブロックチェーンの流動性を別のチェーンに移すことなく、階層型ブロックチェーンスタックの一部として、既存のL1/L2ソリューションと、アプリケーションレイヤーの間で動作する独立した分散型実行レイヤーとして位置付けられます。
+
+いわゆる「分散型バックエンド」として機能し、既存のEVMスマートコントラクトの機能を強化し、Web 3.0、DeFi、NFT、およびGameFiにまったく新しい可能性を開きます。

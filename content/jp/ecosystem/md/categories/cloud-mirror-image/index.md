@@ -1,9 +1,9 @@
 ---
 layout: partials/ecosystem/category
-title: クラウド開発環境
+title: Cloud Dev. Environment
 
 items:
   - aws.md
-  - azure.md
   - google-cloud.md
+  - azure.md
 ---

@@ -42,7 +42,7 @@ export const images = {
     },
   },
   meta: {
-    logo: `${prefix}/meta/Orbs-Twitter-Post.png`,
+    logo: `${prefix}/meta/social.png`,
   },
   socials: {
     reddit: `${prefix}/socials/gray/reddit.svg`,

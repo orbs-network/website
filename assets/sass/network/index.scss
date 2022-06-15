@@ -285,7 +285,7 @@
       }
       &-first {
         padding-top: 60px;
-        padding-bottom: 180px;
+        padding-bottom: 140px;
         .network-section {
           &-grid {
             gap: 70px;
@@ -301,13 +301,19 @@
         }
       }
       &-second {
+        padding-top: 110px;
+        padding-bottom: 60px;
         &-top {
           width: 200px;
         }
         .network-section {
+          &-right{
+            order:1;
+          }
           &-image {
             max-width: 300px;
             width: 90%;
+            order: 2;
           }
         }
       }

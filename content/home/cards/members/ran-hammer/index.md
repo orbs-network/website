@@ -10,4 +10,4 @@ lng: 9.0999715
 countryCode: "NO"
 ---
 
-General Counsel and Corporate Development
+VP BizDev

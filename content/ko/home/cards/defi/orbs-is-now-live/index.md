@@ -9,4 +9,5 @@ lng: -53.2
 countryCode: BR
 ---
 
-Ecosystem: BSC
+관련 네트워크: BSC
+

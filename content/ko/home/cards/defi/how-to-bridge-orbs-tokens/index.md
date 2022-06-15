@@ -9,4 +9,5 @@ lng: 139.2394179
 countryCode: JP
 ---
 
-Ecosystem: Polygon
+관련 네트워크: Polygon
+

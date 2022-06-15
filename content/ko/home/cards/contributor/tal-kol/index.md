@@ -1,7 +1,8 @@
 ---
 layout: partials/home/cards/main/index
-type: contributor
-title: talkol
+type: 주요 개발자
+
+title: tal kol
 links:
   - github.md
 lat: 31.5313113
@@ -10,4 +11,6 @@ countryCode: IL
 image: /assets/img/home/contributors/tal.png
 ---
 
-Interests: react, javascript, mobile
+관심분야: react, javascript, mobile
+
+

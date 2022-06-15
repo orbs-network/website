@@ -155,7 +155,6 @@
     font-size: 1.75rem;
     margin-bottom: 27px;
     text-transform: uppercase;
-    font-family: $bold-font;
   }
   &-body {
     .text-p {
@@ -203,7 +202,14 @@
 }
 
 @media only screen and (max-width: $mobile) {
-
+  .side-menu{
+    &-body{
+      text-align: center;
+    }
+    &-title{
+      text-align: center;
+    }
+  }
   .title-h4 {
     font-size: 1.2rem;
     line-height: 1.7rem;

@@ -9,4 +9,5 @@ lng: 13.2
 countryCode: AT
 ---
 
-Ecosystem: BSC
+관련 네트워크: BSC
+
