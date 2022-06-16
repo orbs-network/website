@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 0px;
   min-height: 70px;
-  background: black;
+  background: #5E75E8;
   padding: 10px 40px;
   opacity: 0;
   pointer-events: none;
@@ -13,6 +13,9 @@
   transform: translate(0, 100%);
   transition: 0.2s all;
   z-index: 999999;
+  *{
+    color: white;
+  }
   &-btns {
     margin-left: auto;
     display: flex;
@@ -21,16 +24,19 @@
     button {
       padding: 0px 30px;
       height: 45px;
-      border: 2px solid $light-color;
+      border: 2px solid white;
       margin-left: 20px;
       font-size: 1rem;
       border-radius: 42px;
       text-transform: capitalize;
+      color: white;
       &:first-child {
         margin-left: 0px;
       }
     }
     &-accept {
+     
+      background: $gradient;
     }
     &-reject {
     }

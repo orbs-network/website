@@ -1,5 +1,5 @@
 $yellow: #5effd1;
-$base-bg-color: #191919;
+$base-bg-color: #fcf8fd;
 $pink: #e61ea9;
 $light-blue: #60e4ff;
 $light-gray: #d0d0d0;
@@ -64,17 +64,7 @@ $light-gray: #d0d0d0;
 .app-wrapper {
   transition: 0.5s all;
 }
-@mixin pink-expend-btn() {
-  color: #ff2cbf;
-  background: transparent;
-  border: none;
-  letter-spacing: 2px;
-  transition: 0.2s all;
-  border-bottom: 2px solid transparent;
-  padding: 0px;
-  padding-bottom: 3px;
-  border-radius: 0px;
-}
+
 .absolute {
   position: absolute;
   left: 0px;
@@ -85,16 +75,25 @@ $light-gray: #d0d0d0;
 .btn {
   text-transform: uppercase;
   width: fit-content;
-  padding: 0px 35px;
-  border: 2px solid #53fffa;
-  border-radius: 42px;
+  padding: 0px 30px;
+  border: 2px solid $blue;
+  border-radius: 100px;
   font-size: 0.75rem;
-  font-weight: 400;
+  font-weight: 600;
   height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: $text-font;
+  color:$blue;
+  letter-spacing: $text-letter-spacing;
+  cursor: pointer;
+  transition: 0.2s all;
+  &:hover{
+    background: $blue;
+    color: white;
+  }
+
 }
 
 .capitalize {
@@ -105,7 +104,7 @@ $light-gray: #d0d0d0;
 }
 
 .page-padding-top {
-  padding-top: 145px;
+  padding-top: 130px;
 }
 .page-menu-header {
   h1 {
@@ -224,10 +223,31 @@ $light-gray: #d0d0d0;
   }
 }
 
-@media only screen and (min-width: 2000px) {
-  .main-grid {
-    width: calc(100% - 400px);
+.header {
+  text-align: center;
+  margin-top: 126px;
+  padding-left: 20px;
+  padding-right: 20px;
+  h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    @extend .gradient-text;
+    
   }
+  h2 {
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 44px;
+    @extend .gradient-text;
+
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  // .main-grid {
+  //   width: calc(100% - 400px);
+  // }
 }
 
 @media only screen and (max-width: 1500px) {
@@ -240,5 +260,17 @@ $light-gray: #d0d0d0;
   .app-loader {
     width: 100px;
     height: 100px;
+  }
+  .header{
+    margin-top: 90px;
+    h1{
+      font-size: 1.525rem;
+      line-height: 2.375rem;
+      margin-bottom: 10px;
+    }
+    h2{
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
   }
 }

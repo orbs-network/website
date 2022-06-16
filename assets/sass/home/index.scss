@@ -6,7 +6,6 @@
   position: fixed;
   width: 100vw;
   height: 100vh;
-  transform: translate(100px);
 }
 
 #globeArea {
@@ -19,14 +18,14 @@
 #guardianDetails {
   display: none;
   position: absolute;
-  right: 20vw;
-  bottom: 20vh;
+  right: 15vw;
+  bottom: 15vh;
   max-width: 400px;
   width: calc(100% - 40px);
+  z-index: 9;
 }
 .home {
   padding-top: 110px;
-  background: #000011;
   position: relative;
   overflow: hidden;
   height: 100vh;
@@ -34,16 +33,26 @@
     text-align: left;
   }
 
-  .link-btn {
-    margin: 0px;
-    margin-top: 30px;
-    font-family: "light";
-    min-height: 50px;
-    display: flex;
-    z-index: 99;
-    font-size: 0.75rem;
-  }
+  &-link{
+    color: $text-color;
+    margin-top: 40px;
+    font-size: 0.938rem;
+    text-decoration: none;
+    position: relative;
+    padding-left: 110px;
+    &::before{
+      @include gradient-border(1px);
+      position: absolute;
+      content: '';
+      left: 0px;
+      width: 90px;
+      top: 50%;
+      transform: translate(0, -50%);
+      height: 0px;
 
+    }
+
+  }
   &-flex {
     align-items: flex-start;
     position: relative;
@@ -52,19 +61,17 @@
       position: relative;
       padding-top: 28vh;
 
-      h2 {
-        font-size: 1.375rem;
-        font-family: $light-font;
-        text-transform: uppercase;
-        letter-spacing: 0.138rem;
-        margin-bottom: 5px;
-      }
       h1 {
-        font-size: 2.063rem;
+        font-weight: 900;
+        font-size: 2.75rem;
         letter-spacing: 0.206rem;
+        line-height: 3.438rem;
+        @extend .gradient-text;
+        font-family: $text-font;
+        letter-spacing: -0.009rem;
       }
       .socials {
-        margin-top: 18vh;
+        margin-top: 14vh;
       }
     }
   }
@@ -78,11 +85,7 @@
   }
 }
 
-@media only screen and (max-width: 1350px) {
-  .globe-container {
-    transform: translate(0);
-  }
-}
+
 
 @media only screen and (max-width: $medium) {
   .home {
@@ -93,6 +96,7 @@
       }
       h1 {
         font-size: 1.563rem;
+        line-height: 2rem;
         letter-spacing: 0.13rem;
       }
     }
@@ -109,11 +113,23 @@
   #globeArea {
     top: 40px;
   }
+  .home-link{
+    background: $gradient;
+    padding-left: 0px;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    margin-top: 20px;
+    &:before{
+      display: none;
+    }
+  }
   #guardianDetails {
     left: 50%;
     transform: translate(-50%);
-    bottom: 30px;
+    bottom: 20px;
     right: auto;
+    position: fixed;
   }
   .home {
     padding-top: 90px;
@@ -121,17 +137,7 @@
     .title {
       text-align: center;
     }
-    .link-btn {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
-      z-index: 99;
-      padding: 8px 40px 8px 20px;
-      margin-bottom: 0px;
-      &-arrow {
-        right: 15px;
-      }
-    }
+ 
     &-flex {
       width: 100%;
       overflow: hidden;
