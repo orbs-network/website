@@ -9,4 +9,5 @@ items:
   - paradigm.md
   - yes.md
   - binance.md
+  - samsung.md
 ---

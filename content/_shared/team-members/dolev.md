@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/team-members-mapper
 avatar: /assets/img/team/members/dolev.jpg
 name: Dolev Kenn
-role: Director of Finance
+role: VP of Finance
 twitter:
 telegram:
 linkedin: https://www.linkedin.com/in/dolev-kenn-8a45a3114/
