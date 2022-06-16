@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: defi
-title: ORBSはAnySwapのクロスチェーン・ブリッジを介してBinance Smart Chainでも取引可能に
+title: ORBS is now live on Binance Smart Chain Via AnySwap Cross-Chain Bridge
 links:
   - link.md
 lat: -10.3333333
@@ -9,4 +9,4 @@ lng: -53.2
 countryCode: BR
 ---
 
-エコシステム：BSC
+Ecosystem: BSC

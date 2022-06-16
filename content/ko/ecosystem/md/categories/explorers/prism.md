@@ -1,5 +1,5 @@
 ---
 layout: partials/ecosystem/category-item
-image: /assets/img/ecosystem/explorers/image1.svg
+image: /assets/img/ecosystem/explorers/prism.svg
 url: https://prism.orbs.network
 ---

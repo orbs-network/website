@@ -6,8 +6,9 @@ lat: 35.907757
 lng: 127.766922
 countryCode: KR
 image: /assets/img/home/delegators/delegator1.jpg
+links:
+  - telegram.md
 ---
 
 Country: South Korea
 
-Telegram: Keep G

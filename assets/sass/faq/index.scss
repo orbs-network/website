@@ -67,7 +67,7 @@
           font-size: 1.063rem;
           letter-spacing: 0.04rem;
           line-height: 1.438rem;
-          color: white;
+          
           text-decoration: none;
           &:hover {
             text-decoration: underline;
@@ -109,7 +109,7 @@
         margin-bottom: 15px;
         text-align: left;
         font-size: 0.938rem;
-        font-family: $light-font;
+        @extend .gradient-text;
       }
     }
   }

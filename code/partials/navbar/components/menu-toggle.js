@@ -10,6 +10,7 @@ const MenuToggle = ({ url, toggleImg, customClassName, image }) => {
       </button>
       <a href={url} className="logo" rel="noopener">
         <Img src={image} alt="orbs logo" />
+        <p>ORBS</p>
       </a>
     </div>
   );

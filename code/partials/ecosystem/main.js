@@ -1,12 +1,14 @@
 import React from "react";
+import MainGrid from "../shared/MainGrid";
 import Categories from "./categories";
 
 const Main = (props) => {
-  const { page_title } = props;
   return (
-    <main className="ecosystem main-grid page-padding-top">
-      {page_title}
-      <Categories {...props} />
+    <main className="ecosystem">
+      <MainGrid>
+        <div className="header">{props._body}</div>
+        <Categories {...props} />
+      </MainGrid>
     </main>
   );
 };

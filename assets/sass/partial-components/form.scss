@@ -79,7 +79,7 @@
         -moz-appearance: none;
         appearance: none;
         border-radius: 0px;
-        border-bottom: 1px solid #4cfce2;
+        border-bottom: 1px solid $blue;
         padding-bottom: 15px;
         font-size: 1.063rem;
         font-weight: 300;
@@ -117,8 +117,7 @@
       margin: auto;
 
       @extend .btn;
-      cursor: pointer;
-      letter-spacing: 0.1rem;
+    
     }
     .loader {
       display: none;

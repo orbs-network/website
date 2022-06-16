@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: pos
-title: "OrbsのPoS V2：The Age of Guardiansーガーディアンの時代の概要資料"
+title: "Orbs PoS V2: The Age of Guardians Overview Document"
 link: https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/
 links:
   - link.md
@@ -10,4 +10,4 @@ lng: 24.6859225
 countryCode: RO
 ---
 
-OrbsのPoSユニバースについて知っておくべきことすべて
+Everything you need to know about the Orbs PoS Universe

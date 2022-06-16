@@ -13,8 +13,8 @@ subscribe:
 gdpr:
   - /ko/_shared/gdpr/index.md
 
-meta_description: Orbs is designed so that app developers can focus on what they do best - creating decentralized apps that disrupt their industry and empower their users.
+description: Orbs is designed so that app developers can focus on what they do best - creating decentralized apps that disrupt their industry and empower their users.
 title: "Learn about the Orbs technology - RPoS Virtual Chains &amp; Interoperability"
-meta_og_locale_alternate: ko_KR
-meta_og_locale: en_US
-meta_image:
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

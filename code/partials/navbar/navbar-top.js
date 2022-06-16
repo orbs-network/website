@@ -21,7 +21,7 @@ const NavbarTop = ({
       <MenuToggle
         image={generateUrl(images.common.logo)}
         url={generateUrl(home)}
-        toggleImg={generateUrl(images.common.hamburger)}
+        toggleImg={generateUrl(images.navbar.hamburger)}
         customClassName="navbar-burger-open"
       />
       <section className="navbar-top-right">

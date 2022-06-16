@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: 주요 개발자
+
 title: David Dayag
 links:
   - github.md
@@ -11,3 +12,4 @@ image: /assets/img/home/contributors/david.jpeg
 ---
 
 관심분야: Finance, Crypto, ML
+

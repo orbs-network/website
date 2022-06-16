@@ -1,7 +1,8 @@
 ---
 layout: partials/home/cards/main/index
 type: 주요 개발자
-title: Tal Kol
+
+title: tal kol
 links:
   - github.md
 lat: 31.5313113
@@ -11,3 +12,5 @@ image: /assets/img/home/contributors/tal.png
 ---
 
 관심분야: react, javascript, mobile
+
+

@@ -14,12 +14,13 @@
       left: 50%;
       height: 100%;
       transform: translate(-50%, -50%);
-      background: #313131;
+     
       top: 50%;
     }
     &-title {
       position: relative;
       z-index: 1;
+      @extend .gradient-text;
     }
     &-content {
       position: relative;
@@ -35,7 +36,7 @@
     &-section {
       h4 {
         margin-bottom: 20px;
-        color: white;
+       @extend .gradient-text;
       }
       &-link {
         margin-bottom: 20px;
@@ -45,11 +46,11 @@
           margin-bottom: 0px;
         }
         a {
-          color: #03fcf5;
+          color: $text-color;
           text-decoration: none;
         }
         p {
-          color: #03fcf5;
+          color: $text-color;
           margin-bottom: 5px;
         }
       }
@@ -73,6 +74,7 @@
       font-size: 30px;
       position: relative;
       z-index: 1;
+      @extend .gradient-text;
     }
     &-flex {
       display: flex;

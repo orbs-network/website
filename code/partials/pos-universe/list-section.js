@@ -8,7 +8,7 @@ const ListSection = ({ _body, title, img, _relativeURL, _ID }) => {
   };
   return (
     <div className="universe-first-flex-section" data-aos={animations.fadeTop}>
-      <div className="flex-start universe-first-flex-section-top">
+      <div className="universe-first-flex-section-top">
         <Img src={generateUrl(img)} alt="delegator icon" />
         <h4>{title}</h4>
       </div>

@@ -1,8 +1,9 @@
 ---
 layout: partials/ecosystem/category
-title: ソーシャルインパクト
+title: Social Impact
 
 items:
   - hexa.md
   - yozma.md
+  - blockchain.md
 ---

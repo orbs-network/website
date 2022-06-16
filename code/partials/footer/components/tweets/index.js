@@ -13,7 +13,7 @@ const Tweets = ({ title, title_img, _relativeURL, _ID, twitterUrl }) => {
         <h4>{title}</h4>
       </section>
       <div className="footer-tweets-content">
-        <a className="twitter-timeline" data-theme="dark" href={twitterUrl}></a>
+        <a className="twitter-timeline" data-theme="light" href={twitterUrl}></a>
       </div>
     </div>
   );

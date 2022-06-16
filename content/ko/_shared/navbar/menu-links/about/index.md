@@ -1,12 +1,13 @@
 ---
 layout: partials/navbar/components/menu-links
 title: Orbs 프로젝트
+id: about
 links:
-  - link-1.md
-  - link-2.md
-  - link-3.md
-  - link-4.md
-  - link-5.md
-  - link-6.md
-  - link-7.md
+  - blog.md
+  - ecosystem.md
+  - whitepapers.md
+  - team.md
+  - faq.md
+  - hexa.md
+  - contact.md
 ---

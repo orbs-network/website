@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: チーム
+type: TEAM
 title: Nechama Ben Meir
 links:
   - linkedin.md
@@ -10,4 +10,4 @@ lng: 10.3333283
 countryCode: DK
 ---
 
-最高財務責任者（CFO）
+Chief Financial Officer

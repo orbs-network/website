@@ -1,5 +1,5 @@
 ---
-layout: partials/home/cards/components/link
-text: https://link.medium.com/9hmeqQZLGib
-url: https://link.medium.com/9hmeqQZLGib
+layout: partials/home/cards/components/website
+text: 블로그 링크
+url: https://www.orbs.com/orbs-swaps-and-staking-now-available-on-metamask-wallet/
 ---

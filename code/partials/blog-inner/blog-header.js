@@ -12,7 +12,7 @@ const BlogHeader = (props) => {
   };
 
   return (
-    <div className="single-blog-header">
+    <div className="single-blog-header header">
       <h1 className="single-blog-header-title">{title}</h1>
       <div className="single-blog-header-author-flex">
         <div className="single-blog-header-author flex-start">

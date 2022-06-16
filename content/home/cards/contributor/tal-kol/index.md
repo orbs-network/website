@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: contributor
-title: talkol
+title: tal kol
 links:
   - github.md
 lat: 31.5313113

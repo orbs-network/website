@@ -5,9 +5,9 @@ title: Supported Chains
 items:
   - ethereum.md
   - bsc.md
+  - avalanche.md
   - polygon.md
   - solana.md
-  - avalanche.md
   - harmony.md
   - fantom.md
 ---

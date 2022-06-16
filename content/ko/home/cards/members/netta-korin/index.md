@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: 주요 팀원
+
 title: Netta Korin
 links:
   - linkedin.md
@@ -11,3 +12,4 @@ countryCode: FR
 ---
 
 공동창업자, Hexa Foundation 대표
+

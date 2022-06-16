@@ -1,9 +1,9 @@
 import React from "react";
 
-const Main = ({ pageHeader, tags, blogs }) => {
+const Main = ({  blogs, _body }) => {
   return (
-    <main className="blog page-padding-top">
-      {pageHeader}
+    <main className="blog">
+        <div className="header">{_body}</div>
 
       <div className="blog-content">
         <div className="main-grid">

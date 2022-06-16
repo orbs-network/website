@@ -1,5 +1,6 @@
 ---
-layout: partials/home/cards/components/link
-text: https://link.medium.com/U6YpyNb2Fib
-url: https://link.medium.com/U6YpyNb2Fib
+layout: partials/home/cards/components/website
+text: 블로그 링크
+
+url: https://www.orbs.com/how-to-choose-an-orbs-guardian/
 ---

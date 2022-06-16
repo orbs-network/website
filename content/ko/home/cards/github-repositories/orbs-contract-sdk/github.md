@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/components/link
-text: Github 바로가기
+text:  Github
 url: https://github.com/orbs-network/orbs-contract-sdk
 
-image: /assets/img/socials/github.svg
+image: /assets/img/socials/gray/github.svg
 ---

@@ -7,7 +7,7 @@ const SecondFlex = ({ leftText, images, bottomText }) => {
         {leftText}
         {images}
       </div>
-      {bottomText}
+      <div className="universe-second-flex-bottom">{bottomText}</div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/components/link
-text: link to linkedin
+text: LinkedIn
 url: https://www.linkedin.com/in/nechama-ben-meir-3347434/
-image: /assets/img/socials/linkedin.svg
+image: /assets/img/socials/gray/linkedin.svg
 ---

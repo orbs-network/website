@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: 지갑
+type: wallet
 title: Coinbase Wallet
 links:
   - link.md
@@ -10,3 +10,4 @@ countryCode: MO
 ---
 
 지원 단말: Android / iOS
+

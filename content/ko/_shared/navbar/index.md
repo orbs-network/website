@@ -10,6 +10,8 @@ about:
   - ./menu-links/about/index.md
 socials:
   - ../socials/index.md
+socials_white:
+  - ../socials/socials-white-icons.md
 subscribe:
   - subscribe.md
 languages:

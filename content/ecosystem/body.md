@@ -1,7 +1,5 @@
 ---
 layout: partials/ecosystem/main
-page_title:
-  - md/title.md
 
 first_section:
   - md/categories/exchanges/index.md
@@ -11,15 +9,18 @@ first_section:
 
 second_section:
   - md/categories/chains/index.md
-  - md/logo-figure.md
   - md/categories/cloud-mirror-image/index.md
   - md/categories/explorers/index.md
   - md/categories/oracles/index.md
   - md/categories/partnerships/index.md
+  - md/categories/staking/index.md
+
 
 third_section:
   - md/categories/wallets/index.md
   - md/categories/defi/index.md
   - md/categories/media/index.md
-  - md/categories/staking/index.md
 ---
+
+
+# OUR ECOSYSTEM

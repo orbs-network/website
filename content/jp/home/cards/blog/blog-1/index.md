@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: ブログ
-title: ガーディアンの選び方
+type: Blog
+title: How to choose a Guardian
 links:
   - link.md
 lat: 61.524010
@@ -11,4 +11,4 @@ countryCode: RU
 
 Proof of Stake
 
-読み時間：5分
+reading time: 5 min

@@ -2,6 +2,7 @@
 layout: partials/home/cards/main/index
 type: 백서
 title: Helix 합의 알고리즘
+
 links:
   - link.md
 lat: 46.7985624

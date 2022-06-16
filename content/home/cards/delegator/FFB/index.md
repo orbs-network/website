@@ -6,8 +6,9 @@ lat: 36.204823
 lng: 138.252930
 countryCode: JP
 image: /assets/img/home/delegators/delegator3.JPG
+links:
+  - twitter.md
 ---
 
 Country: Japan
 
-Twitter: @bjnpmud

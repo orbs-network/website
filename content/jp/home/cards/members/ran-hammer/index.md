@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: チーム
+type: TEAM
 title: Ran Hammer
 links:
   - linkedin.md
@@ -10,4 +10,4 @@ lng: 9.0999715
 countryCode: "NO"
 ---
 
-ゼネラルカウンセル兼事業開発責任者
+VP BizDev

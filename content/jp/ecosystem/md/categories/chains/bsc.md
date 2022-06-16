@@ -1,5 +1,5 @@
 ---
 layout: partials/ecosystem/category-item
-image: /assets/img/ecosystem/chains/bsc.png
+image: /assets/img/ecosystem/chains/binance.svg
 url: https://www.binance.org/en/smartChain
 ---

@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: 주요 팀원
+
 title: Ran Hammer
 links:
   - linkedin.md
@@ -11,3 +12,4 @@ countryCode: "NO"
 ---
 
 법률, 협력 개발
+

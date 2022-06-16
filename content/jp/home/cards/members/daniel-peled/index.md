@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: チーム
+type: TEAM
 title: Daniel Peled
 links:
   - linkedin.md
@@ -10,4 +10,4 @@ lng: 127.766922
 countryCode: KR
 ---
 
-プレジデント兼共同創業者
+President and Co-founder

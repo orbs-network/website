@@ -34,6 +34,10 @@ const Page = (props) => {
           href={generateUrl(images.common.favicon)}
           type="image/x-icon"
         />
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-HJ74DHDLS3" />
+
+      
 
         <MetaTags {...props} />
 
@@ -58,7 +62,7 @@ const Page = (props) => {
         )}
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
-      <body style={{ background: colors.main }}>
+      <body style={{ background: colors.background }}>
         <AppLoader generateUrl={generateUrl} />
         <div className="app-wrapper" style={{ opacity: 0 }}>
           {header}

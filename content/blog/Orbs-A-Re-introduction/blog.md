@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-A-Re-introduction/bg.jpg
+image: /assets/img/blog/Orbs-A-Re-introduction/bg.jpeg
 blogUrl: Orbs-A-Re-introduction
 date: 2022-06-07
 title: "Orbs: A Re-introduction"

@@ -10,8 +10,13 @@ const Main = ({ hero, postsTop, videoSection, loadMoreButton, subscribe, _relati
 
     return (
         <main className='news'>
-            <img className='news-figure news-figure-top' src={generateUrl(images.news.figure)} />
-            <img className='news-figure news-figure-bottom' src={generateUrl(images.news.figure)} />
+            <img className='news-figure news-figure-1' src={generateUrl(images.news.figure)} />
+            <img className='news-figure news-figure-2' src={generateUrl(images.news.figure)} />
+            <img className='news-figure news-figure-3' src={generateUrl(images.news.figure)} />
+            <img className='news-figure news-figure-4' src={generateUrl(images.news.figure)} />
+
+
+
             <img className='news-side-dots' src={generateUrl(images.news.dots)} />
 
             <div className='news-grid'>

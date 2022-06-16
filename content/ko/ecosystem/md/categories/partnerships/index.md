@@ -1,7 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: 파트너십
-
+title: Partnerships
 
 items:
   - gbbc.md
@@ -9,4 +8,5 @@ items:
   - cban.md
   - paradigm.md
   - yes.md
+  - binance.md
 ---

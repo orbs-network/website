@@ -1,7 +1,7 @@
 ---
 layout: partials/home/cards/main/index
-type: ホワイトペーパー
-title: PaaSやクラウドサービスと競合するためのブロックチェーン・アーキテクチャの考慮事項
+type: white paper
+title: Blockchain Architecture Considerations to Compete with PaaS/Cloud Services
 links:
   - link.md
 lat: 59.6749712
@@ -9,6 +9,6 @@ lng: 14.5208584
 countryCode: SE
 ---
 
-カテゴリ：技術
+Category: Technology
 
-日付：2018年8月
+Date: Aug 2018

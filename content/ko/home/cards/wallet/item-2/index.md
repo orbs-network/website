@@ -1,6 +1,6 @@
 ---
 layout: partials/home/cards/main/index
-type: 지갑
+type: wallet
 title: Trust Wallet
 links:
   - link.md
@@ -10,3 +10,4 @@ countryCode: MV
 ---
 
 지원 단말: Android
+

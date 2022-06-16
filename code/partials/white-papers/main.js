@@ -1,9 +1,9 @@
 import React from "react";
 
-const Main = ({ whitePapersList, pageHaeder }) => {
+const Main = ({ whitePapersList, _body }) => {
   return (
     <main className="white-papers">
-      {pageHaeder}
+      <div className="header">{_body}</div>
       <div className=" main-grid">{whitePapersList}</div>
     </main>
   );

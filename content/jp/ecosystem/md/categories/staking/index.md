@@ -1,12 +1,11 @@
 ---
 layout: partials/ecosystem/category
-title: ステーキング
+title: Staking
 
 items:
   - citadel.md
   - bitgo.md
-  - celsius.md
+  - bithumb.md
   - staked.md
   - moonstake.md
-  - bithumb.md
 ---

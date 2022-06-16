@@ -1,6 +1,7 @@
 ---
 layout: partials/home/cards/main/index
 type: 주요 팀원
+
 title: Daniel Peled
 links:
   - linkedin.md
@@ -11,3 +12,4 @@ countryCode: KR
 ---
 
 대표 및 공동 창업자
+

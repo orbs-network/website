@@ -1,7 +1,17 @@
+import { colors } from "../consts/consts.js";
 import { images } from "../images.js";
 import { init } from "../index.js";
 import { hideAppLoader } from "../ui/ui.js";
 import { getCardDataByType } from "./helpers.js";
+
+const globeColors = {
+  countries: "#999CE8c0",
+  background: colors.background,
+  arc: "#15F9FF",
+  polygonSideColor: "rgba(3,252,245,0.08)"
+};
+const delay = (ms) => new Promise((res) => setTimeout(res, ms));
+
 class GlobeHandler {
   constructor(timerHandler) {
     this.timerHandler = timerHandler;
@@ -12,23 +22,29 @@ class GlobeHandler {
     $guardianDetails.on("mouseout", timerHandler.resumeTimer);
 
     this.world = Globe()(document.getElementById("globeArea"))
-      .globeImageUrl(images.globe.earthDark)
-      .polygonCapColor((feat) => "rgb(0,109,109)")
-      .pointOfView({ altitude: 3.8 }, this.timings.welcomeCountryPop * 2)
-      .polygonSideColor(() => "rgba(3,252,245,0.04)")
+      .globeImageUrl(images.globe.earthLight)
+      .polygonCapColor(() => "#999CE8")
+      .pointOfView({ altitude: 3.2 }, this.timings.welcomeCountryPop * 2)
+      .polygonSideColor(() => "rgba(3,252,245,0.08)")
       // .polygonLabel(({ properties: p }) => p.NAME_LONG)
-      .polygonAltitude(0.01)
-      .atmosphereColor("#00ffff")
-      .pointAltitude(0.005)
-      .pointRadius(0.6);
-
+      .polygonAltitude(0.005)
+       .atmosphereColor("#9feced")
+       .atmosphereAltitude(0.4)
+       .showAtmosphere(false)
+      .pointAltitude(0.015)
+      .pointRadius(0.4)
+      .arcStroke(0.5)
+      .pointColor(() => "#15F9FF")
+      .backgroundColor(globeColors.background)
+      // .pointColor(() => backgroundColor)
+      .arcColor(() => globeColors.arc);
     // Auto-rotate
     const controls = this.world.controls();
+
     controls.autoRotate = true;
     controls.autoRotateSpeed = 1;
     controls.enableZoom = false;
     controls.enablePan = false;
-
 
     const pathToGeolocation =
       "/assets/datasets/ne_110m_admin_0_countries.geojson";
@@ -40,7 +56,7 @@ class GlobeHandler {
         setTimeout(() => {
           this.world
             .polygonsTransitionDuration(this.timings.welcomeCountryPop)
-            .polygonCapColor((feat) => "rgba(3,252,245,0.4)")
+            .polygonCapColor((feat) => globeColors.countries)
             .polygonAltitude((feat) =>
               Math.max(0.1, Math.sqrt(+feat.properties.POP_EST) * 10e-5)
             );
@@ -49,11 +65,30 @@ class GlobeHandler {
             this.finishedWelcome = true;
           }, 2200);
         }, 2000);
+        const scene = this.world.scene();
+        if (scene.children.length === 4) {
+          scene.children[1].intensity = 1.4;
+          scene.children[2].visible = false;
+        }
       });
-    window.addEventListener("resize", (event) => {
-      this.world.width([event.target.innerWidth]);
-      this.world.height([event.target.innerHeight]);
+
+    window.addEventListener("resize", () => {
+      this.resize();
     });
+    this.resize();
+  }
+
+  resize() {
+    let shiftFactor = 450;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    if (width < 700) {
+      shiftFactor = 0;
+    } else if (width > 2000) {
+      shiftFactor = 700;
+    }
+    this.world.width([width + shiftFactor]);
+    this.world.height([height + 100]);
   }
 
   getCardsData() {
@@ -94,11 +129,7 @@ class GlobeHandler {
 
       this.world
         .polygonsTransitionDuration(this.timings.changePointOfView - 400)
-        .polygonCapColor(({ properties: p }) =>
-          p.ISO_A2 === currentCardData.countryCode
-            ? "rgba(3,252,245,0.7)"
-            : "rgba(3,252,245,0.4)"
-        )
+        .polygonCapColor(({ properties: p }) => globeColors.countries)
         .polygonAltitude(({ properties: p }) =>
           p.ISO_A2 === currentCardData.countryCode ? 0.02 : 0.01
         )
@@ -170,7 +201,6 @@ const initGlobe = async () => {
     },
   };
 
-  const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
   let currentCardIndex = -1;
 
@@ -274,5 +304,7 @@ const initGlobe = async () => {
 
 window.onload = async () => {
   init(true);
+  //  await delay(8000)
   await initGlobe();
+  // hideAppLoader();
 };
