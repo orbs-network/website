@@ -5,8 +5,8 @@ list:
   - /_shared/team-members/nechama.md
   - /_shared/team-members/ran-hammer.md
   - /_shared/team-members/shlomi.md
-  - /_shared/team-members/eran-peled.md
   - /_shared/team-members/dolev.md
+  - /_shared/team-members/eran-peled.md
   - ../single-small-banners/item-1.md
   - ../sliders/item-2.md
   - ../double-banners/item-1.md
