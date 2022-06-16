@@ -1,67 +1,54 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Introducing-the-Orbscom-Revamped-Website/bg.jpg
+blogUrl: Introducing-the-Orbscom-Revamped-Website
+date: 2022-06-16
+title: "Introducing the Orbs.com Revamped Website"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Orbs is excited to launch the project’s revamped website for the release of Orbs 3.0. With the recent release of Orbs 3.0 and everything that has been going on with the Orbs project, the team felt that the existing website needs to undergo a major overhaul. And that’s exactly what we did…"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs is excited to launch the project’s revamped website for the release of Orbs 3.0**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+With the recent [release](https://www.orbs.com/Orbs3.0/) of Orbs 3.0 and everything that has been going on with the Orbs project, the team felt that the existing website needs to undergo a major overhaul.  
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+And that’s exactly what we did…
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The revamped website contains everything you need to know about the [Orbs project](https://www.orbs.com/Orbs-A-Re-introduction/), with focus on Orbs’ layer 3 technology, coupled with spectacular design.
 
-### Step-by-Step Guide
+Having a clear and concise website is extremely important as it serves as a focal point of information and content for community members, as well as anybody new to Orbs.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+So what are you waiting for?! Check out the new website here:
 
-Please also see our disclaimers below.
+[https://www.orbs.com/](https://www.orbs.com/)
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### A Fierce New Color Palette
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Probably the first thing to notice in the new website is the bold choice of color palette, or as we like to call it: psychedelic pastel meets defi.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+We thought that the black background is a little too “formal” and does not fit the “essence” of Web 3.0. The result is a somewhat strange but captivating color palette, and we love it!
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![homepage](/assets/img/blog/Introducing-the-Orbscom-Revamped-Website/image1.png)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### Updated Orbs 3.0 content
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+So the design is fabulous, but let's not forget that it's all about the content!
 
-### 2) Lend ALPACA tokens
+The new website has all the updated content on Orbs 3.0, including a new webpage dedicated to Orbs’ layer 3 technology. 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+![menu](/assets/img/blog/Introducing-the-Orbscom-Revamped-Website/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+In this page you’ll find valuable information about Orbs as a layer 3 infrastructure project and its role in the next evolution of DeFi protocols. The page also contains high-level explanations about the Orbs execution services: Orbs lambda and Orbs VM.
 
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+We hope you enjoy the updated website and invite everyone to browse through the content and get back to us with any feedback you might have on our social channels: [Twitter](https://twitter.com/orbs_network) | [Telegram](https://t.me/OrbsNetwork).
