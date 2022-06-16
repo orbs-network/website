@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Jun 2022 05:04:49 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jun 2022 07:01:23 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing the Orbs.com Revamped Website]]></title>
+            <description><![CDATA[Orbs is excited to launch the project’s revamped website for the release of Orbs 3.0. With the recent release of Orbs 3.0 and everything that has been going on with the Orbs project, the team felt that the existing website needs to undergo a major overhaul. And that’s exactly what we did…]]></description>
+            <link>https://www.orbs.com/Introducing-the-Orbscom-Revamped-Website</link>
+            <guid isPermaLink="true">https://www.orbs.com/Introducing-the-Orbscom-Revamped-Website</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-the-Orbscom-Revamped-Website/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs: A Re-introduction]]></title>
             <description><![CDATA[Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. Orbs’ unique features, designed for interoperability with EVM and non-EVM blockchains, together with its decentralized network of nodes, allow it to be set up as a separate decentralized execution layer operating between the base blockchain layer and application layer.]]></description>
