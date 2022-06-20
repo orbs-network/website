@@ -1,67 +1,46 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Ecosystem-Expands-to-Cronos/bg.jpg
+blogUrl: Orbs-Ecosystem-Expands-to-Cronos
+date: 2022-06-22
+title: "Orbs Ecosystem Expands to Cronos"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The DeFi market is a dynamic and ever-evolving space, with new and exciting projects constantly popping up. The Orbs team is always looking for new opportunities and possibilities, which is why we're excited to announce the next steps for the Orbs ecosystem expansion... Cronos chain is one of the fastest growing blockchain infrastructure projects, ranked #7 by DeFi Llama, with over $1B in TVL."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs recently released its [“Orbs: A Re-introduction”](https://www.orbs.com/Orbs-A-Re-introduction/) blog post, where we outline Orbs’ role as a layer 3 infrastructure project in the next evolution of DeFi applications. To achieve this goal, a key component of the Orbs architecture is multi-chain interoperability.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+The DeFi market is a dynamic and ever-evolving space, with new and exciting projects constantly popping up. The Orbs team is always looking for new opportunities and possibilities, which is why we're excited to announce the next steps for the Orbs ecosystem expansion...
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+### Cronos: A Rising Titan
 
-### Step-by-Step Guide
+[Cronos](https://cronos.org/) chain is one of the fastest growing blockchain infrastructure projects, [ranked #7](https://defillama.com/chains) by DeFi Llama, with over $1B in TVL.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Cronos chain is supported by [Crypto.com](https://crypto.com/) and is the first blockchain network that interoperates with both the Ethereum and Cosmos ecosystems. It is an open-source, EVM-compatible chain that allows dApps to scale by offering key metrics such as: enhanced scalability, interoperability with other leading chains (such as Cosmos and crypto.org chain), secured PoA (proof-of-authority) consensus mechanism, and more…
 
-Please also see our disclaimers below.
+In the past year, Cronos has made a major push into DeFi, recently announcing their [$100M grant program](https://blockworks.co/cronos-creates-100m-accelerator-program-to-support-defi-web3-projects/) attracting many DeFi projects. As a result, Cronos has managed to attract top-tier DeFi projects such as [VVS Finance](https://vvs.finance/), [MM FInance](https://mm.finance/), and [TECTONIC](https://tectonic.finance/), all with hundreds of millions in TVL and trading volumes.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+ 
+![Cronos](/assets/img/blog/Orbs-Ecosystem-Expands-to-Cronos/image1.jpeg)
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+### A Growing DeFi Ecosystem
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Orbs is already available on leading L1+L2 chains, including: Ethereum, BSC, Polygon, Solana, Avalanche, Harmony and Fantom. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+This further facilitated the integration of Orbs with over 30 of the major DeFi platforms and protocols (such as UniSwap, SushiSwap, PancakeSwap, Kyber Network, 1inch, Alpaca Finance, Beefy Finance, QuickSwap, Raydium, Trader Joe, Pangolin, SpookySwap, with more to come in the near future...).
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![Cronos](/assets/img/blog/Orbs-Ecosystem-Expands-to-Cronos/image2.jpg)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+ 
+Orbs' strategic expansion into the Cronos ecosystem will further solidify the ORBS token's status as a multi-chain asset which is integrated into all the major DeFi chains. In addition, it will open the door for more opportunities for collaborations with top Cronos-native DeFi protocols to showcase Orbs’ L3 capabilities.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Expect more news on Orbs and Cronos soon...
 
-Once the position is opened, you can always re-adjust the parameters:
+For the latest updates, join the official [Orbs Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork) group.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
