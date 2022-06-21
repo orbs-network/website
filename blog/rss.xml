@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jun 2022 15:24:07 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jun 2022 14:38:38 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Ecosystem Expands to Cronos]]></title>
+            <description><![CDATA[The DeFi market is a dynamic and ever-evolving space, with new and exciting projects constantly popping up. The Orbs team is always looking for new opportunities and possibilities, which is why we&#x27;re excited to announce the next steps for the Orbs ecosystem expansion... Cronos chain is one of the fastest growing blockchain infrastructure projects, ranked #7 by DeFi Llama, with over $1B in TVL.]]></description>
+            <link>https://www.orbs.com/Orbs-Ecosystem-Expands-to-Cronos</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Ecosystem-Expands-to-Cronos</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Ecosystem-Expands-to-Cronos/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Introducing the Orbs.com Revamped Website]]></title>
             <description><![CDATA[Orbs is excited to launch the project’s revamped website for the release of Orbs 3.0. With the recent release of Orbs 3.0 and everything that has been going on with the Orbs project, the team felt that the existing website needs to undergo a major overhaul. And that’s exactly what we did…]]></description>
