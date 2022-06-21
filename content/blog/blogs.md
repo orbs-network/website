@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Ecosystem-Expands-to-Cronos/blog.md
   - Introducing-the-Orbscom-Revamped-Website/blog.md
   - Orbs-A-Re-introduction/blog.md
   - Request-for-Feedback-on-the-Notification-App/blog.md
