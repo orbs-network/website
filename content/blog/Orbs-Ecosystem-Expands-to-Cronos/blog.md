@@ -24,7 +24,7 @@ Cronos chain is supported by [Crypto.com](https://crypto.com/) and is the first 
 In the past year, Cronos has made a major push into DeFi, recently announcing their [$100M grant program](https://blockworks.co/cronos-creates-100m-accelerator-program-to-support-defi-web3-projects/) attracting many DeFi projects. As a result, Cronos has managed to attract top-tier DeFi projects such as [VVS Finance](https://vvs.finance/), [MM FInance](https://mm.finance/), and [TECTONIC](https://tectonic.finance/), all with hundreds of millions in TVL and trading volumes.
 
  
-![Cronos](/assets/img/blog/Orbs-Ecosystem-Expands-to-Cronos/image1.jpeg)
+![Cronos](/assets/img/blog/Orbs-Ecosystem-Expands-to-Cronos/image3.jpeg)
 
 
 ### A Growing DeFi Ecosystem
