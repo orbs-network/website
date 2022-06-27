@@ -1,7 +1,7 @@
 ---
 layout: partials/network/ProductImage
-img: /assets/img/network/product-image-2.png
+img: /assets/img/network/jp/product-image-2.png
 id: 2
 ---
 
-### Serverless Cloud Options
+### 分散型実行の進化

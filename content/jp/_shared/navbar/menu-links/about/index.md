@@ -5,6 +5,7 @@ id: about
 links:
   - blog.md
   - ecosystem.md
+  - media.md
   - whitepapers.md
   - team.md
   - faq.md

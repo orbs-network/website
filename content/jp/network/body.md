@@ -10,9 +10,9 @@ third_section:
 products: 
   - md/products/index.md
 product_images_1:
-  - md/products-images/jp/image1.md
+  - md/products-images/image1.md
 product_images_2:
-  - md/products-images/jp/image2.md
+  - md/products-images/image2.md
 ---
 
 
