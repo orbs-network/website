@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[ブログ](/jp/blog)
+[ブログ](https://orbs-japan-community.medium.com/)
