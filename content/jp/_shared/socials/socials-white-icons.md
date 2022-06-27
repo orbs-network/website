@@ -13,4 +13,10 @@ links:
 
   - img: /assets/img/socials/white/youtube.svg
     url: https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg
+
+  - img: /assets/img/socials/white/github.svg
+    url: https://github.com/orbs-network/
+  
+  - img: /assets/img/socials/white/medium.svg
+    url: https://orbs-japan-community.medium.com/
 ---
