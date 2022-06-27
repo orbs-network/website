@@ -63,6 +63,8 @@ const Page = (props) => {
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
       <body style={{ background: colors.background }}>
+
+        
         <AppLoader generateUrl={generateUrl} />
         <div className="app-wrapper" style={{ opacity: 0 }}>
           {header}
