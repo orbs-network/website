@@ -26,5 +26,5 @@ languages:
     img: /assets/img/navbar/japan.svg
 subscribe_to_updates: 最新情報を取得
 blog: ブログ
-blog_link: /jp/blog
+blog_link: https://orbs-japan-community.medium.com/
 ---
