@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jun 2022 13:50:17 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jun 2022 08:42:42 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[New ORBS-JPYC Liquidity Pool Launches on QuickSwap]]></title>
+            <description><![CDATA[The Orbs project is excited to announce the launch of a new ORBS-JPYC pool on QuickSwap, the leading DEX-AMM on Polygon! This new pool, together with Orbs PoS multi-chain staking on Polygon, provides a full and easy flow for Japanese Orbs Delegators to acquire and stake Orbs tokens in the Orbs Proof-of-Stake mechanism on the Polygon network.]]></description>
+            <link>https://www.orbs.com/New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Ecosystem Expands to Cronos]]></title>
             <description><![CDATA[The DeFi market is a dynamic and ever-evolving space, with new and exciting projects constantly popping up. The Orbs team is always looking for new opportunities and possibilities, which is why we&#x27;re excited to announce the next steps for the Orbs ecosystem expansion... Cronos chain is one of the fastest growing blockchain infrastructure projects, ranked #7 by DeFi Llama, with over $1B in TVL.]]></description>
