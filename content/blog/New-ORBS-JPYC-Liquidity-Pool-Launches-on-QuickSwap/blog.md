@@ -1,67 +1,54 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap/bg.jpg
+blogUrl: New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap
+date: 2022-06-30
+title: "New ORBS-JPYC Liquidity Pool Launches on QuickSwap"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Orbs project is excited to announce the launch of a new ORBS-JPYC pool on QuickSwap, the leading DEX-AMM on Polygon! This new pool, together with Orbs PoS multi-chain staking on Polygon, provides a full and easy flow for Japanese Orbs Delegators to acquire and stake Orbs tokens in the Orbs Proof-of-Stake mechanism on the Polygon network."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The Orbs project is excited to announce the launch of a new [ORBS-JPYC pool](https://info.quickswap.exchange/#/pair/0xd01c074c78e9647a5ddae2648f1a089b98d5380a) on QuickSwap, the leading DEX-AMM on Polygon!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+This new pool, together with Orbs PoS [multi-chain staking](https://www.orbs.com/polygon-staking/) on Polygon, provides a full and easy flow for Japanese Orbs Delegators to acquire and stake Orbs tokens in the Orbs Proof-of-Stake mechanism on the Polygon network.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+### Streamlined Access to Orbs Liquidity 
 
-### Step-by-Step Guide
+Following feedback from the Japanese community regarding easier access to Orbs liquidity for Japanese token holders, a new ORBS liquidity pool has been opened on QuickSwap.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The pool currently has more than $80k in total liquidity and allows for direct swaps between JPYC and ORBS tokens. This in turn removes the need for “hopping” between different token pairs when swapping JPYC and ORBS, and as a result, reduces trading fees and price impact.
 
-Please also see our disclaimers below.
+In addition to this new ORBS-JPYC pool, QuickSwap has additional pools for ORBS pairs, the largest of which is [ORBS-USDC](https://info.quickswap.exchange/#/pair/0xb2b6d423e535b57aad06e9866803b95fb66152ea) with almost $700k in liquidity.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+QuickSwap is the largest DEX-AMM on the Polygon network with over $250M in TVL according to [Defi Llama](https://defillama.com/chain/Polygon).
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+### Orbs Multi-chain Staking on Polygon
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Orbs recently launched its PoS V3: [Multichain staking](https://www.orbs.com/polygon-staking/) on Ethereum and Polygon. As a result, Orbs PoS staking is now available for Orbs Delegators on the Polygon network using [Tetra](https://www.orbs.com/How-to-Stake-ORBS-on-Polygon-Using-Tetra/), the official Orbs staking wallet.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![tetra](/assets/img/blog/New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap/image1.jpeg)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Since launch, there has been increasing demand by Orbs Delegators to stake on Polygon, with almost 20% of the total delegated stake now found on Polygon. The new ORBS-JPYC pool is expected to boost inclusion and participation of Japanese Orbs token holders in the PoS staking, as well as solidify Orbs as a multi-chain protocol.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### JPYC - A leading Japanese Yen Stablecoin
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+[JPYC](https://jpyc.jp/) is an up-and-coming fully backed Japanese Yen stablecoin that enables easy access to the world of blockchain and DeFi for Japanese users.
 
-### 2) Lend ALPACA tokens
+Purchasing JPYC with Japanese Yen is an easy and user-friendly process. Here’s a [short video](https://www.youtube.com/watch?v=v_4aGzKIod4&t=20s) on how to do it. Once purchased, the JPYC tokens can be received directly on Polygon, as well as other networks such as Ethereum, Avalanche and more.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Learn more about JPYC [here](https://jpyc.gitbook.io/jpyc/jpyc/introduction).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The Orbs community plays a vital role in the success of the Orbs project and therefore it is important to ensure that participating in the Orbs PoS is as accessible as possible for ORBS token holders around the globe.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+For the latest updates, join the official [Orbs Twitter](https://twitter.com/orbs_network) and [Telegram group](https://t.me/OrbsNetwork).
