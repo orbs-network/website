@@ -1,8 +1,7 @@
 ---
 layout: partials/footer/index
 
-blogs:
-  - blogs/index.md
+
 tweets:
   - tweets/index.md
 navigation:
