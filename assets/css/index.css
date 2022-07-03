@@ -2784,15 +2784,15 @@ body {
 .footer-flex {
   padding-bottom: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: stretch;
+  gap: 50px;
 }
 .footer-logo-section {
   width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 70px;
 }
 .footer-logo-section .footer-logo {
   width: auto;
@@ -2811,7 +2811,6 @@ body {
 }
 .footer-blogs {
   width: 35%;
-  padding-right: 40px;
 }
 .footer-blogs .footer-blog {
   border-bottom: 1px solid #DA88DE;
@@ -2854,7 +2853,7 @@ body {
   height: 320px;
   overflow: hidden;
   flex: 1;
-  padding-left: 40px;
+  max-width: 500px;
 }
 .footer-tweets-content {
   overflow: auto;
@@ -2967,12 +2966,10 @@ body {
   .footer-logo-section {
     padding: 0px;
     width: 100%;
-    margin-bottom: 70px;
   }
   .footer-blogs {
     width: 100%;
     padding: 0px;
-    margin-bottom: 20px;
   }
   .footer-tweets {
     width: 100%;
@@ -2985,6 +2982,7 @@ body {
   }
   .footer-flex {
     flex-direction: column;
+    gap: 60px;
   }
   .footer-navigation .main-grid, .footer-navigation .contact {
     flex-direction: column;

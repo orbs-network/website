@@ -18,4 +18,5 @@ items:
   - mew.md
   - imToken.md
   - dcent.md
+  - simplehold.md
 ---
