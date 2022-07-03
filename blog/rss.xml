@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Jun 2022 08:42:42 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 03 Jul 2022 08:14:08 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[New ORBS-JPYC Liquidity Pool Launches on QuickSwap]]></title>
@@ -370,22 +370,6 @@
             <dc:creator><![CDATA[Olga Chef]]></dc:creator>
             <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
             <enclosure url="https://www.orbs.com/assets/img/blog/SecondContest-images/bg2.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[ORBS Goes Live on Harmony Using the Horizon Cross-Chain Bridge]]></title>
-            <link>https://www.orbs.com/Horizon</link>
-            <guid isPermaLink="true">https://www.orbs.com/Horizon</guid>
-            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
-            <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/Horizon-images/bg.jpg" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Orbs Welcomes Onboard a New Guardian]]></title>
-            <link>https://www.orbs.com/D-Kuru</link>
-            <guid isPermaLink="true">https://www.orbs.com/D-Kuru</guid>
-            <dc:creator><![CDATA[Olga Chef]]></dc:creator>
-            <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/D-Kuru-images/bg.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Orbs Ecosystem Growth: Harmony]]></title>
