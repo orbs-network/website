@@ -24,7 +24,7 @@ This collaboration is part of a wider push by Orbs to make the network as access
 
 In addition to this, Staking as a Service vendor [Staked.US](https://staked.us/) has chosen to join the party, adding ORBS as well by acting as a Guardian to the Orbs Network. The popular US-based SaaS company is backed by the likes of Pantera Ventures, Coinbase Ventures and Digital Currency Group, and will assist in adding more strategic partners as well as raising capital for the project.
 
-The celebratory event early this week in Seoul included presentations from both communities, including talks from CEO of Celsius Network Alex Mashinsky, President of Orbs Daniel Peled, and Orbs Korea representative Eddy Kim. In addition to talks about the nature of the collaboration, other announcements were made, including ORBS’ added listing to the popular [OKEx exchange](https://www.okex.com/), and the opening of a new Orbs Center in Korea to be used to host meetups and further evangelize the project to local crypto and technological communities.
+The celebratory event early this week in Seoul included presentations from both communities, including talks from CEO of Celsius Network Alex Mashinsky, President of Orbs Daniel Peled, and Orbs Korea representative Eddy Kim. In addition to talks about the nature of the collaboration, other announcements were made, including ORBS’ added listing to the popular [OKX exchange](https://www.okx.com/), and the opening of a new Orbs Center in Korea to be used to host meetups and further evangelize the project to local crypto and technological communities.
 
 ##### **Media Mentions (Korea)**
 
