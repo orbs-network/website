@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 03 Jul 2022 08:14:08 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 05 Jul 2022 07:21:20 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ORBS Added to SimpleHold Wallet]]></title>
+            <description><![CDATA[We are happy to announce that ORBS is now available on SimpleHold wallet! Orbs token holders can now store, send and receive their ORBS tokens on their SimpleHold wallet mobile app, available on both Android and iOS.]]></description>
+            <link>https://www.orbs.com/how-to-use-the-orbs-pool-on-alpaca-finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/how-to-use-the-orbs-pool-on-alpaca-finance</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ORBS-Added-to-SimpleHold-Wallet/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[New ORBS-JPYC Liquidity Pool Launches on QuickSwap]]></title>
             <description><![CDATA[The Orbs project is excited to announce the launch of a new ORBS-JPYC pool on QuickSwap, the leading DEX-AMM on Polygon! This new pool, together with Orbs PoS multi-chain staking on Polygon, provides a full and easy flow for Japanese Orbs Delegators to acquire and stake Orbs tokens in the Orbs Proof-of-Stake mechanism on the Polygon network.]]></description>
