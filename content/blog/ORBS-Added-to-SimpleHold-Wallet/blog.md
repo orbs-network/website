@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/ORBS-Added-to-SimpleHold-Wallet/bg.jpg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
+blogUrl: ORBS-Added-to-SimpleHold-Wallet
 date: 2022-07-05
 title: "ORBS Added to SimpleHold Wallet"
 author:
