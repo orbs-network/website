@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-Added-to-SimpleHold-Wallet/blog.md
   - New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap/blog.md
   - Orbs-Ecosystem-Expands-to-Cronos/blog.md
   - Introducing-the-Orbscom-Revamped-Website/blog.md
