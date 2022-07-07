@@ -38,6 +38,12 @@ class GlobeHandler {
       .backgroundColor(globeColors.background)
       // .pointColor(() => backgroundColor)
       .arcColor(() => globeColors.arc);
+
+      setTimeout(() => { // wait for scene to be populated (asynchronously)
+        const directionalLight = this.world.scene().children.find(obj3d => obj3d.type === 'DirectionalLight');
+        directionalLight && directionalLight.position.set(1, 1, 1); // change light position to see the specularMap's effect
+      });
+
     // Auto-rotate
     const controls = this.world.controls();
 
@@ -67,8 +73,8 @@ class GlobeHandler {
         }, 2000);
         const scene = this.world.scene();
         if (scene.children.length === 4) {
-          scene.children[1].intensity = 1.4;
-          scene.children[2].visible = false;
+          scene.children[1].intensity = 1.4;          
+          scene.children[2].intensity = 0.2;
         }
       });
 
