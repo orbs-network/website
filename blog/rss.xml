@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 Jul 2022 10:28:18 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 18 Jul 2022 11:17:03 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Guardian Spotlight: ”Tbonestaking” by CROSSTECH]]></title>
+            <description><![CDATA[CROSSTECH has recently joined Orbs Proof of Stake as a new Guardian. CROSSTECH is a popular project, especially in Asia, that operates multiple nodes for PoS networks such as ETH, ADA, SOL, ATOM, AVAX, IOST, IOTX, and now also ORBS under the unique Guardian name ”Tbonestaking”.]]></description>
+            <link>https://www.orbs.com/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH</guid>
+            <dc:creator><![CDATA[Mayo Hotta]]></dc:creator>
+            <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[ORBS Added to SimpleHold Wallet]]></title>
             <description><![CDATA[We are happy to announce that ORBS is now available on SimpleHold wallet! Orbs token holders can now store, send and receive their ORBS tokens on their SimpleHold wallet mobile app, available on both Android and iOS.]]></description>
