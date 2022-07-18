@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/bg.jpg
 blogUrl: Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH
 date: 2022-07-18
-title: 'Orbs Guardian Spotlight: "Tbonestaking" by CROSSTECH'
+title: 'Orbs Guardian Spotlight: Tbonestaking by CROSSTECH'
 author:
   - /blog/common/authors/MayoHotta.md
 type:
