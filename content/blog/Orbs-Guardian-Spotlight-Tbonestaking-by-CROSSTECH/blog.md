@@ -1,67 +1,92 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/bg.jpg
+blogUrl: Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH
+date: 2022-07-18
+title: "Orbs Guardian Spotlight: "Tbonestaking" by CROSSTECH"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/MayoHotta.md
 type:
-short_description:
+short_description: "CROSSTECH has recently joined Orbs Proof of Stake as a new Guardian. CROSSTECH is a popular project, especially in Asia, that operates multiple nodes for PoS networks such as ETH, ADA, SOL, ATOM, AVAX, IOST, IOTX, and now also ORBS under the unique Guardian name "Tbonestaking"."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+CROSSTECH has recently joined Orbs Proof of Stake as a new Guardian. CROSSTECH is a popular project, especially in Asia, that operates multiple nodes for PoS networks such as ETH, ADA, SOL, ATOM, AVAX, IOST, IOTX, and now also ORBS under the unique Guardian name "Tbonestaking".
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+CROSSTECH is building an ecosystem called the CROSS Value Chain, aiming to integrate the world's largest blockchain infrastructure projects. In addition to developing the CROSS Value Chain, CROSSTECH also develops other blockchain-related systems and provides technology to exchanges etc. Currently, CROSSTECH is based in Dubai.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+CROSSTECH is also engaged in planning and development, focusing on U/IUX in blockchain-related fields such as NFT and Metaverse, and is steadily expanding its ecosystem in collaboration with companies and university laboratories around the world.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+We are excited to welcome CROSSTECH to the Orbs community! 
 
-### Step-by-Step Guide
+You can learn more about them at their website here: 
+[https://cross.technology/](https://cross.technology/)
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+To introduce themselves, CROSSTECH graciously agreed to answer some questions about their involvement with the Orbs project. 
 
-Please also see our disclaimers below.
+**Q1: What made you interested in Orbs?**
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+We learned about Orbs a few years ago. Currently, there are more than 50 Ethereum Virtual Machines (EVMs) L1 + L2 projects out there, and we found it interesting that Orbs positioned themselves as a Layer 3, which we find as an interesting and novel concept. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Q2: What do you think of Orbs' L3 business strategy?**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+In our involvement with the Orbs project, we are focusing on being part of the process of working with projects in the existing EVM ecosystem and supporting applications that add value to them. With Orbs' unique features designed for interoperability with EVM blockchains and a distributed network of nodes, it can be configured as a separate L3 execution layer that works to enhance the functionality of EVM smart contracts. We look forward to being part of future developments as we can work with other Layer 1 and 2 solutions as part of the hierarchical blockchain stack to provide a more complex and dynamic approach with DeFi, NFT, Metaverse and GameFi.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+**Q3：How do you plan to boost up your community as a Guardian?**
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+We hope to help boost the Orbs community by providing an additional service for staking access, where Orbs Delegators can easily stake their ORBS tokens and receive the highest level of ORBS staking rewards.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Ultorex, which is an exchange platform operated by CROSSTECH, provides a service that makes it easy to stake ORBS in cooperation with the Guardian Node (Tbonestaking) operated by CROSSTECH. No need to stake from your Tetra wallet or bridge to the Polygon chain! You can get staking rewards by staking ORBS on Ultorex.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+In addition, Ultorex also added an automatic compound interest ON-OFF switch for ORBS staking on Polygon for the benefit of its users, and this unique service is available to meet more customer needs. Furthermore, at present, during our bootstrapping phase, when staking via Ultorex, 50% of the reward that the Guardian Node originally receives from the protocol will be given to the top 10 stakers, with the amount of rewards proportional to the amount of tokens staked. Please feel free to check out the Ultorex site to learn more!
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+![ultorex](/assets/img/blog/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+CROSSTECH also has an official Discord with communities in English, Turkish, Vietnamese and Japanese. We hope that you will join us and enliven the CROSSTECH community together.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+✅CROSSTECH Official Discord : [https://discord.gg/crosstech](https://discord.gg/crosstech)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+① Join and click the CROSSTECH icon from #wellcome.
+② Please read #rule carefully and check ✅.
+③ All channels are displayed.
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+**Q4：Thank you very much for your support at the Blockchain Expo in May. How was your impression of meeting Nadav, Ran and Mayo?**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+![visit](/assets/img/blog/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/image2.png)
 
-#### And that’s it – You are now a senior Alpaca!
+At the "Blockchain EXPO Spring" OpenSkyBlue booth held at Tokyo Big Sight, Orbs team CEO Nadav announced "Orbs 3.0", which celebrated the 3rd anniversary of the launch of the mainnet and tokens. An exciting commentary was given on the three components of Orbs 3.0: PoS V3, Layer 3, and Web 3.0, with Orbs’ new vision of “making smart contracts smarter”. Mayo, Orbs Head of Japan, explained the concept in a very easy-to-understand manner with simultaneous interpretation, and the event was a great success. As many overseas projects stopped coming to Japan due to the influence of Covid-19, our team was very happy to see the Orbs team’s enthusiastic  attitude in coming to Japan early and meeting the community.
+
+
+**Q5：Any messages to the Orbs community?**
+
+CROSSTECH believes that there are many areas where we can collaborate in expanding the Orbs ecosystem, and we would love to play that role.
+
+Currently, the blockchain industry is still in a technological transition period, and we are making rapid progress while dealing with various issues every day.
+
+CROSS Value Chain (CVC) will take a unique approach to the Layer 1 blockchain. CROSSTECH's proprietary decentralized content storage (DACS/Decentralized Autonomous Contents Storage) is incorporated into the consensus algorithm and is designed to expand the representation area of ​​the blockchain where only raw data can be stored.
+
+Our testnet will be released in Q3 2022. We are confident that future collaborations will be a great force for Orbs, and we hope that we will co-create an ecosystem through new collaborations in the future.
+
+In addition, Ultorex, which collaborated in the staking campaign accompanying the launch of ORBS staking on Polygon, provides the world's highest level staking environment through technology built through our own development. We hope you will also be able to use Ultorex's staking. We would be very happy if everyone in the Orbs family could take this opportunity to learn more about CROSSTECH and Ultorex and consider getting involved in what we are building.
+
+Please follow the official channels below.
+
+✅CROSSTECH Official Twitter (English)
+[https://twitter.com/crosstech_main](https://twitter.com/crosstech_main)
+
+✅CHCROSSTECH Official Twitter (Japanese)
+[https://twitter.com/CROSSTECH_JP](https://twitter.com/CROSSTECH_JP)
+
+✅Ultorex Official Twitter
+[https://twitter.com/UltorexOfficial](https://twitter.com/UltorexOfficial)
+
+
 
 <div class='line-separator'> </div>
 
-**Please Note**
+Learn more about Orbs PoS:
+[https://www.orbs.com/pos/](https://www.orbs.com/pos/)
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+For the latest updates, join the official [Orbs Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork) group.
