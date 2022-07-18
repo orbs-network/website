@@ -19,6 +19,7 @@ CROSSTECH is also engaged in planning and development, focusing on U/IUX in bloc
 We are excited to welcome CROSSTECH to the Orbs community! 
 
 You can learn more about them at their website here: 
+
 [https://cross.technology/](https://cross.technology/)
 
 To introduce themselves, CROSSTECH graciously agreed to answer some questions about their involvement with the Orbs project. 
@@ -48,7 +49,9 @@ CROSSTECH also has an official Discord with communities in English, Turkish, Vie
 ✅CROSSTECH Official Discord : [https://discord.gg/crosstech](https://discord.gg/crosstech)
 
 ① Join and click the CROSSTECH icon from #wellcome.
+
 ② Please read #rule carefully and check ✅.
+
 ③ All channels are displayed.
 
 
