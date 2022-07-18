@@ -37,8 +37,6 @@ const Page = (props) => {
         
         <script src="https://www.googletagmanager.com/gtag/js?id=G-HJ74DHDLS3" />
 
-      
-
         <MetaTags {...props} />
 
         <script src={generateUrl('/assets/js/dependencies/aos.js')}></script>
