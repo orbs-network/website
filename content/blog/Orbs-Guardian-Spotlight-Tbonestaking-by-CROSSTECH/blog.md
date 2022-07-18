@@ -77,12 +77,15 @@ In addition, Ultorex, which collaborated in the staking campaign accompanying th
 Please follow the official channels below.
 
 ✅CROSSTECH Official Twitter (English)
+
 [https://twitter.com/crosstech_main](https://twitter.com/crosstech_main)
 
 ✅CHCROSSTECH Official Twitter (Japanese)
+
 [https://twitter.com/CROSSTECH_JP](https://twitter.com/CROSSTECH_JP)
 
 ✅Ultorex Official Twitter
+
 [https://twitter.com/UltorexOfficial](https://twitter.com/UltorexOfficial)
 
 
