@@ -7,6 +7,8 @@ title: 'Orbs Guardian Spotlight: "Tbonestaking" by CROSSTECH'
 author:
   - /blog/common/authors/MayoHotta.md
 type:
+
+
 short_description: "CROSSTECH has recently joined Orbs Proof of Stake as a new Guardian. CROSSTECH is a popular project, especially in Asia, that operates multiple nodes for PoS networks such as ETH, ADA, SOL, ATOM, AVAX, IOST, IOTX, and now also ORBS under the unique Guardian name "Tbonestaking"."
 ---
 
