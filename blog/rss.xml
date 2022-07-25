@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 Jul 2022 12:02:29 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 25 Jul 2022 05:40:42 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ORBS Farming and Single Stake Pool Goes Live on SpookySwap!]]></title>
+            <description><![CDATA[SpookySwap users can now farm BOO tokens on the ORBS-USDC pool and earn ORBS tokens in SpookySwap’s Single-stake feature! After recently adding the Orbs tokens to their platform, SpookySwap are now launching farming and Single-stake for ORBS. Users can now farm SpookySwap’s native token, BOO, by providing liquidity to the ORBS-USDC pool which can then be staked to earn ORBS tokens.]]></description>
+            <link>https://www.orbs.com/ORBS-Farming-Goes-Live-on-SpookySwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/ORBS-Farming-Goes-Live-on-SpookySwap</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ORBS-Farming-Goes-Live-on-SpookySwap/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Guardian Spotlight: ”Tbonestaking” by CROSSTECH]]></title>
             <description><![CDATA[CROSSTECH has recently joined Orbs Proof of Stake as a new Guardian. CROSSTECH is a popular project, especially in Asia, that operates multiple nodes for PoS networks such as ETH, ADA, SOL, ATOM, AVAX, IOST, IOTX, and now also ORBS under the unique Guardian name ”Tbonestaking”.]]></description>
