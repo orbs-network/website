@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-Farming-Goes-Live-on-SpookySwap/blog.md
   - Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/blog.md
   - ORBS-Added-to-SimpleHold-Wallet/blog.md
   - New-ORBS-JPYC-Liquidity-Pool-Launches-on-QuickSwap/blog.md
