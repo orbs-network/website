@@ -7,7 +7,6 @@ links:
   - ecosystem.md
   - media.md
   - whitepapers.md
-  - team.md
   - faq.md
   - hexa.md
   - contact.md
