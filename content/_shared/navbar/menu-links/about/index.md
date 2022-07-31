@@ -6,7 +6,6 @@ links:
   - blog.md
   - ecosystem.md
   - news.md
-  - team.md
   - whitepapers.md
   - faq.md
   - hexa.md
