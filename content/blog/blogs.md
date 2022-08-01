@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - bitrue-listing-announcement/blog.md
   - ORBS-Farming-Goes-Live-on-SpookySwap/blog.md
   - Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/blog.md
   - ORBS-Added-to-SimpleHold-Wallet/blog.md
