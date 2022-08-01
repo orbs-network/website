@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 31 Jul 2022 15:28:01 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 01 Aug 2022 06:25:01 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Bitrue Exchange Lists Orbs Token (ORBS)]]></title>
+            <link>https://www.orbs.com/bitrue-listing-announcement</link>
+            <guid isPermaLink="true">https://www.orbs.com/bitrue-listing-announcement</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/bitrue-listing-announcement/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[ORBS Farming and Single Stake Pool Goes Live on SpookySwap!]]></title>
             <description><![CDATA[SpookySwap users can now farm BOO tokens on the ORBS-USDC pool and earn ORBS tokens in SpookySwap’s Single-stake feature! After recently adding the Orbs tokens to their platform, SpookySwap are now launching farming and Single-stake for ORBS. Users can now farm SpookySwap’s native token, BOO, by providing liquidity to the ORBS-USDC pool which can then be staked to earn ORBS tokens.]]></description>
