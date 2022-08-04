@@ -1,67 +1,98 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Presenting-the-Revamped-Network-Status-Page/bg.jpg
+blogUrl: Presenting-the-Revamped-Network-Status-Page
+date: 2022-08-04
+title: "Presenting the Revamped Network Status Page"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/YuvalAviguy.md
 type:
-short_description:
+short_description: "The last few months have been very exciting for the Orbs project, with the rollout of Orbs 3.0. Orbs 3.0 introduces 2 major protocol upgrades, which are already live and running on the Orbs network: 1) PoS V3: The Orbs network Proof-of-Stake mechanism, powering the network by utilizing multi-chain staking on Ethereum and Polygon. 2) Layer 3: Orbs value proposition - acting as a separate layer on top of existing EVM-based L1s and L2s to enhance the capabilities of smart contracts and DeFi applications."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The last few months have been very exciting for the Orbs project, with the rollout of [Orbs 3.0](https://www.orbs.com/Orbs3.0/).
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Orbs 3.0 introduces 2 major protocol upgrades, which are already live and running on the Orbs network:
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+- PoS V3: The Orbs network Proof-of-Stake mechanism, powering the network by utilizing [multi-chain staking](https://www.orbs.com/polygon-staking/) on Ethereum and Polygon.
+- Layer 3: Orbs value proposition - acting as a [separate layer](https://www.orbs.com/Orbs-A-Re-introduction/) on top of existing EVM-based L1s and L2s to enhance the capabilities of smart contracts and DeFi applications.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Some of you may have noticed the above network upgrades already reflected in the Orbs network status page - 
 
-### Step-by-Step Guide
+[http://status.orbs.network/](http://status.orbs.network/)
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+In case you haven't, no problem, that’s what I’m here for!
 
-Please also see our disclaimers below.
+Here is a short overview of the revamped Orbs status page…
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Multi-chain Staking on Ethereum and Polygon
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+As of march 2022, Orbs network supports staking on Polygon network as well as Ethereum, for Delegators and Guardians.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Staking on Polygon addressed one of the key feedback items from the community following the V2 launch: high costs for Orbs Delegators on Ethereum as a result of gas spikes. Since launch, Polygon staking has been extremely well-received by the community, [boosting inclusion](https://www.orbs.com/Orbs-Staking-Auto-compound-is-Now-Live-on-Polygon/) and participation of Orbs token holders in the Orbs PoS.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+The status page monitors key parameters of the Orbs PoS and the proper operation of the Orbs Guardians’ nodes. 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Here are some key things to look at:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+![status1](/assets/img/blog/Presenting-the-Revamped-Network-Status-Page/image1.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+A quick glance at the Status page in un-expanded mode can confirm if the network is functioning properly - if everything is in order it will show up green.
 
-### 2) Lend ALPACA tokens
+At the top of the page you will find the addition of **Matic contracts**:
+- Shows total staked in Polygon staking smart contracts
+- Turns yellow up on error, for instance - no staking unstaking events for 3 days
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+In addition, status for each **Guardian node** is also displayed according to his order in the committee.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+![status2](/assets/img/blog/Presenting-the-Revamped-Network-Status-Page/image2.png)
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+The expanded view will display the following additional information:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+- **Matic Writer**
+  * Equivalent to Ethereum writer on the Polygon network
+  * Turns yellow up on transaction and community related errors
+- **Polygon Chain**
+  * Equivalent to Ethereum reader on the Polygon network
+  * Turns yellow if a chain sync related error occurs
 
-#### And that’s it – You are now a senior Alpaca!
+
+### Moving Towards Layer 3 Architecture
+
+The Orbs team recently introduced two [new services](https://www.orbs.com/network/) as part of Orbs L3: Orbs VM and Orbs Lambda. As development on these new services advances, additional adjustments will be added to the status page.
+
+![status3](/assets/img/blog/Presenting-the-Revamped-Network-Status-Page/image3.png)
+
+
+The first phase includes the following information:
+
+- **Core services**
+  * Core services are reduced to a list of V icons in this order: Boyar, signer, Logger, EthereumWriter, Matic Writer.
+  * Each V represents a core service and tooltip which shows the Status field.
+  * Turns into X and paint the box in yellow upon an error in each of the services.
+
+- **vm-keepers**
+  * This is the first L3 use case service, which in time will be changed to vm-lambda.
+  * It uses a leader selection amongst the committee nodes, and all should show the same leader in a single point in time.
+  * Turns yellow upon failure of transaction execution of any of the keepers’ tasks.
+
+- **vm-notifications**
+  * Another orbs-vm use case: The [Open DeFi Notification Protocol](https://defi.org/notifications/).
+  * Notification audit process is done randomly on all nodes.
+  * Number of successfully performed audits are shown in the box
+  * Status box turns yellow upon error in status.
+
+
+
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+That's all for now!
+
+Stay tuned for more information and updates in the official Orbs [Telegram channel](https://t.me/OrbsNetwork).
