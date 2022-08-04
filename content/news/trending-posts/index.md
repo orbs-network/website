@@ -3,6 +3,6 @@ layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
   - ../posts/cointelegraph_polygon.md
-  - ../posts/nasdaq_dappradar.md
+  - ../posts/DeFi.org-Announce-Accelerator-Program-Members-with-Polygon-and-Orbs.md.md
 ---
 
