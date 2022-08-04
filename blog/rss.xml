@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Aug 2022 11:29:31 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 04 Aug 2022 11:32:02 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Presenting the Revamped Network Status Page]]></title>
+            <description><![CDATA[The last few months have been very exciting for the Orbs project, with the rollout of Orbs 3.0. Orbs 3.0 introduces 2 major protocol upgrades, which are already live and running on the Orbs network: 1) PoS V3: The Orbs network Proof-of-Stake mechanism, powering the network by utilizing multi-chain staking on Ethereum and Polygon. 2) Layer 3: Orbs value proposition - acting as a separate layer on top of existing EVM-based L1s and L2s to enhance the capabilities of smart contracts and DeFi applications.]]></description>
+            <link>https://www.orbs.com/Presenting-the-Revamped-Network-Status-Page</link>
+            <guid isPermaLink="true">https://www.orbs.com/Presenting-the-Revamped-Network-Status-Page</guid>
+            <dc:creator><![CDATA[Yuval Aviguy]]></dc:creator>
+            <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Presenting-the-Revamped-Network-Status-Page/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Bitrue Exchange Lists Orbs Token (ORBS)]]></title>
             <link>https://www.orbs.com/bitrue-listing-announcement</link>
