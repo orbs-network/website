@@ -3,6 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Are-Layer-3s-The-Future-Of-Crypto-Tech-A-Deep-Dive-Into-The-Matter.md
+  - Orbs-Polygon-Announce-Accelerator-Program-Participants.md
+  - nasdaq_dappradar.md
   - marketwatch_polygon.md
   - investing_dappradar.md
   - cmc_spooky.md
