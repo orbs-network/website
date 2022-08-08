@@ -15,4 +15,5 @@ items:
   - crypto-runner.md
   - delta.md
   - moonlight.md
+  - crypto-compare.md
 ---
