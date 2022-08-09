@@ -12,7 +12,7 @@ short_description: "Today (June 18, 2019,) Facebook formally announced a plan fo
 
 **Today (June 18, 2019,) Facebook formally announced a plan for a global financial system based on a new cryptocurrency called Libra.**
 
-In theory, Facebook users will be able to store, trade, and exchange the currency through Facebook applications such as Messenger and WhatsApp. This is a big deal since Facebook has more than 2 billion users. Since Western Union charges fees that can easily reach seven percent of a transfer (or more,) WhatsApp users (for example) will be able to transfer Libras among themselves and then convert the Libra into fiat money in order to spend it outside the Facebook ecosystem or put it into a bank account.
+In theory, Facebook users will be able to store, trade, and exchange the currency through Facebook applications such as Messenger and WhatsApp. This is a big deal since Facebook has more than 2 billion users. Since [Western Union](https://play.google.com/store/apps/details?id=com.westernunion.android.mtapp) charges fees that can easily reach seven percent of a transfer (or more,) WhatsApp users (for example) will be able to transfer Libras among themselves and then convert the Libra into fiat money in order to spend it outside the Facebook ecosystem or put it into a bank account.
 
 This would just be one use. Given Facebook’s size, two other possible uses are (I) payments to e-commerce companies that would directly accept the coin and (II) a payment platform, where the coin could be converted into fiat currency when purchasing from retailers that do not accept cryptocurrencies.
 
