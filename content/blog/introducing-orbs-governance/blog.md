@@ -5,7 +5,7 @@ blogUrl: introducing-orbs-governance
 date: 2022-08-11
 title: Introducing Orbs Governance
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description:
 ---
