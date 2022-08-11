@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - introducing-orbs-governance/blog.md
   - Presenting-the-Revamped-Network-Status-Page/blog.md
   - bitrue-listing-announcement/blog.md
   - ORBS-Farming-Goes-Live-on-SpookySwap/blog.md
