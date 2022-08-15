@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Aug 2022 11:51:45 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 15 Aug 2022 07:49:01 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Added to CryptoCompare]]></title>
+            <description><![CDATA[Orbs has been added to CryptoCompare, the popular crypto research and analytics platform! Founded in 2014, CryptoCompare is a global cryptocurrency market data provider, giving institutional and retail investors access to real-time, high-quality, reliable market and pricing data.]]></description>
+            <link>https://www.orbs.com/Orbs-Added-to-CryptoComapre</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Added-to-CryptoComapre</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Added-to-CryptoComapre/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Introducing Orbs Governance]]></title>
             <link>https://www.orbs.com/introducing-orbs-governance</link>
