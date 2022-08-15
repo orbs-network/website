@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Added-to-CryptoComapre/blog.md
   - introducing-orbs-governance/blog.md
   - Presenting-the-Revamped-Network-Status-Page/blog.md
   - bitrue-listing-announcement/blog.md
