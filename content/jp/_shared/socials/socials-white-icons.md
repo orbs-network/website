@@ -19,4 +19,7 @@ links:
   
   - img: /assets/img/socials/white/medium.svg
     url: https://orbs-japan-community.medium.com/
+    
+  - img: /assets/img/socials/white/snapshot.jpeg
+    url: https://snapshot.org/#/orbs-network.eth
 ---
