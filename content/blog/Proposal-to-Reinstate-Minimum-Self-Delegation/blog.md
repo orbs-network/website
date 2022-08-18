@@ -6,7 +6,8 @@ date: 2022-08-18
 title: "Proposal to Reinstate Minimum Self-Delegation"
 author:
   - /blog/common/authors/EranPeled.md
-type: short_description: "As announced last week, the Orbs Network is introducing upgraded community governance to the project, formalizing aspects of community governance that have until now been behind the scenes. As the next major step in this process, the first formal governance vote will be going live on Snapshot on Monday, August 22, 2022 at 12:00 UTC." 
+type: 
+short_description: "As announced last week, the Orbs Network is introducing upgraded community governance to the project, formalizing aspects of community governance that have until now been behind the scenes. As the next major step in this process, the first formal governance vote will be going live on Snapshot on Monday, August 22, 2022 at 12:00 UTC." 
 
 ---
 
