@@ -1,0 +1,193 @@
+.card {
+  width: fit-content;
+  min-height: 70px;
+  height: auto;
+  padding: 12px 16px;
+  background: $main-bg-color;
+  position: relative;
+  @include gradient-border(1px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  &-links{
+   
+  }
+  &-with-image {
+    .card-content {
+      width: calc(100% - 134px);
+    }
+  }
+  &-socials {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    &-item {
+      width: 17px;
+      height: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      &:last-child {
+        margin-right: 0px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: top;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 0px;
+    font-size: 0.813rem;
+    letter-spacing: $text-letter-spacing;
+    line-height: 1.25rem;
+    color: #454545;
+  }
+  * {
+    font-family: $text-font;
+    color: $text-color;
+    font-weight: 500;
+  }
+  &-content {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+  }
+  &-body-text {
+    margin-bottom: 5px;
+  }
+
+  &-image {
+    width: 114px;
+    height: 114px;
+
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    background: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
+    margin-right: 20px;
+    &-border {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: calc(100% - 4px);
+      height: calc(100% - 4px);
+      background: #fcf8fd;
+      border-radius: 50%;
+
+    }
+  
+    img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      object-fit: cover;
+      position: relative;
+    
+    }
+  }
+
+  &-title {
+    margin-bottom: 3px;
+    min-height: 35px;
+    position: relative;
+    @extend .gradient-text;
+    font-weight: 700;
+
+    .typed-cursor::after {
+      display: none;
+    }
+    &-text {
+      font-family: $text-font;
+      letter-spacing: $text-letter-spacing;
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 2rem;
+      text-transform: uppercase;
+    }
+  }
+  &-tooltip {
+    position: absolute;
+    top: 0px;
+    transform: translate(0, -50%);
+    right: 25px;
+    padding: 0px 16px 2px 16px;
+    height: 41px;
+    background: $main-bg-color;
+    @include gradient-border(1px);
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+      width: 18px;
+      height: 100%;
+      object-fit: contain;
+    }
+    p {
+      font-family: $text-font;
+      color: $text-color;
+      font-size: 0.813rem;
+      @extend .gradient-text;
+      letter-spacing: $text-letter-spacing;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  &-link {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+    overflow: hidden;
+
+    &:first-child {
+      margin-top: 0px;
+    }
+    img {
+      width: 17px;
+      height: 17px;
+      margin-right: 10px;
+      object-fit: contain;
+      margin-top: 1px;
+    }
+    &-text {
+      flex: 1;
+      letter-spacing: 0.4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    &-website{
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .card {
+    p {
+      margin-bottom: 0px;
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+    }
+    &-title {
+      margin-bottom: 0px;
+      &-text {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
