@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - test-blog2/blog.md
   - Proposal-to-Reinstate-Minimum-Self-Delegation/blog.md
   - Orbs-Added-to-CryptoComapre/blog.md
   - introducing-orbs-governance/blog.md
