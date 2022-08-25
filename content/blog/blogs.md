@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - staking-rewards-features-orbs-pos-v3/blog.md
   - proposal-1-reinstate-minimum-self-delegation/blog.md
   - Proposal-to-Reinstate-Minimum-Self-Delegation/blog.md
   - Orbs-Added-to-CryptoComapre/blog.md
