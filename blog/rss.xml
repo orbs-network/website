@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Aug 2022 12:17:56 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 25 Aug 2022 15:29:13 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Staking Rewards Features Orbs PoS V3]]></title>
+            <link>https://www.orbs.com/staking-rewards-features-orbs-pos-v3</link>
+            <guid isPermaLink="true">https://www.orbs.com/staking-rewards-features-orbs-pos-v3</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/staking-rewards-features-orbs-pos-v3/bg.jpeg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Proposal 1: Reinstate Minimum Self-Delegation]]></title>
             <link>https://www.orbs.com/proposal-1-reinstate-minimum-self-delegation</link>
