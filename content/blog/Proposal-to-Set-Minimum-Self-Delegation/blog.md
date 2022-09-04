@@ -1,67 +1,45 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/roposal-to-Set-Minimum-Self-Delegation/bg.jpg
+blogUrl: roposal-to-Set-Minimum-Self-Delegation
+date: 2022-09-04
+title: Proposal to Set Minimum Self Delegation
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Last week, the Orbs Network held its first governance vote, in which a majority decided to reinstate the minimum self-delegation requirement. A second vote will now be held, regarding the exact details of the minimum self-stake." 
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Last week, the Orbs Network held its [first governance vote](https://snapshot.org/#/orbs-network.eth/proposal/0x770671f96d4eca72867acc6b4ce645cbd76e17e47a69f6da28ad9783b1aae930), in which a majority decided to reinstate the minimum self-delegation requirement. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+A second vote will now be held, regarding the exact details of the minimum self-stake. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+This second formal governance vote will be going live on Snapshot on Tuesday, September 6, 2022 at 12:00 UTC.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The community will be asked to consider three possible minimum self-staking models. 
 
-### Step-by-Step Guide
+One option is to return to the original requirement from V2.5, where Guardians were required to own a personal stake equal to at least 8% of their total delegated stake. 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+A second option is to institute a similar requirement, but with a lower percentage requirement, with Guardians required to own a personal stake equal to at least 5% of their total delegated stake.
 
-Please also see our disclaimers below.
+A third option is to reduce the percentage requirement even further, with Guardians required to own a personal stake equal to at least 3% of their total delegated stake.
+ 
+### Voting Details
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+**Voting will be conducted via the Orbs space on [snapshot.org](https://snapshot.org/#/orbs-network.eth).**
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+For purposes of this proposal, the voting power considered for each proposal will be the sum of all staked and delegated Orbs Tokens on both the Ethereum and Polygon blockchains, as recorded at the Snapshot block. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Only ORBS tokens that were staked at the Snapshot block (which is the time at which this proposal was created) are entitled to vote. Any changes after the Snapshot block, such as new staking or a change in delegated Guardians, will not be reflected in the voting power for this proposal. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+The default option for both votes is that the Guardians are entitled to vote on behalf of their entire delegated stake, unless a delegator opts out. Guardians should select their preferred option and sign the message via their wallet. Note that voting is gasless and occurs off chain, but using signed transactions that can be verified onchain if necessary.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+If a Delegator wishes to vote on their own behalf, they are encouraged to do so. Their voting power will then be deducted from their Guardian’s vote and assigned to the option of their choice.  
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+This proposal will be live and open for voting for a period of 7 days, and will be considered final based on all votes submitted within that period. The option receiving the highest percentage of vote being implemented via change in the applicable smart contract parameters. Note that, since the community has already decided to reinstate a minimum self-stake and the level must be chosen, there is no minimum quorum and the results of this vote will govern regardless of the size of the turnout.  
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Note that you can change your vote as long as the proposal window on Snapshot is still live, with the last vote being the one that counts.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+For discussion, please visit the newly opened page at the Orbs [Discord](https://discord.com/channels/829255795827933236/1004049084597928017) dedicated to governance discussions or join us on [Telegram](https://t.me/OrbsNetwork). 
 
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Stay tuned for more enhancements to Orbs network governance and opportunities for community involvement. 
