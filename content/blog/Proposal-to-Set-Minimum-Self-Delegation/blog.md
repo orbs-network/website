@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/roposal-to-Set-Minimum-Self-Delegation/bg.jpg
-blogUrl: roposal-to-Set-Minimum-Self-Delegation
+image: /assets/img/blog/Proposal-to-Set-Minimum-Self-Delegation/bg.jpg
+blogUrl: Proposal-to-Set-Minimum-Self-Delegation
 date: 2022-09-04
 title: Proposal to Set Minimum Self Delegation
 author:
