@@ -9,17 +9,8 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Sep 2022 08:02:43 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 05 Sep 2022 08:59:19 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[Expanding to The Open Network (TON)]]></title>
-            <description><![CDATA[Today, the Orbs network is announcing that it is officially building on TON as the first non-EVM L1. Creating a new L1 ecosystem is a great pioneering endeavor. The TON ecosystem is just emerging, it is still lacking the maturity of the EVM ecosystem, but it holds great potential. Orbs will be delighted to help bring it to maturity and fulfill its promise.]]></description>
-            <link>https://www.orbs.com/Expanding-to-The-Open-Network-TON</link>
-            <guid isPermaLink="true">https://www.orbs.com/Expanding-to-The-Open-Network-TON</guid>
-            <dc:creator><![CDATA[Tal Kol]]></dc:creator>
-            <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/Expanding-to-The-Open-Network-TON/bg.jpg" length="0" type="image/jpeg"/>
-        </item>
         <item>
             <title><![CDATA[Proposal to Set Minimum Self Delegation]]></title>
             <description><![CDATA[Last week, the Orbs Network held its first governance vote, in which a majority decided to reinstate the minimum self-delegation requirement. A second vote will now be held, regarding the exact details of the minimum self-stake.]]></description>
