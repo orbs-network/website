@@ -1,7 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
-  - Expanding-to-The-Open-Network-TON/blog.md
   - Proposal-to-Set-Minimum-Self-Delegation/blog.md
   - staking-rewards-features-orbs-pos-v3/blog.md
   - proposal-1-reinstate-minimum-self-delegation/blog.md
