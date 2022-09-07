@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Sep 2022 12:07:40 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 07 Sep 2022 15:37:01 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Single Finance]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated Single Finance, one of the leading farming, lending, and leveraging protocols on Ethereum.]]></description>
+            <link>https://www.orbs.com/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Expanding to The Open Network (TON)]]></title>
             <description><![CDATA[Today, the Orbs network is announcing that it is officially building on TON as the first non-EVM L1. Creating a new L1 ecosystem is a great pioneering endeavor. The TON ecosystem is just emerging, it is still lacking the maturity of the EVM ecosystem, but it holds great potential. Orbs will be delighted to help bring it to maturity and fulfill its promise.]]></description>
