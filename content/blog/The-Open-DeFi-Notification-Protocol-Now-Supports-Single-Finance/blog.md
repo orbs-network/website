@@ -10,7 +10,7 @@ type:
 short_description: "The Open DeFi Notifications Protocol has integrated Single Finance, one of the leading farming, lending, and leveraging protocols on Ethereum."
 ---
 
-The Open DeFi Notifications Protocol has integrated [Single Finance](https://singlefinance.io/), one of the leading farming, lending, and leveraging protocols on Ethereum.
+The Open DeFi Notifications Protocol has integrated [Single Finance](https://singlefinance.io/), one of the leading farming, lending, and leveraging protocols.
 
 Single Finance users can now farm more effectively, knowing their position status at all times, by receiving instant alerts around the clock if their position is liquidated or their stop-loss has been hit.  
 
@@ -21,11 +21,11 @@ _The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a commu
 
 ### The Best Way to Monitor Your Farms
 
-Single Finance is a protocol on Ethereum that facilitates DeFi strategies, farming, leverage, and lending all in one place.
+Single Finance is a protocol on Cronos, Fantom and Polygon that facilitates DeFi strategies, farming, leverage, and lending all in one place.
 
-Single finance users can [long/short](https://app.singlefinance.io/longshort) leveraged farms on the platform with undercollateralized loans. The interest rate will depend on the amount borrowed and the utilization rate of the pool. As crypto markets are volatile, the borrower can set up a stop-loss to protect their capital. If the borrower does not set up a stop-loss, they run the risk of [liquidation](https://docs.singlefinance.io/home/yield-farming/liquidation), in which they’re forced to sell their holdings to repay their borrowed funds. 
+Single finance users can perform leveraged yield farming on the platform with undercollateralized loans, including [Market Neutral Strategies](https://app.singlefinance.io/single-click) and leveraged [long/short](https://app.singlefinance.io/longshort) farming. The interest rate will depend on the amount borrowed and the utilization rate of the pool. As crypto markets are volatile, the borrower can set up a stop-loss to protect their capital. Upon capital protection, Single Finance’s Bot automatically closes the farming position and converts all assets to USDC. If the borrower does not set up a [stop-loss](https://docs.singlefinance.io/home/overview/capital-protection-usd/stoploss-lend-and-stake), they run the risk of [liquidation](https://docs.singlefinance.io/home/yield-farming/liquidation), in which they’re forced to sell their holdings to repay their borrowed funds. 
 
-Using the Open DeFi Notification Protocol, Single Finance users can set up a **“Position Stop-loss/Liquidate” notification**. This will issue an alert when traders positions are either liquidated or reach their [stop-loss](https://docs.singlefinance.io/home/overview/capital-protection-usd/stoploss-lend-and-stake). In this way, users have 24/7 monitoring of their leveraged farm’s status and can take the necessary actions to manage them as market conditions change.
+Using the Open DeFi Notification Protocol, Single Finance users can set up a **“Position Stop-loss/Liquidate” notification**. This will issue an alert when traders positions are either liquidated or reach their stop-loss. In this way, users have 24/7 monitoring of their leveraged farm’s status and can take the necessary actions to manage them as market conditions change.
 
 
 ![App](/assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/image1.png)
