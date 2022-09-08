@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/bg.jpg
+image: /assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/bg1.jpg
 blogUrl: The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance
 date: 2022-09-08
 title: "The Open DeFi Notification Protocol Now Supports Single Finance"
