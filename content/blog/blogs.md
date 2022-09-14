@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Reinstating-Guardians-Self-Stake-Requirement/blog.md
   - The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/blog.md
   - Expanding-to-The-Open-Network-TON/blog.md
   - Proposal-to-Set-Minimum-Self-Delegation/blog.md
