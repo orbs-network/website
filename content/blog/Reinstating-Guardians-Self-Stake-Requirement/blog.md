@@ -1,67 +1,47 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Reinstating-Guardians-Self-Stake-Requirement/bg.jpg
+blogUrl: Reinstating-Guardians-Self-Stake-Requirement
+date: 2022-09-14
+title: "Reinstating Guardians’ Self Stake Requirement"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Between August 23rd and August 30th, the Orbs Network held its first governance vote, in which a majority decided to reinstate the minimum self-delegation requirement. A week after the OGV-1 vote ended, a second vote was held regarding the exact details of the minimum self-stake. After a close race, the community has chosen to set the minimum self delegation requirement for the Orbs Guardians at 3%."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Between August 23rd and August 30th, the Orbs Network held its [first governance vote](https://snapshot.org/#/orbs-network.eth/proposal/0x770671f96d4eca72867acc6b4ce645cbd76e17e47a69f6da28ad9783b1aae930), in which a majority decided to reinstate the minimum self-delegation requirement. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+A week after the OGV-1 vote ended, a second vote was held regarding the exact details of the minimum self-stake. After a close race, the community has [chosen](https://snapshot.org/#/orbs-network.eth/proposal/0xc2f4c60c94b6955dfd6ccfbfdbd40dc8f516352e015dce0f5deac9186154095f) to set the minimum self delegation requirement for the Orbs Guardians at 3%.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![OGV2](/assets/img/blog/Reinstating-Guardians-Self-Stake-Requirement/image1.jpg)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+Following these two governance votes and the decisions selected by the community, the ORBS staking contracts on [Ethereum](https://etherscan.io/address/0x01d59af68e2dcb44e04c50e05f62e7043f2656c3#readContract) and [Polygon](https://polygonscan.com/address/0xeeae6791f684117b7028b48cb5dd21186df80b9c) will be updated to reinstate a 3% minimum self delegation.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+**This change will take effect on 2/10/22, to allow adequate time for all Guardians to make any necessary preparations.**
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Flashback: Guardians’ self Delegation
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Guardians’ self delegation was first introduced in [V2.5 of the Orbs PoS Universe](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians/), and was set at 8% of the Guardian’s total delegated stake. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+The purpose of this requirement was to ensure that Guardians had a commitment to honest and secure operation of the network, as well as a commitment to their communities of Delegators. Requiring a minimum self-stake was intended to align incentives to solidify and strengthen these commitments. The requirement also had the additional benefit of preventing certain types of attack and abuse scenarios.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+![SelfStake](/assets/img/blog/Reinstating-Guardians-Self-Stake-Requirement/image2.png)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+With the launch of [V3 of the Orbs PoS](https://www.orbs.com/PolygonStakingDate/), including multi-chain staking on Ethereum and Polygon, this requirement was removed. The primary reasoning behind this removal was to reduce operating friction during the launch of multi-chain staking, and avoid potential loss of staking rewards in a situation where Guardians would be forced to maneuver ORBS between Ethereum and Polygon.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Since its launch on 29/3/22, the total delegated stake on Ethereum and Polygon solidified to a stable steady state. Following the results of the votes in OGV-1 and OGV-2, the community has deemed that these concerns have lessened enough to reinstate the self-delegation requirement, albeit with a lower percentage requirement. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### Vote of Confidence In the Community
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+OGV-1+2 has been the first set of votes introduced as part of a greater [Orbs governance initiative](https://www.orbs.com/introducing-orbs-governance/). Votes for both proposals exceeded 500m ORBS tokens, which are approximately 60% of the total staked ORBS, a remarkable achievement!
 
-### 2) Lend ALPACA tokens
+This displays the strength of the Orbs community, the diversity of its viewpoints, and the high level of passion and engagement. The community has proven its ability to engage in discussion of serious questions facing the project and to come together to make decisions on what direction to take. This is a major step forward in the project’s governance and decentralization! 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Stay tuned for more updates on Orbs governance on our official [Telegram](https://t.me/OrbsNetwork) channels, as well as on [https://www.orbs.com/governance-blog/](https://www.orbs.com/governance-blog/). You can also join the discussion at the governance channel of our [discord](https://discord.com/channels/829255795827933236/1004049084597928017). 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
