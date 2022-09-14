@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Sep 2022 07:35:33 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 14 Sep 2022 10:54:46 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Reinstating Guardians’ Self Stake Requirement]]></title>
+            <description><![CDATA[Between August 23rd and August 30th, the Orbs Network held its first governance vote, in which a majority decided to reinstate the minimum self-delegation requirement. A week after the OGV-1 vote ended, a second vote was held regarding the exact details of the minimum self-stake. After a close race, the community has chosen to set the minimum self delegation requirement for the Orbs Guardians at 3%.]]></description>
+            <link>https://www.orbs.com/Reinstating-Guardians-Self-Stake-Requirement</link>
+            <guid isPermaLink="true">https://www.orbs.com/Reinstating-Guardians-Self-Stake-Requirement</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Reinstating-Guardians-Self-Stake-Requirement/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Single Finance]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated Single Finance, one of the leading farming, lending, and leveraging protocols on Ethereum.]]></description>
