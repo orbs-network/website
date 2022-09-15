@@ -1,67 +1,92 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/bg.jpg
+blogUrl: The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance
+date: 2022-09-15
+title: "The Open DeFi Notification Protocol Now Supports Harvest Finance"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Open DeFi Notifications Protocol has integrated Harvest Finance, a leading Vault protocol on Ethereum, Polygon and BSC, to provide its users with free mobile notification for on-chain events."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The Open DeFi Notifications Protocol has integrated [Harvest Finance](https://harvest.finance/), a leading Vault protocol on Ethereum, Polygon and BSC, to provide its users with free mobile notification for on-chain events.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Harvest users can now receive real-time notifications for their positions to better manage their trading strategies and risk.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+The [Open DeFi Notification Protocol](https://defi.org/notifications/) App is available on both [Apple AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp).
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a community led initiative to provide users with decentralized and free mobile notifications for on-chain events.
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### The Best Way to Manage Your Yield
 
-Please also see our disclaimers below.
+The Open DeFi Notification provides users with free and dependable mobile notifications for on-chain events in order to optimize their DeFi trading strategies and help them manage their risk. The Notification app can be used to keep track of rewards when providing liquidity, set up stop-loss alerts, help avoid impermanent loss, and more.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+There is currently one type of notification available for Harvest:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Pending Reward:** Get notified when your $FARM rewards are above a specified threshold.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+![app](/assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/image1.png)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### A Notification Standard for Leading DeFi Projects
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+The Open DeFi Notification Protocol is an open initiative to provide users with decentralized and free mobile notifications for on-chain events.
 
-Once the position is opened, you can always re-adjust the parameters:
+Harvest joins an impressive lineup of leading DeFi projects who have already integrated the Notification app for the benefit of their users, including among others: Aave, Uniswap, SushiSwap, QuickSwap, PancakeSwap and more…
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+**All in all, the app supports over 20 protocols across six networks: Ethereum, BSC, Polygon, Avalanche, Fantom and Cronos!**
 
-### 2) Lend ALPACA tokens
+![ecosystem](/assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/image2.png)
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
+
+### Devs Grant for New Contributions  
+
+DeFi.org [recently](https://medium.com/@defiorg/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol-c584afacea62) launched a $100k developer grant program, in collaboration with [DappRadar](https://dappradar.com/), focusing on teams contributing new projects to the Notification protocol.
+
+![grant](/assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/image3.jpg)
+
+
+The Open DeFi Notification Protocol is an open-source project allowing anyone to contribute and integrate notifications. With a quick and simple integration on Github, developers can provide free mobile notifications for any DeFi project for important events like accumulated pending rewards, price swings, near liquidations, stop loss, contract upgrades, new governance votes and more.
+
+For more info and developers resources see [here](https://medium.com/@defiorg/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol-c584afacea62).
+
+
+
+<div class='line-separator'> </div>
+
+
+The Protocol has been implemented fully by the [Orbs network](https://www.orbs.com/) and will be executed by the Orbs Guardians, making this the 1st fully decentralized implementation of a notification protocol.
+
+Become involved and contribute:
+[https://github.com/open-defi-notification-protocol](https://github.com/open-defi-notification-protocol)
+
+Learn more about the Open DeFi Notification Protocol [here](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0).
+
+Proudly born in the [defi.org](http://defi.org/) accelerator, join our [Telegram](https://t.me/defiorg) channel for more updates!
+
+
+
+<div class='line-separator'> </div>
+
+
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_The Open DeFi Notification Protocol is a **beta version** that is still under active development, and all underlying digital assets, blockchain networks and DeFi platforms are also subject to ongoing development, and as such, the protocol or the underlying platforms:_
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_(a) may contain bugs, errors and defects,_
+
+_(b) may function improperly or be subject to periods of downtime and unavailability,_
+
+_(c) may result in total or partial loss or corruption of data or a delay or a failure to send or receive expected notifications._
+
+
+_Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information, please see the [Terms](https://defi.org/defi-notifications-terms-of-use/index.html) of Use and [Privacy Policy](https://defi.org/defi-notifications-privacy-policy/index.html)._ 
+
+
