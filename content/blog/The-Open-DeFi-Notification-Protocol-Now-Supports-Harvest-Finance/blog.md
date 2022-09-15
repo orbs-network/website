@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/bg.jpg
+image: /assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/bg2.jpg
 blogUrl: The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance
 date: 2022-09-15
 title: "The Open DeFi Notification Protocol Now Supports Harvest Finance"
