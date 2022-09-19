@@ -35,8 +35,10 @@ Unlike other Guardians, I am quite small. But I became a Guardian to contribute 
 I hope to better Orbs with my efforts. 
 
 Orbs Delegators can find out more information on my website and can reach me on Twitter:
-Mr. Dome: Twitter: [https://twitter.com/Deline1247](https://twitter.com/Deline1247)
-Mr Dome’s Website: [https://blog.naver.com/mrdome1247](https://blog.naver.com/mrdome1247)
+
+Mr. Dome's Twitter: [https://twitter.com/Deline1247](https://twitter.com/Deline1247)
+
+Mr. Dome’s Website: [https://blog.naver.com/mrdome1247](https://blog.naver.com/mrdome1247)
 
 
 
