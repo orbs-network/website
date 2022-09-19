@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-New-Guardian-Introduction-Mr-Dome/blog.md
   - The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/blog.md
   - Reinstating-Guardians-Self-Stake-Requirement/blog.md
   - The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/blog.md
