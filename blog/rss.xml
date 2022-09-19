@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Sep 2022 12:18:57 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 19 Sep 2022 13:08:28 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs New Guardian Introduction: Mr. Dome ]]></title>
+            <description><![CDATA[We’re excited to introduce Mr. Dome to the Orbs community, and we asked him a few questions to better understand his position as a Guardian and what drew his attention to the project.]]></description>
+            <link>https://www.orbs.com/Orbs-New-Guardian-Introduction-Mr-Dome</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-New-Guardian-Introduction-Mr-Dome</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-New-Guardian-Introduction-Mr-Dome/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Harvest Finance]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated Harvest Finance, a leading Vault protocol on Ethereum, Polygon and BSC, to provide its users with free mobile notification for on-chain events.]]></description>
