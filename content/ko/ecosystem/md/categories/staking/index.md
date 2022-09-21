@@ -6,7 +6,6 @@ items:
   - citadel.md
   - bitgo.md
   - bithumb.md
-  - staked.md
   - moonstake.md
   - crosstech.md
 ---

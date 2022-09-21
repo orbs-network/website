@@ -5,6 +5,7 @@ id: about
 links:
   - blog.md
   - ecosystem.md
+  - governance.md
   - news.md
   - whitepapers.md
   - faq.md
