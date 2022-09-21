@@ -1,6 +1,11 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-New-Guardian-Introduction-Mr-Dome/blog.md
+  - The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/blog.md
+  - Reinstating-Guardians-Self-Stake-Requirement/blog.md
+  - The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/blog.md
+  - Expanding-to-The-Open-Network-TON/blog.md
   - Proposal-to-Set-Minimum-Self-Delegation/blog.md
   - staking-rewards-features-orbs-pos-v3/blog.md
   - proposal-1-reinstate-minimum-self-delegation/blog.md
