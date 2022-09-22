@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-TWAP-for-DEXs/blog.md
   - Orbs-New-Guardian-Introduction-Mr-Dome/blog.md
   - The-Open-DeFi-Notification-Protocol-Now-Supports-Harvest-Finance/blog.md
   - Reinstating-Guardians-Self-Stake-Requirement/blog.md
