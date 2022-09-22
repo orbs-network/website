@@ -84,7 +84,7 @@ The application run by Orbs Guardians will, in a decentralized manner, monitor t
 
 In addition, the Orbs team has designed a specialized UI that can be easily integrated and customized by any DEX, to create an intuitive, user-friendly and informative way for users to set the parameters for and initiate TWAP trades.
 
-![UI](/assets/img/blog/Introducing-TWAP-for-DEXs/image2.png)
+![UI](/assets/img/blog/Introducing-TWAP-for-DEXs/image3.png)
 
 
 TWAP trades can be divided into market orders and limit orders. In a market TWAP order, the trader sets parameters, the size of the desired trade, the total duration of the strategy, and the intervals between individual trades. The trades are then executed at the predetermined intervals at the best available current market price. 
