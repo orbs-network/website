@@ -113,7 +113,7 @@ More Info and Relevant Links
 
 TWAP protocol Github: [https://github.com/orbs-network/twap](https://github.com/orbs-network/twap)
 
-Security audits: [PechShield](https://drive.google.com/file/d/1xUZN5RrNvszaPDJuJjfeG3ig14Vo2aaE/view?usp=sharing), [RD Auditors](https://drive.google.com/file/d/1ASt3_mWwtQ0IfKqBHebnj_KGJWntaNJs/view?usp=sharing)
+Security audits: [PeckShield](https://drive.google.com/file/d/1xUZN5RrNvszaPDJuJjfeG3ig14Vo2aaE/view?usp=sharing), [RD Auditors](https://drive.google.com/file/d/1ASt3_mWwtQ0IfKqBHebnj_KGJWntaNJs/view?usp=sharing)
 
 General information about Orbs L3: [https://www.orbs.com/network/](https://www.orbs.com/network/)
 
