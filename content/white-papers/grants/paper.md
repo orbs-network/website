@@ -6,7 +6,7 @@ date: October 2022
 url: white-papers/grants
 button: Preview Paper
 published: "Published"
-image: /assets/img/white-papers/Grants.png
+image: /assets/img/white-papers/Grants.jpg
 ---
 
 The Orbs project is building on the TON Network and is working to provide L3 infrastructure services to TON DAPPs that can significantly increase their capabilities. 
