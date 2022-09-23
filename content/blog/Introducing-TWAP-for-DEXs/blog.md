@@ -75,7 +75,7 @@ The network provides its [L3 services](https://www.orbs.com/network/) by operati
 
 As part of the TWAP protocol, Orbs Guardians will run a tailored function utilizing ORBS-Lambda that acts as the single honest bidder, or “taker”, that is required for the TWAP protocol to run optimally and achieve prices that track the spot market price as closely as possible. 
 
-The application run by Orbs Guardians will, in a decentralized manner, monitor the TWAP Smart Contract. When an order has been sent and a chunk is open for bids, Orbs Guardians will automatically calculate and submit an honest bid. The fee component of the bid will include only a request to be estimated for the estimated gas fees. In addition, the Guardians will determine the optimal path for the transactions using services such as [ParaSwap API](https://www.paraswap.io/), or the DEXs own outer.
+The application run by Orbs Guardians will, in a decentralized manner, monitor the TWAP Smart Contract. When an order has been sent and a chunk is open for bids, Orbs Guardians will automatically calculate and submit an honest bid. The fee component of the bid will include only a request to be estimated for the estimated gas fees. In addition, the Guardians will determine the optimal path for the transactions using services such as [ParaSwap API](https://www.paraswap.io/), or the DEXs own router.
 
 **By automatically creating honest bids that are hardcoded to only specify a minimal gas fee and optimal trade path, Orbs Guardians will provide a strong level of assurance that the trades executed and the TWAP contract track spot market prices as closely as possible.** 
 
