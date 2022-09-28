@@ -1,67 +1,55 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Huobi-Global-Lists-Orbs-Token/bg.jpg
+blogUrl: Huobi-Global-Lists-Orbs-Token
+date: 2022-09-28
+title: "Huobi Global Lists Orbs Token (ORBS)"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Huobi Global exchange has officially announced the listing of $ORBS, the native token of the Orbs network! Huobi is a top-10 cryptocurrency exchange with more than 10M users and over $4B in daily trading volumes." 
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The [Huobi Global](https://www.huobi.com/en-us/) exchange has officially announced the listing of $ORBS, the native token of the Orbs network!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Huobi is a [top-10](https://coinmarketcap.com/rankings/exchanges/) cryptocurrency exchange with more than 10M users and over $4B in daily trading volumes.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Huobi offers an advanced trading platform with over 500 different cryptocurrencies and trading services such as spot & derivatives trading, lending, staking, OTC desk, and more. In addition, Huobi boasts of a world-class security and risk management system, with 0 security incidents to date and over 20,000 BTC in its Security Reserve Fund.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
-
-### Step-by-Step Guide
-
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
-
-Please also see our disclaimers below.
-
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The listing follows a series of partnership announcements and project releases by the Orbs team. Orbs and Polygon recently [launched](https://defi.org/announcements/orbs-polygon-announce-a-special-round-of-the-defi-org-accelerator/) a special round of the DeFi.org Accelerator. In addition, Orbs has officially [announced](https://www.orbs.com/Expanding-to-The-Open-Network-TON/) its collaboration with TON - The Open Network, as part of its ecosystem expansion. Lastly, the Orbs project received [considerable attention](https://cryptodaily.co.uk/2022/09/orbs-twap-protocol-tackles-liquidity-and-volatility-challenges) after it recently announced its latest product release: [TWAP for DEXs](https://www.orbs.com/Introducing-TWAP-for-DEXs/).
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+In addition to Huobi, ORBS is listed on additional tier-1 exchanges such as [FTX](https://www.orbs.com/ftx-exchange-lists-orbs-token-orbs/), [KuCoin](https://www.orbs.com/kucoin-exchange-lists-orbs-token-orbs/), and Upbit.
+
+<div class='line-separator'> </div>
+
+
+**About Huobi**
+
+Founded in 2013, Huobi Group is a world-leading company in the digital economy industry, with a mission to make breakthroughs in core blockchain technologies and integration of blockchain technology with other industries. Surrounding the upstream and downstream sectors, Huobi Group has expanded into industry blockchain, public chain, digital assets trading and wallet, digital economy research, etc., and has established a global industry ecosystem for the digital economy.
+
+With the principle of globalization, professionalism, compliance, and diversification, Huobi Group is dedicated to providing safe and trustworthy Internet of Value (IoV) services to its tens of millions of users in more than 100 countries and regions.
+
+For more information, visit [https://www.huobi.com/en-us/](https://www.huobi.com/en-us/)
+
+<div class='line-separator'> </div>
+
+
+**About Orbs**
+
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul.
+
+For more information, please visit [www.orbs.com](www.orbs.com), or join our community at:
+Telegram: [https://t.me/OrbsNetwork](https://t.me/OrbsNetwork)
+Twitter: [https://twitter.com/orbs_network](https://twitter.com/orbs_network)
+Learn more [about Orbs](https://www.orbs.com/Orbs-A-Re-introduction/)
+
+
+
