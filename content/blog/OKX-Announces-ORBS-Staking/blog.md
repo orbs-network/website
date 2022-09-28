@@ -1,67 +1,51 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/OKX-Announces-ORBS-Staking/bg.jpg
+blogUrl: OKX-Announces-ORBS-Staking
+date: 2022-09-29
+title: OKX Announces ORBS Staking
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Leading cryptocurrency exchange OKX now offers full staking services for the $ORBS token, with ORBS featured on OKX’s main staking webpage."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Leading cryptocurrency exchange OKX now offers full staking services for the $ORBS token, with ORBS featured on OKX’s main staking webpage:**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+https://www.okx.com/earn/product/staking/home
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+OKX is one of the most popular crypto exchanges worldwide ranked in the top 20 by [CoinMarketCap](https://coinmarketcap.com/rankings/exchanges/) “Exchange Score”, with 24h trading of over $175M. By facilitating ORBS staking, OKX enables any Orbs token holder to stake their tokens directly from the exchange and thereby contribute to the security of the Orbs network.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Orbs is a public, permissionless blockchain infrastructure project. Any entity wishing to develop on the Orbs network or participate in the PoS Universe may do so as long as they adhere to the consensus rules set by the protocol. The Orbs community welcomes OKX as a reputable player in the space, as well as any other entity and stakeholder who takes an active role in the Orbs ecosystem and shares in the common goals and vision of the project.
 
-### Step-by-Step Guide
-
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
-
-Please also see our disclaimers below.
-
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About OKX**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+OKX is an innovative cryptocurrency exchange with advanced financial services. OKX relies on blockchain technology to provide everything you need for wise trading and investment.
+
+Enjoy hundreds of tokens and trading pairs. With OKX, you can join one of the leading crypto exchanges by trading volume. OKX serves millions of users in over 100 countries, providing spot, margin, futures, options, perpetual swaps trading, DeFi, lending, and mining services.
+
+For more information, visit [https://www.okx.com/](https://www.okx.com/)
+
+
+<div class='line-separator'> </div>
+
+
+**About Orbs**
+
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul.
+
+For more information, please visit [www.orbs.com](www.orbs.com), or join our community at:
+
+- Telegram: [https://t.me/OrbsNetwork](https://t.me/OrbsNetwork)
+- Twitter: [https://twitter.com/orbs_network](https://twitter.com/orbs_network)
+- Learn more [about Orbs](https://www.orbs.com/Orbs-A-Re-introduction/)
+
+
