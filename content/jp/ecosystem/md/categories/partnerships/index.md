@@ -8,5 +8,6 @@ items:
   - cban.md
   - paradigm.md
   - yes.md
-  - binance.md
+  - ton-society.md
+  - dapp-radar.md
 ---

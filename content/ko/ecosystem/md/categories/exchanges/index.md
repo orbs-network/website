@@ -23,5 +23,8 @@ items:
   - bitbns.md
   - zt.md
   - ultorex.md
+  - huobi.md
+  - stealth.md
+  - change-now.md
 
 ---

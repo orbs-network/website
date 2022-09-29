@@ -50,6 +50,8 @@ const MetaTags = ({
         content={generateUrl(image || images.meta.logo)}
       />
       <meta name="twitter:creator" content="@orbs_network" />
+
+      
       <meta
         name="google-site-verification"
         content="4GBadCDqEPfribk9lcTcWcjKVyjjIusfdC0H2FYojDw"

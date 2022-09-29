@@ -8,4 +8,5 @@ items:
   - bithumb.md
   - moonstake.md
   - crosstech.md
+  - okx.md
 ---
