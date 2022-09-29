@@ -9,8 +9,26 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 Sep 2022 12:55:33 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 29 Sep 2022 06:42:24 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Huobi Global Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[The Huobi Global exchange has officially announced the listing of $ORBS, the native token of the Orbs network! Huobi is a top-10 cryptocurrency exchange with more than 10M users and over $4B in daily trading volumes.]]></description>
+            <link>https://www.orbs.com/Huobi-Global-Lists-Orbs-Token</link>
+            <guid isPermaLink="true">https://www.orbs.com/Huobi-Global-Lists-Orbs-Token</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Huobi-Global-Lists-Orbs-Token/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[OKX Announces ORBS Staking]]></title>
+            <description><![CDATA[Leading cryptocurrency exchange OKX now offers full staking services for the $ORBS token, with ORBS featured on OKX’s main staking webpage.]]></description>
+            <link>https://www.orbs.com/OKX-Announces-ORBS-Staking</link>
+            <guid isPermaLink="true">https://www.orbs.com/OKX-Announces-ORBS-Staking</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/OKX-Announces-ORBS-Staking/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Splassive Integrates the Open DeFi Notification Protocol]]></title>
             <description><![CDATA[Splassive, a leading passive income protocol on AVAX, has integrated The Open DeFi Notifications Protocol. Splassive users can now earn more effectively, knowing their reward status at all times, by receiving instant alerts around the clock when they reach ‘tap max reward’.]]></description>
