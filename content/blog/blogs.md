@@ -1,6 +1,8 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Huobi-Global-Lists-Orbs-Token/blog.md
+  - OKX-Announces-ORBS-Staking/blog.md
   - Splassive-Integrates-the-Open-DeFi-Notification-Protocol/blog.md
   - Introducing-TWAP-for-DEXs/blog.md
   - Orbs-New-Guardian-Introduction-Mr-Dome/blog.md
