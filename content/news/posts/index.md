@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-unveil-new-twap-protocol-for-decentralized-exchanges.md
+  - orbs-twap-protocol-tackles-liquidity-and-volatility-challenges.md
+  - okx-enables-orbs-staking-for-all-orbs-network-stakeholders.md
+  - cointelegraph_polygon.md
+  - DeFi.org-Announce-Accelerator-Program-Members-with-Polygon-and-Orbs.md
   - Are-Layer-3s-The-Future-Of-Crypto-Tech-A-Deep-Dive-Into-The-Matter.md
   - Orbs-Polygon-Announce-Accelerator-Program-Participants.md
   - nasdaq_dappradar.md
