@@ -14,6 +14,9 @@ short_description: "Leading cryptocurrency exchange OKX now offers full staking 
 
 https://www.okx.com/earn/product/staking/home
 
+![staking](/assets/img/blog/OKX-Announces-ORBS-Staking/image1.png)
+
+
 OKX is one of the most popular crypto exchanges worldwide ranked in the top 20 by [CoinMarketCap](https://coinmarketcap.com/rankings/exchanges/) “Exchange Score”, with 24h trading of over $175M. By facilitating ORBS staking, OKX enables any Orbs token holder to stake their tokens directly from the exchange and thereby contribute to the security of the Orbs network.
 
 Orbs is a public, permissionless blockchain infrastructure project. Any entity wishing to develop on the Orbs network or participate in the PoS Universe may do so as long as they adhere to the consensus rules set by the protocol. The Orbs community welcomes OKX as a reputable player in the space, as well as any other entity and stakeholder who takes an active role in the Orbs ecosystem and shares in the common goals and vision of the project.
