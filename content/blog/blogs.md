@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Guarda-integrates-ORBS-token/blog.md
   - Huobi-Global-Lists-Orbs-Token/blog.md
   - OKX-Announces-ORBS-Staking/blog.md
   - Splassive-Integrates-the-Open-DeFi-Notification-Protocol/blog.md
