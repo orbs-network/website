@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Oct 2022 09:37:57 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 03 Oct 2022 08:21:58 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Guarda integrates ORBS token into their swap application]]></title>
+            <description><![CDATA[Guarda crypto wallet &amp; exchange has listed ORBS, the native token of the Orbs network! Guarda, a multiplatform non-custodial wallet has added support for the Orbs token (ORBS) to their swap exchange.]]></description>
+            <link>https://www.orbs.com/Guarda-integrates-ORBS-token</link>
+            <guid isPermaLink="true">https://www.orbs.com/Guarda-integrates-ORBS-token</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Guarda-integrates-ORBS-token/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Huobi Global Lists Orbs Token (ORBS)]]></title>
             <description><![CDATA[The Huobi Global exchange has officially announced the listing of $ORBS, the native token of the Orbs network! Huobi is a top-10 cryptocurrency exchange with more than 10M users and over $4B in daily trading volumes.]]></description>
