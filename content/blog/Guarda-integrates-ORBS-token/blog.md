@@ -56,4 +56,22 @@ Twitter: [https://twitter.com/orbs_network](https://twitter.com/orbs_network)
 
 Discord: https://discord.gg/bMcnMdAK46
 
+<div class='line-separator'> </div>
+
+
+**About Guarda Wallet**
+
+Guarda is a decentralized non-custodial cryptocurrency wallet that gives you complete control of your keys. It features high-security standards and does not store your information on its server. Guarda is committed to providing fast, easy and transparent access to the crypto world for all users around the globe. 
+
+
+Guarda is a multi-asset cryptocurrency wallet with exchange, buy, sell, send, and receive features. It also allows you to stake assets to earn passive income. If you are interested in learning more about Guarda Wallet or the new staking platform, please visit https://guarda.com/.
+
+
+Press Contact: 
+
+David Polk
+
+david@guarda.co
+
+
 
