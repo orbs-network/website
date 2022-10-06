@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/white-paper-mapper
 title: Orbs Position Paper
 readPaperBtn: read the paper
-date: August 2017
+date: April 2018
 url: white-papers/orbs-position-paper
 button: Preview Paper
 published: "Published"
