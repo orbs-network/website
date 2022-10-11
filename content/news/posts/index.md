@@ -3,6 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Orbs-Focuses-On-The-Open-Network-With-Call-For-Grant-Proposals.md
   - orbs-unveil-new-twap-protocol-for-decentralized-exchanges.md
   - orbs-twap-protocol-tackles-liquidity-and-volatility-challenges.md
   - okx-enables-orbs-staking-for-all-orbs-network-stakeholders.md
