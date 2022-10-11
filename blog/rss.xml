@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Oct 2022 12:39:41 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 11 Oct 2022 09:18:00 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Orbs Ecosystem Grant Program - Third Call for Grants: ORBS On TON]]></title>
+            <description><![CDATA[The Orbs project, together with our community, is building a public and permissionless ecosystem. As an expression of this value, the Orbs Ecosystem Grant Program provides grants to teams that make contributions to the project. The Orbs project is now launching a new call for grants under the OEGP. This call follows on the recent announcement that Orbs is building on TON as its first non-EVM L1.]]></description>
+            <link>https://www.orbs.com/Expanding-to-The-Open-Network-TON</link>
+            <guid isPermaLink="true">https://www.orbs.com/Expanding-to-The-Open-Network-TON</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Expanding-to-The-Open-Network-TON/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Guarda integrates ORBS token into their swap application]]></title>
             <description><![CDATA[Guarda crypto wallet &amp; exchange has listed ORBS, the native token of the Orbs network! Guarda, a multiplatform non-custodial wallet has added support for the Orbs token (ORBS) to their swap exchange.]]></description>
