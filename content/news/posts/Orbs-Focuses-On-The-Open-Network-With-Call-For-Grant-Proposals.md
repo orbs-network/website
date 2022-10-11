@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-Focuses-On-The-Open-Network-With-Call-For-Grant-Proposals.png
+url: https://cryptodaily.co.uk/2022/10/orbs-focuses-on-the-open-network-with-call-for-grant-proposals
+date: 11, October 2022
+logo: /assets/img/news/logos/cryptodaily.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs, the first execution Layer-3 solution inside the crypto arena, has opened up its grant program for teams and developers to work on TON-based apps.
