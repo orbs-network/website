@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Expanding-to-The-Open-Network-TON/bg.jpg
-blogUrl: Expanding-to-The-Open-Network-TON
+image: /assets/img/blog/The-Orbs-Ecosystem-Grant-Program-TON/bg.jpg
+blogUrl: The-Orbs-Ecosystem-Grant-Program-TON
 date: 2022-10-11
 title: "The Orbs Ecosystem Grant Program - Third Call for Grants: ORBS On TON"
 author:
