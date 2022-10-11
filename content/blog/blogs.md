@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - The-Orbs-Ecosystem-Grant-Program-TON/blog.md
   - Guarda-integrates-ORBS-token/blog.md
   - Huobi-Global-Lists-Orbs-Token/blog.md
   - OKX-Announces-ORBS-Staking/blog.md
