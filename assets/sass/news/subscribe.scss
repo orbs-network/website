@@ -1,0 +1,86 @@
+.news-subscribe {
+  background: #5e75e8;
+  width: 100%;
+  height: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+  margin-top: 140px;
+
+  &-title {
+    * {
+      font-weight: bold;
+      font-size: 1.375rem;
+
+      color: #fdfdfd;
+      text-transform: uppercase;
+    }
+
+    padding-right: 70px;
+  }
+
+  &-right {
+    display: flex;
+    max-width: 721px;
+    flex: 1;
+    height: 70px;
+    background: transparent;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #53fffa;
+  }
+
+  &-input {
+    width: 100%;
+    height: 100%;
+    padding-right: 170px;
+    border: none;
+    background: transparent;
+    text-indent: 26px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: $text-font;
+
+    &::placeholder {
+      color: white;
+    }
+  }
+
+  &-submit {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 155px;
+    height: calc(100% - 10px);
+    background: #53fffa;
+    border-radius: 50px;
+    color: #383838;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: $bold-font;
+
+    .loader {
+      display: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      div {
+        background: #383838;
+      }
+    }
+  }
+
+  &-error {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 10px;
+    font-size: 16px;
+    font-family: $text-font;
+    display: none;
+  }
+}

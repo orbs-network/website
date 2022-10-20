@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "card-font";
+  src: url("../fonts/LAB_digital.ttf");
+  font-display: swap;
+}
+.typed-cursor::after {
+  bottom: 0px;
+}
