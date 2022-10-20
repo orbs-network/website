@@ -1,67 +1,31 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/
+Introducing-Orbs-Improvement-Proposals/bg.jpg
+blogUrl: Introducing-Orbs-Improvement-Proposals
+date: 2022-10-20
+title: "Introducing: Orbs Improvement Proposals"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "As previously announced, the Orbs project is in the midst of the process of formalizing its community governance. The next step in this process is the introduction of a process for Orbs Improvement Proposals (called “OIPs”). OIPs are a platform for the community and the public at large, as well as the team, to suggest improvements and changes to the Orbs network. While the project has always been open to suggestions, OIPs will be a dedicated place where suggestions can be organized and publicized for discussions."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+As previously announced, the Orbs project is in the midst of the process of formalizing its community governance. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Previous steps included the upgrading of the contributors guide on Github to streamline the process of outside developers contributing to the projects codebase and the introduction of community governance votes on Snapshot. The first two [governance votes](https://www.orbs.com/Reinstating-Guardians-Self-Stake-Requirement/) relating to the reinstatement of a minimum self-stake requirement for Guardians were successful beyond expectations, with high levels of engagement from the entire community.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+The next step in this process is the introduction of a process for Orbs Improvement Proposals (called “OIPs”). OIPs are a platform for the community and the public at large, as well as the team, to suggest improvements and changes to the Orbs network. While the project has always been open to suggestions, OIPs will be a dedicated place where suggestions can be organized and publicized for discussions.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+OIPs will be posted as issues to the OIP repository on Github, available here: 
+https://github.com/orbs-network/OIPs
 
-### Step-by-Step Guide
+As a first OIP, the Orbs core team is proposing that there be ground rules for future OIPs.  These include a standard template for OIPs and a defined process for OIPs to be open for community discussions,  eventually converted into a governance vote and ultimately implemented in practice. 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The team has drafted an OIP-0, setting out these ground rules. The draft can be found here: https://github.com/orbs-network/OIPs/issues/1. 
 
-Please also see our disclaimers below.
+Since the framework set out in OIP-0 will set the ground rules for future upgrades and changes to the project, it is important that everyone with an interest in the Orbs project has an opportunity to provide input. We welcome you to review the draft and make comments and suggestions, whether by adding comments in Github, or discussing on [Telegram](https://t.me/OrbsNetwork) or in the governance page of the Orbs [discord](https://discord.com/channels/829255795827933236/1004049084597928017). 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Once rough consensus has been reached on final language for OIP-0, the team will present the final draft as a governance vote on Snapshot for the approval of the entire Orbs PoS Universe. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+We look forward to a great discussion! 
