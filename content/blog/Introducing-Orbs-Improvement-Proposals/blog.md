@@ -1,7 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/
-Introducing-Orbs-Improvement-Proposals/bg.jpg
+image: /assets/img/blog/Introducing-Orbs-Improvement-Proposals/bg.jpg
 blogUrl: Introducing-Orbs-Improvement-Proposals
 date: 2022-10-20
 title: "Introducing: Orbs Improvement Proposals"
