@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Oct 2022 11:24:52 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 25 Oct 2022 07:18:40 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Frax Finance]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated Frax, the first fractional stablecoin protocol on Ethereum, with over $1.32b in TVL.]]></description>
+            <link>https://www.orbs.com/DeFi-Notification-Supports-Frax-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notification-Supports-Frax-Finance</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notification-Supports-Frax-Finance/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Introducing: Orbs Improvement Proposals]]></title>
             <description><![CDATA[As previously announced, the Orbs project is in the midst of the process of formalizing its community governance. The next step in this process is the introduction of a process for Orbs Improvement Proposals (called “OIPs”). OIPs are a platform for the community and the public at large, as well as the team, to suggest improvements and changes to the Orbs network. While the project has always been open to suggestions, OIPs will be a dedicated place where suggestions can be organized and publicized for discussions.]]></description>
