@@ -1,67 +1,85 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/DeFi-Notification-Supports-Frax-Finance/bg.jpg
+blogUrl: DeFi-Notification-Supports-Frax-Finance
+date: 2022-10-25
+title: "The Open DeFi Notification Protocol Now Supports Frax Finance"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Open DeFi Notifications Protocol has integrated Frax, the first fractional stablecoin protocol on Ethereum, with over $1.32b in TVL."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The Open DeFi Notifications Protocol has integrated [Frax](https://frax.finance/), the first fractional stablecoin protocol on Ethereum, with over $1.32b in TVL.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Frax users can rest easy knowing that their positions are monitored 24/7 and that they will receive real-time notifications to help them manage their risk.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+[The Open DeFi Notification Protocol](https://defi.org/notifications/) App is available on both [Apple AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp).
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a community led initiative to provide users with decentralized and free mobile notifications for on-chain events._
 
-### Step-by-Step Guide
+### The Best Way to Monitor Your Loaned Assets
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Frax is one of the largest algorithmic stablecoin protocols on the Ethereum network, with their stablecoin, $FRAX, additionally implemented on 12 other chains. The decentralized protocol allows users to help stabilize $FRAX, earn yield, swap, and lend on their all-in-one platform. 
 
-Please also see our disclaimers below.
+In order to borrow on Frax, borrowers must post collateral. Taking collateralized loans carries certain risks, primarily the risk of **liquidation**. Borrowers need to ensure they do not cross their borrow limit, which can trigger the liquidation of their collateral.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+As we all know, the crypto market is very volatile. Extreme price movements can decrease the notional value of a collateral’s token or increase the value of the borrowed currency (or both), increasing the risk of liquidation. At times such as these, borrowers can experience sleepless nights, having to monitor their position status regularly.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Well, not anymore!
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Using the Open DeFi Notification Protocol, Frax users can set up a **“Position Health”** notification which will issue an alert when your position gets close to your specified Loan-to-value ratio (LTV). In this way, users have 24/7 monitoring of their position status and can take immediate action in order to mitigate the risk of liquidation. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+In addition to this, Frax farmers can set up a **“Pending Reward”** notification which will notify the user when there are enough rewards in the veFXS pool to claim.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![App](/assets/img/blog/DeFi-Notification-Supports-Frax-Finance/image1.png)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### A Notification Standard for Leading DeFi Projects
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+The Open DeFi Notification Protocol is an open initiative to provide users with decentralized and free mobile notifications for on-chain events. 
 
-### 2) Lend ALPACA tokens
+Frax joins other top DeFi lending protocols, such as [Aave](https://defi.org/announcements/the-open-defi-notification-protocol-now-supports-aave/), [Venus](https://defi.org/announcements/the-open-defi-notification-protocol-now-supports-venus-protocol/), and [Alpaca Finance](https://defi.org/announcements/the-open-defi-notification-protocol-now-supports-alpaca-finance/), supported by the Open DeFi Notification app, with liquidation risk notifications being one of the most popular use cases by the app users.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+The addition of Frax makes for an impressive lineup of leading DeFi projects who have already been integrated into the Open DeFi Notification app for the benefit of their users, including among others: Aave, Uniswap, SushiSwap, QuickSwap, PancakeSwap and more…
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**All in all, the app supports over 20 protocols across 6 networks: Ethereum, BSC, Polygon, Fantom, Cronos and Avalanche!**
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+![ecosystem](/assets/img/blog/DeFi-Notification-Supports-Frax-Finance/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
 
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
+
+
+The Protocol has been implemented fully by the [Orbs network](https://www.orbs.com/) and will be executed by the Orbs Guardians, making this the 1st fully decentralized implementation of a notification protocol.
+
+Become involved and contribute:
+[https://github.com/open-defi-notification-protocol](https://github.com/open-defi-notification-protocol)
+
+Learn more about the Open DeFi Notification Protocol [here](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0).
+
+Proudly born in the [defi.org](http://defi.org/) accelerator, join our [Telegram channel](https://t.me/defiorg) for more updates!
+
+
+
+<div class='line-separator'> </div>
+
+
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_The Open DeFi Notification Protocol is a beta version that is still under active development, and all underlying digital assets, blockchain networks and DeFi platforms are also subject to ongoing development, and as such, the protocol or the underlying platforms:_
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_(a) may contain bugs, errors and defects,_
+
+_(b) may function improperly or be subject to periods of downtime and unavailability,_
+
+_(c) may result in total or partial loss or corruption of data or a delay or a failure to send or receive expected notifications._
+
+_Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information, please see the Terms of Use and Privacy Policy._ 
+
+
