@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DeFi-Notification-Supports-Frax-Finance/blog.md
   - Introducing-Orbs-Improvement-Proposals/blog.md
   - The-Orbs-Ecosystem-Grant-Program-TON/blog.md
   - Guarda-integrates-ORBS-token/blog.md
