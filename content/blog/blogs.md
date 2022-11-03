@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Deep-Dive-to-Orbs-Lambda/blog.md
   - DeFi-Notification-Supports-Frax-Finance/blog.md
   - Introducing-Orbs-Improvement-Proposals/blog.md
   - The-Orbs-Ecosystem-Grant-Program-TON/blog.md
