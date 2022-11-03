@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Oct 2022 07:18:40 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 03 Nov 2022 10:01:06 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Deep Dive to Orbs Lambda]]></title>
+            <description><![CDATA[Orbs Lambda is an event driven, serverless and decentralized cloud function, similar in concept to AWS Lambda - only decentralized. Cloud functionsfunction are implemented in a few lines of code, deployed to the Orbs Network and then executed by the network validators. Much like AWS Lambda, there is no devops involved and no instances to worry about. Unlike AWS Lambda, the protocol is fully transparent and decentralized, providing execution guaranteed to the user community by relying on dozens of independent network validators that participate in the protocol.]]></description>
+            <link>https://www.orbs.com/Deep-Dive-to-Orbs-Lambda</link>
+            <guid isPermaLink="true">https://www.orbs.com/Deep-Dive-to-Orbs-Lambda</guid>
+            <dc:creator><![CDATA[Tal Kol]]></dc:creator>
+            <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Deep-Dive-to-Orbs-Lambda/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Frax Finance]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated Frax, the first fractional stablecoin protocol on Ethereum, with over $1.32b in TVL.]]></description>
