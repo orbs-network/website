@@ -1,67 +1,90 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Deep-Dive-to-Orbs-VM/bg.jpg
+blogUrl: Deep-Dive-to-Orbs-VM
+date: 2022-11-11
+title: "Deep Dive to Orbs VM"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/TalKol.md
 type:
-short_description:
+short_description: "Orbs VM is a dedicated and decentralized virtual machine, similar in concept to AWS EC2 - only decentralized. Orbs VM services are implemented as Docker containers, deployed to the Orbs Network and then executed by the network validators. Much like AWS EC2 container services, there is minimal devops involved as orchestration is automated. Unlike AWS EC2, the protocol is fully transparent and decentralized, providing execution guaranteed to the user community by relying on dozens of independent network validators that participate in the protocol."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Decentralized Docker-Based Virtual Machine**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Orbs VM is a dedicated and decentralized virtual machine, similar in concept to [AWS EC2](https://aws.amazon.com/ec2/) - only decentralized.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Orbs VM services are implemented as [Docker](https://www.docker.com/) containers, deployed to the Orbs Network and then executed by the network validators. Much like AWS EC2 container services, there is minimal devops involved as orchestration is automated. Unlike AWS EC2, the protocol is fully transparent and decentralized, providing execution guaranteed to the user community by relying on dozens of independent network validators that participate in the protocol.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**Any Programming Language**
 
-### Step-by-Step Guide
+Services in Orbs VM are implemented as an industry standard container - Docker. As such, they can rely on any familiar programming language like Go, C++, Rust, JavaScript, Python and Java. Developers are not required to learn unfamiliar smart contract languages or operate strange toolchains - they can rely on their existing knowledge.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+**Always On**
 
-Please also see our disclaimers below.
+Just like regular Docker containers, Orbs VM services are always-on. They are not event-driven and do not become dormant when unused. Any event-driven logic can be implemented inside the container by implementing the logic that scans continuously for the desired condition. For example, services can monitor any number of L1 blockchains by continuously reading new published blocks and analyzing their content.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+**Enhance Existing Smart Contracts**
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Orbs VM is not meant to replace existing L1 smart contracts. It is a complementary solution that allows developers to enrich their business logic with actions that the smart contract sandbox is unable to do, without sacrificing decentralization. Dapps that currently rely on their own centralized backends are welcome to migrate these backends to Orbs VM and eliminate the centralized bottlenecks from their offering.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+**Alternatives**
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Before trying Orbs VM, please consider [Orbs Lambda](https://docs.orbs.network/v3/orbs-lambda/what-is-orbs-lambda) - a solution designed for ease of use that resembles AWS Lambda. Orbs VM is more difficult to use, but is more flexible and designed for  complex use-cases that require the service to be always-on or require non-JavaScript dependencies.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### Network Diagram
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+![Network](/assets/img/blog/Deep-Dive-to-Orbs-VM/image1.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+The Orbs Network includes dozens of independent validators that run Proof-of-Stake consensus and execute Orbs VM Docker containers in a decentralized manner.
+ 
+Orbs is not an L1 blockchain and is not trying to replace existing smart contracts. It is more accurately described as an oracle network similar to [Chainlink](https://chain.link/), operating in L3. Orbs runs over leading L1/L2 blockchains like the EVM and TON and allows dapps to enhance smart contracts with advanced capabilities that are [unsupported](https://docs.orbs.network/v3/overview/enhanced-execution) by the sandboxed L1/L2 smart contract model.
+ 
+ 
+ 
+### Example Use Cases
 
-### 2) Lend ALPACA tokens
+Orbs VM is designed to enhance the capabilities of existing smart contracts. Here are some real world examples of how dapps are using this infrastructure. Notice that many of these examples could have been implemented with a centralized backend operated by the dapp itself, but this would create a centralized bottleneck that can be avoided by using the dozens of validators of Orbs Network.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Most of these examples can also be implemented using [Orbs Lambda](https://docs.orbs.network/v3/orbs-lambda/what-is-orbs-lambda) assuming the implementation meets its limitations (like relying on JavaScript only). Orbs Lambda is simpler to work with but less flexible. Any use-case that can be implemented by Orbs Lambda can also be implemented by Orbs VM. Orbs Lambda itself is actually implemented using Orbs VM.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**Price feed similar to Chainlink or any other data oracle** 
 
-### 3) Earn Orbs in the Grazing Range
+An Orbs VM container is free to fetch any data available online and is not limited to current on-chain state. External market price feed is a useful example of such data that can be read from a multitude of exchanges and price providers (Coinbase, Binance, CoinMarketCap, Coingecko, etc). The container continuously queries the price from all external sources, then signs the price off-chain and sends the signatures to a new dapp smart contract that verifies the Orbs quorum and records an aggregated price on-chain.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+**Mobile push notifications for dapp end-users for on-chain events** 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+A dapp like Aave or Compound may want to alert its users when an on-chain condition is triggered - for example before their positions are in danger of being liquidated. An Orbs VM container monitors every block and checks if any of the positions passes a liquidation threshold and if so, triggers a mobile push notifications webhook, a tweet or a Telegram/Discord chat message. A more advanced version of this container will also generate an on-chain transaction to reduce the position in the protocol automatically to avoid liquidation completely by adjusting it according to the live market price.
 
-#### And that’s it – You are now a senior Alpaca!
+**Calculating a staked vote according to historic balance snapshot on multiple chains**
 
+An Orbs VM container can access on-chain data. Unlike smart contracts, it is not limited to the state head and can also query historic balances. Unlike smart contracts, it is also not limited to the same blockchain and can query multiple blockchains like Ethereum, Polygon and BNB Chain. Governance votes in dapps usually rely on a historic balance snapshot to avoid vote manipulation by buying tokens after the vote was announced. Dapp users often exist on multiple blockchains since tokens are often bridged. If the vote passes, the container can generate an on-chain transaction - a great way to implement decentralized smart contract upgrades.
+
+**Auto compounding of vaults like Harvest.finance or other advanced strategies** 
+
+Vaults are decentralized "hedge funds" that implement a DeFi investment strategy on-chain in a completely trustless manner using smart contracts. Efficient investment strategies often require automatic triggers that adjust the position in some way. One example is auto compounding - selling rewards back to the base assets and re-depositing them to increase the position principal. Another example is comparing two alternative positions and moving funds automatically according to the one with the best APR. The container checks for relevant triggers by monitoring every new block and generates the transaction to trigger the appropriate response on-chain when the position needs to be adjusted.
+
+**Executing large trades in DeFi without price impact by implementing TWAP**
+
+Trades executed on on-chain DEX/AMM protocols are atomic and take place immediately. When the trade is relatively large or relies on a low liquidity pair, this can result in significant loss due to price impact. An Orbs VM container can break the single trade into multiple smaller ones every several minutes, allowing enough time for arbitrageurs to correct the pair back to market price, thus reducing price impact. The container will generate the numerous transactions to carry the smaller trades and adjust price limits according to live market prices to avoid front running.
+ 
+### Step by Step Overview
+
+The development process of a new Orbs VM service includes the following steps:
+
+1. [Select a unique ID](https://docs.orbs.network/v3/orbs-vm/step-by-step-overview/select-unique-id) for your service (alpha-numeric characters and dashes).
+2. Create a local git repository conforming to the appropriate project structure.
+3. [Implement the logic](https://docs.orbs.network/v3/orbs-vm/step-by-step-overview/docker-image-implementation) of your service in any language and wrap it as a single docker.
+4. [Write a simple test suite](https://docs.orbs.network/v3/orbs-vm/step-by-step-overview/testing-locally) to verify your service logic locally.
+5. Push your docker image to a public docker registry such as [DockerHub](https://hub.docker.com/).
+6. [Deploy your service](https://docs.orbs.network/v3/orbs-vm/step-by-step-overview/deploying-to-production) by creating a PR (git pull request) to the official Orbs repo on GitHub.
+7. Wait until service is deployed by the system, errors and feedback will appear on the PR.
+8. [Analyze execution](https://docs.orbs.network/v3/orbs-vm/step-by-step-overview/analyzing-execution) of your service in production by examining the network [status page](https://status.orbs.network).
+ 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Want to learn more about the Orbs network? Check out the developers documentation [here](https://docs.orbs.network/v3/overview/what-is-orbs), or chat with the Orbs team on the official [Telegram](https://t.me/OrbsNetwork) channel and on [Discord](https://discord.com/invite/sswGDYGBt5).
