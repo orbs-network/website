@@ -19,4 +19,5 @@ items:
   - imToken.md
   - dcent.md
   - simplehold.md
+  - guarda-wallet.md
 ---

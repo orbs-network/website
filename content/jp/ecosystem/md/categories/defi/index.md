@@ -26,4 +26,5 @@ items:
   - rango.md
   - kogefarm.md
   - trader-joe.md
+  - bnb.md
 ---

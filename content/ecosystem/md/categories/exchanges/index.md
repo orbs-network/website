@@ -8,7 +8,6 @@ items:
   - bithub.md
   - probit.md
   - coinone.md
-  - ftx.md
   - upbit.md
   - latoken.md
   - phemex.md
@@ -26,4 +25,6 @@ items:
   - huobi.md
   - stealth.md
   - change-now.md
+  - simpleswap.md
+  - gopax.md
 ---
