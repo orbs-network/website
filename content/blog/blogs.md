@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - GOPAX-Lists-Orbs-Token/blog.md
   - Deep-Dive-to-Orbs-VM/blog.md
   - Deep-Dive-to-Orbs-Lambda/blog.md
   - DeFi-Notification-Supports-Frax-Finance/blog.md
