@@ -1,5 +1,5 @@
 layout: pages/page
-
+script: brand-assets/index
 header:
   - /_shared/navbar/index.md
 main:
