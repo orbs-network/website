@@ -1,67 +1,45 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/GOPAX-Lists-Orbs-Token/bg.png
+blogUrl: GOPAX-Lists-Orbs-Token
+date: 2022-11-14
+title: "GOPAX Lists Orbs Token (ORBS)"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "GOPAX exchange has officially announced the listing of $ORBS, the native token of the Orbs network! GOPAX, established in 2016, is one of five certified KRW cryptocurrency exchanges, supporting 91 trading pairs and 78 different assets. GOPAX is a fast, reliable, technology-oriented virtual asset (cryptocurrency) exchange by Streami Inc."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**GOPAX exchange has officially announced the listing of $ORBS, the native token of the Orbs network!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+GOPAX, established in 2016, is one of five certified KRW cryptocurrency exchanges, supporting 91 trading pairs and 78 different assets. GOPAX is a fast, reliable, technology-oriented virtual asset (cryptocurrency) exchange by Streami Inc.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+GOPAX, a spot-only exchange, offers a sophisticated trading toolset and boasts its KRW trading certification, which for those unfamiliar, is a very difficult status to acquire in South Korea. The listing is a reflection of the  Orbs Network’s strong community and participation levels in Korea.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
-
-### Step-by-Step Guide
-
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
-
-Please also see our disclaimers below.
-
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The listing decision by GOPAX follows a series of developments around the Orbs Networks. Orbs and Polygon recently [launched](https://defi.org/announcements/orbs-polygon-announce-a-special-round-of-the-defi-org-accelerator/) a special round of the DeFi.org Accelerator. In addition, Orbs has officially announced its [collaboration](https://www.orbs.com/Expanding-to-The-Open-Network-TON/) with TON - The Open Network, as part of its ecosystem expansion. Last month, [Huobi](https://twitter.com/HuobiGlobal/status/1579328457175363585) listed the Orbs token  and the Orbs token as added to [OKX staking](https://www.orbs.com/OKX-Announces-ORBS-Staking/#:~:text=By%20facilitating%20ORBS%20staking%2C%20OKX,public%2C%20permissionless%20blockchain%20infrastructure%20project.) page. Lastly, the decentralized TWAP protocol, an innovative new DeFi product powered by the Orbs Network’s L3 technology, is in the process of being integrated with [SpiritSwap](https://twitter.com/orbs_network/status/1578017484174757891). 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+
+<div class='line-separator'> </div>
+
+
+**About Orbs**
+
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at:
+
+- Telegram: https://t.me/OrbsNetwork
+- Twitter: https://twitter.com/orbs_network
+- Learn more [about Orbs](https://www.orbs.com/Orbs-A-Re-introduction/)
+
+
+
+
