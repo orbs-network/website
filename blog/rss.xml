@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 13 Nov 2022 13:06:35 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Nov 2022 10:10:58 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[GOPAX Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[GOPAX exchange has officially announced the listing of $ORBS, the native token of the Orbs network! GOPAX, established in 2016, is one of five certified KRW cryptocurrency exchanges, supporting 91 trading pairs and 78 different assets. GOPAX is a fast, reliable, technology-oriented virtual asset (cryptocurrency) exchange by Streami Inc.]]></description>
+            <link>https://www.orbs.com/GOPAX-Lists-Orbs-Token</link>
+            <guid isPermaLink="true">https://www.orbs.com/GOPAX-Lists-Orbs-Token</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/GOPAX-Lists-Orbs-Token/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Deep Dive to Orbs VM]]></title>
             <description><![CDATA[Orbs VM is a dedicated and decentralized virtual machine, similar in concept to AWS EC2 - only decentralized. Orbs VM services are implemented as Docker containers, deployed to the Orbs Network and then executed by the network validators. Much like AWS EC2 container services, there is minimal devops involved as orchestration is automated. Unlike AWS EC2, the protocol is fully transparent and decentralized, providing execution guaranteed to the user community by relying on dozens of independent network validators that participate in the protocol.]]></description>
