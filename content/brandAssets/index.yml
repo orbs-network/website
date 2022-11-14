@@ -1,0 +1,12 @@
+layout: pages/page
+
+header:
+  - /_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - /_shared/footer/footer.md
+
+title: "Brand Page"
+description: Orbs brand assets page
+og_locale: en_US
