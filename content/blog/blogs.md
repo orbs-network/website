@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Announcing-TON-Minter-by-Orbs/blog.md
   - GOPAX-Lists-Orbs-Token/blog.md
   - Deep-Dive-to-Orbs-VM/blog.md
   - Deep-Dive-to-Orbs-Lambda/blog.md
