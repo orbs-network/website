@@ -1,67 +1,57 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Announcing-TON-Minter-by-Orbs/bg.jpg
+blogUrl: Announcing-TON-Minter-by-Orbs
+date: 2022-11-15
+title: "Announcing TON Minter by Orbs"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/ShaharYakir.md
 type:
-short_description:
+short_description: "Today we're introducing Minter - an open-source tool to launch jettons (similar to ERC-20 tokens) on the Ton network. Minter was previously known as jetton.live and was created by the Orbs team."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+### Minter
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Today we're introducing [Minter](https://www.minter.ton.org/) - an open-source tool to launch jettons (similar to ERC-20 tokens) on the Ton network. Minter was previously known as jetton.live and was created by the [Orbs](https://orbs.com/) team.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### What is Minter?
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Minter allows you to easily deploy new Jettons on the TON blockchain. First, go to https://minter.ton.org and connect your wallet. Currently, Chrome extension wallet and Tonhub are supported, but TonKeeper support is coming very soon.
 
-### Step-by-Step Guide
+Then, you select a name, symbol and other properties of your new token and simply initiate a transaction on the TON chain.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+This will cause a new Jetton Minter contract to be created. Minter is a contract responsible for yielding Jetton Wallet contracts. Since the tool allows you to specify any amount of initial tokens to be minted, a new wallet with the specified token balance will be created and associated with your TON wallet address.
 
-Please also see our disclaimers below.
+![Minter](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image1.png)
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### History
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+The [Jetton standard](https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md) (akin to ERC-20 on Ethereum) has existed since March '22. The jetton.live tool was launched in June '22, as theOrbs team saw that there wasn't a standard tool to create new Jettons and stepped in to develop one for the benefit of the TON ecosystem.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+With the tool being recognized by [TON Community](https://t.me/toncoin/473), the community helped by opening issues and PRs to improve it and fix bugs. Since then, over 300 new Jettons have been deployed. These tokens are used to support development in the TON ecosystem, facilitate usage of DEXes on TON, such as [Tonswap](https://tonswap.org/), and issue utility tokens for new Projects on TON.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### Safety
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Our experience in decentralization drove us to make the tool opinionated in how it guards token creators and users. The tool opts to store new jettons metadata only on-chain, even though the [metadata standard](https://github.com/ton-blockchain/TEPs/blob/master/text/0064-token-data-standard.md) recognizes both off-chain and on-chain as valid storage options.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+This design choice is intended to keep users safe from changes or disappearance of token symbols and decimals because they were stored in an unpinned IPFS address or a 3rd party backend server.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Altering such metadata is still allowed, but the token admin is encouraged to revoke its admin privileges (also supported on the tool) once metadata is finalized on-chain. In addition, a warning is clearly displayed for any token for which admin privileges have not been revoked.
 
-Once the position is opened, you can always re-adjust the parameters:
+![Admin](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+Revoking the admin also protects from further coins being minted, causing a token to devalue.
+Lastly, the tool is completely open source and served from GitHub pages, which means that users are able to verify that it indeed deploys the contracts from the [Minter-contract repo](https://github.com/ton-blockchain/minter-contract).
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+More on this at the [Minter contract repo](https://github.com/ton-blockchain/minter-contract#jetton-metadata-field-best-practices).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+### What's changing?
 
-### 3) Earn Orbs in the Grazing Range
+Today, jetton.live becomes Minter. In the process, we have contributed its [dapp](https://github.com/ton-blockchain/minter) and [contracts](https://github.com/ton-blockchain/minter-contract) to the ton-blockchain org, which means it is now the TON foundation's official tool for deploying Jettons.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+In this transition, we have also worked closely with the foundation to design the tool to align with the official TON style guide, and we're introducing a completely overhauled UI experience.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+For us at Orbs, this is a welcome opportunity to contribute to the fast-growing TON ecosystem. Join the Orbs official [Telegram channel](https://t.me/OrbsNetwork) to learn more about Orbs activities in the TON ecosystem.
 
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
