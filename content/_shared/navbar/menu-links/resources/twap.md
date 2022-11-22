@@ -1,8 +1,8 @@
 ---
 layout: partials/navbar/components/menu-resources-link
-title: TWAP
+title: dTWAP
 url: https://www.orbs.com/Introducing-TWAP-for-DEXs/
 image: assets/img/navbar/menu/twap.svg
 ---
 
-TWAP orders for DEXs
+Decentralized TWAP orders for DEXs
