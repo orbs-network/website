@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Introducing-TWAP-for-DEXs/bg.jpg
+image: /assets/img/blog/Introducing-TWAP-for-DEXs/bg2.jpg
 blogUrl: Introducing-TWAP-for-DEXs
 date: 2022-09-22
 title: "Introducing dTWAP for DEXs - Powered by Orbs L3"
