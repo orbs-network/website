@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Nov 2022 11:57:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 22 Nov 2022 12:13:16 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Announcing TON Minter by Orbs]]></title>
@@ -117,7 +117,7 @@
             <guid isPermaLink="true">https://www.orbs.com/Introducing-TWAP-for-DEXs</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
             <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-TWAP-for-DEXs/bg.jpg" length="0" type="image/jpeg"/>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-TWAP-for-DEXs/bg2.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Orbs New Guardian Introduction: Mr. Dome ]]></title>
