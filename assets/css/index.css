@@ -2517,7 +2517,6 @@ body {
   letter-spacing: 1.05px;
   white-space: nowrap;
   max-width: calc(100% - 20px);
-  text-transform: uppercase;
   overflow: hidden;
   text-overflow: ellipsis;
   letter-spacing: -0.1px;
