@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/new-orbs-guardian-spotlight-kolb-beehive/main.jpeg
+image: /assets/img/blog/new-orbs-guardian-spotlight-kolb-beehive/main.jpg
 blogUrl: new-orbs-guardian-spotlight-kolb-beehive
 date: 2022-11-28
 title: "New Orbs Guardian Spotlight: KOLB & Beehive"
