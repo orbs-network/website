@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - new-orbs-guardian-spotlight-kolb-beehive/blog.md
   - Announcing-TON-Minter-by-Orbs/blog.md
   - GOPAX-Lists-Orbs-Token/blog.md
   - Deep-Dive-to-Orbs-VM/blog.md
