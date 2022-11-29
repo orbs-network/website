@@ -38,7 +38,7 @@ I've been with Orbs holders for a long time as leader of a community that has al
 
 2\. Community Growth: The core of the community is the people who make it up. In response, KOLB&Beehive will provide a lot of support to the personal growth of mature Orbs holders, which we believe will help them overcome the long crypto winter without leaving as followers.
 
-2-1: Legal experts are invited to the Corabel community to develop their ability to respond to regulations that will become more important in the future.
+2-1: Legal experts are invited to the Korabel community to develop their ability to respond to regulations that will become more important in the future.
 
 2-2: We will support educational programs to read Crypto markets. (Macroeconomic and various basic investment methods).
 
