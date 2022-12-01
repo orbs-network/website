@@ -1,67 +1,50 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Introducing-the-New-Orbs-Developer-Documentation/bg.jpg
+blogUrl: Introducing-the-New-Orbs-Developer-Documentation
+date: 2022-12-01
+title: Introducing the New Orbs Developer Documentation
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Orbs team is excited to introduce the brand new Orbs Developer Documentation! This is an important initiative with a goal to streamline development on the Orbs network by developers and contributors from the broad crypto ecosystem."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The Orbs team is excited to introduce the brand new Orbs Developer Documentation!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+You can check it out in the following link:
+https://docs.orbs.network/v3/overview/what-is-orbs
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+This is an important initiative with a goal to streamline development on the Orbs network by developers and contributors from the broad crypto ecosystem.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Orbs’ [L3 technology](https://www.orbs.com/network/) for enhancing the capabilities of smart contracts opens up a whole new spectrum of possibilities for developers working on Web 3.0, DeFi, NFTs and GameFi Dapps, and the Orbs Developer Documentation is the best place to start this process!
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Focus on Resources for Developers
 
-Please also see our disclaimers below.
+The first section of the Orbs GitBook contains a useful overview of the basics of the Orbs project such as Layer 3 technology, Orbs network diagram, white papers, etc.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+In the main section, there is in-depth focus on Orbs’ two execution services: [Orbs Lambda](https://www.orbs.com/Deep-Dive-to-Orbs-Lambda/) and [Orbs VM](https://www.orbs.com/Deep-Dive-to-Orbs-VM/).
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+These are both serverless and decentralized execution services, similar in concept to AWS Lambda and EC2 respectively, only decentralized. Orbs Lambda & VM provide powerful tools for developers to overcome various [limitations](https://docs.orbs.network/v3/overview/enhanced-execution) of smart contracts without sacrificing decentralization. Dapps that currently rely on their own centralized backends are welcome to migrate these backends to Orbs VM and eliminate the centralized bottlenecks from their offering.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Developers will find a step-by-step flow for setting up their Lambda or VM functions powered by the Orbs network, along with example use-cases.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+![DevDocs](/assets/img/blog/Introducing-the-New-Orbs-Developer-Documentation/image1.png)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### Ongoing Effort for the Orbs Project Documentation 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+The Orbs Developer Documentation is meant to be the primary source of knowledge for contributing and building on the Orbs network.
 
-Once the position is opened, you can always re-adjust the parameters:
+As the project grows and new features & use-cases are being introduced, the Orbs devs docs will be constantly updated with the most up-to-date information for the use of contributors and developers.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+As always, any feedback on this new tool will be greatly appreciated!
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+Want to learn more about the Orbs network? Follow us on Twitter or join us at the official Telegram channel and on Discord.
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
