@@ -12,35 +12,35 @@ short_description: "This blog outlines the concept and architecture behind Orbs�
 
 The past several years have brought new levels of sophistication to the DeFi space, with over [$1B in daily trading volume](https://www.coingecko.com/en/dex) executed across DEXs and AMMs. At the same time, due to the inherently limited capabilities of smart contracts, DeFi markets lack features that could help manage the heightened volatility and liquidity issues that characterize the current crypto landscape. 
 
-Orbs pioneers the concept of [L3 infrastructure](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/), by utilizing Orbs’ decentralized network to enhance the capabilities of existing EVM smart contracts. Using Orbs validators as decentralized bidders, the project is introducing a new decentralized TWAP (Time Weighted Average Price) protocol for DEX/AMMs, which allows for advanced time-spread trades to be executed on these platforms in a decentralized manner. 
+Orbs pioneers the concept of [L3 infrastructure](https://www.orbs.com/How-Orbs-Hybrid-Architecture-Is-Becoming-a-Game-Changer-in-DeFi/), by utilizing Orbs’ decentralized network to enhance the capabilities of existing EVM smart contracts. Using Orbs validators as decentralized bidders, the project is introducing a new decentralized dTWAP (Decentralized Time-Weighted Average Price) protocol for DEX/AMMs, which allows for advanced time-spread trades to be executed on these platforms in a decentralized manner. 
 
-This blog outlines the concept and architecture behind Orbs’ new decentralized TWAP protocol that will allow DEXs to harness this technology to benefit the platform and its users.  
+This blog outlines the concept and architecture behind Orbs’ new decentralized dTWAP protocol that will allow DEXs to harness this technology to benefit the platform and its users.  
 
 
-### Intro to dTWAP & Use-cases
+### Intro to TWAP & Use-cases
 
-dTWAP (Decentralized Time-Weighted Average Price) is a common algorithmic trading executing strategy in CeFi that seeks to minimize a large order’s impact on the market by dividing it into a number of smaller trades and executing these trades at regular intervals over a specified period of time. 
+TWAP (Time-Weighted Average Price) is a common algorithmic trading executing strategy in CeFi that seeks to minimize a large order’s impact on the market by dividing it into a number of smaller trades and executing these trades at regular intervals over a specified period of time. 
 
-There are two primary benefits of utilizing dTWAP trading strategies. 
+There are two primary benefits of utilizing TWAP trading strategies. 
 
 **1. Price Impact Reduction**
 
-dTWAP strategies reduce the impact of an order on the general market price. 
+TWAP strategies reduce the impact of an order on the general market price. 
 
 One scenario where price impact causes significant losses to traders is with large orders. Nonetheless, even smaller orders can suffer from price impact, particularly when the trading pair is long-tail and low liquidity. 
 
 The problem of an individual trade having a disproportionate effect on the market, for either of these reasons, can be especially acute in DeFi where liquidity is much more fragmented than it is in the traditional financial markets. This fragmentation often exists even within individual dominant DEXs such as QuickSwap, which offer multiple pools for the same trading pairs.
 
-Even dTWAP strategies with relatively short durations (i.e., executing a trade in intervals of 1-2 minutes over a period of 15-20 minutes) can mitigate this problem by giving arbitrageurs a short window to close any price discrepancies on the affected pools and bring the reserves back to equilibrium (on par with spot price). 
+Even TWAP strategies with relatively short durations (i.e., executing a trade in intervals of 1-2 minutes over a period of 15-20 minutes) can mitigate this problem by giving arbitrageurs a short window to close any price discrepancies on the affected pools and bring the reserves back to equilibrium (on par with spot price). 
 
-In addition to benefiting traders, this type of dTWAP strategy also benefits the trading platform itself, as minimizing the risk of price impact can lead to increased liquidity on the pool and thus increased trading volume.  
+In addition to benefiting traders, this type of TWAP strategy also benefits the trading platform itself, as minimizing the risk of price impact can lead to increased liquidity on the pool and thus increased trading volume.  
 
 
 **2. Automation of Dollar-Cost Averaging (DCA)**
 
 Dollar-cost averaging (DCA) is an investing strategy where the investor purchases an asset or set of assets having a certain dollar value on a specific schedule (i.e., on the first day of every month). The goal behind DCA is to average out abnormal market conditions and lessen the impact of volatility on the overall purchase.
   
-dTWAP trades can be used to generate an automated version of this strategy, typically by entering a market order with longer intervals that lasts for a longer period of time or even perpetually. This trade can essentially serve as an automated DCA bot that requires no additional action from the investor. 
+TWAP trades can be used to generate an automated version of this strategy, typically by entering a market order with longer intervals that lasts for a longer period of time or even perpetually. This trade can essentially serve as an automated DCA bot that requires no additional action from the investor. 
 
 
 ### dTWAP’s Contract Architecture and Design
