@@ -1,9 +1,9 @@
 import footer from "./footer/index.js";
 import navbar from "./navbar/index.js";
 import subscribe from "./components/subscribe.js";
-import gdpr from "./services/gdpr.js";
+import gdpr from "./services/gd.js";
 import ui from "./ui/ui.js";
-import analytics from "./services/analytics/index.js";
+import analytics from "./services/an/index.js";
 
 ui.showAppLoader();
 

@@ -1,6 +1,6 @@
 import { getElement, getElementAttribute, getElements } from "../heplers.js";
 import { init } from "../index.js";
-import analytics from "../services/analytics/index.js";
+import analytics from "../services/an/index.js";
 import { initInfiniteScrolling } from "./infinite-sctoll.js";
 
 let blogsList = [];
