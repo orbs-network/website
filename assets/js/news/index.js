@@ -1,6 +1,6 @@
 import { validateEmail } from "../components/form.js";
 import { init } from "../index.js";
-import analytics from "../services/analytics/index.js";
+import analytics from "../services/an/index.js";
 import userPost from "../services/user-post.js";
 let posts = [];
 let lastLoadedIndex = 0;

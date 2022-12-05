@@ -1,5 +1,4 @@
-import { GDPR_ACCEPTED } from "../../keys.js";
-import localStorage from "../local-storage.js";
+
 import AmplitudeAnalytics from "./amplitude-analytics.js";
 import GoogleAnalytics from "./google-analytics.js";
 import HotjarAnalytics from "./hotjar-analytics.js";
@@ -16,17 +15,29 @@ class Analytics {
   hotjarAnalytics = new HotjarAnalytics();
 
   init() {
-    this.googleAnalytics.init();
-    this.amplitudeAnalytics.init();
-    this.hotjarAnalytics.init();
+   try {
+     this.googleAnalytics.init();
+     this.amplitudeAnalytics.init();
+     this.hotjarAnalytics.init();
+   } catch (error) {
+    
+   }
   }
 
   sendAmplitudeAnalyticsEvent(eventType, properties) {
-    this.amplitudeAnalytics.sendEvent(eventType, properties);
+   try {
+     this.amplitudeAnalytics.sendEvent(eventType, properties);
+   } catch (error) {
+    
+   }
   }
 
   sendGoogleAnalyticsEvent(eventType, properties) {
-    this.googleAnalytics.sendEvent(eventType, properties);
+    try {
+      this.googleAnalytics.sendEvent(eventType, properties);
+    } catch (error) {
+      
+    }
   }
 }
 

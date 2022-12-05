@@ -1,10 +1,14 @@
 import { addEvent, getElement } from "../heplers.js";
 import { GDPR_ACCEPTED, GDPR_SEEN } from "../keys.js";
-import analytics from "./analytics/index.js";
+
 import localStorage from "./local-storage.js";
 const init = () => {
-  handleShowGdpr();
-  addEventListeners();
+ try {
+   handleShowGdpr();
+   addEventListeners();
+ } catch (error) {
+  
+ }
 };
 
 const handleShowGdpr = () => {
