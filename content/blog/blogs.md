@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DeFi-Notification-Supports-Stake-DAO/blog.md
   - Introducing-the-New-Orbs-Developer-Documentation/blog.md
   - new-orbs-guardian-spotlight-kolb-beehive/blog.md
   - Announcing-TON-Minter-by-Orbs/blog.md
