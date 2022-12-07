@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Dec 2022 16:55:27 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 07 Dec 2022 08:42:49 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Stake DAO]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated Stake DAO, a revenue-sharing DAO on Ethereum, with over $53.4M in TVL. Stake DAO users can now be notified on their smartphone when a specified amount of SDT is ready to claim.]]></description>
+            <link>https://www.orbs.com/DeFi-Notification-Supports-Stake-DAO</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notification-Supports-Stake-DAO</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notification-Supports-Stake-DAO/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Introducing the New Orbs Developer Documentation]]></title>
             <description><![CDATA[The Orbs team is excited to introduce the brand new Orbs Developer Documentation! This is an important initiative with a goal to streamline development on the Orbs network by developers and contributors from the broad crypto ecosystem.]]></description>
