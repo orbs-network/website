@@ -42,7 +42,7 @@
     &-action-btn {
       transition: 0.15s all;
       margin-left: 20px;
-      font-size: 0.625rem;
+      font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.073rem;
       font-family: $text-font;
@@ -73,6 +73,8 @@
 
 .menu-burger {
   display: flex;
+  position: relative;
+  left: -20px;
 
   &-toggle {
     position: relative;
@@ -86,7 +88,10 @@
     border: 0px;
     width: 30px;
     height: 20px;
-    margin-right: 18px;
+    margin-right: 55px;
+  }
+  .navbar-burger-open{
+    
   }
   img {
     width: 100%;

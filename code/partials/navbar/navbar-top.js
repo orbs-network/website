@@ -12,6 +12,12 @@ const NavbarTop = ({
   home,
   blog,
   blog_link,
+  developers,
+  developers_url,
+  status,
+  status_url,
+  github,
+  github_url
 }) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
@@ -27,13 +33,34 @@ const NavbarTop = ({
       <section className="navbar-top-right">
         <a
           rel="noreferrer"
+          href={developers_url}
+          className="navbar-top-action-btn blog-btn"
+        >
+          {`+ ${developers}`}
+        </a>
+        <a
+          rel="noreferrer"
+          href={status_url}
+          className="navbar-top-action-btn blog-btn"
+        >
+          {`+ ${status}`}
+        </a>
+        <a
+          rel="noreferrer"
           href={generateUrl(blog_link)}
           className="navbar-top-action-btn blog-btn"
         >{`+ ${blog}`}</a>
-        <button
+        <a
+          rel="noreferrer"
+          href={github_url}
+          className="navbar-top-action-btn blog-btn"
+        >
+          {`+ ${github}`}
+        </a>
+        {/* <button
           className="navbar-top-action-btn subscribe-btn"
           aria-label="subscribe"
-        >{`+ ${subscribe_to_updates}`}</button>
+        >{`+ ${subscribe_to_updates}`}</button> */}
 
         <Flags
           flags={languages}

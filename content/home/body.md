@@ -7,7 +7,7 @@ globe_video: /assets/video/background.mp4
 socials:
   - /_shared/socials/index.md
 link_text: Read More
-link_url: /network
+link_url: /overview
 title:
   - title.md
 ---

@@ -4,10 +4,7 @@ const Network = ({
   first_section,
   second_section,
   third_section,
-  products,
   _body,
-  product_images_1,
-  product_images_2
 }) => {
   return (
     <main className="network">
@@ -16,11 +13,6 @@ const Network = ({
       {first_section}
       {second_section}
       {third_section}
-      {products}
-      <div className="network-product-images">
-      {product_images_1}
-      {product_images_2}
-      </div>
     </main>
   );
 };

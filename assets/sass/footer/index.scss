@@ -41,9 +41,16 @@
     }
     .text-p {
       margin-bottom: 0px;
+      font-weight: 300;
+      font-size: 14px;
       &:nth-of-type(2) {
         margin-top: 30px;
         color: $light-color;
+      }
+      .email-link{
+        color:#DA88DE;
+        font-weight: 500;
+        font-size: 16px;
       }
     }
     a {
@@ -52,6 +59,12 @@
   }
   &-blogs {
     width: 35%;
+    &-subscribe {
+    margin-bottom: 20px;
+    }
+    .subscribe-btn{
+
+    }
     .footer-blog {
       border-bottom: 1px solid $blue;
       padding-bottom: 40px;
@@ -107,6 +120,7 @@
   }
 
   &-navigation {
+    background: white;
     display: flex;
     padding-top: 40px;
     border-top: 1px solid $blue;
@@ -173,7 +187,7 @@
           white-space: nowrap;
 
           text-decoration: none;
-          font-size: 0.75rem;
+          font-size: 0.825rem;
           padding-right: 10px;
           text-transform: capitalize;
           font-weight: 500;
@@ -205,6 +219,9 @@
       display: none;
     }
   }
+  .footer-bottom-wrapper{
+    background: white;
+  }
 
   &-bottom {
     align-items: center;
@@ -212,8 +229,9 @@
     padding-bottom: 20px;
     &-policy {
       a {
-        font-size: 12px;
-        color: #acacac;
+        font-size: 0.825rem;
+        font-weight: 500;
+        color: #FF8B97;
         text-decoration: none;
       }
     }

@@ -4,8 +4,10 @@
 }
 
 .network {
-  padding-bottom: 100px;
   position: relative;
+  .header{
+    margin-bottom: 110px;
+  }
   &-figure {
     position: absolute;
     width: 400px;
@@ -21,6 +23,7 @@
     align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
+
     &-grid {
       display: flex;
       align-items: center;
@@ -31,15 +34,16 @@
     align-items: center;
     h3 {
       @extend .gradient-text;
-      font-weight: 900;
-      line-height: 1.5rem;
-      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.8rem;
+      font-size: 24px;
       &:last-of-type {
         margin-bottom: 20px;
       }
     }
 
     &-first {
+       padding-top: 0px;
       .network-section {
         &-grid {
           gap: 100px;
@@ -102,7 +106,7 @@
           }
           h4 {
             font-weight: 500;
-            font-size: 1.375rem;
+            font-size: 1.2rem;
             margin-bottom: 40px;
             text-transform: uppercase;
             color: white;
@@ -121,93 +125,14 @@
           flex-direction: column;
           align-items: center;
           img {
-            width: 452px;
-            margin-top: 30px;
+            width: 700px;
+            margin-top: 80px;
           }
         }
       }
     }
   }
-  &-products {
-    padding-top: 50px;
-    margin-bottom: 150px;
-    @extend .network-grid;
-    &-header {
-      text-align: center;
-      margin-bottom: 50px;
-      h3 {
-        @extend .gradient-text;
-        font-weight: 900;
-        font-size: 1.375rem;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-      }
-      h4 {
-        @extend .gradient-text;
-        font-weight: 900;
-        font-size: 0.875rem;
-        text-transform: uppercase;
-      }
-    }
-    &-flex {
-      gap: 22px;
-      flex-wrap: wrap;
-      justify-content: center;
-      display: flex;
-      align-items: stretch;
-    }
-    &-product {
-      max-width: 460px;
-      width: 100%;
-      padding: 23px;
-      @include gradient-border(1px);
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      &-logo {
-        width: 66px;
-      }
-      h4 {
-        letter-spacing: -0.009rem;
-        @extend .gradient-text;
-        font-weight: 700;
-        font-size: 0.875rem;
-        line-height: 1.125rem;
-        margin-bottom: 27px;
-        text-align: center;
-        margin-top: 30px;
-      }
-      .text-p {
-        font-size: 0.75rem;
-      }
-    }
-  }
-  &-product-images {
-    @extend .network-grid;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 50px;
-  }
-  &-product-image {
-    text-align: center;
-    h3 {
-      @extend .gradient-text;
-      font-weight: 900;
-      font-size: 1.375rem;
-      margin-bottom: 58px;
-    }
-    &-1 {
-      img {
-        width: 640px;
-      }
-    }
-    &-2 {
-      img {
-        width: 540px;
-      }
-    }
-  }
+
 }
 
 @media only screen and (max-width: 1680px) {

@@ -1,0 +1,103 @@
+.orbs-vm {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-products {
+    margin-top: 110px;
+    width: 100%;
+    .common-grid-section-image {
+      width: 200px;
+    }
+    #orbs-vm-product-1 {
+      padding-top: 0px;
+    }
+    #orbs-vm-product-2 {
+    }
+    #orbs-vm-product-3 {
+    }
+    #orbs-vm-product-4 {
+      .common-grid-section-image {
+        width: 242px;
+      }
+    }
+  }
+  .orbs-vm-graphs {
+    width: 100%;
+  }
+
+  .orbs-vm-graph-1 {
+    position: relative;
+     padding-bottom: 100px;
+    h3 {
+      color: white;
+    }
+    .text-p {
+      color: white;
+      text-align: left;
+    }
+    background: #5e75e8;
+    .orbs-vm-graph-image {
+      width: 600px;
+    }
+    .orbs-vm-graph-grid {
+      transform: translate(162px);
+    }
+  }
+
+  
+  .orbs-vm-graph-2 {
+    .orbs-vm-graph-image {
+      width: 450px;
+    }
+    .orbs-vm-graph-grid {
+      max-width: 800px;
+    }
+  }
+
+  .orbs-vm-graph {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+   
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    &-bg {
+      object-fit: cover;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      height: 100%;
+      object-position: right;
+      max-width: 1300px;
+    }
+    &-grid {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      max-width: 600px;
+      text-align: center;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+
+  .common-grid-section {
+    width: 100%;
+    &-grid {
+      max-width: 900px;
+      width: calc(100% - 100px);
+      gap: 100px;
+    }
+    strong {
+      font-weight: 500;
+    }
+  }
+}

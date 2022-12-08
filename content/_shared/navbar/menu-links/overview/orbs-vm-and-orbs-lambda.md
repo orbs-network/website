@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[WHAT IS ORBS: LAYER 3](/overview)
+[Orbs VM & Orbs Lambda](/orbs-vm-and-orbs-lambda)
