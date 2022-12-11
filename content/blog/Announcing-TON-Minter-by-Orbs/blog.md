@@ -12,7 +12,7 @@ short_description: "Today we're introducing Minter - an open-source tool to laun
 
 ### Minter
 
-Today we're introducing [Minter](https://www.minter.ton.org/) - an open-source tool to launch jettons (similar to ERC-20 tokens on EVM networks) on the Ton network. Minter was previously known as jetton.live and was created by the [Orbs](https://orbs.com/) team.
+Today we're introducing [Minter](https://minter.ton.org) - an open-source tool to launch jettons (similar to ERC-20 tokens on EVM networks) on the Ton network. Minter was previously known as jetton.live and was created by the [Orbs](https://orbs.com/) team.
 
 ### What is Minter?
 
