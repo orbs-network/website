@@ -11,4 +11,4 @@ countryCode: GL
 
 Proof of Stake
 
-reading time: 5 min
+Reading Time: 5 min

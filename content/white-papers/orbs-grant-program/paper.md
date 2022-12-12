@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs Grant Program
+title: "Orbs Grant Program: First Call for Grants"
 readPaperBtn: read the paper
 date: August 2020
 url: white-papers/orbs-grant-program

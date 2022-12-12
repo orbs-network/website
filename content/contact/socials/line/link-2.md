@@ -1,6 +1,6 @@
 ---
 layout: partials/contact/socials/LinkText
-text: Kakaotalk Korean -
+text: Korean -
 url: https://open.kakao.com/o/giYtuTRb
-linkText: "Link"
+linkText: "KakaoTalk"
 ---

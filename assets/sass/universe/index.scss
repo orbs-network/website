@@ -11,10 +11,10 @@
     max-width: 730px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 68px;
     p {
       font-size: 0.875;
-      font-weight: 600;
+      font-weight: 500;
       letter-spacing: -0.009rem;
     }
   }
@@ -200,9 +200,11 @@
     }
   }
   &-second-flex {
-    margin-top: 50px;
+    padding-top: 50px;
     align-items: flex-start;
-    margin-bottom: 85px;
+    padding-bottom: 50px;
+    background: #f4f4f4;
+    margin-bottom: 50px;
     .expending-box {
       padding-top: 0px;
       &-title {

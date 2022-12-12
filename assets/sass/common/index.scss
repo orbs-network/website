@@ -223,17 +223,20 @@ $light-gray: #d0d0d0;
   }
 }
 
+.h1{ 
+  font-weight: 900;
+    font-size: 46px;
+    line-height: 50px;
+    @extend .gradient-text;
+}
+
 .header {
   text-align: center;
   margin-top: 126px;
   padding-left: 20px;
   padding-right: 20px;
   h1 {
-    font-weight: 900;
-    font-size: 46px;
-    line-height: 50px;
-    @extend .gradient-text;
-    
+    @extend .h1;
   }
   h2 {
     font-weight: 900;

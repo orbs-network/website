@@ -11,4 +11,4 @@ countryCode: HT
 
 Token Distribution
 
-reading time: 2 min
+Reading Time: 2 min

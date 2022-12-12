@@ -34,7 +34,9 @@ const Page = (props) => {
           href={generateUrl(images.common.favicon)}
           type="image/x-icon"
         />
-        
+        <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
         <script src="https://www.googletagmanager.com/gtag/js?id=G-HJ74DHDLS3" />
 
         <MetaTags {...props} />

@@ -1,6 +1,6 @@
 ---
 layout: partials/contact/socials/section
-title: Youtube
+title: YouTube
 id: contact-youtube
 links:
   - link-1.md

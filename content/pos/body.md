@@ -20,5 +20,5 @@ subText:
   - md/sub-text.md
 ---
 
-# ORBS POS V3:
+# ORBS PROOF-OF-STAKE V3:
 # MULTI-CHAIN STAKING

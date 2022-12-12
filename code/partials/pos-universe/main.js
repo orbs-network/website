@@ -18,10 +18,8 @@ const Main = ({
       </MainGrid>
 
       {firstFlex}
-      <MainGrid>
-        {secondFlex}
-        {thirdFlex}
-      </MainGrid>
+      {secondFlex}
+      <MainGrid>{thirdFlex}</MainGrid>
       <div className="universe-bottom-links">
         {link}
         {link2}

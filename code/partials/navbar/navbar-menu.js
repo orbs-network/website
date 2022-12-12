@@ -7,7 +7,8 @@ const NavbarMenu = ({
   socials_white,
   overview,
   resources,
-  about,
+  protocols,
+  community,
   _relativeURL,
   _ID,
   home,
@@ -39,7 +40,8 @@ const NavbarMenu = ({
       >{`+ ${subscribe_to_updates}`}</button>
       <div className="navbar-menu-flex">
         {overview}
-        {about}
+        {protocols}
+        {community}
         {resources}
       </div>
       <div className="navbar-menu-mobile-social"> {socials_white}</div>

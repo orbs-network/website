@@ -151,10 +151,16 @@
   position: sticky;
   top: 150px;
   &-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 50px;
     @extend .gradient-text;
-    font-size: 1.75rem;
-    margin-bottom: 27px;
+    margin-bottom: 67px;
     text-transform: uppercase;
+  }
+  a{
+     @extend .gradient-text;
+     font-size: 17px!important;
   }
   &-body {
     .text-p {

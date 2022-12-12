@@ -3,6 +3,11 @@
     position: absolute;
     top: -110px;
   }
+  .opening-box-title{
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.5;
+  }
   &-flex {
     margin: auto;
     height: auto;
@@ -108,7 +113,7 @@
         text-transform: uppercase;
         margin-bottom: 15px;
         text-align: left;
-        font-size: 0.938rem;
+        font-size: 24px;
         @extend .gradient-text;
       }
     }

@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Orbs PoS Ecosystem V1
+title: "Orbs PoS V1: Year Zero Genesis"
 readPaperBtn: read the paper
 date: March 2019
 url: white-papers/proof-of-stake-ecosystem

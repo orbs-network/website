@@ -16,8 +16,14 @@ export const init = (keepLoader) => {
   ui.init();
   gdpr.init();
   AOS.init({ once: true });
+  hljs.initHighlightingOnLoad();
+
   analytics.init();
   if (!keepLoader) {
     ui.hideAppLoader();
   }
 };
+
+
+
+

@@ -29,7 +29,9 @@ const Form = (props) => {
           <Img src={generateUrl(images.common.close)} alt="close" />
         </button>
       )}
-      <h3 className="form-title">{title}</h3>
+      <header className="header">
+        <h1>{title}</h1>
+      </header>
       <div className="form-content flex-column">
         {success}
         <h4 className="form-sub-title">{subTitle}</h4>

@@ -103,6 +103,7 @@
     @extend .gradient-text;
     font-weight: 700;
 
+
     .typed-cursor::after {
       display: none;
     }
@@ -122,10 +123,11 @@
     right: 25px;
     padding: 0px 16px 2px 16px;
     height: 41px;
-    background: $main-bg-color;
+    background: white;
     @include gradient-border(1px);
     display: flex;
     align-items: center;
+
 
     img {
       margin-right: 10px;
@@ -163,14 +165,12 @@
       margin-top: 1px;
     }
     &-text {
+      color:#FF8B97!important;
       flex: 1;
       letter-spacing: 0.4px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-    }
-    &-website{
-      text-decoration: underline;
     }
   }
 }

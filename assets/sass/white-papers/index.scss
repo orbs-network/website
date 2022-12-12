@@ -11,7 +11,7 @@
   }
   &-box {
     align-items: flex-start;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     flex-wrap: wrap;
     &-flex {
       align-items: flex-start;
@@ -62,9 +62,9 @@
       }
     }
     &-title {
-      font-size: 0.938rem;
+      font-size: 17px;
       font-weight: 800;
-      line-height: 2.188rem;
+      line-height: normal;
       letter-spacing: $text-letter-spacing;
     }
     &-c {
@@ -72,8 +72,10 @@
       flex: 1;
       max-width: 770px;
       .text-p {
-        line-height: 2.188rem;
-        font-weight: 500;
+        line-height: normal;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
       }
       &-date {
         font-size: 0.813rem;
@@ -108,10 +110,10 @@
       width: 100%;
       border-bottom: 2px solid rgba(102, 135, 233, 0.7);
       letter-spacing: 0.7px;
-      padding-bottom: 25px;
-      font-size: 1rem;
-      margin-bottom: 35px;
-      font-weight: 600;
+      padding-bottom: 20px;
+      font-size: 24px;
+      margin-bottom: 50px;
+      font-weight: 700;
       color: #6788ea;
       letter-spacing: $text-letter-spacing;
     }

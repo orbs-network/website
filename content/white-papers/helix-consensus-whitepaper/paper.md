@@ -10,6 +10,4 @@ published: "Published"
 image: /assets/img/white-papers/helix-consensus-whitepaper.png
 ---
 
-An introduction to Helix, a decentralized, scalable and fair consensus algorithm.
-
-\*A concise version of this paper is now in proceedings of the 26th IEEE International Conference on Network Protocols (ICNP ’18). For citations, please refer to the official IEEE page at [https://ieeexplore.ieee.org/document/8526804](https://ieeexplore.ieee.org/document/8526804 "link")
+An introduction to Helix, a decentralized, scalable and fair consensus algorithm. This novel consensus algorithm which is based on PBFT was developed by the Orbs team together with the Technion - Israel Institute of Technology. A concise version of this paper is in proceedings of the 26th IEEE International Conference on Network Protocols (ICNP ’18). For citations, please refer to the official IEEE page at https://ieeexplore.ieee.org/document/8526804

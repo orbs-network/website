@@ -6,8 +6,10 @@ resources:
   - menu-links/resources/index.md
 overview:
   - menu-links/overview/index.md
-about:
-  - menu-links/about/index.md
+protocols:
+  - menu-links/protocols/index.md
+community:
+  - menu-links/community/index.md
 socials:
   - ../socials/index.md
 socials_white:
