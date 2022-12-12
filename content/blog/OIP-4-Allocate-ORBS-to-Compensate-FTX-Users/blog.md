@@ -1,67 +1,50 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/OIP-4-Allocate-ORBS-to-Compensate-FTX-Users/bg.jpg
+blogUrl: OIP-4-Allocate-ORBS-to-Compensate-FTX-Users
+date: 2022-12-12
+title: "Allocate 6.3M ORBS to Compensate FTX Users"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "This OIP proposes that the Orbs community take similar action, and set aside 6.3 million ORBS tokens from the long-term reserve pool to replace ORBS tokens lost to their holders on FTX. Actual reimbursement and the timing will be determined as the bankruptcy case continues and the affected parties and proper procedures become more clear."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Description**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+As everyone knows, the collapse of FTX has created significant losses around the blockchain world. The primary victims are, of course, retail customers who held funds on the FTX exchange that now appear to be inaccessible. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Several projects have come to arrangements or set aside resources to compensate those holding their tokens on the FTX exchange. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+This OIP proposes that the Orbs community take similar action, and set aside 6.3 million ORBS tokens from the long-term reserve pool to replace ORBS tokens lost to their holders on FTX. Actual reimbursement and the timing will be determined as the bankruptcy case continues and the affected parties and proper procedures become more clear.   
 
-### Step-by-Step Guide
+**Benefits**  
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The Orbs project is, at its root, community driven. When something happens that harms many community members, the project community should do what it can (within reason) to help. This will benefit the project as a whole by demonstrating that the Orbs project community takes care of its members and is a good actor in the space. 
 
-Please also see our disclaimers below.
+It will also allow for continued participation from those holders who for whatever reason had their ORBS trapped on FTX, instead of allowing these potential participants to become separated from the project and unable to contribute.   
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The number of ORBS tokens trapped on FTX is not large and releasing the same amount from the reserves should not have a major impact on the supply dynamics.   
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Risks** 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+This action could lead to others who lose tokens, for whatever reason, demanding to be similarly compensated. If something similar were to happen on an exchange where more Orbs tokens are held, this might not be a viable option and could harm the viability of the project.   
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Specification: The FTX bankruptcy case is only beginning, and it is unclear how or when it will be complete or how this compensation would interact with bankruptcy claims. This OIP is establishing the principle that the community is committing to compensate those who hold ORBS on FTX for their losses. The details will  be worked out in communication with the affected holders, as well as the current and future management and administration of FTX and, potentially, the courts.  
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+The reservation of 6.3M ORBS tokens will be open for 18 months. If this window expires and there are still unresolved issues or users who have not been able to recover, the program can be extended by an additional community governance vote. 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Any compensation offered from the pool should have certain limitations, which include: 1. Individual retail traders only, no institutions or entities.  2. Not more than $5,000 worth of Orbs to any individual recovery. 3. To receive compensation, holders will need to prove the presence of ORBS tokens on their FTX accounts at the relevant times, within procedures to be determined as the bankruptcy case continues. The Orbs team will have final determination of the final terms and conditions.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+**Responsible Parties** 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+The Orbs team should take an administrative role in implementing this proposal. 
 
-Once the position is opened, you can always re-adjust the parameters:
+**Voting** 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Standard rules of the Orbs Snapshot.org space. 
 
-### 2) Lend ALPACA tokens
+**Conclusion** 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+The Orbs project should take proactive steps to reserve 6.3 million Orbs tokens to help reimburse those individual retail investors whose funds were misappropriated or locked on FTX. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
