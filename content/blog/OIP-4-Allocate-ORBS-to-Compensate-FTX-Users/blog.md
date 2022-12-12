@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/OIP-4-Allocate-ORBS-to-Compensate-FTX-Users/bg.jpg
 blogUrl: OIP-4-Allocate-ORBS-to-Compensate-FTX-Users
 date: 2022-12-12
-title: "Allocate 6.3M ORBS to Compensate FTX Users"
+title: "OIP-4: Allocate 6.3M ORBS to Compensate FTX Users"
 author:
   - /blog/common/authors/EranPeled.md
 type:
