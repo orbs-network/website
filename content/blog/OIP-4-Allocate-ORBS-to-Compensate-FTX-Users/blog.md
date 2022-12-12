@@ -5,10 +5,21 @@ blogUrl: OIP-4-Allocate-ORBS-to-Compensate-FTX-Users
 date: 2022-12-12
 title: "OIP-4: Allocate 6.3M ORBS to Compensate FTX Users"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/MatanErder.md
 type:
 short_description: "This OIP proposes that the Orbs community take similar action, and set aside 6.3 million ORBS tokens from the long-term reserve pool to replace ORBS tokens lost to their holders on FTX. Actual reimbursement and the timing will be determined as the bankruptcy case continues and the affected parties and proper procedures become more clear."
 ---
+
+As previously announced, the Orbs project is in the midst of the process of formalizing its community governance, including by introducing Orbs Improvement Protocols (OIPs) as the official process for suggestions to improve the project. 
+
+The Orbs team has now submitted a proposal to assist token holders impacted by the recent events at FTX. The details are below. The draft OIP can be found here: https://github.com/orbs-network/OIPs/issues/5. 
+
+We welcome you to review the draft and make comments and suggestions, whether by adding comments in Github, or discussing on [Telegram](https://t.me/OrbsNetwork) or in the governance page of the Orbs [discord](https://discord.com/channels/829255795827933236/1004049084597928017). 
+
+Once rough consensus has been reached on final language for OIP-4, the team will present the final draft as a governance vote on Snapshot for the approval of the entire Orbs PoS Universe.
+
+We look forward to another great discussion!
+
 
 **Description**
 
