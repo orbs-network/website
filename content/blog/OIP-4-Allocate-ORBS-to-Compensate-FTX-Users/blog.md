@@ -20,6 +20,10 @@ Once rough consensus has been reached on final language for OIP-4, the team will
 
 We look forward to another great discussion!
 
+<div class='line-separator'> </div>
+
+### OIP-4: Allocate 6.3M ORBS to Assist Holders Affected by FTX
+
 
 **Description**
 
