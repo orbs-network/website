@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 Dec 2022 12:51:18 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 15 Dec 2022 14:32:33 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Announcing TON Verifier by Orbs]]></title>
+            <description><![CDATA[Today we are introducing TON Verifier - an open-source application to publish verified source code for on-chain contracts on the TON chain. Ton Verifier is a tool developed by the Orbs team and powered by Orbs decentralized network of permissionless PoS Guardians.]]></description>
+            <link>https://www.orbs.com/Announcing-TON-Verifier-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Announcing-TON-Verifier-by-Orbs</guid>
+            <dc:creator><![CDATA[Shahar Yakir]]></dc:creator>
+            <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Announcing-TON-Verifier-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[OIP-4: Allocate 6.3M ORBS to Compensate FTX Users]]></title>
             <description><![CDATA[This OIP proposes that the Orbs community take similar action, and set aside 6.3 million ORBS tokens from the long-term reserve pool to replace ORBS tokens lost to their holders on FTX. Actual reimbursement and the timing will be determined as the bankruptcy case continues and the affected parties and proper procedures become more clear.]]></description>
