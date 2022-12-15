@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Announcing-TON-Verifier-by-Orbs/blog.md
   - OIP-4-Allocate-ORBS-to-Compensate-FTX-Users/blog.md
   - DeFi-Notification-Supports-Stake-DAO/blog.md
   - Introducing-the-New-Orbs-Developer-Documentation/blog.md
