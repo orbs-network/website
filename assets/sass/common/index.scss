@@ -85,15 +85,14 @@ $light-gray: #d0d0d0;
   align-items: center;
   justify-content: center;
   font-family: $text-font;
-  color:$blue;
+  color: $blue;
   letter-spacing: $text-letter-spacing;
   cursor: pointer;
   transition: 0.2s all;
-  &:hover{
+  &:hover {
     background: $blue;
     color: white;
   }
-
 }
 
 .capitalize {
@@ -223,11 +222,11 @@ $light-gray: #d0d0d0;
   }
 }
 
-.h1{ 
+.h1 {
   font-weight: 900;
-    font-size: 46px;
-    line-height: 50px;
-    @extend .gradient-text;
+  font-size: 46px;
+  line-height: 60px;
+  @extend .gradient-text;
 }
 
 .header {
@@ -243,7 +242,6 @@ $light-gray: #d0d0d0;
     font-size: 22px;
     line-height: 44px;
     @extend .gradient-text;
-
   }
 }
 
@@ -264,14 +262,14 @@ $light-gray: #d0d0d0;
     width: 100px;
     height: 100px;
   }
-  .header{
+  .header {
     margin-top: 90px;
-    h1{
+    h1 {
       font-size: 1.525rem;
       line-height: 2.375rem;
       margin-bottom: 10px;
     }
-    h2{
+    h2 {
       font-size: 1.1rem;
       line-height: 1.5rem;
     }

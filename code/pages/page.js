@@ -34,25 +34,28 @@ const Page = (props) => {
           href={generateUrl(images.common.favicon)}
           type="image/x-icon"
         />
-        <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script src="https://www.googletagmanager.com/gtag/js?id=G-HJ74DHDLS3" />
-
-        <MetaTags {...props} />
-
-        <script src={generateUrl('/assets/js/dependencies/aos.js')}></script>
-        <script
-          async
-          src={generateUrl('/assets/js/dependencies/twitter-widgets.js')}
-          charSet="utf-8"
-        ></script>
-
         <link
-          href={generateUrl('/assets/sass/dependencies/aos.scss')}
           rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/github.min.css"
         />
 
+        {/* <link
+          rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/tomorrow.min.css"
+        /> */}
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-HJ74DHDLS3" />
+        <MetaTags {...props} />
+        <script src={generateUrl("/assets/js/dependencies/aos.js")}></script>
+        <script
+          async
+          src={generateUrl("/assets/js/dependencies/twitter-widgets.js")}
+          charSet="utf-8"
+        ></script>
+        <link
+          href={generateUrl("/assets/sass/dependencies/aos.scss")}
+          rel="stylesheet"
+        />
         {style && (
           <link
             rel="stylesheet"
@@ -62,8 +65,6 @@ const Page = (props) => {
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
       <body style={{ background: colors.background }}>
-
-        
         <AppLoader generateUrl={generateUrl} />
         <div className="app-wrapper" style={{ opacity: 0 }}>
           {header}

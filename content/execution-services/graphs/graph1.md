@@ -1,6 +1,6 @@
 ---
 layout: partials/orbs-vm-and-orbs-lambda/Graph1
-image: /assets/img/network/product-image-1.png
+image: /assets/img/execution-services/graph-1.svg
 title: Compute Cloud Alternatives
 ---
 

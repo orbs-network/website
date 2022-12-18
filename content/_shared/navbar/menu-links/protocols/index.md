@@ -5,4 +5,5 @@ id: protocols
 links:
   - dtwap.md
   - notifications.md
+  - gateway.md
 ---

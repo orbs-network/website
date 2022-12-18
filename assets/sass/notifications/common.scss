@@ -1,17 +1,11 @@
-#notification-page {
-  .navbar {
-    background: #00063e;
-    &-menu {
-      background: #00063e;
-    }
-  }
-}
 
 .notifications {
-  font-family: $notifications-main-font;
   background: white;
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 100px;
+  h1{
+      text-align: left;
+    }
   a {
     text-decoration: none;
   }

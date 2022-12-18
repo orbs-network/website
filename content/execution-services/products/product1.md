@@ -1,6 +1,6 @@
 ---
 layout: partials/orbs-vm-and-orbs-lambda/Section
-image: /assets/img/network/lambda.png
+image: /assets/img/execution-services/lambda.svg
 id: orbs-vm-product-1
 ---
 
