@@ -1,15 +1,37 @@
+$letter-spacing: -0.15px;
+$text-color: #454545;
+
+.ton-gateway-link {
+  border:  1px solid #6C7FE9;
+  border-radius: 100px;
+  padding: 12px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+    * {
+      color:#6D80E9;
+      font-size: 14px;
+      font-weight: 700;
+    }
+}
+
 .ton-gateway {
   min-height: 100vh;
+  background: #faf8fd;
 
   &-header {
     display: flex;
-    padding-bottom: 130px;
+    padding-bottom: 165px;
     position: relative;
-    margin-top: 200px;
+    margin-top: 166px;
     .main-grid {
       position: relative;
     }
     &-body {
+      position: relative;
+      z-index: 1;
+
       text-align: left;
       * {
         text-align: left;
@@ -18,49 +40,40 @@
       }
 
       p {
-        font-size: 22px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 30px;
-        max-width: 665px;
-        color: #454545;
-        line-height: 40px;
+        margin-top: 20px;
+        max-width:617px;
+        color: $text-color;
+        line-height: 28px;
       }
     }
     &-flex {
       display: flex;
       flex-direction: column;
-      gap: 34px;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 60px;
     }
     &-img {
       position: absolute;
       pointer-events: none;
     }
     &-hero {
-      top: -200px;
-      right: -210px;
-    }
-    &-figure-1 {
-      right: 0;
-      top: -50px;
-    }
-    &-figure-2 {
-      right: 0;
-      bottom: 0px;
+      top: -20px;
+      right: 0px;
+      width: 800px;
     }
     &-powered {
       height: 50px;
-      top: 70%;
+      bottom: -10px;
       right: 0;
-    }
-    &-stars {
-      top: 80%;
-      height: 70px;
-      right: 530px;
     }
     &-github {
       display: flex;
       align-items: center;
       gap: 10px;
+      margin-bottom: 34px;
       p {
         font-size: 22px;
         font-weight: 700;
@@ -68,41 +81,111 @@
       }
     }
     &-button {
+      @extend .ton-gateway-link;
+      margin-top: 30px;
+    }
+  }
+  &-posts {
+    background: #313855;
+    padding-top: 78px;
+    padding-bottom: 111px;
+
+    .main-grid {
       display: flex;
-      align-items: center;
-      gap: 10px;
-      background: #6788ea;
-      height: 38px;
-      border-radius: 100px;
-      padding: 0px 25px;
-      width: fit-content;
-      p {
+      flex-direction: column;
+      gap: 80px;
+    }
+    h3 {
+      letter-spacing: $letter-spacing;
+      @extend .gradient-text;
+      font-size: 24px;
+      font-weight: 900;
+      text-align: center;
+    }
+    &-flex {
+      display: flex;
+      gap: 45px;
+      align-items: stretch;
+      justify-content: center;
+    }
+    &-post {
+      max-width: 690px;
+      padding: 30px;
+      width: 50%;
+      border-radius: 25px;
+
+      border: 1px solid white;
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      align-items: flex-start;
+      * {
         color: white;
-        font-size: 18px;
-        font-weight: 400;
+      }
+    }
+
+    .post {
+      &-figure {
+        height: 80px;
+      }
+      &-body {
+        * {
+          font-weight: 500;
+          line-height: 33px;
+        }
+      }
+      &-profile {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        &-avatar {
+          width: 84px;
+          height: 84px;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+        &-right {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          h3 {
+            font-size: 18px;
+            font-weight: 700;
+          }
+          h4 {
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
       }
     }
   }
   &-example {
     background: #5e75e8;
-    padding: 70px 0px;
+    padding: 68px 0px 94px 0px;
+    .main-grid {
+      max-width: 1460px;
+    }
     &-flex {
       display: flex;
       align-items: stretch;
       border-radius: 20px;
-        min-height: 600px;
+      min-height: 500px;
+      width: 100%;
 
       background: white;
     }
     &-options {
       display: flex;
       flex-direction: column;
-      gap: 50px;
-      padding: 70px 100px 30px 50px;
-      min-width: 500px;
+      gap: 47px;
+      padding: 62px 58px 30px 38px;
     }
     .hljs {
       padding: 0;
+      font-size: 15px;
     }
     &-code {
       flex: 1;
@@ -111,6 +194,7 @@
       position: relative;
       border-top-right-radius: 20px;
       border-bottom-right-radius: 20px;
+      overflow: hidden;
       .ton-gateway-example-copy {
         position: absolute;
         top: 20px;
@@ -129,92 +213,151 @@
         display: block;
       }
     }
+    &-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+      a {
+        border-radius: 100px;
+        text-transform: uppercase;
+        padding: 11px 30px;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        text-decoration: unset;
+        border: 1px solid white;
+      }
+    }
+    &-title {
+      margin-bottom: 30px;
+      * {
+        font-size: 24px;
+        font-weight: 900;
+        color: white;
+        letter-spacing: $letter-spacing;
+      }
+    }
   }
   &-cards {
-    margin-bottom: 120px;
     width: 100%;
+    background: #f5f4f4;
+    padding-top: 94px;
+    padding-bottom: 120px;
     &-card {
-      transition: 0.2s all;
       width: calc(100% / 3 - 30px);
+      min-height: 310px;
 
-      background: white;
-      .card-img {
+      &-img {
         height: 50px;
       }
-      .card-container {
+      &-container {
         height: fit-content;
         position: relative;
       }
-      .card-top {
+      &-top {
+        background: white;
         display: flex;
         flex-direction: column;
         align-items: center;
         border: 1px solid #7679e7;
         padding: 35px 35px 0px 35px;
+        border-radius: 20px;
+        gap: 20px;
       }
-      .card-title {
+      &-title {
         @extend .gradient-text;
         font-weight: 800;
-        font-size: 24px;
-        margin-top: 8px;
+        font-size: 17px;
+        letter-spacing: $letter-spacing;
       }
 
-      .card-subtitle {
+      &-subtitle {
         * {
           margin-bottom: 0px;
           font-weight: 700;
-          font-size: 17px;
+          font-size: 14px;
           text-align: center;
-          color: #454545;
-          line-height: 30px;
+          color: $text-color;
+          line-height: 20px;
+          letter-spacing: $letter-spacing;
         }
       }
-      .card-button {
+      &-button {
+        margin-bottom: 10px;
         margin-top: 20px;
-        margin-bottom: 20px;
         img {
           width: 32px;
         }
         p {
-          color: #454545;
-          font-size: 17px;
+          color: $text-color;
+          font-size: 14px;
+          letter-spacing: $letter-spacing;
+
           font-weight: 300;
         }
       }
-      .card-body {
+      &-body {
         background: white;
         border: 1px solid #7679e7;
         border-top: unset;
-        padding: 20px 35px 35px 35px;
+        padding: 26px;
+        padding-top: 15px;
         position: absolute;
         top: 100%;
         z-index: 10;
         left: 0%;
         width: 100%;
         display: none;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         * {
-          color: #454545;
+          color: $text-color;
           font-weight: 500;
+          font-size: 14px;
+          letter-spacing: $letter-spacing;
+          line-height: 26px;
         }
       }
-       &:hover {
-      box-shadow: 0px 4px 40px rgba(94, 117, 232, 0.2);
-      .card-body {
-        display: block;
-      }
-      .card-top {
-        border-bottom: unset;
-      }
-      .card-button {
-        display: none;
+      &:hover {
+        box-shadow: 0px 4px 40px rgba(94, 117, 232, 0.2);
+        .ton-gateway-cards-card {
+          &-body {
+            display: block;
+          }
+          &-top {
+            border-bottom: unset;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+          &-button {
+            display: none;
+          }
+        }
       }
     }
-    }
-   
+
     .list {
       display: flex;
       flex-wrap: wrap;
       gap: 45px;
+      align-items: stretch;
+    }
+  }
+  &-powered {
+    padding-top: 65px;
+    padding-bottom: 100px;
+    h3 {
+      @extend .gradient-text;
+      font-size: 24px;
+      font-weight: 900;
+    }
+    &-body {
+      margin-top: 30px;
+      max-width: 974px;
+      letter-spacing: $letter-spacing;
+      color: $text-color;
     }
   }
 }
@@ -223,28 +366,40 @@
   width: 100%;
   cursor: pointer;
   position: relative;
+  width: 400px;
   &-title {
-    font-weight: 500;
     position: absolute;
     top: 0px;
-    padding: 0px 6px;
-    left: 12px;
+    padding: 0px 8px;
+    left: 20px;
     background: white;
-    top: -22%;
-    font-size: 22px;
+    color: $text-color;
+    top: -21%;
+    font-size: 17px;
     font-weight: 700;
+    z-index: 1;
   }
   &-selected {
+    padding: 10px 47px 10px 25px;
     width: 100%;
-    height: 60px;
+    min-height: 70px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid #C0C0C0;
+    border: 1px solid #c0c0c0;
     border-radius: 5px;
-    color: black;
-    padding-left: 25px;
-    font-weight: 600;
+    border-radius: 20px;
+    position: relative;
+    &-value {
+      font-weight: 400;
+      color: $text-color;
+    }
+    img {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
   }
   &-list {
     display: flex;
@@ -255,9 +410,10 @@
     display: none;
     border: 2px solid transparent;
     position: absolute;
-    top: 68px;
-    border-radius: 5px;
+    top: 80px;
+    border-radius: 20px;
     background: white;
+    overflow: hidden;
 
     &-item {
       height: auto;
@@ -270,18 +426,16 @@
       flex-direction: column;
       gap: 5px;
       align-items: flex-start;
-      font-size: 15px;
       .text-p {
         text-align: left;
         margin-bottom: 0px;
-        font-weight: 600;
-        color: black;
+        font-weight: 400;
+        color: $text-color;
         font-size: 17px;
       }
-      a{
-        color:#5E75E8;
-       text-decoration: unset;
-
+      a {
+        color: #5e75e8;
+        text-decoration: unset;
       }
       &:hover {
         background: rgba(94, 117, 232, 0.1);
@@ -297,7 +451,7 @@
     }
     .selectbox-list {
       display: block;
-     border: 1px solid #C0C0C0;
+      border: 1px solid #c0c0c0;
     }
   }
 }

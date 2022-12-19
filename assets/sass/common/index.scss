@@ -118,7 +118,8 @@ $light-gray: #d0d0d0;
 .main-grid {
   margin-left: auto;
   margin-right: auto;
-  width: $grid;
+  max-width: $grid;
+  width: calc(100% - 100px);
 }
 .page-padding {
   padding-top: 200px;
@@ -245,17 +246,8 @@ $light-gray: #d0d0d0;
   }
 }
 
-@media only screen and (min-width: 1920px) {
-  // .main-grid {
-  //   width: calc(100% - 400px);
-  // }
-}
 
-@media only screen and (max-width: 1500px) {
-  .main-grid {
-    width: calc(100% - 100px);
-  }
-}
+
 
 @media only screen and (max-width: $mobile) {
   .app-loader {

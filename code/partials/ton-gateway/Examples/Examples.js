@@ -1,10 +1,11 @@
 import React from "react";
 import MainGrid from "../../shared/MainGrid";
 
-function Exmpales({ selectors, github_text, telegrem_text }) {
+function Exmpales({ selectors, github, telegram, _body }) {
   return (
     <div className="ton-gateway-example">
       <MainGrid>
+        <div className="ton-gateway-example-title">{_body}</div>
         <div className="ton-gateway-example-flex">
           <div className="ton-gateway-example-options">{selectors}</div>
           <div className="ton-gateway-example-code">
@@ -18,8 +19,12 @@ function Exmpales({ selectors, github_text, telegrem_text }) {
           </div>
         </div>
         <div className="ton-gateway-example-links">
-          <a href="/">{github_text}</a>
-          <a href="/">{telegrem_text}</a>
+          <a href="/" target="_blank">
+            {github}
+          </a>
+          <a href="/" target="_blank">
+            {telegram}
+          </a>
         </div>
       </MainGrid>
     </div>

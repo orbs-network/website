@@ -6,5 +6,9 @@ header:
   - header.md
 cards:
   - cards/index.md
+posts:
+  - posts/index.md
+poweredByOrbs:
+  - powered-by-orbs.md
 ---
 a

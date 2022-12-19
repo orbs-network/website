@@ -4,8 +4,8 @@ selectors:
   - selectors/http-api-flavor/index.md
   - selectors/client-library/index.md
   - selectors/network/index.md
-github_text: Github Repo
-telegram_text: Telegram Support
+github: Github readme
+telegram: Telegram Support
 ---
 
-a
+### Initialize the RPC endpoint

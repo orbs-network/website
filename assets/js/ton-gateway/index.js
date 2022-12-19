@@ -48,6 +48,10 @@ const addEventsToSelectboxes = () => {
   selectors.forEach((selector, index) => {
     selector.classList.add(`${index}`);
     const selectedContainer = selector.querySelector(".selectbox-selected");
+    const selectedContainerValue = selector.querySelector(
+      ".selectbox-selected-value"
+    );
+
     const selectorItems = selector.querySelectorAll(".selectbox-list-item");
     const key = selector.getAttribute("data-key");
 
@@ -63,7 +67,7 @@ const addEventsToSelectboxes = () => {
         generateExample(exampleSelection);
         const isApiFlavor = key === keys.apiFlavor;
         isApiFlavor && hideNotSupportedWallets(selectorItem);
-        selectedContainer.innerHTML =
+        selectedContainerValue.innerHTML =
           selectorItem.getAttribute("data-selected");
       });
 
