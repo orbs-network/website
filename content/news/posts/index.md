@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Orbs-Launches-The-TON-Verifier-To-Verify-The-Ecosystems-Smart-Contracts-Code.md
+  - okx-has-enabled-orbs-staking-for-all-orbs-community-members.md
   - Orbs-Focuses-On-The-Open-Network-With-Call-For-Grant-Proposals.md
   - orbs-unveil-new-twap-protocol-for-decentralized-exchanges.md
   - orbs-twap-protocol-tackles-liquidity-and-volatility-challenges.md
