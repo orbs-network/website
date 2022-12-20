@@ -2,4 +2,4 @@
 layout: partials/shared/Text
 ---
 
-Dozens of permissionless validators of the Orbs Network staked with $100 million. Your access to TON does not depend on a single centralized business.
+For a completely trustless setup, use raw ADNL via proxy to perform client-side verifications of all responses like regular trustless lite clients.

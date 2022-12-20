@@ -23,7 +23,7 @@ let selectedLibrary = undefined;
 const copyButton = document.querySelector(".ton-gateway-example-copy button");
 const copyTooltip = document.querySelector(".ton-gateway-example-copy-tooltip");
 const onLoad = async () => {
-  // addCardsEvents()
+  addCardsEvents();
   init();
   const response = await fetch("/assets/datasets/gateway-snippets.json");
   jsonConfig = await response.json();
@@ -72,6 +72,14 @@ const addEventsToSelectboxes = () => {
       });
 
       const links = selectorItem.querySelectorAll("a");
+      const firstLink = links[0];
+      const image = selectorItem.getAttribute("data-link-img");
+      const img = document.createElement("img");
+      img.style.marginLeft = "7px";
+      img.setAttribute("src", image);
+      if (firstLink) {
+        firstLink.append(img);
+      }
       links.forEach((link) => {
         link.addEventListener("click", (e) => {
           e.stopPropagation();
@@ -144,17 +152,17 @@ const generateExample = ({ apiFlavor, clientLibrary, network }) => {
 
 const addCardsEvents = () => {
   cards.forEach((card) => {
-    const button = card.querySelector(".card-button");
+    const button = card.querySelector(".ton-gateway-cards-card-button");
     button.addEventListener("click", () => {
       clearCards();
-      card.classList.add("active-card");
+      card.classList.add("ton-gateway-cards-card-active");
     });
   });
 };
 
 const clearCards = () => {
   cards.forEach((card) => {
-    card.classList.remove("active-card");
+    card.classList.remove("ton-gateway-cards-card-active");
   });
 };
 

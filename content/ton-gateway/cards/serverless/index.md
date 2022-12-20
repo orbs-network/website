@@ -9,4 +9,4 @@ image: /assets/img/ton-gateway/serverless.svg
 
 No need to run your own RPC
 
-backend serve
+backend server

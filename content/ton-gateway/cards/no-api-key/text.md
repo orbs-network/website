@@ -2,4 +2,4 @@
 layout: partials/shared/Text
 ---
 
-Dozens of permissionless validators of the Orbs Network staked with $100 million. Your access to TON does not depend on a single centralized business.
+RPC gateways like toncenter reduce throttling by registering an API Key. This API Key cannot be stored client-side (secret) and cannot be stored server-side (centralized).

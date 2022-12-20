@@ -7,6 +7,6 @@ button: Read more
 image: /assets/img/ton-gateway/high-redundancy.svg
 ---
 
- Robust API with no single
- 
- point of failure
+Robust API with no single
+
+point of failure

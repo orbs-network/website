@@ -1,7 +1,12 @@
 import React from "react";
+import { handleUrl } from "../../../util/link";
 import MainGrid from "../../shared/MainGrid";
 
-function Exmpales({ selectors, github, telegram, _body }) {
+function Exmpales({ selectors, github, telegram, _body, _relativeURL, _ID }) {
+  const generateUrl = (url) => {
+    return handleUrl(url, _relativeURL, _ID);
+  };
+
   return (
     <div className="ton-gateway-example">
       <MainGrid>
@@ -10,7 +15,9 @@ function Exmpales({ selectors, github, telegram, _body }) {
           <div className="ton-gateway-example-options">{selectors}</div>
           <div className="ton-gateway-example-code">
             <div className="ton-gateway-example-copy">
-              <button>Copy</button>
+              <button>
+                <img src={generateUrl("/assets/img/copy.svg")} />
+              </button>
               <div className="ton-gateway-example-copy-tooltip">Copied!</div>
             </div>
             <pre>

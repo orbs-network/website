@@ -1,14 +1,13 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
 import { handleUrl } from "../../util/link";
+import Img from "../shared/Img";
 import Flags from "./components/flags";
-import MenuToggle from "./components/menu-toggle";
 
 const NavbarTop = ({
   languages,
   _relativeURL,
   _ID,
-  subscribe_to_updates,
   home,
   blog,
   blog_link,
@@ -17,19 +16,25 @@ const NavbarTop = ({
   status,
   status_url,
   github,
-  github_url
+  github_url,
 }) => {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
   return (
     <div className="navbar-top flex-between">
-      <MenuToggle
-        image={generateUrl(images.common.logo)}
-        url={generateUrl(home)}
-        toggleImg={generateUrl(images.navbar.hamburger)}
-        customClassName="navbar-burger-open"
-      />
+      <div className="navbar-top-left">
+        <button className="show-menu">
+          <Img
+            src={generateUrl("/assets/img/navbar/hamburger.svg")}
+            alt="menu-toggle"
+          />
+        </button>
+        <a href={generateUrl(home)} className="logo" rel="noopener">
+          <Img src={generateUrl(images.common.logo)} alt="orbs logo" />
+          <p>ORBS</p>
+        </a>
+      </div>
       <section className="navbar-top-right">
         <a
           rel="noreferrer"

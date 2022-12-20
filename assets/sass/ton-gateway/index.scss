@@ -1,19 +1,20 @@
 $letter-spacing: -0.15px;
 $text-color: #454545;
+$blue: #6d80e9;
 
 .ton-gateway-link {
-  border:  1px solid #6C7FE9;
+  border: 1px solid $blue;
   border-radius: 100px;
   padding: 12px 26px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: fit-content;
-    * {
-      color:#6D80E9;
-      font-size: 14px;
-      font-weight: 700;
-    }
+  * {
+    color: $blue;
+    font-size: 14px;
+    font-weight: 700;
+  }
 }
 
 .ton-gateway {
@@ -43,7 +44,7 @@ $text-color: #454545;
         font-size: 17px;
         font-weight: 400;
         margin-top: 20px;
-        max-width:617px;
+        max-width: 617px;
         color: $text-color;
         line-height: 28px;
       }
@@ -61,7 +62,7 @@ $text-color: #454545;
     }
     &-hero {
       top: -20px;
-      right: 0px;
+      right: -30px;
       width: 800px;
     }
     &-powered {
@@ -83,17 +84,18 @@ $text-color: #454545;
     &-button {
       @extend .ton-gateway-link;
       margin-top: 30px;
+      text-transform: uppercase;
     }
   }
   &-posts {
     background: #313855;
-    padding-top: 78px;
+    padding-top: 100px;
     padding-bottom: 111px;
 
     .main-grid {
       display: flex;
       flex-direction: column;
-      gap: 80px;
+      gap: 47px;
     }
     h3 {
       letter-spacing: $letter-spacing;
@@ -110,14 +112,14 @@ $text-color: #454545;
     }
     &-post {
       max-width: 690px;
-      padding: 30px;
+      padding: 30px 30px 37px 30px;
       width: 50%;
       border-radius: 25px;
+      position: relative;
 
-      border: 1px solid white;
       display: flex;
       flex-direction: column;
-      gap: 35px;
+      gap: 30px;
       align-items: flex-start;
       * {
         color: white;
@@ -125,8 +127,23 @@ $text-color: #454545;
     }
 
     .post {
+      &-content {
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
       &-figure {
         height: 80px;
+      }
+      &-frame {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        pointer-events: none;
       }
       &-body {
         * {
@@ -149,13 +166,13 @@ $text-color: #454545;
           flex: 1;
           display: flex;
           flex-direction: column;
-          gap: 5px;
-          h3 {
+          gap: 8px;
+          h4 {
             font-size: 18px;
             font-weight: 700;
           }
-          h4 {
-            font-size: 18px;
+          h5 {
+            font-size: 17px;
             font-weight: 400;
           }
         }
@@ -164,7 +181,7 @@ $text-color: #454545;
   }
   &-example {
     background: #5e75e8;
-    padding: 68px 0px 94px 0px;
+    padding: 88px 0px 94px 0px;
     .main-grid {
       max-width: 1460px;
     }
@@ -172,7 +189,6 @@ $text-color: #454545;
       display: flex;
       align-items: stretch;
       border-radius: 20px;
-      min-height: 500px;
       width: 100%;
 
       background: white;
@@ -181,11 +197,12 @@ $text-color: #454545;
       display: flex;
       flex-direction: column;
       gap: 47px;
-      padding: 62px 58px 30px 38px;
+      padding: 69px 35px 107px 66px;
     }
     .hljs {
       padding: 0;
       font-size: 15px;
+      line-height: 24px;
     }
     &-code {
       flex: 1;
@@ -199,6 +216,9 @@ $text-color: #454545;
         position: absolute;
         top: 20px;
         right: 30px;
+        & img {
+          width: 20px;
+        }
         &-tooltip {
           position: absolute;
           top: 30px;
@@ -208,9 +228,6 @@ $text-color: #454545;
           padding: 5px;
           display: none;
         }
-      }
-      .active {
-        display: block;
       }
     }
     &-links {
@@ -232,6 +249,7 @@ $text-color: #454545;
     }
     &-title {
       margin-bottom: 30px;
+      padding-left: 40px;
       * {
         font-size: 24px;
         font-weight: 900;
@@ -243,10 +261,10 @@ $text-color: #454545;
   &-cards {
     width: 100%;
     background: #f5f4f4;
-    padding-top: 94px;
-    padding-bottom: 120px;
+    padding-top: 62px;
+    padding-bottom: 167px;
     &-card {
-      width: calc(100% / 3 - 30px);
+      width: calc(100% / 3 - 32px);
       min-height: 310px;
 
       &-img {
@@ -261,16 +279,17 @@ $text-color: #454545;
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid #7679e7;
+        border: 1px solid $blue;
         padding: 35px 35px 0px 35px;
         border-radius: 20px;
         gap: 20px;
       }
       &-title {
-        @extend .gradient-text;
-        font-weight: 800;
+        color: $blue;
+        font-weight: 700;
         font-size: 17px;
         letter-spacing: $letter-spacing;
+        text-transform: uppercase;
       }
 
       &-subtitle {
@@ -285,17 +304,24 @@ $text-color: #454545;
         }
       }
       &-button {
+        overflow: hidden;
         margin-bottom: 10px;
         margin-top: 20px;
         img {
           width: 32px;
+          transition: 0.2s all;
         }
         p {
           color: $text-color;
           font-size: 14px;
           letter-spacing: $letter-spacing;
-
           font-weight: 300;
+        }
+        &:hover {
+          img {
+            transform: translate(0, 40px);
+            opacity: 0;
+          }
         }
       }
       &-body {
@@ -318,9 +344,10 @@ $text-color: #454545;
           font-size: 14px;
           letter-spacing: $letter-spacing;
           line-height: 26px;
+          text-align: justify;
         }
       }
-      &:hover {
+      &-active {
         box-shadow: 0px 4px 40px rgba(94, 117, 232, 0.2);
         .ton-gateway-cards-card {
           &-body {
@@ -341,23 +368,158 @@ $text-color: #454545;
     .list {
       display: flex;
       flex-wrap: wrap;
-      gap: 45px;
+      gap: 47px;
       align-items: stretch;
     }
   }
   &-powered {
-    padding-top: 65px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 98px;
+    &-bottom {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 14px;
+      p {
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+      }
+      figure {
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(90deg, #00c0bf 0%, #00fbff 100.02%);
+        border-radius: 50%;
+      }
+    }
+    &-arrow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: calc(100% - 20px);
+      img {
+        position: relative;
+        left: 10px;
+      }
+      p {
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+      }
+    }
+    &-list {
+      padding-top: 44px;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+    }
     h3 {
       @extend .gradient-text;
       font-size: 24px;
       font-weight: 900;
+    }
+    .dapp-user {
+    }
+    .orbs-validator {
+      position: relative;
+      .main-img {
+        position: relative;
+        top: 0px;
+        left: 20px;
+        height: 188px;
+        zoom: 1.1;
+      }
+    }
+    .ton-validator {
+      & img {
+        height: 188px;
+      }
+      & .flex {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
     }
     &-body {
       margin-top: 30px;
       max-width: 974px;
       letter-spacing: $letter-spacing;
       color: $text-color;
+      font-weight: 600;
+    }
+    &-section {
+      border: 1px solid #be80a7;
+      padding: 22px;
+      width: fit-content;
+      position: relative;
+      h4 {
+        color: #3f3f3f;
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 40px;
+      }
+
+      &-card {
+        position: relative;
+        &-title {
+          font-weight: 600;
+          font-size: 14px;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+        }
+        &-colored {
+          width: 140px;
+          height: 140px;
+          position: relative;
+        }
+        &-body {
+          border-radius: 20px;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            57.16deg,
+            #e9f2fa 14.99%,
+            #e4f2fa 21.38%,
+            #d7f2fa 27.78%,
+            #c1f3fa 34.18%,
+            #a2f4fb 41.49%,
+            #7bf6fc 48.8%,
+            #4bf8fd 56.11%,
+            #13fafe 63.42%,
+            #00fbff 65.25%
+          );
+          z-index: 1;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          gap: 5px;
+
+          & * {
+            margin-bottom: 0px;
+            line-height: 20px;
+            font-size: 14px;
+            color: $text-color;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+        }
+        figure {
+          background: #00bbba;
+          border-radius: 20px;
+          position: absolute;
+          left: 6px;
+          top: 6px;
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
   }
 }
@@ -366,7 +528,7 @@ $text-color: #454545;
   width: 100%;
   cursor: pointer;
   position: relative;
-  width: 400px;
+  width: 412px;
   &-title {
     position: absolute;
     top: 0px;
@@ -378,6 +540,7 @@ $text-color: #454545;
     font-size: 17px;
     font-weight: 700;
     z-index: 1;
+    color: $text-color;
   }
   &-selected {
     padding: 10px 47px 10px 25px;

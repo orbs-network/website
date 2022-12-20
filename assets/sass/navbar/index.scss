@@ -6,13 +6,39 @@
   top: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(255,255,255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   z-index: 999;
-  
+
   transition: 0.2s all;
   pointer-events: none;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: unset;
+  gap: 15px;
+  font-size: 17px;
+  height: fit-content;
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+}
+
+.show-menu {
+  position: absolute;
+  left: -73px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 27px;
+  & img {
+    width: 100%;
+  }
+}
+
 .overlay-active {
   opacity: 1;
 }
@@ -35,6 +61,10 @@
   }
   &-top {
     height: 100%;
+    position: relative;
+    align-items: center;
+    &-left {
+    }
     &-right {
       display: flex;
       align-items: center;
@@ -71,57 +101,6 @@
   }
 }
 
-.menu-burger {
-  display: flex;
-  position: relative;
-  left: -20px;
-
-  &-toggle {
-    position: relative;
-    top: -2px;
-    display: flex;
-    background: transparent;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 0px;
-    width: 30px;
-    height: 20px;
-    margin-right: 55px;
-  }
-  .navbar-burger-open{
-    
-  }
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  aside {
-    border-radius: 25px;
-    width: 100%;
-    height: 2.3px;
-    background: #00fdf5;
-  }
-
-  .logo {
-    object-fit: contain;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    p {
-      // @extend .gradient-text;
-      padding-left: 10px;
-    }
-    img {
-      height: 40px;
-      width: auto;
-    }
-  }
-}
-
 .navbar-hidden {
   transform: translate(0, -100%);
 }
@@ -136,9 +115,9 @@
       &-resources {
         width: calc(190px * 3 + 30px);
         gap: 10px;
-          &-box{
-            width: 190px;
-          }
+        &-box {
+          width: 190px;
+        }
       }
       &-links {
         &-link {
@@ -164,6 +143,18 @@
   }
 }
 
+@media only screen and (max-width: 1420px) {
+  .navbar-top-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .show-menu {
+    position: static;
+    transform: unset;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .navbar {
     &-top {
@@ -177,34 +168,11 @@
 @media only screen and (max-width: $mobile) {
   .navbar {
     height: 70px;
-
-    .menu-burger {
-      &-toggle {
-        margin-right: 25px;
-      }
-      .logo {
-        margin-top: 3px;
-        img {
-          height: 27px;
-        }
-      }
-    }
   }
 }
 
 @media only screen and (max-width: 350px) {
   .navbar {
-    .menu-burger {
-      .logo {
-        margin-top: 3px;
-        img {
-          height: 22px;
-        }
-      }
-      &-toggle {
-        margin-right: 15px;
-      }
-    }
     &-top {
       &-flags {
         li {

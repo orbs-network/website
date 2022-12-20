@@ -2,4 +2,4 @@
 layout: partials/shared/Text
 ---
 
-Dozens of permissionless validators of the Orbs Network staked with $100 million. Your access to TON does not depend on a single centralized business.
+RPC gateways like toncenter throttle anonymous users to 1 request per second. Most dapps cannot operate under these restrictions since their users are anonymous.

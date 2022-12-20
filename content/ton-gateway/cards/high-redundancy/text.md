@@ -2,4 +2,4 @@
 layout: partials/shared/Text
 ---
 
-Dozens of permissionless validators of the Orbs Network staked with $100 million. Your access to TON does not depend on a single centralized business.
+Operated by the dozens of independent validators of the Orbs Network that are running in mainnet since 2019 with virtually no downtime.

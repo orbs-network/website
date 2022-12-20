@@ -1,6 +1,6 @@
 ---
 layout: partials/ton-gateway/main
-example: 
+example:
   - example/index.md
 header:
   - header.md
@@ -9,6 +9,7 @@ cards:
 posts:
   - posts/index.md
 poweredByOrbs:
-  - powered-by-orbs.md
+  - powered-by-orbs/index.md
 ---
+
 a

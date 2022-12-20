@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function TonGateway({ header, example, cards, posts, poweredByOrbs }) {
   return (
@@ -6,10 +6,11 @@ function TonGateway({ header, example, cards, posts, poweredByOrbs }) {
       {header}
       {cards}
       {example}
-      {posts}
       {poweredByOrbs}
+
+      {posts}
     </div>
   );
 }
 
-export default TonGateway
+export default TonGateway;

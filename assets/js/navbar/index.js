@@ -3,6 +3,12 @@ import { showSubscribePopup } from "../components/subscribe.js";
 import { toggleWindowScroll } from "../ui/ui.js";
 const shadow = document.querySelector(".overlay");
 
+const showMenuButton = document.querySelector(".show-menu");
+const hideMenuButton = document.querySelector(".hide-menu");
+
+const mobileSubscribe = getElement(".mobile-subscribe");
+const subscribeBtn = getElement(".subscribe-btn");
+
 let scrollPos = 0;
 
 export const showMenu = () => {
@@ -44,20 +50,14 @@ export const navbarMenuOutsideClickListener = () => {
   document.addEventListener("click", function (event) {
     const overlay = getElement(".navbar-menu-content");
     const btn = getElement(".menu-burger-toggle");
-    if (!overlay || !btn || btn.contains(event.target)) return;
+    if (!overlay || !hideMenuButton || hideMenuButton.contains(event.target))
+      return;
     const isClickInside = overlay.contains(event.target);
     if (!isClickInside) {
       hideMenu();
     }
   });
 };
-
-
-// export const responsiveMenu = () => {
-//   document.addEventListener("resize", function (event) {
-//     window.innerWidth
-//   });
-// };
 
 const handleNavbarBackground = () => {
   const navbar = getElement(".navbar");
@@ -87,29 +87,11 @@ export const handleNavbarScroll = () => {
   handleNavbarTransform();
 };
 
-const getNabarElements = () => {
-  const mobileSubscribe = getElement(".mobile-subscribe");
-  const subscribeBtn = getElement(".subscribe-btn");
-  const hamburger = getElement(".navbar-burger-open");
-  const closeMenu = getElement(".navbar-burger-close");
-  return {
-    mobileSubscribe,
-    subscribeBtn,
-    hamburger,
-    closeMenu,
-  };
-};
-
-
-
-
 export const addEventsToNavbar = () => {
-  const { mobileSubscribe, subscribeBtn, hamburger, closeMenu } =
-    getNabarElements();
   addEvent(subscribeBtn, "click", showSubscribePopup);
   addEvent(mobileSubscribe, "click", handleMobileSubscribeClick);
-  addEvent(hamburger, "click", showMenu);
-  addEvent(closeMenu, "click", hideMenu);
+  addEvent(showMenuButton, "click", showMenu);
+  addEvent(hideMenuButton, "click", hideMenu);
 };
 
 export const init = () => {
