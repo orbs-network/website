@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Protecting-Smart-Contracts-on-TON-Blockchain-from-Cyberattacks.jpg
+url: https://hackernoon.com/protecting-smart-contracts-on-ton-blockchain-from-cyberattacks
+date: 15, December 2022
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Protecting Smart Contracts on TON Blockchain from Cyberattacks
