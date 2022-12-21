@@ -7,7 +7,7 @@ title: "ORBS token available on TON Blockchain Via Orbit Bridge and Megaton Fina
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description: "In an exciting development for the Orbs project, the ORBS token has been added to the Orbit Bridge, which supports 19 different chains, including TON (The Open Network). In addition, Megaton Finance has announced Orbs as an official launch partner to its much anticipated AMM-DEX on TON, planned to launch in January 2023! Both these integrations mean that the ORBS token can now be bridged to the TON blockchain with liquidity pools and swap functions coming very soon!
+short_description: "In an exciting development for the Orbs project, the ORBS token has been added to the Orbit Bridge, which supports 19 different chains, including TON (The Open Network). In addition, Megaton Finance has announced Orbs as an official launch partner to its much anticipated AMM-DEX on TON, planned to launch in January 2023! Both these integrations mean that the ORBS token can now be bridged to the TON blockchain with liquidity pools and swap functions coming very soon!"
 ---
 
 In an exciting development for the Orbs project, the ORBS token has been added to the Orbit Bridge, which supports 19 different chains, including TON (The Open Network).
