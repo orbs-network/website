@@ -59,6 +59,7 @@
 
     h3 {
       @extend .page-section-title;
+      margin-bottom: $page-section-title-margin-big;
     }
 
     &-bg {
@@ -72,6 +73,9 @@
       object-position: right;
       max-width: 1300px;
     }
+    &-body {
+      margin-top: 40px;
+    }
     &-grid {
       display: flex;
       flex-direction: column;
@@ -79,7 +83,6 @@
       max-width: 600px;
       text-align: center;
       align-items: center;
-      gap: 40px;
     }
   }
 

@@ -40,15 +40,16 @@
   text-fill-color: transparent;
 }
 
-.button, .ton-gateway-header-button, .white-papers-box-btn, .single-blog-bottom-flex-item a, .form-submit-container .form-submit, .expending-box .expend-btn, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button {
-  border: 1px solid #5e75e8;
+.button, .ton-gateway-header-button, .white-papers-box-btn, .single-blog-bottom-flex-item a, .expending-box .expend-btn, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button, .pink-button, .form-submit-container .form-submit {
+  border: 2px solid #5e75e8;
   border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   width: fit-content;
-  padding: 15px 26px;
+  padding: 0px 60px;
+  height: 45px;
   font-size: 14px;
   font-family: "Montserrat";
   color: #5e75e8;
@@ -57,16 +58,25 @@
   transition: 0.2s all;
   cursor: pointer;
 }
-.button *, .ton-gateway-header-button *, .white-papers-box-btn *, .single-blog-bottom-flex-item a *, .form-submit-container .form-submit *, .expending-box .expend-btn *, .white-button *, .ton-gateway-example-links a *, .notifications .contribute-bottom-buttons .link-button * {
+.button *, .ton-gateway-header-button *, .white-papers-box-btn *, .single-blog-bottom-flex-item a *, .expending-box .expend-btn *, .white-button *, .ton-gateway-example-links a *, .notifications .contribute-bottom-buttons .link-button *, .pink-button *, .form-submit-container .form-submit * {
   font-size: inherit;
   font-family: inherit;
   color: inherit;
   font-weight: inherit;
   text-decoration: inherit;
 }
-.button:hover, .ton-gateway-header-button:hover, .white-papers-box-btn:hover, .single-blog-bottom-flex-item a:hover, .form-submit-container .form-submit:hover, .expending-box .expend-btn:hover, .white-button:hover, .ton-gateway-example-links a:hover, .notifications .contribute-bottom-buttons .link-button:hover {
+.button:hover, .ton-gateway-header-button:hover, .white-papers-box-btn:hover, .single-blog-bottom-flex-item a:hover, .expending-box .expend-btn:hover, .white-button:hover, .ton-gateway-example-links a:hover, .notifications .contribute-bottom-buttons .link-button:hover, .pink-button:hover, .form-submit-container .form-submit:hover {
   color: white;
   background: #5e75e8;
+}
+
+.pink-button, .form-submit-container .form-submit {
+  color: #da88de;
+  border: 2px solid #da88de;
+}
+.pink-button:hover, .form-submit-container .form-submit:hover {
+  color: white;
+  background: #da88de;
 }
 
 .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button {
@@ -92,10 +102,6 @@
   font-family: "Montserrat";
   line-height: 31px;
   color: white;
-}
-.page-section-title:last-of-type, .ton-gateway-example-title :last-of-type, .notifications .alerts-description h3:last-of-type, .notifications .integrations-list #integration-pr > p:last-of-type, .notifications .contribute-example-body h4:last-of-type, .notifications .contribute-title:last-of-type, .notifications .contribute-bottom h5:last-of-type, .orbs-vm .orbs-vm-graph h3:last-of-type, .news-posts-title:last-of-type, .universe-first-flex-section-top h4:last-of-type, .network-section-third .network-section-text h2:last-of-type, .form-sub-title:last-of-type, .expending-box-title:last-of-type,
-.expending-box .title-h4:last-of-type, .header-top-text:last-of-type, .ton-gateway-header-github p:last-of-type, .header h4:last-of-type, .page-colored-section-title:last-of-type, .ton-gateway-powered h3:last-of-type, .ton-gateway-posts h3:last-of-type, .notifications .apps-title:last-of-type, .notifications .integrations-title:last-of-type, .orbs-vm .orbs-vm-graph-2 h3:last-of-type, .contact-socials-section h4:last-of-type, .white-papers-category-title:last-of-type, .universe-second-flex .images-grid-title:last-of-type, .network-section h3:last-of-type, .common-grid-section h3:last-of-type {
-  margin-bottom: 20px;
 }
 
 .page-section-subtitle, .network-section-third .network-section-text h4 {
@@ -161,8 +167,6 @@
 }
 .common-grid-section h3 {
   max-width: 90%;
-}
-.common-grid-section h3:last-of-type {
   margin-bottom: 20px;
 }
 
@@ -425,6 +429,10 @@ body {
 .hljs {
   background: transparent;
   padding: 0px;
+}
+
+.hljs-tag {
+  color: #24292f;
 }
 
 .typed-cursor {
@@ -1115,6 +1123,7 @@ body {
 .form-submit-container .form-submit {
   margin: auto;
   background: transparent;
+  text-transform: uppercase;
 }
 .form-submit-container .loader {
   display: none;
@@ -4752,6 +4761,9 @@ body {
   align-items: center;
   padding-top: 80px;
 }
+.orbs-vm .orbs-vm-graph h3 {
+  margin-bottom: 40px;
+}
 .orbs-vm .orbs-vm-graph-bg {
   object-fit: cover;
   width: 100%;
@@ -4763,6 +4775,9 @@ body {
   object-position: right;
   max-width: 1300px;
 }
+.orbs-vm .orbs-vm-graph-body {
+  margin-top: 40px;
+}
 .orbs-vm .orbs-vm-graph-grid {
   display: flex;
   flex-direction: column;
@@ -4770,7 +4785,6 @@ body {
   max-width: 600px;
   text-align: center;
   align-items: center;
-  gap: 40px;
 }
 .orbs-vm .common-grid-section {
   width: 100%;
@@ -4896,6 +4910,7 @@ body {
 }
 .notifications .contribute-bottom h5 {
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 .notifications .contribute-title {
   margin-bottom: 40px;
@@ -5053,6 +5068,9 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
+}
+.notifications .apps-title {
+  margin-bottom: 20px;
 }
 .notifications .apps-body {
   max-width: 700px;
@@ -5332,6 +5350,13 @@ body {
   display: flex;
   position: relative;
 }
+.ton-gateway-header h1:last-of-type {
+  background: linear-gradient(102.78deg, #b082d5 10%, #ed7ec4 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 .ton-gateway-header .main-grid, .ton-gateway-header .contact, .ton-gateway-header .news-grid, .ton-gateway-header .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-header .common-grid-section-grid {
   position: relative;
 }
@@ -5357,9 +5382,9 @@ body {
   pointer-events: none;
 }
 .ton-gateway-header-hero {
-  top: -20px;
+  top: 0px;
   right: -30px;
-  width: 800px;
+  width: 700px;
 }
 .ton-gateway-header-powered {
   height: 50px;
@@ -5371,8 +5396,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 30px;
   margin-bottom: 30px;
+}
+.ton-gateway-header-github a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ton-gateway-header-github p {
   text-align: left;
@@ -5482,7 +5512,7 @@ body {
   flex-direction: column;
   gap: 47px;
   width: 430px;
-  padding: 69px 35px 107px 35px;
+  padding: 50px 35px 50px 35px;
 }
 .ton-gateway-example .hljs {
   padding: 0;
@@ -5492,7 +5522,7 @@ body {
 .ton-gateway-example-code {
   flex: 1;
   background: #f4f4f4;
-  padding: 40px 30px 30px 30px;
+  padding: 50px 30px 30px 30px;
   position: relative;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -5500,8 +5530,8 @@ body {
 }
 .ton-gateway-example-code .ton-gateway-example-copy {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 10px;
+  right: 20px;
 }
 .ton-gateway-example-code .ton-gateway-example-copy img {
   width: 20px;
@@ -5526,7 +5556,7 @@ body {
   text-transform: uppercase;
 }
 .ton-gateway-example-title {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .ton-gateway-cards {
   width: 100%;
@@ -5537,6 +5567,7 @@ body {
 .ton-gateway-cards-card {
   width: calc(33.3333333333% - 32px);
   min-height: 310px;
+  transition: 0.2s all;
 }
 .ton-gateway-cards-card img {
   height: 55px;
@@ -5552,7 +5583,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #5e75e8;
+  border: 1px solid rgba(94, 117, 232, 0.3);
   padding: 35px 35px 0px 35px;
   border-radius: 20px;
   gap: 20px;
@@ -5565,10 +5596,10 @@ body {
 }
 .ton-gateway-cards-card-subtitle * {
   margin-bottom: 0px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   text-align: center;
-  line-height: 20px;
+  line-height: 24px;
 }
 .ton-gateway-cards-card-button {
   overflow: hidden;
@@ -5590,7 +5621,7 @@ body {
 }
 .ton-gateway-cards-card-body {
   background: white;
-  border: 1px solid #5e75e8;
+  border: 1px solid rgba(94, 117, 232, 0.3);
   border-top: unset;
   padding: 26px;
   padding-top: 15px;
@@ -5605,11 +5636,13 @@ body {
 }
 .ton-gateway-cards-card-body * {
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
   font-weight: 300;
   text-align: center;
 }
 .ton-gateway-cards-card:hover {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   box-shadow: 0px 4px 40px rgba(94, 117, 232, 0.2);
 }
 .ton-gateway-cards-card:hover .ton-gateway-cards-card-body {
@@ -5643,7 +5676,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 14px;
+  margin-top: 10px;
 }
 .ton-gateway-powered-bottom p {
   font-size: 12px;
@@ -5656,8 +5689,11 @@ body {
   background: linear-gradient(90deg, #00c0bf 0%, #00fbff 100.02%);
   border-radius: 50%;
 }
+.ton-gateway-powered h3 {
+  margin-bottom: 40px;
+}
 .ton-gateway-powered-body {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .selectbox {
@@ -5681,7 +5717,7 @@ body {
 .selectbox-selected {
   padding: 10px 47px 10px 25px;
   width: 100%;
-  min-height: 70px;
+  min-height: 60px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -5696,9 +5732,10 @@ body {
 }
 .selectbox-selected img {
   position: absolute;
-  right: 20px;
+  right: 25px;
   top: 50%;
   transform: translate(0, -50%);
+  zoom: 0.6;
 }
 .selectbox-list {
   display: flex;
@@ -5709,7 +5746,7 @@ body {
   pointer-events: none;
   opacity: 0;
   position: absolute;
-  top: calc(100% + 10px);
+  top: calc(100% + 1px);
   border-radius: 10px;
   background: white;
   overflow: hidden;
@@ -5720,13 +5757,13 @@ body {
 .selectbox-list-item {
   height: auto;
   min-height: 40px;
-  padding: 10px 10px 10px 25px;
+  padding: 12px 10px 12px 25px;
   width: 100%;
   list-style-type: unset;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
   align-items: flex-start;
 }
 .selectbox-list-item .text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .selectbox-list-item .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .selectbox-list-item h5, .selectbox-list-item .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 {
@@ -5734,6 +5771,7 @@ body {
   margin-bottom: 0px;
 }
 .selectbox-list-item .text-p a, .selectbox-list-item h4 a, .selectbox-list-item .notifications .integrations-list .integration h5 a, .notifications .integrations-list .integration .selectbox-list-item h5 a, .selectbox-list-item .ton-gateway-posts .post-profile-right h5 a, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 a {
+  margin-left: 10px;
   color: #5e75e8;
   text-decoration: unset;
 }
@@ -5741,7 +5779,7 @@ body {
   text-decoration: underline;
 }
 .selectbox-list-item h4 {
-  opacity: 0.6;
+  opacity: 0.38;
   font-weight: 400;
   font-size: 14px;
   white-space: nowrap;
@@ -5749,6 +5787,7 @@ body {
 .selectbox-list-item h4 * {
   color: #454545 !important;
   font-size: 14px;
+  margin-left: 0px !important;
   pointer-events: none;
 }
 .selectbox-list-item:hover {

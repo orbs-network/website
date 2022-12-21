@@ -138,13 +138,12 @@ const generateExample = ({ apiFlavor, clientLibrary, network }) => {
   console.log(apiFlavor, clientLibrary, network);
   try {
     const name = `${apiFlavor}.${clientLibrary}.${network}`;
-    codeSnippet = jsonConfig[name];
     const container = document.querySelector(".ton-gateway-hljs");
-    container.innerHTML = codeSnippet;
 
-    document.querySelectorAll("pre code").forEach((el) => {
-      hljs.highlightElement(el);
-    });
+    const value = hljs.highlight(jsonConfig[name], {
+      language: clientLibrary.startsWith("cdn-") ? "html" : "javascript",
+    }).value;
+    container.innerHTML = value;
   } catch (error) {
     console.log(error);
   }

@@ -21,15 +21,15 @@ function Exmpales({ selectors, github, telegram, _body, _relativeURL, _ID }) {
               <div className="ton-gateway-example-copy-tooltip">Copied!</div>
             </div>
             <pre>
-              <code className="language-javascript ton-gateway-hljs"></code>
+              <code className="ton-gateway-hljs"></code>
             </pre>
           </div>
         </div>
         <div className="ton-gateway-example-links">
-          <a href="/" target="_blank">
+          <a href="https://github.com/orbs-network/ton-gateway" target="_blank">
             {github}
           </a>
-          <a href="/" target="_blank">
+          <a href="https://t.me/ton_gateway" target="_blank">
             {telegram}
           </a>
         </div>

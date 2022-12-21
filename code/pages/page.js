@@ -24,7 +24,6 @@ const Page = (props) => {
     return handleUrl(url, _relativeURL, _ID);
   };
 
-  
   return (
     <html>
       <head>
@@ -65,11 +64,11 @@ const Page = (props) => {
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
       </head>
       <body style={{ background: colors.background }}>
+        {subscribe}
         <AppLoader generateUrl={generateUrl} />
         <div className="app-wrapper" style={{ opacity: 0 }}>
           {header}
           {main}
-          {subscribe}
           {gdpr}
           {script != undefined ? (
             <script

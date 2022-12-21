@@ -7,7 +7,6 @@ const showMenuButton = document.querySelector(".show-menu");
 const hideMenuButton = document.querySelector(".hide-menu");
 
 const mobileSubscribe = getElement(".mobile-subscribe");
-const subscribeBtn = getElement(".subscribe-btn");
 
 let scrollPos = 0;
 
@@ -88,7 +87,6 @@ export const handleNavbarScroll = () => {
 };
 
 export const addEventsToNavbar = () => {
-  addEvent(subscribeBtn, "click", showSubscribePopup);
   addEvent(mobileSubscribe, "click", handleMobileSubscribeClick);
   addEvent(showMenuButton, "click", showMenu);
   addEvent(hideMenuButton, "click", hideMenu);

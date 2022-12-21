@@ -10,7 +10,7 @@ const BlogsList = (props) => {
         <section className="footer-section-title">
           <h4>subscribe</h4>
         </section>
-        <CommonButton className="subscribe-btn">{subscribeBtn}</CommonButton>
+        <button className="subscribe-btn pink-button">{subscribeBtn}</button>
       </div>
       <section className="footer-section-title">
         <h4>{title}</h4>

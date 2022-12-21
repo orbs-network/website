@@ -1,3 +1,4 @@
+import { showSubscribePopup } from "../components/subscribe.js";
 import {
   getElements,
   addEvent,
@@ -85,6 +86,7 @@ const createBlogElements = () => {
     leftSide,
   };
 };
+const subscribeBtn = document.querySelector(".subscribe-btn");
 
 const getBlogAttributes = (blog) => {
   const imageSrc = getElementAttribute(blog, "data-image");
@@ -99,6 +101,7 @@ const getBlogAttributes = (blog) => {
 export const init = () => {
   addMobileClickEvents();
   handleBlogs();
+  subscribeBtn.addEventListener("click", showSubscribePopup);
 };
 
 export default {

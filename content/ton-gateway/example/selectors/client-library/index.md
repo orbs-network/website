@@ -8,4 +8,4 @@ list:
 property: clientLibrary
 ---
 
-Client Library:
+Client Library

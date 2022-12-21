@@ -6,4 +6,4 @@ supportedLibraries:
   - ton-lite-client
 ---
 
-Raw ADNL Proxy [docs](https://toncenter.com/api/v2/)
+Raw ADNL Proxy [docs](https://github.com/ton-community/ton-lite-client)

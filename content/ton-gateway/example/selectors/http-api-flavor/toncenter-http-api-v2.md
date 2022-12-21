@@ -10,4 +10,4 @@ supportedLibraries:
 
 TonCenter HTTP API v2 [docs](https://toncenter.com/api/v2/)
 
-#### Reaplaces https://toncenter.com/api/v2/jsonRPC
+#### Replaces https://toncenter.com/api/v2/jsonRPC

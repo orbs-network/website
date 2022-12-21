@@ -4,6 +4,6 @@ value: npm-tonweb
 selected: NPM TonWeb (JavaScript)
 ---
 
-NPM TonWeb
+NPM TonWeb [docs](https://github.com/toncenter/tonweb)
 
-#### (JavaScript)
+#### JavaScript

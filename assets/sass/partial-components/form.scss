@@ -110,8 +110,9 @@
     justify-content: center;
     .form-submit {
       margin: auto;
-      @extend .button;
+      @extend .pink-button;
       background: transparent;
+      text-transform: uppercase;
     }
     .loader {
       display: none;

@@ -6,4 +6,4 @@ list:
 property: network
 ---
 
-Network:
+Network

@@ -20,6 +20,11 @@ $blog-font: "blog-main";
 $blog-bold-font: "blog-bold";
 $letter-spacing: -0.009rem;
 $page-section-margin: 80px;
+$page-section-title-margin-small: 20px;
+$page-section-title-margin-big: 40px;
+
+$pink: #da88de;
+
 $gradient: linear-gradient(
   102.78deg,
   #6687e9 29.14%,
@@ -43,15 +48,15 @@ $gradient: linear-gradient(
 $text-letter-spacing: -0.009rem;
 
 .button {
-  border: 1px solid $blue;
+  border: 2px solid $blue;
   border-radius: 100px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   width: fit-content;
-  padding: 15px 26px;
+  padding: 0px 60px;
+  height: 45px;
   font-size: 14px;
   font-family: $text-font;
   color: $blue;
@@ -69,6 +74,15 @@ $text-letter-spacing: -0.009rem;
   &:hover {
     color: white;
     background: $blue;
+  }
+}
+.pink-button {
+  @extend .button;
+  color: $pink;
+  border: 2px solid $pink;
+  &:hover {
+    color: white;
+    background: $pink;
   }
 }
 
@@ -96,9 +110,6 @@ $text-letter-spacing: -0.009rem;
   font-family: $text-font;
   line-height: 31px;
   color: white;
-  &:last-of-type {
-    margin-bottom: 20px;
-  }
 }
 
 .page-section-subtitle {
@@ -175,9 +186,7 @@ $text-letter-spacing: -0.009rem;
   h3 {
     @extend .page-colored-section-title;
     max-width: 90%;
-    &:last-of-type {
-      margin-bottom: 20px;
-    }
+    margin-bottom: $page-section-title-margin-small;
   }
 }
 

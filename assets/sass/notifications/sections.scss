@@ -96,6 +96,7 @@
       h5 {
         margin-top: 40px;
         @extend .page-section-title;
+        margin-bottom: 20px;
       }
     }
 
@@ -297,6 +298,7 @@
 
     &-title {
       @extend .page-colored-section-title;
+      margin-bottom: $page-section-title-margin-small;
     }
 
     &-body {
