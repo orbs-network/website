@@ -63,7 +63,7 @@ The [expansion](https://www.orbs.com/Expanding-to-The-Open-Network-TON/) of the 
 
 As an L3 infrastructure layer, Orbs can serve as a key TON ecosystem participant that is implementing new L3 use cases for protocols running on top of TON. The emerging TON ecosystem has much room for Orbs’ innovations and huge potential for capturing exciting opportunities and becoming the first movers. 
 
-![TON2](/assets/img/blog/ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/image3.png)
+![TON2](/assets/img/blog/ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/image4.jpg)
 
 
 Two services using Orbs’ technology were recently launched on TON: [TON Minter](https://www.orbs.com/Announcing-TON-Minter-by-Orbs/), named the official tool for deploying Jettons (alt tokens) on TON, and [TON Verifier](https://www.orbs.com/Announcing-TON-Verifier-by-Orbs/), an open-source application to publish verified source code for on-chain contracts on the TON chain powered by Orbs. 
