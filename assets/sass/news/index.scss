@@ -5,7 +5,6 @@
 .news {
   display: flex;
   flex-direction: column;
-  padding-top: 130px;
   padding-bottom: 100px;
   position: relative;
   &-side-dots {
@@ -26,57 +25,50 @@
     opacity: 0.2;
     transform: translate(-50%);
     &-1 {
-     top: 43%;
-     left: 30%;
-     transform: translate(-50%);
+      top: 43%;
+      left: 30%;
+      transform: translate(-50%);
     }
 
     &-2 {
-        top: 47%;
-        left: 76%;
-       
+      top: 47%;
+      left: 76%;
     }
-    &-3{
-        top: 82%;
-        left: 35%;
+    &-3 {
+      top: 82%;
+      left: 35%;
     }
-    &-4{
-        top: 88%;
-        left: 77%;
+    &-4 {
+      top: 88%;
+      left: 77%;
     }
   }
 
   #load-more-posts {
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: $page-section-margin;
 
     * {
       font-weight: 300;
       font-size: 0.875rem;
       line-height: 2.188rem;
-      color: #6f81e9;
+      color: $blue;
       text-decoration: underline;
     }
   }
 
   &-grid {
-    max-width: 1400px;
-    margin: 0 auto;
-    width: calc(100% - 80px);
+    @extend .main-grid;
   }
 
   &-posts {
-    margin-top: 74px;
+    margin-top: $page-section-margin;
     position: relative;
     &-title {
-      font-size: 1.563rem;
-      letter-spacing: 0.5px;
-      @extend .gradient-text;
+      @extend .page-section-title;
       margin-bottom: 55px;
       text-align: center;
-      font-weight: 700;
       text-transform: uppercase;
-      font-family: $text-font;
     }
 
     ul {
@@ -278,8 +270,8 @@
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    &-figure{
-        display: none;
+    &-figure {
+      display: none;
     }
     &-hero {
       margin-left: auto;

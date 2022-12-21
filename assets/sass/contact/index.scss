@@ -1,16 +1,4 @@
 .contact {
-  padding-top: 0px;
-  .contact-container{
-    .header{
-      margin-top: 50px;
-    }
-  }
-  .header{
-    margin-bottom: 80px;
-    h1{
-      text-transform: uppercase;
-    }
-  }
   @extend .main-grid;
   display: flex;
   flex-direction: column;
@@ -25,14 +13,10 @@
       left: 50%;
       height: 100%;
       transform: translate(-50%, -50%);
-     
+
       top: 50%;
     }
-    &-title {
-      position: relative;
-      z-index: 1;
-      @extend .gradient-text;
-    }
+
     &-content {
       position: relative;
       z-index: 1;
@@ -47,24 +31,22 @@
     &-section {
       h4 {
         margin-bottom: 20px;
-       @extend .gradient-text;
-       font-size: 24px;
+        @extend .page-colored-section-title;
       }
       &-link {
         margin-bottom: 20px;
         padding-right: 20px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start!important;
+        align-items: flex-start !important;
 
         text-align: left;
         &:last-of-type {
           margin-bottom: 0px;
         }
         a {
-          color: #FF8B97;
-          text-decoration: none!important;
-         
+          color: #ff8b97;
+          text-decoration: none !important;
         }
         p {
           color: $text-color;
@@ -76,17 +58,10 @@
       .contact-socials-section-link {
         display: flex;
         align-items: center;
-      
-   
       }
     }
     h3 {
-      text-align: center;
       margin-bottom: 50px;
-      font-size: 30px;
-      position: relative;
-      z-index: 1;
-      @extend .gradient-text;
     }
     &-flex {
       display: flex;

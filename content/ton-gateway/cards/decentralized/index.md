@@ -4,7 +4,7 @@ title: Decentralized
 text:
   - text.md
 button: Read more
-image: /assets/img/ton-gateway/decentralized.svg
+image: /assets/img/pos-universe/shapes/shape5.svg
 ---
 
 Trust a protocol, not a

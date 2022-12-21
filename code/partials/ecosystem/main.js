@@ -4,7 +4,7 @@ import Categories from "./categories";
 
 const Main = (props) => {
   return (
-    <main className="ecosystem">
+    <main className="ecosystem page">
       <MainGrid>
         <div className="header">{props._body}</div>
         <Categories {...props} />

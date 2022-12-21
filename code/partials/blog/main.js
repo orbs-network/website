@@ -1,9 +1,9 @@
 import React from "react";
 
-const Main = ({  blogs, _body }) => {
+const Main = ({ blogs, _body }) => {
   return (
-    <main className="blog">
-        <div className="header">{_body}</div>
+    <main className="blog page">
+      <div className="header">{_body}</div>
 
       <div className="blog-content">
         <div className="main-grid">

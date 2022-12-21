@@ -4,7 +4,6 @@
   flex-direction: column;
   align-items: center;
   &-products {
-    margin-top: 110px;
     width: 100%;
     .common-grid-section-image {
       width: 200px;
@@ -13,13 +12,7 @@
       padding-top: 0px;
     }
     #orbs-vm-product-2 {
-    }
-    #orbs-vm-product-3 {
-    }
-    #orbs-vm-product-4 {
-      .common-grid-section-image {
-        width: 242px;
-      }
+      background: $gray;
     }
   }
   .orbs-vm-graphs {
@@ -28,7 +21,7 @@
 
   .orbs-vm-graph-1 {
     position: relative;
-     padding-bottom: 100px;
+    padding-bottom: $page-section-margin;
     h3 {
       color: white;
     }
@@ -36,7 +29,7 @@
       color: white;
       text-align: left;
     }
-    background: #5e75e8;
+    background: $blue;
     .orbs-vm-graph-image {
       width: 600px;
     }
@@ -45,8 +38,10 @@
     }
   }
 
-  
   .orbs-vm-graph-2 {
+    h3 {
+      @extend .page-colored-section-title;
+    }
     .orbs-vm-graph-image {
       width: 450px;
     }
@@ -60,11 +55,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
-   
+    padding-top: $page-section-margin;
+
     h3 {
-      font-size: 24px;
-      font-weight: 700;
+      @extend .page-section-title;
     }
 
     &-bg {
@@ -92,8 +86,8 @@
   .common-grid-section {
     width: 100%;
     &-grid {
-      max-width: 900px;
-      width: calc(100% - 100px);
+      @extend .main-grid;
+      max-width: 1000px;
       gap: 100px;
     }
     strong {

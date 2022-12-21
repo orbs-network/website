@@ -1,20 +1,23 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
+import MainGrid from "../shared/MainGrid";
 
 const Hero = ({ _body, _relativeURL, _ID }) => {
-    const generateUrl = (url) => {
-      return handleUrl(url, _relativeURL, _ID);
-    };
+  const generateUrl = (url) => {
+    return handleUrl(url, _relativeURL, _ID);
+  };
   return (
-    <div className="hero">
-      <div className="hero-description">{_body}</div>
-      <img
-        src={generateUrl(
-          "../../../assets/img/notifications-protocol/hero/mobile-device.png"
-        )}
-        className="hero-image"
-      />
-    </div>
+    <MainGrid>
+      <div className="hero">
+        <div className="hero-description header">{_body}</div>
+        <img
+          src={generateUrl(
+            "../../../assets/img/notifications-protocol/hero/mobile-device.png"
+          )}
+          className="hero-image"
+        />
+      </div>
+    </MainGrid>
   );
 };
 

@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 function NotificationsProtocol({
   hero,
   contribute,
@@ -11,8 +8,7 @@ function NotificationsProtocol({
   apps,
 }) {
   return (
-    <div className="notifications">
-  
+    <div className="notifications page">
       {hero}
       {contribute}
       {integrations}

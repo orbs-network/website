@@ -4,7 +4,7 @@ title: No API Key
 text:
   - text.md
 button: Read more
-image: /assets/img/ton-gateway/no-api.svg
+image: /assets/img/pos-universe/shapes/shape3.svg
 ---
 
 Decentralized access without

@@ -36,20 +36,3 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/blog/bold-italic.ttf");
 }
-
-$light-font: "light";
-$light-oblique-font: "light-oblique";
-$bold-font: "bold";
-$bold-oblique: "bold-oblique";
-$text-font: "Montserrat";
-$blog-font: "blog-main";
-$blog-bold-font: "blog-bold";
-
-
-
-@media only screen and (max-width: $mobile) {
-  .title {
-    font-size: 1.1rem;
-    line-height: 1.8rem;
-  }
-}

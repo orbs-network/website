@@ -1,7 +1,6 @@
 ---
 layout: partials/notifications-protocol/index
 
-
 hero:
   - hero/index.md
 projects:
@@ -15,4 +14,3 @@ alerts:
 apps:
   - apps/index.md
 ---
-

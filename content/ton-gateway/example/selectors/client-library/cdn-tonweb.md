@@ -4,4 +4,6 @@ value: cdn-tonweb
 selected: CDN TonWeb
 ---
 
-CDN TonWeb (JavaScript)
+CDN TonWeb
+
+#### (JavaScript)

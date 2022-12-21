@@ -8,7 +8,7 @@ const Main = ({
   linkBack,
 }) => {
   return (
-    <main className="smart-contracts">
+    <main className="smart-contracts page">
       {pageHeader}
       <div className="smart-contracts-content main-grid">
         {expendingSection}

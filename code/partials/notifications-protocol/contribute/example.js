@@ -1,7 +1,7 @@
 import React from "react";
 import { handleUrl } from "../../../util/link";
 import Code from "../../Code";
-
+import MainGrid from "../../shared/MainGrid";
 
 const markdown = `
 const BigNumber = require("bignumber.js");
@@ -26,9 +26,7 @@ class LowHealth {
 module.exports = LowHealth;
 `;
 
-
 function Example({ _body, _relativeURL, _ID }) {
-
   return (
     <div className="contribute-example">
       <div className="contribute-example-body">{_body}</div>

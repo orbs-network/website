@@ -2,7 +2,7 @@
 layout: partials/notifications-protocol/Hero
 ---
 
-##### A **DeFi.org** Project,
+#### A **DeFi.org** Project,
 
 # An open notification protocol for DeFi on-chain events
 

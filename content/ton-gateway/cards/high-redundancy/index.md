@@ -4,7 +4,7 @@ title: High Redundancy
 text:
   - text.md
 button: Read more
-image: /assets/img/ton-gateway/high-redundancy.svg
+image: /assets/img/pos-universe/shapes/shape2.svg
 ---
 
 Robust API with no single

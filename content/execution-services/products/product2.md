@@ -3,7 +3,6 @@ layout: partials/orbs-vm-and-orbs-lambda/Section
 image: /assets/img/execution-services/vm.svg
 
 id: orbs-vm-product-2
-background:  "#f4f4f4"
 imgFirst: true
 ---
 

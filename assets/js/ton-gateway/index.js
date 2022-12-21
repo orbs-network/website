@@ -23,7 +23,7 @@ let selectedLibrary = undefined;
 const copyButton = document.querySelector(".ton-gateway-example-copy button");
 const copyTooltip = document.querySelector(".ton-gateway-example-copy-tooltip");
 const onLoad = async () => {
-  addCardsEvents();
+  // addCardsEvents();
   init();
   const response = await fetch("/assets/datasets/gateway-snippets.json");
   jsonConfig = await response.json();

@@ -2,7 +2,7 @@ import React from "react";
 import { handleUrl } from "../../util/link";
 import MainGrid from "../shared/MainGrid";
 
-const HeaderMainImg = "/assets/img/ton-gateway/hero.svg"
+const HeaderMainImg = "/assets/img/ton-gateway/hero.svg";
 const PoweredImg = "/assets/img/powered-by-orbs.png";
 const GithubImg = "/assets/img/ton-gateway/github.svg";
 
@@ -10,11 +10,9 @@ function Header({ _body, _relativeURL, _ID, title, button }) {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
-  
 
   return (
     <header className="header ton-gateway-header">
-
       <MainGrid>
         <div className="ton-gateway-header-flex">
           <div className="ton-gateway-header-github">
@@ -35,7 +33,6 @@ function Header({ _body, _relativeURL, _ID, title, button }) {
           src={generateUrl(HeaderMainImg)}
           className="ton-gateway-header-img ton-gateway-header-hero"
         />
-    
 
         <img
           src={generateUrl(PoweredImg)}

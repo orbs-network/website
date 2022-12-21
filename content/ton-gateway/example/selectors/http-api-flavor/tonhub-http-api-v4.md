@@ -8,6 +8,4 @@ supportedLibraries:
 
 TonHub HTTP API v4 [docs](https://github.com/ton-community/ton-api-v4)
 
-https://mainnet-v4.tonhubapi.com
-
-
+#### Reaplaces https://mainnet-v4.tonhubapi.com

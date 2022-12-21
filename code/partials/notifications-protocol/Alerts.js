@@ -1,16 +1,15 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
+import MainGrid from "../shared/MainGrid";
 
 function Alerts({ _relativeURL, _ID, _body }) {
-
-
-    const generateUrl = (url) => {
-      return handleUrl(url, _relativeURL, _ID);
-    };
+  const generateUrl = (url) => {
+    return handleUrl(url, _relativeURL, _ID);
+  };
 
   return (
     <div className="alerts">
-      <div className="alerts-grid">
+      <MainGrid>
         <div className="alerts-description">
           <img
             src={generateUrl(
@@ -63,7 +62,7 @@ function Alerts({ _relativeURL, _ID, _body }) {
             alt="orbs logo"
           />
         </section>
-      </div>
+      </MainGrid>
     </div>
   );
 }

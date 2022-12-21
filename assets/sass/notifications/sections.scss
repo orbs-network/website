@@ -1,22 +1,25 @@
 .notifications {
+  padding-bottom: 100px;
   .hero {
     display: flex;
-    @extend .grid;
-
     justify-content: space-between;
+    gap: 30px;
 
     &-image {
-      width: 670px;
+      width: 550px;
       height: auto;
       object-fit: contain;
       position: relative;
     }
 
     &-description {
-      padding-top: 65px;
-      h1 {
-           @extend .h1;
-           margin-bottom: 40px;
+      flex: 1;
+      text-align: left;
+      align-items: flex-start;
+      margin-bottom: 0px;
+
+      h4 {
+        margin-bottom: 30px;
       }
 
       & > p {
@@ -66,100 +69,17 @@
     }
   }
 
-  .projects {
-    @extend .grid;
-    margin-top: 192px;
-
-    &-title {
-      text-align: center;
-
-      h3 {
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 40px;
-      }
-    }
-
-    &-list {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      padding-top: 50px;
-    }
-
-    .project {
-      border: 1px solid #cde4f9;
-      border-radius: 24px;
-      padding: 24px;
-      position: relative;
-      min-height: 200px;
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-
-      &-title {
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 23px;
-        margin-bottom: 12px;
-      }
-
-      &-image {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        right: 20px;
-        bottom: 23px;
-      }
-
-      &-body {
-        max-width: 194px;
-
-        p {
-            font-size: 16px;
-          line-height: 24px;
-          opacity: 0.6;
-          letter-spacing: 0.0052em;
-        }
-      }
-
-      &-link {
-        margin-top: auto;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 18px;
-        letter-spacing: 0.0052em;
-        position: relative;
-        width: fit-content;
-
-        &::after {
-          position: absolute;
-          content: "";
-          right: -20px;
-          top: 50%;
-          width: 8px;
-          height: 8px;
-          border-right: 1px solid #4f86ff;
-          border-bottom: 1px solid #4f86ff;
-          transform: rotate(-45deg) translate(0, -50%);
-        }
-      }
-    }
-  }
-
   .contribute {
     width: 100%;
-    background: #5e75e8;
-    margin-top: 85px;
+    background: $blue;
+    margin-top: $page-section-margin;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 126px 0px 127px 0px;
+    padding: $page-section-margin 0px $page-section-margin 0px;
 
     &-bottom {
-      @extend .grid;
-      margin-top: 130px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -167,83 +87,72 @@
         display: flex;
         align-items: center;
         gap: 30px;
+        .link-button {
+          @extend .white-button;
+          text-transform: uppercase;
+        }
       }
 
       h5 {
-        font-weight: bold;
-        font-size: 28px;
-        color: white;
-        margin-bottom: 22px;
-        text-align: center;
+        margin-top: 40px;
+        @extend .page-section-title;
       }
     }
 
     &-title {
-      @extend .grid;
-      font-weight: 600;
-      font-size: 28px;
-      color: white;
-      margin-bottom: 64px;
-      letter-spacing: -0.4px;
+      @extend .page-section-title;
+      margin-bottom: 40px;
       text-align: center;
     }
 
     &-example {
-      @extend .grid;
       display: flex;
       border-radius: 20px;
       background: white;
-      max-width: 1550px;
       overflow: hidden;
-      padding-left: 26px 53px 26px 52px;
-      border: 1px solid #b5b7c9;
       flex: 1;
 
       &-body {
-        padding: 55px;
-        flex: 1;
+        padding: 30px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
 
         img {
           width: 70px;
           height: 70px;
           object-fit: cover;
-          margin-bottom: 32px;
         }
 
         h4 {
-          font-weight: 600;
-          font-size: 20px;
-          margin-bottom: 47px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          @extend .page-section-title;
+          color: $text-color;
         }
 
         p {
-          opacity: 0.6;
-            font-weight: 500;
-          font-size: 20px;
-          line-height: 33px;
-          max-width: 425px;
+          &:first-of-type {
+            display: none;
+          }
         }
       }
 
       &-hero {
-        border-left: 1px solid #b5b7c9;
-        width: 960px;
+        flex: 1;
         object-fit: cover;
-        background: #f6f8fa;
-        padding: 20px 40px 20px 30px;
+        background: $gray;
+        padding: 20px 10px 30px 10px;
       }
     }
   }
 
   .integrations {
-    @extend .grid;
-    margin-top: 90px;
+    margin-top: $page-section-margin;
 
     &-title {
+      @extend .page-colored-section-title;
       text-align: center;
-      font-weight: 600;
-      font-size: 28px;
-      line-height: 40px;
     }
 
     &-list {
@@ -254,14 +163,15 @@
 
       .integration {
         width: calc(20% - 19px);
-        height: 295px;
+        min-height: 250px;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #f4f4f4;
+        background: $gray;
 
-        padding: 43px 0px 37px 0px;
-
+        padding: 30px 0px 30px 0px;
+        gap: 20px;
         &-link {
           margin-top: auto;
 
@@ -275,14 +185,14 @@
         &-image {
           width: 80px;
           height: 80px;
-          object-fit: contain;
-          margin-bottom: 24px;
+          object-fit: cover;
+          border-radius: 50%;
         }
 
         h5 {
-            font-weight: 600;
-          font-size: 24px;
-          margin-bottom: 18px;
+          @extend .text-p;
+          font-weight: 500;
+          text-transform: capitalize;
         }
       }
 
@@ -294,36 +204,32 @@
 
         .link-button {
           margin-top: 30px;
+          font-weight: 500;
         }
 
         & > p {
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 40px;
-          @extend .gradient-text;
+          @extend .page-section-title;
+          color: $text-color;
         }
       }
     }
   }
 
   .alerts {
-    margin-top: 211px;
+    margin-top: $page-section-margin;
     background: #f9f3ff;
-    padding-top: 95px;
-    padding-bottom: 70px;
+    padding-top: $page-section-margin;
+    padding-bottom: $page-section-margin;
 
-    &-grid {
-      justify-content: flex-start;
+    .main-grid {
+      justify-content: space-between;
       display: flex;
-      @extend .grid;
+      gap: 100px;
     }
 
     &-right {
       width: 480px;
       position: relative;
-      top: -25px;
-      right: 100px;
-
       &-hero {
         width: 100%;
         z-index: 0;
@@ -359,33 +265,21 @@
     }
 
     &-description {
-      padding-right: 130px;
       flex: 1;
       &-logo {
         height: 32px;
+        margin-bottom: 30px;
       }
 
       h3 {
-        font-weight: 600;
-        font-size: 44px;
-        line-height: 40px;
-        margin-bottom: 51px;
-        margin-top: 30px;
-        letter-spacing: -0.4px;
+        @extend .page-section-title;
+        color: $text-color;
+        margin-bottom: 20px;
       }
 
       a {
         text-decoration: underline;
         font-weight: 700;
-      }
-
-      &-body {
-        p {
-          font-size: 20px;
-          line-height: 40px;
-            max-width: 691px;
-          letter-spacing: -0.4px;
-        }
       }
 
       .link-button {
@@ -395,47 +289,32 @@
   }
 
   .apps {
-    @extend .grid;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 160px;
+    margin-top: $page-section-margin;
 
     &-title {
-      font-weight: 600;
-      font-size: 44px;
-      line-height: 40px;
-      margin-bottom: 40px;
-      letter-spacing: -0.4px;
+      @extend .page-colored-section-title;
     }
 
     &-body {
       max-width: 700px;
-
-      p {
-        font-size: 20px;
-        line-height: 40px;
-        letter-spacing: -0.4px;
-      }
     }
 
     &-links {
       display: flex;
       justify-content: center;
-      padding-top: 51px;
+      padding-top: 40px;
+      gap: 20px;
 
       a {
-        margin-right: 20px;
         height: 50px;
 
         img {
           width: 100%;
           object-fit: contain;
-        }
-
-        &:last-child {
-          margin-right: 0px;
         }
       }
     }

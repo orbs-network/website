@@ -3,7 +3,11 @@
     position: absolute;
     top: -110px;
   }
-  .opening-box-title{
+  .side-menu-title {
+    display: none;
+    padding-top: 20px;
+  }
+  .opening-box-title {
     font-size: 17px;
     font-weight: 500;
     opacity: 0.5;
@@ -72,7 +76,7 @@
           font-size: 1.063rem;
           letter-spacing: 0.04rem;
           line-height: 1.438rem;
-          
+
           text-decoration: none;
           &:hover {
             text-decoration: underline;
@@ -96,7 +100,6 @@
   }
 
   &-lists {
-    padding-top: 165px;
     width: calc(100% - 420px);
     max-width: 792px;
     &-category {

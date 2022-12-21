@@ -151,16 +151,13 @@
   position: sticky;
   top: 150px;
   &-title {
-    font-weight: 900;
-    font-size: 46px;
-    line-height: 50px;
-    @extend .gradient-text;
     margin-bottom: 67px;
     text-transform: uppercase;
+    @extend .page-title;
   }
-  a{
-     @extend .gradient-text;
-     font-size: 17px!important;
+  a {
+    @extend .gradient-text;
+    font-size: 17px !important;
   }
   &-body {
     .text-p {
@@ -208,11 +205,11 @@
 }
 
 @media only screen and (max-width: $mobile) {
-  .side-menu{
-    &-body{
+  .side-menu {
+    &-body {
       text-align: center;
     }
-    &-title{
+    &-title {
       text-align: center;
     }
   }

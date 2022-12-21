@@ -1,10 +1,11 @@
 import React from "react";
+import MainGrid from "../shared/MainGrid";
 
 const Main = ({ whitePapersList, _body }) => {
   return (
-    <main className="white-papers">
+    <main className="white-papers page">
       <div className="header">{_body}</div>
-      <div className=" main-grid">{whitePapersList}</div>
+      <MainGrid>{whitePapersList}</MainGrid>
     </main>
   );
 };

@@ -197,34 +197,9 @@ html {
   height: -webkit-fill-available;
 }
 
-$main-bg-color: #fcf8fd;
-$text-color: #454545;
-
 body {
-  background: $main-bg-color;
+  background: $app-background-color;
 }
-
-$gradient: linear-gradient(
-  102.78deg,
-  #6687e9 29.14%,
-  #b082d5 53.97%,
-  #ed7ec4 77.85%
-);
-
-.gradient-text {
-  background: $gradient;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
-@mixin gradient-border($width: 3px) {
-  border: $width solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
-}
-$text-letter-spacing: -0.009rem;
 
 .md-title {
   &-h5 {
@@ -237,8 +212,12 @@ $text-letter-spacing: -0.009rem;
   }
 }
 
+* {
+  color: $text-color;
+  letter-spacing: $letter-spacing;
+}
+
 .text-p {
-  letter-spacing: -0.009rem;
   font-size: 17px;
   color: $text-color;
   line-height: 27px;
@@ -248,24 +227,6 @@ $text-letter-spacing: -0.009rem;
   }
   strong {
     color: $text-color;
-  }
-}
-* {
-  color: $text-color;
-}
-
-.title {
-  font-size: 1.563rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: $text-font;
-  position: relative;
-  @extend .gradient-text;
-  margin-top: 0px;
-  z-index: 10;
-  line-height: 3.125rem;
-  &:first-child {
-    margin-top: 0px;
   }
 }
 
@@ -285,58 +246,7 @@ $text-letter-spacing: -0.009rem;
   }
 }
 
-.common-button {
-  padding: 0px 60px;
-  border: 2px solid #da88de;
-  color: #da88de;
-  height: 45px;
-  font-size: 0.75rem;
-  border-radius: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.2s all;
-  font-family: "Montserrat";
-  font-weight: 600;
-  text-transform: uppercase;
-  &:hover {
-    background: #da88de;
-    color: white;
-  }
-}
-
-.common-grid-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  &-text{
-    flex:1
-  }
-  &-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  display: flex;
-  align-items: center;
-  h3 {
-    @extend .gradient-text;
-    font-weight: 700;
-      line-height: 1.8rem;
-      font-size: 24px;
-    &:last-of-type {
-      margin-bottom: 20px;
-    }
-  }
-}
-
-
-
-.hljs{
+.hljs {
   background: transparent;
   padding: 0px;
 }

@@ -1,16 +1,10 @@
 .expending-box {
   &-title,
   .title-h4 {
-    letter-spacing: $text-letter-spacing;
-    font-size: 1.25rem;
-    font-weight: 600;
     margin-bottom: 20px;
-    line-height: 2.063rem;
+    @extend .page-section-title;
+    color: $text-color;
     max-width: 80%;
-  }
-  .text-p{
-    font-weight: 500;
-    line-height: 2.188rem;
   }
 
   &-text {
@@ -39,15 +33,9 @@
 
   .expend-btn {
     color: $blue;
-    font-weight: 700;
-    font-size: 0.875rem;
+    @extend .button;
     margin-top: 27px;
-    letter-spacing: $text-letter-spacing;
-    font-family: $text-font;
     transition: 0.2s all;
-    &:hover{
-      color: $text-color;
-    }
   }
   .read-less-btn {
     display: none;
@@ -100,14 +88,12 @@
   max-height: none !important;
 }
 
-
-
 @media only screen and (max-width: $mobile) {
- .expending-box{
-  &-title{
-    max-width: 100%;
-    font-size: 1rem;
-    line-height: 1.6rem;
+  .expending-box {
+    &-title {
+      max-width: 100%;
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
   }
- }
 }

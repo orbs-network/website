@@ -52,10 +52,8 @@
     text-align: center;
   }
   &-sub-title {
-    font-size: 1.063rem;
-    text-align: center;
-    font-weight: 500;
-    font-family: $text-font;
+    @extend .page-section-title;
+    color: $text-color;
   }
   &-inputs {
     flex-wrap: wrap;
@@ -111,13 +109,9 @@
     align-items: center;
     justify-content: center;
     .form-submit {
-      text-transform: uppercase;
-      background: transparent;
-      padding: 0px 60px;
       margin: auto;
-
-      @extend .btn;
-    
+      @extend .button;
+      background: transparent;
     }
     .loader {
       display: none;

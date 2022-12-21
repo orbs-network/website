@@ -4,7 +4,7 @@ title: Serverless
 text:
   - text.md
 button: Read more
-image: /assets/img/ton-gateway/serverless.svg
+image: /assets/img/pos-universe/shapes/shape9.svg
 ---
 
 No need to run your own RPC

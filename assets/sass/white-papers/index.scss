@@ -1,13 +1,8 @@
 .white-papers {
-  .header {
-    margin-bottom: 100px;
-  }
-
   &-list {
     width: 100%;
     margin: auto;
-
-    margin-bottom: 97px;
+    margin-bottom: $page-section-margin;
   }
   &-box {
     align-items: flex-start;
@@ -35,37 +30,14 @@
       margin-bottom: 0px;
     }
     &-btn {
-      @extend .btn;
-      text-decoration: none;
+      @extend .button;
+      text-transform: uppercase;
       margin-top: 23px;
-      border: unset;
-      padding: 2px;
-      background: linear-gradient(
-        229.52deg,
-        #6788ea 16.05%,
-        #ba88e2 42.14%,
-        #ff8b97 73.02%
-      );
-      p{
-        border-radius: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: $main-bg-color;
-        width: 100%;
-        height: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-        color: #6788E9;
-        font-size: 0.75rem;
-        font-weight: 500;
-      }
     }
     &-title {
       font-size: 17px;
       font-weight: 800;
       line-height: normal;
-      letter-spacing: $text-letter-spacing;
     }
     &-c {
       padding-right: 80px;
@@ -81,7 +53,7 @@
         font-size: 0.813rem;
         letter-spacing: $text-letter-spacing;
         margin: 10px 0px 20px 0px;
-        color: #6788e9;
+        color: $blue;
         font-weight: 500;
       }
     }
@@ -108,25 +80,17 @@
     }
     &-title {
       width: 100%;
-      border-bottom: 2px solid rgba(102, 135, 233, 0.7);
-      letter-spacing: 0.7px;
+      border-bottom: 2px solid $blue;
       padding-bottom: 20px;
-      font-size: 24px;
       margin-bottom: 50px;
-      font-weight: 700;
-      color: #6788ea;
-      letter-spacing: $text-letter-spacing;
+      @extend .page-colored-section-title;
     }
   }
 }
 
 @media only screen and (max-width: $mobile) {
   .white-papers {
-    .header {
-      margin-bottom: 50px;
-    }
     &-box {
-      margin-bottom: 50px;
       &-preview {
         display: none;
       }
@@ -138,9 +102,6 @@
         max-width: none;
         width: 100%;
       }
-    }
-    .page-header {
-      height: 220px;
     }
   }
 }

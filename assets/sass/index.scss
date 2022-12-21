@@ -1,5 +1,5 @@
-@import "./consts.scss";
 @import "./fonts.scss";
+@import "./shared.scss";
 @import "./reset.scss";
 @import "./common/index.scss";
 @import "./partial-components/index.scss";
@@ -17,7 +17,7 @@
 @import "./ecosystem/index.scss";
 @import "./contact/index.scss";
 @import "./policy/index.scss";
-@import './news/index.scss';
-@import './orbs-vm-and-orbs-lambda/index.scss';
-@import './notifications/index.scss';
-@import './ton-gateway/index.scss';
+@import "./news/index.scss";
+@import "./orbs-vm-and-orbs-lambda/index.scss";
+@import "./notifications/index.scss";
+@import "./ton-gateway/index.scss";

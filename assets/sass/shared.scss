@@ -1,0 +1,190 @@
+$app-background-color: #fcf8fd;
+$navbar-height: 110px !default;
+$text-color: #454545;
+$light-color: #03fcf5;
+$light-blue: #53fffa;
+$mobile: 700px;
+$laptop: 1400px;
+$medium: 1000px;
+$grid: 1200px;
+$dark-color: #191919;
+// $blue: #da88de;
+$gray: #f4f4f4;
+$blue: #5e75e8;
+$light-font: "light";
+$light-oblique-font: "light-oblique";
+$bold-font: "bold";
+$bold-oblique: "bold-oblique";
+$text-font: "Montserrat";
+$blog-font: "blog-main";
+$blog-bold-font: "blog-bold";
+$letter-spacing: -0.009rem;
+$page-section-margin: 80px;
+$gradient: linear-gradient(
+  102.78deg,
+  #6687e9 29.14%,
+  #b082d5 53.97%,
+  #ed7ec4 77.85%
+);
+
+.gradient-text {
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@mixin gradient-border($width: 3px) {
+  border: $width solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
+}
+$text-letter-spacing: -0.009rem;
+
+.button {
+  border: 1px solid $blue;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 15px 26px;
+  font-size: 14px;
+  font-family: $text-font;
+  color: $blue;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s all;
+  cursor: pointer;
+  & * {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+  }
+  &:hover {
+    color: white;
+    background: $blue;
+  }
+}
+
+.white-button {
+  @extend .button;
+  color: white;
+  border: 1px solid white;
+  &:hover {
+    color: $blue;
+    background: white;
+  }
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  @extend .gradient-text;
+  text-transform: uppercase;
+}
+
+.page-section-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: $text-font;
+  line-height: 31px;
+  color: white;
+  &:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+.page-section-subtitle {
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  font-family: $text-font;
+}
+
+.page-colored-section-title {
+  @extend .page-section-title;
+  @extend .gradient-text;
+}
+
+.page {
+  padding-top: 126px;
+}
+
+.main-grid {
+  max-width: 1200px;
+  width: calc(100% - 100px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  @extend .gradient-text;
+}
+
+.header-top-text {
+  @extend .page-section-title;
+  font-weight: 700;
+  color: $text-color;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h4 {
+    @extend .header-top-text;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  h1 {
+    @extend .page-title;
+  }
+  p {
+    margin-top: 40px;
+  }
+}
+
+.common-grid-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: $page-section-margin;
+  padding-bottom: $page-section-margin;
+  &-text {
+    flex: 1;
+  }
+  &-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  display: flex;
+  align-items: center;
+  h3 {
+    @extend .page-colored-section-title;
+    max-width: 90%;
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .notifications {
+    .main-grid {
+      width: calc(100% - 40px);
+    }
+  }
+}

@@ -4,4 +4,6 @@ value: ton-lite-client
 selected: ton-lite-client
 ---
 
-ton-lite-client (JavaScript)
+ton-lite-client
+
+#### (JavaScript)

@@ -1,12 +1,7 @@
 ---
 layout: partials/ton-gateway/PoweredByOrbs/PoweredByOrbs
 title: Powered by Orbs Network
-dappUser:
-  - dapp-user.md
-orbsValidator:
-  - orbs-validator.md
-tonValidator:
-  - ton-validator.md
+graph: /assets/img/ton-gateway/graph.svg
 partOfDapp: Part of the dapp
 ---
 

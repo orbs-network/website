@@ -23,7 +23,6 @@ $blog-text-size: 1.313rem;
     padding-left: 20px;
     padding-right: 20px;
     &-title {
-      letter-spacing: $text-letter-spacing;
       text-align: left;
       font-family: $text-font;
       text-transform: none;
@@ -130,10 +129,8 @@ $blog-text-size: 1.313rem;
           margin-bottom: 23px;
         }
         a {
-          @extend .btn;
+          @extend .button;
           height: 51px;
-          border-radius: 42px;
-          text-transform: none;
           padding: 0px 25px;
           text-decoration: none;
         }

@@ -4,9 +4,9 @@ title: Secure
 text:
   - text.md
 button: Read more
-image: /assets/img/ton-gateway/secure.svg
+image: /assets/img/pos-universe/shapes/shape4.svg
 ---
 
- Support for raw ADML to
- 
- enable lite clients
+Support for raw ADML to
+
+enable lite clients
