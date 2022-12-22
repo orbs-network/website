@@ -39,7 +39,7 @@ Using the dTWAP order, SpiritSwap’s users can now optimize their trading by ex
 
 SpiritSwap users can now find the dTWAP order in the DEX’s application UI which provides an intuitive, user-friendly and informative way for users to set the parameters for and initiate dTWAP trades.
 
-![UI](/assets/img/blog/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/image1.png)
+![UI](/assets/img/blog/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/image2.png)
 
 
 The dTWAP UI has 3 basic parameters which the user needs to specify:
