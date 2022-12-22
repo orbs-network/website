@@ -101,7 +101,7 @@ const getBlogAttributes = (blog) => {
 export const init = () => {
   addMobileClickEvents();
   handleBlogs();
-  subscribeBtn.addEventListener("click", showSubscribePopup);
+  if (subscribeBtn) subscribeBtn.addEventListener("click", showSubscribePopup);
 };
 
 export default {

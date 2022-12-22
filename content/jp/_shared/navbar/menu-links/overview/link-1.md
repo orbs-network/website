@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[レイヤー3：分散型バックエンド](/jp/network)
+[WHAT IS ORBS: LAYER 3](/jp/overview)
