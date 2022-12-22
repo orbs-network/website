@@ -30,7 +30,7 @@
       margin-bottom: 0px;
     }
     &-btn {
-      @extend .button;
+      @extend .pink-button;
       text-transform: uppercase;
       margin-top: 23px;
     }
@@ -80,7 +80,7 @@
     }
     &-title {
       width: 100%;
-      border-bottom: 2px solid $blue;
+      border-bottom: 2px solid $pink;
       padding-bottom: 20px;
       margin-bottom: 50px;
       @extend .page-colored-section-title;

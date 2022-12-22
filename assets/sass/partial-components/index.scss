@@ -246,30 +246,6 @@
     width: calc(100% - 44px);
   }
 
-  $mobile-header-height: 250px;
-
-  .page-header {
-    min-height: $mobile-header-height;
-    height: auto;
-    &-media {
-      height: 60%;
-      &-video {
-        display: none;
-      }
-      &-image {
-        display: block;
-      }
-    }
-    &-text {
-      height: auto;
-      &-title {
-        margin-top: 120px;
-      }
-    }
-    .sub-title {
-      margin-top: 60px;
-    }
-  }
   .gdpr {
     flex-direction: column;
     justify-content: center;

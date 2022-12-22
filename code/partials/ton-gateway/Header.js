@@ -25,9 +25,9 @@ function Header({ _body, _relativeURL, _ID, title, button }) {
             </a>
           </div>
           <div className="ton-gateway-header-body">{_body}</div>
-          <button className="ton-gateway-header-button">
+          <a className="ton-gateway-header-button" href="#get-started">
             <p> {button}</p>
-          </button>
+          </a>
         </div>
         <img
           src={generateUrl(HeaderMainImg)}

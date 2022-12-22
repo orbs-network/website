@@ -6,6 +6,8 @@ const keys = {
   network: "network",
 };
 
+let isMobile = false;
+
 let exampleSelection = {
   [keys.apiFlavor]: "toncenter-http-api-v2",
   [keys.clientLibrary]: "npm-ton",
@@ -23,8 +25,8 @@ let selectedLibrary = undefined;
 const copyButton = document.querySelector(".ton-gateway-example-copy button");
 const copyTooltip = document.querySelector(".ton-gateway-example-copy-tooltip");
 const onLoad = async () => {
-  // addCardsEvents();
   init();
+  addCardsEvents();
   const response = await fetch("/assets/datasets/gateway-snippets.json");
   jsonConfig = await response.json();
   addEventsToSelectboxes();
@@ -151,7 +153,7 @@ const generateExample = ({ apiFlavor, clientLibrary, network }) => {
 
 const addCardsEvents = () => {
   cards.forEach((card) => {
-    const button = card.querySelector(".ton-gateway-cards-card-button");
+    const button = card.querySelector(".ton-gateway-cards-card-button-content");
     button.addEventListener("click", () => {
       clearCards();
       card.classList.add("ton-gateway-cards-card-active");

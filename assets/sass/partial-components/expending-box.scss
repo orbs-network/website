@@ -32,8 +32,7 @@
   }
 
   .expend-btn {
-    color: $blue;
-    @extend .button;
+    @extend .pink-button;
     margin-top: 27px;
     transition: 0.2s all;
   }

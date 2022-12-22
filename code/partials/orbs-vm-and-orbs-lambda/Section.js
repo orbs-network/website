@@ -1,5 +1,6 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
+import MainGrid from "../shared/MainGrid";
 
 function Section({
   _body,
@@ -14,8 +15,12 @@ function Section({
     return handleUrl(url, _relativeURL, _ID);
   };
   return (
-    <div className="common-grid-section orbs-vm-section" id={id} style={{ background }}>
-      <div className="common-grid-section-grid">
+    <div
+      className="common-grid-section orbs-vm-section"
+      id={id}
+      style={{ background }}
+    >
+      <MainGrid className="common-grid-section-grid">
         {!imgFirst ? (
           <>
             <div className="common-grid-section-left common-grid-section-text">
@@ -37,7 +42,7 @@ function Section({
             </div>
           </>
         )}
-      </div>
+      </MainGrid>
     </div>
   );
 }

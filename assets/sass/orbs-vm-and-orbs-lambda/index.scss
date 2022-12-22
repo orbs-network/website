@@ -31,7 +31,8 @@
     }
     background: $blue;
     .orbs-vm-graph-image {
-      width: 600px;
+      max-width: 600px;
+      width: 100%;
     }
     .orbs-vm-graph-grid {
       transform: translate(162px);
@@ -43,7 +44,8 @@
       @extend .page-colored-section-title;
     }
     .orbs-vm-graph-image {
-      width: 450px;
+      max-width: 450px;
+      width: 100%;
     }
     .orbs-vm-graph-grid {
       max-width: 800px;
@@ -95,6 +97,46 @@
     }
     strong {
       font-weight: 500;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .orbs-vm {
+    .orbs-vm-graph-1 {
+      .orbs-vm-graph {
+        &-grid {
+          transform: unset;
+        }
+      }
+    }
+    .orbs-vm-graph {
+      &-bg {
+        display: none;
+      }
+    }
+    .common-grid-section {
+      &-grid {
+        flex-direction: column;
+        gap: 70px;
+      }
+      &-image {
+        order: 1 !important;
+      }
+      &-left {
+        order: 2;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .orbs-vm {
+    .common-grid-section {
+      &-image {
+        width: 70vw;
+        max-width: 135px;
+      }
     }
   }
 }

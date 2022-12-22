@@ -37,6 +37,7 @@ const NavbarTop = ({
       </div>
       <section className="navbar-top-right">
         <a
+          target="_blank"
           rel="noreferrer"
           href={developers_url}
           className="navbar-top-action-btn blog-btn"
@@ -44,6 +45,7 @@ const NavbarTop = ({
           {`+ ${developers}`}
         </a>
         <a
+          target="_blank"
           rel="noreferrer"
           href={status_url}
           className="navbar-top-action-btn blog-btn"
@@ -56,6 +58,7 @@ const NavbarTop = ({
           className="navbar-top-action-btn blog-btn"
         >{`+ ${blog}`}</a>
         <a
+          target="_blank"
           rel="noreferrer"
           href={github_url}
           className="navbar-top-action-btn blog-btn"

@@ -9,6 +9,7 @@ function Exmpales({ selectors, github, telegram, _body, _relativeURL, _ID }) {
 
   return (
     <div className="ton-gateway-example">
+      <div id="get-started" />
       <MainGrid>
         <div className="ton-gateway-example-title">{_body}</div>
         <div className="ton-gateway-example-flex">

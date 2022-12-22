@@ -4,8 +4,10 @@ import MainGrid from "../shared/MainGrid";
 const Main = ({ whitePapersList, _body }) => {
   return (
     <main className="white-papers page">
-      <div className="header">{_body}</div>
-      <MainGrid>{whitePapersList}</MainGrid>
+      <MainGrid>
+        <div className="header">{_body}</div>
+        {whitePapersList}
+      </MainGrid>
     </main>
   );
 };

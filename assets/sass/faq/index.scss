@@ -112,12 +112,9 @@
         display: none;
       }
       h5 {
-        letter-spacing: 0.063rem;
-        text-transform: uppercase;
-        margin-bottom: 15px;
+        margin-bottom: $page-section-title-margin-small;
         text-align: left;
-        font-size: 24px;
-        @extend .gradient-text;
+        @extend .page-colored-section-title;
       }
     }
   }
@@ -147,18 +144,7 @@
       flex-direction: column;
     }
     .side-menu {
-      position: relative;
-      height: auto;
-      margin-top: 0px;
-      top: 0px;
-      margin-bottom: 30px;
-      width: 100%;
-      .faq-side-menu-additional {
-        margin-top: 20px;
-      }
-      .socials {
-        margin-top: 20px;
-      }
+      display: none;
     }
 
     &-mobile-menu {

@@ -5,6 +5,7 @@ import {
   getElementAttribute,
   getElement,
 } from "../heplers.js";
+const subscribeBtn = document.querySelector(".footer .subscribe-btn");
 
 const handleMobileClick = (e) => {
   const activeClass = "footer-navigation-mobile-list-active";
@@ -86,7 +87,6 @@ const createBlogElements = () => {
     leftSide,
   };
 };
-const subscribeBtn = document.querySelector(".subscribe-btn");
 
 const getBlogAttributes = (blog) => {
   const imageSrc = getElementAttribute(blog, "data-image");

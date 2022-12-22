@@ -17,27 +17,8 @@
       text-align: left;
       align-items: flex-start;
       margin-bottom: 0px;
-
       h4 {
         margin-bottom: 30px;
-      }
-
-      & > p {
-        margin-bottom: 41px;
-        max-width: 630px;
-      }
-
-      h5 {
-        font-size: 20px;
-        line-height: 40px;
-        font-weight: normal;
-        max-width: 640px;
-        margin-bottom: 21px;
-
-        strong {
-          opacity: 0.9;
-          font-weight: 400;
-        }
       }
 
       a {
@@ -175,7 +156,6 @@
         gap: 20px;
         &-link {
           margin-top: auto;
-
           img {
             width: 31px;
             height: 31px;
@@ -193,6 +173,7 @@
         h5 {
           @extend .text-p;
           font-weight: 500;
+          margin-bottom: 0px;
           text-transform: capitalize;
         }
       }
@@ -202,6 +183,9 @@
         justify-content: center;
         display: flex;
         padding: 0px;
+        p {
+          font-size: 18px;
+        }
 
         .link-button {
           margin-top: 30px;
