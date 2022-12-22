@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 22 Dec 2022 12:16:25 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Dec 2022 12:23:37 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[SpiritSwap Integrates dTWAP Order Powered by Orbs]]></title>
@@ -18,7 +18,7 @@
             <guid isPermaLink="true">https://www.orbs.com/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
             <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+            <enclosure url="https://www.orbs.com/assets/img/blog/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/image4.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[ORBS token available on TON Blockchain Via Orbit Bridge and Megaton Finance DEX]]></title>
