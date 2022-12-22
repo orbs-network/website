@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "Huobi Global Lists Orbs Token (ORBS)"
+image: /assets/img/blog/Huobi-Global-Lists-Orbs-Token/bg.jpg
+gdpr:
+  - /_shared/gdpr/index.md

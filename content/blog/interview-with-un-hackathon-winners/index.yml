@@ -1,0 +1,17 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: "Developing on Orbs: Interview with UN Hackathon Winners"
+image: /assets/img/blog/interview-with-un-hackathon-winners/bg.jpg
+
+gdpr:
+  - /_shared/gdpr/index.md

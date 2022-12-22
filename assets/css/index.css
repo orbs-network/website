@@ -32,7 +32,7 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/blog/bold-italic.ttf");
 }
-.gradient-text, .news-hero-body h1, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-grid-section h3, .page-title, .side-menu-title, .header h1 {
+.gradient-text, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
   background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -40,7 +40,7 @@
   text-fill-color: transparent;
 }
 
-.button, .ton-gateway-header-button, .single-blog-bottom-flex-item a, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button, .pink-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn {
+.button, .ton-gateway-header-button, .single-blog-bottom-flex-item a, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button, .pink-button, .news #load-more-posts, .news-video-right-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn {
   border: 2px solid #5e75e8;
   border-radius: 100px;
   display: flex;
@@ -58,23 +58,23 @@
   transition: 0.2s all;
   cursor: pointer;
 }
-.button *, .ton-gateway-header-button *, .single-blog-bottom-flex-item a *, .white-button *, .ton-gateway-example-links a *, .notifications .contribute-bottom-buttons .link-button *, .pink-button *, .white-papers-box-btn *, .form-submit-container .form-submit *, .expending-box .expend-btn * {
+.button *, .ton-gateway-header-button *, .single-blog-bottom-flex-item a *, .white-button *, .ton-gateway-example-links a *, .notifications .contribute-bottom-buttons .link-button *, .pink-button *, .news #load-more-posts *, .news-video-right-button *, .white-papers-box-btn *, .form-submit-container .form-submit *, .expending-box .expend-btn * {
   font-size: inherit;
   font-family: inherit;
   color: inherit;
   font-weight: inherit;
   text-decoration: inherit;
 }
-.button:hover, .ton-gateway-header-button:hover, .single-blog-bottom-flex-item a:hover, .white-button:hover, .ton-gateway-example-links a:hover, .notifications .contribute-bottom-buttons .link-button:hover, .pink-button:hover, .white-papers-box-btn:hover, .form-submit-container .form-submit:hover, .expending-box .expend-btn:hover {
+.button:hover, .ton-gateway-header-button:hover, .single-blog-bottom-flex-item a:hover, .white-button:hover, .ton-gateway-example-links a:hover, .notifications .contribute-bottom-buttons .link-button:hover, .pink-button:hover, .news #load-more-posts:hover, .news-video-right-button:hover, .white-papers-box-btn:hover, .form-submit-container .form-submit:hover, .expending-box .expend-btn:hover {
   color: white;
   background: #5e75e8;
 }
 
-.pink-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn {
+.pink-button, .news #load-more-posts, .news-video-right-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn {
   color: #da88de;
   border: 2px solid #da88de;
 }
-.pink-button:hover, .white-papers-box-btn:hover, .form-submit-container .form-submit:hover, .expending-box .expend-btn:hover {
+.pink-button:hover, .news #load-more-posts:hover, .news-video-right-button:hover, .white-papers-box-btn:hover, .form-submit-container .form-submit:hover, .expending-box .expend-btn:hover {
   color: white;
   background: #da88de;
 }
@@ -88,15 +88,15 @@
   background: white;
 }
 
-.page-title, .side-menu-title, .header h1 {
+.page-title, .side-menu-title, .header h1, .news-hero h1 {
   font-weight: 900;
   font-size: 46px;
   line-height: 60px;
   text-transform: uppercase;
 }
 
-.page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .news-posts-title, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
-.expending-box .title-h4, .header-top-text, .ton-gateway-header-github p, .header h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-grid-section h3 {
+.page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
+.expending-box .title-h4, .header-top-text, .ton-gateway-header-github p, .header h4, .news-hero h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-grid-section h3 {
   font-size: 24px;
   font-weight: 700;
   font-family: "Montserrat";
@@ -115,36 +115,36 @@
   padding-top: 126px;
 }
 
-.main-grid, .orbs-vm .common-grid-section-grid, .news-grid, .contact {
+.main-grid, .orbs-vm .common-grid-section-grid, .news-grid, .contact, .single-blog-header {
   max-width: 1200px;
   width: calc(100% - 100px);
   margin-left: auto;
   margin-right: auto;
 }
 
-.page-title, .side-menu-title, .header h1 {
+.page-title, .side-menu-title, .header h1, .news-hero h1 {
   font-weight: 900;
   font-size: 46px;
   line-height: 60px;
 }
 
-.header-top-text, .ton-gateway-header-github p, .header h4 {
+.header-top-text, .ton-gateway-header-github p, .header h4, .news-hero h4 {
   font-weight: 700;
   color: #454545;
 }
 
-.header {
+.header, .news-hero {
   text-align: center;
   margin-bottom: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.header h4 {
+.header h4, .news-hero h4 {
   width: 100%;
   margin-bottom: 0px;
 }
-.header p {
+.header p, .news-hero p {
   margin-top: 40px;
 }
 
@@ -170,36 +170,36 @@
   margin-bottom: 20px;
 }
 
-.text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .ton-gateway-posts .post-profile-right h5, .notifications .integrations-list .integration h5 {
+.text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .ton-gateway-posts .post-profile-right h5, .notifications .integrations-list .integration h5, .news-hero-body h4, .blog-list-blog-title, .blog .header h2, .blog .news-hero h2 {
   font-size: 17px;
   color: #454545;
   line-height: 27px;
   margin-bottom: 20px;
 }
-.text-p:last-child, .selectbox-list-item h4 :last-child, .selectbox-list-item h4:last-child, .ton-gateway-posts .post-profile-right h5:last-child, .notifications .integrations-list .integration h5:last-child {
+.text-p:last-child, .selectbox-list-item h4 :last-child, .selectbox-list-item h4:last-child, .ton-gateway-posts .post-profile-right h5:last-child, .notifications .integrations-list .integration h5:last-child, .news-hero-body h4:last-child, .blog-list-blog-title:last-child, .blog .header h2:last-child, .blog .news-hero h2:last-child {
   margin-bottom: 0px;
 }
-.text-p strong, .selectbox-list-item h4 strong, .ton-gateway-posts .post-profile-right h5 strong, .notifications .integrations-list .integration h5 strong {
+.text-p strong, .selectbox-list-item h4 strong, .ton-gateway-posts .post-profile-right h5 strong, .notifications .integrations-list .integration h5 strong, .news-hero-body h4 strong, .blog-list-blog-title strong, .blog .header h2 strong, .blog .news-hero h2 strong {
   color: #454545;
 }
 
 @media only screen and (max-width: 1050px) {
-  .notifications .main-grid, .notifications .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .common-grid-section-grid, .notifications .news-grid, .notifications .contact {
+  .notifications .main-grid, .notifications .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .common-grid-section-grid, .notifications .news-grid, .notifications .contact, .notifications .single-blog-header {
     width: calc(100% - 50px);
   }
 }
 @media only screen and (max-width: 800px) {
-  .header {
+  .header, .news-hero {
     margin-bottom: 80px;
   }
 
-  .page-title, .side-menu-title, .header h1 {
+  .page-title, .side-menu-title, .header h1, .news-hero h1 {
     font-size: 30px;
     line-height: 42px;
   }
 }
 @media only screen and (max-width: 600px) {
-  .page-title, .side-menu-title, .header h1 {
+  .page-title, .side-menu-title, .header h1, .news-hero h1 {
     font-size: 22px;
     line-height: 34px;
   }
@@ -208,17 +208,17 @@
     padding-top: 110px;
   }
 
-  .page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .news-posts-title, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
-.expending-box .title-h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .header-top-text, .ton-gateway-header-github p, .header h4, .common-grid-section h3 {
+  .page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
+.expending-box .title-h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .header-top-text, .ton-gateway-header-github p, .header h4, .news-hero h4, .common-grid-section h3 {
     font-size: 20px;
     line-height: 26px;
   }
 
-  .text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .ton-gateway-posts .post-profile-right h5, .notifications .integrations-list .integration h5 {
+  .text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .ton-gateway-posts .post-profile-right h5, .notifications .integrations-list .integration h5, .news-hero-body h4, .blog-list-blog-title, .blog .header h2, .blog .news-hero h2 {
     font-size: 16px;
   }
 
-  .button, .ton-gateway-header-button, .single-blog-bottom-flex-item a, .pink-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button {
+  .button, .ton-gateway-header-button, .single-blog-bottom-flex-item a, .pink-button, .news #load-more-posts, .news-video-right-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button {
     padding: 0px 40px;
   }
 }
@@ -596,7 +596,7 @@ body {
 .gdpr a {
   text-decoration: none;
 }
-.gdpr .text-p, .gdpr .selectbox-list-item h4 *, .selectbox-list-item h4 .gdpr *, .gdpr .selectbox-list-item h4, .selectbox-list-item .gdpr h4, .gdpr .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .gdpr h5, .gdpr .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .gdpr h5 {
+.gdpr .text-p, .gdpr .selectbox-list-item h4 *, .selectbox-list-item h4 .gdpr *, .gdpr .selectbox-list-item h4, .selectbox-list-item .gdpr h4, .gdpr .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .gdpr h5, .gdpr .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .gdpr h5, .gdpr .news-hero-body h4, .news-hero-body .gdpr h4, .gdpr .blog-list-blog-title, .gdpr .blog .header h2, .gdpr .blog .news-hero h2, .blog .header .gdpr h2, .blog .news-hero .gdpr h2 {
   margin: 0px;
   flex: 1;
   padding-right: 50px;
@@ -628,14 +628,14 @@ body {
 .images-grid-list li {
   text-align: center;
 }
-.images-grid-list li .text-p, .images-grid-list li .selectbox-list-item h4 *, .selectbox-list-item h4 .images-grid-list li *, .images-grid-list li .selectbox-list-item h4, .selectbox-list-item .images-grid-list li h4, .images-grid-list li .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .images-grid-list li h5, .images-grid-list li .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .images-grid-list li h5 {
+.images-grid-list li .text-p, .images-grid-list li .selectbox-list-item h4 *, .selectbox-list-item h4 .images-grid-list li *, .images-grid-list li .selectbox-list-item h4, .selectbox-list-item .images-grid-list li h4, .images-grid-list li .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .images-grid-list li h5, .images-grid-list li .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .images-grid-list li h5, .images-grid-list li .news-hero-body h4, .news-hero-body .images-grid-list li h4, .images-grid-list li .blog-list-blog-title, .images-grid-list li .blog .header h2, .images-grid-list li .blog .news-hero h2, .blog .header .images-grid-list li h2, .blog .news-hero .images-grid-list li h2 {
   text-align: center;
   margin-bottom: 0px;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 1.563rem;
 }
-.images-grid-list li .text-p:last-child, .images-grid-list li .selectbox-list-item h4 :last-child, .selectbox-list-item h4 .images-grid-list li :last-child, .images-grid-list li .selectbox-list-item h4:last-child, .selectbox-list-item .images-grid-list li h4:last-child, .images-grid-list li .ton-gateway-posts .post-profile-right h5:last-child, .ton-gateway-posts .post-profile-right .images-grid-list li h5:last-child, .images-grid-list li .notifications .integrations-list .integration h5:last-child, .notifications .integrations-list .integration .images-grid-list li h5:last-child {
+.images-grid-list li .text-p:last-child, .images-grid-list li .selectbox-list-item h4 :last-child, .selectbox-list-item h4 .images-grid-list li :last-child, .images-grid-list li .selectbox-list-item h4:last-child, .selectbox-list-item .images-grid-list li h4:last-child, .images-grid-list li .ton-gateway-posts .post-profile-right h5:last-child, .ton-gateway-posts .post-profile-right .images-grid-list li h5:last-child, .images-grid-list li .notifications .integrations-list .integration h5:last-child, .notifications .integrations-list .integration .images-grid-list li h5:last-child, .images-grid-list li .news-hero-body h4:last-child, .news-hero-body .images-grid-list li h4:last-child, .images-grid-list li .blog-list-blog-title:last-child, .images-grid-list li .blog .header h2:last-child, .images-grid-list li .blog .news-hero h2:last-child, .blog .header .images-grid-list li h2:last-child, .blog .news-hero .images-grid-list li h2:last-child {
   margin-bottom: 0px;
 }
 .images-grid-list-img {
@@ -661,7 +661,7 @@ body {
 .expending-box-text-more {
   display: none;
 }
-.expending-box-text-more .text-p, .expending-box-text-more .selectbox-list-item h4 *, .selectbox-list-item h4 .expending-box-text-more *, .expending-box-text-more .selectbox-list-item h4, .selectbox-list-item .expending-box-text-more h4, .expending-box-text-more .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .expending-box-text-more h5, .expending-box-text-more .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .expending-box-text-more h5 {
+.expending-box-text-more .text-p, .expending-box-text-more .selectbox-list-item h4 *, .selectbox-list-item h4 .expending-box-text-more *, .expending-box-text-more .selectbox-list-item h4, .selectbox-list-item .expending-box-text-more h4, .expending-box-text-more .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .expending-box-text-more h5, .expending-box-text-more .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .expending-box-text-more h5, .expending-box-text-more .news-hero-body h4, .news-hero-body .expending-box-text-more h4, .expending-box-text-more .blog-list-blog-title, .expending-box-text-more .blog .header h2, .expending-box-text-more .blog .news-hero h2, .blog .header .expending-box-text-more h2, .blog .news-hero .expending-box-text-more h2 {
   margin-top: 20px;
 }
 .expending-box-text-more .title-h4 {
@@ -763,7 +763,7 @@ body {
   line-height: 1.7rem;
   font-weight: 600;
 }
-.boxes-list .box .text-p, .boxes-list .box .selectbox-list-item h4 *, .selectbox-list-item h4 .boxes-list .box *, .boxes-list .box .selectbox-list-item h4, .selectbox-list-item .boxes-list .box h4, .boxes-list .box .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .boxes-list .box h5, .boxes-list .box .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .boxes-list .box h5 {
+.boxes-list .box .text-p, .boxes-list .box .selectbox-list-item h4 *, .selectbox-list-item h4 .boxes-list .box *, .boxes-list .box .selectbox-list-item h4, .selectbox-list-item .boxes-list .box h4, .boxes-list .box .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .boxes-list .box h5, .boxes-list .box .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .boxes-list .box h5, .boxes-list .box .news-hero-body h4, .news-hero-body .boxes-list .box h4, .boxes-list .box .blog-list-blog-title, .boxes-list .box .blog .header h2, .boxes-list .box .blog .news-hero h2, .blog .header .boxes-list .box h2, .blog .news-hero .boxes-list .box h2 {
   line-height: 1.6rem;
 }
 .boxes-list .box figure {
@@ -793,7 +793,7 @@ body {
   transition: 0.2s all;
   background: linear-gradient(264.47deg, #7988E8 -9.16%, #5E75E8 40.94%, #DB89DF 93.26%);
 }
-.link-btn .text-p, .link-btn .selectbox-list-item h4 *, .selectbox-list-item h4 .link-btn *, .link-btn .selectbox-list-item h4, .selectbox-list-item .link-btn h4, .link-btn .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .link-btn h5, .link-btn .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .link-btn h5 {
+.link-btn .text-p, .link-btn .selectbox-list-item h4 *, .selectbox-list-item h4 .link-btn *, .link-btn .selectbox-list-item h4, .selectbox-list-item .link-btn h4, .link-btn .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .link-btn h5, .link-btn .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .link-btn h5, .link-btn .news-hero-body h4, .news-hero-body .link-btn h4, .link-btn .blog-list-blog-title, .link-btn .blog .header h2, .link-btn .blog .news-hero h2, .blog .header .link-btn h2, .blog .news-hero .link-btn h2 {
   letter-spacing: 0.081rem;
   font-size: 0.75rem;
   padding-top: 2px;
@@ -898,7 +898,7 @@ body {
 .expending-box-text-more {
   display: none;
 }
-.expending-box-text-more .text-p, .expending-box-text-more .selectbox-list-item h4 *, .selectbox-list-item h4 .expending-box-text-more *, .expending-box-text-more .selectbox-list-item h4, .selectbox-list-item .expending-box-text-more h4, .expending-box-text-more .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .expending-box-text-more h5, .expending-box-text-more .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .expending-box-text-more h5 {
+.expending-box-text-more .text-p, .expending-box-text-more .selectbox-list-item h4 *, .selectbox-list-item h4 .expending-box-text-more *, .expending-box-text-more .selectbox-list-item h4, .selectbox-list-item .expending-box-text-more h4, .expending-box-text-more .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .expending-box-text-more h5, .expending-box-text-more .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .expending-box-text-more h5, .expending-box-text-more .news-hero-body h4, .news-hero-body .expending-box-text-more h4, .expending-box-text-more .blog-list-blog-title, .expending-box-text-more .blog .header h2, .expending-box-text-more .blog .news-hero h2, .blog .header .expending-box-text-more h2, .blog .news-hero .expending-box-text-more h2 {
   margin-top: 20px;
 }
 .expending-box-text-more .title-h4 {
@@ -1065,7 +1065,7 @@ body {
   font-size: bold;
   text-align: center;
 }
-.form-success .text-p, .form-success .selectbox-list-item h4 *, .selectbox-list-item h4 .form-success *, .form-success .selectbox-list-item h4, .selectbox-list-item .form-success h4, .form-success .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .form-success h5, .form-success .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .form-success h5 {
+.form-success .text-p, .form-success .selectbox-list-item h4 *, .selectbox-list-item h4 .form-success *, .form-success .selectbox-list-item h4, .selectbox-list-item .form-success h4, .form-success .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .form-success h5, .form-success .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .form-success h5, .form-success .news-hero-body h4, .news-hero-body .form-success h4, .form-success .blog-list-blog-title, .form-success .blog .header h2, .form-success .blog .news-hero h2, .blog .header .form-success h2, .blog .news-hero .form-success h2 {
   text-align: center;
   font-size: 1.063rem;
 }
@@ -1251,7 +1251,7 @@ body {
 .subscribe .form .form-success {
   padding-top: 40px;
 }
-.subscribe .form .form-success .text-p, .subscribe .form .form-success .selectbox-list-item h4 *, .selectbox-list-item h4 .subscribe .form .form-success *, .subscribe .form .form-success .selectbox-list-item h4, .selectbox-list-item .subscribe .form .form-success h4, .subscribe .form .form-success .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .subscribe .form .form-success h5, .subscribe .form .form-success .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .subscribe .form .form-success h5 {
+.subscribe .form .form-success .text-p, .subscribe .form .form-success .selectbox-list-item h4 *, .selectbox-list-item h4 .subscribe .form .form-success *, .subscribe .form .form-success .selectbox-list-item h4, .selectbox-list-item .subscribe .form .form-success h4, .subscribe .form .form-success .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .subscribe .form .form-success h5, .subscribe .form .form-success .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .subscribe .form .form-success h5, .subscribe .form .form-success .news-hero-body h4, .news-hero-body .subscribe .form .form-success h4, .subscribe .form .form-success .blog-list-blog-title, .subscribe .form .form-success .blog .header h2, .subscribe .form .form-success .blog .news-hero h2, .blog .header .subscribe .form .form-success h2, .blog .news-hero .subscribe .form .form-success h2 {
   font-size: 20px;
 }
 .subscribe .form-inputs {
@@ -1329,7 +1329,7 @@ body {
   background: rgba(0, 0, 0, 0.4);
   padding: 5px 8px 5px 8px;
 }
-.copyright .text-p, .copyright .selectbox-list-item h4 *, .selectbox-list-item h4 .copyright *, .copyright .selectbox-list-item h4, .selectbox-list-item .copyright h4, .copyright .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .copyright h5, .copyright .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .copyright h5 {
+.copyright .text-p, .copyright .selectbox-list-item h4 *, .selectbox-list-item h4 .copyright *, .copyright .selectbox-list-item h4, .selectbox-list-item .copyright h4, .copyright .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .copyright h5, .copyright .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .copyright h5, .copyright .news-hero-body h4, .news-hero-body .copyright h4, .copyright .blog-list-blog-title, .copyright .blog .header h2, .copyright .blog .news-hero h2, .blog .header .copyright h2, .blog .news-hero .copyright h2 {
   color: white;
   font-weight: 500;
   font-size: 0.75rem;
@@ -1470,7 +1470,7 @@ body {
 .side-menu a {
   font-size: 17px !important;
 }
-.side-menu-body .text-p, .side-menu-body .selectbox-list-item h4 *, .selectbox-list-item h4 .side-menu-body *, .side-menu-body .selectbox-list-item h4, .selectbox-list-item .side-menu-body h4, .side-menu-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .side-menu-body h5, .side-menu-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .side-menu-body h5 {
+.side-menu-body .text-p, .side-menu-body .selectbox-list-item h4 *, .selectbox-list-item h4 .side-menu-body *, .side-menu-body .selectbox-list-item h4, .selectbox-list-item .side-menu-body h4, .side-menu-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .side-menu-body h5, .side-menu-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .side-menu-body h5, .side-menu-body .news-hero-body h4, .news-hero-body .side-menu-body h4, .side-menu-body .blog-list-blog-title, .side-menu-body .blog .header h2, .side-menu-body .blog .news-hero h2, .blog .header .side-menu-body h2, .blog .news-hero .side-menu-body h2 {
   margin-bottom: 0px;
 }
 .side-menu .socials {
@@ -1559,7 +1559,7 @@ body {
     padding-top: 100px;
   }
 
-  .main-grid, .orbs-vm .common-grid-section-grid, .news-grid, .contact {
+  .main-grid, .orbs-vm .common-grid-section-grid, .news-grid, .contact, .single-blog-header {
     width: calc(100% - 44px);
   }
 
@@ -1569,7 +1569,7 @@ body {
     padding: 20px;
     padding-bottom: 50px;
   }
-  .gdpr .text-p, .gdpr .selectbox-list-item h4 *, .selectbox-list-item h4 .gdpr *, .gdpr .selectbox-list-item h4, .selectbox-list-item .gdpr h4, .gdpr .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .gdpr h5, .gdpr .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .gdpr h5 {
+  .gdpr .text-p, .gdpr .selectbox-list-item h4 *, .selectbox-list-item h4 .gdpr *, .gdpr .selectbox-list-item h4, .selectbox-list-item .gdpr h4, .gdpr .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .gdpr h5, .gdpr .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .gdpr h5, .gdpr .news-hero-body h4, .news-hero-body .gdpr h4, .gdpr .blog-list-blog-title, .gdpr .blog .header h2, .gdpr .blog .news-hero h2, .blog .header .gdpr h2, .blog .news-hero .gdpr h2 {
     padding: 0px;
     margin-bottom: 40px;
     text-align: center;
@@ -1967,6 +1967,7 @@ body {
 .navbar-menu-header {
   height: 110px;
   align-items: center;
+  justify-content: flex-start;
 }
 .navbar-menu-active {
   pointer-events: all;
@@ -2014,7 +2015,7 @@ body {
   pointer-events: none;
   transition: 0.2s all;
 }
-.navbar-menu-links-link .text-p, .navbar-menu-links-link .selectbox-list-item h4 *, .selectbox-list-item h4 .navbar-menu-links-link *, .navbar-menu-links-link .selectbox-list-item h4, .selectbox-list-item .navbar-menu-links-link h4, .navbar-menu-links-link .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .navbar-menu-links-link h5, .navbar-menu-links-link .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .navbar-menu-links-link h5 {
+.navbar-menu-links-link .text-p, .navbar-menu-links-link .selectbox-list-item h4 *, .selectbox-list-item h4 .navbar-menu-links-link *, .navbar-menu-links-link .selectbox-list-item h4, .selectbox-list-item .navbar-menu-links-link h4, .navbar-menu-links-link .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .navbar-menu-links-link h5, .navbar-menu-links-link .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .navbar-menu-links-link h5, .navbar-menu-links-link .news-hero-body h4, .news-hero-body .navbar-menu-links-link h4, .navbar-menu-links-link .blog-list-blog-title, .navbar-menu-links-link .blog .header h2, .navbar-menu-links-link .blog .news-hero h2, .blog .header .navbar-menu-links-link h2, .blog .news-hero .navbar-menu-links-link h2 {
   line-height: normal;
   margin-bottom: 0px;
   font-family: "Montserrat";
@@ -2082,7 +2083,7 @@ body {
   font-weight: 600;
   font-family: "Montserrat";
 }
-.navbar-menu-resources-box .text-p, .navbar-menu-resources-box .selectbox-list-item h4 *, .selectbox-list-item h4 .navbar-menu-resources-box *, .navbar-menu-resources-box .selectbox-list-item h4, .selectbox-list-item .navbar-menu-resources-box h4, .navbar-menu-resources-box .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .navbar-menu-resources-box h5, .navbar-menu-resources-box .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .navbar-menu-resources-box h5 {
+.navbar-menu-resources-box .text-p, .navbar-menu-resources-box .selectbox-list-item h4 *, .selectbox-list-item h4 .navbar-menu-resources-box *, .navbar-menu-resources-box .selectbox-list-item h4, .selectbox-list-item .navbar-menu-resources-box h4, .navbar-menu-resources-box .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .navbar-menu-resources-box h5, .navbar-menu-resources-box .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .navbar-menu-resources-box h5, .navbar-menu-resources-box .news-hero-body h4, .news-hero-body .navbar-menu-resources-box h4, .navbar-menu-resources-box .blog-list-blog-title, .navbar-menu-resources-box .blog .header h2, .navbar-menu-resources-box .blog .news-hero h2, .blog .header .navbar-menu-resources-box h2, .blog .news-hero .navbar-menu-resources-box h2 {
   font-size: 0.688rem;
   font-weight: 500;
   flex: 1;
@@ -2301,7 +2302,7 @@ body {
   border-top: 1px solid #5e75e8;
   font-family: "Montserrat";
 }
-.footer .main-grid, .footer .orbs-vm .common-grid-section-grid, .orbs-vm .footer .common-grid-section-grid, .footer .news-grid, .footer .contact {
+.footer .main-grid, .footer .orbs-vm .common-grid-section-grid, .orbs-vm .footer .common-grid-section-grid, .footer .news-grid, .footer .contact, .footer .single-blog-header {
   align-items: flex-start;
 }
 .footer-section-title {
@@ -2335,16 +2336,16 @@ body {
   margin-bottom: 20px;
   height: 28px;
 }
-.footer-logo-section .text-p, .footer-logo-section .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-logo-section *, .footer-logo-section .selectbox-list-item h4, .selectbox-list-item .footer-logo-section h4, .footer-logo-section .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-logo-section h5, .footer-logo-section .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-logo-section h5 {
+.footer-logo-section .text-p, .footer-logo-section .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-logo-section *, .footer-logo-section .selectbox-list-item h4, .selectbox-list-item .footer-logo-section h4, .footer-logo-section .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-logo-section h5, .footer-logo-section .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-logo-section h5, .footer-logo-section .news-hero-body h4, .news-hero-body .footer-logo-section h4, .footer-logo-section .blog-list-blog-title, .footer-logo-section .blog .header h2, .footer-logo-section .blog .news-hero h2, .blog .header .footer-logo-section h2, .blog .news-hero .footer-logo-section h2 {
   margin-bottom: 0px;
   font-weight: 300;
   font-size: 14px;
 }
-.footer-logo-section .text-p:nth-of-type(2), .footer-logo-section .selectbox-list-item h4 :nth-of-type(2), .selectbox-list-item h4 .footer-logo-section :nth-of-type(2), .footer-logo-section .selectbox-list-item h4:nth-of-type(2), .selectbox-list-item .footer-logo-section h4:nth-of-type(2), .footer-logo-section .ton-gateway-posts .post-profile-right h5:nth-of-type(2), .ton-gateway-posts .post-profile-right .footer-logo-section h5:nth-of-type(2), .footer-logo-section .notifications .integrations-list .integration h5:nth-of-type(2), .notifications .integrations-list .integration .footer-logo-section h5:nth-of-type(2) {
+.footer-logo-section .text-p:nth-of-type(2), .footer-logo-section .selectbox-list-item h4 :nth-of-type(2), .selectbox-list-item h4 .footer-logo-section :nth-of-type(2), .footer-logo-section .selectbox-list-item h4:nth-of-type(2), .selectbox-list-item .footer-logo-section h4:nth-of-type(2), .footer-logo-section .ton-gateway-posts .post-profile-right h5:nth-of-type(2), .ton-gateway-posts .post-profile-right .footer-logo-section h5:nth-of-type(2), .footer-logo-section .notifications .integrations-list .integration h5:nth-of-type(2), .notifications .integrations-list .integration .footer-logo-section h5:nth-of-type(2), .footer-logo-section .news-hero-body h4:nth-of-type(2), .news-hero-body .footer-logo-section h4:nth-of-type(2), .footer-logo-section .blog-list-blog-title:nth-of-type(2), .footer-logo-section .blog .header h2:nth-of-type(2), .footer-logo-section .blog .news-hero h2:nth-of-type(2), .blog .header .footer-logo-section h2:nth-of-type(2), .blog .news-hero .footer-logo-section h2:nth-of-type(2) {
   margin-top: 30px;
   color: #03fcf5;
 }
-.footer-logo-section .text-p .email-link, .selectbox-list-item h4 .footer-logo-section * .email-link, .footer-logo-section .selectbox-list-item h4 .email-link, .selectbox-list-item .footer-logo-section h4 .email-link, .footer-logo-section .ton-gateway-posts .post-profile-right h5 .email-link, .ton-gateway-posts .post-profile-right .footer-logo-section h5 .email-link, .footer-logo-section .notifications .integrations-list .integration h5 .email-link, .notifications .integrations-list .integration .footer-logo-section h5 .email-link {
+.footer-logo-section .text-p .email-link, .selectbox-list-item h4 .footer-logo-section * .email-link, .footer-logo-section .selectbox-list-item h4 .email-link, .selectbox-list-item .footer-logo-section h4 .email-link, .footer-logo-section .ton-gateway-posts .post-profile-right h5 .email-link, .ton-gateway-posts .post-profile-right .footer-logo-section h5 .email-link, .footer-logo-section .notifications .integrations-list .integration h5 .email-link, .notifications .integrations-list .integration .footer-logo-section h5 .email-link, .footer-logo-section .news-hero-body h4 .email-link, .news-hero-body .footer-logo-section h4 .email-link, .footer-logo-section .blog-list-blog-title .email-link, .footer-logo-section .blog .header h2 .email-link, .footer-logo-section .blog .news-hero h2 .email-link, .blog .header .footer-logo-section h2 .email-link, .blog .news-hero .footer-logo-section h2 .email-link {
   color: #5e75e8;
   font-weight: 500;
   font-size: 16px;
@@ -2418,7 +2419,7 @@ body {
   margin-top: 40px;
   padding-bottom: 40px;
 }
-.footer-navigation .text-p, .footer-navigation .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation *, .footer-navigation .selectbox-list-item h4, .selectbox-list-item .footer-navigation h4, .footer-navigation .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation h5, .footer-navigation .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation h5 {
+.footer-navigation .text-p, .footer-navigation .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation *, .footer-navigation .selectbox-list-item h4, .selectbox-list-item .footer-navigation h4, .footer-navigation .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation h5, .footer-navigation .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation h5, .footer-navigation .news-hero-body h4, .news-hero-body .footer-navigation h4, .footer-navigation .blog-list-blog-title, .footer-navigation .blog .header h2, .footer-navigation .blog .news-hero h2, .blog .header .footer-navigation h2, .blog .news-hero .footer-navigation h2 {
   line-height: normal;
 }
 .footer-navigation-mobile {
@@ -2477,25 +2478,25 @@ body {
   text-transform: capitalize;
   font-weight: 500;
 }
-.footer-navigation-links-list .text-p, .footer-navigation-links-list .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-links-list *, .footer-navigation-links-list .selectbox-list-item h4, .selectbox-list-item .footer-navigation-links-list h4, .footer-navigation-links-list .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-links-list h5, .footer-navigation-links-list .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-links-list h5 {
+.footer-navigation-links-list .text-p, .footer-navigation-links-list .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-links-list *, .footer-navigation-links-list .selectbox-list-item h4, .selectbox-list-item .footer-navigation-links-list h4, .footer-navigation-links-list .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-links-list h5, .footer-navigation-links-list .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-links-list h5, .footer-navigation-links-list .news-hero-body h4, .news-hero-body .footer-navigation-links-list h4, .footer-navigation-links-list .blog-list-blog-title, .footer-navigation-links-list .blog .header h2, .footer-navigation-links-list .blog .news-hero h2, .blog .header .footer-navigation-links-list h2, .blog .news-hero .footer-navigation-links-list h2 {
   margin-bottom: 14px;
 }
 .footer-navigation-overview {
   width: 20%;
 }
-.footer-navigation-overview .text-p, .footer-navigation-overview .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-overview *, .footer-navigation-overview .selectbox-list-item h4, .selectbox-list-item .footer-navigation-overview h4, .footer-navigation-overview .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-overview h5, .footer-navigation-overview .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-overview h5 {
+.footer-navigation-overview .text-p, .footer-navigation-overview .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-overview *, .footer-navigation-overview .selectbox-list-item h4, .selectbox-list-item .footer-navigation-overview h4, .footer-navigation-overview .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-overview h5, .footer-navigation-overview .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-overview h5, .footer-navigation-overview .news-hero-body h4, .news-hero-body .footer-navigation-overview h4, .footer-navigation-overview .blog-list-blog-title, .footer-navigation-overview .blog .header h2, .footer-navigation-overview .blog .news-hero h2, .blog .header .footer-navigation-overview h2, .blog .news-hero .footer-navigation-overview h2 {
   width: 100%;
 }
 .footer-navigation-resources {
   width: 50%;
 }
-.footer-navigation-resources .text-p, .footer-navigation-resources .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-resources *, .footer-navigation-resources .selectbox-list-item h4, .selectbox-list-item .footer-navigation-resources h4, .footer-navigation-resources .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-resources h5, .footer-navigation-resources .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-resources h5 {
+.footer-navigation-resources .text-p, .footer-navigation-resources .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-resources *, .footer-navigation-resources .selectbox-list-item h4, .selectbox-list-item .footer-navigation-resources h4, .footer-navigation-resources .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-resources h5, .footer-navigation-resources .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-resources h5, .footer-navigation-resources .news-hero-body h4, .news-hero-body .footer-navigation-resources h4, .footer-navigation-resources .blog-list-blog-title, .footer-navigation-resources .blog .header h2, .footer-navigation-resources .blog .news-hero h2, .blog .header .footer-navigation-resources h2, .blog .news-hero .footer-navigation-resources h2 {
   width: 30%;
 }
 .footer-navigation-about {
   width: 30%;
 }
-.footer-navigation-about .text-p, .footer-navigation-about .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-about *, .footer-navigation-about .selectbox-list-item h4, .selectbox-list-item .footer-navigation-about h4, .footer-navigation-about .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-about h5, .footer-navigation-about .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-about h5 {
+.footer-navigation-about .text-p, .footer-navigation-about .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-about *, .footer-navigation-about .selectbox-list-item h4, .selectbox-list-item .footer-navigation-about h4, .footer-navigation-about .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-about h5, .footer-navigation-about .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-about h5, .footer-navigation-about .news-hero-body h4, .news-hero-body .footer-navigation-about h4, .footer-navigation-about .blog-list-blog-title, .footer-navigation-about .blog .header h2, .footer-navigation-about .blog .news-hero h2, .blog .header .footer-navigation-about h2, .blog .news-hero .footer-navigation-about h2 {
   width: 50%;
 }
 .footer-navigation-mobile-links {
@@ -2538,10 +2539,10 @@ body {
     flex-direction: column;
     gap: 60px;
   }
-  .footer-navigation .main-grid, .footer-navigation .orbs-vm .common-grid-section-grid, .orbs-vm .footer-navigation .common-grid-section-grid, .footer-navigation .news-grid, .footer-navigation .contact {
+  .footer-navigation .main-grid, .footer-navigation .orbs-vm .common-grid-section-grid, .orbs-vm .footer-navigation .common-grid-section-grid, .footer-navigation .news-grid, .footer-navigation .contact, .footer-navigation .single-blog-header {
     flex-direction: column;
   }
-  .footer-navigation .main-grid > div, .footer-navigation .orbs-vm .common-grid-section-grid > div, .orbs-vm .footer-navigation .common-grid-section-grid > div, .footer-navigation .news-grid > div, .footer-navigation .contact > div {
+  .footer-navigation .main-grid > div, .footer-navigation .orbs-vm .common-grid-section-grid > div, .orbs-vm .footer-navigation .common-grid-section-grid > div, .footer-navigation .news-grid > div, .footer-navigation .contact > div, .footer-navigation .single-blog-header > div {
     width: 100%;
   }
   .footer-navigation-mobile {
@@ -2650,14 +2651,14 @@ body {
 .faq .side-menu .faq-side-menu-additional {
   margin-top: 58px;
 }
-.faq .side-menu .faq-side-menu-additional .text-p, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4 *, .selectbox-list-item h4 .faq .side-menu .faq-side-menu-additional *, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4, .selectbox-list-item .faq .side-menu .faq-side-menu-additional h4, .faq .side-menu .faq-side-menu-additional .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .faq .side-menu .faq-side-menu-additional h5, .faq .side-menu .faq-side-menu-additional .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .faq .side-menu .faq-side-menu-additional h5 {
+.faq .side-menu .faq-side-menu-additional .text-p, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4 *, .selectbox-list-item h4 .faq .side-menu .faq-side-menu-additional *, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4, .selectbox-list-item .faq .side-menu .faq-side-menu-additional h4, .faq .side-menu .faq-side-menu-additional .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .faq .side-menu .faq-side-menu-additional h5, .faq .side-menu .faq-side-menu-additional .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .faq .side-menu .faq-side-menu-additional h5, .faq .side-menu .faq-side-menu-additional .news-hero-body h4, .news-hero-body .faq .side-menu .faq-side-menu-additional h4, .faq .side-menu .faq-side-menu-additional .blog-list-blog-title, .faq .side-menu .faq-side-menu-additional .blog .header h2, .faq .side-menu .faq-side-menu-additional .blog .news-hero h2, .blog .header .faq .side-menu .faq-side-menu-additional h2, .blog .news-hero .faq .side-menu .faq-side-menu-additional h2 {
   font-weight: 500;
   font-size: 1.063rem;
 }
-.faq .side-menu .faq-side-menu-additional .text-p:last-of-type, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4 :last-of-type, .selectbox-list-item h4 .faq .side-menu .faq-side-menu-additional :last-of-type, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4:last-of-type, .selectbox-list-item .faq .side-menu .faq-side-menu-additional h4:last-of-type, .faq .side-menu .faq-side-menu-additional .ton-gateway-posts .post-profile-right h5:last-of-type, .ton-gateway-posts .post-profile-right .faq .side-menu .faq-side-menu-additional h5:last-of-type, .faq .side-menu .faq-side-menu-additional .notifications .integrations-list .integration h5:last-of-type, .notifications .integrations-list .integration .faq .side-menu .faq-side-menu-additional h5:last-of-type {
+.faq .side-menu .faq-side-menu-additional .text-p:last-of-type, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4 :last-of-type, .selectbox-list-item h4 .faq .side-menu .faq-side-menu-additional :last-of-type, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4:last-of-type, .selectbox-list-item .faq .side-menu .faq-side-menu-additional h4:last-of-type, .faq .side-menu .faq-side-menu-additional .ton-gateway-posts .post-profile-right h5:last-of-type, .ton-gateway-posts .post-profile-right .faq .side-menu .faq-side-menu-additional h5:last-of-type, .faq .side-menu .faq-side-menu-additional .notifications .integrations-list .integration h5:last-of-type, .notifications .integrations-list .integration .faq .side-menu .faq-side-menu-additional h5:last-of-type, .faq .side-menu .faq-side-menu-additional .news-hero-body h4:last-of-type, .news-hero-body .faq .side-menu .faq-side-menu-additional h4:last-of-type, .faq .side-menu .faq-side-menu-additional .blog-list-blog-title:last-of-type, .faq .side-menu .faq-side-menu-additional .blog .header h2:last-of-type, .faq .side-menu .faq-side-menu-additional .blog .news-hero h2:last-of-type, .blog .header .faq .side-menu .faq-side-menu-additional h2:last-of-type, .blog .news-hero .faq .side-menu .faq-side-menu-additional h2:last-of-type {
   margin-top: 10px;
 }
-.faq .side-menu .faq-side-menu-additional .text-p a, .selectbox-list-item h4 .faq .side-menu .faq-side-menu-additional * a, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4 a, .selectbox-list-item .faq .side-menu .faq-side-menu-additional h4 a, .faq .side-menu .faq-side-menu-additional .ton-gateway-posts .post-profile-right h5 a, .ton-gateway-posts .post-profile-right .faq .side-menu .faq-side-menu-additional h5 a, .faq .side-menu .faq-side-menu-additional .notifications .integrations-list .integration h5 a, .notifications .integrations-list .integration .faq .side-menu .faq-side-menu-additional h5 a {
+.faq .side-menu .faq-side-menu-additional .text-p a, .selectbox-list-item h4 .faq .side-menu .faq-side-menu-additional * a, .faq .side-menu .faq-side-menu-additional .selectbox-list-item h4 a, .selectbox-list-item .faq .side-menu .faq-side-menu-additional h4 a, .faq .side-menu .faq-side-menu-additional .ton-gateway-posts .post-profile-right h5 a, .ton-gateway-posts .post-profile-right .faq .side-menu .faq-side-menu-additional h5 a, .faq .side-menu .faq-side-menu-additional .notifications .integrations-list .integration h5 a, .notifications .integrations-list .integration .faq .side-menu .faq-side-menu-additional h5 a, .faq .side-menu .faq-side-menu-additional .news-hero-body h4 a, .news-hero-body .faq .side-menu .faq-side-menu-additional h4 a, .faq .side-menu .faq-side-menu-additional .blog-list-blog-title a, .faq .side-menu .faq-side-menu-additional .blog .header h2 a, .faq .side-menu .faq-side-menu-additional .blog .news-hero h2 a, .blog .header .faq .side-menu .faq-side-menu-additional h2 a, .blog .news-hero .faq .side-menu .faq-side-menu-additional h2 a {
   text-decoration: none;
 }
 .faq-lists {
@@ -2718,8 +2719,9 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.blog .header {
-  margin-bottom: 50px;
+.blog .header h2, .blog .news-hero h2 {
+  font-weight: 400;
+  margin-top: 30px;
 }
 .blog-list {
   display: flex;
@@ -2742,9 +2744,7 @@ body {
   -webkit-line-clamp: 3;
 }
 .blog-list-blog-title {
-  font-size: 1.375rem;
-  font-weight: 600;
-  line-height: 2.063rem;
+  font-weight: 400;
   padding-right: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2754,7 +2754,7 @@ body {
   /* number of lines to show */
   -webkit-box-orient: vertical;
 }
-.blog-list-blog-description .text-p, .blog-list-blog-description .selectbox-list-item h4 *, .selectbox-list-item h4 .blog-list-blog-description *, .blog-list-blog-description .selectbox-list-item h4, .selectbox-list-item .blog-list-blog-description h4, .blog-list-blog-description .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .blog-list-blog-description h5, .blog-list-blog-description .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .blog-list-blog-description h5 {
+.blog-list-blog-description .text-p, .blog-list-blog-description .selectbox-list-item h4 *, .selectbox-list-item h4 .blog-list-blog-description *, .blog-list-blog-description .selectbox-list-item h4, .selectbox-list-item .blog-list-blog-description h4, .blog-list-blog-description .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .blog-list-blog-description h5, .blog-list-blog-description .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .blog-list-blog-description h5, .blog-list-blog-description .news-hero-body h4, .news-hero-body .blog-list-blog-description h4, .blog-list-blog-description .blog .header h2, .blog-list-blog-description .blog .news-hero h2, .blog .header .blog-list-blog-description h2, .blog .news-hero .blog-list-blog-description h2, .blog-list-blog-description .blog-list-blog-title {
   font-size: 0.875rem;
   margin-bottom: 0px;
 }
@@ -2872,7 +2872,7 @@ body {
   .blog-content {
     padding-top: 40px;
   }
-  .blog-header .sub-title .text-p, .blog-header .sub-title .selectbox-list-item h4 *, .selectbox-list-item h4 .blog-header .sub-title *, .blog-header .sub-title .selectbox-list-item h4, .selectbox-list-item .blog-header .sub-title h4, .blog-header .sub-title .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .blog-header .sub-title h5, .blog-header .sub-title .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .blog-header .sub-title h5 {
+  .blog-header .sub-title .text-p, .blog-header .sub-title .selectbox-list-item h4 *, .selectbox-list-item h4 .blog-header .sub-title *, .blog-header .sub-title .selectbox-list-item h4, .selectbox-list-item .blog-header .sub-title h4, .blog-header .sub-title .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .blog-header .sub-title h5, .blog-header .sub-title .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .blog-header .sub-title h5, .blog-header .sub-title .news-hero-body h4, .news-hero-body .blog-header .sub-title h4, .blog-header .sub-title .blog .header h2, .blog-header .sub-title .blog .news-hero h2, .blog .header .blog-header .sub-title h2, .blog .news-hero .blog-header .sub-title h2, .blog-header .sub-title .blog-list-blog-title {
     font-size: 1.063rem;
   }
   .blog-list .list-item {
@@ -2909,17 +2909,11 @@ body {
 }
 .single-blog-header {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
 }
-.single-blog-header-title {
+.single-blog-header h1 {
   text-align: left;
-  font-family: "Montserrat";
-  text-transform: none;
-  word-wrap: break-word;
 }
 .single-blog-header-bg {
   position: absolute;
@@ -2936,28 +2930,29 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+.single-blog-header-author .blog-hedaer-date {
+  margin-top: 0px;
+}
 .single-blog-header-author-flex {
+  margin-top: 30px;
   flex-wrap: wrap;
-  margin-top: 20px;
   display: flex;
+  gap: 20px;
+  align-items: center;
 }
 .single-blog-header-author-flex .blog-share {
   margin-left: auto;
   margin-bottom: 0px;
+  gap: 20px;
 }
 .single-blog-header-author-flex .blog-share a {
-  width: 15px;
-  height: 15px;
-  margin-left: 35px;
-  margin-right: 0px;
+  width: 22px;
+  height: 22px;
 }
 .single-blog-header-author-flex .blog-share a img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
-.single-blog-header-author-flex .blog-share a:first-child {
-  margin-left: 0px;
 }
 .single-blog-header-author a {
   text-transform: uppercase;
@@ -3058,11 +3053,11 @@ body {
   height: auto;
   margin-bottom: 32px;
 }
-.single-blog-body .text-p, .single-blog-body .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body *, .single-blog-body .selectbox-list-item h4, .selectbox-list-item .single-blog-body h4, .single-blog-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body h5, .single-blog-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body h5 {
+.single-blog-body .text-p, .single-blog-body .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body *, .single-blog-body .selectbox-list-item h4, .selectbox-list-item .single-blog-body h4, .single-blog-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body h5, .single-blog-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body h5, .single-blog-body .news-hero-body h4, .news-hero-body .single-blog-body h4, .single-blog-body .blog .header h2, .single-blog-body .blog .news-hero h2, .blog .header .single-blog-body h2, .blog .news-hero .single-blog-body h2, .single-blog-body .blog-list-blog-title {
   margin-bottom: 32px;
   white-space: normal;
 }
-.single-blog-body .text-p:first-child, .single-blog-body .selectbox-list-item h4 :first-child, .selectbox-list-item h4 .single-blog-body :first-child, .single-blog-body .selectbox-list-item h4:first-child, .selectbox-list-item .single-blog-body h4:first-child, .single-blog-body .ton-gateway-posts .post-profile-right h5:first-child, .ton-gateway-posts .post-profile-right .single-blog-body h5:first-child, .single-blog-body .notifications .integrations-list .integration h5:first-child, .notifications .integrations-list .integration .single-blog-body h5:first-child {
+.single-blog-body .text-p:first-child, .single-blog-body .selectbox-list-item h4 :first-child, .selectbox-list-item h4 .single-blog-body :first-child, .single-blog-body .selectbox-list-item h4:first-child, .selectbox-list-item .single-blog-body h4:first-child, .single-blog-body .ton-gateway-posts .post-profile-right h5:first-child, .ton-gateway-posts .post-profile-right .single-blog-body h5:first-child, .single-blog-body .notifications .integrations-list .integration h5:first-child, .notifications .integrations-list .integration .single-blog-body h5:first-child, .single-blog-body .news-hero-body h4:first-child, .news-hero-body .single-blog-body h4:first-child, .single-blog-body .blog .header h2:first-child, .single-blog-body .blog .news-hero h2:first-child, .blog .header .single-blog-body h2:first-child, .blog .news-hero .single-blog-body h2:first-child, .single-blog-body .blog-list-blog-title:first-child {
   margin-top: 0px;
 }
 .single-blog-body .dots {
@@ -3089,7 +3084,7 @@ body {
   background: black;
   content: "";
 }
-.single-blog-body ul li .text-p, .single-blog-body ul li .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body ul li *, .single-blog-body ul li .selectbox-list-item h4, .selectbox-list-item .single-blog-body ul li h4, .single-blog-body ul li .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body ul li h5, .single-blog-body ul li .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body ul li h5 {
+.single-blog-body ul li .text-p, .single-blog-body ul li .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body ul li *, .single-blog-body ul li .selectbox-list-item h4, .selectbox-list-item .single-blog-body ul li h4, .single-blog-body ul li .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body ul li h5, .single-blog-body ul li .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body ul li h5, .single-blog-body ul li .news-hero-body h4, .news-hero-body .single-blog-body ul li h4, .single-blog-body ul li .blog .header h2, .single-blog-body ul li .blog .news-hero h2, .blog .header .single-blog-body ul li h2, .blog .news-hero .single-blog-body ul li h2, .single-blog-body ul li .blog-list-blog-title {
   margin-bottom: 0px;
 }
 .single-blog-body ul li:last-child {
@@ -3103,7 +3098,7 @@ body {
 .single-blog-body ol li {
   margin-bottom: 13.76px;
 }
-.single-blog-body ol li .text-p, .single-blog-body ol li .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body ol li *, .single-blog-body ol li .selectbox-list-item h4, .selectbox-list-item .single-blog-body ol li h4, .single-blog-body ol li .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body ol li h5, .single-blog-body ol li .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body ol li h5 {
+.single-blog-body ol li .text-p, .single-blog-body ol li .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body ol li *, .single-blog-body ol li .selectbox-list-item h4, .selectbox-list-item .single-blog-body ol li h4, .single-blog-body ol li .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body ol li h5, .single-blog-body ol li .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body ol li h5, .single-blog-body ol li .news-hero-body h4, .news-hero-body .single-blog-body ol li h4, .single-blog-body ol li .blog .header h2, .single-blog-body ol li .blog .news-hero h2, .blog .header .single-blog-body ol li h2, .blog .news-hero .single-blog-body ol li h2, .single-blog-body ol li .blog-list-blog-title {
   margin-bottom: 0px;
 }
 .single-blog-body .image,
@@ -3204,7 +3199,7 @@ body {
 .single-blog-header-author p {
     font-size: 0.813rem;
   }
-  .single-blog-body .text-p, .single-blog-body .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body *, .single-blog-body .selectbox-list-item h4, .selectbox-list-item .single-blog-body h4, .single-blog-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body h5, .single-blog-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body h5 {
+  .single-blog-body .text-p, .single-blog-body .selectbox-list-item h4 *, .selectbox-list-item h4 .single-blog-body *, .single-blog-body .selectbox-list-item h4, .selectbox-list-item .single-blog-body h4, .single-blog-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .single-blog-body h5, .single-blog-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .single-blog-body h5, .single-blog-body .news-hero-body h4, .news-hero-body .single-blog-body h4, .single-blog-body .blog .header h2, .single-blog-body .blog .news-hero h2, .blog .header .single-blog-body h2, .blog .news-hero .single-blog-body h2, .single-blog-body .blog-list-blog-title {
     margin-bottom: 30px;
   }
   .single-blog-body a,
@@ -3248,7 +3243,7 @@ body {
   display: flex;
   align-items: center;
 }
-.network-section .main-grid, .network-section .orbs-vm .common-grid-section-grid, .orbs-vm .network-section .common-grid-section-grid, .network-section .news-grid, .network-section .contact {
+.network-section .main-grid, .network-section .orbs-vm .common-grid-section-grid, .orbs-vm .network-section .common-grid-section-grid, .network-section .news-grid, .network-section .contact, .network-section .single-blog-header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3310,7 +3305,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-.network-section-third .network-section-text .text-p, .network-section-third .network-section-text .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-third .network-section-text *, .network-section-third .network-section-text .selectbox-list-item h4, .selectbox-list-item .network-section-third .network-section-text h4, .network-section-third .network-section-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-third .network-section-text h5, .network-section-third .network-section-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-third .network-section-text h5 {
+.network-section-third .network-section-text .text-p, .network-section-third .network-section-text .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-third .network-section-text *, .network-section-third .network-section-text .selectbox-list-item h4, .selectbox-list-item .network-section-third .network-section-text h4, .network-section-third .network-section-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-third .network-section-text h5, .network-section-third .network-section-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-third .network-section-text h5, .network-section-third .network-section-text .news-hero-body h4, .news-hero-body .network-section-third .network-section-text h4, .network-section-third .network-section-text .blog .header h2, .network-section-third .network-section-text .blog .news-hero h2, .blog .header .network-section-third .network-section-text h2, .blog .news-hero .network-section-third .network-section-text h2, .network-section-third .network-section-text .blog-list-blog-title {
   color: white;
 }
 .network-section-third .network-section-right {
@@ -3366,19 +3361,17 @@ body {
   }
 }
 @media only screen and (max-width: 1000px) {
-  .network-section-grid {
+  .network-section .main-grid, .network-section .orbs-vm .common-grid-section-grid, .orbs-vm .network-section .common-grid-section-grid, .network-section .news-grid, .network-section .contact, .network-section .single-blog-header {
     flex-direction: column;
-  }
-  .network-section-first .network-section-grid {
-    gap: 70px;
+    gap: 30px;
   }
   .network-section-first .network-section-left {
-    order: 2;
+    order: 1;
   }
   .network-section-first .network-section-image {
     width: 50%;
     max-width: 250px;
-    order: 1;
+    order: 2;
   }
   .network-section-second-top {
     width: 200px;
@@ -3393,6 +3386,7 @@ body {
   }
   .network-section-third .network-section-right {
     transform: none;
+    margin-left: 0px;
   }
   .network-section-third .network-section-right img {
     max-width: 400px;
@@ -3400,6 +3394,7 @@ body {
   }
   .network-section-third .network-section-image {
     transform: translate(-300px);
+    display: none;
   }
   .network-product-images {
     gap: 50px;
@@ -3422,7 +3417,7 @@ body {
   gap: 30px;
   margin-bottom: 80px;
 }
-.universe .header p {
+.universe .header p, .universe .news-hero p {
   max-width: 730px;
 }
 .universe-first-flex {
@@ -3435,7 +3430,7 @@ body {
 .universe-first-flex-mobile {
   display: none;
 }
-.universe-first-flex .main-grid, .universe-first-flex .orbs-vm .common-grid-section-grid, .orbs-vm .universe-first-flex .common-grid-section-grid, .universe-first-flex .news-grid, .universe-first-flex .contact {
+.universe-first-flex .main-grid, .universe-first-flex .orbs-vm .common-grid-section-grid, .orbs-vm .universe-first-flex .common-grid-section-grid, .universe-first-flex .news-grid, .universe-first-flex .contact, .universe-first-flex .single-blog-header {
   display: flex;
   position: relative;
   padding-top: 80px;
@@ -3626,7 +3621,7 @@ body {
   .universe-first-flex-desktop {
     display: none;
   }
-  .universe-first-flex .main-grid, .universe-first-flex .orbs-vm .common-grid-section-grid, .orbs-vm .universe-first-flex .common-grid-section-grid, .universe-first-flex .news-grid, .universe-first-flex .contact {
+  .universe-first-flex .main-grid, .universe-first-flex .orbs-vm .common-grid-section-grid, .orbs-vm .universe-first-flex .common-grid-section-grid, .universe-first-flex .news-grid, .universe-first-flex .contact, .universe-first-flex .single-blog-header {
     flex-direction: column;
     align-items: center;
     gap: 80px;
@@ -3725,7 +3720,7 @@ body {
 .smart-contracts-content .boxes {
   margin-top: 55px;
 }
-.smart-contracts-content-text .text-p, .smart-contracts-content-text .selectbox-list-item h4 *, .selectbox-list-item h4 .smart-contracts-content-text *, .smart-contracts-content-text .selectbox-list-item h4, .selectbox-list-item .smart-contracts-content-text h4, .smart-contracts-content-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .smart-contracts-content-text h5, .smart-contracts-content-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .smart-contracts-content-text h5 {
+.smart-contracts-content-text .text-p, .smart-contracts-content-text .selectbox-list-item h4 *, .selectbox-list-item h4 .smart-contracts-content-text *, .smart-contracts-content-text .selectbox-list-item h4, .selectbox-list-item .smart-contracts-content-text h4, .smart-contracts-content-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .smart-contracts-content-text h5, .smart-contracts-content-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .smart-contracts-content-text h5, .smart-contracts-content-text .news-hero-body h4, .news-hero-body .smart-contracts-content-text h4, .smart-contracts-content-text .blog .header h2, .smart-contracts-content-text .blog .news-hero h2, .blog .header .smart-contracts-content-text h2, .blog .news-hero .smart-contracts-content-text h2, .smart-contracts-content-text .blog-list-blog-title {
   margin-bottom: 30px;
 }
 .smart-contracts-content-text .expending-box-content {
@@ -3802,7 +3797,7 @@ body {
   flex: 1;
   max-width: 770px;
 }
-.white-papers-box-c .text-p, .white-papers-box-c .selectbox-list-item h4 *, .selectbox-list-item h4 .white-papers-box-c *, .white-papers-box-c .selectbox-list-item h4, .selectbox-list-item .white-papers-box-c h4, .white-papers-box-c .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .white-papers-box-c h5, .white-papers-box-c .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .white-papers-box-c h5 {
+.white-papers-box-c .text-p, .white-papers-box-c .selectbox-list-item h4 *, .selectbox-list-item h4 .white-papers-box-c *, .white-papers-box-c .selectbox-list-item h4, .selectbox-list-item .white-papers-box-c h4, .white-papers-box-c .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .white-papers-box-c h5, .white-papers-box-c .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .white-papers-box-c h5, .white-papers-box-c .news-hero-body h4, .news-hero-body .white-papers-box-c h4, .white-papers-box-c .blog .header h2, .white-papers-box-c .blog .news-hero h2, .blog .header .white-papers-box-c h2, .blog .news-hero .white-papers-box-c h2, .white-papers-box-c .blog-list-blog-title {
   line-height: normal;
   font-size: 15px;
   line-height: 22px;
@@ -4075,7 +4070,7 @@ body {
   margin-top: 20px;
   text-decoration: underline;
 }
-.policy .text-p, .policy .selectbox-list-item h4 *, .selectbox-list-item h4 .policy *, .policy .selectbox-list-item h4, .selectbox-list-item .policy h4, .policy .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .policy h5, .policy .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .policy h5 {
+.policy .text-p, .policy .selectbox-list-item h4 *, .selectbox-list-item h4 .policy *, .policy .selectbox-list-item h4, .selectbox-list-item .policy h4, .policy .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .policy h5, .policy .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .policy h5, .policy .news-hero-body h4, .news-hero-body .policy h4, .policy .blog .header h2, .policy .blog .news-hero h2, .blog .header .policy h2, .blog .news-hero .policy h2, .policy .blog-list-blog-title {
   font-size: 1rem;
 }
 .policy h2 {
@@ -4164,16 +4159,9 @@ body {
 .news-hero-body {
   text-align: center;
 }
-.news-hero-body h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
 .news-hero-body h4 {
-  font-size: 1.375rem;
   font-weight: 400;
-  line-height: 1.875rem;
-  color: #454545;
+  margin-top: 40px;
 }
 .news-hero-figure {
   position: absolute;
@@ -4189,7 +4177,7 @@ body {
 .news-hero-figure-left aside {
   width: 100%;
   height: 100%;
-  border: 1px solid #DA88DE;
+  border: 1px solid #da88de;
   position: absolute;
   transform: rotate(-160.08deg);
   z-index: 1;
@@ -4201,8 +4189,8 @@ body {
 }
 
 .news-video {
-  border-bottom: 1px solid #53FFFA;
-  border-top: 1px solid #53FFFA;
+  border-bottom: 1px solid #53fffa;
+  border-top: 1px solid #53fffa;
   padding-top: 40px;
   margin-top: 70px;
   margin-bottom: 100px;
@@ -4231,20 +4219,7 @@ body {
   margin-bottom: 30px;
 }
 .news-video-right-button {
-  width: fit-content;
-  font-family: "Montserrat";
-  background: linear-gradient(264.47deg, #7988E8 -9.16%, #5E75E8 40.94%, #DB89DF 93.26%);
-  border-radius: 50px;
-  height: 44px;
-  padding: 0px 55px;
-  font-weight: 500;
-  font-size: 17px;
-  color: white;
   margin-top: 45px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .news-subscribe {
@@ -4368,19 +4343,12 @@ body {
   margin: 0 auto;
   margin-top: 80px;
 }
-.news #load-more-posts * {
-  font-weight: 300;
-  font-size: 0.875rem;
-  line-height: 2.188rem;
-  color: #5e75e8;
-  text-decoration: underline;
-}
 .news-posts {
   margin-top: 80px;
   position: relative;
 }
 .news-posts-title {
-  margin-bottom: 55px;
+  margin-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -4509,13 +4477,6 @@ body {
   }
 }
 @media only screen and (max-width: 1250px) {
-  .news-hero-body h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  .news-hero-body h4 {
-    font-size: 19px;
-  }
   .news-video-right {
     padding-left: 50px;
   }
@@ -4550,17 +4511,8 @@ body {
   .news-hero-figure-left {
     left: 0px;
   }
-  .news-hero-body {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .news-hero-body h1 {
-    font-size: 26px;
-    line-height: 36px;
-  }
-  .news-hero-body h4 {
-    font-size: 16px;
-    line-height: 22px;
+  .news-hero h4 {
+    margin-top: 20px;
   }
   .news-side-dots {
     display: none;
@@ -4726,7 +4678,7 @@ body {
 .orbs-vm .orbs-vm-graph-1 h3 {
   color: white;
 }
-.orbs-vm .orbs-vm-graph-1 .text-p, .orbs-vm .orbs-vm-graph-1 .selectbox-list-item h4 *, .selectbox-list-item h4 .orbs-vm .orbs-vm-graph-1 *, .orbs-vm .orbs-vm-graph-1 .selectbox-list-item h4, .selectbox-list-item .orbs-vm .orbs-vm-graph-1 h4, .orbs-vm .orbs-vm-graph-1 .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .orbs-vm .orbs-vm-graph-1 h5, .orbs-vm .orbs-vm-graph-1 .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .orbs-vm .orbs-vm-graph-1 h5 {
+.orbs-vm .orbs-vm-graph-1 .text-p, .orbs-vm .orbs-vm-graph-1 .selectbox-list-item h4 *, .selectbox-list-item h4 .orbs-vm .orbs-vm-graph-1 *, .orbs-vm .orbs-vm-graph-1 .selectbox-list-item h4, .selectbox-list-item .orbs-vm .orbs-vm-graph-1 h4, .orbs-vm .orbs-vm-graph-1 .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .orbs-vm .orbs-vm-graph-1 h5, .orbs-vm .orbs-vm-graph-1 .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .orbs-vm .orbs-vm-graph-1 h5, .orbs-vm .orbs-vm-graph-1 .blog .header h2, .blog .header .orbs-vm .orbs-vm-graph-1 h2, .orbs-vm .orbs-vm-graph-1 .blog-list-blog-title, .orbs-vm .orbs-vm-graph-1 .blog .news-hero h2, .blog .news-hero .orbs-vm .orbs-vm-graph-1 h2, .orbs-vm .orbs-vm-graph-1 .news-hero-body h4, .news-hero-body .orbs-vm .orbs-vm-graph-1 h4 {
   color: white;
   text-align: left;
 }
@@ -5011,7 +4963,7 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.notifications .alerts .main-grid, .notifications .alerts .contact, .notifications .alerts .news-grid, .notifications .alerts .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .alerts .common-grid-section-grid {
+.notifications .alerts .main-grid, .notifications .alerts .single-blog-header, .notifications .alerts .contact, .notifications .alerts .news-grid, .notifications .alerts .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .alerts .common-grid-section-grid {
   justify-content: space-between;
   display: flex;
   gap: 100px;
@@ -5120,7 +5072,7 @@ body {
   .notifications .integrations-list .integration {
     width: calc(33.3333333333% - 18px);
   }
-  .notifications .alerts .main-grid, .notifications .alerts .contact, .notifications .alerts .news-grid, .notifications .alerts .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .alerts .common-grid-section-grid {
+  .notifications .alerts .main-grid, .notifications .alerts .single-blog-header, .notifications .alerts .contact, .notifications .alerts .news-grid, .notifications .alerts .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .alerts .common-grid-section-grid {
     flex-direction: column;
     gap: 80px;
     max-width: 600px;
@@ -5185,7 +5137,7 @@ body {
   background-clip: text;
   text-fill-color: transparent;
 }
-.ton-gateway-header .main-grid, .ton-gateway-header .contact, .ton-gateway-header .news-grid, .ton-gateway-header .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-header .common-grid-section-grid {
+.ton-gateway-header .main-grid, .ton-gateway-header .single-blog-header, .ton-gateway-header .contact, .ton-gateway-header .news-grid, .ton-gateway-header .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-header .common-grid-section-grid {
   position: relative;
 }
 .ton-gateway-header-body {
@@ -5249,7 +5201,7 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.ton-gateway-posts .main-grid, .ton-gateway-posts .contact, .ton-gateway-posts .news-grid, .ton-gateway-posts .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-posts .common-grid-section-grid {
+.ton-gateway-posts .main-grid, .ton-gateway-posts .single-blog-header, .ton-gateway-posts .contact, .ton-gateway-posts .news-grid, .ton-gateway-posts .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-posts .common-grid-section-grid {
   display: flex;
   flex-direction: column;
 }
@@ -5513,7 +5465,7 @@ body {
   padding-top: 80px;
   padding-bottom: 98px;
 }
-.ton-gateway-powered .main-grid, .ton-gateway-powered .contact, .ton-gateway-powered .news-grid, .ton-gateway-powered .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-powered .common-grid-section-grid {
+.ton-gateway-powered .main-grid, .ton-gateway-powered .single-blog-header, .ton-gateway-powered .contact, .ton-gateway-powered .news-grid, .ton-gateway-powered .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-powered .common-grid-section-grid {
   max-width: 1000px;
 }
 .ton-gateway-powered-graph {
@@ -5613,16 +5565,16 @@ body {
   gap: 3px;
   align-items: flex-start;
 }
-.selectbox-list-item .text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .selectbox-list-item .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .selectbox-list-item h5, .selectbox-list-item .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 {
+.selectbox-list-item .text-p, .selectbox-list-item h4 *, .selectbox-list-item h4, .selectbox-list-item .blog .header h2, .blog .header .selectbox-list-item h2, .selectbox-list-item .blog-list-blog-title, .selectbox-list-item .blog .news-hero h2, .blog .news-hero .selectbox-list-item h2, .selectbox-list-item .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .selectbox-list-item h5, .selectbox-list-item .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 {
   text-align: left;
   margin-bottom: 0px;
 }
-.selectbox-list-item .text-p a, .selectbox-list-item h4 a, .selectbox-list-item .notifications .integrations-list .integration h5 a, .notifications .integrations-list .integration .selectbox-list-item h5 a, .selectbox-list-item .ton-gateway-posts .post-profile-right h5 a, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 a {
+.selectbox-list-item .text-p a, .selectbox-list-item h4 a, .selectbox-list-item .blog .header h2 a, .blog .header .selectbox-list-item h2 a, .selectbox-list-item .blog-list-blog-title a, .selectbox-list-item .blog .news-hero h2 a, .blog .news-hero .selectbox-list-item h2 a, .selectbox-list-item .notifications .integrations-list .integration h5 a, .notifications .integrations-list .integration .selectbox-list-item h5 a, .selectbox-list-item .ton-gateway-posts .post-profile-right h5 a, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 a {
   margin-left: 10px;
   color: #5e75e8;
   text-decoration: unset;
 }
-.selectbox-list-item .text-p a:hover, .selectbox-list-item h4 a:hover, .selectbox-list-item .notifications .integrations-list .integration h5 a:hover, .notifications .integrations-list .integration .selectbox-list-item h5 a:hover, .selectbox-list-item .ton-gateway-posts .post-profile-right h5 a:hover, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 a:hover {
+.selectbox-list-item .text-p a:hover, .selectbox-list-item h4 a:hover, .selectbox-list-item .blog .header h2 a:hover, .blog .header .selectbox-list-item h2 a:hover, .selectbox-list-item .blog-list-blog-title a:hover, .selectbox-list-item .blog .news-hero h2 a:hover, .blog .news-hero .selectbox-list-item h2 a:hover, .selectbox-list-item .notifications .integrations-list .integration h5 a:hover, .notifications .integrations-list .integration .selectbox-list-item h5 a:hover, .selectbox-list-item .ton-gateway-posts .post-profile-right h5 a:hover, .ton-gateway-posts .post-profile-right .selectbox-list-item h5 a:hover {
   text-decoration: underline;
 }
 .selectbox-list-item h4 {

@@ -179,21 +179,20 @@
 @media only screen and (max-width: 1000px) {
   .network {
     &-section {
-      &-grid {
+      .main-grid {
         flex-direction: column;
+        gap: 30px;
       }
       &-first {
         .network-section {
-          &-grid {
-            gap: 70px;
-          }
           &-left {
-            order: 2;
+            order: 1;
           }
           &-image {
             width: 50%;
             max-width: 250px;
-            order: 1;
+
+            order: 2;
           }
         }
       }
@@ -216,6 +215,7 @@
         .network-section {
           &-right {
             transform: none;
+            margin-left: 0px;
             img {
               max-width: 400px;
               width: 100%;
@@ -223,12 +223,12 @@
           }
           &-image {
             transform: translate(-300px);
+            display: none;
           }
         }
       }
     }
-    &-products {
-    }
+
     &-product {
       &-images {
         gap: 50px;

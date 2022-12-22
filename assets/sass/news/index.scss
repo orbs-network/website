@@ -47,14 +47,7 @@
   #load-more-posts {
     margin: 0 auto;
     margin-top: $page-section-margin;
-
-    * {
-      font-weight: 300;
-      font-size: 0.875rem;
-      line-height: 2.188rem;
-      color: $blue;
-      text-decoration: underline;
-    }
+    @extend .pink-button;
   }
 
   &-grid {
@@ -65,8 +58,8 @@
     margin-top: $page-section-margin;
     position: relative;
     &-title {
-      @extend .page-section-title;
-      margin-bottom: 55px;
+      @extend .page-colored-section-title;
+      margin-bottom: $page-section-title-margin-big;
       text-align: center;
       text-transform: uppercase;
     }
@@ -233,18 +226,6 @@
 
 @media only screen and (max-width: 1250px) {
   .news {
-    &-hero {
-      &-body {
-        h1 {
-          font-size: 40px;
-          margin-bottom: 20px;
-        }
-        h4 {
-          font-size: 19px;
-        }
-      }
-    }
-
     &-video {
       &-right {
         padding-left: 50px;
@@ -276,7 +257,7 @@
     &-hero {
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 80px;
+      margin-bottom: $page-section-margin;
       max-width: 500px;
       &-figure {
         zoom: 0.5;
@@ -285,17 +266,8 @@
           left: 0px;
         }
       }
-      &-body {
-        padding-left: 40px;
-        padding-right: 40px;
-        h1 {
-          font-size: 26px;
-          line-height: 36px;
-        }
-        h4 {
-          font-size: 16px;
-          line-height: 22px;
-        }
+      h4 {
+        margin-top: 20px;
       }
     }
     &-side-dots {
