@@ -14,91 +14,68 @@
 
   &-first-flex {
     position: relative;
-    background: $blue;
     margin-top: $page-section-margin;
-    align-items: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 
     .main-grid {
       display: flex;
-      justify-content: space-between;
       position: relative;
       padding-top: $page-section-margin;
       padding-bottom: $page-section-margin;
+      gap: 140px;
+      align-items: stretch;
     }
+    &-sections {
+      display: flex;
+      align-items: flex-start;
 
-    &-section {
-      width: 50%;
-      &:nth-child(odd) {
-        max-width: 630px;
-        padding-right: 60px;
+      .universe-first-flex-section-header {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &-subtitle {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 23px;
+          margin-bottom: 0px;
+          text-align: left;
+          margin-bottom: 40px;
+        }
+        img {
+          width: 65px;
+          height: 65px;
+          object-fit: contain;
+        }
+        &-title {
+          @extend .page-section-title;
+          margin-bottom: $page-section-title-margin-small;
+          margin-top: 10px;
+        }
+        .white-button {
+          margin-top: auto;
+        }
       }
-      &:nth-child(even) {
-        padding-left: 84px;
-      }
+
       * {
         color: white;
       }
-      .text-p {
-        &:first-of-type {
-          max-width: 487px;
-          margin-left: auto;
-          margin-right: auto;
-        }
+    }
+    &-headers {
+      background: $blue;
+      width: 100%;
+    }
+    &-bodies {
+      background: rgba(94, 117, 232, 0.94);
+      width: 100%;
+      .universe-first-flex-section-body {
+        width: 50%;
       }
-      &-top {
+      h5 {
         margin-bottom: 30px;
-        text-align: center;
-        max-width: 487px;
-        margin-left: auto;
-        margin-right: auto;
-
-        img {
-          margin-right: 25px;
-          width: 64px;
-          height: 76px;
-          object-fit: contain;
-        }
-        h4 {
-          @extend .page-section-title;
-        }
       }
-
-      a[title="button"] {
-        background: linear-gradient(
-          264.47deg,
-          #7988e8 -9.16%,
-          #5e75e8 40.94%,
-          #db89df 93.26%
-        );
-        color: white;
-        text-decoration: none;
-        height: 44px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1rem;
-        border-radius: 50px;
-        min-width: 280px;
-        width: fit-content;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-weight: 600;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 73px;
-        margin-top: 30px;
-        transition: 0.2s all;
-
-        &:hover {
-          background: linear-gradient(
-            268.26deg,
-            #7988e8 14.66%,
-            #15f9ff 49.9%,
-            #db89df 86.69%
-          );
-        }
-      }
-
       ul {
         margin-bottom: 37px;
         gap: 25px;
@@ -129,10 +106,6 @@
             background: $gradient;
           }
         }
-      }
-      h5 {
-        margin-bottom: 30px;
-        font-weight: 700;
       }
     }
   }
@@ -196,20 +169,17 @@
     &-first {
       &-flex {
         width: 100%;
-
-        .main-grid {
-          &:after {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%);
-            top: 0px;
-            height: calc(100% - 120px);
-            top: 50%;
-            transform: translate(0, -50%);
-            border: 1px dashed white;
-            opacity: 0.6;
-            content: "";
-          }
+        &:after {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%);
+          top: 0px;
+          height: calc(100% - 120px);
+          top: 50%;
+          transform: translate(0, -50%);
+          border: 1px dashed white;
+          opacity: 0.6;
+          content: "";
         }
       }
     }

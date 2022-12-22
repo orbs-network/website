@@ -1,12 +1,6 @@
 ---
-layout: partials/pos-universe/list-section
-title: DELEGATORS
-img: ../assets/img/pos-universe/delegators.svg
+layout: partials/pos-universe/FirstFlexBody
 ---
-
-Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
-
-[Stake your ORBS tokens!](https://staking.orbs.network/ "button")
 
 ##### Roles and Responsibilities
 

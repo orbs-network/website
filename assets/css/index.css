@@ -95,7 +95,7 @@
   text-transform: uppercase;
 }
 
-.page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .news-posts-title, .universe-second-flex .expending-box-title, .universe-first-flex-section-top h4, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
+.page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .news-posts-title, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
 .expending-box .title-h4, .header-top-text, .ton-gateway-header-github p, .header h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .common-grid-section h3 {
   font-size: 24px;
   font-weight: 700;
@@ -3445,82 +3445,76 @@ body {
 }
 .universe-first-flex {
   position: relative;
-  background: #5e75e8;
   margin-top: 80px;
-  align-items: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .universe-first-flex .main-grid, .universe-first-flex .orbs-vm .common-grid-section-grid, .orbs-vm .universe-first-flex .common-grid-section-grid, .universe-first-flex .news-grid, .universe-first-flex .contact {
   display: flex;
-  justify-content: space-between;
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
+  gap: 140px;
+  align-items: stretch;
 }
-.universe-first-flex-section {
+.universe-first-flex-sections {
+  display: flex;
+  align-items: flex-start;
+}
+.universe-first-flex-sections .universe-first-flex-section-header {
   width: 50%;
-}
-.universe-first-flex-section:nth-child(odd) {
-  max-width: 630px;
-  padding-right: 60px;
-}
-.universe-first-flex-section:nth-child(even) {
-  padding-left: 84px;
-}
-.universe-first-flex-section * {
-  color: white;
-}
-.universe-first-flex-section .text-p:first-of-type, .universe-first-flex-section .selectbox-list-item h4 :first-of-type, .selectbox-list-item h4 .universe-first-flex-section :first-of-type, .universe-first-flex-section .selectbox-list-item h4:first-of-type, .selectbox-list-item .universe-first-flex-section h4:first-of-type, .universe-first-flex-section .ton-gateway-posts .post-profile-right h5:first-of-type, .ton-gateway-posts .post-profile-right .universe-first-flex-section h5:first-of-type, .universe-first-flex-section .notifications .integrations-list .integration h5:first-of-type, .notifications .integrations-list .integration .universe-first-flex-section h5:first-of-type {
-  max-width: 487px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.universe-first-flex-section-top {
-  margin-bottom: 30px;
-  text-align: center;
-  max-width: 487px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.universe-first-flex-section-top img {
-  margin-right: 25px;
-  width: 64px;
-  height: 76px;
-  object-fit: contain;
-}
-.universe-first-flex-section a[title=button] {
-  background: linear-gradient(264.47deg, #7988e8 -9.16%, #5e75e8 40.94%, #db89df 93.26%);
-  color: white;
-  text-decoration: none;
-  height: 44px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  border-radius: 50px;
-  min-width: 280px;
-  width: fit-content;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 600;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 73px;
-  margin-top: 30px;
-  transition: 0.2s all;
+  flex-direction: column;
 }
-.universe-first-flex-section a[title=button]:hover {
-  background: linear-gradient(268.26deg, #7988e8 14.66%, #15f9ff 49.9%, #db89df 86.69%);
+.universe-first-flex-sections .universe-first-flex-section-header-subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-bottom: 40px;
 }
-.universe-first-flex-section ul {
+.universe-first-flex-sections .universe-first-flex-section-header img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+.universe-first-flex-sections .universe-first-flex-section-header-title {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.universe-first-flex-sections .universe-first-flex-section-header .white-button, .universe-first-flex-sections .universe-first-flex-section-header .ton-gateway-example-links a, .ton-gateway-example-links .universe-first-flex-sections .universe-first-flex-section-header a, .universe-first-flex-sections .universe-first-flex-section-header .notifications .contribute-bottom-buttons .link-button, .notifications .contribute-bottom-buttons .universe-first-flex-sections .universe-first-flex-section-header .link-button {
+  margin-top: auto;
+}
+.universe-first-flex-sections * {
+  color: white;
+}
+.universe-first-flex-headers {
+  background: #5e75e8;
+  width: 100%;
+}
+.universe-first-flex-bodies {
+  background: rgba(94, 117, 232, 0.94);
+  width: 100%;
+}
+.universe-first-flex-bodies .universe-first-flex-section-body {
+  width: 50%;
+}
+.universe-first-flex-bodies h5 {
+  margin-bottom: 30px;
+}
+.universe-first-flex-bodies ul {
   margin-bottom: 37px;
   gap: 25px;
   display: flex;
   flex-direction: column;
 }
-.universe-first-flex-section ul:last-of-type {
+.universe-first-flex-bodies ul:last-of-type {
   margin-bottom: 0px;
 }
-.universe-first-flex-section ul li {
+.universe-first-flex-bodies ul li {
   letter-spacing: 0.4px;
   padding-left: 26px;
   font-size: 0.875rem;
@@ -3528,10 +3522,10 @@ body {
   font-weight: 500;
   position: relative;
 }
-.universe-first-flex-section ul li strong {
+.universe-first-flex-bodies ul li strong {
   font-weight: 600;
 }
-.universe-first-flex-section ul li:after {
+.universe-first-flex-bodies ul li:after {
   border-radius: 50%;
   position: absolute;
   left: 0px;
@@ -3540,10 +3534,6 @@ body {
   width: 11px;
   height: 11px;
   background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
-}
-.universe-first-flex-section h5 {
-  margin-bottom: 30px;
-  font-weight: 700;
 }
 .universe-second-flex {
   padding-top: 80px;
@@ -3599,7 +3589,7 @@ body {
   .universe-first-flex {
     width: 100%;
   }
-  .universe-first-flex .main-grid:after, .universe-first-flex .orbs-vm .common-grid-section-grid:after, .orbs-vm .universe-first-flex .common-grid-section-grid:after, .universe-first-flex .news-grid:after, .universe-first-flex .contact:after {
+  .universe-first-flex:after {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -5538,12 +5528,22 @@ body {
 }
 .ton-gateway-example-code .ton-gateway-example-copy-tooltip {
   position: absolute;
-  top: 30px;
-  left: 50%;
-  transform: translate(-50%);
+  top: 50%;
+  right: calc(100% + 10px);
   background: white;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
   padding: 5px;
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s all;
+  transform: translate(0, -50%);
+}
+.ton-gateway-example-code .ton-gateway-example-copy .active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(0, -50%);
 }
 .ton-gateway-example-links {
   display: flex;
@@ -5568,24 +5568,21 @@ body {
   width: calc(33.3333333333% - 32px);
   min-height: 310px;
   transition: 0.2s all;
+  border-radius: 20px;
+  background: white;
+  border: 1px solid rgba(94, 117, 232, 0.3);
+  position: relative;
 }
 .ton-gateway-cards-card img {
   height: 55px;
   height: 55px;
   object-fit: contain;
 }
-.ton-gateway-cards-card-container {
-  height: fit-content;
-  position: relative;
-}
 .ton-gateway-cards-card-top {
-  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgba(94, 117, 232, 0.3);
-  padding: 35px 35px 0px 35px;
-  border-radius: 20px;
+  padding-top: 35px;
   gap: 20px;
 }
 .ton-gateway-cards-card-title {
@@ -5593,6 +5590,9 @@ body {
   font-weight: 700;
   font-size: 17px;
   text-transform: uppercase;
+}
+.ton-gateway-cards-card-subtitle {
+  padding: 0px 20px;
 }
 .ton-gateway-cards-card-subtitle * {
   margin-bottom: 0px;
@@ -5602,15 +5602,21 @@ body {
   line-height: 24px;
 }
 .ton-gateway-cards-card-button {
-  overflow: hidden;
   margin-bottom: 10px;
   margin-top: 20px;
+  position: relative;
+  width: 100%;
 }
-.ton-gateway-cards-card-button img {
+.ton-gateway-cards-card-button-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ton-gateway-cards-card-button-content img {
   width: 32px;
   transition: 0.2s all;
 }
-.ton-gateway-cards-card-button p {
+.ton-gateway-cards-card-button-content p {
   color: #454545;
   font-size: 14px;
   font-weight: 300;
@@ -5626,10 +5632,11 @@ body {
   padding: 26px;
   padding-top: 15px;
   position: absolute;
-  top: 100%;
+  top: -40px;
   z-index: 10;
-  left: 0%;
-  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  width: calc(100% + 1.5px);
   display: none;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -5653,7 +5660,7 @@ body {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.ton-gateway-cards-card:hover .ton-gateway-cards-card-button {
+.ton-gateway-cards-card:hover .ton-gateway-cards-card-button-content {
   display: none;
 }
 .ton-gateway-cards .list {
@@ -5804,6 +5811,23 @@ body {
   transition: 0.25s all;
   opacity: 1;
   pointer-events: all;
+}
+
+@media only screen and (max-width: 1100px) {
+  .ton-gateway-cards-card {
+    width: calc(33.3333333333% - 14px);
+  }
+  .ton-gateway-cards .list {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .ton-gateway-cards-card {
+    width: calc(50% - 12px);
+  }
+  .ton-gateway-cards .list {
+    gap: 20px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

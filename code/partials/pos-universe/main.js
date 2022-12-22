@@ -5,7 +5,6 @@ const Main = ({ _body, link, firstFlex, secondFlex, thirdFlex, link2 }) => {
   return (
     <main className="universe page">
       <header className="header universe-header">{_body}</header>
-
       {firstFlex}
       {secondFlex}
       <MainGrid>{thirdFlex}</MainGrid>

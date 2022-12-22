@@ -1,12 +1,6 @@
 ---
-layout: partials/pos-universe/list-section
-title: 가디언
-img: ../assets/img/pos-universe/guardians.svg
+layout: partials/pos-universe/FirstFlexBody
 ---
-
-Orbs 가디언은 Orbs 커뮤니티를 대표하며 네트워크의 보안 유지 및 장기 비전을 달성할 수 있도록 하며 네트워크 성공을 위해 시간과 노력을 투자합니다.
-
-[가디언 등록하기](https://guardians.orbs.network/ko/ "button")
 
 ##### 역할과 책임
 

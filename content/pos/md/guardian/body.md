@@ -1,12 +1,6 @@
 ---
-layout: partials/pos-universe/list-section
-title: GUARDIANS
-img: ../assets/img/pos-universe/guardians.svg
+layout: partials/pos-universe/FirstFlexBody
 ---
-
-Orbs Guardians represent the Orbs community, they maintain the security of the network by running validator nodes and uphold its long term vision, investing time and effort in the network's success.
-
-[Become an Orbs Guardian!](https://guardians.orbs.network/ "button")
 
 ##### Roles and Responsibilities
 
