@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/bg.jpg
+image: /assets/img/blog/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/image4.png
 blogUrl: SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs
 date: 2022-12-22
 title: "SpiritSwap Integrates dTWAP Order Powered by Orbs"
