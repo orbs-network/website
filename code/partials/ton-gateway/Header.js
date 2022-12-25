@@ -3,7 +3,7 @@ import { handleUrl } from "../../util/link";
 import MainGrid from "../shared/MainGrid";
 
 const HeaderMainImg = "/assets/img/ton-gateway/hero.svg";
-const PoweredImg = "/assets/img/powered-by-orbs.png";
+const PoweredImg = "/assets/img/powered.svg";
 const GithubImg = "/assets/img/ton-gateway/github.svg";
 
 function Header({ _body, _relativeURL, _ID, title, button }) {

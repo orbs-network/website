@@ -39,15 +39,14 @@
       pointer-events: none;
     }
     &-hero {
-      top: 0px;
-      right: -30px;
-      width: 700px;
+      top: -40px;
+      right: -100px;
+      width: 640px;
     }
     &-powered {
-      height: 50px;
-      bottom: -10px;
+      height: 37px;
+      bottom: 0px;
       right: 0;
-      display: none;
     }
     &-github {
       display: flex;
@@ -640,6 +639,19 @@
 }
 @media only screen and (max-width: 500px) {
   .ton-gateway {
+   &-header{
+    .main-grid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-powered{
+      position: static;
+      margin-top: 20px;
+      pointer-events: all;
+      margin-right: auto;
+   }
+   }
     &-cards {
       &-card {
         width: 100%;

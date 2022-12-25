@@ -5162,15 +5162,14 @@ body {
   pointer-events: none;
 }
 .ton-gateway-header-hero {
-  top: 0px;
-  right: -30px;
-  width: 700px;
+  top: -40px;
+  right: -100px;
+  width: 640px;
 }
 .ton-gateway-header-powered {
-  height: 50px;
-  bottom: -10px;
+  height: 37px;
+  bottom: 0px;
   right: 0;
-  display: none;
 }
 .ton-gateway-header-github {
   display: flex;
@@ -5692,6 +5691,17 @@ body {
   }
 }
 @media only screen and (max-width: 500px) {
+  .ton-gateway-header .main-grid, .ton-gateway-header .single-blog-header, .ton-gateway-header .contact, .ton-gateway-header .news-grid, .ton-gateway-header .orbs-vm .common-grid-section-grid, .orbs-vm .ton-gateway-header .common-grid-section-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ton-gateway-header-powered {
+    position: static;
+    margin-top: 20px;
+    pointer-events: all;
+    margin-right: auto;
+  }
   .ton-gateway-cards-card {
     width: 100%;
   }
