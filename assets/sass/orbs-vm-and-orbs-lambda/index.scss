@@ -92,8 +92,8 @@
     width: 100%;
     &-grid {
       @extend .main-grid;
-      max-width: 1000px;
-      gap: 100px;
+    
+      gap: 160px;
     }
     strong {
       font-weight: 500;

@@ -4732,8 +4732,7 @@ body {
   width: 100%;
 }
 .orbs-vm .common-grid-section-grid {
-  max-width: 1000px;
-  gap: 100px;
+  gap: 160px;
 }
 .orbs-vm .common-grid-section strong {
   font-weight: 500;
