@@ -3,9 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - DeFi-Platform-SpiritSwap-Unlocks-New-Utility-For-Traders-With-Orbs-dTWAP-Module-Integration.md
   - Orbs-Launches-The-TON-Verifier-To-Verify-The-Ecosystems-Smart-Contracts-Code.md
   - okx-has-enabled-orbs-staking-for-all-orbs-community-members.md
   - Orbs-Focuses-On-The-Open-Network-With-Call-For-Grant-Proposals.md
+  - orbs-new-twap-protocol-is-aimed-at-decentralized-exchanges-and-automated-market-makers.md
   - orbs-unveil-new-twap-protocol-for-decentralized-exchanges.md
   - orbs-twap-protocol-tackles-liquidity-and-volatility-challenges.md
   - okx-enables-orbs-staking-for-all-orbs-network-stakeholders.md
