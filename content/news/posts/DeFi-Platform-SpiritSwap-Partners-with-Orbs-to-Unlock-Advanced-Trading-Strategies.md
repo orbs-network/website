@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/DeFi-Platform-SpiritSwap-Partners-with-Orbs-to-Unlock-Advanced-Trading-Strategies.jpg
+url: https://dailycoin.com/defi-platform-spiritswap-partners-with-orbs/
+date: 22, December 2022
+logo: /assets/img/news/logos/dailycoin.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs integration will help DeFi platform SpiritSwap take on centralized platforms.
