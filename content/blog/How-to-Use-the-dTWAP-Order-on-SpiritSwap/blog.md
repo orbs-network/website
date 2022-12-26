@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/How-to-Use-the-dTWAP-Order-on-SpiritSwap/bg2.jpg
+image: /assets/img/blog/How-to-Use-the-dTWAP-Order-on-SpiritSwap/bg3.png
 blogUrl: How-to-Use-the-dTWAP-Order-on-SpiritSwap
 date: 2022-12-26
 title: How to Use the dTWAP order on SpiritSwap
