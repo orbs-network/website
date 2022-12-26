@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 Dec 2022 11:56:12 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 26 Dec 2022 12:14:40 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[How to Use the dTWAP order on SpiritSwap]]></title>
+            <description><![CDATA[dTWAP powered by Orbs is a fully decentralized, permissionless, and composable DeFi protocol, developed by the Orbs team and powered by the Orbs network. By integrating the dTWAP protocol, SpiritSwap is the first DEX-AMM to introduce decentralized advanced trading orders to the DeFi space. In this blog post we’ll cover the fundamentals of a dTWAP order, how to set up the order on the SpiritSwap UI, monitoring open orders, and more…]]></description>
+            <link>https://www.orbs.com/How-to-Use-the-dTWAP-Order-on-SpiritSwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/How-to-Use-the-dTWAP-Order-on-SpiritSwap</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/How-to-Use-the-dTWAP-Order-on-SpiritSwap/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[SpiritSwap Integrates dTWAP Order Powered by Orbs]]></title>
             <description><![CDATA[dTWAP by Orbs is a fully decentralized, permissionless, and composable DeFi protocol, developed by the Orbs team and powered by the Orbs network. By integrating the dTWAP protocol, SpiritSwap is the first DEX-AMM to introduce advanced trading orders in the DeFi space.]]></description>
