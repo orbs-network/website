@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/How-to-Use-the-dTWAP-Order-on-SpiritSwap/bg.jpg
+image: /assets/img/blog/How-to-Use-the-dTWAP-Order-on-SpiritSwap/bg2.jpg
 blogUrl: How-to-Use-the-dTWAP-Order-on-SpiritSwap
 date: 2022-12-26
 title: How to Use the dTWAP order on SpiritSwap
@@ -122,8 +122,11 @@ Orbs is set up as a separate decentralized execution layer operating between exi
 Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul.
 
 For more information, please visit www.orbs.com, or join our community at:
+
 Telegram: https://t.me/OrbsNetwork
+
 Twitter: https://twitter.com/orbs_network
+
 Learn more [about Orbs](https://www.orbs.com/Orbs-A-Re-introduction/)
 
 
