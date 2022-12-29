@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Dec 2022 10:26:20 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 29 Dec 2022 16:00:19 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Announcing support for Ton Connect 2.0 in Minter and Verifier]]></title>
+            <link>https://www.orbs.com/announcing-support-for-ton-connect-2.0-in-minter-and-verifier</link>
+            <guid isPermaLink="true">https://www.orbs.com/announcing-support-for-ton-connect-2.0-in-minter-and-verifier</guid>
+            <dc:creator><![CDATA[Shahar Yakir]]></dc:creator>
+            <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/announcing-support-for-ton-connect-2.0-in-minter-and-verifier/bg.jpeg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Guardian Spotlight: My Smart Crypto]]></title>
             <description><![CDATA[Sneaking in at the end of 2022, another Guardian joined to help strengthen the Orbs network. The Orbs community would like to welcome MySmartCrypto to the community. This article explores their views on the Orbs project and their plans to help it grow in 2023.]]></description>
