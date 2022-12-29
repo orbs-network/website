@@ -1,67 +1,70 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Guardian-Spotlight-My-Smart-Crypto/bg.jpg
+blogUrl: Guardian-Spotlight-My-Smart-Crypto
+date: 2022-12-29
+title: Guardian Spotlight: My Smart Crypto
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Sneaking in at the end of 2022, another Guardian joined to help strengthen the Orbs network. The Orbs community would like to welcome MySmartCrypto to the community. This article explores their views on the Orbs project and their plans to help it grow in 2023."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Sneaking in at the end of 2022, another Guardian joined to help strengthen the Orbs network. The Orbs community would like to welcome MySmartCrypto to the community. This article explores their views on the Orbs project and their plans to help it grow in 2023. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Their addition to the Guardians pool follows high engagement of the Orbs community in the recent [governance votes](https://www.orbs.com/governance-blog/), with nearly 60% of the total staked ORBS amount participating in the first three votes. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+This also follows the release of [dTWAP](https://www.orbs.com/SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/) on SpiritSwap powered by the Orbs Guardians, being the first time that a DeFi protocol has implemented Orbs’ L3 technology to interact with real users' assets and TVL!
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+This interview has been edited for brevity and clarity.
 
-### Step-by-Step Guide
-
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
-
-Please also see our disclaimers below.
-
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**What made you interested in Orbs as a project when you first discovered it?**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+It was RPoS (Randomized PoS) and the consensus of the Orbs network. When I first learned of Orbs during the private sale period, the market keyword was "scalability". Many projects like EOS tried to achieve this with dPoS (delegated PoS), but decentralization was lost. Orbs' Randomized dPoS can maintain decentralization, rapid process speed, and reasonable cost. While RPoS is not in execution, I hope this will be activated soon.
+
+**What do you think of Orbs as a layer-3 (L3)? Especially with dTWAP integration by SpiritSwap**
+
+L3 is the last piece to lead mass adoption of blockchain dApps. L3 essentially acts on a higher service level based on L2's scalability. I think that Orbs's L3 is at the center of this by supporting many EVM chains and the TON network.
+
+dTWAP will be an industry-changing use case because DEXs have gotten more attention since FTX's implosion. 
+
+DCA is an essential investment method for two reasons:
+
+1. It requires more time until the next bull market (therefore making it attractive during even market downtrends).
+2. Volatility of cryptocurrency is very high. 
+
+dTWAP enables DCA in decentralized ways. This will be one of the main features of DEXs and is only possible because of Orbs’ dTWAP
+
+**What's your impression of Orbs building on TON?**
+
+It is a very good idea to co-work with TON which has a large user base. Another example of this is Polygon, which is a great project that has shown a lot of success recently. Polygon solved the scalability issue with the ETH network. However, this was not achieved by itself. Orbs can be the next Polygon like this with a similar partnership on TON.
+
+**Any message to the community? What do you want them to know about you — what type of voter will you be when it comes to governance proposals?**
+
+During the last 3 years, Orbs grew based on efforts from the Orbs team, Guardians, and community. From now on, expanded external connections such as partnerships with TON will be more important. I'll help with this and do what I can. I have done this for the last 5 years as an early investor/BD/Youtuber. To be successful with this, I need support from the community. Please support me to be a better and stable Guardian.
+
+I have been with Orbs for 5+ years since the private sale, and I'm still here and will vote with a long-term vision on governance proposals.
+
+Thank you.
+
+
+<div class='line-separator'> </div>
+
+
+The strength of the Orbs community has been demonstrated in the recent Governance votes, as well as the participation of new Guardians in the Orbs ecosystem such as [Kolb & beehive](https://www.orbs.com/new-orbs-guardian-spotlight-kolb-beehive/), [OKX Exchange](https://www.orbs.com/OKX-Announces-ORBS-Staking/), [Tbonestaking](https://www.orbs.com/Orbs-Guardian-Spotlight-Tbonestaking-by-CROSSTECH/), and more . 
+
+With high community engagement and new L3 use cases such as dTWAP, the role of the Guardians is becoming more and more essential for the Orbs network. The addition of so many new Guardians is an important indicator of the Orbs project’s vitality and endurance.
+
+As always, be sure to follow us on [Telegram](https://t.me/OrbsNetwork) and [Twitter](https://twitter.com/orbs_network) to find out the latest updates!
+
+Learn more about Orbs PoS [here](https://www.orbs.com/pos/).
+
+Become a [Guardian](https://guardians.orbs.network/)!
+
+Find out more info and data on the Orbs [Status](http://status.orbs.network/) and [Analytics](https://analytics.orbs.network/ethereum/overview/stake) pages.
+
+
