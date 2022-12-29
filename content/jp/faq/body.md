@@ -3,11 +3,12 @@ layout: partials/faq/main
 title: よくある質問
 
 sections:
-  - md/section1/index.md
-  - md/section2/index.md
-  - md/section3/index.md
-  - md/section4/index.md
-  - md/section5/index.md
+  - md/general/index.md
+  - md/L3-technology/index.md
+  - md/pos/index.md
+  - md/tetra-staking-wallet/index.md
+  - md/use-cases-and-applications/index.md
+  - md/ton/index.md
 
 sideMenuLinks:
   - md/menu/index.md
