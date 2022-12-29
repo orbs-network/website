@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Guardian-Spotlight-My-Smart-Crypto/blog.md
   - How-to-Use-the-dTWAP-Order-on-SpiritSwap/blog.md
   - SpiritSwap-Integrates-dTWAP-Order-Powered-by-Orbs/blog.md
   - ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/blog.md
