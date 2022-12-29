@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Guardian-Spotlight-My-Smart-Crypto/bg.png
+image: /assets/img/blog/Guardian-Spotlight-My-Smart-Crypto/bg3.jpg
 blogUrl: Guardian-Spotlight-My-Smart-Crypto
 date: 2022-12-29
 title: "Guardian Spotlight: My Smart Crypto"
