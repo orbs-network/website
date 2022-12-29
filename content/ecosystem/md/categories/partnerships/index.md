@@ -11,4 +11,5 @@ items:
   - samsung.md
   - ton-society.md
   - dapp-radar.md
+  - ozys.md
 ---
