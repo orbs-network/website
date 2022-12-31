@@ -9,10 +9,10 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Dec 2022 16:00:19 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 31 Dec 2022 11:42:15 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Announcing support for Ton Connect 2.0 in Minter and Verifier]]></title>
+            <title><![CDATA[Announcing support for TON Connect 2.0 in Minter and Verifier]]></title>
             <link>https://www.orbs.com/announcing-support-for-ton-connect-2.0-in-minter-and-verifier</link>
             <guid isPermaLink="true">https://www.orbs.com/announcing-support-for-ton-connect-2.0-in-minter-and-verifier</guid>
             <dc:creator><![CDATA[Shahar Yakir]]></dc:creator>
