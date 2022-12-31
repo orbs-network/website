@@ -10,7 +10,7 @@ subscribe:
   - /_shared/subscribe/subscribe.md
 meta_description:
 meta_keywords:
-title: "Announcing support for Ton Connect 2.0 in Minter and Verifier"
+title: "Announcing support for TON Connect 2.0 in Minter and Verifier"
 image: /assets/img/blog/announcing-support-for-ton-connect-2.0-in-minter-and-verifier/bg.jpeg
 gdpr:
   - /_shared/gdpr/index.md

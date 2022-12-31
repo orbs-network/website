@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/announcing-support-for-ton-connect-2.0-in-minter-and-verifier/bg.jpeg
 blogUrl: announcing-support-for-ton-connect-2.0-in-minter-and-verifier
 date: 2022-12-29
-title: "Announcing support for Ton Connect 2.0 in Minter and Verifier"
+title: "Announcing support for TON Connect 2.0 in Minter and Verifier"
 author:
   - /blog/common/authors/ShaharYakir.md
 type:
