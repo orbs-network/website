@@ -18,7 +18,7 @@ links:
   - img: /assets/img/socials/gray/youtube.svg
     url: https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured
 
-  - img: /assets/img/socials/gray/snapshot.jpeg
+  - img: /assets/img/socials/gray/snapshot.svg
     url: https://snapshot.org/#/orbs-network.eth
 
     
