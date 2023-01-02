@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-in-2022-Driving-Forces-of-Adoption/bg.jpg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
+blogUrl: Orbs-in-2022-Driving-Forces-of-Adoption
 date: 2023-01-02
 title: "Orbs in 2022: 5 Driving Forces of Adoption"
 author:
