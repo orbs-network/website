@@ -9,13 +9,13 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Jan 2023 08:50:29 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jan 2023 09:18:14 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Orbs in 2022: 5 Driving Forces of Adoption]]></title>
             <description><![CDATA[2022 has been a year of building in the Orbs project; in March, the community celebrated Orbs’ third anniversary since mainnet and token launch. Thank you to all developers, contributors, researchers, guardians, delegators, community members, partners, and others who helped make 2022 a successful year.]]></description>
-            <link>https://www.orbs.com/how-to-use-the-orbs-pool-on-alpaca-finance</link>
-            <guid isPermaLink="true">https://www.orbs.com/how-to-use-the-orbs-pool-on-alpaca-finance</guid>
+            <link>https://www.orbs.com/Orbs-in-2022-Driving-Forces-of-Adoption</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-in-2022-Driving-Forces-of-Adoption</guid>
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
             <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
             <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-in-2022-Driving-Forces-of-Adoption/bg.jpg" length="0" type="image/jpeg"/>
