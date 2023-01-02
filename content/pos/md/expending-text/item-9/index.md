@@ -14,4 +14,4 @@ The Orbs Universe now emphasizes usage and performance while empowering the Orbs
 
 With the launch of V2.5, Orbs introduced numerous improvements, mainly in the staking rewards assignment and distribution architecture, leading to an improved distribution mechanism and significant reduction in Guardians operating costs. V2.5 aims to enhance network security and scalability through the Orbs PoS Universe and enables the on-boarding of clients with different use-cases.
 
-Orbs PoS V3: Multi-chain Staking” utilizes Orbs’ hybrid architecture and cross-chain properties to allow for participation in Orbs PoS on both Ethereum and Polygon.
+Orbs PoS V3: Multi-chain Staking utilizes Orbs’ hybrid architecture and cross-chain properties to allow for participation in Orbs PoS on both Ethereum and Polygon.

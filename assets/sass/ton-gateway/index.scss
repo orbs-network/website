@@ -1,7 +1,5 @@
 .ton-gateway {
-  &-header {
-    display: flex;
-    position: relative;
+  .product-header {
     h1 {
       &:last-of-type {
         background: linear-gradient(102.78deg, #b082d5 10%, #ed7ec4 25%);
@@ -12,69 +10,20 @@
         text-fill-color: transparent;
       }
     }
-    .main-grid {
-      position: relative;
-    }
-    &-body {
-      position: relative;
-      z-index: 1;
-
-      text-align: left;
-      * {
-        text-align: left;
-      }
-
-      p {
-        max-width: 617px;
-      }
-    }
-    &-flex {
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      z-index: 1;
-    }
-    &-img {
-      position: absolute;
-      pointer-events: none;
-    }
+     &-powered {
+    top: 33%;
+    transform: translate(0,-50%);
+    position: absolute;
+    right: 130px;
+  }
     &-hero {
-      top: -40px;
+      max-width: 817px;
+      top: -100px;
       right: -100px;
-      width: 640px;
-    }
-    &-powered {
-      height: 37px;
-      bottom: 0px;
-      right: 0;
-    }
-    &-github {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 30px;
-      margin-bottom: 30px;
-      a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      p {
-        text-align: left;
-        margin-top: 0px;
-        @extend .header-top-text;
-        margin-bottom: 0px;
-      }
-    }
-    &-button {
-      @extend .button;
-      margin-top: 30px;
-      text-transform: uppercase;
-      p {
-        margin-top: 0px;
-      }
+      width: 100%;
     }
   }
+
   &-posts {
     background: #313855;
     padding-top: $page-section-margin;
@@ -168,15 +117,12 @@
     background: $blue;
     padding: $page-section-margin 0px $page-section-margin 0px;
     position: relative;
-    #get-started {
-      position: absolute;
-      top: 0px;
-    }
+ 
     &-options {
       display: flex;
       flex-direction: column;
       gap: 47px;
-    width: 360px;
+      width: 360px;
     }
 
     &-links {
@@ -315,42 +261,6 @@
       align-items: stretch;
     }
   }
-  &-powered {
-    padding-top: 80px;
-    padding-bottom: 98px;
-    .main-grid {
-      max-width: 1000px;
-    }
-    &-graph {
-      width: 100%;
-    }
-    &-bottom {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-top: 10px;
-
-      p {
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-      }
-      figure {
-        width: 20px;
-        height: 20px;
-        background: linear-gradient(90deg, #00c0bf 0%, #00fbff 100.02%);
-        border-radius: 50%;
-      }
-    }
-
-    h3 {
-      @extend .page-colored-section-title;
-      margin-bottom: 40px;
-    }
-    &-body {
-      margin-top: 50px;
-    }
-  }
 }
 
 .selectbox {
@@ -473,11 +383,6 @@
 
 @media only screen and (max-width: 1100px) {
   .ton-gateway {
-    &-header {
-      &-hero {
-        display: none;
-      }
-    }
     &-cards {
       &-card {
         width: calc(100% / 3 - 14px);

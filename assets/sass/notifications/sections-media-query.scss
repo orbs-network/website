@@ -1,34 +1,8 @@
-@media only screen and (max-width: 1550px) {
-  .notifications {
-    .hero {
-      &-image {
-        zoom: 0.88;
-      }
-    }
-  }
-}
+
 
 @media only screen and (max-width: 1000px) {
   .notifications {
-    .hero {
-      flex-direction: column;
-      gap: $page-section-margin;
-      align-items: center;
-      padding-bottom: 0px;
-      &-description {
-        max-width: 700px;
-      }
-      &-image {
-        zoom: 1;
-        max-width: 500px;
-        width: 100%;
-      }
-      &-powered {
-        position: static;
-        right: 0;
-        bottom: 0;
-      }
-    }
+  
     .contribute {
       &-example {
         flex-direction: column;
@@ -44,18 +18,7 @@
         width: calc(100% / 3 - 18px);
       }
     }
-    .alerts {
-      .main-grid {
-        flex-direction: column;
-        gap: $page-section-margin;
-        max-width: 600px;
-        align-items: center;
-      }
-      &-right {
-        width: 80%;
-        max-width: 400px;
-      }
-    }
+ 
   }
 }
 

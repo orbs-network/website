@@ -1,12 +1,12 @@
 import React from "react";
 
-function TonGateway({ header, example, cards, posts, poweredByOrbs }) {
+function TonGateway({ header, example, cards, posts, schema }) {
   return (
     <div className="ton-gateway page">
       {header}
       {cards}
       {example}
-      {poweredByOrbs}
+      {schema}
 
       {posts}
     </div>

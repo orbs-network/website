@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[TON Gateway](/ko/ton-gateway)
+[TON Access](/ko/ton-access)

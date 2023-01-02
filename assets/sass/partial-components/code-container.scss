@@ -3,6 +3,11 @@
   display: flex;
   border-radius: 20px;
   align-items: stretch;
+  position: relative;
+  #get-started {
+    position: absolute;
+    top: -110px;
+  }
   &-left {
     padding: 50px 35px 50px 35px;
   }

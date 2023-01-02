@@ -1,5 +1,5 @@
 import React from "react";
-import MainGrid from "../shared/MainGrid";
+import SmallGrid from "../shared/SmallGrid";
 
 function Graph1({ title, _body, image }) {
   return (
@@ -8,12 +8,14 @@ function Graph1({ title, _body, image }) {
         src="../../../assets/img/network/section-3-left.png"
         className="orbs-vm-graph-bg"
       />
-      <MainGrid className="orbs-vm-graph-grid">
-        <h3>{title}</h3>
+      <SmallGrid>
+        <div className="orbs-vm-graph-grid">
+          <h3>{title}</h3>
 
-        <img src={image} className="orbs-vm-graph-image" />
-        <div className="orbs-vm-graph-body">{_body}</div>
-      </MainGrid>
+          <img src={image} className="orbs-vm-graph-image" />
+          <div className="orbs-vm-graph-body">{_body}</div>
+        </div>
+      </SmallGrid>
     </div>
   );
 }

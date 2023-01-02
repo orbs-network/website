@@ -16,14 +16,32 @@ export const init = (keepLoader) => {
   ui.init();
   gdpr.init();
   AOS.init({ once: true });
-  hljs.initHighlightingOnLoad();
+  hljs.highlightAll();
 
   analytics.init();
   if (!keepLoader) {
     ui.hideAppLoader();
   }
+  handleResponsiveProductHeader();
 };
 
+const handleResponsiveProductHeader = () => {
+  const element = document.querySelector(".product-header");
+  if (!element) return;
+  const onResize = () => {
+    const width = window.innerWidth;
+    let zoom = 1;
+   
+    if (width <= 1300) {
+      zoom = width / 1310;
+    }
+    if (width < 800) {
+      zoom = 1;
+    }
 
+    element.style.zoom = zoom;
+  };
 
-
+  window.addEventListener("resize", onResize);
+  onResize();
+};

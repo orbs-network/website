@@ -1,61 +1,19 @@
 .notifications {
-  padding-bottom: 100px;
-  .hero {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    gap: 50px;
-    padding-bottom: 60px;
-    &-powered {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-    }
-
-    &-image {
-      width: 530px;
-      height: auto;
-      top: 0px;
-      object-fit: contain;
-      position: relative;
-    }
-
-    &-description {
-      flex: 1;
-      text-align: left;
-      align-items: flex-start;
-      margin-bottom: 0px;
-      h4 {
-        margin-bottom: 30px;
+  .product-header{ 
+      h1{
+        max-width: 620px;
       }
-
-      a {
-        display: flex;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 18px;
+      &-hero{
+        max-width: 530px;
         position: relative;
-        padding-left: 60px;
-
-        margin-bottom: 20px;
-
-        &:last-child {
-          margin-bottom: 0px;
-        }
-
-        &::before {
-          position: absolute;
-          content: "";
-          background-image: url("/assets/img/notifications-protocol/right-arrow.svg");
-          left: 0px;
-          top: 50%;
-          transform: translate(0, -50%);
-          width: 34px;
-          height: 34px;
-          background-size: contain;
-        }
+        margin-top: -60px;
+        right: 110px;
       }
-    }
+      &-powered{
+        right: 0;
+        top: 36%;
+      }
+      
   }
 
   .contribute {
@@ -111,8 +69,9 @@
   }
 
   .integrations {
-    margin-top: $page-section-margin;
-
+    padding-top: $page-section-margin;
+     padding-bottom: $page-section-margin;
+    background: white;
     &-title {
       @extend .page-colored-section-title;
       text-align: center;
@@ -181,86 +140,14 @@
     }
   }
 
-  .alerts {
-    margin-top: $page-section-margin;
-    background: #f9f3ff;
-    padding-top: $page-section-margin;
-    padding-bottom: $page-section-margin;
-
-    .main-grid {
-      justify-content: space-between;
-      display: flex;
-      gap: 100px;
-    }
-
-    &-right {
-      width: 480px;
-      position: relative;
-      &-hero {
-        width: 100%;
-        z-index: 0;
-      }
-
-      &-logo {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        object-fit: contain;
-        z-index: 10;
-      }
-
-      #alerts-logo-1 {
-        left: 10px;
-        top: 73px;
-      }
-
-      #alerts-logo-2 {
-        right: 105px;
-        top: -15px;
-      }
-
-      #alerts-logo-3 {
-        right: 10px;
-        bottom: 80px;
-      }
-
-      #alerts-logo-4 {
-        left: 50px;
-        bottom: 13px;
-      }
-    }
-
-    &-description {
-      flex: 1;
-      &-logo {
-        height: 32px;
-        margin-bottom: 30px;
-      }
-
-      h3 {
-        @extend .page-section-title;
-        color: $text-color;
-        margin-bottom: 20px;
-      }
-
-      a {
-        text-decoration: underline;
-        font-weight: 700;
-      }
-
-      .link-button {
-        margin-top: 30px;
-      }
-    }
-  }
-
   .apps {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: $page-section-margin;
-
+    padding-top: $page-section-margin;
+    padding-bottom: $page-section-margin;
+    background: $gray;
     &-title {
       @extend .page-colored-section-title;
       margin-bottom: $page-section-title-margin-small;
@@ -268,6 +155,11 @@
 
     &-body {
       max-width: 700px;
+    }
+    .small-grid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     &-links {

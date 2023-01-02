@@ -4,8 +4,9 @@ import LinkButton from "../LinkButton";
 
 function Integrations({ list, title, prText }) {
   return (
-    <MainGrid>
+   
       <div className="integrations">
+         <MainGrid>
         <h3 className="integrations-title">{title}</h3>
         <ul className="integrations-list">
           {list}
@@ -17,8 +18,9 @@ function Integrations({ list, title, prText }) {
             />
           </li>
         </ul>
+         </MainGrid>
       </div>
-    </MainGrid>
+   
   );
 }
 

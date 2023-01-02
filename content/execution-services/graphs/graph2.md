@@ -1,6 +1,6 @@
 ---
 layout: partials/orbs-vm-and-orbs-lambda/Graph2
-image: /assets/img/network/product-image-2.png
+image: /assets/img/execution-services/graph-2.png
 title: Evolution of Decentralized Execution
 ---
 

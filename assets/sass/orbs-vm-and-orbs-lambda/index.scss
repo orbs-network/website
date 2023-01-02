@@ -35,7 +35,11 @@
       width: 100%;
     }
     .orbs-vm-graph-grid {
-      transform: translate(60px);
+      margin-left: auto;
+      max-width: 630px;
+      width: 100%;
+      margin-right: unset;
+      
     }
   }
 
@@ -91,9 +95,9 @@
   .common-grid-section {
     width: 100%;
     &-grid {
-      @extend .main-grid;
+      @extend .small-grid;
 
-      gap: 160px;
+     
     }
     strong {
       font-weight: 500;

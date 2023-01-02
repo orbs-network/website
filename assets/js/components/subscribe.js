@@ -71,7 +71,6 @@ const closeForm = () => {
 };
 
 export const showSubscribePopup = () => {
-  console.log("test");
   subscribeElement.style.display = "flex";
   setTimeout(() => {
     subscribeElement.classList.add("subscribe-active");

@@ -66,12 +66,15 @@ $text-letter-spacing: -0.009rem;
   cursor: pointer;
   text-align: center;
   & * {
-    font-size: inherit;
-    font-family: inherit;
+    font-size: inherit!important;
+    font-family: inherit!important;
     color: inherit;
     font-weight: inherit;
     text-decoration: inherit;
+    margin: 0px;
+    color: inherit!important;
   }
+ 
   &:hover {
     color: white;
     background: $blue;
@@ -126,7 +129,7 @@ $text-letter-spacing: -0.009rem;
 }
 
 .page {
-  padding-top: 126px;
+  padding-top: 180px;
 }
 
 .main-grid {
@@ -134,6 +137,11 @@ $text-letter-spacing: -0.009rem;
   width: calc(100% - 100px);
   margin-left: auto;
   margin-right: auto;
+}
+
+.small-grid {
+  @extend .main-grid;
+  max-width: 900px;
 }
 
 .page-title {
@@ -181,6 +189,7 @@ $text-letter-spacing: -0.009rem;
     display: flex;
     align-items: center;
     justify-content: center;
+     gap: 70px;
   }
   display: flex;
   align-items: center;
@@ -226,8 +235,8 @@ $text-letter-spacing: -0.009rem;
 
 @media only screen and (max-width: 600px) {
   .page-title {
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 27px;
+    line-height: 36px;
   }
   .page {
     padding-top: 110px;
@@ -249,4 +258,10 @@ $text-letter-spacing: -0.009rem;
       padding: 0;
       font-size: 15px;
       line-height: 24px;
+    }
+
+    .scroll-button{
+      p{
+        margin: 0px!important;
+      }
     }

@@ -5,7 +5,6 @@ import MainGrid from "../../shared/MainGrid";
 function Exmpales({ selectors, github, telegram, _body, copy }) {
   return (
     <div className="ton-gateway-example">
-      <div id="get-started" />
       <MainGrid>
          <div className="ton-gateway-example-title">{_body}</div>
         <CodeContainer copy={copy} code='' left={<Left selectors={selectors} />} />

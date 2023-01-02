@@ -62,7 +62,6 @@ const addEventsToSelectboxes = () => {
         selector.classList.remove("selectbox-open");
         const isLibrary = key === keys.clientLibrary;
         if (isLibrary) {
-          console.log(selectorItem);
           selectedLibrary = selectorItem;
         }
         exampleSelection[key] = selectorItem.getAttribute("data-value");

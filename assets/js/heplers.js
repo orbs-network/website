@@ -52,7 +52,6 @@ export const onOutsideEvent = (element, callback) => {
     const Hidden = element.style.display == "none";
     if (!isClickInside && opacity) {
       callback();
-      console.log("tests");
     }
   });
 };

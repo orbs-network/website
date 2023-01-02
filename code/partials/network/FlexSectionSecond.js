@@ -1,5 +1,5 @@
 import React from "react";
-import MainGrid from "../shared/MainGrid";
+import SmallGrid from "../shared/SmallGrid";
 
 function FlexSection({ _body }) {
   return (
@@ -8,7 +8,7 @@ function FlexSection({ _body }) {
         className="network-section-second-top"
         src="../../../assets/img/network/section-2-top.png"
       />
-      <MainGrid>
+      <SmallGrid>
         <img
           className="network-section-image"
           src="../../../assets/img/network/section-2.png"
@@ -17,7 +17,7 @@ function FlexSection({ _body }) {
         <div className="network-section-right network-section-text">
           {_body}
         </div>
-      </MainGrid>
+      </SmallGrid>
     </div>
   );
 }

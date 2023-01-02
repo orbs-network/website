@@ -1,14 +1,14 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
-import MainGrid from "../shared/MainGrid";
+import SmallGrid from "../shared/SmallGrid";
 
 function Apps({ title, _body, google, apple, _relativeURL, _ID }) {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
   return (
-    <MainGrid>
-      <div className="apps">
+    <div className="apps">
+      <SmallGrid>
         <h3 className="apps-title">{title}</h3>
         <div className="apps-body">{_body}</div>
         <div className="apps-links">
@@ -27,8 +27,8 @@ function Apps({ title, _body, google, apple, _relativeURL, _ID }) {
             />
           </a>
         </div>
-      </div>
-    </MainGrid>
+      </SmallGrid>
+    </div>
   );
 }
 

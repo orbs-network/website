@@ -2,7 +2,7 @@ import React from "react";
 import MainGrid from "../../shared/MainGrid";
 import LinkButton from "../LinkButton";
 
-function Contribute({ title, example, bottomText }) {
+function Contribute({ title, example, bottomText, github, telegram }) {
   return (
     <div className="contribute">
       <MainGrid>
@@ -13,12 +13,9 @@ function Contribute({ title, example, bottomText }) {
           <div className="contribute-bottom-buttons">
             <LinkButton
               url="https://github.com/open-defi-notification-protocol/projects#open-defi-notification-protocol"
-              text="Readme"
+              text={github}
             />
-            <LinkButton
-              url="https://github.com/open-defi-notification-protocol/projects/pulls"
-              text="GitHub PR"
-            />
+            <LinkButton url="https://t.me/defi_notifications" text={telegram} />
           </div>
         </section>
       </MainGrid>

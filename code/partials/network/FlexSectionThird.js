@@ -1,6 +1,6 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
-import MainGrid from "../shared/MainGrid";
+import SmallGrid from "../shared/SmallGrid";
 
 function FlexSection({ _body, image, _relativeURL, _ID }) {
   const generateUrl = (url) => {
@@ -8,7 +8,7 @@ function FlexSection({ _body, image, _relativeURL, _ID }) {
   };
   return (
     <div className="network-section network-section-third">
-      <MainGrid>
+      <SmallGrid>
         <img
           src="../../../assets/img/network/section-3-left.png"
           className="network-section-image"
@@ -17,7 +17,7 @@ function FlexSection({ _body, image, _relativeURL, _ID }) {
           <div className="network-section-text">{_body}</div>
           <img src={generateUrl(image)} />
         </div>
-      </MainGrid>
+      </SmallGrid>
     </div>
   );
 }

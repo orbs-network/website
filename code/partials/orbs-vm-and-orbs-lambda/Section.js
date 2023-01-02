@@ -1,6 +1,6 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
-import MainGrid from "../shared/MainGrid";
+import SmallGrid from "../shared/SmallGrid";
 
 function Section({
   _body,
@@ -20,7 +20,7 @@ function Section({
       id={id}
       style={{ background }}
     >
-      <MainGrid className="common-grid-section-grid">
+      <SmallGrid className="common-grid-section-grid">
         {!imgFirst ? (
           <>
             <div className="common-grid-section-left common-grid-section-text">
@@ -42,7 +42,7 @@ function Section({
             </div>
           </>
         )}
-      </MainGrid>
+      </SmallGrid>
     </div>
   );
 }

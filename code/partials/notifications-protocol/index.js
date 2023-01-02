@@ -1,18 +1,18 @@
 import React from "react";
 
 function NotificationsProtocol({
-  hero,
+  header,
   contribute,
   integrations,
-  alerts,
+  schema,
   apps,
 }) {
   return (
     <div className="notifications page">
-      {hero}
+      {header}
       {contribute}
       {integrations}
-      {alerts}
+      {schema}
       {apps}
     </div>
   );
