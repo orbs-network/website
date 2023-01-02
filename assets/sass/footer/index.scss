@@ -6,6 +6,8 @@
   font-family: "Montserrat";
   .main-grid {
     align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
   }
   &-section-title {
     display: flex;
@@ -25,7 +27,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
-    gap: 50px
+    gap: 50px;
   }
 
   &-logo-section {
@@ -41,9 +43,16 @@
     }
     .text-p {
       margin-bottom: 0px;
+      font-weight: 300;
+      font-size: 14px;
       &:nth-of-type(2) {
         margin-top: 30px;
         color: $light-color;
+      }
+      .email-link {
+        color: $blue;
+        font-weight: 500;
+        font-size: 16px;
       }
     }
     a {
@@ -52,6 +61,13 @@
   }
   &-blogs {
     width: 35%;
+
+    &-subscribe {
+      margin-bottom: 20px;
+    }
+    .subscribe-btn {
+      text-transform: uppercase;
+    }
     .footer-blog {
       border-bottom: 1px solid $blue;
       padding-bottom: 40px;
@@ -102,17 +118,19 @@
       overflow: auto;
       position: relative;
       height: 100%;
-   
     }
   }
 
   &-navigation {
+    background: white;
     display: flex;
     padding-top: 40px;
     border-top: 1px solid $blue;
     border-bottom: 2px solid $blue;
     margin-top: 40px;
     padding-bottom: 40px;
+    &-section {
+    }
     .text-p {
       line-height: normal;
     }
@@ -139,9 +157,7 @@
         display: none;
         padding-left: 20px;
         margin-top: 10px;
-        .test-p {
-          min-width: 100%;
-        }
+
         a {
           text-decoration: none;
           margin-bottom: 20px;
@@ -156,16 +172,19 @@
     }
     &-links {
       &-title {
+        white-space: nowrap;
         font-size: 1rem;
         margin-bottom: 20px;
         text-transform: uppercase;
-      
+
         font-family: $bold-font;
         @extend .gradient-text;
       }
       &-list {
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
 
         a {
           text-overflow: ellipsis;
@@ -173,30 +192,27 @@
           white-space: nowrap;
 
           text-decoration: none;
-          font-size: 0.75rem;
+          font-size: 0.825rem;
           padding-right: 10px;
           text-transform: capitalize;
           font-weight: 500;
         }
         .text-p {
-          margin-bottom: 14px;
+          margin-bottom: unset;
         }
       }
     }
     &-overview {
-      width: 20%;
       .text-p {
         width: 100%;
       }
     }
     &-resources {
-      width: 50%;
       .text-p {
         width: 30%;
       }
     }
     &-about {
-      width: 30%;
       .text-p {
         width: 50%;
       }
@@ -205,6 +221,9 @@
       display: none;
     }
   }
+  .footer-bottom-wrapper {
+    background: white;
+  }
 
   &-bottom {
     align-items: center;
@@ -212,8 +231,9 @@
     padding-bottom: 20px;
     &-policy {
       a {
-        font-size: 12px;
-        color: #acacac;
+        font-size: 0.825rem;
+        font-weight: 500;
+        color: #ff8b97;
         text-decoration: none;
       }
     }
@@ -229,7 +249,7 @@
       width: 100%;
       padding: 0px;
     }
-  
+
     &-tweets {
       width: 100%;
       padding: 0px;
@@ -241,7 +261,7 @@
     }
     &-flex {
       flex-direction: column;
-      gap: 60px
+      gap: 60px;
     }
     &-navigation {
       .main-grid {

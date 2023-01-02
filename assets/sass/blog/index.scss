@@ -16,20 +16,13 @@ $blog-text-size: 1.313rem;
     }
   }
   &-header {
+    @extend .main-grid;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    &-title {
-      letter-spacing: $text-letter-spacing;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    h1 {
       text-align: left;
-      font-family: $text-font;
-      text-transform: none;
-      word-wrap: break-word;
     }
-
     &-bg {
       position: absolute;
       left: 0px;
@@ -45,25 +38,26 @@ $blog-text-size: 1.313rem;
       justify-content: flex-start;
       align-items: center;
       flex-wrap: wrap;
+      .blog-hedaer-date {
+        margin-top: 0px;
+      }
       &-flex {
+        margin-top: 30px;
         flex-wrap: wrap;
-        margin-top: 20px;
         display: flex;
+        gap: 20px;
+        align-items: center;
         .blog-share {
           margin-left: auto;
           margin-bottom: 0px;
+          gap: 20px;
           a {
-            width: 15px;
-            height: 15px;
-            margin-left: 35px;
-            margin-right: 0px;
+            width: 22px;
+            height: 22px;
             img {
               width: 100%;
               height: 100%;
               object-fit: contain;
-            }
-            &:first-child {
-              margin-left: 0px;
             }
           }
         }
@@ -130,10 +124,8 @@ $blog-text-size: 1.313rem;
           margin-bottom: 23px;
         }
         a {
-          @extend .btn;
+          @extend .button;
           height: 51px;
-          border-radius: 42px;
-          text-transform: none;
           padding: 0px 25px;
           text-decoration: none;
         }

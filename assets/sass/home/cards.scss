@@ -3,15 +3,14 @@
   min-height: 70px;
   height: auto;
   padding: 12px 16px;
-  background: $main-bg-color;
+  background: $app-background-color;
   position: relative;
   @include gradient-border(1px);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  &-links{
-   
+  &-links {
   }
   &-with-image {
     .card-content {
@@ -82,9 +81,8 @@
       height: calc(100% - 4px);
       background: #fcf8fd;
       border-radius: 50%;
-
     }
-  
+
     img {
       border-radius: 50%;
       width: 100%;
@@ -92,7 +90,6 @@
       overflow: hidden;
       object-fit: cover;
       position: relative;
-    
     }
   }
 
@@ -122,7 +119,7 @@
     right: 25px;
     padding: 0px 16px 2px 16px;
     height: 41px;
-    background: $main-bg-color;
+    background: white;
     @include gradient-border(1px);
     display: flex;
     align-items: center;
@@ -163,14 +160,12 @@
       margin-top: 1px;
     }
     &-text {
+      color: #ff8b97 !important;
       flex: 1;
       letter-spacing: 0.4px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-    }
-    &-website{
-      text-decoration: underline;
     }
   }
 }
