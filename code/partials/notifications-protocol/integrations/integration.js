@@ -12,7 +12,7 @@ function Integration({ image, _body, url, _relativeURL, _ID }) {
       <a href={url} target="_blank" className="integration-link">
         <img
           src={generateUrl(
-            "../../../../assets/img/notifications-protocol/github.svg"
+            "/assets/img/notifications-protocol/github.svg"
           )}
           alt="github"
         />
