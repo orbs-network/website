@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-in-2022-Driving-Forces-of-Adoption/blog.md
   - announcing-support-for-ton-connect-2.0-in-minter-and-verifier/blog.md
   - Guardian-Spotlight-My-Smart-Crypto/blog.md
   - How-to-Use-the-dTWAP-Order-on-SpiritSwap/blog.md
