@@ -6,6 +6,7 @@ first_section:
   - md/categories/transparency-and-data/index.md
   - md/categories/social-impact/index.md
   - md/categories/nft/index.md
+  - md/categories/applications/index.md
 
 second_section:
   - md/categories/chains/index.md
@@ -20,7 +21,9 @@ third_section:
   - md/categories/wallets/index.md
   - md/categories/defi/index.md
   - md/categories/media/index.md
+  - md/categories/governance/index.md
+
 ---
 
 
-# OUR ECOSYSTEM
+# ORBS ECOSYSTEM

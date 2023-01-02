@@ -5,5 +5,4 @@ title: Social Impact
 items:
   - hexa.md
   - yozma.md
-  - blockchain.md
 ---

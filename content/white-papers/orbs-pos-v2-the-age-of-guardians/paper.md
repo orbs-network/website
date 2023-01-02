@@ -10,4 +10,4 @@ published: "Published"
 image: /assets/img/white-papers/orbs-pos-v2-the-age-of-guardians.png
 ---
 
-An overview of all the major features in the new and improved Orbs proof-of-stake mechanism
+Version 2 of Orbs Proof-of-Stake will emphasize usage and performance while empowering the Orbs Universe Guardians. Orbs V2 will enable the Orbs Universe Guardians to take an active role in building and maintaining a secure, scalable network by running validator nodes, which will be the first choice for blockchain adoption, and to better manage and serve the network and its participants.

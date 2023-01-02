@@ -27,4 +27,6 @@ items:
   - kogefarm.md
   - trader-joe.md
   - bnb.md
+  - orbit.md
+  - tonswap.md
 ---

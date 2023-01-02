@@ -9,6 +9,4 @@ published: "Published"
 image: /assets/img/white-papers/bloom-filter-with-a-false-positive-free-zone.png
 ---
 
-A bloom filter is a probabilistic data structure for set representation with relatively low data storage use.
-
-\*This paper appeared at IEEE Infocom, April 2018 – [https://ieeexplore.ieee.org/document/8486415.](https://ieeexplore.ieee.org/document/8486415 "link")
+A bloom filter is a probabilistic data structure for set representation with relatively low data storage use. In this peer reviewed paper, the Orbs research team proposed model improvements. This paper appeared at IEEE Infocom, April 2018 - https://ieeexplore.ieee.org/document/8486415.

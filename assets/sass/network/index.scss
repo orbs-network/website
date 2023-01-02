@@ -1,11 +1,6 @@
-.network-grid {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 .network {
-  padding-bottom: 100px;
   position: relative;
+
   &-figure {
     position: absolute;
     width: 400px;
@@ -13,58 +8,51 @@
       top: 68%;
       left: -120px;
     }
- 
   }
   &-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    &-grid {
+    padding-top: $page-section-margin;
+    padding-bottom: $page-section-margin;
+
+    .main-grid {
       display: flex;
       align-items: center;
-      justify-content: center;
-      @extend .network-grid;
+      justify-content: space-between;
+      gap: 70px;
     }
     display: flex;
     align-items: center;
     h3 {
-      @extend .gradient-text;
-      font-weight: 900;
-      line-height: 1.5rem;
-      font-size: 1rem;
+      @extend .page-colored-section-title;
       &:last-of-type {
         margin-bottom: 20px;
       }
     }
 
     &-first {
+      padding-top: 0px;
       .network-section {
-        &-grid {
-          gap: 100px;
-        }
         &-image {
-          width: 242px;
+          max-width: 250px;
+          width: 100%;
           height: auto;
         }
-        &-text {
-          max-width: 600px;
-        }
+       
       }
     }
 
     &-second {
-      background: #f4f4f4;
+      background: $gray;
       position: relative;
       .network-section {
         &-image {
-          width: 430px;
+          max-width: 270px;
+           width: 100%;
         }
         &-text {
           flex: 1;
-          max-width: 700px;
-        
         }
       }
       &-top {
@@ -76,7 +64,7 @@
       }
     }
     &-third {
-      background: #5e75e8;
+      background: $blue;
       position: relative;
       min-height: 600px;
 
@@ -93,20 +81,16 @@
         }
         &-text {
           h2 {
-            font-size: 1.375rem;
-            font-weight: 900;
+            @extend .page-section-title;
             margin-bottom: 20px;
-            text-transform: uppercase;
-            color: white;
             text-align: center;
+            text-transform: uppercase;
           }
           h4 {
-            font-weight: 500;
-            font-size: 1.375rem;
             margin-bottom: 40px;
             text-transform: uppercase;
-            color: white;
             text-align: center;
+            @extend .page-section-subtitle;
           }
           .text-p {
             color: white;
@@ -114,97 +98,16 @@
         }
         &-right {
           position: relative;
-          transform: translate(162px);
-          max-width: 600px;
           margin-left: auto;
           display: flex;
           flex-direction: column;
           align-items: center;
+          max-width: 560px;
           img {
-            width: 452px;
-            margin-top: 30px;
+            width: 100%;
+            margin-top: $page-section-margin;
           }
         }
-      }
-    }
-  }
-  &-products {
-    padding-top: 50px;
-    margin-bottom: 150px;
-    @extend .network-grid;
-    &-header {
-      text-align: center;
-      margin-bottom: 50px;
-      h3 {
-        @extend .gradient-text;
-        font-weight: 900;
-        font-size: 1.375rem;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-      }
-      h4 {
-        @extend .gradient-text;
-        font-weight: 900;
-        font-size: 0.875rem;
-        text-transform: uppercase;
-      }
-    }
-    &-flex {
-      gap: 22px;
-      flex-wrap: wrap;
-      justify-content: center;
-      display: flex;
-      align-items: stretch;
-    }
-    &-product {
-      max-width: 460px;
-      width: 100%;
-      padding: 23px;
-      @include gradient-border(1px);
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      &-logo {
-        width: 66px;
-      }
-      h4 {
-        letter-spacing: -0.009rem;
-        @extend .gradient-text;
-        font-weight: 700;
-        font-size: 0.875rem;
-        line-height: 1.125rem;
-        margin-bottom: 27px;
-        text-align: center;
-        margin-top: 30px;
-      }
-      .text-p {
-        font-size: 0.75rem;
-      }
-    }
-  }
-  &-product-images {
-    @extend .network-grid;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 50px;
-  }
-  &-product-image {
-    text-align: center;
-    h3 {
-      @extend .gradient-text;
-      font-weight: 900;
-      font-size: 1.375rem;
-      margin-bottom: 58px;
-    }
-    &-1 {
-      img {
-        width: 640px;
-      }
-    }
-    &-2 {
-      img {
-        width: 540px;
       }
     }
   }
@@ -222,16 +125,11 @@
     }
     &-figure {
       zoom: 0.8;
-
     }
   }
 }
 
 @media only screen and (max-width: 1500px) {
-  .network-grid {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
   .network {
     &-section {
       &-second {
@@ -250,18 +148,18 @@
         width: 20vw;
       }
     }
-    &-product{
-      &-image{
-        h3{
+    &-product {
+      &-image {
+        h3 {
           font-size: 1.2rem;
         }
-        &-1{
-          img{
+        &-1 {
+          img {
             width: 500px;
           }
         }
-        &-2{
-          img{
+        &-2 {
+          img {
             width: 400px;
           }
         }
@@ -269,7 +167,7 @@
     }
   }
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
   .network {
     &-figure {
       display: none;
@@ -278,37 +176,31 @@
 }
 @media only screen and (max-width: 1000px) {
   .network {
-  
     &-section {
-      &-grid {
+      .main-grid {
         flex-direction: column;
+        gap: 30px;
       }
       &-first {
-        padding-top: 60px;
-        padding-bottom: 140px;
         .network-section {
-          &-grid {
-            gap: 70px;
-          }
           &-left {
-            order: 2;
+            order: 1;
           }
           &-image {
             width: 50%;
             max-width: 250px;
-            order: 1;
+
+            order: 2;
           }
         }
       }
       &-second {
-        padding-top: 110px;
-        padding-bottom: 60px;
         &-top {
           width: 200px;
         }
         .network-section {
-          &-right{
-            order:1;
+          &-right {
+            order: 1;
           }
           &-image {
             max-width: 300px;
@@ -321,6 +213,7 @@
         .network-section {
           &-right {
             transform: none;
+            margin-left: 0px;
             img {
               max-width: 400px;
               width: 100%;
@@ -328,15 +221,14 @@
           }
           &-image {
             transform: translate(-300px);
+            display: none;
           }
         }
       }
     }
-    &-products{
-      margin-bottom: 100px;
-    }
+
     &-product {
-      &-images{
+      &-images {
         gap: 50px;
         flex-direction: column;
         align-items: center;

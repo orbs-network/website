@@ -1,27 +1,15 @@
 import React from "react";
 import MainGrid from "../shared/MainGrid";
 
-const Main = ({
-  _body,
-  link,
-  firstFlex,
-  secondFlex,
-  thirdFlex,
-  link2,
-  subText,
-}) => {
+const Main = ({ _body, link, firstFlex, secondFlex, thirdFlex, link2 }) => {
   return (
-    <main className="universe">
-      <header className="header universe-header">{_body}</header>
+    <main className="universe page">
       <MainGrid>
-        <div className="universe-sub-text">{subText}</div>
+        <header className="header universe-header">{_body}</header>
       </MainGrid>
-
       {firstFlex}
-      <MainGrid>
-        {secondFlex}
-        {thirdFlex}
-      </MainGrid>
+      {secondFlex}
+      <MainGrid>{thirdFlex}</MainGrid>
       <div className="universe-bottom-links">
         {link}
         {link2}

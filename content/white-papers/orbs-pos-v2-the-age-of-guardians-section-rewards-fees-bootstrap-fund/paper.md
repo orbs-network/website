@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/white-paper-mapper
-title: Accelerating Decentralized Execution of Blockchain
+title: Accelerating Decentralized Execution of Blockchain Transactions Towards Centralized Performance
 readPaperBtn: read the paper
 date: August 2018
 url: white-papers/accelerating-decentralized-execution-of-blockchain

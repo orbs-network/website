@@ -7,6 +7,8 @@ overview:
 
 resources:
   - resources/index.md
-about:
-  - about/index.md
+protocols:
+  - protocols/index.md
+community:
+  - community/index.md
 ---

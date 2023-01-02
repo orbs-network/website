@@ -1,9 +1,11 @@
+import { showSubscribePopup } from "../components/subscribe.js";
 import {
   getElements,
   addEvent,
   getElementAttribute,
   getElement,
 } from "../heplers.js";
+const subscribeBtn = document.querySelector(".footer .subscribe-btn");
 
 const handleMobileClick = (e) => {
   const activeClass = "footer-navigation-mobile-list-active";
@@ -99,6 +101,7 @@ const getBlogAttributes = (blog) => {
 export const init = () => {
   addMobileClickEvents();
   handleBlogs();
+  if (subscribeBtn) subscribeBtn.addEventListener("click", showSubscribePopup);
 };
 
 export default {

@@ -5,13 +5,15 @@ const Section = ({ children, category }) => {
   return <div className={className}>{children}</div>;
 };
 
-const FooterNavigation = ({ about, overview, resources }) => {
+const FooterNavigation = ({ protocols, overview, resources, community }) => {
   return (
     <section className="footer-navigation">
       <div className="main-grid flex-start">
         <Section category="overview">{overview}</Section>
+        <Section category="protocols">{protocols}</Section>
+        <Section category="community">{community}</Section>
+
         <Section category="resources"> {resources}</Section>
-        <Section category="about">{about}</Section>
       </div>
     </section>
   );

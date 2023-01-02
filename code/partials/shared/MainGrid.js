@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function MainGrid({children}) {
-  return (
-    <div className='main-grid'>{children}</div>
-  )
+function MainGrid({ children, className = "" }) {
+  return <div className={`main-grid ${className}`}>{children}</div>;
 }
 
-export default MainGrid
+export default MainGrid;

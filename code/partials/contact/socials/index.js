@@ -3,7 +3,9 @@ import React from "react";
 function ContactSocials({ title, sections }) {
   return (
     <div className="contact-socials">
-      <h3>{title}</h3>
+      <header className="header">
+        <h1>{title}</h1>
+      </header>
       <div className="contact-socials-flex">{sections}</div>
     </div>
   );

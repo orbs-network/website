@@ -11,4 +11,4 @@ countryCode: UK
 
 Proof of Stake
 
-reading time: 6 min
+Reading Time: 6 min

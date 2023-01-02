@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[The Orbs Network](/network)
+[WHAT IS ORBS: LAYER 3](/overview)

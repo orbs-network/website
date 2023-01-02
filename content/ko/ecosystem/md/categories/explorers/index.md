@@ -10,4 +10,5 @@ items:
   - bscscan.md
   - ethplorer.md
   - ftm.md
+  - tonscan.md
 ---

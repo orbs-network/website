@@ -1,6 +1,6 @@
 ---
 layout: partials/ecosystem/category
-title: wallets
+title: Wallets
 
 items:
   - tetra.md

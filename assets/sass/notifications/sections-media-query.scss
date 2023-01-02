@@ -1,0 +1,70 @@
+
+
+@media only screen and (max-width: 1000px) {
+  .notifications {
+  
+    .contribute {
+      &-example {
+        flex-direction: column;
+      }
+      &-bottom-buttons {
+        .link-button {
+          padding: 0px 30px;
+        }
+      }
+    }
+    .integrations-list {
+      .integration {
+        width: calc(100% / 3 - 18px);
+      }
+    }
+ 
+  }
+}
+
+@media only screen and (max-width: 550px) {
+ 
+  .notifications {
+     .contribute-example-body{
+    width: 100%;
+  }
+    .integrations {
+      margin-top: 80px;
+      &-list {
+        gap: 12px;
+        justify-content: center;
+        align-items: stretch;
+        #integration-pr {
+          p {
+            font-size: 17px;
+          }
+        }
+        .integration {
+          width: calc(50% - 10px);
+          height: auto;
+          gap: 15px;
+
+          &-image {
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+    }
+
+    .apps {
+      &-title {
+        margin-bottom: 25px;
+        font-size: 26px;
+        line-height: 32px;
+        max-width: 300px;
+      }
+      &-body {
+        p {
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

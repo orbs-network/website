@@ -9,6 +9,6 @@ blogs:
   - /blog/governance-blogs.md
 ---
 
-# THE ORBS PROJECT BLOG
+# THE ORBS GOVERNANCE BLOG
 
-## Thoughts about the Orbs project, open source, blockchain and engineering.
+## All posts related to community governance of the Orbs Network.

@@ -96,7 +96,6 @@ const createItem = (element) => {
     post.innerHTML = html;
     return post;
   } catch (error) {
-    console.log(element.id, props);
   }
 };
 

@@ -1,13 +1,14 @@
 import React from "react";
 import { images } from "../../../assets/js/images";
+import Img from "../shared/Img";
 import Flags from "./components/flags";
-import MenuToggle from "./components/menu-toggle";
 
 const NavbarMenu = ({
   socials_white,
   overview,
   resources,
-  about,
+  protocols,
+  community,
   _relativeURL,
   _ID,
   home,
@@ -20,12 +21,17 @@ const NavbarMenu = ({
   return (
     <div className="navbar-menu">
       <div className="navbar-menu-header flex-between">
-        <MenuToggle
-          image={"/assets/img/navbar/menu/logo.svg"}
-          url={generateUrl(home)}
-          customClassName="navbar-burger-close"
-          toggleImg={generateUrl(images.common.closeWhite)}
-        />
+        <button className="hide-menu">
+          <Img src={generateUrl(images.common.closeWhite)} alt="menu-toggle" />
+        </button>
+        <a href={generateUrl(home)} className="logo" rel="noopener">
+          <Img
+            src={generateUrl("/assets/img/navbar/menu/logo.svg")}
+            alt="orbs logo"
+          />
+          <p style={{ color: "white" }}>ORBS</p>
+        </a>
+
         {socials_white}
       </div>
       <Flags
@@ -39,7 +45,8 @@ const NavbarMenu = ({
       >{`+ ${subscribe_to_updates}`}</button>
       <div className="navbar-menu-flex">
         {overview}
-        {about}
+        {protocols}
+        {community}
         {resources}
       </div>
       <div className="navbar-menu-mobile-social"> {socials_white}</div>

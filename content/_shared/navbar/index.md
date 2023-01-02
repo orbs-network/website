@@ -6,8 +6,10 @@ resources:
   - menu-links/resources/index.md
 overview:
   - menu-links/overview/index.md
-about:
-  - menu-links/about/index.md
+protocols:
+  - menu-links/protocols/index.md
+community:
+  - menu-links/community/index.md
 socials:
   - ../socials/index.md
 socials_white:
@@ -24,7 +26,13 @@ languages:
   - id: jp
     link: /jp
     img: /assets/img/navbar/japan.svg
-subscribe_to_updates: subscribe to updates
+subscribe_to_updates: subscribe
+developers: developers
+status: network status
+status_url: https://status.orbs.network/
+github: github
+github_url: https://github.com/orbs-network
+developers_url: https://docs.orbs.network/v3/overview/what-is-orbs 
 blog: blog
 blog_link: /blog
 ---

@@ -1,0 +1,21 @@
+title: Ton Access
+layout: pages/page
+script: ton-gateway/index
+
+header:
+  - /jp/_shared/navbar/index.md
+
+main:
+  - body.md
+
+footer:
+  - /jp/_shared/footer/footer.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md
+gdpr:
+  - /jp/_shared/gdpr/index.md
+
+description: orbs smart cobtracts overview
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

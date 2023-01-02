@@ -3,6 +3,15 @@
     position: absolute;
     top: -110px;
   }
+  .side-menu-title {
+    display: none;
+    padding-top: 20px;
+  }
+  .opening-box-title {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.5;
+  }
   &-flex {
     margin: auto;
     height: auto;
@@ -67,7 +76,7 @@
           font-size: 1.063rem;
           letter-spacing: 0.04rem;
           line-height: 1.438rem;
-          
+
           text-decoration: none;
           &:hover {
             text-decoration: underline;
@@ -91,7 +100,6 @@
   }
 
   &-lists {
-    padding-top: 165px;
     width: calc(100% - 420px);
     max-width: 792px;
     &-category {
@@ -104,12 +112,9 @@
         display: none;
       }
       h5 {
-        letter-spacing: 0.063rem;
-        text-transform: uppercase;
-        margin-bottom: 15px;
+        margin-bottom: $page-section-title-margin-small;
         text-align: left;
-        font-size: 0.938rem;
-        @extend .gradient-text;
+        @extend .page-colored-section-title;
       }
     }
   }
@@ -139,18 +144,7 @@
       flex-direction: column;
     }
     .side-menu {
-      position: relative;
-      height: auto;
-      margin-top: 0px;
-      top: 0px;
-      margin-bottom: 30px;
-      width: 100%;
-      .faq-side-menu-additional {
-        margin-top: 20px;
-      }
-      .socials {
-        margin-top: 20px;
-      }
+      display: none;
     }
 
     &-mobile-menu {

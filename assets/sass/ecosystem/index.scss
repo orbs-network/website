@@ -1,9 +1,9 @@
 .ecosystem {
+  padding-bottom: 100px;
   .title {
     text-align: center;
   }
   &-grid {
-    margin-bottom: 100px;
     width: 100%;
     align-items: flex-start;
     margin-top: 84px;
@@ -21,9 +21,7 @@
       margin-bottom: 0px;
     }
     &-title {
-      background: #d389d5;
-
-      letter-spacing: $text-letter-spacing;
+      background: $blue;
       padding-left: 15px;
       height: 40px;
       display: flex;
@@ -59,21 +57,16 @@
   }
 }
 
-
-
-
-
 @media only screen and (max-width: 1000px) {
   .ecosystem {
-      &-grid{
-        margin-top: 50px;
-        flex-direction: column;
-        &-section{
-          width: 100%;
-        }
+    &-grid {
+      margin-top: 50px;
+      flex-direction: column;
+      &-section {
+        width: 100%;
       }
+    }
     &-category {
-    
       &-title {
         font-size: 0.875rem;
         h5 {
@@ -82,7 +75,7 @@
       }
       &-list {
         &-item {
-         width: calc(50% - 20px);
+          width: calc(50% - 20px);
         }
       }
     }

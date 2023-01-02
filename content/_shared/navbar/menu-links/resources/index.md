@@ -7,6 +7,5 @@ links:
   - network-status.md
   - calculator.md
   - defi.md
-  - notifications.md
-  - twap.md
+  - developers.md
 ---

@@ -11,4 +11,4 @@ countryCode: GR
 
 ORBS token
 
-reading time: 3 min
+Reading Time: 3 min

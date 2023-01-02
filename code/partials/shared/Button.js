@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Button({_body, id =''}) {
-    return (
-        <button className='button' id = {id}>
-                {_body}
-        </button>
-    )
+function Button({ _body, id = "" }) {
+  return (
+    <button className="button" id={id}>
+      {_body}
+    </button>
+  );
 }
 
-export default Button
+export default Button;
