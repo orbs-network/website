@@ -15,9 +15,11 @@ links:
     url: https://discord.gg/sswGDYGBt5
 
  
-
   - img: /assets/img/socials/gray/youtube.svg
     url: https://www.youtube.com/channel/UCfpV4z-MGxeiabFkht1LNPQ/featured
+
+  - img: /assets/img/socials/gray/snapshot.jpeg
+    url: https://snapshot.org/#/orbs-network.eth
 
     
 ---

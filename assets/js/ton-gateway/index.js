@@ -6,8 +6,6 @@ const keys = {
   network: "network",
 };
 
-let isMobile = false;
-
 let exampleSelection = {
   [keys.apiFlavor]: "toncenter-http-api-v2",
   [keys.clientLibrary]: "npm-ton",
@@ -22,8 +20,7 @@ const clientLibrarySelector = document.querySelector(
   `[data-key="${keys.clientLibrary}"]`
 );
 let selectedLibrary = undefined;
-const copyButton = document.querySelector(".ton-gateway-example-copy button");
-const copyTooltip = document.querySelector(".ton-gateway-example-copy-tooltip");
+
 const onLoad = async () => {
   init();
   addCardsEvents();
@@ -31,11 +28,14 @@ const onLoad = async () => {
   jsonConfig = await response.json();
   addEventsToSelectboxes();
   triggerInitialselect();
-  copyButton.addEventListener("click", async () => {
+  const element = document.querySelector("#ton-gateway-copy");
+  const tooltip = element.querySelector(".copy-tooltip");
+  if (!element || !tooltip) return;
+  element.addEventListener("click", async () => {
     await navigator.clipboard.writeText(codeSnippet);
-    copyTooltip.classList.add("active");
+    tooltip.classList.add("active");
     setTimeout(() => {
-      copyTooltip.classList.remove("active");
+      tooltip.classList.remove("active");
     }, 4000);
   });
 };
@@ -137,10 +137,9 @@ const hideNotSupportedWallets = (selectorItem) => {
 };
 
 const generateExample = ({ apiFlavor, clientLibrary, network }) => {
-  console.log(apiFlavor, clientLibrary, network);
   try {
     const name = `${apiFlavor}.${clientLibrary}.${network}`;
-    const container = document.querySelector(".ton-gateway-hljs");
+    const container = document.querySelector(".hljs");
     codeSnippet = jsonConfig[name];
     const value = hljs.highlight(codeSnippet, {
       language: clientLibrary.startsWith("cdn-") ? "html" : "javascript",

@@ -1,5 +1,7 @@
 ---
 layout: partials/notifications-protocol/contribute/example
+copy: 
+  - copy.md
 ---
 
 ![](/assets/img/notifications-protocol/integrations/aave.svg)

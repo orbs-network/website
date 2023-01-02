@@ -6,6 +6,8 @@
   font-family: "Montserrat";
   .main-grid {
     align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
   }
   &-section-title {
     display: flex;
@@ -127,6 +129,8 @@
     border-bottom: 2px solid $blue;
     margin-top: 40px;
     padding-bottom: 40px;
+    &-section {
+    }
     .text-p {
       line-height: normal;
     }
@@ -153,9 +157,7 @@
         display: none;
         padding-left: 20px;
         margin-top: 10px;
-        .test-p {
-          min-width: 100%;
-        }
+
         a {
           text-decoration: none;
           margin-bottom: 20px;
@@ -170,6 +172,7 @@
     }
     &-links {
       &-title {
+        white-space: nowrap;
         font-size: 1rem;
         margin-bottom: 20px;
         text-transform: uppercase;
@@ -180,6 +183,8 @@
       &-list {
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
 
         a {
           text-overflow: ellipsis;
@@ -193,24 +198,21 @@
           font-weight: 500;
         }
         .text-p {
-          margin-bottom: 14px;
+          margin-bottom: unset;
         }
       }
     }
     &-overview {
-      width: 20%;
       .text-p {
         width: 100%;
       }
     }
     &-resources {
-      width: 50%;
       .text-p {
         width: 30%;
       }
     }
     &-about {
-      width: 30%;
       .text-p {
         width: 50%;
       }

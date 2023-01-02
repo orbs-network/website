@@ -1,6 +1,7 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
 import MainGrid from "../shared/MainGrid";
+const PoweredImg = "/assets/img/powered.svg";
 
 const Hero = ({ _body, _relativeURL, _ID }) => {
   const generateUrl = (url) => {
@@ -16,6 +17,7 @@ const Hero = ({ _body, _relativeURL, _ID }) => {
           )}
           className="hero-image"
         />
+        <img src={generateUrl(PoweredImg)} className="hero-powered" />
       </div>
     </MainGrid>
   );

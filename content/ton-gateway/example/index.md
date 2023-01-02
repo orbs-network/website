@@ -6,6 +6,8 @@ selectors:
   - selectors/network/index.md
 github: Github readme
 telegram: Telegram Support
+copy:
+  - copy.md
 ---
 
 ### Initialize the RPC endpoint

@@ -57,6 +57,7 @@
   text-decoration: none;
   transition: 0.2s all;
   cursor: pointer;
+  text-align: center;
 }
 .button *, .ton-gateway-header-button *, .single-blog-bottom-flex-item a *, .white-button *, .ton-gateway-example-links a *, .notifications .contribute-bottom-buttons .link-button *, .pink-button *, .news #load-more-posts *, .news-video-right-button *, .white-papers-box-btn *, .form-submit-container .form-submit *, .expending-box .expend-btn * {
   font-size: inherit;
@@ -95,7 +96,7 @@
   text-transform: uppercase;
 }
 
-.page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
+.page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
 .expending-box .title-h4, .header-top-text, .ton-gateway-header-github p, .header h4, .news-hero h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-grid-section h3 {
   font-size: 24px;
   font-weight: 700;
@@ -185,7 +186,7 @@
 
 @media only screen and (max-width: 1050px) {
   .notifications .main-grid, .notifications .orbs-vm .common-grid-section-grid, .orbs-vm .notifications .common-grid-section-grid, .notifications .news-grid, .notifications .contact, .notifications .single-blog-header {
-    width: calc(100% - 50px);
+    width: calc(100% - 40px);
   }
 }
 @media only screen and (max-width: 800px) {
@@ -208,7 +209,7 @@
     padding-top: 110px;
   }
 
-  .page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-example-body h4, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
+  .page-section-title, .ton-gateway-example-title *, .notifications .alerts-description h3, .notifications .integrations-list #integration-pr > p, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
 .expending-box .title-h4, .page-colored-section-title, .ton-gateway-powered h3, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .header-top-text, .ton-gateway-header-github p, .header h4, .news-hero h4, .common-grid-section h3 {
     font-size: 20px;
     line-height: 26px;
@@ -219,9 +220,15 @@
   }
 
   .button, .ton-gateway-header-button, .single-blog-bottom-flex-item a, .pink-button, .news #load-more-posts, .news-video-right-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
 }
+.hljs {
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 html,
 body,
 div,
@@ -1317,6 +1324,75 @@ body {
     width: 100%;
   }
 }
+.copy {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.copy img {
+  width: 20px;
+}
+.copy-tooltip {
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 10px);
+  background: white;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s all;
+  transform: translate(0, -50%);
+}
+.copy .active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(0, -50%);
+}
+
+.code-container {
+  background: white;
+  display: flex;
+  border-radius: 20px;
+  align-items: stretch;
+}
+.code-container-left {
+  padding: 50px 35px 50px 35px;
+}
+.code-container-right {
+  position: relative;
+  padding: 50px 30px 30px 30px;
+  background: #f4f4f4;
+  flex: 1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.code-container code {
+  padding: 0 !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .code-container {
+    flex-direction: column;
+  }
+  .code-container-left {
+    padding: 40px 20px 40px 20px;
+  }
+  .code-container-left > div {
+    width: 100%;
+  }
+  .code-container-right {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .hljs {
+    font-size: 14px !important;
+    line-height: 22px;
+  }
+}
 .flex-list {
   flex-wrap: wrap;
   display: flex;
@@ -2304,6 +2380,8 @@ body {
 }
 .footer .main-grid, .footer .orbs-vm .common-grid-section-grid, .orbs-vm .footer .common-grid-section-grid, .footer .news-grid, .footer .contact, .footer .single-blog-header {
   align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px;
 }
 .footer-section-title {
   display: flex;
@@ -2446,9 +2524,6 @@ body {
   padding-left: 20px;
   margin-top: 10px;
 }
-.footer-navigation-mobile-list .test-p {
-  min-width: 100%;
-}
 .footer-navigation-mobile-list a {
   text-decoration: none;
   margin-bottom: 20px;
@@ -2459,6 +2534,7 @@ body {
   display: flex;
 }
 .footer-navigation-links-title {
+  white-space: nowrap;
   font-size: 1rem;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -2467,6 +2543,8 @@ body {
 .footer-navigation-links-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
 }
 .footer-navigation-links-list a {
   text-overflow: ellipsis;
@@ -2479,21 +2557,12 @@ body {
   font-weight: 500;
 }
 .footer-navigation-links-list .text-p, .footer-navigation-links-list .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-links-list *, .footer-navigation-links-list .selectbox-list-item h4, .selectbox-list-item .footer-navigation-links-list h4, .footer-navigation-links-list .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-links-list h5, .footer-navigation-links-list .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-links-list h5, .footer-navigation-links-list .news-hero-body h4, .news-hero-body .footer-navigation-links-list h4, .footer-navigation-links-list .blog-list-blog-title, .footer-navigation-links-list .blog .header h2, .footer-navigation-links-list .blog .news-hero h2, .blog .header .footer-navigation-links-list h2, .blog .news-hero .footer-navigation-links-list h2 {
-  margin-bottom: 14px;
-}
-.footer-navigation-overview {
-  width: 20%;
+  margin-bottom: unset;
 }
 .footer-navigation-overview .text-p, .footer-navigation-overview .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-overview *, .footer-navigation-overview .selectbox-list-item h4, .selectbox-list-item .footer-navigation-overview h4, .footer-navigation-overview .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-overview h5, .footer-navigation-overview .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-overview h5, .footer-navigation-overview .news-hero-body h4, .news-hero-body .footer-navigation-overview h4, .footer-navigation-overview .blog-list-blog-title, .footer-navigation-overview .blog .header h2, .footer-navigation-overview .blog .news-hero h2, .blog .header .footer-navigation-overview h2, .blog .news-hero .footer-navigation-overview h2 {
   width: 100%;
 }
-.footer-navigation-resources {
-  width: 50%;
-}
 .footer-navigation-resources .text-p, .footer-navigation-resources .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-resources *, .footer-navigation-resources .selectbox-list-item h4, .selectbox-list-item .footer-navigation-resources h4, .footer-navigation-resources .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-resources h5, .footer-navigation-resources .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-resources h5, .footer-navigation-resources .news-hero-body h4, .news-hero-body .footer-navigation-resources h4, .footer-navigation-resources .blog-list-blog-title, .footer-navigation-resources .blog .header h2, .footer-navigation-resources .blog .news-hero h2, .blog .header .footer-navigation-resources h2, .blog .news-hero .footer-navigation-resources h2 {
-  width: 30%;
-}
-.footer-navigation-about {
   width: 30%;
 }
 .footer-navigation-about .text-p, .footer-navigation-about .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-about *, .footer-navigation-about .selectbox-list-item h4, .selectbox-list-item .footer-navigation-about h4, .footer-navigation-about .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-about h5, .footer-navigation-about .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-about h5, .footer-navigation-about .news-hero-body h4, .news-hero-body .footer-navigation-about h4, .footer-navigation-about .blog-list-blog-title, .footer-navigation-about .blog .header h2, .footer-navigation-about .blog .news-hero h2, .blog .header .footer-navigation-about h2, .blog .news-hero .footer-navigation-about h2 {
@@ -4687,7 +4756,7 @@ body {
   width: 100%;
 }
 .orbs-vm .orbs-vm-graph-1 .orbs-vm-graph-grid {
-  transform: translate(162px);
+  transform: translate(60px);
 }
 .orbs-vm .orbs-vm-graph-2 .orbs-vm-graph-image {
   max-width: 450px;
@@ -4738,6 +4807,11 @@ body {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 1550px) {
+  .orbs-vm .orbs-vm-graph-bg {
+    max-width: 1100px;
+  }
+}
 @media only screen and (max-width: 900px) {
   .orbs-vm .orbs-vm-graph-1 .orbs-vm-graph-grid {
     transform: unset;
@@ -4795,11 +4869,19 @@ body {
 .notifications .hero {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  position: relative;
+  gap: 50px;
+  padding-bottom: 60px;
+}
+.notifications .hero-powered {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .notifications .hero-image {
-  width: 550px;
+  width: 530px;
   height: auto;
+  top: 0px;
   object-fit: contain;
   position: relative;
 }
@@ -4853,7 +4935,7 @@ body {
 .notifications .contribute-bottom-buttons {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 .notifications .contribute-bottom-buttons .link-button {
   text-transform: uppercase;
@@ -4866,37 +4948,16 @@ body {
   margin-bottom: 40px;
   text-align: center;
 }
-.notifications .contribute-example {
-  display: flex;
-  border-radius: 20px;
-  background: white;
-  overflow: hidden;
-  flex: 1;
-}
 .notifications .contribute-example-body {
-  padding: 30px;
-  width: 350px;
-  display: flex;
-  flex-direction: column;
+  width: 300px;
+  height: 100%;
 }
-.notifications .contribute-example-body img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
+.notifications .contribute-example-body .text-p, .notifications .contribute-example-body .selectbox-list-item h4 *, .selectbox-list-item h4 .notifications .contribute-example-body *, .notifications .contribute-example-body .selectbox-list-item h4, .selectbox-list-item .notifications .contribute-example-body h4, .notifications .contribute-example-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .notifications .contribute-example-body h5, .notifications .contribute-example-body .integrations-list .integration h5, .notifications .integrations-list .integration .contribute-example-body h5, .notifications .contribute-example-body .blog .header h2, .blog .header .notifications .contribute-example-body h2, .notifications .contribute-example-body .blog-list-blog-title, .notifications .contribute-example-body .blog .news-hero h2, .blog .news-hero .notifications .contribute-example-body h2, .notifications .contribute-example-body .news-hero-body h4, .news-hero-body .notifications .contribute-example-body h4 {
+  margin: 0px;
 }
 .notifications .contribute-example-body h4 {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #454545;
-}
-.notifications .contribute-example-body p:first-of-type {
-  display: none;
-}
-.notifications .contribute-example-hero {
-  flex: 1;
-  object-fit: cover;
-  background: #f4f4f4;
-  padding: 20px 10px 30px 10px;
 }
 .notifications .integrations {
   margin-top: 80px;
@@ -5053,6 +5114,7 @@ body {
     flex-direction: column;
     gap: 80px;
     align-items: center;
+    padding-bottom: 0px;
   }
   .notifications .hero-description {
     max-width: 700px;
@@ -5061,6 +5123,11 @@ body {
     zoom: 1;
     max-width: 500px;
     width: 100%;
+  }
+  .notifications .hero-powered {
+    position: static;
+    right: 0;
+    bottom: 0;
   }
   .notifications .contribute-example {
     flex-direction: column;
@@ -5084,7 +5151,6 @@ body {
 }
 @media only screen and (max-width: 550px) {
   .notifications .contribute-example-body {
-    padding: 20px;
     width: 100%;
   }
   .notifications .integrations {
@@ -5283,60 +5349,11 @@ body {
   position: absolute;
   top: 0px;
 }
-.ton-gateway-example-flex {
-  display: flex;
-  align-items: stretch;
-  border-radius: 20px;
-  width: 100%;
-  background: white;
-}
 .ton-gateway-example-options {
   display: flex;
   flex-direction: column;
   gap: 47px;
-  width: 430px;
-  padding: 50px 35px 50px 35px;
-}
-.ton-gateway-example .hljs {
-  padding: 0;
-  font-size: 15px;
-  line-height: 24px;
-}
-.ton-gateway-example-code {
-  flex: 1;
-  background: #f4f4f4;
-  padding: 50px 30px 30px 30px;
-  position: relative;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  overflow: hidden;
-}
-.ton-gateway-example-code .ton-gateway-example-copy {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-}
-.ton-gateway-example-code .ton-gateway-example-copy img {
-  width: 20px;
-}
-.ton-gateway-example-code .ton-gateway-example-copy-tooltip {
-  position: absolute;
-  top: 50%;
-  right: calc(100% + 10px);
-  background: white;
-  border-radius: 50px;
-  font-size: 12px;
-  font-weight: 500;
-  padding: 5px;
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.25s all;
-  transform: translate(0, -50%);
-}
-.ton-gateway-example-code .ton-gateway-example-copy .active {
-  opacity: 1;
-  pointer-events: all;
-  transform: translate(0, -50%);
+  width: 360px;
 }
 .ton-gateway-example-links {
   display: flex;
@@ -5654,20 +5671,6 @@ body {
   }
   .ton-gateway-cards .list {
     gap: 20px;
-  }
-  .ton-gateway-example-options {
-    gap: 30px;
-    width: 100%;
-    max-width: 500px;
-    padding: 20px;
-    padding-top: 40px;
-  }
-  .ton-gateway-example-code {
-    border-bottom-left-radius: 20px;
-    padding: 40px 20px 30px 20px;
-  }
-  .ton-gateway-example-flex {
-    flex-direction: column;
   }
 }
 @media only screen and (min-width: 500px) {

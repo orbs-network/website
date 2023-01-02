@@ -3,11 +3,19 @@
   .hero {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    position: relative;
+    gap: 50px;
+    padding-bottom: 60px;
+    &-powered {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
 
     &-image {
-      width: 550px;
+      width: 530px;
       height: auto;
+      top: 0px;
       object-fit: contain;
       position: relative;
     }
@@ -67,7 +75,7 @@
       &-buttons {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
         .link-button {
           @extend .white-button;
           text-transform: uppercase;
@@ -88,43 +96,16 @@
     }
 
     &-example {
-      display: flex;
-      border-radius: 20px;
-      background: white;
-      overflow: hidden;
-      flex: 1;
-
       &-body {
-        padding: 30px;
-        width: 350px;
-        display: flex;
-        flex-direction: column;
-
-        img {
-          width: 70px;
-          height: 70px;
-          object-fit: cover;
+        width: 300px;
+        height: 100%;
+        .text-p{
+          margin: 0px;
         }
-
-        h4 {
-          margin-top: 20px;
-          margin-bottom: 20px;
-          @extend .page-section-title;
-          color: $text-color;
-        }
-
-        p {
-          &:first-of-type {
-            display: none;
-          }
-        }
-      }
-
-      &-hero {
-        flex: 1;
-        object-fit: cover;
-        background: $gray;
-        padding: 20px 10px 30px 10px;
+       h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
       }
     }
   }

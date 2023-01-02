@@ -12,6 +12,6 @@ The Orbs Network launched in March of 2019​. The successful mainnet launch has
 
 The Orbs Universe now emphasizes usage and performance while empowering the Orbs Universe Guardians. It enables Orbs Universe Guardians to take an active role in building and maintaining a secure, scalable network, which will be the first choice for blockchain adoption, and to better manage and serve the network and its participants.
 
-With the launch of V2.5, Orbs introduced numerous improvements, mainly in the staking rewards assignment and distribution architecture, leading to an improved distribution mechanism and significant reduction in Guardians operating costs. Orbs team aims to enhance network security and scalability through the Orbs PoS Universe and enables the on-boarding of clients with different use-cases.
+With the launch of V2.5, Orbs introduced numerous improvements, mainly in the staking rewards assignment and distribution architecture, leading to an improved distribution mechanism and significant reduction in Guardians operating costs. V2.5 aims to enhance network security and scalability through the Orbs PoS Universe and enables the on-boarding of clients with different use-cases.
 
-Orbs PoS V3: Multi-chain Staking”, utilizes Orbs’ hybrid architecture and cross-chain properties to allow for participation in Orbs PoS on both Ethereum and Polygon.
+Orbs PoS V3: Multi-chain Staking” utilizes Orbs’ hybrid architecture and cross-chain properties to allow for participation in Orbs PoS on both Ethereum and Polygon.

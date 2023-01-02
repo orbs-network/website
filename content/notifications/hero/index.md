@@ -2,9 +2,9 @@
 layout: partials/notifications-protocol/Hero
 ---
 
-#### A **DeFi.org** Project,
+#### A **DeFi.org** Project:
 
-# An open notification protocol for DeFi on-chain events
+# Open notification protocol for DeFi on-chain events
 
 The Open DeFi Notification Protocol is a community led initiative to provide users with decentralized and free mobile notifications for on-chain events.
 

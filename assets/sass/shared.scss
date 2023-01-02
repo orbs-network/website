@@ -64,6 +64,7 @@ $text-letter-spacing: -0.009rem;
   text-decoration: none;
   transition: 0.2s all;
   cursor: pointer;
+  text-align: center;
   & * {
     font-size: inherit;
     font-family: inherit;
@@ -208,7 +209,7 @@ $text-letter-spacing: -0.009rem;
 @media only screen and (max-width: 1050px) {
   .notifications {
     .main-grid {
-      width: calc(100% - 50px);
+      width: calc(100% - 40px);
     }
   }
 }
@@ -239,6 +240,13 @@ $text-letter-spacing: -0.009rem;
     font-size: 16px;
   }
   .button {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
 }
+
+
+  .hljs {
+      padding: 0;
+      font-size: 15px;
+      line-height: 24px;
+    }
