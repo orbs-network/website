@@ -1,5 +1,5 @@
 ---
-layout: partials/ton-gateway/Cards/Cards
+layout: partials/ton-gateway/cards/Cards
 list:
   - unthrottled/index.md
   - no-api-key/index.md

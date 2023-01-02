@@ -1,5 +1,5 @@
 ---
-layout: partials/ton-gateway/Cards/Card
+layout: partials/ton-gateway/cards/Card
 title: No API Key
 text:
   - text.md

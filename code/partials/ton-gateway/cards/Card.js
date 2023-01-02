@@ -8,6 +8,7 @@ function Card({ title, _body, text, button, image, _relativeURL, _ID }) {
 
   return (
     <div className="ton-gateway-cards-card">
+      
       <div className="ton-gateway-cards-card-top">
         <img src={generateUrl(image)} />
         <h3 className="ton-gateway-cards-card-title">{title}</h3>
