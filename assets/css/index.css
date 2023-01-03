@@ -208,7 +208,7 @@
 }
 @media only screen and (max-width: 600px) {
   .page-title, .side-menu-title, .header h1, .news-hero h1 {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 36px;
   }
 
