@@ -3,8 +3,8 @@ layout: partials/footer/components/posts/index
 title: Latest Blog Posts
 type: footer
 subscribeBtn: Subscribe
-subscribe: Subscribe To Updates
+subscribe: SUBSCRIBE FOR UPDATES
 list:
-  - /Orbs-in-2022-Driving-Forces-of-Adoption/blog.md
-  - /announcing-support-for-ton-connect-2.0-in-minter-and-verifier/blog.md
+  - /blog/3rd-orbs-rewards-distribution-summary/blog.md
+  - /blog/4th-orbs-rewards-distribution-summary/blog.md
 ---

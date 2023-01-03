@@ -2493,7 +2493,7 @@ body {
   height: 20px;
 }
 .footer-flex {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -2527,19 +2527,23 @@ body {
 .footer-logo-section a {
   text-decoration: none;
 }
+.footer-blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .footer-blogs {
   width: 35%;
 }
 .footer-blogs-subscribe {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .footer-blogs .subscribe-btn {
   text-transform: uppercase;
 }
 .footer-blogs .footer-blog {
   border-bottom: 1px solid #5e75e8;
-  padding-bottom: 40px;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
   display: flex;
   text-decoration: none;
 }
@@ -2572,6 +2576,7 @@ body {
 }
 .footer-blogs .footer-blog:last-of-type {
   border: 0px;
+  padding-bottom: 0px;
 }
 .footer-tweets {
   height: 320px;
