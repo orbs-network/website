@@ -4,7 +4,7 @@ import { getLang } from "./lang";
 import { getBlogUrl } from "./mappers";
 
 export const setBlogAttributes = (props) => {
-  const { blogUrl, image, title, _ID, date, _relativeURL } = props;
+  const { blogUrl, image, title, _ID, date, _relativeURL, thumbnail } = props;
   if (!blogUrl) return;
   const dateToDisplay = formatBlogDate(date);
   const generateUrl = (url) => {
@@ -14,7 +14,7 @@ export const setBlogAttributes = (props) => {
 
   return {
     "data-url": generateUrl(url),
-    "data-image": generateUrl(image),
+    "data-image": generateUrl(thumbnail || image),
     "data-title": title,
     "data-prefix": footerBlogDatePrefix[getLang(_ID)],
     "data-date": dateToDisplay,
