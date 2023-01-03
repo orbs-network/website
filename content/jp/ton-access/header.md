@@ -4,7 +4,7 @@ title: TON Access
 button: 
   - header-button.md
 mainImg: assets/img/ton-gateway/hero.svg
-github: https://github.com/orbs-network/ton-gateway
+github: https://github.com/orbs-network/ton-access
 ---
 
 # HTTP API FOR
