@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-added-to-TonSwap-DEX-on-TON/bg.jpg
 blogUrl: Orbs-added-to-TonSwap-DEX-on-TON
 date: 2023-01-09
-title: How to Use the Orbs Pool on Alpaca Finance
+title: "Orbs added to TonSwap DEX on TON"
 author:
   - /blog/common/authors/EranPeled.md
 type:
