@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Changelly-Lists-Orbs-Token/blog.md
   - Orbs-added-to-TonSwap-DEX-on-TON/blog.md
   - DeFi-Notification-Supports-Orbs-dTWAP/blog.md
   - Orbs-in-2022-Driving-Forces-of-Adoption/blog.md
