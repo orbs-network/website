@@ -35,7 +35,7 @@ Since 2015 Changelly has been offering a comprehensive range of crypto trading s
 
 Find more information: https://changelly.com/ 
 
-—---- Line break —- 
+<div class='line-separator'> </div>
 
 **About Orbs**
 
