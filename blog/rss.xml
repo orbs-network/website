@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Jan 2023 12:48:24 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 19 Jan 2023 09:23:05 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Changelly Lists Orbs Token (ORBS)]]></title>
+            <description><![CDATA[ORBS, the native token of the Orbs Network, has been listed by Changelly exchange! Changelly is a popular fiat on-ramp for crypto transactions, reporting over 1 billion dollars in transactions in the past 24 hours at the time of writing according to CoinGecko.]]></description>
+            <link>https://www.orbs.com/Changelly-Lists-Orbs-Token</link>
+            <guid isPermaLink="true">https://www.orbs.com/Changelly-Lists-Orbs-Token</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Changelly-Lists-Orbs-Token/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs added to TonSwap DEX on TON]]></title>
             <description><![CDATA[The ORBS token has been added to TonSwap, a leading DEX on The Open Network (TON)! TonSwap is an up-and-coming native DEX on TON with 13 tokens (or Jettons as they are called on TON) already listed, including USDC, ETH, and BTC.]]></description>
