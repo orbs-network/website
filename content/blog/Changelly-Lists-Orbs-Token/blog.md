@@ -1,67 +1,56 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Changelly-Lists-Orbs-Token/bg.jpg
+blogUrl: Changelly-Lists-Orbs-Token
+date: 2023-01-19
+title: "Changelly Lists Orbs Token (ORBS)"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "ORBS, the native token of the Orbs Network, has been listed by Changelly exchange! Changelly is a popular fiat on-ramp for crypto transactions, reporting over 1 billion dollars in transactions in the past 24 hours at the time of writing according to CoinGecko."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+ORBS, the native token of the Orbs Network, has been listed by Changelly exchange!
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+[Changelly](https://changelly.com/?from=btc&to=orbs&utm_medium=social&utm_source=twitter&utm_campaign=listing) is a popular fiat on-ramp for crypto transactions, reporting over 1 billion dollars in transactions in the past 24 hours at the time of writing according to [CoinGecko](https://www.coingecko.com/en/exchanges/changelly). 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![tweet](/assets/img/blog/Changelly-Lists-Orbs-Token/image1.png)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+Founded in 2015, Changelly boasts over 400+ supported crypto assets offering traders the following benefits: 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+- **Changelly Buy:**  a marketplace that enables cryptocurrency purchases with traders' credit cards, bank transfers, or Apple Pay. 160+ fiat currencies.
+- **Changelly Swap:** an Instant swap platform that allows traders to exchange over 170 cryptocurrencies in 15 minutes.
+- **Changelly blog**: includes comprehensive and educational articles about blockchain basics, price predictions, and important crypto events. 
 
-Please also see our disclaimers below.
+In addition, Changelly provides a white-label service for businesses looking to exchange their clients' crypto with Changelly’s API and functionality. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
+Orbs’ listing on Changelly follows a series of other exchange listings for the ORBS token, such as Huobi, KuCoin, Gate.io, Latoken, Coinsbit, and more. In addition, Orbs is also available on leading DEXs across 7 leading DeFi chains including Ethereum, BNB Chain, Polygon, Avalanche, Solana, Harmony, and TON. Leading DEXs include, among others, Uniswap, Sushi, Quickswap, Spookyswap, TraderJoe, and more.
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Changelly**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Since 2015 Changelly has been offering a comprehensive range of crypto trading services including a fiat on/off ramp, a robust affiliate program, mobile trading app, and more to meet the needs of an ever growing cryptocurrency traders. In 2021 they partnered with Ledger to allow purchasing of cryptocurrencies on Ledger Live. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Find more information: https://changelly.com/ 
+
+—---- Line break —- 
+
+**About Orbs**
+
+The Orbs Network is an open, decentralized, and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a "decentralized backend", enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with team members in Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join the community at:
+
+Telegram: https://t.me/OrbsNetwork
+
+Twitter: https://twitter.com/orbs_network
+
+Learn more [about Orbs](https://www.orbs.com/Orbs-A-Re-introduction/)
+
+
