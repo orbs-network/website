@@ -65,6 +65,31 @@
  
 }
 
+// @media only screen and (min-width: 800px) {
+//   .product-header {
+//     height: calc(100vh - 180px);
+//     margin-bottom: 0px;
+//     padding-bottom: 0px;
+//   }
+// }
+
+@media only screen and (max-width: 1250px) and (min-width: 800px) {
+  .product-header {
+    h1{
+      font-size: 3.7vw;
+      line-height: 4.8vw;
+    }
+   &-powered{
+    height: 10vw;
+   }
+    &-body{
+       .text-p{
+        font-size: 1.35vw;
+        line-height: 2.2vw;
+       }
+    }
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .product-header {
