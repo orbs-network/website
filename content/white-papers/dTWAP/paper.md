@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/white-paper-mapper
 title: dTWAP for Decentralized Exchanges (DEXs)
 readPaperBtn: read the paper
-date: January 2022
+date: January 2023
 url: white-papers/dTWAP
 button: Preview Paper
 published: "Published"

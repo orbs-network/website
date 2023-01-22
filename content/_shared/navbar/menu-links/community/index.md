@@ -7,7 +7,7 @@ links:
   - blog.md 
   - ecosystem.md
   - news.md
-  - brand-assets.md
   - hexa.md
+  - brand-assets.md
   - contact.md
 ---
