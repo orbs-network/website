@@ -6,11 +6,11 @@ function Schema({schema, whitePaper, audit}) {
     <div className="dtwap-schema">
       {schema}
       <MainGrid className="dtwap-schema-links">
-        <a href="" className="button">
+        <a href="/white-papers/dTWAP/" className="button">
           {whitePaper}
         </a>
         <a
-        target='_blank'
+          target="_blank"
           href="https://github.com/orbs-network/twap/blob/master/Audit-Report-PeckShield.pdf"
           className="button"
         >
