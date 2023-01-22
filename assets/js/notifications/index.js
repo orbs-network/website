@@ -13,7 +13,7 @@ const onLoad = async () => {
   }).value;
   container.innerHTML = value;
 
-  const element = document.querySelector("#notifications-copy");
+  const element = document.querySelector(".copy");
   const tooltip = element.querySelector(".copy-tooltip");
   if (!element || !tooltip) return;
   element.addEventListener("click", async () => {

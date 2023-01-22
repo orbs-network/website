@@ -68,3 +68,18 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 1250px) and (min-width: 800px) {
+  .notifications {
+  .product-header{ 
+     
+      &-hero{
+        max-width: 38vw;
+       margin-top: -30px;
+      }
+  
+      
+  }
+}
+}

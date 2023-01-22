@@ -28,7 +28,7 @@ const onLoad = async () => {
   jsonConfig = await response.json();
   addEventsToSelectboxes();
   triggerInitialselect();
-  const element = document.querySelector("#ton-gateway-copy");
+  const element = document.querySelector(".copy");
   const tooltip = element.querySelector(".copy-tooltip");
   if (!element || !tooltip) return;
   element.addEventListener("click", async () => {

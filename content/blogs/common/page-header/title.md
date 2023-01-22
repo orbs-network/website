@@ -2,4 +2,4 @@
 layout: partials/shared/page-header/title
 ---
 
-# Orbs Smart Contracts Overview
+# The Orbs Project Blog

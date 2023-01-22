@@ -14,6 +14,7 @@ list:
       - orbs-position-paper/paper.md
   - title: Working Papers
     list:
+      - dTWAP/paper.md
       - use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/paper.md
       - blockchain-virtualization-a-necessity-for-real-world-dapps/paper.md
       - eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols/paper.md

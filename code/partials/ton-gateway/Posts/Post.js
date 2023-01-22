@@ -1,5 +1,6 @@
 import React from "react";
 import { handleUrl } from "../../../util/link";
+import PostCard from "../../shared/PostCard";
 
 function Post({ _body, _relativeURL, _ID, image, name, title, link }) {
   const generateUrl = (url) => {
@@ -7,12 +8,7 @@ function Post({ _body, _relativeURL, _ID, image, name, title, link }) {
   };
 
   return (
-    <div className="ton-gateway-posts-post">
-      <img
-        src={generateUrl("/assets/img/ton-gateway/frame.png")}
-        className="post-frame"
-      />
-
+    <PostCard generateUrl={generateUrl} className="ton-gateway-posts-post">
       <img
         src={generateUrl("/assets/img/ton-gateway/post-figure.svg")}
         className="post-figure"
@@ -31,7 +27,7 @@ function Post({ _body, _relativeURL, _ID, image, name, title, link }) {
           </div>
         </div>
       </div>
-    </div>
+    </PostCard>
   );
 }
 
