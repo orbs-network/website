@@ -1,8 +1,8 @@
 ---
 layout: partials/navbar/components/menu-resources-link
-title: アナリティクス
+title: ANALYTICS
 url: https://analytics.orbs.network
 image: assets/img/navbar/menu/analytics.svg
 ---
 
-Orbsユニバース・アナリティクス
+Orbs Universe Analytics

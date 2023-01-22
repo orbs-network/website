@@ -22,6 +22,7 @@ $letter-spacing: -0.009rem;
 $page-section-margin: 80px;
 $page-section-title-margin-small: 20px;
 $page-section-title-margin-big: 40px;
+$deep-blue: #313855;
 
 $pink: #da88de;
 
@@ -87,6 +88,18 @@ $text-letter-spacing: -0.009rem;
   &:hover {
     color: white;
     background: $pink;
+  }
+}
+
+.filled-button{
+   @extend .button;
+   background: $pink;
+   border: 2px solid transparent;
+   color: white;
+   &:hover {
+    color: $pink;;
+    background: white;
+     border: 2px solid $pink;
   }
 }
 

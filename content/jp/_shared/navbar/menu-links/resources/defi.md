@@ -1,8 +1,8 @@
 ---
 layout: partials/navbar/components/menu-resources-link
-title: DeFiポータル
-url: https://orbsdefi.com/
-image: assets/img/navbar/menu/defi.svg
+title: DEFI.ORG
+url: https://defi.org/
+image: assets/img/navbar/menu/accelerator.svg
 ---
 
-リアルタイムのDeFiデータ
+DeFi Accelerator Program

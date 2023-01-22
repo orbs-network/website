@@ -22,7 +22,7 @@ export const init = (keepLoader) => {
   if (!keepLoader) {
     ui.hideAppLoader();
   }
-  handleResponsiveProductHeader();
+  // handleResponsiveProductHeader();
 };
 
 const handleResponsiveProductHeader = () => {

@@ -1,8 +1,8 @@
 ---
 layout: partials/navbar/components/menu-resources-link
-title: DeFi 포털
-url: https://orbsdefi.com/
-image: assets/img/navbar/menu/defi.svg
+title: DEFI.ORG
+url: https://defi.org/
+image: assets/img/navbar/menu/accelerator.svg
 ---
 
-실시간 DeFi 정보
+DeFi Accelerator Program

@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/Schema
-image: assets/img/notifications-protocol/schema.png
+image: assets/img/ton-gateway/schema.png
 title: Powered by Orbs Network
 ---
 

@@ -2,6 +2,7 @@
 layout: partials/footer/components/navigation/links
 title: POWERED BY ORBS
 links:
-  - notifications.md
+  - dtwap.md
   - ton-gateway.md
+  - notifications.md
 ---

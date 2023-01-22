@@ -1,0 +1,19 @@
+layout: pages/page
+
+script: brand-assets
+header:
+  - /_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+gdpr:
+  - /_shared/gdpr/index.md
+
+title: Orbs - Brand Assets
+description: orbs pos universe
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:
