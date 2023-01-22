@@ -10,10 +10,8 @@ sections:
   - md/use-cases-and-applications/index.md
   - md/ton/index.md
 
-
 sideMenuLinks:
   - md/menu/index.md
-
-socials: 
+socials:
   - /ko/_shared/socials/index.md
 ---

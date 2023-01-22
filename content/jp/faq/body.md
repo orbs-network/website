@@ -1,6 +1,6 @@
 ---
 layout: partials/faq/main
-title: よくある質問
+title: FAQ
 
 sections:
   - md/general/index.md
@@ -13,5 +13,5 @@ sections:
 sideMenuLinks:
   - md/menu/index.md
 socials:
-  - /jp/_shared/socials/index.md
+  - /ko/_shared/socials/index.md
 ---
