@@ -5,7 +5,7 @@ list:
   - spiritswap.md
   - spookyswap.md
   - quickswap.md
-title: Recent integrations to DEX/AMMs
+title: Recent and Ongoing Integrations to DEX/AMMs
 integrate: 
   - integrate.md
 ---
