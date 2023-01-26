@@ -27,7 +27,7 @@ Making HTTP calls to the chain from a browser requires an HTTP API provider - th
 
 ### Why TON Access?
 
-![Access](/assets/img/blog/Orbs-Introduces-TON-Access/image5.png)
+![Access](/assets/img/blog/Orbs-Introduces-TON-Access/image5.jpg)
 
 
 **Unthrottled:** No throttling for anonymous dapp users
