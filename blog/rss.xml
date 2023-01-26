@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Jan 2023 06:58:59 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jan 2023 10:37:45 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Introduces “TON-Access”: A Decentralized Infura for the Open Network (TON)]]></title>
+            <description><![CDATA[TON-Access is a reliable and decentralized RPC provider created specifically for TON dapps making HTTP queries to blockchain state from the browser. It provides unrestricted and anonymous access to dapp users without requiring an API key.]]></description>
+            <link>https://www.orbs.com/Orbs-Introduces-TON-Access</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Introduces-TON-Access</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Introduces-TON-Access/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Orbs dTWAP]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated Orbs’ newest layer-3 use case, dTWAP  (decentralized time-weighted average price). dTWAP is a fully-functioning TWAP order type that is completely decentralized and made for DEXs. Traders using dTWAP can now be notified in real time when a dTWAP order has been completed.]]></description>
