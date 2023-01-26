@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: 'Orbs Introduces “TON-Access”: A Decentralized Infura for the Open Network (TON)'
+image: /assets/img/Orbs-Introduces-TON-Access/bg.jpg
+gdpr:
+  - /_shared/gdpr/index.md
