@@ -1,67 +1,106 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Introduces-TON-Access/bg.jpg
+blogUrl: Orbs-Introduces-TON-Access
+date: 2023-01-26
+title: 'Orbs Introduces “TON-Access”: A Decentralized Infura for the Open Network (TON)'
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "TON-Access is a reliable and decentralized RPC provider created specifically for TON dapps making HTTP queries to blockchain state from the browser. It provides unrestricted and anonymous access to dapp users without requiring an API key."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+_[TON-Access](https://www.orbs.com/ton-access/)_ is a reliable and decentralized RPC provider created specifically for TON dapps making HTTP queries to blockchain state from the browser. It provides unrestricted and anonymous access to dapp users without requiring an API key.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Get started in the following link:
+https://www.orbs.com/ton-access/#get-started
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+_TON-Access is powered by the [Orbs Network](https://www.orbs.com/). Orbs is one of the most prominent ecosystem contributors to TON, with projects like [TON Minter](https://minter.ton.org) and [TON Contract Verifier](https://tonverifier.live). Orbs is also a participant in TON’s [ecosystem fund](https://cointelegraph.com/news/new-250m-toncoin-fund-targets-dex-and-nft-tools-on-ton-blockchain) in an effort to support ecosystem growth._ 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**The app and protocol are now being launched in beta, under active development, and their use is subject to risks. Use of the app is subject to the terms and conditions which can be found [here](https://drive.google.com/file/d/1M94rXb1Ul4WfuUYKdZxTJrQBbhECPsFP/view?usp=share_link).**
 
-### Step-by-Step Guide
+### An essential infrastructure service for TON dapps
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+When implementing a dapp on TON you normally have two parts - a smart contract written in FunC and a frontend client written in JavaScript. The frontend client runs on users’ browsers and communicates with the contract on chain by calling getters and sending transactions via HTTP.
 
-Please also see our disclaimers below.
+Making HTTP calls to the chain from a browser requires an HTTP API provider - this is where TON-Access comes in! TON-Access gives your dapp users unthrottled HTTP access to the chain.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Why TON Access?
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Access](/assets/img/blog/Orbs-Introduces-TON-Access/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+** * Unthrottled:** No throttling for anonymous dapp users
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Traditional RPC gateways like [toncenter](https://toncenter.com/) throttle anonymous users to 1 request per second. Most dapps cannot operate under these restrictions since their users are anonymous. Toncenter is a great service, but it’s not perfectly suitable for dapps.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+** * No API Key:** Decentralized access without registering API keys
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Traditional RPC gateways like toncenter reduce throttling by forcing you to register an API key. This API key is problematic for dapps because it cannot be stored client-side (it’s a secret) and it cannot be stored server-side (this would add a centralized dependency to the dapp).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+** * Serverless:** No need to run your own RPC backend server
 
-Once the position is opened, you can always re-adjust the parameters:
+Some dapp developers on TON resort to running their own backend servers. Running a backend server as part of your dapp is considered a bad practice  since these servers are centralized. If you suffer devops downtime, your users will lose access to their funds.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+** * Decentralized:** Trust a protocol, not a centralized business
 
-### 2) Lend ALPACA tokens
+The servers of TON-Access are operated by dozens of permissionless validators of the Orbs Network, staked with $100 million in Proof-of-Stake consensus. Your access to TON blockchain does not depend on a single centralized business.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+** * High Redundancy:** Robust API with no single point of failure
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Since TON-Access servers are operated by dozens of independent validators of the Orbs Network, your connection enjoys a high degree of redundancy and multiple fallbacks. Orbs validators are running in mainnet since 2019 with virtually no downtime.
 
-### 3) Earn Orbs in the Grazing Range
+** * Secure:** Support for raw ADML to enable lite clients
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+For a completely trustless setup, TON-Access also supports raw ADNL via HTTP proxy and allows your dapp client to perform client-side verifications of all responses from the chain like trustless lite clients.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+### The importance of decentralized HTTP access
 
-#### And that’s it – You are now a senior Alpaca!
+TON-Access was created after learning from some of the failings of Ethereum. Most dapps running on Ethereum rely on the MetaMask browser extension and its default RPC provider - [Infura](https://www.infura.io/) - for making HTTP queries to the chain. 
+
+The problem is that Infura is a centralized business. This introduces a significant centralized bottleneck in dapps that otherwise aim to be fully decentralized. When Infura suffers an outage, for example, it often feels like Ethereum itself is down as thousands of Ethereum users lose access to their funds on its various dapps.
+
+Decentralized projects such as pokt.network were created in the Ethereum ecosystem to overcome this problem. TON-Access follows a similar design.
+
+### Get an RPC endpoint for your dApp on TON
+
+TON-Access supports all popular RPC protocols on TON including:
+
+- [TonCenter HTTP API v2](https://toncenter.com/api/v2/) - replaces the https://toncenter.com/api/v2/jsonRPC endpoint
+- [TonHub HTTP API v4](https://github.com/ton-foundation/ton-api-v4) - replaces the https://mainnet-v4.tonhubapi.com endpoint
+- [Raw ADNL Proxy](https://github.com/ton-community/ton-lite-client)
+
+Developers on TON can easily get an RPC endpoint for their dApps from TON-Access by copy-pasting a short code snippet into their dApp client code. Get your RPC endpoint [here](https://www.orbs.com/ton-access/#get-started).
+
+Learn more in the TON-Access Github README.
+
+![rpc](/assets/img/blog/Orbs-Introduces-TON-Access/image2.png)
+
+
+
+### Powered by the Orbs Network
+
+![chart](/assets/img/blog/Orbs-Introduces-TON-Access/image3.png)
+
+
+Orbs Network has dozens of independent validators running Proof-of-Stake consensus with over $100 million staked. The network has been running in mainnet since 2019. By routing your dApp RPC requests through Orbs validators, you maintain decentralized access to TON blockchain.
+
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at:
+
+Telegram: https://t.me/OrbsNetwork
+
+Twitter: https://twitter.com/orbs_network
+
+Learn more [about Orbs](https://www.orbs.com/Orbs-A-Re-introduction/)
+
