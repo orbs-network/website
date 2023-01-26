@@ -30,27 +30,27 @@ Making HTTP calls to the chain from a browser requires an HTTP API provider - th
 ![Access](/assets/img/blog/Orbs-Introduces-TON-Access/image1.png)
 
 
-** * Unthrottled:** No throttling for anonymous dapp users
+**Unthrottled:** No throttling for anonymous dapp users
 
 Traditional RPC gateways like [toncenter](https://toncenter.com/) throttle anonymous users to 1 request per second. Most dapps cannot operate under these restrictions since their users are anonymous. Toncenter is a great service, but it’s not perfectly suitable for dapps.
 
-** * No API Key:** Decentralized access without registering API keys
+**No API Key:** Decentralized access without registering API keys
 
 Traditional RPC gateways like toncenter reduce throttling by forcing you to register an API key. This API key is problematic for dapps because it cannot be stored client-side (it’s a secret) and it cannot be stored server-side (this would add a centralized dependency to the dapp).
 
-** * Serverless:** No need to run your own RPC backend server
+**Serverless:** No need to run your own RPC backend server
 
 Some dapp developers on TON resort to running their own backend servers. Running a backend server as part of your dapp is considered a bad practice  since these servers are centralized. If you suffer devops downtime, your users will lose access to their funds.
 
-** * Decentralized:** Trust a protocol, not a centralized business
+**Decentralized:** Trust a protocol, not a centralized business
 
 The servers of TON-Access are operated by dozens of permissionless validators of the Orbs Network, staked with $100 million in Proof-of-Stake consensus. Your access to TON blockchain does not depend on a single centralized business.
 
-** * High Redundancy:** Robust API with no single point of failure
+**High Redundancy:** Robust API with no single point of failure
 
 Since TON-Access servers are operated by dozens of independent validators of the Orbs Network, your connection enjoys a high degree of redundancy and multiple fallbacks. Orbs validators are running in mainnet since 2019 with virtually no downtime.
 
-** * Secure:** Support for raw ADML to enable lite clients
+**Secure:** Support for raw ADML to enable lite clients
 
 For a completely trustless setup, TON-Access also supports raw ADNL via HTTP proxy and allows your dapp client to perform client-side verifications of all responses from the chain like trustless lite clients.
 
