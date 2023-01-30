@@ -1,67 +1,47 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/TON-Verifier-added-to-TONorg/bg.jpg
+blogUrl: TON-Verifier-added-to-TONorg
+date: 2023-01-30
+title: "TON Verifier by Orbs has Been added as an Official Tool to TON.org"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "As previously announced last month, Orbs has launched TON Verifier, an open-source application to publish verified source code for on-chain contracts on The Open Network. Today we’re announcing that TON Verifier has been officially adopted by the TON Foundation!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+As previously [announced](https://www.orbs.com/Announcing-TON-Verifier-by-Orbs/) last month, Orbs has launched TON Verifier, an open-source application to publish verified source code for on-chain contracts on The Open Network.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Today we’re announcing that TON Verifier has been officially adopted by the TON Foundation and can be found in the following ton.org domain: https://verifier.ton.org/. In addition, Verifier can be found on the TON [Apps page](https://ton.app/utilities), under the “utilities” section.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![screenshot](/assets/img/blog/TON-Verifier-added-to-TONorg/image1.png)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+Verifier will also be added to the foundation’s smart contracts and will no longer be hosted by Orbs, making Verifier the official tool for verifying smart contracts on TON. 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+_TON Verifier is a tool developed by the Orbs team and powered by Orbs' decentralized network of permissionless PoS Guardians, and independent community participants from the open network. Anyone can run a node to secure Verifier if they so choose._ 
 
-Please also see our disclaimers below.
+### What is TON Verifier? 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+TON verifier allows smart contract developers to upload source code for TON contracts, alongside a signed proof that it compiles to the same bytecode as a given address on TON. This is vital as users can only see bytecode, but they don’t know if the source code is the same, which means they don’t know what is actually running. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To verify a contract, the developer types in the contract address in TON Verifier, uploads the FunC source files and specifies the compiler settings (file order, compiler version etc.). Then, the app sends the source code to the compiler backend, which verifies that the source compiles to the desired code cell hash (see section [3.1.4](https://ton.org/docs/tvm.pdf) in the TVM whitepaper), meaning that it’s guaranteed to match the same bytecode as the contract address in question.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+ If there is a match, the backend will provide a signed BoC to the app, intended for the user to send as a transaction to the verifier registry and sources registry (more on that below). 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+If compilation does not succeed or results in a different hash, the backend will refuse to sign, and instead try to assist the user by suggesting possible measures to achieve the correct hash.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+<iframe src="https://www.youtube.com/embed/8ybqbStct9A" title="How to use TON Verifier by Orbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### Looking ahead
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+TON Verifier follows [Minter](https://minter.ton.org/), which was contributed by Orbs and adopted by the foundation of The Open Network as well. Orbs continue to believe in the thesis that The Open Network will be the blockchain of mass adoption, as the project grows increasingly intertwined with the Telegram messaging app. 
 
-Once the position is opened, you can always re-adjust the parameters:
+So far, Verifier has verified over 110 contracts on the open network. Well-known projects on TON are also in the process of integrating Verifier into their front end, which will rapidly accelerate Verifiers usage once complete. Minter, which is currently hosted by the foundation’s contracts, has helped 1,600+ developers in January deploy over 815 jettons to the fast-growing TON ecosystem. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+For assistance using Verifier join: https://t.me/tonverifier 
 
-### 2) Lend ALPACA tokens
+Docs: https://github.com/orbs-network/ton-contract-verifier 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs Twitter: https://twitter.com/orbs_network
