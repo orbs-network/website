@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Jan 2023 12:15:49 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 30 Jan 2023 12:15:24 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[TON Verifier by Orbs has Been added as an Official Tool to TON.org]]></title>
+            <description><![CDATA[As previously announced last month, Orbs has launched TON Verifier, an open-source application to publish verified source code for on-chain contracts on The Open Network. Today we’re announcing that TON Verifier has been officially adopted by the TON Foundation!]]></description>
+            <link>https://www.orbs.com/TON-Verifier-added-to-TONorg</link>
+            <guid isPermaLink="true">https://www.orbs.com/TON-Verifier-added-to-TONorg</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/TON-Verifier-added-to-TONorg/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Introduces “TON-Access”: A Decentralized Infura for the Open Network (TON)]]></title>
             <description><![CDATA[TON-Access is a reliable and decentralized RPC provider created specifically for TON dapps making HTTP queries to blockchain state from the browser. It provides unrestricted and anonymous access to dapp users without requiring an API key.]]></description>
