@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - bitdroplet-lists-orbs-token/blog.md
   - TON-Verifier-added-to-TONorg/blog.md
   - Orbs-Introduces-TON-Access/blog.md
   - DeFi-Notification-Supports-Orbs-dTWAP/blog.md
