@@ -14,7 +14,7 @@ short_description:
 
 ### ORBS, the native token of the Orbs Network, has been listed on Bitdroplet dApp by Bitbns!
 
-[Bitdroplet](https://bitdroplet.com/dapp/) is a decentralized systematic investment plan (SIP) for investing in various crypto assets. With over 4+ active users, Bitdroplet enables deploying SIP strategies without relying on centralized exchanges.
+[Bitdroplet](https://bitdroplet.com/dapp/) is a decentralized systematic investment plan (SIP) for investing in various crypto assets. With over 4.7 million active users, Bitdroplet enables deploying SIP strategies without relying on centralized exchanges.
 
 ![](/assets/img/blog/bitdroplet-lists-orbs-token/img1.png)
 
