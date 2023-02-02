@@ -15,7 +15,7 @@ subscribe:
 gdpr:
   - /_shared/gdpr/index.md
 
-description: orbs smart cobtracts overview
+description: TON Access - a reliable, anonymous, decentralized RPC network for TON dapps making HTTP queries to blockchain state from web.
 og_locale_alternate: ko_KR
 og_locale: en_US
-image:
+image: /assets/img/ton-gateway/social.png
