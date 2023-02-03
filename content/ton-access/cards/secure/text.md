@@ -2,4 +2,4 @@
 layout: partials/shared/text
 ---
 
-For a completely trustless setup, use raw ADNL via proxy to perform client-side verifications of all responses like regular trustless lite clients.
+The TON ecosystem has different RPC API flavors, each with its own tradeoffs - HTTP v2 by TonCenter, HTTP v4 by TonHub and raw ADNL. TON Access supports all three.
