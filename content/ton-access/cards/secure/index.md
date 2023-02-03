@@ -1,12 +1,12 @@
 ---
 layout: partials/ton-gateway/cards/Card
-title: Secure
+title: Wide Support
 text:
   - text.md
 button: Read more
 image: /assets/img/pos-universe/shapes/shape4.svg
 ---
 
-Support for raw ADNL to
+Supports all RPC API flavors
 
-enable lite clients
+HTTP v2, v4, raw ADNL
