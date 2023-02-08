@@ -1,67 +1,47 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/ORBS-added-to-STONfi/bg.jpg
+blogUrl: ORBS-added-to-STONfi
+date: 2023-02-08
+title: "ORBS is added to STON.fi DEX on TON"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "oORBS (the Orbit bridge token of ORBS), has been listed by STON.fi, a major DEX on The Open Network (TON). STON.fi is a decentralized automated market maker (AMM) built on the TON blockchain providing cheap fees, low slippage, an intuitive interface, and direct integration with TON wallets. oORBS is now listed on DEX, with about $50K in liquidity for seamless swaps between TON/oORBS."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**oORBS (the [Orbit bridge](https://www.orbs.com/ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/) token of ORBS), has been listed by STON.fi, a major DEX on The Open Network (TON).** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+[STON.fi](https://ston.fi/) is a decentralized automated market maker (AMM) built on the TON blockchain providing cheap fees, low slippage, an intuitive interface, and direct integration with TON wallets. oORBS is now listed on DEX, with about $50K in liquidity for seamless swaps between TON/oORBS.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![screenshot](/assets/img/blog/ORBS-added-to-STONfi/image1.png)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+This listing further integrates Orbs with the TON ecosystem and allows the growing number of participants in TON to acquire Orbs’ native token, without needing to bridge to Ethereum. 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+STON.fi offers the following benefits to traders:
 
-Please also see our disclaimers below.
+- Fully decentralized system. All transactions are made directly between traders and do not require a third party. 
+- Low trading fees (0.3%). STON.fi runs on the TON blockchain with much lower transaction costs and higher speed compared to Bitcoin or Ethereum blockchains.
+- Front running is not an issue at STON.fi due to the advanced sharding and async nature of the TON blockchain. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The integration of oOrbs with STON.fi follows a series of growing developments in the ecosystem. At the end of January Orbs announced its participation in [hack-a-TONx](https://dorahacks.io/hackathon/hack-a-tonx/). Orbs will be hosting exclusive TON events in [Tel Aviv](https://www.eventbrite.com/e/first-ever-ton-telegram-hackathon-tlv-tickets-515959156727?aff=ebdssbdestsearch) and [London](https://www.eventbrite.com/e/first-ever-ton-telegram-hackathon-tlv-tickets-515959156727?aff=ebdssbeac) later this month. Earlier in January, Verifier was named an [official tool](https://www.orbs.com/TON-Verifier-added-to-TONorg/) of The Open Network, following behind [Minter](https://www.orbs.com/Announcing-TON-Minter-by-Orbs/) the month prior.  
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The STON.fi team has also mentioned to Orbs that they recognize the advantages of [TON Access](https://www.orbs.com/ton-access/) and are considering it for future product updates of their dApp. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+**About Orbs**
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+ Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with team members in Tel Aviv, London, New York, Tokyo and Seoul.
 
-Once the position is opened, you can always re-adjust the parameters:
+ For more information, please visit www.orbs.com, or join our community at: 
+ 
+Telegram: https://t.me/OrbsNetwork 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Twitter: https://twitter.com/orbs_network 
 
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
