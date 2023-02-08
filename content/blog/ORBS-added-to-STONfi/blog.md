@@ -29,7 +29,7 @@ The integration of oOrbs with STON.fi follows a series of growing developments i
 
 The STON.fi team has also mentioned to Orbs that they recognize the advantages of [TON Access](https://www.orbs.com/ton-access/) and are considering it for future product updates of their dApp. 
 
-
+<div class='line-separator'> </div>
 
 **About Orbs**
 
