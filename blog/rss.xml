@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Feb 2023 09:41:30 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 12 Feb 2023 13:46:58 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[ORBS is added to STON.fi DEX on TON]]></title>
@@ -45,6 +45,15 @@
             <dc:creator><![CDATA[Eran Peled]]></dc:creator>
             <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
             <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Introduces-TON-Access/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Orbs added to TonSwap DEX on TON]]></title>
+            <description><![CDATA[The ORBS token has been added to TonSwap, a leading DEX on The Open Network (TON)! TonSwap is an up-and-coming native DEX on TON with 13 tokens (or Jettons as they are called on TON) already listed, including USDC, ETH, and BTC.]]></description>
+            <link>https://www.orbs.com/Orbs-added-to-TonSwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-added-to-TonSwap</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-added-to-TonSwap/bg.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Orbs dTWAP]]></title>
