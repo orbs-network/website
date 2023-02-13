@@ -1,67 +1,55 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/bg.jpg
+blogUrl: Orbs-to-host-TONs-hackathon-TLV-and-London
+date: 2023-02-13
+title: "Orbs Named Official Host of TON’s hackathon TLV and London Exclusive Events"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Orbs has been chosen to host Tel Aviv (TLV) and London exclusive offsite events as part of TON’s first ever global hackathon!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs has been chosen to host Tel Aviv (TLV) and London exclusive offsite events as part of TON’s first ever global hackathon!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+[Hack-a-TONx](https://dorahacks.io/hackathon/hack-a-tonx/detail) is a collaboration between the TON Foundation and DoraHacks for TON’S first ever global hackathon with a total prize pool of $250,000. The event is a series of hackathons that brings together Web2 and Web3 developers, technologists, and cypherpunks to prototype new blockchain-enabled products on TON.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![hackathon](/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/image1.png)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+In order to participate in the hackathon, dev teams will need to build for TON mainnet or, if bridging over projects, build a new model tailored for the TON ecosystem. They can choose between different tracks such as: Fi+ (DeFi, Social, Gaming), Decentralized Digital Identity, Utility NFT / SBT, DAO, and more.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Apart from the $250,000 prize pool, winning teams will also get a fast track to opportunities with the $250M [TONcoin Fund](https://toncoin.fund/) (which Orbs is also a part of), Security audit subsidies by top firms such as Certik, a chance to meet TON Foundation and VC/Investors, and other cool prizes!
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Exclusive Offsite Events Hosted by Orbs
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In parallel to the online global hackathon, exclusive 2-day events will be held at 14 prominent cities around the globe such as Seoul (South Korea), Istanbul (Turkey), Tokyo (Japan), and more. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Orbs has been chosen as an official sponsor to host two such events in London, England and Tel Aviv, Israel. In these workshops, promising teams will be mentored by TON’s best experts, who will hack with you for 48 hours and help you take your best shot towards winning the $250,000 prize.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+**The [TLV event](https://www.eventbrite.com/e/first-ever-ton-telegram-hackathon-tlv-tickets-515959156727) will take place on the 19-20 of February, followed shortly by the [London event](https://www.eventbrite.com/e/first-ever-ton-telegram-hackathon-london-tickets-518678089127) starting on the 25th of February.** 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![banners](/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/image2.png)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+Tal Kol, Orbs technical co-founder, and Shahar Yakir, Senior Software engineer at Orbs, have both been chosen as TON dev specialists at the London and TLV events respectively. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Tal has been recently named as a [public ambassador](https://cointelegraph.com/press-releases/the-ton-foundation-recognises-prominent-community-members-by-naming-ambassadors-and-a-new-board-member) of the TON blockchain for his outstanding contributions to the TON community. Shahar, who is an expert in TON’s programming language FunC, has been chosen as one of the 4 technical judges of the hackathon who will evaluate GitHub repos and code.
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+### Orbs and TON - Ongoing Collaboration
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+[The Open Network (TON)](https://ton.org/) is a fully decentralized blockchain conceived by Telegram and developed by the open-source community. TON brings Web3 to mass adoption and is designed to onboard the next billion users. TON supports millions of transactions per second and will be available to 700 million Telegram users through a non-custodial wallet right inside the Telegram mobile app.
 
-### 3) Earn Orbs in the Grazing Range
+A few months ago, Orbs officially [announced](https://www.orbs.com/Expanding-to-The-Open-Network-TON/) its expansion into the TON ecosystem as the first non-EVM L1 chain. Since then, Orbs has developed several [L3 applications](https://www.orbs.com/overview/) on the TON blockchain, including: 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+- The recently launched [TON-Access](https://www.orbs.com/ton-access/): a decentralized Infura for TON.
+- [TON Minter](https://minter.ton.org/): an open-source tool to launch jettons (similar to ERC-20 tokens on EVM networks) on TON with over 815 jettons deployed so far to the fast-growing TON ecosystem. 
+- [TON Verifier](https://verifier.ton.org/): an open-source application to publish verified source-code for on-chain contracts, with over 110 verified contracts to date.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+Join the Official Orbs [Telegram](https://t.me/OrbsNetwork) community and follow us on [Twitter](https://twitter.com/orbs_network) to get the latest news on Orbs and TON!
 
-#### And that’s it – You are now a senior Alpaca!
 
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
