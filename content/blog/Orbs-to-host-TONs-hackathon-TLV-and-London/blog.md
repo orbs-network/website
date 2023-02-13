@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/bg.jpg
+image: /assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/bg-new.jpg
 blogUrl: Orbs-to-host-TONs-hackathon-TLV-and-London
 date: 2023-02-13
 title: "Orbs Named Official Host of TON’s hackathon TLV and London Exclusive Events"
@@ -16,7 +16,7 @@ short_description: "Orbs has been chosen to host Tel Aviv (TLV) and London exclu
 
 This is also a great opportunity to learn about the TON ecosystem and FunC. Even if you aren't in the process of building on TON or don't yet have a team join us for either hackathon to build a strong foundation.   
 
-![hackathon](/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/image1.png)
+![hackathon](/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/image1-new.png)
 
 
 Anyone is welcome to join the hackathon. In order to win the prize pool, dev teams will need to build for TON mainnet or, if bridging over projects, build a new model tailored for the TON ecosystem. They can choose between different tracks such as: Fi+ (DeFi, Social, Gaming), Decentralized Digital Identity, Utility NFT / SBT, DAO, and more.
@@ -33,7 +33,7 @@ Orbs has been chosen as an official sponsor to host two such events in London, E
 **The [TLV event](https://www.eventbrite.com/e/first-ever-ton-telegram-hackathon-tlv-tickets-515959156727) will take place on the 19-20 of February, followed shortly by the [London event](https://www.eventbrite.com/e/first-ever-ton-telegram-hackathon-london-tickets-518678089127) starting on the 25th of February.** 
 
 
-![banners](/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/image2.png)
+![banners](/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/image2-new.png)
 
 
 
