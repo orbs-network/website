@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/bg-new.jpg
+image: /assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/bg3.jpg
 blogUrl: Orbs-to-host-TONs-hackathon-TLV-and-London
 date: 2023-02-13
 title: "Orbs Named Official Host of TON’s hackathon TLV and London Exclusive Events"
