@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Feb 2023 08:04:46 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 13 Feb 2023 09:45:25 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Named Official Host of TON’s hackathon TLV and London Exclusive Events]]></title>
+            <description><![CDATA[Orbs has been chosen to host Tel Aviv (TLV) and London exclusive offsite events as part of TON’s first ever global hackathon!]]></description>
+            <link>https://www.orbs.com/Orbs-to-host-TONs-hackathon-TLV-and-London</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-to-host-TONs-hackathon-TLV-and-London</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-to-host-TONs-hackathon-TLV-and-London/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[ORBS is added to STON.fi DEX on TON]]></title>
             <description><![CDATA[oORBS (the Orbit bridge token of ORBS), has been listed by STON.fi, a major DEX on The Open Network (TON). STON.fi is a decentralized automated market maker (AMM) built on the TON blockchain providing cheap fees, low slippage, an intuitive interface, and direct integration with TON wallets. oORBS is now listed on DEX, with about $50K in liquidity for seamless swaps between TON/oORBS.]]></description>
