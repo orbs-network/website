@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-to-host-TONs-hackathon-TLV-and-London/blog.md
   - ORBS-added-to-STONfi/blog.md
   - bitdroplet-lists-orbs-token/blog.md
   - TON-Verifier-added-to-TONorg/blog.md
