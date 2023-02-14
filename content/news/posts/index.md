@@ -5,6 +5,7 @@ id: news-posts-top
 posts:
   - Orbs-To-Sponsor-TONs-Hack-a-TONx-Hackathons.md
   - DeFi-Platform-SpiritSwap-Unlocks-New-Utility-For-Traders-With-Orbs-dTWAP-Module-Integration.md
+  - Protecting-Smart-Contracts-on-TON-Blockchain-from-Cyberattacks.md
   - Orbs-Launches-The-TON-Verifier-To-Verify-The-Ecosystems-Smart-Contracts-Code.md
   - okx-has-enabled-orbs-staking-for-all-orbs-community-members.md
   - Orbs-Focuses-On-The-Open-Network-With-Call-For-Grant-Proposals.md
