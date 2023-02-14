@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/TON-and-Orbs-Collaborate-for-Global-Hackathon.jpeg
+url: https://hackernoon.com/ton-and-orbs-collaborate-for-global-hackathon-with-$300000-prize-pool
+date: 14, February 2023
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs, a blockchain infrastructure company, has been named as the official sponsor for two key global hackathon events hosted by the TON Foundation.
