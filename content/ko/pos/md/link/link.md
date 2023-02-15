@@ -1,7 +1,9 @@
 ---
 layout: partials/shared/link-btn
-url: /ko/white-papers/orbs-pos-v2-the-age-of-guardians/
+url: https://www.orbs.com/PolygonStakingDate/
 right: true
+blank: true
+outer: true
 ---
 
-Orbs V2.5 업데이트 문서
+Orbs V3: 멀티 체인 스테이킹
