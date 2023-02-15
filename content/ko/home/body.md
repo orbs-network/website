@@ -7,7 +7,7 @@ socials:
   - /ko/_shared/socials/index.md
 
 link_text: 더 알아보기
-link_url: /ko/network
+link_url: /ko/overview
 title:
   - title.md
 ---

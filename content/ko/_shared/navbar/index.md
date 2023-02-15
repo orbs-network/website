@@ -27,8 +27,8 @@ languages:
     link: /jp
     img: /assets/img/navbar/japan.svg
 subscribe_to_updates: subscribe
-developers: developers
-status: network status
+developers: 개발 문서
+status: 네트워크 상태
 status_url: https://status.orbs.network/
 github: github
 github_url: https://github.com/orbs-network

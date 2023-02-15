@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Proof of Stake](/ko/pos)
+[지분증명(PoS V3)](/ko/pos)

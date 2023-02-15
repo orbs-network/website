@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[WHAT IS ORBS: LAYER 3](/ko/overview)
+[오브스: 레이어 3](/ko/overview)

@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Execution Services](/ko/execution-services)
+[블록체인 서비스](/ko/execution-services)
