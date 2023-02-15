@@ -15,7 +15,7 @@ subscribe:
 gdpr:
   - /ko/_shared/gdpr/index.md
 
-description: orbs smart cobtracts overview
+description: 오브스 스마트 컨트랙트 살펴보기
 og_locale_alternate: ko_KR
 og_locale: en_US
 image:
