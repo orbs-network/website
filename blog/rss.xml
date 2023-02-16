@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Feb 2023 14:34:59 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Feb 2023 10:06:12 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ORBS is now available on Megaton Finance]]></title>
+            <description><![CDATA[The ORBS token has been added to Megaton Finance, a newly-launched AMM-DEX on The Open Network (TON), as an official launch partner!]]></description>
+            <link>https://www.orbs.com/ORBS-is-now-available-on-Megaton-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/ORBS-is-now-available-on-Megaton-Finance</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ORBS-is-now-available-on-Megaton-Finance/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Named Official Host of TON’s hackathon TLV and London Exclusive Events]]></title>
             <description><![CDATA[Orbs has been chosen to host Tel Aviv (TLV) and London exclusive offsite events as part of TON’s first ever global hackathon!]]></description>
