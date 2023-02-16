@@ -1,67 +1,45 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/ORBS-is-now-available-on-Megaton-Finance/bg.jpg
+blogUrl: ORBS-is-now-available-on-Megaton-Finance
+date: 2023-02-16
+title: "ORBS is now available on Megaton Finance"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The ORBS token has been added to Megaton Finance, a newly-launched AMM-DEX on The Open Network (TON), as an official launch partner!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The ORBS token has been added to Megaton Finance, a newly-launched AMM-DEX on The Open Network (TON), as an official launch partner!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+[Megaton Finance](https://megaton.fi/) is a much-anticipated DEX-AMM platform on TON. As a launch partner, Megaton has decided to include the ORBS pool as one of the project's launch initial pools. The ORBS-USDC pool is now live with $50k of initial liquidity!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![pool](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image1.png)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+This announcement follows the recent [official partnership](https://twitter.com/Megaton_Fi/status/1605478089634586624) news by Orbs and Megaton Finance. It solidifies Orbs presence on TON, as the ORBS token can now be [bridged](https://www.orbs.com/ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/) back and forth onto the TON chain using the Orbit bridge and swapped on the TON chain using the ORBS liquidity pool on Megaton DEX.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+![tweet](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image2.png)
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Megaton: The Gateway to Borderless Finance
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Megaton Finance is a project by [Ozys](https://ozys.io/), a leading blockchain technology company based in South Korea. It aims to become a link that connects the TON blockchain to the DeFi ecosystem by connecting it with other Layer 1 chains, such as Ethereum. With its launch, Megaton Finance is planned to be the first autonomous financial protocol within the TON network that provides yield farming opportunities such as swaps and pair deposits.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+![banner](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image3.webp)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Megaton Finance plans to become more than only an AMM mechanism protocol that provides revenue, its goal is to be the main gateway to Web 3.0 through continued upgrades and integration with Telegram in the future.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Orbs is excited to collaborate with Ozys in projects such as Megaton Finance and Orbit Bridge. Similar to Orbs, Ozys recognizes TON’s potential to advance blockchain technology mainstream adoption, and Orbs is eager to work with such a strong player in the space.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### Solidifying Orbs presence on TON
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Megaton Finance is the second DEX on the TON chain to add the ORBS token after [TonSwap](https://www.orbs.com/Orbs-added-to-TonSwap-DEX-on-TON/). Orbs integration into multiple leading DEXs on TON is an important milestone to advance Orbs expansion on the TON chain. 
 
-### 2) Lend ALPACA tokens
+In addition, this announcement follows the release of 2 major contributions by Orbs: [TON Minter](https://www.orbs.com/Announcing-TON-Minter-by-Orbs/) and [TON Verifier](https://www.orbs.com/Announcing-TON-Verifier-by-Orbs/). Minter has already assisted developers in deploying over 450+ Jettons and was added to the TON Foundation's official domain and Verifier already covers a large portion (estimated 80%) of the contracts on the TON chain.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Join Orbs [Telegram](https://t.me/OrbsNetwork) and follow us on [Twitter](https://twitter.com/orbs_network) for more updates on Orbs and TON!
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
