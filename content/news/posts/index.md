@@ -3,6 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - TON-Names-Orbs-As-The-Official-Sponsor.md
   - Orbs-To-Sponsor-TONs-Hack-a-TONx-Hackathons.md
   - DeFi-Platform-SpiritSwap-Unlocks-New-Utility-For-Traders-With-Orbs-dTWAP-Module-Integration.md
   - Protecting-Smart-Contracts-on-TON-Blockchain-from-Cyberattacks.md
