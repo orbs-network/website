@@ -14,12 +14,12 @@ short_description: "The ORBS token has been added to Megaton Finance, a newly-la
 
 [Megaton Finance](https://megaton.fi/) is a much-anticipated DEX-AMM platform on TON. As a launch partner, Megaton has decided to include the ORBS pool as one of the project's launch initial pools. The ORBS-USDC pool is now live with $50k of initial liquidity!
 
-![pool](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image1.png)
+![pool](/assets/img/blog/ORBS-is-now-available-on-Megaton-Finance/image1.png)
 
 
 This announcement follows the recent [official partnership](https://twitter.com/Megaton_Fi/status/1605478089634586624) news by Orbs and Megaton Finance. It solidifies Orbs presence on TON, as the ORBS token can now be [bridged](https://www.orbs.com/ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/) back and forth onto the TON chain using the Orbit bridge and swapped on the TON chain using the ORBS liquidity pool on Megaton DEX.
 
-![tweet](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image2.png)
+![tweet](/assets/img/blog/ORBS-is-now-available-on-Megaton-Finance/image2.png)
 
 
 
@@ -27,7 +27,7 @@ This announcement follows the recent [official partnership](https://twitter.com/
 
 Megaton Finance is a project by [Ozys](https://ozys.io/), a leading blockchain technology company based in South Korea. It aims to become a link that connects the TON blockchain to the DeFi ecosystem by connecting it with other Layer 1 chains, such as Ethereum. With its launch, Megaton Finance is planned to be the first autonomous financial protocol within the TON network that provides yield farming opportunities such as swaps and pair deposits.
 
-![banner](/assets/img/blog/Announcing-TON-Minter-by-Orbs/image3.webp)
+![banner](/assets/img/blog/ORBS-is-now-available-on-Megaton-Finance/image3.webp)
 
 
 Megaton Finance plans to become more than only an AMM mechanism protocol that provides revenue, its goal is to be the main gateway to Web 3.0 through continued upgrades and integration with Telegram in the future.
