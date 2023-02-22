@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/TON-Governance-Votes-To-Freeze-TON-Supply.webp
+url: https://blockworks.co/news/ton-governance-votes-to-freeze-20-of-its-ton-supply
+date: 21, February 2023
+logo: /assets/img/news/logos/blockworks.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The TON Foundation and Orbs, a blockchain interoperability company, established TON.Vote to make decentralized governance more transparent and democratized on the network.
