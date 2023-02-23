@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Feb 2023 09:41:27 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 Feb 2023 08:36:30 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Pangolin integrates dTWAP powered by Orbs!]]></title>
+            <description><![CDATA[Preceded only by SpiritSwap, and the first to integrate on the Avalanche blockchain, Pangolin DEX has fully integrated with Orbs’ dTWAP. dTWAP is a fully decentralized, permissionless, and composable DeFi protocol developed by the Orbs team and powered by the Orbs network. Traders utilizing the DEX will now have access to the sophisticated order type, dTWAP.]]></description>
+            <link>https://www.orbs.com/Pangolin-integrates-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Pangolin-integrates-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Pangolin-integrates-dTWAP-powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[ORBS is now available on Megaton Finance]]></title>
             <description><![CDATA[The ORBS token has been added to Megaton Finance, a newly-launched AMM-DEX on The Open Network (TON), as an official launch partner!]]></description>
