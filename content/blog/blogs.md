@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Pangolin-integrates-dTWAP-powered-by-Orbs/blog.md
   - ORBS-is-now-available-on-Megaton-Finance/blog.md
   - Orbs-to-host-TONs-hackathon-TLV-and-London/blog.md
   - ORBS-added-to-STONfi/blog.md
