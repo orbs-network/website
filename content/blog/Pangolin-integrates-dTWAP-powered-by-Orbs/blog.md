@@ -53,7 +53,7 @@ As an increasing number of protocols recognize the benefits of offering this rob
 <div class='line-separator'> </div>
 
 
-**About Orbs **
+**About Orbs**
 
 The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. 
 
