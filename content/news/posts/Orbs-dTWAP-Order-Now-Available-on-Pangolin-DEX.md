@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-dTWAP-Order-Now-Available-on-Pangolin-DEX.webp
+url: https://u.today/orbs-dtwap-order-now-available-on-pangolin-dex
+date: 24, February 2023
+logo: /assets/img/news/logos/utoday.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Pangolin, one of the oldest and most popular decentralized cryptocurrency exchanges on Avalanche (AVAX) blockchain, implements a game-changing type of order for all of its customers.
