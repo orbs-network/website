@@ -45,6 +45,8 @@ The addition of Angle makes for an impressive lineup of leading DeFi projects wh
 
 **All in all, the app supports over 20 protocols across 6 networks: Ethereum, BSC, Polygon, Fantom, Cronos and Avalanche!**
 
+![ecosystem](/assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Angle-Protocol/image2.jpg)
+
 
 <div class='line-separator'> </div>
 
