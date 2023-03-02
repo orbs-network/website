@@ -1,67 +1,64 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Introduces-TON-vote/bg.png
+blogUrl: Orbs-Introduces-TON-vote
+date: 2023-03-02
+title: "Orbs Introduces TON.vote: a No-code DAO Governance Tool for TON dApps"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Over the last few months, Orbs has worked with the TON Foundation to create a governance platform for The Open Network. This platform needed to adhere to the web3 standards that all builders in the space strive for: decentralization, immutability, security, and transparency. With these core values in mind and the TON Foundation as our design partner, we’re excited to introduce TON.vote!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+GM,
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Over the last few months, Orbs has worked with the TON Foundation to create a governance platform for The Open Network. This platform needed to adhere to the web3 standards that all builders in the space strive for: decentralization, immutability, security, and transparency. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+**With these core values in mind and the TON Foundation as our design partner, we’re excited to introduce [TON.vote](https://ton.vote/)!**
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+### What is TON.Vote?
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+TON.Vote is a completely decentralized, on-chain DAO governance platform built exclusively for the TON ecosystem. The core user base is anticipated to be TON DAOs, projects, and other TON-related communities requiring governance activities. It is most similar to [Snapshot.org](https://snapshot.org/#/), with a major caveat: all voting is decentralized and trustless. 
 
-Please also see our disclaimers below.
+This is a major step forward for the entire TON ecosystem as there was no previous solution for governance before now. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Why is Governance Important? 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Put simply, governance is important as it decentralizes the control of a protocol and gives it to the community. Diving further, community governance adheres to the decentralized nature of cryptocurrency and protects user funds by ensuring no one person can make unilateral decisions. Some examples of this are: What do we do with the treasury? Should we allocate a % of our tokens as a grant? Who should the grant be given to? What are the next steps the protocol takes? Communities should vote to align themselves on these types of issues. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+The above are just a few examples of the limitless possibilities that governance unlocks. Decision-making is put into the communities hands instead of the founding team, and all parties should be able to participate in governance without censorship. To allow governance in one's project is to give up control; it’s a decision that shouldn’t be taken lightly. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+### How it Works
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+As mentioned, all of the voting happens on-chain, which is the main difference between Snapshot and TON.vote. A smart contract is deployed on-chain when a new proposal is created. This new contract includes a reference to the merkle tree of all the votes which will be stored on IPFS, and anyone can independently verify on-chain that these votes are accurate. In the current iteration, users send transactions to the contract with a comment (yes/no/abstain); these transactions are processed off-chain to calculate the final results. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+In future versions, users will only need to sign a digital signature from their wallets which will be stored in IPFS. Everyone will be able to verify these transactions independently to ensure no manipulation is happening by any one party. 
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+### The Orbs Component 
 
-### 2) Lend ALPACA tokens
+TON.vote also implements Orbs’ L3 technology, with the Orbs Guardians providing an extra layer of assurance to the already robust voting system. In addition to independent validators and manual chain checking, Guardians independently verify the accuracy of the displayed votes in the UI with those stored in the smart contract data. This extra level of verification ensures that there is no tampering with the votes, as they are stored in an immutable format. By cross-checking the information presented on the front end, the Orbs Guardians verify that there is no mismatch of data, reinforcing the entire process's trust and transparency.   
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+We want to create a decentralized voting system, but we also want the system to be gasless. While not in the current iteration, achieving this requires the layer-3 capabilities of Orbs guardians to tally the votes in a decentralized manner. Independent users can use either the TON RPC API or any of their choosing to verify that votes are accurate. See the guide on this [here](https://github.com/orbs-network/dao-vote#how-can-you-verify-the-results).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
-### 3) Earn Orbs in the Grazing Range
+### Current Votes Happenings 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+You may have noticed that the TON Foundation is already using TON.Vote for its governance needs. Orbs Guardians have already directly interacted with the Foundation to ensure the contract data is displayed correctly, thus proving our working use case. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+At the time of writing, over 1.1 million TON tokens have participated in the first governance vote on the network. Titled ‘[Proposal of TON Tokenomics Optimization](https://ton.vote)’, the community is asked to vote on whether genesis mining wallets should have their tokens frozen after 48 months of inactivity. If you haven’t already, be sure to cast your vote and celebrate this remarkable achievement for the entire network. 
 
-#### And that’s it – You are now a senior Alpaca!
+![screenshot](/assets/img/blog/Orbs-Introduces-TON-vote/image1.png)
 
-<div class='line-separator'> </div>
 
-**Please Note**
+### Roadmap 
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Over the following weeks, we will publish developer documentation for anyone who wishes to integrate TON.Vote with their TON community. After this process is complete, any project who wishes to have governance on TON can create their own space for proposals without needing assistance from Orbs. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Additionally, in the current version votes are sent via TON transactions. In the future, governance participants can vote with signatures from their wallets. We also plan to allow support for [voting with NFTs](https://github.com/orbs-network/dao-vote#background), and collections will be able to weigh votes with rare traits if they so choose. 
+
+As the TON network continues to grow, it will be exciting to look back and know that Orbs helped facilitate the first-ever governance vote on The Open Network. We look forward to this day and will continue building alongside you until then. 
+
