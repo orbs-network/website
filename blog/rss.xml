@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Feb 2023 08:43:16 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 02 Mar 2023 09:12:31 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Introduces TON.vote: a No-code DAO Governance Tool for TON dApps]]></title>
+            <description><![CDATA[Over the last few months, Orbs has worked with the TON Foundation to create a governance platform for The Open Network. This platform needed to adhere to the web3 standards that all builders in the space strive for: decentralization, immutability, security, and transparency. With these core values in mind and the TON Foundation as our design partner, we’re excited to introduce TON.vote!]]></description>
+            <link>https://www.orbs.com/Orbs-Introduces-TON-vote</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Introduces-TON-vote</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Introduces-TON-vote/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Angle Protocol]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated Angle, an over-collateralized, decentralized, and capital-efficient stablecoin protocol with 58 million in TVL at the time of writing.]]></description>
