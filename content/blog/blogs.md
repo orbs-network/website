@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Introduces-TON-vote/blog.md
   - The-Open-DeFi-Notification-Protocol-Now-Supports-Angle-Protocol/blog.md
   - Pangolin-integrates-dTWAP-powered-by-Orbs/blog.md
   - ORBS-is-now-available-on-Megaton-Finance/blog.md
