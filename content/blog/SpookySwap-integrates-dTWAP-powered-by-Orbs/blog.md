@@ -1,67 +1,71 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/SpookySwap-integrates-dTWAP-powered-by-Orbs/bg.jpg
+blogUrl: SpookySwap-integrates-dTWAP-powered-by-Orbs
+date: 2023-03-06
+title: "SpookySwap integrates dTWAP powered by Orbs!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "SpookySwap, the largest DEX by TVL on the Fantom blockchain has completed its integration with dTWAP, developed by the Orbs team and powered by the Orbs network. The integration comes after completing the process on SpiritSwap and Pangolin DEX, as we continue to see new DEXs adopt the dTWAP standard."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+SpookySwap, the largest DEX [by TVL](https://defillama.com/protocol/spookyswap) on the Fantom blockchain has completed its integration with dTWAP, developed by the Orbs team and powered by the Orbs network. The integration comes after completing the process on SpiritSwap and Pangolin DEX, as we continue to see new DEXs adopt the dTWAP standard. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+dTWAP is a fully decentralized, permissionless, and composable DeFi protocol developed by the Orbs team and powered by the Orbs network. Traders utilizing the DEX will now have access to the sophisticated order type, dTWAP.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+The integration highlights the close collaboration between the Orbs team and SpookySwap, and displays a working relationship that other projects can look to model to adopt the standard quickly. The Spooky team did most of the integration work, including their custom front end, with minimal help from Orbs developers. This was possible due to the smart contract audits (1,2) and the high-level developer documentation of dTWAP. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_Orbs is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with TVL valued at over a hundred million dollars. Orbs pioneers the concept of L3 infrastructure, by utilizing the Orbs decentralized network to enhance the capabilities of existing EVM smart contracts, opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi._
 
-### Step-by-Step Guide
+### Trade With More Confidence 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+In the last seven days, SpookySwap has facilitated a [trading volume](https://defillama.com/protocol/spookyswap) of 76 million dollars and boasts a TVL of 97 million. The order types that make up this volume are: Market, Limit, and Cross-Chain. dTWAP will expand Spooky’s offerings, allowing dTWAP to tap into a marketplace with robust trading volumes. 
 
-Please also see our disclaimers below.
+TWAP is an algorithmic trading strategy utilized in CeFi that aims to reduce the impact of large orders on the market by breaking them down into smaller portions over time. By executing smaller orders, this approach lessens the price impact and enables traders to gradually acquire various assets over a specific period of time. Spooky’s traders can now utilize these key features without sacrificing decentralization. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Trading With dTWAP
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Those familiar with the DEX can [find dTWAP](https://spooky.fi/#/swap) in a familiar location, next to the other order types supported by Spooky. When switching to the dTWAP UI, users are presented with a fully customizable dashboard that updates in real time as they make changes to their orders.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Before executing dTWAP, three parameters need to be specified:
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+1. **# of Intervals:** allows the user to specify the number of individual trades. The UI automatically calculates the total number of trades required to complete the full order and the estimated trading interval.
+2. **Max Duration:** the total time during which the total amount of individual trades making up the full dTWAP order may be executed.
+3. **Trade Interval:** sets the time gap between each individual trade. The user can edit this parameter, which also results in corresponding trade size and number changes.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+These parameters provide significant flexibility in customizing each order, taking into account factors like market conditions and current gas fees. Additionally, the UI facilitates both dTWAP-market and dTWAP-limit orders. Once these parameters are set, the user can approve the specific source token, place the order, and review their specified configuration. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Here’s a short tutorial on how to set up the dTWAP order on Spooky:
 
-Once the position is opened, you can always re-adjust the parameters:
+<iframe src="https://www.youtube.com/embed/0gPbRZ-V1HY" title="How to Use the TWAP order on SpookySwap DEX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+### Creating a standard for DEXs
 
-### 2) Lend ALPACA tokens
+Following up on the last announcement, with [Pangolin adopting dTWAP](https://www.orbs.com/Pangolin-integrates-dTWAP-powered-by-Orbs/), there are now three DEXs that have fully integrated with the DeFi standard that is dTWAP. The three integrations prove the working use case and DeFi participants' desire to access more sophisticated trade orders.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+The next integration is planned to be QuickSwap, for those of you paying attention to dTWAP’s [landing page](https://www.orbs.com/dtwap/) and the Orbs blog. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+![DEXs](/assets/img/blog/SpookySwap-integrates-dTWAP-powered-by-Orbs/image1.png)
 
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About Orbs**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. 
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi. 
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network 
+
+
