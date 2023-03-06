@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Mar 2023 08:43:07 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 06 Mar 2023 10:45:00 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[SpookySwap integrates dTWAP powered by Orbs!]]></title>
+            <description><![CDATA[SpookySwap, the largest DEX by TVL on the Fantom blockchain has completed its integration with dTWAP, developed by the Orbs team and powered by the Orbs network. The integration comes after completing the process on SpiritSwap and Pangolin DEX, as we continue to see new DEXs adopt the dTWAP standard.]]></description>
+            <link>https://www.orbs.com/SpookySwap-integrates-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/SpookySwap-integrates-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/SpookySwap-integrates-dTWAP-powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Introduces TON.vote: a No-code DAO Governance Tool for TON dApps]]></title>
             <description><![CDATA[Over the last few months, Orbs has worked with the TON Foundation to create a governance platform for The Open Network. This platform needed to adhere to the web3 standards that all builders in the space strive for: decentralization, immutability, security, and transparency. With these core values in mind and the TON Foundation as our design partner, we’re excited to introduce TON.vote!]]></description>
