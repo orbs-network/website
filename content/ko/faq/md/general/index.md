@@ -8,5 +8,5 @@ list:
   - faq-5.md
   - faq-6.md
   - faq-7.md
-title: GENERAL
+title: 일반적인 질문들
 ---

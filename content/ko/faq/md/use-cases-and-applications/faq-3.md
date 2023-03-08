@@ -4,6 +4,8 @@ title: TON Access
 color: "#B01EE6"
 ---
 
-TON Access is the most reliable decentralized RPC network for TON dApps making HTTP queries to blockchain state from the browser. It offers unrestricted anonymous access without an API key.
+TON Access는 브라우저에서 블록체인 상태의 HTTP 쿼리를 만드는 TON dapp을 위한 안정적이고 탈중앙화된 RPC 공급자로, API 키 없이도 dapp 사용자에게 무제한 익명 접근 권한을 가능케 합니다.
 
-Learn more [here.](/ton-access)
+  
+
+[여기](/ton-access)서 세부내용을 확인하실 수 있습니다.

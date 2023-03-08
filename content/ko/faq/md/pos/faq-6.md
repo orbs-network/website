@@ -1,13 +1,14 @@
 ---
 layout: partials/shared/opening-box
-title: How do I choose an Orbs Guardian?
+title: 어떤 가디언을 선택해야 하나요?
 color: "#E6541E"
 ---
 
-In order to participate in the Orbs universe, token holders are required to stake their tokens and select a Guardian to delegate their voting power to. Orbs Guardians represent the Orbs community; they maintain the security of the network and uphold its long-term vision. Therefore, it is important for Orbs Delegators to choose a trustworthy and active Guardian and monitor their performance.
+Orbs 스테이킹에 참여하려면 자신의 토큰을 스테이킹하고 투표권을 위임할 가디언을 선택해야 합니다. Orbs 가디언은 Orbs 커뮤니티를 대표하며 네트워크의 보안을 유지하고 프로젝트의 장기 비전을 공유합니다. 따라서 믿을 수 있고 활동적인 가디언을 선택하고 가디언의 활동을 모니터링 하는 것이 중요합니다.
 
-Delegators should note that Guardians are entitled to change the [rewards ratio](https://www.orbs.com/how-to-choose-an-orbs-guardian/) to their Delegators within the allowed range of 66.667% to 0%. Therefore, it is important to note that staking rewards may vary between Guardians, so choose your Guardian carefully!
+각 가디언은 0% ~ 66.667% 사이에서, 델리게이터에게 제공할 보상 비율을 변경할 수 있기 때문에 가디언 별로 보상 비율이 다를 수 있다는 점을 인지해야 합니다.
 
-The full Guardians list for staking on Ethereum and Polygon can be seen in the [Tetra](https://staking.orbs.network/#/) staking wallet.
+이더리움과 폴리곤의 가디언 목록은 [테트라 지갑](https://staking.orbs.network/#/)에서 확인하실 수 있습니다.
 
-You can learn more on how to choose an Orbs Guardian [here.](https://www.orbs.com/how-to-choose-an-orbs-guardian/)
+가디언 선택에 대한 자세한 내용은 [여기](https://medium.com/@orbskorea/%EA%B0%80%EB%94%94%EC%96%B8%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-dfdf4bc05d)서 확인하실 수 있습니다.
+
