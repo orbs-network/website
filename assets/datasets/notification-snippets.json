@@ -1,3 +1,0 @@
-{
- "main_snippet":"const BigNumber = require(\"bignumber.js\");\r\n\r\nclass LowHealth {\r\n  static displayName = \"Low Health\";\r\n  static description = \"Get notified when health factor is getting low (below 1.1)\";\r\n\r\n  async onInit(args) {\r\n    const abi = [{\/* ... *\/}];\r\n    this.contract = new args.web3.eth.Contract(abi, \"0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9\");\r\n  }\r\n\r\n  async onBlocks(args) {\r\n    const position = await this.contract.methods.getPositionData(args.address).call();\r\n    if (new BigNumber(position.healthFactor).dividedBy(\"1e18\").toNumber() < 1.1) return {\r\n      notification: \"Health factor dropped below 1.1\"\r\n    };\r\n  }\r\n}\r\n\r\nmodule.exports = LowHealth;"
-}
