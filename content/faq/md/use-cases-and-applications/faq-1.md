@@ -4,7 +4,7 @@ title: dTWAP
 color: "#B01EE6"
 ---
 
-dTWAP (decentralized time-weight moving average) is a decentralized protocol powered by Orbs for DEXs.
+dTWAP (decentralized time-weight  average price) is a decentralized protocol powered by Orbs for DEXs.
 
 dTWAP is an algorithmic trading order that divides a trading order into a number of smaller trades and executes these trades at regular intervals over a specified period of time.
 
