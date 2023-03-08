@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/opening-box
-title: Does Tetra wallet charge any fees?
+title: 테트라 지갑 사용에 수수료가 발생하나요?
 color: "#1EB8E6"
 ---
 
-The Tetra staking wallet does not charge any fees. However, the staking process involves using smart contracts on the Ethereum and Polygon networks subject to gas fees which should be taken into [consideration.](https://www.orbs.com/optimizing-ethereum-gas-costs-for-orbs-delegators/) In addition, the rewards distributed by Guardians may vary, so be sure to [choose your Guardian carefully.](https://orbs-network.github.io/voting/guardian)
+테트라 스테이킹 지갑은 어떠한 수수료도 부과하지 않습니다. 다만 스테이킹 진행 과정 중 가스비용이 발생하는 이더리움 및 폴리곤 네트워크의 스마트 컨트랙트가 사용되기 때문에 이를 고려해야 합니다. 또한 각 가디언이 배포하는 보상 비율이 다를 수 있으므로 가디언을 신중하게 선택해야합니다.

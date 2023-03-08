@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/images-grid/images-grid
 imagesPerLine: 3
-title: "Orbs PoS 유니버스의 주요점들:"
+title: "Orbs PoS 유니버스의 주요 기능들:"
 images:
   - item-1.md
   - item-2.md

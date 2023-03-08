@@ -2,25 +2,20 @@
 layout: partials/white-papers/white-papers-list
 title: white papers
 list:
-  - title: 커뮤니티 관련
+- title: Orbs PoS 유니버스
     list:
-      - orbs-grant-grogram-second-call-for-grants/paper.md
-      - orbs-grant-program/paper.md
-
-  - title: Orbs PoS 유니버스
-    list:
+      - Orbs-PoS-V3-Multi-chain-Staking/paper.md
       - orbs-pos-v2-the-age-of-guardians/paper.md
+      - proof-of-stake-ecosystem/paper.md
 
-  - title: 정책방침서(Position Paper)
-    list:
-      - orbs-position-paper/paper.md
-
-  - title: Orbs 기술 개요
+  - title: 기본 백서
     list:
       - orbs-technology-overview-2/paper.md
+      - orbs-position-paper/paper.md
 
   - title: 기술 문서들
     list:
+      - dTWAP/paper.md
       - use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/paper.md
       - blockchain-virtualization-a-necessity-for-real-world-dapps/paper.md
       - eliminating-the-security-vs-scalability-dilemma-randomized-committee-consensus-protocols/paper.md
@@ -37,7 +32,12 @@ list:
 
   - title: ORBS 토큰 정보
     list:
-      - proof-of-stake-ecosystem/paper.md
       - orbs-token-distribution/paper.md
       - Orbs-Operation-Fees/paper.md
+
+  - title: 지원 프로그램
+    list:
+      - grants/paper.md
+      - orbs-grant-grogram-second-call-for-grants/paper.md
+      - orbs-grant-program/paper.md
 ---

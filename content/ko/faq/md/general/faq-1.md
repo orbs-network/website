@@ -1,13 +1,13 @@
 ---
 layout: partials/shared/opening-box
-title: What is Orbs?
+title: 오브스는 어떤 프로젝트입니까?
 color: "#E61EA9"
 ---
 
-The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+오브스 네트워크는 공개형, 탈중앙 퍼블릭 블록체인 인프라를 제공합니다. 지분증명(PoS) 컨센서스를 바탕으로 분산 밸리데이터들에 의해 보안이 제공되는 네트워크상에서 실행됩니다.
 
-Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+오브스는 L1/L2 솔루션들 사이에서 동작하는 독립된 분산형 실행 레이어로서 구축되어있으며 최상위 블록체인 스택의 일부로서 새로운 체인으로 유동성을 이동시킬 필요없는 애플리케이션 레이어를 제공합니다. 오브스는 "분산형 백엔드" 역할을 함으로써, 현재의 스마트 컨트랙트의 능력을 향상시켜주어 Web 3.0, DeFi, NFT, GameFi를 위한 가능성의 범위를 새로운 단계로 나아가게 해줍니다.
 
-Orbs was founded in 2017 and launched its mainnet and token in March 2019. Orbs is being developed by a team of more than 30 people, with team members working in Tel Aviv, London, New York, Tokyo, and Seoul.
+오브스는 2017년에 설립되어 2019년 3월에 토큰을 발행하고 메인넷을 론칭했습니다. 오브스는 30여명 이상의 팀원으로 이루어져있으며, 이스라엘 텔아비브, 영국 런던, 미국 뉴욕, 일본 도쿄, 한국 서울에 사무실을 운영하고 있습니다.
 
-Read more [here](https://www.orbs.com/Orbs-A-Re-introduction/).
+더 많은 내용을 [여기](https://www.orbs.com/Orbs-A-Re-introduction/)에서 확인해보세요.

@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/opening-box
-title: "What is Orbs POS V3: Multi chain staking?"
+title: "Orbs POS V3: 멀티체인 스테이킹이 무엇인가요?"
 color: "#E6541E"
 ---
 
-Orbs PoS V3: Multi-chain staking, [utilizes](https://www.orbs.com/Polygon-tech/) Orbs hybrid architecture and cross-chain properties to deploy a novel multi-chain PoS staking on both Ethereum and Polygon.
+Orbs PoS V3: 멀티 체인 스테이킹은 Orbs의 하이브리드 아키텍처 및 크로스 체인 속성을 활용하여 이더리움과 폴리곤 양 체인 모두에서 PoS 스테이킹을 진행할 수 있게 합니다.
 
-Adding Orbs PoS staking on Polygon means that the Orbs network utilizes the Ethereum stack to its fullest potential: The security of Ethereum as the base layer, and the scalability & low fees of Polygon as L2.
+폴리곤에서 Orbs PoS가 가능하다는 것은 Orbs 네트워크가 이더리움 스택을 최대한으로 활용한다는 것을 의미하며, 기본 레이어로서 이더리움의 보안성, L2로서 폴리곤의 확장성과 낮은 수수료를 활용합니다.
 
-In this way, Orbs PoS V3 addresses one of the key feedbacks from the community and is expected to mitigate the problem of Ethereum’s gas spikes leading to high costs for Orbs delegators interacting with the Orbs staking contracts.
+이 방식으로, Orbs PoS V3는 커뮤니티의 주요 피드백 중 하나를 해결함과 동시에, Orbs 위임자가 Orbs 스테이킹 컨트랙트와 상호 작용시 발생하는 높은 이더리움의 가스 비용 문제를 완화할 것으로 기대합니다.

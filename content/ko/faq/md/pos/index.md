@@ -9,5 +9,5 @@ list:
   - faq-6.md
   - faq-7.md
 
-title: Orbs POS
+title: 오브스 POS
 ---

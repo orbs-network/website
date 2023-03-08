@@ -1,11 +1,12 @@
 ---
 layout: partials/shared/opening-box
-title: What is the connection between Orbs and Ethereum / polygon?
+title: 오브스네트워크는 이더리움/폴리곤과 어떻게 연결되어 있습니까?
 color: "#E61EA9"
 ---
 
-Orbs is an ERC20 token but has its own mainnet.
+ORBS는 ERC20토큰이지만 별도의 메인넷을 가지고 있습니다.
 
-Orbs is designed as a hybrid blockchain, maintaining both an independent blockchain and PoS architecture, as well as utilizing the Ethereum network as an [external objective blockchain](https://www.orbs.com/white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/) for the PoS logic. ORBS token, staking, delegation and voting operate over Ethereum contracts. This PoS over Ethereum architecture provides multiple advantages, including a high level of transparency, ease of subscription payments and staking, additional security and ensuring the [integrity of elections.](https://www.orbs.com/pos-external-oversight/)
+오브스는 하이브리드 블록체인으로 설계되어 이더리움 네트워크를 PoS 로직에 필요한 [외적 보완 블록체인](https://www.orbs.com/white-papers/use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/)으로 활용할 뿐만 아니라 독립적인 블록체인으로 PoS 구조를 유지하고 있습니다. ORBS 토큰, 스테이킹, 위임등이 이더리움 컨트렉트에서 진행됩니다. 이더리움에 기반한 PoS 운영은 여러 장점들을 지니고 있습니다; 고수준의 투명성, 앱들의 네트워크 사용료 지불과 스테이킹 참여의 용이성, 추가적인 보안과 [무결성 교차 검증](https://www.orbs.com/pos-external-oversight/).
 
-Recently, Orbs has also added PoS staking on Polygon as part of its Orbs PoS V3: Multichain staking [protocol upgrade.](https://www.orbs.com/polygon-staking/)
+오브스는 또한 ["오브스 PoS V3: 멀티 체인 스테이킹" 업그레이드](https://www.orbs.com/polygon-staking/)를 통해 폴리곤 네트워크에서도 PoS 스테이킹할 수 있도록 추가하였습니다.
+

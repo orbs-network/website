@@ -6,5 +6,5 @@ list:
   - faq-3.md
   - faq-4.md
 
-title: Use Cases & Applications
+title: 유즈케이스 & 앱
 ---
