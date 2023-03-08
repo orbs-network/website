@@ -1,0 +1,12 @@
+@import "./socials.scss";
+@import "./sections.scss";
+@import "./sections-media-query.scss";
+
+#notification-page {
+  .footer {
+    margin-top: 0px;
+    &-terms {
+      display: flex;
+    }
+  }
+}

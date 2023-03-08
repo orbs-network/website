@@ -1,0 +1,159 @@
+@import "./cards.scss";
+
+.globe-container {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+#globeArea {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#guardianDetails {
+  display: none;
+  position: absolute;
+  right: 15vw;
+  bottom: 15vh;
+  max-width: 400px;
+  width: calc(100% - 40px);
+  z-index: 9;
+}
+.home {
+  padding-top: 110px;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  .title {
+    text-align: left;
+  }
+
+  &-link{
+    color: $text-color;
+    margin-top: 40px;
+    font-size: 0.938rem;
+    text-decoration: none;
+    position: relative;
+    padding-left: 110px;
+    &::before{
+      @include gradient-border(1px);
+      position: absolute;
+      content: '';
+      left: 0px;
+      width: 90px;
+      top: 50%;
+      transform: translate(0, -50%);
+      height: 0px;
+
+    }
+
+  }
+  &-flex {
+    align-items: flex-start;
+    position: relative;
+    &-left {
+      z-index: 100;
+      position: relative;
+      padding-top: 28vh;
+
+      h1 {
+        font-weight: 900;
+        font-size: 2.75rem;
+        letter-spacing: 0.206rem;
+        line-height: 3.438rem;
+        @extend .gradient-text;
+        font-family: $text-font;
+        letter-spacing: -0.009rem;
+      }
+      .socials {
+        margin-top: 14vh;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .home {
+    &-globe-image {
+      right: -30vw;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: $medium) {
+  .home {
+    &-flex-left {
+      h2 {
+        font-size: 1.125rem;
+        letter-spacing: 0.138rem;
+      }
+      h1 {
+        font-size: 1.563rem;
+        line-height: 2rem;
+        letter-spacing: 0.13rem;
+      }
+    }
+    &-globe-image {
+      transform: translate(180px);
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .globe-container {
+    height: 100%;
+  }
+  #globeArea {
+    top: 40px;
+  }
+  .home-link{
+    background: $gradient;
+    padding-left: 0px;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    margin-top: 20px;
+    &:before{
+      display: none;
+    }
+  }
+  #guardianDetails {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    right: auto;
+    position: fixed;
+  }
+  .home {
+    padding-top: 90px;
+    height: 100%;
+    .title {
+      text-align: center;
+    }
+ 
+    &-flex {
+      width: 100%;
+      overflow: hidden;
+
+      flex-direction: column;
+      &-left {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: flex-start;
+        height: auto;
+        text-align: center;
+        .socials {
+          display: none;
+        }
+      }
+    }
+  }
+}
