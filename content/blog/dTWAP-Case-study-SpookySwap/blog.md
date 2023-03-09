@@ -64,9 +64,9 @@ Looking at the on-chain data, the first dTWAP order was configured as follows:
 - Input token: [USDC](https://ftmscan.com/token/0x04068da6c83afcfa0e13ba15a6696662335d5b75), Output token: [OATH](https://ftmscan.com/token/0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6)
 - Trades execution at market prices (no limit price set)
 - Total input size: 46,000 USDC
-- # of intervals: 200, which means 230 USDC per swap
--  Max. Duration: 2 hrs
--  Trade intervals (delay between swaps): 2 mins
+- No. of intervals: 200, which means 230 USDC per swap
+- Max. Duration: 2 hrs
+- Trade intervals (delay between swaps): 2 mins
 
 Here’s the same order configuration in the SpookySwap UI:
 
@@ -82,7 +82,7 @@ The second dTWAP order was submitted shortly after and configured as follows:
 - Input token: [USDC](https://ftmscan.com/token/0x04068da6c83afcfa0e13ba15a6696662335d5b75), Output token: [OATH](https://ftmscan.com/token/0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6)
 - Trades execution at market prices (no limit price set)
 - Total input size: 42,000 USDC
-- # of intervals: 20, which means 2,100 USDC per swap 
+- No. of intervals: 20, which means 2,100 USDC per swap 
 - Max. Duration: 1 hr
 - Trade intervals (delay between swaps): 3 mins
 
