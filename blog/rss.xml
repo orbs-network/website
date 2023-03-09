@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Mar 2023 08:27:49 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 09 Mar 2023 09:09:09 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[dTWAP Case-study: Reducing Price Impact on SpookySwap DEX]]></title>
+            <description><![CDATA[Orbs recently introduced the novel dTWAP (decentralized time-weighted average price) protocol for DEXs. Using dTWAP orders, DEX users can now optimize their trading by executing more sophisticated trading strategies. One of the prominent use-cases is the ability to significantly reduce price impact when executing large orders or in cases of fragmented and low liquidity. In this blog post, we’ll analyze how dTWAP has already successfully been used for exactly that purpose: to significantly reduce price impact on SpookySwap DEX.]]></description>
+            <link>https://www.orbs.com/dTWAP-Case-study-SpookySwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/dTWAP-Case-study-SpookySwap</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/dTWAP-Case-study-SpookySwap/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[SpookySwap integrates dTWAP powered by Orbs!]]></title>
             <description><![CDATA[SpookySwap, the largest DEX by TVL on the Fantom blockchain has completed its integration with dTWAP, developed by the Orbs team and powered by the Orbs network. The integration comes after completing the process on SpiritSwap and Pangolin DEX, as we continue to see new DEXs adopt the dTWAP standard.]]></description>
