@@ -5,6 +5,7 @@ button:
   - header-button.md
 mainImg: assets/img/dtwap/hero.svg
 github: https://github.com/orbs-network/twap
+telegram: https://t.me/dTWAPSupportGroup
 ---
 
 # TIME-WEIGHTED AVERAGE
