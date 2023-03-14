@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DWF-invests-in-Orbs-Ecosystem/blog.md
   - dTWAP-Case-study-SpookySwap/blog.md
   - SpookySwap-integrates-dTWAP-powered-by-Orbs/blog.md
   - Orbs-Introduces-TON-vote/blog.md
