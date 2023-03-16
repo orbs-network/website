@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Mar 2023 11:56:55 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Mar 2023 09:02:41 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Carbon Browser adds ORBS to the wallet functionality]]></title>
+            <description><![CDATA[Carbon browser, a decentralized web3 browser, has added support for the ORBS token, the native token of the Orbs network to their wallet functionality.]]></description>
+            <link>https://www.orbs.com/Carbon-Browser-adds-ORBS-to-the-wallet-functionality</link>
+            <guid isPermaLink="true">https://www.orbs.com/Carbon-Browser-adds-ORBS-to-the-wallet-functionality</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Carbon-Browser-adds-ORBS-to-the-wallet-functionality/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[DWF invests $10M in Orbs Ecosystem via token purchase deal, to advance layer 3 blockchain technology]]></title>
             <description><![CDATA[DWF Labs, a leading web 3.0 investment firm, has officially joined the Orbs ecosystem via a token purchase of up to $10M.]]></description>
