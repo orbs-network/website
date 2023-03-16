@@ -1,67 +1,60 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Carbon-Browser-adds-ORBS-to-the-wallet-functionality/bg.jpg
+blogUrl: Carbon-Browser-adds-ORBS-to-the-wallet-functionality
+date: 2023-03-16
+title: "Carbon Browser adds ORBS to the wallet functionality" 
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Carbon browser, a decentralized web3 browser, has added support for the ORBS token, the native token of the Orbs network to their wallet functionality."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**[Carbon browser](https://carbon.website/), a decentralized web3 browser, has added support for the ORBS token, the native token of the Orbs network to their wallet functionality.** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Carbon boasts over 5.7 million downloads alongside a growing community of 45,000 daily active users (DAUs) who will be able to interact with ORBS seamlessly as they browse the web.  
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Carbon was originally a web 2.0 browser relaunched to support the needs of web 3.0 users. Carbon open-sourced its code and built a privacy and security-focused browser. Backed by Binance Chain, Poolz, TrustSwap, and Curate with current integrations with Sui, Polygon, and Akash network, Carbon is able to provide the following advantages: 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+- ~0.5 Average page load time
+- Free VPN + dVPN
+- Fully functional AdBlock
+- ENS Domains, Unstoppable, and Handshake web3 support
+- Multichain wallet
+- Atomic swaps
+-  & more 
 
-### Step-by-Step Guide
+![screenshot](/assets/img/blog/Carbon-Browser-adds-ORBS-to-the-wallet-functionality/image1.png)
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+Now with Orbs functionality, Carbon will be a one-stop solution for those looking to combine the advantages of a traditional browser with all the perks that web 3.0 has to offer. At the time of writing Carbon only supports Android with IOS, Mac, and Windows support coming soon. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Carbon aligns with the Orbs project’s philosophy Orbs that products should protect users' privacy and data, support open-source development and facilitate community governance. The collaboration between the two projects comes at a time with increased activity from the Orbs community. [dTWAP](https://www.orbs.com/dtwap/) is now live on SpookySwap, SpiritSwap and Pangolin DEX, parallel with active development on the TON ecosystem with [TON.Vote](https://ton.vote/) advancing L3 use cases. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![ecosystem](/assets/img/blog/Carbon-Browser-adds-ORBS-to-the-wallet-functionality/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About Orbs** 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The Orbs Network is an open, decentralized, public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. 
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi. 
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with team members in Tel Aviv, London, New York, Tokyo and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network  
+
+
+
+
+
+
+
+
