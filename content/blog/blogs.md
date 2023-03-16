@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Carbon-Browser-adds-ORBS-to-the-wallet-functionality/blog.md
   - DWF-invests-in-Orbs-Ecosystem/blog.md
   - dTWAP-Case-study-SpookySwap/blog.md
   - SpookySwap-integrates-dTWAP-powered-by-Orbs/blog.md
