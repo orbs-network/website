@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Crypto-infrastructure-provider-Orbs-raising-10-million-from-DWF-Labs-in-token-round.webp
+url: https://www.theblock.co/post/219598/layer-3-network-orbs-raising-10-million-from-dwf-labs-in-token-round
+date: 14, March 2023
+logo: /assets/img/news/logos/TheBlock.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+DWF Labs is set to purchase Orbs tokens worth up to $10 million. Orbs helps improve the capabilities of smart contracts.
