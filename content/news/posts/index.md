@@ -3,7 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - ORBS-Token-Rises-15-After-DWF-Labs-Invests-10M.md
+  - Web-3.0-Investment-Firm-DWF-Labs-Invests-10-Million-in-Orbs-Ecosystem-Via-Token-Purchase.md
   - Pangolin-DEX-integrates-Orbs-dTWAP-order-type.md
+  - The-Open-Network-Releases-On-Chain-Governance-Platform.md
   - TON-Governance-Votes-To-Freeze-TON-Supply.md
   - TON-Names-Orbs-As-The-Official-Sponsor.md
   - TON-and-Orbs-Collaborate-for-Global-Hackathon.md
