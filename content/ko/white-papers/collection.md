@@ -2,7 +2,7 @@
 layout: partials/white-papers/white-papers-list
 title: white papers
 list:
-- title: Orbs PoS 유니버스
+  - title: Orbs PoS 유니버스
     list:
       - Orbs-PoS-V3-Multi-chain-Staking/paper.md
       - orbs-pos-v2-the-age-of-guardians/paper.md

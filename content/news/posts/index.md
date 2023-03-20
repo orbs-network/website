@@ -3,7 +3,15 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - ORBS-Token-Rises-15-After-DWF-Labs-Invests-10M.md
+  - Web-3.0-Investment-Firm-DWF-Labs-Invests-10-Million-in-Orbs-Ecosystem-Via-Token-Purchase.md
+  - Pangolin-DEX-integrates-Orbs-dTWAP-order-type.md
+  - The-Open-Network-Releases-On-Chain-Governance-Platform.md
+  - TON-Governance-Votes-To-Freeze-TON-Supply.md
+  - TON-Names-Orbs-As-The-Official-Sponsor.md
+  - TON-and-Orbs-Collaborate-for-Global-Hackathon.md
   - Orbs-To-Sponsor-TONs-Hack-a-TONx-Hackathons.md
+  - DeFi-Platform-SpiritSwap-Partners-with-Orbs-to-Unlock-Advanced-Trading-Strategies.md
   - DeFi-Platform-SpiritSwap-Unlocks-New-Utility-For-Traders-With-Orbs-dTWAP-Module-Integration.md
   - Protecting-Smart-Contracts-on-TON-Blockchain-from-Cyberattacks.md
   - Orbs-Launches-The-TON-Verifier-To-Verify-The-Ecosystems-Smart-Contracts-Code.md

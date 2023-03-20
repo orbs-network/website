@@ -14,12 +14,15 @@ links:
   - img: /assets/img/socials/white/youtube.svg
     url: https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg
 
+  - img: /assets/img/socials/white/discord.svg
+    url: https://discord.com/invite/fPrQf7CuEA
+
   - img: /assets/img/socials/white/github.svg
     url: https://github.com/orbs-network/
   
   - img: /assets/img/socials/white/medium.svg
     url: https://orbs-japan-community.medium.com/
     
-  - img: /assets/img/socials/white/snapshot.jpeg
+  - img: /assets/img/socials/gray/snapshot.svg
     url: https://snapshot.org/#/orbs-network.eth
 ---

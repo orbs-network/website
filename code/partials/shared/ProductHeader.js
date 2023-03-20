@@ -3,8 +3,18 @@ import { handleUrl } from "../../util/link";
 import MainGrid from "./MainGrid";
 const PoweredImg = "/assets/img/powered.png";
 const GithubImg = "/assets/img/ton-gateway/github.svg";
+const telegramImg = "/assets/img/telegram.svg";
 
-function Header({ _body, _relativeURL, _ID, title, button, github, mainImg }) {
+function Header({
+  _body,
+  _relativeURL,
+  _ID,
+  title,
+  button,
+  github,
+  mainImg,
+  telegram,
+}) {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
@@ -16,9 +26,16 @@ function Header({ _body, _relativeURL, _ID, title, button, github, mainImg }) {
           <div className="product-header-body">
             <div className="product-header-github">
               <p>{title}</p>
-              <a href={github} target="_blank">
-                <img src={generateUrl(GithubImg)} />
-              </a>
+              <div style={{ display: "flex", alignItems: "center", gap: 15 }}>
+                <a href={github} target="_blank">
+                  <img src={generateUrl(GithubImg)} />
+                </a>
+                {telegram && (
+                  <a href={telegram} target="_blank">
+                    <img src={generateUrl(telegramImg)} />
+                  </a>
+                )}
+              </div>
             </div>
             {_body}
           </div>
