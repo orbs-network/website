@@ -1,6 +1,6 @@
 ---
 layout: partials/dtwap/Explanation/index
-title: User-friendly and flexible UI
+title: 사용자 친화적인 UI 제공
 slider:
   - slider.md
 
