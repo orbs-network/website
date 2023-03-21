@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Ecosystem](/ko/ecosystem)
+[오브스 생태계](/ko/ecosystem)

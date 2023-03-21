@@ -2,5 +2,5 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[dTWAP Protocol](/ko/dtwap)
+[dTWAP 프로토콜](/ko/dtwap)
 

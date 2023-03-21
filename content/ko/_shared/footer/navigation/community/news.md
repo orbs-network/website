@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Media](/news)
+[미디어](/news)
