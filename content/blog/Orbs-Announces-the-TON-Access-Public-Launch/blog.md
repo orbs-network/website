@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Announces-the-TON-Access-Public-Launch/bg.png
 blogUrl: Orbs-Announces-the-TON-Access-Public-Launch
 date: 2023-03-23
-title: "Orbs Announces the '“TON-Access”' Public Launch"
+title: 'Orbs Announces the “TON-Access” Public Launch'
 author:
   - /blog/common/authors/Shawn.md
 type:
