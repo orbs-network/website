@@ -5,7 +5,7 @@ blogUrl: Orbs-Announces-the-TON-Access-Public-Launch
 date: 2023-03-23
 title: 'Orbs Announces the “TON-Access” Public Launch'
 author:
-  - /blog/common/authors/Shawn.md
+  - /blog/common/authors/RanHammer.md
 type:
 short_description: "Orbs is excited to announce the public launch of TON Access as a fully operational, robust service to the TON ecosystem!"
 ---
