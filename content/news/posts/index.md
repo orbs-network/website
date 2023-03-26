@@ -3,8 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - ORBS-ECOSYSTEM-DEVELOPERS-LAUNCH-TON-ACCESS-TO-THE-PUBLIC.md
   - ORBS-Token-Rises-15-After-DWF-Labs-Invests-10M.md
   - Web-3.0-Investment-Firm-DWF-Labs-Invests-10-Million-in-Orbs-Ecosystem-Via-Token-Purchase.md
+  - Orbs-dTWAP-Order-Now-Available-on-Pangolin-DEX.md
   - Pangolin-DEX-integrates-Orbs-dTWAP-order-type.md
   - The-Open-Network-Releases-On-Chain-Governance-Platform.md
   - TON-Governance-Votes-To-Freeze-TON-Supply.md
