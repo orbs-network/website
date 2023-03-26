@@ -1,6 +1,6 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/Orbs-releases-its-TON-Access-service-to-the-general-public
+image: /assets/img/news/posts/Orbs-releases-its-TON-Access-service-to-the-general-public.jpeg
 url: https://finbold.com/orbs-releases-its-ton-access-service-to-the-general-public/
 date: 23, March 2023
 logo: /assets/img/news/logos/Finbold.png
