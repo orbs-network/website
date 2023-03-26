@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-releases-its-TON-Access-service-to-the-general-public
+url: https://finbold.com/orbs-releases-its-ton-access-service-to-the-general-public/
+date: 23, March 2023
+logo: /assets/img/news/logos/Finbold.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs, a public, open, decentralized blockchain infrastructure and a major player in the Telegram Open Network (TON) ecosystem, has released its TON Access service to the general public.
