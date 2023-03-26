@@ -1,9 +1,10 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/ORBS-ECOSYSTEM-DEVELOPERS-LAUNCH-TON-ACCESS-TO-THE-PUBLIC.png
+url: https://finbold.com/orbs-releases-its-ton-access-service-to-the-general-public/
+date: 23, March 2023
+logo: /assets/img/news/logos/FinanceFeeds.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The TON Access service provides reliable and decentralized RPC nodes to decentralized applications (dApps).
+
