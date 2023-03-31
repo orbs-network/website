@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Mar 2023 08:30:05 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 31 Mar 2023 08:03:29 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ApeSwap lists Orbs Token]]></title>
+            <link>https://www.orbs.com/ApeSwap-lists-Orbs-Token</link>
+            <guid isPermaLink="true">https://www.orbs.com/ApeSwap-lists-Orbs-Token</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ApeSwap-lists-Orbs-Token/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Announces the “TON-Access” Public Launch]]></title>
             <description><![CDATA[Orbs is excited to announce the public launch of TON Access as a fully operational, robust service to the TON ecosystem!]]></description>
