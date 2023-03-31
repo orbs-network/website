@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ApeSwap-lists-Orbs-Token/blog.md
   - Orbs-Announces-the-TON-Access-Public-Launch/blog.md
   - Carbon-Browser-adds-ORBS-to-the-wallet-functionality/blog.md
   - DWF-invests-in-Orbs-Ecosystem/blog.md
