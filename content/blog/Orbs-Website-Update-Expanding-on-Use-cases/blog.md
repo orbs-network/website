@@ -38,17 +38,13 @@ The updated website contains individual pages for each of these L3 use-cases. Ea
 
 In addition to featuring Orbs new L3 applications, the revised website contains updated information for various pages with the recent progress of the project, including among others:
 
-**1. L3 and Execution Services**
-This section has been expanded to include 2 separate pages - the first dedicated to Orbs Layer 3 technology, while the second is a more in depth overview of Orbs execution services Lambda and VM.
+**1. L3 and Execution Services:** This section has been expanded to include 2 separate pages - the first dedicated to Orbs Layer 3 technology, while the second is a more in depth overview of Orbs execution services Lambda and VM.
 
-**2. Governance**
-With the recent introduction of Orbs OIPs and governance votes, the Orbs [Governance](https://www.orbs.com/governance-blog/) page contains all of the posts related to community governance of the Orbs Network, making it easy to always be up to date with the latest governance proposals.
+**2. Governance:** With the recent introduction of Orbs OIPs and governance votes, the Orbs [Governance](https://www.orbs.com/governance-blog/) page contains all of the posts related to community governance of the Orbs Network, making it easy to always be up to date with the latest governance proposals.
 
-**3. Developer Documentation**
-This section contains the recently published Orbs [developer documentation](https://www.orbs.com/Introducing-the-New-Orbs-Developer-Documentation/), an important initiative by the Orbs R&D team with a goal to streamline development on the Orbs network by developers and contributors from the broad crypto ecosystem.
+**3. Developer Documentation:** This section contains the recently published Orbs [developer documentation](https://www.orbs.com/Introducing-the-New-Orbs-Developer-Documentation/), an important initiative by the Orbs R&D team with a goal to streamline development on the Orbs network by developers and contributors from the broad crypto ecosystem.
 
-**4. Ecosystem Map**
-Showcases the Orbs’ ever-expanding ecosystem map. Check it out [here](https://www.orbs.com/ecosystem/) for the latest integrations, collaborations and partnerships!
+**4. Ecosystem Map:** Showcases the Orbs’ ever-expanding ecosystem map. Check it out [here](https://www.orbs.com/ecosystem/) for the latest integrations, collaborations and partnerships!
 
 
 
