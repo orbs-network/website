@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 31 Mar 2023 08:03:29 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 04 Apr 2023 11:07:29 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs is proud to contribute Single Nominator Smart Contract for TON Validators]]></title>
+            <description><![CDATA[Single Nominator is a new TON smart contract that enables secure validation for TON blockchain via an air gapped cold wallet.The contract is designed for TON validators that have enough self stake to validate by themselves without relying on third-party nominators.]]></description>
+            <link>https://www.orbs.com/Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[ApeSwap lists Orbs Token]]></title>
             <link>https://www.orbs.com/ApeSwap-lists-Orbs-Token</link>
