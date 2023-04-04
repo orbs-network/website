@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Apr 2023 11:07:29 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 04 Apr 2023 20:38:20 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Website Update: Expanding on Use-cases Powered by Orbs]]></title>
+            <description><![CDATA[Just over half a year ago, Orbs’ revamped website was released with the launch of the highly anticipated Orbs 3.0. Alongside a striking new design, the revamped website introduced new content about key building blocks of Orbs 3.0, including Orbs PoS V3: Multichain staking, and Orbs L3 technology. With the fast pace of development in the Orbs project, it was necessary to issue another smaller revision to the website. Let&#x27;s explore what’s new in this latest update…]]></description>
+            <link>https://www.orbs.com/Orbs-Website-Update-Expanding-on-Use-cases</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Website-Update-Expanding-on-Use-cases</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Website-Update-Expanding-on-Use-cases/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs is proud to contribute Single Nominator Smart Contract for TON Validators]]></title>
             <description><![CDATA[Single Nominator is a new TON smart contract that enables secure validation for TON blockchain via an air gapped cold wallet.The contract is designed for TON validators that have enough self stake to validate by themselves without relying on third-party nominators.]]></description>
