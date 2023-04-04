@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Website-Update-Expanding-on-Use-cases/blog.md
   - Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators/blog.md
   - ApeSwap-lists-Orbs-Token/blog.md
   - Orbs-Announces-the-TON-Access-Public-Launch/blog.md
