@@ -1,67 +1,57 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/TON-Verifier-Major-Update-Getters/bg.png
+blogUrl: TON-Verifier-Major-Update-Getters
+date: 2023-04-10
+title: "TON Verifier Major Update: Getters"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/ShaharYakir.md
 type:
-short_description:
+short_description: "TON Verifier, the official tool for verifying smart contracts on The Open Network (TON), has undergone a significant update to support Getters."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**TON Verifier, the official tool for verifying smart contracts on The Open Network (TON), has undergone a significant update to support Getters.** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+### What is TON Verifier? 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+https://verifier.ton.org/ is a key due diligence tool everyone should consider using before interacting with a TON contract. Verifier is vital for users' security and trust in various TON dApps because users can only see bytecode on the various block explorers. Still, they don’t know if the source code actually being run is the same, so they don’t know what is running on the contract.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+To verify a contract, the developer types in the contract address in TON Verifier, uploads the FunC source files and specifies the compiler settings (file order, compiler version, etc.). Then, the app sends the source code to the compiler backend, which verifies that the source compiles to the desired code cell hash (see section 3.1.4 in the [TVM whitepaper](https://ton.org/docs/tvm.pdf)), meaning that it’s guaranteed to match the same bytecode as the contract address in question. 
 
-### Step-by-Step Guide
+_TON Verifier is a tool developed by the [Orbs](https://www.orbs.com/) team and powered by Orbs' decentralized network of permissionless PoS Guardians, as well as independent community participants from The Open Network. Anyone can run a node to enhance the security of Verifier if they choose so._
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+### Introducing Getters 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![screenshot](/assets/img/blog/TON-Verifier-Major-Update-Getters/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Getters is easiest explained as a tool to read critical contract information. This is most similarly compared to the “Read contract” tool on [Etherscan](https://etherscan.io/token/0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa#readContract). A user interface for Getters is crucial when interacting with smart contracts as it allows users to do further due diligence by making it more accessible to read contract data. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Users interacting with jetton contracts need to be able to verify the admin address for a contract and other configurations. With a UI, the information can be presented in a user-friendly format, making it easier for non-technical users to access and understand the data stored in the smart contract. Without such a UI, users have to construct the code executing the Getters manually, which may be difficult and time-consuming. 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Verifier already displays the source code of jettons, which assists the user in knowing what the code does. The latest addition of Getters invocation within Verifier now provides the ability to also query the contract’s data based on its source code. Since FunC, as opposed to Solidity, does not have a concept similar to ABI, the Getters configuration needs to be parsed directly from the code, in this case using a wasm binary of a tree-sitter [FunC language binding](https://github.com/ton-community/vscode-func).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Even with this addition, querying and making sense of Getters results can be cumbersome when dealing with nontrivial datatypes stored as complex cell structures. The Getters UI does try to parse known structures within cells, such as addresses, but more complex schemes require further manual parsing.
 
-Once the position is opened, you can always re-adjust the parameters:
+Over time the Orbs team plans to improve the tool to support more complex datatypes, but it already fills a sizable void since, until now, users did not have a way to interact with contracts in such a simple manner. One of these use cases is determining who is the admin of a specified contract and discerning if it has been revoked. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+### Beyond Verifier 
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+This is the first major upgrade to Verifier since it was added as an official tool of The Open Network. Over 110 contracts on TON have been verified, allowing a level of due diligence for the network that wasn’t possible before. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Integrations into major TON explorers are currently underway and now are being further extended to Getters. The SDK in [ton-community Github](https://github.com/ton-community) allows any TON explorer to embed Verifier into their front end and now utilize the getting functionality. 
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+For assistance using Verifier join: https://t.me/tonverifier
 
-#### And that’s it – You are now a senior Alpaca!
+Docs: https://github.com/orbs-network/ton-contract-verifier
 
-<div class='line-separator'> </div>
+Orbs Twitter: https://twitter.com/orbs_network
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
