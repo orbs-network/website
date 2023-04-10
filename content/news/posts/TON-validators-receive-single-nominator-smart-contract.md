@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/TON-validators-receive-single-nominator-smart-contract.jpg
+url: https://cointelegraph.com/news/ton-validators-receive-single-nominator-smart-contract
+date: 4, April 2023
+logo: /assets/img/news/logos/cointelegraph.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs’ single-nominator contract offers independent validation for validators, safeguards against gas attacks and enables stake recovery during emergencies.
