@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DeFi-Notifications-Support-dForce-Network/blog.md
   - TON-Verifier-Major-Update-Getters/blog.md
   - Orbs-Website-Update-Expanding-on-Use-cases/blog.md
   - Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators/blog.md
