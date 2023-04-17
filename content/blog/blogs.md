@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-TON-Unfreezer-by-Orbs/blog.md
   - DeFi-Notifications-Support-dForce-Network/blog.md
   - TON-Verifier-Major-Update-Getters/blog.md
   - Orbs-Website-Update-Expanding-on-Use-cases/blog.md
