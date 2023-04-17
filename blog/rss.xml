@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Apr 2023 09:41:52 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 17 Apr 2023 06:08:31 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing TON Unfreezer by Orbs]]></title>
+            <description><![CDATA[TON Unfreezer is a tool contributed by the Orbs network for TON developers that need to unfreeze their contracts that have entered the frozen state due to running out of the balance reserved for paying storage fees.]]></description>
+            <link>https://www.orbs.com/Introducing-TON-Unfreezer-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Introducing-TON-Unfreezer-by-Orbs</guid>
+            <dc:creator><![CDATA[Shahar Yakir]]></dc:creator>
+            <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-TON-Unfreezer-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports dForce Network]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated with dForce, a protocol supporting a complete set of decentralized finance protocols covering assets, lending, and trading, serving as DeFi infrastructure in Web3. At the time of writing, dForce holds 51.39M in TVL.]]></description>
