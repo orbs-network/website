@@ -1,67 +1,51 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-added-to-ICOholder/bg.jpg
+blogUrl: Orbs-added-to-ICOholder
+date: 2023-05-01
+title: "Orbs has been added to ICOholder!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Orbs has been added to ICOholder, a popular post and pre-ICO project information website! Established in 2017, ICOholder is a smart tracker, and global analytics platform with a large crypto database, giving users   access to real-time, high-quality, reliable market and pricing data."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs has been added to [ICOholder](https://icoholder.com/en/orbs-22232), a popular post and pre-ICO project information website!** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Established in 2017, ICOholder is a smart tracker, and global analytics platform with a large crypto database, giving users   access to real-time, high-quality, reliable market and pricing data.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+ICOholder’s main product is data on project token sales, ongoing and historical. While also providing insights into, social media, project news, roadmaps, team members, and more. Beyond project insights, ICOholder also highlights upcoming crypto events, aggregates news, blogs, interviews, and a live Twitter feed of happenings in the industry.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+### A deep dive into the Orbs ecosystem
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+ICOholder aggregates exchange data, historical data, and other open-sourced information to provide a comprehensive overview of the Orbs ecosystem. 
 
-Please also see our disclaimers below.
+![screenshot1](/assets/img/blog/Orbs-added-to-ICOholder/image1.png)
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The Orbs page is broken up into 8 different sections: Crypto details, ICO details, about, roadmap, activity, team, news, and comments from the community on ICOholder. You can find charts and historical data in the first section. Followed by social media happenings underneath the ‘activity tab.’
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![screenshot2](/assets/img/blog/Orbs-added-to-ICOholder/image2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Orbs has always been an open-source, permissionless project. Transparency and accountability among the Orbs community and stakeholders have always been key values for the project. ICOholder provides a comprehensive analysis of the Orbs network, making it a good place for new users to learn about the project.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About Orbs**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The Orbs Network is an open, decentralized, and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a "decentralized backend", enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi.
+
+Orbs was founded in 2017 and launched its mainnet and token in March 2019. Orbs is being developed by a dedicated team of more than 40 people, with team members in Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join the community at:
+
+- Telegram: https://t.me/OrbsNetwork
+- Twitter: https://twitter.com/orbs_network
+- Learn more [about Orbs](https://www.orbs.com/overview/)
+
