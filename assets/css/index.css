@@ -3448,6 +3448,14 @@ body {
   justify-content: space-between;
   gap: 70px;
 }
+.network-section-video {
+  background: #d8d6f3;
+}
+.network-section-video-grid {
+  height: 40vw;
+  max-height: 600px;
+  min-height: 200px;
+}
 .network-section h3:last-of-type {
   margin-bottom: 20px;
 }
