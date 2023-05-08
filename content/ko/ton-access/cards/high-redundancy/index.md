@@ -7,6 +7,6 @@ button: Read more
 image: /assets/img/pos-universe/shapes/shape2.svg
 ---
 
-Robust API with no single
+작은 허점도 없는
 
-point of failure
+강력한 API

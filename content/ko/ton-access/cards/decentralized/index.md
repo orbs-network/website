@@ -7,6 +7,6 @@ button: Read more
 image: /assets/img/pos-universe/shapes/shape5.svg
 ---
 
-Trust a protocol, not a
+중앙화된 비즈니스가 아닌, 
 
-centralized business
+프로토콜을 신뢰하세요.
