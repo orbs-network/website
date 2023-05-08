@@ -1,6 +1,14 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-added-to-ICOholder/blog.md
+  - Introducing-TON-Unfreezer-by-Orbs/blog.md
+  - DeFi-Notifications-Support-dForce-Network/blog.md
+  - TON-Verifier-Major-Update-Getters/blog.md
+  - Orbs-Website-Update-Expanding-on-Use-cases/blog.md
+  - Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators/blog.md
+  - ApeSwap-lists-Orbs-Token/blog.md
+  - Orbs-Announces-the-TON-Access-Public-Launch/blog.md
   - Carbon-Browser-adds-ORBS-to-the-wallet-functionality/blog.md
   - DWF-invests-in-Orbs-Ecosystem/blog.md
   - dTWAP-Case-study-SpookySwap/blog.md
