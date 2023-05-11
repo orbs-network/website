@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 May 2023 10:58:50 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 11 May 2023 08:02:49 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Y2K Finance]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Y2K Finance, the first project on Arbitrum to integrate.]]></description>
+            <link>https://www.orbs.com/DeFi-Notifications-Supports-Y2K-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notifications-Supports-Y2K-Finance</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Supports-Y2K-Finance/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs has been added to ICOholder!]]></title>
             <description><![CDATA[Orbs has been added to ICOholder, a popular post and pre-ICO project information website! Established in 2017, ICOholder is a smart tracker, and global analytics platform with a large crypto database, giving users   access to real-time, high-quality, reliable market and pricing data.]]></description>
