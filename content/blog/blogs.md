@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - OIP-5-Recover-Compromised-Funds/blog.md
   - DeFi-Notifications-Supports-Y2K-Finance/blog.md
   - Orbs-added-to-ICOholder/blog.md
   - Introducing-TON-Unfreezer-by-Orbs/blog.md
