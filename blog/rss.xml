@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 May 2023 08:02:49 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 16 May 2023 08:23:46 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[OIP-5: Policy to Enable Individual Migration Paths to Allow Delegators to Recover Compromised Funds]]></title>
+            <description><![CDATA[The Orbs team has submitted a new draft OIP, with a proposal to adopt a policy to open  migration pathways under certain circumstances, to allow delegators who have suffered a security breach that compromised their wallets to recover their staked Orbs tokens.]]></description>
+            <link>https://www.orbs.com/OIP-5-Recover-Compromised-Funds</link>
+            <guid isPermaLink="true">https://www.orbs.com/OIP-5-Recover-Compromised-Funds</guid>
+            <dc:creator><![CDATA[Matan Erder]]></dc:creator>
+            <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/OIP-5-Recover-Compromised-Funds/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Y2K Finance]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Y2K Finance, the first project on Arbitrum to integrate.]]></description>
