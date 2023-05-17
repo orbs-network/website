@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 May 2023 08:23:46 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 17 May 2023 04:30:10 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[OIP-5: Policy to Enable Individual Migration Paths to Allow Delegators to Recover Compromised Funds]]></title>
