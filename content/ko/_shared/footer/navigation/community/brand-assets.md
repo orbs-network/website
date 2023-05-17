@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Brand Assets](/ko/brand-assets)
+[브랜드 로고](/ko/brand-assets)

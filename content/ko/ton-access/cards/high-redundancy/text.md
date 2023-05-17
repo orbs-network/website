@@ -2,4 +2,4 @@
 layout: partials/shared/text
 ---
 
-Operated by the dozens of independent validators of the Orbs Network that are running in mainnet since 2019 with virtually no downtime.
+오브스 네트워크는 수십개의 독립적인 밸리데이터가 2019년부터 한번도 멈추지 않고 메인넷을 운영해오고 있습니다.

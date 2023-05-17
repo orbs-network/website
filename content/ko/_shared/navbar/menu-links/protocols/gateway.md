@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[TON Access](/ko/ton-access)
+[TON 액세스](/ko/ton-access)

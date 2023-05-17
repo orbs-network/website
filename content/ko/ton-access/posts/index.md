@@ -5,4 +5,4 @@ list:
   - shahar.md
 ---
 
-### What are our developers saying?
+### 개발자의 이야기를 들어볼까요?

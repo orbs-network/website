@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Media](/news)
+[미디어](/news)

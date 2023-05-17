@@ -1,11 +1,11 @@
 ---
 layout: partials/shared/Schema
 image: assets/img/dtwap/schema.png
-title: Decentralized Execution of TWAP Orders
+title: 탈중앙환경에서 TWAP 주문실행
 ---
 
-**Makers** - The first entity in the dTWAP protocol are DEX traders that submit new orders to the dTWAP EVM contract. They set all order parameters such as limit price and expiration. The dTWAP contract enforces these requirements in a trustless manner.
+**Makers** - dTWAP 프로토콜의 첫번째 개체로 dTWAP EVM 컨트랙트에 새로운 주문을 제출하는 DEX 트레이더입니다. 이들은 시세 상한, 만료조건등 모든 주문 인수를 설정합니다. dTWAP 컨트랙트는 이런 요구조건을 별도의 보증없이도 적용시킬 수 있습니다.
 
-**Takers** - Incentivized third-party participants that monitor all live orders and submit bids on the best path to execute their next segment. The dTWAP contract selects the best bid and guarantees that the path that provides the best price to makers is the one executed.
+**Takers** - 모든 실시간 주문을 모니터하며 다음 세그먼트를 실행하기 위한 최적의 경로로 입찰하는 서드파티 참여자에게 인센티브를 제공합니다. dTWAP 컨트랙트는 최적의 주문을 선택하여 Maker에게 최선의 가격을 제공하는 경로가 실행되도록 보장합니다.
 
-Orbs Network has dozens of independent validators running Proof-of-Stake consensus with over $100 million staked. The network has been running in mainnet since 2019. All Orbs Network validators are takers and participate as honest bidders in the protocol, guaranteeing that orders are executed 24/7 with high redundancy and best price.
+오브스 네트워크는 수십개의 독립적인 검증노드를 통해 지분증명(PoS) 합의 알고리즘을 운영하고 있으며 1억달러 가치 이상의 스테이킹을 감당하고 있습니다. 오브스 네트워크는 2019년부터 메인넷이 가동되고 있습니다. 모든 오브스 네트워크의 검증노드는 Taker역할을 수행하며 프로토콜 상에 정직한 입찰자로서 참여하고 있습니다. 이로써 주문들은 365일 끊임없이 높은 수준의 다중화를 바탕으로 최적의 가격으로 실행됩니다.

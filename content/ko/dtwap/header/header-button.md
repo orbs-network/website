@@ -3,5 +3,4 @@ layout: partials/shared/ScrollButton
 url: get-started
 ---
 
-
-GET STARTED
+지금 시작해보기

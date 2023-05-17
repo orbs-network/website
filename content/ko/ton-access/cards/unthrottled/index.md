@@ -3,10 +3,10 @@ layout: partials/ton-gateway/cards/Card
 title: Unthrottled
 text:
   - text.md
-button: Read more
+button: 더 읽어보기
 image: /assets/img/pos-universe/shapes/shape1.svg
 ---
 
-No throttling for
+어떤 디앱이든지
 
-anonymous dapp users
+스로틀링이 없습니다

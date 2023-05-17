@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/Schema
 image: assets/img/notifications-protocol/schema.png
-title: Powered by Orbs Network
+title: 오브스 네트워크에서 구동
 ---
 
-Notification schemas are constantly executed by protocol alert nodes in order to analyze new blocks of on-chain data for notifying protocol subscribers. Alert nodes are running on Orbs Network, a permissionless and decentralized oracle chain, and executed by the public validators of the network. Orbs Network has dozens of independent validators running Proof-of-Stake consensus with over $100 million staked. The network has been running in mainnet since 2019.
+알림 프로세스는 프로토콜 알림 노드에 의해 지속적으로 실행되고 있으며 새로운 블록에서의 온체인 데이터를 분석하여 알림 구독 유저들에게 알림을 전달하게 됩니다. 알림 노드는 오브스 네트워크에서 탈중앙 오라클 체인으로 운영되고 있으며 네트워크의 공개검증자들에 의해 실행됩니다. 오브스 네트워크는 지분증명(PoS) 합의 방식에 의해 수십여대의 독립적인 밸리데이터들을 보유하고 있으며 1억불 이상이 스테이킹되어 있습니다. 오브스 네트워크는 2019년 부터 메인넷이 지속적으로 운영되고 있습니다.

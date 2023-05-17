@@ -1,5 +1,5 @@
 ---
 layout: partials/footer/components/navigation/link
 ---
-[dTWAP Protocol](/ko/dtwap)
+[dTWAP 프로토콜](/ko/dtwap)
 

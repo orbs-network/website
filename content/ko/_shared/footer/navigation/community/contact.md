@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Contact](/ko/contact)
+[문의하기](/ko/contact)

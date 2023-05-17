@@ -10,4 +10,4 @@ copy:
   - copy.md
 ---
 
-### Initialize the RPC endpoint
+### RPC Endpoint 시작하기

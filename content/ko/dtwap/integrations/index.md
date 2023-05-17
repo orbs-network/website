@@ -5,7 +5,7 @@ list:
   - spiritswap.md
   - spookyswap.md
   - quickswap.md
-title: Recent and Ongoing Integrations to DEX/AMMs
+title: 적용 완료/진행 중인 DEX/AMM 프로젝트들
 integrate: 
   - integrate.md
 ---

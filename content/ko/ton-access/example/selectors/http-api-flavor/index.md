@@ -7,4 +7,4 @@ list:
 property: apiFlavor
 ---
 
-HTTP API Flavor
+HTTP API 종류
