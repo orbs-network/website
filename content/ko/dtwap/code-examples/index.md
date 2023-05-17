@@ -4,8 +4,8 @@ reactBody:
   - react-body.md
 stylesBody:
   - styles-body.md
-raectTitle: React Component
-stylesTitle: Fully Customizable UI
-title: Easy integration into every DEX frontend based on React
+raectTitle: React 콤포넌트
+stylesTitle: 사용자 정의 가능한 UI
+title: React 기반으로 모든 DEX에 쉽게 적용 가능
 ---
 a

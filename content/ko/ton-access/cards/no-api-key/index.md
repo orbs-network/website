@@ -3,10 +3,10 @@ layout: partials/ton-gateway/cards/Card
 title: No API Key
 text:
   - text.md
-button: Read more
+button: 더 읽어보기
 image: /assets/img/pos-universe/shapes/shape3.svg
 ---
 
-Decentralized access without
+API key 등록이 필요없는
 
-registering API keys
+탈중앙 액세스

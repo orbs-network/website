@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Notification Protocol](/ko/notifications)
+[DeFi 알림 프로토콜](/ko/notifications)

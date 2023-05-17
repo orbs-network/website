@@ -1,6 +1,6 @@
 ---
 layout: partials/dtwap/Integrations/Integrate
 link_text: README
-title: Integrate your DEX
+title: 귀사의 DEX에 적용해보세요
 ---
 a

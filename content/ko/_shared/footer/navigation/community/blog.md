@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Blog](https://orbskorea.medium.com/)
+[블로그](https://orbskorea.medium.com/)

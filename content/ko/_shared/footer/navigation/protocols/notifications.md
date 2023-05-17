@@ -2,4 +2,4 @@
 layout: partials/footer/components/navigation/link
 ---
 
-[Notification Protocol](/ko/notifications)
+[DeFi 알림 프로토콜](/ko/notifications)
