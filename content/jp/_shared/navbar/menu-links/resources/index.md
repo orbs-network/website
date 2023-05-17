@@ -8,4 +8,5 @@ links:
   - calculator.md
   - defi.md
   - developers.md
+  - alphaday.md
 ---
