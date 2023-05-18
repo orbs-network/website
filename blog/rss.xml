@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 May 2023 10:33:40 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 18 May 2023 07:06:04 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[QuickSwap integrates dTWAP for DEXs powered by Orbs]]></title>
+            <description><![CDATA[QuickSwap, the largest native DEX on Polygon, has integrated the dTWAP protocol powered by Orbs. As a result, the QuickSwap dragons will now have access to this algorithmic trading strategy, enabling traders to reduce the price impact of their orders. This comes after integrations with SpookySwap, Spirit, and Pangolin, growing the number of integrated DEXs as dTWAP establishes Orbs as a market leader in DeFi innovation.]]></description>
+            <link>https://www.orbs.com/QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[OIP-5: Policy to Enable Individual Migration Paths to Allow Delegators to Recover Compromised Funds]]></title>
             <description><![CDATA[The Orbs team has submitted a new draft OIP, with a proposal to adopt a policy to open  migration pathways under certain circumstances, to allow delegators who have suffered a security breach that compromised their wallets to recover their staked Orbs tokens.]]></description>
