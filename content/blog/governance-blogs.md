@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - OIP-5-Recover-Compromised-Funds/blog.md
   - OIP-4-Allocate-ORBS-to-Compensate-FTX-Users/blog.md
   - Introducing-Orbs-Improvement-Proposals/blog.md
   - Proposal-to-Set-Minimum-Self-Delegation/blog.md
