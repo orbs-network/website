@@ -7,6 +7,8 @@ second_section:
   - md/second-section.md
 third_section: 
   - md/third-section.md
+video_section:
+  - md/video-section.md
 ---
 
 # 스마트 컨트랙트,
