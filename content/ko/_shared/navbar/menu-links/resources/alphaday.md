@@ -5,4 +5,4 @@ url: https://app.alphaday.com/b/orbs/
 image: assets/img/navbar/menu/alphaday.svg
 ---
 
-Orbs community Dashboard
+Community Dashboard
