@@ -1,67 +1,67 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs/bg.jpg
+blogUrl: QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs
+date: 2023-05-18
+title: QuickSwap integrates dTWAP for DEXs powered by Orbs
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "QuickSwap, the largest native DEX on Polygon, has integrated the dTWAP protocol powered by Orbs. As a result, the QuickSwap dragons will now have access to this algorithmic trading strategy, enabling traders to reduce the price impact of their orders. This comes after integrations with SpookySwap, Spirit, and Pangolin, growing the number of integrated DEXs as dTWAP establishes Orbs as a market leader in DeFi innovation."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+QuickSwap, the largest native DEX on Polygon, has integrated the [dTWAP protocol](https://www.orbs.com/dtwap/) powered by Orbs. As a result, the QuickSwap dragons will now have access to this algorithmic trading strategy, enabling traders to reduce the price impact of their orders. This comes after integrations with SpookySwap, Spirit, and Pangolin, growing the number of integrated DEXs as dTWAP establishes Orbs as a market leader in DeFi innovation. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+dTWAP is a fully decentralized, permissionless, and composable DeFi protocol developed by the Orbs project and powered by the Orbs network. QuickSwap traders will now have access to the advanced order type without any additional cost. Further, in addition to dTWAP, the dragons will be implementing Orbs’ infrastructure for Limit Swap orders.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+The integration highlights the close technical collaboration between Orbs and QuickSwap. Both projects actively contributed to making dTWAP a reality on QuickSwap. This was possible due to the smart contract audits ([1](https://drive.google.com/file/d/1xUZN5RrNvszaPDJuJjfeG3ig14Vo2aaE/view),[2](https://drive.google.com/file/d/1ASt3_mWwtQ0IfKqBHebnj_KGJWntaNJs/view)) and the robust developer documentation of dTWAP. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_[Orbs](https://www.orbs.com/) is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with TVL valued at over a hundred million dollars. Orbs pioneers the concept of L3 infrastructure, by utilizing the Orbs decentralized network to enhance the capabilities of existing EVM smart contracts, opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs, and GameFi._
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Trade like a pro with dTWAP
 
-Please also see our disclaimers below.
+In the past week, QuickSwap has supported a transaction volume of [$209.8 million](https://defillama.com/dexs/quickswap) dollars at the time of writing. QuickSwap’s offerings include multi-chain swaps, limit, order, and ‘best price trades.’ dTWAP will expand the DEX’s current offerings and attract higher volumes from traders looking for ways to reduce price impact. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+TWAP is an algorithmic trading strategy commonly utilized in CeFi that aims to reduce the impact of large orders on the market by breaking them down into smaller portions over time. By executing smaller orders, this approach lessens the price impact and enables traders to gradually acquire various assets over a specific period. Dragon traders can now utilize these key features without sacrificing decentralization. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Setting up a dTWAP order
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+When switching to the dTWAP UI, users are presented with a fully customizable dashboard that updates in real-time as they make changes to their orders.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Before executing dTWAP, three parameters need to be specified:
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+- **No. of Intervals:** allows the user to specify the number of individual trades. The UI automatically calculates the total number of transactions required to complete the entire order and the estimated trading interval.
+- **Max Duration:** the maximum time during which the total amount of individual trades making up the full dTWAP order may be executed.
+- **Trade Interval:** sets the time gap between each individual trade. The user can edit this parameter, which also results in corresponding trade size and number changes.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+These parameters provide significant flexibility in customizing each order, taking into account factors like market conditions and current gas fees. Additionally, the UI facilitates both dTWAP-market and dTWAP-limit orders. Once these parameters are set, the user can approve the specific source token, place the order, and review their specified configuration. 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+<iframe src="https://www.youtube.com/embed/uf55oKzapRg" title="How to Use the TWAP order on QuickSwap DEX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### Industry-leading DeFi Innovation 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Powered by the Orbs network [L3 technology](https://www.orbs.com/overview/), the dTWAP protocol has established itself as the standard in the DeFi space for decentralized algorithmic orders. With integrations on 4 DEXs across 3 different chains, which together have facilitated a $200M+ trading volume in the past seven days, the protocol usage is expected to grow substantially as it expands support for additional DEXs. In the coming weeks, expect more updates on further collaboration between Orbs and Quickswap.
 
-### 2) Lend ALPACA tokens
+For more information regarding the dTWAP protocol, join the dTWAP support [Telegram channel](https://t.me/dTWAPSupportGroup).
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About Orbs**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The Orbs Network is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. 
+
+Orbs is set up as a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs and GameFi. 
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network 
+
+
