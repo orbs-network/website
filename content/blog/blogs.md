@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs/blog.md
   - OIP-5-Recover-Compromised-Funds/blog.md
   - DeFi-Notifications-Supports-Y2K-Finance/blog.md
   - Orbs-added-to-ICOholder/blog.md
