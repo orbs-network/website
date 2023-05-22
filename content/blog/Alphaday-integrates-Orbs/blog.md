@@ -16,6 +16,7 @@ Alphaday provides a sleek, modular user interface to follow your favorite projec
 Alphaday has integrated the Orbs protocol, creating a dashboard for all related project happenings. Orbs joins the website's front page alongside key ecosystem protocols including Avalanche, Arbitrum, Verasity, and more.
 
 The Orbs dashboard can be viewed in the following link:
+
 https://app.alphaday.com/b/orbs/
 
 
