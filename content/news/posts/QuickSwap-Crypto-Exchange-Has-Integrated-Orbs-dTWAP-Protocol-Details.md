@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/QuickSwap-Crypto-Exchange-Has-Integrated-Orbs-dTWAP-Protocol-Details.jpg
+url: https://u.today/quickswap-crypto-exchange-has-integrated-orbs-dtwap-protocol-details?amp
+date: 18, May 2023
+logo: /assets/img/news/logos/utoday.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+With its new release, all users of QuickSwap can use advanced types of trading orders. For dTWAP by Orbs, this is yet another DEX integration confirmed in Q1-Q2, 2023.
