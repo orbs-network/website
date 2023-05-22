@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 May 2023 10:29:37 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 22 May 2023 09:41:47 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Alphaday integrates Orbs!]]></title>
+            <description><![CDATA[Alphaday, a popular web3 dashboard for all related happenings in the broader ecosystem has received a grant from the Orbs Ecosystem Grant Program, designed to support founders launching the next wave of DeFi innovation whilst adhering to decentralized principles.]]></description>
+            <link>https://www.orbs.com/Alphaday-integrates-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Alphaday-integrates-Orbs</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Alphaday-integrates-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[QuickSwap integrates dTWAP for DEXs powered by Orbs]]></title>
             <description><![CDATA[QuickSwap, the largest native DEX on Polygon, has integrated the dTWAP protocol powered by Orbs. As a result, the QuickSwap dragons will now have access to this algorithmic trading strategy, enabling traders to reduce the price impact of their orders. This comes after integrations with SpookySwap, Spirit, and Pangolin, growing the number of integrated DEXs as dTWAP establishes Orbs as a market leader in DeFi innovation.]]></description>
