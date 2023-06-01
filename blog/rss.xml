@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 May 2023 10:19:31 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jun 2023 10:03:39 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing dLIMIT - Decentralized Limit Orders for DEXs Powered by Orbs]]></title>
+            <description><![CDATA[Orbs is excited to introduce its newest order type: dLIMIT, offering optimal and reliable execution of limit orders for DEXs.]]></description>
+            <link>https://www.orbs.com/Introducing-dLIMIT-for-DEXs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Introducing-dLIMIT-for-DEXs</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-dLIMIT-for-DEXs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Alphaday integrates Orbs!]]></title>
             <description><![CDATA[Alphaday, a popular web3 dashboard for all related happenings in the broader ecosystem has received a grant from the Orbs Ecosystem Grant Program, designed to support founders launching the next wave of DeFi innovation whilst adhering to decentralized principles.]]></description>
