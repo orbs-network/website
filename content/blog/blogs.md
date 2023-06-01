@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-dLIMIT-for-DEXs/blog.md
   - Alphaday-integrates-Orbs/blog.md
   - QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs/blog.md
   - OIP-5-Recover-Compromised-Funds/blog.md
