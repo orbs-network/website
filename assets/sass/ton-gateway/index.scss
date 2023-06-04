@@ -164,10 +164,13 @@
         gap: 20px;
       }
       &-title {
-        color: $blue;
+       @extend .gradient-text;
         font-weight: 700;
         font-size: 17px;
         text-transform: uppercase;
+        &:last-child {
+          margin-bottom: 20px;
+        }
       }
 
       &-subtitle {

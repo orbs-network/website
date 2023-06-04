@@ -6,5 +6,6 @@ links:
   - dtwap.md
   - gateway.md
   - notifications.md
+  - vote.md
 
 ---

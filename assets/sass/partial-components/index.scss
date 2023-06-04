@@ -10,13 +10,10 @@
 @import "./opening-box.scss";
 @import "./subscribe.scss";
 @import "./copy.scss";
-@import './code-container.scss';
-@import './schema.scss';
-@import './product-header.scss';
-@import './post-card.scss';
-
-
-
+@import "./code-container.scss";
+@import "./schema.scss";
+@import "./product-header.scss";
+@import "./post-card.scss";
 
 .flex-list {
   flex-wrap: wrap;
@@ -194,6 +191,16 @@
       object-fit: cover;
     }
   }
+}
+
+.common-section-grid {
+  padding-top: $page-section-margin;
+  padding-bottom: $page-section-margin;
+}
+
+.common-section-title {
+  margin-bottom: $page-section-title-margin-big;
+  @extend .page-colored-section-title;
 }
 
 @media only screen and (min-width: $medium) {
