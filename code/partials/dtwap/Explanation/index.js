@@ -1,5 +1,4 @@
 import React from 'react'
-import Slider from './Slider';
 import MainGrid from '../../shared/MainGrid'
 function Explanation({title, slider}) {
   return (

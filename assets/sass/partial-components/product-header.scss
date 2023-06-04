@@ -3,6 +3,11 @@
   position: relative;
   &-button{
     margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    .button{ 
+        padding: 0px 40px;
+    }
   }
 
   .main-grid {
