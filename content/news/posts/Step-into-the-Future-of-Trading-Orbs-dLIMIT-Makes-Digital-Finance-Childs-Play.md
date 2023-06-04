@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Step-into-the-Future-of-Trading-Orbs-dLIMIT-Makes-Digital-Finance-Childs-Play.jpg
+url: https://hackernoon.com/step-into-the-future-of-trading-orbs-dlimit-makes-digital-finance-childs-play
+date: 1, June 2023
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+A New Playtime in Digital Finance: Orbs' dLIMIT Makes Trading as Easy as Child's Play
