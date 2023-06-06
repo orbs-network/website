@@ -3,9 +3,11 @@ layout: partials/ton-vote/tool-cards/ToolCards
 cards:
   - decentralized.md
   - gasless.md
-  - advanced.md
+  - advanced-voting.md
   - snapshot.md
   - manipulation.md
-  - advanced-voting.md
+  - ui.md
+  
 title: The best DAO Governance Tool on TON
+subtitle: "*Official DAO voting platform of the TON Foundation!"
 ---

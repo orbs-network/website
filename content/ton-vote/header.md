@@ -5,10 +5,11 @@ button:
   - header-button.md
   - whitepaper-button.md
 mainImg: assets/img/ton-vote/hero.svg
-github: https://github.com/orbs-network/ton-access
+github: https://github.com/orbs-network/ton-vote
 ---
 
 # No-code DAO Governance
-# Tool for The Open Network
+# Tool for The Open Network (TON)
 
-TON.Vote is a completely decentralized, on-chain  and trustless DAO voting platform built exclusively for the TON ecosystem.
+
+TON.Vote is a completely decentralized, on-chain  and trustless DAO voting platform built exclusively for the TON ecosystem.
