@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Jun 2023 11:39:55 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 08 Jun 2023 10:11:20 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[QuickSwap integrates dLIMIT for DEXs powered by Orbs]]></title>
+            <description><![CDATA[Following up on the initial dTWAP announcement blog, and the dLIMIT intro blog, QuickSwap has now also integrated dLIMIT powered by Orbs. In doing so, all of the limit orders on QuickSwap will now be executed using Orbs’ layer-3 technology. The integration furthers Orbs as a market leader in DeFI technology innovation and gives the project another L3 use case that interacts with significant TVL.]]></description>
+            <link>https://www.orbs.com/QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Introducing dLIMIT - Decentralized Limit Orders for DEXs Powered by Orbs]]></title>
             <description><![CDATA[Orbs is excited to introduce its newest order type: dLIMIT, offering optimal and reliable execution of limit orders for DEXs.]]></description>
