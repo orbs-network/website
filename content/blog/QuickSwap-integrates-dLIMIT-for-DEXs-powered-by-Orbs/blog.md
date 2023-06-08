@@ -1,67 +1,77 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs/bg.jpg
+blogUrl: QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs
+date: 2023-06-08
+title: QuickSwap integrates dLIMIT for DEXs powered by Orbs
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "Following up on the initial dTWAP announcement blog, and the dLIMIT intro blog, QuickSwap has now also integrated dLIMIT powered by Orbs. In doing so, all of the limit orders on QuickSwap will now be executed using Orbs’ layer-3 technology. The integration furthers Orbs as a market leader in DeFI technology innovation and gives the project another L3 use case that interacts with significant TVL."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Following up on the initial [dTWAP announcement blog](https://www.orbs.com/QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs/), and the [dLIMIT intro blog](https://www.orbs.com/Introducing-dLIMIT-for-DEXs/), QuickSwap has now also integrated dLIMIT powered by Orbs. In doing so, all of the limit orders on QuickSwap will now be executed using Orbs’ layer-3 technology. The integration furthers Orbs as a market leader in DeFI technology innovation and gives the project another L3 use case that interacts with significant TVL.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+For those unfamiliar with QuickSwap, it is the largest native DEX on Polygon, facilitating a 7-day volume of over [188 million dollars](https://defillama.com/protocol/quickswap). Polygon at the time of writing is the fourth highest volume chain only below Ethereum, Arbitrum, and Binance Smart Chain. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+The integration highlights the close technical collaboration between Orbs and QuickSwap with both projects actively contributing to making dLIMIT a reality on the DEX. The integration was preceded by a Snapshot [governance vote](https://twitter.com/QuickswapDEX/status/1657385303437463553) by the QuickSwap’s community, which was passed by a landslide decision to proceed with the integration. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_[Orbs](https://www.orbs.com/) is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with TVL valued at over a hundred million dollars. Orbs pioneers the concept of L3 infrastructure, by utilizing the Orbs decentralized network to enhance the capabilities of existing EVM smart contracts, opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs, and GameFi._
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Trade CeFI on DeFI
 
-Please also see our disclaimers below.
+In the past week, QuickSwap has supported a transaction volume of $188 million dollars at the time of writing with another 143 million in TVL. QuickSwap’s offerings include multi-chain swaps, order, and ‘best price trades’. Now dTWAP and dLIMIT are supported via Orbs, allowing the DEX to attract higher volumes and more sophisticated traders. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+A limit order enables users to buy or sell tokens at a specified price or better. While the price is automated, the order being executed is not - Limit orders will be executed only if the price meets the order qualifications.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Setting up a dLIMIT Order
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+When switching to the dLIMIT trade order on QuickSwap’s UI, users are presented with a seamless user interface alongside an order history tab to keep track of previous transactions. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Before executing a dLMIT order, traders must specify the following: 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+1. From: the token that they currently have 
+2. To: the token that they wish to swap for
+3. Limit price: this sets the lowest price for trades in your order. Trades will ONLY be executed when the available market price equals or exceeds the limit price. 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+dLIMIT configuration is simple, albeit robust taking into account current market conditions, prices, and gas fees. Once the parameters are set, the user can approve the specific source token, place the order, and review their order live in the ‘order history’ tab.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+![screenshot](/assets/img/blog/QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+**For example**, in the screenshot above, the user would like to sell 100 MATIC to USDC. The current market price of MATIC is 0.868 USDC. The user specifies a limit price of 1.5 USDC, meaning that the order will be executed when MATIC reaches a price equal to, or above, 1.5 USDC, giving him an estimated output of >=150 USDC.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+### Industry-leading DeFi Innovation 
 
-### 3) Earn Orbs in the Grazing Range
+Powered by the Orbs network [L3 technology](https://www.orbs.com/overview/), the dTWAP and dLIMIT protocol has established itself as the standard in the DeFi space for decentralized algorithmic orders. With integrations on 4 DEXs across 3 different chains, which combined have facilitated a $200M+ trading volume in the past seven days, the protocol usage is expected to grow substantially as it expands support for additional DEXs. In the coming weeks, expect more updates on further collaboration between Orbs and Quickswap.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+For more information regarding the dTWAP and dLIMIT protocol, join the [Telegram channel](https://t.me/dTWAPSupportGroup) support group.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs** 
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The Orbs Network is an open, decentralized, public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs, and GameFi. 
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with offices in Tel Aviv, London, New York, Tokyo, and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network 
+
+
+
+
+
+
+
+
