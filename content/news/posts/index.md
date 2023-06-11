@@ -4,7 +4,7 @@ title: Latest News
 id: news-posts-top
 posts:
   - Orbs-Launches-dLIMIT-Tool-to-Boost-DeFi-Trading.md
-  - posts/QuickSwap-Integrates-dTWAP-for-DEXs-Powered-by-Orbs.md
+  - QuickSwap-Integrates-dTWAP-for-DEXs-Powered-by-Orbs.md
   - QuickSwap-Crypto-Exchange-Has-Integrated-Orbs-dTWAP-Protocol-Details.md
   - TON-validators-receive-single-nominator-smart-contract.md
   - TON-validators-receive-single-nominator-smart-contract-investing.md
