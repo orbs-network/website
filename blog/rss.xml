@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jun 2023 11:48:20 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jun 2023 07:42:26 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Level Finance]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated with LEVEL Finance, the first Perp DEX to integrate!]]></description>
+            <link>https://www.orbs.com/DeFi-Notifications-Supports-Level-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notifications-Supports-Level-Finance</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Supports-Level-Finance/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[QuickSwap integrates dLIMIT for DEXs powered by Orbs]]></title>
             <description><![CDATA[Following up on the initial dTWAP announcement blog, and the dLIMIT intro blog, QuickSwap has now also integrated dLIMIT powered by Orbs. In doing so, all of the limit orders on QuickSwap will now be executed using Orbs’ layer-3 technology. The integration furthers Orbs as a market leader in DeFI technology innovation and gives the project another L3 use case that interacts with significant TVL.]]></description>
