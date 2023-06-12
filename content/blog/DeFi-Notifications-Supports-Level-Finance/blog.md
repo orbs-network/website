@@ -12,9 +12,10 @@ short_description: "The Open DeFi Notifications Protocol has integrated with LEV
 
 **The Open DeFi Notifications Protocol has integrated with LEVEL Finance, the first Perp DEX to integrate!**
 
-[LEVEL](https://level.finance/) is a decentralized and non-custodial perpetual exchange on the BNB Chain, dedicated to offering comprehensive risk management solutions for liquidity providers. Built from scratch by a team of experienced entrepreneurs and contributors with over a decade of industry expertise, LEVEL stands as a testament to their experience in the space. Notably, LEVEL has emerged as the second-largest decentralized exchange on the BSC, with an impressive 7-day volume of 226 million.
+[LEVEL](https://level.finance/) is an omnichain decentralized and non-custodial perpetual exchange offering a unique user-elected risk management framework built entirely from the ground up, enabling bespoke and innovative solutions for liquidity providers.LEVEL has facilitated over $18 billion trading volume and accrued over $23M in protocol revenue in just 5 months since launching, marking it the most successfully launched perpetual exchange in DeFi.
 
 LEVEL users can now set up ‘limit order executed’ and ‘liquidation’ notifications to provide 24/7 monitoring of trades.
+
 
 The [Open DeFi Notification Protocol](https://defi.org/notifications/) App is available on the [Apple AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp).
 
@@ -22,9 +23,7 @@ _The Open DeFi Notification Protocol by defi.org is a community led initiative t
 
 ### The Best Way to Monitor Open Positions
 
-LEVEL is a leading decentralized and non-custodial perpetual DEX on BNB Chain. LEVEL provides perpetual trading and a unique user-elected risk management framework built entirely from the ground up.
-
-When trading with leverage on LEVEL, users must be conscious of liquidation risks which happen when an open trade position cannot cover the margin fee ($5) or is lower than the maintenance margin (1% of Position Size) which will result in liquidation. Thus, users currently  must wait at their computers to know their order's liquidation status. 
+When [trading](https://app.level.finance/trade) with leverage on LEVEL, users must be conscious of liquidation risks which happen when an open trade position cannot cover the margin fee ($5) or is lower than the maintenance margin (1% of Position Size) which will result in liquidation. Thus, users currently  must wait at their computers to know their order's liquidation status. 
 
 Additionally, when trading with Limit Orders on LEVEL, tracking and knowing if an order has been filled can be cumbersome without being present on the webpage.
 
