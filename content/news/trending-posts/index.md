@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/QuickSwap-Integrates-dTWAP-for-DEXs-Powered-by-Orbs.md
-  - ../posts/TON-validators-receive-single-nominator-smart-contract.md
+  - ../posts/In-Blockchain-Layer3-Is-the-New-Layer2.md
+  - ../posts/Step-into-the-Future-of-Trading-Orbs-dLIMIT-Makes-Digital-Finance-Childs-Play.md
 ---
 
