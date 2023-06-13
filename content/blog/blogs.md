@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - TON-Vote-Official-Launch/blog.md
   - DeFi-Notifications-Supports-Level-Finance/blog.md
   - QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs/blog.md
   - Introducing-dLIMIT-for-DEXs/blog.md
