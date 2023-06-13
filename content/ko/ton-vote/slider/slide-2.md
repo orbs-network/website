@@ -1,6 +1,6 @@
 ---
 layout: partials/ton-vote/Slider/Slide
-image: /assets/img/ton-vote/slider/slide-1.png
+image: /assets/img/ton-vote/slider/slide-2.png
 
 ---
 

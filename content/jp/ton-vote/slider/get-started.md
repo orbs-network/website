@@ -1,7 +1,6 @@
 ---
 layout: partials/shared/BtnLink
-url:  /
-
+url:  https://ton.vote/
 ---
 
 GET STARTED

@@ -1,6 +1,6 @@
 ---
-layout: partials/shared/ScrollButton
-url: get-started
+layout: partials/shared/BtnLink
+url: https://ton.vote/
 ---
 
 

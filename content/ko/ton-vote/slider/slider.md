@@ -6,4 +6,7 @@ slides:
   - slide-3.md
 ---
 
-a
+TON.vote is a place for the community to come together. 
+
+
+Create your own customizable project’s Forum Page with your project’s logo and color scheme!

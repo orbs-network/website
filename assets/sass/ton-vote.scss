@@ -1,4 +1,12 @@
 .ton-vote {
+  .ton-vote-slider{
+    display: flex;
+    &-text{
+      width: 300px;
+      background: yellow;
+    }
+  }
+
   .ton-vote-bottom {
     background: $gray;
   }
@@ -65,13 +73,18 @@
       padding-right: 20px;
     }
   }
+  .product-header {
+    .text-p{
+    
+    }
+  }
   .product-header-hero {
     right: -50px;
     width: 422px;
   }
   .product-header-powered {
     right: 100px;
-    bottom: 20px;
+    top: 240px;
   }
   .ton-vote-tools {
     background: $gray;
@@ -118,6 +131,7 @@
   }
 
   .ton-vote-slider {
+    flex: 1;
   }
 
   .swiper {
@@ -176,7 +190,6 @@
     &-body {
       background: white;
       flex: 1;
-      max-width: 400px;
     }
   }
 }

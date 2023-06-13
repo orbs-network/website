@@ -1,6 +1,7 @@
 ---
 layout: partials/ton-vote/tool-cards/Card
-img: /assets/img/ton-vote/tools/img-1.png
+img: /assets/img/ton-vote/tools/3.svg
+
 ---
 
 
@@ -8,4 +9,4 @@ img: /assets/img/ton-vote/tools/img-1.png
 ### Strategies
 
 
-conditions to calculate users’ voting power, such as staked tokens only or minimum wallet balances to fight bots
+Conditions to calculate users’ voting power, such as staked tokens only or minimum wallet balances to fight bots

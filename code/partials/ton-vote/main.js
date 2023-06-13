@@ -1,4 +1,5 @@
 import React from "react";
+import SectionGrid from "../shared/SectionGrid";
 
 function TonVote({ header, toolCards, slider, partners, bottom }) {
   return (

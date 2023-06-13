@@ -1,6 +1,7 @@
 ---
 layout: partials/ton-vote/tool-cards/Card
-img: /assets/img/ton-vote/tools/img-1.png
+img: /assets/img/ton-vote/tools/2.svg
+
 ---
 
 
