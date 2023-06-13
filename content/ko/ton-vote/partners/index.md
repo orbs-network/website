@@ -1,5 +1,5 @@
 ---
-layout: partials/ton-vote/partners/index
+layout: partials/ton-vote/Partners/index
 
 title: Launch partners
 partners:
