@@ -9,7 +9,7 @@ function Slide({ _body, image, _relativeURL, _ID }) {
   return (
     <div className="swiper-slide">
       <div className="swiper-slide-img">
-        <img src={generateUrl(image)}  />
+        <img src={generateUrl(image)} />
       </div>
       <div className="swiper-slide-body">{_body}</div>
     </div>

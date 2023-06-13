@@ -9,5 +9,4 @@ cards:
   - ui.md
   
 title: The best DAO Governance Tool on TON
-subtitle: "*Official DAO voting platform of the TON Foundation!"
 ---

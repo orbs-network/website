@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/BtnLink
-url:  /
+url:  https://t.me/TONVoteSupportGroup
 ---
 
 TELEGRAM SUPPORT

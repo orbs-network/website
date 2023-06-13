@@ -1,6 +1,6 @@
 ---
 layout: partials/ton-vote/Slider/index
-title: Customizable Themed Space Pages 
+title: Customizable Themed Space Pages 
 slider:
   - slider.md
 btns:

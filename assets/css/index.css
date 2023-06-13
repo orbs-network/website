@@ -6070,6 +6070,13 @@ body {
     max-width: unset;
   }
 }
+.ton-vote .ton-vote-slider {
+  display: flex;
+}
+.ton-vote .ton-vote-slider-text {
+  width: 300px;
+  background: yellow;
+}
 .ton-vote .ton-vote-bottom {
   background: #f4f4f4;
 }
@@ -6136,7 +6143,7 @@ body {
 }
 .ton-vote .product-header-powered {
   right: 100px;
-  bottom: 20px;
+  top: 240px;
 }
 .ton-vote .ton-vote-tools {
   background: #f4f4f4;
@@ -6180,6 +6187,9 @@ body {
 }
 .ton-vote .ton-vote-tool .text-p, .ton-vote .ton-vote-tool .blog .header h2, .blog .header .ton-vote .ton-vote-tool h2, .ton-vote .ton-vote-tool .blog-list-blog-title, .ton-vote .ton-vote-tool .blog .news-hero h2, .blog .news-hero .ton-vote .ton-vote-tool h2, .ton-vote .ton-vote-tool .news-hero-body h4, .news-hero-body .ton-vote .ton-vote-tool h4, .ton-vote .ton-vote-tool .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .ton-vote .ton-vote-tool h5, .ton-vote .ton-vote-tool .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .ton-vote .ton-vote-tool h5, .ton-vote .ton-vote-tool .selectbox-list-item h4, .selectbox-list-item .ton-vote .ton-vote-tool h4, .ton-vote .ton-vote-tool .selectbox-list-item h4 *, .selectbox-list-item h4 .ton-vote .ton-vote-tool * {
   margin-bottom: 0px;
+}
+.ton-vote .ton-vote-slider {
+  flex: 1;
 }
 .ton-vote .swiper {
   padding-bottom: 0px;
@@ -6238,7 +6248,6 @@ body {
 .ton-vote .swiper-slide-body {
   background: white;
   flex: 1;
-  max-width: 400px;
 }
 
 @media only screen and (max-width: 800px) {
