@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Orbs-Launches-TON-Vote-New-DAO-Governance-Solution-on-The-Open-Network.md
+  - Step-into-the-Future-of-Trading-Orbs-dLIMIT-Makes-Digital-Finance-Childs-Play.md
   - Orbs-Launches-dLIMIT-Tool-to-Boost-DeFi-Trading.md
   - QuickSwap-Integrates-dTWAP-for-DEXs-Powered-by-Orbs.md
   - QuickSwap-Crypto-Exchange-Has-Integrated-Orbs-dTWAP-Protocol-Details.md
