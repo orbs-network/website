@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-Launches-TON-Vote-New-DAO-Governance-Solution-on-The-Open-Network.jpg
+url: https://u.today/orbs-launches-tonvote-new-dao-governance-solution-on-the-open-network?amp
+date: 13, June 2023
+logo: /assets/img/news/logos/utoday.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs, L3 infrastructure platform for various blockchains, expands its partnership with The Open Network (TON) ecosystem
