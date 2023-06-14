@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-Debuts-Permissionless-Beta-Launch-of-DAO-Solution-TON-Vote.jpg
+url: https://www.coinspeaker.com/orbs-beta-launch-ton-vote/amp/
+date: 13, June 2023
+logo: /assets/img/news/logos/coinspeaker.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+As the permissionless beta launch of TON.Vote. goes live, Orbs’ L3 Guardians technology will be required to boost security. 
