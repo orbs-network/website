@@ -12,7 +12,7 @@ links:
     url: https://liff.line.me/1645278921-kWRPP32q/?accountId=718ayvky
 
   - img: /assets/img/socials/gray/discord.svg
-    url: https://discord.com/invite/fPrQf7CuEA
+    url: https://discord.com/invite/aeqPq9wWGQ
 
   - img: /assets/img/socials/gray/youtube.svg
     url: https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg
