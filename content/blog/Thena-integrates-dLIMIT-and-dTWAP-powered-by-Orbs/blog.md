@@ -1,67 +1,82 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/bg.jpg
+blogUrl: Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs
+date: 2023-06-20
+title: ״Thena integrates dLIMIT & dTWAP powered by Orbs״
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: ״Thena, one of the largest DEXs on BNB Chain, has integrated the dLimit & dTWAP protocol powered by Orbs!״
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**[Thena](https://www.thena.fi/), one of the largest DEXs on BNB Chain, has integrated the [dLimit](https://www.orbs.com/Introducing-dLIMIT-for-DEXs/) & [dTWAP](https://www.orbs.com/dtwap/) protocol powered by Orbs!** 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+As a result, Thena traders will now have access to both advanced order types, enabling traders to guarantee the price of their order or break up large orders into smaller trades. This development follows successful integrations with QuickSwap, SpookySwap, SpiritSwap, and Pangolin. With each integration, dLIMIT and dTWAP further solidify Orbs' position as a market leader in DeFi innovation, showcasing Orbs’ novel [layer 3 technology](https://www.orbs.com/overview/) for enhancing the capabilities of smart contracts.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+dLIMIT is a fully decentralized, permissionless, and composable DeFi protocol developed by the Orbs project and powered by the Orbs network. Thena traders will now have access to the advanced order types at no extra cost. Furthermore, in addition to dLIMIT, Thena will also integrate decentralized time-weighted average price orders (dTWAP) by Orbs, enabling execution of this algorithmic trading strategy.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The integration highlights the close technical collaboration between Orbs and Thena. Both projects actively contributed to making both order types a reality on the exchange. This was possible due to the smart contract audits ([1](https://drive.google.com/file/d/1xUZN5RrNvszaPDJuJjfeG3ig14Vo2aaE/view),[2](https://drive.google.com/file/d/1ASt3_mWwtQ0IfKqBHebnj_KGJWntaNJs/view)) and the robust developer documentation of both protocols. 
 
-### Step-by-Step Guide
+_[Orbs](https://www.orbs.com/) is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with TVL valued at over a hundred million dollars. Orbs pioneers the concept of L3 infrastructure, by utilizing the Orbs decentralized network to enhance the capabilities of existing EVM smart contracts, opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs, and GameFi._
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+### Trade CeFi on DeFi
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+In the past week, Thena supported a transaction volume of [96.4 million](https://defillama.com/dexs/chains/bsc) dollars at the time of writing. Thena’s offerings include multi-chain swaps, LP locking, governance, and more. dLIMIT & dTWAP will expand the DEX’s current offerings, potentially allowing the project to capture more TVL.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+For those who are unfamiliar, a limit order allows users to buy or sell tokens at a specific price or better. While the specified price is guaranteed, the execution of the order is not guaranteed and depends on price movement. Limit orders will only be executed if the market price meets the order qualifications.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+In contrast, a TWAP order is an algorithmic trading strategy that aims to reduce the impact of large orders on the market by breaking them down into smaller portions that are then executed over time. By executing smaller orders, this approach lessens the price impact and enables traders to gradually acquire various assets over a specific period. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Thena’s traders can now utilize both of these key traditional finance orders without sacrificing on decentralization. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+### Setting up a dLIMIT and dTWAP orders
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+When switching to a dLIMIT ‘swap’ on Thena, users are presented with an easy-to-follow user interface alongside an order history tab to keep track of previous transactions. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Before executing a dLIMIT order, traders must specify the following: 
 
-Once the position is opened, you can always re-adjust the parameters:
+1. **From:** The token that they currently have
+2. **To:** The token that they wish to swap for
+3. **Limit price:** Trades will ONLY be executed when the available market price is equal to or better than the limit price
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+dLIMIT configuration is simple, albeit robust, and takes into account current market conditions, prices, and gas fees. Once the parameters are set, the user can approve the specific source token, place the order, and review their order live in the ‘order history’ tab.
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+For a dTWAP order, three additional parameters need to be specified:
 
-### 3) Earn Orbs in the Grazing Range
+- **No. of Intervals:** allows the user to specify the number of individual trades. The UI automatically calculates the total number of transactions required to complete the entire order and the estimated trading interval.
+- **Max Duration:** the maximum time during which the total amount of individual trades making up the full dTWAP order may be executed.
+- **Trade Interval:** sets the time gap between each individual trade. The user can edit this parameter, which also results in changes to the corresponding trade size and number parameters.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+Similarly to dLIMIT, these parameters provide significant flexibility in customizing each order, taking into account factors like market conditions and current gas fees. Additionally, the UI facilitates both dTWAP-market orders, which execute all trades at the available market price, and dTWAP-limit orders, which only execute individual trades if they are within the price limit set by the user. Once these parameters are set, the user can approve the specific source token, place the order, and review their specified configuration.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+![screenshot](/assets/img/blog/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/image1.png)
 
-#### And that’s it – You are now a senior Alpaca!
+
+### Industry-leading DeFi Innovation 
+
+The dLIMIT & dTWAP protocol, powered by Orbs [L3 technology](https://www.orbs.com/overview/), has become the industry standard for decentralized algorithmic orders in DeFi. With integrations on 5 prominent DEXs spanning 4 chains, these integrations have helped facilitate a trading volume of over $200M over the past week at the time of writing. Keep an eye out for future updates on the collaboration between Orbs and Thena.
+
+For more information regarding both advanced order types, join the dTWAP support [Telegram channel](https://t.me/dTWAPSupportGroup).
+
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The Orbs Network is an open, decentralized, public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is a separate decentralized execution layer operating between existing L1/L2 solutions and the application layer, as part of a tiered blockchain stack, without moving liquidity onto a new chain. Orbs acts as a “decentralized backend”, enhancing the capabilities of existing smart contracts and opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs, and GameFi. 
+
+Orbs was founded in 2017 and launched its mainnet and token in March of 2019. Orbs is being developed by a dedicated team of more than 30 people, with team members working out of Tel Aviv, London, New York, Tokyo, and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at:
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network 
+
