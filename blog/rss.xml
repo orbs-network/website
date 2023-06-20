@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Jun 2023 12:19:23 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jun 2023 12:19:58 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Thena integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
+            <description><![CDATA[״Thena, one of the largest DEXs on BNB Chain, has integrated the dLimit &amp; dTWAP protocol powered by Orbs!״]]></description>
+            <link>https://www.orbs.com/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[TON.Vote Official Launch: Kicking Off Our No-Code Governance Platform With 4 Cutting-Edge Partners]]></title>
             <description><![CDATA[After successfully soft-launching TON.Vote with the TON Foundation as its initial user, Orbs is proud to announce the rollout of a permissionless governance solution for any project building on TON that requires DAO governance tools. In this endeavor, Orbs has teamed up with renowned TON dApps, including ston.fi, EvAA, TON Punks, and Fanzee, who are our official launch partners!]]></description>
