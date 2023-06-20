@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/blog.md
   - TON-Vote-Official-Launch/blog.md
   - DeFi-Notifications-Supports-Level-Finance/blog.md
   - QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs/blog.md
