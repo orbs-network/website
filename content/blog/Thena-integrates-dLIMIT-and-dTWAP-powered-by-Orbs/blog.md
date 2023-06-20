@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/bg.jpg
+image: /assets/img/blog/Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/bg.png
 blogUrl: Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs
 date: 2023-06-20
-title: ״Thena integrates dLIMIT & dTWAP powered by Orbs״
+title: Thena integrates dLIMIT & dTWAP powered by Orbs
 author:
   - /blog/common/authors/RanHammer.md
 type:
