@@ -1,5 +1,5 @@
 ---
-layout: partials/ton-vote/tool-cards/ToolCards
+layout: partials/shared/cards/index
 cards:
   - decentralized.md
   - gasless.md

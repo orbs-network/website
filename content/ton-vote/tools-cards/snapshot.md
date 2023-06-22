@@ -1,5 +1,5 @@
 ---
-layout: partials/ton-vote/tool-cards/Card
+layout: partials/shared/cards/Card
 img: /assets/img/ton-vote/tools/4.svg
 
 ---

@@ -33,7 +33,7 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/blog/bold-italic.ttf");
 }
-.gradient-text, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dtwap-explanation-title, .dtwap-integrations-title, .dtwap-integrate-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
+.gradient-text, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
   background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -114,7 +114,7 @@
 }
 
 .page-section-title, .dtwap-code-examples-title, .ton-gateway-example-title *, .notifications .integrations-list #integration-pr > p, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
-.expending-box .title-h4, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .page-colored-section-title, .dtwap-explanation-title, .dtwap-integrations-title, .dtwap-integrate-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .common-grid-section h3 {
+.expending-box .title-h4, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3 {
   font-size: 24px;
   font-weight: 700;
   font-family: "Montserrat";
@@ -229,7 +229,7 @@
     padding-top: 110px;
   }
   .page-section-title, .dtwap-code-examples-title, .ton-gateway-example-title *, .notifications .integrations-list #integration-pr > p, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
-  .expending-box .title-h4, .page-colored-section-title, .dtwap-explanation-title, .dtwap-integrations-title, .dtwap-integrate-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .common-grid-section h3 {
+  .expending-box .title-h4, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .common-grid-section h3 {
     font-size: 20px;
     line-height: 26px;
   }
@@ -1422,7 +1422,7 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.schema .page-colored-section-title, .schema .dtwap-explanation-title, .schema .dtwap-integrations-title, .schema .dtwap-integrate-title, .schema .dtwap-benefits-title, .schema .ton-gateway-posts h3, .ton-gateway-posts .schema h3, .schema .notifications .apps-title, .notifications .schema .apps-title, .schema .notifications .integrations-title, .notifications .schema .integrations-title, .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .schema h3, .schema .news-posts-title, .schema .contact-socials-section h4, .contact-socials-section .schema h4, .schema .white-papers-category-title, .schema .universe-second-flex .images-grid-title, .universe-second-flex .schema .images-grid-title, .schema .network-section h3, .network-section .schema h3, .schema .faq-lists-category h5, .faq-lists-category .schema h5, .schema .common-section-title, .schema .common-grid-section h3, .common-grid-section .schema h3 {
+.schema .page-colored-section-title, .schema .dlimit .schema-subtitle, .dlimit .schema .schema-subtitle, .schema .dtwap-explanation-title, .schema .dtwap-benefits-title, .schema .ton-gateway-posts h3, .ton-gateway-posts .schema h3, .schema .notifications .apps-title, .notifications .schema .apps-title, .schema .notifications .integrations-title, .notifications .schema .integrations-title, .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .schema h3, .schema .news-posts-title, .schema .contact-socials-section h4, .contact-socials-section .schema h4, .schema .white-papers-category-title, .schema .universe-second-flex .images-grid-title, .universe-second-flex .schema .images-grid-title, .schema .network-section h3, .network-section .schema h3, .schema .faq-lists-category h5, .faq-lists-category .schema h5, .schema .common-section-title, .schema .integrations-integrate-title, .schema .integrations-title, .schema .common-grid-section h3, .common-grid-section .schema h3 {
   margin-bottom: 40px;
 }
 .schema-img {
@@ -1430,6 +1430,10 @@ body {
 }
 .schema-body {
   margin-top: 50px;
+}
+.schema-subtitle {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .product-header {
@@ -1491,6 +1495,10 @@ body {
   width: 25px;
   height: 25px;
 }
+.product-header-github a img {
+  width: 100%;
+  height: 100%;
+}
 .product-header-github p {
   text-align: left;
   margin-top: 0px;
@@ -1537,6 +1545,121 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+.cards {
+  background: #f4f4f4;
+}
+.cards-subtitle {
+  margin-bottom: 40px;
+}
+.cards-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.cards-card {
+  border: 1px solid #7679e7;
+  border-radius: 20px;
+  padding: 35px 30px 50px 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: calc(33.3333333333% - 20px);
+  background: white;
+  text-align: center;
+}
+.cards-card-img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.cards-card h3 {
+  color: #5e75e8;
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.cards-card h3:last-of-type {
+  margin-bottom: 20px;
+}
+.cards-card .text-p, .cards-card .selectbox-list-item h4 *, .selectbox-list-item h4 .cards-card *, .cards-card .selectbox-list-item h4, .selectbox-list-item .cards-card h4, .cards-card .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .cards-card h5, .cards-card .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .cards-card h5, .cards-card .news-hero-body h4, .news-hero-body .cards-card h4, .cards-card .blog-list-blog-title, .cards-card .blog .header h2, .cards-card .blog .news-hero h2, .blog .header .cards-card h2, .blog .news-hero .cards-card h2 {
+  margin-bottom: 0px;
+}
+
+.integrations {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.integrations-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.integrations-list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.integrations-integrate {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  align-items: center;
+}
+.integrations-integrate-title {
+  margin-bottom: 20px;
+}
+.integrations-integration {
+  background: #f4f4f4;
+  padding: 25px;
+  max-height: 780px;
+  height: 66vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+  width: calc(50% - 25px);
+  border-radius: 20px;
+}
+.integrations-integration-logo {
+  height: 42px;
+  margin-bottom: 30px;
+}
+.integrations-integration-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.integrations-integration-links a img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.integrations-integration-demo {
+  border-radius: 10px;
+  flex: 1;
+  background: white;
+  width: 100%;
+  position: relative;
+}
+.integrations-integration-demo img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  left: 50%;
+  max-width: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  flex: 1;
+  object-fit: contain;
 }
 
 .flex-list {
@@ -1802,6 +1925,37 @@ body {
     margin: 0px;
     justify-content: space-evenly;
     margin: 0px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .integrations-integration-logo {
+    height: 38px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cards-card {
+    width: calc(50% - 20px);
+  }
+  .integrations-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .integrations-integration {
+    width: 100%;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    height: 150vw;
+    max-height: 800px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cards-card {
+    width: 100%;
+    padding: 30px 20px 40px 20px;
+  }
+  .cards-card h3 {
+    font-size: 16px;
   }
 }
 .card {
@@ -5652,6 +5806,9 @@ body {
     gap: 40px;
   }
 }
+.dtwap .integrations {
+  background: white;
+}
 .dtwap .product-header-hero {
   max-width: 750px;
   right: -80px;
@@ -5713,77 +5870,6 @@ body {
 }
 .dtwap-benefits p {
   font-weight: 500;
-}
-.dtwap-integrate {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-  align-items: center;
-}
-.dtwap-integrate-title {
-  margin-bottom: 20px;
-}
-.dtwap-integration {
-  background: #f4f4f4;
-  padding: 25px;
-  max-height: 780px;
-  height: 66vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 520px;
-  width: calc(50% - 25px);
-  border-radius: 20px;
-}
-.dtwap-integration-logo {
-  height: 52px;
-  margin-bottom: 30px;
-}
-.dtwap-integration-links {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-.dtwap-integration-links a img {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-}
-.dtwap-integration-demo {
-  border-radius: 10px;
-  flex: 1;
-  background: white;
-  width: 100%;
-  position: relative;
-}
-.dtwap-integration-demo img {
-  position: absolute;
-  width: auto;
-  height: 100%;
-  left: 50%;
-  max-width: 100%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  flex: 1;
-  object-fit: contain;
-}
-.dtwap-integrations {
-  background: white;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.dtwap-integrations-title {
-  margin-bottom: 40px;
-  text-align: center;
-}
-.dtwap-integrations-list {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 .dtwap-explanation {
   padding-top: 80px;
@@ -5935,9 +6021,6 @@ body {
   .dtwap-code-examples .options .option {
     font-size: 14px;
   }
-  .dtwap-integration-logo {
-    height: 38px;
-  }
 }
 @media only screen and (max-width: 900px) {
   .dtwap-explanation .swiper-slide {
@@ -5976,18 +6059,6 @@ body {
   .dtwap-explanation .swiper-slide-img {
     width: 100%;
     height: auto;
-  }
-  .dtwap-integrations-list {
-    flex-direction: column;
-    align-items: center;
-  }
-  .dtwap-integration {
-    width: 100%;
-    max-width: 500px;
-    width: 100%;
-    padding: 20px;
-    height: 150vw;
-    max-height: 800px;
   }
 }
 .brand-assets {
@@ -6145,48 +6216,8 @@ body {
   right: 100px;
   top: 240px;
 }
-.ton-vote .ton-vote-tools {
-  background: #f4f4f4;
-}
-.ton-vote .page-colored-section-title, .ton-vote .common-grid-section h3, .common-grid-section .ton-vote h3, .ton-vote .common-section-title, .ton-vote .faq-lists-category h5, .faq-lists-category .ton-vote h5, .ton-vote .network-section h3, .network-section .ton-vote h3, .ton-vote .universe-second-flex .images-grid-title, .universe-second-flex .ton-vote .images-grid-title, .ton-vote .white-papers-category-title, .ton-vote .contact-socials-section h4, .contact-socials-section .ton-vote h4, .ton-vote .news-posts-title, .ton-vote .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .ton-vote h3, .ton-vote .notifications .integrations-title, .notifications .ton-vote .integrations-title, .ton-vote .notifications .apps-title, .notifications .ton-vote .apps-title, .ton-vote .ton-gateway-posts h3, .ton-gateway-posts .ton-vote h3, .ton-vote .dtwap-benefits-title, .ton-vote .dtwap-integrate-title, .ton-vote .dtwap-integrations-title, .ton-vote .dtwap-explanation-title {
+.ton-vote .page-colored-section-title, .ton-vote .dlimit .schema-subtitle, .dlimit .ton-vote .schema-subtitle, .ton-vote .common-grid-section h3, .common-grid-section .ton-vote h3, .ton-vote .integrations-title, .ton-vote .integrations-integrate-title, .ton-vote .common-section-title, .ton-vote .faq-lists-category h5, .faq-lists-category .ton-vote h5, .ton-vote .network-section h3, .network-section .ton-vote h3, .ton-vote .universe-second-flex .images-grid-title, .universe-second-flex .ton-vote .images-grid-title, .ton-vote .white-papers-category-title, .ton-vote .contact-socials-section h4, .contact-socials-section .ton-vote h4, .ton-vote .news-posts-title, .ton-vote .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .ton-vote h3, .ton-vote .notifications .integrations-title, .notifications .ton-vote .integrations-title, .ton-vote .notifications .apps-title, .notifications .ton-vote .apps-title, .ton-vote .ton-gateway-posts h3, .ton-gateway-posts .ton-vote h3, .ton-vote .dtwap-benefits-title, .ton-vote .dtwap-explanation-title {
   text-align: center;
-}
-.ton-vote .ton-vote-tools-list {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-.ton-vote .ton-vote-tool {
-  border: 1px solid #7679e7;
-  border-radius: 20px;
-  padding: 35px 30px 50px 30px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  width: calc(33.3333333333% - 20px);
-  background: white;
-  text-align: center;
-}
-.ton-vote .ton-vote-tool-img {
-  width: 55px;
-  height: 55px;
-  object-fit: contain;
-  margin-bottom: 20px;
-}
-.ton-vote .ton-vote-tool h3 {
-  color: #5e75e8;
-  font-weight: 600;
-  line-height: 28px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.ton-vote .ton-vote-tool h3:last-of-type {
-  margin-bottom: 20px;
-}
-.ton-vote .ton-vote-tool .text-p, .ton-vote .ton-vote-tool .blog .header h2, .blog .header .ton-vote .ton-vote-tool h2, .ton-vote .ton-vote-tool .blog-list-blog-title, .ton-vote .ton-vote-tool .blog .news-hero h2, .blog .news-hero .ton-vote .ton-vote-tool h2, .ton-vote .ton-vote-tool .news-hero-body h4, .news-hero-body .ton-vote .ton-vote-tool h4, .ton-vote .ton-vote-tool .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .ton-vote .ton-vote-tool h5, .ton-vote .ton-vote-tool .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .ton-vote .ton-vote-tool h5, .ton-vote .ton-vote-tool .selectbox-list-item h4, .selectbox-list-item .ton-vote .ton-vote-tool h4, .ton-vote .ton-vote-tool .selectbox-list-item h4 *, .selectbox-list-item h4 .ton-vote .ton-vote-tool * {
-  margin-bottom: 0px;
 }
 .ton-vote .ton-vote-slider {
   flex: 1;
@@ -6275,9 +6306,6 @@ body {
   .ton-vote .swiper-slide-body {
     max-width: unset;
   }
-  .ton-vote .ton-vote-tool {
-    width: calc(50% - 20px);
-  }
   .ton-vote .ton-vote-partners .ton-vote-partner {
     width: calc(50% - 12px);
   }
@@ -6292,13 +6320,27 @@ body {
   .ton-vote .ton-vote-partners .ton-vote-partner {
     width: 100%;
   }
-  .ton-vote .ton-vote-tool {
-    width: 100%;
-    padding: 30px 20px 40px 20px;
-  }
-  .ton-vote .ton-vote-tool h3 {
-    font-size: 16px;
-  }
+}
+.dlimit .integrations {
+  background: unset;
+}
+.dlimit .product-header-hero {
+  max-width: 750px;
+  right: -100px;
+  top: -40px;
+}
+.dlimit .product-header-powered {
+  top: 65%;
+  right: 220px;
+}
+.dlimit .schema .page-colored-section-title, .dlimit .schema .schema-subtitle, .dlimit .schema .common-grid-section h3, .common-grid-section .dlimit .schema h3, .dlimit .schema .integrations-title, .dlimit .schema .integrations-integrate-title, .dlimit .schema .common-section-title, .dlimit .schema .faq-lists-category h5, .faq-lists-category .dlimit .schema h5, .dlimit .schema .network-section h3, .network-section .dlimit .schema h3, .dlimit .schema .universe-second-flex .images-grid-title, .universe-second-flex .dlimit .schema .images-grid-title, .dlimit .schema .white-papers-category-title, .dlimit .schema .contact-socials-section h4, .contact-socials-section .dlimit .schema h4, .dlimit .schema .news-posts-title, .dlimit .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .dlimit .schema h3, .dlimit .schema .notifications .apps-title, .notifications .dlimit .schema .apps-title, .dlimit .schema .ton-gateway-posts h3, .ton-gateway-posts .dlimit .schema h3, .dlimit .schema .dtwap-benefits-title, .dlimit .schema .dtwap-explanation-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.dlimit .schema-subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=index.css.map */

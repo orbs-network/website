@@ -15,6 +15,129 @@
 @import "./product-header.scss";
 @import "./post-card.scss";
 
+.cards {
+  background: $gray;
+  &-subtitle {
+    margin-bottom: 40px;
+  }
+  &-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  &-card {
+    border: 1px solid #7679e7;
+    border-radius: 20px;
+    padding: 35px 30px 50px 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 20px);
+    background: white;
+    text-align: center;
+    &-img {
+      width: 55px;
+      height: 55px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+    h3 {
+      color: $blue;
+      font-weight: 600;
+      line-height: 28px;
+      font-size: 18px;
+      text-transform: uppercase;
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+    }
+    .text-p {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.integrations {
+
+  padding-top: $page-section-margin;
+  padding-bottom: $page-section-margin;
+  &-title {
+    @extend .page-colored-section-title;
+    margin-bottom: $page-section-title-margin-big;
+    text-align: center;
+  }
+  &-list {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-integrate {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: $page-section-margin;
+    align-items: center;
+    &-title {
+      @extend .page-colored-section-title;
+      margin-bottom: $page-section-title-margin-small;
+    }
+  }
+
+  &-integration {
+    background: $gray;
+    padding: 25px;
+    max-height: 780px;
+    height: 66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 520px;
+    width: calc(50% - 25px);
+    border-radius: 20px;
+    &-logo {
+      height: 42px;
+      margin-bottom: 30px;
+    }
+    &-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      a {
+        img {
+          width: 30px;
+          height: 30px;
+          object-fit: contain;
+        }
+      }
+    }
+    &-demo {
+      border-radius: 10px;
+      flex: 1;
+      background: white;
+      width: 100%;
+      position: relative;
+
+      img {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        left: 50%;
+        max-width: 100%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        flex: 1;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
 .flex-list {
   flex-wrap: wrap;
   display: flex;
@@ -276,6 +399,51 @@
       margin: 0px;
       justify-content: space-evenly;
       margin: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .integrations {
+    &-integration {
+      &-logo {
+        height: 38px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cards {
+    &-card {
+      width: calc(50% - 20px);
+    }
+  }
+
+  .integrations {
+    &-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    &-integration {
+      width: 100%;
+      max-width: 500px;
+      width: 100%;
+      padding: 20px;
+      height: 150vw;
+      max-height: 800px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cards {
+    &-card {
+      width: 100%;
+      padding: 30px 20px 40px 20px;
+      h3 {
+        font-size: 16px;
+      }
     }
   }
 }

@@ -15,15 +15,15 @@ function Integration({
   };
 
   return (
-    <div className="dtwap-integration">
-      <img className="dtwap-integration-logo" src={logo} />
+    <div className="integrations-integration">
+      <img className="integrations-integration-logo" src={logo} />
       <div
-        className="dtwap-integration-demo"
+        className="integrations-integration-demo"
         style={{ background: background }}
       >
         <img src={image} />
       </div>
-      <div className="dtwap-integration-links">
+      <div className="integrations-integration-links">
         <a href={github} target="_blank">
           <img src={generateUrl("/assets/img/dtwap/github.svg")} />
         </a>

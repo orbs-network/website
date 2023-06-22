@@ -86,48 +86,9 @@
     right: 100px;
     top: 240px;
   }
-  .ton-vote-tools {
-    background: $gray;
-  }
+
   .page-colored-section-title {
     text-align: center;
-  }
-  .ton-vote-tools-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    align-items: stretch;
-  }
-  .ton-vote-tool {
-    border: 1px solid #7679e7;
-    border-radius: 20px;
-    padding: 35px 30px 50px 30px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    width: calc(100% / 3 - 20px);
-    background: white;
-    text-align: center;
-    &-img {
-      width: 55px;
-      height: 55px;
-      object-fit: contain;
-      margin-bottom: 20px;
-    }
-    h3 {
-      color: $blue;
-      font-weight: 600;
-      line-height: 28px;
-      font-size: 18px;
-      text-transform: uppercase;
-      &:last-of-type {
-        margin-bottom: 20px;
-      }
-    }
-    .text-p {
-      margin-bottom: 0px;
-    }
   }
 
   .ton-vote-slider {
@@ -220,9 +181,7 @@
        max-width: unset;
       }
     }
-    .ton-vote-tool {
-      width: calc(50% - 20px);
-    }
+  
     .ton-vote-partners {
       .ton-vote-partner {
         width: calc(50% - 12px);
@@ -244,13 +203,6 @@
     .ton-vote-partners {
       .ton-vote-partner {
         width: 100%;
-      }
-    }
-    .ton-vote-tool {
-      width: 100%;
-      padding: 30px 20px 40px 20px;
-      h3 {
-        font-size: 16px;
       }
     }
   }

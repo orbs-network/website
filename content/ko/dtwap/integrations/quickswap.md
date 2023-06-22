@@ -1,5 +1,5 @@
 ---
-layout: partials/dtwap/Integrations/Integration
+layout: partials/shared/Integrations/Integration
 logo: /assets/img/dtwap/quickswap.svg
 github: https://github.com/orbs-network/twap-ui/tree/master/packages/quickswap
 demo: https://quickswap.exchange/#/swap?swapIndex=4&currency0=ETH
