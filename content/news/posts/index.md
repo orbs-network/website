@@ -3,7 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Enhancing-DEX-Trading-Capabilities-Thenas-Integration-of-Orbs-dLIMIT-and-dTWAP.md
   - Orbs-Launches-TON-Vote-New-DAO-Governance-Solution-on-The-Open-Network.md
+  - In-Blockchain-Layer3-Is-the-New-Layer2.md
   - Step-into-the-Future-of-Trading-Orbs-dLIMIT-Makes-Digital-Finance-Childs-Play.md
   - Orbs-Launches-dLIMIT-Tool-to-Boost-DeFi-Trading.md
   - QuickSwap-Integrates-dTWAP-for-DEXs-Powered-by-Orbs.md
