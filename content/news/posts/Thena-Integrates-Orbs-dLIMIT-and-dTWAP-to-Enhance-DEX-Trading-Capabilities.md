@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Thena-Integrates-Orbs-dLIMIT-and-dTWAP-to-Enhance-DEX-Trading-Capabilities.jpeg
+url: https://coincodex.com/article/28813/thena-integrates-orbs-dlimit-and-dtwap-to-enhance-dex-trading-capabilities/
+date: 20, June 2023
+logo: /assets/img/news/logos/coincodex.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+One of the leading decentralized exchanges (DEX) on the BNB Chain, Thena, is thrilled to announce that it has integrated the Orbs' innovative protocols, dLIMIT and dTWAP.
