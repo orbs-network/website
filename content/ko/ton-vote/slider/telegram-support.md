@@ -3,4 +3,4 @@ layout: partials/shared/BtnLink
 url:  https://t.me/TONVoteSupportGroup
 ---
 
-TELEGRAM SUPPORT
+텔레그램 지원그룹

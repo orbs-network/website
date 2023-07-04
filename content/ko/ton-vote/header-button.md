@@ -4,4 +4,4 @@ url: https://ton.vote/
 ---
 
 
-GET STARTED
+지금 시작해보기

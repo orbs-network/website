@@ -8,5 +8,5 @@ cards:
   - manipulation.md
   - ui.md
   
-title: The best DAO Governance Tool on TON
+title: TON에 가장 알맞는 DAO 거버넌스 도구
 ---
