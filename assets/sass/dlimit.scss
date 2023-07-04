@@ -1,0 +1,29 @@
+.dlimit {
+  .integrations {
+    background: unset;
+  }
+  .product-header {
+    &-hero {
+      max-width: 750px;
+      right: -100px;
+      top: -40px;
+    }
+    &-powered {
+      top: 65%;
+      right: 220px;
+    }
+  }
+
+  .schema{
+    .page-colored-section-title{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &-subtitle{
+        @extend .page-colored-section-title;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+  }
+}

@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/TON-validators-receive-single-nominator-smart-contract.md
-  - ../posts/Orbs-releases-its-TON-Access-service-to-the-general-public.md
+  - ../posts/Thena-Integrates-Orbs-dLIMIT-and-dTWAP-to-Enhance-DEX-Trading-Capabilities.md
+  - ../posts/Orbs-Debuts-Permissionless-Beta-Launch-of-DAO-Solution-TON-Vote.md
 ---
 

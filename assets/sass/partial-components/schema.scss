@@ -1,13 +1,17 @@
-.schema{
-    padding-top: $page-section-margin;
-     padding-bottom: $page-section-margin;
-    .page-colored-section-title{
-        margin-bottom: $page-section-title-margin-big;
-    }
-    &-img{
-        width: 100%;
-    }
-    &-body{
-margin-top: 50px;
-    }
+.schema {
+  padding-top: $page-section-margin;
+  padding-bottom: $page-section-margin;
+  .page-colored-section-title {
+    margin-bottom: $page-section-title-margin-big;
+  }
+  &-img {
+    width: 100%;
+  }
+  &-body {
+    margin-top: 50px;
+  }
+  &-subtitle {
+    font-size: 18px;
+    font-weight:600;
+  }
 }

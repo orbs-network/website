@@ -15,7 +15,7 @@ links:
     url: https://www.youtube.com/channel/UCZePjhX4e6CuAe8v63Li9lg
 
   - img: /assets/img/socials/white/discord.svg
-    url: https://discord.com/invite/fPrQf7CuEA
+    url: https://discord.com/invite/aeqPq9wWGQ
 
   - img: /assets/img/socials/white/github.svg
     url: https://github.com/orbs-network/

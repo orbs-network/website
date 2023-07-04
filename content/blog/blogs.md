@@ -1,6 +1,13 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/blog.md
+  - TON-Vote-Official-Launch/blog.md
+  - DeFi-Notifications-Supports-Level-Finance/blog.md
+  - QuickSwap-integrates-dLIMIT-for-DEXs-powered-by-Orbs/blog.md
+  - Introducing-dLIMIT-for-DEXs/blog.md
+  - Alphaday-integrates-Orbs/blog.md
+  - QuickSwap-integrates-dTWAP-for-DEXs-powered-by-Orbs/blog.md
   - OIP-5-Recover-Compromised-Funds/blog.md
   - DeFi-Notifications-Supports-Y2K-Finance/blog.md
   - Orbs-added-to-ICOholder/blog.md

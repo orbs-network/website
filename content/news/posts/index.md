@@ -3,7 +3,16 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Enhancing-DEX-Trading-Capabilities-Thenas-Integration-of-Orbs-dLIMIT-and-dTWAP.md
+  - Orbs-Launches-TON-Vote-New-DAO-Governance-Solution-on-The-Open-Network.md
+  - In-Blockchain-Layer3-Is-the-New-Layer2.md
+  - Step-into-the-Future-of-Trading-Orbs-dLIMIT-Makes-Digital-Finance-Childs-Play.md
+  - Orbs-Launches-dLIMIT-Tool-to-Boost-DeFi-Trading.md
+  - QuickSwap-Integrates-dTWAP-for-DEXs-Powered-by-Orbs.md
+  - QuickSwap-Crypto-Exchange-Has-Integrated-Orbs-dTWAP-Protocol-Details.md
+  - TON-validators-receive-single-nominator-smart-contract.md
   - TON-validators-receive-single-nominator-smart-contract-investing.md
+  - Orbs-releases-its-TON-Access-service-to-the-general-public.md
   - ORBS-ECOSYSTEM-DEVELOPERS-LAUNCH-TON-ACCESS-TO-THE-PUBLIC.md
   - Crypto-infrastructure-provider-Orbs-raising-10-million-from-DWF-Labs-in-token-round.md
   - ORBS-Token-Rises-15-After-DWF-Labs-Invests-10M.md

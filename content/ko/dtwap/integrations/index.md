@@ -1,5 +1,5 @@
 ---
-layout: partials/dtwap/Integrations/index
+layout: partials/shared/Integrations/index
 list:
   - pangolin.md
   - spiritswap.md

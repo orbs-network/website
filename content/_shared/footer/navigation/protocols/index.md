@@ -5,5 +5,6 @@ links:
   - dtwap.md
   - ton-gateway.md
   - notifications.md
+  - vote.md
 
 ---

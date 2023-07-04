@@ -3,6 +3,11 @@
   position: relative;
   &-button{
     margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    .button{ 
+        padding: 0px 40px;
+    }
   }
 
   .main-grid {
@@ -56,6 +61,10 @@
       justify-content: center;
       width: 25px;
       height: 25px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
     }
     p {
       text-align: left;
