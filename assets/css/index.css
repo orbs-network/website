@@ -2855,7 +2855,6 @@ body {
   text-decoration: none;
   font-size: 0.825rem;
   padding-right: 10px;
-  text-transform: capitalize;
   font-weight: 500;
 }
 .footer-navigation-links-list .text-p, .footer-navigation-links-list .selectbox-list-item h4 *, .selectbox-list-item h4 .footer-navigation-links-list *, .footer-navigation-links-list .selectbox-list-item h4, .selectbox-list-item .footer-navigation-links-list h4, .footer-navigation-links-list .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .footer-navigation-links-list h5, .footer-navigation-links-list .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .footer-navigation-links-list h5, .footer-navigation-links-list .news-hero-body h4, .news-hero-body .footer-navigation-links-list h4, .footer-navigation-links-list .blog-list-blog-title, .footer-navigation-links-list .blog .header h2, .footer-navigation-links-list .blog .news-hero h2, .blog .header .footer-navigation-links-list h2, .blog .news-hero .footer-navigation-links-list h2 {
