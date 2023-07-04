@@ -5,8 +5,8 @@ id: protocols
 links:
   - dtwap.md
   - dlimit.md
-  - gateway.md
   - notifications.md
+  - gateway.md
   - vote.md
 
 ---

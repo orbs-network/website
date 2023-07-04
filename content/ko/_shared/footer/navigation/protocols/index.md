@@ -3,7 +3,8 @@ layout: partials/footer/components/navigation/links
 title: POWERED BY ORBS
 links:
   - dtwap.md
-  - ton-gateway.md
+  - dlimit.md
   - notifications.md
-  - vote.md
+  - ton-gateway.md
+  - ton-vote.md
 ---
