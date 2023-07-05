@@ -2,4 +2,4 @@
 layout: partials/shared/BlankBody
 ---
 
-Every DEX looks different. Our UI kit is carefully designed to support these visual nuances. Components are broken to basic Lego pieces that can be assembled to achieve your unique look-and-feel.
+모든 DEX는 외형이 다릅니다. 제공되는 UI 키트는 이러한 각각의 시각적 뉘앙스를 지원하도록 신중히 설계되었습니다. 각 콤포넌트들은 기본 레고 조각처럼 분해되며 어려분들만의 고유한 룩앤필을 보여줄 수 있도록 재조립할 수도 있습니다.
