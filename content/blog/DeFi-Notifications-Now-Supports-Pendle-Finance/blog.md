@@ -32,7 +32,7 @@ Traders will no longer miss out!
 **Using the Open DeFi Notification Protocol, Pendle users can set up a “New Market” notification to alert them of new markets for assets.**
 
 
-![App](/assets/img/blog/eFi-Notifications-Now-Supports-Pendle-Finance/image1.png)
+![App](/assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/image1.png)
 
 
 
@@ -45,7 +45,7 @@ The addition of Pendle makes for an impressive lineup of leading DeFi projects w
 
 **The app supports over 30 protocols across 7 networks: Ethereum, BSC, Polygon, Fantom, Cronos, Avalanche, and Arbitrum!**
 
-![App](/assets/img/blog/eFi-Notifications-Now-Supports-Pendle-Finance/image2.png)
+![Ecosystem](/assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/image2.png)
 
 
 <div class='line-separator'> </div>
