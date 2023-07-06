@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/bg.jpg
+image: /assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/bg.png
 blogUrl: DeFi-Notifications-Now-Supports-Pendle-Finance
 date: 2023-07-06
 title: The Open DeFi Notification Protocol Now Supports Pendle Finance
