@@ -1,16 +1,15 @@
 ---
 layout: partials/shared/Schema
 image: assets/img/dlimit/schema.png
-title: Decentralized Execution of Limit Orders
+title: 탈중앙 방식의 지정가 주문 실행
 subtitle: powered by Orbs
 
 ---
 
-dLIMIT is based on the [dTWAP protocol](/dtwap) where the individual order size equals the total trade size. The protocol defines two main actors: 
+dLIMIT는 [dTWAP 프로토콜](/ko/dtwap)에 기반하여 각자의 주문량이 총 주문량과 똑같습니다. 프로토콜에서는 두가지의 주요 역할을 정의합니다.
 
-**Makers** - The first entity in the dLIMIT protocol are DEX traders that submit new orders to the dLIMIT EVM contract. They set all order parameters including the limit price. The dLIMIT contract enforces these requirements in a trustless manner.
+**Makers(메이커)** - dLIMIT 프로토콜의 첫번째 구성요소로 DEX 사용자로서 새로운 주문을 dLIMIT EVM 컨트랙트에 제출합니다. 이들은 지정가격을 포함한 모든 주문 파라메터를 설정합니다. dLIMIT 컨트랙트는 이런 요구사항을 무신뢰 탈중앙 방식으로 적용합니다.
 
-**Takers** - Incentivized third-party participants that monitor all live orders and submit bids on the best path to execute their next segment. The dLIMIT contract selects the best bid and guarantees that the path that provides the best price to makers is the one executed.
+**Takers(테이커)** - 모든 실시간 주문을 모니터하고 최적의 경로로 입찰하여 다음 순서를 진행시키도록 제3의 참여자에게 인센티브를 제공합니다. dLIMIT 컨트랙트는 최상의 입찰가를 선택하고 메이커에게 최상의 가격을 제공하는 경로가 실행되도록 보장합니다.
 
-
-Orbs Network has dozens of independent validators running Proof-of-Stake consensus with over $100 million staked. The network has been running in mainnet since 2019. All Orbs Network validators are takers and participate as honest bidders in the protocol, guaranteeing that orders are executed 24/7 with high redundancy and best price.
+오브스 네트워크는 100만달러 이상이 스테이킹되어 있는 PoS 합의방식으로 운영되며 수십여대의 독립적인 밸리데이터로 구성되어 있습니다. 오브스 메인넷은 2019년부터 지속적으로 운영되고 있습니다. 모든 오브스 네트워크 밸리데이터는 테이커 역할을 수행하며 프로토콜 상에서 정직한 입찰자로 참여하고 있습니다. 이를 통해 거래 주문은 24시간 높은 안정성과 최상의 가격을 보장합니다.

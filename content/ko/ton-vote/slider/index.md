@@ -1,6 +1,6 @@
 ---
 layout: partials/ton-vote/Slider/index
-title: Customizable Themed Space Pages 
+title:  프로젝트별 지정가능한 테마 공간
 slider:
   - slider.md
 btns:

@@ -15,6 +15,7 @@ list:
 
   - title: 기술 문서들
     list:
+      - ton-vote/paper.md
       - dTWAP/paper.md
       - use-of-ethereum-as-a-base-layer-for-pos-and-poa-platforms/paper.md
       - blockchain-virtualization-a-necessity-for-real-world-dapps/paper.md

@@ -1,7 +1,7 @@
 ---
 layout: partials/shared/BtnLink
-url: https://www.orbs.com/white-papers/ton-vote/
+url: https://www.orbs.com/ko/white-papers/ton-vote/
 ---
 
 
-WHITEPAPER
+백서 읽어보기

@@ -1,7 +1,7 @@
 ---
 layout: partials/ton-vote/Partners/index
 
-title: Launch partners
+title: 론칭 파트너
 partners:
   - foundation.md
   - evaa.md

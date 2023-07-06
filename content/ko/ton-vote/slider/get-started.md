@@ -3,4 +3,4 @@ layout: partials/shared/BtnLink
 url:  https://ton.vote/
 ---
 
-GET STARTED
+시작해보기

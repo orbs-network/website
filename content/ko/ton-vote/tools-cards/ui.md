@@ -5,8 +5,6 @@ img: /assets/img/ton-vote/tools/6.svg
 ---
 
 
-### Verifiable UI
+### 확인가능한 UI
 
-
-
-Orbs L3 technology ensures that the accuracy of  the displayed votes in the UI are accurate and matches with those stored in the smart contract data
+오브스의 L3기술을 통해 화면에 표시된 투표정보가 정확하며 스마트 컨트랙트 데이터에 저장된 것과 일치함을 보장합니다

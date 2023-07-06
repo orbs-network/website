@@ -5,6 +5,6 @@ img: /assets/img/ton-vote/tools/2.svg
 ---
 
 
-### Gasless Voting
+### 가스비 없는 투표
 
-Supports off-chain voting to increase engagement
+참여도를 높이기 위한 오프체인 투표를 지원합니다
