@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Jul 2023 03:59:59 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 06 Jul 2023 09:02:56 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Pendle Finance]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Pendle Finance, a rapidly growing DeFi project with $168M TVL!]]></description>
+            <link>https://www.orbs.com/DeFi-Notifications-Now-Supports-Pendle-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notifications-Now-Supports-Pendle-Finance</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Thena integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
             <description><![CDATA[״Thena, one of the largest DEXs on BNB Chain, has integrated the dLimit &amp; dTWAP protocol powered by Orbs!״]]></description>
