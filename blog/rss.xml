@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Jul 2023 09:02:56 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 06 Jul 2023 10:23:45 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Pendle Finance]]></title>
@@ -18,7 +18,7 @@
             <guid isPermaLink="true">https://www.orbs.com/DeFi-Notifications-Now-Supports-Pendle-Finance</guid>
             <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
             <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/bg.jpg" length="0" type="image/jpeg"/>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Now-Supports-Pendle-Finance/bg.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Thena integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
