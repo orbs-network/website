@@ -16,4 +16,5 @@ items:
   - delta.md
   - moonlight.md
   - crypto-compare.md
+  - alphaday.md
 ---
