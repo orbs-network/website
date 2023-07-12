@@ -7,4 +7,5 @@ items:
   - minter.md
   - verifier.md
   - defi.md
+  - dLimit.md
 ---
