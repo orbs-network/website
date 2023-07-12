@@ -11,4 +11,5 @@ items:
   - ton-society.md
   - dapp-radar.md
   - ozys.md
+  - scalably.md
 ---
