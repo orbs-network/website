@@ -41,6 +41,10 @@
   text-fill-color: transparent;
 }
 
+.no-text-transform {
+  text-transform: none !important;
+}
+
 .button, .single-blog-bottom-flex-item a, .white-button, .ton-gateway-example-links a, .notifications .contribute-bottom-buttons .link-button, .filled-button, .brand-assets .brand-asset-buttons a, .pink-button, .news #load-more-posts, .news-video-right-button, .white-papers-box-btn, .form-submit-container .form-submit, .expending-box .expend-btn {
   border: 2px solid #5e75e8;
   border-radius: 100px;

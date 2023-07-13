@@ -41,6 +41,10 @@ $gradient: linear-gradient(
   text-fill-color: transparent;
 }
 
+.no-text-transform {
+  text-transform: none !important;
+}
+
 @mixin gradient-border($width: 3px) {
   border: $width solid;
   border-image-slice: 1;
