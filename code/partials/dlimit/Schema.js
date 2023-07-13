@@ -1,7 +1,7 @@
 import React from 'react'
 import MainGrid from '../shared/MainGrid';
 
-function Schema({ schema, whitePaper, audit }) {
+function Schema({ schema, whitePaper, audit, faq }) {
   return (
     <div className="dtwap-schema">
       {schema}
@@ -16,6 +16,9 @@ function Schema({ schema, whitePaper, audit }) {
         >
           {audit}
         </a>
+        <a href="/dtwap-and-dlimit-faq/" className="button">
+          {faq}
+        </a>              
       </MainGrid>
     </div>
   );
