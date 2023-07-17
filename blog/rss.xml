@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Jul 2023 11:09:27 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jul 2023 11:19:43 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Chronos integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
+            <description><![CDATA[Chronos, one of the largest DEXs on Arbitrum, has integrated the dLIMIT &amp; dTWAP protocol powered by Orbs!]]></description>
+            <link>https://www.orbs.com/Chronos-integrates-dLIMIT-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Chronos-integrates-dLIMIT-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Chronos-integrates-dLIMIT-dTWAP-powered-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Pendle Finance]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Pendle Finance, a rapidly growing DeFi project with $168M TVL!]]></description>
