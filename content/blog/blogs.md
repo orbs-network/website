@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Chronos-integrates-dLIMIT-dTWAP-powered-by-Orbs/blog.md
   - DeFi-Notifications-Now-Supports-Pendle-Finance/blog.md
   - Thena-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/blog.md
   - TON-Vote-Official-Launch/blog.md
