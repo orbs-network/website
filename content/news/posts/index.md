@@ -3,8 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - CHRONOS-DEX-PLATFORM-WELCOMES-ORBS-DLIMIT-DTWAP-PROTOCOL.md
   - Exploring-Layer-3-Blockchains-and-What-This-Could-Mean-for-The-Crypto-Industry.md
   - Enhancing-DEX-Trading-Capabilities-Thenas-Integration-of-Orbs-dLIMIT-and-dTWAP.md
+  - Orbs-Debuts-Permissionless-Beta-Launch-of-DAO-Solution-TON-Vote.md
   - Orbs-Launches-TON-Vote-New-DAO-Governance-Solution-on-The-Open-Network.md
   - In-Blockchain-Layer3-Is-the-New-Layer2.md
   - Step-into-the-Future-of-Trading-Orbs-dLIMIT-Makes-Digital-Finance-Childs-Play.md
