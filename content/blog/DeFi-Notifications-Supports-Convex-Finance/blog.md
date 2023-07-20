@@ -1,67 +1,78 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/DeFi-Notifications-Supports-Convex-Finance/bg.png
+blogUrl: DeFi-Notifications-Supports-Convex-Finance
+date: 2023-07-20
+title: The Open DeFi Notification Protocol Now Supports Convex Finance
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Open DeFi Notifications Protocol has integrated with Convex Finance, one of the biggest DeFi protocols with over $3B in TVL!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The Open DeFi Notifications Protocol has integrated with Convex Finance, one of the biggest DeFi protocols with over $3B in TVL!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+[Convex Finance](https://www.convexfinance.com/) is one of the largest and well known DeFi protocols, ranked at [#7 by DefiLlama](https://defillama.com/), with over $3B in TVL. Convex allows Curve.fi liquidity providers to earn trading fees and claim boosted CRV without locking CRV themselves, for a better capital efficiency. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Convex users can now use the Open DeFi Notifications Protocol to set up a **‘Staking Unlocked’** notification to be notified once their CVX tokens locking period has expired.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The [Open DeFi Notification Protocol](https://defi.org/notifications/) App is available on the [Apple AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp).
 
-### Step-by-Step Guide
+_The Open DeFi Notification Protocol by defi.org is a community led initiative to provide users with decentralized and free mobile notifications for on-chain events._
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+### Don’t Miss an Unlocking Event
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The Convex protocol enables its users to vote-lock their CVX tokens in order to participate and earn fees from Curve’s gauge voting mechanism. These tokens are locked for a period of minimum of 16 weeks. Once this time period is over, the tokens need to be re-locked in order to generate additional fees.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+CVX's relatively long locking period can make it hard for users to track their unlocking events, especially for multiple locked token batches, thereby leaving their tokens sitting idle without generating fees.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Well, not anymore!
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+**Using the Open DeFi Notification Protocol, Convex users can set up a “Staking Unlocked” notification to alert them on their CVX unlocking events.** 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![App](/assets/img/blog/DeFi-Notifications-Supports-Convex-Finance/image1.png)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+### A Notification Standard for Leading DeFi Projects
 
-### 2) Lend ALPACA tokens
+The Open DeFi Notification Protocol is an open initiative to provide users with decentralized and free mobile notifications for on-chain events. 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+The addition of Convex makes for an impressive lineup of leading DeFi projects which have already been integrated into the Open DeFi Notification app for the benefit of their users, including, among others: Aave, Uniswap, SushiSwap, QuickSwap, PancakeSwap, and more…
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**The app supports over 30 protocols across 7 networks: Ethereum, BSC, Polygon, Fantom, Cronos, Avalanche, and Arbitrum!**
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+![ecosystem](/assets/img/blog/DeFi-Notifications-Supports-Convex-Finance/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
+The Protocol has been implemented fully by the [Orbs network](https://www.orbs.com/) and will be executed by the Orbs Guardians, making this the 1st fully decentralized implementation of a notification protocol.
+
+Become involved and contribute:
+[https://github.com/open-defi-notification-protocol](https://github.com/open-defi-notification-protocol)
+
+Learn more about the Open DeFi Notification Protocol [here](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0).
+
+Proudly born in the [defi.org](http://defi.org/) accelerator, join our [Telegram channel](https://t.me/defiorg) for more updates!
+
+
+<div class='line-separator'> </div>
+
+
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_The Open DeFi Notification Protocol is a beta version that is still under active development, and all underlying digital assets, blockchain networks and DeFi platforms are also subject to ongoing development, and as such, the protocol or the underlying platforms:_
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_(a) may contain bugs, errors and defects,_
+
+_(b) may function improperly or be subject to periods of downtime and unavailability,_
+
+_(c) may result in total or partial loss or corruption of data or a delay or a failure to send or receive expected notifications._
+
+_Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information, please see the [Terms of Use](https://defi.org/defi-notifications-terms-of-use/index.html) and [Privacy Policy](https://defi.org/defi-notifications-privacy-policy/index.html)._ 
+
