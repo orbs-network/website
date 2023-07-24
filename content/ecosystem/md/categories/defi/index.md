@@ -5,7 +5,6 @@ title: DeFi
 items:
   - uniswap.md
   - balancer.md
-  - multichain.md
   - sushiswap.md
   - spookywap.md
   - defi.md
