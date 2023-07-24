@@ -2,11 +2,11 @@
 layout: partials/ecosystem/main
 
 first_section:
+  - md/categories/applications/index.md
   - md/categories/exchanges/index.md
   - md/categories/transparency-and-data/index.md
   - md/categories/social-impact/index.md
   - md/categories/nft/index.md
-  - md/categories/applications/index.md
 
 second_section:
   - md/categories/chains/index.md
