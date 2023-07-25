@@ -7,6 +7,8 @@ items:
   - minter.md
   - verifier.md
   - defi.md
-  - dLimit.md
+  - ton-access.md
+  - ton-vote.md
   - ton-unfreezer.md
+  - dLimit.md
 ---
