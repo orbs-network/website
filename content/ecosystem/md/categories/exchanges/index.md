@@ -4,27 +4,28 @@ title: Exchanges
 
 items:
   - bittrex.md
-  - bilaxy.md
   - bithub.md
-  - probit.md
-  - coinone.md
   - upbit.md
-  - latoken.md
-  - phemex.md
-  - bibox.md
-  - consbit.md
-  - kucoin.md
   - okex.md
-  - indodax.md
-  - bhex.md
+  - coinone.md
+  - latoken.md
+  - kucoin.md
   - gateio.md
+  - consbit.md
+  - indodax.md
   - p2p.md
+  - bibox.md
   - bitbns.md
   - zt.md
-  - ultorex.md
-  - huobi.md
+  - phemex.md
+  - bitrue.md
   - stealth.md
+  - huobi.md
   - change-now.md
   - simpleswap.md
   - gopax.md
+  - bilaxy.md
+  - probit.md
+  - bhex.md
+  - ultorex.md
 ---
