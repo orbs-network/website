@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - How-to-Use-dTWAP-by-Orbs/blog.md
   - DeFi-Notifications-Supports-Convex-Finance/blog.md
   - Chronos-integrates-dLIMIT-dTWAP-powered-by-Orbs/blog.md
   - DeFi-Notifications-Now-Supports-Pendle-Finance/blog.md
