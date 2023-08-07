@@ -21,6 +21,7 @@ Therefore, TWAP is best used when the order size is large compared to the availa
 
 ### How to set up a dTWAP order
 
+In this tutorial, we'll use the dTWAP UI from [Quickswap DEX](https://quickswap.exchange/#/) on Polygon.
 
 1. Go to the exchange page and select the TWAP order option.
 
