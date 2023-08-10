@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/OIP-5-Recovering-Compromised-Wallets/bg.png
 blogUrl: OIP-5-Recovering-Compromised-Wallets
 date: 2023-08-10
-title: ״OIP-5: Recovering Compromised Wallets - How the Orbs Community Stepped In״
+title: "OIP-5: Recovering Compromised Wallets - How the Orbs Community Stepped In"
 author:
   - /blog/common/authors/IdanAtar.md
 type:
