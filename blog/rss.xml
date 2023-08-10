@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 08 Aug 2023 11:31:57 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 10 Aug 2023 11:48:55 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[OIP-5: Recovering Compromised Wallets - How the Orbs Community Stepped In]]></title>
+            <description><![CDATA[In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We&#x27;ve seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets.]]></description>
+            <link>https://www.orbs.com/OIP-5-Recovering-Compromised-Wallets</link>
+            <guid isPermaLink="true">https://www.orbs.com/OIP-5-Recovering-Compromised-Wallets</guid>
+            <dc:creator><![CDATA[Idan Atar]]></dc:creator>
+            <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/OIP-5-Recovering-Compromised-Wallets/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[How to Use dTWAP by Orbs]]></title>
             <description><![CDATA[6 DEXs across 4 chains have integrated the dTWAP protocol powered by Orbs, bringing this order type to DeFi in a decentralized manner. Users can use this tool to create dTWAP orders by following the directions below.]]></description>
