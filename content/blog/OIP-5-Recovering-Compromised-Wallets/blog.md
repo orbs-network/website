@@ -1,67 +1,65 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/OIP-5-Recovering-Compromised-Wallets/bg.png
+blogUrl: OIP-5-Recovering-Compromised-Wallets
+date: 2023-08-10
+title: ״OIP-5: Recovering Compromised Wallets - How the Orbs Community Stepped In״
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/IdanAtar.md
 type:
-short_description:
+short_description: ״In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We've seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets.״
 ---
+In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We've seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets.  
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+While the security issues faced by the Delegators related to the private keys for their wallets on underlying blockchains and not with the Orbs network or its technology, the Orbs community is capable of  finding solutions even for the most complex challenges. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Here's how this particular problem was resolved.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+### The Challenge
 
-### Step-by-Step Guide
+Several Delegators informed their respective Guardians and the Orbs team that attackers had gained control of their private keys. With access, these malicious entities were in the process of unstaking tokens and transferring them to their own wallets. Understandably, these Orbs Delegators were desperate to retrieve their tokens.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### The Innovative Solution
 
-Please also see our disclaimers below.
+The staking contracts for Orbs V3, like all previous and future versions, does not include any super-user powers or backdoors that can be used to transfer or impact staked ORBS tokens without the participation of the staker. However, the smart contract does contain manager roles for purposes of future-proofing and security. One of them is a “migration manager” that can open a pathway to migrate staked tokens, upon user’s request.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+While the staking contract migration manager wasn't originally designed for this purpose, Orbs contributors saw potential in it to help. They devised a special smart contract template with these unique features:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- **Source Address:** Only tokens staked from a pre-specified address can migrate to this smart contract. Any other attempts fail.
+- **Cool-down Period:** A 14-day waiting period aligns with our main staking contract's timeline.
+- **Destination Wallet:** Post the cool-down period, tokens are transferred to a new, secure wallet chosen by the Delegator. A specific function in the migration contract ensures this exclusive transfer.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+*_It should be noted, as was explained [here](https://www.orbs.com/OIP-5-Recover-Compromised-Funds/), that the migration manager only has the ability to add a potential migration destination - it cannot, under any circumstances, transfer tokens or force users to participate in the migration. Every user that will choose to migrate must perform a dedicated transaction by themselves and move their tokens._
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+The plan was put forward for community discussion as part of **[OIP-5](https://www.orbs.com/OIP-5-Recover-Compromised-Funds/): Policy to Enable Individual Migration Paths to Allow Delegators to Recover Compromised Funds**. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Following community consensus ([See the vote here](https://snapshot.org/#/orbs-network.eth/proposal/0xcdd9c48f8b58ffae57428d312d0d94f5224ca6551072f707047fab56e2441b60)), the proposed solution was rolled out for the two compromised wallets: one on Ethereum and another on Polygon.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+### The Recovery Process
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+**Initiation**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+The first step was to send a transaction from the compromised wallet to the Orbs staking contract. This kicked off the migration.
 
-Once the position is opened, you can always re-adjust the parameters:
+**The Hurdle with Polygon**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+An astute attacker had seized control of the Polygon wallet. This individual had bots monitoring all fund movements, hindering any efforts to send MATIC for transaction gas. 
+After researching multiple strategies, the Orbs team developers finally got the better of the attacker, by outpacing their bot and managing to send MATIC to start the migration.
 
-### 2) Lend ALPACA tokens
+**Ethereum**
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+This process was straightforward. The migration request was promptly sent without any issues.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**Final Step**
 
-### 3) Earn Orbs in the Grazing Range
+With migration requests in place, a 14-day cooldown was necessary. Post this period, the victims successfully moved their tokens to a new address, ready to be staked again.
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+### Summary and Lessons Learned
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+In this era of digital innovation, it's paramount that we stay one step ahead of potential threats. Anyone using Orbs or other blockchain technology should be extremely careful with their security practices. 
 
-#### And that’s it – You are now a senior Alpaca!
+The Orbs team, together with the community managed to bring forward and successfully execute an innovative solution to a complicated situation.
 
-<div class='line-separator'> </div>
+At Orbs, our commitment to our Delegators' security remains unwavering. We hope that by sharing our experience, others can benefit and fortify their digital assets against potential threats.
 
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
