@@ -7,7 +7,7 @@ title: "OIP-5: Recovering Compromised Wallets - How the Orbs Community Stepped I
 author:
   - /blog/common/authors/IdanAtar.md
 type:
-short_description: ״In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We've seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets.״
+short_description: "In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We've seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets."
 ---
 In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We've seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets.  
 
