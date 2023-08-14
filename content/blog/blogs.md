@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-integrates-with-Satellite-by-Axelar/blog.md
   - OIP-5-Recovering-Compromised-Wallets/blog.md
   - How-to-Use-dTWAP-by-Orbs/blog.md
   - DeFi-Notifications-Supports-Convex-Finance/blog.md

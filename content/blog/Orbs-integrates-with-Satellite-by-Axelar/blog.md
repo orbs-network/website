@@ -46,7 +46,9 @@ The most used apps on Orbs now are dTWAP and dLIMIT - these are limit order and 
 The project is being developed by a dedicated team of more than 30 people, with team members in Tel Aviv, London, New York, Tokyo, and Seoul. 
 
 For more information, please visit www.orbs.com, or join our community at: 
+
 Telegram: https://t.me/OrbsNetwork 
+
 Twitter: https://twitter.com/orbs_network 
 
 
