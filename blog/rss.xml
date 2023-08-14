@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Aug 2023 09:36:08 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Aug 2023 12:01:35 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs integrates with Satellite by Axelar for bridging across 5 chains!]]></title>
+            <description><![CDATA[Transfers between Ethereum, Binance Smart Chain, Avalanche, Fantom, Arbitrum, and now Axelar are live using Satellite bridge by Axelar!]]></description>
+            <link>https://www.orbs.com/Orbs-integrates-with-Satellite-by-Axelar</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-integrates-with-Satellite-by-Axelar</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-integrates-with-Satellite-by-Axelar/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[OIP-5: Recovering Compromised Wallets - How the Orbs Community Stepped In]]></title>
             <description><![CDATA[In the ever-evolving world of blockchain, security breaches can wreak havoc on unsuspecting users. We&#x27;ve seen this firsthand, as several Orbs Delegators reached out to the project with an alarming issue: malicious actors had compromised their blockchain wallets.]]></description>
