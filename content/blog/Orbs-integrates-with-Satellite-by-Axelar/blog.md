@@ -1,67 +1,54 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-integrates-with-Satellite-by-Axelar/bg.jpg
+blogUrl: Orbs-integrates-with-Satellite-by-Axelar
+date: 2023-08-14
+title: "Orbs integrates with Satellite by Axelar for bridging across 5 chains!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Transfers between Ethereum, Binance Smart Chain, Avalanche, Fantom, Arbitrum, and now Axelar are live using Satellite bridge by Axelar!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Due to the events surrounding Multichain last month including the [announcement](https://twitter.com/MultichainOrg/status/1677180114227056641) that the team behind the protocol will be suspending services, the Orbs community has been requesting a reliable alternative to Multichain for bridging their ORBS tokens. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+The main criteria for a new bridge is a high level of security, a stable project, and support of ORBS on all previously supported chains. In light of this criteria, Orbs has now been integrated with Axelar Satellite!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+**Transfers between Ethereum, Binance Smart Chain, Avalanche, Fantom, Arbitrum, and now Axelar are live!** 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Transfer [here](https://satellite.money/?source=ethereum&destination=fantom&asset_denom=orbs-wei&destination_address=).
 
-### Step-by-Step Guide
+![screenshot](/assets/img/blog/Orbs-integrates-with-Satellite-by-Axelar/image1.png)
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
-
-Please also see our disclaimers below.
-
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About Axelar**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Axelar delivers secure cross-chain communication for Web3, enabling protocols to build Interchain dApps that grow beyond a single chain. Axelar is built on proof-of-stake, the battle-tested approach used by Ethereum, Polygon, Cosmos, and more. Cross-chain communication means projects can create a complete experience for their users that lets them interact with any asset, application, or chain with one click.
+
+
+Satellite is a web application built on top of the Axelar Network. It provides an easy-to-use interface that enables users to transfer their crypto assets from one chain to another. The bridge has facilitated over 700,000 cross-chain transactions resulting in a total volume of [1.8 billion](https://axelarscan.io/interchain).   The Axelar protocol has ongoing security audits when major updates to the code base are changed, they can be viewed on [GitHub](https://github.com/axelarnetwork/audits). 
+
+For a complete list of supported assets, networks, and a 1-click network installation to MetaMask, refer to https://axelarscan.io/resources/chains
+
+
+
+<div class='line-separator'> </div>
+
+**About Orbs**
+
+Orbs is a blockchain infrastructure project. Have been around since 2017, with the network and token live since 2019. Orbs is now focusing on building use cases supported by the network and tech.
+
+The most used apps on Orbs now are dTWAP and dLIMIT - these are limit order and TWAP protocols that are 100% decentralized, EVM compatible, and can integrate with most DEXs. Currently live with multiple DEXs such as QuickSwap, SpookySwap, Thena, Chronos, and more.
+
+The project is being developed by a dedicated team of more than 30 people, with team members in Tel Aviv, London, New York, Tokyo, and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at: 
+Telegram: https://t.me/OrbsNetwork 
+Twitter: https://twitter.com/orbs_network 
+
+
+
+
