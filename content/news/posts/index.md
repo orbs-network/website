@@ -3,8 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Cross-Chain-Token-Swaps-Change-Gears-with-Orbs-Axelar.md
+  - Orbs-Integrates-With-Axelar-Satellite-to-Enable-CrossChain-Token-Swaps-Across-5-Blockchains.md
   - CHRONOS-DEX-PLATFORM-WELCOMES-ORBS-DLIMIT-DTWAP-PROTOCOL.md
   - Exploring-Layer-3-Blockchains-and-What-This-Could-Mean-for-The-Crypto-Industry.md
+  - Thena-Integrates-Orbs-dLIMIT-and-dTWAP-to-Enhance-DEX-Trading-Capabilities.md
   - Enhancing-DEX-Trading-Capabilities-Thenas-Integration-of-Orbs-dLIMIT-and-dTWAP.md
   - Orbs-Debuts-Permissionless-Beta-Launch-of-DAO-Solution-TON-Vote.md
   - Orbs-Launches-TON-Vote-New-DAO-Governance-Solution-on-The-Open-Network.md
