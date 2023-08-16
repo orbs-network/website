@@ -1,67 +1,108 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/how-to-use-dLIMIT-by-Orbs/bg.png
+blogUrl: how-to-use-dLIMIT-by-Orbs
+date: 2023-08-17
+title: How to Use dLIMIT by Orbs
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "6 DEXs across 4 chains have already integrated the dLIMIT protocol powered by Orbs, bringing this order type to DeFi in a decentralized manner. Users can use this tool to create limit orders by following the directions below."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+### Introduction to limit Orders
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+A limit order is a tool from CeFi in which users can buy or sell assets at a specified price or better, instead of relying on the market price at the time of execution. In a limit order, while the price is guaranteed, the order being executed is not - limit orders will be executed only if the price meets the order qualifications.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+6 DEXs across 4 chains have already integrated the dLIMIT protocol powered by Orbs, bringing this order type to DeFi in a decentralized manner. Users can use this tool to create decentralized limit orders by following the directions below. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The dLIMIT protocol for DEXs ensures that limit orders are executed at an optimal price and at fair fees, in a decentralized and reliable manner.
 
-### Step-by-Step Guide
+### How to set up a limit order
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+In this tutorial, we'll use the dLIMIT UI from [Quickswap DEX](https://quickswap.exchange/#/) on Polygon.
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+1. Go to the exchange [page](https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174&swapIndex=0&isProMode=false) and select the limit order option.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![screenshot1](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+2. Select the “From” and “To” tokens you wish to trade. In this example we chose USDC and ETH respectively, meaning we want to buy ETH with USDC.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![screenshot2](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image2.png)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+3. Enter the amount you wish to trade. Notice the limit price will show the current market price which will then estimate the output amount of destination tokens (ETH).
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+![screenshot3](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+4. Set the desired limit price. Trades will ONLY be executed when the available market price is better than or equal to the limit price. The destination token output amount will update accordingly. Press “Approve”.
 
-### 2) Lend ALPACA tokens
+   In the example below, we wish to buy ETH when the price is $1,900 or better. The amount of ETH received will be equal or greater than 0.2368 ETH. Only bids equal or better than this amount will be eligible to fill the order. This amount takes into account gas costs and fees.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+**Important note:** As the fees are paid from the output token amount, the limit price includes the gas & trading fees and so users should take this into account when setting up the price. For example, a very small order’s gas fees can total a very large percentage of the order output, reflecting an actual limit price that is not competitive with the spot market price.
+  
+![screenshot4](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image4.png)
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+5. Press “Place order”. Double check your order details, accept the disclaimer and press “Confirm order”.
 
-#### And that’s it – You are now a senior Alpaca!
+![screenshot5](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image5.png)
 
-<div class='line-separator'> </div>
 
-**Please Note**
+6. Once the transaction is through, you will be able to see your order in the order history section, under “Open orders”. Users can set up real-time notifications to get an alert when their limit order gets filled using the [Open DeFi Notification Protocol](https://www.orbs.com/notifications/).
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+![screenshot6](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image6.png)
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+
+7. Open orders can be canceled at any time by expanding the order and clicking the “Cancel Order” button.
+
+![screenshot7](/assets/img/blog/how-to-use-dLIMIT-by-Orbs/image7.png)
+
+### Things to take into consideration
+
+- Your order may not be executed if the available market price is worse than the limit price you have set.
+- The trades are based on a decentralized protocol that utilizes off-chain takers which compete to fill orders. These takers are entitled to request a fee, which the protocol removes for the winning taker from the output tokens. 
+- Takers may take into account gas fees for your transactions when setting their fees, which may result in fluctuations in the fee amounts.
+- When specifying a limit price, users will see in the UI the minimum amount of destination tokens they will receive if the order is filled. Only takers making bids equal or better than this amount will be eligible to fill the order. This amount takes into account gas costs and trading fees.
+
+
+### How does the dLIMIT protocol work?
+
+The dLIMIT protocol defines two main actors: 
+
+**Makers** - The first entity in the dLIMIT protocol are DEX traders that submit new orders to the dLIMIT EVM contract. They set all order parameters including the limit price. The dLIMIT contract enforces these requirements in a trustless manner.
+
+**Takers** - Incentivized third-party participants that monitor all live orders and submit bids on the best path to execute their next segment. The dLIMIT contract selects the best bid and guarantees that the path that provides the best price to makers is the one executed.
+
+The protocol has been designed such that the presence of one honest taker (i.e, a taker who charges only reimbursement for gas fees) should result in an output amount that is as close as possible to spot market prices.
+
+
+### Powered by Orbs
+
+The dLIMIT protocol is developed by [Orbs](https://www.orbs.com/) and powered by Orbs’ [L3 technology](https://www.orbs.com/overview/).
+
+Orbs Network has dozens of independent validators running Proof-of-Stake consensus with over $100 million staked. The network has been running in mainnet since 2019. All Orbs Network validators are takers and participate as honest bidders in the protocol, guaranteeing that orders are executed 24/7 with high redundancy and best price.
+
+
+### Troubleshooting and FAQ
+
+Still unsure of something? Having trouble with your order? Be sure to check the [FAQ](https://www.orbs.com/dtwap-and-dlimit-faq/) section, or join the telegram [support group](https://t.me/dTWAPSupportGroup).
+
+
+### Additional resources
+
+You can find more information about dLIMIT in the following links:
+
+- [FAQ](https://www.orbs.com/dtwap-and-dlimit-faq/)
+- dLIMIT telegram [support group](https://t.me/dTWAPSupportGroup)
+- dLIMIT [webpage](https://www.orbs.com/dlimit/)
+- [Whitepaper](https://www.orbs.com/white-papers/dTWAP/)
+- [Github](https://github.com/orbs-network/twap)
+- PeckShield [security audit](https://github.com/orbs-network/twap/blob/master/Audit-Report-PeckShield.pdf)
+
+
