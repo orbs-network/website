@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Aug 2023 12:42:13 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 21 Aug 2023 08:37:49 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Curve Finance]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Curve Finance, one of the largest DeFi protocols with over $2.4B in TVL!]]></description>
+            <link>https://www.orbs.com/DeFi-Notifications-Supports-Curve-Finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notifications-Supports-Curve-Finance</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Supports-Curve-Finance/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[How to Use dLIMIT by Orbs]]></title>
             <description><![CDATA[6 DEXs across 4 chains have already integrated the dLIMIT protocol powered by Orbs, bringing this order type to DeFi in a decentralized manner. Users can use this tool to create limit orders by following the directions below.]]></description>
