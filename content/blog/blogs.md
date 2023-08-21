@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DeFi-Notifications-Supports-Curve-Finance/blog.md
   - how-to-use-dLIMIT-by-Orbs/blog.md
   - Orbs-integrates-with-Satellite-by-Axelar/blog.md
   - OIP-5-Recovering-Compromised-Wallets/blog.md
