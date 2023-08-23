@@ -1,67 +1,63 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/ORBS-added-to-Coinhippo/bg.png
+blogUrl: ORBS-added-to-Coinhippo
+date: 2023-08-24
+title: "ORBS was added to Coinhippo, a crypto market and portfolio tracker!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Orbs, the native token of the Orbs Network, has been added to Coinhippo, a coin-tracking website providing rich analytics on cryptocurrency tokens. Coinhippo provides a fundamental analysis of the digital currency market. In addition to tracking price, volume, and market capitalization."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs, the native token of the Orbs Network, has been added to [Coinhippo](https://coinhippo.io/), a coin-tracking website providing rich analytics on cryptocurrency tokens. Coinhippo provides a fundamental analysis of the digital currency market. In addition to tracking price, volume, and market capitalization. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+![screenshot1](/assets/img/blog/ORBS-added-to-Coinhippo/image1.png)
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
 
-### Step-by-Step Guide
+### CoinHippo's Comprehensive Data
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+CoinHippo’s stated goal is to provide its users with comprehensive and accurate cryptocurrency data, as well as up-to-date relevant information and content on the crypto market. By adding the ORBS token to its platform, CoinHippo is enabling its users to easily track and analyze the performance of the Orbs project.
 
-Please also see our disclaimers below.
+Key Features of CoinHippo:
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+- **Real-time Price Data:** Stay informed about the latest price movements of ORBS and other cryptocurrencies.
+- **Market Capitalization:** Monitor the market capitalization of ORBS to gauge its relative size and importance within the broader cryptocurrency market.
+- **Trading Volume:** Access data on the trading volume of ORBS, helping you understand its liquidity and market activity.
+- **Historical Data:** Study historical price charts to identify trends and patterns over time.
+- **Community Insights:** Discover the latest news, social media mentions, and community discussions related to ORBS.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![screenshot2](/assets/img/blog/ORBS-added-to-Coinhippo/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+### Why ORBS on CoinHippo Matters
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+The addition of ORBS to CoinHippo's extensive list of supported cryptocurrencies underscores the growing recognition of ORBS as a significant player in the blockchain space. As blockchain technology continues to evolve and gain mainstream attention, projects like ORBS contribute to the ecosystem's diversity and innovation.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Whether you're a crypto veteran, a curious enthusiast, or a developer looking to explore new opportunities, CoinHippo's inclusion of ORBS ensures that you have access to reliable and accurate information.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### In Conclusion
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
+Orbs has always been an open-source, permissionless project. Transparency and accountability among the Orbs community and stakeholders have always been key values for the project. Coinhippo provides a comprehensive analysis of the Orbs network, making it a good place for new users to learn about the project.
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About Orbs**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is a blockchain infrastructure project. Have been around since 2017, with the network and token live since 2019. Orbs is now focusing on building use cases supported by the network and tech. 
+
+The most used apps on Orbs now are dTWAP and dLIMIT - these are limit order and TWAP protocols that are 100% decentralized, EVM compatible, and can integrate with most DEXs. Currently live with multiple DEXs such as QuickSwap, SpookySwap, Thena, Chronos, and more. 
+
+The project is being developed by a dedicated team of more than 30 people, with team members in Tel Aviv, London, New York, Tokyo, and Seoul. 
+
+For more information, please visit www.orbs.com, or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network
