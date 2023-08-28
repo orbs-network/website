@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar/blog.md
   - ORBS-added-to-Coinhippo/blog.md
   - DeFi-Notifications-Supports-Curve-Finance/blog.md
   - how-to-use-dLIMIT-by-Orbs/blog.md
