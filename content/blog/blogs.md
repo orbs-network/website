@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - New-Orbs-Guardian-Spotlight-CoinH/blog.md
   - orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar/blog.md
   - ORBS-added-to-Coinhippo/blog.md
   - DeFi-Notifications-Supports-Curve-Finance/blog.md
