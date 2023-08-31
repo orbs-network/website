@@ -1,67 +1,61 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/New-Orbs-Guardian-Spotlight-CoinH/bg.png
+blogUrl: New-Orbs-Guardian-Spotlight-CoinH
+date: 2023-08-31
+title: "New Orbs Guardian Spotlight: Coin H"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Eddy.md
 type:
-short_description:
+short_description: "Please join us in welcoming the newest Orbs Guardian to the Orbs proof of stake network, Coin H! Coin H is an independent validator who seeks to help further Orbs novel L3 technology. For those unfamiliar, they are an active long-term, supportive member of the Orbs Korean community."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Please join us in welcoming the newest Orbs Guardian to the Orbs proof of stake network, Coin H! Coin H is an independent validator who seeks to help further Orbs novel L3 technology. For those unfamiliar, they are an active long-term, supportive member of the Orbs Korean community.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Orbs’ newest Guardian comes at a time of growth for the project. Orbs’ technology has been rapidly integrated with DEXs who are interested in [dTWAP](https://www.orbs.com/dtwap/) and [dLIMIT](https://www.orbs.com/dlimit/) order types. This is in parallel to [OIP-5](https://www.orbs.com/OIP-5-Recover-Compromised-Funds/), a governance proposal that decided whether a function within the  Orbs staking should be utilized to recover funds from wallets that have their private keys compromised. As such, Orbs Guardians have an increasingly important role to play in the Orbs project.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+We sat down with Coin H to understand their intention to become a Guardian, their beliefs regarding L3 technology, and their insight on how they will vote on future proposals. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+**1 - Thank you for supporting the Orbs network! Can you explain your interest in the project?** 
 
-### Step-by-Step Guide
+First, when I joined the crypto space, I was looking for which crypto project to get involved with, and through another Guardian, I learned about Orbs.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+I got to know the project through the community, the Guardians, and the Korean team Orbs team members. Since Orbs was trying to build a new L3 technology, and updated the community with project development every single month via a live stream, I became interested in Orbs. So, I applied to become a Guardian. 
 
-Please also see our disclaimers below.
+**2 - Could you tell us more about your community?**
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+I don't have a community at the moment. It might slowly start to develop, but I will communicate this via Kakao community chat or my blog. If you come to the official Orbs Korea community, you can learn more about Orbs and myself. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**3 - In the latest governance vote, OIP-5, how would you[did you?] have voted? Could you share your decision-making process surrounding how you would vote on future proposals?** 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+I voted to 'approve' OIP-5. The reason I voted for it is that there is always a risk of hacking in the digital age and more so in Web3. If your hard-earned assets are gone, you risk falling into great loss and despair. So, protecting community member’s assets by restoring the compromised wallet was important to me.. 
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Regarding how I voted, I am also a stakeholder, and as such I think it is beneficial to hear other stakeholders' perspectives when voting on proposals. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+**4 - What are your opinions surrounding the dTWAP & dLIMIT and other L3 use cases?** 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+I feel that the crypto world changes fast. In line with the change, Orbs makes exclusive L3 infra to make DeFi better and more efficient. This is an attractive point about Orbs and can absorb more usage, and in turn users will get more interested in the Orbs project.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+**5 - Any message to the Orbs community? Anything you'd like to add?**
 
-Once the position is opened, you can always re-adjust the parameters:
+Compared to other Guardians, I don't have that big stake of Orbs. But I became a Guardian to see Orbs' future development and even be part of it. Being a Guardian means that I will have more responsibilities in the Orbs network and will do my best to help it succeed.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+I recommend you to apply for the opportunity!
 
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+The growth of both the project and Guardian membership is paramount to the success of the Orbs project. Special thanks to all builders, Guardians, and community members helping propel Orbs to new heights. As use cases of Orbs technology continue to grow, so will the need for honest, independent Orbs validators. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+As always, be sure to follow us on [Telegram](https://t.me/OrbsNetwork) and [Twitter](https://twitter.com/orbs_network) to find out the latest updates!
+
+Learn more about Orbs PoS [here](https://www.orbs.com/pos/).
+
+Become a [Guardian](https://guardians.orbs.network/)!
+
+Find out more info and data on the Orbs [Status](http://status.orbs.network/) and [Analytics](https://analytics.orbs.network/ethereum/overview/stake) pages.
+
+
+
