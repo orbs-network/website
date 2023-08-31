@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 31 Aug 2023 07:46:03 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 31 Aug 2023 07:56:02 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[New Orbs Guardian Spotlight: Coin H]]></title>
+            <description><![CDATA[Please join us in welcoming the newest Orbs Guardian to the Orbs proof of stake network, Coin H! Coin H is an independent validator who seeks to help further Orbs novel L3 technology. For those unfamiliar, they are an active long-term, supportive member of the Orbs Korean community.]]></description>
+            <link>https://www.orbs.com/New-Orbs-Guardian-Spotlight-CoinH</link>
+            <guid isPermaLink="true">https://www.orbs.com/New-Orbs-Guardian-Spotlight-CoinH</guid>
+            <dc:creator><![CDATA[Eddy Kim]]></dc:creator>
+            <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/New-Orbs-Guardian-Spotlight-CoinH/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[ORBS Expands to Arbitrum via Satellite Bridge by Axelar!]]></title>
             <link>https://www.orbs.com/orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar</link>
