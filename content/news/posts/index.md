@@ -3,8 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Six-of-the-best-emerging-Arbitrum-projects.md
+  - Orbs-Partners-with-Axelar-to-Introduce-Its-Tokens-on-Arbitrium-Ecosystem.md
   - Cross-Chain-Token-Swaps-Change-Gears-with-Orbs-Axelar.md
   - Orbs-Integrates-With-Axelar-Satellite-to-Enable-CrossChain-Token-Swaps-Across-5-Blockchains.md
+  - Orbs-dLIMIT-dTWAP-Protocol-Integrate-With-Chronos-DEX-Platform.md
   - CHRONOS-DEX-PLATFORM-WELCOMES-ORBS-DLIMIT-DTWAP-PROTOCOL.md
   - Exploring-Layer-3-Blockchains-and-What-This-Could-Mean-for-The-Crypto-Industry.md
   - Thena-Integrates-Orbs-dLIMIT-and-dTWAP-to-Enhance-DEX-Trading-Capabilities.md
