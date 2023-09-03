@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-Partners-with-Axelar-to-Introduce-Its-Tokens-on-Arbitrium-Ecosystem.jpg
+url: https://www.coinspeaker.com/orbs-axelar-arbitrium/
+date: 28, August 2023
+logo: /assets/img/news/logos/coinspeaker.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs, a leading blockchain infrastructure project has announced a strategic partnership with Axelar to introduce its tokens into the Arbitrum ecosystem. This strategic expansion is poised to offer users a more streamlined experience when interacting with the ORBS token
