@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Six-of-the-best-emerging-Arbitrum-projects.jpg
+url: https://invezz.com/news/2023/08/29/six-of-the-best-emerging-arbitrum-projects/
+date: 1, September 2023
+logo: /assets/img/news/logos/invezz.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+As a blockchain-agnostic protocol, Orbs has secured smart contracts across the space since 2017. However, it’s new to Arbitrum and offers a tooling system for other networks, with its Axelar-powered Satellite bridge allowing for transfer of tokens like ETH, USDC, and ORBS.
