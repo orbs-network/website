@@ -41,15 +41,19 @@ function Header({
           </div>
           {button && <div className="product-header-button">{button}</div>}
         </div>
-        <img
-          src={generateUrl(mainImg)}
-          className="product-header-img product-header-hero"
-        />
+        {mainImg && (
+          <img
+            src={generateUrl(mainImg)}
+            className="product-header-img product-header-hero"
+          />
+        )}
 
-        <img
-          src={generateUrl(PoweredImg)}
-          className="product-header-img product-header-powered"
-        />
+        {PoweredImg && (
+          <img
+            src={generateUrl(PoweredImg)}
+            className="product-header-img product-header-powered"
+          />
+        )}
       </MainGrid>
     </header>
   );

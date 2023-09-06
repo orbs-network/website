@@ -33,7 +33,7 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/blog/bold-italic.ttf");
 }
-.gradient-text, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
+.gradient-text, .liquidity-hub-section-3-column h4, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
   background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6344,6 +6344,169 @@ body {
   text-align: center;
   margin-bottom: 30px;
   font-size: 16px;
+}
+
+.liquidity-hub {
+  position: relative;
+}
+.liquidity-hub-hero {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 1100px;
+  width: 90%;
+  pointer-events: none;
+}
+.liquidity-hub .product-header-powered {
+  right: 140px;
+  top: 60px;
+}
+.liquidity-hub-section-1 {
+  background: #313855;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.liquidity-hub-section-1 .main-grid, .liquidity-hub-section-1 .small-grid, .liquidity-hub-section-1 .single-blog-header, .liquidity-hub-section-1 .contact, .liquidity-hub-section-1 .news-grid, .liquidity-hub-section-1 .orbs-vm .common-grid-section-grid, .orbs-vm .liquidity-hub-section-1 .common-grid-section-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.liquidity-hub-section-1-boxes {
+  display: flex;
+  gap: 15px;
+  align-items: stretch;
+}
+.liquidity-hub-section-1-box {
+  position: relative;
+  width: 50%;
+  padding: 35px 40px 50px 40px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0.55%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(21px);
+}
+.liquidity-hub-section-1-box h3 {
+  color: #ff8fd6;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 27px;
+}
+.liquidity-hub-section-1-box p {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+}
+.liquidity-hub-section-1-text p {
+  color: white;
+  margin: 0;
+  font-weight: 400;
+}
+.liquidity-hub-section-1-diagram {
+  width: 100%;
+  object-fit: contain;
+}
+.liquidity-hub-section-2 .cards .common-section-title {
+  text-align: center;
+}
+.liquidity-hub-section-3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #faf8fd;
+}
+.liquidity-hub-section-3 .page-colored-section-title, .liquidity-hub-section-3 .common-grid-section h3, .common-grid-section .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .integrations-title, .liquidity-hub-section-3 .integrations-integrate-title, .liquidity-hub-section-3 .common-section-title, .liquidity-hub-section-3 .faq-lists-category h5, .faq-lists-category .liquidity-hub-section-3 h5, .liquidity-hub-section-3 .network-section h3, .network-section .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .universe-second-flex .images-grid-title, .universe-second-flex .liquidity-hub-section-3 .images-grid-title, .liquidity-hub-section-3 .white-papers-category-title, .liquidity-hub-section-3 .contact-socials-section h4, .contact-socials-section .liquidity-hub-section-3 h4, .liquidity-hub-section-3 .news-posts-title, .liquidity-hub-section-3 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .notifications .integrations-title, .notifications .liquidity-hub-section-3 .integrations-title, .liquidity-hub-section-3 .notifications .apps-title, .notifications .liquidity-hub-section-3 .apps-title, .liquidity-hub-section-3 .ton-gateway-posts h3, .ton-gateway-posts .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .dtwap-benefits-title, .liquidity-hub-section-3 .dtwap-explanation-title, .liquidity-hub-section-3 .dlimit .schema-subtitle, .dlimit .liquidity-hub-section-3 .schema-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.liquidity-hub-section-3-subtitle p {
+  margin: 0;
+}
+.liquidity-hub-section-3-columns {
+  margin-top: 100px;
+  display: flex;
+  gap: 130px;
+}
+.liquidity-hub-section-3-column h4 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.liquidity-hub-section-3-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+}
+.liquidity-hub-section-3-column ul::after {
+  position: absolute;
+  left: 10px;
+  width: 1px;
+  height: 100%;
+  content: "";
+  border-left: 2px dashed #cccccc;
+}
+.liquidity-hub-section-3-column ul li {
+  z-index: 1;
+  padding-left: 40px;
+  position: relative;
+}
+.liquidity-hub-section-3-column ul li figure {
+  background: #faf8fd;
+  left: 0;
+  top: -1px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  width: 20px;
+  height: 20px;
+}
+.liquidity-hub-section-3-column ul li figure::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #6788ea;
+  content: "";
+}
+.liquidity-hub-section-4 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f4f4f4;
+}
+.liquidity-hub-section-4 .page-colored-section-title, .liquidity-hub-section-4 .common-grid-section h3, .common-grid-section .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .integrations-title, .liquidity-hub-section-4 .integrations-integrate-title, .liquidity-hub-section-4 .common-section-title, .liquidity-hub-section-4 .faq-lists-category h5, .faq-lists-category .liquidity-hub-section-4 h5, .liquidity-hub-section-4 .network-section h3, .network-section .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .universe-second-flex .images-grid-title, .universe-second-flex .liquidity-hub-section-4 .images-grid-title, .liquidity-hub-section-4 .white-papers-category-title, .liquidity-hub-section-4 .contact-socials-section h4, .contact-socials-section .liquidity-hub-section-4 h4, .liquidity-hub-section-4 .news-posts-title, .liquidity-hub-section-4 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .notifications .integrations-title, .notifications .liquidity-hub-section-4 .integrations-title, .liquidity-hub-section-4 .notifications .apps-title, .notifications .liquidity-hub-section-4 .apps-title, .liquidity-hub-section-4 .ton-gateway-posts h3, .ton-gateway-posts .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .dtwap-benefits-title, .liquidity-hub-section-4 .dtwap-explanation-title, .liquidity-hub-section-4 .dlimit .schema-subtitle, .dlimit .liquidity-hub-section-4 .schema-subtitle {
+  margin-bottom: 40px;
+}
+.liquidity-hub-section-4 a {
+  color: #54cfff;
+  text-decoration: unset;
+}
+.liquidity-hub-section-4 a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1300px) {
+  .liquidity-hub-section-3-columns {
+    gap: 10vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .liquidity-hub-section-1-boxes {
+    flex-direction: column;
+  }
+  .liquidity-hub-section-1-box {
+    width: 100%;
+    padding: 20px;
+  }
+  .liquidity-hub-section-3-columns {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
