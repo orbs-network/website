@@ -6,9 +6,6 @@ links:
   - dtwap.md
   - dlimit.md
   - notifications.md
-  - liquidity-hub.md
   - gateway.md
   - vote.md
-
-
 ---
