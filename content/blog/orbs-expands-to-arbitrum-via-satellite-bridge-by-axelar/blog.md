@@ -13,6 +13,9 @@ The beacons are aligned! Something is coming through! Satellite is warping ORBS 
 
 Bridging from ETH to Arbitrum can be done using the following [link](https://satellite.money/?source=ethereum&destination=arbitrum&asset_denom=orbs-wei&destination_address=).
 
+The official ORBS token contract address can be found here:
+https://arbiscan.io/address/0xf3C091ed43de9c270593445163a41A876A0bb3dd
+
 ![img](/assets/img/blog/orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar/img1.png)
 
 <div class='line-separator'></div>
