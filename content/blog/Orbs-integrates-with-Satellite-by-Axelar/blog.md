@@ -25,21 +25,13 @@ Transfer [here](https://satellite.money/?source=ethereum&destination=fantom&asse
 
 The ORBS token contract addresses on each of the above chains can be viewed in the [Axelarscan explorer](https://axelarscan.io/resources/assets), and are also listed below:
 
-BNB Chain:
+- BNB Chain: https://bscscan.com/address/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170
 
-https://bscscan.com/address/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170
+- Fantom: https://ftmscan.com/address/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170
 
-Fantom:
+- Avalanche: https://snowtrace.io/address/0x3Ab1C9aDb065F3FcA0059652Cd7A52B05C98f9a9
 
-https://ftmscan.com/address/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170
-
-Avalanche:
-
-https://snowtrace.io/address/0x3Ab1C9aDb065F3FcA0059652Cd7A52B05C98f9a9
-
-Arbitrum:
-
-https://arbiscan.io/address/0xf3C091ed43de9c270593445163a41A876A0bb3dd
+- Arbitrum: https://arbiscan.io/address/0xf3C091ed43de9c270593445163a41A876A0bb3dd
 
 
 <div class='line-separator'> </div>
