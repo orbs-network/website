@@ -1,67 +1,55 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/TON.Vote-Major-Upgrade-Validator-Voting/bg.png
+blogUrl: TON.Vote-Major-Upgrade-Validator-Voting
+date: 2023-09-11
+title: "TON.Vote Major Upgrade: Validator Voting"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "TON.Vote, the no-code governance platform for The Open Network (TON) has implemented a major upgrade: Validators can now participate in DAO governance votes by utilizing MyTonCtrl!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+[TON.Vote](https://ton.vote/), the no-code governance platform for The Open Network (TON) has implemented a major upgrade: Validators can now participate in DAO governance votes by utilizing MyTonCtrl! 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Validators hold a significant portion of the ecosystem's stake but were previously unable to vote as funds were staked in the elector contract. Now every voice can be heard on TON, validator or otherwise.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+![screenshot](/assets/img/blog/TON.Vote-Major-Upgrade-Validator-Voting/image1.png)
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+For the unfamiliar, [MyTonCtrl](https://github.com/ton-blockchain/mytonctrl) is a console application that serves as a convenient wrapper for fift, lite-client, and validator-engine-console. It has been specifically developed to streamline wallet, domain, and validator management tasks from the command line. Nearly every validator uses MyTonCtrl to manage their positions. Validators are responsible for maintaining the network, in return they receive some rewards. 
 
-Please also see our disclaimers below.
+If you’re a validator looking for more information about how this works and the generic command line prompt used to vote, please refer to TON.Vote’s documentation [here](https://github.com/orbs-network/ton-vote#supported-strategies). Further, if you’re looking to support contracts other than the newly supported ones, the contributors in the TON.Vote support group can get you sorted [here](https://t.me/TONVoteSupportGroup).
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The reason validators could not vote is that the funds used to validate the network are held in a dedicated contract. They would need to withdraw their entire position from the elector wallet, and then transfer to another wallet, thus losing money in both gas fees & downtime. If all the stake is removed from validation, who will be left to maintain the network? Now, by leveraging MyTonClrl operational wallets, validators can vote by sending a small amount of TON alongside the message of how they’d like to vote. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Validator voting will not be enabled by default. It is an option that can be readily toggled on and off by proposal creators and can be decided after taking into account your relevant community.  
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+### TON.Vote’s Success To-date
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+TON.Vote is a completely decentralized, on-chain, and trustless DAO voting platform built exclusively for the TON ecosystem. It is also the official DAO voting platform of the TON Foundation.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+As of writing, TON.Vote has been used by over 24,000 governance particpants. All of which have had their voice heard on the future of The Open Network, maintaining decentralization whilst promoting the core values of DeFi. The 24,000 users have voted on proposals totaling over 5.2 million TON, across 32 individual project spaces, which have hosted 40 proposals. This is in addition to the numerous NFT projects and jettons.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Since launching, TON.Vote has seen incredible growth alongside Orbs' other projects on The Open Network. [Minter]( https://minter.ton.org/), [Verifier](https://verifier.ton.org/), and [Access](https://www.orbs.com/ton-access/) are accelerating decentralization and core DeFi values of the entire ecosystem. 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Orbs continues to facilitate decentralization on TON and is currently in the process of developing additional tools for tracking validator-exclusive vote happenings on the network. We continue to listen to project and user feedback, incorporating it whenever possible to best service all needs. Thank you as always for building with us.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Orbs is a blockchain infrastructure project. It has been around since 2017, with the network and token live since 2019. The current focus of the project is on use cases supported by the network and technology.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+The most used apps on Orbs now are dTWAP and dLIMIT - these are limit order and TWAP protocols that are 100% decentralized, EVM compatible, and can integrate with most DEXs. Currently live with multiple DEXs such as QuickSwap, SpookySwap, Thena, Chronos, and more.
+
+The project's core team consists of more than thirty dedicated contributors spanning from Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network 
