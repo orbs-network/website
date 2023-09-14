@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ORBS-is-now-available-on-Chronos-DEX/blog.md
   - TON.Vote-Major-Upgrade-Validator-Voting/blog.md
   - New-Orbs-Guardian-Spotlight-CoinH/blog.md
   - orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar/blog.md
