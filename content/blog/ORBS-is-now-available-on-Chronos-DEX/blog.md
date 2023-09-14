@@ -1,67 +1,60 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/ORBS-is-now-available-on-Chronos-DEX/bg.png
+blogUrl: ORBS-is-now-available-on-Chronos-DEX
+date: 2023-09-15
+title: "ORBS is now available on Chronos DEX!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "The ORBS token is now available on Chronos, a leading DEX on Arbitrum that has integrated the dTWAP and dLIMIT trading orders powered by the Orbs network!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The ORBS token is now available on [Chronos](https://app.chronos.exchange/), a leading DEX on Arbitrum that has integrated the dTWAP and dLIMIT trading orders powered by the Orbs network!
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+![screenshot1](/assets/img/blog/ORBS-is-now-available-on-Chronos-DEX/image1.png)
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+ 
+In a recent blog post we announced that the ORBS token is now [available on Arbitrum](https://www.orbs.com/orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar/) using the Satellite cross-chain bridge by Axelar. Token swaps are available between Ethereum, BSC, and more. The token is also undergoing whitelisting on Arbiscan. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Following these successful integrations, Arbitrum users can now swap and add liquidity to Orbs pools on Chronos.
 
-### Step-by-Step Guide
+### Before you Start
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+As always, before embarking onto a new chain, there are several things you need to do:
 
-Please also see our disclaimers below.
+1. **Set up an Arbitrum-compatible wallet:** If you’re using the Metamask wallet, here is a [quick guide](https://docs.arbitrum.io/getting-started-users) on how to configure Metamask for Arbi.
+2. **Choose a cross-chain bridge:** You may use the Sattelite bridge described in our recent [blog post](https://www.orbs.com/Orbs-integrates-with-Satellite-by-Axelar/).
+3. **Fund your Arbitrum wallet with ETH tokens:** You can now bridge ORBS tokens into your Arbitrum wallet. In addition, make sure to send some ETH tokens for gas. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+You are now ready to use Chronos on Arbitrum!
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+_Note: Exercise caution when working with 3rd party technologies, educate yourself regarding the risks involved, and read all security audits._
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+### Chronos: A community-driven liquidity layer & AMM on Arbitrum
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Chronos is a one-stop decentralized trading platform on the Arbi network, combining DEX services, DeFi lending, and leveraged trading. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+Chronos already has an ORBS-USDC pool set up with approx. $40,000 in total liquidity. Orbs users can now swap ORBS tokens as well as add liquidity to the Orbs pool!
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![screenshot2](/assets/img/blog/ORBS-is-now-available-on-Chronos-DEX/image2.png)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+<div class='line-separator'></div>
 
-Once the position is opened, you can always re-adjust the parameters:
+**About Orbs**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Orbs is a blockchain infrastructure project. That has been around since 2017, with the network and token live since 2019. The current focus of the project is on use cases supported by the network and technology.
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+The most used apps on Orbs now are dTWAP and dLIMIT - these are limit order and TWAP protocols that are 100% decentralized, EVM compatible, and can integrate with most DEXs. Currently live with multiple DEXs such as QuickSwap, SpookySwap, Thena, Chronos, and more.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+The project's core team consists of more than thirty dedicated contributors spanning from Tel Aviv, London, New York, Tokyo, and Seoul.
 
-### 3) Earn Orbs in the Grazing Range
+For more information, please visit www.orbs.com, or join our community at: 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+Telegram: https://t.me/OrbsNetwork 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+Twitter: https://twitter.com/orbs_network 
 
-#### And that’s it – You are now a senior Alpaca!
 
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
