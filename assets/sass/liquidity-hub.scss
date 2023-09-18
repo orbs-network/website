@@ -1,5 +1,10 @@
 .liquidity-hub {
   position: relative;
+  .product-header-body {
+    .text-p:last-child {
+      margin-top: 10px;
+    }
+  }
   &-hero {
     position: absolute;
     top: 0;
