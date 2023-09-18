@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Liquidity-Hub-by-Orbs-The-New-Standard-for-DEXs/blog.md
   - ORBS-is-now-available-on-Chronos-DEX/blog.md
   - TON.Vote-Major-Upgrade-Validator-Voting/blog.md
   - New-Orbs-Guardian-Spotlight-CoinH/blog.md
