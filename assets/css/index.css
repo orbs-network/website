@@ -6349,9 +6349,6 @@ body {
 .liquidity-hub {
   position: relative;
 }
-.liquidity-hub .product-header-body .text-p:last-child, .liquidity-hub .product-header-body .blog .header h2:last-child, .blog .header .liquidity-hub .product-header-body h2:last-child, .liquidity-hub .product-header-body .blog-list-blog-title:last-child, .liquidity-hub .product-header-body .blog .news-hero h2:last-child, .blog .news-hero .liquidity-hub .product-header-body h2:last-child, .liquidity-hub .product-header-body .news-hero-body h4:last-child, .news-hero-body .liquidity-hub .product-header-body h4:last-child, .liquidity-hub .product-header-body .notifications .integrations-list .integration h5:last-child, .notifications .integrations-list .integration .liquidity-hub .product-header-body h5:last-child, .liquidity-hub .product-header-body .ton-gateway-posts .post-profile-right h5:last-child, .ton-gateway-posts .post-profile-right .liquidity-hub .product-header-body h5:last-child, .liquidity-hub .product-header-body .selectbox-list-item h4:last-child, .selectbox-list-item .liquidity-hub .product-header-body h4:last-child, .liquidity-hub .product-header-body .selectbox-list-item h4 :last-child, .selectbox-list-item h4 .liquidity-hub .product-header-body :last-child {
-  margin-top: 10px;
-}
 .liquidity-hub-hero {
   position: absolute;
   top: 0;
