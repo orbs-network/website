@@ -1,8 +1,6 @@
 ---
 layout: partials/shared/ProductHeader
 title: Liquidity Hub
-button:
-  - header-button.md
 github: https://github.com/orbs-network/clob
 ---
 
