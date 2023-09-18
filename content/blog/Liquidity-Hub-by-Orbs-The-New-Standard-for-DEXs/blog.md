@@ -136,12 +136,6 @@ For simpler functions, Orbs Network offers ORBS-Lambda - a decentralized and ser
 
 As part of Liquidity Hub, Orbs Guardians will run software utilizing [ORBS-VM](https://docs.orbs.network/v3/orbs-vm/what-is-orbs-vm) that acts as a decentralized backend that is required for Liquidity Hub’s off-chain portion to run optimally and in a fully decentralized manner. 
 
-In addition, while Orbs L3 is able to reduce manipulation risks, as well as liability and overhead,  we can also see that the opportunity for manipulation is negligible nevertheless.
-
-Liquidity Hub’s backend could only manipulate by choosing market maker #1 over market maker #2 in the above trade. Liquidity Hub’s backend could not choose a match that doesn’t fit the trader’s limit requirements since this is verified by the contract checking the off-chain signature.
-
-Choosing market maker #1 over #2 would still give the trader the same result as not using Liquidity Hub at all, so the user wouldn’t be materially hurt. Market maker #2 is the only one who is disadvantaged and they would notice the manipulation immediately since they have a confirmed bid which is better and still lost. Still, they would not lose any money, just the opportunity to make a profit. Funds would never leave their account.
-
 
 ### Summary: Liquidity Hub - the Next Evolution of DEX-AMMs
 
