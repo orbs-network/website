@@ -27,9 +27,9 @@ function Header({
             <div className="product-header-github">
               <p>{title}</p>
               <div style={{ display: "flex", alignItems: "center", gap: 15 }}>
-                <a href={github} target="_blank">
+               {github &&  <a href={github} target="_blank">
                   <img src={generateUrl(GithubImg)} />
-                </a>
+                </a>}
                 {telegram && (
                   <a href={telegram} target="_blank">
                     <img src={generateUrl(telegramImg)} />
