@@ -176,4 +176,4 @@ _(c) may result in total or partial loss of funds._
 
 _Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions._ 
 
-_For more information, please see the terms of use._ 
+_For more information, please see the [terms of use](https://drive.google.com/file/d/1wYqtBeVDILlJ61rYehEjLINrtcctbNLQ/view?pli=1)._ 
