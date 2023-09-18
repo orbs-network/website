@@ -9,3 +9,6 @@ All on-chain parts are trustless since contracts verify all actions. However, us
 As part of Liquidity Hub, Orbs Guardians will run software utilizing [ORBS-VM](https://docs.orbs.network/v3/orbs-vm/what-is-orbs-vm), which acts as a decentralized backend that is required for Liquidity Hub’s to run optimally and in a fully decentralized manner. 
 
 The Orbs Network has dozens of independent validators running Proof-of-Stake consensus with over $100 million staked. The network has been running in mainnet since 2019.
+
+The Liquidity Hub is a beta version that is still under active development.
+For more information, please see the [terms of use](/liquidity-hub-terms-of-use)
