@@ -3,8 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - ​​Orbs-teams-up-with-QuickSwap-to-introduce-Liquidity-Hub.md
   - Six-of-the-best-emerging-Arbitrum-projects.md
   - Orbs-Partners-with-Axelar-to-Introduce-Its-Tokens-on-Arbitrium-Ecosystem.md
+  - Orbs-Integrates-With-Axelar-Satellite-To-Enable-Cross-Chain-Token-Swaps-Across-5-Blockchains.md
   - Cross-Chain-Token-Swaps-Change-Gears-with-Orbs-Axelar.md
   - Orbs-Integrates-With-Axelar-Satellite-to-Enable-CrossChain-Token-Swaps-Across-5-Blockchains.md
   - Orbs-dLIMIT-dTWAP-Protocol-Integrate-With-Chronos-DEX-Platform.md
