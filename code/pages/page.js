@@ -49,7 +49,6 @@ const Page = (props) => {
         <script
           async
           src={generateUrl("/assets/js/dependencies/twitter-widgets.js")}
-          charSet="utf-8"
         ></script>
         <link
           href={generateUrl("/assets/sass/dependencies/aos.scss")}

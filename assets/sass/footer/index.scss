@@ -42,12 +42,15 @@
       height: 28px;
     }
     .text-p {
-      margin-bottom: 0px;
       font-weight: 300;
       font-size: 14px;
-      &:nth-of-type(2) {
+      margin-bottom: 0;
+      a {
+         color: $blue;
+      }
+      &:nth-of-type(3) {
         margin-top: 30px;
-        color: $light-color;
+        // color: $light-color;
       }
       .email-link {
         color: $blue;

@@ -1,5 +1,5 @@
 ---
 layout: partials/footer/components/navigation/link
 ---
-[Liquidity hub](/liquidity-hub)
+[Liquidity Hub](/liquidity-hub)
 

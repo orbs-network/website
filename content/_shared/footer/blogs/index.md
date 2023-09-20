@@ -5,6 +5,6 @@ type: footer
 subscribeBtn: Subscribe
 subscribe: SUBSCRIBE FOR UPDATES
 list:
-  - /Orbs-in-2022-Driving-Forces-of-Adoption/blog.md
-  - /announcing-support-for-ton-connect-2.0-in-minter-and-verifier/blog.md
+  - /Liquidity-Hub-by-Orbs-The-New-Standard-for-DEXs/blog.md
+  - /ORBS-is-now-available-on-Chronos-DEX/blog.md
 ---

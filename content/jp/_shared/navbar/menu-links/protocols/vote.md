@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Ton vote](/ton-vote)
+[Ton Vote](/ton-vote)
