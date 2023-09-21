@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/OIP-6-Relief-for-Multichain-bridged-ORBS-Token-Holders/bg.jpg
 blogUrl: OIP-6-Relief-for-Multichain-bridged-ORBS-Token-Holders
 date: 2023-09-21
-title: "OIP-6: Relief for Multichain-bridged ORBS Token Holders"
+title: "Draft: OIP-6: Relief for Multichain-bridged ORBS Token Holders"
 author:
   - /blog/common/authors/MatanErder.md
 type:
