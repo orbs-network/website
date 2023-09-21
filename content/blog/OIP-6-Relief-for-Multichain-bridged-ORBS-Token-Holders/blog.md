@@ -47,7 +47,7 @@ The mechanism will be a smart contract, deployed to each of the affected chains,
 
 If the community approves, the Orbs core team will develop and deploy this smart contract. The smart contract will then be funded with new tokens that will be removed from the Long-Term Reserve Pool, bridged to the affected chains via Axelar and deposited in the smart contract. The amount of tokens needed to provide relief to all affected holders who are not affiliated with the project is approximately 4 million. 
 
-ORBS tokens that were bridged by the team for purposes of facilitating liquidity pools or other DeFi infrastructure on the affected chains will not participate.   
+Project tokens that were bridged for purposes of facilitating liquidity pools or other DeFi infrastructure on the affected chains will not participate.
 
 _Benefits_
 
