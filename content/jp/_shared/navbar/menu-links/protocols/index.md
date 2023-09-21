@@ -9,5 +9,4 @@ links:
   - notifications.md
   - gateway.md
   - vote.md
-
 ---

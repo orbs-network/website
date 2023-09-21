@@ -10,6 +10,7 @@ function main({
   section2,
   section3,
   section4,
+  launchPartner,
 }) {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
@@ -23,6 +24,7 @@ function main({
       />
       {header}
       {section1}
+      {launchPartner}
       {section2}
       {section3}
       {section4}

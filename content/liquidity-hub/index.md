@@ -10,4 +10,6 @@ section3:
   - section-3/index.md
 section4:
   - section-4/index.md
+launchPartner:
+  - launch-partner/index.md
 ---
