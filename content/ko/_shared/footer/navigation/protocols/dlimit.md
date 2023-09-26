@@ -1,5 +1,5 @@
 ---
 layout: partials/footer/components/navigation/link
 ---
-[dLIMIT Protocol](/ko/dlimit)
+[dLIMIT 프로토콜](/ko/dlimit)
 

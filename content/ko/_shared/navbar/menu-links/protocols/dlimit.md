@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[dLIMIT Protocol](/ko/dlimit)
+[dLIMIT 프로토콜](/ko/dlimit)
