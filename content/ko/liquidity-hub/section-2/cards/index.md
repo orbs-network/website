@@ -8,6 +8,6 @@ cards:
   - card-5.md
   - card-6.md
   
-title: Integrate now with a user-friendly and flexible UI
+title: 사용자 친화적이고 유연한 UI를 바탕으로 지금 통합해보세요
 ---
 

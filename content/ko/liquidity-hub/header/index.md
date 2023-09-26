@@ -1,9 +1,9 @@
 ---
 layout: partials/shared/ProductHeader
-title: Liquidity Hub
+title: 유동성 허브(Liquidity Hub)
 ---
 
-# Aggregated liquidity for
-# decentralized exchanges 
+# 하나로 모이는
+# DEX의 모든 유동성
 
-Liquidity Hub is a decentralized optimization layer that operates above Automated Market Makers (AMMs). This layer mitigates the problem of fragmented liquidity in DeFi, enabling DEXs to tap into external liquidity sources in order to provide better prices on swaps.
+유동성 허브는 AMM(자동화 마켓메이커)상에 운영되는 탈중앙 최적화 레이어입니다. 이 레이어는 DeFi에서 파편화된 유동성 문제를 해결하며, DEX가 더 나은 가격을 제공하기 위해 외부의 유동성을 활용할 수 있도록 해줍니다.

@@ -4,4 +4,4 @@ url: https://github.com/orbs-network/clob
 ---
 
 
-GET STARTED
+시작하기

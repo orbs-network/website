@@ -2,6 +2,7 @@
 layout: partials/liquidity-hub/section-1/Boxes/Box
 ---
 
-### On-chain solver auctions:
+### 온체인 해결사(solver) 입찰:
 
-Third-party solvers who compete to fill swaps using on-chain liquidity like AMM pools or their own private inventory.
+
+AMM 풀과 같이 온체인 유동성 또는 자체 유동성을 통해 스왑을 완료하려는 서드파티
