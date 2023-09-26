@@ -6,6 +6,7 @@ function Apps({ title, _body, google, apple, _relativeURL, _ID }) {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
   };
+  
   return (
     <div className="apps">
       <SmallGrid>
