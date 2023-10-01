@@ -1,5 +1,5 @@
 ---
 layout: partials/footer/components/navigation/link
 ---
-[dLIMIT 프로토콜](/ko/dlimit)
+[유동성 허브](/ko/liquidity-hub)
 

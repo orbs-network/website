@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Liquidity Hub](/liquidity-hub)
+[유동성 허브](/ko/liquidity-hub)
