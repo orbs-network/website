@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 01 Oct 2023 09:18:11 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 10 Oct 2023 14:34:16 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BaseSwap integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
+            <description><![CDATA[BaseSwap, one of the largest native DEXs on Base, has integrated the dLimit &amp; dTWAP protocol powered by Orbs! Expanding dTWAP and dLIMIT advanced trading orders to Base!]]></description>
+            <link>https://www.orbs.com/BaseSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/BaseSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/BaseSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[OIP-6: Relief for Multichain-bridged ORBS Token Holders]]></title>
             <description><![CDATA[The Orbs team has submitted a new draft OIP, with a proposal to offer relief to multi-chain bridged ORBS token holders on BNB Chain, Avalanche and Fantom, and offer them the option to replace these tokens with the new Axelar-bridged ORBS tokens]]></description>
