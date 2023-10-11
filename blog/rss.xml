@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Oct 2023 14:34:16 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 11 Oct 2023 16:33:38 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ORBS is now available on Arken Finance!]]></title>
+            <link>https://www.orbs.com/orbs-is-now-available-on-arken-finance</link>
+            <guid isPermaLink="true">https://www.orbs.com/orbs-is-now-available-on-arken-finance</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/orbs-is-now-available-on-arken-finance/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[BaseSwap integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
             <description><![CDATA[BaseSwap, one of the largest native DEXs on Base, has integrated the dLimit &amp; dTWAP protocol powered by Orbs! Expanding dTWAP and dLIMIT advanced trading orders to Base!]]></description>
