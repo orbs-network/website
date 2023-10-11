@@ -38,7 +38,6 @@ Arken is one of the fastest growing protocols with over 1M users. Arken is curre
 
 <div class='line-separator'></div>
 
-
 ### About Orbs
 
 [Orbs](https://www.orbs.com/) is a "Layer-3" public blockchain infrastructure project powered by PoS, pioneering on-chain innovation since 2017.
