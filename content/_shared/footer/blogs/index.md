@@ -5,6 +5,6 @@ type: footer
 subscribeBtn: Subscribe
 subscribe: SUBSCRIBE FOR UPDATES
 list:
+  - /bitmart-exchange-lists-orbs/blog.md
   - /orbs-is-now-available-on-arken-finance/blog.md
-  - /Liquidity-Hub-by-Orbs-The-New-Standard-for-DEXs/blog.md
 ---

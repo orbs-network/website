@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - bitmart-exchange-lists-orbs/blog.md
   - orbs-is-now-available-on-arken-finance/blog.md
   - BaseSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs/blog.md
   - OIP-6-Relief-for-Multichain-bridged-ORBS-Token-Holders/blog.md
