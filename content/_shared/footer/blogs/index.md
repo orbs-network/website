@@ -5,6 +5,6 @@ type: footer
 subscribeBtn: Subscribe
 subscribe: SUBSCRIBE FOR UPDATES
 list:
+  - /introducing-tetra-mobile/blog.md
   - /bitmart-exchange-lists-orbs/blog.md
-  - /orbs-is-now-available-on-arken-finance/blog.md
 ---

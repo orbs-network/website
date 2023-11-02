@@ -28,4 +28,9 @@ items:
   - probit.md
   - bhex.md
   - ultorex.md
+  - bitmart.md
+  - lbank.md
+  - tapbit.md
+  - hyperliquid.md
+  - mexc.md
 ---
