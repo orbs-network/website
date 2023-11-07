@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - orbs-staking-promotion/blog.md
   - introducing-tetra-mobile/blog.md
   - bitmart-exchange-lists-orbs/blog.md
   - orbs-is-now-available-on-arken-finance/blog.md

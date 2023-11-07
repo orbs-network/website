@@ -5,6 +5,6 @@ type: footer
 subscribeBtn: Subscribe
 subscribe: SUBSCRIBE FOR UPDATES
 list:
+  - /orbs-staking-promotion/blog.md
   - /introducing-tetra-mobile/blog.md
-  - /bitmart-exchange-lists-orbs/blog.md
 ---
