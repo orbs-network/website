@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Nov 2023 06:25:26 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 07 Nov 2023 12:45:10 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[OIP 7 - Orbs Staking Promotion]]></title>
+            <link>https://www.orbs.com/orbs-staking-promotion</link>
+            <guid isPermaLink="true">https://www.orbs.com/orbs-staking-promotion</guid>
+            <dc:creator><![CDATA[Matan Erder]]></dc:creator>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/orbs-staking-promotion/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Introducing “TETRA Mobile”, a new IOS &amp; Android staking application for ORBS]]></title>
             <link>https://www.orbs.com/introducing-tetra-mobile</link>
