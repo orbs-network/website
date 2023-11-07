@@ -15,7 +15,7 @@ Since 2022, Orbs has undergone a process of transition to community governance f
 
 Following the recent growth of the Orbs community and the addition of many new token holders, the Orbs team has submitted a new draft OIP with a proposal to utilize some of the ORBS token reserve pool to add additional rewards for new stake added during the remainder of 2023.
 
-This draft OIP can be viewed here:
+This draft OIP can be viewed [here](https://github.com/orbs-network/OIPs/issues/8)
 
 In order to facilitate the start of the program (if approved), there will be no discussion period for this OIP and the voting period will be shortened to five days. The governance vote has been launched on Snapshot for the vote of the entire Orbs PoS Universe.
 
