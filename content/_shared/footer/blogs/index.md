@@ -5,6 +5,6 @@ type: footer
 subscribeBtn: Subscribe
 subscribe: SUBSCRIBE FOR UPDATES
 list:
+  - /triple-apy-for-new-orbs-stakers/blog.md
   - /orbs-staking-promotion/blog.md
-  - /introducing-tetra-mobile/blog.md
 ---
