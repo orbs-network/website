@@ -15,7 +15,7 @@ Orbs has received increased attention from the broader web3 ecosystem in October
 
 ### Event details
 
-All NEW Orbs token staked in November and December 2023 will receive additional rewards.
+All NEW Orbs tokens staked in November and December 2023 will receive additional rewards.
 
 ⏰ Event period: ~ 31th Dec 2023 
 
@@ -30,9 +30,9 @@ Double: All new Orbs tokens staked in November and December 2023 will get double
 
 ### Example
 
-Alice stakes 5M Orbs before the event and added 2M Orbs in Nov 15th, and added another 1M Orbs in 3rd Dec.\
+Alice stakes 5M Orbs before the event and added 2M Orbs on Nov 15th, and added another 1M Orbs on 3rd Dec.\
 The 5M Orbs Alice staked before the event, is not eligible.\
-For the 2M Orbs staked on Nov 1st, Alicew will get triple APY during 15th ~ 30th Nov, and double APY during 1st ~ 31st Dec.
+For the 2M Orbs staked on Nov 1st, Alice will get triple APY during 15th ~ 30th Nov, and double APY during 1st ~ 31st Dec.
 
 For the 1M Orbs staked on 3rd Dec, Alice gets double APY during 3rd ~ 31th Dec
 
@@ -44,7 +44,6 @@ Things to note
 
 -   The additional rewards will be distributed before the end of Jan 2024
 
--   Only tokens staked by delegating from personal wallets (and not from exchange-based staking services) will be eligible
 
 ### About Orbs PoS Universe
 
