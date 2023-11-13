@@ -22,7 +22,7 @@ All NEW Orbs tokens staked in November and December 2023 will receive additional
 🏆 Additional APY\
 Triple: All new Orbs tokens staked during November 2023, will get triple rewards during the promotion
 
-Double: All new Orbs tokens staked in November and December 2023 will get double rewards during the promotion
+Double: All new Orbs tokens staked in December 2023 will get double rewards during the promotion 
 
 🌐 Network: Ethereum and Polygon
 
