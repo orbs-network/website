@@ -20,9 +20,9 @@ All NEW Orbs tokens staked in November and December 2023 will receive additional
 ⏰ Event period: ~ 31th Dec 2023 
 
 🏆 Additional APY\
-Triple: All new Orbs tokens staked during November 2023, will get triple rewards during November 2023
+Triple: All new Orbs tokens staked during November 2023, will get triple rewards during the promotion
 
-Double: All new Orbs tokens staked in November and December 2023 will get double rewards during Dec 2023
+Double: All new Orbs tokens staked in November and December 2023 will get double rewards during the promotion
 
 🌐 Network: Ethereum and Polygon
 
@@ -30,11 +30,11 @@ Double: All new Orbs tokens staked in November and December 2023 will get double
 
 ### Example
 
-Alice stakes 5M Orbs before the event and added 2M Orbs on Nov 15th, and added another 1M Orbs on 3rd Dec.\
-The 5M Orbs Alice staked before the event, is not eligible.\
-For the 2M Orbs staked on Nov 1st, Alice will get triple APY during 15th ~ 30th Nov, and double APY during 1st ~ 31st Dec.
+Alice stakes 5M Orbs before November 1st and then added 2M Orbs on Nov 15th, and added another 1M Orbs on 3rd Dec.\
+The 5M Orbs Alice staked before the event (November 1st), is not eligible.\
+For the 2M Orbs staked on Nov 15th, Alice will get triple APY during 1st ~ 30th Nov.
 
-For the 1M Orbs staked on 3rd Dec, Alice gets double APY during 3rd ~ 31th Dec
+For the 1M Orbs staked on 3rd Dec, Alice gets double APY during 1st ~ 31th Dec
 
 Things to note
 
