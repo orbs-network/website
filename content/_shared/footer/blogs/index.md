@@ -5,6 +5,6 @@ type: footer
 subscribeBtn: Subscribe
 subscribe: SUBSCRIBE FOR UPDATES
 list:
+  - /arbidex-integrates-dlimit-dtwap-powered-by-orbs/blog.md
   - /triple-apy-for-new-orbs-stakers/blog.md
-  - /orbs-staking-promotion/blog.md
 ---

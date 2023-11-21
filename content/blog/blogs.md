@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - arbidex-integrates-dlimit-dtwap-powered-by-orbs/blog.md
   - triple-apy-for-new-orbs-stakers/blog.md
   - orbs-staking-promotion/blog.md
   - introducing-tetra-mobile/blog.md
