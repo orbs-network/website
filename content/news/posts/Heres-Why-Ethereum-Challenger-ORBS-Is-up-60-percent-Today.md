@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Heres-Why-Ethereum-Challenger-ORBS-Is-up-60-percent-Today.jpg
+url: https://u.today/heres-why-ethereum-challenger-orbs-is-up-60-today?amp
+date: 17, October 2023
+logo: /assets/img/news/logos/utoday.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs (ORBS), an Ethereum challenger, is on a parabolic run, with its price up by more than 60% in what can be classified as one of its biggest trading days in months.
