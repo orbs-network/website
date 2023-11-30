@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Layer-3-Blockchains-What-They-Are-And-How-L3s-Improve-Scalability.jpg
+url: https://www.coingecko.com/learn/what-are-layer-3s-crypto
+date: 20, November 2023
+logo: /assets/img/news/logos/coingecko.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Layer 3 protocols are built on top of Layer 2s to provide enhanced scalability so developers can create customized application-specific blockchains based on their needs.
