@@ -3,7 +3,15 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
-  - ​​Orbs-teams-up-with-QuickSwap-to-introduce-Liquidity-Hub.md
+  - What-Are-Crypto-OGs-Doing-Today.md
+  - Orbs-Recent-Token-Surge-Highlights-Value-of-Layer-3-Blockchain-Tech.md
+  - Orbs-and-Others-Prove-Layer-3-Tech-Represents-Blockchain-Bright-Future.md
+  - Orbs-The-Layer-3-Public-Blockchain-Infrastructure-Project.md
+  - Orbs-Price-Prediction-2023-What-is-ORBS.md
+  - Heres-Why-Ethereum-Challenger-ORBS-Is-up-60-percent-Today.md
+  - Orbs-Liquidity-Hub-Brings-Aggregated-Liquidity-To-DEX-AMMs-Launched-with-QuickSwap.md​​
+  - Orbs-teams-up-with-QuickSwap-to-introduce-Liquidity-Hub.md
+  - ​​ORBS-Token-Debuts-on-Arbitrum-With-Axelar-AXL-Bridge-Integration.md
   - Six-of-the-best-emerging-Arbitrum-projects.md
   - Orbs-Partners-with-Axelar-to-Introduce-Its-Tokens-on-Arbitrium-Ecosystem.md
   - Orbs-Integrates-With-Axelar-Satellite-To-Enable-Cross-Chain-Token-Swaps-Across-5-Blockchains.md
