@@ -1,8 +1,8 @@
 import React from "react";
 
-const Category = ({ title, items }) => {
+const Category = ({ title, items, id }) => {
   return (
-    <div className="ecosystem-category">
+    <div className="ecosystem-category" id={id}>
       <div className="ecosystem-category-title">
         <h5>{title}</h5>
       </div>
