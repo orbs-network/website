@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/What-Are-Crypto-OGs-Doing-Today.jpg
+url: https://bitcoinist.com/what-are-crypto-ogs-doing-today/
+date: 27, November 2023
+logo: /assets/img/news/logos/Bitcoinist.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+When tracing the development of the blockchain market, several major innovations have marked its progression. One needs to only focus on the main challenges that have been overcome in the last 10 years to see just how far the field has come.
