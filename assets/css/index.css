@@ -4333,7 +4333,7 @@ body {
 .ecosystem-category-list-item-flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   height: 100%;
   gap: 10px;

@@ -123,7 +123,7 @@
     {
       "name": "SimpleSwap",
       "url": "https://simpleswap.io/",
-      "logo": "../../assets/img/ecosystem/exchanges/SimpleSwap.png"
+      "logo": "../../assets/img/ecosystem/exchanges/simpleswap.png"
     },
     {
       "name": "GOPAX",
@@ -178,7 +178,8 @@
     {
       "name": "ZKE Exchange",
       "url": "https://twitter.com/zke_com/status/1714484606689481108?s=51&t=nQksDhcFwxUGfp97z_tr-g",
-      "logo": "../../assets/img/ecosystem/exchanges/zke.webp"
+      "logo": "../../assets/img/ecosystem/exchanges/zke.webp",
+      "withName": true
     },
     {
       "name": "Blofin Exchange",
@@ -378,7 +379,8 @@
     {
       "name": "Citadel.one",
       "url": "https://citadel.one/",
-      "logo": "../../assets/img/ecosystem/staking/citadel.svg"
+      "logo": "../../assets/img/ecosystem/staking/citadel.svg",
+      "withName": true
     },
     {
       "name": "Bitgo",
@@ -477,7 +479,8 @@
     {
       "name": "KogeFarm",
       "url": "https://www.orbs.com/Orbs-Added-to-KogeFarm-Vaults/",
-      "logo": "../../assets/img/ecosystem/defi/kogefarm.svg"
+      "logo": "../../assets/img/ecosystem/defi/kogefarm.svg",
+      "withName": true
     },
     {
       "name": "Solana Wormhole",
@@ -545,9 +548,10 @@
       "logo": "../../assets/img/ecosystem/defi/megaton.svg"
     },
     {
-      "name": "tonswap",
+      "name": "TonSwap",
       "url": "https://tonswap.org/swap/tokens",
-      "logo": "../../assets/img/ecosystem/defi/tonswap.svg"
+      "logo": "../../assets/img/ecosystem/defi/tonswap.svg",
+      "withName": true
     },
     {
       "name": "Bitdroplet",
@@ -565,9 +569,10 @@
       "logo": "../../assets/img/ecosystem/defi/axelar.svg"
     },
     {
-      "name": "satellite bridge",
+      "name": "Satellite bridge",
       "url": "https://www.orbs.com/Orbs-integrates-with-Satellite-by-Axelar/",
-      "logo": "../../assets/img/ecosystem/defi/satellite.svg"
+      "logo": "../../assets/img/ecosystem/defi/satellite.svg",
+      "withName": true
     },
     {
       "name": "chronos",
@@ -577,7 +582,8 @@
     {
       "name": "Arken",
       "url": "https://www.orbs.com/orbs-is-now-available-on-arken-finance/",
-      "logo": "../../assets/img/ecosystem/defi/arken.webp"
+      "logo": "../../assets/img/ecosystem/defi/arken.webp",
+      "withName": true
     },
     {
       "name": "SwapSpace",
@@ -619,7 +625,8 @@
     {
       "name": "TONscan",
       "url": "https://tonscan.org/",
-      "logo": "../../assets/img/ecosystem/explorers/tonscan.svg"
+      "logo": "../../assets/img/ecosystem/explorers/tonscan.svg",
+      "withName": true
     }
   ],
   "nft": [
@@ -658,7 +665,8 @@
     {
       "name": "CoinGecko",
       "url": "https://www.coingecko.com/en/coins/orbs",
-      "logo": "../../assets/img/ecosystem/data/coingeko.svg"
+      "logo": "../../assets/img/ecosystem/data/coingeko.svg",
+      "withName": true
     },
     {
       "name": "CoinMarketCap",
@@ -688,7 +696,8 @@
     {
       "name": "Moonlight",
       "url": "https://bubbles.moonlighttoken.com/token/0xebd49b26169e1b52c04cfd19fcf289405df55f80",
-      "logo": "../../assets/img/ecosystem/data/moonlight.svg"
+      "logo": "../../assets/img/ecosystem/data/moonlight.svg",
+      "withName": true
     },
     {
       "name": "crypto.com",
@@ -885,7 +894,8 @@
     {
       "name": "TON Single-nominator",
       "url": "https://www.orbs.com/Orbs-contributes-Single-Nominator-Smart-Contract-for-TON-Validators/",
-      "logo": "../../assets/img/ecosystem/applications/validators.png"
+      "logo": "../../assets/img/ecosystem/applications/validators.png",
+      "withName": true
     }
   ]
 }
