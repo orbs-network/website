@@ -9,9 +9,9 @@ posts:
   - Orbs-The-Layer-3-Public-Blockchain-Infrastructure-Project.md
   - Orbs-Price-Prediction-2023-What-is-ORBS.md
   - Heres-Why-Ethereum-Challenger-ORBS-Is-up-60-percent-Today.md
-  - Orbs-Liquidity-Hub-Brings-Aggregated-Liquidity-To-DEX-AMMs-Launched-with-QuickSwap.md​​
-  - Orbs-teams-up-with-QuickSwap-to-introduce-Liquidity-Hub.md
-  - ​​ORBS-Token-Debuts-on-Arbitrum-With-Axelar-AXL-Bridge-Integration.md
+  - orbs-quick-1.md
+  - orbs-quick-2.md
+  - orbs-axelar.md
   - Six-of-the-best-emerging-Arbitrum-projects.md
   - Orbs-Partners-with-Axelar-to-Introduce-Its-Tokens-on-Arbitrium-Ecosystem.md
   - Orbs-Integrates-With-Axelar-Satellite-To-Enable-Cross-Chain-Token-Swaps-Across-5-Blockchains.md

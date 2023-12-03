@@ -1,7 +1,7 @@
 ---
 layout: partials/news/Post
 image: /assets/img/news/posts/Heres-Why-Ethereum-Challenger-ORBS-Is-up-60-percent-Today.jpg
-url: https://u.today/heres-why-ethereum-challenger-orbs-is-up-60-today?amp
+url: "https://u.today/heres-why-ethereum-challenger-orbs-is-up-60-today?amp"
 date: 17, October 2023
 logo: /assets/img/news/logos/utoday.png
 ---
