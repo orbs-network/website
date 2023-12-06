@@ -1,67 +1,55 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Unveiling-QuickSwap-Bonds-with-Orbs-as-a-Launch-Partner/bg.jpg
+blogUrl: Unveiling-QuickSwap-Bonds-with-Orbs-as-a-Launch-Partner
+date: 2023-12-06
+title: "Unveiling QuickSwap Bonds: A New Frontier in DeFi Powered by ApeBond, with Orbs as a Launch Partner"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "Orbs is thrilled to announce that it has been chosen to participate as a launch partner in a collaboration between Apeswap and Quickswap Dragons, in which they will introduce a groundbreaking DeFi product: QuickSwap Bonds, powered by ApeBond."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs is thrilled to announce that it has been chosen to participate as a launch partner in a collaboration between Apeswap and Quickswap Dragons, in which they will introduce a groundbreaking DeFi product: QuickSwap Bonds, powered by ApeBond.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### An Exciting Opportunity
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Orbs is excited to serve as a launch partner in this initiative by leading DeFi projects, including Quickswap, Apeswap, DappRadar, and more. 
 
-### Step-by-Step Guide
+The inclusion of Orbs Bonds as part of this initiative on Quickswap marks a unique opportunity for users to actively engage with the Orbs project while simultaneously fortifying the Orbs liquidity pool on the Quickswap decentralized exchange (DEX).
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The Orbs community is already familiar with the Quickswap project, with Quickswap being the first DEX to integrate and launch the latest L3 product powered by Orbs, [Liquidity Hub](https://www.orbs.com/Liquidity-Hub-by-Orbs-The-New-Standard-for-DEXs/). This innovative protocol, powered by Orbs layer 3 technology, functions as a decentralized optimization layer above Automated Market Makers (AMMs), effectively addressing the issue of fragmented liquidity in DeFi.
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### How Does it Work?
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Inspired by a combination of TradFi, DeFi, and NFT products, ApeSwap Bonds is an initiative to ensure the long-term health of protocols while offering new ways to generate sustainable liquidity.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+If you’re not familiar with Bonds yet, here’s an easy explanation: Users can purchase Orbs Bonds on Quickswap at a discount. In order to do this, users who have provided liquidity to an Orbs pool on Quickswap can exchange their LP tokens in exchange for an NFT issued by Apeswap that represents the bond. This NFT contains the Bond details, which will vest linearly over a set period of time (vesting term).
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+For a more in-depth rundown of Bonds, visit the [ApeBonds docs](https://apeswap.gitbook.io/apeswap-finance/product-and-features/apeswap-bonds).
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+![img](/assets/img/blog/Unveiling-QuickSwap-Bonds-with-Orbs-as-a-Launch-Partner/image1.jpg)
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+### An Impressive Lineup of Launch Partners
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Orbs is excited to be a launch partner of the new Quickswap Bonds by Apeswap, teaming up with other industry leaders.
 
-### 2) Lend ALPACA tokens
+Below is a list of some of the other initial projects currently set to launch their own QuickSwap Bonds:
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+- DappRadar (RADAR)
+- Dogelon Mars (ELON)
+- Fuse (FUSE)
+- Planet IX (IXT)
+- GensoKishi (MV)
+- Borderless Money (BOM)
+- Veloce (VEXT)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
 
-### 3) Earn Orbs in the Grazing Range
+**Follow Orbs on [Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork) for ongoing updates on the campaign!**
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
