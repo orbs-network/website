@@ -1,67 +1,52 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-and-Thena-A-Strategic-Partnership/bg.jpg
+blogUrl: Orbs-and-Thena-A-Strategic-Partnership
+date: 2023-12-08
+title: "Orbs Network and Thena Forge Deeper Ties: A Strategic Partnership and the Integration of Liquidity Hub"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "Orbs is proud to announce a significant milestone in its ongoing collaboration with Thena, a leading decentralized exchange (DEX) on the BNB Chain."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+In the ever-evolving landscape of decentralized finance (DeFi), strategic partnerships play a pivotal role in driving innovation and growth. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Orbs is proud to announce a significant milestone in its ongoing collaboration with [Thena](https://www.thena.fi/), a leading decentralized exchange (DEX) on the BNB Chain. This partnership not only signifies a strong belief in Thena's vision and capabilities but also reflects a shared commitment to shaping the future of decentralized finance with Orbs [layer 3](https://www.orbs.com/overview/) technology.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+As part of this partnership, Orbs will be making a strategic financial investment in the Thena project, highlighting confidence in the project's potential. This financial backing positions Thena to accelerate its growth and development, and to leverage Orbs' support for innovative initiatives within the decentralized exchange landscape. This investment reflects a shared commitment to advancing the decentralized finance sector and represents a powerful alliance between two forward-thinking projects.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+### A History of Collaboration
 
-### Step-by-Step Guide
+The collaboration between Orbs and Thena dates back to June of this year when Thena integrated Orbs' [dLIMIT](https://www.orbs.com/dlimit/) and [dTWAP](https://www.orbs.com/dtwap/) protocols. This integration marked a crucial step in enhancing Thena's trading capabilities, providing users with access to advanced order types and algorithmic trading strategies.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Strategic Partnership
 
-Please also see our disclaimers below.
+Orbs is entering into a strategic partnership with Thena, demonstrating a deep belief in the team's potential and the shared commitment to building a decentralized future. This collaboration goes beyond financial support; it highlights Orbs’ alignment with Thena's vision and Thena’s endorsement of the potential of Orbs’ L3 technology. This partnership signifies the beginning of an exciting new chapter for both projects. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Liquidity Hub Unleashed
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Orbs recently launched its flagship project: [Liquidity Hub](https://www.orbs.com/Liquidity-Hub-by-Orbs-The-New-Standard-for-DEXs/), with Quickswap DEX.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+**As part of this strategic partnership, Thena will be the second DEX to integrate Liquidity Hub powered by Orbs layer 3 technology.**
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Liquidity Hub by Orbs is set to revolutionize Thena's DEX-AMM by bringing the power of aggregated liquidity. This infrastructure software optimizes the trading process by tapping into external liquidity sources, providing better price quotes and reducing price impact for users.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![liquidityHub](/assets/img/blog/Orbs-and-Thena-A-Strategic-Partnership/image1.jpg)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Orbs is committed to providing Thena with features within Liquidity Hub that are custom-designed to meet the DEX's specific needs. This includes additional liquidity provisioning capabilities and innovative solutions crafted to enhance Thena's market position.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+### Shared Values and Vision
 
-Once the position is opened, you can always re-adjust the parameters:
+The partnership between Orbs and Thena goes beyond a traditional relationship. Both projects share a commitment to decentralization, community-first principles, and innovation. Orbs, with its rich history as a contributor to DeFi infrastructure, aligns perfectly with Thena's ethos of openness and inclusivity.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+The collaboration between Orbs and Thena is a celebration of builders uniting to shape the decentralized future. Orbs, as an innovator in the defi space pioneering Layer 3 technology, brings a wealth of experience, technical expertise, and a deep commitment to the shared vision of decentralized finance.
 
-### 2) Lend ALPACA tokens
+### Conclusion
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Orbs Network and Thena's strategic partnership, fortified by the integration of Liquidity Hub, marks an exciting step forward  in the evolution of decentralized finance. As both projects continue to collaborate and innovate, the future holds the potential for exciting developments to further empower users and contribute to the growth of the decentralized ecosystem. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Join us on this journey as we build the foundation for a decentralized future, together.
 
-### 3) Earn Orbs in the Grazing Range
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
-
-<div class='line-separator'> </div>
-
-**Please Note**
-
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
