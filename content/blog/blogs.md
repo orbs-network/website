@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-and-Thena-A-Strategic-Partnership/blog.md
   - Unveiling-QuickSwap-Bonds-with-Orbs-as-a-Launch-Partner/blog.md
   - arbidex-integrates-dlimit-dtwap-powered-by-orbs/blog.md
   - triple-apy-for-new-orbs-stakers/blog.md
