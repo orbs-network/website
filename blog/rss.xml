@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 Dec 2023 20:49:04 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 08 Dec 2023 12:24:48 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Network and Thena Forge Deeper Ties: A Strategic Partnership and the Integration of Liquidity Hub]]></title>
+            <description><![CDATA[Orbs is proud to announce a significant milestone in its ongoing collaboration with Thena, a leading decentralized exchange (DEX) on the BNB Chain.]]></description>
+            <link>https://www.orbs.com/Orbs-and-Thena-A-Strategic-Partnership</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-and-Thena-A-Strategic-Partnership</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-and-Thena-A-Strategic-Partnership/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Unveiling QuickSwap Bonds: A New Frontier in DeFi Powered by ApeBond, with Orbs as a Launch Partner]]></title>
             <description><![CDATA[Orbs is thrilled to announce that it has been chosen to participate as a launch partner in a collaboration between Apeswap and Quickswap Dragons, in which they will introduce a groundbreaking DeFi product: QuickSwap Bonds, powered by ApeBond.]]></description>
