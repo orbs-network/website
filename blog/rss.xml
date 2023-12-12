@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 08 Dec 2023 12:24:48 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 12 Dec 2023 10:11:45 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Unlocking the Power of ORBS: A Comprehensive Guide to Orbs PoS on Staking Rewards]]></title>
+            <link>https://www.orbs.com/Unlocking-the-Power-of-ORBS-A-Comprehensive-Guide-to-Orbs-PoS-on-Staking-Rewards</link>
+            <guid isPermaLink="true">https://www.orbs.com/Unlocking-the-Power-of-ORBS-A-Comprehensive-Guide-to-Orbs-PoS-on-Staking-Rewards</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Unlocking-the-Power-of-ORBS-A-Comprehensive-Guide-to-Orbs-PoS-on-Staking-Rewards/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Network and Thena Forge Deeper Ties: A Strategic Partnership and the Integration of Liquidity Hub]]></title>
             <description><![CDATA[Orbs is proud to announce a significant milestone in its ongoing collaboration with Thena, a leading decentralized exchange (DEX) on the BNB Chain.]]></description>
