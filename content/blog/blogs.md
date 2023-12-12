@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Unlocking-the-Power-of-ORBS-A-Comprehensive-Guide-to-Orbs-PoS-on-Staking-Rewards/blog.md
   - Orbs-and-Thena-A-Strategic-Partnership/blog.md
   - Unveiling-QuickSwap-Bonds-with-Orbs-as-a-Launch-Partner/blog.md
   - arbidex-integrates-dlimit-dtwap-powered-by-orbs/blog.md
