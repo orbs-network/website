@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 12 Dec 2023 10:11:45 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 15 Dec 2023 13:56:57 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Liquidity Hub and Thena: Continuing the Standard Set by Orbs]]></title>
+            <link>https://www.orbs.com/LiquidityHub-and-Thena-Continuing-the-Standard-Set-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/LiquidityHub-and-Thena-Continuing-the-Standard-Set-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/LiquidityHub-and-Thena-Continuing-the-Standard-Set-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Unlocking the Power of ORBS: A Comprehensive Guide to Orbs PoS on Staking Rewards]]></title>
             <link>https://www.orbs.com/Unlocking-the-Power-of-ORBS-A-Comprehensive-Guide-to-Orbs-PoS-on-Staking-Rewards</link>
