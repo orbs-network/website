@@ -1,15 +1,9 @@
 ---
-layout: partials/liquidity-hub/launch-partner/index
-title: Launch Partner
-subtitle: "Trade on Quickswap with Liquidity Hub for:"
+layout: partials/liquidity-hub/launch-partners/index
+title: Partners
 list:
-  - list.md
-partner: assets/img/liquidity-hub/quick.svg
-tx: assets/img/liquidity-hub/tx.png
-link: https://quickswap.exchange/#/swap
-linkText: Trade now
+  - quickswap.md
+  - thena.md
 ---
 
-#### Trade on Quickswap with Liquidity Hub for:
-
-[Trade now](/)
+a
