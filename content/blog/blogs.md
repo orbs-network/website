@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Lynex-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/blog.md
   - LiquidityHub-and-Thena-Continuing-the-Standard-Set-by-Orbs/blog.md
   - Unlocking-the-Power-of-ORBS-A-Comprehensive-Guide-to-Orbs-PoS-on-Staking-Rewards/blog.md
   - Orbs-and-Thena-A-Strategic-Partnership/blog.md
