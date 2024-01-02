@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Six-Innovative-Crypto-Projects-Looking-To-Drive-Mass-Adoption-In-2024.jpg
+url: https://bitcoinist.com/six-innovative-crypto-projects-looking-to-drive-mass-adoption-in-2024/
+date: 20, December 2023
+logo: /assets/img/news/logos/Bitcoinist.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The Orbs Layer-3 infrastructure protocol has come on really strong this year, providing a platform for decentralized applications to scale and enable mass adoption.
