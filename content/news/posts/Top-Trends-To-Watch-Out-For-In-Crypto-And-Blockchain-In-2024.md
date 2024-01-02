@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Top-Trends-To-Watch-Out-For-In-Crypto-And-Blockchain-In-2024.jpg
+url: https://www.investingcube.com/top-trends-to-watch-out-for-in-crypto-and-blockchain-in-2024/
+date: 2, January 2024
+logo: /assets/img/news/logos/investing-cube.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs’ decentralized L3 nodes power its own DeFi infrastructure protocol Liquidity Hub, which is designed to bring aggregated liquidity to the DEX market.
