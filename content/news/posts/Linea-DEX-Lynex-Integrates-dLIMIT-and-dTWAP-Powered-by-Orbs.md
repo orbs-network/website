@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Linea-DEX-Lynex-Integrates-dLIMIT-and-dTWAP-Powered-by-Orbs.webp
+url: https://finance.yahoo.com/news/linea-dex-lynex-integrates-dlimit-150000465.html
+date: 19, December 2023
+logo: /assets/img/news/logos/yahoo-finance.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Leading Linea DEX Lynex has announced the integration of dLIMIT and dTWAP protocol powered by Orbs.
