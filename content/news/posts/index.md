@@ -3,11 +3,21 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - Top-Trends-To-Watch-Out-For-In-Crypto-And-Blockchain-In-2024.md
+  - Six-Innovative-Crypto-Projects-Looking-To-Drive-Mass-Adoption-In-2024.md
+  - Lynex-Integrates-Orbs-dLIMIT-and-dTWAP-for-DEX-Trading-on-Linea.md
+  - Linea-DEX-Lynex-Integrates-dLIMIT-and-dTWAP-Powered-by-Orbs.md
+  - Thena-Integrates-Orbs-Liquidity-Hub-Unleashing-New-Liquidity-Streams-on-BNB-Chain.md
+  - StakingRewards-Platform-Creates-Comprehensive-Guide-To-ORBS-Staking.md
+  - Staking-Rewards-Platform-Publishes-Blueprint-For-ORBS-Staking.md
+  - Orbs-invests-600K-to-improve-a-BNB-Chain-DEX-protocol.md
+  - Deep-Dive-into-How-Layer-3-Networks-Help-in-Optimizing-Blockchain-Scalability.md
   - What-Are-Crypto-OGs-Doing-Today.md
   - Orbs-Recent-Token-Surge-Highlights-Value-of-Layer-3-Blockchain-Tech.md
   - Orbs-and-Others-Prove-Layer-3-Tech-Represents-Blockchain-Bright-Future.md
   - Orbs-The-Layer-3-Public-Blockchain-Infrastructure-Project.md
   - Orbs-Price-Prediction-2023-What-is-ORBS.md
+  - Layer-3-Blockchains-What-They-Are-And-How-L3s-Improve-Scalability.md
   - Heres-Why-Ethereum-Challenger-ORBS-Is-up-60-percent-Today.md
   - orbs-quick-1.md
   - orbs-quick-2.md
