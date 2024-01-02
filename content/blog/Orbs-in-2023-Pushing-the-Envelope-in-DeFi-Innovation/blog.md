@@ -1,67 +1,73 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation/bg.jpg
+blogUrl: Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation
+date: 2024-01-02
+title: "Orbs in 2023: Pushing the Envelope in DeFi Innovation"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "GM! At the end of 2022 the Orbs community benchmarked the year as a strategic year of building which the likes of which would help propel Orbs to new heights. 2023 has lived up to this, with the Orbs Network setting a new benchmark in providing infrastructure to enhance decentralized automated market-making (AMM) trading."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+GM! At the end of 2022 the Orbs community benchmarked the year as a strategic year of building which the likes of which would help propel Orbs to new heights. 2023 has lived up to this, with the Orbs Network setting a new benchmark in providing infrastructure to enhance decentralized automated market-making (AMM) trading. A heartfelt thank you goes out to all the developers, contributors, researchers, guardians, delegators, community members, partners, and others who played a pivotal role in making 2023 an extraordinary year for the project.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+In a shift from the previous year, no specific goals were publicized. Instead, the project adopted a focused, heads-down strategy, concentrating on integrating with numerous high-caliber projects. The aim was to establish dTWAP and dLIMIT as essential components in the DeFi landscape. This strategy, along with the advancements in Orbs' Liquidity Hub, integrations with TON, and the rapid expansion of Orbs’ global community and other non-technical achievements, unmistakably marks 2023 as the most successful year in the project's recent history.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### New Heights in EVM
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+At the end of 2022, Orbs was integrated with SpiritSwap in the first-of-its-kind integration for the project. Orbs’ layer-3 (L3) technology was, for the first time, actively being integrated into DeFi protocols and used by end users. What started with SpiritSwap became a clear use case that other DEXs quickly sought to integrate. Today, dTWAP and dLIMIT have been integrated into nine different AMMs across seven chains. The two order types have completed millions of dollars in trading volume over the past year. 
 
-### Step-by-Step Guide
+![use-cases](/assets/img/blog/Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation/image1.jpg)
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+After introducing dTWAP and dLIMIT, Orbs launched QuickSwap Liquidity Hub, a comprehensive solution integrating directly with DEX AMMs. This platform combines liquidity from on-chain solvers and off-chain market makers, offering an innovative approach to tapping into additional liquidity sources. With Liquidity Hub, DEXs can try to execute trades bypassing the AMM to minimize price impact. Should the layer fail to secure a better price than the AMM, the trade reverts to and executes via the AMM contract as usual. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+To date, the project has integrated six different liquidity sources, they are Paraswap, OpenOcean, Kyber, Dodo, Rango, and Orion Protocol. As we look towards the new year, the sources will grow to include market makers who will provide liquidity from off-chain. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Subsequently, Liquidity Hub extended its reach to Thena DEX on the BNB chain, achieving a combined trading volume of 20 million across both protocols YTD. Orbs' Liquidity Hub, a product generating fees and native to the crypto world, owes its success to the efforts of all participants in the layer-3 network and robust community support. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+**The collective success of this cannot be understated.**
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### The Open Network Expansion 
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+In the realm of non-EVM technology, Orbs has been making significant contributions to the core infrastructure to the TON blockchain. This initiative began with the development of TON Minter, Verifier, and Unfreezer, and has since evolved to include TON Access, a decentralized RPC. TON Access has rapidly become the primary RPC for dApps on The Open Network. 
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+This past year also saw the launch of TON Vote, a user-friendly governance tool designed for DAOs within the ecosystem. TON Vote has quickly become the largest governance platform on TON, hosting over 46 unique spaces, including the TON Foundation itself. A notable instance was the 'TON Believers Fund' governance proposal, where the community was consulted about whether the foundation should commit its tokens to a five-year vesting period, ensuring alignment with long-term objectives. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Orbs' technical co-founder, Tal Kol, was appointed as a TON ambassador, playing a pivotal role in promoting growth and raising awareness within the wider crypto community. Additionally, the Orbs team backed two in-person hackathons for the network, held in Tel Aviv and London, and concluded the year by sponsoring TON Gateway, the inaugural conference of the TON foundation.
 
-Once the position is opened, you can always re-adjust the parameters:
+![hackathon](/assets/img/blog/Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation/image2.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
+### Community & Governance 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+This year has been a whirlwind of global engagement for Orbs, marked by participation in, hosting, or sponsorship of an impressive 27 events both locally and internationally. A standout figure in these efforts, Ran Hammer, delivered talks at 12 separate events. His most recent appearance was in Bangalore at India Blockchain Week, where he led a panel discussion on the latest trends in staking.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+In Korea, Orbs made a significant impact by sponsoring and attending Korean Blockchain Week and also by organizing an exclusive 'Orbs Night' for the community and guardian members. Meanwhile, in Japan, Orbs Japan actively sponsored and hosted a series of events, nurturing and expanding the local Orbs community. 
 
-### 3) Earn Orbs in the Grazing Range
+![meetup](/assets/img/blog/Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation/image3.png)
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+The Orbs community's on-chain activities were equally dynamic. They engaged in four separate governance proposals, involving a collective total of over 1.2 billion staked ORBS. Decisions made by the community included using the staking contract to restore funds lost in a hack, compensating multichain and FTX holders, enhancing staking rewards, among other significant actions.
 
-#### And that’s it – You are now a senior Alpaca!
+### Expanding Footprint 
+
+Not just at industry events has Orbs’ presence expanded. 2023 saw the skyrocketing of social media metrics for the project. The global Twitter profile saw a whopping 133% increase in followers from the start of the year, bringing the total Twitter followers to over 100K. The global Telegram increased over 180% for a total count of 9.2K. Similar increases can be seen in the Japanese and Korean local communities too.
+
+Industry attention also grew as Orbs market pairs were added to over 23 new venues. These included both spot and perps markets on various platforms including Binance US, Binance Global, Bybit, OKX, Hyperliquid, and more. 
+
+![listings](/assets/img/blog/Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation/image4.png)
+
 
 <div class='line-separator'> </div>
 
-**Please Note**
+Reflecting on 2023, it stands out as a year marked by exemplary execution for Orbs. The project has met and exceeded its objectives, with Orbs establishing itself as an integral part of the DeFi stack. The foundations laid over the past 12 months by the entire community are robust, poised to catapult the Orbs project to even more outstanding achievements in the upcoming year. The Orbs team extends its deepest gratitude to the rest of the participants in the project and the dedicated community. Should you attend any major web3 events, we invite you to connect with us – we're always excited to meet community members in person. 
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+For more information, please visit www.orbs.com or join our community at: 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network
+
