@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/Orbs-Invests-600K-in-BNB-Chain-Liquidity-Layer-THENA.webp
+url: https://decrypt.co/209078/orbs-invests-600k-in-bnb-chain-liquidity-layer-thena
+date: 8, December 2023
+logo: /assets/img/news/logos/decrypt.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The deal will provide THENA with the capital to expand its core products and grow TVL to transform the DEX landscape on BNB Chain.
