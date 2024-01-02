@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/StakingRewards-Platform-Creates-Comprehensive-Guide-To-ORBS-Staking.jpg
+url: https://hackernoon.com/stakingrewards-platform-creates-comprehensive-guide-to-orbs-staking
+date: 12, December 2023
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+StakingRewards, the leading platform for information on cryptocurrency staking, has created a dedicated guide to ORBS.
