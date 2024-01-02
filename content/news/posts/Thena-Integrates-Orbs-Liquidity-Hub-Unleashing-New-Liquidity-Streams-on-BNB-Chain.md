@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/IThena-Integrates-Orbs-Liquidity-Hub-Unleashing-New-Liquidity-Streams-on-BNB-Chain.webp
+url: https://blockchainreporter.net/thena-integrates-orbs-liquidity-hub-unleashing-new-liquidity-streams-on-bnb-chain/
+date: 15, December 2023
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+In a significant development for the decentralized finance (DeFi) space, THENA, a leading decentralized exchange (DEX) on the BNB Chain, has integrated Liquidity Hub by Orbs.
