@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - oip-6-migration-starts-now/blog.md
   - Orbs-in-2023-Pushing-the-Envelope-in-DeFi-Innovation/blog.md
   - Lynex-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/blog.md
   - LiquidityHub-and-Thena-Continuing-the-Standard-Set-by-Orbs/blog.md
