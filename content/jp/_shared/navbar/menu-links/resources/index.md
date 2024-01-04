@@ -9,4 +9,5 @@ links:
   - defi.md
   - developers.md
   - alphaday.md
+  - oip-6.md
 ---
