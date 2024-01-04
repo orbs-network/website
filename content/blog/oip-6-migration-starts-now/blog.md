@@ -1,67 +1,64 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/hoip-6-migration-starts-now/bg.jpg
+blogUrl: oip-6-migration-starts-now
+date: 2024-01-04
+title: "OIP-6 Migration Starts Now"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/MatanErder.md
 type:
-short_description:
+short_description: "OIP-6 approved the development of a mechanism to allow holders of the old Multichain-bridged ORBS tokens to exchange their tokens for the new, updated version of the ORBS tokens bridged on Axelar on a 1:1 basis. The team is excited to announce that development of this mechanism has been completed and launched."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+A few months ago, as part of the continuous progress of the Orbs Network’s governance, the Orbs community passed OIP-6.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+As background, the Orbs ecosystem has expanded over the past few years, with integrations  across the world of DeFi. An important part of this expansion was the bridging of the ORBS tokens from its original home on Ethereum to other chains.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+For several of these new chains – specifically, BNB Chain, Avalanche and Fantom - the bridge was provided by the Multichain project. However, Multichain ultimately ceased operations and the bridges are no longer reliable. In response to this, new bridges to these chains, provided by Axelar were opened.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+OIP-6 approved the development of a mechanism to allow holders of the old Multichain-bridged ORBS tokens to exchange their tokens for the new, updated version of the ORBS tokens bridged on Axelar on a 1:1 basis. The team is excited to announce that development of this mechanism has been completed and launched.
 
-### Step-by-Step Guide
+The mechanism, “ORBS Migrator”, is a smart contract deployed to each of the affected chains, that allows holders of a bridged Multichain token to exchange them for the new, updated version of the ORBS Token on a 1:1 basis. As approved by OIP-6, the smart contract has been loaded with ORBS tokens removed from the Orbs Long-Term Reserve Pool and bridged to the applicable chain. Anyone holding Multichain-bridged ORBS tokens on BNB Chain, Avalanche and Fantom can now send those tokens to the smart contract and receive a corresponding amount of Axelar-bridged ORBS tokens to the same sending wallet.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+ORBS Migrator will be open for all holders until December 31, 2024. A short tutorial on how to use ORBS Migrator is below.  
 
-Please also see our disclaimers below.
+### Migration Tutorial 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+To begin, navigate to https://orbs-network.github.io/oip6-migration-web/, which is the migration UI for OIP-6. When interacting with any smart contract from a UI **ALWAYS** confirm that the URL is correct to avoid phishing attacks. For the tech-savvy, you can also click “View on GitHub” to verify the code you’re interacting with. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+We will go ahead and click on “Connect Wallet”
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![screenshot1](/assets/img/blog/oip-6-migration-starts-now/image1.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Clicking on Connect Wallet brings up all of the available wallet connections. In this case, we’re using MetaMask, but the process should be more or less the same regardless of which provider you’re using.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![screenshot2](/assets/img/blog/oip-6-migration-starts-now/image2.png)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Upon connecting, you’ll be presented with the following screen:
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+![screenshot3](/assets/img/blog/oip-6-migration-starts-now/image3.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+![screenshot4](/assets/img/blog/oip-6-migration-starts-now/image4.png)
 
-Once the position is opened, you can always re-adjust the parameters:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+Here we see our “OLD TOKEN” and “NEW TOKEN” balances. Old being the multichain Orbs, and Green being the new contracts from Axelar. If for whatever reason you don’t wish to migrate your entire balance, you can select “Change Amount” and manually enter how many ORBS to migrate. 
 
-### 2) Lend ALPACA tokens
+Since this is a tutorial, we will be clicking on change amount and setting the balance to 0.01 ORBS, if you don’t wish to change the amount, skip ahead now. 
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+Simply click on “Change Amount” which will open a box where you can manually set the amount of ORBS you wish to migrate. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+![screenshot5](/assets/img/blog/oip-6-migration-starts-now/image5.png)
 
-### 3) Earn Orbs in the Grazing Range
+Next, we will need to approve our spending cap, to do this click on the blue button “Authorize Migration Contract” which will be bring up the following wallet popup in MetaMask. 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+![screenshot6](/assets/img/blog/oip-6-migration-starts-now/image6.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+Once complete, we can then go ahead and migrate our 0.01 old Orbs by clicking on the “Exchange X.YZ ORBS” green button.
 
-#### And that’s it – You are now a senior Alpaca!
+![screenshot7](/assets/img/blog/oip-6-migration-starts-now/image7.png)
 
-<div class='line-separator'> </div>
+Once the transaction is confirmed on the network that’s it. You’ve successfully swapped your old ORBS for the “new” ORBS. Let us verify on FTM Scan that there were no issues. 
 
-**Please Note**
+![screenshot8](/assets/img/blog/oip-6-migration-starts-now/image8.png)
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
