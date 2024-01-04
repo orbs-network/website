@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/hoip-6-migration-starts-now/bg.jpg
+image: /assets/img/blog/oip-6-migration-starts-now/bg.jpg
 blogUrl: oip-6-migration-starts-now
 date: 2024-01-04
 title: "OIP-6 Migration Starts Now"
