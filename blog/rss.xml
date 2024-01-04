@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Jan 2024 08:51:41 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 04 Jan 2024 09:27:17 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[OIP-6 Migration Starts Now]]></title>
@@ -18,7 +18,7 @@
             <guid isPermaLink="true">https://www.orbs.com/oip-6-migration-starts-now</guid>
             <dc:creator><![CDATA[Matan Erder]]></dc:creator>
             <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/hoip-6-migration-starts-now/bg.jpg" length="0" type="image/jpeg"/>
+            <enclosure url="https://www.orbs.com/assets/img/blog/oip-6-migration-starts-now/bg.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Orbs in 2023: Pushing the Envelope in DeFi Innovation]]></title>
