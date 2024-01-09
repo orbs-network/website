@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Jan 2024 09:27:17 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jan 2024 09:56:54 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs integrates with Squid Router for Cross-Chain Swaps!]]></title>
+            <description><![CDATA[ORBS, the native token of the Orbs network, has been integrated with Squid, a cross-chain liquidity router on the Axelar network!]]></description>
+            <link>https://www.orbs.com/Orbs-integrates-with-Squid-Router-for-Cross-Chain-Swaps</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-integrates-with-Squid-Router-for-Cross-Chain-Swaps</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-integrates-with-Squid-Router-for-Cross-Chain-Swaps/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[OIP-6 Migration Starts Now]]></title>
             <description><![CDATA[OIP-6 approved the development of a mechanism to allow holders of the old Multichain-bridged ORBS tokens to exchange their tokens for the new, updated version of the ORBS tokens bridged on Axelar on a 1:1 basis. The team is excited to announce that development of this mechanism has been completed and launched.]]></description>
