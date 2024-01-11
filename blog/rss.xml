@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jan 2024 09:56:54 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jan 2024 12:56:19 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs has been added to Coindar!]]></title>
+            <description><![CDATA[Orbs has been added to Coindar: a leading crypto related calendar and event management platform!]]></description>
+            <link>https://www.orbs.com/Orbs-has-been-added-to-Coindar</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-has-been-added-to-Coindar</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-has-been-added-to-Coindar/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs integrates with Squid Router for Cross-Chain Swaps!]]></title>
             <description><![CDATA[ORBS, the native token of the Orbs network, has been integrated with Squid, a cross-chain liquidity router on the Axelar network!]]></description>
