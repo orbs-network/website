@@ -1,67 +1,55 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-has-been-added-to-Coindar/bg.png
+blogUrl: Orbs-has-been-added-to-Coindar
+date: 2024-01-11
+title: "Orbs has been added to Coindar!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Orbs has been added to Coindar: a leading crypto related calendar and event management platform!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Orbs has been added to [Coindar](https://coindar.org/): a leading crypto related calendar and event management platform!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+The crypto space is always brimming with activity - from conferences and events, to AMAs, Twitter spaces and more… there is always something going on. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Coindar helps keep track of the action by providing a free calendar and event management platform where crypto enthusiasts can follow what’s happening in the crypto industry. If you want to always be up to date with your favorite project or show up at the suitable crypto event at the right time, Coindar is for you.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+And now, with the addition of Orbs, Coindar users can keep track of the upcoming Orbs project events and announcements!
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Keep Track of Orbs Upcoming events
 
-Please also see our disclaimers below.
+Coindar is a web-based events calendar that allows users to track and manage cryptocurrency events. The website collects information on crypto events from various sources, including social media, and creates a direct line to developers and social profiles of various blockchain projects.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Coindar offers the following key services and features:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- **Cryptocurrency Calendar:** Tracks upcoming listings, releases, hard forks and other events.
+- **Notifier:** Send notifications for selected coins via Telegram, web notifications or email.
+- **Coindar Synergies:** Event platform for cryptocurrency projects where users can win cash prizes.
+- **Events API and Widget:** A complete API for Coindar’s events and website widget.
+- And more…
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+In the Orbs page on Coindar, users can easily follow Orbs upcoming events such as Orbs participation in the last Zebu Live conference in London.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![screenshot](/assets/img/blog/Orbs-has-been-added-to-Coindar/image1.png)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+[Orbs](https://www.orbs.com/) is a “Layer-3” public blockchain infrastructure project powered by PoS, pioneering on-chain innovation since 2017.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is set up as a separate execution layer between L1/L2 solutions and the application layer, as part of a tiered blockchain stack, enhancing the capabilities of smart contracts and powering protocols such as [dLIMIT](https://www.orbs.com/dlimit/), [dTWAP](https://www.orbs.com/dtwap/) and [Liquidity Hub](https://www.orbs.com/liquidity-hub/).
+
+The project's core team consists of more than thirty dedicated contributors spanning from Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at: 
+Telegram: https://t.me/OrbsNetwork 
+Twitter: https://twitter.com/orbs_network 
+
+
+
