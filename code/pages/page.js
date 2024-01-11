@@ -1,6 +1,7 @@
 import React from "react";
 import { colors } from "../../assets/js/consts/consts";
 import { images } from "../../assets/js/images";
+import { DEFAULT_TITLE } from "../consts";
 import AppLoader from "../partials/shared/app-loader";
 import MetaTags from "../partials/shared/meta";
 import ScrollTop from "../partials/shared/scroll-top";
@@ -27,7 +28,7 @@ const Page = (props) => {
   return (
     <html>
       <head>
-        <title>{title}</title>
+        <title>{title || DEFAULT_TITLE}</title>
         <link
           rel="shortcut icon"
           href={generateUrl(images.common.favicon)}
