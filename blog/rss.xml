@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jan 2024 15:06:56 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jan 2024 14:54:20 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ORBS Expands to Kava via Satellite Bridge by Axelar!]]></title>
+            <link>https://www.orbs.com/ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar</link>
+            <guid isPermaLink="true">https://www.orbs.com/ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs has been added to Coindar!]]></title>
             <description><![CDATA[Orbs has been added to Coindar: a leading crypto related calendar and event management platform!]]></description>
