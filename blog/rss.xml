@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Jan 2024 19:58:37 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jan 2024 08:21:18 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CoinDCX Lists ORBS!]]></title>
+            <description><![CDATA[ORBS has been listed on CoinDCX, India&#x27;s biggest cryptocurrency exchange in terms of trading volume. This listing includes two trading pairs of Orbs, including one with the Indian Rupee (INR), specifically the ORBS/INR pair.]]></description>
+            <link>https://www.orbs.com/CoinDCX-Lists-ORBS</link>
+            <guid isPermaLink="true">https://www.orbs.com/CoinDCX-Lists-ORBS</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/CoinDCX-Lists-ORBS/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[ORBS Expands to Kava via Satellite Bridge by Axelar!]]></title>
             <link>https://www.orbs.com/ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar</link>
