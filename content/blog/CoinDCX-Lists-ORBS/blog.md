@@ -12,6 +12,9 @@ short_description: "ORBS has been listed on CoinDCX, India's biggest cryptocurre
 
 ORBS has been listed on CoinDCX, India's biggest cryptocurrency exchange in terms of trading volume. This listing includes two trading pairs of Orbs, including one with the Indian Rupee (INR), specifically the ORBS/INR pair.
 
+ORBS/INR - https://coindcx.com/trade/ORBSINR
+ORBS/USDT - https://coindcx.com/trade/ORBSUSDT
+
 This addition to CoinDCX comes after Orbs' active involvement and sponsorship at the ETH India event in Bangalore last December. This listing follows other major listings for the ORBS project at high-tier spot and derivatives exchanges including Binance, Bybit, and OKX, among others.
 
 The listing is part of Orbs' increasing connection to the crypto community in India.  There is significant potential and alignment in building a community in India to complement the existing local Orbs communities in Korea, Japan, and various English-speaking regions. 

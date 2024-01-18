@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - CoinDCX-Lists-ORBS/blog.md
   - ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar/blog.md
   - Orbs-has-been-added-to-Coindar/blog.md
   - Orbs-integrates-with-Squid-Router-for-Cross-Chain-Swaps/blog.md
