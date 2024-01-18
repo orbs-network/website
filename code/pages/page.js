@@ -62,6 +62,14 @@ const Page = (props) => {
           />
         )}
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
+        <script
+          src="https://code.jquery.com/jquery-1.12.4.js"
+          type="text/javascript"
+        ></script>
+        <script
+          src="https://www.negishim.com/accessibility/accessibility_pro.js"
+          type="text/javascript"
+        ></script>
       </head>
       <body style={{ background: colors.background }}>
         {subscribe}
