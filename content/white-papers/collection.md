@@ -36,6 +36,7 @@ list:
       - Orbs-Operation-Fees/paper.md
   - title: Grants
     list:
+      - token-utility-research/paper.md
       - grants/paper.md
       - orbs-grant-grogram-second-call-for-grants/paper.md
       - orbs-grant-program/paper.md
