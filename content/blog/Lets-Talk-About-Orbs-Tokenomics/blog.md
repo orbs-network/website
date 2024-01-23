@@ -1,67 +1,70 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Lets-Talk-About-Orbs-Tokenomics/bg.jpg
+blogUrl: Lets-Talk-About-Orbs-Tokenomics
+date: 2024-01-23
+title: "Let’s Talk About Orbs Tokenomics…"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "As Orbs layer 3 technology matures and multiple L3 use-cases roll out, the Orbs project is beginning to explore  an exciting new phase—Orbs Tokenomics!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+As Orbs layer 3 technology matures and multiple L3 use-cases roll out, the Orbs project is beginning to explore  an exciting new phase—Orbs Tokenomics!
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Orbs is launching a call for grant proposals under the Orbs Ecosystem Grant Program (OEGP), seeking research and proposals on the uses and utility of Orbs tokens to refine the token model. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Do you have an idea? We want to hear it! 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Check out the full call for grants on the [Orbs website](https://www.orbs.com/white-papers/token-utility-research/).
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### 2024 - Year Of Token Utility
 
-Please also see our disclaimers below.
+In 2023, Orbs [solidified](https://www.coingecko.com/learn/what-are-layer-3s-crypto) its position as a leader in layer 3 technology, introducing innovative decentralized [L3 execution services](https://www.orbs.com/execution-services/). The year was dedicated to usage, integrations, and recognition, and Orbs excelled in all three objectives.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+The maturation of L3 technology opens new possibilities. While the original model envisioned dAPP developers paying a subscription fee, incorporating alternative uses and structures to the token model may prove advantageous.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+All eyes are on 2024—the year to elevate the Orbs project to the next level!
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![screenshot](/assets/img/blog/Lets-Talk-About-Orbs-Tokenomics/image1.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### Orbs - Leader In L3 Innovation
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Throughout 2023, the Orbs project has demonstrated remarkable productivity, launching a diverse array of use cases compatible with both EVM and non-EVM environments, all powered by the advanced Orbs L3 technology.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+These innovative use cases have garnered substantial attention within the crypto community. This is evidenced by the increasing number of integrations with leading DeFi projects on the EVM side, or in the case of TON - earning official recognition as essential tools by the projects' foundations.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Notably, all these use-cases are currently operational, leveraging Orbs L3 decentralized services. While many are still in the initial stages of development, each holds significant potential to generate  fees for those operating the network   in exchange for the unique services they offer.
 
-Once the position is opened, you can always re-adjust the parameters:
+![banner](/assets/img/blog/Lets-Talk-About-Orbs-Tokenomics/image2.jpg)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Here is a short summary of the major use cases powered by Orbs -
 
-### 3) Earn Orbs in the Grazing Range
+**EVM-based use-cases:**
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+- [dLIMIT](https://www.orbs.com/dlimit/) and [dTWAP](https://www.orbs.com/dtwap/) - dTWAP (decentralized time-weighted average price) is a decentralized protocol powered by Orbs for DEXs. dTWAP and dLIMIT allow DEXs to provide their users with an algorithmic trading order that breaks larger orders into smaller ones that are executed automatically over a specified period of time, thus mitigating potential price impact and allowing for automated daily-cost averaging, all without compromising on decentralization. dLimit is a decentralized on-chain protocol for price-efficient and reliable execution of limit orders for DEX/AMMs. The optimal limit order solution for DEXs over existing alternatives. dLIMIT and dTWAP are integrated across 9 DEXs now (QuickSwap, SpookySwap, THENA, SpiritSwap, Pangolin, Chronos, BaseSwap, Arbidex, Lynex). The protocol has 3146 unique users, placing over 7200 orders with a total volume of over $5M.
+- [Liquidity Hub](https://www.orbs.com/liquidity-hub/) - a decentralized optimization layer that operates above Automated Market Makers (AMMs). This layer mitigates the problem of fragmented liquidity in DeFi, enabling DEXs to tap into external liquidity sources in order to provide better prices on swaps. The protocol has 3,600 unique users, placing over 8,800 orders with a total volume of over $10M.
+- [DeFi Notifications](https://www.orbs.com/notifications/) is a community-led initiative to provide users with decentralized and free mobile notifications for on-chain events. This protocol is integrated with 34 DeFi protocols and has over 3,000 active subscriptions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+**non-EVM use-cases:**
 
-#### And that’s it – You are now a senior Alpaca!
+- [TON Access](https://www.orbs.com/ton-access/) - This decentralized RPC API provider allows any dApp user unrestricted access to the chain. TON Access offers developers a seamless integration experience, enabling them to embed it into their web clients in just five minutes. TON Access has 21,866 unique requests per day and is integrated with over 99 dapps/websites.
+- [TON.Vote](https://ton.vote/) - The ecosystem's leading no-code governance tool. It serves as a space where TON Foundation, alongside major token and NFT communities, can conduct decentralized votes on proposals. This protocol has 36 DAO spaces with 43 proposals and 5,944 unique users.
 
-<div class='line-separator'> </div>
+### Tokenomics - Here’s Why It's Important
 
-**Please Note**
+Tokenomics is a broad category covering the full set of incentives governing the various participants in a project. Proper tokenomics  stands as a cornerstone in any crypto project, where the right incentive mechanism can enable a blockchain project to function and provide the services it is designed to produce, while a poorly designed system may lead to its inability to function. Given this critical importance, it demands a cautious and meticulous approach.
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Even established projects such as Uniswap are continuously fine-tuning the role of their native tokens, like UNI. Teams and contributors engage in extensive [research](https://www.gauntlet.xyz/resources/uniswap-incentive-design-analysis), aiming to arrive at the most optimal design.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs has also undergone a good deal of evolution since its initial launch back in 2019. With the launch of the L3 concept and the growth of the various L3 use cases, 2024 presents an opportunity to take a fresh look at the tokenomics of the Orbs Network to make sure that the model optimally serves the mission of the project and enables its usage. While initially the project envisioned a model in which dAPP developers would pay a subscription fee, at this stage it is possible that incorporating other uses and structures to the token model, in addition to standard subscription, would be more appropriate. Recognizing this complexity, the Orbs project is initiating the process of gathering insights and opinions from the Orbs Community, stakeholders, and ecosystem experts—a vital step in shaping Orbs Tokenomics.
+
+As always, you can get the latest updates and join the discussion in Orbs [Telegram](https://t.me/OrbsNetwork) and [Twitter](https://twitter.com/orbs_network) channels.
+
+
+
