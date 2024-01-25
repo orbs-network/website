@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-token-is-listed-on-coindcx-as-orbs-network-expands-into-india.jpg
+url: https://www.nextbigfuture.com/2024/01/orbs-token-is-listed-on-coindcx-as-orbs-network-expands-into-india.html
+date: 22, January 2024
+logo: /assets/img/news/logos/NextBigFuture.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+India’s lucrative crypto market is a prize that’s coveted by many blockchain projects. Gaining a presence in the country is rarely straightforward, though, given its government’s sometimes antagonistic stance on cryptocurrency. Orbs Network has succeeded where other projects have failed, however, in having its token listed on CoinDCX, one of India’s leading exchanges.
