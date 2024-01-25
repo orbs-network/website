@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/THENA-INTEGRATES-ORBS-LIQUIDITY-HUB-ON-ITS-DEX-FOR-LIQUIDITY-ON-BNB-CHAIN.md
-  - ../posts/Orbs-Invests-600K-in-BNB-Chain-Liquidity-Layer-THENA.md
+  - ../posts/orbs-token-is-listed-on-coindcx-as-orbs-network-expands-into-india.md
+  - ../posts/Building-Next-Gen-DeFi-Infrastructure-Interview-with-Orbs-Ran-Hammer.md
 ---
 

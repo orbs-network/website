@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-pushes-deeper-into-indias-crypto-market-listing-its-native-orbs-token-on-coindcx.md
+  - how-blockchain-networks-benefit-from-guardians.md
+  - THENA-INTEGRATES-ORBS-LIQUIDITY-HUB-ON-ITS-DEX-FOR-LIQUIDITY-ON-BNB-CHAIN.md
+  - Orbs-Invests-600K-in-BNB-Chain-Liquidity-Layer-THENA.md
   - Top-Trends-To-Watch-Out-For-In-Crypto-And-Blockchain-In-2024.md
   - Six-Innovative-Crypto-Projects-Looking-To-Drive-Mass-Adoption-In-2024.md
   - Lynex-Integrates-Orbs-dLIMIT-and-dTWAP-for-DEX-Trading-on-Linea.md
