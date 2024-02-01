@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-integrates-with-IQ-GPT/blog.md
   - Lets-Talk-About-Orbs-Tokenomics/blog.md
   - CoinDCX-Lists-ORBS/blog.md
   - ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar/blog.md
