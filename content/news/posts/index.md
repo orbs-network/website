@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-pioneers-unique-vision-for-decentralization-through-guardians.md
+  - with-guardians-orbs-takes-to-decentralization-to-the-extreme-heres-how-you-can-participate.md
   - orbs-pushes-deeper-into-indias-crypto-market-listing-its-native-orbs-token-on-coindcx.md
   - how-blockchain-networks-benefit-from-guardians.md
   - THENA-INTEGRATES-ORBS-LIQUIDITY-HUB-ON-ITS-DEX-FOR-LIQUIDITY-ON-BNB-CHAIN.md
