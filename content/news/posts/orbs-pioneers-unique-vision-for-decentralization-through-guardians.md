@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-pioneers-unique-vision-for-decentralization-through-guardians.jpg
+url: https://blockchainreporter.net/orbs-pioneers-unique-vision-for-decentralization-through-guardians/
+date: 29, January 2024
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The team behind Layer3 public blockchain infrastructure Orbs believes it has achieved a high level of decentralization by following a unique approach. Specifically, it has sought to empower its community members through the creation of “Guardians” within its ecosystem.
