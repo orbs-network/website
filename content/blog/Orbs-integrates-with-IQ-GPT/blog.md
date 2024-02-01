@@ -1,67 +1,53 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-integrates-with-IQ-GPT/bg.jpg
+blogUrl: Orbs-integrates-with-IQ-GPT
+date: 2024-02-01
+title: Orbs integrates with IQ GPT
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "The Orbs Telegram community is getting a  major enhancement to its with the integration of the IQ GPT bot, an advanced AI tool developed by IQ.wiki. This addition marks a significant stride in equipping the Orbs community with state-of-the-art resources."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The Orbs Telegram community is getting a  major enhancement to its with the integration of the IQ GPT bot, an advanced AI tool developed by IQ.wiki. This addition marks a significant stride in equipping the Orbs community with state-of-the-art resources.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+With the introduction of the IQ GPT bot, real-time, AI-powered assistance is now at the fingertips of the Telegram channel members, providing immediate access to an extensive range of blockchain-related knowledge and insights. From the latest developments to in-depth explanations of intricate blockchain concepts or guidance on Orbs-specific inquiries, the bot is designed to deliver precise and contextually appropriate responses.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+This new feature is poised to benefit the community by simplifying access to information, encouraging more vibrant and informed conversations, and keeping everyone within the network at the cutting edge of blockchain innovation. qEveryone is invited to join the Orbs Telegram channel to leverage AI-driven assistance and be an integral part of the continuously evolving community.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+![screenshot](/assets/img/blog/Orbs-integrates-with-IQ-GPT/image1.jpg)
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+The integration of the IQ GPT bot into the Telegram channel reflects the Orbs community's dedication to adopting cutting-edge technologies that not only enhance the community's experience but also fortify its foundation. The bot manifests a commitment to innovation, symbolizing the belief in technology's ability to unite and empower the community. Ensuring instant access to reliable information does not just address queries but also fosters a knowledgeable, engaged, and empowered collective.
 
-Please also see our disclaimers below.
-
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
-
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
+Moreover, bringing the IQ GPT bot into the Telegram channel represents a move towards a more interactive and responsive digital ecosystem. It promotes active engagement, cultivates a culture of continuous learning, and deepens the understanding of the blockchain domain. It is hoped that this tool will elevate the community experience and contribute to the Orbs network's collective advancement. The community is encouraged to interact with the bot, discover its potential, and participate in this new era of community interaction and technological progress.
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About IQ GPT**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+IQ GPT is an innovative AI-powered assistant developed by IQ.wiki, the largest blockchain encyclopedia. Designed to deliver real-time, contextually relevant information, IQ GPT serves as a pivotal resource within the blockchain and cryptocurrency sectors. This advanced tool harnesses the power of AI to provide users with insights, answers, and data tailored to their specific needs, ranging from basic blockchain concepts to complex technical inquiries.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Central to IQ GPT's capabilities is its deep integration with IQ.wiki's expansive database, enabling it to draw upon a vast repository of blockchain knowledge. This integration ensures that users receive not only accurate but also up-to-date information, making IQ GPT an indispensable tool for researchers, developers, traders, and enthusiasts in the blockchain community.
+
+Beyond its core functionality, IQ GPT stands out for its adaptability and user-centric design. Whether integrated into social media platforms, such as Telegram channels, or used standalone, it offers a seamless user experience, facilitating easier access to information and fostering a more informed and connected blockchain community. Through its commitment to leveraging AI for knowledge dissemination, IQ GPT exemplifies the potential of technology to empower individuals and drive innovation in the digital age.
+
+<div class='line-separator'> </div>
+
+
+**About Orbs**
+
+[Orbs](https://www.orbs.com/) is a “Layer-3” public blockchain infrastructure project powered by PoS, pioneering on-chain innovation since 2017.
+
+Orbs is set up as a separate execution layer between L1/L2 solutions and the application layer, as part of a tiered blockchain stack, enhancing the capabilities of smart contracts and powering protocols such as [dLIMIT](https://www.orbs.com/dlimit/), [dTWAP](https://www.orbs.com/dtwap/), and [Liquidity Hub](https://www.orbs.com/liquidity-hub/).
+
+The project's core team consists of more than thirty dedicated contributors spanning from Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at: 
+Telegram: https://t.me/OrbsNetwork 
+Twitter: https://twitter.com/orbs_network 
+
+
+
+
