@@ -24,17 +24,17 @@ export const init = async (keepLoader) => {
   }
 
   try {
-    const res = await fetch("http://ip-api.com/json", {
+    const res = await fetch("https://api.ipregistry.co/?key=lguyrviqtd946oct", {
       method: "GET",
     }).then((res) => res.json());
-
-    if (res.countryCode === "IL") {
-
+    if (res.currency.code === "ILS") {
       const script = document.createElement("script");
       script.src = "/assets/js/dependencies/negishim.js";
-    
+
       document.head.appendChild(script);
-      document.querySelector(".footer-bottom-policy a:last-child").style.display = "unset";
+      document.querySelector(
+        ".footer-bottom-policy a:last-child"
+      ).style.display = "unset";
     }
   } catch (error) {}
 };
