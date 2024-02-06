@@ -2892,6 +2892,9 @@ body {
   color: #ff8b97;
   text-decoration: none;
 }
+.footer-bottom-policy a:last-child {
+  display: none;
+}
 
 @media only screen and (max-width: 1000px) {
   .footer-logo-section {
@@ -4461,6 +4464,10 @@ body {
     margin-top: 50px;
   }
 }
+#accessibility-declaration {
+  direction: rtl;
+}
+
 .policy {
   padding-bottom: 100px;
 }
