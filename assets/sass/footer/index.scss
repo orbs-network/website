@@ -244,6 +244,9 @@
         font-weight: 500;
         color: #ff8b97;
         text-decoration: none;
+        &:last-child {
+          display: none;
+        }
       }
     }
   }

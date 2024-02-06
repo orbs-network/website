@@ -7,7 +7,7 @@ import analytics from "./services/an/index.js";
 
 ui.showAppLoader();
 
-export const init = (keepLoader) => {
+export const init = async (keepLoader) => {
   history.scrollRestoration = "manual";
   window.scrollTo(0, 0);
   navbar.init();
@@ -22,26 +22,19 @@ export const init = (keepLoader) => {
   if (!keepLoader) {
     ui.hideAppLoader();
   }
-  // handleResponsiveProductHeader();
-};
 
-const handleResponsiveProductHeader = () => {
-  const element = document.querySelector(".product-header");
-  if (!element) return;
-  const onResize = () => {
-    const width = window.innerWidth;
-    let zoom = 1;
-   
-    if (width <= 1300) {
-      zoom = width / 1310;
+  try {
+    const res = await fetch("http://ip-api.com/json", {
+      method: "GET",
+    }).then((res) => res.json());
+
+    if (res.countryCode === "IL") {
+
+      const script = document.createElement("script");
+      script.src = "/assets/js/dependencies/negishim.js";
+    
+      document.head.appendChild(script);
+      document.querySelector(".footer-bottom-policy a:last-child").style.display = "unset";
     }
-    if (width < 800) {
-      zoom = 1;
-    }
-
-    element.style.zoom = zoom;
-  };
-
-  window.addEventListener("resize", onResize);
-  onResize();
+  } catch (error) {}
 };

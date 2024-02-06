@@ -214,6 +214,17 @@
     {
       "name": "ANTirex",
       "url": "https://t.me/atnirex_official/956"
+    },
+    {
+      "name": "CoinDCX",
+      "logo":"../../assets/img/ecosystem/exchanges/CoinDCX.svg",
+      "url":"https://www.orbs.com/CoinDCX-Lists-ORBS/"
+    },
+    {
+      "name": "Ultorex",
+      "logo": "../../assets/img/ecosystem/exchanges/ultorex.jpg",
+      "url": "https://ultorex.io/",
+      "withName": true
     }
   ],
   "partnerships": [
@@ -589,6 +600,12 @@
       "name": "SwapSpace",
       "url": "https://swapspace.co/exchange/step1?to=orbs&toNetwork=erc20&from=btc&fromNetwork=btc&amount=0.1",
       "logo": "../../assets/img/ecosystem/defi/SwapSpace.jpg"
+    },
+    {
+      "name": "Squid",
+      "url": "https://www.orbs.com/Orbs-integrates-with-Squid-Router-for-Cross-Chain-Swaps/",
+      "logo": "../../assets/img/ecosystem/defi/squid.png",
+      "withName": true
     }
   ],
   "explorers": [
@@ -746,7 +763,19 @@
       "url": "https://iq.wiki/wiki/orbs",
       "logo": "../../assets/img/ecosystem/data/iqwiki.png",
       "withName": true
-    }
+    },
+    {
+      "name": "Coindar",
+      "url": "https://www.orbs.com/Orbs-has-been-added-to-Coindar/",
+      "logo": "../../assets/img/ecosystem/data/coindar.webp"
+    },
+     {
+       "name": "iq-gpt",
+       "url": "https://www.orbs.com/Orbs-integrates-with-IQ-GPT/",
+       "logo": "../../assets/img/ecosystem/data/iq-gpt.svg",
+       "withName": true
+     }
+
   ],
   "media": [
     {
@@ -835,7 +864,12 @@
       "url": "https://www.orbs.com/orbs-expands-to-arbitrum-via-satellite-bridge-by-axelar/",
       "logo": "../../assets/img/ecosystem/chains/arbitrum.svg",
       "withName": true
-    }
+    },
+     {
+       "name": "KAVA",
+       "url": "https://www.orbs.com/ORBS-Expands-to-Kava-via-Satellite-Bridge-by-Axelar/",
+       "logo": "../../assets/img/ecosystem/chains/kava.svg"
+     }
   ],
   "governance": [
     {
