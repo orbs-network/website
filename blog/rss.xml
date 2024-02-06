@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 Feb 2024 12:04:41 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 06 Feb 2024 12:10:25 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Announcing Orbs V4: Taking layer 3 architecture to the next level]]></title>
+            <description><![CDATA[The Orbs project is developing V4 - the next major release of the Orbs Network protocol- with the primary goal of increasing the efficiency and robustness of Orbs Layer 3 technology to handle the increase in traction and meet future demand expectations.]]></description>
+            <link>https://www.orbs.com/Announcing-Orbs-V4</link>
+            <guid isPermaLink="true">https://www.orbs.com/Announcing-Orbs-V4</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Announcing-Orbs-V4/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs integrates with IQ GPT]]></title>
             <description><![CDATA[The Orbs Telegram community is getting a  major enhancement to its with the integration of the IQ GPT bot, an advanced AI tool developed by IQ.wiki. This addition marks a significant stride in equipping the Orbs community with state-of-the-art resources.]]></description>
