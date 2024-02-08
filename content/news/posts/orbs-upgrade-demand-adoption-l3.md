@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-upgrade-demand-adoption-l3.jpg
+url: https://www.coinspeaker.com/orbs-upgrade-demand-adoption-l3/
+date: 6, February 2024
+logo: /assets/img/news/logos/coinspeaker.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The Orbs V4 has paid more attention to efficiency, particularly in the area of node implementation.
