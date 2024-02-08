@@ -3,6 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-upgrade-demand-adoption-l3.md
+  - layer-3-blockchain-orbs-orbs-introduces-v4-release.md
+  - Building-Next-Gen-DeFi-Infrastructure-Interview-with-Orbs-Ran-Hammer.md
   - orbs-pioneers-unique-vision-for-decentralization-through-guardians.md
   - with-guardians-orbs-takes-to-decentralization-to-the-extreme-heres-how-you-can-participate.md
   - orbs-pushes-deeper-into-indias-crypto-market-listing-its-native-orbs-token-on-coindcx.md
