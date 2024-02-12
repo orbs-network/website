@@ -9,6 +9,7 @@ function Integration({
   _relativeURL,
   _ID,
   background,
+  name
 }) {
   const generateUrl = (url) => {
     return handleUrl(url, _relativeURL, _ID);
@@ -16,7 +17,10 @@ function Integration({
 
   return (
     <div className="integrations-integration">
-      <img className="integrations-integration-logo" src={logo} />
+      <span className="integrations-integration-top">
+        <img className="integrations-integration-logo" src={logo} />
+        {name && <h3 className="integrations-integration-name">{name}</h3>}
+      </span>
       <div
         className="integrations-integration-demo"
         style={{ background: background }}
