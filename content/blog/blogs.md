@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Expands-into-On-chain-Derivatives-through-a-Strategic-Partnership-with-SYMMIO/blog.md
   - Announcing-Orbs-V4/blog.md
   - Orbs-integrates-with-IQ-GPT/blog.md
   - Lets-Talk-About-Orbs-Tokenomics/blog.md
