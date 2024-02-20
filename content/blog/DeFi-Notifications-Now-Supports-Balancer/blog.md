@@ -1,67 +1,80 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/DeFi-Notifications-Now-Supports-Balancer/bg.png
+blogUrl: DeFi-Notifications-Now-Supports-Balancer
+date: 2024-02-20
+title: The Open DeFi Notification Protocol Now Supports Balancer
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: "The Open DeFi Notifications Protocol has integrated with Balancer, one of the oldest and largest protocols in DeFi with over 900M in TVL!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The Open DeFi Notifications Protocol has integrated with Balancer, one of the oldest and largest protocols in DeFi with over 900M in TVL!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types. Learn more [here](https://docs.balancer.fi/concepts/overview/basics.html#what-is-balancer).
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Balancer users can now set up a **‘Pending Reward’** or **‘Staking Unlocked’** notification to receive real-time updates to their staking profile. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The [Open DeFi Notification Protocol](https://defi.org/notifications/) App is available on the [Apple AppStore](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Google Play](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp).
 
-### Step-by-Step Guide
+_The Open DeFi Notification Protocol by defi.org is a community led initiative to provide users with decentralized and free mobile notifications for on-chain events._
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+### Stay up to date with staking strategies on-chain
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+veBAL (vote-escrow BAL) is a vesting system based on Curve's veCRV mechanism which locks 80/20 BAL/WETH Balancer Pool Tokens for a maximum of 1 year. The veBAL and Gauge system is designed to promote long-term token-holder alignment and facilitate fair protocol fee distribution. By locking the BAL/WETH 80/20 BPT, holders are given veBAL, entitling them to governance rights and protocol fee collection. 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Users staking veBAL require restaking their rewards for the maximum ROI, but this can be tricky to keep track of on-chain and can be missed whilst participating in other pools offered by the protocol.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+Using the Open DeFi Notification Protocol, Balancer users can set up a **“Staking Unlocked”** notification to alert them on their veBAL unlocking events.
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+In addition, users can also set up a **“Pending Reward”** notification to alert them of BAL rewards waiting to be claimed when providing Liquidity on the platform.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+![screenshot](/assets/img/blog/DeFi-Notifications-Now-Supports-Balancer/image1.png)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+### A Notification Standard for Leading DeFi Projects
 
-### 3) Earn Orbs in the Grazing Range
+The Open DeFi Notification Protocol is an open initiative to provide users with decentralized and free mobile notifications for on-chain events. 
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+The addition of Balancer makes for an impressive lineup of leading DeFi projects that have already been integrated into the Open DeFi Notification app for the benefit of their users, including, among others: Aave, Uniswap, SushiSwap, QuickSwap, PancakeSwap, and more…
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+**The app supports over 30 protocols across 7 networks: Ethereum, BSC, Polygon, Fantom, Cronos, Avalanche, and Arbitrum!**
 
-#### And that’s it – You are now a senior Alpaca!
+![screenshot](/assets/img/blog/DeFi-Notifications-Now-Supports-Balancer/image2.png)
+
 
 <div class='line-separator'> </div>
 
+The Protocol has been implemented fully by the [Orbs network](https://www.orbs.com/) and will be executed by the Orbs Guardians, making this the 1st fully decentralized implementation of a notification protocol.
+
+Become involved and contribute:
+[https://github.com/open-defi-notification-protocol](https://github.com/open-defi-notification-protocol)
+
+Learn more about the Open DeFi Notification Protocol [here](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0).
+
+Proudly born in the [defi.org](http://defi.org/) accelerator, join our [Telegram channel](https://t.me/defiorg) for more updates!
+
+
+<div class='line-separator'> </div>
+
+
 **Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+_The Open DeFi Notification Protocol is a beta version that is still under active development, and all underlying digital assets, blockchain networks and DeFi platforms are also subject to ongoing development, and as such, the protocol or the underlying platforms:_
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+_(a) may contain bugs, errors and defects,_
+
+_(b) may function improperly or be subject to periods of downtime and unavailability,_
+
+_(c) may result in total or partial loss or corruption of data or a delay or a failure to send or receive expected notifications._
+
+_Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information, please see the [Terms of Use](https://defi.org/defi-notifications-terms-of-use/index.html) and [Privacy Policy](https://defi.org/defi-notifications-privacy-policy/index.html)._ 
+
