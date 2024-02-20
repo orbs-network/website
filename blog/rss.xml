@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Feb 2024 10:01:51 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 20 Feb 2024 10:29:21 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Open DeFi Notification Protocol Now Supports Balancer]]></title>
+            <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Balancer, one of the oldest and largest protocols in DeFi with over 900M in TVL!]]></description>
+            <link>https://www.orbs.com/DeFi-Notifications-Now-Supports-Balancer</link>
+            <guid isPermaLink="true">https://www.orbs.com/DeFi-Notifications-Now-Supports-Balancer</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DeFi-Notifications-Now-Supports-Balancer/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Expands into On-chain Derivatives through a Strategic Partnership with SYMMIO]]></title>
             <link>https://www.orbs.com/Orbs-Expands-into-On-chain-Derivatives-through-a-Strategic-Partnership-with-SYMMIO</link>
