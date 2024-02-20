@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DeFi-Notifications-Now-Supports-Balancer/blog.md
   - Orbs-Expands-into-On-chain-Derivatives-through-a-Strategic-Partnership-with-SYMMIO/blog.md
   - Announcing-Orbs-V4/blog.md
   - Orbs-integrates-with-IQ-GPT/blog.md
