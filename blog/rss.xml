@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Feb 2024 10:29:21 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Feb 2024 10:23:09 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Collaborates with IntentX to Pioneer the Next Generation of On-chain OTC Derivatives and Spot Trading]]></title>
+            <link>https://www.orbs.com/Orbs-Collaborates-with-IntentX</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Collaborates-with-IntentX</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Collaborates-with-IntentX/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[The Open DeFi Notification Protocol Now Supports Balancer]]></title>
             <description><![CDATA[The Open DeFi Notifications Protocol has integrated with Balancer, one of the oldest and largest protocols in DeFi with over 900M in TVL!]]></description>
