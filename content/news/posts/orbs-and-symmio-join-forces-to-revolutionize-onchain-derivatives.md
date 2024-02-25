@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-and-symmio-join-forces-to-revolutionize-onchain-derivatives.jpg
+url: https://coincodex.com/article/37843/orbs-and-symmio-join-forces-to-revolutionize-onchain-derivatives/
+date: 15, February 2024
+logo: /assets/img/news/logos/coincodex.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Layer-3 blockchain Orbs announced on February 15 that it was partnering with over-the-counter (OTC) derivatives platform SYMMIO by investing $1 million in SYMMIO.
