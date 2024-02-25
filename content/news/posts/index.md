@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - symmio-taps-layer-3-blockchain-orbs-to-improve-liquidity-for-onchain-derivatives.md
+  - orbs-and-symmio-join-forces-to-revolutionize-onchain-derivatives.md
+  - orbs-partners-with-intentx-to-transform-otc-derivatives-and-spot-markets.md
+  - layer3-blockchain-orbs-announces-v4-upgrade-to-meet-growing-industry-adoption.md
+  - orbs-token-is-listed-on-coindcx-as-orbs-network-expands-into-india.md
   - orbs-upgrade-demand-adoption-l3.md
   - layer-3-blockchain-orbs-orbs-introduces-v4-release.md
   - Building-Next-Gen-DeFi-Infrastructure-Interview-with-Orbs-Ran-Hammer.md
