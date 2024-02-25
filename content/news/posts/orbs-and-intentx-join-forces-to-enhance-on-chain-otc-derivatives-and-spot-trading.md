@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-and-intentx-join-forces-to-enhance-on-chain-otc-derivatives-and-spot-trading.jpg
+url: https://cryptobriefing.com/orbs-and-intentx-join-forces-to-enhance-on-chain-otc-derivatives-and-spot-trading/
+date: 22, February 2024
+logo: /assets/img/news/logos/Crypto-Briefing.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+ Layer-3 public blockchain infrastructure project Orbs has announced a strategic collaboration with IntentX, a leading OTC marketplace and trading terminal. With the partnership, Orbs continues to position itself as a major player in the fast-growing on-chain derivatives landscape.
