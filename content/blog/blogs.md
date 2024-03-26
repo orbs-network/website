@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Quickswap-on-Polygon-zkEVM/blog.md
   - Orbs-Collaborates-with-IntentX/blog.md
   - DeFi-Notifications-Now-Supports-Balancer/blog.md
