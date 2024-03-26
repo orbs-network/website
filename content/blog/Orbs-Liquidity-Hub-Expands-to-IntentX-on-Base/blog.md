@@ -1,67 +1,88 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base/bg.jpg
+blogUrl: Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base
+date: 2024-03-26
+title: "Orbs Liquidity Hub Expands to IntentX on Base!"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "IntentX, a decentralized intent-based perpetual platform, has integrated Orbs Liquidity Hub as its main spot engine!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**IntentX, a decentralized intent-based perpetual platform, has integrated Orbs Liquidity Hub as its main spot engine!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+As a result, IntentX users will now have access to spot orders in addition to the thriving perp marketplace. The liquidity is sourced from Liquidity Hub by Orbs, aggregating both on- and off-chain sources to achieve competitive pricing. 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+This collaboration marks the fourth deployment of Liquidity Hub and the first on Coinbase’s L2 chain, Base. Perhaps more significantly, it marks a new phase of Liquidity Hub and how it’s integrated. This is the first integration _without_ a DEX AMM, IntentX has purely integrated the Hub for the sole purpose of aggregating liquidity. 
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Liquidity Hub stands as a hallmark of innovation in the decentralized finance (DeFi) ecosystem, conceptualized and built by the Orbs project. It operates on the principles of complete decentralization, open access without permissions, and composability. Thanks to this integration, traders on Base utilizing IntentX can now tap into the full liquidity potential offered by the network, without incurring any additional costs.
 
-### Step-by-Step Guide
+_[Orbs](https://www.orbs.com/) is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with tens of millions of dollars in TVL. Orbs pioneers the concept of L3 infrastructure, by utilizing the Orbs decentralized network to enhance the capabilities of existing EVM smart contracts, opening up a whole new spectrum of possibilities for Web 3.0, DeFi, NFTs, and GameFi._
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### How Liquidity Hub Works
 
-Please also see our disclaimers below.
+Liquidity Hub is a DeFi infrastructure project aggregating all of the deployed chain's liquidity and adding in additional sources from off-chain. 
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Instead of the typical swap on a DEX, Liquidity Hub instead sources from:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- **On-chain solver auction:** Third-party solvers who compete to fill swaps using on-chain liquidity like AMM pools or their own private inventory.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+- **Decentralized orders via API:** Decentralized orders are accessible using API, enabling institutional/professional traders, such as market makers, to submit bids and compete to fill swaps.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+ ![infographic](/assets/img/blog/Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base/image1.png)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### Continuing the Standard 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+The Liquidity Hub protocol, powered by Orbs [L3 technology](https://www.orbs.com/overview/), has become the industry standard for achieving the best price across ecosystems. 
 
-Once the position is opened, you can always re-adjust the parameters:
+To date, the protocol has previously been implemented by Quickswap on polygon, Quickswap on polygon zkEVM, and THENA on BNB chain. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+If you have any questions regarding Liquidity Hub, please join Orbs’ [Telegram channel](https://t.me/OrbsNetwork).
 
-### 2) Lend ALPACA tokens
+Further readings:
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+- [Liquidity Hub Website](https://www.orbs.com/liquidity-hub/)
+- [GitHub](https://github.com/orbs-network/liquidity-hub)
+- [Layer 3 Blockchains Explained](https://www.coingecko.com/learn/what-are-layer-3s-crypto)
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+**About IntentX**
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+IntentX is a next-generation OTC derivatives exchange offering perpetual futures trading. 
+
+At the heart of IntentX is a combination of technological innovations that usher in the next generation of on-chain finance. The platform leverages several cutting-edge technologies, cross-chain communication, account abstraction, and SYMMIO, a zero-to-one breakthrough settlement layer that addresses critical challenges in delivering on-chain derivatives.
+
+Combined, these technologies allow IntentX to offer omnichain deployment, lower fees, greater liquidity, enhanced capital efficiency, and improved scalability versus current solutions. IntentX launched its open-beta trading platform on November 15th, 2023 with now over 250 tradable pairs at launch, each with deep liquidity.
+
+
+
+
+
+
+
+<div class='line-separator'> </div>
+
+
+**About Orbs**
+
+Orbs is a “Layer-3” public blockchain infrastructure project powered by PoS, pioneering on-chain innovation since 2017.
+
+Orbs is a separate execution layer between L1/L2 solutions and the application layer as part of a tiered blockchain stack, enhancing the capabilities of smart contracts and powering protocols such as [dLIMIT](https://www.orbs.com/dlimit/), [dTWAP](https://www.orbs.com/dtwap/), and [Liquidity Hub](https://www.orbs.com/liquidity-hub/).
+
+The project's core team comprises more than thirty dedicated contributors from Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at: 
+Telegram: https://t.me/OrbsNetwork 
+Twitter: https://twitter.com/orbs_network 
+
+
+
+
+
+
