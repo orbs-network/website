@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Mar 2024 10:47:40 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 11:05:42 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Liquidity Hub Expands to IntentX on Base!]]></title>
+            <description><![CDATA[IntentX, a decentralized intent-based perpetual platform, has integrated Orbs Liquidity Hub as its main spot engine!]]></description>
+            <link>https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Expands to Quickswap on Polygon zkEVM!]]></title>
             <link>https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-Quickswap-on-Polygon-zkEVM</link>
