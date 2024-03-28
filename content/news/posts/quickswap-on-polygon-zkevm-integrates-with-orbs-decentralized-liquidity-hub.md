@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/quickswap-on-polygon-zkevm-integrates-with-orbs-decentralized-liquidity-hub.jpg
+url: https://www.crypto-news-flash.com/quickswap-on-polygon-zkevm-integrates-with-orbs-decentralized-liquidity-hub/
+date: 21, March 2024
+logo: /assets/img/news/logos/crypto-news-flash.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The popular DEX trading platform QuickSwap zkEVM says it can now offer its users much better prices for asset swaps following its integration with Orbs’ decentralized Liquidity Hub, which taps third-party sources of liquidity. 
