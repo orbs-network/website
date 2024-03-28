@@ -3,6 +3,13 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - intentx-partners-with-orbs-for-enhanced-liquidity-solutions.md
+  - quickswap-on-polygon-zkevm-integrates-with-orbs-decentralized-liquidity-hub.md
+  - a-look-at-the-accelerating-convergence-of-defi-tradfi.md
+  - are-on-chain-derivatives-the-next-big-thing-in-defi.md
+  - eth-smashes-3400-discussing-whether-it-is-following-or-flipping-btc.md
+  - orbs-and-intentx-join-forces-to-enhance-on-chain-otc-derivatives-and-spot-trading.md
+  - orbs-partners-with-symmio-to-develop-capital-efficient-onchain-derivatives.md
   - symmio-taps-layer-3-blockchain-orbs-to-improve-liquidity-for-onchain-derivatives.md
   - orbs-and-symmio-join-forces-to-revolutionize-onchain-derivatives.md
   - orbs-partners-with-intentx-to-transform-otc-derivatives-and-spot-markets.md
