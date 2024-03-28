@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/2024-03-28 13.16.09.jpg
+url: https://www.cryptopolitan.com/orbs-launches-its-liquidity-hub-on-polygon-zkevm-with-quickswap-integration/
+date: 21, March 2024
+logo: /assets/img/news/logos/cryptopolitan.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Layer 3 blockchain Orbs has announced that its Liquidity Hub has expanded to Polygon zkEVM following an integration with Quickswap. The move will provide Quickswap traders with access to liquidity sourced from Polygon zkEVM.
