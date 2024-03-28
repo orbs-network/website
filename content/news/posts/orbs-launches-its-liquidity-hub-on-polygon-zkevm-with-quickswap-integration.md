@@ -1,6 +1,6 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/2024-03-28 13.16.09.jpg
+image: /assets/img/news/posts/orbs-launches-its-liquidity-hub-on-polygon-zkevm-with-quickswap-integration.jpg
 url: https://www.cryptopolitan.com/orbs-launches-its-liquidity-hub-on-polygon-zkevm-with-quickswap-integration/
 date: 21, March 2024
 logo: /assets/img/news/logos/cryptopolitan.svg
