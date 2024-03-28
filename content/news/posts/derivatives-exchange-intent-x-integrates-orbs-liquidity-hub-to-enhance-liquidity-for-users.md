@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/derivatives-exchange-intent-x-integrates-orbs-liquidity-hub-to-enhance-liquidity-for-users.jpg
+url: https://blockchainreporter.net/derivatives-exchange-intent-x-integrates-orbs-liquidity-hub-to-enhance-liquidity-for-users/
+date: 26, March 2024
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+IntentX, a decentralized perpetual exchange, announced its partnership with Layer 3 network Orbs to integrate the latter’s Liquidity Hub. 
