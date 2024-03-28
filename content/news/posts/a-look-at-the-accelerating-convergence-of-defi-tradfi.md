@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/a-look-at-the-accelerating-convergence-of-defi-tradfi.jpg
+url: https://www.investingcube.com/a-look-at-the-accelerating-convergence-of-defi-tradfi/
+date: 19, March 2024
+logo: /assets/img/news/logos/investing-cube.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+One of the primary examples of this is Orbs, the Layer-3 blockchain infrastructure network, which has integrated its dTWAP protocol with a number of popular decentralized exchange platforms or DEXs, giving their user’s more options for trading profitably. 
