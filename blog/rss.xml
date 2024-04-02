@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 Mar 2024 13:26:10 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 02 Apr 2024 10:37:42 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Joins the CLAMM Ecosystem: A Game-Changing Duo for DEXes]]></title>
+            <description><![CDATA[Orbs is excited to announce that it is joining the CLAMM (Concentrated Liquidity Automated Market Maker) ecosystem of Algebra, an innovative collective of projects at the forefront of developing the technology stack required for Decentralized Exchange Automated Market Makers (DEX AMMs).]]></description>
+            <link>https://www.orbs.com/Orbs-Joins-the-CLAMM-Ecosystem</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Joins-the-CLAMM-Ecosystem</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Joins-the-CLAMM-Ecosystem/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Expands to IntentX on Base!]]></title>
             <description><![CDATA[IntentX, a decentralized intent-based perpetual platform, has integrated Orbs Liquidity Hub as its main spot engine!]]></description>
