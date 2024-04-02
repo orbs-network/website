@@ -1,67 +1,57 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Joins-the-CLAMM-Ecosystem/bg.jpg
+blogUrl: Orbs-Joins-the-CLAMM-Ecosystem
+date: 2024-04-02
+title: "Orbs Joins the CLAMM Ecosystem: A Game-Changing Duo for DEXes"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Shawn.md
 type:
-short_description:
+short_description: "Orbs is excited to announce that it is joining the CLAMM (Concentrated Liquidity Automated Market Maker) ecosystem of Algebra, an innovative collective of projects at the forefront of developing the technology stack required for Decentralized Exchange Automated Market Makers (DEX AMMs)."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs is excited to announce that it is joining the CLAMM (Concentrated Liquidity Automated Market Maker) ecosystem of Algebra, an innovative collective of projects at the forefront of developing the technology stack required for Decentralized Exchange Automated Market Makers (DEX AMMs). The ecosystem represents a collaborative effort to spearhead advancements and standardizations within the DeFi space, enabling a more robust and efficient infrastructure for decentralized exchanges. 
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Algebra Finance is recognized as a leading DEX engine that enables projects to incorporate Concentrated Liquidity technology, along with a suite of other revolutionary features. These features include dynamic fees, built-in farming capabilities, and more, all designed to enhance the functionality and efficiency of DEXs. Algebra's technology has already been integrated into various decentralized exchanges across blockchain networks. These exchanges include Camelot, THENA, QuickSwap, StellaSwap, Zyberswap, Lynex, Swapsicle, Synthswap, Hercules, Swapr, and others. Through these integrations, Algebra has contributed to increasing trading volumes and improving capital efficiency across the board. For more detailed information about Algebra Finance and its offerings, interested parties are encouraged to visit their official website at [algebra.finance](https://algebra.finance/). 
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Recently, Algebra has launched the first-ever V4 platform – Integral, offering a Modular-based AMM tailored for DEXes. Its architecture divides a DEX setup into two parts: a core codebase & customizable plugins, or hooks as in Uniswap V4. This design facilitates seamless DEX updates, reduces gas costs by up to 22%, addresses liquidity migration issues, minimizes trading disruption, and more. The brand-new V4 AMM is available via Kim Protocol on Mode & Swapsicle on Mantle and Telos.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+The strategic move aims to serve as a platform for the collective advancement and integration of each participant's respective technologies into DEX AMMs. The collaborative effort will focus on fostering relationships, coordinating marketing efforts, enhancing community collaboration, expanding networks, and more. By leveraging the strengths and resources of the two projects, Orbs and Algebra are poised to drive significant innovation and growth within the DeFi sector, ultimately benefiting all participants and the broader DeFi community. 
 
-### Step-by-Step Guide
+The collaboration between Algebra and Orbs is set to redefine the DEX ecosystem for AMMs and ordinary traders. Leveraging Algebra's DEX Engine, powered by cutting-edge V3 & V4 AMM codebases, numerous DEXes are already experiencing enhanced trading capabilities. But with Orbs, the efficiency will increase. 
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Orbs is developing Liquidity Hub, an on chain liquidity aggregator, seeking to achieve the best price for trades. [Liquidity Hub](https://www.orbs.com/liquidity-hub/) is in production on QuickSwap (Polygon & zkEVM), THENA on BNB, and most recently, IntentX on Base. The two products between Algebra and Orbs synergize with each other.  
 
-Please also see our disclaimers below.
+The list of mutual DEXes leveraging the Algebra CLAMM and Orbs' Layer includes QuickSwap, THENA, SpiritSwap, Lynex, Fenix, and SwapX.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### How Liquidity Hub Works 
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ Liquidity Hub is a layer 3 (L3) infrastructure software that provides an optimization layer above the AMM. This technology taps external liquidity for better price quotes and lower price impact. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Instead of the typical swap that searches for the best route within the DEX's limited liquidity pools, Liquidity Hub enhances this process by utilizing additional liquidity sources:
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+- On-chain solver auction: Third-party solvers who compete to fill swaps using on-chain liquidity like AMM pools or their own private inventory.
+- Decentralized orders via API: Decentralized orders are accessible using API, enabling institutional/professional traders, such as market makers, to submit bids and compete to fill swaps. 
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+![lh infographic](/assets/img/blog/Orbs-Joins-the-CLAMM-Ecosystem/image1.png)
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Liquidity Hub allows DEXs to attempt to execute trades without going through the AMM and experiencing price impact. If the layer cannot execute the trade at a better price than the AMM, the transaction will return to the AMM contract and execute as usual. 
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
+Therefore, Liquidity Hub can only improve a trader's experience. If Liquidity Hub isn't competitive, meaning it would only execute at a worse price for the user or can't execute at all, the swap will be routed through the AMM contract directly as usual.
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+[Orbs](https://www.orbs.com/) is a “Layer-3” public blockchain infrastructure project powered by PoS, pioneering on-chain innovation since 2017.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Orbs is set up as a separate execution layer between L1/L2 solutions and the application layer, as part of a tiered blockchain stack, enhancing the capabilities of smart contracts and powering protocols such as [dLIMIT](https://www.orbs.com/dlimit/), [dTWAP](https://www.orbs.com/dtwap/), and [Liquidity Hub](https://www.orbs.com/liquidity-hub/).
+
+The project's core team consists of more than thirty dedicated contributors spanning from Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at: 
+Telegram: https://t.me/OrbsNetwork 
+Twitter: https://twitter.com/orbs_network 
+
+
