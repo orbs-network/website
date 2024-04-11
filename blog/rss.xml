@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Apr 2024 08:59:17 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 11 Apr 2024 11:28:48 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[PancakeSwap integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
+            <description><![CDATA[PancakeSwap, the leading multichain DEX, has integrated the dLimit &amp; dTWAP protocol powered by Orbs!]]></description>
+            <link>https://www.orbs.com/PancakeSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/PancakeSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/PancakeSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Joins the CLAMM Ecosystem: A Game-Changing Duo for DEXes]]></title>
             <description><![CDATA[Orbs is excited to announce that it is joining the CLAMM (Concentrated Liquidity Automated Market Maker) ecosystem of Algebra, an innovative collective of projects at the forefront of developing the technology stack required for Decentralized Exchange Automated Market Makers (DEX AMMs).]]></description>
