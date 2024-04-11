@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - PancakeSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs/blog.md
   - Orbs-Joins-the-CLAMM-Ecosystem/blog.md
   - Orbs-Liquidity-Hub-Expands-to-IntentX-on-Base/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Quickswap-on-Polygon-zkEVM/blog.md
