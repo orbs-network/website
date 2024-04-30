@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Apr 2024 11:28:48 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 30 Apr 2024 10:45:00 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Expands its Layer 3 Offerings with Strategic Investment in Harris and Trotter Digital Assets]]></title>
+            <link>https://www.orbs.com/Orbs-Expands-its-Layer-3-Offerings-with-Strategic-Investment-in-Harris-and-Trotter-Digital-Assets</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Expands-its-Layer-3-Offerings-with-Strategic-Investment-in-Harris-and-Trotter-Digital-Assets</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Expands-its-Layer-3-Offerings-with-Strategic-Investment-in-Harris-and-Trotter-Digital-Assets/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[PancakeSwap integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
             <description><![CDATA[PancakeSwap, the leading multichain DEX, has integrated the dLimit &amp; dTWAP protocol powered by Orbs!]]></description>
