@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 May 2024 14:42:26 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 May 2024 08:58:40 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Guardian Spotlight: TZM!]]></title>
+            <description><![CDATA[A new guardian has joined Orbs&#x27; proof of stake network! It’s TZM! TZM is an independent validator who has been in the Orbs community for a long time. For those unfamiliar, TZM is a long-term, supportive member of the Orbs Korean community.]]></description>
+            <link>https://www.orbs.com/Guardian-Spotlight-TZM</link>
+            <guid isPermaLink="true">https://www.orbs.com/Guardian-Spotlight-TZM</guid>
+            <dc:creator><![CDATA[Eddy Kim]]></dc:creator>
+            <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Guardian-Spotlight-TZM/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Expands its Layer 3 Offerings with Strategic Investment in Harris and Trotter Digital Assets]]></title>
             <link>https://www.orbs.com/Orbs-Expands-its-Layer-3-Offerings-with-Strategic-Investment-in-Harris-and-Trotter-Digital-Assets</link>
