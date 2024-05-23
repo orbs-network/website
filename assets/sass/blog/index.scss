@@ -245,27 +245,6 @@ $blog-text-size: 1.313rem;
         width: auto;
       }
     }
-    .line-separator {
-      background: #ebebeb;
-      width: 70%;
-      max-width: 400px;
-      height: 3px;
-      margin-bottom: 40px;
-      margin-top: 40px;
-      position: relative;
-      &::after {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        content: "";
-        background: white;
-        border: 2px solid #ebebeb;
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-      }
-    }
     * {
       width: 100%;
       max-width: 800px;

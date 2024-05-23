@@ -25,9 +25,13 @@
     * {
       text-align: left;
     }
-
+   
     p {
       max-width: 617px;
+      a {
+        color:#5E75E8
+      }
+  
     }
   }
   &-flex {
@@ -53,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 30px;
     a {
       display: flex;
