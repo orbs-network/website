@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Guardian-Spotlight-TZM/bg.png
+image: /assets/img/blog/Guardian-Spotlight-TZM/bg2.png
 blogUrl: Guardian-Spotlight-TZM
 date: 2024-05-23
 title: "Guardian Spotlight: TZM!"
