@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/orbs-launches-its-liquidity-hub-on-polygon-zkevm-with-quickswap-integration.md
-  - ../posts/derivatives-exchange-intent-x-integrates-orbs-liquidity-hub-to-enhance-liquidity-for-users.md
+  - ../posts/harris-and-trotter-digital-assets-secures-10-million-in-funding-3405938.md
+  - ../posts/pancakeswap-integrates-orbs-tools-dlimit-dtwap.md
 ---
 
