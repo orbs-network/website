@@ -3,6 +3,14 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - whats-the-main-challenge-holding-defi-back-liquidity.md
+  - the-future-of-defi-is-aggregated-liquidity.md
+  - crypto-experts-see-a-pullback-in-bitcoin-price-as-a-buying-opportunity-3410458.md
+  - harris-and-trotter-digital-assets-raises-10-million-in-series-a-round-led-by-orbs.md
+  - pancakeswap-enables-twap-and-limit-orders-orbs-integration.md
+  - orbs-dlimit-and-dtwap-protocols-now-on-pancakeswaps-decentralized-exchange.md
+  - orbs-launches-its-liquidity-hub-on-polygon-zkevm-with-quickswap-integration.md
+  - derivatives-exchange-intent-x-integrates-orbs-liquidity-hub-to-enhance-liquidity-for-users.md
   - intentx-partners-with-orbs-for-enhanced-liquidity-solutions.md
   - quickswap-on-polygon-zkevm-integrates-with-orbs-decentralized-liquidity-hub.md
   - a-look-at-the-accelerating-convergence-of-defi-tradfi.md
