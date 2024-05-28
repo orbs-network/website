@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/pancakeswap-enables-twap-and-limit-orders-orbs-integration.jpg
+url: https://www.bitcoininsider.org/article/246808/pancakeswap-enables-twap-and-limit-orders-orbs-integration#google_vignette
+date: 11, April 2024
+logo: /assets/img/news/logos/insider.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+PancakeSwap (CAKE) has integrated Time-Weighted Average Price (TWAP) and limit orders into the decentralised exchange (DEX) platform’s ecosystem.
