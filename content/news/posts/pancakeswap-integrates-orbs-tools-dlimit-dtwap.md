@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/pancakeswap-integrates-orbs-tools-dlimit-dtwap.webp
+url: https://www.theblock.co/post/287714/pancakeswap-integrates-orbs-tools-dlimit-dtwap
+date: 11, April 2024
+logo: /assets/img/news/logos/TheBlock.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+PancakeSwap integrated two protocols powered by Orbs network: dLIMIT and dTWAP
