@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/the-future-of-defi-is-aggregated-liquidity.jpg
+url: https://www.cryptowisser.com/the-future-of-defi-is-aggregated-liquidity
+date: 21, May 2024
+logo: /assets/img/news/logos/cryptowisser.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Vice President of Business Development Ran Hammer said that whereas DEXs were previously concerned with creating a simpler user experience and maintaining liquidity and volume within their pools, most now understand that “the future of DeFi hinges on liquidity aggregation”. 
