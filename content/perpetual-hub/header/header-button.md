@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/BtnLink
-url: Perpetual-Hub-by-Orbs/blog.md
+url: Perpetual-Hub-by-Orbs
 ---
 
 
