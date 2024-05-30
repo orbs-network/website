@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Perpetual-Hub-by-Orbs/blog.md
   - Guardian-Spotlight-TZM/blog.md
   - Orbs-Expands-its-Layer-3-Offerings-with-Strategic-Investment-in-Harris-and-Trotter-Digital-Assets/blog.md
   - PancakeSwap-integrates-dLIMIT-dTWAP-powered-by-Orbs/blog.md
