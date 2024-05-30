@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 May 2024 09:26:34 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 30 May 2024 10:23:24 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Perpetual Hub by Orbs: A One-stop Shop for Intent-based Perpetual Futures]]></title>
+            <description><![CDATA[Orbs is excited to announce a new product launch: Perpetual Hub, a full suite of tools for on-chain perpetual futures trading!]]></description>
+            <link>https://www.orbs.com/Perpetual-Hub-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Perpetual-Hub-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Perpetual-Hub-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Guardian Spotlight: TZM!]]></title>
             <description><![CDATA[A new guardian has joined Orbs&#x27; proof of stake network! It’s TZM! TZM is an independent validator who has been in the Orbs community for a long time. For those unfamiliar, TZM is a long-term, supportive member of the Orbs Korean community.]]></description>
