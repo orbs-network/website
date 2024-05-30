@@ -7,7 +7,7 @@ function ToolsCards({ cards, title, _body }) {
   return (
     <div className="cards">
       <SectionGrid>
-        <SectionTitle title={title} />
+        {title && <SectionTitle title={title} />}
         {_body && <div className="cards-subtitle"> {_body}</div>}
         <div className="cards-list">{cards}</div>
       </SectionGrid>
