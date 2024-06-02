@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Liquidity-Hub-Expands-to-SpookySwap-on-Fantom/bg.png
 blogUrl: Orbs-Liquidity-Hub-Expands-to-SpookySwap-on-Fantom
-date: 2024-05-13
+date: 2024-06-02
 title: "Orbs Liquidity Hub Expands to SpookySwap on Fantom!"
 author:
   - /blog/common/authors/RanHammer.md
