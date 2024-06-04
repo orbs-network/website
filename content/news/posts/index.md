@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-liquidity-hub-expands-to-fantom-and-integrates-with-spookyswap.md
+  - orbs-unveils-perpetual-hub-a-new-solution-for-onchain-futures-trading.md
+  - harris-and-trotter-digital-assets-secures-10-million-in-funding-3405938.md
+  - pancakeswap-integrates-orbs-tools-dlimit-dtwap.md
   - whats-the-main-challenge-holding-defi-back-liquidity.md
   - the-future-of-defi-is-aggregated-liquidity.md
   - crypto-experts-see-a-pullback-in-bitcoin-price-as-a-buying-opportunity-3410458.md
