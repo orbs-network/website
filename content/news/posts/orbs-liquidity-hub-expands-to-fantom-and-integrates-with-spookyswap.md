@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-liquidity-hub-expands-to-fantom-and-integrates-with-spookyswap.webp
+url: https://www.benzinga.com/pressreleases/24/06/39127545/orbs-liquidity-hub-expands-to-fantom-and-integrates-with-spookyswap
+date: 2, June 2024
+logo: /assets/img/news/logos/Benzinga.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Leading Fantom AMM SpookySwap has announced the integration of Orbs’ flagship L3 protocol, Liquidity Hub.
