@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-leads-300k-seed-investment-in-fenix-finance-for-blast-liquidity-market.png
+url: https://www.crypto-news.net/orbs-leads-300k-seed-investment-in-fenix-finance-for-blast-liquidity-market/
+date: 29, June 2024
+logo: /assets/img/news/logos/CRyptoNews2.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Fenix Finance has successfully closed a $300,000 seed funding round led by Layer 3 protocol Orbs. This funding will support the development of Fenix’s unified trading and liquidity marketplace on the Blast network.
