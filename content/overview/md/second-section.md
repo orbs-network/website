@@ -2,9 +2,8 @@
 layout: partials/network/FlexSectionSecond
 ---
 
-### Pain and Solution - 
-### Removing Centralized Points of Failure
+## Tech
 
-DeFi, Web 3.0 protocols and dApps are becoming more and more complex, while smart contracts are still inherently limited by design. This means that many DeFi and Web 3.0 projects still rely on centralized backend infrastructure, which is not ideal from security, liability and community perspectives.
+### Layer 3 Technology Stack
 
-The Orbs Network solves this pain by operating as a decentralized serverless cloud, allowing developers to extend smart contracts with L3 decentralized backend services. These are deployed to be executed by Orbs PoS validators (known as Guardians) and relieve projects of the need to rely on centralized backend solutions.
+Orbs is a Layer 3 blockchain designed to enhance the capabilities of existing Layer 1 and Layer 2 blockchains. Utilizing a Proof-of-Stake consensus, Orbs acts as an intermediary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Innovative protocols like dLIMIT, dTWAP, and Liquidity Hub push the boundaries of DeFi and smart contract technology. Orbs provides a scalable, efficient, and customizable environment for dApps, addressing scalability challenges inherent in Ethereum and other L1 blockchains.
