@@ -2207,6 +2207,7 @@ body {
   position: relative;
   overflow: hidden;
   height: 100vh;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
 }
 .home .title {
   text-align: left;

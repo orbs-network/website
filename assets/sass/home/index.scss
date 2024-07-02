@@ -1,4 +1,4 @@
-@import "./cards.scss";
+@import './cards.scss';
 
 .globe-container {
   left: 0;
@@ -29,18 +29,20 @@
   position: relative;
   overflow: hidden;
   height: 100vh;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+
   .title {
     text-align: left;
   }
 
-  &-link{
+  &-link {
     color: $text-color;
     margin-top: 40px;
     font-size: 0.938rem;
     text-decoration: none;
     position: relative;
     padding-left: 110px;
-    &::before{
+    &::before {
       @include gradient-border(1px);
       position: absolute;
       content: '';
@@ -49,9 +51,7 @@
       top: 50%;
       transform: translate(0, -50%);
       height: 0px;
-
     }
-
   }
   &-flex {
     align-items: flex-start;
@@ -85,8 +85,6 @@
   }
 }
 
-
-
 @media only screen and (max-width: $medium) {
   .home {
     &-flex-left {
@@ -113,14 +111,14 @@
   #globeArea {
     top: 40px;
   }
-  .home-link{
+  .home-link {
     background: $gradient;
     padding-left: 0px;
     padding: 15px;
     border-radius: 40px;
     color: white;
     margin-top: 20px;
-    &:before{
+    &:before {
       display: none;
     }
   }
@@ -137,7 +135,7 @@
     .title {
       text-align: center;
     }
- 
+
     &-flex {
       width: 100%;
       overflow: hidden;
