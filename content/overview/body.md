@@ -15,6 +15,6 @@ how_section:
   - md/how-section/index.md
 ---
 
-# L3 For Advanced<br>On-chain Trading
+# Bringing CeFi-level<br>execution to DeFi
 
-## Bringing CeFi-level execution to DeFi
+## L3 For AdvancedOn-chain Trading
