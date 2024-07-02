@@ -3,8 +3,10 @@ import { handleUrl } from '../../util/link'
 
 const Main = ({
   socials,
-  link_text,
-  link_url,
+  link1_text,
+  link1_url,
+  link2_text,
+  link2_url,
   title,
   cards,
   _relativeURL,
@@ -21,10 +23,15 @@ const Main = ({
       <div className="home-flex main-grid flex-start">
         <div className="home-flex-left flex-column">
           <section />
-          <div className="home-flex-left-text"> {title}</div>
-          <a href={link_url} className="home-link">
-            {link_text}
-          </a>
+          <div className="home-flex-left-text">{title}</div>
+          <div className="home-buttons">
+            <a href={link1_url} className="home-buttons-link">
+              {link1_text}
+            </a>
+            <a href={link2_url} className="home-buttons-link">
+              {link2_text}
+            </a>
+          </div>
           {socials}
         </div>
 
