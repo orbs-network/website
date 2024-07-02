@@ -1,4 +1,4 @@
-@import "./menu.scss";
+@import './menu.scss';
 
 .overlay {
   position: fixed;
@@ -29,10 +29,6 @@
 }
 
 .show-menu {
-  position: absolute;
-  left: -73px;
-  top: 50%;
-  transform: translate(0, -50%);
   width: 27px;
   & img {
     width: 100%;
@@ -54,6 +50,11 @@
   justify-content: space-between;
   align-items: center;
   transition: 0.2s all;
+
+  &:has(+ .home) {
+    background: $app-background-color;
+  }
+
   &-flex {
     position: relative;
     margin-top: 0px;
@@ -64,6 +65,9 @@
     position: relative;
     align-items: center;
     &-left {
+      display: flex;
+      align-items: center;
+      gap: 30px;
     }
     &-right {
       display: flex;
