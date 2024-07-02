@@ -2,6 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-# L3 FOR ADVANCED<br>ON-CHAIN TRADING
+# Bringing CeFi-level<br>execution to DeFi
 
-## Bringing CeFi-level execution to DeFi
+## L3 for advanced On-chain trading

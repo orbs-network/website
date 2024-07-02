@@ -74,6 +74,7 @@
         @extend .gradient-text;
         font-family: $text-font;
         letter-spacing: -0.009rem;
+        text-transform: uppercase;
       }
       .socials {
         margin-top: 14vh;
