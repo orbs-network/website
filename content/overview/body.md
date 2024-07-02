@@ -17,4 +17,4 @@ how_section:
 
 # Bringing CeFi-level<br>execution to DeFi
 
-## L3 For AdvancedOn-chain Trading
+## L3 For Advanced On-chain Trading
