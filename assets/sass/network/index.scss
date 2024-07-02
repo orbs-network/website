@@ -68,6 +68,13 @@
     }
 
     &-first {
+      background: linear-gradient(
+        343deg,
+        #ffffff 0%,
+        #ffffff 55%,
+        rgba(128, 198, 235, 0.5) 55%,
+        #ffffff 72.81%
+      );
       .network-section {
         &-image {
           max-width: 400px;
@@ -387,6 +394,9 @@
         gap: 30px;
       }
       &-first {
+        &-features {
+          margin-top: 80px;
+        }
         .network-section {
           &-left {
             order: 1;
@@ -411,6 +421,9 @@
             max-width: 300px;
             width: 90%;
             order: 2;
+          }
+          &-text {
+            text-align: center;
           }
         }
       }
@@ -472,6 +485,9 @@
         &-list {
           &-item {
             flex-basis: 50%;
+            &-image {
+              max-width: 80%;
+            }
           }
         }
       }
@@ -501,6 +517,9 @@
         &-list {
           &-item {
             flex-basis: 100%;
+            &-image {
+              max-width: 60%;
+            }
           }
         }
       }
