@@ -26,12 +26,7 @@ $deep-blue: #313855;
 
 $pink: #da88de;
 
-$gradient: linear-gradient(
-  102.78deg,
-  #6687e9 29.14%,
-  #b082d5 53.97%,
-  #ed7ec4 77.85%
-);
+$gradient: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
 
 .gradient-text {
   background: $gradient;
@@ -149,7 +144,7 @@ $text-letter-spacing: -0.009rem;
 }
 
 .page {
-  padding-top: 180px;
+  padding-top: 90px;
 }
 
 .main-grid {
@@ -183,6 +178,7 @@ $text-letter-spacing: -0.009rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   h4 {
     @extend .header-top-text;
     width: 100%;
@@ -248,18 +244,18 @@ $text-letter-spacing: -0.009rem;
     margin-bottom: $page-section-margin;
   }
   .page-title {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 50px;
+    line-height: 60px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .page-title {
-    font-size: 25px;
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .page {
-    padding-top: 110px;
+    padding-top: 70px;
   }
   .page-section-title {
     font-size: 20px;
@@ -304,5 +300,23 @@ $text-letter-spacing: -0.009rem;
     width: 6px;
     height: 6px;
     border-radius: 50%;
+  }
+}
+
+.title-pill {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+  text-transform: uppercase;
+
+  &.alt {
+    background: #fff;
+    color: #7988e8;
   }
 }

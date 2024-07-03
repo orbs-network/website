@@ -1,11 +1,11 @@
-import React from "react";
-import { handleUrl } from "../../util/link";
-import SmallGrid from "../shared/SmallGrid";
+import React from 'react'
+import { handleUrl } from '../../util/link'
+import SmallGrid from '../shared/SmallGrid'
 
 function FlexSection({ _body, image, _relativeURL, _ID }) {
   const generateUrl = (url) => {
-    return handleUrl(url, _relativeURL, _ID);
-  };
+    return handleUrl(url, _relativeURL, _ID)
+  }
   return (
     <div className="network-section network-section-third">
       <SmallGrid>
@@ -19,7 +19,7 @@ function FlexSection({ _body, image, _relativeURL, _ID }) {
         </div>
       </SmallGrid>
     </div>
-  );
+  )
 }
 
-export default FlexSection;
+export default FlexSection

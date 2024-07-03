@@ -33,6 +33,7 @@
 
   .title {
     text-align: left;
+    margin-bottom: 10px;
   }
 
   &-buttons {
@@ -53,6 +54,31 @@
       &:hover {
         opacity: 0.8;
       }
+    }
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &-link {
+    color: $text-color;
+    margin-top: 40px;
+    font-size: 0.938rem;
+    text-decoration: none;
+    position: relative;
+    padding-left: 110px;
+    &::before {
+      @include gradient-border(1px);
+      position: absolute;
+      content: '';
+      left: 0px;
+      width: 90px;
+      top: 50%;
+      transform: translate(0, -50%);
+      height: 0px;
     }
   }
   &-flex {
@@ -79,6 +105,7 @@
         font-size: 1.875rem;
         color: #fff;
         margin-bottom: 3rem;
+        text-transform: uppercase;
       }
       .socials {
         margin-top: 14vh;
