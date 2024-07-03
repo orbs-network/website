@@ -1,17 +1,20 @@
 ---
 layout: partials/network/index
 
-first_section: 
-  - md/first-section.md
-second_section: 
+first_section:
+  - md/first-section/index.md
+second_section:
   - md/second-section.md
-third_section: 
-  - md/third-section.md
-video_section:
-  - md/video-section.md
+products_section:
+  - md/products-section/index.md
+why_section:
+  - md/why-section.md
+mission_section:
+  - md/mission-section.md
+how_section:
+  - md/how-section/index.md
 ---
 
+# Bringing CeFi-level<br>execution to DeFi
 
-# Making Your Smart
-# Contracts Smarter
-
+## L3 For Advanced On-chain Trading

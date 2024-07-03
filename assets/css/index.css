@@ -33,8 +33,8 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/blog/bold-italic.ttf");
 }
-.gradient-text, .liquidity-hub-section-3-column h4, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
-  background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
+.gradient-text, .liquidity-hub-section-3-column h4, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section-how h4, .network-section-how h2, .network-section-products-list-item-body h4, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
+  background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -118,7 +118,7 @@
 }
 
 .page-section-title, .dtwap-code-examples-title, .ton-gateway-example-title *, .notifications .integrations-list #integration-pr > p, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
-.expending-box .title-h4, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3 {
+.expending-box .title-h4, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section-how h4, .network-section-how h2, .network-section-products-list-item-body h4, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3 {
   font-size: 24px;
   font-weight: 700;
   font-family: "Montserrat";
@@ -134,7 +134,7 @@
 }
 
 .page {
-  padding-top: 180px;
+  padding-top: 90px;
 }
 
 .main-grid, .news-grid, .contact, .single-blog-header, .small-grid, .orbs-vm .common-grid-section-grid {
@@ -148,12 +148,6 @@
   max-width: 900px;
 }
 
-.page-title, .side-menu-title, .header h1, .news-hero h1 {
-  font-weight: 900;
-  font-size: 46px;
-  line-height: 60px;
-}
-
 .header-top-text, .product-header-github p, .header h4, .news-hero h4 {
   font-weight: 700;
   color: #454545;
@@ -165,6 +159,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px;
 }
 .header h4, .news-hero h4 {
   width: 100%;
@@ -220,20 +215,20 @@
     margin-bottom: 80px;
   }
   .page-title, .side-menu-title, .header h1, .news-hero h1 {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 50px;
+    line-height: 60px;
   }
 }
 @media only screen and (max-width: 600px) {
   .page-title, .side-menu-title, .header h1, .news-hero h1 {
-    font-size: 25px;
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .page {
-    padding-top: 110px;
+    padding-top: 70px;
   }
   .page-section-title, .dtwap-code-examples-title, .ton-gateway-example-title *, .notifications .integrations-list #integration-pr > p, .notifications .contribute-title, .notifications .contribute-bottom h5, .orbs-vm .orbs-vm-graph h3, .universe-second-flex .expending-box-title, .universe-first-flex-sections .universe-first-flex-section-header-title, .network-section-third .network-section-text h2, .form-sub-title, .expending-box-title,
-  .expending-box .title-h4, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .common-grid-section h3 {
+  .expending-box .title-h4, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section-how h4, .network-section-how h2, .network-section-products-list-item-body h4, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .header-top-text, .product-header-github p, .header h4, .news-hero h4, .common-grid-section h3 {
     font-size: 20px;
     line-height: 26px;
   }
@@ -274,6 +269,23 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
+}
+
+.title-pill, .network-section-mission-text h2, .network-section-second .network-section-text h2, .network-section-first-features-item h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+  text-transform: uppercase;
+}
+.title-pill.alt, .network-section-mission-text h2, .network-section-second .network-section-text h2, .network-section-first-features-item h2.alt {
+  background: #fff;
+  color: #7988e8;
 }
 
 html,
@@ -645,7 +657,7 @@ body {
   margin-left: 0px;
 }
 .gdpr-btns-accept {
-  background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
+  background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
 }
 .gdpr a {
   text-decoration: none;
@@ -761,7 +773,7 @@ body {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
+  background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
   content: "";
   left: 0px;
   top: 8px;
@@ -998,7 +1010,7 @@ body {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
+  background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
   content: "";
   left: 0px;
   top: 8px;
@@ -1448,7 +1460,7 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.schema .page-colored-section-title, .schema .dlimit .schema-subtitle, .dlimit .schema .schema-subtitle, .schema .dtwap-explanation-title, .schema .dtwap-benefits-title, .schema .ton-gateway-posts h3, .ton-gateway-posts .schema h3, .schema .notifications .apps-title, .notifications .schema .apps-title, .schema .notifications .integrations-title, .notifications .schema .integrations-title, .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .schema h3, .schema .news-posts-title, .schema .contact-socials-section h4, .contact-socials-section .schema h4, .schema .white-papers-category-title, .schema .universe-second-flex .images-grid-title, .universe-second-flex .schema .images-grid-title, .schema .network-section h3, .network-section .schema h3, .schema .faq-lists-category h5, .faq-lists-category .schema h5, .schema .common-section-title, .schema .integrations-integrate-title, .schema .integrations-title, .schema .common-grid-section h3, .common-grid-section .schema h3 {
+.schema .page-colored-section-title, .schema .dlimit .schema-subtitle, .dlimit .schema .schema-subtitle, .schema .dtwap-explanation-title, .schema .dtwap-benefits-title, .schema .ton-gateway-posts h3, .ton-gateway-posts .schema h3, .schema .notifications .apps-title, .notifications .schema .apps-title, .schema .notifications .integrations-title, .notifications .schema .integrations-title, .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .schema h3, .schema .news-posts-title, .schema .contact-socials-section h4, .contact-socials-section .schema h4, .schema .white-papers-category-title, .schema .universe-second-flex .images-grid-title, .universe-second-flex .schema .images-grid-title, .schema .network-section-how h4, .network-section-how .schema h4, .schema .network-section-how h2, .network-section-how .schema h2, .schema .network-section-products-list-item-body h4, .network-section-products-list-item-body .schema h4, .schema .network-section h3, .network-section .schema h3, .schema .faq-lists-category h5, .faq-lists-category .schema h5, .schema .common-section-title, .schema .integrations-integrate-title, .schema .integrations-title, .schema .common-grid-section h3, .common-grid-section .schema h3 {
   margin-bottom: 40px;
 }
 .schema-img {
@@ -2286,7 +2298,7 @@ body {
     top: 40px;
   }
   .home-link {
-    background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
+    background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
     padding-left: 0px;
     padding: 15px;
     border-radius: 40px;
@@ -2607,7 +2619,7 @@ body {
 
 .navbar {
   position: fixed;
-  height: 110px;
+  height: 90px;
   width: 100%;
   z-index: 999;
   left: 0px;
@@ -3628,6 +3640,29 @@ body {
 .network {
   position: relative;
 }
+.network-header {
+  background: url("/assets/img/network/network-header-bg.png"), linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  margin: 0;
+}
+.network-header h1 {
+  color: #fff;
+  background: none;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  font-size: 70px;
+  line-height: 80px;
+}
+.network-header h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 30px;
+  color: #fff;
+}
 .network-figure {
   position: absolute;
   width: 400px;
@@ -3659,27 +3694,53 @@ body {
   max-height: 600px;
   min-height: 200px;
 }
-.network-section h3:last-of-type {
+.network-section h3 {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .network-section-first {
-  padding-top: 0px;
+  background: linear-gradient(343deg, #ffffff 0%, #ffffff 55%, rgba(128, 198, 235, 0.5) 55%, #ffffff 72.81%);
 }
 .network-section-first .network-section-image {
-  max-width: 250px;
+  max-width: 400px;
   width: 100%;
   height: auto;
+  flex-basis: 50%;
+}
+.network-section-first .network-section-text {
+  flex-basis: 50%;
+}
+.main-grid + .network-section-first-features, .news-grid + .network-section-first-features, .contact + .network-section-first-features, .small-grid + .network-section-first-features, .orbs-vm .common-grid-section-grid + .network-section-first-features, .single-blog-header + .network-section-first-features {
+  align-items: start;
+}
+.network-section-first-features {
+  margin-top: 200px;
+  text-align: center;
+}
+.network-section-first-features-item {
+  flex-basis: 50%;
 }
 .network-section-second {
-  background: #f4f4f4;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
   position: relative;
 }
 .network-section-second .network-section-image {
-  max-width: 270px;
+  flex-grow: 0;
+  max-width: 50%;
   width: 100%;
+  flex-basis: 50%;
 }
 .network-section-second .network-section-text {
-  flex: 1;
+  flex-basis: 50%;
+}
+.network-section-second .network-section-text h3 {
+  background: none;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  color: white;
+}
+.network-section-second .network-section-text .text-p, .network-section-second .network-section-text .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .network-section-second .network-section-text li, .network-section-second .network-section-text .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-second .network-section-text *, .network-section-second .network-section-text .selectbox-list-item h4, .selectbox-list-item .network-section-second .network-section-text h4, .network-section-second .network-section-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-second .network-section-text h5, .network-section-second .network-section-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-second .network-section-text h5, .network-section-second .network-section-text .news-hero-body h4, .news-hero-body .network-section-second .network-section-text h4, .network-section-second .network-section-text .blog .header h2, .network-section-second .network-section-text .blog .news-hero h2, .blog .header .network-section-second .network-section-text h2, .blog .news-hero .network-section-second .network-section-text h2, .network-section-second .network-section-text .blog-list-blog-title {
+  color: white;
 }
 .network-section-second-top {
   position: absolute;
@@ -3728,6 +3789,109 @@ body {
   width: 100%;
   margin-top: 80px;
 }
+.network-section-products h3:last-of-type {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.network-section-products-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+.network-section-products-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  flex: 0 1 25%;
+  padding: 25px;
+}
+.dtwap .network-section-products-list-item-image {
+  aspect-ratio: 1.82;
+}
+.liquidity-hub .network-section-products-list-item-image, .perpetual-hub .network-section-products-list-item-image {
+  aspect-ratio: 1.8;
+}
+.network-section-products-list-item-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.network-section-products-list-item-body {
+  text-align: center;
+}
+.network-section-products-list-item-body h4 {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.network-section-products-list-item-body .text-p, .network-section-products-list-item-body .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .network-section-products-list-item-body li, .network-section-products-list-item-body .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-products-list-item-body *, .network-section-products-list-item-body .selectbox-list-item h4, .selectbox-list-item .network-section-products-list-item-body h4, .network-section-products-list-item-body .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-products-list-item-body h5, .network-section-products-list-item-body .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-products-list-item-body h5, .network-section-products-list-item-body .news-hero-body h4, .news-hero-body .network-section-products-list-item-body h4, .network-section-products-list-item-body .blog .header h2, .network-section-products-list-item-body .blog .news-hero h2, .blog .header .network-section-products-list-item-body h2, .blog .news-hero .network-section-products-list-item-body h2, .network-section-products-list-item-body .blog-list-blog-title {
+  font-size: 14px;
+}
+.network-section-why {
+  background: linear-gradient(15deg, #ffffff 0%, #ffffff 50%, rgba(128, 198, 235, 0.5) 50%, #ffffff 72.81%);
+}
+.network-section-why-text {
+  text-align: center;
+}
+.network-section-why-text .text-p, .network-section-why-text .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .network-section-why-text li, .network-section-why-text .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-why-text *, .network-section-why-text .selectbox-list-item h4, .selectbox-list-item .network-section-why-text h4, .network-section-why-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-why-text h5, .network-section-why-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-why-text h5, .network-section-why-text .news-hero-body h4, .news-hero-body .network-section-why-text h4, .network-section-why-text .blog .header h2, .network-section-why-text .blog .news-hero h2, .blog .header .network-section-why-text h2, .blog .news-hero .network-section-why-text h2, .network-section-why-text .blog-list-blog-title {
+  margin-bottom: 60px;
+}
+.network-section-mission {
+  background-color: #7a89e9;
+  background-image: url("/assets/img/network/mission-section-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.network-section-mission-text {
+  text-align: center;
+}
+.network-section-mission-text .text-p, .network-section-mission-text .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .network-section-mission-text li, .network-section-mission-text .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-mission-text *, .network-section-mission-text .selectbox-list-item h4, .selectbox-list-item .network-section-mission-text h4, .network-section-mission-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-mission-text h5, .network-section-mission-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-mission-text h5, .network-section-mission-text .news-hero-body h4, .news-hero-body .network-section-mission-text h4, .network-section-mission-text .blog .header h2, .network-section-mission-text .blog .news-hero h2, .blog .header .network-section-mission-text h2, .blog .news-hero .network-section-mission-text h2, .network-section-mission-text .blog-list-blog-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.network-section-how {
+  text-align: center;
+}
+.network-section-how h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.network-section-how h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+.network-section-how-items.main-grid, .network-section-how-items.news-grid, .network-section-how-items.contact, .network-section-how-items.small-grid, .orbs-vm .network-section-how-items.common-grid-section-grid, .network-section-how-items.single-blog-header {
+  align-items: flex-start;
+}
+.network-section-how-items-item {
+  flex-basis: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.network-section-how-items-item-image {
+  max-width: 50%;
+}
+.network-section-how-items-item h4 {
+  font-size: 22px;
+  margin: 0;
+}
+.network-section-how-items-item .text-p, .network-section-how-items-item .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .network-section-how-items-item li, .network-section-how-items-item .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-how-items-item *, .network-section-how-items-item .selectbox-list-item h4, .selectbox-list-item .network-section-how-items-item h4, .network-section-how-items-item .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-how-items-item h5, .network-section-how-items-item .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-how-items-item h5, .network-section-how-items-item .news-hero-body h4, .news-hero-body .network-section-how-items-item h4, .network-section-how-items-item .blog .header h2, .network-section-how-items-item .blog .news-hero h2, .blog .header .network-section-how-items-item h2, .blog .news-hero .network-section-how-items-item h2, .network-section-how-items-item .blog-list-blog-title {
+  font-size: 16px;
+}
 
 @media only screen and (max-width: 1680px) {
   .network-section-second-top {
@@ -3772,6 +3936,9 @@ body {
     flex-direction: column;
     gap: 30px;
   }
+  .network-section-first-features {
+    margin-top: 80px;
+  }
   .network-section-first .network-section-left {
     order: 1;
   }
@@ -3790,6 +3957,9 @@ body {
     max-width: 300px;
     width: 90%;
     order: 2;
+  }
+  .network-section-second .network-section-text {
+    text-align: center;
   }
   .network-section-third .network-section-right {
     transform: none;
@@ -3815,6 +3985,44 @@ body {
   .network-product-image-2 img {
     max-width: 400px;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .network-header {
+    padding: 40px;
+  }
+  .network-header h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .network-section-products {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .network-section-products-list-item {
+    flex-basis: 50%;
+  }
+  .network-section-products-list-item-image {
+    max-width: 80%;
+  }
+  .network-section-mission-text .text-p, .network-section-mission-text .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .network-section-mission-text li, .network-section-mission-text .selectbox-list-item h4 *, .selectbox-list-item h4 .network-section-mission-text *, .network-section-mission-text .selectbox-list-item h4, .selectbox-list-item .network-section-mission-text h4, .network-section-mission-text .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .network-section-mission-text h5, .network-section-mission-text .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .network-section-mission-text h5, .network-section-mission-text .news-hero-body h4, .news-hero-body .network-section-mission-text h4, .network-section-mission-text .blog .header h2, .network-section-mission-text .blog .news-hero h2, .blog .header .network-section-mission-text h2, .blog .news-hero .network-section-mission-text h2, .network-section-mission-text .blog-list-blog-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .network-section-how-text {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .network-section-products {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .network-section-products-list-item {
+    flex-basis: 100%;
+  }
+  .network-section-products-list-item-image {
+    max-width: 60%;
   }
 }
 .universe-bottom-links {
@@ -3916,7 +4124,7 @@ body {
   content: "";
   width: 11px;
   height: 11px;
-  background: linear-gradient(102.78deg, #6687e9 29.14%, #b082d5 53.97%, #ed7ec4 77.85%);
+  background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
 }
 .universe-first-flex-bodies {
   background: rgba(94, 117, 232, 0.88);
@@ -6271,7 +6479,7 @@ body {
   right: 100px;
   top: 240px;
 }
-.ton-vote .page-colored-section-title, .ton-vote .dlimit .schema-subtitle, .dlimit .ton-vote .schema-subtitle, .ton-vote .common-grid-section h3, .common-grid-section .ton-vote h3, .ton-vote .integrations-title, .ton-vote .integrations-integrate-title, .ton-vote .common-section-title, .ton-vote .faq-lists-category h5, .faq-lists-category .ton-vote h5, .ton-vote .network-section h3, .network-section .ton-vote h3, .ton-vote .universe-second-flex .images-grid-title, .universe-second-flex .ton-vote .images-grid-title, .ton-vote .white-papers-category-title, .ton-vote .contact-socials-section h4, .contact-socials-section .ton-vote h4, .ton-vote .news-posts-title, .ton-vote .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .ton-vote h3, .ton-vote .notifications .integrations-title, .notifications .ton-vote .integrations-title, .ton-vote .notifications .apps-title, .notifications .ton-vote .apps-title, .ton-vote .ton-gateway-posts h3, .ton-gateway-posts .ton-vote h3, .ton-vote .dtwap-benefits-title, .ton-vote .dtwap-explanation-title {
+.ton-vote .page-colored-section-title, .ton-vote .dlimit .schema-subtitle, .dlimit .ton-vote .schema-subtitle, .ton-vote .common-grid-section h3, .common-grid-section .ton-vote h3, .ton-vote .integrations-title, .ton-vote .integrations-integrate-title, .ton-vote .common-section-title, .ton-vote .faq-lists-category h5, .faq-lists-category .ton-vote h5, .ton-vote .network-section h3, .network-section .ton-vote h3, .ton-vote .network-section-products-list-item-body h4, .network-section-products-list-item-body .ton-vote h4, .ton-vote .network-section-how h2, .network-section-how .ton-vote h2, .ton-vote .network-section-how h4, .network-section-how .ton-vote h4, .ton-vote .universe-second-flex .images-grid-title, .universe-second-flex .ton-vote .images-grid-title, .ton-vote .white-papers-category-title, .ton-vote .contact-socials-section h4, .contact-socials-section .ton-vote h4, .ton-vote .news-posts-title, .ton-vote .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .ton-vote h3, .ton-vote .notifications .integrations-title, .notifications .ton-vote .integrations-title, .ton-vote .notifications .apps-title, .notifications .ton-vote .apps-title, .ton-vote .ton-gateway-posts h3, .ton-gateway-posts .ton-vote h3, .ton-vote .dtwap-benefits-title, .ton-vote .dtwap-explanation-title {
   text-align: center;
 }
 .ton-vote .ton-vote-slider {
@@ -6388,7 +6596,7 @@ body {
   top: 65%;
   right: 220px;
 }
-.dlimit .schema .page-colored-section-title, .dlimit .schema .schema-subtitle, .dlimit .schema .common-grid-section h3, .common-grid-section .dlimit .schema h3, .dlimit .schema .integrations-title, .dlimit .schema .integrations-integrate-title, .dlimit .schema .common-section-title, .dlimit .schema .faq-lists-category h5, .faq-lists-category .dlimit .schema h5, .dlimit .schema .network-section h3, .network-section .dlimit .schema h3, .dlimit .schema .universe-second-flex .images-grid-title, .universe-second-flex .dlimit .schema .images-grid-title, .dlimit .schema .white-papers-category-title, .dlimit .schema .contact-socials-section h4, .contact-socials-section .dlimit .schema h4, .dlimit .schema .news-posts-title, .dlimit .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .dlimit .schema h3, .dlimit .schema .notifications .apps-title, .notifications .dlimit .schema .apps-title, .dlimit .schema .ton-gateway-posts h3, .ton-gateway-posts .dlimit .schema h3, .dlimit .schema .dtwap-benefits-title, .dlimit .schema .dtwap-explanation-title {
+.dlimit .schema .page-colored-section-title, .dlimit .schema .schema-subtitle, .dlimit .schema .common-grid-section h3, .common-grid-section .dlimit .schema h3, .dlimit .schema .integrations-title, .dlimit .schema .integrations-integrate-title, .dlimit .schema .common-section-title, .dlimit .schema .faq-lists-category h5, .faq-lists-category .dlimit .schema h5, .dlimit .schema .network-section h3, .network-section .dlimit .schema h3, .dlimit .schema .network-section-products-list-item-body h4, .network-section-products-list-item-body .dlimit .schema h4, .dlimit .schema .network-section-how h2, .network-section-how .dlimit .schema h2, .dlimit .schema .network-section-how h4, .network-section-how .dlimit .schema h4, .dlimit .schema .universe-second-flex .images-grid-title, .universe-second-flex .dlimit .schema .images-grid-title, .dlimit .schema .white-papers-category-title, .dlimit .schema .contact-socials-section h4, .contact-socials-section .dlimit .schema h4, .dlimit .schema .news-posts-title, .dlimit .schema .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .dlimit .schema h3, .dlimit .schema .notifications .apps-title, .notifications .dlimit .schema .apps-title, .dlimit .schema .ton-gateway-posts h3, .ton-gateway-posts .dlimit .schema h3, .dlimit .schema .dtwap-benefits-title, .dlimit .schema .dtwap-explanation-title {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -6561,7 +6769,7 @@ body {
   padding-bottom: 80px;
   background: white;
 }
-.liquidity-hub-section-3 .page-colored-section-title, .liquidity-hub-section-3 .common-grid-section h3, .common-grid-section .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .integrations-title, .liquidity-hub-section-3 .integrations-integrate-title, .liquidity-hub-section-3 .common-section-title, .liquidity-hub-section-3 .faq-lists-category h5, .faq-lists-category .liquidity-hub-section-3 h5, .liquidity-hub-section-3 .network-section h3, .network-section .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .universe-second-flex .images-grid-title, .universe-second-flex .liquidity-hub-section-3 .images-grid-title, .liquidity-hub-section-3 .white-papers-category-title, .liquidity-hub-section-3 .contact-socials-section h4, .contact-socials-section .liquidity-hub-section-3 h4, .liquidity-hub-section-3 .news-posts-title, .liquidity-hub-section-3 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .notifications .integrations-title, .notifications .liquidity-hub-section-3 .integrations-title, .liquidity-hub-section-3 .notifications .apps-title, .notifications .liquidity-hub-section-3 .apps-title, .liquidity-hub-section-3 .ton-gateway-posts h3, .ton-gateway-posts .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .dtwap-benefits-title, .liquidity-hub-section-3 .dtwap-explanation-title, .liquidity-hub-section-3 .dlimit .schema-subtitle, .dlimit .liquidity-hub-section-3 .schema-subtitle {
+.liquidity-hub-section-3 .page-colored-section-title, .liquidity-hub-section-3 .common-grid-section h3, .common-grid-section .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .integrations-title, .liquidity-hub-section-3 .integrations-integrate-title, .liquidity-hub-section-3 .common-section-title, .liquidity-hub-section-3 .faq-lists-category h5, .faq-lists-category .liquidity-hub-section-3 h5, .liquidity-hub-section-3 .network-section h3, .network-section .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .network-section-products-list-item-body h4, .network-section-products-list-item-body .liquidity-hub-section-3 h4, .liquidity-hub-section-3 .network-section-how h2, .network-section-how .liquidity-hub-section-3 h2, .liquidity-hub-section-3 .network-section-how h4, .network-section-how .liquidity-hub-section-3 h4, .liquidity-hub-section-3 .universe-second-flex .images-grid-title, .universe-second-flex .liquidity-hub-section-3 .images-grid-title, .liquidity-hub-section-3 .white-papers-category-title, .liquidity-hub-section-3 .contact-socials-section h4, .contact-socials-section .liquidity-hub-section-3 h4, .liquidity-hub-section-3 .news-posts-title, .liquidity-hub-section-3 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .notifications .integrations-title, .notifications .liquidity-hub-section-3 .integrations-title, .liquidity-hub-section-3 .notifications .apps-title, .notifications .liquidity-hub-section-3 .apps-title, .liquidity-hub-section-3 .ton-gateway-posts h3, .ton-gateway-posts .liquidity-hub-section-3 h3, .liquidity-hub-section-3 .dtwap-benefits-title, .liquidity-hub-section-3 .dtwap-explanation-title, .liquidity-hub-section-3 .dlimit .schema-subtitle, .dlimit .liquidity-hub-section-3 .schema-subtitle {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -6586,7 +6794,7 @@ body {
   padding-bottom: 80px;
   background: #f4f4f4;
 }
-.liquidity-hub-section-4 .page-colored-section-title, .liquidity-hub-section-4 .common-grid-section h3, .common-grid-section .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .integrations-title, .liquidity-hub-section-4 .integrations-integrate-title, .liquidity-hub-section-4 .common-section-title, .liquidity-hub-section-4 .faq-lists-category h5, .faq-lists-category .liquidity-hub-section-4 h5, .liquidity-hub-section-4 .network-section h3, .network-section .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .universe-second-flex .images-grid-title, .universe-second-flex .liquidity-hub-section-4 .images-grid-title, .liquidity-hub-section-4 .white-papers-category-title, .liquidity-hub-section-4 .contact-socials-section h4, .contact-socials-section .liquidity-hub-section-4 h4, .liquidity-hub-section-4 .news-posts-title, .liquidity-hub-section-4 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .notifications .integrations-title, .notifications .liquidity-hub-section-4 .integrations-title, .liquidity-hub-section-4 .notifications .apps-title, .notifications .liquidity-hub-section-4 .apps-title, .liquidity-hub-section-4 .ton-gateway-posts h3, .ton-gateway-posts .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .dtwap-benefits-title, .liquidity-hub-section-4 .dtwap-explanation-title, .liquidity-hub-section-4 .dlimit .schema-subtitle, .dlimit .liquidity-hub-section-4 .schema-subtitle {
+.liquidity-hub-section-4 .page-colored-section-title, .liquidity-hub-section-4 .common-grid-section h3, .common-grid-section .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .integrations-title, .liquidity-hub-section-4 .integrations-integrate-title, .liquidity-hub-section-4 .common-section-title, .liquidity-hub-section-4 .faq-lists-category h5, .faq-lists-category .liquidity-hub-section-4 h5, .liquidity-hub-section-4 .network-section h3, .network-section .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .network-section-products-list-item-body h4, .network-section-products-list-item-body .liquidity-hub-section-4 h4, .liquidity-hub-section-4 .network-section-how h2, .network-section-how .liquidity-hub-section-4 h2, .liquidity-hub-section-4 .network-section-how h4, .network-section-how .liquidity-hub-section-4 h4, .liquidity-hub-section-4 .universe-second-flex .images-grid-title, .universe-second-flex .liquidity-hub-section-4 .images-grid-title, .liquidity-hub-section-4 .white-papers-category-title, .liquidity-hub-section-4 .contact-socials-section h4, .contact-socials-section .liquidity-hub-section-4 h4, .liquidity-hub-section-4 .news-posts-title, .liquidity-hub-section-4 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .notifications .integrations-title, .notifications .liquidity-hub-section-4 .integrations-title, .liquidity-hub-section-4 .notifications .apps-title, .notifications .liquidity-hub-section-4 .apps-title, .liquidity-hub-section-4 .ton-gateway-posts h3, .ton-gateway-posts .liquidity-hub-section-4 h3, .liquidity-hub-section-4 .dtwap-benefits-title, .liquidity-hub-section-4 .dtwap-explanation-title, .liquidity-hub-section-4 .dlimit .schema-subtitle, .dlimit .liquidity-hub-section-4 .schema-subtitle {
   margin-bottom: 40px;
 }
 .liquidity-hub-section-4 a {
@@ -6747,7 +6955,7 @@ body {
   width: 100%;
   max-width: unset;
 }
-.perps-section-3 .page-colored-section-title, .perps-section-3 .common-grid-section h3, .common-grid-section .perps-section-3 h3, .perps-section-3 .integrations-title, .perps-section-3 .integrations-integrate-title, .perps-section-3 .common-section-title, .perps-section-3 .faq-lists-category h5, .faq-lists-category .perps-section-3 h5, .perps-section-3 .network-section h3, .network-section .perps-section-3 h3, .perps-section-3 .universe-second-flex .images-grid-title, .universe-second-flex .perps-section-3 .images-grid-title, .perps-section-3 .white-papers-category-title, .perps-section-3 .contact-socials-section h4, .contact-socials-section .perps-section-3 h4, .perps-section-3 .news-posts-title, .perps-section-3 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .perps-section-3 h3, .perps-section-3 .notifications .integrations-title, .notifications .perps-section-3 .integrations-title, .perps-section-3 .notifications .apps-title, .notifications .perps-section-3 .apps-title, .perps-section-3 .ton-gateway-posts h3, .ton-gateway-posts .perps-section-3 h3, .perps-section-3 .dtwap-benefits-title, .perps-section-3 .dtwap-explanation-title, .perps-section-3 .dlimit .schema-subtitle, .dlimit .perps-section-3 .schema-subtitle {
+.perps-section-3 .page-colored-section-title, .perps-section-3 .common-grid-section h3, .common-grid-section .perps-section-3 h3, .perps-section-3 .integrations-title, .perps-section-3 .integrations-integrate-title, .perps-section-3 .common-section-title, .perps-section-3 .faq-lists-category h5, .faq-lists-category .perps-section-3 h5, .perps-section-3 .network-section h3, .network-section .perps-section-3 h3, .perps-section-3 .network-section-products-list-item-body h4, .network-section-products-list-item-body .perps-section-3 h4, .perps-section-3 .network-section-how h2, .network-section-how .perps-section-3 h2, .perps-section-3 .network-section-how h4, .network-section-how .perps-section-3 h4, .perps-section-3 .universe-second-flex .images-grid-title, .universe-second-flex .perps-section-3 .images-grid-title, .perps-section-3 .white-papers-category-title, .perps-section-3 .contact-socials-section h4, .contact-socials-section .perps-section-3 h4, .perps-section-3 .news-posts-title, .perps-section-3 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .perps-section-3 h3, .perps-section-3 .notifications .integrations-title, .notifications .perps-section-3 .integrations-title, .perps-section-3 .notifications .apps-title, .notifications .perps-section-3 .apps-title, .perps-section-3 .ton-gateway-posts h3, .ton-gateway-posts .perps-section-3 h3, .perps-section-3 .dtwap-benefits-title, .perps-section-3 .dtwap-explanation-title, .perps-section-3 .dlimit .schema-subtitle, .dlimit .perps-section-3 .schema-subtitle {
   margin-bottom: 40px;
 }
 .perps-section-3 a {

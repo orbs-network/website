@@ -1,26 +1,26 @@
-import React from "react";
+import React from 'react'
 
 const Network = ({
   first_section,
   second_section,
-  third_section,
+  products_section,
+  why_section,
+  mission_section,
+  how_section,
   _body,
-  video_section,
 }) => {
   return (
     <main className="network page">
       <header className="header network-header">{_body}</header>
-      <img
-        className="network-figure network-figure-left"
-        src="/assets/img/network/big-figure-left.png"
-      />
+
       {first_section}
-      {video_section}
-
       {second_section}
-      {third_section}
+      {products_section}
+      {why_section}
+      {mission_section}
+      {how_section}
     </main>
-  );
-};
+  )
+}
 
-export default Network;
+export default Network

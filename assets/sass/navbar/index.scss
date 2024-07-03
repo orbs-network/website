@@ -1,4 +1,4 @@
-@import "./menu.scss";
+@import './menu.scss';
 
 .overlay {
   position: fixed;
@@ -54,6 +54,7 @@
   justify-content: space-between;
   align-items: center;
   transition: 0.2s all;
+
   &-flex {
     position: relative;
     margin-top: 0px;

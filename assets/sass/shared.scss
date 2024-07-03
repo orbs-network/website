@@ -1,5 +1,5 @@
 $app-background-color: #fcf8fd;
-$navbar-height: 110px !default;
+$navbar-height: 90px !default;
 $text-color: #454545;
 $light-color: #03fcf5;
 $light-blue: #53fffa;
@@ -11,13 +11,13 @@ $dark-color: #191919;
 // $blue: #da88de;
 $gray: #f4f4f4;
 $blue: #5e75e8;
-$light-font: "light";
-$light-oblique-font: "light-oblique";
-$bold-font: "bold";
-$bold-oblique: "bold-oblique";
-$text-font: "Montserrat";
-$blog-font: "blog-main";
-$blog-bold-font: "blog-bold";
+$light-font: 'light';
+$light-oblique-font: 'light-oblique';
+$bold-font: 'bold';
+$bold-oblique: 'bold-oblique';
+$text-font: 'Montserrat';
+$blog-font: 'blog-main';
+$blog-bold-font: 'blog-bold';
 $letter-spacing: -0.009rem;
 $page-section-margin: 80px;
 $page-section-title-margin-small: 20px;
@@ -26,12 +26,7 @@ $deep-blue: #313855;
 
 $pink: #da88de;
 
-$gradient: linear-gradient(
-  102.78deg,
-  #6687e9 29.14%,
-  #b082d5 53.97%,
-  #ed7ec4 77.85%
-);
+$gradient: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
 
 .gradient-text {
   background: $gradient;
@@ -71,18 +66,18 @@ $text-letter-spacing: -0.009rem;
   cursor: pointer;
   text-align: center;
   & * {
-    font-size: inherit!important;
-    font-family: inherit!important;
+    font-size: inherit !important;
+    font-family: inherit !important;
     color: inherit;
     font-weight: inherit;
     text-decoration: inherit;
     margin: 0px;
-    color: inherit!important;
+    color: inherit !important;
   }
-  .text-p{
+  .text-p {
     margin: 0;
   }
- 
+
   &:hover {
     color: white;
     background: $blue;
@@ -98,15 +93,15 @@ $text-letter-spacing: -0.009rem;
   }
 }
 
-.filled-button{
-   @extend .button;
-   background: $pink;
-   border: 2px solid transparent;
-   color: white;
-   &:hover {
-    color: $pink;;
+.filled-button {
+  @extend .button;
+  background: $pink;
+  border: 2px solid transparent;
+  color: white;
+  &:hover {
+    color: $pink;
     background: white;
-     border: 2px solid $pink;
+    border: 2px solid $pink;
   }
 }
 
@@ -149,7 +144,7 @@ $text-letter-spacing: -0.009rem;
 }
 
 .page {
-  padding-top: 180px;
+  padding-top: 90px;
 }
 
 .main-grid {
@@ -164,13 +159,6 @@ $text-letter-spacing: -0.009rem;
   max-width: 900px;
 }
 
-.page-title {
-  font-weight: 900;
-  font-size: 46px;
-  line-height: 60px;
-  @extend .gradient-text;
-}
-
 .header-top-text {
   @extend .page-section-title;
   font-weight: 700;
@@ -183,6 +171,7 @@ $text-letter-spacing: -0.009rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px;
   h4 {
     @extend .header-top-text;
     width: 100%;
@@ -209,7 +198,7 @@ $text-letter-spacing: -0.009rem;
     display: flex;
     align-items: center;
     justify-content: center;
-     gap: 70px;
+    gap: 70px;
   }
   display: flex;
   align-items: center;
@@ -248,18 +237,18 @@ $text-letter-spacing: -0.009rem;
     margin-bottom: $page-section-margin;
   }
   .page-title {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 50px;
+    line-height: 60px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .page-title {
-    font-size: 25px;
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .page {
-    padding-top: 110px;
+    padding-top: 70px;
   }
   .page-section-title {
     font-size: 20px;
@@ -273,37 +262,54 @@ $text-letter-spacing: -0.009rem;
   }
 }
 
+.hljs {
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+}
 
-  .hljs {
-      padding: 0;
-      font-size: 15px;
-      line-height: 24px;
-    }
+.scroll-button {
+  p {
+    margin: 0px !important;
+  }
+}
 
-    .scroll-button{
-      p{
-        margin: 0px!important;
-      }
-    }
+.line-separator {
+  background: #ebebeb;
+  width: 70%;
+  max-width: 400px;
+  height: 3px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  position: relative;
+  &::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    background: white;
+    border: 2px solid #ebebeb;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+}
 
-    .line-separator {
-      background: #ebebeb;
-      width: 70%;
-      max-width: 400px;
-      height: 3px;
-      margin-bottom: 40px;
-      margin-top: 40px;
-      position: relative;
-      &::after {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        content: "";
-        background: white;
-        border: 2px solid #ebebeb;
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-      }
-    }
+.title-pill {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+  text-transform: uppercase;
+
+  &.alt {
+    background: #fff;
+    color: #7988e8;
+  }
+}

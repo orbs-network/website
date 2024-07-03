@@ -1,5 +1,33 @@
 .network {
+  // bg color #FCF8FD
+
   position: relative;
+
+  &-header {
+    background: url('/assets/img/network/network-header-bg.png'),
+      linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    margin: 0;
+
+    h1 {
+      color: #fff;
+      background: none;
+      background-clip: unset;
+      -webkit-text-fill-color: unset;
+      font-size: 70px;
+      line-height: 80px;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 30px;
+      color: #fff;
+    }
+  }
 
   &-figure {
     position: absolute;
@@ -32,34 +60,75 @@
     }
     display: flex;
     align-items: center;
+
     h3 {
       @extend .page-colored-section-title;
-      &:last-of-type {
-        margin-bottom: 20px;
-      }
+      margin-bottom: 20px;
+      text-transform: uppercase;
     }
 
     &-first {
-      padding-top: 0px;
+      background: linear-gradient(
+        343deg,
+        #ffffff 0%,
+        #ffffff 55%,
+        rgba(128, 198, 235, 0.5) 55%,
+        #ffffff 72.81%
+      );
       .network-section {
         &-image {
-          max-width: 250px;
+          max-width: 400px;
           width: 100%;
           height: auto;
+          flex-basis: 50%;
+        }
+        &-text {
+          flex-basis: 50%;
+        }
+      }
+      .main-grid + &-features {
+        align-items: start;
+      }
+
+      &-features {
+        margin-top: 200px;
+        text-align: center;
+
+        &-item {
+          flex-basis: 50%;
+
+          h2 {
+            @extend .title-pill;
+          }
         }
       }
     }
 
     &-second {
-      background: $gray;
+      background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+
       position: relative;
       .network-section {
         &-image {
-          max-width: 270px;
+          flex-grow: 0;
+          max-width: 50%;
           width: 100%;
+          flex-basis: 50%;
         }
         &-text {
-          flex: 1;
+          flex-basis: 50%;
+          h2 {
+            @extend .title-pill, .alt;
+          }
+          h3 {
+            background: none;
+            background-clip: unset;
+            -webkit-text-fill-color: unset;
+            color: white;
+          }
+          .text-p {
+            color: white;
+          }
         }
       }
       &-top {
@@ -113,6 +182,142 @@
           img {
             width: 100%;
             margin-top: $page-section-margin;
+          }
+        }
+      }
+    }
+
+    &-products {
+      h3:last-of-type {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      &-list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+
+        &-item {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          align-items: center;
+          flex: 0 1 25%;
+          padding: 25px;
+
+          .dtwap &-image {
+            aspect-ratio: 1.82;
+          }
+
+          .liquidity-hub &-image,
+          .perpetual-hub &-image {
+            aspect-ratio: 1.8;
+          }
+
+          &-image {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+          }
+
+          &-body {
+            text-align: center;
+            h4 {
+              @extend .page-colored-section-title;
+              font-size: 20px;
+              font-weight: normal;
+              text-transform: uppercase;
+              margin-bottom: 10px;
+            }
+            .text-p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    &-why {
+      background: linear-gradient(
+        15deg,
+        #ffffff 0%,
+        #ffffff 50%,
+        rgba(128, 198, 235, 0.5) 50%,
+        #ffffff 72.81%
+      );
+      &-text {
+        text-align: center;
+
+        .text-p {
+          margin-bottom: 60px;
+        }
+      }
+    }
+
+    &-mission {
+      background-color: #7a89e9;
+      background-image: url('/assets/img/network/mission-section-bg.png');
+      background-size: cover;
+      background-position: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      &-text {
+        text-align: center;
+        h2 {
+          @extend .title-pill, .alt;
+        }
+        .text-p {
+          color: white;
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 40px;
+        }
+      }
+    }
+
+    &-how {
+      text-align: center;
+      h2 {
+        @extend .page-colored-section-title;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        @extend .page-colored-section-title;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+      }
+
+      &-items.main-grid {
+        align-items: flex-start;
+      }
+      &-items {
+        &-item {
+          flex-basis: 33.3333%;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+
+          &-image {
+            max-width: 50%;
+          }
+
+          h4 {
+            font-size: 22px;
+            margin: 0;
+          }
+
+          .text-p {
+            font-size: 16px;
           }
         }
       }
@@ -189,6 +394,9 @@
         gap: 30px;
       }
       &-first {
+        &-features {
+          margin-top: 80px;
+        }
         .network-section {
           &-left {
             order: 1;
@@ -213,6 +421,9 @@
             max-width: 300px;
             width: 90%;
             order: 2;
+          }
+          &-text {
+            text-align: center;
           }
         }
       }
@@ -251,6 +462,64 @@
           img {
             max-width: 400px;
             width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .network {
+    &-header {
+      padding: 40px;
+      h1 {
+        font-size: 50px;
+        line-height: 60px;
+      }
+    }
+    &-section {
+      &-products {
+        padding-left: 10px;
+        padding-right: 10px;
+        &-list {
+          &-item {
+            flex-basis: 50%;
+            &-image {
+              max-width: 80%;
+            }
+          }
+        }
+      }
+      &-mission {
+        &-text {
+          .text-p {
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+      }
+      &-how {
+        &-text {
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .network {
+    &-section {
+      &-products {
+        padding-left: 10px;
+        padding-right: 10px;
+        &-list {
+          &-item {
+            flex-basis: 100%;
+            &-image {
+              max-width: 60%;
+            }
           }
         }
       }
