@@ -6,4 +6,4 @@ layout: partials/network/FlexSectionFirst/FlexSectionFirstFeature
 
 ### Layer 3 Technology Stack
 
-Orbs Layer 3 brings CeFi-level capabilities to DeFi. By acting as a decentralized backend, delivering scalable, efficient, and secure trading solutions without the need for centralized backends.
+Orbs Layer 3 brings CeFi-level capabilities to DeFi by providing DeFi platforms with a decentralized backend, delivering scalable, efficient, and secure trading solutions without the need for centralized backends.
