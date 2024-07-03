@@ -3,6 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 2024-06-27-fenix-finance-secures-300-000-in-seed-funding-round-led-by-orbs-10027146837970.md
+  - orbs-leads-300k-seed-investment-in-fenix-finance-for-blast-liquidity-market.md
+  - OrbsLaunches-Perpetual-Hub-to-Deliver-Intent-Based-Solution.md
   - orbs-liquidity-hub-expands-to-fantom-and-integrates-with-spookyswap.md
   - orbs-unveils-perpetual-hub-a-new-solution-for-onchain-futures-trading.md
   - harris-and-trotter-digital-assets-secures-10-million-in-funding-3405938.md

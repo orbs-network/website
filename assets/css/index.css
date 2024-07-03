@@ -2222,6 +2222,12 @@ body {
 }
 .home .title {
   text-align: left;
+  margin-bottom: 10px;
+}
+.home h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
 .home-link {
   color: #454545;
@@ -2259,6 +2265,7 @@ body {
   line-height: 3.438rem;
   font-family: "Montserrat";
   letter-spacing: -0.009rem;
+  text-transform: uppercase;
 }
 .home-flex-left .socials {
   margin-top: 14vh;

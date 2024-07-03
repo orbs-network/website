@@ -2,8 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-# MAKING YOUR 
+# Bringing CeFi-level<br>execution to DeFi
 
-# SMART CONTRACTS
-
-# SMARTER
+## L3 for advanced On-chain trading
