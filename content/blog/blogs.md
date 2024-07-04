@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Liquidity-Hub-Goes-Live-on-Fenix-Finance/blog.md
   - Orbs-Announces-Strategic-Investment-in-Fenix-Finance-an-Innovative-DEX-on-Blast/blog.md
   - Orbs-Liquidity-Hub-Expands-to-SpookySwap-on-Fantom/blog.md
   - Perpetual-Hub-by-Orbs/blog.md
