@@ -9,6 +9,7 @@ const Main = ({
   link2_url,
   title,
   cards,
+  partners,
   _relativeURL,
   _ID,
 }) => {
@@ -32,13 +33,17 @@ const Main = ({
               {link2_text}
             </a>
           </div>
-          {socials}
         </div>
 
-        <div className="globe-container" style={{ display: 'none' }}>
+        <div className="globe-container">
           <div id="globeArea"></div>
         </div>
       </div>
+      <div className="home-bottom main-grid">
+        {partners}
+        <div className="home-bottom-socials">{socials}</div>
+      </div>
+
       <script src={generateUrl('/assets/js/dependencies/jquery.js')}></script>
       <script src={generateUrl(`/assets/js/dependencies/typed.js`)} />
 

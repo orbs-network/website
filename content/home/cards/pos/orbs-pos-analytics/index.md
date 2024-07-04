@@ -9,4 +9,4 @@ lng: 122.7312101
 countryCode: PH
 ---
 
-analytical tool for both Guardians and Delegators
+Analytical tool for both Guardians and Delegators

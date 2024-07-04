@@ -12,4 +12,5 @@ link2_text: Contact Us
 link2_url: /contact
 title:
   - title.md
+partners: partners/index.md
 ---
