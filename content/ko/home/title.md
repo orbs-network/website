@@ -2,8 +2,6 @@
 layout: partials/shared/simple-md
 ---
 
-# 스마트 컨트랙트,
+# CeFi의 경험을<br>DeFi에서 그대로!,
 
-# 더욱 더
-
-# 스마트하게
+## L3를 통한 차세대 온체인 트레이딩
