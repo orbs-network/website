@@ -2271,9 +2271,6 @@ body {
   position: relative;
   max-height: 75vh;
 }
-.home-flex.main-grid, .home-flex.news-grid, .home-flex.contact, .home-flex.single-blog-header, .home-flex.small-grid, .orbs-vm .home-flex.common-grid-section-grid {
-  padding: 0 3vw;
-}
 .home-flex-left {
   z-index: 100;
   position: relative;
@@ -2378,6 +2375,7 @@ body {
     width: 100%;
     overflow: hidden;
     flex-direction: column;
+    max-height: 100vh;
   }
   .home-flex-left {
     padding: 0px;
