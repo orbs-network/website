@@ -145,34 +145,6 @@ class GlobeHandler {
         )
     }
   }
-
-  showCard(cardData) {
-    if (this.finishedWelcome) {
-      const $guardianDetails = $('#guardianDetails')
-
-      $guardianDetails.html(cardData.component)
-      const container = cardData.component.querySelector('.card-title')
-
-      container.innerHTML = `<span class='card-title-text'></span>`
-
-      try {
-        new Typed('.card-title-text', {
-          strings: [cardData.title],
-          typeSpeed: 50,
-          startDelay: 500,
-          cursorChar: '.',
-          autoInsertCss: true,
-        })
-        const cursor = document.querySelector('.typed-cursor')
-        cursor.innerHTML = ''
-      } catch (error) {}
-      $guardianDetails.fadeIn()
-    }
-  }
-
-  hideCard() {
-    $('#guardianDetails').fadeOut()
-  }
 }
 
 const initGlobe = async () => {
@@ -259,8 +231,6 @@ const initGlobe = async () => {
 
   const changeCard = async (initial) => {
     if (!initial) {
-      globeHandler.hideCard()
-
       await delay(showHideCardDelay)
     }
 
@@ -288,8 +258,6 @@ const initGlobe = async () => {
     )
 
     await delay(showHideCardDelay)
-
-    globeHandler.showCard(currentCardData, timerHandler)
   }
 
   await changeCard(true)

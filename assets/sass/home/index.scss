@@ -2,13 +2,17 @@
 
 .globe-container {
   width: 100%;
-  height: 100%;
+  height: 70vh;
+  position: relative; // To allow positioning of globeArea
+  overflow: visible; // Ensure overflow is visible
+  margin: auto; // Center the container within home-flex
 }
 
 #globeArea {
-  width: 100%;
-  height: 100%;
-  transform: translate3d(-40%, -10%, 0);
+  position: absolute; // Position it absolutely within globe-container
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); // Center globeArea within globe-container
 }
 #guardianDetails {
   display: none;
@@ -23,7 +27,8 @@
   padding-top: 90px;
   padding-bottom: 4rem;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
   background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
 
   .title {
@@ -35,6 +40,9 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    margin-bottom: 4rem;
+
     &-link {
       color: #6d80e9;
       font-size: 0.875rem;
@@ -79,11 +87,6 @@
   &-flex {
     align-items: flex-start;
     position: relative;
-    max-height: 75vh;
-
-    // &.main-grid {
-    //   padding: 0 3vw;
-    // }
 
     &-left {
       z-index: 100;
@@ -116,66 +119,114 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   &-partners {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    max-width: 1200px;
     &-text {
       h3 {
-        font-size: 1.625rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
         color: #fff;
         text-align: center;
         font-weight: 600;
         letter-spacing: 3px;
         line-height: 1.734rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
     }
     &-list {
       display: flex;
-      gap: 0.5rem 1rem;
+      gap: 1.5rem;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       margin-bottom: 3rem;
+
+      img {
+        max-width: 80px;
+        max-height: 40px;
+      }
     }
   }
 }
 
 @media only screen and (max-width: 1440px) {
   .home {
+    overflow-y: auto;
     &-globe-image {
       right: -30vw;
+    }
+    &-flex {
+      max-height: 60vh;
+      &-left {
+        h1 {
+          font-size: 3.5rem;
+          line-height: 4rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    &-bottom {
+      margin-top: 4rem;
+      width: 100vw;
+      position: relative;
+      bottom: unset;
+      left: unset;
+      transform: unset;
+      padding: 0 1rem;
     }
   }
 }
 
-@media only screen and (max-width: $medium) {
+@media only screen and (max-width: 1200px) {
   .home {
-    &-flex-left {
-      h2 {
-        font-size: 1.125rem;
-        letter-spacing: 0.138rem;
+    &-flex {
+      &-left {
+        h2 {
+          font-size: 1.125rem;
+          letter-spacing: 0.138rem;
+        }
+        h1 {
+          font-size: 1.563rem;
+          line-height: 2rem;
+          letter-spacing: 0.13rem;
+        }
       }
-      h1 {
-        font-size: 1.563rem;
-        line-height: 2rem;
-        letter-spacing: 0.13rem;
+      &-globe-image {
+        transform: translate(180px);
       }
-    }
-    &-globe-image {
-      transform: translate(180px);
     }
   }
 }
 
 @media only screen and (max-width: $mobile) {
   .globe-container {
-    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
   }
   #globeArea {
-    overflow-x: hidden;
-    transform: translate3d(0, -20%, 0);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
   }
   .home-link {
     background: $gradient;
@@ -205,26 +256,25 @@
     &-flex {
       width: 100%;
       overflow: hidden;
-
       flex-direction: column;
       max-height: 100vh;
       &-left {
-        padding: 0px;
+        padding: 0 1rem;
         margin-left: auto;
         margin-right: auto;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        .socials {
-          display: none;
-        }
       }
     }
     &-buttons {
       justify-content: center;
+      margin-bottom: 2rem;
     }
-
-    &-bottom {
-      margin-top: 2rem;
+    &-partners-text {
+      h3 {
+        font-size: 1.25rem;
+      }
     }
   }
 }

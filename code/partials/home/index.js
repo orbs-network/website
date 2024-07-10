@@ -41,7 +41,7 @@ const Main = ({
       </div>
       <div className="home-bottom main-grid">
         {partners}
-        <div className="home-bottom-socials">{socials}</div>
+        <div className="home-flex-left-socials">{socials}</div>
       </div>
 
       <script src={generateUrl('/assets/js/dependencies/jquery.js')}></script>

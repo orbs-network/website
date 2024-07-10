@@ -9,7 +9,7 @@ socials:
 link1_text: Learn More
 link1_url: /overview
 link2_text: Contact Us
-link2_url: /contact
+link2_url: mailto:hello@orbs.com
 title:
   - title.md
 partners: partners/index.md
