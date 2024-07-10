@@ -33,7 +33,7 @@
   font-family: "blog-bold-italic";
   src: url("../fonts/blog/bold-italic.ttf");
 }
-.gradient-text, .liquidity-hub-section-3-column h4, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .home-flex-left h1, .card-tooltip p, .card-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section-how h4, .network-section-how h2, .network-section-products-list-item-body h4, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
+.gradient-text, .liquidity-hub-section-3-column h4, .ton-gateway-cards-card-title, .single-blog-bottom-title, .footer-navigation-links-title, .footer-blogs .footer-blog-title, .side-menu a, .subscribe .form-title, .boxes-list .box h5, .page-colored-section-title, .dlimit .schema-subtitle, .dtwap-explanation-title, .dtwap-benefits-title, .ton-gateway-posts h3, .notifications .apps-title, .notifications .integrations-title, .orbs-vm .orbs-vm-graph-2 h3, .news-posts-title, .contact-socials-section h4, .white-papers-category-title, .universe-second-flex .images-grid-title, .network-section-how h4, .network-section-how h2, .network-section-products-list-item-body h4, .network-section h3, .faq-lists-category h5, .common-section-title, .integrations-integrate-title, .integrations-title, .common-grid-section h3, .page-title, .side-menu-title, .header h1, .news-hero h1 {
   background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -138,7 +138,7 @@
 }
 
 .main-grid, .news-grid, .contact, .single-blog-header, .small-grid, .orbs-vm .common-grid-section-grid {
-  max-width: 1200px;
+  max-width: 1600px;
   width: calc(100% - 100px);
   margin-left: auto;
   margin-right: auto;
@@ -2021,16 +2021,18 @@ body {
   width: fit-content;
   min-height: 70px;
   height: auto;
-  padding: 12px 16px;
+  padding: 20px;
   background: #fcf8fd;
   position: relative;
-  border: 1px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
+  border: 2px solid #ff7ffa;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  border-radius: 20px;
+}
+.card-links {
+  margin-top: 14px;
 }
 .card-with-image .card-content {
   width: calc(100% - 134px);
@@ -2070,7 +2072,6 @@ body {
   font-weight: 500;
 }
 .card-content {
-  padding: 20px 0px 0px 0px;
   width: 100%;
 }
 .card-body-text {
@@ -2108,34 +2109,28 @@ body {
 }
 .card-title {
   margin-bottom: 3px;
-  min-height: 35px;
   position: relative;
-  font-weight: 700;
 }
 .card-title .typed-cursor::after {
   display: none;
 }
 .card-title-text {
+  color: #7479e6;
   font-family: "Montserrat";
   letter-spacing: -0.009rem;
   font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 2rem;
+  font-weight: 900;
   text-transform: uppercase;
 }
 .card-tooltip {
-  position: absolute;
-  top: 0px;
-  transform: translate(0, -50%);
-  right: 25px;
-  padding: 0px 16px 2px 16px;
-  height: 41px;
+  padding: 2px 10px;
   background: white;
-  border: 1px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(180deg, #cd86df 0%, #688ce9 100%);
+  border: 1px solid #ff7ffa;
   display: flex;
   align-items: center;
+  border-radius: 20px;
+  width: fit-content;
+  margin-bottom: 12px;
 }
 .card-tooltip img {
   margin-right: 10px;
@@ -2143,10 +2138,11 @@ body {
   height: 100%;
   object-fit: contain;
 }
-.card-tooltip p {
+.card-tooltip-label {
   font-family: "Montserrat";
   color: #454545;
   font-size: 0.813rem;
+  color: #7479e6;
   letter-spacing: -0.009rem;
   font-weight: 600;
   line-height: normal;
@@ -2156,9 +2152,8 @@ body {
   overflow: hidden;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  margin-top: 10px;
   overflow: hidden;
+  color: #ff7ffa !important;
 }
 .card-link:first-child {
   margin-top: 0px;
@@ -2166,12 +2161,14 @@ body {
 .card-link img {
   width: 17px;
   height: 17px;
-  margin-right: 10px;
+  margin-right: 6px;
   object-fit: contain;
   margin-top: 1px;
 }
 .card-link-text {
-  color: #ff8b97 !important;
+  color: #ff7ffa !important;
+  font-weight: 900;
+  text-transform: uppercase;
   flex: 1;
   letter-spacing: 0.4px;
   white-space: nowrap;
@@ -2194,40 +2191,61 @@ body {
   }
 }
 .globe-container {
-  left: 0;
-  top: 0;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: visible;
+  margin: auto;
 }
 
 #globeArea {
-  left: 0;
-  top: 0;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #guardianDetails {
   display: none;
   position: absolute;
-  right: 15vw;
-  bottom: 15vh;
-  max-width: 400px;
-  width: calc(100% - 40px);
+  left: 50%;
+  top: 45%;
+  max-width: 300px;
+  width: 100%;
   z-index: 9;
 }
 
 .home {
-  padding-top: 110px;
+  padding-top: 90px;
+  padding-bottom: 4rem;
   position: relative;
-  overflow: hidden;
   height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
 }
 .home .title {
   text-align: left;
   margin-bottom: 10px;
+}
+.home-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+.home-buttons-link {
+  color: #6d80e9;
+  font-size: 0.875rem;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem 1.25rem;
+  border-radius: 4rem;
+  text-transform: uppercase;
+  width: auto;
+  font-weight: 600;
+}
+.home-buttons-link:hover {
+  opacity: 0.8;
 }
 .home h2 {
   font-weight: 500;
@@ -2261,27 +2279,94 @@ body {
 .home-flex-left {
   z-index: 100;
   position: relative;
-  padding-top: 28vh;
+  padding-top: 16vh;
+  flex: 1 0 60%;
 }
 .home-flex-left h1 {
-  font-weight: 900;
-  font-size: 2.75rem;
+  font-weight: 800;
+  font-size: 4.063rem;
   letter-spacing: 0.206rem;
-  line-height: 3.438rem;
+  line-height: 4.688rem;
   font-family: "Montserrat";
   letter-spacing: -0.009rem;
+  color: #fff;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 }
-.home-flex-left .socials {
-  margin-top: 14vh;
+.home-flex-left h2 {
+  font-weight: 500;
+  font-size: 1.875rem;
+  color: #fff;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.home-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+}
+.home-partners-text h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 1.734rem;
+  margin-bottom: 2rem;
+}
+.home-partners-list {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.home-partners-list img {
+  max-width: 80px;
+  max-height: 40px;
 }
 
 @media only screen and (max-width: 1440px) {
+  .home {
+    overflow-y: auto;
+  }
   .home-globe-image {
     right: -30vw;
   }
+  .home-flex {
+    max-height: 60vh;
+  }
+  .home-flex-left h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .home-flex-left h2 {
+    font-size: 1.5rem;
+  }
+  .home-bottom {
+    margin-top: 4rem;
+    width: 100vw;
+    position: relative;
+    bottom: unset;
+    left: unset;
+    transform: unset;
+    padding: 0 1rem;
+  }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .home-flex-left h2 {
     font-size: 1.125rem;
     letter-spacing: 0.138rem;
@@ -2291,16 +2376,26 @@ body {
     line-height: 2rem;
     letter-spacing: 0.13rem;
   }
-  .home-globe-image {
+  .home-flex-globe-image {
     transform: translate(180px);
   }
 }
 @media only screen and (max-width: 700px) {
   .globe-container {
-    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
   }
   #globeArea {
-    top: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
   }
   .home-link {
     background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
@@ -2314,34 +2409,38 @@ body {
     display: none;
   }
   #guardianDetails {
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 20px;
-    right: auto;
-    position: fixed;
+    top: 25%;
+    transform: translateX(-50%);
   }
   .home {
     padding-top: 90px;
-    height: 100%;
   }
   .home .title {
     text-align: center;
+  }
+  .home .sub-title {
+    margin-bottom: 16px;
   }
   .home-flex {
     width: 100%;
     overflow: hidden;
     flex-direction: column;
+    max-height: 100vh;
   }
   .home-flex-left {
-    padding: 0px;
+    padding: 0 1rem;
     margin-left: auto;
     margin-right: auto;
-    justify-content: flex-start;
-    height: auto;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
-  .home-flex-left .socials {
-    display: none;
+  .home-buttons {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .home-partners-text h3 {
+    font-size: 1.25rem;
   }
 }
 .navbar-menu {
@@ -2360,7 +2459,7 @@ body {
   opacity: 1;
   z-index: 9999;
   justify-content: center;
-  padding-left: 200px;
+  padding-left: 63px;
   padding-right: 63px;
   transform: translate(-100%);
   background-color: hsl(0deg, 100%, 50%);
@@ -2608,10 +2707,6 @@ body {
 }
 
 .show-menu {
-  position: absolute;
-  left: -73px;
-  top: 50%;
-  transform: translate(0, -50%);
   width: 27px;
 }
 .show-menu img {
@@ -2634,6 +2729,9 @@ body {
   align-items: center;
   transition: 0.2s all;
 }
+.navbar:has(+ .home) {
+  background: #fcf8fd;
+}
 .navbar-flex {
   position: relative;
   margin-top: 0px;
@@ -2643,6 +2741,11 @@ body {
   height: 100%;
   position: relative;
   align-items: center;
+}
+.navbar-top-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 .navbar-top-right {
   display: flex;

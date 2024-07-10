@@ -1,37 +1,63 @@
 @import './cards.scss';
 
 .globe-container {
-  left: 0;
-  top: 0;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 70vh;
+  position: relative; // To allow positioning of globeArea
+  overflow: visible; // Ensure overflow is visible
+  margin: auto; // Center the container within home-flex
 }
 
 #globeArea {
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: absolute; // Position it absolutely within globe-container
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); // Center globeArea within globe-container
 }
 #guardianDetails {
   display: none;
   position: absolute;
-  right: 15vw;
-  bottom: 15vh;
-  max-width: 400px;
-  width: calc(100% - 40px);
+  left: 50%;
+  top: 45%;
+  max-width: 300px;
+  width: 100%;
   z-index: 9;
 }
 .home {
-  padding-top: 110px;
+  padding-top: 90px;
+  padding-bottom: 4rem;
   position: relative;
-  overflow: hidden;
   height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(268.26deg, #7988e8 14.66%, #db89df 86.69%);
+
   .title {
     text-align: left;
     margin-bottom: 10px;
+  }
+
+  &-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 4rem;
+
+    &-link {
+      color: #6d80e9;
+      font-size: 0.875rem;
+      text-decoration: none;
+      background-color: #fff;
+      padding: 1rem 1.25rem;
+      border-radius: 4rem;
+      text-transform: uppercase;
+      width: auto;
+      font-weight: 600;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 
   h2 {
@@ -61,23 +87,74 @@
   &-flex {
     align-items: flex-start;
     position: relative;
+
     &-left {
       z-index: 100;
       position: relative;
-      padding-top: 28vh;
+      padding-top: 16vh;
+      flex: 1 0 60%;
 
       h1 {
-        font-weight: 900;
-        font-size: 2.75rem;
+        font-weight: 800;
+        font-size: 4.063rem;
         letter-spacing: 0.206rem;
-        line-height: 3.438rem;
-        @extend .gradient-text;
+        line-height: 4.688rem;
         font-family: $text-font;
         letter-spacing: -0.009rem;
+        color: #fff;
+        margin-bottom: 1rem;
         text-transform: uppercase;
       }
-      .socials {
-        margin-top: 14vh;
+      h2 {
+        font-weight: 500;
+        font-size: 1.875rem;
+        color: #fff;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &-partners {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    max-width: 1200px;
+    &-text {
+      h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 3px;
+        line-height: 1.734rem;
+        margin-bottom: 2rem;
+      }
+    }
+    &-list {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+
+      img {
+        max-width: 80px;
+        max-height: 40px;
       }
     }
   }
@@ -85,37 +162,71 @@
 
 @media only screen and (max-width: 1440px) {
   .home {
+    overflow-y: auto;
     &-globe-image {
       right: -30vw;
+    }
+    &-flex {
+      max-height: 60vh;
+      &-left {
+        h1 {
+          font-size: 3.5rem;
+          line-height: 4rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    &-bottom {
+      margin-top: 4rem;
+      width: 100vw;
+      position: relative;
+      bottom: unset;
+      left: unset;
+      transform: unset;
+      padding: 0 1rem;
     }
   }
 }
 
-@media only screen and (max-width: $medium) {
+@media only screen and (max-width: 1200px) {
   .home {
-    &-flex-left {
-      h2 {
-        font-size: 1.125rem;
-        letter-spacing: 0.138rem;
+    &-flex {
+      &-left {
+        h2 {
+          font-size: 1.125rem;
+          letter-spacing: 0.138rem;
+        }
+        h1 {
+          font-size: 1.563rem;
+          line-height: 2rem;
+          letter-spacing: 0.13rem;
+        }
       }
-      h1 {
-        font-size: 1.563rem;
-        line-height: 2rem;
-        letter-spacing: 0.13rem;
+      &-globe-image {
+        transform: translate(180px);
       }
-    }
-    &-globe-image {
-      transform: translate(180px);
     }
   }
 }
 
 @media only screen and (max-width: $mobile) {
   .globe-container {
-    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
   }
   #globeArea {
-    top: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
   }
   .home-link {
     background: $gradient;
@@ -129,34 +240,40 @@
     }
   }
   #guardianDetails {
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 20px;
-    right: auto;
-    position: fixed;
+    top: 25%;
+    transform: translateX(-50%);
   }
   .home {
     padding-top: 90px;
-    height: 100%;
+
     .title {
       text-align: center;
+    }
+    .sub-title {
+      margin-bottom: 16px;
     }
 
     &-flex {
       width: 100%;
       overflow: hidden;
-
       flex-direction: column;
+      max-height: 100vh;
       &-left {
-        padding: 0px;
+        padding: 0 1rem;
         margin-left: auto;
         margin-right: auto;
-        justify-content: flex-start;
-        height: auto;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        .socials {
-          display: none;
-        }
+      }
+    }
+    &-buttons {
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    &-partners-text {
+      h3 {
+        font-size: 1.25rem;
       }
     }
   }
