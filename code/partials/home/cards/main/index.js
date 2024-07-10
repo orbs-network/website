@@ -1,5 +1,5 @@
-import React from "react";
-import { handleUrl } from "../../../../util/link";
+import React from 'react'
+import { handleUrl } from '../../../../util/link'
 
 const Contributor = ({
   title,
@@ -17,16 +17,12 @@ const Contributor = ({
 }) => {
   return (
     <div
-      className={`card ${image ? "card-with-image" : ""}`}
+      className={`card ${image ? 'card-with-image' : ''}`}
       data-countrycode={countryCode}
       data-lng={lng}
       data-lat={lat}
       data-title={title}
     >
-      <aside className="card-tooltip">
-        {icon && <img src={handleUrl(icon, _relativeURL, _ID)} />}
-        <p>{type}</p>
-      </aside>
       {image && (
         <div className="card-image">
           <div className="card-image-border"></div>
@@ -34,6 +30,10 @@ const Contributor = ({
         </div>
       )}
       <div className="card-content">
+        <div className="card-tooltip">
+          {icon && <img src={handleUrl(icon, _relativeURL, _ID)} />}
+          <div className="card-tooltip-label">{type}</div>
+        </div>
         <div className="card-title">
           <span className="card-title-text">{title}</span>
         </div>
@@ -42,7 +42,7 @@ const Contributor = ({
         <div className="card-links">{links}</div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contributor;
+export default Contributor
