@@ -6,8 +6,6 @@ resources:
   - menu-links/resources/index.md
 overview:
   - menu-links/overview/index.md
-protocols:
-  - menu-links/protocols/index.md
 community:
   - menu-links/community/index.md
 socials:
@@ -32,7 +30,7 @@ status: network status
 status_url: https://status.orbs.network/
 github: github
 github_url: https://github.com/orbs-network
-developers_url: https://docs.orbs.network/v3/overview/what-is-orbs 
+developers_url: https://docs.orbs.network/v3/overview/what-is-orbs
 blog: blog
 blog_link: /blog
 ---
