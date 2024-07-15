@@ -5,6 +5,9 @@ links:
   - img: /assets/img/socials/white/twitter.svg
     url: https://twitter.com/orbs_korea
 
+  - img: /assets/img/socials/white/telegram.svg
+    url: https://t.me/orbskr
+
   - img: /assets/img/socials/white/talk.svg
     url: https://open.kakao.com/o/giYtuTRb
 

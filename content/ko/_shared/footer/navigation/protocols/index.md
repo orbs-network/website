@@ -2,10 +2,11 @@
 layout: partials/footer/components/navigation/links
 title: POWERED BY ORBS
 links:
+  - liquidity-hub.md
+  - perps.md
   - dtwap.md
   - dlimit.md
-  - liquidity-hub.md
   - notifications.md
   - ton-gateway.md
-  - ton-vote.md
+  - vote.md
 ---
