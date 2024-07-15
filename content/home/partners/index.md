@@ -11,7 +11,6 @@ partners:
   - assets/img/home/partners/pangolin.png
   - assets/img/home/partners/spiritswap.png
   - assets/img/home/partners/arbidex.png
-  - assets/img/home/partners/jst-digital.png
   - assets/img/home/partners/paraswap.png
   - assets/img/home/partners/odos.png
   - assets/img/home/partners/manifold.png
