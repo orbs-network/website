@@ -1,0 +1,11 @@
+title: Use of Ethereum as a Base Layer for PoS and PoA Platforms
+layout: pages/page
+script: white-paper/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md

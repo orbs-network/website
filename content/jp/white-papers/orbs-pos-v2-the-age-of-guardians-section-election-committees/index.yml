@@ -1,0 +1,12 @@
+title: "OrbsのPoS V2：The Age of Guardians「ガーディアンの時代」･･･選挙委員会"
+layout: pages/page
+script: white-paper/index
+
+header:
+  - /jp/_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - /jp/_shared/footer/footer.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md

@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "ORBS token available on TON Blockchain Via Orbit Bridge and Megaton Finance DEX"
+image: /assets/img/ORBS-available-on-Orbit-Bridge-and-Megaton-Finance-DEX/bg.jpg
+gdpr:
+  - /_shared/gdpr/index.md

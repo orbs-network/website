@@ -1,0 +1,12 @@
+title: Rational Threshold Cryptosystems
+layout: pages/page
+script: white-paper/index
+
+header:
+  - /ko/_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - /ko/_shared/footer/footer.md
+subscribe:
+  - /ko/_shared/subscribe/subscribe.md

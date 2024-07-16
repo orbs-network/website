@@ -1,0 +1,17 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description:
+meta_keywords:
+title: "Orbs on BSC: Status Update"
+image: /assets/img/blog/orbs-on-bsc-status-update/bg.png
+
+gdpr:
+  - /_shared/gdpr/index.md

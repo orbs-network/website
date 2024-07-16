@@ -1,0 +1,16 @@
+layout: pages/page
+style: jp
+header:
+  - /jp/_shared/navbar/index.md
+main:
+  - home/body.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md
+gdpr:
+  - /jp/_shared/gdpr/index.md
+
+description: 実用的なブロックチェーンソリューション。 スケーリング可能な予測可能な料金。アプリ間の分離。 あらゆる言語のスマートコントラクト。
+title: "Orbsハイブリッド・ブロックチェーン：ビジネスの分散化を後押し"
+og_locale_alternate: en_US
+og_locale: ja_JP
+url: https://www.orbs.com/jp/

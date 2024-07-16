@@ -1,0 +1,19 @@
+layout: pages/page
+
+script: pos-universe/index
+header:
+  - /ko/_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - /ko/_shared/footer/footer.md
+subscribe:
+  - /ko/_shared/subscribe/subscribe.md
+gdpr:
+  - /ko/_shared/gdpr/index.md
+
+title: Orbs - PoS 유니버스
+meta_description: Orbs pos 유니버스
+meta_og_locale_alternate: ko_KR
+meta_og_locale: en_US
+meta_image:

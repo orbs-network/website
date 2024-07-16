@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "The Open DeFi Notification Protocol Now Supports Single Finance"
+image: /assets/img/blog/The-Open-DeFi-Notification-Protocol-Now-Supports-Single-Finance/bg1.jpg
+gdpr:
+  - /_shared/gdpr/index.md

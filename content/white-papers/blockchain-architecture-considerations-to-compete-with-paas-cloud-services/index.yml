@@ -1,0 +1,11 @@
+title: Blockchain Architecture Considerations to Compete with PaaS/Cloud Services
+layout: pages/page
+script: white-paper/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md

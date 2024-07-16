@@ -1,0 +1,332 @@
+$blog-text-size: 1.313rem;
+
+.single-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-bg {
+    width: 100vw;
+    height: 39.7vw;
+    min-height: 250px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-header {
+    @extend .main-grid;
+    max-width: 800px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    h1 {
+      text-align: left;
+    }
+    &-bg {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+    }
+
+    &-author {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      .blog-hedaer-date {
+        margin-top: 0px;
+      }
+      &-flex {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .blog-share {
+          margin-left: auto;
+          margin-bottom: 0px;
+          gap: 20px;
+          a {
+            width: 22px;
+            height: 22px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+
+      a {
+        text-transform: uppercase;
+      }
+      a,
+      p {
+        text-decoration: none;
+        font-size: 0.875rem;
+      }
+      small {
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 12px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
+        }
+      }
+    }
+  }
+  &-bottom {
+    margin: auto;
+    padding: 50px 0px 98px 0px;
+    width: 100%;
+    &-title {
+      font-size: 1.375rem;
+      text-align: center;
+      font-weight: 500;
+      @extend .gradient-text;
+    }
+    &-flex {
+      max-width: 1300px;
+      width: calc(100% - 60px);
+      margin: auto;
+      padding-top: 30px;
+      flex-wrap: wrap;
+
+      &-item {
+        margin: auto;
+        margin-top: 40px;
+        align-items: center;
+
+        img {
+          margin-bottom: 28px;
+          width: 36px;
+          height: 34px;
+          object-fit: contain;
+        }
+        h4 {
+          font-size: 1.063rem;
+          font-weight: 500;
+          margin-bottom: 23px;
+        }
+        a {
+          @extend .button;
+          height: 51px;
+          padding: 0px 25px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &-body {
+    background: white;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 80px;
+    &-grid {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    * {
+      color: rgba(41, 41, 41, 1);
+      font-family: $blog-font;
+      letter-spacing: 0.003rem;
+    }
+    a,
+    p,
+    li {
+      font-size: $blog-text-size;
+      line-height: 2rem;
+    }
+    a {
+      word-break: break-all;
+    }
+    .title {
+      text-align: left;
+    }
+    strong {
+      font-family: $blog-bold-font;
+    }
+    &-bg {
+      width: 100%;
+      height: auto;
+      margin-bottom: 32px;
+    }
+    .text-p {
+      margin-bottom: 32px;
+      white-space: normal;
+      &:first-child {
+        margin-top: 0px;
+      }
+    }
+    .dots {
+      text-align: center;
+      letter-spacing: 10px;
+      font-size: 30px;
+      position: relative;
+    }
+
+    ul {
+      margin-bottom: 40px;
+
+      li {
+        padding-left: 30px;
+        position: relative;
+        &::after {
+          position: absolute;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          left: 8px;
+          top: 15px;
+          background: black;
+          content: "";
+        }
+        .text-p {
+          margin-bottom: 0px;
+        }
+        margin-bottom: 13.76px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+    ol {
+      margin-bottom: 40px;
+      list-style-type: decimal;
+      padding-left: 25px;
+      li {
+        .text-p {
+          margin-bottom: 0px;
+        }
+        margin-bottom: 13.76px;
+      }
+    }
+    .image,
+    iframe {
+      width: 100%;
+      max-width: 1100px;
+      margin-bottom: 30px;
+    }
+    iframe {
+      position: relative;
+      transform: translate(-50%);
+      left: 50%;
+      height: 45vw;
+      max-height: 600px;
+      min-height: 260px;
+    }
+    .image {
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        width: auto;
+      }
+    }
+    * {
+      width: 100%;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .title-h1,
+    .title-h2,
+    .title-h3,
+    .title-h4 {
+      margin-bottom: 13.76px;
+      padding-top: 20px;
+      font-family: $blog-bold-font;
+    }
+    .title-h1 {
+      font-size: 2rem;
+    }
+    .title-h2 {
+      font-size: 1.875rem;
+      a {
+        font-size: 1.875rem;
+        text-decoration: none;
+      }
+    }
+    .title-h3 {
+      font-size: 1.563rem;
+      a {
+        font-size: 1.563rem;
+      }
+    }
+    .title-h4 {
+      font-size: 1.375rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .single-blog {
+    &-header {
+      .blog-share {
+        a {
+          margin-left: 20px;
+        }
+      }
+      &-title {
+        font-size: 1.4rem;
+      }
+      &-author {
+        .image {
+          width: 40px;
+          height: 40px;
+        }
+        a,
+        p {
+          font-size: 0.813rem;
+        }
+      }
+    }
+    &-body {
+      .text-p {
+        margin-bottom: 30px;
+      }
+      a,
+      p,
+      li,
+      ol {
+        font-size: 1.125rem;
+      }
+      .title-h2,
+      .title-h3,
+      .title-h4 {
+        margin-bottom: 10px;
+      }
+      .title-h2 {
+        font-size: 1.5rem;
+      }
+      .title-h3 {
+        font-size: 1.3rem;
+      }
+      .title-h4 {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

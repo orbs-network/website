@@ -1,0 +1,19 @@
+layout: pages/page
+
+script: ecosystem/index
+main:
+  - body.md
+header:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+gdpr:
+  - /_shared/gdpr/index.md
+
+title: Ecosystem
+description: orbs Ecosystem
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

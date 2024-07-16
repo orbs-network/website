@@ -1,0 +1,20 @@
+layout: pages/page
+script: blogs/index
+
+header:
+  - /_shared/navbar/index.md
+main:
+  - body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+
+gdpr:
+  - /_shared/gdpr/index.md
+
+description: 
+title:
+locale_alternate: ko_KR
+locale: en_US
+image:
