@@ -8,23 +8,23 @@ Orbs.com website source code and build (served from github pages)
 
 ## Deployment of new content
 
-* Commit any changes to `main` branch on Github
+- Commit any changes to `main` branch on Github
 
-* This will trigger Circle CI job "build and deploy"
+- This will trigger Circle CI job "build and deploy"
 
-* Assuming everything builds smoothly, the website should be updated automatically
+- Assuming everything builds smoothly, the website should be updated automatically
 
 &nbsp;
 
 ## Development
 
-* Install [Cuttlebelle](https://cuttlebelle.com/):
+- Install [Cuttlebelle](https://cuttlebelle.com/):
 
   ```
   npm install cuttlebelle -g
   ```
 
-* Run watch from the project root to see changes locally:
+- Run watch from the project root to see changes locally:
 
   ```
   cuttlebelle watch
@@ -34,7 +34,7 @@ Orbs.com website source code and build (served from github pages)
 
 > Note: this only needs to be done once per repo to enable Circle CI -> Github Pages auto deploy
 
-* Create an ssh key pair with empty passphrase on your local machine:
+- Create an ssh key pair with empty passphrase on your local machine:
 
   ```
   ssh-keygen -t rsa -b 4096 -C "ci-build@orbs.com"
@@ -42,15 +42,16 @@ Orbs.com website source code and build (served from github pages)
 
   > Note: this will generate the files ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub containing the keys
 
-* Open https://app.circleci.com/settings/project/github/orbs-network/website/ssh and click "Add SSH Key":
-  * Hostname: `github.com`
-  * Private Key: the full contents of ~/.ssh/id_rsa
+- Open https://app.circleci.com/settings/project/github/orbs-network/website/ssh and click "Add SSH Key":
 
-* Update the SSH fingerprint (from Circle CI) in the file `.circleci/config.yml` in this repo
+  - Hostname: `github.com`
+  - Private Key: the full contents of ~/.ssh/id_rsa
 
-* Open https://github.com/orbs-network/website/settings/keys and click "Add deploy key":
-  * Title: `Circle CI github pages write`
-  * Key: the full contents of ~/.ssh/id_rsa.pub
+- Update the SSH fingerprint (from Circle CI) in the file `.circleci/config.yml` in this repo
+
+- Open https://github.com/orbs-network/website/settings/keys and click "Add deploy key":
+  - Title: `Circle CI github pages write`
+  - Key: the full contents of ~/.ssh/id_rsa.pub
 
 &nbsp;
 
@@ -65,6 +66,5 @@ Orbs.com website source code and build (served from github pages)
 
 A nice solution meeting these goals was relying on the following:
 
-* https://cuttlebelle.com/ - lean open-source framework for server-side rendering of static websites in React
-* https://bulma.io/ - lean open-source css framework for core components / UI that does not rely on JS 
-
+- https://cuttlebelle.com/ - lean open-source framework for server-side rendering of static websites in React
+- https://bulma.io/ - lean open-source css framework for core components / UI that does not rely on JS
