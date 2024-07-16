@@ -116,13 +116,6 @@
 @media only screen and (min-width: $mobile) {
   .navbar {
     &-menu {
-      &-resources {
-        width: calc(190px * 3 + 30px);
-        gap: 10px;
-        &-box {
-          width: 190px;
-        }
-      }
       &-links {
         &-link {
           &:hover {
