@@ -5,4 +5,4 @@ url: /faq
 image: assets/img/navbar/menu/accelerator.svg
 ---
 
-Frequency Asked Questions
+Frequently Asked Questions
