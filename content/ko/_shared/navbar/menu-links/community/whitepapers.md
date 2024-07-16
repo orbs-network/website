@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Whitepapers](/ko/white-papers)
+[백서 및 개발문서](/ko/white-papers)
