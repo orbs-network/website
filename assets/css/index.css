@@ -2536,15 +2536,12 @@ body {
   padding-bottom: 5px;
 }
 .navbar-menu-links > ul {
-  display: flex;
-  flex-wrap: wrap;
+  column-count: 2;
 }
 .navbar-menu-links-link {
-  flex: 1 1 50%;
   position: relative;
   margin-bottom: 1rem;
   display: flex;
-  width: fit-content;
   transition: 0.2s all;
 }
 .navbar-menu-links-link figure {
@@ -2553,7 +2550,7 @@ body {
   top: 60%;
   transform: translate(0, -50%);
   width: 14px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #454545;
   height: 1px;
   opacity: 0;
   pointer-events: none;
@@ -2650,8 +2647,8 @@ body {
     padding-right: 20px;
     padding-bottom: 50px;
   }
-  .navbar-menu-links-link {
-    flex: 1 1 100%;
+  .navbar-menu-links > ul {
+    column-count: 1;
   }
   .navbar-menu-links-link a {
     font-size: 0.875rem;
