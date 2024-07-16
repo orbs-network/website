@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-liquidity-hub-launches-on-fenix-finance-to-transform-blast-liquidity-3508323.md
+  - orbs-announces-its-liquidity-hub-on-fenix-finance.md
   - 2024-06-27-fenix-finance-secures-300-000-in-seed-funding-round-led-by-orbs-10027146837970.md
   - orbs-leads-300k-seed-investment-in-fenix-finance-for-blast-liquidity-market.md
   - OrbsLaunches-Perpetual-Hub-to-Deliver-Intent-Based-Solution.md
