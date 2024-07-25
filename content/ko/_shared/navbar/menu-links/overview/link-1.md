@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[오브스 소개](/ko/overview)
+[오브스: 레이어 3](/ko/overview)
