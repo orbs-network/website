@@ -4,8 +4,10 @@ title: Resources
 links:
   - tetra.md
   - analytics.md
+  - network-status.md
   - calculator.md
-  - faq.md
+  - defi.md
   - developers.md
+  - alphaday.md
   - oip-6.md
 ---
