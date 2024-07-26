@@ -20,6 +20,6 @@ links:
   - img: /assets/img/socials/white/github.svg
     url: https://github.com/orbs-network/
 
-  - img: /assets/img/socials/white/snapshot.jpeg
+  - img: /assets/img/socials/white/snapshot.svg
     url: https://snapshot.org/#/orbs-network.eth
 ---
