@@ -1,67 +1,80 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/What-is-Orbs/bg.png
+blogUrl: What-is-Orbs
+date: 2024-08-08
+title: "What is Orbs?"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "Following the launch of four main L3 products and widespread integrations of Orbs’ services by leading DeFi projects, the project’s mission statement has become much clearer: Bringing CeFi-level execution to DeFi for superior on-chain trading."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+_The author leads business development at the Orbs team and is a long time crypto OG._
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+I talk a lot about Orbs, which makes sense since explaining what Orbs does is my job. That being said, in the last few months, I may not have been doing my job very well. Let me explain:
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+In early 2022, we repositioned Orbs as a Layer 3 (L3) infrastructure protocol aimed at 'making smart contracts smarter.' As the pioneering L3 project, Orbs operates across existing EVM and non-EVM L1s and L2s, significantly enhancing the capabilities of smart contracts and DeFi applications. Initially, we communicated Orbs' value proposition broadly due to the early stage of this new technology. This was technically correct but difficult to understand, and people did not always comprehend what Orbs does exactly.
 
-### Step-by-Step Guide
+Today, following the launch of four main L3 products and widespread integrations of Orbs’ services by leading DeFi projects, the project’s mission statement has become much clearer:
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+**Bringing CeFi-level execution to DeFi for superior on-chain trading.**
 
-Please also see our disclaimers below.
+With the principles and information set out in this blog, I believe it will be easier for me and everyone else to answer the simple question, “What is Orbs?”
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+### Orbs: Empowering Advanced On-chain Trading with L3 Technology
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically to enable advanced on-chain trading. Orbs’ mission is to revolutionize on-chain trading by providing technology that delivers CeFi-level pricing and execution capabilities to existing platforms in the  decentralized finance (DeFi) ecosystem. This is achieved through a combination of features:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+- **Aggregated Liquidity:** By providing technology that optimizes on-chain trading with aggregated liquidity, Orbs enables DEXs to deliver on-chain pricing that is competitive to pricing provided on centralized exchanges.
+- **On-chain derivatives:** While perpetual futures are the most popular trading vehicle on CEXs, equivalent on-chain platforms still significantly lag behind. Orbs aims to close this gap by enabling DEXs to add superior execution and deep liquidity on-chain, on par with centralized standards.
+- **Advanced Trading Orders:** Orbs’ technology allows DEXs to facilitate complex trading strategies with advanced order types and decentralized derivatives, giving users unprecedented control and flexibility.
+- **Decentralized Backend:** Orbs achieves all this without requiring liquidity to migrate to a new chain, serving as a decentralized backend for decentralized trading platforms that bridges the gap between DeFi and CeFi.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+### Addressing DeFi Pain Points with Orbs Solutions
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+The journey towards Orbs' L3 solution begins with recognizing the challenges in on-chain trading within the DeFi landscape. Users are drawn to on-chain trading for its privacy, security, and lack of counterparty risk, but they often face liquidity fragmentation, inferior user experience, and uncompetitive pricing.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+By harnessing the power of Orbs L3 decentralized backend infrastructure, Orbs allows the DEXs who use its technology to circumvent these challenges, offering DeFi enthusiasts an experience on par with centralized counterparts. Imagine a world where DeFi and CeFi converge seamlessly – that's the promise of Orbs technology.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+### Layer 3 Technology Stack: Powering Next-Gen DeFi Protocols
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+Orbs isn't just a concept; it's a tangible force driving innovation across the DeFi landscape. Leveraging a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer,  currently powering four main protocols -
 
-Once the position is opened, you can always re-adjust the parameters:
+- [Liquidity Hub](https://www.orbs.com/liquidity-hub/) - decentralized optimization layer for DEXs enabling DEXs to tap into external liquidity sources in order to provide CeFi-competitive prices on swaps.
+- [Perpetual Hub](https://www.orbs.com/perpetual-hub/) - full suite of services, including hedger, liquidator and oracle, enabling intent-based on-chain perpetual futures trading.
+- [dTWAP Protocol](https://www.orbs.com/dtwap/) - advanced order type for DEXs allowing for CeFi-level time-based TWAP orders to be executed on chain.
+- [dLIMIT Protocol](https://www.orbs.com/dlimit/) - advanced order type for DEXs allowing for CeFi-level limit orders to be executed on chain.  
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+![value-proposition](/assets/img/blog/What-is-Orbs/image1.jpg)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+These protocols, once integrated into a decentralized trading platform, empower traders with advanced tools and platforms, ensuring secure, scalable, and efficient trading solutions without centralized intermediaries. Whether it's executing sophisticated trading strategies or tapping into external liquidity sources, Orbs' Layer 3 technology paves the way for a new era of decentralized finance.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+### Who Benefits from Orbs L3 for Advanced On-chain Trading?
 
-### 3) Earn Orbs in the Grazing Range
+The impact of Orbs' innovation extends far and wide, with leading DeFi projects recognizing its transformative potential and integrating its technology. Users benefit from:
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+- On-chain Access to Advanced Trading Products and Services: Protocols such as dLIMIT and dTWAP offer advanced order types like TWAP and limit orders directly on decentralized exchanges, enhancing traders' strategies and experiences.
+- Competitive Pricing and Lower Fees: Utilizing Liquidity Hub, Orbs provides DEX users with access to aggregated liquidity from multiple sources, ensuring better prices and lower fees.
+- Decentralization and Privacy: Orbs maintains the core principles of decentralization, providing users with enhanced privacy, security, and anonymity.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+### Conclusion: Bringing CeFi-level execution to DeFi
 
-#### And that’s it – You are now a senior Alpaca!
+Orbs is dedicated to transforming the DeFi landscape by bringing CeFi-level execution to on-chain trading. We're not launching anything new; instead, we're refining our communication to help our community better understand our current focus. Our Layer-3 blockchain infrastructure supports protocols that allow DEXs to empower traders with advanced tools and platforms, ensuring secure, scalable, and efficient trading solutions without centralized intermediaries.
+
+To learn more about Orbs' innovative L3 technology, visit our [website](https://www.orbs.com/) and follow the Orbs project on [Twitter](https://twitter.com/orbs_network) and [Telegram](https://t.me/OrbsNetwork). Join us as we continue to redefine the possibilities of decentralized finance, one block at a time.
+
+
+
+
+
+
+
+
+
 
 <div class='line-separator'> </div>
 
-**Please Note**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
-
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
