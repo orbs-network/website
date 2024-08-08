@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/fenix-finance-secures-$300k-seed-investment-from-orbs.md
-  - ../posts/orbs-liquidity-hub-expands-to-fantom-blockchain-integrates-with-spookyswap.md
+  - ../posts/how-a-multilayered-blockchain-ecosystem-is-fostering-growth.md
+  - ../posts/orbs-pioneers-layer-3-technology-to-bridge-cefi-and-defi-trading-experiences.md
 ---
 
