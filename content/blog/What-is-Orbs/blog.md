@@ -47,7 +47,7 @@ Orbs isn't just a concept; it's a tangible force driving innovation across the D
 - [dTWAP Protocol](https://www.orbs.com/dtwap/) - advanced order type for DEXs allowing for CeFi-level time-based TWAP orders to be executed on chain.
 - [dLIMIT Protocol](https://www.orbs.com/dlimit/) - advanced order type for DEXs allowing for CeFi-level limit orders to be executed on chain.  
 
-![value-proposition](/assets/img/blog/What-is-Orbs/image1.jpg)
+![value-proposition](/assets/img/blog/What-is-Orbs/image1.png)
 
 
 These protocols, once integrated into a decentralized trading platform, empower traders with advanced tools and platforms, ensuring secure, scalable, and efficient trading solutions without centralized intermediaries. Whether it's executing sophisticated trading strategies or tapping into external liquidity sources, Orbs' Layer 3 technology paves the way for a new era of decentralized finance.
