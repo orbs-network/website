@@ -6,4 +6,4 @@ date: 7, August 2024
 logo: /assets/img/news/logos/Forbes.jpg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+One example is Orbs, which operates as a decentralized, serverless cloud for the deployment of smart contracts, which integrates with several Layer 1 and 2 platforms for underlying security.
