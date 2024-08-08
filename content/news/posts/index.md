@@ -3,6 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - a-conversation-with-ran-hammer-vp-of-business-development-at-orbs.md
+  - fenix-finance-secures-$300k-seed-investment-from-orbs.md
+  - orbs-liquidity-hub-expands-to-fantom-blockchain-integrates-with-spookyswap.md
   - orbs-liquidity-hub-launches-on-fenix-finance-to-transform-blast-liquidity-3508323.md
   - orbs-announces-its-liquidity-hub-on-fenix-finance.md
   - 2024-06-27-fenix-finance-secures-300-000-in-seed-funding-round-led-by-orbs-10027146837970.md
