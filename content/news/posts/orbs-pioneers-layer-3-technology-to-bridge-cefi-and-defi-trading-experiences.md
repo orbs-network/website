@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-pioneers-layer-3-technology-to-bridge-cefi-and-defi-trading-experiences.jpg
+url: https://hackernoon.com/orbs-pioneers-layer-3-technology-to-bridge-cefi-and-defi-trading-experiences
+date: 5, August 2024
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Ran Hammer, VP of Business Development at Orbs, discusses the platform's innovative approach to blockchain technology, including its unique Layer 3 infrastructure and focus on enhancing DeFi trading experiences.
