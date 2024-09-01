@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - sushiswap-taps-orbs-technology-integrates-limit-orders-and-dca-strategies.md
+  - orbs-unveils-blueprint-to-elevate-defi-trading-with-cefi-standards.md
   - a-conversation-with-ran-hammer-vp-of-business-development-at-orbs.md
   - fenix-finance-secures-$300k-seed-investment-from-orbs.md
   - orbs-liquidity-hub-expands-to-fantom-blockchain-integrates-with-spookyswap.md
