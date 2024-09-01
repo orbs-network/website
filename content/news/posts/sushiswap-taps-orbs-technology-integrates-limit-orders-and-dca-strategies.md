@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/sushiswap-taps-orbs-technology-integrates-limit-orders-and-dca-strategies.webp
+url: https://invezz.com/news/2024/08/20/sushiswap-taps-orbs-technology-integrates-limit-orders-and-dca-strategies/
+date: 20, August 2024
+logo: /assets/img/news/logos/sushiswap-taps-orbs-technology-integrates-limit-orders-and-dca-strategies.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+SushiSwap integrates Orbs' tech for on-chain limit orders and DCA strategies.
