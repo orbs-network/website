@@ -1,67 +1,66 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/New-Orbs-Guardian-Animoca-Brands-Japan/bg.png
+blogUrl: New-Orbs-Guardian-Animoca-Brands-Japan
+date: 2024-09-11
+title: "New Orbs Guardian: Animoca Brands Japan"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/MayoHotta.md
 type:
-short_description:
+short_description: "The Orbs project is excited to welcome the addition of a new Guardian: Animoca Brands Japan!"
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**The Orbs project is excited to welcome the addition of a new Guardian: Animoca Brands Japan!**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Animoca Brands Japan, a strategic subsidiary of Animoca Brands Corporation Limited, is a major player in the Web 3.0 space. Based in Hong Kong, Animoca Brands is a global leader in shaping the next generation of the internet, with a strong focus on Web 3.0 strategies. Established to support Japanese intellectual property and content holders—including major publishers, brands, educational institutions, sports organizations, athletes, artists, and game developers—Animoca Brands Japan brings a wealth of expertise and a robust network to our community.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Animoca Brands Japan chose Orbs as their first ever validator partner and offers a partner program to support the global expansion of Japanese Web3 projects and their entry into Japan by providing multifaceted support to promote mass adoption.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+### Orbs Guardians: The Backbone of the Orbs Network
+As a public, permissionless blockchain infrastructure project, Orbs relies on its Guardians to ensure network security and uphold its long-term vision. Guardians run validator nodes, maintaining the integrity and stability of the Orbs network. The entire Orbs community is excited that Animoca Brands Japan has joined this esteemed group of Guardians, whose dedication and active involvement are vital to the security and operation of the Orbs ecosystem.
 
-### Step-by-Step Guide
+### Empowering Orbs Layer 3 Technology
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Orbs Guardians are essential to the network’s proof-of-stake mechanism and the innovative Orbs [Layer 3 technology](https://www.orbs.com/overview/). This technology provides DeFi platforms with decentralized backend solutions, offering scalable, efficient, and secure trading capabilities without the need for centralized infrastructure.
 
-Please also see our disclaimers below.
+Currently, Orbs powers four key protocols:
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+- [dTWAP](https://www.orbs.com/dtwap/) & [dLIMIT](https://www.orbs.com/dlimit/): Advanced trading order solutions
+- [Liquidity Hub](https://www.orbs.com/liquidity-hub/): Aggregated liquidity for DEXs
+- [Perpetual Hub](https://www.orbs.com/perpetual-hub/): A comprehensive suite for decentralized perpetuals platforms
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+These protocols deliver CeFi-level execution to DeFi platforms and are integrated with leading projects such as Sushiswap and PancakeSwap. Guardians are crucial in ensuring these protocols operate with robustness, efficiency, and stability.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+Orbs welcomes Animoca Brands Japan for joining the Orbs ecosystem and advancing the shared vision of a decentralized future.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+**Welcome aboard, Animoca Brands Japan!**
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Animoca Brands Japan**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Animoca Brands KK was established with the aim of supporting the global Web 3.0 strategies of Japanese intellectual property and content (IP) holders, such as major publishers, brands, education, sports organizations, athletes, artists, and game companies. It is a strategic subsidiary in Japan of Animoca Brands Corporation Limited, a global leading Web 3 company based in Hong Kong. Specifically, it will build and provide a platform that utilizes blockchain technology, providing a mechanism for intellectual property and IP holders to have their own ecosystem in Web 3.0 and issue NFTs and tokens within it. This will help them directly connect with global fans, build communities, and mature them.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Learn more: https://animocabrands.co.jp/
+
+<div class='line-separator'> </div>
+
+**About Orbs**
+
+Orbs is a decentralized Layer-3 (L3) blockchain specifically designed for advanced on-chain trading. 
+
+Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Innovative protocols like dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub push the boundaries of DeFi and smart contract technology, introducing CeFi-level execution to on-chain trading. 
+
+
+The project's core team comprises over thirty dedicated contributors globally from Tel Aviv, London, New York, Tokyo, and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at: 
+
+Telegram: https://t.me/OrbsNetwork 
+
+Twitter: https://twitter.com/orbs_network 
+
+
+
+
