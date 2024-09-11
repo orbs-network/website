@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - New-Orbs-Guardian-Animoca-Brands-Japan/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Lynex-on-Linea/blog.md
   - SushiSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
   - Orbs-Liquidity-Hub-Goes-Live-on-Fenix-Finance/blog.md
