@@ -3,7 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
-  - orbs-announces-animoca-brands-japan-as-new-guardian-of-its-network.md
+  - orbs-announces-animoca-brands-japan-as-new-guardian-of-its-layer-3-network.md
   - lynex-integrates-orbs-liquidity-hub-protocol.md
   - sushiswap-adopts-orbs-dlimit-dca-for-advanced-trading.md
   - orbs-introduces-cefi-trading-standards-to-defi-platforms.md
