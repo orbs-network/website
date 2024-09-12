@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-announces-animoca-brands-japan-as-new-guardian-of-its-network.md
+  - lynex-integrates-orbs-liquidity-hub-protocol.md
+  - sushiswap-adopts-orbs-dlimit-dca-for-advanced-trading.md
+  - orbs-introduces-cefi-trading-standards-to-defi-platforms.md
   - sushiswap-taps-orbs-technology-integrates-limit-orders-and-dca-strategies.md
   - orbs-unveils-blueprint-to-elevate-defi-trading-with-cefi-standards.md
   - a-conversation-with-ran-hammer-vp-of-business-development-at-orbs.md
