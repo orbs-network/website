@@ -14,8 +14,8 @@ links:
   - img: /assets/img/socials/white/youtube.svg
     url: https://www.youtube.com/channel/UCKxNkYT3UAEra9jp947l5gw?sub_confirmation=1
 
-  - img: /assets/img/socials/white/medium.svg
-    url: https://orbskorea.medium.com/
+  - img: /assets/img/socials/white/naver.svg
+    url: https://blog.naver.com/orbskorea
 
   - img: /assets/img/socials/white/github.svg
     url: https://github.com/orbs-network/
