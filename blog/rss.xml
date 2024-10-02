@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Sep 2024 09:12:53 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 02 Oct 2024 09:42:15 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[A new solver appears… Magpie!]]></title>
+            <description><![CDATA[Orbs Liquidity Hub has taken another step in optimizing decentralized finance (DeFi) liquidity by integrating Magpie.]]></description>
+            <link>https://www.orbs.com/A-New-Liquidity-Hub-Solver-Magpie</link>
+            <guid isPermaLink="true">https://www.orbs.com/A-New-Liquidity-Hub-Solver-Magpie</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/A-New-Liquidity-Hub-Solver-Magpie/image2.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[New Orbs Guardian: Animoca Brands Japan]]></title>
             <description><![CDATA[The Orbs project is excited to welcome the addition of a new Guardian: Animoca Brands Japan!]]></description>
