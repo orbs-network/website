@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - A-New-Liquidity-Hub-Solver-Magpie/blog.md
   - New-Orbs-Guardian-Animoca-Brands-Japan/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Lynex-on-Linea/blog.md
   - SushiSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
