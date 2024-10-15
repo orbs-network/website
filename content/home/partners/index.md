@@ -23,6 +23,7 @@ partners:
   - assets/img/home/partners/chronos.png
   - assets/img/home/partners/fenix.png
   - assets/img/home/partners/lynex.png
+  - assets/img/home/partners/algb.png
 ---
 
 ### Most widely integrated L3 solution for DeFi trading
