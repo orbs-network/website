@@ -24,6 +24,7 @@ partners:
   - /assets/img/home/partners/fenix.png
   - /assets/img/home/partners/lynex.png
   - /assets/img/home/partners/algb.png
+  - /assets/img/home/partners/magpie.png
 ---
 
 ### DeFi 분야에서 가장 많은 선택을 받은 L3 솔루션
