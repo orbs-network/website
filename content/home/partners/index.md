@@ -24,6 +24,7 @@ partners:
   - assets/img/home/partners/fenix.png
   - assets/img/home/partners/lynex.png
   - assets/img/home/partners/algb.png
+  - assets/img/home/partners/magpie.png
 ---
 
 ### Most widely integrated L3 solution for DeFi trading
