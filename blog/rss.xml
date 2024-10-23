@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Oct 2024 07:44:05 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 23 Oct 2024 09:04:23 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Liquidity Hub Expands to Ethereum for the first time with QuickSwap DEX!]]></title>
+            <description><![CDATA[QuickSwap, the largest native DEX on Polygon, is launching an Ethereum liquidity aggregator powered by Orbs Liquidity Hub.]]></description>
+            <link>https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-Ethereum-with-QuickSwap</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-Ethereum-with-QuickSwap</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Liquidity-Hub-Expands-to-Ethereum-with-QuickSwap/lh-quickswap-hero.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[A new solver appears… Magpie!]]></title>
             <description><![CDATA[Orbs Liquidity Hub has taken another step in optimizing decentralized finance (DeFi) liquidity by integrating Magpie.]]></description>
