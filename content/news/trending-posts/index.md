@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/orbs-announces-animoca-brands-japan-as-new-guardian-of-its-network.md
-  - ../posts/orbs-liquidity-hub-comes-to-linea-blockchain-details.md
+  - ../posts/quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration.md
+  - ../posts/layer-3-explained-how-l3-technology-enhances-existing-blockchain-ecosystems.md
 ---
 

@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - how-onchain-trading-has-closed-the-gap-with-centralized-exchanges.md
+  - orbs-liquidity-hub-launches-on-ethereum-via-quickswap-partnership.md
+  - orbs-liquidity-hub-comes-to-quickswap.md
+  - orbs-announces-animoca-brands-japan-as-new-guardian-of-its-network.md
+  - orbs-liquidity-hub-comes-to-linea-blockchain-details.md
   - orbs-announces-animoca-brands-japan-as-new-guardian-of-its-layer-3-network.md
   - lynex-integrates-orbs-liquidity-hub-protocol.md
   - sushiswap-adopts-orbs-dlimit-dca-for-advanced-trading.md
