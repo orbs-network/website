@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration.jpg
+url: https://hackernoon.com/quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration
+date: 23, October 2024
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+QuickSwap, a multi-chain decentralized exchange (DEX), announced its expansion to Ethereum through integration with Orbs Liquidity Hub, marking a strategic move in the DEX ecosystem's evolution
