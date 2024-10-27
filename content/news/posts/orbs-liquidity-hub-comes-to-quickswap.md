@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-liquidity-hub-comes-to-quickswap.jpg
+url: https://finbold.com/orbs-liquidity-hub-comes-to-quickswap/
+date: 24, October 2024
+logo: /assets/img/news/logos/Finbold.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs, a Layer-3 (L3) blockchain infrastructure provider, has announced that its Liquidity Hub is now integrated with QuickSwap
