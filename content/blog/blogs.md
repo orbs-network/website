@@ -6,6 +6,7 @@ list:
   - New-Orbs-Guardian-Animoca-Brands-Japan/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Lynex-on-Linea/blog.md
   - SushiSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
+  - What-is-Orbs/blog.md
   - Orbs-Liquidity-Hub-Goes-Live-on-Fenix-Finance/blog.md
   - Orbs-Announces-Strategic-Investment-in-Fenix-Finance-an-Innovative-DEX-on-Blast/blog.md
   - Orbs-Liquidity-Hub-Expands-to-SpookySwap-on-Fantom/blog.md
