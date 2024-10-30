@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Oct 2024 10:46:23 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 30 Oct 2024 10:55:42 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Expands to Ethereum for the first time with QuickSwap DEX!]]></title>
@@ -54,6 +54,15 @@
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
             <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
             <enclosure url="https://www.orbs.com/assets/img/blog/SushiSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[What is Orbs?]]></title>
+            <description><![CDATA[Following the launch of four main L3 products and widespread integrations of Orbs’ services by leading DeFi projects, the project’s mission statement has become much clearer: Bringing CeFi-level execution to DeFi for superior on-chain trading.]]></description>
+            <link>https://www.orbs.com/What-is-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/What-is-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/What-is-Orbs/bg.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Goes Live on Fenix Finance!]]></title>
