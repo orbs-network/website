@@ -62,12 +62,12 @@ Notable blockchain professionals back the project including:
 
 **About Orbs**
 
-[*Orbs*](https://www.orbs.com/) *is a “Layer-3” public blockchain infrastructure project powered by PoS, pioneering on-chain innovation since 2017\.*
+Orbs is a decentralized Layer-3 (L3) blockchain specifically designed for advanced on-chain trading.
 
-*Orbs is a separate execution layer between L1/L2 solutions and the application layer as part of a tiered blockchain stack, enhancing the capabilities of smart contracts and powering protocols such as [dLIMIT](https://www.orbs.com/dlimit/), [dTWAP](https://www.orbs.com/dtwap/), and [Liquidity Hub](https://www.orbs.com/liquidity-hub/).*
+Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Innovative protocols like dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub push the boundaries of DeFi and smart contract technology, introducing CeFi-level execution to on-chain trading.
 
-*The project's core team comprises more than thirty-five dedicated contributors from Tel Aviv, London, New York, Tokyo, and Seoul.*
+The project's core team comprises over thirty dedicated contributors globally from Tel Aviv, London, New York, Tokyo, Lisbon, Limasso, and Seoul.
 
-*For more information, please visit www.orbs.com, or join our community at:*  
-*Telegram: https://t.me/OrbsNetwork*   
-*Twitter: https://twitter.com/orbs\_network* 
+For more information, please visit www.orbs.com, or join our community at:  
+Telegram: https://t.me/OrbsNetwork  
+Twitter: https://x.com/orbs\_network
