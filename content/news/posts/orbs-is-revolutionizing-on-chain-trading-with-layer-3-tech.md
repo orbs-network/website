@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-is-revolutionizing-on-chain-trading-with-layer-3-tech.jpeg
+url: https://financefeeds.com/orbs-is-revolutionizing-on-chain-trading-with-layer-3-tech/
+date: 31, October 2024
+logo: /assets/img/news/logos/FinanceFeeds.jpeg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs is Revolutionizing On-Chain Trading with Layer-3 Tech
