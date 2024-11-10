@@ -3,6 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - ecentralization-matters-in-trading-the-orbs-approach.md
+  - orbs-empowering-defi-traders-with-advanced-features.md
+  - layer-3-explained-how-l3-technology-enhances-existing-blockchain-ecosystems.md
   - how-onchain-trading-has-closed-the-gap-with-centralized-exchanges.md
   - orbs-liquidity-hub-launches-on-ethereum-via-quickswap-partnership.md
   - orbs-liquidity-hub-comes-to-quickswap.md
