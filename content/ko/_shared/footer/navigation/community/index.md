@@ -5,7 +5,6 @@ links:
   - blog.md
   - ecosystem.md
   - news.md
-  - hexa.md
   - brand-assets.md
   - contact.md
 ---
