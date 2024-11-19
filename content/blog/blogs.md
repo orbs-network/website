@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Intent-Based-Architecture-in-DeFi/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Ethereum-with-QuickSwap/blog.md
   - A-New-Liquidity-Hub-Solver-Magpie/blog.md
   - New-Orbs-Guardian-Animoca-Brands-Japan/blog.md
