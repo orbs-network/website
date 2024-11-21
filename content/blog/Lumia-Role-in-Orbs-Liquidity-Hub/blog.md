@@ -1,67 +1,64 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Lumia-Role-in-Orbs-Liquidity-Hub/bg.png
+blogUrl: Lumia-Role-in-Orbs-Liquidity-Hub
+date: 2024-11-21
+title: "Pioneering DeFi Efficiency: Lumia’s Role in Orbs Liquidity Hub"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "The Orbs Liquidity Hub has taken another step in optimizing decentralized finance (DeFi) liquidity by integrating Lumia, a next-generation hyper-liquid zkEVM solution designed to enhance trade execution and liquidity aggregation."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The Orbs Liquidity Hub has taken another step in optimizing decentralized finance (DeFi) liquidity by integrating Lumia, a next-generation hyper-liquid zkEVM solution designed to enhance trade execution and liquidity aggregation. As the DeFi space evolves, fragmented liquidity across multiple chains remains a significant challenge, leading to inefficiencies like slippage and higher costs for traders. Lumia will join the growing number of solvers contributing to the Liquidity Hub by Orbs, a novel product combating these inefficiencies with cutting-edge technology.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Lumia’s integration adds to a powerful on-chain solver auction system, where solvers compete to fulfill trade orders by drawing liquidity from diverse sources, including AMM pools, cross-chain, and off-chain reserves. This dynamic ensures that trades are executed at better prices, surpassing traditional DEX-AMM models. By doing so, Orbs Liquidity Hub further strengthens its ability to enable DEXs to aggregate liquidity from anywhere, delivering optimal pricing without manual liquidity sourcing.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### How Liquidity Hub Works
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Liquidity Hub is an Orbs [layer 3 (L3)](https://www.coingecko.com/learn/what-are-layer-3s-crypto) powered meta aggregator that provides an optimization layer above the AMM. This technology taps external liquidity for better price quotes and lower price impact.
 
-### Step-by-Step Guide
+Instead of the typical swap that searches for the best route within the DEX's limited liquidity pools, Liquidity Hub enhances this process by utilizing additional liquidity sources:
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+1) **On-chain solver auction:** Third-party solvers who compete to fill swaps using on-chain liquidity like AMM pools or their private inventory.
+2) **Decentralized orders via API:** Decentralized orders are accessible using API, enabling institutional/professional traders, such as market makers, to submit bids and compete to fill swaps.
 
-Please also see our disclaimers below.
+![flow](/assets/img/blog/Lumia-Role-in-Orbs-Liquidity-Hub/image1.png)
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Liquidity Hub allows DEXs to attempt to execute trades without going through the AMM and experiencing price impact. If the layer cannot execute the trade at a better price than the AMM, the transaction will return to the AMM contract and execute as usual.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
-
-### 1) Add Liquidity to the ORBS-BUSD Farm
-
-Go to the FARM tab and choose the ORBS-BUSD farm.
-
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
-
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
-
-Once the position is opened, you can always re-adjust the parameters:
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
-
-### 2) Lend ALPACA tokens
-
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Lumia**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Lumia is the first next-gen, ultra capital-efficient, hyper-liquid zkEVM solution, utilizing a cutting-edge tech stack: **PolygonCDK, AvailDA with redundancy via private DAC, Polygon AggLayer, Gevolut, custom AVS, Chain Abstraction, Account Abstraction,** and more. These innovations are made possible through co-development efforts between **GatewayFM (RaaS)** and Lumia's tech team.  
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Key Features of Lumia:
+
+- Custom Redundancy Data Availability Committee (DAC): Enhances data reliability and accessibility.
+- Lumia Stream Liquidity Network: Powers efficient liquidity provisioning.
+- Decentralized Sequencers and zkProvers: Guarantees speed and decentralization.
+- Fast Finality and Validity Proofs: Provides secure and seamless on-chain trading.  
+
+Lumia combines these advanced technologies to offer a secure, scalable, and hyper-liquid Web3 experience. Protocols integrated with Lumia gain access to a vast array of trade possibilities, enabling users to efficiently and securely swap thousands of tokens cross-chain with unprecedented capital efficiency.
+
+<div class='line-separator'> </div>
+
+**About Orbs**
+
+Orbs is a decentralized Layer-3 (L3) blockchain specifically designed for advanced on-chain trading. 
+
+Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Innovative protocols like dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub push the boundaries of DeFi and smart contract technology, introducing CeFi-level execution to on-chain trading. 
+
+
+The project's core team comprises over thirty dedicated contributors globally from Tel Aviv, London, New York, Tokyo, Lisbon, Limassol, and Seoul.
+
+For more information, please visit www.orbs.com, or join our community at: 
+Telegram: https://t.me/OrbsNetwork 
+X: https://x.com/orbs_network
+
+
+
+
