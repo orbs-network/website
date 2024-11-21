@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Lumia-Role-in-Orbs-Liquidity-Hub/blog.md
   - Intent-Based-Architecture-in-DeFi/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Ethereum-with-QuickSwap/blog.md
   - A-New-Liquidity-Hub-Solver-Magpie/blog.md
