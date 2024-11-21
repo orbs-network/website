@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 Nov 2024 09:20:48 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 07:30:53 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Pioneering DeFi Efficiency: Lumia’s Role in Orbs Liquidity Hub]]></title>
+            <description><![CDATA[The Orbs Liquidity Hub has taken another step in optimizing decentralized finance (DeFi) liquidity by integrating Lumia, a next-generation hyper-liquid zkEVM solution designed to enhance trade execution and liquidity aggregation.]]></description>
+            <link>https://www.orbs.com/Lumia-Role-in-Orbs-Liquidity-Hub</link>
+            <guid isPermaLink="true">https://www.orbs.com/Lumia-Role-in-Orbs-Liquidity-Hub</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Lumia-Role-in-Orbs-Liquidity-Hub/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Intent-Based Architecture in DeFi: A Game-Changer for On-Chain Trading]]></title>
             <description><![CDATA[Intent-based architecture is gaining significant traction as a novel way to improve on-chain trading in decentralized finance (DeFi).]]></description>
