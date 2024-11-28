@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - The-Story-of-Backing-and-Building-with-the-Best-Setting-THE-Standard-for-DeFi-Collaboration/blog.md
   - Lumia-Role-in-Orbs-Liquidity-Hub/blog.md
   - Intent-Based-Architecture-in-DeFi/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Ethereum-with-QuickSwap/blog.md
