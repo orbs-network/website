@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/The-Story-of-Backing-and-Building-with-the-Best-Setting-THE-Standard-for-DeFi-Collaboration/orbs-x-thena.jpg
+image: /assets/img/blog/The-Story-of-Backing-and-Building-with-the-Best-Setting-THE-Standard-for-DeFi-Collaboration/orbs-x-thena-2.jpg
 blogUrl: The-Story-of-Backing-and-Building-with-the-Best-Setting-THE-Standard-for-DeFi-Collaboration
 date: 2024-11-28
 title: 'The Story of Backing and Building with the Best: Setting THE Standard for DeFi Collaboration'
