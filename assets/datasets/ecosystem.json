@@ -1,11 +1,6 @@
 {
   "exchanges": [
     {
-      "name": "Binance",
-      "url": "https://www.binance.com/en/support/announcement/binance-futures-will-launch-usd%E2%93%A2-m-orbs-perpetual-contract-with-up-to-20x-leverage-93710257326b4f33aed7d8b7b73746d1",
-      "logo": "../../assets/img/ecosystem/exchanges/binance.svg"
-    },
-    {
       "name": "Bybit",
       "url": "https://twitter.com/bybit_official/status/1712761532545671263?s=46&t=o0ig3dww39wpWm1ceBHBEA",
       "logo": "../../assets/img/ecosystem/exchanges/bybit.svg"
