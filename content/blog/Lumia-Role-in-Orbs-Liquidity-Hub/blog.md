@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Lumia-Role-in-Orbs-Liquidity-Hub/bg.png
 blogUrl: Lumia-Role-in-Orbs-Liquidity-Hub
-date: 2024-11-21
+date: 2024-12-10
 title: "Lumia x Orbs Liquidity Hub: Revolutionizing DeFi"
 author:
   - /blog/common/authors/RanHammer.md
