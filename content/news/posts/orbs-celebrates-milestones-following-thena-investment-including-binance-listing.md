@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-celebrates-milestones-following-thena-investment-including-binance-listing.webp
+url: https://decrypt.co/294032/orbs-celebrates-milestones-following-thena-investment-including-binance-listing
+date: 29, November 2024
+logo: /assets/img/news/logos/decrypt.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Celebrates Milestones Following THENA Investment Including Binance Listing
