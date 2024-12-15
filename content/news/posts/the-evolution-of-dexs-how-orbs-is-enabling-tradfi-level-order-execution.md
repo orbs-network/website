@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/the-evolution-of-dexs-how-orbs-is-enabling-tradfi-level-order-execution.webp
+url: https://www.cryptopolitan.com/the-evolution-of-dexs-how-orbs-is-enabling-tradfi-level-order-execution/
+date: 14, November 2024
+logo: /assets/img/news/logos/cryptopolitan.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+The Evolution of DEXs: How Orbs is Enabling TradFi-Level Order Execution
