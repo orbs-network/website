@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/orbs-is-revolutionizing-on-chain-trading-with-layer-3-tech.md
-  - ../posts/quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration.md
+  - ../posts/orbs-celebrates-milestones-following-thena-investment-including-binance-listing.md
+  - ../posts/deep-dive-into-orbs-protocols-unlocking-advanced-trading-tools.md
 ---
 
