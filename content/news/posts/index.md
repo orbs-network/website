@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - the-power-of-abstraction-in-defi-how-layer-3-solutions-are-reshaping-the-landscape.md
+  - the-defi-renaissance-how-orbs-and-other-innovators-are-driving-mainstream-adoption.md
+  - the-evolution-of-dexs-how-orbs-is-enabling-tradfi-level-order-execution.md
+  - orbs-is-revolutionizing-on-chain-trading-with-layer-3-tech.md
+  - quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration.md
   - ecentralization-matters-in-trading-the-orbs-approach.md
   - orbs-empowering-defi-traders-with-advanced-features.md
   - layer-3-explained-how-l3-technology-enhances-existing-blockchain-ecosystems.md
