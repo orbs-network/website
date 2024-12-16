@@ -6,7 +6,7 @@ color: "#E61EA9"
 
 Users need to define 3 main parameters when setting up a dTWAP order:
 
-- 1\. **No. of Intervals**: allows the user to specify the number of individual trades. The UI slider starts with 1 trade and allows to increase the amount of individual trades, or allows the user to manually input the total trades in the input field directly.
+- 1\. **No. of Intervals**: Allows the user to specify the number of individual trades. The UI slider starts with 1 trade and allows increasing the amount of trades or manually inputting the total number in the field directly. Please note, the maximum number of intervals may be limited based on the total order size to prevent excessive gas costs.
 
 - 2\. **Trade Interval**: sets the time gap between each individual trade. The UI starts with the minimum allowed (2 mins), which leaves the minimum amount of time for the taker bidding war and block settlement between each chunk. The user can set it to be any duration desired. A trade will never execute before this time elapses after the previous trade.
 
