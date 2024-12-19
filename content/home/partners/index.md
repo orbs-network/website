@@ -2,6 +2,7 @@
 layout: partials/home/partners/index
 partners:
   - assets/img/home/partners/pancakeswap.png
+  - assets/img/home/partners/sushiswap.png
   - assets/img/home/partners/quickswap.png
   - assets/img/home/partners/symmio.png
   - assets/img/home/partners/intentx.png
