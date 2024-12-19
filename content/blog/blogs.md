@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Liquidity-Hub-V2-Making-the-DEX-Liquidity-Standard-Even-Better/blog.md
   - The-Story-of-Backing-and-Building-with-the-Best-Setting-THE-Standard-for-DeFi-Collaboration/blog.md
   - Lumia-Role-in-Orbs-Liquidity-Hub/blog.md
   - Intent-Based-Architecture-in-DeFi/blog.md
