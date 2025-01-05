@@ -3,6 +3,8 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-unveils-liquidity-hub-v2-to-level-up-decentralized-trading.md
+  - deep-dive-into-orbs-protocols-unlocking-advanced-trading-tools.md
   - the-power-of-abstraction-in-defi-how-layer-3-solutions-are-reshaping-the-landscape.md
   - the-defi-renaissance-how-orbs-and-other-innovators-are-driving-mainstream-adoption.md
   - the-evolution-of-dexs-how-orbs-is-enabling-tradfi-level-order-execution.md
