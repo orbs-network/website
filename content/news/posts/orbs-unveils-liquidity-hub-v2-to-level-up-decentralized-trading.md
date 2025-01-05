@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-unveils-liquidity-hub-v2-to-level-up-decentralized-trading.jpg
+url: https://www.crypto-news-flash.com/orbs-unveils-liquidity-hub-v2-to-level-up-decentralized-trading/
+date: 23, December 2024
+logo: /assets/img/news/logos/crypto-news-flash.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Unveils Liquidity Hub V2 to Level Up Decentralized Trading 
