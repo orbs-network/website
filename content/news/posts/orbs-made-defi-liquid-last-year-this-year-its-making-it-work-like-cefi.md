@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-made-defi-liquid-last-year-this-year-its-making-it-work-like-cefi.webp
+url: https://coinpedia.org/information/orbs-made-defi-liquid-last-year-this-year-its-making-it-work-like-cefi/
+date: 16, January 2025
+logo: /assets/img/news/logos/coinpedia.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Made DeFi Liquid Last Year – This Year It’s Making It Work Like CeFi
