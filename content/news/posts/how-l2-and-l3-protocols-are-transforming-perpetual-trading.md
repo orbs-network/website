@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/how-l2-and-l3-protocols-are-transforming-perpetual-trading.webp
+url: https://blockchainreporter.net/how-l2-and-l3-protocols-are-transforming-perpetual-trading/
+date: 23, January 2025
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+How L2 and L3 Protocols Are Transforming Perpetual Trading
