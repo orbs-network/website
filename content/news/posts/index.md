@@ -3,10 +3,6 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
-  - how-l2-and-l3-protocols-are-transforming-perpetual-trading.md
-  - cryptocurrency-analytics-insight-how-layer-3-technology-is-enhancing-defi-trading.md
-  - orbs-deepened-onchain-liquidity-last-year-this-year-its-making-defi-more-cefi.md
-  - orbs-made-defi-liquid-last-year-this-year-its-making-it-work-like-cefi.md
   - orbs-unveils-liquidity-hub-v2-to-level-up-decentralized-trading.md
   - deep-dive-into-orbs-protocols-unlocking-advanced-trading-tools.md
   - the-power-of-abstraction-in-defi-how-layer-3-solutions-are-reshaping-the-landscape.md
