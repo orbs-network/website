@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 05 Jan 2025 09:49:40 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jan 2025 09:05:08 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Liquidity Hub Expands to Sonic via SwapX]]></title>
+            <description><![CDATA[SwapX, a recently launched native CLAMM V4 DEX on Sonic has integrated Liquidity Hub by Orbs…]]></description>
+            <link>https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-Sonic-via-SwapX</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Liquidity-Hub-Expands-to-Sonic-via-SwapX</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Liquidity-Hub-Expands-to-Sonic-via-SwapX/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Liquidity Hub V2: Making the DEX Liquidity Standard Even Better ]]></title>
             <description><![CDATA[Orbs unveiling Liquidity Hub V2, a groundbreaking upgrade to the benchmark-setting Liquidity Hub introduced over a year ago.]]></description>
