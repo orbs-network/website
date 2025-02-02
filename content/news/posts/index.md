@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-brings-liquidity-hub-to-swapx-on-sonic-to-enhance-dex-trading.md
+  - leveraging-layer-3-infrastructure-to-enhance-de-fi-security-a-case-study.md
+  - 67651bc382e67f5a85ef24b5.md
+  - orbs-celebrates-milestones-following-thena-investment-including-binance-listing.md
   - how-l2-and-l3-protocols-are-transforming-perpetual-trading.md
   - cryptocurrency-analytics-insight-how-layer-3-technology-is-enhancing-defi-trading.md
   - orbs-deepened-onchain-liquidity-last-year-this-year-its-making-defi-more-cefi.md
