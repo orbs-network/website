@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/leveraging-layer-3-infrastructure-to-enhance-de-fi-security-a-case-study.webp
+url: https://coinpaper.com/7127/leveraging-layer-3-infrastructure-to-enhance-de-fi-security-a-case-study
+date: 24, January 2025
+logo: /assets/img/news/logos/Coinpaper.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Leveraging Layer 3 Infrastructure to Enhance DeFi Security: A Case Study
