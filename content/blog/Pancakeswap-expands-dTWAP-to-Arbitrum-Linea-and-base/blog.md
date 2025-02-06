@@ -59,6 +59,7 @@ The dLIMIT & dTWAP protocol, powered by Orbs [L3 technology](https://www.orbs.co
 
 The protocol has been implemented by 14 prominent DEXs spanning 8 chains, facilitating over 15 million dollars of trading volume on a monthly basis. 
 
+![ecosystem](/assets/img/blog/Pancakeswap-expands-dTWAP-to-Arbitrum-Linea-and-base/image2.jpg)
 
 Find out more info:
 
