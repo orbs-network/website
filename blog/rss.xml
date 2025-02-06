@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Feb 2025 09:55:31 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 06 Feb 2025 09:31:11 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Celebrating Continued Collaboration: Pancakeswap expands dTWAP &amp; dLIMIT to Arbitrum, Linea, and base!]]></title>
+            <description><![CDATA[PancakeSwap, the largest DEX on BNB Chain, has expanded the dLimit and dTWAP protocols powered by Orbs to Arbitrum, Linea, and Base (in addition to existing BNB chain integration), alongside unveiling a sleek redesign.]]></description>
+            <link>https://www.orbs.com/Pancakeswap-expands-dTWAP-to-Arbitrum-Linea-and-base</link>
+            <guid isPermaLink="true">https://www.orbs.com/Pancakeswap-expands-dTWAP-to-Arbitrum-Linea-and-base</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Pancakeswap-expands-dTWAP-to-Arbitrum-Linea-and-base/bg.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Expands to Sonic via SwapX]]></title>
             <description><![CDATA[SwapX, a recently launched native CLAMM V4 DEX on Sonic has integrated Liquidity Hub by Orbs…]]></description>
