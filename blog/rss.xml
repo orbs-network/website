@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Feb 2025 09:31:11 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 11 Feb 2025 09:07:17 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Liquidity Hub Expands Supported Networks on SpookySwap to Include Sonic]]></title>
+            <description><![CDATA[SpookySwap, a well-known DEX on Fantom, has expanded to Sonic and is bringing Orbs Liquidity Hub with them!]]></description>
+            <link>https://www.orbs.com/Orbs-Liquidity-Hub-Expands-Supported-Networks-on-SpookySwap-to-Include-Sonic</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Liquidity-Hub-Expands-Supported-Networks-on-SpookySwap-to-Include-Sonic</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Liquidity-Hub-Expands-Supported-Networks-on-SpookySwap-to-Include-Sonic/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Celebrating Continued Collaboration: Pancakeswap expands dTWAP &amp; dLIMIT to Arbitrum, Linea, and base!]]></title>
             <description><![CDATA[PancakeSwap, the largest DEX on BNB Chain, has expanded the dLimit and dTWAP protocols powered by Orbs to Arbitrum, Linea, and Base (in addition to existing BNB chain integration), alongside unveiling a sleek redesign.]]></description>
