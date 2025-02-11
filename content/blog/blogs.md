@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Liquidity-Hub-Expands-Supported-Networks-on-SpookySwap-to-Include-Sonic/blog.md
   - Pancakeswap-expands-dTWAP-to-Arbitrum-Linea-and-base/blog.md
   - Orbs-Liquidity-Hub-Expands-to-Sonic-via-SwapX/blog.md
   - Liquidity-Hub-V2-Making-the-DEX-Liquidity-Standard-Even-Better/blog.md
