@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/cross-chain-interoperability-is-already-here-just-ask-orbs.jpg
+url: https://thenewscrypto.com/cross-chain-interoperability-is-already-here-just-ask-orbs/
+date: 5, February 2025
+logo: /assets/img/news/logos/TheNewsCrypto.jpeg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Cross-Chain Interoperability Is Already Here – Just Ask Orbs
