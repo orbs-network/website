@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 67ab3a7374275a185aa0a8e9.md
+  - 19940753027993.md
+  - cross-chain-interoperability-is-already-here-just-ask-orbs.md
+  - orbs-liquidity-hub-integrates-with-swapx.md
+  - layering-up-how-layer-3-solutions-are-supercharging-defi.md
   - orbs-brings-liquidity-hub-to-swapx-on-sonic-to-enhance-dex-trading.md
   - leveraging-layer-3-infrastructure-to-enhance-de-fi-security-a-case-study.md
   - 67651bc382e67f5a85ef24b5.md
