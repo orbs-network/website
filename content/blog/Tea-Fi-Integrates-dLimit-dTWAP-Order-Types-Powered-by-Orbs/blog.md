@@ -94,7 +94,7 @@ Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanc
 
 Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs powered protocols such as dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub push the boundaries of DeFi and smart contract technology introducing CeFi-level execution to on-chain trading.
 
-The project's core team comprises over thirty dedicated contributors globally from Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol.
+The project's core team comprises over forty dedicated contributors globally from Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol.
 
 For more information, please visit www.orbs.com, or join our community at: 
 
