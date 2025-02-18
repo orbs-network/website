@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Feb 2025 10:01:11 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 18 Feb 2025 11:59:26 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Tea-Fi Integrates dLimit &amp; dTWAP Order Types Powered by Orbs]]></title>
+            <link>https://www.orbs.com/Tea-Fi-Integrates-dLimit-dTWAP-Order-Types-Powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Tea-Fi-Integrates-dLimit-dTWAP-Order-Types-Powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Tea-Fi-Integrates-dLimit-dTWAP-Order-Types-Powered-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Expands Supported Networks on SpookySwap to Include Sonic]]></title>
             <description><![CDATA[SpookySwap, a well-known DEX on Fantom, has expanded to Sonic and is bringing Orbs Liquidity Hub with them!]]></description>
