@@ -1,67 +1,75 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-Xpanse/bg.png
+blogUrl: Orbs-Perpetual-Hub-Integrates-with-Xpanse
+date: 2025-02-25
+title: "Orbs Perpetual Hub Integrates with Xpanse: Enhancing Decentralized Derivatives Trading"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "The decentralized finance (DeFi) landscape continues to evolve, and Orbs is at the forefront of this transformation. In a strategic move, Orbs Perpetual Hub has been integrated with Xpanse."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+The decentralized finance (DeFi) landscape continues to evolve, and Orbs is at the forefront of this transformation. In a strategic move, Orbs [Perpetual Hub](https://www.orbs.com/perpetual-hub/) has been integrated with Xpanse. Xpanse is live on BASE, Arbitrum, and MODE, marking a significant milestone in decentralized derivatives trading. This integration is set to bring enhanced liquidity, efficiency, and accessibility to perpetual trading, reinforcing Orbs' ability to build robust decentralized infrastructure.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+_[Orbs](https://www.orbs.com/) is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with tens of millions of dollars in TVL. The protocol optimizes on-chain trading with L3 use cases that include aggregated liquidity, advanced trading orders, and decentralized derivatives, enabling a DeFi trading experience as efficient as CeFi._
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### What is Orbs Perpetual Hub?
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Orbs Perpetual Hub is a decentralized abstraction layer designed to optimize the trading experience for on-chain perpetuals. By leveraging Orbs’ Layer-3 technology, Perpetual Hub enhances **order execution, capital efficiency, and risk management** for decentralized perpetual trading platforms. With its decentralized and trustless architecture, Perpetual Hub allows platforms to provide a seamless environment for traders to execute leveraged trades without relying on centralized intermediaries.
 
-### Step-by-Step Guide
+### About Xpanse
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+Xpanse is an AI-powered, multi-liquidity perpetual futures exchange designed to empower traders of all levels. With its diverse liquidity layers, Xpanse offers DeFi traders **low fees, deep liquidity, zero slippage, access to over 340+ markets, and up to 60x leverage.** Each layer is tailored to support various trading strategies, providing unparalleled flexibility and precision. The exchange features three distinct liquidity layers:
 
-Please also see our disclaimers below.
+- Intent-based System
+- Oracle-based System
+- Orderbook System
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Additionally, Xpanse equips traders with advanced AI signals and indicators. Traders can utilize cutting-edge deep learning-based models such as:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Viper AI: predicts directional market momentum
+- Minima/Maxima: identifies local tops and bottoms in real time
+- WaveML: tracks market trends and inefficiencies
+- Fear & Greed Index: gauges market sentiment
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+…and more!
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+![screenshot](/assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-Xpanse/image1.png)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+### What Perpetual Hub Improves
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+This integration between Orbs Perpetual Hub and Xpanse brings a host of advantages to Xpanse traders and the broader DeFi ecosystem:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+1. Enhanced Liquidity & Efficient Order Execution
 
-Once the position is opened, you can always re-adjust the parameters:
+The integration allows XPanse to use Orbs Perpetual Hub to optimize liquidity pools and ensure **faster, more efficient order matching**. This results in tighter spreads and reduced slippage for traders, improving the overall trading experience.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+2. Trustless and Decentralized Infrastructure
 
-### 2) Lend ALPACA tokens
+By leveraging Orbs' decentralized Layer-3 architecture, XPanse’s use of Perpetual Hub ensures that **all trade execution and settlement occur on-chain**, eliminating counterparty risks associated with centralized exchanges.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+3. Improved Capital Efficiency
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+With smart liquidity routing and optimized margin management, traders on Xpanse can benefit from **better capital utilization** while maintaining high levels of security and decentralization.
 
-### 3) Earn Orbs in the Grazing Range
+4. Composability with the Broader DeFi Ecosystem
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
+Xpanse’s integration with Orbs Perpetual Hub enhances interoperability with other DeFi protocols, enabling new possibilities such as **cross-chain liquidity aggregation and advanced trading strategies**.
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanced on-chain trading. Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs-powered protocols, including dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub, push the boundaries of DeFi by introducing CeFi-level execution to on-chain trading.
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+With a global team of over forty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
+
+For more information, visit www.orbs.com or join our community:
+
+Telegram: https://t.me/OrbsNetwork
+
+X: https://x.com/orbs_network
+
+
