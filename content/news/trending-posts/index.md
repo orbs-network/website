@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/20164393529409.md
-  - ../posts/67a48f057846ee76248229a7.md
+  - ../posts/orbs-perpetual-hub-integrates-with-xpanse-brings-decentralized-derivatives-to-mode-blockchain.md
+  - ../posts/tea-fi-integrates-orbs-dlimit-and-dtwap-to-enhance-dex-trading.md
 ---
 
