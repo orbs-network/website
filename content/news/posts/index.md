@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-perpetual-hub-integrates-with-xpanse-to-deliver-decentralized-derivatives-on-mode-network.md
+  - tea-fi-integrates-orbs-dlimit-and-dtwap-protocols.md
+  - 20164393529409.md
+  - 67a48f057846ee76248229a7.md
   - 67ab3a7374275a185aa0a8e9.md
   - 19940753027993.md
   - cross-chain-interoperability-is-already-here-just-ask-orbs.md
