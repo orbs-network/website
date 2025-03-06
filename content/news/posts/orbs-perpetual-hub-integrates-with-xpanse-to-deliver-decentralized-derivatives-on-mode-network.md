@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-perpetual-hub-integrates-with-xpanse-to-deliver-decentralized-derivatives-on-mode-network.jpeg
+url: https://www.investingcube.com/press-releases/orbs-perpetual-hub-integrates-with-xpanse-to-deliver-decentralized-derivatives-on-mode-network/
+date: 24, February 2025
+logo: /assets/img/news/logos/investing-cube.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Perpetual Hub Integrates with Xpanse to Deliver Decentralized Derivatives on Mode Network
