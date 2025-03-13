@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Mar 2025 09:55:48 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 13 Mar 2025 09:19:26 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[DragonSwap Integrates Limit &amp; DCA Orders Powered by Orbs]]></title>
+            <description><![CDATA[DragonSwap, the premier DEX on the Sei Network, has integrated the dLIMIT and DCA protocols powered by Orbs, enhancing its DeFi ecosystem with advanced trading functionalities!]]></description>
+            <link>https://www.orbs.com/DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Perpetual Hub Integrates with Xpanse: Enhancing Decentralized Derivatives Trading]]></title>
             <description><![CDATA[The decentralized finance (DeFi) landscape continues to evolve, and Orbs is at the forefront of this transformation. In a strategic move, Orbs Perpetual Hub has been integrated with Xpanse.]]></description>
