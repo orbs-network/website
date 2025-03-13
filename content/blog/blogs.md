@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-Xpanse/blog.md
   - Tea-Fi-Integrates-dLimit-dTWAP-Order-Types-Powered-by-Orbs/blog.md
   - Orbs-Liquidity-Hub-Expands-Supported-Networks-on-SpookySwap-to-Include-Sonic/blog.md
