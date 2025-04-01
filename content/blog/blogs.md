@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Perpetual-Hub-Integrates-with-IVX/blog.md
   - DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-Xpanse/blog.md
   - Tea-Fi-Integrates-dLimit-dTWAP-Order-Types-Powered-by-Orbs/blog.md
