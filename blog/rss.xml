@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Mar 2025 09:19:26 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 01 Apr 2025 08:17:44 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Perpetual Hub Integrates with IVX: Enhancing Decentralized Derivatives Trading]]></title>
+            <description><![CDATA[The decentralized finance (DeFi) landscape is evolving rapidly, and Orbs is leading this transformation. A significant milestone has been achieved with the integration of Orbs’ Perpetual Hub and IVX on Berachain, enhancing decentralized derivatives trading.]]></description>
+            <link>https://www.orbs.com/Orbs-Perpetual-Hub-Integrates-with-IVX</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Perpetual-Hub-Integrates-with-IVX</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-IVX/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[DragonSwap Integrates Limit &amp; DCA Orders Powered by Orbs]]></title>
             <description><![CDATA[DragonSwap, the premier DEX on the Sei Network, has integrated the dLIMIT and DCA protocols powered by Orbs, enhancing its DeFi ecosystem with advanced trading functionalities!]]></description>
