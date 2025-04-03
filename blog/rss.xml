@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 01 Apr 2025 08:17:44 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 03 Apr 2025 16:01:41 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[dTWAP/dLIMIT Disclosure 2025-04-03]]></title>
+            <description><![CDATA[Orbs’ dTWAP/dLIMIT protocol has been operating for over three years across eight chains and 15 DEXs and has a strong track record of reliability. As an open protocol, anyone can place bids on orders and fill them on the source chain, with Orbs Network takers acting as reliable participants to ensure smooth execution.]]></description>
+            <link>https://www.orbs.com/dTWAP-dLIMIT-Disclosure-2025-04-03</link>
+            <guid isPermaLink="true">https://www.orbs.com/dTWAP-dLIMIT-Disclosure-2025-04-03</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/null" length="0" type="false"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Perpetual Hub Integrates with IVX: Enhancing Decentralized Derivatives Trading]]></title>
             <description><![CDATA[The decentralized finance (DeFi) landscape is evolving rapidly, and Orbs is leading this transformation. A significant milestone has been achieved with the integration of Orbs’ Perpetual Hub and IVX on Berachain, enhancing decentralized derivatives trading.]]></description>
