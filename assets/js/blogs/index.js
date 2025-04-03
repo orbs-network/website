@@ -35,7 +35,7 @@ const handleBlogImage = (blog) => {
   const imageSrc = getElementAttribute(blog, "data-image");
   const imageContainer = blog.querySelector(".blog-list-blog-img");
   const img = document.createElement("img");
-  img.setAttribute("src", imageSrc);
+  img.setAttribute("src", imageSrc ? imageSrc : "/assets/img/blog/What-is-Orbs/bg.png");
   img.setAttribute("alt", "blog");
   imageContainer.appendChild(img);
 };
