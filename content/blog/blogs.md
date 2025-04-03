@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - dTWAP-dLIMIT-Disclosure-2025-04-03/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-IVX/blog.md
   - DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-Xpanse/blog.md
