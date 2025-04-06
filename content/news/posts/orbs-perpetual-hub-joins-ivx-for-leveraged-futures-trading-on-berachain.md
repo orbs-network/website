@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-perpetual-hub-joins-ivx-for-leveraged-futures-trading-on-berachain.jpg
+url: https://blockchainreporter.net/orbs-perpetual-hub-joins-ivx-for-leveraged-futures-trading-on-berachain/
+date: 1, April 2025
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Perpetual Hub Joins IVX For Leveraged Futures Trading on Berachain
