@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-perpetual-hub-joins-ivx-for-leveraged-futures-trading-on-berachain.md
+  - dragonswap-integrates-dlimit-and-dca-protocols-by-orbs-on-sei-network.md
+  - dragonswap-and-orbs-unveil-dlimit-dca-for-pro-traders.md
+  - orbs-perpetual-hub-integrates-with-xpanse-brings-decentralized-derivatives-to-mode-blockchain.md
+  - tea-fi-integrates-orbs-dlimit-and-dtwap-to-enhance-dex-trading.md
   - orbs-perpetual-hub-integrates-with-xpanse-to-deliver-decentralized-derivatives-on-mode-network.md
   - tea-fi-integrates-orbs-dlimit-and-dtwap-protocols.md
   - 20164393529409.md
