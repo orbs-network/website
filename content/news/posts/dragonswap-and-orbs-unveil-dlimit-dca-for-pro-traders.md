@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/dragonswap-and-orbs-unveil-dlimit-dca-for-pro-traders.jpg
+url: https://www.cryptotimes.io/2025/03/13/dragonswap-and-orbs-unveil-dlimit-dca-for-pro-traders/
+date: 13, March 2025
+logo: /assets/img/news/logos/The_Crypto_Time.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+DragonSwap and Orbs Unveil dLIMIT & DCA for Pro Traders
