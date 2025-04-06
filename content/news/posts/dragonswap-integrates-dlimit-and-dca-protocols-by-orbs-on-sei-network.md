@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/dragonswap-integrates-dlimit-and-dca-protocols-by-orbs-on-sei-network.jpg
+url: https://thedefiant.io/news/press-releases/dragonswap-integrates-dlimit-and-dca-protocols-by-orbs-on-sei-network
+date: 13, March 2025
+logo: /assets/img/news/logos/The_Defiant.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+DragonSwap Integrates dLimit and DCA Protocols by Orbs on Sei Network
