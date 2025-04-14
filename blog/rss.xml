@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 06 Apr 2025 10:47:42 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Apr 2025 23:24:17 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[SpookySwap Integrates Limit &amp; TWAP Orders Powered by Orbs]]></title>
+            <description><![CDATA[SpookySwap has expanded to Sonic and has integrated the dLIMIT and TWAP protocols powered by Orbs, enhancing its DeFi ecosystem with advanced trading functionalities.]]></description>
+            <link>https://www.orbs.com/SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[dTWAP/dLIMIT Disclosure 2025-04-03]]></title>
             <description><![CDATA[Orbs’ dTWAP/dLIMIT protocol has been operating for over three years across eight chains and 15 DEXs and has a strong track record of reliability. As an open protocol, anyone can place bids on orders and fill them on the source chain, with Orbs Network takers acting as reliable participants to ensure smooth execution.]]></description>
