@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - SwapX-Integrates-Limit-dTWAP-Orders-Powered-by-Orbs/blog.md
   - SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs/blog.md
   - dTWAP-dLIMIT-Disclosure-2025-04-03/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-IVX/blog.md
