@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/orbs-is-revolutionizing-on-chain-trading-with-layer-3-tech.md
-  - ../posts/quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration.md
+  - ../posts/22327392242746.md
+  - ../posts/us-crypto-leaders-seek-stablecoin-guidance-before-tax-reform.md
 ---
 

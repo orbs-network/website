@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "SpookySwap Integrates Limit & TWAP Orders Powered by Orbs"
+image: /assets/img/blog/SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs/bg.png
+gdpr:
+  - /_shared/gdpr/index.md

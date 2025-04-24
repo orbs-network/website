@@ -1,6 +1,17 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - SwapX-Integrates-Limit-dTWAP-Orders-Powered-by-Orbs/blog.md
+  - SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs/blog.md
+  - dTWAP-dLIMIT-Disclosure-2025-04-03/blog.md
+  - Orbs-Perpetual-Hub-Integrates-with-IVX/blog.md
+  - DragonSwap-Integrates-Limit-DCA-Orders-Powered-by-Orbs/blog.md
+  - Orbs-Perpetual-Hub-Integrates-with-Xpanse/blog.md
+  - Tea-Fi-Integrates-dLimit-dTWAP-Order-Types-Powered-by-Orbs/blog.md
+  - Orbs-Liquidity-Hub-Expands-Supported-Networks-on-SpookySwap-to-Include-Sonic/blog.md
+  - Pancakeswap-expands-dTWAP-to-Arbitrum-Linea-and-base/blog.md
+  - Orbs-Liquidity-Hub-Expands-to-Sonic-via-SwapX/blog.md
+  - Liquidity-Hub-V2-Making-the-DEX-Liquidity-Standard-Even-Better/blog.md
   - The-Story-of-Backing-and-Building-with-the-Best-Setting-THE-Standard-for-DeFi-Collaboration/blog.md
   - Lumia-Role-in-Orbs-Liquidity-Hub/blog.md
   - Intent-Based-Architecture-in-DeFi/blog.md

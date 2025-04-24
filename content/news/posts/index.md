@@ -3,6 +3,35 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-perpetual-hub-joins-ivx-for-leveraged-futures-trading-on-berachain.md
+  - dragonswap-integrates-dlimit-and-dca-protocols-by-orbs-on-sei-network.md
+  - dragonswap-and-orbs-unveil-dlimit-dca-for-pro-traders.md
+  - orbs-perpetual-hub-integrates-with-xpanse-brings-decentralized-derivatives-to-mode-blockchain.md
+  - tea-fi-integrates-orbs-dlimit-and-dtwap-to-enhance-dex-trading.md
+  - orbs-perpetual-hub-integrates-with-xpanse-to-deliver-decentralized-derivatives-on-mode-network.md
+  - tea-fi-integrates-orbs-dlimit-and-dtwap-protocols.md
+  - 20164393529409.md
+  - 67a48f057846ee76248229a7.md
+  - 67ab3a7374275a185aa0a8e9.md
+  - 19940753027993.md
+  - cross-chain-interoperability-is-already-here-just-ask-orbs.md
+  - orbs-liquidity-hub-integrates-with-swapx.md
+  - layering-up-how-layer-3-solutions-are-supercharging-defi.md
+  - orbs-brings-liquidity-hub-to-swapx-on-sonic-to-enhance-dex-trading.md
+  - leveraging-layer-3-infrastructure-to-enhance-de-fi-security-a-case-study.md
+  - 67651bc382e67f5a85ef24b5.md
+  - orbs-celebrates-milestones-following-thena-investment-including-binance-listing.md
+  - how-l2-and-l3-protocols-are-transforming-perpetual-trading.md
+  - cryptocurrency-analytics-insight-how-layer-3-technology-is-enhancing-defi-trading.md
+  - orbs-deepened-onchain-liquidity-last-year-this-year-its-making-defi-more-cefi.md
+  - orbs-made-defi-liquid-last-year-this-year-its-making-it-work-like-cefi.md
+  - orbs-unveils-liquidity-hub-v2-to-level-up-decentralized-trading.md
+  - deep-dive-into-orbs-protocols-unlocking-advanced-trading-tools.md
+  - the-power-of-abstraction-in-defi-how-layer-3-solutions-are-reshaping-the-landscape.md
+  - the-defi-renaissance-how-orbs-and-other-innovators-are-driving-mainstream-adoption.md
+  - the-evolution-of-dexs-how-orbs-is-enabling-tradfi-level-order-execution.md
+  - orbs-is-revolutionizing-on-chain-trading-with-layer-3-tech.md
+  - quickswap-expands-to-ethereum-network-through-orbs-liquidity-hub-integration.md
   - ecentralization-matters-in-trading-the-orbs-approach.md
   - orbs-empowering-defi-traders-with-advanced-features.md
   - layer-3-explained-how-l3-technology-enhances-existing-blockchain-ecosystems.md

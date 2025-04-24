@@ -32,11 +32,15 @@ const handleBlogListOnLoad = () => {
 };
 
 const handleBlogImage = (blog) => {
-  const imageSrc = getElementAttribute(blog, "data-image");
+  const title = getElementAttribute(blog, "data-title");
+  let imageSrc = getElementAttribute(blog, "data-image");
+  if (!imageSrc || imageSrc.includes("null") || imageSrc.includes("undefined")) {
+    imageSrc = "/assets/img/blog/What-is-Orbs/bg.png";
+  }
   const imageContainer = blog.querySelector(".blog-list-blog-img");
   const img = document.createElement("img");
   img.setAttribute("src", imageSrc);
-  img.setAttribute("alt", "blog");
+  img.setAttribute("alt", title);
   imageContainer.appendChild(img);
 };
 
