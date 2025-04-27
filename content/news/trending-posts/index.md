@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/22327392242746.md
-  - ../posts/us-crypto-leaders-seek-stablecoin-guidance-before-tax-reform.md
+  - ../posts/swapx-integrates-orbs-dlimit-and-dtwap-for-decentralized-swaps-on-sonic-4000746.md
+  - ../posts/22946704958233.md
 ---
 
