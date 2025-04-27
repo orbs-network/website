@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 680a04838443642a5150c813.md
+  - swapx-introduces-cex-level-precision-with-dlimit-and-dtwap.md
+  - spookyswap-introduces-orbs-powered-limit-and-twap-orders-on-sonic.md
+  - 22327392242746.md
+  - us-crypto-leaders-seek-stablecoin-guidance-before-tax-reform.md
   - orbs-perpetual-hub-joins-ivx-for-leveraged-futures-trading-on-berachain.md
   - dragonswap-integrates-dlimit-and-dca-protocols-by-orbs-on-sei-network.md
   - dragonswap-and-orbs-unveil-dlimit-dca-for-pro-traders.md
