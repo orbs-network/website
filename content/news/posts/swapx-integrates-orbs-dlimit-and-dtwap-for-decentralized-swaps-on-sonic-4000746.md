@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
+image: /assets/img/news/posts/swapx-integrates-orbs-dlimit-and-dtwap-for-decentralized-swaps-on-sonic-4000746.jpg
+url: https://www.investing.com/news/cryptocurrency-news/swapx-integrates-orbs-dlimit-and-dtwap-for-decentralized-swaps-on-sonic-4000746
+date: 24, April 2025
 logo: /assets/img/news/logos/investing.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+SwapX Integrates Orbs’ dLIMIT and dTWAP for Decentralized Swaps on Sonic
