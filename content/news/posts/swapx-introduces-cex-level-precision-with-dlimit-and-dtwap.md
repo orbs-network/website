@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/swapx-introduces-cex-level-precision-with-dlimit-and-dtwap.jpg
+url: https://blockchainreporter.net/swapx-introduces-cex-level-precision-with-dlimit-and-dtwap/
+date: 24, April 2025
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+SwapX Introduces CEX-Level Precision with dLIMIT and dTWAP
