@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 27 Apr 2025 09:11:17 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2025 07:49:26 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs staking wallet Tetra listed on Binance Wallet]]></title>
+            <description><![CDATA[Exciting news for the Orbs community: TETRA, the official Orbs staking wallet, is now featured in the dApp directory of the Binance Web3 Wallet.]]></description>
+            <link>https://www.orbs.com/Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet</guid>
+            <dc:creator><![CDATA[Eddy Kim]]></dc:creator>
+            <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[SwapX Integrates Limit &amp; dTWAP Orders Powered by Orbs]]></title>
             <description><![CDATA[SwapX, one of the leading DEXs on Sonic that has previously integrated with Orbs Liquidity Hub adopts the dLIMIT and dTWAP standard powered by Orbs]]></description>
