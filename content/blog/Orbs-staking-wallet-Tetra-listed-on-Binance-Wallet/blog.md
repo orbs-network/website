@@ -1,67 +1,67 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet/bg.png
+blogUrl: Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet
+date: 2025-05-28
+title: "Orbs staking wallet Tetra listed on Binance Wallet"
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/Eddy.md
 type:
-short_description:
+short_description: "Exciting news for the Orbs community: TETRA, the official Orbs staking wallet, is now featured in the dApp directory of the Binance Web3 Wallet."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+**Exciting news for the Orbs community: TETRA, the official Orbs staking wallet, is now featured in the dApp directory of the Binance Web3 Wallet. This addition places TETRA inside the Binance mobile app, giving every ORBS holder a direct path to staking without extra downloads or extensions.**
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+Open the Binance app, create or connect a Web3 wallet, tap on TETRA in the dApp list, and start staking within moments. All staking is carried out on chain, so you retain full self-custody of your tokens while benefiting from the familiar Binance interface and robust security standards.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_Orbs operates as a decentralized protocol managed by a public network of permissionless validators using PoS, with tens of millions of dollars staked in TVL. The protocol enhances on-chain trading with L3 use cases like aggregated liquidity, advanced trading orders, and decentralized derivatives, bringing an efficient CeFi-like trading experience to DeFi._
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Keyless wallet
 
-Please also see our disclaimers below.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Users need a wallet to explore DeFi and participate in proof-of-stake networks. Although many options exist, some people still steer clear of Web3 wallets because they worry about technical hurdles and hacking risk. Major centralized exchanges such as Binance and OKX now address those fears by directly integrating “keyless” wallets into their apps.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Keyless wallets offer the following benefits:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+- **No private key storage:** users never handle a seed phrase; key management is distributed with MPC or abstracted with ZK.
+- **Simple recovery:** a lost wallet can be restored with email, biometrics, or a trusted device instead of a long recovery phrase.
+- **Enhanced security:** removing a single point of failure limits exposure to hacking, phishing, and accidental key loss.
+- **Beginner-friendly, Web2 style experience:** sign-up and login feel familiar, similar to Google or Apple authentication, lowering the barrier for newcomers to Web3.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+### Staking Orbs using Binance Wallet
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+Getting started with the Binance Web3 Wallet could not be easier. Simply log in with a Binance account that has completed KYC, install the latest Binance mobile app, and follow the prompts inside the app to create your Web3 wallet. As soon as the wallet is set up, you can stake your ORBS tokens in a few taps. For a full walkthrough, watch the tutorial video below.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+https://youtube.com/shorts/kWzZtHs_X6M
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
 
-Once the position is opened, you can always re-adjust the parameters:
+**About Binance Wallet**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+[Binance Wallet](https://www.binance.com/en/binancewallet) is a self-custody crypto wallet within the Binance app, designed to empower users in the realm of decentralized finance (DeFi). Serving as a digital gateway to blockchain-based applications (dApps), it offers users a secure and streamlined method to manage their cryptocurrencies, execute token swaps across multiple chains, earn yields, and interact with a variety of blockchain platforms.
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
-
-### 3) Earn Orbs in the Grazing Range
-
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
-
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
-
-#### And that’s it – You are now a senior Alpaca!
 
 <div class='line-separator'> </div>
 
-**Please Note**
+**About Orbs**
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanced on-chain trading. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs-powered protocols, including dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub, push the boundaries of DeFi by introducing CeFi-level execution to on-chain trading.
+
+With a global team of over forty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
+
+For more information, visit www.orbs.com or join our community:
+
+Telegram: https://t.me/OrbsNetwork
+
+X: https://x.com/orbs_network
+
+
+
+
+
+
