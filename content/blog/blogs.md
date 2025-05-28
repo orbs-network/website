@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet/blog.md
   - SwapX-Integrates-Limit-dTWAP-Orders-Powered-by-Orbs/blog.md
   - SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs/blog.md
   - dTWAP-dLIMIT-Disclosure-2025-04-03/blog.md
