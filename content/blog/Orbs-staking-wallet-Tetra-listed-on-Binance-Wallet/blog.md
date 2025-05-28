@@ -5,7 +5,7 @@ blogUrl: Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet
 date: 2025-05-28
 title: "Orbs staking wallet Tetra listed on Binance Wallet"
 author:
-  - /blog/common/authors/Eddy.md
+  - /blog/common/authors/EdwardPark.md
 type:
 short_description: "Exciting news for the Orbs community: TETRA, the official Orbs staking wallet, is now featured in the dApp directory of the Binance Web3 Wallet."
 ---
