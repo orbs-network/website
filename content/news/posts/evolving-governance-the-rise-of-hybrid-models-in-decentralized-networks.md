@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/evolving-governance-the-rise-of-hybrid-models-in-decentralized-networks.jpg
+url: https://mpost.io/evolving-governance-the-rise-of-hybrid-models-in-decentralized-networks/
+date: 26, May 2025
+logo: /assets/img/news/logos/mpost-logo.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Evolving Governance: The Rise Of Hybrid Models In Decentralized Networks
