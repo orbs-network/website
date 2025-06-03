@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 6-projects-building-the-invisible-infrastructure-powering-web3.md
+  - evolving-governance-the-rise-of-hybrid-models-in-decentralized-networks.md
+  - beyond-zk-how-complementary-layers-boost-blockchain-scalability.md
+  - how-smart-yield-strategies-are-taking-defi-to-next-level.md
   - 680a04838443642a5150c813.md
   - swapx-introduces-cex-level-precision-with-dlimit-and-dtwap.md
   - spookyswap-introduces-orbs-powered-limit-and-twap-orders-on-sonic.md
