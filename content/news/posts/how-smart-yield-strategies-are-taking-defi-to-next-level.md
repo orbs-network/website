@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/how-smart-yield-strategies-are-taking-defi-to-next-level.jpg
+url: https://www.cryptowisser.com/how-smart-yield-strategies-are-taking-defi-to-next-level
+date: 26, May 2025
+logo: /assets/img/news/logos/cryptowisser.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+How Smart Yield Strategies are Taking DeFi to the Next Level
