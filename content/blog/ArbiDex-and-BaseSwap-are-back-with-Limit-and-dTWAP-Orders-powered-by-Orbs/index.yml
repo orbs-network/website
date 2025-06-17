@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "ArbiDex and BaseSwap are back with Limit and dTWAP Orders powered by Orbs"
+image: /assets/img/ArbiDex-and-BaseSwap-are-back-with-Limit-and-dTWAP-Orders-powered-by-Orbs/image1.png
+gdpr:
+  - /_shared/gdpr/index.md
