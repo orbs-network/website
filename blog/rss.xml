@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Jun 2025 09:05:23 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jun 2025 09:04:41 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ArbiDex and BaseSwap are back with Limit and dTWAP Orders powered by Orbs]]></title>
+            <description><![CDATA[ArbiDex and BaseSwap, OG adopters of the once-niche dTWAP and dLIMIT protocols by Orbs, are back, relaunching with a fresh UI, an incentives program, and more.]]></description>
+            <link>https://www.orbs.com/ArbiDex-and-BaseSwap-are-back-with-Limit-and-dTWAP-Orders-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/ArbiDex-and-BaseSwap-are-back-with-Limit-and-dTWAP-Orders-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/ArbiDex-and-BaseSwap-are-back-with-Limit-and-dTWAP-Orders-powered-by-Orbs/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs staking wallet Tetra listed on Binance Wallet]]></title>
             <description><![CDATA[Exciting news for the Orbs community: TETRA, the official Orbs staking wallet, is now featured in the dApp directory of the Binance Web3 Wallet.]]></description>
