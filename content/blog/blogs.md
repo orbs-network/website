@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - ArbiDex-and-BaseSwap-are-back-with-Limit-and-dTWAP-Orders-powered-by-Orbs/blog.md
   - Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet/blog.md
   - SwapX-Integrates-Limit-dTWAP-Orders-Powered-by-Orbs/blog.md
   - SpookySwap-Integrates-Limit-TWAP-Orders-Powered-by-Orbs/blog.md
