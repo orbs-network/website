@@ -140,7 +140,10 @@
 @media only screen and (min-width: $medium) {
   .blog {
     &-list {
-      @include grid-3(32, 32);
+      gap: 32px;
+      &-blog {
+        flex: 0 0 calc(33.333% - 21.333px);
+      }
     }
   }
 }
@@ -148,7 +151,10 @@
 @media only screen and (min-width: $mobile) and (max-width: $medium) {
   .blog {
     &-list {
-      @include grid-2(25, 25);
+      gap: 25px;
+      &-blog {
+        flex: 0 0 calc(50% - 12.5px);
+      }
     }
   }
 }
@@ -166,8 +172,9 @@
       }
     }
     &-list {
-      @include grid-1(25);
+      gap: 25px;
       &-blog {
+        flex: 0 0 100%;
         &-title {
           font-size: 1.12rem;
           line-height: 1.7rem;
