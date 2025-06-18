@@ -1,3 +1,4 @@
+
 import { getElement, getElementAttribute, getElements } from "../heplers.js";
 import { init } from "../index.js";
 import analytics from "../services/an/index.js";
@@ -7,7 +8,9 @@ let blogsList = [];
 let blogsContainer;
 const list = getElements(".blog-list .blog-list-blog");
 
-
+function isDate(dateStr) {
+  return !isNaN(new Date(dateStr));
+}
 
 const addAnalyticsEvents = () => {
     list.forEach(elem => {
@@ -28,7 +31,7 @@ const handleBlogListOnLoad = () => {
     handleBlogImage(blog);
 
     const publish_at = getElementAttribute(blog, "data-publish-at");
-    if (!publish_at || new Date(publish_at).getTime() <= Date.now()) {
+    if (!publish_at || (isDate(publish_at) && Date.now() > new Date(publish_at).getTime())) {
       blog.style.display = "flex";
     }
 

@@ -7,6 +7,10 @@ import {
 } from "../heplers.js";
 const subscribeBtn = document.querySelector(".footer .subscribe-btn");
 
+function isDate(dateStr) {
+  return !isNaN(new Date(dateStr));
+}
+
 const handleMobileClick = (e) => {
   const activeClass = "footer-navigation-mobile-list-active";
   const list = e.querySelector(".footer-navigation-mobile-list");
@@ -27,7 +31,7 @@ const handleBlogs = () => {
   const blogs = getElements(".footer-blog-list .blog-element");
   blogs.forEach((blog) => {
     const publish_at = getElementAttribute(blog, "data-publish-at");
-    if (!publish_at || new Date(publish_at).getTime() <= Date.now()) {
+    if (!publish_at || (isDate(publish_at) && Date.now() > new Date(publish_at).getTime())) {
       const footerBlog = buildBlog(blog);
       list.removeChild(blog);
       list.appendChild(footerBlog);
