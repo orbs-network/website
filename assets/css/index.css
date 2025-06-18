@@ -1909,7 +1909,7 @@ body {
 @media only screen and (min-width: 1000px) {
   .boxes-list .list-item {
     margin-top: 14px;
-    width: calc(100% / 3 - 9.38px);
+    width: calc(33.3333333333% - 9.38px);
     margin-right: 14px;
   }
   .boxes-list .list-item:nth-of-type(-n + 3) {
@@ -1923,7 +1923,7 @@ body {
   .boxes-list .list-item {
     margin-top: 14px;
     margin-right: 14px;
-    width: calc(100% / 2 - 7px);
+    width: calc(50% - 7px);
   }
   .boxes-list .list-item:nth-of-type(-n + 2) {
     margin-top: 0px;
@@ -3243,7 +3243,6 @@ body {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: flex-start;
-  gap: 32px;
 }
 .blog-list-blog {
   overflow: hidden;
@@ -3358,13 +3357,19 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-  .blog-list .list-item {
-    width: calc(100% / 3 - 21.44px);
+  .blog-list {
+    gap: 32px;
+  }
+  .blog-list-blog {
+    flex: 0 0 calc(33.333% - 21.333px);
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
-  .blog-list .list-item {
-    width: calc(100% / 2 - 12.5px);
+  .blog-list {
+    gap: 25px;
+  }
+  .blog-list-blog {
+    flex: 0 0 calc(50% - 12.5px);
   }
 }
 @media only screen and (max-width: 700px) {
@@ -3374,8 +3379,11 @@ body {
   .blog-header .sub-title .text-p, .blog-header .sub-title .liquidity-hub-launch-partners-partner .left ul li, .liquidity-hub-launch-partners-partner .left ul .blog-header .sub-title li, .blog-header .sub-title .selectbox-list-item h4 *, .selectbox-list-item h4 .blog-header .sub-title *, .blog-header .sub-title .selectbox-list-item h4, .selectbox-list-item .blog-header .sub-title h4, .blog-header .sub-title .ton-gateway-posts .post-profile-right h5, .ton-gateway-posts .post-profile-right .blog-header .sub-title h5, .blog-header .sub-title .notifications .integrations-list .integration h5, .notifications .integrations-list .integration .blog-header .sub-title h5, .blog-header .sub-title .news-hero-body h4, .news-hero-body .blog-header .sub-title h4, .blog-header .sub-title .blog .header h2, .blog-header .sub-title .blog .news-hero h2, .blog .header .blog-header .sub-title h2, .blog .news-hero .blog-header .sub-title h2, .blog-header .sub-title .blog-list-blog-title {
     font-size: 1.063rem;
   }
-  .blog-list .list-item {
-    width: 100%;
+  .blog-list {
+    gap: 25px;
+  }
+  .blog-list-blog {
+    flex: 0 0 100%;
   }
   .blog-list-blog-title {
     font-size: 1.12rem;
