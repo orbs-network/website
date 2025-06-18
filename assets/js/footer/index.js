@@ -99,7 +99,7 @@ const getBlogAttributes = (blog) => {
   const date = getElementAttribute(blog, "data-date");
   const title = getElementAttribute(blog, "data-title");
 
-  return { imageSrc, blogUrl, prefix, date, title, publish_at };
+  return { imageSrc, blogUrl, prefix, date, title };
 };
 
 export const init = () => {
