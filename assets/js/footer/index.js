@@ -27,12 +27,11 @@ const handleBlogs = () => {
   const blogs = getElements(".footer-blog-list .blog-element");
   blogs.forEach((blog) => {
     const publish_at = getElementAttribute(blog, "data-publish-at");
-    if (publish_at && new Date(publish_at).getTime() > Date.now()) {
-      return;
+    if (!publish_at || new Date(publish_at).getTime() <= Date.now()) {
+      const footerBlog = buildBlog(blog);
+      list.removeChild(blog);
+      list.appendChild(footerBlog);
     }
-    const footerBlog = buildBlog(blog);
-    list.removeChild(blog);
-    list.appendChild(footerBlog);
   });
 };
 

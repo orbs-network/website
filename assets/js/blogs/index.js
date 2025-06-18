@@ -24,13 +24,14 @@ const handleBlogListOnLoad = () => {
   blogsContainer = getElement(".blog-list");
   blogsContainer.innerHTML = "";
   list.forEach((blog) => {
-    const publish_at = getElementAttribute(blog, "data-publish-at");
-    if (publish_at && new Date(publish_at).getTime() > Date.now()) {
-      return;
-    }
 
     handleBlogImage(blog);
-    blog.style.display = "flex";
+
+    const publish_at = getElementAttribute(blog, "data-publish-at");
+    if (!publish_at || new Date(publish_at).getTime() <= Date.now()) {
+      blog.style.display = "flex";
+    }
+
   });
   initInfiniteScrolling(blogsContainer, blogsList);
 };
