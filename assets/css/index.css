@@ -3243,6 +3243,7 @@ body {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: flex-start;
+  gap: 32px;
 }
 .blog-list-blog {
   overflow: hidden;
@@ -3358,28 +3359,12 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .blog-list .list-item {
-    margin-top: 32px;
     width: calc(100% / 3 - 21.44px);
-    margin-right: 32px;
-  }
-  .blog-list .list-item:nth-of-type(-n + 3) {
-    margin-top: 0px;
-  }
-  .blog-list .list-item:nth-of-type(3n) {
-    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   .blog-list .list-item {
-    margin-top: 25px;
-    margin-right: 25px;
     width: calc(100% / 2 - 12.5px);
-  }
-  .blog-list .list-item:nth-of-type(-n + 2) {
-    margin-top: 0px;
-  }
-  .blog-list .list-item:nth-child(even) {
-    margin-right: 0px;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -3391,11 +3376,6 @@ body {
   }
   .blog-list .list-item {
     width: 100%;
-    margin-top: 25px;
-    margin-right: 0px;
-  }
-  .blog-list .list-item:nth-of-type(1) {
-    margin-top: 0px;
   }
   .blog-list-blog-title {
     font-size: 1.12rem;
