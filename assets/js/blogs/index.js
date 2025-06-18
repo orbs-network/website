@@ -24,8 +24,12 @@ const handleBlogListOnLoad = () => {
   blogsContainer = getElement(".blog-list");
   blogsContainer.innerHTML = "";
   list.forEach((blog) => {
-    handleBlogImage(blog);
+    const publish_at = getElementAttribute(blog, "data-publish-at");
+    if (publish_at && new Date(publish_at).getTime() > Date.now()) {
+      return;
+    }
 
+    handleBlogImage(blog);
     blog.style.display = "flex";
   });
   initInfiniteScrolling(blogsContainer, blogsList);

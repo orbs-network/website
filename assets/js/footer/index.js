@@ -26,6 +26,10 @@ const handleBlogs = () => {
   const list = getElement(".footer-blog-list");
   const blogs = getElements(".footer-blog-list .blog-element");
   blogs.forEach((blog) => {
+    const publish_at = getElementAttribute(blog, "data-publish-at");
+    if (publish_at && new Date(publish_at).getTime() > Date.now()) {
+      return;
+    }
     const footerBlog = buildBlog(blog);
     list.removeChild(blog);
     list.appendChild(footerBlog);
@@ -95,7 +99,7 @@ const getBlogAttributes = (blog) => {
   const date = getElementAttribute(blog, "data-date");
   const title = getElementAttribute(blog, "data-title");
 
-  return { imageSrc, blogUrl, prefix, date, title };
+  return { imageSrc, blogUrl, prefix, date, title, publish_at };
 };
 
 export const init = () => {
