@@ -8,6 +8,7 @@ author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "Orbs has been listed by the largest exchange in the Philippines, Coins.ph!"
+publish_at: 2025-06-19 07:00
 ---
 
 Orbs has been listed by the largest exchange in the Philippines, [Coins.ph](http://Coins.ph)\! The listing includes a direct ORBS/PHP pair, giving millions of Filipino users seamless access to the ORBS token using their local currency. 
