@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/blog.md
   - Coin-ph-Lists-ORBS/blog.md
   - ArbiDex-and-BaseSwap-are-back-with-Limit-and-dTWAP-Orders-powered-by-Orbs/blog.md
   - Orbs-staking-wallet-Tetra-listed-on-Binance-Wallet/blog.md
