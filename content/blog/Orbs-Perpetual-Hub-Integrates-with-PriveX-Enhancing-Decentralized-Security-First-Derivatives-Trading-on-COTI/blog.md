@@ -31,7 +31,7 @@ PriveX is an AI-powered, intent-based perpetual futures exchange built on COTIâ€
 
 PriveX combines advanced AI tools, deep liquidity, and robust privacy features to set a new standard for how decentralized perpetual exchanges can operate.
 
-![screenshot](/assets/img/Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/image1.png)
+![screenshot](/assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/image1.png)
 
 
 <div class='line-separator'> </div>
