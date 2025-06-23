@@ -2,13 +2,13 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/image2.png
 blogUrl: Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI
-date: 2025-06-23
+date: 2025-06-24
 title: "Orbs Perpetual Hub Integrates with PriveX: Enhancing Decentralized Security First Derivatives Trading on COTI"
 author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "On-chain privacy has become a critical need for DeFi users, especially those trading perpetual futures. To meet this demand, Orbs has integrated its Perpetual Hub with PriveX on the COTI network."
-publish_at: 2025-06-23 09:00
+publish_at: 2025-06-24 09:00
 ---
 
 On-chain privacy has become a critical need for DeFi users, especially those trading perpetual futures. To meet this demand, Orbs has integrated its Perpetual Hub with PriveX on the COTI network. This collaboration combines Orb’s Layer-3 execution infrastructure with COTI’s privacy-preserving architecture to enable secure, accessible, and efficient intent-based perpetual trading.. By integrating Orbs’ decentralized execution layer with COTI’s privacy-focused architecture, PriveX traders gain enhanced privacy, capital efficiency, and access to deep liquidity to deliver a perpetual futures experience on par with CeFi, while remaining fully decentralized.
