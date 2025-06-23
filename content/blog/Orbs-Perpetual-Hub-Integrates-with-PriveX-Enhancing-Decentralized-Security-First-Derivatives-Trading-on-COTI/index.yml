@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "Orbs Perpetual Hub Integrates with PriveX: Enhancing Decentralized Security First Derivatives Trading on COTI"
+image: /assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/image2.png
+gdpr:
+  - /_shared/gdpr/index.md
