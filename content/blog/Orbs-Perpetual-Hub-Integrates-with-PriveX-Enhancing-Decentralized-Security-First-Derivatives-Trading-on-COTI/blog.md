@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/image2.png
 blogUrl: Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI
 date: 2025-06-24
-title: "Orbs Perpetual Hub Integrates with PriveX: Enhancing Decentralized Security First Derivatives Trading on COTI"
+title: "Orbs Integrates with PriveX to Bring Security First Perpetuals to COTI"
 author:
   - /blog/common/authors/RanHammer.md
 type:
