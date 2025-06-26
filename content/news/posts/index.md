@@ -3,6 +3,12 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-perpetual-hub-integrates-with-privex-to-support-privacy-first-perps-trading-on-coti.md
+  - orbs-perpetual-hub-integrates-with-privex-for-private-onchain-trading.md
+  - arbidex-baseswap-now-offer-orbs-powered-dlimit-and-dtwap-orders.md
+  - arbidex-and-baseswap-unveil-upgraded-uis-with-orbs-powered-dlimit-and-dtwap-order-types.md
+  - swapx-integrates-orbs-dlimit-and-dtwap-for-decentralized-swaps-on-sonic-4000746.md
+  - 22946704958233.md
   - 6-projects-building-the-invisible-infrastructure-powering-web3.md
   - evolving-governance-the-rise-of-hybrid-models-in-decentralized-networks.md
   - beyond-zk-how-complementary-layers-boost-blockchain-scalability.md
