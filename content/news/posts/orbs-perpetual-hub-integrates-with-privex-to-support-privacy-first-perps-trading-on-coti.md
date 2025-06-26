@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-perpetual-hub-integrates-with-privex-to-support-privacy-first-perps-trading-on-coti.webp
+url: https://mpost.io/orbs-perpetual-hub-integrates-with-privex-to-support-privacy-first-perps-trading-on-coti/?_nocache=1750926934735
+date: 24, June 2025
+logo: /assets/img/news/logos/mpost-logo.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Perpetual Hub Integrates With PriveX To Support Privacy-First Perps Trading On COTI
