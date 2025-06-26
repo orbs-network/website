@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/swapx-integrates-orbs-dlimit-and-dtwap-for-decentralized-swaps-on-sonic-4000746.md
-  - ../posts/22946704958233.md
+  - ../posts/685a6b5ddfdfeb3fb1f81917.md
+  - ../posts/25733316042977.md
 ---
 
