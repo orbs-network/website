@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/arbidex-and-baseswap-unveil-upgraded-uis-with-orbs-powered-dlimit-and-dtwap-order-types.webp
+url: https://blockchainreporter.net/arbidex-and-baseswap-unveil-upgraded-uis-with-orbs-powered-dlimit-and-dtwap-order-types/
+date: 17, June 2025
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+ArbiDex and BaseSwap Unveil Upgraded UIs with Orbs-Powered dLIMIT and dTWAP Order Types
