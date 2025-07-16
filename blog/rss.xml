@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Jun 2025 10:16:38 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 16 Jul 2025 16:10:14 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Unveils Perpetual Hub Ultra]]></title>
+            <description><![CDATA[In May 2024, the Orbs project introduced Perpetual Hub, a one-stop shop for intent-based perpetual futures trading, powered by Orbs Layer-3 (L3) technology.It was a bold step forward in redefining how derivatives are traded on-chain.]]></description>
+            <link>https://www.orbs.com/Orbs-Unveils-Perpetual-Hub-Ultra</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Unveils-Perpetual-Hub-Ultra</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Unveils-Perpetual-Hub-Ultra/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Integrates with PriveX to Bring Security First Perpetuals to COTI]]></title>
             <description><![CDATA[On-chain privacy has become a critical need for DeFi users, especially those trading perpetual futures. To meet this demand, Orbs has integrated its Perpetual Hub with PriveX on the COTI network.]]></description>
