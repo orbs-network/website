@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Jul 2025 16:10:14 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 21 Jul 2025 15:53:57 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[SushiSwap integrates dTWAP and dLIMIT on Katana!]]></title>
+            <description><![CDATA[SushiSwap has integrated Orbs infra on Katana, bringing dLIMIT and dTWAP to the new L2 from day one.]]></description>
+            <link>https://www.orbs.com/SushiSwap-integrates-dTWAP-and-dLIMIT-on-Katana</link>
+            <guid isPermaLink="true">https://www.orbs.com/SushiSwap-integrates-dTWAP-and-dLIMIT-on-Katana</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/SushiSwap-integrates-dTWAP-and-dLIMIT-on-Katana/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Unveils Perpetual Hub Ultra]]></title>
             <description><![CDATA[In May 2024, the Orbs project introduced Perpetual Hub, a one-stop shop for intent-based perpetual futures trading, powered by Orbs Layer-3 (L3) technology.It was a bold step forward in redefining how derivatives are traded on-chain.]]></description>
