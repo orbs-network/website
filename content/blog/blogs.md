@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - SushiSwap-integrates-dTWAP-and-dLIMIT-on-Katana/blog.md
   - Orbs-Unveils-Perpetual-Hub-Ultra/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/blog.md
   - Coin-ph-Lists-ORBS/blog.md
