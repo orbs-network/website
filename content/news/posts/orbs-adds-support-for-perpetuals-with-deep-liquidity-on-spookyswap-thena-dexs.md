@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-adds-support-for-perpetuals-with-deep-liquidity-on-spookyswap-thena-dexs.jpg
+url: https://bitcoinist.com/orbs-adds-support-for-perpetuals-with-deep-liquidity-on-spookyswap-thena-dexs/
+date: 28, July 2025
+logo: /assets/img/news/logos/Bitcoinist.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Adds Support For Perpetuals With Deep Liquidity On SpookySwap & THENA DEXs
