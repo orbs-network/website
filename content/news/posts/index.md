@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - spookyswap-and-thena-each-launch-perpetual-trading-via-orbs-perpetual-hub-ultra-4155216.md
+  - orbs-adds-support-for-perpetuals-with-deep-liquidity-on-spookyswap-thena-dexs.md
+  - spookyswap-and-thena-enable-60x-leverage-trading.md
+  - 685a6b5ddfdfeb3fb1f81917.md
+  - 25733316042977.md
   - orbs-perpetual-hub-integrates-with-privex-to-support-privacy-first-perps-trading-on-coti.md
   - orbs-perpetual-hub-integrates-with-privex-for-private-onchain-trading.md
   - arbidex-baseswap-now-offer-orbs-powered-dlimit-and-dtwap-orders.md
