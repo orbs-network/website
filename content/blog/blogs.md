@@ -1,6 +1,8 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Liquidity-Hub-Expands-Supported-Networks-on-QuickSwap-to-Include-Base/blog.md
+  - SparkDEX-integrates-dTWAP-and-dLIMIT-on-Flare/blog.md
   - SushiSwap-integrates-dTWAP-and-dLIMIT-on-Katana/blog.md
   - Orbs-Unveils-Perpetual-Hub-Ultra/blog.md
   - Orbs-Perpetual-Hub-Integrates-with-PriveX-Enhancing-Decentralized-Security-First-Derivatives-Trading-on-COTI/blog.md
