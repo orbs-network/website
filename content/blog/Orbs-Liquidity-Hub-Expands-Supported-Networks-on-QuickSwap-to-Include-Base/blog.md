@@ -8,6 +8,7 @@ author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "QuickSwap, Polygon’s top DEX and the first integration of Orbs Liquidity Hub, is making its debut on Base and bringing Liquidity Hub along for the ride!"
+publish_at: 2025-08-13 17:00
 ---
 
 **QuickSwap, Polygon’s top DEX and the first integration of Orbs Liquidity Hub, is making its debut on Base and bringing Liquidity Hub along for the ride\!**
