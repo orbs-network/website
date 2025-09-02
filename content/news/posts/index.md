@@ -3,6 +3,12 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - arbitrum-and-bnb-chain-go-head-to-head-in-the-battle-for-dex-supremacy.md
+  - dexs-race-to-capture-perps-market-share-as-traders-move-onchain.md
+  - five-layer-3-deployments-that-quietly-changed-web3-in-2025.md
+  - seven-layer-3-protocols-pushing-the-boundaries-of-blockchain-utility.md
+  - the-first-60x-leveraged-perpetuals-on-a-dex-just-went-live-heres-what-it-means-for-defi.md
+  - orbs-unveils-perpetual-hub-ultra-to-bring-native-perps-trading-to-omnichain-dexs.md
   - spookyswap-and-thena-each-launch-perpetual-trading-via-orbs-perpetual-hub-ultra-4155216.md
   - orbs-adds-support-for-perpetuals-with-deep-liquidity-on-spookyswap-thena-dexs.md
   - spookyswap-and-thena-enable-60x-leverage-trading.md
