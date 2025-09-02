@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/arbitrum-and-bnb-chain-go-head-to-head-in-the-battle-for-dex-supremacy.webp
+url: https://www.cryptowisser.com/news/arbitrum-and-bnb-chain-go-head-to-head-in-the-battle-for-dex-supremacy
+date: 28, August 2025
+logo: /assets/img/news/logos/cryptowisser.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Arbitrum and BNB Chain Go Head-to-Head in the Battle for DEX Supremacy
