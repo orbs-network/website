@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/five-layer-3-deployments-that-quietly-changed-web3-in-2025.webp
+url: https://financefeeds.com/five-layer-3-deployments-that-quietly-changed-web3-in-2025/
+date: 19, August 2025
+logo: /assets/img/news/logos/FinanceFeeds.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Five Layer-3 Deployments That Quietly Changed Web3 in 2025
