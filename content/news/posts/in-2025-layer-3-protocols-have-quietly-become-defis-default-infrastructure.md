@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/in-2025-layer-3-protocols-have-quietly-become-defis-default-infrastructure.jpg
+url: https://finbold.com/guide/in-2025-layer-3-protocols-have-quietly-become-defis-default-infrastructure/
+date: 25, August 2025
+logo: /assets/img/news/logos/Finbold.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+In 2025 Layer-3 Protocols Have Quietly Become DeFi’s Default Infrastructure
