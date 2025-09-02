@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/dexs-race-to-capture-perps-market-share-as-traders-move-onchain.webp
+url: https://www.cryptopolitan.com/dexs-race-to-capture-perps-market-share-as-traders-move-onchain/
+date: 24, August 2025
+logo: /assets/img/news/logos/cryptopolitan.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+DEXs Race to Capture Perps Market Share as Traders Move Onchain
