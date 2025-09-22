@@ -1,9 +1,9 @@
-version: 2
+version: 2.1
 
 jobs:
   build-and-deploy:
     docker:
-      - image: node:12.19.1
+      - image: cimg/node:18.20
     steps:
       - checkout
       - run:
