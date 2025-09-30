@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Sep 2025 16:31:07 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 30 Sep 2025 13:26:17 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Omni Exchange integrates dTWAP and dLIMIT on Base!]]></title>
+            <description><![CDATA[Omni Exchange, a cross-chain DEX, has integrated the dTWAP and dLIMIT protocols powered by Orbs on Base]]></description>
+            <link>https://www.orbs.com/Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base</link>
+            <guid isPermaLink="true">https://www.orbs.com/Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Liquidity Hub Expands Supported Networks on QuickSwap to Include Base!]]></title>
             <description><![CDATA[QuickSwap, Polygon’s top DEX and the first integration of Orbs Liquidity Hub, is making its debut on Base and bringing Liquidity Hub along for the ride!]]></description>
