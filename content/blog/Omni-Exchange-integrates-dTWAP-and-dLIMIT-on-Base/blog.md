@@ -2,12 +2,13 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base/image1.png
 blogUrl: Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base
-date: 2025-09-23
+date: 2025-09-30
 title: "Omni Exchange integrates dTWAP and dLIMIT on Base!"
 author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "Omni Exchange, a cross-chain DEX, has integrated the dTWAP and dLIMIT protocols powered by Orbs on Base"
+publish_at: 2025-09-30 15:00
 ---
 
 Omni Exchange, a cross-chain DEX, has integrated the dTWAP and dLIMIT protocols powered by Orbs on Base, bringing advanced order types like localized swaps natively on-chain. This integration expands the presence of Orbs’ technology within the Base ecosystem and enhances Omni’s execution capabilities.
