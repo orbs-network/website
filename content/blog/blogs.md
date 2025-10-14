@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Blackhole-integrates-dTWAP-and-dLIMIT-on-Avalanche/blog.md
   - Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base/blog.md
   - Orbs-Liquidity-Hub-Expands-Supported-Networks-on-QuickSwap-to-Include-Base/blog.md
   - SparkDEX-integrates-dTWAP-and-dLIMIT-on-Flare/blog.md

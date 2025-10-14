@@ -1909,7 +1909,7 @@ body {
 @media only screen and (min-width: 1000px) {
   .boxes-list .list-item {
     margin-top: 14px;
-    width: calc(33.3333333333% - 9.38px);
+    width: calc(100% / 3 - 9.38px);
     margin-right: 14px;
   }
   .boxes-list .list-item:nth-of-type(-n + 3) {
@@ -1923,7 +1923,7 @@ body {
   .boxes-list .list-item {
     margin-top: 14px;
     margin-right: 14px;
-    width: calc(50% - 7px);
+    width: calc(100% / 2 - 7px);
   }
   .boxes-list .list-item:nth-of-type(-n + 2) {
     margin-top: 0px;
