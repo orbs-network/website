@@ -59,13 +59,14 @@ Together with other L3-powered protocols, [Liquidity Hub](https://www.orbs.com/l
 
 
 
-Join the support Telegram channel for more information regarding both advanced order types.
+Join the [support telegram channel](https://t.me/dTWAPSupportGroup) for more information regarding both advanced order types.
 
 Find out more info:
-dTWAP [DCA] webpage
-dLIMIT webpage 
-Whitepaper
-Security audits (1,2)
+
+- [dTWAP \[DCA\] webpage](https://www.orbs.com/dtwap/)  
+- [dLIMIT webpage](https://www.orbs.com/dlimit/)   
+- [Whitepaper](https://www.orbs.com/white-papers/dTWAP/)  
+- Security audits ([1](https://drive.google.com/file/d/1xUZN5RrNvszaPDJuJjfeG3ig14Vo2aaE/view),[2](https://drive.google.com/file/d/1ASt3_mWwtQ0IfKqBHebnj_KGJWntaNJs/view))
 
 <div class='line-separator'> </div>
 
