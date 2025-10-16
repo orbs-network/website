@@ -57,7 +57,7 @@ The dLIMIT & dTWAP protocols, powered by Orbs [L3 technology](https://www.orbs.c
 
 Together with other L3-powered protocols, [Liquidity Hub](https://www.orbs.com/liquidity-hub/) for aggregated liquidity and [Perpetual Hub](https://www.orbs.com/perpetual-hub/) for decentralized on-chain perpetual futures.
 
-
+<blockquote class="twitter-tweet" style="transform: none;" ><p lang="en" dir="ltr">Our new TWAP feature splits a large trade into many smaller trades executed at regular time intervals, reducing price impact and slippage. <a href="https://t.co/gB3yJMWdlu">pic.twitter.com/gB3yJMWdlu</a></p>&mdash; Kodiak (@KodiakFi) <a href="https://twitter.com/KodiakFi/status/1977748617915162995?ref_src=twsrc%5Etfw">October 13, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Join the [support telegram channel](https://t.me/dTWAPSupportGroup) for more information regarding both advanced order types.
 
