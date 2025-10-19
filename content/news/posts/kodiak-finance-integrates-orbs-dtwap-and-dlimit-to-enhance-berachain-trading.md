@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/kodiak-finance-integrates-orbs-dtwap-and-dlimit-to-enhance-berachain-trading.avif
+url: https://www.dlnews.com/research/internal/kodiak-finance-integrates-orbs-dtwap-and-dlimit-to-enhance-berachain-trading/
+date: 16, October 2025
+logo: /assets/img/news/logos/DeFiLlama.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Kodiak Finance Integrates Orbs’ dTWAP and dLimit to Enhance Berachain Trading
