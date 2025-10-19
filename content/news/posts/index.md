@@ -3,6 +3,13 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - kodiak-extends-functionality-for-traders-with-orbs-dtwap-and-dlimit-orders.md
+  - kodiak-finance-integrates-orbs-dtwap-and-dlimit-tools-to-enhance-trading-on-berachain.md
+  - omni-exchange-integrates-orbs-dtwap-and-dlimit-protocols-on-base-network.md
+  - omni-exchange-now-supports-orbs-dtwap-dlimit-orders-on-base-l2.md
+  - omni-exchange-adds-orbs-dtwap-and-dlimit-protocols-on-base-for-advanced-defi-trading.md
+  - in-2025-layer-3-protocols-have-quietly-become-defis-default-infrastructure.md
+  - 6-protocol-upgrades-that-transform-dex-based-perpetual-trading.md
   - arbitrum-and-bnb-chain-go-head-to-head-in-the-battle-for-dex-supremacy.md
   - dexs-race-to-capture-perps-market-share-as-traders-move-onchain.md
   - five-layer-3-deployments-that-quietly-changed-web3-in-2025.md
