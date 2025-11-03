@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Reflections-on-Orbs-DAO-and-What-Comes-Next/blog.md
   - Kodiak-Finance-integrates-Orbs-dTWAP-and-dLimit-orders-on-Berachain/blog.md
   - Blackhole-integrates-dTWAP-and-dLIMIT-on-Avalanche/blog.md
   - Omni-Exchange-integrates-dTWAP-and-dLIMIT-on-Base/blog.md
