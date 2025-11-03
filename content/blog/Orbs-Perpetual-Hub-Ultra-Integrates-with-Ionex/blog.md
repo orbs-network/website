@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex/image2.png
+image: /assets/img/blog/Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex/image1.png
 blogUrl: Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex
 date: 2025-11-06
 title: "Orbs Perpetual Hub Ultra Integrates with Ionex"
