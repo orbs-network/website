@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex/blog.md
   - Reflections-on-Orbs-DAO-and-What-Comes-Next/blog.md
   - Kodiak-Finance-integrates-Orbs-dTWAP-and-dLimit-orders-on-Berachain/blog.md
   - Blackhole-integrates-dTWAP-and-dLIMIT-on-Avalanche/blog.md
