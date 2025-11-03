@@ -9,8 +9,26 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Oct 2025 10:31:03 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 03 Nov 2025 18:41:43 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs Perpetual Hub Ultra Integrates with Ionex]]></title>
+            <description><![CDATA[Ionex, a newly launched DEX by DefiZoo, long-time builders leveraging Orbs protocols, has integrated Perpetual Hub Ultra, powered by Orbs, bringing institutional grade perpetual futures trading to Plasma]]></description>
+            <link>https://www.orbs.com/Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex/image2.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Reflections on Orbs, DAO, and What Comes Next]]></title>
+            <description><![CDATA[Over the past few years, I’ve had the privilege of watching Orbs evolve from a bold idea into something tangible and impactful. When we first spoke about “Layer 3” back in 2022, it was still an abstract vision — a way to bring real utility and decentralized execution to on-chain applications.]]></description>
+            <link>https://www.orbs.com/Reflections-on-Orbs-DAO-and-What-Comes-Next</link>
+            <guid isPermaLink="true">https://www.orbs.com/Reflections-on-Orbs-DAO-and-What-Comes-Next</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/null" length="0" type="false"/>
+        </item>
         <item>
             <title><![CDATA[Kodiak Finance integrates Orbs’ dTWAP and dLimit orders on Berachain!]]></title>
             <description><![CDATA[Kodiak Finance, Berachain’s native liquidity platform, has integrated dTWAP and dLIMIT protocols powered by Orbs, bringing advanced order types natively to the Berachain ecosystem.]]></description>
