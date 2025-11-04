@@ -9,7 +9,6 @@ sections:
   - md/tetra-staking-wallet/index.md
   - md/use-cases-and-applications/index.md
   - md/ton/index.md
-  - md/dSLTP/index.md
 
 sideMenuLinks:
   - md/menu/index.md
