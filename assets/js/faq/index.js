@@ -2,10 +2,20 @@ import { getElement, getElements } from "../heplers.js";
 import { setOpeningBoxEvents } from "../components/opening-box.js";
 import { init } from "../index.js";
 
+function scrollToSection() {
+  const anchor = window.location.hash;
+  console.log(anchor);
+  if (anchor) {
+    const element = document.getElementById(anchor.substring(1));
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
 window.onload = () => {
   init();
   setOpeningBoxEvents();
   removeListFromSideMenu();
+  scrollToSection();
 };
 
 const removeListFromSideMenu = () => {

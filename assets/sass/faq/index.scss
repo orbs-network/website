@@ -1,4 +1,8 @@
 .faq {
+  .opening-box ul li::after{
+    background: $gradient;
+    top: 8px;
+  }
   .indicator {
     position: absolute;
     top: -110px;
