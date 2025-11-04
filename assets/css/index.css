@@ -3084,6 +3084,10 @@ body {
     margin-top: 20px;
   }
 }
+.faq .opening-box ul li::after {
+  background: linear-gradient(268.02deg, #7988e8 36.77%, #db89df 64.32%);
+  top: 8px;
+}
 .faq .indicator {
   position: absolute;
   top: -110px;
