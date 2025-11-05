@@ -1,67 +1,66 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/bg.png
+blogUrl: Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi
+date: 2025-11-05
+title: "Introducing dSLTP: The First Stop-Loss & Take-Profit Solution for DeFi"
 author:
   - /blog/common/authors/EranPeled.md
 type:
-short_description:
+short_description: Orbs is thrilled to introduce dSLTP - the first-ever decentralized stop order protocol for DEXs.
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+Orbs is thrilled to introduce dSLTP - the first-ever decentralized stop order protocol for DEXs. Built on Orbs’ Layer-3 (L3) infrastructure, dSLTP brings reliable, robust, and efficient stop-loss and take-profit execution to decentralized trading, all without compromising security and decentralization.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+_dSLTP joins the Orbs Advanced Trading Orders Suite, alongside [dLIMIT](https://www.orbs.com/dlimit/) and [dTWAP](https://www.orbs.com/dtwap/), expanding DeFi’s capabilities with CeFi-grade trading features._
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+### Why Stop Orders Matter in DeFi
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+Stop orders are critical tools for strategic trading and risk management. They help traders:
 
-### Step-by-Step Guide
+- Protect their portfolio with stop-loss orders that limit potential downside.
+- Secure profits through take-profit orders that automatically lock in gains at target levels.
+- Automate execution without needing to constantly monitor the market.
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
 
-Please also see our disclaimers below.
+A **stop-loss** order automatically sells a token once its price drops below a predefined level, helping traders limit losses in volatile markets. Stop-loss orders are essential in fast-moving markets, offering peace of mind and protection when the market turns against you.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+A **take-profit** order automatically sells once the price reaches your target profit level.
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+When used together, stop-loss and take-profit create a balanced risk/reward strategy — maximizing upside while controlling downside exposure.
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
+![screenshot](/assets/img/blog/Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/image1.png)
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+**Until now, such tools were primarily available only on CEXs. With dSLTP, this changes — making advanced order automation accessible directly on DEXs.**
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+### A User-friendly, Customizable UI
 
-Once the position is opened, you can always re-adjust the parameters:
+dStopLoss comes with a specialized UI that can be easily integrated and customized by any DEX, to create an intuitive, user-friendly and informative way for users to set up their stop orders.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+![UI](/assets/img/blog/Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/image2.png)
 
-### 2) Lend ALPACA tokens
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+dSLTP supports both stop-market and stop-limit orders, giving the users the ability to set up the optimal configuration that suits their need:
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+- **Stop-market** orders guarantee that your order will be executed once the stop price is triggered. However, in fast or volatile markets, slippage can occur, and the executed price may be significantly worse than the trigger price. This means the amount of output tokens received could be lower than expected.
+- **Stop-limit** orders protect against receiving a worse price than your specified limit. Once the stop price is triggered, the order will execute only at the limit price or better. The downside is that if the market price falls below your limit, the order may not execute at all.
 
-### 3) Earn Orbs in the Grazing Range
+For more information on how to set up a stop-order, see the dSLTP [documentation](https://docs.orbs.network/v3) and [FAQ page](https://www.orbs.com/dtwap-and-dlimit-faq/), or visit the dSLTP telegram [support group](https://t.me/dTWAPSupportGroup).
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+### Orbs, Leader in Advance Trading Orders for DeFi
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanced on-chain trading. Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs-powered protocols, including dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub, push the boundaries of DeFi by introducing CeFi-level execution to on-chain trading.
 
-#### And that’s it – You are now a senior Alpaca!
+With a global team of over forty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
 
-<div class='line-separator'> </div>
+For more information, visit www.orbs.com or join our community:
 
-**Please Note**
+Telegram: https://t.me/OrbsNetwork
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+X: https://x.com/orbs_network
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+
+
