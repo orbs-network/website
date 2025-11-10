@@ -3545,9 +3545,6 @@ body {
   font-size: 1.313rem;
   line-height: 2rem;
 }
-.single-blog-body a {
-  word-break: break-all;
-}
 .single-blog-body .title {
   text-align: left;
 }

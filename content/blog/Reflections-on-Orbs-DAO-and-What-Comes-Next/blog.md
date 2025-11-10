@@ -2,13 +2,13 @@
 layout: partials/shared/mappers/blog-mapper
 image: 
 blogUrl: Reflections-on-Orbs-DAO-and-What-Comes-Next
-date: 2025-11-04
+date: 2025-11-12
 title: "Reflections on Orbs, DAO, and What Comes Next"
 author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "Over the past few years, I’ve had the privilege of watching Orbs evolve from a bold idea into something tangible and impactful. When we first spoke about “Layer 3” back in 2022, it was still an abstract vision — a way to bring real utility and decentralized execution to on-chain applications."
-publish_at: 2025-11-04 09:00
+publish_at: 2025-11-12 07:00
 ---
 
 Over the past few years, I’ve had the privilege of watching Orbs evolve from a bold idea into something tangible and impactful. When we first spoke about “[Layer 3](https://www.orbs.com/overview/)” back in 2022, it was still an abstract vision — a way to bring real utility and decentralized execution to on-chain applications. Today, that vision has powered more than $3 billion in trading volume and generated over $3 million in gross protocol revenue.
