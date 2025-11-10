@@ -7,11 +7,11 @@ title: "Orbs Perpetual Hub Ultra Integrates with TrebleSwap"
 author:
   - /blog/common/authors/RanHammer.md
 type:
-short_description: "TrebleSwap, a v4 DEX on Base has integrated Perpetual Hub Ultra\! Powered by Orbs, Perpetual Hub Ultra brings institutional grade perpetual futures trading to Base."
+short_description: "TrebleSwap, a v4 DEX on Base has integrated Perpetual Hub Ultra! Powered by Orbs, Perpetual Hub Ultra brings institutional grade perpetual futures trading to Base."
 publish_at: 2025-11-11 10:00
 ---
 
-TrebleSwap, a v4 DEX on Base has integrated Perpetual Hub Ultra\! Powered by Orbs, Perpetual Hub Ultra brings institutional grade perpetual futures trading to Base. This integration positions Orbs technology as the go-to solution for DEXs seeking a plug-and-play perps infrastructure to expand their current offerings.
+TrebleSwap, a v4 DEX on Base has integrated Perpetual Hub Ultra! Powered by Orbs, Perpetual Hub Ultra brings institutional grade perpetual futures trading to Base. This integration positions Orbs technology as the go-to solution for DEXs seeking a plug-and-play perps infrastructure to expand their current offerings.
 
 With this upgrade, Treble’s users gain access to deep liquidity, customizable leverage, and efficient execution, all through a fully managed, modular perps stack.
 
