@@ -17,7 +17,7 @@ Those aren’t just numbers to me. They represent years of building, trying, and
 
 As we close one chapter and look to the next, I keep coming back to project administration, ownership, and decision making. After more than 8 years of development, adoption, and iteration, it is the right time to take the next step—a step toward deeper decentralization and community ownership.
 
-That’s why I’m personally excited about working on the **Orbs DAO**. This isn’t just about governance mechanics; it’s about letting the people who hold $ORBS and who use and build on Orbs help define where it goes. The DAO will evolve from our current governance model and take on broader responsibilities; shaping strategy, directing treasury use, and setting priorities based on what the ecosystem actually needs.
+That’s why I’m personally excited about working on the **Orbs DAO**. This isn’t just about governance mechanics; it’s about letting the people who hold $ORBS and who use and build on Orbs help define where it goes. The DAO will evolve from our current governance model and take on broader responsibilities; handling operation and administration of the network, shaping strategy, directing treasury use, and setting priorities based on what the ecosystem actually needs.
 
 Alongside the DAO, we will be proposing a flexible **tokenomics framework** grounded in real utility:
 
@@ -27,7 +27,9 @@ Alongside the DAO, we will be proposing a flexible **tokenomics framework** grou
 
 That flexibility matters. Markets change. Priorities change. The community can vote to burn tokens, deepen on-chain liquidity, reduce emissions, diversify reserves, or fund new initiatives, whatever best advances the protocol at that moment.
 
-**DAO formation is an ongoing process**. New governance and tokenomics will be implemented **after** the DAO is set up and operational. I hope to provide updates on progress in the near future.
+Earlier this week, I came across Hayden Adams’ [proposal](https://x.com/haydenzadams/status/1987990314997739625?s=46&t=dbCMJ9oX63cSTvWluiveww) to turn on Uniswap protocol fees and route them into a UNI buyback-and-burn mechanism. I believe it is an important milestone not only for Uniswap but for tokenomics design across the industry. Mechanics like buyback-and-burn have already proven themselves in leading protocols such as PancakeSwap, HyperLiquid, Aster, and others. I believe a similar direction could make sense for Orbs as well. Once the DAO is established, my first recommendation will be to explore a tokenomics upgrade centered on a buyback-and-burn driven by real L3 revenue. I also found Hayden’s suggestion to retroactively burn tokens representing historical protocol revenues particularly smart. Applying that analogy to Orbs, it may be both fair and healthy for the DAO to consider burning ORBS from the treasury to account for protocol fees that could have been burned since L3 use cases began generating revenue.
+
+**DAO formation is already underway**. New governance and tokenomics will be implemented **after** the DAO is set up and operational. I hope to provide updates on progress in the near future.
 
 Looking back at what we’ve shipped and how quickly partners have adopted it, it’s clear to me that Orbs has reached a level of maturity where community participation is no longer optional. It’s the logical next step.
 
