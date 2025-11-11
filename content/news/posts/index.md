@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-integrates-perpetual-hub-ultra-with-ionex-on-plasma.md
+  - quickswap-integrates-orbs-perpetual-hub-ultra-bringing-institutional-grade-perps-trading-to-base2.md
+  - quickswap-integrates-orbs-perpetual-hub-ultra-bringing-institutional-grade-perps-trading-to-base.md
+  - kodiak-finance-integrates-orbs-dtwap-and-dlimit-to-enhance-berachain-trading.md
+  - omni-exchange-integrates-orbs-dtwap-and-dlimit-protocols-on-base-to-power-advanced-on-chain-order-types.md
   - kodiak-extends-functionality-for-traders-with-orbs-dtwap-and-dlimit-orders.md
   - kodiak-finance-integrates-orbs-dtwap-and-dlimit-tools-to-enhance-trading-on-berachain.md
   - omni-exchange-integrates-orbs-dtwap-and-dlimit-protocols-on-base-network.md

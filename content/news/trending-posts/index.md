@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/kodiak-finance-integrates-orbs-dtwap-and-dlimit-to-enhance-berachain-trading.md
-  - ../posts/omni-exchange-integrates-orbs-dtwap-and-dlimit-protocols-on-base-to-power-advanced-on-chain-order-types.md
+  - ../posts/orbs-perpetual-hub-ultra-integrates-with-trebleswap-to-power-perpetual-futures-on-base-1035540337.md
+  - ../posts/orbs-perpetual-hub-ultra-powers-institutional-grade-perps-on-ionex.md
 ---
 
