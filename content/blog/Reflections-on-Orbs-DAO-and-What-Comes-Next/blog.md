@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: 
 blogUrl: Reflections-on-Orbs-DAO-and-What-Comes-Next
 date: 2025-11-12
-title: "Reflections on Orbs, DAO, and What Comes Next"
+title: "Reflections on Orbs, DAO, Tokenomics and What Comes Next"
 author:
   - /blog/common/authors/RanHammer.md
 type:
