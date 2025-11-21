@@ -1,0 +1,127 @@
+.dsltp {
+  position: relative;
+  .product-header-hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 600px;
+    width: 50%;
+    pointer-events: none;
+  }
+
+  .product-header-powered {
+    display: none;
+  }
+
+
+  &-section-1 {
+    margin-top: 100px;
+    .common-section-title {
+      margin: 0;
+      text-align: left!important;
+      width: fit-content;
+    }
+    .common-section-grid{
+      padding-top: 0;
+    }
+    .main-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding-bottom: 60px;
+    }
+  }
+
+  &-section-1 {
+    padding-bottom: $page-section-margin;
+    .cards {
+      background: #faf8fd;
+      .common-section-title {
+        text-align: center;
+      }
+    }
+    &-bottom{ 
+      text-align: left  ;
+    }
+  }
+
+  &-section-2 {
+    padding-top: $page-section-margin;
+    padding-bottom: $page-section-margin;
+    background: #313855;
+    .common-section-title {
+    color: white;
+    background: unset;
+    text-align: center;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    }
+    a{
+      color: white;
+    }
+    &-diagram{
+      width: 100%;
+    }
+    &-body{
+        margin-bottom: 50px;
+    }
+
+  }
+
+  &-section-3 {
+    padding-top: $page-section-margin;
+    padding-bottom: $page-section-margin;
+    background: #ffffff;
+    .page-colored-section-title {
+      margin-bottom: $page-section-title-margin-big;
+      display: inline-block;
+    }
+    &-diagram{
+      width: 100%;
+    }
+    &-body{
+      margin-bottom: 50px;
+    }
+
+  }  
+
+  &-section-4 {
+    padding-top: $page-section-margin;
+    padding-bottom: $page-section-margin;
+    background: #faf8fd;
+
+    .line-separator{
+      width: 100%;
+      max-width: unset;
+    }
+    .page-colored-section-title {
+      margin-bottom: $page-section-title-margin-big;
+      display: inline-block;
+    }
+    a {
+      color: #6477E8;
+      text-decoration: unset;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    em {
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    &-body {
+      margin-bottom: 50px;
+    }
+
+    &-buttons {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
