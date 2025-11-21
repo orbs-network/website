@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/blog.md
   - Orbs-Perpetual-Hub-Ultra-Integrates-with-TrebleSwap/blog.md
   - Reflections-on-Orbs-DAO-and-What-Comes-Next/blog.md
   - Orbs-Perpetual-Hub-Ultra-Integrates-with-Ionex/blog.md
