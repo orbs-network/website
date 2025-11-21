@@ -1909,7 +1909,7 @@ body {
 @media only screen and (min-width: 1000px) {
   .boxes-list .list-item {
     margin-top: 14px;
-    width: calc(100% / 3 - 9.38px);
+    width: calc(33.3333333333% - 9.38px);
     margin-right: 14px;
   }
   .boxes-list .list-item:nth-of-type(-n + 3) {
@@ -1923,7 +1923,7 @@ body {
   .boxes-list .list-item {
     margin-top: 14px;
     margin-right: 14px;
-    width: calc(100% / 2 - 7px);
+    width: calc(50% - 7px);
   }
   .boxes-list .list-item:nth-of-type(-n + 2) {
     margin-top: 0px;
@@ -3544,6 +3544,9 @@ body {
 .single-blog-body li {
   font-size: 1.313rem;
   line-height: 2rem;
+}
+.single-blog-body a {
+  word-break: break-all;
 }
 .single-blog-body .title {
   text-align: left;
@@ -7040,6 +7043,120 @@ body {
 .perps-section-3 em {
   font-size: 14px;
   line-height: 26px;
+}
+
+.dsltp {
+  position: relative;
+}
+.dsltp .product-header-hero {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 600px;
+  width: 50%;
+  pointer-events: none;
+}
+.dsltp .product-header-powered {
+  display: none;
+}
+.dsltp-section-1 {
+  margin-top: 100px;
+}
+.dsltp-section-1 .common-section-title {
+  margin: 0;
+  text-align: left !important;
+  width: fit-content;
+}
+.dsltp-section-1 .common-section-grid {
+  padding-top: 0;
+}
+.dsltp-section-1 .main-grid, .dsltp-section-1 .small-grid, .dsltp-section-1 .single-blog-header, .dsltp-section-1 .contact, .dsltp-section-1 .news-grid, .dsltp-section-1 .orbs-vm .common-grid-section-grid, .orbs-vm .dsltp-section-1 .common-grid-section-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+.dsltp-section-1 {
+  padding-bottom: 80px;
+}
+.dsltp-section-1 .cards {
+  background: #faf8fd;
+}
+.dsltp-section-1 .cards .common-section-title {
+  text-align: center;
+}
+.dsltp-section-1-bottom {
+  text-align: left;
+}
+.dsltp-section-2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #313855;
+}
+.dsltp-section-2 .common-section-title {
+  color: white;
+  background: unset;
+  text-align: center;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+.dsltp-section-2 a {
+  color: white;
+}
+.dsltp-section-2-diagram {
+  width: 100%;
+}
+.dsltp-section-2-body {
+  margin-bottom: 50px;
+}
+.dsltp-section-3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #ffffff;
+}
+.dsltp-section-3 .page-colored-section-title, .dsltp-section-3 .common-grid-section h3, .common-grid-section .dsltp-section-3 h3, .dsltp-section-3 .integrations-title, .dsltp-section-3 .integrations-integrate-title, .dsltp-section-3 .common-section-title, .dsltp-section-3 .faq-lists-category h5, .faq-lists-category .dsltp-section-3 h5, .dsltp-section-3 .network-section h3, .network-section .dsltp-section-3 h3, .dsltp-section-3 .network-section-products-list-item-body h4, .network-section-products-list-item-body .dsltp-section-3 h4, .dsltp-section-3 .network-section-how h2, .network-section-how .dsltp-section-3 h2, .dsltp-section-3 .network-section-how h4, .network-section-how .dsltp-section-3 h4, .dsltp-section-3 .universe-second-flex .images-grid-title, .universe-second-flex .dsltp-section-3 .images-grid-title, .dsltp-section-3 .white-papers-category-title, .dsltp-section-3 .contact-socials-section h4, .contact-socials-section .dsltp-section-3 h4, .dsltp-section-3 .news-posts-title, .dsltp-section-3 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .dsltp-section-3 h3, .dsltp-section-3 .notifications .integrations-title, .notifications .dsltp-section-3 .integrations-title, .dsltp-section-3 .notifications .apps-title, .notifications .dsltp-section-3 .apps-title, .dsltp-section-3 .ton-gateway-posts h3, .ton-gateway-posts .dsltp-section-3 h3, .dsltp-section-3 .dtwap-benefits-title, .dsltp-section-3 .dtwap-explanation-title, .dsltp-section-3 .dlimit .schema-subtitle, .dlimit .dsltp-section-3 .schema-subtitle {
+  margin-bottom: 40px;
+  display: inline-block;
+}
+.dsltp-section-3-diagram {
+  width: 100%;
+}
+.dsltp-section-3-body {
+  margin-bottom: 50px;
+}
+.dsltp-section-4 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #faf8fd;
+}
+.dsltp-section-4 .line-separator {
+  width: 100%;
+  max-width: unset;
+}
+.dsltp-section-4 .page-colored-section-title, .dsltp-section-4 .common-grid-section h3, .common-grid-section .dsltp-section-4 h3, .dsltp-section-4 .integrations-title, .dsltp-section-4 .integrations-integrate-title, .dsltp-section-4 .common-section-title, .dsltp-section-4 .faq-lists-category h5, .faq-lists-category .dsltp-section-4 h5, .dsltp-section-4 .network-section h3, .network-section .dsltp-section-4 h3, .dsltp-section-4 .network-section-products-list-item-body h4, .network-section-products-list-item-body .dsltp-section-4 h4, .dsltp-section-4 .network-section-how h2, .network-section-how .dsltp-section-4 h2, .dsltp-section-4 .network-section-how h4, .network-section-how .dsltp-section-4 h4, .dsltp-section-4 .universe-second-flex .images-grid-title, .universe-second-flex .dsltp-section-4 .images-grid-title, .dsltp-section-4 .white-papers-category-title, .dsltp-section-4 .contact-socials-section h4, .contact-socials-section .dsltp-section-4 h4, .dsltp-section-4 .news-posts-title, .dsltp-section-4 .orbs-vm .orbs-vm-graph-2 h3, .orbs-vm .orbs-vm-graph-2 .dsltp-section-4 h3, .dsltp-section-4 .notifications .integrations-title, .notifications .dsltp-section-4 .integrations-title, .dsltp-section-4 .notifications .apps-title, .notifications .dsltp-section-4 .apps-title, .dsltp-section-4 .ton-gateway-posts h3, .ton-gateway-posts .dsltp-section-4 h3, .dsltp-section-4 .dtwap-benefits-title, .dsltp-section-4 .dtwap-explanation-title, .dsltp-section-4 .dlimit .schema-subtitle, .dlimit .dsltp-section-4 .schema-subtitle {
+  margin-bottom: 40px;
+  display: inline-block;
+}
+.dsltp-section-4 a {
+  color: #6477E8;
+  text-decoration: unset;
+}
+.dsltp-section-4 a:hover {
+  text-decoration: underline;
+}
+.dsltp-section-4 em {
+  font-size: 14px;
+  line-height: 26px;
+}
+.dsltp-section-4-body {
+  margin-bottom: 50px;
+}
+.dsltp-section-4-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=index.css.map */
