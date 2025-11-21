@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Nov 2025 14:46:14 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 21 Nov 2025 08:23:36 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing dSLTP: The First Stop-Loss &amp; Take-Profit Solution for DeFi]]></title>
+            <description><![CDATA[Orbs is thrilled to introduce dSLTP - the first-ever decentralized stop order protocol for DEXs.]]></description>
+            <link>https://www.orbs.com/Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi</link>
+            <guid isPermaLink="true">https://www.orbs.com/Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi</guid>
+            <dc:creator><![CDATA[Eran Peled]]></dc:creator>
+            <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Perpetual Hub Ultra Integrates with TrebleSwap]]></title>
             <description><![CDATA[TrebleSwap, a v4 DEX on Base has integrated Perpetual Hub Ultra! Powered by Orbs, Perpetual Hub Ultra brings institutional grade perpetual futures trading to Base.]]></description>
