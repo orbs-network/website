@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/THENA-Integrates-dSLTP/bg.png
+image: /assets/img/blog/THENA-Integrates-dSLTP/bg2.png
 blogUrl: THENA-Integrates-dSLTP
 date: 2025-11-25
 title: "THENA Integrates dSLTP: Bringing Decentralized Stop-Loss & Take-Profit Orders to BNB Chain"
