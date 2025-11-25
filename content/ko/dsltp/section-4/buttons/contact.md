@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/BtnLink
-url: /contact
+url: /ko/contact
 ---
 
-Contact the Team
+문의하기
