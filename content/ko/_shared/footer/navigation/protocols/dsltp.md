@@ -1,5 +1,5 @@
 ---
 layout: partials/footer/components/navigation/link
 ---
-[dSLTP Protocol](/dsltp)
+[dSLTP Protocol](/ko/dsltp)
 

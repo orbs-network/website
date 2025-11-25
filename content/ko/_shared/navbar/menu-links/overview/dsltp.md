@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[dSLTP Protocol](/dsltp)
+[dSLTP Protocol](/ko/dsltp)
