@@ -1,0 +1,16 @@
+layout: pages/page
+script: blog/index
+
+header:
+  - /_shared/navbar/index.md
+main: body.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+meta_description: 
+meta_keywords: 
+title: "THENA Integrates dSLTP: Bringing Decentralized Stop-Loss & Take-Profit Orders to BNB Chain"
+image: /assets/img/blog/THENA-Integrates-dSLTP/bg.png
+gdpr:
+  - /_shared/gdpr/index.md
