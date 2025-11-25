@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Nov 2025 11:56:05 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2025 09:55:23 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[THENA Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to BNB Chain]]></title>
+            <description><![CDATA[THENA, one of the leading (ve3,3) DEXs on BNB Chain, is the first integration to go live with dSLTP, the new stop-loss protocol powered by Orbs L3 technology]]></description>
+            <link>https://www.orbs.com/THENA-Integrates-dSLTP</link>
+            <guid isPermaLink="true">https://www.orbs.com/THENA-Integrates-dSLTP</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/THENA-Integrates-dSLTP/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Introducing dSLTP: The First Stop-Loss &amp; Take-Profit Solution for DeFi]]></title>
             <description><![CDATA[Orbs is thrilled to introduce dSLTP - the first-ever decentralized stop order protocol for DEXs.]]></description>
