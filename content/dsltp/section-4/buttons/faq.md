@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/BtnLink
-url: /faq
+url: /dtwap-and-dlimit-faq
 ---
 
 FAQ
