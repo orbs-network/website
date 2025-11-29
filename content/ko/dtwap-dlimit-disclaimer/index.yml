@@ -1,0 +1,19 @@
+layout: pages/page
+script: policy/index
+header:
+  - /_shared/navbar/index.md
+
+main:
+  - body.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+gdpr:
+  - /_shared/gdpr/index.md
+footer:
+  - /_shared/footer/footer.md
+
+title: dTWAP - dLimit Disclaimer
+description: "Orbs is a public blockchain infrastructure designed for mass usage applications and close integration with EVM-based L1’s such as Ethereum, Binance SmartChain and Polygon. The Orbs protocol is decentralized and executed by a public network of permissionless validators using Proof-of-Stake (PoS) consensus."
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

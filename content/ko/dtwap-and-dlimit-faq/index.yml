@@ -1,0 +1,20 @@
+script: faq/index
+layout: pages/page
+
+header:
+  - /ko/_shared/navbar/index.md
+
+main:
+  - body.md
+footer:
+  - /ko/_shared/footer/footer.md
+subscribe:
+  - /ko/_shared/subscribe/subscribe.md
+gdpr:
+  - /ko/_shared/gdpr/index.md
+
+description: orbs pos universe
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:
+title: dTWAP and dLIMIT FAQ
