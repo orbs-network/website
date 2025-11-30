@@ -3,6 +3,12 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 32680336639202.md
+  - 69258075c6fccf52020ba98f.md
+  - orbs-launches-dsltp-to-deliver-stop-loss-and-take-profit-dex-trading-1035585464.md
+  - orbs-launches-dsltp-to-deliver-stop-loss-and-take-profit-dex-trading.md
+  - orbs-perpetual-hub-ultra-integrates-with-trebleswap-to-power-perpetual-futures-on-base-1035540337.md
+  - orbs-perpetual-hub-ultra-powers-institutional-grade-perps-on-ionex.md
   - orbs-integrates-perpetual-hub-ultra-with-ionex-on-plasma.md
   - quickswap-integrates-orbs-perpetual-hub-ultra-bringing-institutional-grade-perps-trading-to-base2.md
   - quickswap-integrates-orbs-perpetual-hub-ultra-bringing-institutional-grade-perps-trading-to-base.md
