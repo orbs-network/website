@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-dsltp-to-bring-stop-loss-and-take-profit-orders-to-dexs.jpg
+url: https://www.kucoin.com/news/flash/orbs-launches-dsltp-to-bring-stop-loss-and-take-profit-orders-to-dexs
+date: 21, Novermber 2025
+logo: /assets/img/news/logos/kucoin.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Launches dSLTP to Bring Stop-Loss and Take-Profit Orders to DEXs
