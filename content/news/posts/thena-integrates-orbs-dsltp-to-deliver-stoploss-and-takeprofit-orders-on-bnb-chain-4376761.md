@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
+image: /assets/img/news/posts/thena-integrates-orbs-dsltp-to-deliver-stoploss-and-takeprofit-orders-on-bnb-chain-4376761.jpg
+url: https://www.investing.com/news/press-releases/thena-integrates-orbs-dsltp-to-deliver-stoploss-and-takeprofit-orders-on-bnb-chain-4376761
+date: 25, November 2025
 logo: /assets/img/news/logos/investing.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+THENA Integrates Orbs’ dSLTP to Deliver Stop-Loss and Take-Profit Orders on BNB Chain
