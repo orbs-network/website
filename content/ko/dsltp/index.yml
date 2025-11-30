@@ -1,0 +1,19 @@
+layout: pages/page
+
+script: dtwap/index
+header:
+  - /ko/_shared/navbar/index.md
+main:
+  - index.md
+footer:
+  - /ko/_shared/footer/footer.md
+subscribe:
+  - /ko/_shared/subscribe/subscribe.md
+gdpr:
+  - /ko/_shared/gdpr/index.md
+
+title: dSLTP Protocol - Orbs
+description: dSLTP Protocol
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

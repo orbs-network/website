@@ -8,6 +8,7 @@ links:
   - perps.md
   - dtwap.md
   - dlimit.md
+  - dsltp.md
   - execution-services.md
   - link-2.md
 ---
