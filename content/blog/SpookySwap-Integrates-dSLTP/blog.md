@@ -1,67 +1,108 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/how-to-use-the-orbs-pool-on-alpaca-finance/bg.jpeg
-blogUrl: how-to-use-the-orbs-pool-on-alpaca-finance
-date: 2021-07-20
-title: How to Use the Orbs Pool on Alpaca Finance
+image: /assets/img/blog/SpookySwap-Integrates-dSLTP/bg2.png
+blogUrl: SpookySwap-Integrates-dSLTP
+date: 2025-12-04
+title: SpookySwap Integrates dSLTP: Bringing Decentralized Stop-Loss & Take-Profit Orders to Sonic!
 author:
-  - /blog/common/authors/EranPeled.md
+  - /blog/common/authors/RanHammer.md
 type:
-short_description:
+short_description: "SpookySwap, a leading DEX on Sonic, is among the first integrations to go live with dSLTP, the new stop-loss protocol powered by Orbs L3 technology."
 ---
 
-PancakeSwap [recently](/orbs-launches-a-syrup-pool-on-pancakeswap) launched the Orbs Syrup Pool on BSC.
+SpookySwap, a leading DEX on Sonic, is among the first integrations to go live with dSLTP, the new stop-loss protocol powered by Orbs L3 technology. This rapid integration highlights the strong demand for decentralized stop-loss and take-profit orders and demonstrates how quickly the Orbs ecosystem is expanding as demand from traders to have a CEX like experience grows.
 
-Soon after, Alpaca Finance [announced](/orbs-added-to-alpaca-finance-vaults) that they are adding Orbs to their farming pools!
+With dSLTP now live on Sonic, traders can set automated stop-loss and take-profit conditions for any swap, giving them precise control over risk and execution directly on a DEX, for the first time, anywhere.
 
-Alpaca Finance is one of the most innovative DeFi projects on Binance Smart Chain. As of today, it is the largest lending protocol allowing leveraged yield farming on BSC. In this new initiative, Orbs holders will be able to increase their yields by using the Grazing Range and Leveraged Farming features offered by Alpaca.
+Powered by Orbs’ decentralized Layer-3 infrastructure, dSLTP is fully permissionless, trustless, and composable, enabling any DEX to integrate stop-order automation without centralized servers or off-chain executors. With Spooky adopting the protocol, Sonic traders now have access to robust, on-chain risk management tools.
 
-[![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img1.jpeg)](/orbs-added-to-alpaca-finance-vaults)
+_[Orbs](https://www.orbs.com/) is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with tens of millions of dollars in TVL. The protocol optimizes on-chain trading with L3 use cases that include aggregated liquidity, advanced trading orders, and decentralized derivatives, enabling a DeFi trading experience as efficient as CeFi._
 
-### Step-by-Step Guide
 
-Alpaca Finance is an advanced DeFi protocol, involving more sophisticated tools than your average AMM. We highly recommend to everyone who is not familiar with how Alpaca Finance works, to read through their documentation and make sure they understand the risks involved.
+### Trade DeFi With Precision
 
-Please also see our disclaimers below.
+SpookySwap is one of the busies DEXs on Sonic and a significant hub for liquidity and active trading. By integrating dSLTP, SpookySwap becomes one of the first venues to offer on-chain stop-loss and take-profit automation, anywhere,  bringing serious risk-management tools to everyday DeFi users.
 
-Here is a short tutorial and a summarized process flow for using the Orbs token on the Alpaca platform:
+Stop-loss and take-profit orders allow traders to:
 
-<iframe src="https://www.youtube.com/embed/jSPhP9gqfkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- **Protect their portfolio** by automatically selling when price drops below a predefined level.
+- **Secure gains** by locking in profits once a target price is reached.
+- **Automate execution**, removing the need to constantly monitor markets.
+- **Maintain discipline** through pre-configured risk/reward strategies.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img2.png)
+![chart](/assets/img/blog/SpookySwap-Integrates-dSLTP/image1.png)
 
-### 1) Add Liquidity to the ORBS-BUSD Farm
 
-Go to the FARM tab and choose the ORBS-BUSD farm.
+A **stop-loss** order triggers a sell transaction if the market price falls below the trader’s set stop price. This is a vital tool in volatile markets where tokens can move sharply within minutes.
 
-Enter quantities for each token and set the leverage which can vary from x1️ (no leverage) to x2 (maximum leverage). In order to use leverage, you will need to borrow BUSD. Alpaca will balance out the pair weights to provide liquidity at a 50:50 ratio.
+A **take-profit** order executes once price rises to the target level, securing gains and preventing missed profit opportunities.
 
-When opening a leveraged farm, you are eligible to earn **ALPACA tokens.**
+Used together, these tools create a balanced trading approach that captures upside while limiting downside exposure. Until now, such functionality has been exclusive to centralized exchanges. dSLTP changes this, bringing robust, decentralized stop-order automation on-chain for the very first time.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img3.png)
+### Configuring Stop-Loss & Take-Profit Orders
 
-Once the position is opened, you can always re-adjust the parameters:
+Spooky’s integration delivers a streamlined, intuitive interface for configuring stop orders with precise controls.
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img4.png)
+**Stop-Loss Orders**
 
-### 2) Lend ALPACA tokens
+Stop-loss orders help traders protect against sharp downside moves. A stop-loss is typically placed below the current market price and is designed to close all or part of a position if the price drops to a defined level.
 
-Next, you can deposit the ALPACA tokens in step 1 in the LEND tab, to receive **ibALPACA tokens**. These tokens will be deposited in the Alpaca lending vaults and are then offered to yield farmers for leveraging up their positions.
+**Take-Profit Orders**
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img5.png)
+Take-profit orders allow traders to automatically secure gains once the price reaches their target. A take-profit is typically set above the current market price and triggered when that price is reached.
 
-### 3) Earn Orbs in the Grazing Range
+Traders can customize each stop-loss or take-profit order using several key parameters:
 
-In the [Grazing Range](https://app.alpacafinance.org/grazing-rangeimg) tab, you will be able to stake the ibALPACA in order to earn ORBS tokens.
+- **From:** the token they hold
+- **To:** the token they wish to receive
+- **Trigger Price:** the price that activates the stop order
+- **Limit Price** (optional): the worst acceptable execution price
+- **Expiry:** the maximum time the order remains valid
 
-![img](/assets/img/blog/orbs-added-to-alpaca-finance-vaults/img6.png)
+![screenshot](/assets/img/blog/SpookySwap-Integrates-dSLTP/image2.png)
 
-#### And that’s it – You are now a senior Alpaca!
 
-<div class='line-separator'> </div>
+**Percentage-based configuration:** set conditions such as trimming at +20%, securing profits at +50%, or exiting entirely at a 100% increase.
 
-**Please Note**
+These parameters allow traders to tailor execution to their specific strategy, market conditions, and risk tolerance.
 
-_Use of Alpaca Finance, PancakeSwap AnySwap bridge and the other platforms and services described above carries significant risk. Digital assets, decentralized finance products, especially those that utilize margin or leverage, are, by their nature, highly risky, experimental and volatile. Such platforms and services may be subject to security and economic risks and exploits and transactions may be irreversible, final and without refunds. Such use carries a risk of substantial losses. In particular, the use of products that utilize margin or leverage magnifies exposes you to a risk of liquidation and full loss of your position. _
+Once all parameters are set, users approve the source token, submit the order, and can monitor, edit, or cancel it through the order history interface. 
 
-_Any use of any platform, application and/or services described above is at your own risk and you are solely responsible for all transaction decisions. You should do your own research and independently review any third-party services and platforms and any applicable information terms, conditions or policies applicable to such platforms and services._
+### Redefining Risk Management on DEXs
+
+dSLTP is the newest protocol powered by Orbs L3 technology, joining dLIMIT and dTWAP as the industry-standard suite for advanced decentralized trading orders. Generating millions in automated monthly trading volume, Orbs continues to push DeFi toward more sophisticated trading execution.
+
+Stop-loss and take-profit orders are among the most widely used tools in traditional finance. With the arrival of dSLTP on Spooky, these essential trading features are now available to every trader on Sonic, fully decentralized and transparent.
+
+
+Find out more:
+
+- (FAQ)[https://www.orbs.com/dtwap-and-dlimit-faq/]
+- dTWAP/dSLTP telegram (support group)[https://t.me/dTWAPSupportGroup]
+- [Github](https://github.com/orbs-network/liquidity-hub/blob/v2/README.md)
+- [Security audit](https://github.com/orbs-network/spot/blob/master/Audit-AstraSec.pdf)
+
+
+**About SpookySwap**
+
+SpookySwap is an automated market-making (AMM) decentralized exchange (DEX) built on UNIV3 for EVM-compatible networks. As the premier DEX on Fantom, Horizen, and BitTorrent Chain, Spooky is committed to delivering a seamless DeFi experience with a strong foundation powered by our BOO token, which supports governance, diverse farming options, and a built-in bridge. Spooky remains dedicated to user-centered service as we continue to grow our unique presence across the crypto space.
+
+More information: https://v3.docs.spooky.fi/ 
+
+**About Orbs**
+
+Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanced on-chain trading. Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs-powered protocols, including dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub, push the boundaries of DeFi by introducing CeFi-level execution to on-chain trading.
+
+With a global team of over forty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
+
+For more information, visit www.orbs.com or join our community:
+
+Telegram: https://t.me/OrbsNetwork
+
+X: https://x.com/orbs_network
+
+
+
+
+
+
