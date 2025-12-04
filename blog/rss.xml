@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 30 Nov 2025 10:28:14 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2025 08:26:24 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[SpookySwap Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to Sonic!]]></title>
+            <description><![CDATA[SpookySwap, a leading DEX on Sonic, is among the first integrations to go live with dSLTP, the new stop-loss protocol powered by Orbs L3 technology.]]></description>
+            <link>https://www.orbs.com/SpookySwap-Integrates-dSLTP</link>
+            <guid isPermaLink="true">https://www.orbs.com/SpookySwap-Integrates-dSLTP</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/SpookySwap-Integrates-dSLTP/bg2.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[THENA Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to BNB Chain]]></title>
             <description><![CDATA[THENA, one of the leading (ve3,3) DEXs on BNB Chain, is the first integration to go live with dSLTP, the new stop-loss protocol powered by Orbs L3 technology]]></description>
