@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/SpookySwap-Integrates-dSLTP/bg2.png
 blogUrl: SpookySwap-Integrates-dSLTP
 date: 2025-12-04
-title: SpookySwap Integrates dSLTP: Bringing Decentralized Stop-Loss & Take-Profit Orders to Sonic!
+title: "SpookySwap Integrates dSLTP: Bringing Decentralized Stop-Loss & Take-Profit Orders to Sonic!"
 author:
   - /blog/common/authors/RanHammer.md
 type:
