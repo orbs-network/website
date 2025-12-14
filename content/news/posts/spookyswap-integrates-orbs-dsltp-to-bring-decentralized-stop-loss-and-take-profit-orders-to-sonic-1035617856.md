@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/spookyswap-integrates-orbs-dsltp-to-bring-decentralized-stop-loss-and-take-profit-orders-to-sonic-1035617856.jpeg
+url: https://markets.businessinsider.com/news/currencies/spookyswap-integrates-orbs-dsltp-to-bring-decentralized-stop-loss-and-take-profit-orders-to-sonic-1035617856
+date: 4, December 2025
+logo: /assets/img/news/logos/insider.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+SpookySwap Integrates Orbs’ dSLTP to Bring Decentralized Stop Loss and Take Profit Orders to Sonic
