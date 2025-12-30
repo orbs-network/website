@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - SpookySwap-Integrates-dSLTP/blog.md
   - THENA-Integrates-dSLTP/blog.md
   - Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/blog.md
   - Orbs-Perpetual-Hub-Ultra-Integrates-with-TrebleSwap/blog.md
