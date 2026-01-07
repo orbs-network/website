@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Dec 2025 09:45:08 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2026 23:03:29 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Atlantis Brings Onchain Perpetuals to Monad via Orbs Perpetual Hub]]></title>
+            <description><![CDATA[Atlantis has integrated Orbs’ Perpetual Hub Ultra to power perpetual futures trading on Monad.]]></description>
+            <link>https://www.orbs.com/Atlantis-Brings-Onchain-Perpetuals-to-Monad-via-Orbs-Perpetual-Hub</link>
+            <guid isPermaLink="true">https://www.orbs.com/Atlantis-Brings-Onchain-Perpetuals-to-Monad-via-Orbs-Perpetual-Hub</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Atlantis-Brings-Onchain-Perpetuals-to-Monad-via-Orbs-Perpetual-Hub/image2.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[SpookySwap Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to Sonic!]]></title>
             <description><![CDATA[SpookySwap, a leading DEX on Sonic, is among the first integrations to go live with dSLTP, the new stop-loss protocol powered by Orbs L3 technology.]]></description>
