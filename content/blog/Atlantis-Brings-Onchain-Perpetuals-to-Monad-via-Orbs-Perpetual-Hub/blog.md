@@ -8,7 +8,7 @@ author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "Atlantis has integrated Orbs’ Perpetual Hub Ultra to power perpetual futures trading on Monad."
-publish_at: 2026-01-08 12:00
+publish_at: 2026-01-08 11:00
 ---
 
 Atlantis has integrated Orbs’ Perpetual Hub Ultra to power perpetual futures trading on Monad. Built on a modular V4 architecture, Atlantis expands beyond spot trading with a plug-and-play perps infrastructure, reinforcing its position as a complete DeFi hub while showcasing Orbs technology as the underlying execution layer for advanced onchain derivatives.
