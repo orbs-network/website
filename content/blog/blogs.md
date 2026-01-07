@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Atlantis-Brings-Onchain-Perpetuals-to-Monad-via-Orbs-Perpetual-Hub/blog.md
   - SpookySwap-Integrates-dSLTP/blog.md
   - THENA-Integrates-dSLTP/blog.md
   - Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/blog.md
