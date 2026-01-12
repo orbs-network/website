@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2026 23:03:29 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2026 23:03:22 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs 2025: Execution at Scale]]></title>
+            <description><![CDATA[2025 was a year of large scale execution for Orbs. Across community growth, integrations, and revenue, the ecosystem continued to grow, with Orbs’ Layer-3 protocols remaining a core part of how partners (frens) operate in production.]]></description>
+            <link>https://www.orbs.com/Orbs-2025-Execution-at-Scale</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-2025-Execution-at-Scale</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-2025-Execution-at-Scale/image5.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Atlantis Brings Onchain Perpetuals to Monad via Orbs Perpetual Hub]]></title>
             <description><![CDATA[Atlantis has integrated Orbs’ Perpetual Hub Ultra to power perpetual futures trading on Monad.]]></description>
