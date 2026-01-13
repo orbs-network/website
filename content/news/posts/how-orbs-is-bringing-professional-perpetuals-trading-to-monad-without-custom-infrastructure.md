@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/how-orbs-is-bringing-professional-perpetuals-trading-to-monad-without-custom-infrastructure.jpg
+url: https://hackernoon.com/how-orbs-is-bringing-professional-perpetuals-trading-to-monad-without-custom-infrastructure
+date: 8, January 2026
+logo: /assets/img/news/logos/hackernoon.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+How Orbs Is Bringing Professional Perpetuals Trading to Monad Without Custom Infrastructure
