@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/layer-3-has-become-the-execution-layer-defi-deserves.md
-  - ../posts/33261251538490.md
+  - ../posts/how-orbs-is-bringing-professional-perpetuals-trading-to-monad-without-custom-infrastructure.md
+  - ../posts/orbs-brings-onchain-perpetuals-to-monad-through-atlantis-integration.md
 ---
 
