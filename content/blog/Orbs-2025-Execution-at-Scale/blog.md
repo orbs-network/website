@@ -37,7 +37,7 @@ Since the launch of PoS V3, ORBS staking has reached an all-time high, recently 
 
 More broadly, this milestone signals a maturation of the Orbs ecosystem. As protocol usage grows and core infrastructure continues to prove itself under real market conditions, staking has become a clear expression of confidence in Orbs’ long-term roadmap. With PoS V3 providing a more robust and flexible foundation, rising stake levels position the network to support continued expansion.
 
-![Orbs Staking](/assets/img/blog/Orbs-2025-Execution-at-Scale/image2.png)
+![Orbs Staking Chart](/assets/img/blog/Orbs-2025-Execution-at-Scale/chart.jpg)
 
 ## Events and Community
 
