@@ -3,6 +3,9 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 34807389567089.md
+  - layer-3-has-become-the-execution-layer-defi-deserves.md
+  - 33261251538490.md
   - spookyswap-integrates-orbs-dsltp-to-bring-decentralized-stop-loss-and-take-profit-orders-to-sonic-1035617856.md
   - 69318a761e7e0a6d90208e83.md
   - thena-integrates-orbs-dsltp-to-deliver-stoploss-and-takeprofit-orders-on-bnb-chain-4376761.md
