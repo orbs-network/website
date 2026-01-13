@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-2025-Execution-at-Scale/image5.png
 blogUrl: Orbs-2025-Execution-at-Scale
-date: 2026-01-08
+date: 2026-01-13
 title: "Orbs 2025: Execution at Scale"
 author:
   - /blog/common/authors/RanHammer.md
