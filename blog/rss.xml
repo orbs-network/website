@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Jan 2026 10:52:57 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 09:21:58 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Gryps Integrates Orbs Perpetual Hub to Power Institutional Perpetuals on Sei]]></title>
+            <description><![CDATA[Gryps has integrated Orbs’ Perpetual Hub Ultra to power institutional grade perpetual futures trading on SEI Network.]]></description>
+            <link>https://www.orbs.com/Gryps-Integrates-Orbs-Perpetual-Hub</link>
+            <guid isPermaLink="true">https://www.orbs.com/Gryps-Integrates-Orbs-Perpetual-Hub</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Gryps-Integrates-Orbs-Perpetual-Hub/bg.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs 2025: Execution at Scale]]></title>
             <description><![CDATA[2025 was a year of large scale execution for Orbs. Across community growth, integrations, and revenue, the ecosystem continued to grow, with Orbs’ Layer-3 protocols remaining a core part of how partners (frens) operate in production.]]></description>
