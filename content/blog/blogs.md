@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Gryps-Integrates-Orbs-Perpetual-Hub/blog.md
   - Orbs-2025-Execution-at-Scale/blog.md
   - Atlantis-Brings-Onchain-Perpetuals-to-Monad-via-Orbs-Perpetual-Hub/blog.md
   - SpookySwap-Integrates-dSLTP/blog.md
