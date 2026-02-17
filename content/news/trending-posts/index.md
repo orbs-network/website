@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/how-orbs-is-bringing-professional-perpetuals-trading-to-monad-without-custom-infrastructure.md
-  - ../posts/orbs-brings-onchain-perpetuals-to-monad-through-atlantis-integration.md
+  - ../posts/the-rise-of-layer-3-how-application-specific-layers-are-powering-specialized-defi-innovation.md
+  - ../posts/onchain-perpetual-futures-closing-the-gap-between-cefi-and-defi-for-institutional-traders.md
 ---
 
