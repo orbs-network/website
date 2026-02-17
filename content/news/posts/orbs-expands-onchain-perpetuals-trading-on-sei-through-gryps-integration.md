@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-expands-onchain-perpetuals-trading-on-sei-through-gryps-integration.jpg
+url: https://finbold.com/orbs-expands-onchain-perpetuals-trading-on-sei-through-gryps-integration/
+date: 27, January 2026
+logo: /assets/img/news/logos/Finbold.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs expands onchain perpetuals trading on Sei through Gryps integration
