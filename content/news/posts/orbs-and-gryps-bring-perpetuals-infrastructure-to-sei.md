@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-and-gryps-bring-perpetuals-infrastructure-to-sei.jpg
+url: https://crypto-economy.com/orbs-and-gryps-bring-perpetuals-infrastructure-to-sei/
+date: 27, January 2026
+logo: /assets/img/news/logos/Crypto-Economy.webp
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs and Gryps Bring Perpetuals Infrastructure to Sei
