@@ -6,4 +6,4 @@ date: 16, February 2026
 logo: /assets/img/news/logos/mpost-logo.png
 ---
 
-The Rise of Layer 3: How Application-Specific Layers Are Powering Specialized DeFi Innovation
+Onchain Perpetual Futures: Closing The Gap Between CeFi And DeFi For Institutional Traders
