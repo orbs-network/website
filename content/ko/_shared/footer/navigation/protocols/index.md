@@ -6,6 +6,7 @@ links:
   - perps.md
   - dtwap.md
   - dlimit.md
+  - dsltp.md
   - notifications.md
   - ton-gateway.md
   - vote.md
