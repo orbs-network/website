@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2026 12:09:50 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 10 Mar 2026 14:40:17 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Kodiak Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to Berachain]]></title>
+            <description><![CDATA[Kodiak Finance, a leading DEX on Berachain, is among the first protocols to integrate dSLTP — the decentralized stop-loss and take-profit order system powered by Orbs Network Layer-3 technology.]]></description>
+            <link>https://www.orbs.com/Kodiak-Integrates-dSLTP</link>
+            <guid isPermaLink="true">https://www.orbs.com/Kodiak-Integrates-dSLTP</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Kodiak-Integrates-dSLTP/image3.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Gryps Integrates Orbs Perpetual Hub to Power Institutional Perpetuals on Sei]]></title>
             <description><![CDATA[Gryps has integrated Orbs’ Perpetual Hub Ultra to power institutional grade perpetual futures trading on SEI Network.]]></description>
