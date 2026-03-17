@@ -11,10 +11,6 @@ short_description: "Autonomous execution backed by cosigned oracles"
 publish_at: 2026-03-17 11:00
 ---
 
-*Autonomous execution backed by cosigned oracles*
-
-<div class='line-separator'> </div>
-
 The next wave of DeFi UX won't look like humans clicking around a DEX UI. It will increasingly look like software — AI agents that monitor markets, manage positions, and execute strategies continuously, with humans setting objectives and risk constraints rather than manually placing every trade.
 
 This isn't a distant idea. The agent ecosystem is moving quickly: LangChain, CrewAI, Eliza (ai16z), MCP (Model Context Protocol), and OpenAI GPT Actions make it straightforward to give an agent "tools" that can read state and take actions. The missing piece in DeFi is less about reasoning and more about execution: a secure, production-grade layer that agents (and users) can trust for on-chain trading.

@@ -93,7 +93,7 @@ Full markdown body here. Images referenced as:
 - Author files are at `content/blog/common/authors/` (e.g., `RanHammer.md`)
 - Date format: `YYYY-MM-DD`
 - `publish_at` format: `YYYY-MM-DD HH:MM` (e.g., `2026-03-17 11:00`)
-- If the Google Doc has a subtitle/tagline, use it as the `short_description`
+- If the Google Doc has a subtitle/tagline, use it as the `short_description` and remove it from the body content
 - Remove any author sign-off line at the end of the post (e.g., "Written by X") — the author is already in the template frontmatter
 - **Every blog post MUST end with the standard "About Orbs" footer** (even if the Google Doc doesn't include it). Add it after the last section, preceded by a `<div class='line-separator'> </div>`. The exact text:
 
