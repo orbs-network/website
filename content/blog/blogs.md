@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-Orbs-Agentic/blog.md
   - Kodiak-Integrates-dSLTP/blog.md
   - Gryps-Integrates-Orbs-Perpetual-Hub/blog.md
   - Orbs-2025-Execution-at-Scale/blog.md
