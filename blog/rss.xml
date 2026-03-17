@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Mar 2026 14:40:17 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 10:53:04 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing Orbs Agentic — The DeFi Agent Execution Layer]]></title>
+            <description><![CDATA[Autonomous execution backed by cosigned oracles]]></description>
+            <link>https://www.orbs.com/Introducing-Orbs-Agentic</link>
+            <guid isPermaLink="true">https://www.orbs.com/Introducing-Orbs-Agentic</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Introducing-Orbs-Agentic/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Kodiak Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to Berachain]]></title>
             <description><![CDATA[Kodiak Finance, a leading DEX on Berachain, is among the first protocols to integrate dSLTP — the decentralized stop-loss and take-profit order system powered by Orbs Network Layer-3 technology.]]></description>
