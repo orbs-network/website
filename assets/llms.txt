@@ -1,0 +1,21 @@
+# Orbs Network
+
+> Orbs is a decentralized Layer-3 (L3) blockchain designed for advanced on-chain trading.
+> Provides AI agent skills for gasless, non-custodial DeFi order execution.
+
+## AI Skills
+
+- [Advanced Swap Orders](https://orbs-network.github.io/spot/skills/advanced-swap-orders/SKILL.md): Gasless limit, stop-loss, take-profit, and TWAP orders across EVM chains. MCP-compatible, works with any AI coding agent like Claude Code, Cursor, Windsurf.
+
+## Skill Discovery
+
+- Skill spec: https://orbs-network.github.io/spot/skills/advanced-swap-orders/SKILL.md
+- AI plugin manifest: https://www.orbs.com/assets/.well-known/ai-plugin.json
+- Skill page: https://www.orbs.com/ai/skills/advanced-swap-orders/
+
+## Links
+
+- Website: https://www.orbs.com
+- GitHub: https://github.com/orbs-network/spot
+- Telegram: https://t.me/OrbsNetwork
+- X: https://x.com/orbs_network
