@@ -10,5 +10,7 @@ links:
   - dlimit.md
   - dsltp.md
   - execution-services.md
+  - orbs-agentic.md
+  - ai-skills.md
   - link-2.md
 ---
