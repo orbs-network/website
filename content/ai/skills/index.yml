@@ -1,0 +1,19 @@
+layout: pages/page
+script: ai/index
+
+header:
+  - /_shared/navbar/index.md
+main:
+  - listing/index.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+gdpr:
+  - /_shared/gdpr/index.md
+
+title: Orbs AI Skills — DeFi Tools for AI Coding Agents
+description: Browse AI agent skills from Orbs Network. Gasless on-chain trading tools for limit orders, stop-loss, take-profit, and TWAP. Install in any AI coding agent like Claude Code, Cursor, or Windsurf.
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

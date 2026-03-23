@@ -11,6 +11,8 @@ const NavbarTop = ({
   home,
   blog,
   blog_link,
+  ai_agents,
+  ai_agents_url,
   developers,
   developers_url,
   status,
@@ -36,6 +38,13 @@ const NavbarTop = ({
         </a>
       </div>
       <section className="navbar-top-right">
+        <a
+          rel="noreferrer"
+          href={generateUrl(ai_agents_url)}
+          className="navbar-top-action-btn blog-btn"
+        >
+          {`+ ${ai_agents}`}
+        </a>
         <a
           target="_blank"
           rel="noreferrer"
