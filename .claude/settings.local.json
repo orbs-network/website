@@ -28,7 +28,13 @@
       "Bash(cp \"/Users/denis/Downloads/linea-logo.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/linea.png)",
       "Bash(cp \"/Users/denis/Downloads/Avalanche_Circle_RedWhite_Trans.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/avalanche.png)",
       "Bash(cp \"/Users/denis/Downloads/200x200_Sonic_Logo.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/sonic.png)",
-      "Bash(curl -sL \"https://cryptologos.cc/logos/bnb-bnb-logo.png?v=040\" -o /Users/denis/Documents/projects/website/assets/img/agentic/chains/bnb.png)"
+      "Bash(curl -sL \"https://cryptologos.cc/logos/bnb-bnb-logo.png?v=040\" -o /Users/denis/Documents/projects/website/assets/img/agentic/chains/bnb.png)",
+      "Bash(cp \"/Users/denis/Downloads/1.svg.svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-trading-ui.svg)",
+      "Bash(cp \"/Users/denis/Downloads/1.svg \\(1\\).svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-hedger.svg)",
+      "Bash(cp \"/Users/denis/Downloads/cubes, blocks.svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-oracles.svg)",
+      "Bash(cp \"/Users/denis/Downloads/Column 2.png\" /Users/denis/Documents/projects/website/assets/img/perps/hero.png)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321314886.png\" /Users/denis/Documents/projects/website/assets/img/perps/diagram.png)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315186.png\" /Users/denis/Documents/projects/website/assets/img/perps/partners.png)"
     ]
   }
 }
