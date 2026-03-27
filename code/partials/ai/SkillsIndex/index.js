@@ -1,7 +1,7 @@
 import React from "react";
 import MainGrid from "../../shared/MainGrid";
 
-const SKILL_URL = "https://orbs-network.github.io/spot/skills/advanced-swap-orders/SKILL.md";
+const SKILL_URL = "https://orbs-network.github.io/spot/SKILL.md";
 
 const skills = [
   {

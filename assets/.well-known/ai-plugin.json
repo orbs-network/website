@@ -7,7 +7,7 @@
     {
       "name": "Advanced Swap Orders",
       "description": "Gasless limit, stop-loss, take-profit, and TWAP orders across EVM chains. Non-custodial, oracle-protected execution using immutable, audited contracts. Supports any AI coding agent like Claude Code, Cursor, and Windsurf.",
-      "skill_url": "https://orbs-network.github.io/spot/skills/advanced-swap-orders/SKILL.md",
+      "skill_url": "https://orbs-network.github.io/spot/SKILL.md",
       "page_url": "https://www.orbs.com/ai/skills/advanced-swap-orders/",
       "github": "https://github.com/orbs-network/spot",
       "version": "1.0",

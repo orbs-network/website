@@ -1,7 +1,7 @@
 import React from "react";
 import MainGrid from "../../shared/MainGrid";
 
-const SKILL_URL = "https://orbs-network.github.io/spot/skills/advanced-swap-orders/SKILL.md";
+const SKILL_URL = "https://orbs-network.github.io/spot/SKILL.md";
 
 const humanPrompt = `Fetch orbs-network.github.io/spot and install the skills described there so you can help me place gasless advanced orders like limit, stop-loss, take-profit, and TWAP.`;
 

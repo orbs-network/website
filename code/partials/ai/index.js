@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SKILL_URL = "https://orbs-network.github.io/spot/skills/advanced-swap-orders/SKILL.md";
+const SKILL_URL = "https://orbs-network.github.io/spot/SKILL.md";
 
 function Main({ header, quickstart, features, howItWorks, chains }) {
   return (
