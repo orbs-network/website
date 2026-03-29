@@ -1,6 +1,6 @@
 ---
 layout: partials/ai/Header/index
-title: AI Agent Skill — Advanced Swap Orders
+title: AI Agent Skill — Spot Advanced Swap Orders
 subtitle: Install in Claude Code, Cursor, Windsurf & more
 github: https://github.com/orbs-network/spot
 ---

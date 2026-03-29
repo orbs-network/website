@@ -5,10 +5,10 @@ const SKILL_URL = "https://orbs-network.github.io/spot/SKILL.md";
 
 const skills = [
   {
-    name: "Advanced Swap Orders",
+    name: "Spot Advanced Swap Orders",
     description: "Gasless limit, stop-loss, take-profit, and TWAP orders across EVM chains. Non-custodial, oracle-protected execution using immutable, audited contracts.",
     skillUrl: SKILL_URL,
-    pageUrl: "/ai/skills/advanced-swap-orders/",
+    pageUrl: "/ai/skills/spot-advanced-swap-orders/",
     github: "https://github.com/orbs-network/spot",
     chains: ["Ethereum", "BNB Chain", "Polygon", "Arbitrum", "Base", "Linea", "Avalanche", "Sonic"],
     orderTypes: ["Market", "Limit", "Stop-Loss", "Take-Profit", "TWAP", "Delayed Start"],
