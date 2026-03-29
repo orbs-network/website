@@ -23,9 +23,7 @@ jobs:
           no_output_timeout: 30m
       - run:
           name: Create CNAME file. $DEPLOY_DOMAIN_NAME is defined on circleci project env variables.
-          command: |
-            echo $DEPLOY_DOMAIN_NAME > ./site/CNAME
-            cp ./site/404/index.html ./site/404.html
+          command: echo $DEPLOY_DOMAIN_NAME > ./site/CNAME
       - run:
           name: Deploy to gh-pages branch
           command: gh-pages --message "[ci skip] Deploy" --dist site
