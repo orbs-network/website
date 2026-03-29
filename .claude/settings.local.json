@@ -34,7 +34,8 @@
       "Bash(cp \"/Users/denis/Downloads/cubes, blocks.svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-oracles.svg)",
       "Bash(cp \"/Users/denis/Downloads/Column 2.png\" /Users/denis/Documents/projects/website/assets/img/perps/hero.png)",
       "Bash(cp \"/Users/denis/Downloads/Group 1321314886.png\" /Users/denis/Documents/projects/website/assets/img/perps/diagram.png)",
-      "Bash(cp \"/Users/denis/Downloads/Group 1321315186.png\" /Users/denis/Documents/projects/website/assets/img/perps/partners.png)"
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315186.png\" /Users/denis/Documents/projects/website/assets/img/perps/partners.png)",
+      "Bash(node:*)"
     ]
   }
 }

@@ -16,6 +16,7 @@ jobs:
             npm install -g --silent gh-pages@2.0.1
             npm install -g --silent cuttlebelle
             npm install
+            node patches/fix-cuttlebelle-del.js
             git config user.email "ci-build@orbs.com"
             git config user.name "ci-build"
       - save_cache:

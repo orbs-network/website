@@ -23,7 +23,7 @@ build: build-incremental
 # Full rebuild (no caching)
 build-full:
 	@echo "==> Full build..."
-	rm -rf $(SITE_DIR)
+	rm -rf $(SITE_DIR)/*
 	npm run build
 	@$(MAKE) --no-print-directory save-hashes
 	@echo "==> Done."
@@ -47,7 +47,7 @@ build-incremental:
 	OLD_SHARED=$$(cat $(HASH_DIR)/_shared 2>/dev/null || echo ""); \
 	if [ "$$SHARED_HASH" != "$$OLD_SHARED" ]; then \
 		echo "==> Shared files changed, full rebuild required."; \
-		rm -rf $(SITE_DIR); \
+		rm -rf $(SITE_DIR)/*; \
 		cuttlebelle; \
 		$(MAKE) --no-print-directory save-hashes-post; \
 	else \

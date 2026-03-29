@@ -4,6 +4,7 @@
   "description": "Website for Orbs.com",
   "main": "index.js",
   "scripts": {
+    "postinstall": "node patches/fix-cuttlebelle-del.js",
     "prebuild": "sh prebuild.sh",
     "build": "cuttlebelle",
     "postbuild": "node ./build-rss-feed.js",
