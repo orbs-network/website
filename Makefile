@@ -20,12 +20,11 @@ help:
 # Default: incremental build
 build: build-incremental
 
-# Full rebuild (no caching)
+# Full rebuild
 build-full:
 	@echo "==> Full build..."
-	rm -rf $(SITE_DIR)/*
 	npm run build
-	@$(MAKE) --no-print-directory save-hashes
+	@$(MAKE) --no-print-directory save-hashes-post
 	@echo "==> Done."
 
 # Rebuild only CSS
@@ -35,50 +34,52 @@ build-sass:
 # Incremental build
 # 1. Run prebuild to flatten blog dirs into content/
 # 2. Hash each content dir and compare to saved hashes
-# 3. Stash unchanged dirs, build only changed ones, restore
+# 3. If no hashes exist yet (first run), do a full build
+# 4. Stash unchanged dirs, build only changed ones, restore
 build-incremental:
-	@mkdir -p $(HASH_DIR) $(STASH_DIR)
+	@mkdir -p $(HASH_DIR)
 	@# Run prebuild first so blog dirs are flattened
 	sh prebuild.sh
-	@# Get all content page dirs after prebuild
-	$(eval CONTENT_PAGES := $(shell find $(CONTENT_DIR) -maxdepth 1 -mindepth 1 -type d ! -name '_shared' ! -name 'common' | sort))
-	@# Check if shared deps changed — if so, full rebuild
-	@SHARED_HASH=$$(find $(SHARED_DEPS) -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1); \
-	OLD_SHARED=$$(cat $(HASH_DIR)/_shared 2>/dev/null || echo ""); \
-	if [ "$$SHARED_HASH" != "$$OLD_SHARED" ]; then \
-		echo "==> Shared files changed, full rebuild required."; \
-		rm -rf $(SITE_DIR)/*; \
+	@# Check if we have any saved hashes (first run detection)
+	@if [ ! -f $(HASH_DIR)/_shared ]; then \
+		echo "==> First run, no cached hashes. Running full build..."; \
 		cuttlebelle; \
 		$(MAKE) --no-print-directory save-hashes-post; \
 	else \
-		CHANGED=""; \
-		for dir in $(CONTENT_PAGES); do \
-			name=$$(basename $$dir); \
-			HASH=$$(find $$dir -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1); \
-			OLD=$$(cat $(HASH_DIR)/$$name 2>/dev/null || echo ""); \
-			if [ "$$HASH" != "$$OLD" ]; then \
-				CHANGED="$$CHANGED $$name"; \
-			fi; \
-		done; \
-		if [ -z "$$CHANGED" ]; then \
-			echo "==> No content changes detected. Skipping build."; \
+		SHARED_HASH=$$(find $(SHARED_DEPS) -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1); \
+		OLD_SHARED=$$(cat $(HASH_DIR)/_shared 2>/dev/null || echo ""); \
+		if [ "$$SHARED_HASH" != "$$OLD_SHARED" ]; then \
+			echo "==> Shared files changed, full rebuild required."; \
+			cuttlebelle; \
+			$(MAKE) --no-print-directory save-hashes-post; \
 		else \
-			echo "==> Changed pages:$$CHANGED"; \
-			echo "==> Stashing unchanged pages..."; \
-			for dir in $(CONTENT_PAGES); do \
+			CONTENT_PAGES=$$(find $(CONTENT_DIR) -maxdepth 1 -mindepth 1 -type d ! -name '_shared' ! -name 'common' | sort); \
+			CHANGED=""; \
+			for dir in $$CONTENT_PAGES; do \
 				name=$$(basename $$dir); \
-				if ! echo "$$CHANGED" | grep -qw "$$name"; then \
-					mv $$dir $(STASH_DIR)/$$name; \
+				HASH=$$(find $$dir -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1); \
+				OLD=$$(cat $(HASH_DIR)/$$name 2>/dev/null || echo ""); \
+				if [ "$$HASH" != "$$OLD" ]; then \
+					CHANGED="$$CHANGED $$name"; \
 				fi; \
 			done; \
-			echo "==> Removing stale output for changed pages..."; \
-			for name in $$CHANGED; do \
-				rm -rf $(SITE_DIR)/$$name; \
-			done; \
-			echo "==> Building changed pages..."; \
-			cuttlebelle || { $(MAKE) --no-print-directory restore; exit 1; }; \
-			$(MAKE) --no-print-directory restore; \
-			$(MAKE) --no-print-directory save-hashes-post; \
+			if [ -z "$$CHANGED" ]; then \
+				echo "==> No content changes detected. Skipping build."; \
+			else \
+				echo "==> Changed pages:$$CHANGED"; \
+				echo "==> Stashing unchanged pages..."; \
+				mkdir -p $(STASH_DIR); \
+				for dir in $$CONTENT_PAGES; do \
+					name=$$(basename $$dir); \
+					if ! echo "$$CHANGED" | grep -qw "$$name"; then \
+						mv $$dir $(STASH_DIR)/$$name; \
+					fi; \
+				done; \
+				echo "==> Building changed pages..."; \
+				cuttlebelle || { $(MAKE) --no-print-directory restore; exit 1; }; \
+				$(MAKE) --no-print-directory restore; \
+				$(MAKE) --no-print-directory save-hashes-post; \
+			fi; \
 		fi; \
 	fi
 	@cp 404.html $(SITE_DIR)/404.html 2>/dev/null || true
