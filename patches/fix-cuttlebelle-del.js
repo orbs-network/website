@@ -1,19 +1,25 @@
 #!/usr/bin/env node
-// Patches cuttlebelle's files.js to add {force: true} to del.sync()
+// Patches cuttlebelle's files.js to filter out "." from del.sync() paths
 // This fixes "Cannot delete the current working directory" error
-// Checks both local node_modules and global install
+// without using force (which would delete the entire project dir)
 
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
 const original = '_del2.default.sync(cleanDirs)';
-const patched = '_del2.default.sync(cleanDirs, {force: true})';
+const patched = '_del2.default.sync(cleanDirs.filter(function(p) { return p !== "." && p !== ".." && p !== "/" }))';
 
 function patchFile(filePath) {
   if (!fs.existsSync(filePath)) return false;
 
   let content = fs.readFileSync(filePath, 'utf8');
+
+  // Undo previous force patch if present
+  const forcePatch = '_del2.default.sync(cleanDirs, {force: true})';
+  if (content.includes(forcePatch)) {
+    content = content.replace(forcePatch, original);
+  }
 
   if (content.includes(patched)) {
     console.log(`Already patched: ${filePath}`);
