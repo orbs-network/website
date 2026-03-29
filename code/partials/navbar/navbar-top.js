@@ -62,8 +62,9 @@ const NavbarTop = ({
           {`+ ${status}`}
         </a>
         <a
+          target="_blank"
           rel="noreferrer"
-          href={generateUrl(blog_link)}
+          href={blog_link}
           className="navbar-top-action-btn blog-btn"
         >{`+ ${blog}`}</a>
         <a

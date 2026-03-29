@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[Blog](/blog)
+[Blog](https://blog.orbs.com)

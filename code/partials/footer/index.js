@@ -1,7 +1,6 @@
 import React from "react";
 
 const Footer = ({
-  blogs,
   tweets,
   navigation,
   logo_section,
@@ -12,7 +11,6 @@ const Footer = ({
       <div className="main-grid">
         <div className="footer-flex">
           {logo_section}
-          {blogs}
           {tweets}
         </div>
       </div>

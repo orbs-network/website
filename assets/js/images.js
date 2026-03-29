@@ -77,11 +77,6 @@ export const images = {
   footer: {
     twitter: `${prefix}/socials/gray/twitter.svg`,
   },
-  blog: {
-    logo: `${prefix}/blog-inner/logo.svg`,
-    documents: `${prefix}/blog-inner/documents.svg`,
-    github: `${prefix}/blog-inner/github.svg`,
-  },
   ecosystem: {
     logo: `${prefix}/ecosystem/logo.svg`,
   },
