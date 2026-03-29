@@ -34,5 +34,5 @@ github: github
 github_url: https://github.com/orbs-network
 developers_url: https://docs.orbs.network/v3/overview/what-is-orbs
 blog: blog
-blog_link: https://blog.orbs.com
+blog_link: https://blog.orbs.network
 ---

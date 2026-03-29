@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
     if (proxyRes.statusCode === 404 || proxyRes.statusCode === 500) {
       const urlPath = req.url.replace(/^\/+|\/+$/g, "");
       if (urlPath && !urlPath.startsWith("assets/")) {
-        res.writeHead(302, { Location: "https://blog.orbs.com/" + urlPath });
+        res.writeHead(302, { Location: "https://blog.orbs.network/" + urlPath });
         res.end();
         return;
       }
