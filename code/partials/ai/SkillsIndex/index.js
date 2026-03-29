@@ -11,7 +11,7 @@ const skills = [
     pageUrl: "/ai/skills/spot-advanced-swap-orders/",
     github: "https://github.com/orbs-network/spot",
     chains: ["Ethereum", "BNB Chain", "Polygon", "Arbitrum", "Base", "Linea", "Avalanche", "Sonic"],
-    orderTypes: ["TWAP", "Limit", "Stop-Loss", "Take-Profit"],
+    orderTypes: ["TWAP", "Limit", "Take-Profit", "Stop-Loss"],
   },
 ];
 
