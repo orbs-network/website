@@ -6,8 +6,8 @@ ASSETS_DIR := assets
 STASH_DIR := .content-stash
 HASH_DIR := .build-hashes
 
-# Shared dirs that when changed require a full rebuild
-SHARED_DEPS := $(CONTENT_DIR)/_shared $(CODE_DIR) $(ASSETS_DIR)/sass $(ASSETS_DIR)/js markdown.js
+# Global deps — changes here affect ALL pages, require full rebuild
+GLOBAL_DEPS := $(CONTENT_DIR)/_shared $(CODE_DIR) $(ASSETS_DIR)/sass $(ASSETS_DIR)/js markdown.js
 
 .PHONY: build build-incremental build-full build-sass clean restore help
 
@@ -32,24 +32,18 @@ build-sass:
 	sass ./$(ASSETS_DIR)/sass/index.scss ./$(ASSETS_DIR)/css/index.css
 
 # Incremental build
-# 1. Run prebuild to flatten blog dirs into content/
-# 2. Hash each content dir and compare to saved hashes
-# 3. If no hashes exist yet (first run), do a full build
-# 4. Stash unchanged dirs, build only changed ones, restore
 build-incremental:
 	@mkdir -p $(HASH_DIR)
-	@# Run prebuild first so blog dirs are flattened
 	sh prebuild.sh
-	@# Check if we have any saved hashes (first run detection)
-	@if [ ! -f $(HASH_DIR)/_shared ]; then \
+	@if [ ! -f $(HASH_DIR)/_global ]; then \
 		echo "==> First run, no cached hashes. Running full build..."; \
 		cuttlebelle; \
 		$(MAKE) --no-print-directory save-hashes-post; \
 	else \
-		SHARED_HASH=$$(find $(SHARED_DEPS) -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1); \
-		OLD_SHARED=$$(cat $(HASH_DIR)/_shared 2>/dev/null || echo ""); \
-		if [ "$$SHARED_HASH" != "$$OLD_SHARED" ]; then \
-			echo "==> Shared files changed, full rebuild required."; \
+		GLOBAL_HASH=$$(find $(GLOBAL_DEPS) -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1); \
+		OLD_GLOBAL=$$(cat $(HASH_DIR)/_global 2>/dev/null || echo ""); \
+		if [ "$$GLOBAL_HASH" != "$$OLD_GLOBAL" ]; then \
+			echo "==> Global files changed (code/styles/shared), full rebuild required."; \
 			cuttlebelle; \
 			$(MAKE) --no-print-directory save-hashes-post; \
 		else \
@@ -64,7 +58,7 @@ build-incremental:
 				fi; \
 			done; \
 			if [ -z "$$CHANGED" ]; then \
-				echo "==> No content changes detected. Skipping build."; \
+				echo "==> No changes detected. Skipping build."; \
 			else \
 				echo "==> Changed pages:$$CHANGED"; \
 				echo "==> Stashing unchanged pages..."; \
@@ -85,7 +79,6 @@ build-incremental:
 	@cp 404.html $(SITE_DIR)/404.html 2>/dev/null || true
 	@echo "==> Build complete."
 
-# Restore stashed content
 restore:
 	@if [ -d $(STASH_DIR) ]; then \
 		for dir in $(STASH_DIR)/*/; do \
@@ -94,10 +87,9 @@ restore:
 		rmdir $(STASH_DIR) 2>/dev/null || true; \
 	fi
 
-# Save hashes after prebuild (flattened structure)
 save-hashes-post:
 	@mkdir -p $(HASH_DIR)
-	@find $(SHARED_DEPS) -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1 > $(HASH_DIR)/_shared
+	@find $(GLOBAL_DEPS) -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1 > $(HASH_DIR)/_global
 	@for dir in $$(find $(CONTENT_DIR) -maxdepth 1 -mindepth 1 -type d ! -name '_shared' ! -name 'common' | sort); do \
 		name=$$(basename $$dir); \
 		find $$dir -type f 2>/dev/null | sort | xargs cat 2>/dev/null | shasum | cut -d' ' -f1 > $(HASH_DIR)/$$name; \

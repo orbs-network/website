@@ -94,7 +94,7 @@ Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanc
 
 With a global team of over thirty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
 
-For more information, visit www.orbs.com or join our community:
+For more information, visit www.orbs.com or join our community
 
 Telegram: https://t.me/OrbsNetwork
 
