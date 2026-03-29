@@ -27,11 +27,6 @@ const features = [
     title: "TWAP / Chunked",
     desc: "Split large orders into time-weighted chunks with oracle protection on every fill.",
   },
-  {
-    icon: "⏳",
-    title: "Delayed Start",
-    desc: "Schedule orders to begin execution at a future time with full parameter control.",
-  },
 ];
 
 function Features({ _body, title }) {
