@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[TON Vote](/ko/ton-vote)
+[AI](/ko/ai/skills)

@@ -1,0 +1,19 @@
+layout: pages/page
+script: ai/index
+header:
+  - /ko/_shared/navbar/index.md
+main:
+  - index.md
+footer:
+  - /ko/_shared/footer/footer.md
+subscribe:
+  - /ko/_shared/subscribe/subscribe.md
+gdpr:
+  - /ko/_shared/gdpr/index.md
+
+title: Orbs AI Skill — AI 코딩 에이전트를 위한 Spot Advanced Swap Orders
+description: 가스리스, 비수탁형 고급 스왑 주문을 위한 AI 에이전트 스킬입니다. Claude Code, Cursor, Windsurf 같은 어떤 AI 코딩 에이전트에도 설치할 수 있습니다. Ethereum, Arbitrum, Base, Polygon 등에서 지정가 주문, 손절, 익절, TWAP를 지원합니다.
+og_locale_alternate: ko_KR
+og_locale: en_US
+image: /assets/img/ai/og-image.png
+meta_keywords: orbs, defi, ai, agent, swap, limit order, twap, stop-loss, gasless
