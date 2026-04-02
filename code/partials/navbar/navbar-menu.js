@@ -12,6 +12,8 @@ const NavbarMenu = ({
   _ID,
   home,
   languages,
+  ai_agents,
+  ai_agents_url,
 }) => {
   const generateUrl = (url) => {
     return `${_relativeURL(url, _ID)}`

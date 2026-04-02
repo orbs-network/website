@@ -3,6 +3,15 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - modular-defi-infrastructure-why-turnkey-solutions-are-accelerating-adoption-for-dexs-and-chains.md
+  - orbs-and-gryps-bring-perpetuals-infrastructure-to-sei.md
+  - orbs-brings-onchain-perpetuals-to-sei-through-gryps-integration-1035749550.md
+  - orbs-expands-onchain-perpetuals-trading-on-sei-through-gryps-integration.md
+  - how-orbs-is-bringing-professional-perpetuals-trading-to-monad-without-custom-infrastructure.md
+  - orbs-brings-onchain-perpetuals-to-monad-through-atlantis-integration.md
+  - 34807389567089.md
+  - layer-3-has-become-the-execution-layer-defi-deserves.md
+  - 33261251538490.md
   - spookyswap-integrates-orbs-dsltp-to-bring-decentralized-stop-loss-and-take-profit-orders-to-sonic-1035617856.md
   - 69318a761e7e0a6d90208e83.md
   - thena-integrates-orbs-dsltp-to-deliver-stoploss-and-takeprofit-orders-on-bnb-chain-4376761.md

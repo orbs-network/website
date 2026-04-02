@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:pancakeswap.ai)",
+      "Bash(mkdir -p /Users/denis/Documents/projects/website/content/ai/header /Users/denis/Documents/projects/website/content/ai/quickstart /Users/denis/Documents/projects/website/content/ai/features /Users/denis/Documents/projects/website/content/ai/how-it-works /Users/denis/Documents/projects/website/content/ai/chains /Users/denis/Documents/projects/website/content/ai/skill-spec)",
+      "Bash(mkdir -p /Users/denis/Documents/projects/website/code/partials/ai/Header /Users/denis/Documents/projects/website/code/partials/ai/Quickstart /Users/denis/Documents/projects/website/code/partials/ai/Features /Users/denis/Documents/projects/website/code/partials/ai/HowItWorks /Users/denis/Documents/projects/website/code/partials/ai/Chains /Users/denis/Documents/projects/website/code/partials/ai/SkillSpec)",
+      "Bash(mkdir -p /Users/denis/Documents/projects/website/assets/img/ai)",
+      "Bash(cd:*)",
+      "WebFetch(domain:orbs-website.netlify.app)",
+      "Bash(ls /Users/denis/Documents/projects/website/content/index.*)",
+      "Bash(ls /Users/denis/Documents/projects/website/content/*.yml /Users/denis/Documents/projects/website/content/*.md)",
+      "Bash(ls /Users/denis/Documents/projects/website/content/*.yml /Users/denis/Documents/projects/website/content/index*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315201.svg\" /Users/denis/Documents/projects/website/assets/img/agentic/hero.svg)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315202.svg\" /Users/denis/Documents/projects/website/assets/img/agentic/arch-diagram.svg)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315203.svg\" /Users/denis/Documents/projects/website/assets/img/agentic/arch-logo.svg)",
+      "Bash(cp \"/Users/denis/Downloads/ORBS_AGENTIC_LOGO_BLACK 2 \\(1\\).png\" /Users/denis/Documents/projects/website/assets/img/agentic/logo.png)",
+      "Read(//Users/denis/Downloads/**)",
+      "Bash(ls:*)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315201.svg\" /Users/denis/Documents/projects/website/assets/img/agentic/icon-safety.svg)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315202.svg\" /Users/denis/Documents/projects/website/assets/img/agentic/icon-quality.svg)",
+      "Bash(cp \"/Users/denis/Downloads/ORBS_AGENTIC_LOGO_BLACK 2 \\(1\\).png\" /Users/denis/Documents/projects/website/assets/img/agentic/hero.png)",
+      "Bash(cp \"/Users/denis/Downloads/ethereum.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/ethereum.png)",
+      "Bash(cp \"/Users/denis/Downloads/bnb-icon2_2x.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/bnb.png)",
+      "Bash(cp \"/Users/denis/Downloads/pol.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/polygon.png)",
+      "Bash(cp \"/Users/denis/Downloads/arb.jpg\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/arbitrum.jpg)",
+      "Bash(cp \"/Users/denis/Downloads/108554348.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/base.png)",
+      "Bash(cp \"/Users/denis/Downloads/linea-logo.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/linea.png)",
+      "Bash(cp \"/Users/denis/Downloads/Avalanche_Circle_RedWhite_Trans.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/avalanche.png)",
+      "Bash(cp \"/Users/denis/Downloads/200x200_Sonic_Logo.png\" /Users/denis/Documents/projects/website/assets/img/agentic/chains/sonic.png)",
+      "Bash(curl -sL \"https://cryptologos.cc/logos/bnb-bnb-logo.png?v=040\" -o /Users/denis/Documents/projects/website/assets/img/agentic/chains/bnb.png)",
+      "Bash(cp \"/Users/denis/Downloads/1.svg.svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-trading-ui.svg)",
+      "Bash(cp \"/Users/denis/Downloads/1.svg \\(1\\).svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-hedger.svg)",
+      "Bash(cp \"/Users/denis/Downloads/cubes, blocks.svg\" /Users/denis/Documents/projects/website/assets/img/perps/icon-oracles.svg)",
+      "Bash(cp \"/Users/denis/Downloads/Column 2.png\" /Users/denis/Documents/projects/website/assets/img/perps/hero.png)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321314886.png\" /Users/denis/Documents/projects/website/assets/img/perps/diagram.png)",
+      "Bash(cp \"/Users/denis/Downloads/Group 1321315186.png\" /Users/denis/Documents/projects/website/assets/img/perps/partners.png)",
+      "Bash(node:*)",
+      "Bash(git ls-tree:*)"
+    ]
+  }
+}

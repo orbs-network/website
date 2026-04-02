@@ -151,6 +151,21 @@
     }
   }
 
+  &-ai-link {
+    display: block !important;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: 900;
+    letter-spacing: 2.11px;
+    color: #7988e8;
+    border-bottom: 1px solid #7988e8;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: $text-font;
+  }
+
   &-resources {
     &-list {
       display: flex;

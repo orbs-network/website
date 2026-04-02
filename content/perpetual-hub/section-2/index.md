@@ -1,10 +1,10 @@
 ---
 layout: partials/perps/section-2/index
 
-title: Perpetual Hub Partners and Integrations
+title: Integrate
 diagram: assets/img/perps/diagram.png
 ---
 
-The Orbs project has recently joined forces with SYMMIO and IntentX to address the challenge of capital efficiency in on-chain derivatives trading and propel it to new heights.
+With Perpetual Hub Ultra, any platform can integrate a complete perpetual trading stack powered by Orbs Layer 3, without relying on multiple third-party providers.
 
-While [SYMMIO](https://www.symm.io/) is the smart contract layer of intent-based perpetual futures trading and [IntentX runs](https://intentx.io/) the frontend UI, Orbs completes this powerful trio with Perpetual Hub -- a decentralized protocol for the necessary functions required for the intent-based engine to operate.
+Once integrated, participants can act as Hedgers or Liquidators and tap into built-in oracles and a fully managed trading UI, all packaged in a single, modular solution.

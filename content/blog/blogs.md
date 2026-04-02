@@ -1,6 +1,11 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Introducing-Orbs-Agentic/blog.md
+  - Kodiak-Integrates-dSLTP/blog.md
+  - Gryps-Integrates-Orbs-Perpetual-Hub/blog.md
+  - Orbs-2025-Execution-at-Scale/blog.md
+  - Atlantis-Brings-Onchain-Perpetuals-to-Monad-via-Orbs-Perpetual-Hub/blog.md
   - SpookySwap-Integrates-dSLTP/blog.md
   - THENA-Integrates-dSLTP/blog.md
   - Introducing-dSLTP-The-First-Stop-Loss-Take-Profit-Solution-for-DeFi/blog.md

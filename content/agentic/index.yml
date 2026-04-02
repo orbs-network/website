@@ -1,0 +1,19 @@
+layout: pages/page
+script: ai/index
+
+header:
+  - /_shared/navbar/index.md
+main:
+  - index.md
+footer:
+  - /_shared/footer/footer.md
+subscribe:
+  - /_shared/subscribe/subscribe.md
+gdpr:
+  - /_shared/gdpr/index.md
+
+title: Orbs Agentic — The DeFi Agent Execution Layer
+description: The execution layer between AI agents and DeFi protocols. Cosigned oracle verification, smart routing, and gasless execution across EVM chains.
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

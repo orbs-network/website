@@ -2,3 +2,5 @@ node_modules
 site/
 .idea/
 .DS_Store
+.build-hashes/
+.content-stash/
