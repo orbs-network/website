@@ -2,7 +2,7 @@
 layout: partials/agentic/Header/index
 label: Orbs Agentic
 heroImg: /assets/img/agentic/hero.png
-announcementUrl: /blog/Introducing-Orbs-Agentic
+announcementUrl: https://blog.naver.com/orbskorea/224219362443
 getStartedUrl: /ko/ai/skills/spot-advanced-swap-orders/
 github: https://github.com/orbs-network/spot
 ---
