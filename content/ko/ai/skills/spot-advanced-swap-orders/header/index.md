@@ -2,7 +2,10 @@
 layout: partials/ai/Header/index
 title: AI 에이전트 스킬 — 고급 거래 주문
 subtitle: Claude Code, Cursor, Windsurf 등에서 설치 가능
+badge: AI Agent Skill
+get_started: 시작하기
 github: https://github.com/orbs-network/spot
+github_label: GitHub
 ---
 
 # AI 에이전트와 사람을 위한

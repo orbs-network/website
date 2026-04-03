@@ -182,6 +182,10 @@
         color: #555;
         font-family: $text-font;
         margin-bottom: 16px;
+
+        p {
+          color: inherit;
+        }
       }
 
       &-hint {
@@ -258,12 +262,13 @@
       text-align: center;
       max-width: 700px;
       margin: 0 auto 50px;
+      font-size: 16px;
+      line-height: 26px;
+      color: rgba(255, 255, 255, 0.65);
+      font-family: $text-font;
 
       p {
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.65);
-        font-family: $text-font;
+        color: inherit;
       }
     }
 
@@ -308,6 +313,10 @@
       line-height: 24px;
       color: rgba(255, 255, 255, 0.6);
       font-family: $text-font;
+
+      p {
+        color: inherit;
+      }
     }
   }
 
@@ -384,6 +393,10 @@
         line-height: 22px;
         color: #666;
         font-family: $text-font;
+
+        p {
+          color: inherit;
+        }
       }
 
       &-arrow {
@@ -552,6 +565,10 @@
       color: #555;
       font-family: $text-font;
       margin-bottom: 16px;
+
+      p {
+        color: inherit;
+      }
     }
 
     &-tags {

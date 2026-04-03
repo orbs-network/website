@@ -3,6 +3,7 @@ layout: partials/navbar/components/menu-links
 title: Powered By Orbs
 id: overview
 links:
+  - ai-skills.md
   - link-1.md
   - liquidity-hub.md
   - perps.md

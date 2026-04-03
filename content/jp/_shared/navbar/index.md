@@ -27,6 +27,8 @@ languages:
     link: /jp
     img: /assets/img/navbar/japan.svg
 subscribe_to_updates: subscribe
+ai_agents: ai
+ai_agents_url: /jp/ai/skills
 developers: developers
 status: network status
 status_url: https://status.orbs.network/

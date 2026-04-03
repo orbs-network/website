@@ -1,0 +1,19 @@
+layout: pages/page
+script: ai/index
+header:
+  - /jp/_shared/navbar/index.md
+main:
+  - index.md
+footer:
+  - /jp/_shared/footer/footer.md
+subscribe:
+  - /jp/_shared/subscribe/subscribe.md
+gdpr:
+  - /jp/_shared/gdpr/index.md
+
+title: Orbs AI Skill — Spot Advanced Swap Orders for AI Coding Agents
+description: AI agent skill for gasless, non-custodial advanced swap orders. Install in any AI coding agent like Claude Code, Cursor, or Windsurf. Supports limit, stop-loss, take-profit, TWAP on Ethereum, Arbitrum, Base, Polygon and more.
+og_locale_alternate: en_US
+og_locale: ja_JP
+image: /assets/img/ai/og-image.png
+meta_keywords: orbs, defi, ai, agent, swap, limit order, twap, stop-loss, gasless

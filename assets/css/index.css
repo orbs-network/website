@@ -7433,6 +7433,9 @@ body {
   font-family: "Montserrat";
   margin-bottom: 16px;
 }
+.ai-quickstart-card-desc p {
+  color: inherit;
+}
 .ai-quickstart-card-hint {
   font-size: 13px;
   line-height: 22px;
@@ -7496,12 +7499,13 @@ body {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 50px;
-}
-.ai-features-subtitle p {
   font-size: 16px;
   line-height: 26px;
   color: rgba(255, 255, 255, 0.65);
   font-family: "Montserrat";
+}
+.ai-features-subtitle p {
+  color: inherit;
 }
 .ai-features-grid {
   display: grid;
@@ -7537,6 +7541,9 @@ body {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
   font-family: "Montserrat";
+}
+.ai-feature-desc p {
+  color: inherit;
 }
 .ai-how-it-works {
   background: white;
@@ -7601,6 +7608,9 @@ body {
   line-height: 22px;
   color: #666;
   font-family: "Montserrat";
+}
+.ai-how-step-desc p {
+  color: inherit;
 }
 .ai-how-step-arrow {
   position: absolute;
@@ -7739,6 +7749,9 @@ body {
   color: #555;
   font-family: "Montserrat";
   margin-bottom: 16px;
+}
+.ai-skills-index-card-desc p {
+  color: inherit;
 }
 .ai-skills-index-card-tags {
   display: flex;
