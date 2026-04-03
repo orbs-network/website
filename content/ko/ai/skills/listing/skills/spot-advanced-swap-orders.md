@@ -1,6 +1,6 @@
 ---
 layout: partials/ai/SkillsIndex/Card
-name: Spot Advanced Swap Orders
+name: 현물거래용 고급 거래 주문
 skillUrl: https://orbs-network.github.io/spot/SKILL.md
 pageUrl: /ko/ai/skills/spot-advanced-swap-orders/
 github: https://github.com/orbs-network/spot
@@ -18,8 +18,8 @@ orderTypes:
   - Limit
   - Take-Profit
   - Stop-Loss
-chains_label: "Chains:"
-view_skill: View Skill
+chains_label: "지원체인:"
+view_skill: 스킬 보기
 ---
 
-Gasless limit, stop-loss, take-profit, and TWAP orders across EVM chains. Non-custodial, oracle-protected execution using immutable, audited contracts.
+EVM 체인 전반에서 가스비가 들지않는 지정가, 손절, 익절, TWAP 주문을 지원합니다. 변경 불가능하고 감사된 컨트랙트를 사용하는 비수탁형 오라클 보호 실행 방식입니다.

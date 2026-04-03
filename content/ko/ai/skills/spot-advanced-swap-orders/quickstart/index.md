@@ -1,6 +1,6 @@
 ---
 layout: partials/ai/Quickstart/index
-title: Quick Start
+title: 빠른 시작 가이드
 cards:
   - cards/human.md
   - cards/agent.md

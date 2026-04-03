@@ -1,8 +1,8 @@
 ---
 layout: partials/ai/Chains/index
 title: 지원 체인
-chain_header: Chain
-chain_id_header: Chain ID
+chain_header: 체인
+chain_id_header: 체인 ID
 chains:
   - name: Ethereum
     id: 1
@@ -21,10 +21,10 @@ chains:
   - name: Sonic
     id: 146
 order_types:
-  - Market
-  - Limit
-  - Stop-Loss
-  - Take-Profit
+  - 시장가
+  - 지정가
+  - 손절(SL)
+  - 익절(TP)
   - TWAP
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: partials/ai/SkillsIndex/index
-title: AI Skills
+title: AI 스킬
 skills:
   - skills/spot-advanced-swap-orders.md
 ---
