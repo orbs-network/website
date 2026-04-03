@@ -4,10 +4,8 @@ import MainGrid from "../../shared/MainGrid";
 
 const GithubImg = "/assets/img/ton-gateway/github.svg";
 
-function Header({ _body, _relativeURL, _ID, title, subtitle, github }) {
-  const generateUrl = (url) => {
-    return handleUrl(url, _relativeURL, _ID);
-  };
+function Header({ _body, _relativeURL, _ID, title, subtitle, badge, get_started, github, github_label }) {
+  const generateUrl = (url) => handleUrl(url, _relativeURL, _ID);
 
   return (
     <header className="ai-header">
@@ -16,19 +14,19 @@ function Header({ _body, _relativeURL, _ID, title, subtitle, github }) {
           <div className="ai-header-content">
             <div className="ai-header-badge">
               <span className="ai-header-badge-dot"></span>
-              <span>AI Agent Skill</span>
+              <span>{badge}</span>
             </div>
             <div className="ai-header-body">
               {_body}
             </div>
             <div className="ai-header-actions">
               <a href="#quickstart" className="ai-header-btn ai-header-btn-primary">
-                Get Started
+                {get_started}
               </a>
               {github && (
                 <a href={github} target="_blank" className="ai-header-btn ai-header-btn-secondary">
-                  <img src={generateUrl(GithubImg)} alt="GitHub" />
-                  GitHub
+                  <img src={generateUrl(GithubImg)} alt={github_label} />
+                  {github_label}
                 </a>
               )}
             </div>
