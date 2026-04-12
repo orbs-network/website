@@ -2,4 +2,4 @@
 layout: partials/navbar/components/menu-link
 ---
 
-[DeFi 알림 프로토콜](/ko/notifications)
+[오브스 에이전틱](/ko/agentic)

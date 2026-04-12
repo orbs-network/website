@@ -6,6 +6,8 @@ section1:
   - section-1/index.md
 section2:
   - section-2/index.md
+sectionPartners:
+  - section-partners/index.md
 section4:
   - section-3/index.md
 ---
