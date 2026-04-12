@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/seven-layer-3-projects-powering-the-next-evolution-of-defi.jpg
+url: https://www.cryptowisser.com/seven-layer-3-projects-powering-the-next-evolution-of-defi
+date: 12, February 2026
+logo: /assets/img/news/logos/cryptowisser.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Seven Layer-3 Projects Powering the Next Evolution of DeF
