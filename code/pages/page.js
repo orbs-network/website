@@ -84,7 +84,7 @@ const Page = (props) => {
           {footer}
           <ScrollTop generateUrl={generateUrl} />
         </div>
-        <script>var script=document.createElement('script');script.src="https://tag.safary.club/stag-0.1.16.js";script.async=true;script.setAttribute('data-name','safary-sdk');script.setAttribute('data-product-id','prd_APUKubYw0M');script.integrity="sha256-jl67N5KgpOXS3tLPc6pUXU1UxJqBm9LUZtqX5H3jZ2U=";script.crossOrigin="anonymous";var target=document.head||document.body;target.appendChild(script);</script>
+        <script dangerouslySetInnerHTML={{ __html: `var script=document.createElement('script');script.src="https://tag.safary.club/stag-0.1.16.js";script.async=true;script.setAttribute('data-name','safary-sdk');script.setAttribute('data-product-id','prd_APUKubYw0M');script.integrity="sha256-jl67N5KgpOXS3tLPc6pUXU1UxJqBm9LUZtqX5H3jZ2U=";script.crossOrigin="anonymous";var target=document.head||document.body;target.appendChild(script);` }} />
         </body>
     </html>
   );
