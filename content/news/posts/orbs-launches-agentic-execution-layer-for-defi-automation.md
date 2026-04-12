@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-agentic-execution-layer-for-defi-automation.webp
+url: https://dailyhodl.com/2026/03/17/orbs-launches-agentic-execution-layer-for-defi-automation/
+date: 17, March 2026
+logo: /assets/img/news/logos/the-daily-hodl.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Launches Agentic Execution Layer for DeFi Automation
