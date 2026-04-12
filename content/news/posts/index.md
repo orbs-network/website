@@ -3,7 +3,16 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-unveils-agentic-a-layer-3-execution-stack-for-autonomous-defi-agents.md
+  - 300031928037938.md
+  - kodiak-integrates-dsltp-by-orbs-to-bring-stop-loss-and-take-profit-orders-to-berachain-1035913818.md
+  - 8-blockchain-infrastructure-protocols-quietly-powering-web3.md
+  - seven-layer-3-projects-powering-the-next-evolution-of-defi.md
+  - high-performance-chains-layer-3-the-winning-formula-for-scalable-on-chain-derivatives.md
+  - democratizing-advanced-trading-tools-impact-of-decentralized-orders-and-risk-management-in-defi.md
   - modular-defi-infrastructure-why-turnkey-solutions-are-accelerating-adoption-for-dexs-and-chains.md
+  - the-rise-of-layer-3-how-application-specific-layers-are-powering-specialized-defi-innovation.md
+  - monchain-perpetual-futures-closing-the-gap-between-cefi-and-defi-for-institutional-traders.md
   - orbs-and-gryps-bring-perpetuals-infrastructure-to-sei.md
   - orbs-brings-onchain-perpetuals-to-sei-through-gryps-integration-1035749550.md
   - orbs-expands-onchain-perpetuals-trading-on-sei-through-gryps-integration.md
