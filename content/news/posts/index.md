@@ -12,7 +12,7 @@ posts:
   - democratizing-advanced-trading-tools-impact-of-decentralized-orders-and-risk-management-in-defi.md
   - modular-defi-infrastructure-why-turnkey-solutions-are-accelerating-adoption-for-dexs-and-chains.md
   - the-rise-of-layer-3-how-application-specific-layers-are-powering-specialized-defi-innovation.md
-  - monchain-perpetual-futures-closing-the-gap-between-cefi-and-defi-for-institutional-traders.md
+  - onchain-perpetual-futures-closing-the-gap-between-cefi-and-defi-for-institutional-traders.md
   - orbs-and-gryps-bring-perpetuals-infrastructure-to-sei.md
   - orbs-brings-onchain-perpetuals-to-sei-through-gryps-integration-1035749550.md
   - orbs-expands-onchain-perpetuals-trading-on-sei-through-gryps-integration.md
