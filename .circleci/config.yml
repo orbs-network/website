@@ -31,6 +31,15 @@ jobs:
           fingerprints:
             - "75:7f:ea:52:21:2e:9d:7f:e0:b5:36:d2:6d:6b:98:ae"
       - run:
+          name: Build
+          command: make build
+          no_output_timeout: 60m
+      - save_cache:
+          key: site-v2-{{ .Branch }}-{{ epoch }}
+          paths:
+            - site
+            - .build-hashes
+      - run:
           name: Create CNAME file. $DEPLOY_DOMAIN_NAME is defined on circleci project env variables.
           command: echo $DEPLOY_DOMAIN_NAME > ./site/CNAME
       - run:
