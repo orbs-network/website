@@ -4,4 +4,4 @@ icon: "📈"
 title: Take-Profit
 ---
 
-Lock in gains by auto-selling when price rises above your target.
+가격이 목표치를 넘어서면 자동으로 매도해 수익을 확정합니다.

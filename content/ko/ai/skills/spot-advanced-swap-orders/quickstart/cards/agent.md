@@ -1,10 +1,10 @@
 ---
 layout: partials/ai/Quickstart/Card
 icon: "&#x1F916;"
-title: For AI Agents / LLMs
+title: AI 에이전트 / LLM용
 copy_text: "https://orbs-network.github.io/spot/SKILL.md"
 link_url: "https://orbs-network.github.io/spot/SKILL.md"
-link_text: "View SKILL.md →"
+link_text: "SKILL.md 보기 →"
 ---
 
-Point your agent to the skill spec:
+에이전트가 이 스킬 명세를 참조하도록 하세요:

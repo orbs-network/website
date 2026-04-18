@@ -1,6 +1,6 @@
 ---
 layout: partials/ai/HowItWorks/index
-title: How It Works
+title: 작동 방식
 steps:
   - steps/step-1.md
   - steps/step-2.md
@@ -9,4 +9,4 @@ steps:
   - steps/step-5.md
 ---
 
-From user intent to on-chain execution — the skill handles the entire flow.
+사용자 의도에서 온체인 실행까지, 이 스킬이 전체 흐름을 모두 처리합니다.

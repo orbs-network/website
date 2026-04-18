@@ -1,6 +1,6 @@
 ---
 layout: partials/shared/BtnLink
-url: https://www.orbs.com/Perpetual-Hub-by-Orbs
+url: https://blog.naver.com/orbskorea/223514811254
 ---
 
 
