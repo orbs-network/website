@@ -5,11 +5,11 @@
 
 ## AI Skills
 
-- [Spot Advanced Swap Orders](https://orbs-network.github.io/spot/SKILL.md): Gasless limit, stop-loss, take-profit, and TWAP orders across EVM chains. MCP-compatible, works with any AI coding agent like Claude Code, Cursor, Windsurf.
+- [Spot Advanced Swap Orders](https://orbs-network.github.io/spot/skill/SKILL.md): Gasless limit, stop-loss, take-profit, and TWAP orders across EVM chains. MCP-compatible, works with any AI coding agent like Claude Code, Cursor, Windsurf.
 
 ## Skill Discovery
 
-- Skill spec: https://orbs-network.github.io/spot/SKILL.md
+- Skill spec: https://orbs-network.github.io/spot/skill/SKILL.md
 - AI plugin manifest: https://www.orbs.com/assets/.well-known/ai-plugin.json
 - Skill page: https://www.orbs.com/ai/skills/spot-advanced-swap-orders/
 
