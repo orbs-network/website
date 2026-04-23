@@ -1,7 +1,7 @@
 ---
 layout: partials/ai/SkillsIndex/Card
 name: Spot Advanced Swap Orders
-skillUrl: https://orbs-network.github.io/spot/SKILL.md
+skillUrl: https://orbs-network.github.io/spot/skill/SKILL.md
 pageUrl: /ai/skills/spot-advanced-swap-orders/
 github: https://github.com/orbs-network/spot
 chains:

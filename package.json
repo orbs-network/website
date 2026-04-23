@@ -26,9 +26,9 @@
     "cross-env": "^7.0.3",
     "globe.gl": "^2.21.1",
     "moment": "^2.29.1",
-    "sass": "^1.45.1",
     "node-html-parser": "^5.3.3",
     "rss-generator": "0.0.3",
+    "sass": "^1.45.1",
     "xml": "^1.0.1",
     "xmlbuilder": "^15.1.1"
   },

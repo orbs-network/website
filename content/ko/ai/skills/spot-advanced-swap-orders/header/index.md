@@ -12,4 +12,4 @@ github_label: GitHub
 # SWAP ORDERS FOR
 # AI AGENTS & HUMANS
 
-Install this AI skill in any AI coding agent like Claude Code, Cursor, or Windsurf. Non-custodial, oracle-protected execution for limit, stop-loss, take-profit, and TWAP orders on-chain — powered by Orbs L3.
+Install this AI skill in any AI coding agent like Claude Code, Cursor, or Codex. Non-custodial, oracle-protected execution for limit, stop-loss, take-profit, and TWAP orders on-chain — powered by Orbs L3.
