@@ -1,0 +1,16 @@
+layout: pages/page
+script: ai/index
+
+header:
+main:
+  - index.md
+footer:
+subscribe:
+gdpr:
+  - /_shared/gdpr/index.md
+
+title: The Orbs Agentic Challenge
+description: Zero fees. Real prizes. Your first trade could win. Over $1,500 in USDC prizes across two phases.
+og_locale_alternate: ja_JP
+og_locale: en_US
+image:

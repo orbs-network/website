@@ -60,6 +60,7 @@ export const navbarMenuOutsideClickListener = () => {
 
 const handleNavbarBackground = () => {
   const navbar = getElement(".navbar");
+  if (!navbar) return;
 
   const offsetTop = window.pageYOffset;
   if (offsetTop >= 30) {
@@ -71,6 +72,7 @@ const handleNavbarBackground = () => {
 
 const handleNavbarTransform = () => {
   const navbar = getElement(".navbar");
+  if (!navbar) return;
 
   if (document.body.getBoundingClientRect().top > scrollPos) {
     navbar.classList.remove("navbar-hidden");

@@ -1,0 +1,3 @@
+---
+layout: partials/challenge/Prizes
+---
