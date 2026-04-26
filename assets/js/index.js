@@ -15,26 +15,25 @@ export const init = async (keepLoader) => {
   subscribe.init();
   ui.init();
   gdpr.init();
-  AOS.init({ once: true });
-  hljs.highlightAll();
+  if (typeof AOS !== 'undefined') AOS.init({ once: true });
+  if (typeof hljs !== 'undefined') hljs.highlightAll();
 
   analytics.init();
   if (!keepLoader) {
     ui.hideAppLoader();
   }
 
-  try {
-    const res = await fetch("https://api.ipregistry.co/?key=lguyrviqtd946oct", {
-      method: "GET",
-    }).then((res) => res.json());
-    if (res.currency.code === "ILS") {
-      const script = document.createElement("script");
-      script.src = "/assets/js/dependencies/negishim.js";
+  if (Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Jerusalem') {
+    var s = document.createElement('script');
+    s.src = '/assets/js/dependencies/jquery-negishim.js';
+    document.head.appendChild(s);
+    s.onload = function() {
+      var n = document.createElement('script');
+      n.src = '/assets/js/dependencies/negishim.js';
+      document.head.appendChild(n);
+      var link = document.querySelector('.footer-bottom-policy a:last-child');
+      if (link) link.style.display = 'unset';
+    };
+  }
 
-      document.head.appendChild(script);
-      document.querySelector(
-        ".footer-bottom-policy a:last-child"
-      ).style.display = "unset";
-    }
-  } catch (error) {}
 };
