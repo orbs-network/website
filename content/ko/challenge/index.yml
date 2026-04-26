@@ -1,0 +1,16 @@
+layout: pages/page
+script: ai/index
+
+header:
+main:
+  - index.md
+footer:
+subscribe:
+gdpr:
+  - /ko/_shared/gdpr/index.md
+
+title: "The Orbs Agentic Challenge"
+description: "수수료 제로. 실물 상품. 첫 거래 한 번으로 당첨 가능."
+og_locale: ko_KR
+og_locale_alternate: en_US
+image:

@@ -43,7 +43,15 @@
       "Bash(grep -E \"^content/\\(jp|ko\\)$\")",
       "Bash(git checkout:*)",
       "Bash(rsync -a --exclude='index.yml' /Users/denis/Documents/projects/website/content/ai/ /Users/denis/Documents/projects/website/content/jp/ai/)",
-      "Bash(rsync -a --exclude='index.yml' /Users/denis/Documents/projects/website/content/ai/ /Users/denis/Documents/projects/website/content/ko/ai/)"
+      "Bash(rsync -a --exclude='index.yml' /Users/denis/Documents/projects/website/content/ai/ /Users/denis/Documents/projects/website/content/ko/ai/)",
+      "Bash(python3:*)",
+      "Bash(mkdir -p /Users/denis/Documents/projects/website/content/blog/Orbs-Agentic-Challenge)",
+      "Bash(mkdir -p /Users/denis/Documents/projects/website/assets/img/blog/Orbs-Agentic-Challenge)",
+      "Bash(grep -n 'gradient\\\\|blue\\\\|text-font\\\\|dark-color\\\\|\\\\$bg' /Users/denis/Documents/projects/website/assets/sass/shared.scss)",
+      "Bash(grep -rn colors /Users/denis/Documents/projects/website/assets/js/consts/ --include=*.js)",
+      "Bash(grep -rn Raleway /Users/denis/Documents/projects/website/assets/sass/ --include=*.scss)",
+      "Bash(grep -n \"app-wrapper\\\\|\\\\.page\\\\b\" /Users/denis/Documents/projects/website/assets/sass/shared.scss /Users/denis/Documents/projects/website/assets/sass/reset.scss /Users/denis/Documents/projects/website/assets/sass/common/*.scss)",
+      "Bash(grep:*)"
     ]
   }
 }
