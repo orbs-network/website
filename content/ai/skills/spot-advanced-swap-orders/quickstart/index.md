@@ -6,4 +6,4 @@ cards:
   - cards/agent.md
 ---
 
-Install this AI skill in any AI coding agent like Claude Code, Cursor, or Windsurf in seconds.
+Install this AI skill in any AI coding agent like Claude Code, Cursor, or Codex in seconds.

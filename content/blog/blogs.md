@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - orbs-dao-the-next-step/blog.md
   - Introducing-Orbs-Agentic/blog.md
   - Kodiak-Integrates-dSLTP/blog.md
   - Gryps-Integrates-Orbs-Perpetual-Hub/blog.md

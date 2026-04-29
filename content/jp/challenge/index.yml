@@ -1,0 +1,16 @@
+layout: pages/page
+script: ai/index
+
+header:
+main:
+  - index.md
+footer:
+subscribe:
+gdpr:
+  - /jp/_shared/gdpr/index.md
+
+title: "The Orbs Agentic Challenge"
+description: "手数料ゼロ。本物の賞品。最初の1取引で当選のチャンス。"
+og_locale: ja_JP
+og_locale_alternate: en_US
+image:
