@@ -1,8 +1,8 @@
 ---
 layout: partials/ai/Chains/index
-title: Supported Chains
-chain_header: Chain
-chain_id_header: Chain ID
+title: 지원 체인
+chain_header: 체인
+chain_id_header: 체인 ID
 chains:
   - name: Ethereum
     id: 1
@@ -21,11 +21,11 @@ chains:
   - name: Sonic
     id: 146
 order_types:
-  - Market
-  - Limit
-  - Stop-Loss
-  - Take-Profit
+  - 시장가
+  - 지정가
+  - 손절(SL)
+  - 익절(TP)
   - TWAP
 ---
 
-Deploy advanced orders across leading EVM chains with verified, immutable contracts.
+검증되고 변경 불가능한 컨트랙트를 통해 주요 EVM 체인 전반에 고급 주문을 사용할 수 있습니다.

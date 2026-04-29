@@ -1,0 +1,19 @@
+layout: pages/page
+script: ai/index
+
+header:
+  - /ko/_shared/navbar/index.md
+main:
+  - index.md
+footer:
+  - /ko/_shared/footer/footer.md
+subscribe:
+  - /ko/_shared/subscribe/subscribe.md
+gdpr:
+  - /ko/_shared/gdpr/index.md
+
+title: 오브스 에이전틱 — 에이전트를 위한 디파이 실행 레이어
+ddescription: AI 에이전트와 DeFi 프로토콜 사이의 실행 레이어. 공동 서명 오라클 검증, 스마트 라우팅, 그리고 EVM 체인 전반에 걸친 가스비없는 실행을 제공합니다.
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:
