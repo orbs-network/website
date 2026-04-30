@@ -1,7 +1,7 @@
 import React from "react";
 import { handleUrl } from "../../util/link";
 
-function Footer({ _relativeURL, _ID, tagline, followLabel, termsLabel, privacyLabel, contactLabel }) {
+function Footer({ _relativeURL, _ID, tagline, followLabel, contactKrChannel, termsLabel, privacyLabel, contactLabel }) {
   const generateUrl = (url) => handleUrl(url, _relativeURL, _ID);
 
   return (
@@ -25,7 +25,7 @@ function Footer({ _relativeURL, _ID, tagline, followLabel, termsLabel, privacyLa
               </a>
               <a className="challenge-social challenge-social-kr" href="https://t.me/orbskorea" target="_blank" rel="noopener">
                 <span className="challenge-social-ic challenge-social-ic-kr">KR</span>
-                <span>Korean Telegram</span>
+                <span>{contactKrChannel || "Korean Telegram"}</span>
               </a>
             </div>
           </div>

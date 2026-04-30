@@ -25,7 +25,7 @@ function Prizes({ eyebrow, title,
             <div className="challenge-raffle-hero">
               <div>
                 <div className="challenge-raffle-qty"><span className="challenge-raffle-mult">10×</span>$50</div>
-                <div className="challenge-raffle-unit"><em>USDC</em> {p1unit || "each"}</div>
+                <div className="challenge-raffle-unit"><em>USDC</em>{p1unit ? ` ${p1unit}` : ""}</div>
               </div>
               <div className="challenge-raffle-lbl">{p1label || "$500 pool · drawn May 11"}</div>
             </div>
