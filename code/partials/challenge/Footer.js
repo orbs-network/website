@@ -23,7 +23,7 @@ function Footer({ _relativeURL, _ID, tagline, followLabel, contactKrChannel, ter
                 <span className="challenge-social-ic challenge-social-ic-ja">JP</span>
                 <span>@JapanOrbs</span>
               </a>
-              <a className="challenge-social challenge-social-kr" href="https://t.me/orbskorea" target="_blank" rel="noopener">
+              <a className="challenge-social challenge-social-kr" href="https://t.me/orbskrannouncement" target="_blank" rel="noopener">
                 <span className="challenge-social-ic challenge-social-ic-kr">KR</span>
                 <span>{contactKrChannel || "Korean Telegram"}</span>
               </a>
