@@ -3,6 +3,11 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 318518003167122.md
+  - orbs-launches-dao-to-hand-protocol-control-and-revenue-to-token-holders.md
+  - 313096529942081.md
+  - orbs-launches-agentic-execution-layer-for-defi-automation.md
+  - kodiak-integrates-dsltp-by-orbs-to-bring-stop-loss-and-take-profit-orders-to-berachain.md
   - orbs-unveils-agentic-a-layer-3-execution-stack-for-autonomous-defi-agents.md
   - 300031928037938.md
   - kodiak-integrates-dsltp-by-orbs-to-bring-stop-loss-and-take-profit-orders-to-berachain-1035913818.md
