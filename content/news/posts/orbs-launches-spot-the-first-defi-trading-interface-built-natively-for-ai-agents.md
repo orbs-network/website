@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-spot-the-first-defi-trading-interface-built-natively-for-ai-agents.jpg
+url: https://www.tradingview.com/news/chainwire:44491ba88094b:0-orbs-launches-spot-the-first-defi-trading-interface-built-natively-for-ai-agents/
+date: 1, May 2026
+logo: /assets/img/news/logos/tradingview.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Launches SPOT: The First DeFi Trading Interface Built Natively for AI Agents
