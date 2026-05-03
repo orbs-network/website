@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-dao-to-hand-protocol-control-and-revenue-to-token-holders.webp
+url: https://crypto.news/orbs-launches-dao-to-hand-protocol-control-and-revenue-to-token-holders/
+date: 16, April 2026
+logo: /assets/img/news/logos/cryptonews.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs launches DAO to hand protocol control and revenue to token holders
