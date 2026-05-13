@@ -212,7 +212,7 @@ body {
   }
 }
 
-*:not(.challenge *):not(.institutional *) {
+*:not(.challenge *) {
   color: $text-color;
   letter-spacing: $letter-spacing;
 }
