@@ -1,0 +1,198 @@
+// ── Institutional landing page ────────────────────────────────
+// Light theme hero with aqua/cyan gradient bands and lilac
+// headline accent. Scoped under .institutional so styles don't
+// leak into other pages.
+
+body:has(.institutional) {
+  background: #F6F9FB !important;
+}
+
+.institutional {
+  // ── CSS Variables ────────────────────────────────────────
+  --page-bg: #F6F9FB;
+  --ink: #0A0A12;
+  --ink-2: rgba(10, 10, 18, 0.72);
+  --ink-3: rgba(10, 10, 18, 0.50);
+  --line: rgba(10, 10, 18, 0.14);
+
+  --cyan-1: #74E6F2;
+  --cyan-2: #A8F0F6;
+  --aqua-1: #7CEBDC;
+  --lilac-1: #C3AEF8;
+  --lilac-2: #B49BF5;
+  --pink-1: #E4B5E8;
+
+  --grad-headline: linear-gradient(96deg, #9D7EF4 0%, #B49BF5 40%, #C7B0F2 100%);
+
+  --radius-pill: 999px;
+  --radius-lg: 20px;
+
+  --font-display: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Raleway", "Helvetica Neue", Arial, sans-serif;
+  --font-ui: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+  &.page { padding-top: 0; }
+
+  color: var(--ink);
+  background: var(--page-bg);
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  overflow-x: hidden;
+  * { box-sizing: border-box; }
+  img { display: block; max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+
+  .main-grid {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+  @media (max-width: 760px) {
+    .main-grid { padding: 0 22px; }
+  }
+
+  // ── HERO ─────────────────────────────────────────────────
+  &-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 96px 0 140px;
+    isolation: isolate;
+    background:
+      // soft lilac top-right glow
+      radial-gradient(ellipse 55% 28% at 95% 4%, rgba(180, 155, 245, 0.30) 0%, transparent 70%),
+      // base gradient
+      linear-gradient(180deg, #F8FBFC 0%, #F4F8FA 100%);
+  }
+
+  // Horizontal aqua bands — sit behind content, biased right
+  &-hero-bands {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(ellipse 70% 9% at 110% 28%, rgba(116, 230, 242, 0.85) 0%, rgba(168, 240, 246, 0.40) 35%, transparent 70%),
+      radial-gradient(ellipse 75% 8% at 110% 44%, rgba(168, 240, 246, 0.90) 0%, rgba(124, 235, 220, 0.45) 38%, transparent 72%),
+      radial-gradient(ellipse 70% 9% at 110% 60%, rgba(116, 230, 242, 0.80) 0%, rgba(168, 240, 246, 0.35) 35%, transparent 70%),
+      radial-gradient(ellipse 75% 8% at 110% 78%, rgba(168, 240, 246, 0.85) 0%, rgba(124, 235, 220, 0.40) 38%, transparent 72%),
+      radial-gradient(ellipse 65% 10% at 110% 94%, rgba(116, 230, 242, 0.70) 0%, transparent 70%);
+    filter: blur(2px);
+  }
+
+  &-hero .main-grid { position: relative; z-index: 1; }
+
+  &-hero-content {
+    max-width: 620px;
+    padding-top: 24px;
+  }
+
+  &-hero-eyebrow {
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    margin: 0 0 40px;
+  }
+
+  &-hero-title {
+    font-family: var(--font-display);
+    font-size: 64px;
+    line-height: 1.08;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin: 0 0 32px;
+    color: var(--ink);
+  }
+
+  &-hero-line {
+    display: block;
+  }
+
+  &-hero-grad {
+    background: var(--grad-headline);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &-hero-sub {
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--ink-2);
+    margin: 0 0 44px;
+    max-width: 460px;
+  }
+
+  &-hero-cta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  // ── BUTTONS ──────────────────────────────────────────────
+  &-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 14px 24px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    border: 1px solid transparent;
+  }
+
+  &-btn-arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+  &-btn:hover &-btn-arrow {
+    transform: translateX(3px);
+  }
+
+  &-btn-outline {
+    color: var(--ink);
+    border-color: rgba(10, 10, 18, 0.40);
+    background: transparent;
+
+    &:hover {
+      background: var(--ink);
+      color: #fff;
+      border-color: var(--ink);
+    }
+  }
+
+  // ── RESPONSIVE ───────────────────────────────────────────
+  @media (max-width: 960px) {
+    &-hero-title { font-size: 52px; }
+  }
+
+  @media (max-width: 760px) {
+    &-hero {
+      padding: 64px 0 96px;
+    }
+    &-hero-eyebrow { margin-bottom: 28px; }
+    &-hero-title {
+      font-size: 38px;
+      margin-bottom: 24px;
+    }
+    &-hero-sub {
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    &-hero-bands {
+      // soften bands on mobile so they don't fight with text
+      opacity: 0.85;
+    }
+  }
+}
