@@ -39,7 +39,7 @@ function Hero({
 
           <div className="institutional-hero-cta">
             <a
-              className="institutional-btn institutional-btn-outline"
+              className="institutional-btn institutional-btn-outline institutional-btn-square"
               href={ctaUrl || "#talk-to-the-team"}
             >
               <span>{ctaLabel || "Talk to the team"}</span>

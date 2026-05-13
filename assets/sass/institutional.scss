@@ -25,13 +25,12 @@ body:has(.institutional) {
   --grad-headline: linear-gradient(96deg, #9D7EF4 0%, #B49BF5 40%, #C7B0F2 100%);
 
   --radius-pill: 999px;
+  --radius-square: 0;
   --radius-lg: 20px;
 
   --font-display: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Raleway", "Helvetica Neue", Arial, sans-serif;
   --font-ui: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-
-  &.page { padding-top: 0; }
 
   color: var(--ink);
   background: var(--page-bg);
@@ -170,6 +169,12 @@ body:has(.institutional) {
       color: #fff;
       border-color: var(--ink);
     }
+  }
+
+  // Shape modifier — sharp corners. Stack with a color variant
+  // like &-btn-outline.
+  &-btn-square {
+    border-radius: var(--radius-square);
   }
 
   // ── RESPONSIVE ───────────────────────────────────────────
