@@ -130,8 +130,15 @@ body:has(.institutional) {
     display: block;
   }
 
+  // Hero "infrastructure" — light section bg, want the pink (middle)
+  // of the orbs gradient visible. Same `expand-bg + position` trick
+  // as &-grad-orbs-light below; kept inline here so we don't have to
+  // restructure the existing Hero.js class composition.
   &-hero-grad {
-    background: var(--grad-orbs);
+    background-image: var(--grad-orbs);
+    background-size: 100% 400%;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -285,15 +292,26 @@ body:has(.institutional) {
   }
 
   // Orbs brand gradient — bottom-to-top: indigo → pink → cyan.
-  // Applied to feature word(s) across hero, proof-of-work, track-record,
-  // products, policy-engine.
-  &-grad-orbs {
-    background: var(--grad-orbs);
+  //
+  // Two variants. The gradient is 4× the element height; positioning
+  // moves which slice is visible:
+  //   - light variant (on white bg): position 50% → pink middle visible
+  //   - dark variant  (on black bg): position 100% → indigo bottom visible
+  // The shared rules sit in the comma-grouped block; only position
+  // differs.
+  &-grad-orbs-light,
+  &-grad-orbs-dark {
+    background-image: var(--grad-orbs);
+    background-size: 100% 400%;
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
   }
+
+  &-grad-orbs-light { background-position: 0% 50%; }
+  &-grad-orbs-dark  { background-position: 0% 100%; }
 
   // ── SECTION 2 — Proof of work ────────────────────────────
   &-pow {
@@ -428,9 +446,7 @@ body:has(.institutional) {
   &-venues {
     padding: 64px 0;
     color: var(--fg);
-    background:
-      linear-gradient(0deg, #000000, #000000),
-      linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
+    background: linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 
     &-title {
       font-family: var(--font-display);
@@ -615,9 +631,7 @@ body:has(.institutional) {
   &-infra {
     padding: 64px 0 56px;
     color: var(--fg);
-    background:
-      linear-gradient(0deg, #000000, #000000),
-      linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
+    background: linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 
     &-title {
       font-family: var(--font-display);
@@ -683,16 +697,21 @@ body:has(.institutional) {
 
     &-line {
       font-family: var(--font-display);
-      font-size: 36px;
-      line-height: 1.30;
+      font-size: 70px;
+      line-height: 1.20;
       font-weight: 400;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.02em;
       color: #FCFDFF;
       margin: 0;
     }
 
+    // Punch line on a dark section bg — wants the indigo end of the
+    // orbs gradient (same trick as &-grad-orbs-dark).
     &-punch {
-      background: var(--grad-orbs);
+      background-image: var(--grad-orbs);
+      background-size: 100% 400%;
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
@@ -723,12 +742,13 @@ body:has(.institutional) {
       grid-template-columns: 1fr 1fr;
       gap: 24px;
       max-width: 760px;
-      margin: 0 0 0 auto;
+      margin: 0 auto;
+      padding-top: 32px;
     }
 
     &-card {
       border: 1px solid rgba(10, 10, 18, 0.30);
-      padding: 32px 32px 36px;
+      padding: 56px 32px 36px;
       min-height: 320px;
       display: flex;
       flex-direction: column;
@@ -922,7 +942,7 @@ body:has(.institutional) {
   // ── SECTION 13 — Talk to team ────────────────────────────
   &-talk {
     padding: 80px 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, #DC8AE0 76.63%);
+    background: linear-gradient(90deg, #DC8AE0 0%, #FFFFFF 100%);
 
     &-inner {
       text-align: center;
