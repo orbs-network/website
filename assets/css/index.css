@@ -10285,7 +10285,6 @@ body:has(.institutional) {
   align-items: start;
 }
 .institutional-products-intro {
-  max-width: 380px;
   padding-top: 8px;
 }
 .institutional-products-cards {
