@@ -381,16 +381,16 @@ body:has(.institutional) {
     background: #F6F9FB;
     position: relative;
 
-    // Bg art — same positioning pattern as &-hero-bg, but
-    // object-fit: contain so the right-side gradient/honeycomb
-    // composition sits at its natural aspect ratio against the
-    // section's right edge.
+    // Bg art — anchored to the right half of the section, full
+    // height, object-fit: cover so it fills its 50%-wide box.
     &-bg {
       position: absolute;
-      inset: 0;
-      width: 100%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 50%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
       object-position: right center;
       pointer-events: none;
       z-index: 0;
@@ -560,10 +560,12 @@ body:has(.institutional) {
 
     &-bg {
       position: absolute;
-      inset: 0;
-      width: 100%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 50%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
       object-position: right center;
       pointer-events: none;
       z-index: 0;
