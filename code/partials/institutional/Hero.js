@@ -13,12 +13,18 @@ function Hero({
 }) {
   return (
     <header className="institutional-hero">
-      <img
-        className="institutional-hero-bg"
-        src="/assets/img/institutional/hero-bg@2x.png"
-        alt=""
-        aria-hidden="true"
-      />
+      <picture>
+        <source
+          srcSet="/assets/img/institutional/hero-bg@2x.webp"
+          type="image/webp"
+        />
+        <img
+          className="institutional-hero-bg"
+          src="/assets/img/institutional/hero-bg@2x.png"
+          alt=""
+          aria-hidden="true"
+        />
+      </picture>
       <MainGrid>
         <div className="institutional-hero-content">
           <div className="institutional-hero-eyebrow">

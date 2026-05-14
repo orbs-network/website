@@ -15,11 +15,17 @@ function SelfCustody({ eyebrow, headline1, headline2, body }) {
             <p className="institutional-body">{body}</p>
           </div>
           <div className="institutional-selfcustody-art" aria-hidden="true">
-            <img
-              className="institutional-selfcustody-art-img"
-              src="/assets/img/institutional/self-custody-bg@2x.png"
-              alt=""
-            />
+            <picture>
+              <source
+                srcSet="/assets/img/institutional/self-custody-bg@2x.webp"
+                type="image/webp"
+              />
+              <img
+                className="institutional-selfcustody-art-img"
+                src="/assets/img/institutional/self-custody-bg@2x.png"
+                alt=""
+              />
+            </picture>
           </div>
         </div>
       </MainGrid>
