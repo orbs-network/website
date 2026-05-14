@@ -81,11 +81,15 @@ body:has(.institutional) {
       linear-gradient(180deg, #F8FBFC 0%, #F4F8FA 100%);
   }
 
-  // Hero background art (real SVG export from Figma)
+  // Hero background art — right half of the section, full height,
+  // object-fit: cover so the right edge stays anchored and the image
+  // crops to fill. Matches the track-record / self-custody pattern.
   &-hero-bg {
     position: absolute;
-    inset: 0;
-    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     object-position: right center;
