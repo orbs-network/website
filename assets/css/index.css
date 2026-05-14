@@ -9905,7 +9905,7 @@ body:has(.institutional) {
   width: 50%;
   height: 100%;
   object-fit: cover;
-  object-position: right center;
+  object-position: left center;
   pointer-events: none;
   z-index: 0;
   user-select: none;
@@ -10179,7 +10179,7 @@ body:has(.institutional) {
   width: 50%;
   height: 100%;
   object-fit: cover;
-  object-position: right center;
+  object-position: left center;
   pointer-events: none;
   z-index: 0;
   user-select: none;
@@ -10335,7 +10335,7 @@ body:has(.institutional) {
   width: 50%;
   height: 100%;
   object-fit: cover;
-  object-position: right center;
+  object-position: left center;
   pointer-events: none;
   z-index: 0;
   user-select: none;
