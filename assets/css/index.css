@@ -9876,6 +9876,9 @@ body:has(.institutional) {
 .institutional span, .institutional li, .institutional strong, .institutional em {
   color: inherit;
 }
+.institutional picture {
+  display: contents;
+}
 .institutional .main-grid, .institutional .small-grid, .institutional .single-blog-header, .institutional .contact, .institutional .news-grid, .institutional .orbs-vm .common-grid-section-grid, .orbs-vm .institutional .common-grid-section-grid {
   max-width: 1280px;
   width: 100%;

@@ -52,6 +52,12 @@ body:has(.institutional) {
   // on cascade order (institutional.scss imported later).
   span, li, strong, em { color: inherit; }
 
+  // <picture> wrappers for WebP/PNG art are layout-transparent —
+  // the inner <img> participates in flex/positioning, not the
+  // <picture> itself. Otherwise the <picture> would become a flex
+  // item or block, breaking the layouts that target the <img>.
+  picture { display: contents; }
+
   .main-grid {
     max-width: 1280px;
     width: 100%;
