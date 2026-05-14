@@ -10171,10 +10171,12 @@ body:has(.institutional) {
 }
 .institutional-track-bg {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: right center;
   pointer-events: none;
   z-index: 0;
@@ -10325,10 +10327,12 @@ body:has(.institutional) {
 }
 .institutional-selfcustody-bg {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: right center;
   pointer-events: none;
   z-index: 0;
