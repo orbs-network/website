@@ -20,6 +20,7 @@ function ProductCard({ cat, name, desc, url }) {
       {logoSrc ? (
         <img
           className="institutional-products-logo"
+          data-product={name}
           src={logoSrc}
           alt={name}
         />

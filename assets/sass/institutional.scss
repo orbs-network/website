@@ -510,11 +510,23 @@ body:has(.institutional) {
 
     // Full product logo (icon + wordmark in one SVG). Replaces the
     // previous icon + separate <span> name combo.
+    //
+    // Per-product heights normalize visual weight across logos with
+    // different intrinsic heights (dTWAP/dLIMIT are 20px tall in the
+    // source SVG, Liquidity Hub is 34px, dSLTP is 32px). Selecting
+    // via data-product attribute keeps the partial declarative —
+    // no per-product CSS classes to manage.
     &-logo {
       display: block;
-      height: 22px;
       width: auto;
       max-width: 100%;
+      align-self: flex-start;
+
+      &[data-product="dTWAP"],
+      &[data-product="dLIMIT"] { height: 20px; }
+
+      &[data-product="Liquidity Hub"],
+      &[data-product="dSLTP"] { height: 33px; }
     }
 
     // Fallback when no logo asset is mapped for a product name —
