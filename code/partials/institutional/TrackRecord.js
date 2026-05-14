@@ -18,7 +18,7 @@ function TrackRecord({ eyebrow, lead, body }) {
           <div className="institutional-track-art" aria-hidden="true">
             <img
               className="institutional-track-art-img"
-              src="/assets/img/institutional/track-record-bg.svg"
+              src="/assets/img/institutional/track-record-bg@2x.png"
               alt=""
             />
           </div>
