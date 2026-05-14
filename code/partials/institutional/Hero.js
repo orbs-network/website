@@ -15,7 +15,7 @@ function Hero({
     <header className="institutional-hero">
       <img
         className="institutional-hero-bg"
-        src="/assets/img/institutional/hero-bg.svg"
+        src="/assets/img/institutional/hero-bg@2x.png"
         alt=""
         aria-hidden="true"
       />

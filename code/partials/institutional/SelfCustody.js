@@ -17,7 +17,7 @@ function SelfCustody({ eyebrow, headline1, headline2, body }) {
           <div className="institutional-selfcustody-art" aria-hidden="true">
             <img
               className="institutional-selfcustody-art-img"
-              src="/assets/img/institutional/self-custody-bg.svg"
+              src="/assets/img/institutional/self-custody-bg@2x.png"
               alt=""
             />
           </div>
