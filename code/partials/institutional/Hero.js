@@ -52,6 +52,8 @@ function Hero({
             <a
               className="institutional-btn institutional-btn-outline institutional-btn-square"
               href={ctaUrl || "#talk-to-the-team"}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span>{ctaLabel || "Talk to the team"}</span>
               <span className="institutional-btn-arrow" aria-hidden="true">→</span>
