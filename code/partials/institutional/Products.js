@@ -2,9 +2,10 @@ import React from "react";
 import MainGrid from "../shared/MainGrid";
 
 // Map product name (as authored in content/.../products/index.md) to
-// the committed icon SVG path. Each product icon is a small (~20-30px
-// wide) mark designed to sit inline with the wordmark text.
-const PRODUCT_ICON = {
+// the committed full-logo SVG path. The logo SVG includes both the
+// brand mark and the wordmark — it replaces the separate icon + name
+// elements from the previous design.
+const PRODUCT_LOGO = {
   "Liquidity Hub": "/assets/img/institutional/product-liquidity-hub.svg",
   dTWAP: "/assets/img/institutional/product-dtwap.svg",
   dLIMIT: "/assets/img/institutional/product-dlimit.svg",
@@ -12,21 +13,21 @@ const PRODUCT_ICON = {
 };
 
 function ProductCard({ cat, name, desc, url }) {
-  const iconSrc = PRODUCT_ICON[name];
+  const logoSrc = PRODUCT_LOGO[name];
   return (
     <a className="institutional-products-card" href={url || "#"}>
       <div className="institutional-products-cat">{cat}</div>
-      <div className="institutional-products-name-row">
-        {iconSrc && (
-          <img
-            className="institutional-products-icon"
-            src={iconSrc}
-            alt=""
-            aria-hidden="true"
-          />
-        )}
-        <span className="institutional-products-name">{name}</span>
-      </div>
+      {logoSrc ? (
+        <img
+          className="institutional-products-logo"
+          src={logoSrc}
+          alt={name}
+        />
+      ) : (
+        <div className="institutional-products-name institutional-products-name-fallback">
+          {name}
+        </div>
+      )}
       <p className="institutional-products-desc">{desc}</p>
       <div className="institutional-products-cta">
         <span>DISCOVER</span>
