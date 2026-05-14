@@ -7,8 +7,11 @@ function ProofOfWork({ eyebrow, headline1, headline2, headlineGrad, body }) {
       <MainGrid>
         <div className="institutional-pow-grid">
           <div className="institutional-pow-art" aria-hidden="true">
-            <div className="institutional-pow-beam"></div>
-            <div className="institutional-pow-orb"></div>
+            <img
+              className="institutional-pow-art-img"
+              src="/assets/img/institutional/proof-of-work-orb.svg"
+              alt=""
+            />
           </div>
           <div className="institutional-pow-text">
             <div className="institutional-eyebrow institutional-eyebrow-light">

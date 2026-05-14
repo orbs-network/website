@@ -38,10 +38,11 @@ function Features({
               <span>{panel2}</span><br />
               <span>{panel3}</span>
             </p>
-            <div className="institutional-features-panel-mark" aria-hidden="true">
-              <span className="institutional-features-panel-orb"></span>
-              <span className="institutional-features-panel-wordmark">ORBS</span>
-            </div>
+            <img
+              className="institutional-features-panel-mark"
+              src="/assets/img/institutional/orbs-logo.svg"
+              alt="Orbs"
+            />
           </div>
         </div>
 

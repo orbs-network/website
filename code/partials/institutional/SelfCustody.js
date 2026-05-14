@@ -15,9 +15,11 @@ function SelfCustody({ eyebrow, headline1, headline2, body }) {
             <p className="institutional-body">{body}</p>
           </div>
           <div className="institutional-selfcustody-art" aria-hidden="true">
-            <div className="institutional-selfcustody-bar institutional-selfcustody-bar-1"></div>
-            <div className="institutional-selfcustody-bar institutional-selfcustody-bar-2"></div>
-            <div className="institutional-selfcustody-bar institutional-selfcustody-bar-3"></div>
+            <img
+              className="institutional-selfcustody-art-img"
+              src="/assets/img/institutional/self-custody-bg.svg"
+              alt=""
+            />
           </div>
         </div>
       </MainGrid>

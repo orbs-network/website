@@ -13,7 +13,12 @@ function Hero({
 }) {
   return (
     <header className="institutional-hero">
-      <div className="institutional-hero-bands" aria-hidden="true"></div>
+      <img
+        className="institutional-hero-bg"
+        src="/assets/img/institutional/hero-bg.svg"
+        alt=""
+        aria-hidden="true"
+      />
       <MainGrid>
         <div className="institutional-hero-content">
           <div className="institutional-hero-eyebrow">
