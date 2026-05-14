@@ -16,11 +16,17 @@ function TrackRecord({ eyebrow, lead, body }) {
             </h2>
           </div>
           <div className="institutional-track-art" aria-hidden="true">
-            <img
-              className="institutional-track-art-img"
-              src="/assets/img/institutional/track-record-bg@2x.png"
-              alt=""
-            />
+            <picture>
+              <source
+                srcSet="/assets/img/institutional/track-record-bg@2x.webp"
+                type="image/webp"
+              />
+              <img
+                className="institutional-track-art-img"
+                src="/assets/img/institutional/track-record-bg@2x.png"
+                alt=""
+              />
+            </picture>
           </div>
         </div>
       </MainGrid>
