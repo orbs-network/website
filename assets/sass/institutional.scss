@@ -224,7 +224,7 @@ body:has(.institutional) {
   // ── SHARED SECTION PRIMITIVES ────────────────────────────
   &-sec {
     position: relative;
-    padding: 120px 0;
+    padding: 300px 0;
     overflow: hidden;
     background: var(--page-bg);
   }
@@ -429,7 +429,7 @@ body:has(.institutional) {
       top: 0;
       right: 0;
       bottom: 0;
-      width: 50%;
+      width: 40%;
       height: 100%;
       object-fit: cover;
       object-position: left center;
@@ -452,7 +452,7 @@ body:has(.institutional) {
 
   // ── SECTION 5 — Venues banner ────────────────────────────
   &-venues {
-    padding: 100px 0;
+    padding: 120px 0;
     color: var(--fg);
     background: linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 
@@ -464,20 +464,24 @@ body:has(.institutional) {
       color: #FCFDFF;
       text-align: center;
       margin: 0 0 48px;
+
+      @media (max-width: 960px) { font-size: 38px; }
+      @media (max-width: 760px) { font-size: 28px; margin-bottom: 32px; }
     }
 
     &-row {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 48px;
-      flex-wrap: wrap;
+      gap: 72px;
+      flex-wrap: nowrap;
     }
 
     &-logo {
       height: 28px;
       width: auto;
       opacity: 0.95;
+      flex-shrink: 0;
       // The venue logos are full-color SVGs designed for the gradient
       // banner. Keep them as-is; no filter override.
     }
@@ -491,6 +495,10 @@ body:has(.institutional) {
       color: #FCFDFF;
       opacity: 0.95;
       height: auto;
+    }
+
+    @media (max-width: 960px) {
+      &-row { gap: 40px; flex-wrap: wrap; }
     }
 
     @media (max-width: 760px) {
@@ -637,7 +645,7 @@ body:has(.institutional) {
 
   // ── SECTION 8 — Infrastructure banner ────────────────────
   &-infra {
-    padding: 100px 0;
+    padding: 120px 0;
     color: var(--fg);
     background: linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 
@@ -649,14 +657,17 @@ body:has(.institutional) {
       color: #FCFDFF;
       text-align: center;
       margin: 0 0 48px;
+
+      @media (max-width: 960px) { font-size: 38px; }
+      @media (max-width: 760px) { font-size: 28px; margin-bottom: 32px; }
     }
 
     &-row {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 48px;
-      flex-wrap: wrap;
+      gap: 72px;
+      flex-wrap: nowrap;
       margin-bottom: 18px;
     }
 
@@ -666,6 +677,7 @@ body:has(.institutional) {
       max-width: 140px;
       opacity: 0.95;
       object-fit: contain;
+      flex-shrink: 0;
     }
 
     &-logo-text {
@@ -684,6 +696,10 @@ body:has(.institutional) {
       color: rgba(252, 253, 255, 0.78);
       text-align: center;
       margin: 0;
+    }
+
+    @media (max-width: 960px) {
+      &-row { gap: 40px; flex-wrap: wrap; }
     }
 
     @media (max-width: 760px) {
@@ -710,6 +726,9 @@ body:has(.institutional) {
       letter-spacing: -0.02em;
       color: #FCFDFF;
       margin: 0;
+
+      @media (max-width: 960px) { font-size: 56px; }
+      @media (max-width: 760px) { font-size: 38px; }
     }
 
     // Punch line on a dark section bg — wants the indigo end of the
@@ -725,9 +744,6 @@ body:has(.institutional) {
       -webkit-text-fill-color: transparent;
     }
 
-    @media (max-width: 760px) {
-      &-line { font-size: 24px; }
-    }
   }
 
   // ── SECTION 10 — Integration paths ───────────────────────
@@ -793,8 +809,13 @@ body:has(.institutional) {
     padding: 100px 0;
 
     // Local override — features title is slightly smaller than the
-    // default &-h2 (52px) per design.
-    .institutional-h2 { font-size: 48px; }
+    // default &-h2 (52px) per design. Scales down proportionally
+    // on smaller breakpoints.
+    .institutional-h2 {
+      font-size: 48px;
+      @media (max-width: 960px) { font-size: 38px; }
+      @media (max-width: 760px) { font-size: 28px; }
+    }
 
     &-header {
       margin-bottom: 56px;
@@ -973,6 +994,9 @@ body:has(.institutional) {
       letter-spacing: -0.02em;
       color: var(--ink);
       margin: 0 0 16px;
+
+      @media (max-width: 960px) { font-size: 40px; }
+      @media (max-width: 760px) { font-size: 30px; }
     }
 
     &-body {
@@ -989,9 +1013,6 @@ body:has(.institutional) {
       flex-wrap: wrap;
     }
 
-    @media (max-width: 760px) {
-      &-title { font-size: 28px; }
-    }
   }
 
   // ── RESPONSIVE ───────────────────────────────────────────

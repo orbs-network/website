@@ -10009,7 +10009,7 @@ body:has(.institutional) {
 }
 .institutional-sec {
   position: relative;
-  padding: 120px 0;
+  padding: 300px 0;
   overflow: hidden;
   background: var(--page-bg);
 }
@@ -10194,7 +10194,7 @@ body:has(.institutional) {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 50%;
+  width: 40%;
   height: 100%;
   object-fit: cover;
   object-position: left center;
@@ -10215,7 +10215,7 @@ body:has(.institutional) {
   }
 }
 .institutional-venues {
-  padding: 100px 0;
+  padding: 120px 0;
   color: var(--fg);
   background: linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 }
@@ -10228,17 +10228,29 @@ body:has(.institutional) {
   text-align: center;
   margin: 0 0 48px;
 }
+@media (max-width: 960px) {
+  .institutional-venues-title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 760px) {
+  .institutional-venues-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+}
 .institutional-venues-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
-  flex-wrap: wrap;
+  gap: 72px;
+  flex-wrap: nowrap;
 }
 .institutional-venues-logo {
   height: 28px;
   width: auto;
   opacity: 0.95;
+  flex-shrink: 0;
 }
 .institutional-venues-logo-text {
   font-family: var(--font-ui);
@@ -10248,6 +10260,12 @@ body:has(.institutional) {
   color: #FCFDFF;
   opacity: 0.95;
   height: auto;
+}
+@media (max-width: 960px) {
+  .institutional-venues-row {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 760px) {
   .institutional-venues-row {
@@ -10377,7 +10395,7 @@ body:has(.institutional) {
   }
 }
 .institutional-infra {
-  padding: 100px 0;
+  padding: 120px 0;
   color: var(--fg);
   background: linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 }
@@ -10390,12 +10408,23 @@ body:has(.institutional) {
   text-align: center;
   margin: 0 0 48px;
 }
+@media (max-width: 960px) {
+  .institutional-infra-title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 760px) {
+  .institutional-infra-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+}
 .institutional-infra-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
-  flex-wrap: wrap;
+  gap: 72px;
+  flex-wrap: nowrap;
   margin-bottom: 18px;
 }
 .institutional-infra-logo {
@@ -10404,6 +10433,7 @@ body:has(.institutional) {
   max-width: 140px;
   opacity: 0.95;
   object-fit: contain;
+  flex-shrink: 0;
 }
 .institutional-infra-logo-text {
   font-family: var(--font-ui);
@@ -10420,6 +10450,12 @@ body:has(.institutional) {
   color: rgba(252, 253, 255, 0.78);
   text-align: center;
   margin: 0;
+}
+@media (max-width: 960px) {
+  .institutional-infra-row {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 760px) {
   .institutional-infra-row {
@@ -10448,6 +10484,16 @@ body:has(.institutional) {
   color: #FCFDFF;
   margin: 0;
 }
+@media (max-width: 960px) {
+  .institutional-policy-line {
+    font-size: 56px;
+  }
+}
+@media (max-width: 760px) {
+  .institutional-policy-line {
+    font-size: 38px;
+  }
+}
 .institutional-policy-punch {
   background-image: var(--grad-orbs);
   background-size: 100% 400%;
@@ -10457,11 +10503,6 @@ body:has(.institutional) {
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-}
-@media (max-width: 760px) {
-  .institutional-policy-line {
-    font-size: 24px;
-  }
 }
 .institutional-paths {
   background: #ECEFF1;
@@ -10523,6 +10564,16 @@ body:has(.institutional) {
 }
 .institutional-features .institutional-h2 {
   font-size: 48px;
+}
+@media (max-width: 960px) {
+  .institutional-features .institutional-h2 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 760px) {
+  .institutional-features .institutional-h2 {
+    font-size: 28px;
+  }
 }
 .institutional-features-header {
   margin-bottom: 56px;
@@ -10688,6 +10739,16 @@ body:has(.institutional) {
   color: var(--ink);
   margin: 0 0 16px;
 }
+@media (max-width: 960px) {
+  .institutional-talk-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 760px) {
+  .institutional-talk-title {
+    font-size: 30px;
+  }
+}
 .institutional-talk-body {
   font-family: var(--font-body);
   font-size: 14px;
@@ -10699,11 +10760,6 @@ body:has(.institutional) {
   gap: 12px;
   justify-content: center;
   flex-wrap: wrap;
-}
-@media (max-width: 760px) {
-  .institutional-talk-title {
-    font-size: 28px;
-  }
 }
 @media (max-width: 960px) {
   .institutional-hero-title {
