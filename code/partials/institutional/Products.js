@@ -56,7 +56,7 @@ function Products({
             <h2 className="institutional-h2">
               <span>{headline1}</span><br />
               <span>{headline2}</span><br />
-              <span className="institutional-grad-cyan">{headlineGrad}</span>
+              <span className="institutional-grad-orbs">{headlineGrad}</span>
             </h2>
             <p className="institutional-body institutional-body-light">{body}</p>
           </div>

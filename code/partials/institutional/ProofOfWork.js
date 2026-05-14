@@ -20,7 +20,7 @@ function ProofOfWork({ eyebrow, headline1, headline2, headlineGrad, body }) {
             <h2 className="institutional-h2">
               <span>{headline1 || "Forged in DeFi."}</span><br />
               <span>{headline2 || "Packaged for"}</span>{" "}
-              <span className="institutional-grad-lilac">
+              <span className="institutional-grad-orbs">
                 {headlineGrad || "institutions"}
               </span>
             </h2>

@@ -9850,6 +9850,7 @@ body:has(.institutional) {
   --pink-1: #E4B5E8;
   --fg: #FCFDFF;
   --grad-headline: linear-gradient(96deg, #9D7EF4 0%, #B49BF5 40%, #C7B0F2 100%);
+  --grad-orbs: linear-gradient(360deg, #3346F2 0%, #DC8AE0 46.21%, #2CEDFC 98.31%);
   --radius-pill: 999px;
   --radius-square: 0;
   --radius-lg: 20px;
@@ -9940,7 +9941,7 @@ body:has(.institutional) {
   display: block;
 }
 .institutional-hero-grad {
-  background: var(--grad-headline);
+  background: var(--grad-orbs);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -10068,6 +10069,13 @@ body:has(.institutional) {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+.institutional-grad-orbs {
+  background: var(--grad-orbs);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
 .institutional-pow-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10082,7 +10090,6 @@ body:has(.institutional) {
 }
 .institutional-pow-art-img {
   width: 100%;
-  max-width: 520px;
   height: auto;
   display: block;
 }
@@ -10092,7 +10099,7 @@ body:has(.institutional) {
     gap: 48px;
   }
   .institutional-pow-art-img {
-    max-width: 380px;
+    max-width: 480px;
     margin: 0 auto;
   }
 }
@@ -10199,7 +10206,7 @@ body:has(.institutional) {
 .institutional-venues {
   padding: 64px 0;
   color: var(--fg);
-  background: linear-gradient(95deg, #6FE3F2 0%, #A0C4F7 45%, #B49BF5 80%, #C7B0F2 100%);
+  background: linear-gradient(0deg, #000000, #000000), linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 }
 .institutional-venues-title {
   font-family: var(--font-display);
@@ -10361,7 +10368,7 @@ body:has(.institutional) {
 .institutional-infra {
   padding: 64px 0 56px;
   color: var(--fg);
-  background: linear-gradient(95deg, #7A89E9 0%, #9F89E9 40%, #C7AEF3 75%, #E4B5E8 100%);
+  background: linear-gradient(0deg, #000000, #000000), linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 }
 .institutional-infra-title {
   font-family: var(--font-display);
@@ -10432,7 +10439,11 @@ body:has(.institutional) {
   margin: 0;
 }
 .institutional-policy-punch {
-  color: #7A89E9;
+  background: var(--grad-orbs);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 @media (max-width: 760px) {
   .institutional-policy-line {
@@ -10565,6 +10576,7 @@ body:has(.institutional) {
   width: auto;
   max-width: 140px;
   display: block;
+  align-self: flex-start;
 }
 .institutional-features-ctas {
   display: flex;
@@ -10641,7 +10653,7 @@ body:has(.institutional) {
 }
 .institutional-talk {
   padding: 80px 0;
-  background: linear-gradient(95deg, #DCC8F5 0%, #C7AEF3 45%, #D3B6F0 85%, #E4D0F2 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #DC8AE0 76.63%);
 }
 .institutional-talk-inner {
   text-align: center;

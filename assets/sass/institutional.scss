@@ -25,6 +25,7 @@ body:has(.institutional) {
   --fg: #FCFDFF;
 
   --grad-headline: linear-gradient(96deg, #9D7EF4 0%, #B49BF5 40%, #C7B0F2 100%);
+  --grad-orbs: linear-gradient(360deg, #3346F2 0%, #DC8AE0 46.21%, #2CEDFC 98.31%);
 
   --radius-pill: 999px;
   --radius-square: 0;
@@ -130,7 +131,7 @@ body:has(.institutional) {
   }
 
   &-hero-grad {
-    background: var(--grad-headline);
+    background: var(--grad-orbs);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -283,6 +284,17 @@ body:has(.institutional) {
     -webkit-text-fill-color: transparent;
   }
 
+  // Orbs brand gradient — bottom-to-top: indigo → pink → cyan.
+  // Applied to feature word(s) across hero, proof-of-work, track-record,
+  // products, policy-engine.
+  &-grad-orbs {
+    background: var(--grad-orbs);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
   // ── SECTION 2 — Proof of work ────────────────────────────
   &-pow {
     &-grid {
@@ -301,14 +313,13 @@ body:has(.institutional) {
 
     &-art-img {
       width: 100%;
-      max-width: 520px;
       height: auto;
       display: block;
     }
 
     @media (max-width: 860px) {
       &-grid { grid-template-columns: 1fr; gap: 48px; }
-      &-art-img { max-width: 380px; margin: 0 auto; }
+      &-art-img { max-width: 480px; margin: 0 auto; }
     }
   }
 
@@ -417,7 +428,9 @@ body:has(.institutional) {
   &-venues {
     padding: 64px 0;
     color: var(--fg);
-    background: linear-gradient(95deg, #6FE3F2 0%, #A0C4F7 45%, #B49BF5 80%, #C7B0F2 100%);
+    background:
+      linear-gradient(0deg, #000000, #000000),
+      linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 
     &-title {
       font-family: var(--font-display);
@@ -602,7 +615,9 @@ body:has(.institutional) {
   &-infra {
     padding: 64px 0 56px;
     color: var(--fg);
-    background: linear-gradient(95deg, #7A89E9 0%, #9F89E9 40%, #C7AEF3 75%, #E4B5E8 100%);
+    background:
+      linear-gradient(0deg, #000000, #000000),
+      linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 
     &-title {
       font-family: var(--font-display);
@@ -677,7 +692,11 @@ body:has(.institutional) {
     }
 
     &-punch {
-      color: #7A89E9;
+      background: var(--grad-orbs);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
     }
 
     @media (max-width: 760px) {
@@ -828,6 +847,7 @@ body:has(.institutional) {
       width: auto;
       max-width: 140px;
       display: block;
+      align-self: flex-start;
     }
 
     &-ctas {
@@ -902,7 +922,7 @@ body:has(.institutional) {
   // ── SECTION 13 — Talk to team ────────────────────────────
   &-talk {
     padding: 80px 0;
-    background: linear-gradient(95deg, #DCC8F5 0%, #C7AEF3 45%, #D3B6F0 85%, #E4D0F2 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, #DC8AE0 76.63%);
 
     &-inner {
       text-align: center;
