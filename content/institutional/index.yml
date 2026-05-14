@@ -1,5 +1,5 @@
 layout: pages/page
-script: ai/index
+script: institutional/index
 
 header:
   - /_shared/navbar/index.md

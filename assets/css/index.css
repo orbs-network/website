@@ -10187,6 +10187,11 @@ body:has(.institutional) {
 .institutional-track-text {
   max-width: 520px;
 }
+@media (max-width: 760px) {
+  .institutional-track-bg {
+    opacity: 0.2;
+  }
+}
 .institutional-venues {
   padding: 64px 0;
   color: var(--fg);
@@ -10335,6 +10340,11 @@ body:has(.institutional) {
 }
 .institutional-selfcustody-text {
   max-width: 480px;
+}
+@media (max-width: 760px) {
+  .institutional-selfcustody-bg {
+    opacity: 0.2;
+  }
 }
 .institutional-infra {
   padding: 64px 0 56px;
@@ -10485,32 +10495,38 @@ body:has(.institutional) {
   border-top: 1px solid rgba(10, 10, 18, 0.12);
 }
 .institutional-features-list {
-  list-style: none;
   padding: 0;
   margin: 0;
   border-right: 1px solid rgba(10, 10, 18, 0.12);
+  display: flex;
+  flex-direction: column;
 }
 .institutional-features-item {
-  padding: 16px 24px 16px 0;
-  border-bottom: 1px solid rgba(10, 10, 18, 0.1);
-}
-.institutional-features-item-active .institutional-features-name {
-  color: #5E70E0;
-  font-weight: 500;
-}
-.institutional-features-name {
+  display: block;
+  width: 100%;
+  text-align: left;
   font-family: var(--font-display);
   font-size: 14px;
   font-weight: 400;
-  color: var(--ink);
   letter-spacing: -0.005em;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(10, 10, 18, 0.1);
+  padding: 18px 24px 18px 0;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
 }
-.institutional-features-sub {
-  font-family: var(--font-body);
-  font-size: 12px;
-  color: var(--ink-2);
-  margin: 6px 0 0;
-  line-height: 1.5;
+.institutional-features-item:hover {
+  color: #5E70E0;
+}
+.institutional-features-item:focus-visible {
+  outline: 2px solid #5E70E0;
+  outline-offset: -4px;
+}
+.institutional-features-item-active {
+  color: #5E70E0;
+  font-weight: 500;
 }
 .institutional-features-panel {
   position: relative;
@@ -10523,12 +10539,14 @@ body:has(.institutional) {
 }
 .institutional-features-panel-text {
   font-family: var(--font-display);
-  font-size: 28px;
-  line-height: 1.2;
+  font-size: 22px;
+  line-height: 1.32;
   font-weight: 400;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
   color: var(--ink);
   margin: 0;
+  max-width: 460px;
+  transition: opacity 0.15s ease;
 }
 .institutional-features-panel-mark {
   height: 28px;

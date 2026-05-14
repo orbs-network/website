@@ -3,11 +3,23 @@ import MainGrid from "../shared/MainGrid";
 
 function Features({
   eyebrow, headline1, headline2,
-  f1, f1sub, f2, f3, f4, f5, f6, f7, f8,
-  panel1, panel2, panel3,
+  f1, f1body, f2, f2body, f3, f3body, f4, f4body,
+  f5, f5body, f6, f6body, f7, f7body, f8, f8body,
   cta1Label, cta1Url, cta2Label, cta2Url,
 }) {
-  const rest = [f2, f3, f4, f5, f6, f7, f8].filter(Boolean);
+  const features = [
+    { name: f1, body: f1body },
+    { name: f2, body: f2body },
+    { name: f3, body: f3body },
+    { name: f4, body: f4body },
+    { name: f5, body: f5body },
+    { name: f6, body: f6body },
+    { name: f7, body: f7body },
+    { name: f8, body: f8body },
+  ].filter((f) => f.name);
+
+  const defaultBody = features[0] ? features[0].body : "";
+
   return (
     <section className="institutional-sec institutional-features">
       <MainGrid>
@@ -20,24 +32,32 @@ function Features({
         </div>
 
         <div className="institutional-features-grid">
-          <ul className="institutional-features-list">
-            <li className="institutional-features-item institutional-features-item-active">
-              <div className="institutional-features-name">{f1}</div>
-              {f1sub && <p className="institutional-features-sub">{f1sub}</p>}
-            </li>
-            {rest.map((f, i) => (
-              <li key={i} className="institutional-features-item">
-                <div className="institutional-features-name">{f}</div>
-              </li>
+          <div className="institutional-features-list" role="tablist">
+            {features.map((f, i) => (
+              <button
+                key={i}
+                type="button"
+                role="tab"
+                aria-selected={i === 0}
+                aria-controls="institutional-features-panel"
+                data-body={f.body}
+                className={
+                  "institutional-features-item" +
+                  (i === 0 ? " institutional-features-item-active" : "")
+                }
+              >
+                {f.name}
+              </button>
             ))}
-          </ul>
+          </div>
 
-          <div className="institutional-features-panel">
-            <p className="institutional-features-panel-text">
-              <span>{panel1}</span><br />
-              <span>{panel2}</span><br />
-              <span>{panel3}</span>
-            </p>
+          <div
+            id="institutional-features-panel"
+            role="tabpanel"
+            className="institutional-features-panel"
+            aria-live="polite"
+          >
+            <p className="institutional-features-panel-text">{defaultBody}</p>
             <img
               className="institutional-features-panel-mark"
               src="/assets/img/institutional/orbs-logo.svg"
