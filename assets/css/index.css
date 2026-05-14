@@ -10281,9 +10281,15 @@ body:has(.institutional) {
 }
 .institutional-products-logo {
   display: block;
-  height: 22px;
   width: auto;
   max-width: 100%;
+  align-self: flex-start;
+}
+.institutional-products-logo[data-product=dTWAP], .institutional-products-logo[data-product=dLIMIT] {
+  height: 20px;
+}
+.institutional-products-logo[data-product="Liquidity Hub"], .institutional-products-logo[data-product=dSLTP] {
+  height: 33px;
 }
 .institutional-products-name-fallback {
   font-family: var(--font-display);
