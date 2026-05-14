@@ -75,19 +75,17 @@ body:has(.institutional) {
       linear-gradient(180deg, #F8FBFC 0%, #F4F8FA 100%);
   }
 
-  // Horizontal aqua bands — sit behind content, biased right
-  &-hero-bands {
+  // Hero background art (real SVG export from Figma)
+  &-hero-bg {
     position: absolute;
     inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right center;
     pointer-events: none;
     z-index: 0;
-    background:
-      radial-gradient(ellipse 70% 9% at 110% 28%, rgba(116, 230, 242, 0.85) 0%, rgba(168, 240, 246, 0.40) 35%, transparent 70%),
-      radial-gradient(ellipse 75% 8% at 110% 44%, rgba(168, 240, 246, 0.90) 0%, rgba(124, 235, 220, 0.45) 38%, transparent 72%),
-      radial-gradient(ellipse 70% 9% at 110% 60%, rgba(116, 230, 242, 0.80) 0%, rgba(168, 240, 246, 0.35) 35%, transparent 70%),
-      radial-gradient(ellipse 75% 8% at 110% 78%, rgba(168, 240, 246, 0.85) 0%, rgba(124, 235, 220, 0.40) 38%, transparent 72%),
-      radial-gradient(ellipse 65% 10% at 110% 94%, rgba(116, 230, 242, 0.70) 0%, transparent 70%);
-    filter: blur(2px);
+    user-select: none;
   }
 
   &-hero .main-grid { position: relative; z-index: 1; }
@@ -286,53 +284,21 @@ body:has(.institutional) {
 
     &-art {
       position: relative;
-      height: 320px;
       display: flex;
       align-items: center;
       justify-content: flex-start;
     }
 
-    &-orb {
-      position: relative;
-      z-index: 2;
-      width: 88px;
-      height: 88px;
-      border-radius: 50%;
-      background:
-        radial-gradient(circle at 30% 30%, #FFFFFF 0%, #D4D8FF 18%, #7A89E9 55%, #3D4FD8 85%, #1A1F4A 100%);
-      box-shadow:
-        0 0 32px rgba(122, 137, 233, 0.65),
-        inset -8px -10px 20px rgba(0, 0, 0, 0.45);
-
-      &::before {
-        // mesh facet hint
-        content: "";
-        position: absolute;
-        inset: 4px;
-        border-radius: 50%;
-        background:
-          linear-gradient(35deg, transparent 48%, rgba(255, 255, 255, 0.18) 50%, transparent 52%),
-          linear-gradient(110deg, transparent 48%, rgba(255, 255, 255, 0.12) 50%, transparent 52%);
-        pointer-events: none;
-      }
-    }
-
-    &-beam {
-      position: absolute;
-      left: 60px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 80%;
-      height: 280px;
-      clip-path: polygon(0% 48%, 100% 0%, 100% 100%, 0% 52%);
-      background: linear-gradient(90deg, rgba(122, 137, 233, 0.85) 0%, rgba(61, 79, 216, 0.55) 35%, rgba(26, 31, 74, 0.20) 75%, transparent 100%);
-      filter: blur(8px);
-      z-index: 1;
+    &-art-img {
+      width: 100%;
+      max-width: 520px;
+      height: auto;
+      display: block;
     }
 
     @media (max-width: 860px) {
       &-grid { grid-template-columns: 1fr; gap: 48px; }
-      &-art { height: 240px; }
+      &-art-img { max-width: 380px; margin: 0 auto; }
     }
   }
 
@@ -421,27 +387,21 @@ body:has(.institutional) {
 
     &-art {
       position: relative;
-      height: 380px;
-      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
     }
 
-    &-art-inner {
-      position: absolute;
-      inset: 0;
-      background:
-        // soft purple gradient blocks
-        radial-gradient(ellipse 50% 22% at 70% 28%, rgba(167, 139, 250, 0.55) 0%, transparent 70%),
-        radial-gradient(ellipse 55% 24% at 90% 52%, rgba(192, 132, 252, 0.55) 0%, transparent 70%),
-        radial-gradient(ellipse 45% 20% at 60% 80%, rgba(155, 130, 240, 0.40) 0%, transparent 70%),
-        // honeycomb pattern hint
-        radial-gradient(circle at center, rgba(167, 139, 250, 0.08) 1.5px, transparent 2px);
-      background-size: auto, auto, auto, 14px 14px;
-      filter: blur(0.3px);
+    &-art-img {
+      width: 100%;
+      max-width: 560px;
+      height: auto;
+      display: block;
     }
 
     @media (max-width: 860px) {
       &-grid { grid-template-columns: 1fr; gap: 40px; }
-      &-art { height: 240px; }
+      &-art-img { max-width: 100%; }
     }
   }
 
@@ -470,17 +430,28 @@ body:has(.institutional) {
     }
 
     &-logo {
+      height: 28px;
+      width: auto;
+      opacity: 0.95;
+      // The venue logos are full-color SVGs designed for the gradient
+      // banner. Keep them as-is; no filter override.
+    }
+
+    // Fallback when no SVG is mapped for a name — text style.
+    &-logo-text {
       font-family: var(--font-ui);
       font-size: 18px;
       font-weight: 700;
       letter-spacing: 0.04em;
       color: #FCFDFF;
       opacity: 0.95;
+      height: auto;
     }
 
     @media (max-width: 760px) {
       &-row { gap: 24px; }
-      &-logo { font-size: 14px; }
+      &-logo { height: 22px; }
+      &-logo-text { font-size: 14px; }
     }
   }
 
@@ -545,33 +516,10 @@ body:has(.institutional) {
 
     &-icon {
       display: inline-block;
-      width: 22px;
-      height: 16px;
-
-      &-triangles {
-        background:
-          linear-gradient(135deg, transparent 49%, #74E6F2 50%, transparent 51%),
-          linear-gradient(45deg, transparent 49%, #B49BF5 50%, transparent 51%);
-        background-size: 8px 8px;
-        background-repeat: no-repeat;
-        background-position: 0 0, 12px 0;
-      }
-      &-chevrons {
-        background:
-          linear-gradient(45deg, transparent 49%, #74E6F2 50%, transparent 51%) 0 0 / 50% 100% no-repeat,
-          linear-gradient(45deg, transparent 49%, #74E6F2 50%, transparent 51%) 100% 0 / 50% 100% no-repeat;
-      }
-      &-brackets {
-        border-left: 2px solid #74E6F2;
-        border-right: 2px solid #74E6F2;
-        border-top: 2px solid transparent;
-        border-bottom: 2px solid transparent;
-        width: 18px;
-      }
-      &-hexagon {
-        background: #FFADAE;
-        clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-      }
+      height: 20px;
+      width: auto;
+      flex-shrink: 0;
+      // Real SVG product marks live at /assets/img/institutional/product-*.svg
     }
 
     &-desc {
@@ -619,35 +567,21 @@ body:has(.institutional) {
 
     &-art {
       position: relative;
-      height: 280px;
-      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
     }
 
-    &-bar {
-      position: absolute;
-      right: -20%;
-      height: 64px;
-      width: 80%;
-      filter: blur(6px);
-      opacity: 0.85;
-    }
-
-    &-bar-1 {
-      top: 18%;
-      background: linear-gradient(90deg, transparent 0%, rgba(255, 173, 174, 0.85) 60%, rgba(255, 200, 200, 0.55) 100%);
-    }
-    &-bar-2 {
-      top: 44%;
-      background: linear-gradient(90deg, transparent 0%, rgba(255, 200, 200, 0.55) 50%, rgba(255, 173, 174, 0.85) 100%);
-    }
-    &-bar-3 {
-      top: 70%;
-      background: linear-gradient(90deg, transparent 0%, rgba(255, 173, 174, 0.65) 60%, rgba(255, 200, 200, 0.40) 100%);
+    &-art-img {
+      width: 100%;
+      max-width: 560px;
+      height: auto;
+      display: block;
     }
 
     @media (max-width: 860px) {
       &-grid { grid-template-columns: 1fr; gap: 40px; }
-      &-art { height: 180px; }
+      &-art-img { max-width: 100%; }
     }
   }
 
@@ -677,12 +611,21 @@ body:has(.institutional) {
     }
 
     &-logo {
+      height: 32px;
+      width: auto;
+      max-width: 140px;
+      opacity: 0.95;
+      object-fit: contain;
+    }
+
+    &-logo-text {
       font-family: var(--font-ui);
       font-size: 16px;
       font-weight: 700;
       letter-spacing: 0.04em;
       color: #FCFDFF;
       opacity: 0.95;
+      height: auto;
     }
 
     &-sub {
@@ -695,7 +638,8 @@ body:has(.institutional) {
 
     @media (max-width: 760px) {
       &-row { gap: 24px; }
-      &-logo { font-size: 13px; }
+      &-logo { height: 24px; }
+      &-logo-text { font-size: 13px; }
     }
   }
 
@@ -859,26 +803,10 @@ body:has(.institutional) {
     }
 
     &-panel-mark {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    &-panel-orb {
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      background:
-        radial-gradient(circle at 30% 30%, #FFFFFF 0%, #B9C0E0 25%, #1A1F4A 95%);
-      box-shadow: 0 0 0 1px rgba(10, 10, 18, 0.12);
-    }
-
-    &-panel-wordmark {
-      font-family: var(--font-display);
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 0.30em;
-      color: var(--ink);
+      height: 28px;
+      width: auto;
+      max-width: 140px;
+      display: block;
     }
 
     &-ctas {

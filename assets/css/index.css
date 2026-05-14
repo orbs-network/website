@@ -9894,13 +9894,16 @@ body:has(.institutional) {
   isolation: isolate;
   background: radial-gradient(ellipse 55% 28% at 95% 4%, rgba(180, 155, 245, 0.3) 0%, transparent 70%), linear-gradient(180deg, #F8FBFC 0%, #F4F8FA 100%);
 }
-.institutional-hero-bands {
+.institutional-hero-bg {
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
   pointer-events: none;
   z-index: 0;
-  background: radial-gradient(ellipse 70% 9% at 110% 28%, rgba(116, 230, 242, 0.85) 0%, rgba(168, 240, 246, 0.4) 35%, transparent 70%), radial-gradient(ellipse 75% 8% at 110% 44%, rgba(168, 240, 246, 0.9) 0%, rgba(124, 235, 220, 0.45) 38%, transparent 72%), radial-gradient(ellipse 70% 9% at 110% 60%, rgba(116, 230, 242, 0.8) 0%, rgba(168, 240, 246, 0.35) 35%, transparent 70%), radial-gradient(ellipse 75% 8% at 110% 78%, rgba(168, 240, 246, 0.85) 0%, rgba(124, 235, 220, 0.4) 38%, transparent 72%), radial-gradient(ellipse 65% 10% at 110% 94%, rgba(116, 230, 242, 0.7) 0%, transparent 70%);
-  filter: blur(2px);
+  user-select: none;
 }
 .institutional-hero .main-grid, .institutional-hero .small-grid, .institutional-hero .single-blog-header, .institutional-hero .contact, .institutional-hero .news-grid, .institutional-hero .orbs-vm .common-grid-section-grid, .orbs-vm .institutional-hero .common-grid-section-grid {
   position: relative;
@@ -10068,47 +10071,24 @@ body:has(.institutional) {
 }
 .institutional-pow-art {
   position: relative;
-  height: 320px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.institutional-pow-orb {
-  position: relative;
-  z-index: 2;
-  width: 88px;
-  height: 88px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, #FFFFFF 0%, #D4D8FF 18%, #7A89E9 55%, #3D4FD8 85%, #1A1F4A 100%);
-  box-shadow: 0 0 32px rgba(122, 137, 233, 0.65), inset -8px -10px 20px rgba(0, 0, 0, 0.45);
-}
-.institutional-pow-orb::before {
-  content: "";
-  position: absolute;
-  inset: 4px;
-  border-radius: 50%;
-  background: linear-gradient(35deg, transparent 48%, rgba(255, 255, 255, 0.18) 50%, transparent 52%), linear-gradient(110deg, transparent 48%, rgba(255, 255, 255, 0.12) 50%, transparent 52%);
-  pointer-events: none;
-}
-.institutional-pow-beam {
-  position: absolute;
-  left: 60px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 80%;
-  height: 280px;
-  clip-path: polygon(0% 48%, 100% 0%, 100% 100%, 0% 52%);
-  background: linear-gradient(90deg, rgba(122, 137, 233, 0.85) 0%, rgba(61, 79, 216, 0.55) 35%, rgba(26, 31, 74, 0.2) 75%, transparent 100%);
-  filter: blur(8px);
-  z-index: 1;
+.institutional-pow-art-img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
 }
 @media (max-width: 860px) {
   .institutional-pow-grid {
     grid-template-columns: 1fr;
     gap: 48px;
   }
-  .institutional-pow-art {
-    height: 240px;
+  .institutional-pow-art-img {
+    max-width: 380px;
+    margin: 0 auto;
   }
 }
 .institutional-stats {
@@ -10196,23 +10176,23 @@ body:has(.institutional) {
 }
 .institutional-track-art {
   position: relative;
-  height: 380px;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.institutional-track-art-inner {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse 50% 22% at 70% 28%, rgba(167, 139, 250, 0.55) 0%, transparent 70%), radial-gradient(ellipse 55% 24% at 90% 52%, rgba(192, 132, 252, 0.55) 0%, transparent 70%), radial-gradient(ellipse 45% 20% at 60% 80%, rgba(155, 130, 240, 0.4) 0%, transparent 70%), radial-gradient(circle at center, rgba(167, 139, 250, 0.08) 1.5px, transparent 2px);
-  background-size: auto, auto, auto, 14px 14px;
-  filter: blur(0.3px);
+.institutional-track-art-img {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  display: block;
 }
 @media (max-width: 860px) {
   .institutional-track-grid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .institutional-track-art {
-    height: 240px;
+  .institutional-track-art-img {
+    max-width: 100%;
   }
 }
 .institutional-venues {
@@ -10237,18 +10217,27 @@ body:has(.institutional) {
   flex-wrap: wrap;
 }
 .institutional-venues-logo {
+  height: 28px;
+  width: auto;
+  opacity: 0.95;
+}
+.institutional-venues-logo-text {
   font-family: var(--font-ui);
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #FCFDFF;
   opacity: 0.95;
+  height: auto;
 }
 @media (max-width: 760px) {
   .institutional-venues-row {
     gap: 24px;
   }
   .institutional-venues-logo {
+    height: 22px;
+  }
+  .institutional-venues-logo-text {
     font-size: 14px;
   }
 }
@@ -10303,28 +10292,9 @@ body:has(.institutional) {
 }
 .institutional-products-icon {
   display: inline-block;
-  width: 22px;
-  height: 16px;
-}
-.institutional-products-icon-triangles {
-  background: linear-gradient(135deg, transparent 49%, #74E6F2 50%, transparent 51%), linear-gradient(45deg, transparent 49%, #B49BF5 50%, transparent 51%);
-  background-size: 8px 8px;
-  background-repeat: no-repeat;
-  background-position: 0 0, 12px 0;
-}
-.institutional-products-icon-chevrons {
-  background: linear-gradient(45deg, transparent 49%, #74E6F2 50%, transparent 51%) 0 0/50% 100% no-repeat, linear-gradient(45deg, transparent 49%, #74E6F2 50%, transparent 51%) 100% 0/50% 100% no-repeat;
-}
-.institutional-products-icon-brackets {
-  border-left: 2px solid #74E6F2;
-  border-right: 2px solid #74E6F2;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  width: 18px;
-}
-.institutional-products-icon-hexagon {
-  background: #FFADAE;
-  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  height: 20px;
+  width: auto;
+  flex-shrink: 0;
 }
 .institutional-products-desc {
   font-family: var(--font-body);
@@ -10371,36 +10341,23 @@ body:has(.institutional) {
 }
 .institutional-selfcustody-art {
   position: relative;
-  height: 280px;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.institutional-selfcustody-bar {
-  position: absolute;
-  right: -20%;
-  height: 64px;
-  width: 80%;
-  filter: blur(6px);
-  opacity: 0.85;
-}
-.institutional-selfcustody-bar-1 {
-  top: 18%;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 173, 174, 0.85) 60%, rgba(255, 200, 200, 0.55) 100%);
-}
-.institutional-selfcustody-bar-2 {
-  top: 44%;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 200, 200, 0.55) 50%, rgba(255, 173, 174, 0.85) 100%);
-}
-.institutional-selfcustody-bar-3 {
-  top: 70%;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 173, 174, 0.65) 60%, rgba(255, 200, 200, 0.4) 100%);
+.institutional-selfcustody-art-img {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  display: block;
 }
 @media (max-width: 860px) {
   .institutional-selfcustody-grid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .institutional-selfcustody-art {
-    height: 180px;
+  .institutional-selfcustody-art-img {
+    max-width: 100%;
   }
 }
 .institutional-infra {
@@ -10426,12 +10383,20 @@ body:has(.institutional) {
   margin-bottom: 18px;
 }
 .institutional-infra-logo {
+  height: 32px;
+  width: auto;
+  max-width: 140px;
+  opacity: 0.95;
+  object-fit: contain;
+}
+.institutional-infra-logo-text {
   font-family: var(--font-ui);
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #FCFDFF;
   opacity: 0.95;
+  height: auto;
 }
 .institutional-infra-sub {
   font-family: var(--font-body);
@@ -10445,6 +10410,9 @@ body:has(.institutional) {
     gap: 24px;
   }
   .institutional-infra-logo {
+    height: 24px;
+  }
+  .institutional-infra-logo-text {
     font-size: 13px;
   }
 }
@@ -10587,23 +10555,10 @@ body:has(.institutional) {
   margin: 0;
 }
 .institutional-features-panel-mark {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.institutional-features-panel-orb {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, #FFFFFF 0%, #B9C0E0 25%, #1A1F4A 95%);
-  box-shadow: 0 0 0 1px rgba(10, 10, 18, 0.12);
-}
-.institutional-features-panel-wordmark {
-  font-family: var(--font-display);
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.3em;
-  color: var(--ink);
+  height: 28px;
+  width: auto;
+  max-width: 140px;
+  display: block;
 }
 .institutional-features-ctas {
   display: flex;
