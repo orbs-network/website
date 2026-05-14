@@ -372,20 +372,28 @@ body:has(.institutional) {
     }
 
     &-shape {
+      position: relative;
       width: 132px;
       height: 132px;
       display: flex;
       align-items: center;
       justify-content: center;
-      clip-path: polygon(50% 0%, 95% 22%, 100% 65%, 75% 100%, 25% 100%, 0% 65%, 5% 22%);
-      box-shadow: inset 0 -8px 24px rgba(0, 0, 0, 0.18);
+    }
 
-      &-cyan { background: linear-gradient(155deg, #A8F0F6 0%, #4FD4E2 100%); }
-      &-periwinkle { background: linear-gradient(155deg, #9AA8F0 0%, #5E70E0 100%); }
-      &-coral { background: linear-gradient(155deg, #FFC9CA 0%, #FFADAE 100%); }
+    // Badge SVG (heptagon background) — positioned behind the value
+    // text and decorative, so aria-hidden in the partial.
+    &-badge {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      user-select: none;
     }
 
     &-value {
+      position: relative;
+      z-index: 1;
       font-family: var(--font-display);
       font-size: 22px;
       font-weight: 600;
@@ -444,7 +452,7 @@ body:has(.institutional) {
 
   // ── SECTION 5 — Venues banner ────────────────────────────
   &-venues {
-    padding: 64px 0;
+    padding: 100px 0;
     color: var(--fg);
     background: linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 
@@ -629,7 +637,7 @@ body:has(.institutional) {
 
   // ── SECTION 8 — Infrastructure banner ────────────────────
   &-infra {
-    padding: 64px 0 56px;
+    padding: 100px 0;
     color: var(--fg);
     background: linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 
@@ -691,7 +699,6 @@ body:has(.institutional) {
 
     &-stack {
       text-align: center;
-      max-width: 720px;
       margin: 0 auto;
     }
 
@@ -903,13 +910,14 @@ body:has(.institutional) {
       grid-template-columns: 1fr 1fr;
       gap: 24px;
       max-width: 760px;
-      margin: 0 0 0 auto;
+      margin: 0 auto;
+      padding-top: 32px;
     }
 
     &-card {
       background: #17171B;
       border: 1px solid rgba(255, 255, 255, 0.06);
-      padding: 32px 32px 36px;
+      padding: 56px 32px 36px;
       min-height: 320px;
       display: flex;
       flex-direction: column;
