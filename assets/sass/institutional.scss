@@ -25,6 +25,7 @@ body:has(.institutional) {
   --fg: #FCFDFF;
 
   --grad-headline: linear-gradient(96deg, #9D7EF4 0%, #B49BF5 40%, #C7B0F2 100%);
+  --grad-orbs: linear-gradient(360deg, #3346F2 0%, #DC8AE0 46.21%, #2CEDFC 98.31%);
 
   --radius-pill: 999px;
   --radius-square: 0;
@@ -101,7 +102,7 @@ body:has(.institutional) {
   &-hero .main-grid { position: relative; z-index: 1; }
 
   &-hero-content {
-    max-width: 620px;
+    max-width: 720px;
     padding-top: 24px;
   }
 
@@ -129,8 +130,15 @@ body:has(.institutional) {
     display: block;
   }
 
+  // Hero "infrastructure" — light section bg, want the pink (middle)
+  // of the orbs gradient visible. Same `expand-bg + position` trick
+  // as &-grad-orbs-light below; kept inline here so we don't have to
+  // restructure the existing Hero.js class composition.
   &-hero-grad {
-    background: var(--grad-headline);
+    background-image: var(--grad-orbs);
+    background-size: 100% 400%;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -216,7 +224,7 @@ body:has(.institutional) {
   // ── SHARED SECTION PRIMITIVES ────────────────────────────
   &-sec {
     position: relative;
-    padding: 120px 0;
+    padding: 300px 0;
     overflow: hidden;
     background: var(--page-bg);
   }
@@ -283,6 +291,28 @@ body:has(.institutional) {
     -webkit-text-fill-color: transparent;
   }
 
+  // Orbs brand gradient — bottom-to-top: indigo → pink → cyan.
+  //
+  // Two variants. The gradient is 4× the element height; positioning
+  // moves which slice is visible:
+  //   - light variant (on white bg): position 50% → pink middle visible
+  //   - dark variant  (on black bg): position 100% → indigo bottom visible
+  // The shared rules sit in the comma-grouped block; only position
+  // differs.
+  &-grad-orbs-light,
+  &-grad-orbs-dark {
+    background-image: var(--grad-orbs);
+    background-size: 100% 400%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &-grad-orbs-light { background-position: 0% 50%; }
+  &-grad-orbs-dark  { background-position: 0% 100%; }
+
   // ── SECTION 2 — Proof of work ────────────────────────────
   &-pow {
     &-grid {
@@ -301,14 +331,13 @@ body:has(.institutional) {
 
     &-art-img {
       width: 100%;
-      max-width: 520px;
       height: auto;
       display: block;
     }
 
     @media (max-width: 860px) {
       &-grid { grid-template-columns: 1fr; gap: 48px; }
-      &-art-img { max-width: 380px; margin: 0 auto; }
+      &-art-img { max-width: 480px; margin: 0 auto; }
     }
   }
 
@@ -343,20 +372,28 @@ body:has(.institutional) {
     }
 
     &-shape {
+      position: relative;
       width: 132px;
       height: 132px;
       display: flex;
       align-items: center;
       justify-content: center;
-      clip-path: polygon(50% 0%, 95% 22%, 100% 65%, 75% 100%, 25% 100%, 0% 65%, 5% 22%);
-      box-shadow: inset 0 -8px 24px rgba(0, 0, 0, 0.18);
+    }
 
-      &-cyan { background: linear-gradient(155deg, #A8F0F6 0%, #4FD4E2 100%); }
-      &-periwinkle { background: linear-gradient(155deg, #9AA8F0 0%, #5E70E0 100%); }
-      &-coral { background: linear-gradient(155deg, #FFC9CA 0%, #FFADAE 100%); }
+    // Badge SVG (heptagon background) — positioned behind the value
+    // text and decorative, so aria-hidden in the partial.
+    &-badge {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      user-select: none;
     }
 
     &-value {
+      position: relative;
+      z-index: 1;
       font-family: var(--font-display);
       font-size: 22px;
       font-weight: 600;
@@ -392,7 +429,7 @@ body:has(.institutional) {
       top: 0;
       right: 0;
       bottom: 0;
-      width: 50%;
+      width: 40%;
       height: 100%;
       object-fit: cover;
       object-position: left center;
@@ -404,7 +441,7 @@ body:has(.institutional) {
     & .main-grid { position: relative; z-index: 1; }
 
     &-text {
-      max-width: 520px;
+      max-width: 720px;
     }
 
     @media (max-width: 760px) {
@@ -415,32 +452,36 @@ body:has(.institutional) {
 
   // ── SECTION 5 — Venues banner ────────────────────────────
   &-venues {
-    padding: 64px 0;
+    padding: 120px 0;
     color: var(--fg);
-    background: linear-gradient(95deg, #6FE3F2 0%, #A0C4F7 45%, #B49BF5 80%, #C7B0F2 100%);
+    background: linear-gradient(90deg, #2CEDFC 0%, #A17AE9 80.29%);
 
     &-title {
       font-family: var(--font-display);
-      font-size: 22px;
+      font-size: 48px;
       font-weight: 400;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.02em;
       color: #FCFDFF;
       text-align: center;
-      margin: 0 0 32px;
+      margin: 0 0 48px;
+
+      @media (max-width: 960px) { font-size: 38px; }
+      @media (max-width: 760px) { font-size: 28px; margin-bottom: 32px; }
     }
 
     &-row {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 48px;
-      flex-wrap: wrap;
+      gap: 72px;
+      flex-wrap: nowrap;
     }
 
     &-logo {
       height: 28px;
       width: auto;
       opacity: 0.95;
+      flex-shrink: 0;
       // The venue logos are full-color SVGs designed for the gradient
       // banner. Keep them as-is; no filter override.
     }
@@ -456,6 +497,10 @@ body:has(.institutional) {
       height: auto;
     }
 
+    @media (max-width: 960px) {
+      &-row { gap: 40px; flex-wrap: wrap; }
+    }
+
     @media (max-width: 760px) {
       &-row { gap: 24px; }
       &-logo { height: 22px; }
@@ -467,13 +512,12 @@ body:has(.institutional) {
   &-products {
     &-grid {
       display: grid;
-      grid-template-columns: 1fr 1.6fr;
+      grid-template-columns: 1fr 1fr;
       gap: 80px;
       align-items: start;
     }
 
     &-intro {
-      max-width: 380px;
       padding-top: 8px;
     }
 
@@ -600,26 +644,29 @@ body:has(.institutional) {
 
   // ── SECTION 8 — Infrastructure banner ────────────────────
   &-infra {
-    padding: 64px 0 56px;
+    padding: 120px 0;
     color: var(--fg);
-    background: linear-gradient(95deg, #7A89E9 0%, #9F89E9 40%, #C7AEF3 75%, #E4B5E8 100%);
+    background: linear-gradient(90deg, #3346F2 0%, #DC8AE0 100%);
 
     &-title {
       font-family: var(--font-display);
-      font-size: 22px;
+      font-size: 48px;
       font-weight: 400;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.02em;
       color: #FCFDFF;
       text-align: center;
-      margin: 0 0 28px;
+      margin: 0 0 48px;
+
+      @media (max-width: 960px) { font-size: 38px; }
+      @media (max-width: 760px) { font-size: 28px; margin-bottom: 32px; }
     }
 
     &-row {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 48px;
-      flex-wrap: wrap;
+      gap: 72px;
+      flex-wrap: nowrap;
       margin-bottom: 18px;
     }
 
@@ -629,6 +676,7 @@ body:has(.institutional) {
       max-width: 140px;
       opacity: 0.95;
       object-fit: contain;
+      flex-shrink: 0;
     }
 
     &-logo-text {
@@ -649,6 +697,10 @@ body:has(.institutional) {
       margin: 0;
     }
 
+    @media (max-width: 960px) {
+      &-row { gap: 40px; flex-wrap: wrap; }
+    }
+
     @media (max-width: 760px) {
       &-row { gap: 24px; }
       &-logo { height: 24px; }
@@ -662,27 +714,35 @@ body:has(.institutional) {
 
     &-stack {
       text-align: center;
-      max-width: 720px;
       margin: 0 auto;
     }
 
     &-line {
       font-family: var(--font-display);
-      font-size: 36px;
-      line-height: 1.30;
+      font-size: 70px;
+      line-height: 1.20;
       font-weight: 400;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.02em;
       color: #FCFDFF;
       margin: 0;
+
+      @media (max-width: 960px) { font-size: 56px; }
+      @media (max-width: 760px) { font-size: 38px; }
     }
 
+    // Punch line on a dark section bg — wants the indigo end of the
+    // orbs gradient (same trick as &-grad-orbs-dark).
     &-punch {
-      color: #7A89E9;
+      background-image: var(--grad-orbs);
+      background-size: 100% 400%;
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
     }
 
-    @media (max-width: 760px) {
-      &-line { font-size: 24px; }
-    }
   }
 
   // ── SECTION 10 — Integration paths ───────────────────────
@@ -704,12 +764,13 @@ body:has(.institutional) {
       grid-template-columns: 1fr 1fr;
       gap: 24px;
       max-width: 760px;
-      margin: 0 0 0 auto;
+      margin: 0 auto;
+      padding-top: 32px;
     }
 
     &-card {
       border: 1px solid rgba(10, 10, 18, 0.30);
-      padding: 32px 32px 36px;
+      padding: 56px 32px 36px;
       min-height: 320px;
       display: flex;
       flex-direction: column;
@@ -745,6 +806,15 @@ body:has(.institutional) {
   &-features {
     background: #F4F7F9;
     padding: 100px 0;
+
+    // Local override — features title is slightly smaller than the
+    // default &-h2 (52px) per design. Scales down proportionally
+    // on smaller breakpoints.
+    .institutional-h2 {
+      font-size: 48px;
+      @media (max-width: 960px) { font-size: 38px; }
+      @media (max-width: 760px) { font-size: 28px; }
+    }
 
     &-header {
       margin-bottom: 56px;
@@ -828,6 +898,7 @@ body:has(.institutional) {
       width: auto;
       max-width: 140px;
       display: block;
+      align-self: flex-start;
     }
 
     &-ctas {
@@ -863,13 +934,14 @@ body:has(.institutional) {
       grid-template-columns: 1fr 1fr;
       gap: 24px;
       max-width: 760px;
-      margin: 0 0 0 auto;
+      margin: 0 auto;
+      padding-top: 32px;
     }
 
     &-card {
       background: #17171B;
       border: 1px solid rgba(255, 255, 255, 0.06);
-      padding: 32px 32px 36px;
+      padding: 56px 32px 36px;
       min-height: 320px;
       display: flex;
       flex-direction: column;
@@ -902,21 +974,28 @@ body:has(.institutional) {
   // ── SECTION 13 — Talk to team ────────────────────────────
   &-talk {
     padding: 80px 0;
-    background: linear-gradient(95deg, #DCC8F5 0%, #C7AEF3 45%, #D3B6F0 85%, #E4D0F2 100%);
+    background:
+      url('/assets/img/institutional/mesh.svg') center / cover no-repeat,
+      linear-gradient(90deg, #DC8AE0 0%, #FFFFFF 100%);
 
     &-inner {
       text-align: center;
       max-width: 560px;
       margin: 0 auto;
+      position: relative;
+      z-index: 1;
     }
 
     &-title {
       font-family: var(--font-display);
-      font-size: 36px;
+      font-size: 50px;
       font-weight: 400;
       letter-spacing: -0.02em;
       color: var(--ink);
       margin: 0 0 16px;
+
+      @media (max-width: 960px) { font-size: 40px; }
+      @media (max-width: 760px) { font-size: 30px; }
     }
 
     &-body {
@@ -933,9 +1012,6 @@ body:has(.institutional) {
       flex-wrap: wrap;
     }
 
-    @media (max-width: 760px) {
-      &-title { font-size: 28px; }
-    }
   }
 
   // ── RESPONSIVE ───────────────────────────────────────────
