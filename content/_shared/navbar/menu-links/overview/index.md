@@ -12,5 +12,6 @@ links:
   - execution-services.md
   - orbs-agentic.md
   - ai-skills.md
+  - orbs-institutional.md
   - link-2.md
 ---
