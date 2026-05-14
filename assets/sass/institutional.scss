@@ -102,7 +102,7 @@ body:has(.institutional) {
   &-hero .main-grid { position: relative; z-index: 1; }
 
   &-hero-content {
-    max-width: 620px;
+    max-width: 720px;
     padding-top: 24px;
   }
 
@@ -441,7 +441,7 @@ body:has(.institutional) {
     & .main-grid { position: relative; z-index: 1; }
 
     &-text {
-      max-width: 520px;
+      max-width: 720px;
     }
 
     @media (max-width: 760px) {
@@ -458,12 +458,12 @@ body:has(.institutional) {
 
     &-title {
       font-family: var(--font-display);
-      font-size: 22px;
+      font-size: 48px;
       font-weight: 400;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.02em;
       color: #FCFDFF;
       text-align: center;
-      margin: 0 0 32px;
+      margin: 0 0 48px;
     }
 
     &-row {
@@ -504,7 +504,7 @@ body:has(.institutional) {
   &-products {
     &-grid {
       display: grid;
-      grid-template-columns: 1fr 1.6fr;
+      grid-template-columns: 1fr 1fr;
       gap: 80px;
       align-items: start;
     }
@@ -643,12 +643,12 @@ body:has(.institutional) {
 
     &-title {
       font-family: var(--font-display);
-      font-size: 22px;
+      font-size: 48px;
       font-weight: 400;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.02em;
       color: #FCFDFF;
       text-align: center;
-      margin: 0 0 28px;
+      margin: 0 0 48px;
     }
 
     &-row {
@@ -791,6 +791,10 @@ body:has(.institutional) {
   &-features {
     background: #F4F7F9;
     padding: 100px 0;
+
+    // Local override — features title is slightly smaller than the
+    // default &-h2 (52px) per design.
+    .institutional-h2 { font-size: 48px; }
 
     &-header {
       margin-bottom: 56px;
@@ -950,17 +954,21 @@ body:has(.institutional) {
   // ── SECTION 13 — Talk to team ────────────────────────────
   &-talk {
     padding: 80px 0;
-    background: linear-gradient(90deg, #DC8AE0 0%, #FFFFFF 100%);
+    background:
+      url('/assets/img/institutional/mesh.svg') center / cover no-repeat,
+      linear-gradient(90deg, #DC8AE0 0%, #FFFFFF 100%);
 
     &-inner {
       text-align: center;
       max-width: 560px;
       margin: 0 auto;
+      position: relative;
+      z-index: 1;
     }
 
     &-title {
       font-family: var(--font-display);
-      font-size: 36px;
+      font-size: 50px;
       font-weight: 400;
       letter-spacing: -0.02em;
       color: var(--ink);
