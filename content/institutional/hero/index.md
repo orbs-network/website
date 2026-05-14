@@ -1,7 +1,7 @@
 ---
 layout: partials/institutional/Hero
 eyebrow: "[ORBS INSTITUTIONAL]"
-headline1: Institutional swap
+headline1: Institutional grade swap
 headlineGrad: infrastructure
 headline2: for
 headline3: on-chain execution
