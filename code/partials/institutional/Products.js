@@ -1,23 +1,30 @@
 import React from "react";
 import MainGrid from "../shared/MainGrid";
 
-function ProductIcon({ kind }) {
-  // Compact placeholder icons drawn with CSS shapes — swap for real
-  // brand marks when assets land.
-  return (
-    <span
-      className={"institutional-products-icon institutional-products-icon-" + (kind || "triangles")}
-      aria-hidden="true"
-    />
-  );
-}
+// Map product name (as authored in content/.../products/index.md) to
+// the committed icon SVG path. Each product icon is a small (~20-30px
+// wide) mark designed to sit inline with the wordmark text.
+const PRODUCT_ICON = {
+  "Liquidity Hub": "/assets/img/institutional/product-liquidity-hub.svg",
+  dTWAP: "/assets/img/institutional/product-dtwap.svg",
+  dLIMIT: "/assets/img/institutional/product-dlimit.svg",
+  dSLTP: "/assets/img/institutional/product-dsltp.svg",
+};
 
-function ProductCard({ cat, name, icon, desc, url }) {
+function ProductCard({ cat, name, desc, url }) {
+  const iconSrc = PRODUCT_ICON[name];
   return (
     <a className="institutional-products-card" href={url || "#"}>
       <div className="institutional-products-cat">{cat}</div>
       <div className="institutional-products-name-row">
-        <ProductIcon kind={icon} />
+        {iconSrc && (
+          <img
+            className="institutional-products-icon"
+            src={iconSrc}
+            alt=""
+            aria-hidden="true"
+          />
+        )}
         <span className="institutional-products-name">{name}</span>
       </div>
       <p className="institutional-products-desc">{desc}</p>
@@ -31,10 +38,10 @@ function ProductCard({ cat, name, icon, desc, url }) {
 
 function Products({
   eyebrow, headline1, headline2, headlineGrad, body,
-  p1cat, p1name, p1icon, p1desc, p1url,
-  p2cat, p2name, p2icon, p2desc, p2url,
-  p3cat, p3name, p3icon, p3desc, p3url,
-  p4cat, p4name, p4icon, p4desc, p4url,
+  p1cat, p1name, p1desc, p1url,
+  p2cat, p2name, p2desc, p2url,
+  p3cat, p3name, p3desc, p3url,
+  p4cat, p4name, p4desc, p4url,
 }) {
   return (
     <section className="institutional-sec institutional-sec-dark institutional-products">
@@ -52,10 +59,10 @@ function Products({
             <p className="institutional-body institutional-body-light">{body}</p>
           </div>
           <div className="institutional-products-cards">
-            <ProductCard cat={p1cat} name={p1name} icon={p1icon} desc={p1desc} url={p1url} />
-            <ProductCard cat={p2cat} name={p2name} icon={p2icon} desc={p2desc} url={p2url} />
-            <ProductCard cat={p3cat} name={p3name} icon={p3icon} desc={p3desc} url={p3url} />
-            <ProductCard cat={p4cat} name={p4name} icon={p4icon} desc={p4desc} url={p4url} />
+            <ProductCard cat={p1cat} name={p1name} desc={p1desc} url={p1url} />
+            <ProductCard cat={p2cat} name={p2name} desc={p2desc} url={p2url} />
+            <ProductCard cat={p3cat} name={p3name} desc={p3desc} url={p3url} />
+            <ProductCard cat={p4cat} name={p4name} desc={p4desc} url={p4url} />
           </div>
         </div>
       </MainGrid>
