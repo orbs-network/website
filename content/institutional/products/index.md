@@ -8,7 +8,7 @@ body: "The risk-management order types trading teams expect — now available fo
 
 p1cat: BEST PRICE
 p1name: Liquidity Hub
-p1desc: "Aggregates DEX liquidity and professional market makers through an RFQ layer for best on-chain pricing, critical for larger trades. One integration. Deepest liquidity across every supported chain."
+p1desc: "Aggregates DEX liquidity and professional market makers through an RFQ layer for best on-chain pricing."
 p1url: /liquidity-hub
 
 p2cat: TIME-SLICED EXECUTION

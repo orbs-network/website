@@ -29,7 +29,7 @@ f8: "Audited, immutable, ownerless contracts"
 f8body: "No admin keys. No upgrade paths. No kill switches. Audited by leading firms — the code is the contract."
 
 cta1Label: Talk to the team
-cta1Url: "https://t.me/OrbsNetwork"
+cta1Url: "https://www.orbs.com/contact/"
 cta2Label: View on GitHub
 cta2Url: "https://github.com/orbs-network"
 ---

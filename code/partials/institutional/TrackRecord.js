@@ -22,7 +22,7 @@ function TrackRecord({ eyebrow, lead, body }) {
             {eyebrow || "[TRACK RECORD]"}
           </div>
           <h2 className="institutional-h2">
-            <span className="institutional-grad-cyan">{lead}</span>{" "}
+            <span className="institutional-grad-orbs-light">{lead}</span>{" "}
             <span>{body}</span>
           </h2>
         </div>

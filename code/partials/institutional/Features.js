@@ -70,8 +70,6 @@ function Features({
           <a
             className="institutional-btn institutional-btn-outline institutional-btn-square institutional-btn-sm"
             href={cta1Url}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <span>{cta1Label}</span>
             <span className="institutional-btn-arrow" aria-hidden="true">→</span>

@@ -2,14 +2,15 @@ import React from "react";
 import MainGrid from "../shared/MainGrid";
 
 // Map venue name (as authored in content/.../venues/index.md) to the
-// committed SVG path. Swap or extend here when adding venues.
+// committed logo asset. Most live under /assets/img/home/partners/
+// (shared with the homepage partner grid); section-specific assets
+// go under /assets/img/institutional/.
 const VENUE_LOGO = {
-  LYNEX: "/assets/img/institutional/venue-lynex.svg",
-  base: "/assets/img/institutional/venue-base.svg",
-  SpookySwap: "/assets/img/institutional/venue-spookyswap.svg",
-  THENA: "/assets/img/institutional/venue-thena.svg",
-  SwapX: "/assets/img/institutional/venue-swapx.svg",
-  QUICKSWAP: "/assets/img/institutional/venue-quickswap.svg",
+  PancakeSwap: "/assets/img/home/partners/pancakeswap.png",
+  SushiSwap: "/assets/img/home/partners/sushiswap.png",
+  QuickSwap: "/assets/img/home/partners/quickswap.png",
+  Blackhole: "/assets/img/institutional/venue-blackhole.png",
+  Thena: "/assets/img/home/partners/thena.png",
 };
 
 function Venues({ title, v1, v2, v3, v4, v5, v6 }) {
