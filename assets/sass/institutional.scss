@@ -797,7 +797,12 @@ body:has(.institutional) {
     }
 
     @media (max-width: 760px) {
-      &-grid { grid-template-columns: 1fr; max-width: 100%; }
+      padding-top: 56px;
+      &-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding-top: 0;
+      }
       &-title { font-size: 28px; }
     }
   }
@@ -966,7 +971,12 @@ body:has(.institutional) {
     }
 
     @media (max-width: 760px) {
-      &-grid { grid-template-columns: 1fr; max-width: 100%; }
+      padding-top: 56px;
+      &-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding-top: 0;
+      }
       &-title { font-size: 28px; }
     }
   }

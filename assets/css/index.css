@@ -10549,9 +10549,13 @@ body:has(.institutional) {
   margin: 0;
 }
 @media (max-width: 760px) {
+  .institutional-paths {
+    padding-top: 56px;
+  }
   .institutional-paths-grid {
     grid-template-columns: 1fr;
     max-width: 100%;
+    padding-top: 0;
   }
   .institutional-paths-title {
     font-size: 28px;
@@ -10711,9 +10715,13 @@ body:has(.institutional) {
   margin: 0;
 }
 @media (max-width: 760px) {
+  .institutional-whofor {
+    padding-top: 56px;
+  }
   .institutional-whofor-grid {
     grid-template-columns: 1fr;
     max-width: 100%;
+    padding-top: 0;
   }
   .institutional-whofor-title {
     font-size: 28px;
