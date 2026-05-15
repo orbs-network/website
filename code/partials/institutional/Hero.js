@@ -32,18 +32,11 @@ function Hero({
           </div>
 
           <h1 className="institutional-hero-title">
-            <span className="institutional-hero-line">
-              {headline1 || "Institutional swap"}
-            </span>
-            <span className="institutional-hero-line">
-              <span className="institutional-hero-grad">
-                {headlineGrad || "infrastructure"}
-              </span>
-              <span> {headline2 || "for"}</span>
-            </span>
-            <span className="institutional-hero-line">
-              {headline3 || "on-chain execution"}
-            </span>
+            {headline1 || "Institutional swap"}{" "}
+            <span className="institutional-hero-grad">
+              {headlineGrad || "infrastructure"}
+            </span>{" "}
+            {headline2 || "for"} {headline3 || "on-chain execution"}
           </h1>
 
           <p className="institutional-hero-sub">{sub}</p>
