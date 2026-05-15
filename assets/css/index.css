@@ -10525,7 +10525,7 @@ body:has(.institutional) {
 }
 .institutional-paths-card {
   border: 1px solid rgba(10, 10, 18, 0.3);
-  padding: 56px 32px 36px;
+  padding: 32px;
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -10549,16 +10549,13 @@ body:has(.institutional) {
   margin: 0;
 }
 @media (max-width: 760px) {
-  .institutional-paths {
-    padding-top: 56px;
-  }
   .institutional-paths-grid {
     grid-template-columns: 1fr;
     max-width: 100%;
-    padding-top: 0;
   }
   .institutional-paths-title {
     font-size: 28px;
+    margin-bottom: 32px;
   }
 }
 .institutional-features {
@@ -10693,7 +10690,7 @@ body:has(.institutional) {
 .institutional-whofor-card {
   background: #17171B;
   border: 1px solid rgba(255, 255, 255, 0.06);
-  padding: 56px 32px 36px;
+  padding: 32px;
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -10715,16 +10712,13 @@ body:has(.institutional) {
   margin: 0;
 }
 @media (max-width: 760px) {
-  .institutional-whofor {
-    padding-top: 56px;
-  }
   .institutional-whofor-grid {
     grid-template-columns: 1fr;
     max-width: 100%;
-    padding-top: 0;
   }
   .institutional-whofor-title {
     font-size: 28px;
+    margin-bottom: 32px;
   }
 }
 .institutional-talk {

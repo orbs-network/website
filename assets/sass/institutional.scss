@@ -770,7 +770,7 @@ body:has(.institutional) {
 
     &-card {
       border: 1px solid rgba(10, 10, 18, 0.30);
-      padding: 56px 32px 36px;
+      padding: 32px;
       min-height: 320px;
       display: flex;
       flex-direction: column;
@@ -797,13 +797,8 @@ body:has(.institutional) {
     }
 
     @media (max-width: 760px) {
-      padding-top: 56px;
-      &-grid {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-        padding-top: 0;
-      }
-      &-title { font-size: 28px; }
+      &-grid { grid-template-columns: 1fr; max-width: 100%; }
+      &-title { font-size: 28px; margin-bottom: 32px; }
     }
   }
 
@@ -946,7 +941,7 @@ body:has(.institutional) {
     &-card {
       background: #17171B;
       border: 1px solid rgba(255, 255, 255, 0.06);
-      padding: 56px 32px 36px;
+      padding: 32px;
       min-height: 320px;
       display: flex;
       flex-direction: column;
@@ -971,13 +966,8 @@ body:has(.institutional) {
     }
 
     @media (max-width: 760px) {
-      padding-top: 56px;
-      &-grid {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-        padding-top: 0;
-      }
-      &-title { font-size: 28px; }
+      &-grid { grid-template-columns: 1fr; max-width: 100%; }
+      &-title { font-size: 28px; margin-bottom: 32px; }
     }
   }
 
