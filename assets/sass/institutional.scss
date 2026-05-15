@@ -8,6 +8,15 @@ body:has(.institutional) {
 }
 
 .institutional {
+  // Override the global .page rule (90px desktop / 70px mobile)
+  // that pushes content down for the standard fixed navbar. The
+  // institutional page uses its own custom Nav.js which sits in
+  // the normal flow at the top of the page.
+  &.page { padding-top: 0; }
+  @media (max-width: 760px) {
+    &.page { padding-top: 0; }
+  }
+
   // ── CSS Variables ────────────────────────────────────────
   --page-bg: #F6F9FB;
   --ink: #0A0A12;
@@ -74,13 +83,14 @@ body:has(.institutional) {
     position: relative;
     z-index: 10;
     background: var(--page-bg);
-    padding: 24px 0;
+    padding: 24px 48px;
 
     &-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 24px;
+      width: 100%;
     }
 
     &-logo {
@@ -88,7 +98,7 @@ body:has(.institutional) {
       align-items: center;
 
       img {
-        height: 28px;
+        height: 40px;
         width: auto;
         display: block;
       }
@@ -163,8 +173,8 @@ body:has(.institutional) {
     }
 
     @media (max-width: 760px) {
-      padding: 16px 0;
-      &-logo img { height: 22px; }
+      padding: 16px 22px;
+      &-logo img { height: 30px; }
       &-right { gap: 14px; }
     }
   }
@@ -1114,7 +1124,7 @@ body:has(.institutional) {
   &-footer {
     background: #07070D;
     color: #FCFDFF;
-    padding: 80px 0;
+    padding: 80px 48px;
 
     &-inner {
       display: flex;
@@ -1122,6 +1132,7 @@ body:has(.institutional) {
       align-items: flex-end;
       gap: 48px;
       flex-wrap: wrap;
+      width: 100%;
     }
 
     &-brand {
@@ -1129,7 +1140,7 @@ body:has(.institutional) {
     }
 
     &-logo {
-      height: 36px;
+      height: 56px;
       width: auto;
       display: block;
       margin-bottom: 24px;
@@ -1171,13 +1182,13 @@ body:has(.institutional) {
     }
 
     @media (max-width: 760px) {
-      padding: 56px 0;
+      padding: 56px 22px;
       &-inner {
         flex-direction: column;
         align-items: flex-start;
         gap: 32px;
       }
-      &-logo { height: 30px; }
+      &-logo { height: 42px; }
     }
   }
 

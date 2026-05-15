@@ -9836,6 +9836,14 @@ body:has(.institutional) {
   background: #F6F9FB !important;
 }
 
+.institutional.page {
+  padding-top: 0;
+}
+@media (max-width: 760px) {
+  .institutional.page {
+    padding-top: 0;
+  }
+}
 .institutional {
   --page-bg: #F6F9FB;
   --ink: #0A0A12;
@@ -9895,20 +9903,21 @@ body:has(.institutional) {
   position: relative;
   z-index: 10;
   background: var(--page-bg);
-  padding: 24px 0;
+  padding: 24px 48px;
 }
 .institutional-nav-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+  width: 100%;
 }
 .institutional-nav-logo {
   display: inline-flex;
   align-items: center;
 }
 .institutional-nav-logo img {
-  height: 28px;
+  height: 40px;
   width: auto;
   display: block;
 }
@@ -9975,10 +9984,10 @@ body:has(.institutional) {
 }
 @media (max-width: 760px) {
   .institutional-nav {
-    padding: 16px 0;
+    padding: 16px 22px;
   }
   .institutional-nav-logo img {
-    height: 22px;
+    height: 30px;
   }
   .institutional-nav-right {
     gap: 14px;
@@ -10855,7 +10864,7 @@ body:has(.institutional) {
 .institutional-footer {
   background: #07070D;
   color: #FCFDFF;
-  padding: 80px 0;
+  padding: 80px 48px;
 }
 .institutional-footer-inner {
   display: flex;
@@ -10863,12 +10872,13 @@ body:has(.institutional) {
   align-items: flex-end;
   gap: 48px;
   flex-wrap: wrap;
+  width: 100%;
 }
 .institutional-footer-brand {
   max-width: 480px;
 }
 .institutional-footer-logo {
-  height: 36px;
+  height: 56px;
   width: auto;
   display: block;
   margin-bottom: 24px;
@@ -10907,7 +10917,7 @@ body:has(.institutional) {
 }
 @media (max-width: 760px) {
   .institutional-footer {
-    padding: 56px 0;
+    padding: 56px 22px;
   }
   .institutional-footer-inner {
     flex-direction: column;
@@ -10915,7 +10925,7 @@ body:has(.institutional) {
     gap: 32px;
   }
   .institutional-footer-logo {
-    height: 30px;
+    height: 42px;
   }
 }
 @media (max-width: 960px) {

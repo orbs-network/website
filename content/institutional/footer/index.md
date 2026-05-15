@@ -1,6 +1,6 @@
 ---
 layout: partials/institutional/Footer
-logo: /assets/img/institutional/orbs-logo.svg
+logo: /assets/img/institutional/orbs-logo-on-black.svg
 logoAlt: Orbs
 body1: "CeFi-level execution, on-chain. A Layer-3"
 body2: "for aggregated liquidity, verifiable execution,"
