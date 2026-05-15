@@ -1,6 +1,8 @@
 ---
 layout: partials/institutional/index
 
+nav:
+  - nav/index.md
 hero:
   - hero/index.md
 proofOfWork:
@@ -27,4 +29,6 @@ whoFor:
   - who-for/index.md
 talkToTeam:
   - talk-to-team/index.md
+footer:
+  - footer/index.md
 ---
