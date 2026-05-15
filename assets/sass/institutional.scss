@@ -126,10 +126,6 @@ body:has(.institutional) {
     color: var(--ink);
   }
 
-  &-hero-line {
-    display: block;
-  }
-
   // Hero "infrastructure" — light section bg, want the pink (middle)
   // of the orbs gradient visible. Same `expand-bg + position` trick
   // as &-grad-orbs-light below; kept inline here so we don't have to

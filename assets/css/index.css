@@ -9937,9 +9937,6 @@ body:has(.institutional) {
   margin: 0 0 32px;
   color: var(--ink);
 }
-.institutional-hero-line {
-  display: block;
-}
 .institutional-hero-grad {
   background-image: var(--grad-orbs);
   background-size: 100% 400%;
