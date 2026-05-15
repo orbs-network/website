@@ -9836,6 +9836,14 @@ body:has(.institutional) {
   background: #F6F9FB !important;
 }
 
+.institutional.page {
+  padding-top: 0;
+}
+@media (max-width: 760px) {
+  .institutional.page {
+    padding-top: 0;
+  }
+}
 .institutional {
   --page-bg: #F6F9FB;
   --ink: #0A0A12;
@@ -9889,6 +9897,100 @@ body:has(.institutional) {
 @media (max-width: 760px) {
   .institutional .main-grid, .institutional .small-grid, .institutional .single-blog-header, .institutional .contact, .institutional .news-grid, .institutional .orbs-vm .common-grid-section-grid, .orbs-vm .institutional .common-grid-section-grid {
     padding: 0 22px;
+  }
+}
+.institutional-nav {
+  position: relative;
+  z-index: 10;
+  background: var(--page-bg);
+  padding: 24px 48px;
+}
+.institutional-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+.institutional-nav-logo {
+  display: inline-flex;
+  align-items: center;
+}
+.institutional-nav-logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.institutional-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.institutional-nav-lang {
+  position: relative;
+}
+.institutional-nav-lang-current {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 8px 4px;
+}
+.institutional-nav-lang-current::-webkit-details-marker {
+  display: none;
+}
+.institutional-nav-lang-current::marker {
+  content: "";
+}
+.institutional-nav-lang-caret {
+  font-size: 10px;
+  transition: transform 0.15s ease;
+}
+.institutional-nav-lang[open] .institutional-nav-lang-caret {
+  transform: rotate(180deg);
+}
+.institutional-nav-lang-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  list-style: none;
+  padding: 6px 0;
+  margin: 6px 0 0;
+  background: #FFFFFF;
+  border: 1px solid rgba(10, 10, 18, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  min-width: 80px;
+  z-index: 11;
+}
+.institutional-nav-lang-options li a {
+  display: block;
+  padding: 8px 16px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.institutional-nav-lang-options li a:hover {
+  background: rgba(10, 10, 18, 0.04);
+}
+@media (max-width: 760px) {
+  .institutional-nav {
+    padding: 16px 22px;
+  }
+  .institutional-nav-logo img {
+    height: 30px;
+  }
+  .institutional-nav-right {
+    gap: 14px;
   }
 }
 .institutional-hero {
@@ -10758,6 +10860,73 @@ body:has(.institutional) {
   gap: 12px;
   justify-content: center;
   flex-wrap: wrap;
+}
+.institutional-footer {
+  background: #07070D;
+  color: #FCFDFF;
+  padding: 80px 48px;
+}
+.institutional-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 48px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.institutional-footer-brand {
+  max-width: 480px;
+}
+.institutional-footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin-bottom: 24px;
+}
+.institutional-footer-copy {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(252, 253, 255, 0.78);
+  margin: 0;
+}
+.institutional-footer-socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.institutional-footer-socials li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+.institutional-footer-socials li a:hover {
+  opacity: 1;
+}
+.institutional-footer-socials li a img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+@media (max-width: 760px) {
+  .institutional-footer {
+    padding: 56px 22px;
+  }
+  .institutional-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .institutional-footer-logo {
+    height: 42px;
+  }
 }
 @media (max-width: 960px) {
   .institutional-hero-title {
