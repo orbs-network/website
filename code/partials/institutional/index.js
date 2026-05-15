@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Main({
+  nav,
   hero,
   proofOfWork,
   stats,
@@ -14,9 +15,11 @@ function Main({
   features,
   whoFor,
   talkToTeam,
+  footer,
 }) {
   return (
     <div className="institutional page">
+      {nav}
       {hero}
       {proofOfWork}
       {stats}
@@ -30,6 +33,7 @@ function Main({
       {features}
       {whoFor}
       {talkToTeam}
+      {footer}
     </div>
   );
 }
