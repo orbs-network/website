@@ -486,6 +486,13 @@ body:has(.institutional) {
       justify-content: center;
     }
 
+    // Scale animation is driven by JS (Motion One); GPU hints
+    // prevent compositor thrash during the overshoot transform.
+    &-cell {
+      will-change: transform, opacity;
+      transform-origin: center center;
+    }
+
     // Badge SVG (heptagon background) — positioned behind the value
     // text and decorative, so aria-hidden in the partial.
     &-badge {
