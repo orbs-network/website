@@ -43,7 +43,7 @@ And here is the basic flow you'll need to do:
 
 **1) Bridge Orbs tokens onto Polygon**
 
-The first step is to bridge your Orbs tokens from Ethereum to Polygon, if you haven't already done so. Read this [blog post](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) to learn how it's done using the official Polygon [bridge](https://wallet.matic.network/bridge/).
+The first step is to bridge your Orbs tokens from Ethereum to Polygon, if you haven't already done so. Read this [blog post](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) to learn how it's done using the official Polygon [bridge](https://portal.polygon.technology/bridge).
 
 **2) Add liquidity on QuickSwap**
 

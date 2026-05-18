@@ -26,7 +26,7 @@ To achieve this, theOrbs token has been integrated to the official Ethereum – 
 
 Consequently, ORBS token holders can now easily migrate their ERC20 tokens to the Polygon network using the following link:
 
-[https://wallet.matic.network/bridge/](https://wallet.matic.network/bridge/)
+[https://portal.polygon.technology/bridge](https://portal.polygon.technology/bridge)
 
 Simply connect your wallet to the Polygon bridge, search for the Orbs token in the search bar and approve the transfer, as shown below:
 

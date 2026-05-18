@@ -10,7 +10,7 @@ type:
 short_description:
 ---
 
-In a [recent](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) blog post we announced that the ORBS token is now available on Polygon (previously known as Matic Network), using the official Polygon cross-chain [bridge](https://wallet.matic.network/bridge/) between Ethereum and Polygon.
+In a [recent](https://www.orbs.com/how-to-bridge-orbs-tokens-onto-the-polygon-network/) blog post we announced that the ORBS token is now available on Polygon (previously known as Matic Network), using the official Polygon cross-chain [bridge](https://portal.polygon.technology/bridge) between Ethereum and Polygon.
 
 Even though not much time has passed, looking at the ORBS [token contract](https://polygonscan.com/token/0x614389eaae0a6821dc49062d56bda3d9d45fa2ff) on Polygon we can already see that almost 1M ORBS tokens have crossed from Ethereum to Polygon!
 
