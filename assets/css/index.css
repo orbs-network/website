@@ -10247,6 +10247,10 @@ body:has(.institutional) {
   align-items: center;
   justify-content: center;
 }
+.institutional-stats-cell {
+  will-change: transform, opacity;
+  transform-origin: center center;
+}
 .institutional-stats-badge {
   position: absolute;
   inset: 0;
