@@ -38,7 +38,7 @@ In order to participate in the Orbs Extinction Pool on DinoSwap, you will need t
 
 For most, this means migrating your Orbs tokens from the Ethereum network into Polygon. Luckily, this can be done easily using the official Ethereum-Polygon cross-chain bridge developed by the Polygon project, which can be found in the following link:
 
-[https://wallet.matic.network/bridge/](https://wallet.matic.network/bridge/)
+[https://portal.polygon.technology/bridge](https://portal.polygon.technology/bridge)
 
 You can find the bridged ORBS token contract on Polygon here:
 
