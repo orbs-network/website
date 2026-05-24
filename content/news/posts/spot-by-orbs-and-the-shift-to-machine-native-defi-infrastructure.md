@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/spot-by-orbs-and-the-shift-to-machine-native-defi-infrastructure.jpg
+url: https://mpost.io/spot-by-orbs-and-the-shift-to-machine-native-defi-infrastructure/
+date: 5, May 2026
+logo: /assets/img/news/logos/mpost-logo.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+SPOT By Orbs And The Shift To Machine-Native DeFi Infrastructure
