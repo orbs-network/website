@@ -3,6 +3,7 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - 69e0a89bd2319f48d9155676.md
   - 318518003167122.md
   - orbs-launches-dao-to-hand-protocol-control-and-revenue-to-token-holders.md
   - 313096529942081.md
