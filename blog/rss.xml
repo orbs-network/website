@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 May 2026 14:39:08 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 15:26:53 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Orbs V5 Update: Upgrading the Execution Layer for On-Chain Trading]]></title>
+            <description><![CDATA[Committee Sync MVP is live on Arbitrum and Ethereum — V5 upgrades the execution layer underneath Orbs trading protocols with broader Guardian verification and less per-chain overhead.]]></description>
+            <link>https://www.orbs.com/Orbs-V5-Update</link>
+            <guid isPermaLink="true">https://www.orbs.com/Orbs-V5-Update</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Orbs-V5-Update/image1.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Orbs DAO: The Next Step]]></title>
             <link>https://www.orbs.com/orbs-dao-the-next-step</link>
