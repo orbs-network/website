@@ -217,6 +217,53 @@ $blog-text-size: 1.313rem;
         margin-bottom: 13.76px;
       }
     }
+    .blog-table-wrap {
+      overflow-x: auto;
+      border: 1px solid #e8eaf0;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      // inherits max-width: 800px and centering from the universal rule below
+    }
+    .blog-table {
+      width: 100%;
+      min-width: 560px; // force horizontal scroll on narrow viewports
+      max-width: none; // override the universal * rule below
+      margin: 0; // override the universal * rule below
+      border-collapse: collapse;
+      font-family: $blog-font;
+
+      th,
+      td {
+        width: auto; // override universal
+        max-width: none; // override universal
+        margin: 0; // override universal
+        padding: 14px 18px;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.55;
+        border-bottom: 1px solid #f0f0f0;
+        vertical-align: top;
+      }
+
+      th {
+        background: $deep-blue;
+        font-family: $blog-bold-font;
+        font-weight: 600;
+        font-size: 0.95rem;
+        border-bottom: none;
+      }
+
+      // universal `* { color: rgba(41,41,41,1) }` would tint nested bold/strong
+      // inside header cells; force white throughout the header row.
+      th,
+      th * {
+        color: white;
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+    }
     .image,
     iframe {
       width: 100%;
