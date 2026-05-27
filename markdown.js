@@ -93,6 +93,15 @@ module.exports = exports = function renderer({
     return out;
   };
 
+  // Wrap tables in a scrollable container for mobile.
+  // The inner <table>/<thead>/<tbody> structure is unchanged; the wrapper
+  // adds .blog-table-wrap so SCSS can apply overflow-x and the table itself
+  // gets .blog-table for scoped styling.
+  Marked.table = (header, body) => {
+    const tbody = body ? `<tbody>${body}</tbody>` : "";
+    return `<div class='blog-table-wrap'><table class='blog-table'>\n<thead>\n${header}</thead>\n${tbody}</table></div>\n`;
+  };
+
   // making all html tags with paths relative
   Marked.html = (html) => {
     // for (const match of html.matchAll(/=\"(\/[^\"]*)\"/)) {
