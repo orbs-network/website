@@ -50,6 +50,14 @@ if [[ -z "$SLUG" || -z "$DOC_ID" ]]; then
   usage
 fi
 
+# Restrict slug to safe characters — it gets interpolated into paths
+# (including rm -rf targets), so reject anything that could resolve
+# outside the intended scope.
+if [[ ! "$SLUG" =~ ^[A-Za-z0-9_-]+$ ]]; then
+  echo "error: slug must match [A-Za-z0-9_-]+, got: $SLUG" >&2
+  exit 2
+fi
+
 if ! command -v gog >/dev/null 2>&1; then
   echo "error: gog CLI not found on PATH — see https://gogcli.sh" >&2
   exit 1
