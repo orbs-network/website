@@ -8,10 +8,8 @@ author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "Committee Sync MVP is live on Arbitrum and Ethereum — V5 upgrades the execution layer underneath Orbs trading protocols with broader Guardian verification and less per-chain overhead."
-publish_at: 2026-06-02 10:00
+publish_at: 2026-06-02 09:00
 ---
-
-![](/assets/img/blog/Orbs-V5-Update/image1.jpg)
 
 ## TL;DR
 
