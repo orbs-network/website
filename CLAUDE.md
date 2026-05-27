@@ -16,16 +16,21 @@ Circle CI on commits to `main` → builds → deploys to GitHub Pages (`gh-pages
 
 ## Primary Workflow: Adding Blog Posts
 
-This repo is primarily used to add new blog posts. The user provides a Google Doc (either as a link or as downloaded files — a `.md` markdown export and a `.zip` HTML export containing images).
+This repo is primarily used to add new blog posts. The user provides a Google Doc as a link. Pull the doc + embedded images using the `scripts/blog-pull.sh` helper, which uses the [`gog`](https://gogcli.sh) CLI (already installed and authed on jeeves with `sukh@orbs.com`).
 
 ### Steps to Add a Blog Post
 
 1. **Create a branch** from `main` named `blog/<slug>` (e.g., `blog/Kodiak-Integrates-dSLTP`).
-2. **Create the slug** from the blog title (e.g., "Kodiak Integrates dSLTP" → `Kodiak-Integrates-dSLTP`)
-3. **Create directories:**
-   - `content/blog/<slug>/`
-   - `assets/img/blog/<slug>/`
-4. **Copy images** from the Google Doc export into `assets/img/blog/<slug>/`, naming them `image1.png`, `image2.png`, etc.
+2. **Create the slug** from the blog title (e.g., "Kodiak Integrates dSLTP" → `Kodiak-Integrates-dSLTP`).
+3. **Pull the doc + images:**
+   ```bash
+   scripts/blog-pull.sh <slug> <docId>
+   ```
+   - Extracts the doc ID from the URL: `docs.google.com/document/d/<docId>/edit`.
+   - Stages the markdown body at `/tmp/<slug>-pull/post.md`.
+   - Stages embedded images directly into `assets/img/blog/<slug>/` as `image1.<ext>`, `image2.<ext>`, … (extension preserved from source upload — usually `.jpg` or `.png`).
+   - Re-run with `--force` to overwrite if you need to re-pull.
+4. **Create `content/blog/<slug>/`** and the three files below.
 5. **Create 3 files** in `content/blog/<slug>/`:
 
 #### `index.yml`
@@ -43,7 +48,7 @@ subscribe:
 meta_description:
 meta_keywords:
 title: "Full Blog Title Here"
-image: /assets/img/blog/<slug>/image1.png
+image: /assets/img/blog/<slug>/image1.<ext>
 gdpr:
   - /_shared/gdpr/index.md
 ```
@@ -65,7 +70,7 @@ This file is identical for every blog post. No body content after frontmatter.
 ```markdown
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/<slug>/image1.png
+image: /assets/img/blog/<slug>/image1.<ext>
 blogUrl: <slug>
 date: YYYY-MM-DD
 title: "Full Blog Title Here"
@@ -77,15 +82,25 @@ publish_at: YYYY-MM-DD HH:MM
 ---
 
 Full markdown body here. Images referenced as:
-![alt](/assets/img/blog/<slug>/image1.png)
+![alt](/assets/img/blog/<slug>/image1.<ext>)
 ```
 
 6. **Register the post** in `content/blog/blogs.md` — add `<slug>/blog.md` as the FIRST entry in the `list:` array (newest posts go on top).
 7. **Commit, push, and open a PR** targeting `main` for review before merging.
 
+### Converting the Pulled Markdown to `blog.md`
+
+The markdown coming out of `gog docs export` is close to publishable but needs a few mechanical edits — these are deterministic enough that the agent should do them automatically:
+
+- **Demote heading levels.** Google Docs exports document h1 as `**bold**` and section h2 as `###`. In `blog.md`, sections should be `##` and subsections `###`. Demote `###` → `##` and `####` → `###` throughout.
+- **Inline the hero image.** The first image is exported as a reference-style `![][image1]` with the base64 data appended at the file end. Replace with `![](/assets/img/blog/<slug>/image1.<ext>)` and drop the base64 ref-definition.
+- **Convert section separators.** Google Docs page/section breaks come through as `---` (horizontal rule). Replace with `<div class='line-separator'> </div>`.
+- **Strip the byline line.** The author line (e.g. `**By Ran Hammer · May 2026**`) is redundant — the template renders it from frontmatter. Remove it.
+- **Italic TL;DR opening.** Google Docs often italicises the TL;DR — keep it as-is, it renders fine.
+
 ### Formatting Rules for blog.md Content
 
-- Image paths must be absolute: `/assets/img/blog/<slug>/imageN.png`
+- Image paths must be absolute: `/assets/img/blog/<slug>/imageN.<ext>`
 - Use `##` and `###` for headings (not `#`)
 - Section dividers use: `<div class='line-separator'> </div>`
 - Links use standard markdown: `[text](url)`
