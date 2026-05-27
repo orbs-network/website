@@ -48,13 +48,35 @@ The key principle: **we sync using signatures, not by centralized locked funds.*
 
 ## How V5 Compares to Common Alternatives
 
-|  | Centralized Keepers | Bridges | Orbs V5 Execution Layer |
-| :---- | :---- | :---- | :---- |
-| **What flows across chains** | Trigger calls only | Liquid funds | Authoritative signatures only |
-| **Trust model** | Single operator | Limited multisig / committee | Decentralized PoS Guardians |
-| **Triggering** | Centralized | Centralized or limited committee | Client-side, permissionless, deterministic |
-| **Primary risk** | Operator failure / censorship | Custody / exploit drains funds | Lower custody risk — no funds held by Orbs |
-| **Infrastructure** | Proprietary | Proprietary | Open node software, run by Guardians |
+**What flows across chains**
+
+- Centralized Keepers: Trigger calls only
+- Bridges: Liquid funds
+- Orbs V5 Execution Layer: Authoritative signatures only
+
+**Trust model**
+
+- Centralized Keepers: Single operator
+- Bridges: Limited multisig / committee
+- Orbs V5 Execution Layer: Decentralized PoS Guardians
+
+**Triggering**
+
+- Centralized Keepers: Centralized
+- Bridges: Centralized or limited committee
+- Orbs V5 Execution Layer: Client-side, permissionless, deterministic
+
+**Primary risk**
+
+- Centralized Keepers: Operator failure / censorship
+- Bridges: Custody / exploit drains funds
+- Orbs V5 Execution Layer: Lower custody risk — no funds held by Orbs
+
+**Infrastructure**
+
+- Centralized Keepers: Proprietary
+- Bridges: Proprietary
+- Orbs V5 Execution Layer: Open node software, run by Guardians
 
 Same Orbs we've been for nine years — operating a decentralized PoS network signing real production traffic — with a meaningfully better mechanism for getting that work proven on the chains where the trades actually settle.
 
