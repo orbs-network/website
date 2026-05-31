@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/7-crypto-projects-building-the-infrastructure-for-ai-agents.webp
+url: https://blockchainreporter.net/7-crypto-projects-building-the-infrastructure-for-ai-agents/
+date: 26, May 2026
+logo: /assets/img/news/logos/BlockchainReporter.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+7 Crypto Projects Building the Infrastructure for AI Agents
