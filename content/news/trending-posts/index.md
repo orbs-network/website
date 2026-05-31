@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/spot-by-orbs-and-the-shift-to-machine-native-defi-infrastructure.md
-  - ../posts/orbs-launches-spot-the-first-defi-trading-interface-built-natively-for-ai-agents.md
+  - ../posts/how-orbs-enables-ai-agents-to-execute-advanced-defi-trades.md
+  - ../posts/5-features-every-ai-trading-agent-will-expect-from-defi.md
 ---
 
