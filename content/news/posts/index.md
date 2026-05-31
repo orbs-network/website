@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - why-ai-agents-are-exposing-defis-biggest-weaknesses.md
+  - 7-crypto-projects-building-the-infrastructure-for-ai-agents.md
+  - spot-by-orbs-and-the-shift-to-machine-native-defi-infrastructure.md
+  - orbs-launches-spot-the-first-defi-trading-interface-built-natively-for-ai-agents.md
   - 69e0a89bd2319f48d9155676.md
   - 318518003167122.md
   - orbs-launches-dao-to-hand-protocol-control-and-revenue-to-token-holders.md
