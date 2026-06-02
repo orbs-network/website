@@ -3766,6 +3766,9 @@ body {
   .single-blog-body .title-h4 {
     font-size: 1.1rem;
   }
+  .single-blog-body .blog-table-wrap {
+    max-width: calc(100vw - 40px);
+  }
 }
 .twitter-tweet iframe {
   transform: none !important;
