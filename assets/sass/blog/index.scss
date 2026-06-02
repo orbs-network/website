@@ -374,6 +374,16 @@ $blog-text-size: 1.313rem;
       .title-h4 {
         font-size: 1.1rem;
       }
+      // .single-blog uses align-items: center, so .single-blog-body
+      // shrink-to-fits to its widest child. Without a viewport-bound cap, the
+      // table's min-width (560px) inflates the body past the viewport and the
+      // whole page scrolls horizontally — header, hero and table all clip left.
+      // overflow-x:auto can't contain it because the wrapper has no definite
+      // width to clip against. Cap the wrapper to the viewport so the table
+      // scrolls *inside* it instead of widening the document.
+      .blog-table-wrap {
+        max-width: calc(100vw - 40px); // 40px = grid L/R padding (20px each)
+      }
     }
   }
 }
