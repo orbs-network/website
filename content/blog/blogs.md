@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - Orbs-Institutional/blog.md
   - Orbs-V5-Update/blog.md
   - orbs-dao-the-next-step/blog.md
   - Introducing-Orbs-Agentic/blog.md
