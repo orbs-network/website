@@ -86,7 +86,19 @@ Full markdown body here. Images referenced as:
 ```
 
 6. **Register the post** in `content/blog/blogs.md` — add `<slug>/blog.md` as the FIRST entry in the `list:` array (newest posts go on top).
-7. **Commit, push, and open a PR** targeting `main` for review before merging.
+7. **Generate a preview** and share it for review (see *Previewing a Post* below).
+8. **Commit, push, and open a PR** targeting `main` for review before merging.
+
+### Previewing a Post (without a full build)
+
+The site can't be built locally (480+ pages, 10+ min — see *Do NOT Run Locally*), but a single post can be previewed without a build. `scripts/blog-preview.js` renders one post's `blog.md` into a standalone HTML file using the blog-inner template's exact DOM/classes (`code/partials/blog-inner/*.js` + `markdown.js`) and the real compiled `assets/css/index.css`, then screenshots it at desktop (1440) and mobile (390) widths with the cached Playwright chromium under `~/.cache/ms-playwright`. No `node_modules` or network needed.
+
+```bash
+node scripts/blog-preview.js <slug>
+# → /tmp/<slug>-preview/{preview.html,desktop.png,mobile.png}
+```
+
+Send the two PNGs to the user (e.g. via Telegram) as a pre-merge preview. Caveats: the post-body, headings, images, separators, and footer render faithfully; the **header layout and share icons are approximated** (they come from React components not rendered here), so don't read exact header spacing from the screenshot. The screenshots use tall fixed viewports, so expect trailing whitespace at the bottom; if a post is unusually long and gets cut off, bump the heights in the script.
 
 ### Converting the Pulled Markdown to `blog.md`
 
