@@ -2,13 +2,13 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/Orbs-Institutional/image1.png
 blogUrl: Orbs-Institutional
-date: 2026-06-09
+date: 2026-06-11
 title: "Orbs Institutional: On-Chain Execution Infrastructure for Professional Trading"
 author:
   - /blog/common/authors/RanHammer.md
 type:
 short_description: "The same battle-tested execution stack behind 30+ DEX integrations and $2.5B+ in volume, now purpose-built for trading desks, OTC desks, treasuries, custodians, and institutional platforms."
-publish_at: 2026-06-09 09:00
+publish_at: 2026-06-11 10:00
 ---
 
 Over the past three years, Orbs has become the execution layer behind some of the most active decentralized trading venues in the industry. Liquidity Hub, dTWAP, dLIMIT, and dSLTP are live across 30+ integrations on 10+ chains, with $2.5 billion in spot volume processed since 2023. The protocols are non-custodial, gasless, MEV-protected, and run on audited smart contracts with no admin keys.
