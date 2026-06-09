@@ -122,16 +122,16 @@ The markdown coming out of `gog docs export` is close to publishable but needs a
 - `publish_at` format: `YYYY-MM-DD HH:MM` (e.g., `2026-03-17 11:00`)
 - If the Google Doc has a subtitle/tagline, use it as the `short_description` and remove it from the body content
 - Remove any author sign-off line at the end of the post (e.g., "Written by X") — the author is already in the template frontmatter
-- **Every blog post MUST end with the standard "About Orbs" footer** (even if the Google Doc doesn't include it). Add it after the last section, preceded by a `<div class='line-separator'> </div>`. The exact text:
+- **Every blog post MUST end with the standard "About Orbs" footer** (even if the source doc doesn't include it). Add it after the last section, preceded by a `<div class='line-separator'> </div>`. **If the source doc includes its own About Orbs footer, match that wording** — it's the canonical copy for that post. The text below is the default when the doc omits it:
 
 ```
 **About Orbs**
 
-Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanced on-chain trading. Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs-powered protocols, including dLIMIT, dTWAP, Liquidity Hub, and Perpetual Hub, push the boundaries of DeFi by introducing CeFi-level execution to on-chain trading.
+Orbs is a decentralized Layer-3 (L3) blockchain designed specifically for advanced on-chain trading. Utilizing a Proof-of-Stake consensus, Orbs acts as a supplementary execution layer, facilitating complex logic and scripts beyond the native functionalities of smart contracts. Orbs-powered protocols, including dLIMIT, dTWAP, dSLTP, Liquidity Hub, and Perpetual Hub, push the boundaries of DeFi by introducing CeFi-level execution to on-chain trading.
 
-With a global team of over forty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
+With a global team of over thirty dedicated contributors based in Tel Aviv, London, New York, Tokyo, Seoul, Lisbon, and Limassol, Orbs continues to innovate at the forefront of blockchain technology.
 
-For more information, visit www.orbs.com or join our community:
+For more information, visit www.orbs.com or join the community:
 
 Telegram: https://t.me/OrbsNetwork
 
