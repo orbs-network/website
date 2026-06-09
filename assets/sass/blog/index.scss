@@ -336,8 +336,13 @@ $blog-text-size: 1.313rem;
           margin-left: 20px;
         }
       }
-      &-title {
-        font-size: 1.4rem;
+      // The blog post h1 also carries the global `.header` class, so the shared
+      // `.header h1` rule (specificity 0,1,1) was overriding `.single-blog-header-title`
+      // (0,1,0) and rendering at 40px on mobile. Scope + element bump (0,2,1) wins it
+      // back, only for blog post headers.
+      h1.single-blog-header-title {
+        font-size: 28px;
+        line-height: 1.2;
       }
       &-author {
         .image {

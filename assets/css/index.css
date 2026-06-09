@@ -3732,8 +3732,9 @@ body {
   .single-blog-header .blog-share a {
     margin-left: 20px;
   }
-  .single-blog-header-title {
-    font-size: 1.4rem;
+  .single-blog-header h1.single-blog-header-title {
+    font-size: 28px;
+    line-height: 1.2;
   }
   .single-blog-header-author .image {
     width: 40px;
