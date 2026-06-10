@@ -1,6 +1,6 @@
 ---
 layout: partials/contact/socials/LinkText
 text: Korean -
-url: https://orbskorea.medium.com/
-linkText: "orbskorea.medium.com"
+url: https://blog.naver.com/orbskorea
+linkText: "blog.naver.com/orbskorea"
 ---
