@@ -3,6 +3,12 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading-1036241760.md
+  - 332914614976002.md
+  - orbs-advances-v5-upgrade-for-agentic-ai-crypto-trading-infrastructure-1036216884.md
+  - orbs-advances-v5-upgrade-for-agentic-ai-crypto-trading-infrastructure.md
+  - how-orbs-enables-ai-agents-to-execute-advanced-defi-trades.md
+  - 5-features-every-ai-trading-agent-will-expect-from-defi.md
   - why-ai-agents-are-exposing-defis-biggest-weaknesses.md
   - 7-crypto-projects-building-the-infrastructure-for-ai-agents.md
   - spot-by-orbs-and-the-shift-to-machine-native-defi-infrastructure.md
