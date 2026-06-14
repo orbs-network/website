@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-advances-v5-upgrade-for-agentic-ai-crypto-trading-infrastructure-1036216884.jpg
+url: https://markets.businessinsider.com/news/currencies/orbs-advances-v5-upgrade-for-agentic-ai-crypto-trading-infrastructure-1036216884
+date: 2, June 2026
+logo: /assets/img/news/logos/insider.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Advances V5 Upgrade for Agentic AI Crypto Trading Infrastructure
