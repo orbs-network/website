@@ -2,7 +2,7 @@
 layout: partials/news/trending-posts
 rotatedTitle: TRENDING
 posts:
-  - ../posts/how-orbs-enables-ai-agents-to-execute-advanced-defi-trades.md
-  - ../posts/5-features-every-ai-trading-agent-will-expect-from-defi.md
+  - ../posts/orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading.md
+  - ../posts/6a1e9f1621d74635a7e87f08.md
 ---
 
