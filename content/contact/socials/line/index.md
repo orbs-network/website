@@ -1,6 +1,6 @@
 ---
 layout: partials/contact/socials/section
-title: Line & Discord
+title: Communication
 id: contact-line
 links:
   - link-3.md
