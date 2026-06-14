@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading-1036241760.jpg
+url: https://markets.businessinsider.com/news/currencies/orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading-1036241760
+date: 11, June 2026
+logo: /assets/img/news/logos/insider.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Launches On-Chain Execution Infrastructure for Institutional Crypto Trading
