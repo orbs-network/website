@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Jun 2026 12:25:51 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 12:52:59 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[SushiSwap Integrates dSLTP: Bringing Decentralized Stop-Loss &amp; Take-Profit Orders to Ethereum]]></title>
+            <description><![CDATA[SushiSwap, one of DeFi&#x27;s most established decentralized exchanges, has integrated dSLTP — the decentralized stop-loss and take-profit order system powered by Orbs Network Layer-3 technology.]]></description>
+            <link>https://www.orbs.com/SushiSwap-Integrates-dSLTP</link>
+            <guid isPermaLink="true">https://www.orbs.com/SushiSwap-Integrates-dSLTP</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/SushiSwap-Integrates-dSLTP/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Orbs Institutional: On-Chain Execution Infrastructure for Professional Trading]]></title>
             <description><![CDATA[The same battle-tested execution stack behind 30+ DEX integrations and $2.5B+ in volume, now purpose-built for trading desks, OTC desks, treasuries, custodians, and institutional platforms.]]></description>
