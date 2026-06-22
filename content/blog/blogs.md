@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - SushiSwap-Integrates-dSLTP/blog.md
   - Orbs-Institutional/blog.md
   - Orbs-V5-Update/blog.md
   - orbs-dao-the-next-step/blog.md
