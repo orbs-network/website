@@ -3,7 +3,7 @@ layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/SushiSwap-Integrates-dSLTP/image1.png
 blogUrl: SushiSwap-Integrates-dSLTP
 date: 2026-06-25
-title: "SushiSwap Integrates dSLTP: Bringing Decentralized Stop-Loss & Take-Profit Orders to Ethereum"
+title: "SushiSwap Integrates dSLTP: Decentralized Stop-Loss & Take-Profit Orders Go Multichain"
 author:
   - /blog/common/authors/RanHammer.md
 type:
@@ -13,15 +13,15 @@ publish_at: 2026-06-25 10:00
 
 **SushiSwap**, one of DeFi's most established decentralized exchanges, has integrated dSLTP, the stop-loss and take-profit protocol powered by Orbs L3 technology.
 
-With dSLTP now live on SushiSwap, traders can set automated stop-loss and take-profit conditions for any swap, giving them precise control over risk and execution directly on a DEX. This integration builds on SushiSwap's existing adoption of dTWAP and dLIMIT powered by Orbs, further expanding the suite of advanced order types available to its users.
+With dSLTP now live on SushiSwap across Ethereum, Base, Arbitrum, and Katana, traders can set automated stop-loss and take-profit conditions for any swap, giving them precise control over risk and execution directly on a DEX. This integration builds on SushiSwap's existing adoption of dTWAP and dLIMIT powered by Orbs, further expanding the suite of advanced order types available to its users across multiple chains.
 
-Powered by Orbs' decentralized Layer-3 infrastructure, dSLTP is fully permissionless, trustless, and composable, enabling any DEX to integrate stop-order automation without centralized servers or off-chain executors. With SushiSwap adopting the protocol, Ethereum traders now have access to robust, on-chain risk management tools.
+Powered by Orbs' decentralized Layer-3 infrastructure, dSLTP is fully permissionless, trustless, and composable, enabling any DEX to integrate stop-order automation without centralized servers or off-chain executors. With SushiSwap adopting the protocol across multiple chains, traders now have access to robust, on-chain risk management tools wherever they trade.
 
 *Orbs is a decentralized protocol executed by a public network of permissionless validators using PoS, staked with tens of millions of dollars in TVL. The protocol optimizes on-chain trading with L3 use cases that include aggregated liquidity, advanced trading orders, and decentralized derivatives, enabling a DeFi trading experience as efficient as CeFi.*
 
 ## Trade DeFi With Precision
 
-SushiSwap is one of the most recognized names in decentralized finance, offering token swaps, liquidity provision, and a comprehensive DeFi ecosystem across multiple chains. By integrating dSLTP, SushiSwap brings serious risk-management tools to everyday DeFi users on Ethereum.
+SushiSwap is one of the most recognized names in decentralized finance, offering token swaps, liquidity provision, and a comprehensive DeFi ecosystem across multiple chains. By integrating dSLTP, SushiSwap brings serious risk-management tools to everyday DeFi users across its multichain ecosystem.
 
 Stop-loss and take-profit orders allow traders to:
 
@@ -65,7 +65,7 @@ These parameters allow traders to tailor execution to their specific strategy, m
 
 dSLTP is the newest protocol powered by Orbs [L3 technology](https://www.orbs.com/overview/), joining dLIMIT and dTWAP as the industry-standard suite for advanced decentralized trading orders. Generating millions in automated monthly trading volume, Orbs continues to push DeFi toward more sophisticated trading execution.
 
-Stop-loss and take-profit orders are among the most widely used tools in traditional finance. With the arrival of dSLTP on SushiSwap, these essential trading features are now available to every trader on Ethereum, fully decentralized and transparent.
+Stop-loss and take-profit orders are among the most widely used tools in traditional finance. With the arrival of dSLTP on SushiSwap, these essential trading features are now available across multiple chains, fully decentralized and transparent.
 
 Find out more:
 
