@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/what-is-ai-agent-crypto-trading.jpg
+url: https://www.cryptopolitan.com/what-is-ai-agent-crypto-trading/
+date: 11, June 2026
+logo: /assets/img/news/logos/cryptopolitan.svg
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+What is AI agent crypto trading? How autonomous agents are moving into DeFi execution
