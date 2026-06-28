@@ -3,6 +3,10 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - sushiswap-integrates-orbs-powered-dsltp-for-decentralized-stop-loss-and-take-profit-orders.md
+  - sushiswap-integrates-orbs-powered-dsltp-for-decentralized-stop-loss-and-take-profit-orders-1036275099.md
+  - orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading.md
+  - 6a1e9f1621d74635a7e87f08.md
   - orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading-1036241760.md
   - 332914614976002.md
   - orbs-advances-v5-upgrade-for-agentic-ai-crypto-trading-infrastructure-1036216884.md
