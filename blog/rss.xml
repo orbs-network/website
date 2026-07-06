@@ -9,8 +9,16 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Jul 2026 12:23:30 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 08:55:31 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing Perpetual Hub Ultra 2.0: The Full Stack, Fully In-House]]></title>
+            <link>https://www.orbs.com/introducing-perpetual-hub-ultra-2.0</link>
+            <guid isPermaLink="true">https://www.orbs.com/introducing-perpetual-hub-ultra-2.0</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/introducing-perpetual-hub-ultra-2.0/hero.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[SushiSwap Integrates dSLTP: Decentralized Stop-Loss &amp; Take-Profit Orders Go Multichain]]></title>
             <description><![CDATA[SushiSwap, one of DeFi&#x27;s most established decentralized exchanges, has integrated dSLTP — the decentralized stop-loss and take-profit order system powered by Orbs Network Layer-3 technology.]]></description>
