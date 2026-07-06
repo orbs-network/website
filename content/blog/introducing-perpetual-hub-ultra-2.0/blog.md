@@ -35,6 +35,7 @@ The architecture breaks down into several core components:
 
 **Hedger.** Trusted, whitelisted hedgers with high-SLA guarantees take the operational counterparty role, hedging across both centralized exchanges, including Binance USD-M futures, and leading on-chain perpetual markets. This multi-venue approach delivers deep execution from day one without relying on external solver networks.
 
+
 **Liquidator.** Real-time solvency monitoring with automatic position liquidation when maintenance margin thresholds are breached. Cross-margin risk calculations use the same shared formulas across the entire stack, so there is no discrepancy between what a trader sees and what the system enforces.
 
 **Price Oracle.** A signed mark-price feed inside the TEE drives risk calculations, funding rates, and liquidation decisions. Prices are cryptographically signed with EIP-712 and verified on every operation, creating a verifiable audit trail for every price input that affects the system.
