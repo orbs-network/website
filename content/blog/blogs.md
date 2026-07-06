@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - introducing-perpetual-hub-ultra-2.0/blog.md
   - SushiSwap-Integrates-dSLTP/blog.md
   - Orbs-Institutional/blog.md
   - Orbs-V5-Update/blog.md
