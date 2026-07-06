@@ -458,7 +458,4 @@ list:
   - introducing-helix-the-orbs-consensus-algorithm/blog.md
   - who-controls-your-blockchain/blog.md
   - a-federated-model-can-protect-decentralized-platforms-from-some-players-having-too-much-power/blog.md
-  - blockchain-and-decentralized-consensus/blog.md
-  - its-not-about-pow-pos-the-two-main-families-of-consensus-models/blog.md
-  - noah-conference-orbs-and-why-consumer-apps-decentralize/blog.md
 ---
