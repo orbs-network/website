@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 09:58:37 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 10:50:59 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Introducing Perpetual Hub Ultra 2.0: The Full Stack, Fully In-House]]></title>
@@ -3882,32 +3882,6 @@
             <dc:creator><![CDATA[Oded Noam]]></dc:creator>
             <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
             <enclosure url="https://www.orbs.com/assets/img/blog/a-federated-model-can-protect-decentralized-platforms-from-some-players-having-too-much-power/bg.jpeg" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Blockchain and Decentralized Consensus]]></title>
-            <link>https://www.orbs.com/blockchain-and-decentralized-consensus</link>
-            <guid isPermaLink="true">https://www.orbs.com/blockchain-and-decentralized-consensus</guid>
-            <dc:creator><![CDATA[Tal Kol]]></dc:creator>
-            <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/blockchain-and-decentralized-consensus/bg.jpeg" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[It’s not about PoW/PoS: The Two Main Families of Consensus Models]]></title>
-            <description><![CDATA[When I’m discussing blockchain technology with people, I too often hear people ask, “Is it proof-of-stake or is it proof-of-work?” And in 99% of the times, the answer would be “neither.”]]></description>
-            <link>https://www.orbs.com/its-not-about-pow-pos-the-two-main-families-of-consensus-models</link>
-            <guid isPermaLink="true">https://www.orbs.com/its-not-about-pow-pos-the-two-main-families-of-consensus-models</guid>
-            <dc:creator><![CDATA[Oded Noam]]></dc:creator>
-            <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/its-not-about-pow-pos-the-two-main-families-of-consensus-models/bg.jpeg" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[NOAH Conference: Orbs and Why Consumer Apps Decentralize]]></title>
-            <description><![CDATA[I’m just returning from [NOAH](https://www.noah-conference.com/) — the conference that describes itself as the preeminent European event where Internet CEOs, executives and investors gain deep insights into the latest proven concepts, network with senior executives and establish new business relationships.]]></description>
-            <link>https://www.orbs.com/noah-conference-orbs-and-why-consumer-apps-decentralize</link>
-            <guid isPermaLink="true">https://www.orbs.com/noah-conference-orbs-and-why-consumer-apps-decentralize</guid>
-            <dc:creator><![CDATA[Tal Kol]]></dc:creator>
-            <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/noah-conference-orbs-and-why-consumer-apps-decentralize/bg.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>
