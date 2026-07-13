@@ -3732,9 +3732,9 @@ body {
   .single-blog-bg {
     height: auto;
     min-height: 0;
+    aspect-ratio: 2/1;
   }
   .single-blog-bg img {
-    height: auto;
     object-fit: contain;
   }
   .single-blog-header .blog-share a {
