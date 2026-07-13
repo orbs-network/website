@@ -330,6 +330,20 @@ $blog-text-size: 1.313rem;
 
 @media only screen and (max-width: $mobile) {
   .single-blog {
+    // The hero band is a fixed 39.7vw strip with min-height:250px +
+    // object-fit:cover. Once min-height dominates (viewport < ~630px) the
+    // container is TALLER than the artwork's ratio, so cover flips from
+    // trimming top/bottom to cropping the SIDES — logos at the hero's edges
+    // clip on phones. On mobile, drop the fixed band and let the hero render
+    // at its natural aspect ratio: full artwork, height derived from width.
+    &-bg {
+      height: auto;
+      min-height: 0;
+      img {
+        height: auto;
+        object-fit: contain;
+      }
+    }
     &-header {
       .blog-share {
         a {

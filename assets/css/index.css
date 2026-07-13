@@ -3729,6 +3729,14 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+  .single-blog-bg {
+    height: auto;
+    min-height: 0;
+  }
+  .single-blog-bg img {
+    height: auto;
+    object-fit: contain;
+  }
   .single-blog-header .blog-share a {
     margin-left: 20px;
   }
