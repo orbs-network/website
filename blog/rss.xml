@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Jul 2026 13:43:31 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 18:11:53 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[QuickSwap Adopts Orbs Perpetual Hub Ultra 2.0]]></title>
+            <description><![CDATA[QuickSwap has integrated Orbs&#x27; Perpetual Hub Ultra 2.0 to power CeFi-grade perpetual futures trading, rolling out as the default perps infrastructure across QuickSwap chains.]]></description>
+            <link>https://www.orbs.com/QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0</link>
+            <guid isPermaLink="true">https://www.orbs.com/QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Introducing Perpetual Hub Ultra 2.0: The Full Stack, Fully In-House]]></title>
             <link>https://www.orbs.com/introducing-perpetual-hub-ultra-2.0</link>
