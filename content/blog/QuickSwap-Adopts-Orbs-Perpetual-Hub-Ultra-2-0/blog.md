@@ -2,7 +2,7 @@
 layout: partials/shared/mappers/blog-mapper
 image: /assets/img/blog/QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0/image1.png
 blogUrl: QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0
-date: 2026-07-13
+date: 2026-07-14
 title: "QuickSwap Adopts Orbs Perpetual Hub Ultra 2.0"
 author:
   - /blog/common/authors/RanHammer.md
