@@ -3,7 +3,6 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
-  - quickswap-adopts-orbs-perpetual-hub-ultra-20-as-default-perps-infrastructure.md
   - 6a567bdf543cea2881bb270b.md
   - orbs-launches-perpetual-hub-ultra-2-0-a-new-protocol-for-on-chain-perpetual-futures-1036299121.md
   - 6a4b7026e133313febe87a0c.md
