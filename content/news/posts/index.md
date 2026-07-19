@@ -3,6 +3,12 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - quickswap-adopts-orbs-perpetual-hub-ultra-20-as-default-perps-infrastructure.md
+  - 6a567bdf543cea2881bb270b.md
+  - orbs-launches-perpetual-hub-ultra-2-0-a-new-protocol-for-on-chain-perpetual-futures-1036299121.md
+  - 6a4b7026e133313febe87a0c.md
+  - 337869138876898.md
+  - what-is-ai-agent-crypto-trading.md
   - sushiswap-integrates-orbs-powered-dsltp-for-decentralized-stop-loss-and-take-profit-orders.md
   - sushiswap-integrates-orbs-powered-dsltp-for-decentralized-stop-loss-and-take-profit-orders-1036275099.md
   - orbs-launches-on-chain-execution-infrastructure-for-institutional-crypto-trading.md
