@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-perpetual-hub-ultra-2-0-a-new-protocol-for-on-chain-perpetual-futures-1036299121.png
+url: https://markets.businessinsider.com/news/currencies/orbs-launches-perpetual-hub-ultra-2-0-a-new-protocol-for-on-chain-perpetual-futures-1036299121
+date: 6, July 2026
+logo: /assets/img/news/logos/insider.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Launches Perpetual Hub Ultra 2.0, a New Protocol for On-Chain Perpetual Futures
