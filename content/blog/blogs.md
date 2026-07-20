@@ -2,6 +2,7 @@
 layout: partials/shared/mappers/blog-list-mapper
 list:
   - QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0/blog.md
+  - Establishing-the-Orbs-DAOs-First-Governance-Layer/blog.md
   - introducing-perpetual-hub-ultra-2.0/blog.md
   - SushiSwap-Integrates-dSLTP/blog.md
   - Orbs-Institutional/blog.md
