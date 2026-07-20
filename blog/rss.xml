@@ -9,7 +9,7 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Jul 2026 10:17:36 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 12:27:14 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[QuickSwap Adopts Orbs Perpetual Hub Ultra 2.0]]></title>
@@ -19,6 +19,15 @@
             <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
             <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
             <enclosure url="https://www.orbs.com/assets/img/blog/QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0/image1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Establishing the Orbs DAO&#x27;s First Governance Layer]]></title>
+            <description><![CDATA[OIP-9 proposes to officially establish the Orbs DAO and create its initial governance framework: a controlled but meaningful transfer of authority over defined areas of the Orbs protocol.]]></description>
+            <link>https://www.orbs.com/Establishing-the-Orbs-DAOs-First-Governance-Layer</link>
+            <guid isPermaLink="true">https://www.orbs.com/Establishing-the-Orbs-DAOs-First-Governance-Layer</guid>
+            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
+            <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Establishing-the-Orbs-DAOs-First-Governance-Layer/image1.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Introducing Perpetual Hub Ultra 2.0: The Full Stack, Fully In-House]]></title>
