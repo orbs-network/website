@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 12:27:14 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 13:57:58 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Ring Protocol integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
+            <description><![CDATA[Ring Protocol, a multi-chain decentralized exchange offering cross-EVM swaps with superior execution, has integrated the dLIMIT &amp; dTWAP protocol powered by Orbs.]]></description>
+            <link>https://www.orbs.com/Ring-Protocol-integrates-dLIMIT-and-dTWAP-powered-by-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Ring-Protocol-integrates-dLIMIT-and-dTWAP-powered-by-Orbs</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/assets/img/blog/Ring-Protocol-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/image1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[QuickSwap Adopts Orbs Perpetual Hub Ultra 2.0]]></title>
             <description><![CDATA[QuickSwap has integrated Orbs&#x27; Perpetual Hub Ultra 2.0 to power CeFi-grade perpetual futures trading, rolling out as the default perps infrastructure across QuickSwap chains.]]></description>
