@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/ring-protocol-integrates-orbs-powered-advanced-trading-orders.jpg
+url: https://www.benzinga.com/content/60632636/ring-protocol-integrates-orbs-powered-advanced-trading-orders
+date: 23, July 2026
+logo: /assets/img/news/logos/Benzinga.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Ring Protocol Integrates Orbs-Powered Advanced Trading Orders
