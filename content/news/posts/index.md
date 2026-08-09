@@ -3,6 +3,12 @@ layout: partials/news/posts
 title: Latest News
 id: news-posts-top
 posts:
+  - orbs-launches-community-governance-vote-to-establish-its-dao-framework1.md
+  - orbs-launches-community-governance-vote-to-establish-its-dao-framework-1036398918.md
+  - ring-protocol-integrates-orbs-powered-advanced-trading-orders.md
+  - ring-protocol-adds-advanced-on-chain-trading-orders-through-orbs-integration.md
+  - 344794656068850.md
+  - 6a4fef3f5b02971ad57a4b0b.md
   - 6a567bdf543cea2881bb270b.md
   - orbs-launches-perpetual-hub-ultra-2-0-a-new-protocol-for-on-chain-perpetual-futures-1036299121.md
   - 6a4b7026e133313febe87a0c.md
