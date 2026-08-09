@@ -1,9 +1,9 @@
 ---
 layout: partials/news/Post
-image: /assets/img/news/posts/InvestingRevault.jpeg
-url: https://www.investing.com/news/cryptocurrency-news/revault-leverages-orbs-unique-l3-enhance-security-and-decentralization-2774782
-date: 1, March 2022
-logo: /assets/img/news/logos/investing.webp
+image: /assets/img/news/posts/orbs-launches-community-governance-vote-to-establish-its-dao-framework-1036398918.jpg
+url: https://markets.businessinsider.com/news/currencies/orbs-launches-community-governance-vote-to-establish-its-dao-framework-1036398918
+date: 3, August 2026
+logo: /assets/img/news/logos/insider.png
 ---
 
-Revault Leverages Orbs’ Unique L3 Enhance Security and Decentralization
+Orbs Launches Community Governance Vote to Establish Its DAO Framework
