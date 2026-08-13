@@ -3565,6 +3565,9 @@ body {
 .single-blog-body a {
   word-break: break-all;
 }
+.single-blog-body code {
+  overflow-wrap: anywhere;
+}
 .single-blog-body .title {
   text-align: left;
 }
