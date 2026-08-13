@@ -9,17 +9,8 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 09:57:15 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 11:42:40 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[OIP-9 Passes: Over 350M ORBS Vote to Establish the Orbs DAO]]></title>
-            <description><![CDATA[OIP-9, the proposal to establish the Orbs DAO, has passed with 351.97 million ORBS voting to approve — zero against, zero abstentions, and quorum cleared more than three times over.]]></description>
-            <link>https://www.orbs.com/OIP-9-Passes-Over-350M-ORBS-Vote-to-Establish-the-Orbs-DAO</link>
-            <guid isPermaLink="true">https://www.orbs.com/OIP-9-Passes-Over-350M-ORBS-Vote-to-Establish-the-Orbs-DAO</guid>
-            <dc:creator><![CDATA[Ran Hammer]]></dc:creator>
-            <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-            <enclosure url="https://www.orbs.com/assets/img/blog/OIP-9-Passes-Over-350M-ORBS-Vote-to-Establish-the-Orbs-DAO/image1.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Ring Protocol integrates dLIMIT &amp; dTWAP powered by Orbs]]></title>
             <description><![CDATA[Ring Protocol, a multi-chain decentralized exchange offering cross-EVM swaps with superior execution, has integrated the dLIMIT &amp; dTWAP protocol powered by Orbs.]]></description>
