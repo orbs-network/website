@@ -1,0 +1,141 @@
+# Daily RSS refresh.
+#
+# Why this exists: the blog's publish_at gate is CLIENT-side
+# (assets/js/blogs/index.js), so the built HTML on gh-pages is identical
+# whether a scheduled post is live or not. build-rss-feed.js filters
+# future-dated posts out of the feed at BUILD time, which means a post
+# scheduled for, say, Monday noon only enters rss.xml on the first site
+# build after that — and main has gone 21 days between builds.
+#
+# The feed is a pure function of (published listing HTML, current time), so
+# it can be regenerated WITHOUT rebuilding the site: read the already-
+# deployed blog/index.html, re-run the feed script, publish the result.
+# The full Cuttlebelle build is 10+ minutes over 480+ pages; this is ~0.2s.
+#
+# Nothing here rebuilds or republishes site content — only blog/rss.xml.
+
+name: Refresh RSS feed
+
+on:
+  schedule:
+    # 00:00 UTC daily. GitHub may delay scheduled runs during peak load;
+    # irrelevant for a daily feed catch-up.
+    - cron: '0 0 * * *'
+  # Manual trigger, for publishing a scheduled post to the feed immediately
+  # instead of waiting for the next nightly run.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two refreshes race for a push to gh-pages.
+concurrency:
+  group: refresh-rss
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main (for build-rss-feed.js)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: src
+
+      - name: Check out gh-pages (the published site)
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: pages
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install feed dependencies
+        # Installed in isolation, NOT via the repo's package.json, so this job
+        # doesn't pull the whole Cuttlebelle toolchain. Versions are pinned to
+        # match package.json so the scheduled run and the CI build agree.
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/rssdeps"
+          cd "$RUNNER_TEMP/rssdeps"
+          npm init -y >/dev/null
+          npm install --no-fund --no-audit --loglevel=error \
+            'node-html-parser@^5.3.3' 'rss-generator@0.0.3'
+
+      - name: Refresh the feed and publish if it changed
+        run: |
+          set -euo pipefail
+
+          # rss-generator stamps a fresh <lastBuildDate> on every run, so a raw
+          # diff ALWAYS reports a change — which would push a gh-pages commit
+          # every single night regardless of content. Compare with just that
+          # volatile field stripped, so we publish only when the feed's actual
+          # content moved (i.e. a scheduled post crossed its publish time).
+          strip_stamp() {
+            sed -E 's#<lastBuildDate>[^<]*</lastBuildDate>##' "$1"
+          }
+
+          cd "$GITHUB_WORKSPACE/pages"
+
+          # CircleCI also publishes to gh-pages (on every main merge), and this
+          # workflow's `concurrency` group only serialises it against itself. If
+          # a deploy lands mid-run our push is rejected non-fast-forward, so each
+          # attempt re-syncs to the branch tip and redoes the work against
+          # whatever is now published.
+          for attempt in 1 2 3; do
+            git fetch --quiet origin gh-pages
+            git reset --quiet --hard origin/gh-pages
+
+            LISTING="$GITHUB_WORKSPACE/pages/blog/index.html"
+            if [ ! -f "$LISTING" ]; then
+              echo "::error::gh-pages is missing blog/index.html — nothing to build the feed from"
+              exit 1
+            fi
+
+            # build-rss-feed.js reads ./site/blog/index.html and writes
+            # ./site/blog/rss.xml relative to cwd; stage that layout.
+            mkdir -p "$GITHUB_WORKSPACE/src/site/blog"
+            cp "$LISTING" "$GITHUB_WORKSPACE/src/site/blog/index.html"
+            (
+              cd "$GITHUB_WORKSPACE/src"
+              NODE_PATH="$RUNNER_TEMP/rssdeps/node_modules" node build-rss-feed.js
+            )
+
+            NEW="$GITHUB_WORKSPACE/src/site/blog/rss.xml"
+            OLD="$GITHUB_WORKSPACE/pages/blog/rss.xml"
+            if [ ! -s "$NEW" ]; then
+              echo "::error::feed generation produced no output"
+              exit 1
+            fi
+
+            if [ -f "$OLD" ]; then
+              strip_stamp "$OLD" > "$RUNNER_TEMP/old.norm"
+              strip_stamp "$NEW" > "$RUNNER_TEMP/new.norm"
+              if cmp -s "$RUNNER_TEMP/old.norm" "$RUNNER_TEMP/new.norm"; then
+                echo "feed content unchanged — nothing to publish"
+                exit 0
+              fi
+            fi
+
+            echo "feed content changed — publishing (attempt $attempt)"
+            cp "$NEW" "$OLD"
+            git config user.email "ci-build@orbs.com"
+            git config user.name "ci-build"
+            git add blog/rss.xml
+            # [ci skip] is belt-and-braces: CircleCI only builds `main`, so a
+            # gh-pages commit can't trigger a deploy loop regardless.
+            git commit -m "[ci skip] Refresh RSS feed"
+
+            if git push; then
+              echo "published"
+              exit 0
+            fi
+
+            echo "push rejected — gh-pages moved (likely a CircleCI deploy); re-syncing and retrying"
+          done
+
+          echo "::error::could not publish rss.xml after 3 attempts"
+          exit 1
