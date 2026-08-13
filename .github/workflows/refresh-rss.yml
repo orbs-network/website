@@ -65,30 +65,9 @@ jobs:
           npm install --no-fund --no-audit --loglevel=error \
             'node-html-parser@^5.3.3' 'rss-generator@0.0.3'
 
-      - name: Regenerate rss.xml from the published listing
+      - name: Refresh the feed and publish if it changed
         run: |
           set -euo pipefail
-          LISTING="$GITHUB_WORKSPACE/pages/blog/index.html"
-          if [ ! -f "$LISTING" ]; then
-            echo "::error::gh-pages is missing blog/index.html — nothing to build the feed from"
-            exit 1
-          fi
-          # build-rss-feed.js reads ./site/blog/index.html and writes
-          # ./site/blog/rss.xml relative to cwd; stage that layout.
-          mkdir -p "$GITHUB_WORKSPACE/src/site/blog"
-          cp "$LISTING" "$GITHUB_WORKSPACE/src/site/blog/index.html"
-          cd "$GITHUB_WORKSPACE/src"
-          NODE_PATH="$RUNNER_TEMP/rssdeps/node_modules" node build-rss-feed.js
-          if [ ! -s "$GITHUB_WORKSPACE/src/site/blog/rss.xml" ]; then
-            echo "::error::feed generation produced no output"
-            exit 1
-          fi
-
-      - name: Publish if the feed changed
-        run: |
-          set -euo pipefail
-          NEW="$GITHUB_WORKSPACE/src/site/blog/rss.xml"
-          OLD="$GITHUB_WORKSPACE/pages/blog/rss.xml"
 
           # rss-generator stamps a fresh <lastBuildDate> on every run, so a raw
           # diff ALWAYS reports a change — which would push a gh-pages commit
@@ -99,22 +78,64 @@ jobs:
             sed -E 's#<lastBuildDate>[^<]*</lastBuildDate>##' "$1"
           }
 
-          if [ -f "$OLD" ]; then
-            strip_stamp "$OLD" > "$RUNNER_TEMP/old.norm"
-            strip_stamp "$NEW" > "$RUNNER_TEMP/new.norm"
-            if cmp -s "$RUNNER_TEMP/old.norm" "$RUNNER_TEMP/new.norm"; then
-              echo "feed content unchanged — nothing to publish"
+          cd "$GITHUB_WORKSPACE/pages"
+
+          # CircleCI also publishes to gh-pages (on every main merge), and this
+          # workflow's `concurrency` group only serialises it against itself. If
+          # a deploy lands mid-run our push is rejected non-fast-forward, so each
+          # attempt re-syncs to the branch tip and redoes the work against
+          # whatever is now published.
+          for attempt in 1 2 3; do
+            git fetch --quiet origin gh-pages
+            git reset --quiet --hard origin/gh-pages
+
+            LISTING="$GITHUB_WORKSPACE/pages/blog/index.html"
+            if [ ! -f "$LISTING" ]; then
+              echo "::error::gh-pages is missing blog/index.html — nothing to build the feed from"
+              exit 1
+            fi
+
+            # build-rss-feed.js reads ./site/blog/index.html and writes
+            # ./site/blog/rss.xml relative to cwd; stage that layout.
+            mkdir -p "$GITHUB_WORKSPACE/src/site/blog"
+            cp "$LISTING" "$GITHUB_WORKSPACE/src/site/blog/index.html"
+            (
+              cd "$GITHUB_WORKSPACE/src"
+              NODE_PATH="$RUNNER_TEMP/rssdeps/node_modules" node build-rss-feed.js
+            )
+
+            NEW="$GITHUB_WORKSPACE/src/site/blog/rss.xml"
+            OLD="$GITHUB_WORKSPACE/pages/blog/rss.xml"
+            if [ ! -s "$NEW" ]; then
+              echo "::error::feed generation produced no output"
+              exit 1
+            fi
+
+            if [ -f "$OLD" ]; then
+              strip_stamp "$OLD" > "$RUNNER_TEMP/old.norm"
+              strip_stamp "$NEW" > "$RUNNER_TEMP/new.norm"
+              if cmp -s "$RUNNER_TEMP/old.norm" "$RUNNER_TEMP/new.norm"; then
+                echo "feed content unchanged — nothing to publish"
+                exit 0
+              fi
+            fi
+
+            echo "feed content changed — publishing (attempt $attempt)"
+            cp "$NEW" "$OLD"
+            git config user.email "ci-build@orbs.com"
+            git config user.name "ci-build"
+            git add blog/rss.xml
+            # [ci skip] is belt-and-braces: CircleCI only builds `main`, so a
+            # gh-pages commit can't trigger a deploy loop regardless.
+            git commit -m "[ci skip] Refresh RSS feed"
+
+            if git push; then
+              echo "published"
               exit 0
             fi
-          fi
 
-          echo "feed content changed — publishing"
-          cp "$NEW" "$OLD"
-          cd "$GITHUB_WORKSPACE/pages"
-          git config user.email "ci-build@orbs.com"
-          git config user.name "ci-build"
-          git add blog/rss.xml
-          # [ci skip] is belt-and-braces: CircleCI only builds `main`, so a
-          # gh-pages commit can't trigger a deploy loop regardless.
-          git commit -m "[ci skip] Refresh RSS feed"
-          git push
+            echo "push rejected — gh-pages moved (likely a CircleCI deploy); re-syncing and retrying"
+          done
+
+          echo "::error::could not publish rss.xml after 3 attempts"
+          exit 1
