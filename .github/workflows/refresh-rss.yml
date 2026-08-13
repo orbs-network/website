@@ -83,18 +83,34 @@ jobs:
             echo "::error::feed generation produced no output"
             exit 1
           fi
-          cp "$GITHUB_WORKSPACE/src/site/blog/rss.xml" "$GITHUB_WORKSPACE/pages/blog/rss.xml"
 
       - name: Publish if the feed changed
         run: |
           set -euo pipefail
-          cd "$GITHUB_WORKSPACE/pages"
-          if git diff --quiet -- blog/rss.xml; then
-            echo "rss.xml unchanged — nothing to publish"
-            exit 0
+          NEW="$GITHUB_WORKSPACE/src/site/blog/rss.xml"
+          OLD="$GITHUB_WORKSPACE/pages/blog/rss.xml"
+
+          # rss-generator stamps a fresh <lastBuildDate> on every run, so a raw
+          # diff ALWAYS reports a change — which would push a gh-pages commit
+          # every single night regardless of content. Compare with just that
+          # volatile field stripped, so we publish only when the feed's actual
+          # content moved (i.e. a scheduled post crossed its publish time).
+          strip_stamp() {
+            sed -E 's#<lastBuildDate>[^<]*</lastBuildDate>##' "$1"
+          }
+
+          if [ -f "$OLD" ]; then
+            strip_stamp "$OLD" > "$RUNNER_TEMP/old.norm"
+            strip_stamp "$NEW" > "$RUNNER_TEMP/new.norm"
+            if cmp -s "$RUNNER_TEMP/old.norm" "$RUNNER_TEMP/new.norm"; then
+              echo "feed content unchanged — nothing to publish"
+              exit 0
+            fi
           fi
-          echo "rss.xml changed — publishing"
-          git diff --stat -- blog/rss.xml
+
+          echo "feed content changed — publishing"
+          cp "$NEW" "$OLD"
+          cd "$GITHUB_WORKSPACE/pages"
           git config user.email "ci-build@orbs.com"
           git config user.name "ci-build"
           git add blog/rss.xml
