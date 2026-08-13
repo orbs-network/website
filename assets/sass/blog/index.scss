@@ -156,6 +156,21 @@ $blog-text-size: 1.313rem;
     a {
       word-break: break-all;
     }
+    // Same class of bug as the `a` rule above, which `code` was missed by.
+    // `.single-blog` centres its children, so the body shrink-to-fits to its
+    // widest child's MIN-CONTENT width. An unbreakable token — a 42-char hex
+    // address, a long hash — has a min-content as wide as the token itself
+    // (~420px), which inflates the body past a phone viewport and shunts the
+    // whole page sideways: title, hero and text all clip off the left edge.
+    //
+    // Must be `anywhere`, not `break-word`: only `anywhere` reduces the
+    // intrinsic min-content contribution, and min-content is precisely what
+    // sizes the body here. `break-word` is a no-op for this (measured).
+    // Preferred over `break-all` so short inline code still wraps normally and
+    // only over-long tokens get broken.
+    code {
+      overflow-wrap: anywhere;
+    }
     .title {
       text-align: left;
     }
