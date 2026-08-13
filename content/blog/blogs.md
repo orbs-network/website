@@ -1,6 +1,7 @@
 ---
 layout: partials/shared/mappers/blog-list-mapper
 list:
+  - OIP-9-Passes-Over-350M-ORBS-Vote-to-Establish-the-Orbs-DAO/blog.md
   - Ring-Protocol-integrates-dLIMIT-and-dTWAP-powered-by-Orbs/blog.md
   - QuickSwap-Adopts-Orbs-Perpetual-Hub-Ultra-2-0/blog.md
   - Establishing-the-Orbs-DAOs-First-Governance-Layer/blog.md
