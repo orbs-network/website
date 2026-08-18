@@ -129,9 +129,19 @@ jobs:
             # gh-pages commit can't trigger a deploy loop regardless.
             git commit -m "[ci skip] Refresh RSS feed"
 
-            if git push; then
+            if git push 2>"$RUNNER_TEMP/push.err"; then
               echo "published"
               exit 0
+            fi
+            cat "$RUNNER_TEMP/push.err"
+
+            # Only a non-fast-forward is worth retrying. A permissions or
+            # branch-protection rejection is terminal — retrying just repeats it
+            # and buries the real reason under a misleading "gh-pages moved"
+            # message (which is exactly what happened on the 2026-08-18 run).
+            if grep -qiE 'protected branch|not authorized|permission|denied|403' "$RUNNER_TEMP/push.err"; then
+              echo "::error::Push to gh-pages was refused by branch protection, not a race — retrying cannot help. gh-pages restricts pushes to an allowlist that does not include the github-actions app, so GITHUB_TOKEN cannot publish. Fix: add the github-actions app to the gh-pages push allowlist, or publish via a deploy key with write access (which is how CircleCI gets through)."
+              exit 1
             fi
 
             echo "push rejected — gh-pages moved (likely a CircleCI deploy); re-syncing and retrying"
