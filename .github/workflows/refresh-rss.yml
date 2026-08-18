@@ -25,8 +25,10 @@ on:
   # instead of waiting for the next nightly run.
   workflow_dispatch:
 
+# Publishing happens over SSH with the GH_PAGES_DEPLOY_KEY deploy key, so
+# GITHUB_TOKEN only ever needs to READ this repo (to check out the script).
 permissions:
-  contents: write
+  contents: read
 
 # Never let two refreshes race for a push to gh-pages.
 concurrency:
@@ -48,6 +50,15 @@ jobs:
         with:
           ref: gh-pages
           path: pages
+          # gh-pages restricts pushes to an allowlist (users=[talkol], apps=[]).
+          # GITHUB_TOKEN cannot publish there even with contents:write — adding
+          # the github-actions app to that allowlist does NOT grant it push
+          # rights (a known classic-branch-protection limitation; tried and
+          # reverted on 2026-08-18). A deploy key DOES bypass push restrictions,
+          # which is exactly how CircleCI publishes this branch already.
+          # Checkout configures core.sshCommand from this key, so the fetch and
+          # push in the refresh step below authenticate with it.
+          ssh-key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
 
       - uses: actions/setup-node@v4
         with:
@@ -140,7 +151,7 @@ jobs:
             # and buries the real reason under a misleading "gh-pages moved"
             # message (which is exactly what happened on the 2026-08-18 run).
             if grep -qiE 'protected branch|not authorized|permission|denied|403' "$RUNNER_TEMP/push.err"; then
-              echo "::error::Push to gh-pages was refused by branch protection, not a race — retrying cannot help. gh-pages restricts pushes to an allowlist that does not include the github-actions app, so GITHUB_TOKEN cannot publish. Fix: add the github-actions app to the gh-pages push allowlist, or publish via a deploy key with write access (which is how CircleCI gets through)."
+              echo "::error::Push to gh-pages was refused by branch protection, not a race — retrying cannot help. This job publishes with the GH_PAGES_DEPLOY_KEY deploy key (deploy keys bypass push restrictions); a refusal here means that key is missing, revoked, or no longer has write access. Check the repo's Deploy keys settings and the GH_PAGES_DEPLOY_KEY secret. Note: granting the github-actions app push access via the branch allowlist does NOT work as a substitute — tried and reverted 2026-08-18."
               exit 1
             fi
 
