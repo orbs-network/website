@@ -1,6 +1,5 @@
 ---
 layout: partials/shared/mappers/blog-mapper
-image: /assets/img/blog/Ran-Hammer-Takes-the-Helm-at-Orbs/image1.png
 blogUrl: Ran-Hammer-Takes-the-Helm-at-Orbs
 date: 2026-09-10
 title: "Ran Hammer Takes the Helm at Orbs"
