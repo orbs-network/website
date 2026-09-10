@@ -9,8 +9,17 @@
             <link>https://www.orbs.com/blog/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Aug 2026 07:05:24 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 08:49:18 +0000</lastBuildDate>
         <atom:link href="https://www.orbs.com/blog/" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Ran Hammer Takes the Helm at Orbs]]></title>
+            <description><![CDATA[Orbs has appointed Ran Hammer as Chief Executive Officer, with Nadav Shemesh moving into the role of Executive Chairman.]]></description>
+            <link>https://www.orbs.com/Ran-Hammer-Takes-the-Helm-at-Orbs</link>
+            <guid isPermaLink="true">https://www.orbs.com/Ran-Hammer-Takes-the-Helm-at-Orbs</guid>
+            <dc:creator><![CDATA[Shawn O&#39;Donaghue]]></dc:creator>
+            <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+            <enclosure url="https://www.orbs.com/undefined" length="0" type="false"/>
+        </item>
         <item>
             <title><![CDATA[OIP-9 Passes: Over 350M ORBS Vote to Establish the Orbs DAO]]></title>
             <description><![CDATA[OIP-9, the proposal to establish the Orbs DAO, has passed with 351.97 million ORBS voting to approve — zero against, zero abstentions, and quorum cleared more than three times over.]]></description>
